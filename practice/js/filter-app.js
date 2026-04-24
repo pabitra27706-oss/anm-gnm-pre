@@ -1,6 +1,6 @@
 /**
- * filter-app.js (FIXED)
- * Main filter UI controller
+ * filter-app.js (COMPLETE with History Integration)
+ * Main filter UI controller for filter.html
  * WB ANM GNM 2026 Preparation Platform
  */
 
@@ -16,6 +16,7 @@
     units:        ['all'],
     types:        ['all'],
     difficulties: ['all'],
+    history:      'all',
     count:        20,
     random:       true
   };
@@ -39,7 +40,7 @@
     return element;
   }
 
-  // ─── Show/Hide Helpers ──────────────────────────────────────────────────────
+  // ─── Show/Hide ──────────────────────────────────────────────────────────────
 
   function showLoading(show) {
     var loadingEl = getEl('loadingState');
@@ -55,7 +56,6 @@
       if (filterEl)  filterEl.style.display  = 'block';
       if (errorEl)   errorEl.style.display   = 'none';
     }
-
     console.log('filter-app: showLoading(' + show + ')');
   }
 
@@ -69,7 +69,6 @@
     if (filterEl)  filterEl.style.display  = 'none';
     if (errorEl)   errorEl.style.display   = 'block';
     if (msgEl)     msgEl.textContent       = message;
-
     console.error('filter-app: ERROR:', message);
   }
 
@@ -79,12 +78,12 @@
     var textEl  = getEl('progressText');
     var countEl = getEl('progressCount');
 
-    if (barEl)   barEl.style.width    = pct + '%';
-    if (textEl)  textEl.textContent   = 'লোড হচ্ছে... ' + toBengali(pct) + '%';
-    if (countEl) countEl.textContent  = toBengali(loaded) + '/' + toBengali(total) + ' সেট লোড হয়েছে';
+    if (barEl)   barEl.style.width   = pct + '%';
+    if (textEl)  textEl.textContent  = 'লোড হচ্ছে... ' + toBengali(pct) + '%';
+    if (countEl) countEl.textContent = toBengali(loaded) + '/' + toBengali(total) + ' সেট লোড হয়েছে';
   }
 
-  // ─── Create Pill Button ──────────────────────────────────────────────────────
+  // ─── Pill Creation ──────────────────────────────────────────────────────────
 
   function createPill(label, value, group, color) {
     var btn = document.createElement('button');
@@ -96,15 +95,19 @@
     if (color) btn.dataset.color = color;
 
     btn.addEventListener('click', function() {
-      if (group === 'subject')    handleSubjectChange(value);
-      else if (group === 'type')  handleMultiToggle('types', value, 'typePills');
-      else if (group === 'difficulty') handleMultiToggle('difficulties', value, 'difficultyPills');
+      if (group === 'subject') {
+        handleSubjectChange(value);
+      } else if (group === 'type') {
+        handleMultiToggle('types', value, 'typePills');
+      } else if (group === 'difficulty') {
+        handleMultiToggle('difficulties', value, 'difficultyPills');
+      }
     });
 
     return btn;
   }
 
-  // ─── Update Pill Visual States ───────────────────────────────────────────────
+  // ─── Pill Visual Update ──────────────────────────────────────────────────────
 
   function updatePillVisuals(containerId, selectedValues) {
     var container = getEl(containerId);
@@ -141,11 +144,7 @@
 
   function renderSubjectFilters() {
     var container = getEl('subjectPills');
-    if (!container) return;
-    if (!window.FilterEngine) {
-      console.error('filter-app: FilterEngine not loaded!');
-      return;
-    }
+    if (!container || !window.FilterEngine) return;
 
     container.innerHTML = '';
 
@@ -174,11 +173,9 @@
     if (value === 'all') {
       currentFilters.subjects = ['all'];
     } else {
-      // Remove 'all'
       var allIdx = currentFilters.subjects.indexOf('all');
       if (allIdx > -1) currentFilters.subjects.splice(allIdx, 1);
 
-      // Toggle
       var idx = currentFilters.subjects.indexOf(value);
       if (idx > -1) {
         currentFilters.subjects.splice(idx, 1);
@@ -186,7 +183,6 @@
         currentFilters.subjects.push(value);
       }
 
-      // Reset to 'all' if empty
       if (currentFilters.subjects.length === 0) {
         currentFilters.subjects = ['all'];
       }
@@ -195,10 +191,11 @@
     currentFilters.units = ['all'];
     updatePillVisuals('subjectPills', currentFilters.subjects);
     renderUnitFilters();
+    updateHistoryStats();
     updatePreview();
   }
 
-  // ─── Multi Toggle (Type / Difficulty) ────────────────────────────────────────
+  // ─── Multi Toggle ───────────────────────────────────────────────────────────
 
   function handleMultiToggle(filterKey, value, containerId) {
     var arr = currentFilters[filterKey];
@@ -222,6 +219,7 @@
     }
 
     updatePillVisuals(containerId, currentFilters[filterKey]);
+    updateHistoryStats();
     updatePreview();
   }
 
@@ -267,17 +265,18 @@
       }
 
       for (var u = 0; u < units.length; u++) {
-        var unit = units[u];
-        var pill = document.createElement('button');
-        pill.type          = 'button';
-        pill.className     = 'filter-pill unit-pill';
-        pill.textContent   = FilterEngine.getUnitBn(unit);
-        pill.dataset.value = unit;
-        pill.dataset.subject = subject;
-        pill.addEventListener('click', (function(unitVal) {
-          return function() { handleUnitChange(unitVal); };
-        })(unit));
-        container.appendChild(pill);
+        (function(unitVal, subjectVal) {
+          var pill = document.createElement('button');
+          pill.type            = 'button';
+          pill.className       = 'filter-pill unit-pill';
+          pill.textContent     = FilterEngine.getUnitBn(unitVal);
+          pill.dataset.value   = unitVal;
+          pill.dataset.subject = subjectVal;
+          pill.addEventListener('click', function() {
+            handleUnitChange(unitVal);
+          });
+          container.appendChild(pill);
+        })(units[u], subject);
       }
     }
 
@@ -304,6 +303,7 @@
     }
 
     updateUnitPillVisuals();
+    updateHistoryStats();
     updatePreview();
   }
 
@@ -358,7 +358,7 @@
     updatePillVisuals('typePills', currentFilters.types);
   }
 
-  // ─── Difficulty Filters ───────────────────────────────────────────────────────
+  // ─── Difficulty Filters ──────────────────────────────────────────────────────
 
   function renderDifficultyFilters() {
     var container = getEl('difficultyPills');
@@ -373,7 +373,128 @@
     updatePillVisuals('difficultyPills', currentFilters.difficulties);
   }
 
-  // ─── Count Buttons ───────────────────────────────────────────────────────────
+  // ─── History Filters (NEW) ──────────────────────────────────────────────────
+
+  function renderHistoryFilters() {
+    var container = getEl('historyPills');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    var options = [
+      { key: 'all',           label: 'সব প্রশ্ন',          color: null },
+      { key: 'unseen',        label: 'নতুন (অদেখা)',       color: '#9e9e9e' },
+      { key: 'wrong',         label: 'ভুল হয়েছিল',        color: '#f44336' },
+      { key: 'correct',       label: 'সঠিক হয়েছিল',       color: '#4caf50' },
+      { key: 'attempted',     label: 'আগে দিয়েছি',        color: '#2196f3' },
+      { key: 'never-correct', label: 'কখনও সঠিক হয়নি',    color: '#ff9800' }
+    ];
+
+    for (var i = 0; i < options.length; i++) {
+      (function(opt) {
+        var pill = document.createElement('button');
+        pill.type          = 'button';
+        pill.className     = 'filter-pill';
+        pill.textContent   = opt.label;
+        pill.dataset.value = opt.key;
+        pill.dataset.group = 'history';
+        if (opt.color) pill.dataset.color = opt.color;
+
+        pill.addEventListener('click', function() {
+          currentFilters.history = opt.key;
+          updatePillVisuals('historyPills', [opt.key]);
+          updatePreview();
+        });
+
+        container.appendChild(pill);
+      })(options[i]);
+    }
+
+    updatePillVisuals('historyPills', [currentFilters.history]);
+    console.log('filter-app: History pills rendered');
+  }
+
+  function updateHistoryStats() {
+    if (!window.FilterHistory) {
+      console.log('filter-app: FilterHistory not loaded, skip stats');
+      return;
+    }
+
+    var statsContainer = getEl('historyStats');
+    var bannerEl       = getEl('historyBanner');
+    var bannerIcon     = getEl('historyBannerIcon');
+    var bannerTitle    = getEl('historyBannerTitle');
+    var bannerSub      = getEl('historyBannerSub');
+    var progressFill   = getEl('historyProgressFill');
+
+    // Get filtered questions (before history filter)
+    var filteredAll = getBaseFilteredQuestions();
+
+    // Count statuses
+    var statusCounts = FilterHistory.countByStatus(filteredAll);
+
+    // Render mini stats
+    if (statsContainer) {
+      statsContainer.innerHTML = '';
+
+      var items = [
+        { label: 'অদেখা',  count: statusCounts.unseen,  cls: 'unseen' },
+        { label: 'সঠিক',   count: statusCounts.correct, cls: 'correct' },
+        { label: 'ভুল',    count: statusCounts.wrong,   cls: 'wrong' },
+        { label: 'এড়ানো',  count: statusCounts.skipped, cls: 'skipped' }
+      ];
+
+      for (var i = 0; i < items.length; i++) {
+        var item = items[i];
+        var div = document.createElement('div');
+        div.className = 'history-stat-item';
+        div.innerHTML =
+          '<span class="history-dot ' + item.cls + '"></span>' +
+          '<span>' + item.label + ': </span>' +
+          '<span class="history-stat-count">' + toBengali(item.count) + '</span>';
+        statsContainer.appendChild(div);
+      }
+    }
+
+    // Update banner
+    var overallStats = FilterHistory.getOverallStats();
+
+    if (bannerEl) {
+      if (overallStats.totalSolved > 0) {
+        bannerEl.classList.remove('empty');
+
+        if (bannerIcon) bannerIcon.textContent = '📊';
+
+        if (bannerTitle) {
+          bannerTitle.textContent =
+            'আপনি ' + toBengali(overallStats.totalSolved) + 'টি প্রশ্ন সম্পন্ন করেছেন';
+        }
+
+        if (bannerSub) {
+          var totalAvailable = allQuestions.length;
+          var pct = totalAvailable > 0
+            ? Math.round((overallStats.everCorrect / totalAvailable) * 100)
+            : 0;
+          bannerSub.textContent =
+            toBengali(overallStats.everCorrect) + 'টি সঠিক • ' +
+            toBengali(pct) + '% সাফল্যের হার';
+        }
+
+        if (progressFill && allQuestions.length > 0) {
+          var fillPct = Math.round((overallStats.totalSolved / allQuestions.length) * 100);
+          progressFill.style.width = Math.min(fillPct, 100) + '%';
+        }
+      } else {
+        bannerEl.classList.add('empty');
+        if (bannerIcon)  bannerIcon.textContent  = '📝';
+        if (bannerTitle) bannerTitle.textContent  = 'এখনও কোনো কুইজ দেওয়া হয়নি';
+        if (bannerSub)   bannerSub.textContent    = 'প্রথম কুইজ দিন এবং আপনার অগ্রগতি দেখুন!';
+        if (progressFill) progressFill.style.width = '0%';
+      }
+    }
+  }
+
+  // ─── Count Buttons ──────────────────────────────────────────────────────────
 
   function renderCountButtons() {
     var container = getEl('countButtons');
@@ -412,7 +533,7 @@
     }
   }
 
-  // ─── Random Toggle ───────────────────────────────────────────────────────────
+  // ─── Random Toggle ──────────────────────────────────────────────────────────
 
   function initRandomToggle() {
     var toggle = getEl('randomToggle');
@@ -423,14 +544,13 @@
     });
   }
 
-  // ─── Preview ─────────────────────────────────────────────────────────────────
+  // ─── Helper: Get Base Filtered Questions (before history & count) ──────────
 
-  function updatePreview() {
-    if (!window.FilterEngine) return;
-    if (allQuestions.length === 0) return;
+  function getBaseFilteredQuestions() {
+    if (!window.FilterEngine) return allQuestions;
+    if (allQuestions.length === 0) return [];
 
-    // Count all matching questions
-    var filtered = FilterEngine.applyFilters(allQuestions, {
+    return FilterEngine.applyFilters(allQuestions, {
       subjects:     currentFilters.subjects,
       units:        currentFilters.units,
       types:        currentFilters.types,
@@ -438,23 +558,37 @@
       random:       false,
       count:        'all'
     });
+  }
+
+  // ─── Preview Update ─────────────────────────────────────────────────────────
+
+  function updatePreview() {
+    if (!window.FilterEngine) return;
+    if (allQuestions.length === 0) return;
+
+    // Step 1: Base filters (subject, unit, type, difficulty)
+    var filtered = getBaseFilteredQuestions();
+
+    // Step 2: Apply history filter
+    if (window.FilterHistory && currentFilters.history !== 'all') {
+      filtered = FilterHistory.filterByHistory(filtered, currentFilters.history);
+    }
 
     var matchCount = filtered.length;
 
-    // Quiz count
+    // Quiz count (capped)
     var quizCount = currentFilters.count === 'all'
       ? matchCount
       : Math.min(matchCount, parseInt(currentFilters.count) || 20);
 
-    // Update DOM
-    var matchEl    = getEl('matchCount');
-    var quizEl     = getEl('quizCount');
-    var startBtn   = getEl('startQuizBtn');
-    var breakdownEl = getEl('breakdownList');
-
+    // Update count displays
+    var matchEl = getEl('matchCount');
+    var quizEl  = getEl('quizCount');
     if (matchEl) matchEl.textContent = toBengali(matchCount);
     if (quizEl)  quizEl.textContent  = toBengali(quizCount);
 
+    // Update start button
+    var startBtn = getEl('startQuizBtn');
     if (startBtn) {
       if (matchCount === 0) {
         startBtn.disabled    = true;
@@ -465,7 +599,8 @@
       }
     }
 
-    // Breakdown
+    // Subject breakdown
+    var breakdownEl = getEl('breakdownList');
     if (breakdownEl) {
       breakdownEl.innerHTML = '';
       if (matchCount === 0) {
@@ -487,21 +622,47 @@
       }
     }
 
-    console.log('filter-app: Preview updated — ' + matchCount + ' matches, quiz=' + quizCount);
+    console.log('filter-app: Preview → ' + matchCount + ' match, quiz=' + quizCount);
   }
 
-  // ─── Start Quiz ──────────────────────────────────────────────────────────────
+  // ─── Start Quiz ─────────────────────────────────────────────────────────────
 
   function startQuiz() {
     if (!window.FilterEngine) return;
 
-    var filtered = FilterEngine.applyFilters(allQuestions, currentFilters);
+    // Step 1: Base filters
+    var filtered = FilterEngine.applyFilters(allQuestions, {
+      subjects:     currentFilters.subjects,
+      units:        currentFilters.units,
+      types:        currentFilters.types,
+      difficulties: currentFilters.difficulties,
+      random:       false,
+      count:        'all'
+    });
 
+    // Step 2: History filter
+    if (window.FilterHistory && currentFilters.history !== 'all') {
+      filtered = FilterHistory.filterByHistory(filtered, currentFilters.history);
+    }
+
+    // Step 3: Randomize
+    if (currentFilters.random && window.FilterEngine) {
+      filtered = FilterEngine.shuffleArray(filtered);
+    }
+
+    // Step 4: Limit count
+    if (currentFilters.count !== 'all') {
+      var limit = parseInt(currentFilters.count) || 20;
+      filtered = filtered.slice(0, limit);
+    }
+
+    // Check
     if (filtered.length === 0) {
       alert('কোনো প্রশ্ন পাওয়া যায়নি। ফিল্টার পরিবর্তন করুন।');
       return;
     }
 
+    // Save to sessionStorage
     try {
       sessionStorage.setItem('filter_quiz_questions', JSON.stringify(filtered));
       sessionStorage.setItem('filter_quiz_config', JSON.stringify(currentFilters));
@@ -512,16 +673,17 @@
     }
   }
 
-  // ─── Update Stats Bar ────────────────────────────────────────────────────────
+  // ─── Update Stats Bar ───────────────────────────────────────────────────────
 
   function updateStatsBar() {
     var statsEl = getEl('totalLoadedText');
     if (statsEl && allQuestions.length > 0) {
-      statsEl.textContent = 'মোট ' + toBengali(allQuestions.length) + 'টি প্রশ্ন লোড হয়েছে • ৬টি বিষয়';
+      statsEl.textContent =
+        'মোট ' + toBengali(allQuestions.length) + 'টি প্রশ্ন লোড হয়েছে • ৬টি বিষয়';
     }
   }
 
-  // ─── INIT ────────────────────────────────────────────────────────────────────
+  // ─── INIT ───────────────────────────────────────────────────────────────────
 
   async function initFilterApp() {
     console.log('filter-app: ========== INIT START ==========');
@@ -537,6 +699,11 @@
     }
 
     console.log('filter-app: Dependencies OK');
+    if (window.FilterHistory) {
+      console.log('filter-app: FilterHistory available ✅');
+    } else {
+      console.log('filter-app: FilterHistory NOT loaded (history features disabled)');
+    }
 
     // Show loading
     showLoading(true);
@@ -548,48 +715,49 @@
       });
     } catch (e) {
       console.error('filter-app: loadAllQuestions crashed', e);
-      showError('প্রশ্ন লোড করতে সমস্যা হয়েছে: ' + e.message);
+      showError('প্রশ্ন লোড করতে সমস্যা: ' + e.message);
       return;
     }
 
     console.log('filter-app: Questions loaded =', allQuestions.length);
 
-    // Check if any loaded
+    // Check results
     if (!allQuestions || allQuestions.length === 0) {
-      showError('কোনো প্রশ্ন লোড হয়নি। data/ ফোল্ডারে JSON ফাইল আছে কিনা চেক করুন।');
+      showError(
+        'কোনো প্রশ্ন লোড হয়নি। data/ ফোল্ডারে JSON ফাইল আছে কিনা চেক করুন।'
+      );
       return;
     }
 
     // Hide loading, show filters
     showLoading(false);
-
     console.log('filter-app: Rendering filters...');
 
-    // Render all filter sections
+    // Render all sections
     renderSubjectFilters();
     renderUnitFilters();
     renderTypeFilters();
     renderDifficultyFilters();
+    renderHistoryFilters();
     renderCountButtons();
     initRandomToggle();
     updateStatsBar();
+    updateHistoryStats();
     updatePreview();
 
     console.log('filter-app: ========== INIT COMPLETE ==========');
   }
 
-  // ─── DOM Ready ───────────────────────────────────────────────────────────────
+  // ─── DOM Ready ──────────────────────────────────────────────────────────────
 
   document.addEventListener('DOMContentLoaded', function() {
-    console.log('filter-app: DOMContentLoaded fired');
+    console.log('filter-app: DOMContentLoaded');
 
-    // Start button
     var startBtn = getEl('startQuizBtn');
     if (startBtn) {
       startBtn.addEventListener('click', startQuiz);
     }
 
-    // Retry button
     var retryBtn = getEl('retryBtn');
     if (retryBtn) {
       retryBtn.addEventListener('click', function() {
@@ -597,11 +765,10 @@
       });
     }
 
-    // Start init
     initFilterApp();
   });
 
-  // Debug API
+  // Debug
   window._FilterApp = {
     getAllQuestions:    function() { return allQuestions; },
     getCurrentFilters: function() { return currentFilters; },
