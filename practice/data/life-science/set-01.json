@@ -3,324 +3,804 @@
   "set": 1,
   "questions": [
     {
-      "id": "ls-01-001",
-      "question": "কোশের শক্তিঘর বলা হয় কাকে?",
+      "id": "ls-u-0001",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Pons সম্পর্কে সঠিক উক্তিগুলি হলো—",
       "options": [
-        "মাইটোকন্ড্রিয়া",
-        "রাইবোজোম",
-        "লাইসোজোম",
-        "এন্ডোপ্লাজমিক রেটিকুলাম"
+        "এটি Brainstem-এর অংশ",
+        "এটি Medulla ও Midbrain-এর মধ্যে থাকে",
+        "এটি সেতুর মতো সংযোগ রক্ষা করে",
+        "এটি প্রধান ঘ্রাণ কেন্দ্র"
       ],
       "answer": 0,
-      "explanation": "মাইটোকন্ড্রিয়া কোষের ATP শক্তি উৎপন্ন করে, তাই একে শক্তিঘর বলে।",
+      "explanation": "",
       "subject": "life-science",
-      "unit": "01-cell-structure-functions",
+      "unit": "u-7",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0002",
+      "question": "Blood এ Haemoglobin কমে গেলে কোন সমস্যাগুলি দেখা দিতে পারে? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "Oxygen transport কমে যেতে পারে",
+        "সহজে ক্লান্তি আসতে পারে",
+        "Tissue hypoxia হতে পারে",
+        "সবসময় Blood pressure শূন্য হয়ে যায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-4",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-u-0003",
+      "question": "Knee jerk কোন ধরনের প্রতিক্রিয়া?",
+      "options": [
+        "Conditioned reflex",
+        "Spinal reflex",
+        "Learned reflex",
+        "Glandular reflex"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-7",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0004",
+      "question": "একজন সুস্থ প্রাপ্তবয়স্ক মানুষের স্বাভাবিক Heart rate মিনিটে কতবার?",
+      "options": [
+        "60 বার",
+        "72 বার",
+        "80 বার",
+        "90 বার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-5",
       "type": "memory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-01-002",
-      "question": "কোনটি জীবের বংশগতির ধারক ও বাহক?",
+      "id": "ls-u-0005",
+      "question": "WBC সম্পর্কিত সঠিক বৈশিষ্ট্য কোনগুলি? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
       "options": [
-        "প্রোটিন",
+        "এদের নির্দিষ্ট কোনো আকার নেই (Amoeboid shape)",
+        "এরা Nucleus যুক্ত",
+        "এদের সংখ্যা রক্তের RBC এর চেয়ে অনেক বেশি",
+        "এরা মূলত দেহের রোগ প্রতিরোধ ব্যবস্থায় (Immunity) অংশগ্রহণ করে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-2",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0006",
+      "question": "Plant tissue এবং Animal tissue এর মধ্যে পার্থক্য নির্দেশক কোন তথ্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "Plant tissue তে মৃত কোষের পরিমাণ তুলনামূলকভাবে বেশি থাকে",
+        "Animal tissue তে শুধুমাত্র বিভাজনক্ষম কোষ থাকে",
+        "Plant tissue প্রধানত Meristematic এবং Permanent টিস্যুতে বিভক্ত",
+        "Animal tissue তে কোষ প্রাচীর (Cell wall) যুক্ত টিস্যু থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-2",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-u-0007",
+      "question": "Tongue এর কাজ কোনটি?",
+      "options": [
+        "Protein হজম করা",
+        "খাদ্য গিলতে সাহায্য করা",
+        "Pancreatic juice নিঃসরণ",
+        "Bile সঞ্চয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-3",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0008",
+      "question": "যকৃৎ থেকে হৃদপিণ্ডে রক্ত নিয়ে আসে কোন শিরা?",
+      "options": [
+        "Renal vein",
+        "Hepatic vein",
+        "Portal vein",
+        "Pulmonary vein"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-5",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0009",
+      "question": "রক্তের লোহিত কণিকাগুলি একে অপরের সঙ্গে গুচ্ছ বেঁধে যাওয়ার ঘটনাকে কী বলে?",
+      "options": [
+        "Coagulation",
+        "Agglutination",
+        "Sedimentation",
+        "Hemolysis"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-5",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0010",
+      "question": "গ্লোমেরুলার ফিল্ট্রেটে (Glomerular filtrate) উপস্থিত গ্লুকোজের কত শতাংশ স্বাভাবিক অবস্থায় রক্তে পুনঃশোষিত হয়?",
+      "options": [
+        "৫০%",
+        "৭৫%",
+        "১০০%",
+        "০%"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-6",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0011",
+      "question": "মাটির নাইট্রোজেন বৃদ্ধিতে সাহায্য করে কোন চাষ?",
+      "options": [
+        "ধান চাষ",
+        "গম চাষ",
+        "ডাল জাতীয় শস্যের চাষ",
+        "পাট চাষ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-12",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0012",
+      "question": "Collenchyma tissue সম্পর্কিত কোন তথ্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "কোষগুলি জীবিত হয়",
+        "কোষের কোণগুলিতে Pectin এবং Cellulose জমা হয়ে পুরু হয়",
+        "এটি উদ্ভিদকে নমনীয়তা (Flexibility) প্রদান করে",
+        "এটি উদ্ভিদের প্রধান মৃত কলা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-2",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0013",
+      "question": "সারা শরীর থেকে দূষিত রক্ত (Deoxygenated blood) হৃদপিণ্ডে ফিরিয়ে আনে কোন রক্তবাহ?",
+      "options": [
+        "Pulmonary Vein",
+        "Aorta",
+        "Superior ও Inferior Vena Cava",
+        "Pulmonary Artery"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-5",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0014",
+      "question": "Pancreatic juice এ Protein digestion শুরু বা অগ্রসর করতে প্রধান enzyme কোনটি?",
+      "options": [
+        "Trypsin",
+        "Pepsin",
+        "Ptyalin",
+        "Sucrase"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-3",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0015",
+      "question": "ওজোন স্তর বায়ুমণ্ডলের কোন স্তরে অবস্থিত?",
+      "options": [
+        "ট্রপোস্ফিয়ার",
+        "স্ট্র্যাটোস্ফিয়ার",
+        "মেসোস্ফিয়ার",
+        "থার্মোস্ফিয়ার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-12",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0016",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Saltatory conduction-এর সুবিধা কোনগুলি?",
+      "options": [
+        "Impulse conduction দ্রুত হয়",
+        "শক্তি সাশ্রয় হতে পারে",
+        "Myelinated fibre-এ কার্যকর",
+        "Synaptic cleft কমে যায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-7",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0017",
+      "question": "সালোকসংশ্লেষে উৎপন্ন অক্সিজেনের উৎস কী?",
+      "options": [
+        "কার্বন ডাই অক্সাইড (CO2)",
+        "জল (H2O)",
+        "গ্লুকোজ (C6H12O6)",
+        "ক্লোরোফিল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-13",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0018",
+      "question": "Progesterone প্রধানত কোন গঠন থেকে নিঃসৃত হয়?",
+      "options": [
+        "Corpus luteum",
+        "Epididymis",
+        "Seminal vesicle",
+        "Thyroid gland"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0019",
+      "question": "Amoebic dysentery-র কারণকারী জীব কোনটি?",
+      "options": [
+        "Leishmania donovani",
+        "Entamoeba histolytica",
+        "Trypanosoma brucei",
+        "Plasmodium vivax"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-11",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0020",
+      "question": "Vacuole সম্পর্কে কোন তথ্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "এটি Plant cell এর Turgor pressure বজায় রাখে",
+        "Animal cell এ সাধারণত Vacuole ছোট বা অনুপস্থিত থাকে",
+        "এটি বর্জ্য পদার্থ সঞ্চয় করতে পারে",
+        "এটি DNA সংশ্লেষ করে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-1",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0021",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "রাসায়নিক সারের অতিরিক্ত ব্যবহার",
+        "প্লাস্টিক বর্জ্য ফেলা",
+        "বনভূমি ধ্বংস",
+        "জৈব সার ব্যবহার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-12",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0022",
+      "question": "Fat digestion সম্পর্কে কোন বক্তব্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "Bile salt Fat emulsification করে",
+        "Lipase Fat এর উপর কাজ করে",
+        "Fat digestion এর শেষ উৎপাদ Fatty acid ও Glycerol",
+        "Fat digestion প্রধানত Rectum এ হয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-3",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0023",
+      "question": "Myopia সংশোধনে কোন lens ব্যবহৃত হয়?",
+      "options": [
+        "Convex",
+        "Concave",
+        "Cylindrical",
+        "Bifocal"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-9",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0024",
+      "question": "PCR (Polymerase Chain Reaction) পদ্ধতি কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "প্রোটিন তৈরিতে",
+        "নির্দিষ্ট DNA খণ্ডের সংখ্যা বহুগুণ বৃদ্ধি (Amplification) করতে",
+        "কোষ বিভাজন থামাতে",
+        "শর্করা পরিমাপে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-13",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0025",
+      "question": "Riboflavin কোন Vitamin-এর রাসায়নিক নাম?",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin B3",
+        "Vitamin B9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-10",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0026",
+      "question": "ওজোন স্তরের ক্ষয় রোধ করার জন্য কোন আন্তর্জাতিক চুক্তি স্বাক্ষরিত হয়েছিল?",
+      "options": [
+        "কিয়োটো প্রোটোকল",
+        "মন্ট্রিল প্রোটোকল",
+        "প্যারিস চুক্তি",
+        "রামসার কনভেনশন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-12",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0027",
+      "question": "Small intestine এ Protein digestion এর শেষ ধাপে কোন enzyme গোষ্ঠী কাজ করে?",
+      "options": [
+        "Pepsin group",
+        "Erepsin বা Peptidase group",
+        "Ptyalin",
+        "Rennin"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-3",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0028",
+      "question": "AB blood group-এর genotype কোনটি?",
+      "options": [
+        "IAIA",
+        "IBi",
+        "IAIB",
+        "ii"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0029",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "ATP",
+        "NADPH2",
+        "O2 (অক্সিজেন)",
+        "গ্লুকোজ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-13",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0030",
+      "question": "Translation প্রক্রিয়ায় কী তৈরি হয়?",
+      "options": [
         "DNA",
         "RNA",
-        "লিপিড"
-      ],
-      "answer": 1,
-      "explanation": "DNA (ডিঅক্সিরাইবোনিউক্লিক অ্যাসিড) বংশগতির ধারক ও বাহক হিসেবে কাজ করে।",
-      "subject": "life-science",
-      "unit": "01-cell-structure-functions",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-003",
-      "question": "রক্তের লোহিত কণিকার প্রধান কাজ কী?",
-      "options": [
-        "রোগ প্রতিরোধ করা",
-        "অক্সিজেন পরিবহন করা",
-        "রক্ত জমাট বাঁধা",
-        "হরমোন পরিবহন করা"
-      ],
-      "answer": 1,
-      "explanation": "লোহিত রক্তকণিকায় থাকা হিমোগ্লোবিন অক্সিজেন পরিবহন করে।",
-      "subject": "life-science",
-      "unit": "05-circulatory-system",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-004",
-      "question": "মানব দেহে কতটি ক্রোমোজোম থাকে?",
-      "options": [
-        "২৩ জোড়া",
-        "২৪ জোড়া",
-        "৪৬ জোড়া",
-        "৪৮ জোড়া"
+        "Protein (Polypeptide)",
+        "Lipid"
       ],
       "answer": 0,
-      "explanation": "মানব দেহে ২৩ জোড়া (মোট ৪৬টি) ক্রোমোজোম থাকে।",
+      "explanation": "",
       "subject": "life-science",
-      "unit": "08-reproductive-system",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-005",
-      "question": "হৃদপিণ্ডের পেসমেকার কোনটি?",
-      "options": [
-        "AV নোড",
-        "SA নোড",
-        "পুরকিঞ্জি তন্তু",
-        "বান্ডিল অফ হিস"
-      ],
-      "answer": 1,
-      "explanation": "SA (সাইনোঅ্যাট্রিয়াল) নোড হৃদপিণ্ডের স্বাভাবিক পেসমেকার হিসেবে কাজ করে।",
-      "subject": "life-science",
-      "unit": "05-circulatory-system",
-      "type": "memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-01-006",
-      "question": "প্রোটিন সংশ্লেষণের প্রধান স্থান কোনটি?",
-      "options": [
-        "মাইটোকন্ড্রিয়া",
-        "রাইবোজোম",
-        "লাইসোজোম",
-        "গলজি বডি"
-      ],
-      "answer": 1,
-      "explanation": "রাইবোজোম প্রোটিন সংশ্লেষণের প্রধান স্থান।",
-      "subject": "life-science",
-      "unit": "01-cell-structure-functions",
+      "unit": "u-1",
       "type": "theory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-01-007",
-      "question": "মানুষের ফুসফুসের কয়টি খণ্ড থাকে?",
+      "id": "ls-u-0031",
+      "question": "Hemodialysis মেশিনে যে তরলটি ব্যবহার করা হয় যা রক্তের রেচন পদার্থগুলিকে শুষে নেয়, তার নাম কী?",
       "options": [
-        "২টি (ডান ও বামে ১টি করে)",
-        "৩টি (ডানে ২, বামে ১)",
-        "৫টি (ডানে ৩, বামে ২)",
-        "৪টি (ডানে ২, বামে ২)"
+        "Plasma",
+        "Dialyzing fluid",
+        "Saline water",
+        "Lymph"
       ],
-      "answer": 2,
-      "explanation": "ডান ফুসফুসে ৩টি (উচ্চ, মধ্য, নিম্ন) ও বাম ফুসফুসে ২টি (উচ্চ, নিম্ন) খণ্ড থাকে।",
+      "answer": 0,
+      "explanation": "",
       "subject": "life-science",
-      "unit": "04-respiratory-system",
-      "type": "memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-01-008",
-      "question": "ভিটামিন D-এর অভাবে কোন রোগ হয়?",
-      "options": [
-        "বেরিবেরি",
-        "স্কার্ভি",
-        "রিকেটস",
-        "অ্যানিমিয়া"
-      ],
-      "answer": 2,
-      "explanation": "ভিটামিন D-এর অভাবে শিশুদের রিকেটস ও বড়দের অস্টিওম্যালাসিয়া রোগ হয়।",
-      "subject": "life-science",
-      "unit": "10-nutrition-health",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-009",
-      "question": "ইনসুলিন হরমোনটি কোথায় উৎপন্ন হয়?",
-      "options": [
-        "থাইরয়েড গ্রন্থি",
-        "অ্যাড্রিনাল গ্রন্থি",
-        "পিটুইটারি গ্রন্থি",
-        "অগ্ন্যাশয়ের আইলেটস অফ ল্যাঙ্গারহ্যান্স"
-      ],
-      "answer": 3,
-      "explanation": "অগ্ন্যাশয়ের আইলেটস অফ ল্যাঙ্গারহ্যান্সের β-কোষ থেকে ইনসুলিন উৎপন্ন হয়।",
-      "subject": "life-science",
-      "unit": "07-nervous-system",
-      "type": "memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-01-010",
-      "question": "রক্তের pH কত?",
-      "options": [
-        "৭.০",
-        "৭.৪",
-        "৬.৮",
-        "৮.০"
-      ],
-      "answer": 1,
-      "explanation": "রক্তের স্বাভাবিক pH ৭.৩৫-৭.৪৫ এর মধ্যে থাকে, গড়ে ৭.৪।",
-      "subject": "life-science",
-      "unit": "05-circulatory-system",
-      "type": "memory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-01-011",
-      "question": "নেফ্রন কোন তন্ত্রের অংশ?",
-      "options": [
-        "স্নায়ু তন্ত্র",
-        "পরিপাক তন্ত্র",
-        "রেচন তন্ত্র",
-        "শ্বসন তন্ত্র"
-      ],
-      "answer": 2,
-      "explanation": "নেফ্রন বৃক্কের (কিডনির) গঠনগত ও কার্যগত একক, যা রেচন তন্ত্রের অংশ।",
-      "subject": "life-science",
-      "unit": "06-excretory-system",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-012",
-      "question": "হিমোগ্লোবিনে কোন ধাতু থাকে?",
-      "options": [
-        "কপার",
-        "জিঙ্ক",
-        "ম্যাগনেসিয়াম",
-        "লোহার"
-      ],
-      "answer": 3,
-      "explanation": "হিমোগ্লোবিনের 'হিম' অংশে লোহার (Fe) থাকে, যা অক্সিজেন পরিবহনে সাহায্য করে।",
-      "subject": "life-science",
-      "unit": "05-circulatory-system",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-013",
-      "question": "কোনটি জীবাণু নয়?",
-      "options": [
-        "ভাইরাস",
-        "ব্যাকটেরিয়া",
-        "প্রোটোজোয়া",
-        "ফার্ন"
-      ],
-      "answer": 3,
-      "explanation": "ফার্ন একটি উদ্ভিদ, এটি জীবাণু নয়। ভাইরাস, ব্যাকটেরিয়া ও প্রোটোজোয়া জীবাণু।",
-      "subject": "life-science",
-      "unit": "11-common-diseases",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-014",
-      "question": "পিত্তরস কোথায় জমা থাকে?",
-      "options": [
-        "লিভার",
-        "পিত্তথলি",
-        "অগ্ন্যাশয়",
-        "ডিওডেনাম"
-      ],
-      "answer": 1,
-      "explanation": "পিত্তরস লিভারে উৎপন্ন হয় কিন্তু পিত্তথলিতে (গলব্লাডার) জমা থাকে।",
-      "subject": "life-science",
-      "unit": "03-digestive-system",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-015",
-      "question": "কোন ভিটামিন জলে দ্রবণীয়?",
-      "options": [
-        "ভিটামিন A",
-        "ভিটামিন D",
-        "ভিটামিন C",
-        "ভিটামিন K"
-      ],
-      "answer": 2,
-      "explanation": "ভিটামিন B ও C জলে দ্রবণীয়। ভিটামিন A, D, E, K তেলে দ্রবণীয়।",
-      "subject": "life-science",
-      "unit": "10-nutrition-health",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-01-016",
-      "question": "সাইন্যাপস কোথায় থাকে?",
-      "options": [
-        "দুটি পেশির মধ্যে",
-        "দুটি হাড়ের মধ্যে",
-        "দুটি নিউরনের মধ্যে",
-        "দুটি গ্রন্থির মধ্যে"
-      ],
-      "answer": 2,
-      "explanation": "সাইন্যাপস হলো দুটি নিউরনের মধ্যবর্তী সংযোগস্থল, যেখানে স্নায়ু সংকেত প্রেরিত হয়।",
-      "subject": "life-science",
-      "unit": "07-nervous-system",
+      "unit": "u-6",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-01-017",
-      "question": "পৃথিবীতে অক্সিজেনের প্রধান উৎস কোনটি?",
+      "id": "ls-u-0032",
+      "question": "মিকচুরিশন রিফ্লেক্স (Micturition reflex) স্নায়ুতন্ত্রের কোন অংশের সাথে সম্পর্কিত?",
       "options": [
-        "প্রাণী",
-        "সবুজ উদ্ভিদ",
-        "মৃত্তিকা",
-        "জল"
+        "সিমপ্যাথেটিক এবং প্যারাসিমপ্যাথেটিক স্নায়ুতন্ত্র",
+        "শুধুমাত্র কেন্দ্রীয় স্নায়ুতন্ত্র",
+        "সোমাটিক স্নায়ুতন্ত্র",
+        "এন্টারিক স্নায়ুতন্ত্র"
       ],
-      "answer": 1,
-      "explanation": "সবুজ উদ্ভিদ সালোকসংশ্লেষণের মাধ্যমে বায়ুমণ্ডলে অক্সিজেন ত্যাগ করে, যা প্রধান উৎস।",
+      "answer": 0,
+      "explanation": "",
       "subject": "life-science",
-      "unit": "01-cell-structure-functions",
+      "unit": "u-6",
       "type": "theory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-01-018",
-      "question": "আবরণী কলার প্রধান কাজ কী?",
+      "id": "ls-u-0033",
+      "question": "Vitamin C-এর একটি প্রধান কাজ কী?",
       "options": [
-        "সংকোচন",
-        "আবরণ ও রক্ষা করা",
-        "পরিবহন",
-        "সমন্বয়"
+        "রক্ত জমাট বাঁধানো",
+        "ক্ষত সারাতে সাহায্য করা",
+        "চর্বি সঞ্চয় করা",
+        "Vision বৃদ্ধি করা"
       ],
-      "answer": 1,
-      "explanation": "আবরণী কলা দেহের বাইরের ও অভ্যন্তরীণ অঙ্গের আবরণ তৈরি করে এবং রক্ষা করে।",
+      "answer": 0,
+      "explanation": "",
       "subject": "life-science",
-      "unit": "02-tissues",
+      "unit": "u-10",
       "type": "theory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-01-019",
-      "question": "DNA-তে কোন নাইট্রোজেন বেস থাকে না?",
+      "id": "ls-u-0034",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) নিচের কোনগুলি Airborne disease?",
       "options": [
-        "এডেনিন (A)",
-        "গুয়ানিন (G)",
-        "ইউরাসিল (U)",
-        "সাইটোসিন (C)"
+        "Tuberculosis",
+        "Influenza",
+        "Measles",
+        "Cholera"
       ],
-      "answer": 2,
-      "explanation": "DNA-তে থাইমিন (T) থাকে। ইউরাসিল (U) RNA-তে থাকে।",
+      "answer": 0,
+      "explanation": "",
       "subject": "life-science",
-      "unit": "01-cell-structure-functions",
+      "unit": "u-11",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0035",
+      "question": "বাম অলিন্দ ও বাম নিলয়ের মাঝখানের কপাটিকার অপর নাম কী?",
+      "options": [
+        "Bicuspid Valve",
+        "Mitral Valve",
+        "Tricuspid Valve",
+        "A এবং B উভয়ই"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-5",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0036",
+      "question": "Homozygous Tall উদ্ভিদের genotype কোনটি?",
+      "options": [
+        "Tt",
+        "TT",
+        "tt",
+        "T"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0037",
+      "question": "MTP-এর পূর্ণরূপ কী?",
+      "options": [
+        "Maternal Transfer Procedure",
+        "Medical Termination of Pregnancy",
+        "Menstrual Therapy Process",
+        "Mature Tissue Pregnancy"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0038",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Placenta-এর মাধ্যমে কোন কোন পদার্থ ভ্রূণের দিকে যেতে পারে?",
+      "options": [
+        "Oxygen",
+        "Glucose",
+        "কিছু antibody",
+        "সব maternal RBC অবাধে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-01-020",
-      "question": "কানের কোন অংশ ভারসাম্য রক্ষা করে?",
+      "id": "ls-u-0039",
+      "question": "AIDS নির্ণয়ে সাধারণত কোন পরীক্ষাটি ব্যবহার করা হয়?",
       "options": [
-        "বহিঃকর্ণ",
-        "মধ্যকর্ণ",
-        "ককলিয়া",
-        "সেমিসার্কুলার ক্যানাল"
+        "Widal test",
+        "ELISA test",
+        "Mantoux test",
+        "Schick test"
       ],
-      "answer": 3,
-      "explanation": "অন্তঃকর্ণের সেমিসার্কুলার ক্যানাল বা অর্ধবৃত্তাকার নালিকা দেহের ভারসাম্য রক্ষায় সাহায্য করে।",
+      "answer": 0,
+      "explanation": "",
       "subject": "life-science",
-      "unit": "09-sense-organs",
+      "unit": "u-11",
       "type": "theory",
-      "difficulty": "medium"
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0040",
+      "question": "Transcription প্রক্রিয়ায় কী তৈরি হয়?",
+      "options": [
+        "DNA থেকে DNA",
+        "DNA থেকে RNA",
+        "RNA থেকে Protein",
+        "Protein থেকে DNA"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-1",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0041",
+      "question": "যদি Tallness সম্পূর্ণ dominant হয়, তবে Tt ব্যক্তির phenotype কী হবে?",
+      "options": [
+        "Dwarf",
+        "Tall",
+        "Intermediate",
+        "উভয় Tall ও dwarf"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0042",
+      "question": "হাড় ও দাঁতের জন্য Calcium-এর সঙ্গে আর কোন Mineral গুরুত্বপূর্ণ?",
+      "options": [
+        "Phosphorus",
+        "Sodium",
+        "Iodine",
+        "Zinc"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-10",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0043",
+      "question": "Enterokinase এর কাজ কী?",
+      "options": [
+        "Pepsinogen কে Pepsin এ সক্রিয় করা",
+        "Trypsinogen কে Trypsin এ সক্রিয় করা",
+        "Starch কে Maltose এ ভাঙা",
+        "Fat emulsification করা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-3",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0044",
+      "question": "পেরেক বা সুঁচ ফুটে গিয়ে তৈরি হওয়া ক্ষতকে কী বলে?",
+      "options": [
+        "Abrasion",
+        "Laceration",
+        "Puncture",
+        "Amputation"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-13",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0045",
+      "question": "Test cross বলতে কী বোঝায়?",
+      "options": [
+        "Homozygous dominant-এর সঙ্গে cross",
+        "Dominant phenotype-যুক্ত অজানা genotype-কে homozygous recessive-এর সঙ্গে cross",
+        "Dihybrid cross",
+        "Parent-এর মধ্যে cross"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0046",
+      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Mammary gland সম্পর্কে সঠিক উক্তিগুলি কোনগুলি?",
+      "options": [
+        "এটি modified sweat gland",
+        "Lactation-এ অংশ নেয়",
+        "Prolactin-এর প্রভাবে milk synthesis বাড়ে",
+        "এটি Ovary-এর অংশ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-8",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0047",
+      "question": "Parasympathetic activation-এ pupil সাধারণত—",
+      "options": [
+        "প্রসারিত হয়",
+        "সংকুচিত হয়",
+        "অদৃশ্য হয়",
+        "স্থিরভাবে বড় থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-7",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0048",
+      "question": "কাউন্টার কারেন্ট মেকানিজমে 'কাউন্টার কারেন্ট' বলতে কী বোঝায়?",
+      "options": [
+        "তরলের বিপরীতমুখী প্রবাহ (যেমন Loop of Henle এর দুই বাহুতে)",
+        "তরলের একইমুখী প্রবাহ",
+        "তরলের শূন্য প্রবাহ",
+        "তরলের চক্রাকার প্রবাহ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-6",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0049",
+      "question": "Peristalsis সম্পর্কে কোন বক্তব্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "এটি Oesophagus এ খাদ্য পরিবহনে সাহায্য করে",
+        "এটি Small intestine তেও দেখা যায়",
+        "এটি সম্পূর্ণরূপে Skeletal muscle দ্বারা নিয়ন্ত্রিত",
+        "এটি Alimentary canal এ খাদ্যের অগ্রগতিতে সাহায্য করে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-3",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-u-0050",
+      "question": "RQ সম্পর্কে নিচের কোন তথ্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "options": [
+        "Carbohydrate এর জন্য RQ সাধারণত 1",
+        "Fat এর জন্য RQ সাধারণত 0.7",
+        "Protein এর জন্য RQ প্রায় 0.8",
+        "RQ Hemoglobin এর শতাংশ নির্দেশ করে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "u-4",
+      "type": "theory",
+      "difficulty": "easy"
     }
   ]
 }
