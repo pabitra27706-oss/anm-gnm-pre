@@ -1,4 +1,6 @@
 {
+  "subject": "life-science",
+  "set": 1,
   "questions": [
     {
       "id": "ls-01-001",
@@ -10,7 +12,11 @@
         "এন্ডোপ্লাজমিক রেটিকুলাম"
       ],
       "answer": 0,
-      "explanation": "মাইটোকন্ড্রিয়া কোষের ATP শক্তি উৎপন্ন করে, তাই একে শক্তিঘর বলে।"
+      "explanation": "মাইটোকন্ড্রিয়া কোষের ATP শক্তি উৎপন্ন করে, তাই একে শক্তিঘর বলে।",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-002",
@@ -22,7 +28,11 @@
         "লিপিড"
       ],
       "answer": 1,
-      "explanation": "DNA (ডিঅক্সিরাইবোনিউক্লিক অ্যাসিড) বংশগতির ধারক ও বাহক হিসেবে কাজ করে।"
+      "explanation": "DNA (ডিঅক্সিরাইবোনিউক্লিক অ্যাসিড) বংশগতির ধারক ও বাহক হিসেবে কাজ করে।",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-003",
@@ -34,7 +44,11 @@
         "হরমোন পরিবহন করা"
       ],
       "answer": 1,
-      "explanation": "লোহিত রক্তকণিকায় থাকা হিমোগ্লোবিন অক্সিজেন পরিবহন করে।"
+      "explanation": "লোহিত রক্তকণিকায় থাকা হিমোগ্লোবিন অক্সিজেন পরিবহন করে।",
+      "subject": "life-science",
+      "unit": "05-circulatory-system",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-004",
@@ -46,7 +60,11 @@
         "৪৮ জোড়া"
       ],
       "answer": 0,
-      "explanation": "মানব দেহে ২৩ জোড়া (মোট ৪৬টি) ক্রোমোজোম থাকে।"
+      "explanation": "মানব দেহে ২৩ জোড়া (মোট ৪৬টি) ক্রোমোজোম থাকে।",
+      "subject": "life-science",
+      "unit": "08-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-005",
@@ -58,7 +76,11 @@
         "বান্ডিল অফ হিস"
       ],
       "answer": 1,
-      "explanation": "SA (সাইনোঅ্যাট্রিয়াল) নোড হৃদপিণ্ডের স্বাভাবিক পেসমেকার হিসেবে কাজ করে।"
+      "explanation": "SA (সাইনোঅ্যাট্রিয়াল) নোড হৃদপিণ্ডের স্বাভাবিক পেসমেকার হিসেবে কাজ করে।",
+      "subject": "life-science",
+      "unit": "05-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
     },
     {
       "id": "ls-01-006",
@@ -70,7 +92,11 @@
         "গলজি বডি"
       ],
       "answer": 1,
-      "explanation": "রাইবোজোম প্রোটিন সংশ্লেষণের প্রধান স্থান।"
+      "explanation": "রাইবোজোম প্রোটিন সংশ্লেষণের প্রধান স্থান।",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-007",
@@ -82,7 +108,11 @@
         "৪টি (ডানে ২, বামে ২)"
       ],
       "answer": 2,
-      "explanation": "ডান ফুসফুসে ৩টি (উচ্চ, মধ্য, নিম্ন) ও বাম ফুসফুসে ২টি (উচ্চ, নিম্ন) খণ্ড থাকে।"
+      "explanation": "ডান ফুসফুসে ৩টি (উচ্চ, মধ্য, নিম্ন) ও বাম ফুসফুসে ২টি (উচ্চ, নিম্ন) খণ্ড থাকে।",
+      "subject": "life-science",
+      "unit": "04-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
     },
     {
       "id": "ls-01-008",
@@ -94,7 +124,11 @@
         "অ্যানিমিয়া"
       ],
       "answer": 2,
-      "explanation": "ভিটামিন D-এর অভাবে শিশুদের রিকেটস ও বড়দের অস্টিওম্যালাসিয়া রোগ হয়।"
+      "explanation": "ভিটামিন D-এর অভাবে শিশুদের রিকেটস ও বড়দের অস্টিওম্যালাসিয়া রোগ হয়।",
+      "subject": "life-science",
+      "unit": "10-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-009",
@@ -106,7 +140,11 @@
         "অগ্ন্যাশয়ের আইলেটস অফ ল্যাঙ্গারহ্যান্স"
       ],
       "answer": 3,
-      "explanation": "অগ্ন্যাশয়ের আইলেটস অফ ল্যাঙ্গারহ্যান্সের β-কোষ থেকে ইনসুলিন উৎপন্ন হয়।"
+      "explanation": "অগ্ন্যাশয়ের আইলেটস অফ ল্যাঙ্গারহ্যান্সের β-কোষ থেকে ইনসুলিন উৎপন্ন হয়।",
+      "subject": "life-science",
+      "unit": "07-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
     },
     {
       "id": "ls-01-010",
@@ -118,7 +156,11 @@
         "৮.০"
       ],
       "answer": 1,
-      "explanation": "রক্তের স্বাভাবিক pH ৭.৩৫-৭.৪৫ এর মধ্যে থাকে, গড়ে ৭.৪।"
+      "explanation": "রক্তের স্বাভাবিক pH ৭.৩৫-৭.৪৫ এর মধ্যে থাকে, গড়ে ৭.৪।",
+      "subject": "life-science",
+      "unit": "05-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
     },
     {
       "id": "ls-01-011",
@@ -130,7 +172,11 @@
         "শ্বসন তন্ত্র"
       ],
       "answer": 2,
-      "explanation": "নেফ্রন বৃক্কের (কিডনির) গঠনগত ও কার্যগত একক, যা রেচন তন্ত্রের অংশ।"
+      "explanation": "নেফ্রন বৃক্কের (কিডনির) গঠনগত ও কার্যগত একক, যা রেচন তন্ত্রের অংশ।",
+      "subject": "life-science",
+      "unit": "06-excretory-system",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-012",
@@ -142,7 +188,11 @@
         "লোহার"
       ],
       "answer": 3,
-      "explanation": "হিমোগ্লোবিনের 'হিম' অংশে লোহার (Fe) থাকে, যা অক্সিজেন পরিবহনে সাহায্য করে।"
+      "explanation": "হিমোগ্লোবিনের 'হিম' অংশে লোহার (Fe) থাকে, যা অক্সিজেন পরিবহনে সাহায্য করে।",
+      "subject": "life-science",
+      "unit": "05-circulatory-system",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-013",
@@ -154,7 +204,11 @@
         "ফার্ন"
       ],
       "answer": 3,
-      "explanation": "ফার্ন একটি উদ্ভিদ, এটি জীবাণু নয়। ভাইরাস, ব্যাকটেরিয়া ও প্রোটোজোয়া জীবাণু।"
+      "explanation": "ফার্ন একটি উদ্ভিদ, এটি জীবাণু নয়। ভাইরাস, ব্যাকটেরিয়া ও প্রোটোজোয়া জীবাণু।",
+      "subject": "life-science",
+      "unit": "11-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-014",
@@ -166,7 +220,11 @@
         "ডিওডেনাম"
       ],
       "answer": 1,
-      "explanation": "পিত্তরস লিভারে উৎপন্ন হয় কিন্তু পিত্তথলিতে (গলব্লাডার) জমা থাকে।"
+      "explanation": "পিত্তরস লিভারে উৎপন্ন হয় কিন্তু পিত্তথলিতে (গলব্লাডার) জমা থাকে।",
+      "subject": "life-science",
+      "unit": "03-digestive-system",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-015",
@@ -178,7 +236,11 @@
         "ভিটামিন K"
       ],
       "answer": 2,
-      "explanation": "ভিটামিন B ও C জলে দ্রবণীয়। ভিটামিন A, D, E, K তেলে দ্রবণীয়।"
+      "explanation": "ভিটামিন B ও C জলে দ্রবণীয়। ভিটামিন A, D, E, K তেলে দ্রবণীয়।",
+      "subject": "life-science",
+      "unit": "10-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-016",
@@ -190,7 +252,11 @@
         "দুটি গ্রন্থির মধ্যে"
       ],
       "answer": 2,
-      "explanation": "সাইন্যাপস হলো দুটি নিউরনের মধ্যবর্তী সংযোগস্থল, যেখানে স্নায়ু সংকেত প্রেরিত হয়।"
+      "explanation": "সাইন্যাপস হলো দুটি নিউরনের মধ্যবর্তী সংযোগস্থল, যেখানে স্নায়ু সংকেত প্রেরিত হয়।",
+      "subject": "life-science",
+      "unit": "07-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
     },
     {
       "id": "ls-01-017",
@@ -202,7 +268,11 @@
         "জল"
       ],
       "answer": 1,
-      "explanation": "সবুজ উদ্ভিদ সালোকসংশ্লেষণের মাধ্যমে বায়ুমণ্ডলে অক্সিজেন ত্যাগ করে, যা প্রধান উৎস।"
+      "explanation": "সবুজ উদ্ভিদ সালোকসংশ্লেষণের মাধ্যমে বায়ুমণ্ডলে অক্সিজেন ত্যাগ করে, যা প্রধান উৎস।",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-018",
@@ -214,7 +284,11 @@
         "সমন্বয়"
       ],
       "answer": 1,
-      "explanation": "আবরণী কলা দেহের বাইরের ও অভ্যন্তরীণ অঙ্গের আবরণ তৈরি করে এবং রক্ষা করে।"
+      "explanation": "আবরণী কলা দেহের বাইরের ও অভ্যন্তরীণ অঙ্গের আবরণ তৈরি করে এবং রক্ষা করে।",
+      "subject": "life-science",
+      "unit": "02-tissues",
+      "type": "theory",
+      "difficulty": "easy"
     },
     {
       "id": "ls-01-019",
@@ -226,7 +300,11 @@
         "সাইটোসিন (C)"
       ],
       "answer": 2,
-      "explanation": "DNA-তে থাইমিন (T) থাকে। ইউরাসিল (U) RNA-তে থাকে।"
+      "explanation": "DNA-তে থাইমিন (T) থাকে। ইউরাসিল (U) RNA-তে থাকে।",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
     },
     {
       "id": "ls-01-020",
@@ -238,7 +316,11 @@
         "সেমিসার্কুলার ক্যানাল"
       ],
       "answer": 3,
-      "explanation": "অন্তঃকর্ণের সেমিসার্কুলার ক্যানাল বা অর্ধবৃত্তাকার নালিকা দেহের ভারসাম্য রক্ষায় সাহায্য করে।"
+      "explanation": "অন্তঃকর্ণের সেমিসার্কুলার ক্যানাল বা অর্ধবৃত্তাকার নালিকা দেহের ভারসাম্য রক্ষায় সাহায্য করে।",
+      "subject": "life-science",
+      "unit": "09-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
     }
   ]
 }

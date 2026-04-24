@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>কাস্টম ফিল্টার কুইজ — WB ANM GNM 2026</title>
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink:        #e91e63;
+      --pink-light:  #fce4ec;
+      --pink-dark:   #c2185b;
+      --gray-bg:     #f5f5f5;
+      --gray-border: #e0e0e0;
+      --gray-text:   #757575;
+      --dark:        #212121;
+      --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      --radius:      12px;
+      --radius-pill: 20px;
+    }
+
+    html { font-size: 15px; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system,
+                   'Noto Sans Bengali', sans-serif;
+      background: var(--gray-bg);
+      color: var(--dark);
+      min-height: 100vh;
+      padding-bottom: 100px;
+    }
+
+    /* ── Header ───────────────────────────────────────────────────────────── */
+    .header {
+      background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
+      color: white;
+      padding: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(233,30,99,0.3);
+    }
+
+    .header-inner {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .back-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.2);
+      border: none;
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+      flex-shrink: 0;
+      transition: background 0.2s;
+    }
+    .back-btn:hover { background: rgba(255,255,255,0.3); }
+    .back-btn svg   { width: 20px; height: 20px; }
+
+    .header-text { flex: 1; min-width: 0; }
+    .header-text h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .header-text p {
+      font-size: 0.78rem;
+      opacity: 0.88;
+      margin-top: 2px;
+    }
+
+    /* ── Page Wrapper ─────────────────────────────────────────────────────── */
+    .page {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    /* ── Card ─────────────────────────────────────────────────────────────── */
+    .card {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid var(--gray-border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-header-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: var(--pink-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .card-header-icon svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--pink);
+    }
+
+    .card-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    .card-body { padding: 14px 16px; }
+
+    /* ── Loading State ────────────────────────────────────────────────────── */
+    #loadingState {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      padding: 32px 20px;
+      text-align: center;
+    }
+
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 4px solid var(--pink-light);
+      border-top-color: var(--pink);
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .loading-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 6px;
+    }
+
+    .progress-bar-track {
+      width: 100%;
+      height: 6px;
+      background: var(--gray-border);
+      border-radius: 3px;
+      margin: 14px 0 8px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--pink), var(--pink-dark));
+      border-radius: 3px;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    #progressText  { font-size: 0.82rem; color: var(--gray-text); }
+    #progressCount { font-size: 0.78rem; color: var(--gray-text); margin-top: 4px; }
+
+    /* ── Error State ─────────────────────────────────────────────────────── */
+    #errorState {
+      display: none;
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      padding: 32px 20px;
+      text-align: center;
+    }
+
+    .error-icon {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+    }
+
+    .error-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #f44336;
+      margin-bottom: 8px;
+    }
+
+    #errorMessage {
+      font-size: 0.85rem;
+      color: var(--gray-text);
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .retry-btn {
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: var(--radius-pill);
+      padding: 10px 24px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .retry-btn:hover { background: var(--pink-dark); }
+
+    /* ── Filter Panel ─────────────────────────────────────────────────────── */
+    #filterPanel { display: none; }
+
+    /* ── Filter Pills ─────────────────────────────────────────────────────── */
+    .pills-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-pill {
+      border: 1.5px solid var(--gray-border);
+      border-radius: var(--radius-pill);
+      padding: 7px 14px;
+      background: white;
+      color: var(--dark);
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      font-family: inherit;
+      line-height: 1;
+    }
+
+    .filter-pill:hover:not(.active) {
+      border-color: var(--pink);
+      color: var(--pink);
+      background: var(--pink-light);
+    }
+
+    .filter-pill.active {
+      background: var(--pink);
+      border-color: var(--pink);
+      color: white;
+      box-shadow: 0 2px 6px rgba(233,30,99,0.25);
+    }
+
+    /* ── Unit Filters ─────────────────────────────────────────────────────── */
+    .unit-group-label {
+      width: 100%;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin: 8px 0 2px;
+      padding-left: 2px;
+    }
+
+    .unit-pill { font-size: 0.78rem; padding: 6px 12px; }
+
+    .no-units-msg {
+      font-size: 0.82rem;
+      color: var(--gray-text);
+      padding: 8px 0;
+    }
+
+    /* ── Difficulty Pills ─────────────────────────────────────────────────── */
+    .diff-easy   { --d-color: #4caf50; }
+    .diff-medium { --d-color: #ff9800; }
+    .diff-hard   { --d-color: #f44336; }
+
+    /* ── Count Buttons ────────────────────────────────────────────────────── */
+    .count-btns-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .count-btn {
+      border: 1.5px solid var(--gray-border);
+      border-radius: 10px;
+      padding: 8px 18px;
+      background: white;
+      color: var(--dark);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+      font-family: inherit;
+      min-width: 52px;
+    }
+
+    .count-btn:hover:not(.active) {
+      border-color: var(--pink);
+      color: var(--pink);
+    }
+
+    .count-btn.active {
+      background: var(--pink);
+      border-color: var(--pink);
+      color: white;
+      box-shadow: 0 2px 6px rgba(233,30,99,0.25);
+    }
+
+    /* ── Random Toggle ────────────────────────────────────────────────────── */
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .toggle-labels { flex: 1; }
+    .toggle-main-label {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--dark);
+    }
+    .toggle-sub-label {
+      font-size: 0.78rem;
+      color: var(--gray-text);
+      margin-top: 2px;
+    }
+
+    /* iOS-style toggle switch */
+    .switch {
+      position: relative;
+      width: 50px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .switch-slider {
+      position: absolute;
+      inset: 0;
+      background: var(--gray-border);
+      border-radius: 14px;
+      cursor: pointer;
+      transition: background 0.25s;
+    }
+    .switch-slider::before {
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 3px;
+      top: 3px;
+      background: white;
+      border-radius: 50%;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      transition: transform 0.25s;
+    }
+    .switch input:checked + .switch-slider {
+      background: var(--pink);
+    }
+    .switch input:checked + .switch-slider::before {
+      transform: translateX(22px);
+    }
+
+    /* ── Preview Box ──────────────────────────────────────────────────────── */
+    .preview-box {
+      background: var(--gray-bg);
+      border-radius: var(--radius);
+      padding: 14px;
+      border: 1px solid var(--gray-border);
+    }
+
+    .preview-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .preview-label {
+      font-size: 0.82rem;
+      color: var(--gray-text);
+    }
+
+    .preview-count {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--pink);
+    }
+
+    .preview-quiz-count {
+      font-size: 0.82rem;
+      color: var(--gray-text);
+      margin-bottom: 10px;
+    }
+
+    .preview-quiz-count strong {
+      color: var(--dark);
+      font-weight: 700;
+    }
+
+    /* Breakdown pills */
+    .breakdown-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .breakdown-pill {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      border: 1.5px solid;
+      display: inline-block;
+    }
+
+    .breakdown-empty {
+      font-size: 0.8rem;
+      color: var(--gray-text);
+    }
+
+    /* Zero state */
+    .zero-state {
+      text-align: center;
+      padding: 10px 0 4px;
+    }
+    .zero-state p {
+      font-size: 0.85rem;
+      color: #f44336;
+      font-weight: 600;
+    }
+
+    /* ── Start Button ─────────────────────────────────────────────────────── */
+    .start-btn-wrap {
+      padding: 0 0 8px;
+    }
+
+    #startQuizBtn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, var(--pink), var(--pink-dark));
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      box-shadow: 0 4px 15px rgba(233,30,99,0.35);
+      transition: all 0.2s;
+      letter-spacing: 0.3px;
+    }
+
+    #startQuizBtn:hover:not(:disabled) {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(233,30,99,0.45);
+    }
+
+    #startQuizBtn:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    #startQuizBtn:disabled {
+      background: linear-gradient(135deg, #bdbdbd, #9e9e9e);
+      box-shadow: none;
+      cursor: not-allowed;
+      opacity: 0.75;
+    }
+
+    /* ── Stats Bar (total loaded) ─────────────────────────────────────────── */
+    .stats-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: var(--pink-light);
+      border-radius: 0 0 var(--radius) var(--radius);
+      font-size: 0.78rem;
+      color: var(--pink-dark);
+      font-weight: 600;
+    }
+
+    .stats-bar svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--pink-dark);
+      flex-shrink: 0;
+    }
+
+    /* ── Section Divider ──────────────────────────────────────────────────── */
+    .section-hint {
+      font-size: 0.76rem;
+      color: var(--gray-text);
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--gray-border);
+    }
+
+    /* ── Responsive ───────────────────────────────────────────────────────── */
+    @media (max-width: 480px) {
+      .header-text h1 { font-size: 0.98rem; }
+      .header-text p  { font-size: 0.72rem; }
+      .filter-pill    { font-size: 0.78rem; padding: 6px 11px; }
+      .count-btn      { padding: 7px 13px; font-size: 0.85rem; }
+      #startQuizBtn   { font-size: 0.92rem; padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ───────────────────────────────────────────────────────────────── -->
+<header class="header">
+  <div class="header-inner">
+    <a href="./index.html" class="back-btn" aria-label="ফিরে যান">
+      <svg viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2.5"
+           stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+    </a>
+    <div class="header-text">
+      <h1>কাস্টম কুইজ ফিল্টার</h1>
+      <p>আপনার পছন্দ অনুযায়ী প্রশ্ন বেছে নিন</p>
+    </div>
+  </div>
+</header>
+
+<div class="page">
+
+  <!-- ── Loading State ───────────────────────────────────────────────────── -->
+  <div id="loadingState" class="card" style="padding:32px 20px;text-align:center;">
+    <div class="spinner"></div>
+    <p class="loading-title">প্রশ্ন লোড হচ্ছে...</p>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" id="progressBar"></div>
+    </div>
+    <p id="progressText">অপেক্ষা করুন...</p>
+    <p id="progressCount"></p>
+  </div>
+
+  <!-- ── Error State ─────────────────────────────────────────────────────── -->
+  <div id="errorState">
+    <div class="error-icon">⚠️</div>
+    <p class="error-title">লোড করতে সমস্যা হয়েছে</p>
+    <p id="errorMessage">অনুগ্রহ করে পুনরায় চেষ্টা করুন।</p>
+    <button class="retry-btn" id="retryBtn">আবার চেষ্টা করুন</button>
+  </div>
+
+  <!-- ── Filter Panel ────────────────────────────────────────────────────── -->
+  <div id="filterPanel">
+
+    <!-- Stats bar -->
+    <div class="card">
+      <div class="stats-bar" id="statsBar">
+        <svg viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <span id="totalLoadedText">সব প্রশ্ন লোড হচ্ছে...</span>
+      </div>
+    </div>
+
+    <!-- ── Filter 1: Subject ─────────────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+          </svg>
+        </div>
+        <span class="card-title">বিষয় বেছে নিন</span>
+      </div>
+      <div class="card-body">
+        <div class="pills-wrap" id="subjectPills"></div>
+      </div>
+    </div>
+
+    <!-- ── Filter 2: Unit/Chapter ────────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="6" x2="21" y2="6"/>
+            <line x1="8" y1="12" x2="21" y2="12"/>
+            <line x1="8" y1="18" x2="21" y2="18"/>
+            <line x1="3" y1="6" x2="3.01" y2="6"/>
+            <line x1="3" y1="12" x2="3.01" y2="12"/>
+            <line x1="3" y1="18" x2="3.01" y2="18"/>
+          </svg>
+        </div>
+        <span class="card-title">অধ্যায় বেছে নিন</span>
+      </div>
+      <div class="card-body">
+        <div class="pills-wrap" id="unitFilters">
+          <p class="no-units-msg">প্রথমে বিষয় নির্বাচন করুন</p>
+        </div>
+        <p class="section-hint">
+          একাধিক অধ্যায় একসাথে বেছে নেওয়া যাবে
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Filter 3: Question Type ───────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+        </div>
+        <span class="card-title">প্রশ্নের ধরন</span>
+      </div>
+      <div class="card-body">
+        <div class="pills-wrap" id="typePills"></div>
+      </div>
+    </div>
+
+    <!-- ── Filter 4: Difficulty ──────────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27
+                             17 14.14 18.18 21.02 12 17.77
+                             5.82 21.02 7 14.14 2 9.27
+                             8.91 8.26 12 2"/>
+          </svg>
+        </div>
+        <span class="card-title">কঠিনতা</span>
+      </div>
+      <div class="card-body">
+        <div class="pills-wrap" id="difficultyPills"></div>
+      </div>
+    </div>
+
+    <!-- ── Filter 5: Question Count ─────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </div>
+        <span class="card-title">কতটি প্রশ্ন?</span>
+      </div>
+      <div class="card-body">
+        <div class="count-btns-row" id="countButtons"></div>
+        <p class="section-hint">
+          ফিল্টার করা প্রশ্নের চেয়ে বেশি নির্বাচন করলে
+          সব প্রশ্ন অন্তর্ভুক্ত হবে
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Filter 6: Random Order ────────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 3 21 3 21 8"/>
+            <line x1="4" y1="20" x2="21" y2="3"/>
+            <polyline points="21 16 21 21 16 21"/>
+            <line x1="15" y1="15" x2="21" y2="21"/>
+          </svg>
+        </div>
+        <span class="card-title">প্রশ্নের ক্রম</span>
+      </div>
+      <div class="card-body">
+        <div class="toggle-row">
+          <div class="toggle-labels">
+            <div class="toggle-main-label" id="randomLabel">
+              র‍্যান্ডম ক্রমে
+            </div>
+            <div class="toggle-sub-label" id="randomSubLabel">
+              প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে
+            </div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="randomToggle" checked />
+            <span class="switch-slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Live Preview ──────────────────────────────────────────────────── -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </div>
+        <span class="card-title">ফিল্টার ফলাফল</span>
+      </div>
+      <div class="card-body">
+        <div class="preview-box">
+          <div class="preview-row">
+            <span class="preview-label">
+              ফিল্টার অনুযায়ী প্রশ্ন পাওয়া গেছে:
+            </span>
+            <span class="preview-count">
+              <span id="matchCount">০</span>টি
+            </span>
+          </div>
+          <p class="preview-quiz-count">
+            কুইজে থাকবে:
+            <strong><span id="quizCount">০</span>টি প্রশ্ন</strong>
+          </p>
+          <div class="breakdown-pills" id="breakdownList">
+            <span class="breakdown-empty">ফিল্টার পরিবর্তন করুন</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Start Button ──────────────────────────────────────────────────── -->
+    <div class="start-btn-wrap">
+      <button id="startQuizBtn" disabled>
+        কুইজ শুরু করুন
+      </button>
+    </div>
+
+  </div><!-- /#filterPanel -->
+</div><!-- /.page -->
+
+<!-- Scripts — order matters -->
+<script src="./js/filter-engine.js"></script>
+<script src="./js/filter-loader.js"></script>
+<script src="./js/filter-app.js"></script>
+
+<!-- Inline: random toggle label sync + stats update -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+  // Random toggle label update
+  var toggle     = document.getElementById('randomToggle');
+  var mainLabel  = document.getElementById('randomLabel');
+  var subLabel   = document.getElementById('randomSubLabel');
+
+  if (toggle && mainLabel && subLabel) {
+    toggle.addEventListener('change', function() {
+      if (toggle.checked) {
+        mainLabel.textContent = 'র‍্যান্ডম ক্রমে';
+        subLabel.textContent  = 'প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে';
+      } else {
+        mainLabel.textContent = 'ক্রমানুসারে';
+        subLabel.textContent  = 'সেট নম্বর অনুযায়ী প্রশ্ন আসবে';
+      }
+    });
+  }
+
+  // Stats bar: update after questions load
+  // filter-app.js sets allQuestions; we poll until ready
+  var statsInterval = setInterval(function() {
+    if (window._FilterApp) {
+      var qs = window._FilterApp.getAllQuestions();
+      if (qs && qs.length > 0) {
+        var statsEl = document.getElementById('totalLoadedText');
+        var bn = function(n) {
+          return String(n).replace(/[0-9]/g, function(d) {
+            return ['০','১','২','৩','৪','৫','৬','৭','৮','৯'][+d];
+          });
+        };
+        if (statsEl) {
+          statsEl.textContent =
+            'মোট ' + bn(qs.length) +
+            'টি প্রশ্ন লোড হয়েছে • ৬টি বিষয়';
+        }
+        clearInterval(statsInterval);
+      }
+    }
+  }, 500);
+
+  // Clear interval after 30s regardless
+  setTimeout(function() { clearInterval(statsInterval); }, 30000);
+});
+</script>
+
+</body>
+</html>

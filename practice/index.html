@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="WB ANM GNM 2026 অনুশীলন — বিষয়ভিত্তিক প্র্যাকটিস সেট" />
+  <meta name="description" content="WB ANM GNM 2026 অনুশীলন — বিষয়ভিত্তিক প্র্যাকটিস সেট এবং কাস্টম ফিল্টার কুইজ" />
   <title>অনুশীলন | WB ANM GNM 2026</title>
 
   <!-- Fonts -->
@@ -20,6 +20,206 @@
 
   <!-- Practice styles -->
   <link rel="stylesheet" href="css/practice-layout.css" />
+
+  <!-- Inline styles for filter card -->
+  <style>
+    /* Filter card special styling */
+    .filter-feature-card {
+      background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
+      color: white;
+      border: none;
+      box-shadow: 0 4px 20px rgba(233, 30, 99, 0.35);
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      margin-bottom: 24px;
+      padding: 20px;
+      border-radius: 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .filter-feature-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20px;
+      width: 150px;
+      height: 150px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .filter-feature-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(233, 30, 99, 0.5);
+    }
+
+    .filter-feature-card__header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .filter-feature-card__icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      backdrop-filter: blur(10px);
+    }
+
+    .filter-feature-card__icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: white;
+    }
+
+    .filter-feature-card__title-wrap {
+      flex: 1;
+    }
+
+    .filter-feature-card__title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin: 0 0 4px 0;
+      line-height: 1.2;
+    }
+
+    .filter-feature-card__subtitle {
+      font-size: 0.82rem;
+      opacity: 0.9;
+      font-weight: 500;
+    }
+
+    .filter-feature-card__badge {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background: rgba(255, 255, 255, 0.95);
+      color: #e91e63;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      z-index: 2;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .filter-feature-card__content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .filter-feature-card__desc {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      opacity: 0.95;
+      margin-bottom: 16px;
+    }
+
+    .filter-feature-card__features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .filter-feature-pill {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      padding: 6px 12px;
+      border-radius: 16px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .filter-feature-pill svg {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+    }
+
+    .filter-feature-card__cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      color: #e91e63;
+      padding: 10px 20px;
+      border-radius: 24px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+      transition: all 0.2s;
+    }
+
+    .filter-feature-card__cta:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    .filter-feature-card__cta svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+    }
+
+    /* Divider between filter card and subject grid */
+    .section-divider {
+      margin: 32px 0;
+      text-align: center;
+      position: relative;
+    }
+
+    .section-divider::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    }
+
+    .section-divider span {
+      position: relative;
+      background: #f5f5f5;
+      padding: 0 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #757575;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 600px) {
+      .filter-feature-card__title {
+        font-size: 1.15rem;
+      }
+      .filter-feature-card__badge {
+        position: static;
+        display: inline-block;
+        margin-left: auto;
+      }
+      .filter-feature-card__header {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -67,6 +267,74 @@
         <strong>−০.২৫</strong> নম্বর কাটা যাবে।
       </p>
     </section>
+
+    <!-- ========== FILTER FEATURE CARD ========== -->
+    <a href="./filter.html" class="filter-feature-card" aria-label="কাস্টম ফিল্টার কুইজ শুরু করুন">
+      <span class="filter-feature-card__badge">নতুন ✨</span>
+      
+      <div class="filter-feature-card__header">
+        <div class="filter-feature-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+               stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+          </svg>
+        </div>
+        <div class="filter-feature-card__title-wrap">
+          <h3 class="filter-feature-card__title">কাস্টম ফিল্টার কুইজ</h3>
+          <p class="filter-feature-card__subtitle">Custom Filter Quiz</p>
+        </div>
+      </div>
+
+      <div class="filter-feature-card__content">
+        <p class="filter-feature-card__desc">
+          আপনার পছন্দ অনুযায়ী বিষয়, অধ্যায়, প্রশ্নের ধরন ও কঠিনতা নির্বাচন করে নিজের কুইজ তৈরি করুন
+        </p>
+
+        <div class="filter-feature-card__features">
+          <span class="filter-feature-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+            ৬টি বিষয়
+          </span>
+          <span class="filter-feature-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="8" y1="6" x2="21" y2="6"/>
+              <line x1="8" y1="12" x2="21" y2="12"/>
+              <line x1="8" y1="18" x2="21" y2="18"/>
+            </svg>
+            ৭০+ অধ্যায়
+          </span>
+          <span class="filter-feature-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            ৩টি লেভেল
+          </span>
+          <span class="filter-feature-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 3 21 3 21 8"/>
+              <line x1="4" y1="20" x2="21" y2="3"/>
+            </svg>
+            র‍্যান্ডম ক্রম
+          </span>
+        </div>
+
+        <div class="filter-feature-card__cta">
+          <span>ফিল্টার কুইজ শুরু করুন</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" 
+               stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </div>
+      </div>
+    </a>
+
+    <!-- ========== DIVIDER ========== -->
+    <div class="section-divider">
+      <span>অথবা বিষয় অনুযায়ী সেট বেছে নিন</span>
+    </div>
 
     <!-- Loading state -->
     <div
