@@ -1,278 +1,239 @@
-/**
- * Service Worker — WB ANM GNM 2026 Prep PWA
- * Strategy:
- *   - Cache First  → CSS, JS, fonts, icons, SVG
- *   - Network First → HTML pages
- *   - Cache on demand → JSON data
- */
+// ============================================================
+// SERVICE WORKER
+// App    : ANM GNM Pre Exam
+// Repo   : https://github.com/pabitra27706-oss/anm-gnm-pre
+// Hosted : https://pabitra27706-oss.github.io/anm-gnm-pre/
+// Cache  : anm-gnm-v1
+// ============================================================
 
-'use strict';
+const CACHE_NAME = 'anm-gnm-v1';
 
-/* ── Cache Configuration ── */
-const APP_VERSION   = 'v1.0.0';
-const STATIC_CACHE  = `static-cache-${APP_VERSION}`;
-const DYNAMIC_CACHE = `dynamic-cache-${APP_VERSION}`;
-const DATA_CACHE    = `data-cache-${APP_VERSION}`;
-
-/** Files to precache during install (App Shell) */
-const PRECACHE_URLS = [
-  '/',
-  '/index.html',
-  '/offline.html',
-  '/manifest.json',
-  '/assets/css/variables.css',
-  '/assets/css/reset.css',
-  '/assets/css/base.css',
-  '/assets/css/typography.css',
-  '/assets/css/utilities.css',
-  '/assets/css/print.css',
-  '/assets/svg/icons.svg',
-  '/pages/syllabus.html'
+// All files that make up the app shell
+// Paths are relative to the SW scope root (/anm-gnm-pre/)
+const ASSETS_TO_CACHE = [
+  './',
+  './index.html',
+  './offline.html',
+  './manifest.json',
+  './js/app.js',
+  './js/countdown.js',
+  './assets/css/base.css',
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
-/** File extensions that use Cache First strategy */
-const CACHE_FIRST_EXTENSIONS = [
-  '.css', '.js', '.woff', '.woff2',
-  '.ttf', '.otf', '.png', '.jpg',
-  '.jpeg', '.svg', '.ico', '.webp'
-];
 
-/** Maximum entries in dynamic cache */
-const DYNAMIC_CACHE_LIMIT = 50;
-
-/* ════════════════════════════════════════
-   INSTALL EVENT — Precache App Shell
-════════════════════════════════════════ */
-self.addEventListener('install', (event) => {
-  console.log(`[SW] Installing ${APP_VERSION}`);
-
+// ─────────────────────────────────────────────────────────────
+// INSTALL
+// Pre-cache all app shell files when SW is first installed
+// ─────────────────────────────────────────────────────────────
+self.addEventListener('install', event => {
+  console.log('[SW] Installing — cache:', CACHE_NAME);
+  
   event.waitUntil(
-    caches.open(STATIC_CACHE)
-      .then(cache => {
-        console.log('[SW] Precaching app shell...');
-        return cache.addAll(PRECACHE_URLS);
-      })
-      .then(() => {
-        console.log('[SW] Precache complete');
-        // Activate immediately without waiting for old SW to finish
-        return self.skipWaiting();
-      })
-      .catch(err => {
-        console.error('[SW] Precache failed:', err);
-      })
-  );
-});
-
-/* ════════════════════════════════════════
-   ACTIVATE EVENT — Clean Old Caches
-════════════════════════════════════════ */
-self.addEventListener('activate', (event) => {
-  console.log(`[SW] Activating ${APP_VERSION}`);
-
-  const currentCaches = [STATIC_CACHE, DYNAMIC_CACHE, DATA_CACHE];
-
-  event.waitUntil(
-    caches.keys()
-      .then(cacheNames => {
-        return Promise.all(
-          cacheNames
-            .filter(name => !currentCaches.includes(name))
-            .map(name => {
-              console.log('[SW] Deleting old cache:', name);
-              return caches.delete(name);
-            })
-        );
-      })
-      .then(() => {
-        console.log('[SW] Activated, claiming clients...');
-        // Take control of all open pages immediately
-        return self.clients.claim();
-      })
-  );
-});
-
-/* ════════════════════════════════════════
-   FETCH EVENT — Serve Requests
-════════════════════════════════════════ */
-self.addEventListener('fetch', (event) => {
-  const { request } = event;
-  const url = new URL(request.url);
-
-  // Only handle same-origin & http(s) requests
-  if (
-    !request.url.startsWith('http') ||
-    url.origin !== self.location.origin &&
-    !url.hostname.includes('fonts.googleapis.com') &&
-    !url.hostname.includes('fonts.gstatic.com')
-  ) {
-    return;
-  }
-
-  // Route to appropriate strategy
-  if (isJsonData(url)) {
-    event.respondWith(cacheOnDemand(request));
-  } else if (isCacheFirst(url)) {
-    event.respondWith(cacheFirst(request));
-  } else {
-    event.respondWith(networkFirst(request));
-  }
-});
-
-/* ════════════════════════════════════════
-   STRATEGY HELPERS
-════════════════════════════════════════ */
-
-/**
- * Cache First Strategy
- * → Serve from cache; fall back to network & update cache
- * Used for: CSS, JS, fonts, images, icons
- */
-async function cacheFirst(request) {
-  try {
-    const cached = await caches.match(request);
-    if (cached) {
-      return cached;
-    }
-
-    const networkResponse = await fetch(request);
-    if (networkResponse.ok) {
-      const cache = await caches.open(STATIC_CACHE);
-      cache.put(request, networkResponse.clone());
-    }
-    return networkResponse;
-  } catch (err) {
-    console.warn('[SW] Cache first failed:', request.url, err);
-    // Return cached offline fallback if available
-    return caches.match('/offline.html');
-  }
-}
-
-/**
- * Network First Strategy
- * → Try network; fall back to cache; ultimate fallback: offline.html
- * Used for: HTML pages
- */
-async function networkFirst(request) {
-  try {
-    const networkResponse = await fetch(request);
-
-    if (networkResponse.ok) {
-      // Update dynamic cache with fresh response
-      const cache = await caches.open(DYNAMIC_CACHE);
-      await cache.put(request, networkResponse.clone());
-      await limitCacheSize(DYNAMIC_CACHE, DYNAMIC_CACHE_LIMIT);
-    }
-
-    return networkResponse;
-  } catch (err) {
-    console.warn('[SW] Network failed, checking cache:', request.url);
-
-    const cached = await caches.match(request);
-    if (cached) {
-      return cached;
-    }
-
-    // Ultimate fallback for navigation requests
-    if (request.mode === 'navigate') {
-      const offline = await caches.match('/offline.html');
-      if (offline) return offline;
-    }
-
-    // Generic error response
-    return new Response(
-      '<html><body><h1>অফলাইন</h1><p>পেজটি লোড হয়নি।</p></body></html>',
-      { headers: { 'Content-Type': 'text/html; charset=utf-8' } }
-    );
-  }
-}
-
-/**
- * Cache on Demand Strategy (Stale While Revalidate)
- * → Serve cache immediately & update in background
- * Used for: JSON data files
- */
-async function cacheOnDemand(request) {
-  const cache  = await caches.open(DATA_CACHE);
-  const cached = await cache.match(request);
-
-  // Fetch in background regardless
-  const fetchPromise = fetch(request)
-    .then(networkResponse => {
-      if (networkResponse.ok) {
-        cache.put(request, networkResponse.clone());
-      }
-      return networkResponse;
+    caches
+    .open(CACHE_NAME)
+    .then(cache => {
+      console.log('[SW] Pre-caching app shell');
+      return cache.addAll(ASSETS_TO_CACHE);
+    })
+    .then(() => {
+      console.log('[SW] Pre-cache complete — activating immediately');
+      // Force this SW to become active without waiting
+      return self.skipWaiting();
     })
     .catch(err => {
-      console.warn('[SW] Data fetch failed:', err);
-      return null;
-    });
+      console.error('[SW] Pre-cache failed:', err);
+    })
+  );
+});
 
-  // Return cached version immediately if available
-  return cached || fetchPromise;
-}
 
-/* ════════════════════════════════════════
-   UTILITY FUNCTIONS
-════════════════════════════════════════ */
+// ─────────────────────────────────────────────────────────────
+// ACTIVATE
+// Clean up any old/stale caches from previous versions
+// ─────────────────────────────────────────────────────────────
+self.addEventListener('activate', event => {
+  console.log('[SW] Activating — checking for old caches');
+  
+  event.waitUntil(
+    caches
+    .keys()
+    .then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(name => {
+          if (name !== CACHE_NAME) {
+            console.log('[SW] Removing old cache:', name);
+            return caches.delete(name);
+          }
+        })
+      );
+    })
+    .then(() => {
+      console.log('[SW] Active — claiming all open clients');
+      // Take control of all open tabs immediately
+      return self.clients.claim();
+    })
+    .catch(err => {
+      console.error('[SW] Activation error:', err);
+    })
+  );
+});
 
-/**
- * Check if URL should use Cache First strategy
- * @param {URL} url
- * @returns {boolean}
- */
-function isCacheFirst(url) {
-  const pathname = url.pathname;
+
+// ─────────────────────────────────────────────────────────────
+// HELPER: Is this request for an HTML page / navigation?
+// ─────────────────────────────────────────────────────────────
+function isHtmlRequest(request) {
+  const acceptHeader = request.headers.get('accept') || '';
   return (
-    CACHE_FIRST_EXTENSIONS.some(ext => pathname.endsWith(ext)) ||
-    url.hostname.includes('fonts.googleapis.com') ||
-    url.hostname.includes('fonts.gstatic.com')
+    request.mode === 'navigate' ||
+    acceptHeader.includes('text/html')
   );
 }
 
-/**
- * Check if URL is a JSON data file
- * @param {URL} url
- * @returns {boolean}
- */
-function isJsonData(url) {
+
+// ─────────────────────────────────────────────────────────────
+// HELPER: Is this request for a static asset?
+// (JS, CSS, images, fonts, JSON, icons)
+// ─────────────────────────────────────────────────────────────
+function isAssetRequest(request) {
+  const url = request.url;
   return (
-    url.pathname.endsWith('.json') &&
-    !url.pathname.includes('manifest.json')
+    url.endsWith('.js') ||
+    url.endsWith('.css') ||
+    url.endsWith('.png') ||
+    url.endsWith('.jpg') ||
+    url.endsWith('.jpeg') ||
+    url.endsWith('.gif') ||
+    url.endsWith('.svg') ||
+    url.endsWith('.ico') ||
+    url.endsWith('.webp') ||
+    url.endsWith('.woff') ||
+    url.endsWith('.woff2') ||
+    url.endsWith('.ttf') ||
+    url.endsWith('.json')
   );
 }
 
-/**
- * Limit cache to a maximum number of entries
- * Removes oldest entries first (FIFO)
- * @param {string} cacheName
- * @param {number} maxSize
- */
-async function limitCacheSize(cacheName, maxSize) {
-  const cache = await caches.open(cacheName);
-  const keys  = await cache.keys();
 
-  if (keys.length > maxSize) {
-    const excess = keys.slice(0, keys.length - maxSize);
-    await Promise.all(excess.map(key => cache.delete(key)));
+// ─────────────────────────────────────────────────────────────
+// FETCH
+// Strategy 1 — HTML pages  → Network First, fallback offline.html
+// Strategy 2 — Assets      → Cache First, fallback network
+// Strategy 3 — Everything  → Network First, fallback cache
+// ─────────────────────────────────────────────────────────────
+self.addEventListener('fetch', event => {
+  const { request } = event;
+  
+  // ── Skip non-GET requests completely ────────────────────────
+  if (request.method !== 'GET') return;
+  
+  // ── Skip non-HTTP(S) requests (browser extensions etc.) ─────
+  if (
+    !request.url.startsWith('http://') &&
+    !request.url.startsWith('https://')
+  ) return;
+  
+  // ── Skip cross-origin requests (CDN, external APIs etc.) ────
+  const requestUrl = new URL(request.url);
+  if (requestUrl.origin !== self.location.origin) {
+    // Just let cross-origin requests go through normally
+    return;
   }
-}
+  
+  
+  // ────────────────────────────────────────────────────────────
+  // STRATEGY 1: NETWORK FIRST — HTML pages & navigation
+  // Try network → on fail serve cached → final fallback offline.html
+  // ────────────────────────────────────────────────────────────
+  if (isHtmlRequest(request)) {
+    event.respondWith(
+      fetch(request)
+      .then(networkResponse => {
+        // Network responded — update cache in background
+        if (networkResponse && networkResponse.status === 200) {
+          const clonedResponse = networkResponse.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(request, clonedResponse);
+          });
+        }
+        return networkResponse;
+      })
+      .catch(() => {
+        console.warn('[SW] Network failed for HTML — checking cache:', request.url);
+        
+        return caches.match(request).then(cachedResponse => {
+          if (cachedResponse) {
+            console.log('[SW] Serving cached HTML:', request.url);
+            return cachedResponse;
+          }
+          
+          // Nothing in cache — serve offline fallback
+          console.warn('[SW] No cache for HTML — serving offline.html');
+          return caches.match('./offline.html');
+        });
+      })
+    );
+    return;
+  }
+  
+  
+  // ────────────────────────────────────────────────────────────
+  // STRATEGY 2: CACHE FIRST — static assets
+  // Serve from cache instantly → if missing fetch & cache it
+  // ────────────────────────────────────────────────────────────
+  if (isAssetRequest(request)) {
+    event.respondWith(
+      caches.match(request).then(cachedResponse => {
+        if (cachedResponse) {
+          // Cache hit — serve immediately
+          return cachedResponse;
+        }
+        
+        // Cache miss — fetch from network and cache for next time
+        console.log('[SW] Asset not cached — fetching:', request.url);
+        return fetch(request)
+          .then(networkResponse => {
+            if (networkResponse && networkResponse.status === 200) {
+              const clonedResponse = networkResponse.clone();
+              caches.open(CACHE_NAME).then(cache => {
+                cache.put(request, clonedResponse);
+              });
+            }
+            return networkResponse;
+          })
+          .catch(err => {
+            console.warn('[SW] Asset fetch failed:', request.url, err);
+            // Return nothing — browser will show its own error
+          });
+      })
+    );
+    return;
+  }
+  
+  
+  // ────────────────────────────────────────────────────────────
+  // STRATEGY 3: NETWORK FIRST — everything else
+  // ────────────────────────────────────────────────────────────
+  event.respondWith(
+    fetch(request)
+    .then(networkResponse => networkResponse)
+    .catch(() => {
+      console.warn('[SW] Network failed — checking cache:', request.url);
+      return caches.match(request);
+    })
+  );
+});
 
-/* ════════════════════════════════════════
-   MESSAGE HANDLER (from main thread)
-════════════════════════════════════════ */
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
+
+// ─────────────────────────────────────────────────────────────
+// MESSAGE — allow pages to communicate with SW
+// Send { action: 'skipWaiting' } to force update
+// ─────────────────────────────────────────────────────────────
+self.addEventListener('message', event => {
+  if (event.data && event.data.action === 'skipWaiting') {
+    console.log('[SW] Received skipWaiting message — updating now');
     self.skipWaiting();
-  }
-
-  if (event.data && event.data.type === 'GET_VERSION') {
-    event.ports[0].postMessage({ version: APP_VERSION });
-  }
-
-  if (event.data && event.data.type === 'CLEAR_CACHE') {
-    caches.keys().then(names => {
-      Promise.all(names.map(n => caches.delete(n)));
-    });
   }
 });

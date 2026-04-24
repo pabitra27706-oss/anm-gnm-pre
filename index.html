@@ -3,6 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ── PWA: Manifest ───────────────────────────────────── -->
+<link rel="manifest" href="/anm-gnm-pre/manifest.json" />
+
+<!-- ── PWA: Theme & Mobile ────────────────────────────── -->
+<meta name="theme-color" content="#0d6efd" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="ANM GNM" />
+
+<!-- ── PWA: Apple Touch Icon ─────────────────────────── -->
+<link
+  rel="apple-touch-icon"
+  href="/anm-gnm-pre/icons/icon-192.png"
+/>
   <meta name="theme-color" content="#c2185b">
   <meta name="description" content="WB ANM GNM 2026 প্রবেশিকা পরীক্ষার সম্পূর্ণ প্রস্তুতি প্ল্যাটফর্ম">
   <meta property="og:title" content="WB ANM GNM 2026 প্রস্তুতি">
@@ -1303,6 +1318,43 @@
 
     }());
   </script>
+  <!-- ── PWA: Service Worker Registration ───────────────── -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker
+        .register('/anm-gnm-pre/sw.js', {
+          scope: '/anm-gnm-pre/'
+        })
+        .then(registration => {
+          console.log('[SW] Registered — scope:', registration.scope);
+          
+          // Check for SW updates every 60 seconds
+          setInterval(() => {
+            registration.update();
+          }, 60 * 1000);
+          
+          // When a new SW is waiting, notify and reload
+          registration.addEventListener('updatefound', () => {
+            const newWorker = registration.installing;
+            newWorker.addEventListener('statechange', () => {
+              if (
+                newWorker.state === 'installed' &&
+                navigator.serviceWorker.controller
+              ) {
+                console.log('[SW] New version available — reloading');
+                newWorker.postMessage({ action: 'skipWaiting' });
+                window.location.reload();
+              }
+            });
+          });
+        })
+        .catch(error => {
+          console.error('[SW] Registration failed:', error);
+        });
+    });
+  }
+</script>
 
 </body>
 </html>
