@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzles | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="10">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 10</span>
+  </nav>
+
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 10 / 14</div>
+    <h1 class="chapter-title">Puzzles</h1>
+    <h2 class="chapter-title-bn">ধাঁধা</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Puzzles (ধাঁধা)</strong> হল জটিল তথ্যের সমষ্টি থেকে যুক্তি ও বিশ্লেষণের মাধ্যমে সমাধান খুঁজে বের করা। এই ধরনের প্রশ্নে একাধিক variable (ব্যক্তি, রঙ, পেশা, শহর ইত্যাদি) থাকে এবং শর্তগুলি মিলিয়ে উত্তর বের করতে হয়। ANM GNM পরীক্ষায় সাধারণত সহজ-মাঝারি স্তরের Puzzle আসে।</p>
+
+      <div class="definition-box">
+        <strong>Logic Puzzle (যুক্তি ধাঁধা):</strong>
+        কিছু তথ্য (clues) দেওয়া থাকে এবং সেগুলি বিশ্লেষণ করে একটি সমাধান তৈরি করতে হয়। প্রতিটি clue কিছু সম্ভাবনা বাদ দিয়ে দেয় (eliminates possibilities)।
+        <em>💡 MCQ Tip: নিশ্চিত তথ্য (definite clues) আগে প্রয়োগ করুন, অনিশ্চিত পরে</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Grid Puzzle (গ্রিড ধাঁধা):</strong>
+        একটি table/grid-এ ব্যক্তি ও তাদের বৈশিষ্ট্য (color, profession, city) সাজিয়ে সমাধান করা হয়। ✓ (yes) এবং ✗ (no) চিহ্ন ব্যবহার করা হয়।
+        <em>💡 MCQ Tip: ✓ এবং ✗ চিহ্ন ব্যবহার করে grid পূরণ করুন</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Ordering/Ranking Puzzle (ক্রম ধাঁধা):</strong>
+        ব্যক্তিদের উচ্চতা, বয়স, marks ইত্যাদি অনুযায়ী ক্রমে সাজানো। "Taller than", "Older than" ইত্যাদি শর্ত থাকে।
+        <em>💡 MCQ Tip: &gt; এবং &lt; চিহ্ন ব্যবহার করে ranking chain লিখুন</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>প্রধান ধরন:</strong> Arrangement, Comparison/Ranking, Scheduling, Distribution</li>
+        <li><strong>Arrangement:</strong> কে কোথায় বসে বা থাকে তা নির্ণয়</li>
+        <li><strong>Comparison:</strong> কে বড়, ছোট, লম্বা বা খাটো তা বের করা</li>
+        <li><strong>Scheduling:</strong> কে কবে বা কখন কী করে তা নির্ণয়</li>
+        <li><strong>Distribution:</strong> কার কোন জিনিস আছে তা বের করা</li>
+        <li><strong>সমাধান পদ্ধতি:</strong> Grid তৈরি → Definite Clue প্রয়োগ → Elimination → Answer</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: RULES & METHOD
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সমাধান পদ্ধতি ও নিয়ম (Solution Method & Rules)</h2>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>ধাপ (Step)</th>
+            <th>কাজ (Action)</th>
+            <th>উদাহরণ (Example)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Step 1</th>
+            <td>সব variables চিহ্নিত করুন</td>
+            <td>Person: A, B, C; Color: Red, Blue, Green</td>
+          </tr>
+          <tr>
+            <th>Step 2</th>
+            <td>Grid বা Table তৈরি করুন</td>
+            <td>Row = Person, Column = Color</td>
+          </tr>
+          <tr>
+            <th>Step 3</th>
+            <td>Definite clues আগে প্রয়োগ করুন</td>
+            <td>"A likes Red" → A–Red = ✓</td>
+          </tr>
+          <tr>
+            <th>Step 4</th>
+            <td>Elimination করুন</td>
+            <td>A = Red → B ≠ Red, C ≠ Red</td>
+          </tr>
+          <tr>
+            <th>Step 5</th>
+            <td>Negative clues প্রয়োগ করুন</td>
+            <td>"B doesn't like Green" → B = Blue</td>
+          </tr>
+          <tr>
+            <th>Step 6</th>
+            <td>বাকি স্থান স্বয়ংক্রিয়ভাবে পূরণ</td>
+            <td>C = Green (একমাত্র বিকল্প)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <pre class="reasoning-diagram">
+        Grid Puzzle Example:
+
+        3 Persons: A, B, C
+        3 Colors : Red, Blue, Green
+
+        Clues:
+        (1) A likes Red
+        (2) B doesn't like Green
+
+              Red    Blue   Green
+        A      ✓      ✗      ✗      ← Clue 1 direct
+        B      ✗      ✓      ✗      ← Red taken; Clue 2 = not Green
+        C      ✗      ✗      ✓      ← Only option left
+
+        Answer: A = Red, B = Blue, C = Green
+      </pre>
+
+      <div class="trick-box">
+        <strong>⚡ Elimination ট্রিক (Elimination Trick):</strong>
+        "Not" বা "doesn't" শর্ত → ✗ চিহ্ন দিন। একটি row বা column-এ যদি একটি ছাড়া বাকি সব ✗ হয়, তাহলে সেটি স্বয়ংক্রিয়ভাবে ✓। এই Elimination method সবচেয়ে দ্রুত কাজ করে।
+      </div>
+
+      <div class="trick-box">
+        <strong>⚡ Ranking Chain ট্রিক (Ranking Trick):</strong>
+        "A is taller than B" → A &gt; B। সব শর্ত &gt; বা &lt; দিয়ে লিখুন, তারপর একটি chain তৈরি করুন: E &gt; C &gt; A &gt; B &gt; D। এতে সব ranking প্রশ্নের উত্তর সরাসরি পাওয়া যায়।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: SOLVED EXAMPLES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong>
+        তিনজন বন্ধু A, B, C তিনটি ভিন্ন রঙ পছন্দ করে: Red, Blue, Green।
+        A লাল পছন্দ করে না। B লাল বা সবুজ কোনোটিই পছন্দ করে না। C কোন রঙ পছন্দ করে?<br>
+        (A) Red  (B) Blue  (C) Green  (D) নির্ধারণ করা সম্ভব নয়
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> B ≠ Red এবং B ≠ Green → B = Blue (একমাত্র বিকল্প)<br>
+          <strong>Step 2:</strong> A ≠ Red এবং Blue = B → A = Green<br>
+          <strong>Step 3:</strong> C-এর জন্য শুধু Red অবশিষ্ট<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (A) Red
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong>
+        ৫ জন ছাত্রের মধ্যে A, B-এর চেয়ে বেশি নম্বর পেয়েছে। C, A-এর চেয়ে বেশি নম্বর পেয়েছে। D, B-এর চেয়ে কম নম্বর পেয়েছে। E, C-এর চেয়ে বেশি নম্বর পেয়েছে। সর্বোচ্চ নম্বর কে পেয়েছে?<br>
+        (A) A  (B) C  (C) E  (D) B
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> তথ্যগুলি লিখুন: A &gt; B, C &gt; A, D &lt; B, E &gt; C<br>
+          <strong>Step 2:</strong> Chain তৈরি: E &gt; C &gt; A &gt; B &gt; D<br>
+          <strong>Step 3:</strong> Chain-এ সবার বামে E → E সর্বোচ্চ<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) E
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Ranking Chain (Highest to Lowest):
+
+        Highest ←─────────────────────→ Lowest
+
+           E  >  C  >  A  >  B  >  D
+          1st   2nd   3rd   4th   5th
+
+        E = সর্বোচ্চ (Highest)
+        D = সর্বনিম্ন (Lowest)
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong>
+        একটি class-এ Ram-এর rank উপর থেকে ১০ম এবং নিচ থেকে ২৬তম। Class-এ মোট কতজন ছাত্র আছে?<br>
+        (A) 34  (B) 35  (C) 36  (D) 37
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Formula মনে রাখুন: Total = Top rank + Bottom rank − 1<br>
+          <strong>Step 2:</strong> Total = 10 + 26 − 1 = 35<br>
+          <strong>Step 3:</strong> মোট ছাত্র = 35<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) 35
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+
+      <ul class="fact-list">
+        <li><strong>Definite Clue আগে:</strong> "A lives in Delhi" → সরাসরি Grid-এ বসান</li>
+        <li><strong>Negative Clue:</strong> "A doesn't live in Delhi" → ✗ দিন, পরে elimination করুন</li>
+        <li><strong>Only Option Rule:</strong> একটি row/column-এ একটি ছাড়া বাকি সব ✗ → সেটি ✓</li>
+        <li><strong>Chain Method:</strong> Ranking-এ &gt; ও &lt; দিয়ে chain তৈরি করুন</li>
+        <li><strong>Total Formula:</strong> Top rank + Bottom rank − 1 = Total members</li>
+        <li><strong>One-to-One Mapping:</strong> প্রতিটি ব্যক্তির একটিই বৈশিষ্ট্য থাকে</li>
+        <li><strong>Cross-Check:</strong> সমাধান শেষে সব clue আবার মিলিয়ে দেখুন</li>
+        <li><strong>MCQ Shortcut:</strong> Options backward verify করুন — সবচেয়ে দ্রুত পদ্ধতি</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ MCQ শর্টকাট (MCQ Shortcut):</strong>
+        MCQ-তে options backward verify করুন। Option (A) ধরে নিন এবং সব clue মেলান। মিললে সেটাই উত্তর, না মিললে পরবর্তী option। এই "Trial and Verify" method Puzzle-এ সময় বাঁচায়।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: PRACTICE QUESTIONS (8)
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. A, B, C, D-এর মধ্যে A, B-এর চেয়ে লম্বা কিন্তু C-এর চেয়ে খাটো। D, C-এর চেয়ে লম্বা। সবচেয়ে লম্বা কে?<br>
+        (A) A  (B) B  (C) C  (D) D</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (D) D — Chain: D &gt; C &gt; A &gt; B। D সবচেয়ে লম্বা।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. X, Y, Z-এর পেশা Doctor, Teacher, Engineer (যেকোনো ক্রমে)। X Doctor নয়। Y Engineer নয়। Z Doctor। Y-এর পেশা কী?<br>
+        (A) Doctor  (B) Teacher  (C) Engineer  (D) নির্ধারণ সম্ভব নয়</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) Teacher — Z=Doctor, Y≠Engineer→Y=Teacher, X=Engineer।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. ৫ জন ছাত্র ভিন্ন নম্বর পেয়েছে। A, B-এর চেয়ে বেশি। C, D-এর চেয়ে বেশি কিন্তু B-এর চেয়ে কম। E সবচেয়ে কম পেয়েছে। দ্বিতীয় সর্বোচ্চ কে?<br>
+        (A) A  (B) B  (C) C  (D) D</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) B — Chain: A &gt; B &gt; C &gt; D &gt; E। B দ্বিতীয় সর্বোচ্চ।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. ৪ জন বন্ধু ৪টি ভিন্ন ফল পছন্দ করে: Apple, Banana, Mango, Orange। A, Apple পছন্দ করে। C, Banana বা Orange পছন্দ করে না। B, Banana পছন্দ করে। D কোন ফল পছন্দ করে?<br>
+        (A) Apple  (B) Banana  (C) Mango  (D) Orange</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (D) Orange — A=Apple, B=Banana, C≠Banana ও ≠Orange → C=Mango। D=Orange।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. একটি class-এ Sita-র rank উপর থেকে ১৫তম এবং নিচ থেকে ২০তম। মোট কতজন ছাত্র?<br>
+        (A) 33  (B) 34  (C) 35  (D) 36</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 34 — Total = 15 + 20 − 1 = 34।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. A, B-এর চেয়ে ভারী। C, D-এর চেয়ে হালকা। D, B-এর চেয়ে হালকা। সবচেয়ে হালকা কে?<br>
+        (A) A  (B) B  (C) C  (D) D</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) C — A &gt; B &gt; D &gt; C। C সবচেয়ে হালকা।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. তিনটি বাড়ি: Red, Blue, Yellow। Red বাড়ি, Blue বাড়ির বাম দিকে। Yellow বাড়ি, Blue বাড়ির ডান দিকে। মাঝের বাড়ি কোনটি?<br>
+        (A) Red  (B) Blue  (C) Yellow  (D) নির্ধারণ সম্ভব নয়</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) Blue — বাম থেকে ডানে: Red – Blue – Yellow। Blue মাঝে।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. ৩ জন বন্ধু P, Q, R তিনটি ভিন্ন শহরে থাকে: Delhi, Mumbai, Chennai। P, Delhi-তে থাকে না। Q, Mumbai-তে থাকে। R কোথায় থাকে?<br>
+        (A) Delhi  (B) Mumbai  (C) Chennai  (D) নির্ধারণ সম্ভব নয়</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) Delhi — Q=Mumbai, P≠Delhi→P=Chennai। R-এর জন্য শুধু Delhi বাকি। R=Delhi।</p>
+      </div>
+
+    </section>
+
+  </article>
+  <!-- ════ end chapter-content ════ -->
+
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>Puzzle ধরন:</strong> Arrangement, Comparison, Scheduling, Distribution</li>
+      <li><strong>সমাধান পদ্ধতি:</strong> Grid তৈরি → Definite Clue → Elimination → Answer</li>
+      <li><strong>Ranking Chain:</strong> &gt; এবং &lt; দিয়ে chain তৈরি করুন</li>
+      <li><strong>Elimination Rule:</strong> "Not" clue → ✗, একটি বাকি → স্বয়ংক্রিয় ✓</li>
+      <li><strong>One-to-One:</strong> প্রতিটি ব্যক্তির একটিই বৈশিষ্ট্য থাকে</li>
+      <li><strong>Total Formula:</strong> Top rank + Bottom rank − 1 = মোট সদস্য</li>
+      <li><strong>MCQ Trick:</strong> Options backward verify করুন — দ্রুততম পদ্ধতি</li>
+      <li><strong>Cross-Check:</strong> সমাধান শেষে সব clue আবার যাচাই করুন</li>
+    </ul>
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="09-seating-arrangement.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="11-statement-assumption.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

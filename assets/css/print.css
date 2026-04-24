@@ -1,0 +1,471 @@
+/**
+ * print.css
+ * Print Stylesheet
+ * WB ANM GNM 2026 Preparation Platform
+ *
+ * Linked with media="print" in HTML:
+ * <link rel="stylesheet" href="/assets/css/print.css" media="print" />
+ *
+ * Goal: Clean, readable, ink-saving A4 layout
+ */
+
+@media print {
+
+  /* ════════════════════════════════════════
+     RESET FOR PRINT
+  ════════════════════════════════════════ */
+
+  *,
+  *::before,
+  *::after {
+    background:     transparent !important;
+    color:          #000000 !important;
+    box-shadow:     none !important;
+    text-shadow:    none !important;
+    filter:         none !important;
+    -webkit-filter: none !important;
+  }
+
+  /* ════════════════════════════════════════
+     PAGE SETUP
+  ════════════════════════════════════════ */
+
+  @page {
+    margin: 1.5cm 2cm;
+    size: A4 portrait;
+  }
+
+  /* First page — no top margin */
+  @page :first {
+    margin-top: 1cm;
+  }
+
+  /* Left pages */
+  @page :left {
+    margin-left: 2.5cm;
+    margin-right: 1.5cm;
+  }
+
+  /* Right pages */
+  @page :right {
+    margin-left: 1.5cm;
+    margin-right: 2.5cm;
+  }
+
+  /* ════════════════════════════════════════
+     DOCUMENT BASE
+  ════════════════════════════════════════ */
+
+  html {
+    font-size: 12pt;
+  }
+
+  body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size:    12pt;
+    line-height:  1.5;
+    color:        #000000 !important;
+    background:   #ffffff !important;
+    margin:       0;
+    padding:      0;
+    /* Remove bottom padding added for mobile nav */
+    padding-bottom: 0 !important;
+  }
+
+  /* ════════════════════════════════════════
+     HIDE NON-PRINT ELEMENTS
+  ════════════════════════════════════════ */
+
+  /* Navigation elements */
+  .app-header,
+  .main-nav,
+  .bottom-nav,
+  header nav,
+  nav,
+  [role="navigation"] {
+    display: none !important;
+  }
+
+  /* Buttons & interactive elements */
+  button,
+  .btn,
+  .btn-group,
+  [type="button"],
+  [type="submit"],
+  [type="reset"] {
+    display: none !important;
+  }
+
+  /* Install prompt */
+  #install-btn {
+    display: none !important;
+  }
+
+  /* Countdown widget buttons */
+  .countdown-set-date,
+  #set-date-btn,
+  #change-date-btn,
+  #save-date-btn,
+  .date-input-wrap {
+    display: none !important;
+  }
+
+  /* Footer (main app footer — keep content) */
+  .app-footer .footer-bottom-links,
+  .app-footer .footer-top > div:not(:first-child) {
+    display: none !important;
+  }
+
+  /* Overlays & toasts */
+  .overlay,
+  .toast,
+  .online-toast,
+  .spinner,
+  .skeleton {
+    display: none !important;
+  }
+
+  /* Hero section decorative elements */
+  .hero-welcome {
+    display: none !important;
+  }
+
+  /* ════════════════════════════════════════
+     TYPOGRAPHY FOR PRINT
+  ════════════════════════════════════════ */
+
+  h1 {
+    font-size:     20pt;
+    font-weight:   bold;
+    margin-bottom: 12pt;
+    page-break-after: avoid;
+    border-bottom: 2pt solid #000;
+    padding-bottom: 6pt;
+  }
+
+  h2 {
+    font-size:     16pt;
+    font-weight:   bold;
+    margin-top:    18pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size:     13pt;
+    font-weight:   bold;
+    margin-top:    14pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+  }
+
+  h4, h5, h6 {
+    font-size:     12pt;
+    font-weight:   bold;
+    margin-top:    10pt;
+    margin-bottom: 4pt;
+    page-break-after: avoid;
+  }
+
+  p {
+    font-size:   11pt;
+    line-height: 1.6;
+    margin-bottom: 8pt;
+    orphans: 3;
+    widows:  3;
+  }
+
+  /* ════════════════════════════════════════
+     LINKS IN PRINT
+  ════════════════════════════════════════ */
+
+  /**
+   * Show URLs next to links for printed output
+   */
+  a[href]::after {
+    content: ' (' attr(href) ')';
+    font-size:  9pt;
+    color:      #555555 !important;
+    font-style: italic;
+  }
+
+  /* Don't show URL for internal/anchor links */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: '';
+  }
+
+  /* Don't show URL for nav links */
+  nav a::after,
+  .app-header a::after,
+  .app-footer a::after {
+    content: '' !important;
+  }
+
+  /* ════════════════════════════════════════
+     PAGE BREAKS
+  ════════════════════════════════════════ */
+
+  /* Avoid breaking inside these elements */
+  blockquote,
+  figure,
+  table,
+  .card,
+  .alert,
+  .dash-card {
+    page-break-inside: avoid;
+  }
+
+  /* Force new page before major sections */
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  /* Never break after headings */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  /* ════════════════════════════════════════
+     IMAGES & MEDIA
+  ════════════════════════════════════════ */
+
+  img {
+    max-width:   100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* Don't print decorative background images */
+  .hero,
+  .section--primary,
+  [style*="background-image"] {
+    background-image: none !important;
+  }
+
+  /* ════════════════════════════════════════
+     TABLES
+  ════════════════════════════════════════ */
+
+  table {
+    width:           100%;
+    border-collapse: collapse;
+    margin-bottom:   12pt;
+    page-break-inside: avoid;
+  }
+
+  th, td {
+    border:        1pt solid #cccccc !important;
+    padding:       6pt 8pt;
+    font-size:     10pt;
+    text-align:    left;
+    vertical-align: top;
+  }
+
+  th {
+    background:  #f0f0f0 !important;
+    color:       #000000 !important;
+    font-weight: bold;
+  }
+
+  /* Repeat table headers on each page */
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+
+  /* ════════════════════════════════════════
+     CARDS & DASHBOARD (Print Layout)
+  ════════════════════════════════════════ */
+
+  /* Stack cards in print */
+  .dashboard-grid,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    display:               block !important;
+    grid-template-columns: none !important;
+  }
+
+  .dash-card,
+  .card {
+    border:        1pt solid #cccccc !important;
+    margin-bottom: 12pt;
+    padding:       12pt;
+    page-break-inside: avoid;
+    border-radius: 0 !important;
+  }
+
+  /* Remove card hover effects */
+  .dash-card::before {
+    display: none !important;
+  }
+
+  /* ════════════════════════════════════════
+     HERO & COUNTDOWN (Simplified)
+  ════════════════════════════════════════ */
+
+  .hero {
+    padding:    12pt 0 !important;
+    text-align: left !important;
+    border-bottom: 1pt solid #cccccc;
+    margin-bottom: 12pt;
+  }
+
+  .hero-title {
+    font-size: 18pt !important;
+    color:     #000000 !important;
+  }
+
+  .hero-subtitle {
+    font-size: 11pt !important;
+    color:     #333333 !important;
+  }
+
+  .countdown-widget {
+    border:    1pt solid #cccccc !important;
+    padding:   8pt !important;
+    display:   inline-block;
+  }
+
+  .exam-badges {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 6pt;
+  }
+
+  .exam-badge {
+    border:    1pt solid #cccccc !important;
+    font-size: 9pt;
+  }
+
+  /* ════════════════════════════════════════
+     STATS (Print Layout)
+  ════════════════════════════════════════ */
+
+  .stats-inner {
+    display:    flex !important;
+    flex-wrap:  wrap;
+    gap:        8pt;
+  }
+
+  .stat-item {
+    border:   1pt solid #cccccc !important;
+    padding:  8pt !important;
+    flex:     1 0 40%;
+    min-width: 80pt;
+  }
+
+  .stat-value {
+    font-size: 16pt !important;
+    color:     #000000 !important;
+  }
+
+  /* ════════════════════════════════════════
+     FOOTER (Simplified for Print)
+  ════════════════════════════════════════ */
+
+  .app-footer {
+    background:   #ffffff !important;
+    color:        #333333 !important;
+    border-top:   1pt solid #cccccc;
+    padding:      8pt 0 !important;
+    margin-top:   16pt;
+  }
+
+  .footer-brand-name {
+    font-size:   13pt;
+    font-weight: bold;
+    color:       #000000 !important;
+  }
+
+  .footer-brand-desc,
+  .footer-copy {
+    font-size: 9pt;
+    color:     #555555 !important;
+  }
+
+  /* ════════════════════════════════════════
+     PRINT HEADER (Auto-generated)
+  ════════════════════════════════════════ */
+
+  /**
+   * Add print-only header at top of document
+   * Using :before on body
+   */
+  body::before {
+    content:     'WB ANM GNM 2026 প্রস্তুতি — wbjee.b.in/ann-gnm/';
+    display:     block;
+    font-size:   9pt;
+    color:       #555555 !important;
+    text-align:  right;
+    border-bottom: 0.5pt solid #cccccc;
+    padding-bottom: 4pt;
+    margin-bottom:  12pt;
+  }
+
+  /* ════════════════════════════════════════
+     PRINT FOOTER (Auto-generated)
+  ════════════════════════════════════════ */
+
+  body::after {
+    content:     'মুদ্রণের তারিখ: ' attr(data-print-date) ' — WB ANM GNM 2026 প্রস্তুতি';
+    display:     block;
+    font-size:   8pt;
+    color:       #888888 !important;
+    text-align:  center;
+    border-top:  0.5pt solid #cccccc;
+    padding-top: 4pt;
+    margin-top:  16pt;
+  }
+
+  /* ════════════════════════════════════════
+     MCQ & PRACTICE PRINT STYLES
+  ════════════════════════════════════════ */
+
+  .question-card {
+    border:       1pt solid #cccccc !important;
+    padding:      10pt;
+    margin-bottom: 10pt;
+    page-break-inside: avoid;
+  }
+
+  .question-number {
+    font-weight: bold;
+    font-size:   11pt;
+  }
+
+  .question-text {
+    font-size:  11pt;
+    margin:     4pt 0 8pt;
+  }
+
+  .option-list {
+    list-style: upper-alpha;
+    padding-left: 20pt;
+    font-size:  10pt;
+  }
+
+  .option-list li {
+    margin-bottom: 3pt;
+  }
+
+  /* Hide answer colors in print — show plain */
+  .option--correct,
+  .option--incorrect,
+  .option--selected {
+    background:  transparent !important;
+    border-color: #cccccc !important;
+    color:        #000000 !important;
+  }
+
+  /* Show answer key annotation */
+  .correct-answer::after {
+    content:    ' ✓';
+    font-weight: bold;
+    color:       #000000 !important;
+  }
+
+} /* end @media print */

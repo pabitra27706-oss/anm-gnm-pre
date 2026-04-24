@@ -1,0 +1,1044 @@
+{
+  "id": "01",
+  "title": "মক টেস্ট ০১",
+  "difficulty": "easy",
+  "duration": 90,
+  "totalQuestions": 100,
+  "questions": [
+    {
+      "id": 0,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মানবদেহের সবচেয়ে বড় অঙ্গ কোনটি?",
+      "options": ["হৃদপিণ্ড", "যকৃৎ", "ত্বক", "ফুসফুস"],
+      "answer": 2,
+      "explanation": "ত্বক মানবদেহের সবচেয়ে বড় অঙ্গ। এটি শরীরকে বাহ্যিক আঘাত থেকে রক্ষা করে।"
+    },
+    {
+      "id": 1,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মানব রক্তের স্বাভাবিক pH কত?",
+      "options": ["6.8 – 7.0", "7.35 – 7.45", "7.8 – 8.0", "6.5 – 7.0"],
+      "answer": 1,
+      "explanation": "মানব রক্তের স্বাভাবিক pH 7.35 থেকে 7.45 এর মধ্যে থাকে।"
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মানবদেহে মোট কতটি হাড় আছে?",
+      "options": ["200", "206", "210", "215"],
+      "answer": 1,
+      "explanation": "একজন পূর্ণবয়স্ক মানুষের দেহে মোট ২০৬টি হাড় থাকে।"
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "subject": "life-science",
+      "question": "হৃদপিণ্ডের কতটি কক্ষ আছে?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2,
+      "explanation": "মানব হৃদপিণ্ডে ৪টি কক্ষ আছে — ডান অলিন্দ, বাম অলিন্দ, ডান নিলয় ও বাম নিলয়।"
+    },
+    {
+      "id": 4,
+      "category": 1,
+      "subject": "life-science",
+      "question": "ইনসুলিন হরমোন কোথায় উৎপন্ন হয়?",
+      "options": ["যকৃৎ", "অগ্ন্যাশয়", "থাইরয়েড গ্রন্থি", "অ্যাড্রিনাল গ্রন্থি"],
+      "answer": 1,
+      "explanation": "ইনসুলিন হরমোন অগ্ন্যাশয়ের বিটা কোষ থেকে উৎপন্ন হয়।"
+    },
+    {
+      "id": 5,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মানবদেহের সবচেয়ে ছোট হাড় কোনটি?",
+      "options": ["স্টেপিস", "ইনকাস", "ম্যালিয়াস", "টিবিয়া"],
+      "answer": 0,
+      "explanation": "কানের মধ্যে অবস্থিত স্টেপিস মানবদেহের সবচেয়ে ছোট হাড়।"
+    },
+    {
+      "id": 6,
+      "category": 1,
+      "subject": "life-science",
+      "question": "লাল রক্তকণিকা কতদিন বাঁচে?",
+      "options": ["60 দিন", "90 দিন", "120 দিন", "150 দিন"],
+      "answer": 2,
+      "explanation": "লাল রক্তকণিকার আয়ুষ্কাল প্রায় ১২০ দিন।"
+    },
+    {
+      "id": 7,
+      "category": 1,
+      "subject": "life-science",
+      "question": "ভিটামিন C এর রাসায়নিক নাম কী?",
+      "options": ["রেটিনল", "অ্যাসকরবিক অ্যাসিড", "ক্যালসিফেরল", "টোকোফেরল"],
+      "answer": 1,
+      "explanation": "ভিটামিন C এর রাসায়নিক নাম অ্যাসকরবিক অ্যাসিড।"
+    },
+    {
+      "id": 8,
+      "category": 1,
+      "subject": "life-science",
+      "question": "DNA-র পূর্ণ রূপ কী?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Diribonucleic Acid",
+        "Deoxyribonicotinic Acid",
+        "Dioxyribonucleic Acid"
+      ],
+      "answer": 0,
+      "explanation": "DNA মানে Deoxyribonucleic Acid — এটি জিনগত তথ্য বহন করে।"
+    },
+    {
+      "id": 9,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মানবদেহে কতটি ক্রোমোজোম আছে?",
+      "options": ["44", "46", "48", "42"],
+      "answer": 1,
+      "explanation": "মানব দেহকোষে মোট ৪৬টি ক্রোমোজোম থাকে (২৩ জোড়া)।"
+    },
+    {
+      "id": 10,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "আলোর গতি কত?",
+      "options": [
+        "3 × 10⁸ m/s",
+        "3 × 10⁶ m/s",
+        "3 × 10¹⁰ m/s",
+        "3 × 10⁴ m/s"
+      ],
+      "answer": 0,
+      "explanation": "শূন্য মাধ্যমে আলোর গতি প্রায় ৩ × ১০⁸ মিটার/সেকেন্ড।"
+    },
+    {
+      "id": 11,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "জলের স্ফুটনাঙ্ক (স্বাভাবিক চাপে) কত?",
+      "options": ["90°C", "95°C", "100°C", "105°C"],
+      "answer": 2,
+      "explanation": "স্বাভাবিক বায়ুচাপে জলের স্ফুটনাঙ্ক ১০০°C।"
+    },
+    {
+      "id": 12,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "বিদ্যুতের একক কী?",
+      "options": ["ওহম", "ওয়াট", "অ্যাম্পিয়ার", "ভোল্ট"],
+      "answer": 2,
+      "explanation": "বৈদ্যুতিক প্রবাহের একক অ্যাম্পিয়ার।"
+    },
+    {
+      "id": 13,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "পদার্থের কতটি অবস্থা আছে?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2,
+      "explanation": "পদার্থের চারটি অবস্থা আছে — কঠিন, তরল, গ্যাস ও প্লাজমা।"
+    },
+    {
+      "id": 14,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "অক্সিজেনের পারমাণবিক সংখ্যা কত?",
+      "options": ["6", "7", "8", "9"],
+      "answer": 2,
+      "explanation": "অক্সিজেনের পারমাণবিক সংখ্যা ৮।"
+    },
+    {
+      "id": 15,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "পানির রাসায়নিক সূত্র কী?",
+      "options": ["HO", "H₂O", "H₂O₂", "HO₂"],
+      "answer": 1,
+      "explanation": "পানির রাসায়নিক সূত্র H₂O।"
+    },
+    {
+      "id": 16,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "শব্দের গতি বায়ুতে প্রায় কত?",
+      "options": ["232 m/s", "332 m/s", "432 m/s", "532 m/s"],
+      "answer": 1,
+      "explanation": "স্বাভাবিক তাপমাত্রায় বায়ুতে শব্দের গতি প্রায় ৩৩২ মিটার/সেকেন্ড।"
+    },
+    {
+      "id": 17,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "পর্যায় সারণির প্রথম মৌল কোনটি?",
+      "options": ["হিলিয়াম", "হাইড্রোজেন", "লিথিয়াম", "কার্বন"],
+      "answer": 1,
+      "explanation": "পর্যায় সারণির প্রথম মৌল হাইড্রোজেন (H)।"
+    },
+    {
+      "id": 18,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "কোন গ্যাস বায়ুমণ্ডলে সবচেয়ে বেশি আছে?",
+      "options": ["অক্সিজেন", "কার্বন ডাই অক্সাইড", "নাইট্রোজেন", "আর্গন"],
+      "answer": 2,
+      "explanation": "বায়ুমণ্ডলে নাইট্রোজেন প্রায় ৭৮% থাকে।"
+    },
+    {
+      "id": 19,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "নিউটনের গতির কয়টি সূত্র আছে?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1,
+      "explanation": "নিউটনের গতির ৩টি সূত্র আছে।"
+    },
+    {
+      "id": 20,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "১ থেকে ১০ পর্যন্ত সংখ্যার গড় কত?",
+      "options": ["4.5", "5", "5.5", "6"],
+      "answer": 2,
+      "explanation": "১ থেকে ১০ পর্যন্ত সংখ্যার যোগফল = ৫৫, মোট = ১০, গড় = ৫.৫।"
+    },
+    {
+      "id": 21,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি বর্গের বাহু 6 সেমি হলে ক্ষেত্রফল কত?",
+      "options": ["24 বর্গ সেমি", "36 বর্গ সেমি", "48 বর্গ সেমি", "30 বর্গ সেমি"],
+      "answer": 1,
+      "explanation": "বর্গের ক্ষেত্রফল = বাহু² = 6² = 36 বর্গ সেমি।"
+    },
+    {
+      "id": 22,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "√144 = ?",
+      "options": ["11", "12", "13", "14"],
+      "answer": 1,
+      "explanation": "√144 = 12, কারণ 12 × 12 = 144।"
+    },
+    {
+      "id": 23,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "2⁵ = ?",
+      "options": ["16", "24", "32", "64"],
+      "answer": 2,
+      "explanation": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32।"
+    },
+    {
+      "id": 24,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি বৃত্তের ব্যাসার্ধ 7 সেমি হলে পরিধি কত? (π = 22/7)",
+      "options": ["44 সেমি", "22 সেমি", "154 সেমি", "88 সেমি"],
+      "answer": 0,
+      "explanation": "বৃত্তের পরিধি = 2πr = 2 × (22/7) × 7 = 44 সেমি।"
+    },
+    {
+      "id": 25,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "LCM of 12 and 18 = ?",
+      "options": ["36", "54", "72", "24"],
+      "answer": 0,
+      "explanation": "12 ও 18 এর LCM = 36।"
+    },
+    {
+      "id": 26,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "15% of 200 = ?",
+      "options": ["25", "30", "35", "40"],
+      "answer": 1,
+      "explanation": "200 এর 15% = (15 × 200) / 100 = 30।"
+    },
+    {
+      "id": 27,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি ত্রিভুজের তিনটি কোণের সমষ্টি কত?",
+      "options": ["90°", "180°", "270°", "360°"],
+      "answer": 1,
+      "explanation": "যেকোনো ত্রিভুজের তিনটি কোণের সমষ্টি ১৮০°।"
+    },
+    {
+      "id": 28,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "48 ÷ 6 × 2 = ?",
+      "options": ["4", "8", "16", "24"],
+      "answer": 2,
+      "explanation": "BODMAS অনুসারে: 48 ÷ 6 = 8, তারপর 8 × 2 = 16।"
+    },
+    {
+      "id": 29,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি সংখ্যার 25% হলো 75। সংখ্যাটি কত?",
+      "options": ["200", "250", "300", "350"],
+      "answer": 2,
+      "explanation": "x × 25/100 = 75 → x = 75 × 4 = 300।"
+    },
+    {
+      "id": 30,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতের জাতীয় পশু কী?",
+      "options": ["সিংহ", "হাতি", "বাঘ", "গণ্ডার"],
+      "answer": 2,
+      "explanation": "বাঘ (রয়্যাল বেঙ্গল টাইগার) ভারতের জাতীয় পশু।"
+    },
+    {
+      "id": 31,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতের রাজধানী কোথায়?",
+      "options": ["মুম্বাই", "কলকাতা", "নতুন দিল্লি", "চেন্নাই"],
+      "answer": 2,
+      "explanation": "নতুন দিল্লি ভারতের রাজধানী।"
+    },
+    {
+      "id": 32,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "পশ্চিমবঙ্গের রাজধানী কোথায়?",
+      "options": ["হাওড়া", "কলকাতা", "দুর্গাপুর", "শিলিগুড়ি"],
+      "answer": 1,
+      "explanation": "কলকাতা পশ্চিমবঙ্গের রাজধানী।"
+    },
+    {
+      "id": 33,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "বিশ্বের সবচেয়ে বড় মহাসাগর কোনটি?",
+      "options": ["আটলান্টিক", "ভারত", "প্রশান্ত", "আর্কটিক"],
+      "answer": 2,
+      "explanation": "প্রশান্ত মহাসাগর বিশ্বের সবচেয়ে বড় মহাসাগর।"
+    },
+    {
+      "id": 34,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "WHO-এর সদর দফতর কোথায়?",
+      "options": ["নিউ ইয়র্ক", "জেনেভা", "লন্ডন", "প্যারিস"],
+      "answer": 1,
+      "explanation": "WHO (বিশ্ব স্বাস্থ্য সংস্থা)-এর সদর দফতর সুইজারল্যান্ডের জেনেভায়।"
+    },
+    {
+      "id": 35,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতের জাতীয় ফুল কী?",
+      "options": ["গোলাপ", "পদ্ম", "সূর্যমুখী", "জুঁই"],
+      "answer": 1,
+      "explanation": "পদ্মফুল ভারতের জাতীয় ফুল।"
+    },
+    {
+      "id": 36,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতীয় সংবিধান কবে গৃহীত হয়?",
+      "options": [
+        "15 আগস্ট 1947",
+        "26 জানুয়ারি 1950",
+        "26 নভেম্বর 1949",
+        "2 অক্টোবর 1950"
+      ],
+      "answer": 1,
+      "explanation": "ভারতীয় সংবিধান ২৬ জানুয়ারি ১৯৫০ সালে কার্যকর হয়।"
+    },
+    {
+      "id": 37,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "আন্তর্জাতিক নার্স দিবস কবে পালিত হয়?",
+      "options": ["10 মে", "12 মে", "14 মে", "16 মে"],
+      "answer": 1,
+      "explanation": "ফ্লোরেন্স নাইটিঙ্গেলের জন্মদিন ১২ মে আন্তর্জাতিক নার্স দিবস।"
+    },
+    {
+      "id": 38,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "বিশ্ব স্বাস্থ্য দিবস কবে পালিত হয়?",
+      "options": ["5 এপ্রিল", "7 এপ্রিল", "10 এপ্রিল", "12 এপ্রিল"],
+      "answer": 1,
+      "explanation": "প্রতি বছর ৭ এপ্রিল বিশ্ব স্বাস্থ্য দিবস পালিত হয়।"
+    },
+    {
+      "id": 39,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "আইসিডিএস (ICDS) প্রকল্পটি কিসের সাথে সম্পর্কিত?",
+      "options": [
+        "শিল্প উন্নয়ন",
+        "শিশু ও মাতৃস্বাস্থ্য",
+        "কৃষি উন্নয়ন",
+        "পরিবেশ সংরক্ষণ"
+      ],
+      "answer": 1,
+      "explanation": "ICDS (Integrated Child Development Services) শিশু ও মাতৃস্বাস্থ্য সেবার সাথে সম্পর্কিত।"
+    },
+    {
+      "id": 40,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "পরবর্তী সংখ্যাটি কী? 2, 4, 8, 16, ___",
+      "options": ["24", "28", "32", "36"],
+      "answer": 2,
+      "explanation": "প্রতিটি সংখ্যা আগের সংখ্যার দ্বিগুণ: 16 × 2 = 32।"
+    },
+    {
+      "id": 41,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "ABCD : DCBA :: MNOP : ___",
+      "options": ["PONM", "PNMO", "OPNM", "NMOP"],
+      "answer": 0,
+      "explanation": "বিপরীত ক্রমে সাজানো হয়: MNOP → PONM।"
+    },
+    {
+      "id": 42,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "যদি CAT = 3120 হয়, তবে DOG = ?",
+      "options": ["41521", "4157", "41521", "4157"],
+      "answer": 1,
+      "explanation": "C=3, A=1, T=20 → CAT=3120। D=4, O=15, G=7 → DOG=4157।"
+    },
+    {
+      "id": 43,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "পরবর্তী সংখ্যাটি কী? 1, 4, 9, 16, 25, ___",
+      "options": ["30", "34", "36", "49"],
+      "answer": 2,
+      "explanation": "এগুলো পূর্ণবর্গ সংখ্যা: 1², 2², 3², 4², 5², 6² = 36।"
+    },
+    {
+      "id": 44,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "5 জন মানুষ 5 দিনে 5টি কাজ করে। 10 জন মানুষ 10 দিনে কতটি কাজ করবে?",
+      "options": ["10", "20", "50", "100"],
+      "answer": 3,
+      "explanation": "হার একই থাকে: 1 জন 1 দিনে 1টি কাজ করে। তাই 10 × 10 = 100।"
+    },
+    {
+      "id": 45,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "বিজোড়টি বাছুন: আপেল, আম, কলা, গাজর, আঙুর",
+      "options": ["আপেল", "আম", "গাজর", "আঙুর"],
+      "answer": 2,
+      "explanation": "গাজর একটি সবজি, বাকিগুলো ফল।"
+    },
+    {
+      "id": 46,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "রাম সিতার চেয়ে বড়। সিতা মালার চেয়ে বড়। কে সবচেয়ে ছোট?",
+      "options": ["রাম", "সিতা", "মালা", "সবাই সমান"],
+      "answer": 2,
+      "explanation": "রাম > সিতা > মালা, তাই মালা সবচেয়ে ছোট।"
+    },
+    {
+      "id": 47,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "পরবর্তীটি কী? A, C, E, G, ___",
+      "options": ["H", "I", "J", "K"],
+      "answer": 1,
+      "explanation": "প্রতিটি বর্ণ একটি করে বাদ দেওয়া হয়েছে: A, C, E, G, I।"
+    },
+    {
+      "id": 48,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "যদি 4 × 5 = 2520 হয়, তবে 3 × 4 = ?",
+      "options": ["1216", "1223", "1212", "1224"],
+      "answer": 3,
+      "explanation": "নিয়মটি হলো: a × b = (a² × b²) = 4² × 5² = 16 × 25... প্যাটার্ন অনুযায়ী 3 × 4 = 1224।"
+    },
+    {
+      "id": 49,
+      "category": 1,
+      "subject": "logical-reasoning",
+      "question": "কোনটি বাকিগুলোর থেকে আলাদা? 7, 11, 13, 17, 19, 21",
+      "options": ["7", "13", "19", "21"],
+      "answer": 3,
+      "explanation": "21 = 3 × 7, যৌগিক সংখ্যা। বাকি সব মৌলিক সংখ্যা।"
+    },
+    {
+      "id": 50,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Choose the correct synonym of 'Happy':",
+      "options": ["Sad", "Joyful", "Angry", "Tired"],
+      "answer": 1,
+      "explanation": "'Happy' এর সমার্থক শব্দ 'Joyful'।"
+    },
+    {
+      "id": 51,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Choose the correct antonym of 'Hot':",
+      "options": ["Warm", "Cool", "Cold", "Mild"],
+      "answer": 2,
+      "explanation": "'Hot' এর বিপরীতার্থক শব্দ 'Cold'।"
+    },
+    {
+      "id": 52,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Fill in the blank: She ___ to school every day.",
+      "options": ["go", "goes", "going", "gone"],
+      "answer": 1,
+      "explanation": "তৃতীয় পুরুষ একবচনে সহায়ক ক্রিয়া 'goes' ব্যবহার হয়।"
+    },
+    {
+      "id": 53,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Which is the plural of 'Child'?",
+      "options": ["Childs", "Childes", "Children", "Childrens"],
+      "answer": 2,
+      "explanation": "'Child' এর plural হলো 'Children'।"
+    },
+    {
+      "id": 54,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "The nurse ___ the patient's blood pressure.",
+      "options": ["check", "checks", "checking", "checked"],
+      "answer": 1,
+      "explanation": "তৃতীয় পুরুষ একবচন present tense এ 'checks' ব্যবহার হয়।"
+    },
+    {
+      "id": 55,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Choose the correct spelling:",
+      "options": ["Temprature", "Temperature", "Temperture", "Tempreture"],
+      "answer": 1,
+      "explanation": "সঠিক বানান হলো 'Temperature'।"
+    },
+    {
+      "id": 56,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She don't like coffee.",
+        "She doesn't likes coffee.",
+        "She doesn't like coffee.",
+        "She not like coffee."
+      ],
+      "answer": 2,
+      "explanation": "তৃতীয় পুরুষ একবচনে 'doesn't' এবং মূল ক্রিয়া 'like' ব্যবহার হয়।"
+    },
+    {
+      "id": 57,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "The meaning of 'Diagnosis' is:",
+      "options": [
+        "Treatment of disease",
+        "Identification of disease",
+        "Prevention of disease",
+        "Cure of disease"
+      ],
+      "answer": 1,
+      "explanation": "'Diagnosis' মানে রোগ শনাক্তকরণ (Identification of disease)।"
+    },
+    {
+      "id": 58,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "Choose the correct article: ___ apple a day keeps the doctor away.",
+      "options": ["A", "An", "The", "No article"],
+      "answer": 1,
+      "explanation": "স্বরবর্ণ দিয়ে শুরু হওয়া শব্দের আগে 'An' ব্যবহার হয়।"
+    },
+    {
+      "id": 59,
+      "category": 1,
+      "subject": "basic-english",
+      "question": "What is the past tense of 'Give'?",
+      "options": ["Gived", "Given", "Gave", "Gives"],
+      "answer": 2,
+      "explanation": "'Give' এর past tense হলো 'Gave'।"
+    },
+    {
+      "id": 60,
+      "category": 1,
+      "subject": "nursing",
+      "question": "নার্সিং প্রক্রিয়ার প্রথম ধাপ কোনটি?",
+      "options": ["পরিকল্পনা", "মূল্যায়ন", "নির্ণয়", "মূল্যায়ন (Assessment)"],
+      "answer": 3,
+      "explanation": "নার্সিং প্রক্রিয়ার পাঁচটি ধাপের প্রথমটি হলো Assessment (মূল্যায়ন)।"
+    },
+    {
+      "id": 61,
+      "category": 1,
+      "subject": "nursing",
+      "question": "প্রাথমিক চিকিৎসায় ABC মানে কী?",
+      "options": [
+        "Airway, Breathing, Circulation",
+        "Antibiotics, Bandage, Care",
+        "Assessment, Blood, Cardiac",
+        "Airway, Blood, Compression"
+      ],
+      "answer": 0,
+      "explanation": "প্রাথমিক চিকিৎসায় ABC = Airway (শ্বাসপথ), Breathing (শ্বাস), Circulation (রক্তসঞ্চালন)।"
+    },
+    {
+      "id": 62,
+      "category": 1,
+      "subject": "nursing",
+      "question": "স্বাভাবিক শ্বাস-প্রশ্বাসের হার (প্রাপ্তবয়স্ক) প্রতি মিনিটে কত?",
+      "options": ["8–12", "12–20", "20–30", "30–40"],
+      "answer": 1,
+      "explanation": "প্রাপ্তবয়স্কদের স্বাভাবিক শ্বাস-প্রশ্বাসের হার প্রতি মিনিটে ১২–২০।"
+    },
+    {
+      "id": 63,
+      "category": 1,
+      "subject": "nursing",
+      "question": "স্বাভাবিক নাড়ির হার (প্রাপ্তবয়স্ক) প্রতি মিনিটে কত?",
+      "options": ["40–60", "60–100", "100–120", "120–140"],
+      "answer": 1,
+      "explanation": "প্রাপ্তবয়স্কদের স্বাভাবিক নাড়ির হার প্রতি মিনিটে ৬০–১০০।"
+    },
+    {
+      "id": 64,
+      "category": 1,
+      "subject": "nursing",
+      "question": "Fowler's position কোন রোগীর জন্য উপযুক্ত?",
+      "options": [
+        "কার্ডিয়াক রোগী",
+        "শ্বাসকষ্টের রোগী",
+        "মূত্রনালির সমস্যার রোগী",
+        "মেরুদণ্ডের আঘাতের রোগী"
+      ],
+      "answer": 1,
+      "explanation": "Fowler's position (আধা-বসা অবস্থান) শ্বাসকষ্টের রোগীর জন্য উপযুক্ত।"
+    },
+    {
+      "id": 65,
+      "category": 1,
+      "subject": "nursing",
+      "question": "স্বাভাবিক রক্তচাপ (প্রাপ্তবয়স্ক) কত?",
+      "options": [
+        "100/60 mmHg",
+        "120/80 mmHg",
+        "140/90 mmHg",
+        "160/100 mmHg"
+      ],
+      "answer": 1,
+      "explanation": "প্রাপ্তবয়স্কদের স্বাভাবিক রক্তচাপ ১২০/৮০ mmHg।"
+    },
+    {
+      "id": 66,
+      "category": 1,
+      "subject": "nursing",
+      "question": "Thermometer কক্ষে কতক্ষণ রাখতে হয়?",
+      "options": ["1 মিনিট", "2 মিনিট", "3 মিনিট", "5 মিনিট"],
+      "answer": 2,
+      "explanation": "মুখে তাপমাত্রা মাপার জন্য Thermometer সাধারণত ৩ মিনিট রাখতে হয়।"
+    },
+    {
+      "id": 67,
+      "category": 1,
+      "subject": "nursing",
+      "question": "PPE-এর পূর্ণ রূপ কী?",
+      "options": [
+        "Personal Protective Equipment",
+        "Patient Protection Equipment",
+        "Primary Preventive Equipment",
+        "Protective Patient Examination"
+      ],
+      "answer": 0,
+      "explanation": "PPE = Personal Protective Equipment (ব্যক্তিগত সুরক্ষা সরঞ্জাম)।"
+    },
+    {
+      "id": 68,
+      "category": 1,
+      "subject": "nursing",
+      "question": "Triage মানে কী?",
+      "options": [
+        "রোগীর অস্ত্রোপচার",
+        "রোগীর অগ্রাধিকার নির্ধারণ",
+        "রোগীর ওষুধ প্রদান",
+        "রোগীর ছুটি"
+      ],
+      "answer": 1,
+      "explanation": "Triage মানে জরুরি পরিস্থিতিতে রোগীর চিকিৎসার অগ্রাধিকার নির্ধারণ।"
+    },
+    {
+      "id": 69,
+      "category": 1,
+      "subject": "nursing",
+      "question": "হাত ধোয়ার সঠিক সময় কতক্ষণ?",
+      "options": ["10–15 সেকেন্ড", "20–30 সেকেন্ড", "40–50 সেকেন্ড", "60 সেকেন্ড"],
+      "answer": 1,
+      "explanation": "WHO নির্দেশিকা অনুযায়ী হাত ধোয়ার সময় ২০–৩০ সেকেন্ড।"
+    },
+    {
+      "id": 70,
+      "category": 1,
+      "subject": "anatomy",
+      "question": "মানবদেহের সবচেয়ে বড় পেশি কোনটি?",
+      "options": ["বাইসেপস", "গ্লুটিয়াস ম্যাক্সিমাস", "কোয়াড্রিসেপস", "হ্যামস্ট্রিং"],
+      "answer": 1,
+      "explanation": "গ্লুটিয়াস ম্যাক্সিমাস (নিতম্বের পেশি) মানবদেহের সবচেয়ে বড় পেশি।"
+    },
+    {
+      "id": 71,
+      "category": 1,
+      "subject": "anatomy",
+      "question": "মানব শরীরের কোন অঙ্গ রক্ত পরিষ্কার করে?",
+      "options": ["হৃদপিণ্ড", "যকৃৎ", "বৃক্ক", "প্লীহা"],
+      "answer": 2,
+      "explanation": "বৃক্ক (কিডনি) রক্ত থেকে দূষিত পদার্থ ছেঁকে মূত্র তৈরি করে।"
+    },
+    {
+      "id": 72,
+      "category": 1,
+      "subject": "anatomy",
+      "question": "কোন রক্তনালী হৃদপিণ্ড থেকে রক্ত বহন করে?",
+      "options": ["শিরা", "ধমনী", "কৈশিকনালী", "লসিকাবাহী নালী"],
+      "answer": 1,
+      "explanation": "ধমনী হৃদপিণ্ড থেকে শরীরের বিভিন্ন অংশে রক্ত বহন করে।"
+    },
+    {
+      "id": 73,
+      "category": 1,
+      "subject": "anatomy",
+      "question": "মানব মস্তিষ্কের ওজন প্রায় কত?",
+      "options": ["1 কেজি", "1.4 কেজি", "2 কেজি", "2.5 কেজি"],
+      "answer": 1,
+      "explanation": "মানব মস্তিষ্কের গড় ওজন প্রায় ১.৪ কিলোগ্রাম।"
+    },
+    {
+      "id": 74,
+      "category": 1,
+      "subject": "anatomy",
+      "question": "সবচেয়ে বড় অন্তঃক্ষরা গ্রন্থি কোনটি?",
+      "options": ["থাইরয়েড", "অগ্ন্যাশয়", "অ্যাড্রিনাল", "পিটুইটারি"],
+      "answer": 0,
+      "explanation": "থাইরয়েড গ্রন্থি মানবদেহের সবচেয়ে বড় অন্তঃক্ষরা গ্রন্থি।"
+    },
+    {
+      "id": 75,
+      "category": 1,
+      "subject": "physiology",
+      "question": "মানবদেহে মোট রক্তের পরিমাণ প্রায় কত লিটার?",
+      "options": ["3–4", "4–5", "5–6", "6–7"],
+      "answer": 2,
+      "explanation": "একজন প্রাপ্তবয়স্ক মানুষের শরীরে প্রায় ৫–৬ লিটার রক্ত থাকে।"
+    },
+    {
+      "id": 76,
+      "category": 1,
+      "subject": "physiology",
+      "question": "হিমোগ্লোবিনে কোন ধাতু থাকে?",
+      "options": ["জিঙ্ক", "তামা", "আয়রন", "ক্যালসিয়াম"],
+      "answer": 2,
+      "explanation": "হিমোগ্লোবিনে আয়রন (লোহা) থাকে, যা অক্সিজেন বহন করে।"
+    },
+    {
+      "id": 77,
+      "category": 1,
+      "subject": "physiology",
+      "question": "স্বাভাবিক শরীরের তাপমাত্রা (মুখে) কত?",
+      "options": ["36°C", "37°C", "38°C", "36.5°C"],
+      "answer": 1,
+      "explanation": "মুখে পরিমাপ করা স্বাভাবিক শরীরের তাপমাত্রা ৩৭°C (৯৮.৬°F)।"
+    },
+    {
+      "id": 78,
+      "category": 1,
+      "subject": "physiology",
+      "question": "গ্লুকোজ মস্তিষ্কের প্রধান কী?",
+      "options": ["জ্বালানি", "কাঠামো", "রং", "সুরক্ষা"],
+      "answer": 0,
+      "explanation": "মস্তিষ্কের কোষের জন্য গ্লুকোজ প্রধান জ্বালানি (শক্তির উৎস)।"
+    },
+    {
+      "id": 79,
+      "category": 1,
+      "subject": "physiology",
+      "question": "পিত্তরস (Bile) কোথায় তৈরি হয়?",
+      "options": ["পাকস্থলী", "যকৃৎ", "অগ্ন্যাশয়", "ক্ষুদ্রান্ত্র"],
+      "answer": 1,
+      "explanation": "পিত্তরস যকৃতে তৈরি হয় এবং পিত্তথলিতে সঞ্চিত থাকে।"
+    },
+    {
+      "id": 80,
+      "category": 1,
+      "subject": "nutrition",
+      "question": "কোন ভিটামিনের অভাবে রিকেট রোগ হয়?",
+      "options": ["ভিটামিন A", "ভিটামিন B", "ভিটামিন C", "ভিটামিন D"],
+      "answer": 3,
+      "explanation": "ভিটামিন D এর অভাবে শিশুদের রিকেট এবং প্রাপ্তবয়স্কদের অস্টিওমালেসিয়া হয়।"
+    },
+    {
+      "id": 81,
+      "category": 1,
+      "subject": "nutrition",
+      "question": "আয়রনের সর্বোত্তম উৎস কোনটি?",
+      "options": ["দুধ", "সবুজ শাকসবজি", "মাখন", "চিনি"],
+      "answer": 1,
+      "explanation": "সবুজ শাকসবজি (বিশেষত পালং শাক) আয়রনের একটি ভালো উৎস।"
+    },
+    {
+      "id": 82,
+      "category": 1,
+      "subject": "nutrition",
+      "question": "প্রোটিনের মৌলিক একক কী?",
+      "options": ["গ্লুকোজ", "ফ্যাটি অ্যাসিড", "অ্যামাইনো অ্যাসিড", "নিউক্লিওটাইড"],
+      "answer": 2,
+      "explanation": "প্রোটিনের মৌলিক একক হলো অ্যামাইনো অ্যাসিড।"
+    },
+    {
+      "id": 83,
+      "category": 1,
+      "subject": "nutrition",
+      "question": "কোন খনিজ হাড় ও দাঁত গঠনে সাহায্য করে?",
+      "options": ["আয়রন", "ক্যালসিয়াম", "সোডিয়াম", "পটাশিয়াম"],
+      "answer": 1,
+      "explanation": "ক্যালসিয়াম হাড় ও দাঁত গঠন ও মজবুত রাখতে সাহায্য করে।"
+    },
+    {
+      "id": 84,
+      "category": 1,
+      "subject": "health",
+      "question": "ORS-এর পূর্ণ রূপ কী?",
+      "options": [
+        "Oral Rehydration Solution",
+        "Oral Respiratory System",
+        "Organic Renal Solution",
+        "Oral Recovery Salt"
+      ],
+      "answer": 0,
+      "explanation": "ORS = Oral Rehydration Solution (মুখে খাওয়ার পানিশূন্যতার সমাধান)।"
+    },
+    {
+      "id": 85,
+      "category": 2,
+      "subject": "life-science",
+      "question": "নিচের কোনগুলো মানব শরীরের প্রধান তন্ত্র? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "স্নায়ুতন্ত্র",
+        "পরিপাকতন্ত্র",
+        "আলোকতন্ত্র",
+        "শ্বাসতন্ত্র"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "স্নায়ুতন্ত্র, পরিপাকতন্ত্র ও শ্বাসতন্ত্র মানব শরীরের প্রধান তন্ত্র। আলোকতন্ত্র বলে কিছু নেই।"
+    },
+    {
+      "id": 86,
+      "category": 2,
+      "subject": "nursing",
+      "question": "নার্সিং-এর মৌলিক নীতি কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "মানবিক মর্যাদা রক্ষা",
+        "রোগীর স্বায়ত্তশাসন",
+        "অর্থ উপার্জন করা",
+        "ন্যায়বিচার"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "মানবিক মর্যাদা, স্বায়ত্তশাসন ও ন্যায়বিচার নার্সিং-এর মৌলিক নীতি।"
+    },
+    {
+      "id": 87,
+      "category": 2,
+      "subject": "health",
+      "question": "প্রাথমিক স্বাস্থ্যসেবার উপাদান কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "টিকাদান",
+        "মাতৃস্বাস্থ্য পরিচর্যা",
+        "বিশেষজ্ঞ অস্ত্রোপচার",
+        "পুষ্টি সেবা"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "টিকাদান, মাতৃস্বাস্থ্য পরিচর্যা ও পুষ্টি সেবা প্রাথমিক স্বাস্থ্যসেবার অংশ।"
+    },
+    {
+      "id": 88,
+      "category": 2,
+      "subject": "anatomy",
+      "question": "মানব পাচনতন্ত্রের অংশ কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পাকস্থলী",
+        "ক্ষুদ্রান্ত্র",
+        "ফুসফুস",
+        "বৃহদান্ত্র"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "পাকস্থলী, ক্ষুদ্রান্ত্র ও বৃহদান্ত্র পাচনতন্ত্রের অংশ। ফুসফুস শ্বাসতন্ত্রের অংশ।"
+    },
+    {
+      "id": 89,
+      "category": 2,
+      "subject": "physiology",
+      "question": "রক্তের উপাদান কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "লাল রক্তকণিকা",
+        "শ্বেত রক্তকণিকা",
+        "লসিকা",
+        "অণুচক্রিকা"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "লাল রক্তকণিকা, শ্বেত রক্তকণিকা ও অণুচক্রিকা রক্তের কোষীয় উপাদান।"
+    },
+    {
+      "id": 90,
+      "category": 2,
+      "subject": "life-science",
+      "question": "কোনগুলো সংক্রামক রোগ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "যক্ষ্মা",
+        "ম্যালেরিয়া",
+        "ডায়াবেটিস",
+        "কলেরা"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "যক্ষ্মা, ম্যালেরিয়া ও কলেরা সংক্রামক রোগ। ডায়াবেটিস অসংক্রামক রোগ।"
+    },
+    {
+      "id": 91,
+      "category": 2,
+      "subject": "nursing",
+      "question": "সঠিক ইনজেকশন দেওয়ার ধাপ কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "হাত ধোয়া",
+        "সঠিক স্থান নির্বাচন",
+        "প্রতিবার সুই পুনর্ব্যবহার",
+        "ইনজেকশন পরবর্তী পর্যবেক্ষণ"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "হাত ধোয়া, সঠিক স্থান নির্বাচন ও পরবর্তী পর্যবেক্ষণ সঠিক পদ্ধতি। সুই পুনর্ব্যবহার বিপজ্জনক।"
+    },
+    {
+      "id": 92,
+      "category": 2,
+      "subject": "general-knowledge",
+      "question": "নিচের কোনগুলো জাতিসংঘের অঙ্গ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "নিরাপত্তা পরিষদ",
+        "সাধারণ পরিষদ",
+        "ন্যাটো",
+        "আন্তর্জাতিক বিচার আদালত"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "নিরাপত্তা পরিষদ, সাধারণ পরিষদ ও আন্তর্জাতিক বিচার আদালত জাতিসংঘের অঙ্গ।"
+    },
+    {
+      "id": 93,
+      "category": 2,
+      "subject": "nutrition",
+      "question": "পানিতে দ্রবণীয় ভিটামিন কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ভিটামিন C",
+        "ভিটামিন D",
+        "ভিটামিন B12",
+        "ভিটামিন B1"
+      ],
+      "answer": [0, 2, 3],
+      "explanation": "ভিটামিন C, B12 ও B1 পানিতে দ্রবণীয়। ভিটামিন D চর্বিতে দ্রবণীয়।"
+    },
+    {
+      "id": 94,
+      "category": 2,
+      "subject": "health",
+      "question": "WHO নির্দেশিত হাত ধোয়ার সময় কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "খাবার আগে",
+        "টয়লেট ব্যবহারের পরে",
+        "টিভি দেখার পরে",
+        "রোগী স্পর্শ করার পরে"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "WHO-র নির্দেশিকা অনুযায়ী খাবার আগে, টয়লেটের পরে ও রোগী স্পর্শের পরে হাত ধুতে হয়।"
+    },
+    {
+      "id": 95,
+      "category": 2,
+      "subject": "life-science",
+      "question": "কোনগুলো অটোইমিউন রোগ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "রিউমাটয়েড আর্থ্রাইটিস",
+        "টাইপ-1 ডায়াবেটিস",
+        "সাধারণ সর্দি",
+        "সিস্টেমিক লুপাস এরিথেমাটোসাস"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "রিউমাটয়েড আর্থ্রাইটিস, টাইপ-1 ডায়াবেটিস ও লুপাস অটোইমিউন রোগ।"
+    },
+    {
+      "id": 96,
+      "category": 2,
+      "subject": "anatomy",
+      "question": "মানব মস্তিষ্কের অংশ কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সেরেব্রাম",
+        "সেরেবেলাম",
+        "অ্যামিগডালা",
+        "থাইমাস"
+      ],
+      "answer": [0, 1, 2],
+      "explanation": "সেরেব্রাম, সেরেবেলাম ও অ্যামিগডালা মস্তিষ্কের অংশ। থাইমাস একটি গ্রন্থি।"
+    },
+    {
+      "id": 97,
+      "category": 2,
+      "subject": "physiology",
+      "question": "হরমোনের কাজ কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বিপাক নিয়ন্ত্রণ",
+        "বৃদ্ধি ও বিকাশ",
+        "শব্দ পরিবহন",
+        "প্রজনন নিয়ন্ত্রণ"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "হরমোন বিপাক, বৃদ্ধি ও প্রজনন নিয়ন্ত্রণ করে। শব্দ পরিবহন স্নায়ুতন্ত্রের কাজ।"
+    },
+    {
+      "id": 98,
+      "category": 2,
+      "subject": "nursing",
+      "question": "Infection control-এর পদ্ধতি কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "হাত ধোয়া",
+        "PPE ব্যবহার",
+        "রোগীর সাথে বেশি সময় কাটানো",
+        "সঠিক বর্জ্য ব্যবস্থাপনা"
+      ],
+      "answer": [0, 1, 3],
+      "explanation": "হাত ধোয়া, PPE ব্যবহার ও সঠিক বর্জ্য ব্যবস্থাপনা সংক্রমণ নিয়ন্ত্রণের পদ্ধতি।"
+    },
+    {
+      "id": 99,
+      "category": 2,
+      "subject": "health",
+      "question": "প্রতিরোধমূলক স্বাস্থ্য পরিচর্যার স্তর কোনগুলো? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "প্রাথমিক প্রতিরোধ",
+        "মাধ্যমিক প্রতিরোধ",
+        "তৃতীয় পর্যায়ের প্রতিরোধ",
+        "চতুর্থ পর্যায়ের প্রতিরোধ"
+      ],
+      "answer": [0, 1, 2],
+      "explanation": "প্রতিরোধের তিনটি স্তর: প্রাথমিক (রোগ প্রতিরোধ), মাধ্যমিক (প্রাথমিক শনাক্তকরণ) ও তৃতীয় (পুনর্বাসন)।"
+    }
+  ]
+}

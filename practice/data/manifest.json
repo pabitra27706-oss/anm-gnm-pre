@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-01",
+  "subjects": {
+    "life-science": {
+      "name": "জীবন বিজ্ঞান",
+      "english": "Life Science",
+      "totalSets": 10,
+      "questionsPerSet": 20,
+      "color": "#22c55e",
+      "colorLight": "#dcfce7",
+      "icon": "microscope"
+    },
+    "physical-science": {
+      "name": "ভৌত বিজ্ঞান",
+      "english": "Physical Science",
+      "totalSets": 10,
+      "questionsPerSet": 20,
+      "color": "#3b82f6",
+      "colorLight": "#dbeafe",
+      "icon": "atom"
+    },
+    "mathematics": {
+      "name": "গণিত",
+      "english": "Mathematics",
+      "totalSets": 10,
+      "questionsPerSet": 20,
+      "color": "#f59e0b",
+      "colorLight": "#fef3c7",
+      "icon": "calculator"
+    },
+    "general-knowledge": {
+      "name": "সাধারণ জ্ঞান",
+      "english": "General Knowledge",
+      "totalSets": 10,
+      "questionsPerSet": 20,
+      "color": "#8b5cf6",
+      "colorLight": "#ede9fe",
+      "icon": "globe"
+    },
+    "logical-reasoning": {
+      "name": "যুক্তিবিদ্যা",
+      "english": "Logical Reasoning",
+      "totalSets": 10,
+      "questionsPerSet": 20,
+      "color": "#ec4899",
+      "colorLight": "#fce7f3",
+      "icon": "brain"
+    },
+    "basic-english": {
+      "name": "ইংরেজি",
+      "english": "Basic English",
+      "totalSets": 10,
+      "questionsPerSet": 20,
+      "color": "#14b8a6",
+      "colorLight": "#ccfbf1",
+      "icon": "book"
+    }
+  }
+}

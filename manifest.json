@@ -1,0 +1,82 @@
+{
+  "name": "WB ANM GNM 2026 প্রস্তুতি",
+  "short_name": "ANM GNM Prep",
+  "description": "West Bengal ANM GNM প্রবেশিকা পরীক্ষা সম্পূর্ণ প্রস্তুতি প্ল্যাটফর্ম — বিষয়ভিত্তিক পড়াশোনা, মক টেস্ট, পুরনো প্রশ্ন",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#e91e63",
+  "lang": "bn",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "মক টেস্ট শুরু করুন",
+      "short_name": "মক টেস্ট",
+      "description": "নতুন মক টেস্ট শুরু করুন",
+      "url": "/mock-test/",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "অনুশীলন করুন",
+      "short_name": "অনুশীলন",
+      "description": "MCQ অনুশীলন করুন",
+      "url": "/practice/",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["education", "medical"],
+  "screenshots": []
+}

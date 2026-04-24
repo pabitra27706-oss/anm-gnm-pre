@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+  <!-- ═══════════════════════════════════════
+       META TAGS
+  ═══════════════════════════════════════ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#e91e63" />
+  <meta name="description" content="West Bengal ANM GNM প্রবেশিকা পরীক্ষা ২০২৬ সম্পূর্ণ প্রস্তুতি প্ল্যাটফর্ম" />
+  <meta name="keywords" content="WB ANM GNM 2026, nursing entrance, West Bengal, প্রস্তুতি" />
+  <meta name="author" content="WB ANM GNM Prep" />
+
+  <!-- PWA Meta Tags -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="ANM GNM Prep" />
+  <meta name="application-name" content="ANM GNM Prep" />
+  <meta name="msapplication-TileColor" content="#e91e63" />
+  <meta name="msapplication-TileImage" content="/icons/icon-144.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="WB ANM GNM 2026 প্রস্তুতি" />
+  <meta property="og:description" content="সম্পূর্ণ বিনামূল্যে ANM GNM পরীক্ষার প্রস্তুতি নিন" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="bn_IN" />
+
+  <title>WB ANM GNM 2026 প্রস্তুতি</title>
+
+  <!-- ═══════════════════════════════════════
+       MANIFEST & FAVICON
+  ═══════════════════════════════════════ -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-72.png" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152.png" />
+
+  <!-- ═══════════════════════════════════════
+       GOOGLE FONTS - Hind Siliguri (Bengali)
+  ═══════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- ═══════════════════════════════════════
+       CSS IMPORTS (Order matters)
+  ═══════════════════════════════════════ -->
+  <link rel="stylesheet" href="/assets/css/variables.css" />
+  <link rel="stylesheet" href="/assets/css/reset.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/typography.css" />
+  <link rel="stylesheet" href="/assets/css/utilities.css" />
+  <link rel="stylesheet" href="/assets/css/print.css" media="print" />
+
+  <!-- ═══════════════════════════════════════
+       PAGE-SPECIFIC STYLES
+  ═══════════════════════════════════════ -->
+  <style>
+    /* ── Header ── */
+    .app-header {
+      background: var(--gradient-primary);
+      color: var(--color-white);
+      padding: var(--space-3) var(--space-4);
+      position: sticky;
+      top: 0;
+      z-index: var(--z-sticky);
+      box-shadow: var(--shadow-md);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .header-logo {
+      width: 40px;
+      height: 40px;
+      background: rgba(255,255,255,0.2);
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      flex-shrink: 0;
+    }
+
+    .header-title {
+      font-size: var(--text-base);
+      font-weight: var(--font-bold);
+      line-height: 1.2;
+    }
+
+    .header-subtitle {
+      font-size: var(--text-xs);
+      opacity: 0.85;
+      font-weight: var(--font-normal);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    /* Install button - hidden by default */
+    #install-btn {
+      display: none;
+      background: rgba(255,255,255,0.2);
+      color: var(--color-white);
+      border: 1px solid rgba(255,255,255,0.4);
+      padding: var(--space-1) var(--space-3);
+      border-radius: var(--radius-full);
+      font-size: var(--text-xs);
+      font-family: inherit;
+      cursor: pointer;
+      transition: background var(--transition-fast);
+      white-space: nowrap;
+    }
+
+    #install-btn:hover {
+      background: rgba(255,255,255,0.35);
+    }
+
+    #install-btn.visible {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+    }
+
+    /* ── Navigation Bar ── */
+    .main-nav {
+      background: var(--bg-primary);
+      border-bottom: 1px solid var(--border-color);
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .main-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 var(--space-2);
+    }
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+      padding: var(--space-3) var(--space-3);
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: var(--text-sm);
+      font-weight: var(--font-medium);
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: color var(--transition-fast), border-color var(--transition-fast);
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    .nav-link svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    /* ── Hero Section ── */
+    .hero {
+      background: linear-gradient(135deg, #fce4ec 0%, #e3f2fd 100%);
+      padding: var(--space-8) var(--space-4);
+      text-align: center;
+    }
+
+    .hero-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .hero-welcome {
+      font-size: var(--text-sm);
+      color: var(--primary);
+      font-weight: var(--font-semibold);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: var(--space-2);
+    }
+
+    .hero-title {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-bold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-2);
+      line-height: 1.3;
+    }
+
+    @media (min-width: 768px) {
+      .hero-title {
+        font-size: var(--text-3xl);
+      }
+    }
+
+    .hero-subtitle {
+      font-size: var(--text-base);
+      color: var(--text-secondary);
+      margin-bottom: var(--space-6);
+    }
+
+    /* Countdown Widget */
+    .countdown-widget {
+      background: var(--bg-primary);
+      border-radius: var(--radius-xl);
+      padding: var(--space-4) var(--space-6);
+      box-shadow: var(--shadow-md);
+      display: inline-block;
+      min-width: 240px;
+    }
+
+    .countdown-label {
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+      margin-bottom: var(--space-2);
+      font-weight: var(--font-medium);
+    }
+
+    .countdown-days {
+      font-size: 3rem;
+      font-weight: var(--font-bold);
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: var(--space-1);
+    }
+
+    .countdown-days-label {
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+    }
+
+    .countdown-set-date {
+      font-size: var(--text-sm);
+      color: var(--secondary);
+      cursor: pointer;
+      text-decoration: underline;
+      background: none;
+      border: none;
+      font-family: inherit;
+      padding: 0;
+    }
+
+    .countdown-set-date:hover {
+      color: var(--primary);
+    }
+
+    /* Exam date input area */
+    .date-input-wrap {
+      display: none;
+      margin-top: var(--space-3);
+      gap: var(--space-2);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .date-input-wrap.open {
+      display: flex;
+    }
+
+    .date-input-wrap input[type="date"] {
+      padding: var(--space-2) var(--space-3);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      font-size: var(--text-sm);
+      font-family: inherit;
+      color: var(--text-primary);
+      background: var(--bg-primary);
+    }
+
+    .date-input-wrap button {
+      padding: var(--space-2) var(--space-4);
+      background: var(--primary);
+      color: var(--color-white);
+      border: none;
+      border-radius: var(--radius-md);
+      font-size: var(--text-sm);
+      font-family: inherit;
+      cursor: pointer;
+      font-weight: var(--font-medium);
+    }
+
+    /* Exam info badges */
+    .exam-badges {
+      display: flex;
+      gap: var(--space-2);
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: var(--space-4);
+    }
+
+    .exam-badge {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-full);
+      padding: var(--space-1) var(--space-3);
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+      font-weight: var(--font-medium);
+    }
+
+    .exam-badge strong {
+      color: var(--primary);
+    }
+
+    /* ── Dashboard Section ── */
+    .dashboard {
+      padding: var(--space-8) var(--space-4);
+      background: var(--bg-secondary);
+    }
+
+    .dashboard-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .section-header {
+      margin-bottom: var(--space-6);
+    }
+
+    .section-title {
+      font-size: var(--text-xl);
+      font-weight: var(--font-bold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-1);
+    }
+
+    .section-subtitle {
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+    }
+
+    /* Dashboard Grid */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-4);
+    }
+
+    @media (min-width: 480px) {
+      .dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .dashboard-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Dashboard Cards */
+    .dash-card {
+      background: var(--bg-primary);
+      border-radius: var(--radius-xl);
+      padding: var(--space-5);
+      border: 1px solid var(--border-color);
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      transition:
+        transform var(--transition-base),
+        box-shadow var(--transition-base),
+        border-color var(--transition-base);
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .dash-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--card-accent, var(--primary));
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    }
+
+    .dash-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--card-accent, var(--primary));
+    }
+
+    .dash-card:active {
+      transform: translateY(-2px);
+    }
+
+    /* Card color accents */
+    .dash-card--subjects  { --card-accent: #e91e63; }
+    .dash-card--pyq       { --card-accent: #1976d2; }
+    .dash-card--practice  { --card-accent: #4caf50; }
+    .dash-card--mock      { --card-accent: #ff9800; }
+    .dash-card--results   { --card-accent: #9c27b0; }
+    .dash-card--syllabus  { --card-accent: #00bcd4; }
+
+    .card-icon-wrap {
+      width: 52px;
+      height: 52px;
+      border-radius: var(--radius-lg);
+      background: color-mix(in srgb, var(--card-accent, var(--primary)) 12%, transparent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .card-icon-wrap svg {
+      width: 28px;
+      height: 28px;
+      color: var(--card-accent, var(--primary));
+    }
+
+    .card-body {
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: var(--text-lg);
+      font-weight: var(--font-bold);
+      color: var(--text-primary);
+      margin-bottom: var(--space-1);
+    }
+
+    .card-desc {
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: var(--space-2);
+    }
+
+    .card-tag {
+      font-size: var(--text-xs);
+      font-weight: var(--font-semibold);
+      color: var(--card-accent, var(--primary));
+      background: color-mix(in srgb, var(--card-accent, var(--primary)) 10%, transparent);
+      padding: 2px var(--space-2);
+      border-radius: var(--radius-full);
+    }
+
+    .card-arrow {
+      width: 20px;
+      height: 20px;
+      color: var(--text-secondary);
+      transition: transform var(--transition-fast), color var(--transition-fast);
+    }
+
+    .dash-card:hover .card-arrow {
+      transform: translateX(4px);
+      color: var(--card-accent, var(--primary));
+    }
+
+    /* ── Quick Stats ── */
+    .quick-stats {
+      padding: var(--space-6) var(--space-4);
+      background: var(--bg-primary);
+      border-top: 1px solid var(--border-color);
+    }
+
+    .stats-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-3);
+    }
+
+    @media (min-width: 768px) {
+      .stats-inner {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .stat-item {
+      text-align: center;
+      padding: var(--space-4);
+      background: var(--bg-secondary);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+    }
+
+    .stat-value {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-bold);
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: var(--space-1);
+    }
+
+    .stat-label {
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+      font-weight: var(--font-medium);
+    }
+
+    /* ── Footer ── */
+    .app-footer {
+      background: var(--text-primary);
+      color: rgba(255,255,255,0.7);
+      padding: var(--space-8) var(--space-4) var(--space-4);
+    }
+
+    .footer-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-6);
+      margin-bottom: var(--space-6);
+    }
+
+    @media (min-width: 768px) {
+      .footer-top {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
+    }
+
+    .footer-brand-name {
+      color: var(--color-white);
+      font-size: var(--text-lg);
+      font-weight: var(--font-bold);
+      margin-bottom: var(--space-2);
+    }
+
+    .footer-brand-desc {
+      font-size: var(--text-sm);
+      line-height: 1.6;
+    }
+
+    .footer-links-title {
+      color: var(--color-white);
+      font-size: var(--text-sm);
+      font-weight: var(--font-semibold);
+      margin-bottom: var(--space-3);
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+    }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.65);
+      text-decoration: none;
+      font-size: var(--text-sm);
+      transition: color var(--transition-fast);
+    }
+
+    .footer-links a:hover {
+      color: var(--color-white);
+    }
+
+    .footer-divider {
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: var(--space-4);
+    }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      font-size: var(--text-xs);
+    }
+
+    .footer-copy {
+      color: rgba(255,255,255,0.5);
+    }
+
+    .footer-bottom-links {
+      display: flex;
+      gap: var(--space-4);
+    }
+
+    .footer-bottom-links a {
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+    }
+
+    .footer-bottom-links a:hover {
+      color: var(--color-white);
+    }
+
+    /* ── Bottom Navigation (Mobile) ── */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--bg-primary);
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      align-items: stretch;
+      z-index: var(--z-fixed);
+      padding-bottom: env(safe-area-inset-bottom);
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+    }
+
+    @media (min-width: 1024px) {
+      .bottom-nav {
+        display: none;
+      }
+    }
+
+    .bottom-nav-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-2) var(--space-1);
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-size: 10px;
+      gap: 3px;
+      transition: color var(--transition-fast);
+      min-height: 56px;
+    }
+
+    .bottom-nav-item svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .bottom-nav-item.active,
+    .bottom-nav-item:hover {
+      color: var(--primary);
+    }
+
+    /* Push content above bottom nav on mobile */
+    .page-content {
+      padding-bottom: calc(56px + env(safe-area-inset-bottom));
+    }
+
+    @media (min-width: 1024px) {
+      .page-content {
+        padding-bottom: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ═══════════════════════════════════════
+       APP HEADER
+  ═══════════════════════════════════════ -->
+  <header class="app-header" role="banner">
+    <div class="header-inner">
+      <!-- Brand -->
+      <a href="/" class="header-brand" aria-label="হোম পেজে যান">
+        <div class="header-logo" aria-hidden="true">🏥</div>
+        <div>
+          <div class="header-title">WB ANM GNM 2026</div>
+          <div class="header-subtitle">সম্পূর্ণ প্রস্তুতি প্ল্যাটফর্ম</div>
+        </div>
+      </a>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button
+          id="install-btn"
+          aria-label="অ্যাপ ইনস্টল করুন"
+          title="অ্যাপ ইনস্টল করুন"
+        >
+          <!-- Download icon inline -->
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          অ্যাপ ইনস্টল করুন
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════
+       MAIN NAVIGATION BAR
+  ═══════════════════════════════════════ -->
+  <nav class="main-nav" aria-label="প্রধান নেভিগেশন">
+    <div class="nav-inner">
+      <a href="/" class="nav-link active" aria-current="page">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+          <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+        হোম
+      </a>
+      <a href="/subjects/" class="nav-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+        </svg>
+        বিষয়সমূহ
+      </a>
+      <a href="/pyq/" class="nav-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+        </svg>
+        পুরনো প্রশ্ন
+      </a>
+      <a href="/practice/" class="nav-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M12 20h9"/>
+          <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+        </svg>
+        অনুশীলন
+      </a>
+      <a href="/mock-test/" class="nav-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        মক টেস্ট
+      </a>
+      <a href="/results/" class="nav-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="18" y1="20" x2="18" y2="10"/>
+          <line x1="12" y1="20" x2="12" y2="4"/>
+          <line x1="6" y1="20" x2="6" y2="14"/>
+        </svg>
+        ফলাফল
+      </a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       MAIN PAGE CONTENT
+  ═══════════════════════════════════════ -->
+  <main id="main-content" class="page-content" role="main">
+
+    <!-- ── HERO SECTION ── -->
+    <section class="hero" aria-label="স্বাগত বিভাগ">
+      <div class="hero-inner">
+        <p class="hero-welcome" aria-label="স্বাগতম">✨ স্বাগতম</p>
+        <h1 class="hero-title">
+          WB ANM GNM 2026<br/>
+          প্রবেশিকা পরীক্ষার প্রস্তুতি
+        </h1>
+        <p class="hero-subtitle">
+          বিনামূল্যে সম্পূর্ণ প্রস্তুতি — বিষয়ভিত্তিক পড়াশোনা, মক টেস্ট ও পুরনো প্রশ্ন
+        </p>
+
+        <!-- Countdown Widget -->
+        <div class="countdown-widget" role="timer" aria-live="polite" aria-label="পরীক্ষার কাউন্টডাউন">
+          <p class="countdown-label">পরীক্ষার সময় বাকি</p>
+
+          <!-- State 1: Date set — shows countdown -->
+          <div id="countdown-display" style="display:none;">
+            <div class="countdown-days" id="days-count" aria-label="বাকি দিন">0</div>
+            <p class="countdown-days-label">দিন বাকি</p>
+            <button
+              class="countdown-set-date"
+              id="change-date-btn"
+              aria-label="তারিখ পরিবর্তন করুন"
+            >তারিখ পরিবর্তন করুন</button>
+          </div>
+
+          <!-- State 2: No date set -->
+          <div id="countdown-nodate">
+            <p style="font-size:var(--text-sm);color:var(--text-secondary);margin-bottom:var(--space-2);">
+              পরীক্ষার তারিখ সেট করুন
+            </p>
+            <button
+              class="countdown-set-date"
+              id="set-date-btn"
+              aria-label="পরীক্ষার তারিখ নির্বাচন করুন"
+            >📅 তারিখ নির্বাচন করুন</button>
+          </div>
+
+          <!-- Date input (shown on click) -->
+          <div class="date-input-wrap" id="date-input-wrap" role="form" aria-label="পরীক্ষার তারিখ ইনপুট">
+            <input
+              type="date"
+              id="exam-date-input"
+              aria-label="পরীক্ষার তারিখ"
+              min=""
+            />
+            <button id="save-date-btn" aria-label="তারিখ সংরক্ষণ করুন">সংরক্ষণ</button>
+          </div>
+        </div>
+
+        <!-- Exam Info Badges -->
+        <div class="exam-badges" role="list" aria-label="পরীক্ষার তথ্য">
+          <span class="exam-badge" role="listitem">
+            <strong>১০০</strong> প্রশ্ন
+          </span>
+          <span class="exam-badge" role="listitem">
+            <strong>১১৫</strong> নম্বর
+          </span>
+          <span class="exam-badge" role="listitem">
+            <strong>৯০</strong> মিনিট
+          </span>
+          <span class="exam-badge" role="listitem">
+            নেগেটিভ মার্কিং <strong>-০.২৫</strong>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── DASHBOARD / FEATURE CARDS ── -->
+    <section class="dashboard" aria-label="মূল বিভাগসমূহ">
+      <div class="dashboard-inner">
+        <div class="section-header">
+          <h2 class="section-title">কী কী পড়বেন?</h2>
+          <p class="section-subtitle">আপনার প্রয়োজন অনুযায়ী বিভাগ বেছে নিন</p>
+        </div>
+
+        <div class="dashboard-grid" role="list">
+
+          <!-- Card 1: Subjects -->
+          <a
+            href="/subjects/"
+            class="dash-card dash-card--subjects"
+            role="listitem"
+            aria-label="বিষয়সমূহ — জীবন বিজ্ঞান, ভৌত বিজ্ঞান, ইংরেজি ও আরো বিষয়"
+          >
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- Book SVG -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                <line x1="9" y1="7" x2="15" y2="7"/>
+                <line x1="9" y1="11" x2="12" y2="11"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">বিষয়সমূহ</h3>
+              <p class="card-desc">জীবন বিজ্ঞান, ভৌত বিজ্ঞান, ইংরেজি, গণিত, সাধারণ জ্ঞান ও যুক্তিবিদ্যা</p>
+              <div class="card-meta">
+                <span class="card-tag">৬টি বিষয়</span>
+                <svg class="card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 2: PYQ -->
+          <a
+            href="/pyq/"
+            class="dash-card dash-card--pyq"
+            role="listitem"
+            aria-label="পুরনো প্রশ্ন — বিগত বছরের প্রশ্নপত্র"
+          >
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- Document SVG -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">পুরনো প্রশ্ন</h3>
+              <p class="card-desc">বিগত বছরের প্রশ্নপত্র সমাধান সহ — প্যাটার্ন বুঝুন, প্রস্তুতি নিন</p>
+              <div class="card-meta">
+                <span class="card-tag">PYQ</span>
+                <svg class="card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 3: Practice -->
+          <a
+            href="/practice/"
+            class="dash-card dash-card--practice"
+            role="listitem"
+            aria-label="অনুশীলন — বিষয়ভিত্তিক প্রশ্নোত্তর অনুশীলন"
+          >
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- Pencil SVG -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"/>
+                <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">অনুশীলন</h3>
+              <p class="card-desc">বিষয়ভিত্তিক MCQ অনুশীলন — যেকোনো সময়, যেকোনো জায়গা থেকে</p>
+              <div class="card-meta">
+                <span class="card-tag">MCQ অনুশীলন</span>
+                <svg class="card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 4: Mock Test -->
+          <a
+            href="/mock-test/"
+            class="dash-card dash-card--mock"
+            role="listitem"
+            aria-label="মক টেস্ট — পূর্ণ মডেল পরীক্ষা"
+          >
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- Clock SVG -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">মক টেস্ট</h3>
+              <p class="card-desc">১০০ প্রশ্ন, ৯০ মিনিট — বাস্তব পরীক্ষার অনুভূতিতে প্রস্তুত হন</p>
+              <div class="card-meta">
+                <span class="card-tag">১০০ প্রশ্ন</span>
+                <svg class="card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 5: Results -->
+          <a
+            href="/results/"
+            class="dash-card dash-card--results"
+            role="listitem"
+            aria-label="ফলাফল — আপনার পারফরম্যান্স দেখুন"
+          >
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- Chart SVG -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"/>
+                <line x1="12" y1="20" x2="12" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="14"/>
+                <line x1="2" y1="20" x2="22" y2="20"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">ফলাফল</h3>
+              <p class="card-desc">আপনার পারফরম্যান্স বিশ্লেষণ — দুর্বল দিক চিহ্নিত করুন</p>
+              <div class="card-meta">
+                <span class="card-tag">Analytics</span>
+                <svg class="card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 6: Syllabus -->
+          <a
+            href="/pages/syllabus.html"
+            class="dash-card dash-card--syllabus"
+            role="listitem"
+            aria-label="সিলেবাস — সম্পূর্ণ পরীক্ষার পাঠ্যক্রম"
+          >
+            <div class="card-icon-wrap" aria-hidden="true">
+              <!-- List SVG -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="8" y1="6" x2="21" y2="6"/>
+                <line x1="8" y1="12" x2="21" y2="12"/>
+                <line x1="8" y1="18" x2="21" y2="18"/>
+                <line x1="3" y1="6" x2="3.01" y2="6"/>
+                <line x1="3" y1="12" x2="3.01" y2="12"/>
+                <line x1="3" y1="18" x2="3.01" y2="18"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">সিলেবাস</h3>
+              <p class="card-desc">WB ANM GNM 2026-এর সম্পূর্ণ অফিসিয়াল পাঠ্যক্রম ও পরীক্ষা প্যাটার্ন</p>
+              <div class="card-meta">
+                <span class="card-tag">অফিসিয়াল</span>
+                <svg class="card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+        </div><!-- /dashboard-grid -->
+      </div>
+    </section>
+
+    <!-- ── QUICK STATS ── -->
+    <section class="quick-stats" aria-label="পরীক্ষার সংক্ষিপ্ত তথ্য">
+      <div class="stats-inner" role="list">
+        <div class="stat-item" role="listitem">
+          <div class="stat-value">১০০</div>
+          <div class="stat-label">মোট প্রশ্ন</div>
+        </div>
+        <div class="stat-item" role="listitem">
+          <div class="stat-value">১১৫</div>
+          <div class="stat-label">মোট নম্বর</div>
+        </div>
+        <div class="stat-item" role="listitem">
+          <div class="stat-value">৯০</div>
+          <div class="stat-label">মিনিট সময়</div>
+        </div>
+        <div class="stat-item" role="listitem">
+          <div class="stat-value">৬</div>
+          <div class="stat-label">বিষয়</div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="app-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <!-- Brand Info -->
+        <div>
+          <p class="footer-brand-name">WB ANM GNM 2026 প্রস্তুতি</p>
+          <p class="footer-brand-desc">
+            West Bengal Joint Entrance Exam Board (WB JEEB) আয়োজিত
+            ANM ও GNM প্রবেশিকা পরীক্ষার জন্য সম্পূর্ণ বিনামূল্যে
+            অনলাইন প্রস্তুতি প্ল্যাটফর্ম।
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <p class="footer-links-title">দ্রুত লিংক</p>
+          <ul class="footer-links">
+            <li><a href="/subjects/">বিষয়সমূহ</a></li>
+            <li><a href="/pyq/">পুরনো প্রশ্ন</a></li>
+            <li><a href="/mock-test/">মক টেস্ট</a></li>
+            <li><a href="/pages/syllabus.html">সিলেবাস</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div>
+          <p class="footer-links-title">তথ্য</p>
+          <ul class="footer-links">
+            <li><a href="https://wbjee.b.in/ann-gnm/" target="_blank" rel="noopener noreferrer">অফিসিয়াল ওয়েবসাইট</a></li>
+            <li><a href="/pages/about.html">আমাদের সম্পর্কে</a></li>
+            <li><a href="/pages/privacy.html">গোপনীয়তা নীতি</a></li>
+            <li><a href="/offline.html">অফলাইন</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2026 WB ANM GNM প্রস্তুতি। সকল অধিকার সংরক্ষিত।
+        </p>
+        <div class="footer-bottom-links">
+          <a href="/pages/terms.html">শর্তাবলী</a>
+          <a href="/pages/privacy.html">গোপনীয়তা</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════
+       BOTTOM NAVIGATION (Mobile)
+  ═══════════════════════════════════════ -->
+  <nav class="bottom-nav" aria-label="মোবাইল নেভিগেশন">
+    <a href="/" class="bottom-nav-item active" aria-current="page" aria-label="হোম">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      হোম
+    </a>
+    <a href="/subjects/" class="bottom-nav-item" aria-label="বিষয়সমূহ">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+      </svg>
+      বিষয়
+    </a>
+    <a href="/practice/" class="bottom-nav-item" aria-label="অনুশীলন">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M12 20h9"/>
+        <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>
+      </svg>
+      অনুশীলন
+    </a>
+    <a href="/mock-test/" class="bottom-nav-item" aria-label="মক টেস্ট">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/>
+        <polyline points="12 6 12 12 16 14"/>
+      </svg>
+      মক টেস্ট
+    </a>
+    <a href="/results/" class="bottom-nav-item" aria-label="ফলাফল">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="18" y1="20" x2="18" y2="10"/>
+        <line x1="12" y1="20" x2="12" y2="4"/>
+        <line x1="6" y1="20" x2="6" y2="14"/>
+        <line x1="2" y1="20" x2="22" y2="20"/>
+      </svg>
+      ফলাফল
+    </a>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       JAVASCRIPT
+  ═══════════════════════════════════════ -->
+  <script>
+    'use strict';
+
+    /* ── Service Worker Registration ── */
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('/sw.js')
+          .then(reg => {
+            console.log('[SW] Registered:', reg.scope);
+          })
+          .catch(err => {
+            console.warn('[SW] Registration failed:', err);
+          });
+      });
+    }
+
+    /* ── PWA Install Prompt ── */
+    let deferredPrompt = null;
+    const installBtn = document.getElementById('install-btn');
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevent default mini-info bar
+      e.preventDefault();
+      deferredPrompt = e;
+      // Show our custom install button
+      installBtn.classList.add('visible');
+    });
+
+    installBtn.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      console.log('[PWA] Install outcome:', outcome);
+      deferredPrompt = null;
+      installBtn.classList.remove('visible');
+    });
+
+    window.addEventListener('appinstalled', () => {
+      console.log('[PWA] App installed');
+      installBtn.classList.remove('visible');
+      deferredPrompt = null;
+    });
+
+    /* ── Exam Countdown Logic ── */
+    const STORAGE_KEY = 'exam_date';
+
+    const countdownDisplay = document.getElementById('countdown-display');
+    const countdownNodate  = document.getElementById('countdown-nodate');
+    const dateInputWrap    = document.getElementById('date-input-wrap');
+    const examDateInput    = document.getElementById('exam-date-input');
+    const daysCount        = document.getElementById('days-count');
+    const setDateBtn       = document.getElementById('set-date-btn');
+    const changeDateBtn    = document.getElementById('change-date-btn');
+    const saveDateBtn      = document.getElementById('save-date-btn');
+
+    /**
+     * Calculate days from today to target date (inclusive)
+     * @param {string} dateStr - ISO date string (YYYY-MM-DD)
+     * @returns {number}
+     */
+    function calcDaysLeft(dateStr) {
+      const today  = new Date();
+      today.setHours(0, 0, 0, 0);
+      const target = new Date(dateStr);
+      target.setHours(0, 0, 0, 0);
+      const diff   = target - today;
+      return Math.ceil(diff / (1000 * 60 * 60 * 24));
+    }
+
+    /**
+     * Convert English digits to Bengali digits
+     * @param {number|string} num
+     * @returns {string}
+     */
+    function toBengaliNumerals(num) {
+      const map = { '0':'০','1':'১','2':'২','3':'৩','4':'৪',
+                    '5':'৫','6':'৬','7':'৭','8':'৮','9':'৯' };
+      return String(num).replace(/[0-9]/g, d => map[d]);
+    }
+
+    /** Render countdown based on stored date */
+    function renderCountdown() {
+      const savedDate = localStorage.getItem(STORAGE_KEY);
+
+      if (savedDate) {
+        const days = calcDaysLeft(savedDate);
+
+        countdownNodate.style.display  = 'none';
+        countdownDisplay.style.display = 'block';
+
+        if (days > 0) {
+          daysCount.textContent = toBengaliNumerals(days);
+          daysCount.setAttribute('aria-label', `${days} দিন বাকি`);
+        } else if (days === 0) {
+          daysCount.textContent = 'আজই!';
+          daysCount.setAttribute('aria-label', 'আজই পরীক্ষা');
+        } else {
+          daysCount.textContent = toBengaliNumerals(Math.abs(days));
+          daysCount.closest('[role="timer"]')
+            .querySelector('.countdown-days-label')
+            .textContent = 'দিন আগে শেষ হয়েছে';
+        }
+      } else {
+        countdownDisplay.style.display = 'none';
+        countdownNodate.style.display  = 'block';
+      }
+    }
+
+    /** Open date picker */
+    function openDatePicker() {
+      dateInputWrap.classList.add('open');
+      // Set min date to today
+      const today = new Date().toISOString().split('T')[0];
+      examDateInput.min = today;
+      examDateInput.focus();
+    }
+
+    /** Close date picker */
+    function closeDatePicker() {
+      dateInputWrap.classList.remove('open');
+    }
+
+    // Event listeners for countdown buttons
+    setDateBtn.addEventListener('click', openDatePicker);
+    changeDateBtn.addEventListener('click', openDatePicker);
+
+    saveDateBtn.addEventListener('click', () => {
+      const val = examDateInput.value;
+      if (!val) {
+        alert('অনুগ্রহ করে একটি তারিখ নির্বাচন করুন।');
+        return;
+      }
+      localStorage.setItem(STORAGE_KEY, val);
+      closeDatePicker();
+      renderCountdown();
+    });
+
+    // Initial render
+    renderCountdown();
+
+    /* ── Update countdown every minute ── */
+    setInterval(renderCountdown, 60_000);
+
+    /* ── Active nav link detection ── */
+    (function markActiveNav() {
+      const currentPath = window.location.pathname;
+      const navLinks = document.querySelectorAll('.nav-link, .bottom-nav-item');
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        link.removeAttribute('aria-current');
+
+        const linkPath = new URL(link.href, window.location.origin).pathname;
+
+        if (
+          linkPath === currentPath ||
+          (linkPath !== '/' && currentPath.startsWith(linkPath))
+        ) {
+          link.classList.add('active');
+          link.setAttribute('aria-current', 'page');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

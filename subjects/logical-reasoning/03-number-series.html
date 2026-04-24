@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Series | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="3">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 3</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 3 / 14</div>
+    <h1 class="chapter-title">Number Series</h1>
+    <h2 class="chapter-title-bn">সংখ্যা সিরিজ</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Number Series (সংখ্যা সিরিজ)</strong> হল একটি নির্দিষ্ট নিয়মে সাজানো সংখ্যার ক্রম যেখান থেকে প্যাটার্ন বুঝে পরবর্তী সংখ্যা বা লুপ্ত সংখ্যা খুঁজে বের করতে হয়। ANM GNM পরীক্ষায় এই ধরনের প্রশ্ন অত্যন্ত গুরুত্বপূর্ণ এবং নিয়মিত আসে।</p>
+
+      <div class="definition-box">
+        <strong>Number Series (সংখ্যা সিরিজ):</strong>
+        একটি সংখ্যার ক্রম যেখানে প্রতিটি সংখ্যা পূর্ববর্তী সংখ্যার সাথে একটি নির্দিষ্ট নিয়মে সম্পর্কযুক্ত। যেমন: 2, 4, 6, 8... (প্রতিটি +2)
+        <em>💡 MCQ Tip: পার্থক্য (difference) আগে চেক করুন, তারপর অনুপাত (ratio)</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Arithmetic Series (সমান্তর সিরিজ):</strong>
+        যে সিরিজে প্রতিটি সংখ্যার সাথে একই মান যোগ বা বিয়োগ করা হয়। যেমন: 3, 6, 9, 12 (প্রতিটি +3)
+        <em>💡 MCQ Tip: পার্থক্য সমান থাকলে Arithmetic Series</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Geometric Series (গুণোত্তর সিরিজ):</strong>
+        যে সিরিজে প্রতিটি সংখ্যাকে একই মান দিয়ে গুণ বা ভাগ করা হয়। যেমন: 2, 6, 18, 54 (প্রতিটি ×3)
+        <em>💡 MCQ Tip: অনুপাত সমান থাকলে Geometric Series</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>প্রধান ধরন:</strong> Arithmetic, Geometric, Square, Cube, Prime, Mixed Pattern</li>
+        <li><strong>সমাধানের পদ্ধতি:</strong> পার্থক্য → অনুপাত → বর্গ/ঘন → মিশ্র প্যাটার্ন</li>
+        <li><strong>সাধারণ প্যাটার্ন:</strong> +n, -n, ×n, ÷n, n², n³, 2n, n+1, n-1</li>
+        <li><strong>মিশ্র সিরিজ:</strong> দুটি ভিন্ন সিরিজ একসাথে (alternate pattern)</li>
+        <li><strong>Missing Number:</strong> লুপ্ত সংখ্যা খুঁজতে আগে-পরের সংখ্যা দেখুন</li>
+        <li><strong>সময় বাঁচান:</strong> সহজ প্যাটার্ন (+, -, ×) আগে চেক করুন</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: RULES & PATTERNS TABLE
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ নিয়ম ও ধরন (Important Rules & Patterns)</h2>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>সিরিজের ধরন (Type)</th>
+            <th>প্যাটার্ন (Pattern)</th>
+            <th>উদাহরণ (Example)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Arithmetic (+)</th>
+            <td>প্রতিটি সংখ্যায় n যোগ</td>
+            <td>2, 5, 8, 11, 14 (+3)</td>
+          </tr>
+          <tr>
+            <th>Arithmetic (-)</th>
+            <td>প্রতিটি সংখ্যা থেকে n বিয়োগ</td>
+            <td>20, 17, 14, 11, 8 (-3)</td>
+          </tr>
+          <tr>
+            <th>Geometric (×)</th>
+            <td>প্রতিটি সংখ্যায় n গুণ</td>
+            <td>2, 6, 18, 54, 162 (×3)</td>
+          </tr>
+          <tr>
+            <th>Geometric (÷)</th>
+            <td>প্রতিটি সংখ্যাকে n দিয়ে ভাগ</td>
+            <td>64, 32, 16, 8, 4 (÷2)</td>
+          </tr>
+          <tr>
+            <th>Perfect Square</th>
+            <td>n² সিরিজ</td>
+            <td>1, 4, 9, 16, 25 (1², 2², 3²...)</td>
+          </tr>
+          <tr>
+            <th>Perfect Cube</th>
+            <td>n³ সিরিজ</td>
+            <td>1, 8, 27, 64, 125 (1³, 2³, 3³...)</td>
+          </tr>
+          <tr>
+            <th>Prime Number</th>
+            <td>মৌলিক সংখ্যার সিরিজ</td>
+            <td>2, 3, 5, 7, 11, 13, 17</td>
+          </tr>
+          <tr>
+            <th>Mixed Pattern</th>
+            <td>একাধিক নিয়ম মিলিত</td>
+            <td>2, 4, 8, 10, 20, 22 (+2, ×2 alternate)</td>
+          </tr>
+          <tr>
+            <th>Two-step Pattern</th>
+            <td>দুই ধাপে প্যাটার্ন</td>
+            <td>1, 2, 4, 7, 11, 16 (+1, +2, +3, +4...)</td>
+          </tr>
+          <tr>
+            <th>Alternate Series</th>
+            <td>দুটি সিরিজ পর্যায়ক্রমে</td>
+            <td>2, 5, 4, 7, 6, 9 (2,4,6 & 5,7,9)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        প্রথম দুটি সংখ্যার পার্থক্য এবং দ্বিতীয়-তৃতীয় সংখ্যার পার্থক্য তুলনা করুন। সমান হলে Arithmetic, দ্বিগুণ হলে Two-step, ভিন্ন হলে Mixed pattern।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: SOLVED EXAMPLES WITH DIAGRAMS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong> Find the next number: 3, 6, 9, 12, ?<br>
+        (A) 13 (B) 14 (C) 15 (D) 16
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> পার্থক্য চেক করুন: 6-3=3, 9-6=3, 12-9=3<br>
+          <strong>Step 2:</strong> প্রতিটি +3 করা হচ্ছে (Arithmetic Series)<br>
+          <strong>Step 3:</strong> পরবর্তী সংখ্যা = 12 + 3 = 15<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) 15
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Arithmetic Series Pattern:
+        
+          3    →    6    →    9    →   12    →    ?
+             +3       +3       +3       +3
+        
+        Pattern: Each term = Previous term + 3
+        Next = 12 + 3 = 15
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong> Find the next number: 2, 6, 18, 54, ?<br>
+        (A) 108 (B) 162 (C) 216 (D) 270
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> অনুপাত চেক করুন: 6÷2=3, 18÷6=3, 54÷18=3<br>
+          <strong>Step 2:</strong> প্রতিটি ×3 করা হচ্ছে (Geometric Series)<br>
+          <strong>Step 3:</strong> পরবর্তী সংখ্যা = 54 × 3 = 162<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) 162
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong> Find the missing number: 1, 4, 9, ?, 25<br>
+        (A) 12 (B) 14 (C) 16 (D) 18
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> প্যাটার্ন চিহ্নিত করুন: 1=1², 4=2², 9=3², 25=5²<br>
+          <strong>Step 2:</strong> লুপ্ত সংখ্যা = 4² = 16<br>
+          <strong>Step 3:</strong> Perfect Square সিরিজ (1², 2², 3², 4², 5²)<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) 16
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Perfect Square Series:
+        
+        Position:  1    2    3    4    5
+        Value:     1²   2²   3²   4²   5²
+                   1    4    9   16   25
+                              ↑
+                         Missing = 16
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৪ (Example 4):</strong> Find the next number: 1, 1, 2, 3, 5, 8, ?<br>
+        (A) 11 (B) 13 (C) 15 (D) 17
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> প্যাটার্ন দেখুন: প্রতিটি সংখ্যা = আগের দুটির যোগফল<br>
+          <strong>Step 2:</strong> 1+1=2, 1+2=3, 2+3=5, 3+5=8<br>
+          <strong>Step 3:</strong> পরবর্তী = 5+8 = 13 (Fibonacci Series)<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) 13
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৫ (Example 5):</strong> Find the next number: 2, 5, 10, 17, 26, ?<br>
+        (A) 35 (B) 37 (C) 39 (D) 41
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> পার্থক্য দেখুন: +3, +5, +7, +9 (বিজোড় সংখ্যা বৃদ্ধি)<br>
+          <strong>Step 2:</strong> পরবর্তী পার্থক্য = +11<br>
+          <strong>Step 3:</strong> পরবর্তী সংখ্যা = 26 + 11 = 37<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) 37
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Two-Step Pattern (Increasing Difference):
+        
+          2    →    5    →   10    →   17    →   26    →    ?
+             +3       +5       +7       +9       +11
+        
+        Difference increases by 2 each time
+        Next = 26 + 11 = 37
+      </pre>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+      <ul class="fact-list">
+        <li><strong>Perfect Squares (1-20):</strong> 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400</li>
+        <li><strong>Perfect Cubes (1-10):</strong> 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000</li>
+        <li><strong>Prime Numbers (1-50):</strong> 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47</li>
+        <li><strong>Fibonacci Pattern:</strong> প্রতিটি = আগের দুটির যোগফল (1, 1, 2, 3, 5, 8, 13...)</li>
+        <li><strong>Two-step Series:</strong> পার্থক্য নিজেই একটি সিরিজ তৈরি করে</li>
+        <li><strong>Alternate Pattern:</strong> দুটি ভিন্ন সিরিজ পর্যায়ক্রমে চলে</li>
+        <li><strong>সময় বাঁচান:</strong> সবার আগে +, -, ×, ÷ চেক করুন</li>
+        <li><strong>ভুল এড়ান:</strong> পুরো সিরিজে প্যাটার্ন কাজ করছে কিনা যাচাই করুন</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        পার্থক্যের পার্থক্য দেখুন (Second Difference)। যদি Second Difference সমান হয়, তাহলে Two-step pattern। এতে দ্রুত সমাধান হয়।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: PRACTICE QUESTIONS (8)
+         ALWAYS LAST in article
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. Find the next number: 5, 10, 15, 20, ?<br>
+        (A) 22 (B) 24 (C) 25 (D) 30</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 25 — প্রতিটি +5 করা হচ্ছে। 20+5=25।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. Find the next number: 3, 9, 27, 81, ?<br>
+        (A) 162 (B) 216 (C) 243 (D) 324</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 243 — প্রতিটি ×3 করা হচ্ছে। 81×3=243।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. Find the missing number: 1, 8, 27, ?, 125<br>
+        (A) 54 (B) 64 (C) 81 (D) 100</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 64 — Perfect Cube সিরিজ: 1³, 2³, 3³, 4³, 5³। 4³=64।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. Find the next number: 2, 3, 5, 7, 11, ?<br>
+        (A) 12 (B) 13 (C) 15 (D) 17</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 13 — Prime Number সিরিজ। 11 এর পরবর্তী মৌলিক সংখ্যা 13।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. Find the next number: 64, 32, 16, 8, ?<br>
+        (A) 2 (B) 4 (C) 6 (D) 8</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 4 — প্রতিটি ÷2 করা হচ্ছে। 8÷2=4।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. Find the next number: 1, 4, 9, 16, 25, ?<br>
+        (A) 30 (B) 32 (C) 36 (D) 40</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 36 — Perfect Square সিরিজ। 6²=36।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. Find the next number: 2, 4, 8, 14, 22, ?<br>
+        (A) 28 (B) 30 (C) 32 (D) 34</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 32 — পার্থক্য: +2, +4, +6, +8, +10। 22+10=32।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. Find the next number: 1, 2, 4, 7, 11, 16, ?<br>
+        (A) 20 (B) 21 (C) 22 (D) 23</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 22 — পার্থক্য: +1, +2, +3, +4, +5, +6। 16+6=22।</p>
+      </div>
+
+    </section>
+
+  </article>
+  <!-- ════ end chapter-content ════ -->
+
+  <!-- ════════════════════════════════════
+       QUICK REVISION BOX
+       OUTSIDE article, BEFORE chapter-nav
+       ════════════════════════════════════ -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>Number Series:</strong> নির্দিষ্ট নিয়মে সাজানো সংখ্যার ক্রম</li>
+      <li><strong>প্রধান ধরন:</strong> Arithmetic (+/-), Geometric (×/÷), Square (n²), Cube (n³), Prime, Mixed</li>
+      <li><strong>সমাধান পদ্ধতি:</strong> পার্থক্য → অনুপাত → বর্গ/ঘন → মিশ্র প্যাটার্ন</li>
+      <li><strong>Two-step Pattern:</strong> পার্থক্য নিজেই একটি সিরিজ (+1, +2, +3...)</li>
+      <li><strong>Fibonacci:</strong> প্রতিটি = আগের দুটির যোগফল (1, 1, 2, 3, 5, 8...)</li>
+      <li><strong>মনে রাখুন:</strong> Perfect Squares (1-20) এবং Prime Numbers (1-50)</li>
+      <li><strong>দ্রুত পদ্ধতি:</strong> সহজ প্যাটার্ন (+, -, ×, ÷) আগে চেক করুন</li>
+      <li><strong>ভুল এড়ান:</strong> পুরো সিরিজে প্যাটার্ন কাজ করছে কিনা যাচাই করুন</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="02-classification.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="04-letter-series.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

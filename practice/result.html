@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WB ANM GNM 2026 কুইজ ফলাফল" />
+  <title>ফলাফল | WB ANM GNM 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/utilities.css" />
+  <link rel="stylesheet" href="css/practice-layout.css" />
+  <link rel="stylesheet" href="css/result-card.css" />
+</head>
+
+<body class="result-body">
+
+  <!-- ========== HEADER ========== -->
+  <header class="result-header" role="banner" id="result-header">
+    <div class="result-header__inner">
+
+      <!-- Left: Back button -->
+      <a
+        href="index.html"
+        class="back-btn back-btn--result"
+        aria-label="অনুশীলন তালিকায় ফিরুন"
+        id="back-to-practice"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round"
+          aria-hidden="true">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        অনুশীলন
+      </a>
+
+      <!-- Center: Title -->
+      <div class="result-header__title">
+        <h1>ফলাফল</h1>
+        <span class="result-header__meta" id="result-header-meta">
+          — লোড হচ্ছে
+        </span>
+      </div>
+
+      <!-- Right: Print button -->
+      <button
+        class="print-btn"
+        id="print-btn"
+        type="button"
+        aria-label="ফলাফল প্রিন্ট করুন"
+        title="ফলাফল প্রিন্ট করুন"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"
+          aria-hidden="true">
+          <polyline points="6 9 6 2 18 2 18 9"></polyline>
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1
+                   2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+          <rect x="6" y="14" width="12" height="8"></rect>
+        </svg>
+        <span>প্রিন্ট</span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main class="result-main" id="result-main" role="main">
+
+    <!-- Loading state -->
+    <div
+      class="result-loading"
+      id="result-loading"
+      role="status"
+      aria-live="polite"
+    >
+      <div class="loading-spinner" aria-hidden="true"></div>
+      <span>ফলাফল লোড হচ্ছে...</span>
+    </div>
+
+    <!-- Error state -->
+    <div
+      class="result-error"
+      id="result-error"
+      role="alert"
+      hidden
+    >
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
+        stroke="#ef4444" stroke-width="2" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8"  x2="12" y2="12"/>
+        <line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <p id="result-error-msg">
+        ফলাফল পাওয়া যায়নি। কুইজটি আবার দিন।
+      </p>
+      <a href="index.html" class="btn btn-primary">
+        অনুশীলন পাতায় ফিরুন
+      </a>
+    </div>
+
+    <!-- Result content (shown after load) -->
+    <div class="result-content" id="result-content" hidden>
+
+      <!-- ══════════════════════════════════════
+           SECTION 1: SCORE SUMMARY
+           ══════════════════════════════════════ -->
+      <section
+        class="score-summary"
+        aria-labelledby="score-summary-heading"
+      >
+        <h2 id="score-summary-heading" class="sr-only">স্কোর সারসংক্ষেপ</h2>
+
+        <!-- Circular score + grade -->
+        <div class="score-circle-wrap">
+          <div class="score-circle" id="score-circle" role="img"
+            aria-label="স্কোর বৃত্ত">
+            <!-- SVG circle injected by JS -->
+            <svg class="score-svg" viewBox="0 0 120 120"
+              aria-hidden="true">
+              <circle
+                class="score-svg__track"
+                cx="60" cy="60" r="52"
+                fill="none"
+                stroke="#e2e8f0"
+                stroke-width="10"
+              />
+              <circle
+                class="score-svg__fill"
+                id="score-svg-fill"
+                cx="60" cy="60" r="52"
+                fill="none"
+                stroke="#6366f1"
+                stroke-width="10"
+                stroke-linecap="round"
+                stroke-dasharray="326.73"
+                stroke-dashoffset="326.73"
+                transform="rotate(-90 60 60)"
+              />
+            </svg>
+            <div class="score-circle__inner">
+              <span class="score-circle__pct" id="score-pct">০%</span>
+              <span class="score-circle__label">স্কোর</span>
+              <span class="score-circle__grade" id="score-grade">—</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats grid -->
+        <div class="score-stats-grid">
+
+          <div class="score-stat score-stat--total">
+            <span class="score-stat__icon" aria-hidden="true">📊</span>
+            <span class="score-stat__value" id="stat-score">০</span>
+            <span class="score-stat__label">মোট নম্বর</span>
+            <span class="score-stat__sub" id="stat-score-max">/২০</span>
+          </div>
+
+          <div class="score-stat score-stat--correct">
+            <span class="score-stat__icon" aria-hidden="true">✅</span>
+            <span class="score-stat__value" id="stat-correct">০</span>
+            <span class="score-stat__label">সঠিক</span>
+            <span class="score-stat__sub">+১ প্রতিটি</span>
+          </div>
+
+          <div class="score-stat score-stat--wrong">
+            <span class="score-stat__icon" aria-hidden="true">❌</span>
+            <span class="score-stat__value" id="stat-wrong">০</span>
+            <span class="score-stat__label">ভুল</span>
+            <span class="score-stat__sub">−০.২৫ প্রতিটি</span>
+          </div>
+
+          <div class="score-stat score-stat--unattempted">
+            <span class="score-stat__icon" aria-hidden="true">⬜</span>
+            <span class="score-stat__value" id="stat-unattempted">০</span>
+            <span class="score-stat__label">বাদ দেওয়া</span>
+            <span class="score-stat__sub">০ নম্বর</span>
+          </div>
+
+          <div class="score-stat score-stat--time">
+            <span class="score-stat__icon" aria-hidden="true">⏱️</span>
+            <span class="score-stat__value" id="stat-time">০০:০০</span>
+            <span class="score-stat__label">সময় লেগেছে</span>
+            <span class="score-stat__sub">মিনিট:সেকেন্ড</span>
+          </div>
+
+          <div class="score-stat score-stat--accuracy">
+            <span class="score-stat__icon" aria-hidden="true">🎯</span>
+            <span class="score-stat__value" id="stat-accuracy">০%</span>
+            <span class="score-stat__label">নির্ভুলতা</span>
+            <span class="score-stat__sub">সঠিক / চেষ্টা</span>
+          </div>
+
+        </div>
+
+        <!-- Grade message -->
+        <div class="grade-message" id="grade-message" role="status">
+          <!-- Injected by JS -->
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SECTION 2: PERFORMANCE CHART
+           ══════════════════════════════════════ -->
+      <section
+        class="performance-chart"
+        aria-labelledby="chart-heading"
+      >
+        <h2 id="chart-heading" class="section-heading">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <line x1="18" y1="20" x2="18" y2="10"/>
+            <line x1="12" y1="20" x2="12" y2="4"/>
+            <line x1="6"  y1="20" x2="6"  y2="14"/>
+          </svg>
+          পারফরম্যান্স চার্ট
+        </h2>
+
+        <div class="chart-bars" role="list">
+
+          <!-- Correct bar -->
+          <div class="chart-bar-row" role="listitem">
+            <span class="chart-bar-label">সঠিক</span>
+            <div class="chart-bar-track" aria-hidden="true">
+              <div
+                class="chart-bar-fill chart-bar-fill--correct"
+                id="chart-correct"
+                style="width: 0%"
+              ></div>
+            </div>
+            <span class="chart-bar-value" id="chart-correct-val">০</span>
+          </div>
+
+          <!-- Wrong bar -->
+          <div class="chart-bar-row" role="listitem">
+            <span class="chart-bar-label">ভুল</span>
+            <div class="chart-bar-track" aria-hidden="true">
+              <div
+                class="chart-bar-fill chart-bar-fill--wrong"
+                id="chart-wrong"
+                style="width: 0%"
+              ></div>
+            </div>
+            <span class="chart-bar-value" id="chart-wrong-val">০</span>
+          </div>
+
+          <!-- Unattempted bar -->
+          <div class="chart-bar-row" role="listitem">
+            <span class="chart-bar-label">বাদ দেওয়া</span>
+            <div class="chart-bar-track" aria-hidden="true">
+              <div
+                class="chart-bar-fill chart-bar-fill--unattempted"
+                id="chart-unattempted"
+                style="width: 0%"
+              ></div>
+            </div>
+            <span class="chart-bar-value" id="chart-unattempted-val">০</span>
+          </div>
+
+        </div>
+
+        <!-- Score breakdown text -->
+        <div class="score-breakdown" id="score-breakdown">
+          <!-- Injected by JS -->
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SECTION 3: QUESTION REVIEW
+           ══════════════════════════════════════ -->
+      <section
+        class="question-review"
+        aria-labelledby="review-heading"
+      >
+        <div class="review-header">
+          <h2 id="review-heading" class="section-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12
+                       a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+            প্রশ্ন পর্যালোচনা
+          </h2>
+
+          <!-- Filter buttons -->
+          <div class="review-filters" role="group"
+            aria-label="ফিল্টার করুন">
+            <button
+              class="filter-btn filter-btn--active"
+              data-filter="all"
+              type="button"
+              aria-pressed="true"
+            >সব</button>
+            <button
+              class="filter-btn"
+              data-filter="correct"
+              type="button"
+              aria-pressed="false"
+            >সঠিক</button>
+            <button
+              class="filter-btn"
+              data-filter="wrong"
+              type="button"
+              aria-pressed="false"
+            >ভুল</button>
+            <button
+              class="filter-btn"
+              data-filter="unattempted"
+              type="button"
+              aria-pressed="false"
+            >বাদ দেওয়া</button>
+          </div>
+        </div>
+
+        <!-- Question review list -->
+        <div
+          class="review-list"
+          id="review-list"
+          role="list"
+          aria-label="প্রশ্ন পর্যালোচনা তালিকা"
+        >
+          <!-- Injected by JS -->
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SECTION 4: ACTION BUTTONS
+           ══════════════════════════════════════ -->
+      <section class="action-buttons" aria-label="পদক্ষেপ সমূহ">
+
+        <button
+          class="action-btn action-btn--retry"
+          id="btn-retry"
+          type="button"
+          aria-label="এই কুইজটি আবার দিন"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <polyline points="1 4 1 10 7 10"/>
+            <path d="M3.51 15a9 9 0 1 0 .49-3.5"/>
+          </svg>
+          আবার চেষ্টা করুন
+        </button>
+
+        <button
+          class="action-btn action-btn--next-set"
+          id="btn-next-set"
+          type="button"
+          aria-label="পরবর্তী সেট চেষ্টা করুন"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
+          পরের সেট
+        </button>
+
+        <button
+          class="action-btn action-btn--print"
+          id="btn-print"
+          type="button"
+          aria-label="ফলাফল প্রিন্ট করুন"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <polyline points="6 9 6 2 18 2 18 9"/>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1
+                     2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+            <rect x="6" y="14" width="12" height="8"/>
+          </svg>
+          প্রিন্ট করুন
+        </button>
+
+        <a
+          href="index.html"
+          class="action-btn action-btn--home"
+          aria-label="অনুশীলন পাতায় ফিরুন"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5
+                     a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+          অনুশীলন পাতা
+        </a>
+
+      </section>
+
+    </div><!-- /.result-content -->
+
+  </main>
+
+  <!-- ========== PRINT WATERMARK (only visible in print) ========== -->
+  <div class="print-watermark" aria-hidden="true">
+    WB ANM GNM 2026 — অনুশীলন ফলাফল
+  </div>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script src="js/quiz-storage.js"></script>
+  <script src="js/quiz-scorer.js"></script>
+  <script src="js/quiz-print.js"></script>
+
+  <!-- Inline result renderer -->
+  <script>
+  /* ============================================================
+     Result Page Controller
+     Reads data from QuizStorage and renders all sections
+     ============================================================ */
+  (function ResultPage() {
+    'use strict';
+
+    /* ── DOM ── */
+    const dom = {
+      loading:        document.getElementById('result-loading'),
+      error:          document.getElementById('result-error'),
+      errorMsg:       document.getElementById('result-error-msg'),
+      content:        document.getElementById('result-content'),
+      headerMeta:     document.getElementById('result-header-meta'),
+      scorePct:       document.getElementById('score-pct'),
+      scoreGrade:     document.getElementById('score-grade'),
+      scoreSvgFill:   document.getElementById('score-svg-fill'),
+      statScore:      document.getElementById('stat-score'),
+      statScoreMax:   document.getElementById('stat-score-max'),
+      statCorrect:    document.getElementById('stat-correct'),
+      statWrong:      document.getElementById('stat-wrong'),
+      statUnattempted:document.getElementById('stat-unattempted'),
+      statTime:       document.getElementById('stat-time'),
+      statAccuracy:   document.getElementById('stat-accuracy'),
+      gradeMessage:   document.getElementById('grade-message'),
+      chartCorrect:   document.getElementById('chart-correct'),
+      chartWrong:     document.getElementById('chart-wrong'),
+      chartUnattempted:document.getElementById('chart-unattempted'),
+      chartCorrectVal: document.getElementById('chart-correct-val'),
+      chartWrongVal:   document.getElementById('chart-wrong-val'),
+      chartUnattemptedVal: document.getElementById('chart-unattempted-val'),
+      scoreBreakdown: document.getElementById('score-breakdown'),
+      reviewList:     document.getElementById('review-list'),
+      btnRetry:       document.getElementById('btn-retry'),
+      btnNextSet:     document.getElementById('btn-next-set'),
+      btnPrint:       document.getElementById('print-btn'),
+      btnPrint2:      document.getElementById('btn-print'),
+    };
+
+    /* Subject display names */
+    const SUBJECT_NAMES = {
+      'life-science':      'জীবন বিজ্ঞান',
+      'physical-science':  'ভৌত বিজ্ঞান',
+      'mathematics':       'গণিত',
+      'general-knowledge': 'সাধারণ জ্ঞান',
+      'logical-reasoning': 'যুক্তিবিদ্যা',
+      'basic-english':     'ইংরেজি',
+    };
+
+    const OPTION_LABELS = ['A','B','C','D'];
+
+    /* Active filter */
+    let activeFilter = 'all';
+    let allDetails   = [];
+
+    /* ── INIT ── */
+    document.addEventListener('DOMContentLoaded', init);
+
+    function init() {
+      const data = QuizStorage.getResultDetails();
+
+      if (!data) {
+        showError('ফলাফলের ডেটা পাওয়া যায়নি। কুইজটি আবার দিন।');
+        return;
+      }
+
+      allDetails = data.details || [];
+      const result  = data.result;
+      const subject = data.subject;
+      const set     = data.set;
+
+      showLoading(false);
+      dom.content.removeAttribute('hidden');
+
+      renderHeader(subject, set);
+      renderScoreSummary(result);
+      renderCircle(result.percentage);
+      renderChart(result);
+      renderScoreBreakdown(result);
+      renderReviewList(allDetails);
+      bindActions(subject, set);
+      bindFilters();
+    }
+
+    /* ── HEADER ── */
+    function renderHeader(subject, set) {
+      const name = SUBJECT_NAMES[subject] || subject;
+      const setN = parseInt(set);
+      dom.headerMeta.textContent =
+        `${name} — সেট ${toBn(setN)}`;
+      document.title =
+        `ফলাফল: ${name} সেট ${setN} | WB ANM GNM 2026`;
+    }
+
+    /* ── SCORE SUMMARY ── */
+    function renderScoreSummary(result) {
+      /* Grade */
+      const grade = result.grade ||
+        QuizScorer.getGrade(result.percentage);
+
+      dom.scorePct.textContent =
+        `${toBn(result.percentage)}%`;
+      dom.scoreGrade.textContent  = grade.letter;
+      dom.scoreGrade.style.color  = grade.color;
+
+      dom.statScore.textContent =
+        toBn(result.score.toFixed(2));
+      dom.statScoreMax.textContent =
+        `/${toBn(result.total)}`;
+      dom.statCorrect.textContent     = toBn(result.correct);
+      dom.statWrong.textContent       = toBn(result.wrong);
+      dom.statUnattempted.textContent = toBn(result.unattempted);
+      dom.statTime.textContent =
+        QuizScorer.formatTime(result.timeTaken || 0);
+
+      /* Accuracy = correct / attempted */
+      const attempted = result.correct + result.wrong;
+      const accuracy  = attempted > 0
+        ? ((result.correct / attempted) * 100).toFixed(1)
+        : '0.0';
+      dom.statAccuracy.textContent = `${toBn(accuracy)}%`;
+
+      /* Grade message */
+      dom.gradeMessage.innerHTML = `
+        <span class="grade-badge"
+          style="background:${grade.color}20;
+                 color:${grade.color};
+                 border:1.5px solid ${grade.color}40">
+          ${grade.letter} — ${grade.label}
+        </span>
+        <span class="grade-msg-text">
+          ${getMotivationalMsg(result.percentage)}
+        </span>
+      `;
+    }
+
+    /* ── CIRCULAR PROGRESS ── */
+    function renderCircle(percentage) {
+      const pct       = Math.min(100, Math.max(0, parseFloat(percentage)));
+      const radius    = 52;
+      const circumference = 2 * Math.PI * radius; /* ≈ 326.73 */
+      const offset    = circumference - (pct / 100) * circumference;
+      const color     = getCircleColor(pct);
+
+      if (dom.scoreSvgFill) {
+        dom.scoreSvgFill.style.stroke            = color;
+        dom.scoreSvgFill.style.strokeDashoffset  = circumference;
+
+        /* Animate after small delay */
+        requestAnimationFrame(() => {
+          setTimeout(() => {
+            dom.scoreSvgFill.style.transition =
+              'stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1)';
+            dom.scoreSvgFill.style.strokeDashoffset = offset;
+          }, 200);
+        });
+      }
+
+      /* Also animate percentage counter */
+      animateCounter(dom.scorePct, 0, pct, 1200, (v) => {
+        return `${toBn(v.toFixed(1))}%`;
+      });
+    }
+
+    function getCircleColor(pct) {
+      if (pct >= 75) return '#22c55e';
+      if (pct >= 50) return '#f59e0b';
+      if (pct >= 30) return '#fb923c';
+      return '#ef4444';
+    }
+
+    /* ── PERFORMANCE CHART ── */
+    function renderChart(result) {
+      const chart = QuizScorer.getChartData(result);
+
+      /* Animate bars after delay */
+      setTimeout(() => {
+        dom.chartCorrect.style.width      = `${chart.correctPct}%`;
+        dom.chartWrong.style.width        = `${chart.wrongPct}%`;
+        dom.chartUnattempted.style.width  = `${chart.unattemptedPct}%`;
+      }, 400);
+
+      dom.chartCorrectVal.textContent     = toBn(result.correct);
+      dom.chartWrongVal.textContent       = toBn(result.wrong);
+      dom.chartUnattemptedVal.textContent = toBn(result.unattempted);
+    }
+
+    /* ── SCORE BREAKDOWN TEXT ── */
+    function renderScoreBreakdown(result) {
+      const correctMarks     = result.correct * 1;
+      const wrongDeduction   = result.wrong * 0.25;
+      const raw              = (correctMarks - wrongDeduction).toFixed(2);
+
+      dom.scoreBreakdown.innerHTML = `
+        <div class="breakdown-row">
+          <span class="breakdown-label">সঠিক উত্তর</span>
+          <span class="breakdown-calc">
+            ${toBn(result.correct)} × ১ =
+            <strong class="clr-green">+${toBn(correctMarks)}</strong>
+          </span>
+        </div>
+        <div class="breakdown-row">
+          <span class="breakdown-label">ভুল উত্তর</span>
+          <span class="breakdown-calc">
+            ${toBn(result.wrong)} × ০.২৫ =
+            <strong class="clr-red">−${toBn(wrongDeduction.toFixed(2))}</strong>
+          </span>
+        </div>
+        <div class="breakdown-row breakdown-row--total">
+          <span class="breakdown-label">মোট নম্বর</span>
+          <span class="breakdown-calc">
+            <strong>${toBn(parseFloat(raw) < 0 ? 0 : raw)}</strong>
+            / ${toBn(result.total)}
+          </span>
+        </div>
+      `;
+    }
+
+    /* ── QUESTION REVIEW LIST ── */
+    function renderReviewList(details, filter) {
+      filter = filter || 'all';
+      dom.reviewList.innerHTML = '';
+
+      const filtered = details.filter(d => {
+        if (filter === 'correct')     return d.isCorrect;
+        if (filter === 'wrong')       return d.isWrong;
+        if (filter === 'unattempted') return !d.isAttempted;
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        dom.reviewList.innerHTML = `
+          <div class="review-empty">
+            <p>এই ক্যাটাগরিতে কোনো প্রশ্ন নেই।</p>
+          </div>
+        `;
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+
+      filtered.forEach((d) => {
+        const item = buildReviewItem(d);
+        fragment.appendChild(item);
+      });
+
+      dom.reviewList.appendChild(fragment);
+    }
+
+    function buildReviewItem(d) {
+      const statusClass = d.isCorrect    ? 'review-item--correct'
+                        : d.isWrong      ? 'review-item--wrong'
+                        : 'review-item--unattempted';
+
+      const statusIcon  = d.isCorrect    ? '✓'
+                        : d.isWrong      ? '✗'
+                        : '—';
+
+      const statusLabel = d.isCorrect    ? 'সঠিক'
+                        : d.isWrong      ? 'ভুল'
+                        : 'উত্তর দেওয়া হয়নি';
+
+      const item = document.createElement('article');
+      item.className = `review-item ${statusClass}`;
+      item.setAttribute('role', 'listitem');
+      item.setAttribute('aria-label',
+        `প্রশ্ন ${d.index + 1}: ${statusLabel}`
+      );
+
+      /* Build options HTML */
+      const optionsHTML = d.options.map((opt, idx) => {
+        const isUserAnswer    = d.userAnswer === idx;
+        const isCorrectAnswer = d.correctAnswer === idx;
+
+        let cls = 'review-option';
+        if (isCorrectAnswer)                      cls += ' review-option--correct';
+        if (isUserAnswer && !isCorrectAnswer)      cls += ' review-option--wrong';
+        if (isUserAnswer && isCorrectAnswer)       cls += ' review-option--user-correct';
+
+        const icon = isCorrectAnswer
+          ? `<span class="review-opt-icon review-opt-icon--correct"
+               aria-label="সঠিক উত্তর">✓</span>`
+          : isUserAnswer
+            ? `<span class="review-opt-icon review-opt-icon--wrong"
+                 aria-label="আপনার ভুল উত্তর">✗</span>`
+            : '';
+
+        return `
+          <div class="${cls}">
+            <span class="review-opt-label" aria-hidden="true">
+              ${OPTION_LABELS[idx]}
+            </span>
+            <span class="review-opt-text">${opt}</span>
+            ${icon}
+          </div>
+        `;
+      }).join('');
+
+      item.innerHTML = `
+        <div class="review-item__header">
+          <div class="review-item__num-wrap">
+            <span class="review-item__num"
+              aria-hidden="true">${toBn(d.index + 1)}</span>
+            <span class="review-status-badge review-status-badge--${
+              d.isCorrect ? 'correct' : d.isWrong ? 'wrong' : 'unattempted'
+            }" aria-label="${statusLabel}">
+              <span aria-hidden="true">${statusIcon}</span>
+              ${statusLabel}
+            </span>
+          </div>
+          <span class="review-score-change ${
+            d.isCorrect ? 'clr-green' : d.isWrong ? 'clr-red' : 'clr-gray'
+          }">
+            ${d.isCorrect ? '+১' : d.isWrong ? '−০.২৫' : '০'}
+          </span>
+        </div>
+
+        <p class="review-item__question">${d.question}</p>
+
+        <div class="review-options-wrap" aria-label="বিকল্পসমূহ">
+          ${optionsHTML}
+        </div>
+
+        ${d.explanation
+          ? `<div class="review-explanation">
+               <div class="review-explanation__label">
+                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                   stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                   <circle cx="12" cy="12" r="10"/>
+                   <line x1="12" y1="8" x2="12" y2="8"/>
+                   <line x1="12" y1="12" x2="12" y2="16"/>
+                 </svg>
+                 ব্যাখ্যা
+               </div>
+               <p class="review-explanation__text">${d.explanation}</p>
+             </div>`
+          : ''
+        }
+      `;
+
+      return item;
+    }
+
+    /* ── FILTER BUTTONS ── */
+    function bindFilters() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => {
+            b.classList.remove('filter-btn--active');
+            b.setAttribute('aria-pressed', 'false');
+          });
+
+          btn.classList.add('filter-btn--active');
+          btn.setAttribute('aria-pressed', 'true');
+
+          activeFilter = btn.dataset.filter;
+          renderReviewList(allDetails, activeFilter);
+        });
+      });
+    }
+
+    /* ── ACTION BUTTONS ── */
+    function bindActions(subject, set) {
+      const setNum = parseInt(set);
+
+      /* Retry same quiz */
+      if (dom.btnRetry) {
+        dom.btnRetry.addEventListener('click', () => {
+          const setStr = String(setNum).padStart(2, '0');
+          window.location.href =
+            `quiz.html?subject=${encodeURIComponent(subject)}&set=${setStr}`;
+        });
+      }
+
+      /* Next set */
+      if (dom.btnNextSet) {
+        const nextSet = setNum < 10 ? setNum + 1 : 1;
+        dom.btnNextSet.addEventListener('click', () => {
+          const nextStr = String(nextSet).padStart(2, '0');
+          window.location.href =
+            `quiz.html?subject=${encodeURIComponent(subject)}&set=${nextStr}`;
+        });
+        /* Update label */
+        dom.btnNextSet.querySelector('svg').insertAdjacentText(
+          'afterend', ` সেট ${toBn(nextSet)}`
+        );
+      }
+
+      /* Print buttons */
+      const printHandler = () => QuizPrint.printResult();
+      if (dom.btnPrint)  dom.btnPrint.addEventListener('click', printHandler);
+      if (dom.btnPrint2) dom.btnPrint2.addEventListener('click', printHandler);
+    }
+
+    /* ── MOTIVATIONAL MESSAGE ── */
+    function getMotivationalMsg(percentage) {
+      if (percentage >= 90)
+        return 'অসাধারণ! আপনি এই সেটে দুর্দান্ত করেছেন!';
+      if (percentage >= 75)
+        return 'খুব ভালো করেছেন! একটু আরো চেষ্টা করুন।';
+      if (percentage >= 60)
+        return 'ভালো করেছেন! নিয়মিত অনুশীলন চালিয়ে যান।';
+      if (percentage >= 45)
+        return 'মোটামুটি হয়েছে। আরো মনোযোগ দিয়ে পড়ুন।';
+      if (percentage >= 30)
+        return 'আরো পড়াশোনা দরকার। হাল ছাড়বেন না!';
+      return 'আবার চেষ্টা করুন। প্রতিদিন একটু একটু করে এগিয়ে যান!';
+    }
+
+    /* ── COUNTER ANIMATION ── */
+    function animateCounter(el, from, to, duration, formatter) {
+      if (!el) return;
+      const start     = performance.now();
+      const range     = to - from;
+
+      function step(now) {
+        const elapsed  = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        /* Ease out cubic */
+        const eased    = 1 - Math.pow(1 - progress, 3);
+        const current  = from + range * eased;
+
+        el.textContent = formatter ? formatter(current) : toBn(Math.round(current));
+
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        }
+      }
+      requestAnimationFrame(step);
+    }
+
+    /* ── LOADING / ERROR ── */
+    function showLoading(visible) {
+      if (visible) {
+        dom.loading.removeAttribute('hidden');
+      } else {
+        dom.loading.setAttribute('hidden', '');
+      }
+    }
+
+    function showError(msg) {
+      showLoading(false);
+      dom.error.removeAttribute('hidden');
+      if (dom.errorMsg && msg) dom.errorMsg.textContent = msg;
+    }
+
+    /* ── BENGALI NUMERALS ── */
+    function toBn(num) {
+      const map = {
+        '0':'০','1':'১','2':'২','3':'৩','4':'৪',
+        '5':'৫','6':'৬','7':'৭','8':'৮','9':'৯'
+      };
+      return String(num).replace(/[0-9]/g, d => map[d] || d);
+    }
+
+  })();
+  </script>
+
+</body>
+</html>

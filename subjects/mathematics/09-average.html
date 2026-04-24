@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Average | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="9">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 9</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 9 / 14</div>
+    <h1 class="chapter-title">Average</h1>
+    <h2 class="chapter-title-bn">গড়</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>গড়ের ভূমিকা (Introduction to Average)</h2>
+
+      <p>ANM GNM পরীক্ষায় <strong>গড় (Average)</strong> থেকে প্রায়ই প্রশ্ন আসে। রোগীদের গড় বয়স, গড় তাপমাত্রা, গড় নম্বর ইত্যাদি ক্ষেত্রে গড় ব্যবহৃত হয়। এটি একটি সহজ কিন্তু গুরুত্বপূর্ণ বিষয়।</p>
+
+      <div class="definition-box">
+        <strong>গড় (Average / Mean):</strong>
+        কতগুলো রাশির যোগফলকে রাশিগুলোর সংখ্যা দিয়ে ভাগ করলে যে ভাগফল পাওয়া যায় তাকে ঐ রাশিগুলোর গড় বলে। একে গাণিতিক গড় (Arithmetic Mean) ও বলে।
+        <em>💡 MCQ Tip: গড় সবসময় ক্ষুদ্রতম ও বৃহত্তম মানের মাঝে থাকে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>ভারযুক্ত গড় (Weighted Average):</strong>
+        যখন প্রতিটি রাশির গুরুত্ব বা ওজন (weight) আলাদা হয়, তখন ভারযুক্ত গড় ব্যবহার করতে হয়।
+        <em>💡 MCQ Tip: দুটি দলের গড় মেলানোর সময় ভারযুক্ত গড় ব্যবহার হয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>মধ্যমা (Median):</strong>
+        সংখ্যাগুলোকে ক্রমানুসারে সাজালে ঠিক মাঝের সংখ্যাটিকে মধ্যমা বলে।
+        <em>💡 MCQ Tip: জোড় সংখ্যক তথ্যে মধ্যমা = মাঝের দুটি সংখ্যার গড়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>বহুল (Mode):</strong>
+        একগুচ্ছ সংখ্যার মধ্যে যে সংখ্যাটি সবচেয়ে বেশিবার থাকে তাকে বহুল বলে।
+        <em>💡 MCQ Tip: একটি তথ্যে একাধিক বহুল থাকতে পারে।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>পরিভাষা</th>
+            <th>ইংরেজি</th>
+            <th>অর্থ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>গাণিতিক গড়</td>
+            <td>Arithmetic Mean</td>
+            <td>যোগফল ÷ সংখ্যা</td>
+          </tr>
+          <tr>
+            <td>মধ্যমা</td>
+            <td>Median</td>
+            <td>মাঝের মান</td>
+          </tr>
+          <tr>
+            <td>বহুল</td>
+            <td>Mode</td>
+            <td>সবচেয়ে ঘন ঘন</td>
+          </tr>
+          <tr>
+            <td>পরিসর</td>
+            <td>Range</td>
+            <td>সর্বোচ্চ - সর্বনিম্ন</td>
+          </tr>
+          <tr>
+            <td>ভারযুক্ত গড়</td>
+            <td>Weighted Average</td>
+            <td>ওজন সহ গড়</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Core Formulas Section -->
+    <section class="content-section">
+      <h2>গড়ের মূল সূত্র ও হিসাব (Core Formulas)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 গড়ের মূল সূত্র (Average Formula):</strong><br>
+        \[ \text{গড় (Average)} = \frac{\text{সকল মানের যোগফল (Sum)}}{\text{মানের সংখ্যা (n)}} \]
+        \[ \text{যোগফল (Sum)} = \text{গড়} \times \text{সংখ্যা} \]
+        \[ \text{সংখ্যা (n)} = \frac{\text{যোগফল}}{\text{গড়}} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 ভারযুক্ত গড় (Weighted Average):</strong><br>
+        \[ \text{ভারযুক্ত গড়} = \frac{w_1x_1 + w_2x_2 + \ldots + w_nx_n}{w_1 + w_2 + \ldots + w_n} \]
+        যেখানে \( w \) = ওজন, \( x \) = মান
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> 5 জন ছাত্রের নম্বর 72, 85, 68, 91, 74 হলে তাদের গড় নম্বর কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> যোগফল = 72 + 85 + 68 + 91 + 74 = 390<br>
+          <strong>Step 2:</strong> ছাত্র সংখ্যা = 5<br>
+          <strong>Step 3:</strong> গড় = 390/5 = 78<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ \text{গড় নম্বর} = 78 \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> 4 জনের গড় বয়স 25 বছর। একজন নতুন সদস্য যোগ হওয়ায় গড় বয়স 23 বছর হলো। নতুন সদস্যের বয়স কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> 4 জনের মোট বয়স = 4 × 25 = 100 বছর<br>
+          <strong>Step 2:</strong> 5 জনের মোট বয়স = 5 × 23 = 115 বছর<br>
+          <strong>Step 3:</strong> নতুন সদস্যের বয়স = 115 - 100 = 15 বছর<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 15 \text{ বছর} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> প্রথম 10 টি স্বাভাবিক সংখ্যার গড় কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সংখ্যাগুলো: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10<br>
+          <strong>Step 2:</strong> যোগফল = n(n+1)/2 = 10×11/2 = 55<br>
+          <strong>Step 3:</strong> গড় = 55/10 = 5.5<br>
+          <strong>শর্টকাট:</strong> প্রথম n টি স্বাভাবিক সংখ্যার গড় = (n+1)/2 = 11/2 = 5.5<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 5.5 \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>প্রথম n টি স্বাভাবিক সংখ্যার গড়:</strong> \( \frac{n+1}{2} \)</li>
+        <li><strong>প্রথম n টি জোড় সংখ্যার গড়:</strong> \( (n+1) \) [2, 4, 6... 2n]</li>
+        <li><strong>প্রথম n টি বিজোড় সংখ্যার গড়:</strong> \( n \) [1, 3, 5... (2n-1)]</li>
+        <li><strong>ক্রমিক সংখ্যার গড়:</strong> \( \frac{\text{প্রথম + শেষ}}{2} \)</li>
+        <li><strong>গড়ে নতুন সংখ্যা যোগ:</strong> যদি নতুন সংখ্যা > গড়, তাহলে গড় বাড়ে</li>
+        <li><strong>গড়ে নতুন সংখ্যা যোগ:</strong> যদি নতুন সংখ্যা < গড়, তাহলে গড় কমে</li>
+        <li><strong>সবগুলো মানে k যোগ:</strong> নতুন গড় = পুরনো গড় + k</li>
+        <li><strong>সবগুলো মানকে k দিয়ে গুণ:</strong> নতুন গড় = পুরনো গড় × k</li>
+      </ul>
+    </section>
+
+    <!-- Special Problems Section -->
+    <section class="content-section">
+      <h2>বিশেষ সমস্যা ও মধ্যমা-বহুল (Special Problems, Median & Mode)</h2>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> একটি ক্রিকেট খেলোয়াড়ের 5 ম্যাচে রান হলো 45, 32, 78, 45, 60। গড়, মধ্যমা ও বহুল বের করুন।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>গড়:</strong> (45+32+78+45+60)/5 = 260/5 = 52<br>
+          <strong>মধ্যমা:</strong> ক্রমানুসারে: 32, 45, 45, 60, 78 → মাঝের মান = 45<br>
+          <strong>বহুল:</strong> 45 (দুইবার এসেছে, সবচেয়ে বেশি)<br>
+          <strong>∴ উত্তর (Answer):</strong> গড় = 52, মধ্যমা = 45, বহুল = 45
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> 8 জনের গড় ওজন 60 কেজি। তাদের মধ্যে একজন চলে গেলে গড় ওজন 58 কেজি হয়। চলে যাওয়া ব্যক্তির ওজন কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> 8 জনের মোট ওজন = 8 × 60 = 480 কেজি<br>
+          <strong>Step 2:</strong> 7 জনের মোট ওজন = 7 × 58 = 406 কেজি<br>
+          <strong>Step 3:</strong> চলে যাওয়া ব্যক্তির ওজন = 480 - 406 = 74 কেজি<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 74 \text{ কেজি} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> দুটি দলে যথাক্রমে 30 জন ও 20 জন আছে। তাদের গড় বয়স যথাক্রমে 40 ও 30। সম্মিলিত গড় বয়স কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> প্রথম দলের মোট বয়স = 30 × 40 = 1200<br>
+          <strong>Step 2:</strong> দ্বিতীয় দলের মোট বয়স = 20 × 30 = 600<br>
+          <strong>Step 3:</strong> সম্মিলিত মোট বয়স = 1200 + 600 = 1800<br>
+          <strong>Step 4:</strong> মোট জন = 30 + 20 = 50<br>
+          <strong>Step 5:</strong> সম্মিলিত গড় = 1800/50 = 36 বছর<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 36 \text{ বছর} \]
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 মধ্যমা বের করার নিয়ম:</strong><br>
+        <strong>বিজোড় সংখ্যক তথ্য (n টি):</strong> \[ \text{মধ্যমা} = \left(\frac{n+1}{2}\right)\text{-তম মান} \]
+        <strong>জোড় সংখ্যক তথ্য (n টি):</strong> \[ \text{মধ্যমা} = \frac{\left(\frac{n}{2}\right)\text{-তম} + \left(\frac{n}{2}+1\right)\text{-তম মান}}{2} \]
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{গড়} = \frac{\text{যোগফল}}{\text{সংখ্যা}} \] — মূল সূত্র</li>
+        <li>\[ \text{যোগফল} = \text{গড়} \times \text{সংখ্যা} \] — যোগফল বের করা</li>
+        <li>\[ \text{প্রথম n টি স্বাভাবিক সংখ্যার গড়} = \frac{n+1}{2} \]</li>
+        <li>\[ \text{ক্রমিক সংখ্যার গড়} = \frac{\text{প্রথম সংখ্যা} + \text{শেষ সংখ্যা}}{2} \]</li>
+        <li>\[ \text{সম্মিলিত গড়} = \frac{n_1 \bar{x}_1 + n_2 \bar{x}_2}{n_1 + n_2} \] — ভারযুক্ত গড়</li>
+        <li>\[ \text{প্রতিটিতে k যোগ করলে: নতুন গড়} = \text{পুরাতন গড়} + k \]</li>
+        <li>\[ \text{প্রতিটিকে k দিয়ে গুণ করলে: নতুন গড়} = \text{পুরাতন গড়} \times k \]</li>
+        <li>\[ \text{পরিসর (Range)} = \text{সর্বোচ্চ মান} - \text{সর্বনিম্ন মান} \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: ক্রমিক সংখ্যার গড়</strong><br>
+        ক্রমিক সংখ্যার গড় = (প্রথম + শেষ) / 2<br>
+        উদাহরণ: 5 থেকে 15 → গড় = (5+15)/2 = 10<br>
+        এটি জোড়, বিজোড়, ক্রমিক যেকোনোর জন্য কাজ করে।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: নতুন সদস্য যোগ/বিয়োগের প্রভাব</strong><br>
+        গড় x এবং n জন। নতুন সদস্য যোগে গড় y হলে:<br>
+        নতুন সদস্যের মান = (n+1)y - nx<br>
+        উদাহরণ: 5 জনের গড় 40, একজন যোগে গড় 42:<br>
+        নতুন = 6×42 - 5×40 = 252-200 = 52
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: প্রথম n টি সংখ্যার গড় মুখস্থ</strong><br>
+        প্রথম 10 → গড় 5.5<br>
+        প্রথম 50 → গড় 25.5<br>
+        প্রথম 100 → গড় 50.5<br>
+        সূত্র: (n+1)/2
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: একটি মান ভুল ধরা পড়লে</strong><br>
+        ভুল গড় জানা, সঠিক মান ও ভুল মান জানা:<br>
+        সঠিক গড় = ভুল গড় + (সঠিক মান - ভুল মান)/n<br>
+        উদাহরণ: 10 জনের ভুল গড় 50, ভুল 36 পড়া হয়েছে 46:<br>
+        সঠিক গড় = 50 + (36-46)/10 = 50 - 1 = 49
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: গড় বয়সের সমস্যা</strong><br>
+        n বছর আগে/পরে প্রত্যেকের বয়স n বছর কম/বেশি হয়।<br>
+        তাই গড়ও n বছর কম/বেশি হয়।<br>
+        উদাহরণ: বর্তমান গড় 30, 5 বছর আগে গড় = 30-5 = 25
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: দুই দলের সম্মিলিত গড়</strong><br>
+        দুটি দল: n₁ জনের গড় x₁, n₂ জনের গড় x₂<br>
+        সম্মিলিত গড় = (n₁x₁ + n₂x₂) / (n₁ + n₂)<br>
+        সম্মিলিত গড় সবসময় দুটি গড়ের মাঝে থাকে।
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. 15, 20, 25, 30, 35 এর গড় কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 25 (যোগফল = 125, 125/5 = 25; অথবা শর্টকাট (15+35)/2 = 25)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. প্রথম 50 টি স্বাভাবিক সংখ্যার গড় কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 25.5 (শর্টকাট: (n+1)/2 = 51/2 = 25.5)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. 6 জনের গড় বয়স 35 বছর। একজন চলে গেলে গড় 32 হয়। চলে যাওয়া ব্যক্তির বয়স কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 50 বছর (6×35 - 5×32 = 210-160 = 50)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. 12, 15, 18, 15, 20, 15, 22 — এই তথ্যের বহুল (Mode) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 15 (15 তিনবার এসেছে, সবচেয়ে বেশি)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. 3, 7, 9, 11, 15 এর মধ্যমা (Median) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 9 (ক্রমে সাজানো: 3, 7, 9, 11, 15 → মাঝের = 3তম = 9)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. 40 জন ছাত্রের গড় নম্বর 75। তাদের মধ্যে 25 জনের গড় 70 হলে বাকি 15 জনের গড় কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 83.33 (মোট=3000, 25×70=1750, বাকি=3000-1750=1250, গড়=1250/15≈83.33)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. যদি প্রতিটি সংখ্যায় 5 যোগ করা হয় এবং আগের গড় 20 হয়, নতুন গড় কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 25 (প্রতিটিতে k যোগ করলে গড়ও k বাড়ে: 20+5 = 25)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 5 বিষয়ে গড় 60 নম্বর পেয়ে পাস করতে হলে 4 বিষয়ে 65 পেলে 5ম বিষয়ে কত পেতে হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 40 (মোট = 5×60 = 300, 4 বিষয় = 4×65 = 260, 5ম = 300-260 = 40)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>গড় = যোগফল ÷ সংখ্যা, যোগফল = গড় × সংখ্যা</li>
+      <li>প্রথম n টি স্বাভাবিক সংখ্যার গড় = (n+1)/2</li>
+      <li>ক্রমিক সংখ্যার গড় = (প্রথম + শেষ)/2</li>
+      <li>মধ্যমা = ক্রমে সাজিয়ে মাঝের মান</li>
+      <li>বহুল = সবচেয়ে বেশিবার আসা মান</li>
+      <li>প্রতিটিতে k যোগ → গড়ও k বাড়ে</li>
+      <li>সম্মিলিত গড় = (n₁x₁ + n₂x₂)/(n₁+n₂)</li>
+      <li>n বছর পর গড় বয়স = বর্তমান গড় + n</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="08-compound-interest.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="10-time-work.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

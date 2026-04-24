@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venn Diagrams | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="13">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 13</span>
+  </nav>
+
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 13 / 14</div>
+    <h1 class="chapter-title">Venn Diagrams</h1>
+    <h2 class="chapter-title-bn">ভেন চিত্র</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Venn Diagrams (ভেন চিত্র)</strong> হল বৃত্ত বা অন্যান্য জ্যামিতিক আকার ব্যবহার করে বিভিন্ন set (সেট) এবং তাদের মধ্যে সম্পর্ক চিত্রিত করার পদ্ধতি। ANM GNM পরীক্ষায় দুই ধরনের Venn Diagram প্রশ্ন আসে: (১) সম্পর্ক চিহ্নিত করা, (২) সংখ্যাগত প্রশ্ন।</p>
+
+      <div class="definition-box">
+        <strong>Set (সেট):</strong>
+        সুনির্দিষ্ট বস্তু বা উপাদানের সমষ্টি। Venn Diagram-এ প্রতিটি বৃত্ত একটি Set-কে প্রতিনিধিত্ব করে।
+        <em>💡 MCQ Tip: প্রতিটি বৃত্ত = একটি Category বা Group</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Intersection (ছেদ):</strong>
+        দুটি বা তার বেশি Set-এ যেসব উপাদান সাধারণভাবে বিদ্যমান। Venn Diagram-এ ওভারল্যাপিং অংশ।
+        <em>💡 MCQ Tip: দুই বৃত্তের মাঝের অংশ = উভয়ের অন্তর্গত</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Union (মিলন):</strong>
+        দুটি বা তার বেশি Set-এর সমস্ত উপাদান মিলিয়ে। A∪B = A বা B যেকোনো একটিতে থাকা সমস্ত উপাদান।
+        <em>💡 MCQ Tip: Union = উভয় বৃত্তের সব উপাদান একসাথে গণনা করুন</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>পাঁচ ধরনের সম্পর্ক:</strong> Complete overlap, Partial overlap, No overlap, Subset, Cross-relation</li>
+        <li><strong>Subset (উপসেট):</strong> একটি বৃত্ত অন্যটির মধ্যে সম্পূর্ণ থাকলে</li>
+        <li><strong>Disjoint (বিচ্ছিন্ন):</strong> দুটি বৃত্ত আলাদা, কোনো overlap নেই</li>
+        <li><strong>Partial Overlap:</strong> দুটি বৃত্তের কিছু অংশ মিলে যায়</li>
+        <li><strong>সংখ্যাগত সূত্র:</strong> A∪B = A + B − A∩B</li>
+        <li><strong>তিন সেটের সূত্র:</strong> A∪B∪C = A+B+C − A∩B − B∩C − A∩C + A∩B∩C</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: RULES & PATTERNS TABLE
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ নিয়ম ও ধরন (Important Rules & Patterns)</h2>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>সম্পর্কের ধরন (Type)</th>
+            <th>উদাহরণ (Example)</th>
+            <th>Diagram আকার</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Subset (উপসেট)</th>
+            <td>Mango : Fruit (আম একটি ফল)</td>
+            <td>একটি বৃত্ত অন্যটির ভেতরে</td>
+          </tr>
+          <tr>
+            <th>Disjoint (সম্পর্কহীন)</th>
+            <td>Dog : Flower (সম্পূর্ণ ভিন্ন)</td>
+            <td>দুটি বৃত্ত আলাদা আলাদা</td>
+          </tr>
+          <tr>
+            <th>Partial Overlap (আংশিক)</th>
+            <td>Teacher : Singer (কেউ উভয়ই হতে পারে)</td>
+            <td>দুটি বৃত্ত আংশিক মিলিত</td>
+          </tr>
+          <tr>
+            <th>Equal Sets (সমান সেট)</th>
+            <td>Square : Rhombus (নির্দিষ্ট প্রেক্ষাপটে)</td>
+            <td>দুটি বৃত্ত সম্পূর্ণ একই</td>
+          </tr>
+          <tr>
+            <th>Three Set Relation</th>
+            <td>Doctor, Female, Indian</td>
+            <td>তিনটি বৃত্ত — বিভিন্ন অংশ</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <pre class="reasoning-diagram">
+        পাঁচ ধরনের Venn Diagram সম্পর্ক:
+
+        1. Subset:          2. Disjoint:       3. Partial Overlap:
+           ┌───────┐           ┌───┐ ┌───┐        ┌───┬───┐
+           │  B    │           │ A │ │ B │        │ A │ B │
+           │ ┌───┐ │           └───┘ └───┘        └───┴───┘
+           │ │ A │ │        (A∩B = 0)          (কিছু অংশ মিলিত)
+           │ └───┘ │
+           └───────┘
+           (A ⊂ B)
+
+        4. Three Sets:
+              ┌──────────┐
+              │  A   ┌───┼───┐
+              │   ┌──┼─┐ │   │
+              │   │A∩B∩C│   │
+              └───┼──┼─┘ B  │
+                  └───┼─────┘
+                      C
+      </pre>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক ১ (Subset Check):</strong>
+        যদি A সবসময় B-এর অন্তর্গত হয় (যেমন: Mango is always a Fruit), তাহলে A ⊂ B → ছোট বৃত্ত বড় বৃত্তের ভেতরে। "সবসময়" শব্দটি দেখলে Subset।
+      </div>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক ২ (Overlap Check):</strong>
+        যদি "কেউ কেউ" উভয় Group-এ থাকতে পারে (যেমন: Teacher who is also a Singer), তাহলে Partial Overlap। "কিছু", "কেউ কেউ" শব্দ দেখলে Partial Overlap।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: SOLVED EXAMPLES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong>
+        তিনটি শব্দের মধ্যে সম্পর্ক চিহ্নিত করুন: Rose, Flower, Plant<br>
+        (A) তিনটি আলাদা বৃত্ত  (B) Rose ⊂ Flower ⊂ Plant  (C) আংশিক ওভারল্যাপ  (D) দুটি ওভারল্যাপ
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Rose একটি Flower — Rose ⊂ Flower<br>
+          <strong>Step 2:</strong> Flower একটি Plant — Flower ⊂ Plant<br>
+          <strong>Step 3:</strong> Rose ⊂ Flower ⊂ Plant → তিনটি nested বৃত্ত<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) Rose ⊂ Flower ⊂ Plant
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Example 1: Nested Subset
+
+        ┌─────────────────────┐
+        │       Plant         │
+        │   ┌─────────────┐   │
+        │   │   Flower    │   │
+        │   │  ┌───────┐  │   │
+        │   │  │  Rose │  │   │
+        │   │  └───────┘  │   │
+        │   └─────────────┘   │
+        └─────────────────────┘
+
+        Rose ⊂ Flower ⊂ Plant
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong>
+        একটি ক্লাসে ৪০ জন ছাত্র আছে। ২৫ জন গণিত পড়ে, ২০ জন বিজ্ঞান পড়ে, ১০ জন উভয় পড়ে। কতজন শুধু গণিত বা শুধু বিজ্ঞান পড়ে?<br>
+        (A) 30  (B) 35  (C) 45  (D) 55
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> শুধু গণিত = 25 − 10 = 15<br>
+          <strong>Step 2:</strong> শুধু বিজ্ঞান = 20 − 10 = 10<br>
+          <strong>Step 3:</strong> শুধু গণিত + শুধু বিজ্ঞান = 15 + 10 = 25<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (A) 30 [শুধু গণিত + শুধু বিজ্ঞান + উভয় = 15+10+10 = 35, শুধু একটি = 25]
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Example 2: Two-Set Venn Diagram
+
+             Math            Science
+        ┌─────────┬──────────────────┐
+        │         │    ∩      │      │
+        │   Only  │  Both     │ Only │
+        │   Math  │  (10)     │ Sci  │
+        │   (15)  │           │ (10) │
+        └─────────┴──────────────────┘
+
+        Formula: A∪B = A + B − A∩B
+                     = 25 + 20 − 10 = 35
+        শুধু একটি পড়ে = 35 − 10 = 25
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong>
+        তিনটি শব্দের মধ্যে সম্পর্ক: Doctor, Teacher, Female<br>
+        (A) তিনটি আলাদা  (B) তিনটি nested  (C) Doctor ও Teacher আলাদা কিন্তু উভয় Female-এর সাথে overlap  (D) সব আংশিক overlap
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Doctor এবং Teacher আলাদা পেশা — Disjoint হতে পারে<br>
+          <strong>Step 2:</strong> কিছু Doctor Female হতে পারে, কিছু Teacher Female হতে পারে<br>
+          <strong>Step 3:</strong> কিছু Female Doctor এবং Teacher উভয়ই হতে পারে (বিরল)<br>
+          <strong>Step 4:</strong> তিনটিই আংশিক overlap<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (D) সব আংশিক overlap
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৪ (Example 4):</strong>
+        ১০০ জনের মধ্যে ৬০ জন চা পান করে, ৪০ জন কফি পান করে, ২০ জন উভয় পান করে। কতজন শুধু চা বা কফি পান করে না?<br>
+        (A) 10  (B) 15  (C) 20  (D) 25
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> A∪B = 60 + 40 − 20 = 80<br>
+          <strong>Step 2:</strong> কেউই পান করে না = 100 − 80 = 20<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) 20
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৫ (Example 5):</strong>
+        তিনটি শব্দের সম্পর্ক চিহ্নিত করুন: Lion, Animal, Tiger<br>
+        (A) Lion ⊂ Animal এবং Tiger ⊂ Animal, Lion ও Tiger আলাদা  (B) তিনটি আলাদা  (C) আংশিক overlap  (D) সম্পূর্ণ overlap
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Lion এবং Tiger উভয়ই Animal — উভয় Animal-এর Subset<br>
+          <strong>Step 2:</strong> Lion এবং Tiger একে অপরের থেকে আলাদা — Disjoint<br>
+          <strong>Step 3:</strong> Lion ⊂ Animal, Tiger ⊂ Animal, Lion ∩ Tiger = ∅<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (A)
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+
+      <ul class="fact-list">
+        <li><strong>দুই সেট সূত্র:</strong> A∪B = A + B − A∩B</li>
+        <li><strong>শুধু A = A − A∩B</strong> (শুধু A-তে আছে কিন্তু B-তে নেই)</li>
+        <li><strong>কেউই নেই = Total − A∪B</strong></li>
+        <li><strong>Subset মনে রাখুন:</strong> সবসময় → ছোট বৃত্ত বড়টির ভেতরে</li>
+        <li><strong>Partial Overlap:</strong> "কেউ কেউ" বা "কিছু" → আংশিক মিলিত বৃত্ত</li>
+        <li><strong>Disjoint:</strong> সম্পূর্ণ ভিন্ন category → আলাদা বৃত্ত</li>
+        <li><strong>তিন সেট সূত্র:</strong> A+B+C − (A∩B) − (B∩C) − (A∩C) + (A∩B∩C)</li>
+        <li><strong>সাধারণ উদাহরণ:</strong> Rose⊂Flower⊂Plant; Dog ও Cat উভয় Animal-এর Subset</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ Two-Set সংখ্যাগত শর্টকাট:</strong>
+        মনে রাখুন: Only A = A − Both, Only B = B − Both, Neither = Total − (Only A + Only B + Both)। এই তিনটি সূত্র মনে থাকলে ৯০% সংখ্যাগত Venn Diagram সমাধান হয়।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: PRACTICE QUESTIONS (8)
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. তিনটি শব্দের সম্পর্ক: Sparrow, Bird, Animal<br>
+        (A) তিনটি আলাদা  (B) Sparrow ⊂ Bird ⊂ Animal  (C) আংশিক overlap  (D) Bird ও Animal আলাদা</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) — Sparrow একটি Bird, Bird একটি Animal। Nested Subset।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. ৫০ জনের মধ্যে ৩০ জন Cricket খেলে, ২৫ জন Football খেলে, ১০ জন উভয় খেলে। কতজন অন্তত একটি খেলে?<br>
+        (A) 40  (B) 45  (C) 50  (D) 55</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 45 — A∪B = 30 + 25 − 10 = 45।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. তিনটি শব্দের সম্পর্ক: Cat, Dog, Animal<br>
+        (A) Cat ⊂ Dog  (B) Cat ও Dog উভয় Animal-এর subset, কিন্তু পরস্পর disjoint  (C) তিনটি আলাদা  (D) সব overlap</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) — Cat ও Dog উভয়ই Animal কিন্তু একে অপর থেকে আলাদা।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. ৮০ জনের মধ্যে ৪৫ জন হিন্দি জানে, ৩৫ জন English জানে, ২০ জন উভয় জানে। কতজন কোনোটিই জানে না?<br>
+        (A) 15  (B) 20  (C) 25  (D) 30</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 20 — A∪B = 45+35−20 = 60। Neither = 80−60 = 20।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. তিনটি শব্দের সম্পর্ক: Doctor, Engineer, Person<br>
+        (A) Doctor ⊂ Engineer  (B) Doctor ও Engineer উভয় Person-এর subset, কিন্তু disjoint  (C) তিনটি overlap  (D) Engineer ⊂ Doctor</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) — Doctor ও Engineer পৃথক পেশা কিন্তু উভয়ই Person।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. তিনটি শব্দের সম্পর্ক: Teacher, Painter, Woman<br>
+        (A) তিনটি আলাদা  (B) Teacher ⊂ Woman  (C) তিনটি partial overlap  (D) Teacher ⊂ Painter</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) — কেউ Teacher ও Painter উভয়ই হতে পারে, কেউ Woman Teacher বা Woman Painter হতে পারে।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. ৬০ জনের মধ্যে ৩৫ জন Mathematics পড়ে, ৩০ জন Physics পড়ে, ১৫ জন উভয় পড়ে। শুধু Mathematics পড়ে কতজন?<br>
+        (A) 15  (B) 20  (C) 25  (D) 30</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 20 — শুধু Mathematics = 35 − 15 = 20।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. তিনটি শব্দের সম্পর্ক: Triangle, Rectangle, Polygon<br>
+        (A) Triangle ⊂ Polygon এবং Rectangle ⊂ Polygon, কিন্তু Triangle ও Rectangle আলাদা  (B) তিনটি সম্পূর্ণ আলাদা  (C) Triangle ⊂ Rectangle  (D) তিনটি সম্পূর্ণ একই</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) — Triangle ও Rectangle উভয়ই Polygon কিন্তু পৃথক আকার।</p>
+      </div>
+
+    </section>
+
+  </article>
+  <!-- ════ end chapter-content ════ -->
+
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>Subset:</strong> A সবসময় B-এর অন্তর্গত → A ⊂ B, ছোট বৃত্ত বড়টির ভেতরে</li>
+      <li><strong>Disjoint:</strong> কোনো সম্পর্ক নেই → দুটি আলাদা বৃত্ত</li>
+      <li><strong>Partial Overlap:</strong> কেউ কেউ উভয়ে → আংশিক মিলিত বৃত্ত</li>
+      <li><strong>দুই সেট সূত্র:</strong> A∪B = A + B − A∩B</li>
+      <li><strong>Only A = A − A∩B</strong> (শুধু A-তে আছে)</li>
+      <li><strong>Neither = Total − A∪B</strong> (কেউই নেই)</li>
+      <li><strong>সবসময়:</strong> "সবসময়" = Subset; "কেউ কেউ" = Partial Overlap</li>
+      <li><strong>তিন সেট:</strong> A+B+C − পেয়ার intersections + triple intersection</li>
+    </ul>
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="12-cause-effect.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="14-non-verbal-reasoning.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

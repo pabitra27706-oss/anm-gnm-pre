@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Interest | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="7">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 7</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 7 / 14</div>
+    <h1 class="chapter-title">Simple Interest</h1>
+    <h2 class="chapter-title-bn">সরল সুদ</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>সরল সুদের ভূমিকা (Introduction to Simple Interest)</h2>
+
+      <p>ANM GNM পরীক্ষায় <strong>সরল সুদ (Simple Interest)</strong> থেকে প্রায়ই প্রশ্ন আসে। ব্যাংক, ঋণ, সঞ্চয়পত্র ইত্যাদি ক্ষেত্রে সরল সুদ ব্যবহার হয়। এখানে সুদ শুধুমাত্র মূলধনের উপর হিসাব হয়, আগের সুদের উপর নয়।</p>
+
+      <div class="definition-box">
+        <strong>মূলধন (Principal - P):</strong>
+        যে পরিমাণ টাকা ধার দেওয়া হয় বা ব্যাংকে জমা রাখা হয় তাকে মূলধন বলে। একে P দ্বারা প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: মূলধন হলো সুদ হিসাবের ভিত্তি।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সুদের হার (Rate of Interest - R):</strong>
+        প্রতি 100 টাকায় প্রতি বছর যে পরিমাণ সুদ দিতে হয় তাকে সুদের হার বলে। একে R% বা R দ্বারা প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: সুদের হার সবসময় বার্ষিক (per annum) হিসাবে থাকে, না বললে বার্ষিক ধরতে হবে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সময়কাল (Time - T):</strong>
+        যে সময়ের জন্য টাকা ধার দেওয়া বা জমা রাখা হয় তাকে সময়কাল বলে। একে T দ্বারা প্রকাশ করা হয় (বছর হিসাবে)।
+        <em>💡 MCQ Tip: মাসে দেওয়া থাকলে 12 দিয়ে ভাগ করে বছরে আনুন। 6 মাস = 6/12 = 1/2 বছর।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সরল সুদ (Simple Interest - SI):</strong>
+        যখন সুদ শুধুমাত্র মূলধনের উপর হিসাব করা হয় এবং প্রতি বছর সুদ একই থাকে, তাকে সরল সুদ বলে।
+        <em>💡 MCQ Tip: সরল সুদে প্রতি বছর সুদের পরিমাণ সমান থাকে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সবৃদ্ধি মূলধন (Amount - A):</strong>
+        মূলধন ও সুদের যোগফলকে সবৃদ্ধি মূলধন বলে। \( A = P + SI \)
+        <em>💡 MCQ Tip: Amount = Principal + Interest, সবসময় P এর চেয়ে বেশি।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>পরিভাষা</th>
+            <th>ইংরেজি</th>
+            <th>সংক্ষেপ</th>
+            <th>একক</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>মূলধন</td>
+            <td>Principal</td>
+            <td>P</td>
+            <td>টাকা</td>
+          </tr>
+          <tr>
+            <td>সুদের হার</td>
+            <td>Rate of Interest</td>
+            <td>R</td>
+            <td>%</td>
+          </tr>
+          <tr>
+            <td>সময়কাল</td>
+            <td>Time</td>
+            <td>T</td>
+            <td>বছর</td>
+          </tr>
+          <tr>
+            <td>সরল সুদ</td>
+            <td>Simple Interest</td>
+            <td>SI</td>
+            <td>টাকা</td>
+          </tr>
+          <tr>
+            <td>সবৃদ্ধি মূলধন</td>
+            <td>Amount</td>
+            <td>A</td>
+            <td>টাকা</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Core Formulas Section -->
+    <section class="content-section">
+      <h2>সরল সুদের মূল সূত্র (Core Formulas of Simple Interest)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 সরল সুদের সূত্র (Simple Interest Formula):</strong><br>
+        \[ SI = \frac{P \times R \times T}{100} \]
+        যেখানে:<br>
+        \( P \) = মূলধন (Principal)<br>
+        \( R \) = সুদের হার (Rate %)<br>
+        \( T \) = সময়কাল (Time in years)
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 সবৃদ্ধি মূলধনের সূত্র (Amount Formula):</strong><br>
+        \[ A = P + SI = P + \frac{PRT}{100} = P\left(1 + \frac{RT}{100}\right) \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 অন্যান্য সূত্র (Other Formulas):</strong><br>
+        <strong>মূলধন বের করা:</strong>
+        \[ P = \frac{SI \times 100}{R \times T} \]
+        <strong>সুদের হার বের করা:</strong>
+        \[ R = \frac{SI \times 100}{P \times T} \]
+        <strong>সময়কাল বের করা:</strong>
+        \[ T = \frac{SI \times 100}{P \times R} \]
+        <strong>মূলধন (Amount থেকে):</strong>
+        \[ P = \frac{A \times 100}{100 + RT} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> 5000 টাকা বার্ষিক 10% সুদের হারে 3 বছরে সরল সুদ ও সবৃদ্ধি মূলধন কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> P = 5000, R = 10%, T = 3 বছর<br>
+          <strong>Step 2:</strong> SI = \( \frac{P \times R \times T}{100} = \frac{5000 \times 10 \times 3}{100} \)<br>
+          <strong>Step 3:</strong> SI = \( \frac{150000}{100} = 1500 \) টাকা<br>
+          <strong>Step 4:</strong> A = P + SI = 5000 + 1500 = 6500 টাকা<br>
+          <strong>∴ উত্তর (Answer):</strong> SI = 1500 টাকা, A = 6500 টাকা
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> কত টাকা বার্ষিক 8% সুদের হারে 5 বছরে সুদে-মূলে 7000 টাকা হবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> A = 7000, R = 8%, T = 5 বছর<br>
+          <strong>Step 2:</strong> সূত্র: \( P = \frac{A \times 100}{100 + RT} \)<br>
+          <strong>Step 3:</strong> \( P = \frac{7000 \times 100}{100 + (8 \times 5)} = \frac{700000}{140} \)<br>
+          <strong>Step 4:</strong> P = 5000 টাকা<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ P = 5000 \text{ টাকা} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> 4000 টাকার 2 বছরের সরল সুদ 640 টাকা হলে সুদের হার কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> P = 4000, T = 2, SI = 640<br>
+          <strong>Step 2:</strong> সূত্র: \( R = \frac{SI \times 100}{P \times T} \)<br>
+          <strong>Step 3:</strong> \( R = \frac{640 \times 100}{4000 \times 2} = \frac{64000}{8000} \)<br>
+          <strong>Step 4:</strong> R = 8%<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ R = 8\% \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>সময় মাসে দিলে:</strong> T = মাস/12 (যেমন: 9 মাস = 9/12 = 3/4 বছর)</li>
+        <li><strong>সময় দিনে দিলে:</strong> T = দিন/365 (যেমন: 146 দিন = 146/365 = 2/5 বছর)</li>
+        <li><strong>সরল সুদ রৈখিক:</strong> সুদ সময়ের সাথে সমানুপাতিক বাড়ে</li>
+        <li><strong>দ্বিগুণ হওয়ার সময়:</strong> \( T = \frac{100}{R} \) বছর</li>
+        <li><strong>তিনগুণ হওয়ার সময়:</strong> \( T = \frac{200}{R} \) বছর</li>
+        <li><strong>n-গুণ হওয়ার সময়:</strong> \( T = \frac{(n-1) \times 100}{R} \) বছর</li>
+      </ul>
+    </section>
+
+    <!-- Special Problems Section -->
+    <section class="content-section">
+      <h2>বিশেষ সমস্যা (Special Problems)</h2>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> কত বছরে 2000 টাকা বার্ষিক 5% সুদে দ্বিগুণ হবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> দ্বিগুণ মানে A = 2P = 2 × 2000 = 4000<br>
+          <strong>Step 2:</strong> SI = A - P = 4000 - 2000 = 2000<br>
+          <strong>Step 3:</strong> শর্টকাট সূত্র: \( T = \frac{100}{R} = \frac{100}{5} = 20 \) বছর<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 20 \text{ বছর} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> কত শতাংশ সরল সুদের হারে 8 বছরে কোনো টাকা তিনগুণ হবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> তিনগুণ মানে A = 3P<br>
+          <strong>Step 2:</strong> SI = A - P = 3P - P = 2P<br>
+          <strong>Step 3:</strong> শর্টকাট: \( R = \frac{(n-1) \times 100}{T} = \frac{(3-1) \times 100}{8} = \frac{200}{8} \)<br>
+          <strong>Step 4:</strong> R = 25%<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ R = 25\% \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> 3000 টাকা 8 মাসের জন্য বার্ষিক 12% হারে সরল সুদ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> P = 3000, R = 12%, T = 8 মাস = 8/12 = 2/3 বছর<br>
+          <strong>Step 2:</strong> SI = \( \frac{3000 \times 12 \times \frac{2}{3}}{100} = \frac{3000 \times 12 \times 2}{100 \times 3} \)<br>
+          <strong>Step 3:</strong> = \( \frac{72000}{300} = 240 \) টাকা<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ SI = 240 \text{ টাকা} \]
+        </div>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>মূলধনের গুণিতক</th>
+            <th>সময়ের সূত্র</th>
+            <th>সুদের হার 10% হলে</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>দ্বিগুণ (2 গুণ)</td>
+            <td>\( T = \frac{100}{R} \)</td>
+            <td>10 বছর</td>
+          </tr>
+          <tr>
+            <td>তিনগুণ (3 গুণ)</td>
+            <td>\( T = \frac{200}{R} \)</td>
+            <td>20 বছর</td>
+          </tr>
+          <tr>
+            <td>চারগুণ (4 গুণ)</td>
+            <td>\( T = \frac{300}{R} \)</td>
+            <td>30 বছর</td>
+          </tr>
+          <tr>
+            <td>n গুণ</td>
+            <td>\( T = \frac{(n-1) \times 100}{R} \)</td>
+            <td>\( (n-1) \times 10 \) বছর</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ SI = \frac{P \times R \times T}{100} \] — সরল সুদের মূল সূত্র</li>
+        <li>\[ A = P + SI = P\left(1 + \frac{RT}{100}\right) \] — সবৃদ্ধি মূলধন</li>
+        <li>\[ P = \frac{SI \times 100}{R \times T} \] — মূলধন বের করা</li>
+        <li>\[ R = \frac{SI \times 100}{P \times T} \] — সুদের হার বের করা</li>
+        <li>\[ T = \frac{SI \times 100}{P \times R} \] — সময়কাল বের করা</li>
+        <li>\[ P = \frac{A \times 100}{100 + RT} \] — Amount থেকে মূলধন</li>
+        <li>\[ \text{দ্বিগুণের সময়} = \frac{100}{R} \text{ বছর} \] — দ্বিগুণ শর্টকাট</li>
+        <li>\[ \text{n-গুণের সময়} = \frac{(n-1) \times 100}{R} \text{ বছর} \] — n-গুণ শর্টকাট</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: সরল সুদ দ্রুত হিসাব</strong><br>
+        P = 1000, R = 10%, T = 3 বছর হলে:<br>
+        প্রতি বছর সুদ = 1000 × 10/100 = 100 টাকা<br>
+        3 বছরে সুদ = 100 × 3 = 300 টাকা<br>
+        প্রথমে 1 বছরের সুদ বের করুন, তারপর বছর দিয়ে গুণ করুন।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: দ্বিগুণ-তিনগুণ শর্টকাট</strong><br>
+        <strong>দ্বিগুণ:</strong> T = 100/R বছর<br>
+        <strong>তিনগুণ:</strong> T = 200/R বছর<br>
+        <strong>চারগুণ:</strong> T = 300/R বছর<br>
+        উদাহরণ: R=5% → দ্বিগুণ = 100/5 = 20 বছর
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: মাস থেকে বছর রূপান্তর</strong><br>
+        3 মাস = 1/4 বছর<br>
+        4 মাস = 1/3 বছর<br>
+        6 মাস = 1/2 বছর<br>
+        8 মাস = 2/3 বছর<br>
+        9 মাস = 3/4 বছর<br>
+        18 মাস = 3/2 বছর = 1.5 বছর
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: Amount থেকে দ্রুত SI বের করা</strong><br>
+        SI = A - P (সবসময়)<br>
+        যদি P ও A জানা থাকে, তবে সরাসরি বিয়োগ করুন।<br>
+        P=5000, A=6500 → SI = 6500-5000 = 1500
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: সুদের হার দ্রুত নির্ণয়</strong><br>
+        যদি মূলধন T বছরে n-গুণ হয়:<br>
+        R = (n-1) × 100/T%<br>
+        উদাহরণ: 5 বছরে দ্বিগুণ → R = (2-1)×100/5 = 20%
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: দুটি হারে সুদের পার্থক্য</strong><br>
+        একই মূলধন একই সময়ে R₁% ও R₂% হারে রাখলে:<br>
+        সুদের পার্থক্য = P × (R₁-R₂) × T / 100<br>
+        উদাহরণ: P=2000, T=3, R₁=8, R₂=5<br>
+        পার্থক্য = 2000×3×3/100 = 180 টাকা
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. 8000 টাকা বার্ষিক 5% সুদে 4 বছরের সরল সুদ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 1600 টাকা (SI = 8000×5×4/100 = 160000/100 = 1600)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. কত টাকা বার্ষিক 10% সুদে 2 বছরে সুদে-মূলে 6000 টাকা হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 5000 টাকা (P = 6000×100/(100+20) = 600000/120 = 5000)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. কত বছরে 3000 টাকা বার্ষিক 10% সরল সুদে দ্বিগুণ হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 10 বছর (T = 100/R = 100/10 = 10)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. 6000 টাকার 3 বছরে সরল সুদ 1080 টাকা হলে সুদের হার কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 6% (R = 1080×100/(6000×3) = 108000/18000 = 6%)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. 2500 টাকা 9 মাসের জন্য 8% সুদের হারে সরল সুদ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 150 টাকা (T = 9/12 = 3/4, SI = 2500×8×3/(100×4) = 60000/400 = 150)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. কত শতাংশ সরল সুদের হারে 5 বছরে কোনো টাকা তিনগুণ হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 40% (R = (3-1)×100/5 = 200/5 = 40%)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. 10000 টাকার 2 বছরের সুদ 5% এবং 8% হারে কত আলাদা হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 600 টাকা (পার্থক্য = 10000×(8-5)×2/100 = 10000×3×2/100 = 600)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 4000 টাকা বার্ষিক 12% সরল সুদে কত বছরে সুদে-মূলে 6400 টাকা হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 5 বছর (SI = 6400-4000 = 2400, T = 2400×100/(4000×12) = 240000/48000 = 5)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>SI = P×R×T/100 (মূল সূত্র, মুখস্থ রাখুন)</li>
+      <li>A = P + SI = P(1 + RT/100)</li>
+      <li>P = SI×100/(R×T), R = SI×100/(P×T), T = SI×100/(P×R)</li>
+      <li>দ্বিগুণের সময় = 100/R বছর</li>
+      <li>n-গুণের সময় = (n-1)×100/R বছর</li>
+      <li>মাসকে বছরে: 12 দিয়ে ভাগ, দিনকে: 365 দিয়ে ভাগ</li>
+      <li>6 মাস = 1/2 বছর, 3 মাস = 1/4 বছর</li>
+      <li>সরল সুদে প্রতি বছর সুদের পরিমাণ একই থাকে</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="06-profit-loss.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="08-compound-interest.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

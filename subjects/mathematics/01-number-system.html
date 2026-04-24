@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number System | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="1">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 1</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 1 / 14</div>
+    <h1 class="chapter-title">Number System</h1>
+    <h2 class="chapter-title-bn">সংখ্যা পদ্ধতি</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>সংখ্যা পদ্ধতির ভূমিকা (Introduction to Number System)</h2>
+      
+      <p>গণিতের ভিত্তি হলো <strong>সংখ্যা (Number)</strong>। ANM GNM পরীক্ষায় সংখ্যা পদ্ধতি থেকে বিভিন্ন ধরনের প্রশ্ন আসে। এই অধ্যায়ে আমরা বিভিন্ন ধরনের সংখ্যা, তাদের বৈশিষ্ট্য এবং গণনা পদ্ধতি শিখব।</p>
+
+      <div class="definition-box">
+        <strong>সংখ্যা (Number):</strong>
+        যে প্রতীক বা চিহ্নের সাহায্যে কোনো কিছুর পরিমাণ বা ক্রম প্রকাশ করা হয় তাকে সংখ্যা বলে।
+        <em>💡 MCQ Tip: সংখ্যার প্রকারভেদ মনে রাখা জরুরি - এটি প্রায়ই পরীক্ষায় আসে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>প্রাকৃতিক সংখ্যা (Natural Numbers):</strong>
+        গণনার কাজে ব্যবহৃত সংখ্যা \( 1, 2, 3, 4, 5, \ldots \) কে প্রাকৃতিক সংখ্যা বলে। একে \( \mathbb{N} \) দ্বারা প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: শূন্য (0) প্রাকৃতিক সংখ্যা নয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>পূর্ণ সংখ্যা (Whole Numbers):</strong>
+        শূন্যসহ সকল প্রাকৃতিক সংখ্যাকে পূর্ণ সংখ্যা বলে। অর্থাৎ \( 0, 1, 2, 3, 4, 5, \ldots \)
+        <em>💡 MCQ Tip: পূর্ণ সংখ্যা = প্রাকৃতিক সংখ্যা + শূন্য।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>পূর্ণসংখ্যা (Integers):</strong>
+        সকল ধনাত্মক, ঋণাত্মক এবং শূন্য সংখ্যাকে একসাথে পূর্ণসংখ্যা বলে। অর্থাৎ \( \ldots, -3, -2, -1, 0, 1, 2, 3, \ldots \) একে \( \mathbb{Z} \) দ্বারা প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: সকল প্রাকৃতিক সংখ্যা পূর্ণসংখ্যা, কিন্তু সকল পূর্ণসংখ্যা প্রাকৃতিক সংখ্যা নয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>মৌলিক সংখ্যা (Prime Numbers):</strong>
+        যে সংখ্যাকে শুধুমাত্র ১ এবং ঐ সংখ্যা দিয়ে ভাগ করা যায়, তাকে মৌলিক সংখ্যা বলে। যেমন: \( 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 \ldots \)
+        <em>💡 MCQ Tip: 2 হলো একমাত্র জোড় মৌলিক সংখ্যা। 1 মৌলিক সংখ্যা নয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>যৌগিক সংখ্যা (Composite Numbers):</strong>
+        যে সংখ্যার ১ এবং ঐ সংখ্যা ছাড়াও অন্য উৎপাদক আছে, তাকে যৌগিক সংখ্যা বলে। যেমন: \( 4, 6, 8, 9, 10, 12, 14, 15 \ldots \)
+        <em>💡 MCQ Tip: ক্ষুদ্রতম যৌগিক সংখ্যা হলো 4।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>সংখ্যার প্রকার</th>
+            <th>উদাহরণ</th>
+            <th>বৈশিষ্ট্য</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>প্রাকৃতিক সংখ্যা</td>
+            <td>\( 1, 2, 3, 4, 5 \ldots \)</td>
+            <td>শূন্য নেই</td>
+          </tr>
+          <tr>
+            <td>পূর্ণ সংখ্যা</td>
+            <td>\( 0, 1, 2, 3, 4 \ldots \)</td>
+            <td>শূন্য আছে</td>
+          </tr>
+          <tr>
+            <td>পূর্ণসংখ্যা</td>
+            <td>\( \ldots -2, -1, 0, 1, 2 \ldots \)</td>
+            <td>ঋণাত্মক সংখ্যা আছে</td>
+          </tr>
+          <tr>
+            <td>মৌলিক সংখ্যা</td>
+            <td>\( 2, 3, 5, 7, 11 \ldots \)</td>
+            <td>দুটি উৎপাদক</td>
+          </tr>
+          <tr>
+            <td>যৌগিক সংখ্যা</td>
+            <td>\( 4, 6, 8, 9, 10 \ldots \)</td>
+            <td>দুইয়ের বেশি উৎপাদক</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Even and Odd Numbers Section -->
+    <section class="content-section">
+      <h2>জোড় ও বিজোড় সংখ্যা (Even and Odd Numbers)</h2>
+
+      <div class="definition-box">
+        <strong>জোড় সংখ্যা (Even Numbers):</strong>
+        যে সংখ্যা 2 দ্বারা বিভাজ্য তাকে জোড় সংখ্যা বলে। অর্থাৎ \( 2n \) আকারের সংখ্যা, যেখানে \( n \) যেকোনো পূর্ণসংখ্যা। যেমন: \( 2, 4, 6, 8, 10 \ldots \)
+        <em>💡 MCQ Tip: শূন্য (0) একটি জোড় সংখ্যা।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>বিজোড় সংখ্যা (Odd Numbers):</strong>
+        যে সংখ্যা 2 দ্বারা বিভাজ্য নয় তাকে বিজোড় সংখ্যা বলে। অর্থাৎ \( 2n + 1 \) আকারের সংখ্যা। যেমন: \( 1, 3, 5, 7, 9, 11 \ldots \)
+        <em>💡 MCQ Tip: ক্ষুদ্রতম বিজোড় প্রাকৃতিক সংখ্যা হলো 1।</em>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 গুরুত্বপূর্ণ সূত্র (Important Formulas):</strong><br>
+        <strong>প্রথম n টি প্রাকৃতিক সংখ্যার যোগফল:</strong>
+        \[ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} \]
+        <strong>প্রথম n টি জোড় সংখ্যার যোগফল:</strong>
+        \[ 2 + 4 + 6 + \ldots + 2n = n(n+1) \]
+        <strong>প্রথম n টি বিজোড় সংখ্যার যোগফল:</strong>
+        \[ 1 + 3 + 5 + \ldots + (2n-1) = n^2 \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> প্রথম 50 টি প্রাকৃতিক সংখ্যার যোগফল কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সূত্র ব্যবহার করি: \( S = \frac{n(n+1)}{2} \)<br>
+          <strong>Step 2:</strong> এখানে \( n = 50 \)<br>
+          <strong>Step 3:</strong> \( S = \frac{50 \times 51}{2} = \frac{2550}{2} = 1275 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 1275 \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> প্রথম 20 টি বিজোড় সংখ্যার যোগফল কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সূত্র: প্রথম n টি বিজোড় সংখ্যার যোগফল = \( n^2 \)<br>
+          <strong>Step 2:</strong> এখানে \( n = 20 \)<br>
+          <strong>Step 3:</strong> যোগফল = \( 20^2 = 400 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 400 \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>জোড় + জোড়</strong> = জোড় (যেমন: \( 2 + 4 = 6 \))</li>
+        <li><strong>বিজোড় + বিজোড়</strong> = জোড় (যেমন: \( 3 + 5 = 8 \))</li>
+        <li><strong>জোড় + বিজোড়</strong> = বিজোড় (যেমন: \( 2 + 3 = 5 \))</li>
+        <li><strong>জোড় × জোড়</strong> = জোড় (যেমন: \( 2 \times 4 = 8 \))</li>
+        <li><strong>বিজোড় × বিজোড়</strong> = বিজোড় (যেমন: \( 3 \times 5 = 15 \))</li>
+        <li><strong>জোড় × বিজোড়</strong> = জোড় (যেমন: \( 2 \times 3 = 6 \))</li>
+      </ul>
+    </section>
+
+    <!-- Divisibility Rules Section -->
+    <section class="content-section">
+      <h2>বিভাজ্যতার নিয়ম (Divisibility Rules)</h2>
+
+      <p>MCQ পরীক্ষায় দ্রুত উত্তর করার জন্য বিভাজ্যতার নিয়ম জানা অত্যন্ত গুরুত্বপূর্ণ।</p>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>সংখ্যা</th>
+            <th>বিভাজ্যতার নিয়ম</th>
+            <th>উদাহরণ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>একক স্থানীয় অঙ্ক জোড় হলে</td>
+            <td>124, 356, 478</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>অঙ্কগুলোর যোগফল 3 দ্বারা বিভাজ্য হলে</td>
+            <td>123 (1+2+3=6, 6÷3=2)</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>শেষ দুই অঙ্ক 4 দ্বারা বিভাজ্য হলে</td>
+            <td>316 (16÷4=4)</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>একক স্থানীয় অঙ্ক 0 বা 5 হলে</td>
+            <td>25, 50, 105</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>2 এবং 3 উভয় দ্বারা বিভাজ্য হলে</td>
+            <td>42, 66, 120</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>শেষ তিন অঙ্ক 8 দ্বারা বিভাজ্য হলে</td>
+            <td>1024 (024÷8=3)</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>অঙ্কগুলোর যোগফল 9 দ্বারা বিভাজ্য হলে</td>
+            <td>729 (7+2+9=18, 18÷9=2)</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>একক স্থানীয় অঙ্ক 0 হলে</td>
+            <td>50, 100, 230</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>জোড় ও বিজোড় স্থানের অঙ্কের যোগফলের পার্থক্য 0 বা 11 এর গুণিতক</td>
+            <td>121 (1+1=2, 2=2, 2-2=0)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> 5678 সংখ্যাটি কোন কোন সংখ্যা দ্বারা বিভাজ্য?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> একক স্থানীয় অঙ্ক 8 (জোড়) → 2 দ্বারা বিভাজ্য ✓<br>
+          <strong>Step 2:</strong> অঙ্কগুলোর যোগফল = \( 5+6+7+8 = 26 \) → 3 দ্বারা বিভাজ্য নয় ✗<br>
+          <strong>Step 3:</strong> শেষ দুই অঙ্ক 78 → 4 দ্বারা বিভাজ্য নয় ✗<br>
+          <strong>Step 4:</strong> একক স্থানীয় অঙ্ক 8 → 5 দ্বারা বিভাজ্য নয় ✗<br>
+          <strong>∴ উত্তর (Answer):</strong> শুধুমাত্র 2 দ্বারা বিভাজ্য
+        </div>
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        <strong>11 দ্বারা বিভাজ্যতা দ্রুত চেক করার পদ্ধতি:</strong><br>
+        ডান থেকে বামে অঙ্কগুলো একবার যোগ, একবার বিয়োগ করুন।<br>
+        উদাহরণ: 3641 → 1 - 4 + 6 - 3 = 0 → 11 দ্বারা বিভাজ্য ✓
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{প্রথম n টি প্রাকৃতিক সংখ্যার যোগফল} = \frac{n(n+1)}{2} \]</li>
+        <li>\[ \text{প্রথম n টি প্রাকৃতিক সংখ্যার বর্গের যোগফল} = \frac{n(n+1)(2n+1)}{6} \]</li>
+        <li>\[ \text{প্রথম n টি প্রাকৃতিক সংখ্যার ঘনের যোগফল} = \left[\frac{n(n+1)}{2}\right]^2 \]</li>
+        <li>\[ \text{প্রথম n টি জোড় সংখ্যার যোগফল} = n(n+1) \]</li>
+        <li>\[ \text{প্রথম n টি বিজোড় সংখ্যার যোগফল} = n^2 \]</li>
+        <li>\[ \text{1 থেকে 100 পর্যন্ত মৌলিক সংখ্যার সংখ্যা} = 25 \text{ টি} \]</li>
+        <li>\[ \text{দুই অঙ্কের মৌলিক সংখ্যার সংখ্যা} = 21 \text{ টি} \]</li>
+        <li>\[ \text{ক্ষুদ্রতম মৌলিক সংখ্যা} = 2 \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: দ্রুত যোগফল বের করা</strong><br>
+        1 থেকে 100 পর্যন্ত যোগফল মনে রাখুন = 5050<br>
+        1 থেকে 50 পর্যন্ত যোগফল = 1275<br>
+        1 থেকে 10 পর্যন্ত যোগফল = 55<br>
+        পরীক্ষায় এই মানগুলো জানা থাকলে দ্রুত উত্তর করা যায়।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: মৌলিক সংখ্যা চেনার কৌশল</strong><br>
+        50 পর্যন্ত মৌলিক সংখ্যা মুখস্থ রাখুন:<br>
+        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47<br>
+        মোট 15 টি মৌলিক সংখ্যা।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: জোড় বা বিজোড় দ্রুত নির্ণয়</strong><br>
+        শুধু শেষ অঙ্ক দেখুন:<br>
+        0, 2, 4, 6, 8 = জোড়<br>
+        1, 3, 5, 7, 9 = বিজোড়
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: ক্রমিক সংখ্যার যোগফল</strong><br>
+        যেকোনো তিনটি ক্রমিক সংখ্যার যোগফল = মাঝের সংখ্যা × 3<br>
+        উদাহরণ: 5 + 6 + 7 = 6 × 3 = 18
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: বিজোড় সংখ্যার বর্গ</strong><br>
+        যেকোনো বিজোড় সংখ্যার বর্গ সবসময় বিজোড়।<br>
+        উদাহরণ: \( 7^2 = 49 \), \( 9^2 = 81 \)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: দ্রুত 9 দ্বারা বিভাজ্যতা চেক</strong><br>
+        অঙ্কগুলো যোগ করতে থাকুন যতক্ষণ না একটি অঙ্ক হয়।<br>
+        যদি সেটি 9 হয়, তবে সংখ্যাটি 9 দ্বারা বিভাজ্য।<br>
+        উদাহরণ: 5463 → 5+4+6+3=18 → 1+8=9 ✓
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. প্রথম 100 টি প্রাকৃতিক সংখ্যার যোগফল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> সূত্র: \( S = \frac{n(n+1)}{2} = \frac{100 \times 101}{2} = 5050 \)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. ক্ষুদ্রতম মৌলিক সংখ্যা কোনটি?</p>
+        <p class="answer"><strong>উত্তর:</strong> 2 (এটি একমাত্র জোড় মৌলিক সংখ্যাও)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. প্রথম 25 টি বিজোড় সংখ্যার যোগফল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> সূত্র: \( n^2 = 25^2 = 625 \)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. 1 থেকে 100 এর মধ্যে কতটি মৌলিক সংখ্যা আছে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 25 টি মৌলিক সংখ্যা আছে।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. 4536 সংখ্যাটি কি 9 দ্বারা বিভাজ্য?</p>
+        <p class="answer"><strong>উত্তর:</strong> হ্যাঁ। কারণ অঙ্কগুলোর যোগফল = 4+5+3+6 = 18, যা 9 দ্বারা বিভাজ্য।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. ক্ষুদ্রতম যৌগিক সংখ্যা কোনটি?</p>
+        <p class="answer"><strong>উত্তর:</strong> 4 (কারণ 1, 2, 3 মৌলিক, 4 = 2 × 2)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. দুটি বিজোড় সংখ্যার যোগফল সবসময় কী ধরনের সংখ্যা হয়?</p>
+        <p class="answer"><strong>উত্তর:</strong> জোড় সংখ্যা। উদাহরণ: 3 + 5 = 8, 7 + 9 = 16</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 1 সংখ্যাটি মৌলিক সংখ্যা নাকি যৌগিক সংখ্যা?</p>
+        <p class="answer"><strong>উত্তর:</strong> কোনোটিই নয়। 1 একটি বিশেষ সংখ্যা যা না মৌলিক, না যৌগিক।</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>প্রথম n টি প্রাকৃতিক সংখ্যার যোগফল = \( \frac{n(n+1)}{2} \)</li>
+      <li>প্রথম n টি বিজোড় সংখ্যার যোগফল = \( n^2 \)</li>
+      <li>প্রথম n টি জোড় সংখ্যার যোগফল = \( n(n+1) \)</li>
+      <li>ক্ষুদ্রতম মৌলিক সংখ্যা = 2 (একমাত্র জোড় মৌলিক সংখ্যা)</li>
+      <li>ক্ষুদ্রতম যৌগিক সংখ্যা = 4</li>
+      <li>1 থেকে 100 পর্যন্ত 25 টি মৌলিক সংখ্যা আছে</li>
+      <li>বিভাজ্যতার নিয়ম (2, 3, 4, 5, 6, 8, 9, 10, 11) মুখস্থ রাখুন</li>
+      <li>জোড় + বিজোড় = বিজোড়; বিজোড় + বিজোড় = জোড়</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="./index.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="02-lcm-hcf.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

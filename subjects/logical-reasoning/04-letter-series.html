@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Letter Series | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="4">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 4</span>
+  </nav>
+
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 4 / 14</div>
+    <h1 class="chapter-title">Letter Series</h1>
+    <h2 class="chapter-title-bn">অক্ষর সিরিজ</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Letter Series (অক্ষর সিরিজ)</strong> হল ইংরেজি বর্ণমালার (A-Z) অক্ষরগুলি একটি নির্দিষ্ট নিয়মে সাজিয়ে তৈরি করা ক্রম। এই ধরনের প্রশ্নে Position Value, Skip Pattern এবং Reverse Alphabet ব্যবহার করা হয়। ANM GNM পরীক্ষায় প্রায়ই এই প্রশ্ন আসে।</p>
+
+      <div class="definition-box">
+        <strong>Position Value (অবস্থান মূল্য):</strong>
+        প্রতিটি ইংরেজি অক্ষরের একটি সংখ্যাগত মান আছে। A=1, B=2, C=3... Z=26। এই মান ব্যবহার করে অক্ষর সিরিজ তৈরি করা হয়।
+        <em>💡 MCQ Tip: EJOTY মনে রাখুন — E=5, J=10, O=15, T=20, Y=25</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Reverse Alphabet (বিপরীত বর্ণমালা):</strong>
+        বর্ণমালাকে উল্টো দিক থেকে গণনা করা। Z=1, Y=2, X=3... A=26। সূত্র: অক্ষরের Reverse Position = 27 - Forward Position।
+        <em>💡 MCQ Tip: 27 - Forward Position = Reverse Position (সবসময় কাজ করে)</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Opposite Letter (বিপরীত অক্ষর):</strong>
+        দুটি অক্ষরের Position Value যোগ করলে 27 হলে তারা পরস্পর Opposite। যেমন: A(1) ↔ Z(26), B(2) ↔ Y(25), C(3) ↔ X(24)।
+        <em>💡 MCQ Tip: A↔Z, B↔Y, C↔X, D↔W, E↔V, F↔U, G↔T, H↔S, I↔R, J↔Q, K↔P, L↔O, M↔N</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>EJOTY ট্রিক:</strong> E=5, J=10, O=15, T=20, Y=25 — পাঁচের গুণিতক</li>
+        <li><strong>মোট অক্ষর:</strong> ইংরেজি বর্ণমালায় 26টি অক্ষর</li>
+        <li><strong>Vowels:</strong> A(1), E(5), I(9), O(15), U(21) — 5টি স্বরবর্ণ</li>
+        <li><strong>Middle Letter:</strong> M(13) এবং N(14) হল মাঝের দুটি অক্ষর</li>
+        <li><strong>Skip Pattern:</strong> একটি/দুটি/তিনটি অক্ষর বাদ দিয়ে পরবর্তী অক্ষর</li>
+        <li><strong>Reverse Pattern:</strong> Z থেকে উল্টো দিকে গণনা</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: RULES & PATTERNS TABLE
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ নিয়ম ও ধরন (Important Rules & Patterns)</h2>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>প্যাটার্ন (Pattern)</th>
+            <th>নিয়ম (Rule)</th>
+            <th>উদাহরণ (Example)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>+1 Skip</th>
+            <td>পরপর অক্ষর, কোনো skip নেই</td>
+            <td>A, B, C, D, E...</td>
+          </tr>
+          <tr>
+            <th>+2 Skip</th>
+            <td>একটি অক্ষর বাদ দিয়ে পরেরটি</td>
+            <td>A, C, E, G, I... (প্রতি +2)</td>
+          </tr>
+          <tr>
+            <th>+3 Skip</th>
+            <td>দুটি অক্ষর বাদ দিয়ে পরেরটি</td>
+            <td>A, D, G, J, M... (প্রতি +3)</td>
+          </tr>
+          <tr>
+            <th>Reverse (-1)</th>
+            <td>উল্টো দিকে পরপর</td>
+            <td>Z, Y, X, W, V...</td>
+          </tr>
+          <tr>
+            <th>Reverse (-2)</th>
+            <td>উল্টো দিকে একটি বাদ</td>
+            <td>Z, X, V, T, R...</td>
+          </tr>
+          <tr>
+            <th>Increasing Skip</th>
+            <td>ক্রমবর্ধমান skip (+1, +2, +3...)</td>
+            <td>A, B, D, G, K... (+1,+2,+3,+4)</td>
+          </tr>
+          <tr>
+            <th>Opposite Pair</th>
+            <td>Position যোগ 27</td>
+            <td>A↔Z, B↔Y, C↔X</td>
+          </tr>
+          <tr>
+            <th>Letter Group</th>
+            <td>জোড়ায় জোড়ায় অক্ষর</td>
+            <td>AB, CD, EF, GH...</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="highlight-box">
+        <strong>📌 গুরুত্বপূর্ণ টিপ:</strong> EJOTY (E=5, J=10, O=15, T=20, Y=25) মনে রাখলে যেকোনো অক্ষরের Position Value দ্রুত বের করা যায়। যেমন: H = E+3 = 5+3 = 8।
+      </div>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        অক্ষরকে সংখ্যায় রূপান্তর করুন (Position Value), তারপর Number Series-এর মতো সমাধান করুন, তারপে উত্তর অক্ষরে ফিরিয়ে দিন।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: REFERENCE CHART
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>অক্ষর-সংখ্যা রেফারেন্স চার্ট (Letter-Number Chart)</h2>
+
+      <pre class="reasoning-diagram">
+        Forward Alphabet (Position Values):
+        
+        A=1   B=2   C=3   D=4   E=5   F=6   G=7
+        H=8   I=9   J=10  K=11  L=12  M=13
+        N=14  O=15  P=16  Q=17  R=18  S=19
+        T=20  U=21  V=22  W=23  X=24  Y=25  Z=26
+        
+        EJOTY Trick: E(5) - J(10) - O(15) - T(20) - Y(25)
+        
+        Opposite Pairs (Sum = 27):
+        A↔Z  B↔Y  C↔X  D↔W  E↔V  F↔U  G↔T
+        H↔S  I↔R  J↔Q  K↔P  L↔O  M↔N
+      </pre>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: SOLVED EXAMPLES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong> Find the next letter: B, D, F, H, ?<br>
+        (A) I (B) J (C) K (D) L
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Position Value লিখুন: B=2, D=4, F=6, H=8<br>
+          <strong>Step 2:</strong> প্যাটার্ন: প্রতি +2 (একটি অক্ষর skip)<br>
+          <strong>Step 3:</strong> পরবর্তী = 8+2 = 10 = J<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) J
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong> Find the next letters: AZ, BY, CX, ?<br>
+        (A) DV (B) DW (C) EV (D) EW
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> প্রথম অক্ষর: A, B, C → পরবর্তী D (+1 pattern)<br>
+          <strong>Step 2:</strong> দ্বিতীয় অক্ষর: Z, Y, X → পরবর্তী W (-1 pattern)<br>
+          <strong>Step 3:</strong> উত্তর = DW<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) DW
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong> A অক্ষরের বিপরীত অক্ষর কী? (Opposite letter of A?)<br>
+        (A) Y (B) Z (C) X (D) W
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Opposite Letter সূত্র: 27 - Position Value<br>
+          <strong>Step 2:</strong> A = 1, তাই 27 - 1 = 26 = Z<br>
+          <strong>Step 3:</strong> A এর বিপরীত অক্ষর Z<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) Z
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৪ (Example 4):</strong> Find the next: A, C, F, J, ?<br>
+        (A) M (B) N (C) O (D) P
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Position: A=1, C=3, F=6, J=10<br>
+          <strong>Step 2:</strong> পার্থক্য: +2, +3, +4 → পরবর্তী +5<br>
+          <strong>Step 3:</strong> 10 + 5 = 15 = O<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) O
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+      <ul class="fact-list">
+        <li><strong>EJOTY:</strong> E=5, J=10, O=15, T=20, Y=25 — সবচেয়ে গুরুত্বপূর্ণ ট্রিক</li>
+        <li><strong>Vowel Position:</strong> A=1, E=5, I=9, O=15, U=21</li>
+        <li><strong>Opposite Pair Sum:</strong> সবসময় 27 (Forward + Reverse = 27)</li>
+        <li><strong>মাঝের অক্ষর:</strong> M=13, N=14 (26÷2 = 13)</li>
+        <li><strong>Skip +2:</strong> A,C,E,G... (Alternate letters) খুব কমন প্যাটার্ন</li>
+        <li><strong>Skip +3:</strong> A,D,G,J... (প্রতি তৃতীয় অক্ষর)</li>
+        <li><strong>Group Pattern:</strong> AB, CD, EF... বা ABC, DEF, GHI...</li>
+        <li><strong>Reverse Count:</strong> Z থেকে গোনা শুরু করলে Z=1, Y=2, X=3...</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        যেকোনো অক্ষরের Position EJOTY দিয়ে বের করুন: L = J+2 = 10+2 = 12। P = O+1 = 15+1 = 16। এই ট্রিক ১০ সেকেন্ডে Position দেয়।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 6: PRACTICE QUESTIONS (8)
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. Find the next letter: C, F, I, L, ?<br>
+        (A) M (B) N (C) O (D) P</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) O — C=3, F=6, I=9, L=12 (+3 pattern)। 12+3=15=O।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. Z, X, V, T, ?<br>
+        (A) R (B) S (C) Q (D) P</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) R — Z=26, X=24, V=22, T=20 (-2 pattern)। 20-2=18=R।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. D অক্ষরের বিপরীত (Opposite) অক্ষর কী?<br>
+        (A) V (B) W (C) X (D) Y</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) W — D=4, Opposite = 27-4 = 23 = W।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. A, B, D, G, K, ?<br>
+        (A) N (B) O (C) P (D) Q</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) P — Position: 1,2,4,7,11। পার্থক্য: +1,+2,+3,+4 → পরবর্তী +5। 11+5=16=P।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. M অক্ষরের Position Value কত?<br>
+        (A) 11 (B) 12 (C) 13 (D) 14</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 13 — EJOTY ট্রিক: J=10, K=11, L=12, M=13।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. AZ, CX, EV, ?<br>
+        (A) GT (B) GU (C) FT (D) HT</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) GT — প্রথম অক্ষর: A,C,E → G (+2)। দ্বিতীয়: Z,X,V → T (-2)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. E, J, O, T, ?<br>
+        (A) U (B) V (C) X (D) Y</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (D) Y — EJOTY সিরিজ। প্রতিটি +5। T=20, 20+5=25=Y।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. BDF, HJL, NPR, ?<br>
+        (A) TVX (B) SUW (C) TUV (D) TVW</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) TVX — B(2),H(8),N(14): +6 pattern। পরবর্তী T(20)। প্রতিটি গ্রুপে +2 skip: T,V,X।</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>EJOTY:</strong> E=5, J=10, O=15, T=20, Y=25 (অবশ্যই মুখস্থ করুন)</li>
+      <li><strong>Position Value:</strong> A=1 থেকে Z=26 — অক্ষরকে সংখ্যায় রূপান্তর করুন</li>
+      <li><strong>Opposite Letter:</strong> 27 - Position = Reverse Position</li>
+      <li><strong>Skip Pattern:</strong> +1, +2, +3... skip count করে পরবর্তী অক্ষর বের করুন</li>
+      <li><strong>Vowel Position:</strong> A=1, E=5, I=9, O=15, U=21</li>
+      <li><strong>Reverse:</strong> Z=1, Y=2, X=3... A=26</li>
+      <li><strong>সমাধান পদ্ধতি:</strong> অক্ষর → সংখ্যা → প্যাটার্ন → সংখ্যা → অক্ষর</li>
+      <li><strong>দ্রুত উত্তর:</strong> EJOTY থেকে কাছের অক্ষরের Position বের করুন</li>
+    </ul>
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="03-number-series.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+    <a href="./index.html" class="btn btn-index">অধ্যায় তালিকা</a>
+    <a href="05-coding-decoding.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

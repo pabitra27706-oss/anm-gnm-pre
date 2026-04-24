@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LCM & HCF | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="2">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 2</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 2 / 14</div>
+    <h1 class="chapter-title">LCM & HCF</h1>
+    <h2 class="chapter-title-bn">লসাগু ও গসাগু</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>লসাগু ও গসাগুর ভূমিকা (Introduction to LCM & HCF)</h2>
+      
+      <p>ANM GNM পরীক্ষায় <strong>লসাগু (LCM)</strong> এবং <strong>গসাগু (HCF)</strong> থেকে প্রায়ই প্রশ্ন আসে। এই অধ্যায়ে আমরা শিখব কীভাবে দ্রুত LCM ও HCF বের করতে হয় এবং বিভিন্ন ধরনের সমস্যা সমাধান করতে হয়।</p>
+
+      <div class="definition-box">
+        <strong>উৎপাদক (Factor):</strong>
+        যে সংখ্যা দিয়ে কোনো সংখ্যাকে নিঃশেষে ভাগ করা যায়, তাকে ঐ সংখ্যার উৎপাদক বলে।
+        <em>💡 MCQ Tip: যেমন 12 এর উৎপাদক হলো 1, 2, 3, 4, 6, 12</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>গুণিতক (Multiple):</strong>
+        কোনো সংখ্যাকে যেকোনো পূর্ণসংখ্যা দিয়ে গুণ করলে যে সংখ্যা পাওয়া যায়, তাকে ঐ সংখ্যার গুণিতক বলে।
+        <em>💡 MCQ Tip: যেমন 5 এর গুণিতক হলো 5, 10, 15, 20, 25...</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>গসাগু - HCF (Highest Common Factor):</strong>
+        দুই বা ততোধিক সংখ্যার সাধারণ উৎপাদকগুলোর মধ্যে সবচেয়ে বড় উৎপাদককে গসাগু বলে। একে GCD (Greatest Common Divisor) ও বলা হয়।
+        <em>💡 MCQ Tip: HCF সবসময় সংখ্যাগুলোর চেয়ে ছোট বা সমান হয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>লসাগু - LCM (Lowest Common Multiple):</strong>
+        দুই বা ততোধিক সংখ্যার সাধারণ গুণিতকগুলোর মধ্যে সবচেয়ে ছোট গুণিতককে লসাগু বলে।
+        <em>💡 MCQ Tip: LCM সবসময় সংখ্যাগুলোর চেয়ে বড় বা সমান হয়।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>বৈশিষ্ট্য</th>
+            <th>HCF (গসাগু)</th>
+            <th>LCM (লসাগু)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>পূর্ণ নাম</td>
+            <td>Highest Common Factor</td>
+            <td>Lowest Common Multiple</td>
+          </tr>
+          <tr>
+            <td>অর্থ</td>
+            <td>সর্বোচ্চ সাধারণ উৎপাদক</td>
+            <td>নিম্নতম সাধারণ গুণিতক</td>
+          </tr>
+          <tr>
+            <td>মান</td>
+            <td>ছোট বা সমান</td>
+            <td>বড় বা সমান</td>
+          </tr>
+          <tr>
+            <td>উদাহরণ (12, 18)</td>
+            <td>6</td>
+            <td>36</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- HCF Finding Methods Section -->
+    <section class="content-section">
+      <h2>গসাগু (HCF) নির্ণয়ের পদ্ধতি (Methods to Find HCF)</h2>
+
+      <p>HCF নির্ণয়ের প্রধান তিনটি পদ্ধতি রয়েছে:</p>
+
+      <div class="highlight-box">
+        <strong>📐 পদ্ধতি ১: উৎপাদক পদ্ধতি (Factor Method)</strong><br>
+        <strong>Step 1:</strong> প্রতিটি সংখ্যার সকল উৎপাদক বের করুন।<br>
+        <strong>Step 2:</strong> সাধারণ উৎপাদকগুলো চিহ্নিত করুন।<br>
+        <strong>Step 3:</strong> তাদের মধ্যে সবচেয়ে বড়টি হবে HCF।
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> 24 এবং 36 এর HCF বের করুন (উৎপাদক পদ্ধতিতে)।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> 24 এর উৎপাদক: 1, 2, 3, 4, 6, 8, 12, 24<br>
+          <strong>Step 2:</strong> 36 এর উৎপাদক: 1, 2, 3, 4, 6, 9, 12, 18, 36<br>
+          <strong>Step 3:</strong> সাধারণ উৎপাদক: 1, 2, 3, 4, 6, 12<br>
+          <strong>∴ উত্তর (Answer):</strong> HCF = \[ 12 \]
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 পদ্ধতি ২: মৌলিক উৎপাদক পদ্ধতি (Prime Factorization Method)</strong><br>
+        <strong>Step 1:</strong> প্রতিটি সংখ্যাকে মৌলিক উৎপাদকে বিশ্লেষণ করুন।<br>
+        <strong>Step 2:</strong> সাধারণ মৌলিক উৎপাদকগুলো চিহ্নিত করুন।<br>
+        <strong>Step 3:</strong> প্রতিটি সাধারণ উৎপাদকের ক্ষুদ্রতম ঘাত নিয়ে গুণ করুন।
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> 48 এবং 72 এর HCF বের করুন (মৌলিক উৎপাদক পদ্ধতিতে)।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> \( 48 = 2^4 \times 3^1 \)<br>
+          <strong>Step 2:</strong> \( 72 = 2^3 \times 3^2 \)<br>
+          <strong>Step 3:</strong> সাধারণ উৎপাদক: \( 2 \) এবং \( 3 \)<br>
+          <strong>Step 4:</strong> ক্ষুদ্রতম ঘাত: \( 2^3 \) এবং \( 3^1 \)<br>
+          <strong>Step 5:</strong> HCF = \( 2^3 \times 3 = 8 \times 3 = 24 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 24 \]
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 পদ্ধতি ৩: ভাগ পদ্ধতি (Division Method / Euclid's Algorithm)</strong><br>
+        এটি সবচেয়ে দ্রুত এবং কার্যকর পদ্ধতি, বিশেষত বড় সংখ্যার জন্য।<br>
+        <strong>Step 1:</strong> বড় সংখ্যাকে ছোট সংখ্যা দিয়ে ভাগ করুন।<br>
+        <strong>Step 2:</strong> ভাগশেষ পাওয়া গেলে, ছোট সংখ্যাকে ভাগশেষ দিয়ে ভাগ করুন।<br>
+        <strong>Step 3:</strong> ভাগশেষ 0 না হওয়া পর্যন্ত চালিয়ে যান।<br>
+        <strong>Step 4:</strong> শেষ ভাজক হবে HCF।
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> 252 এবং 105 এর HCF বের করুন (ভাগ পদ্ধতিতে)।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> \( 252 \div 105 = 2 \), ভাগশেষ = 42<br>
+          <strong>Step 2:</strong> \( 105 \div 42 = 2 \), ভাগশেষ = 21<br>
+          <strong>Step 3:</strong> \( 42 \div 21 = 2 \), ভাগশেষ = 0<br>
+          <strong>∴ উত্তর (Answer):</strong> HCF = \[ 21 \]
+        </div>
+      </div>
+    </section>
+
+    <!-- LCM Finding Methods Section -->
+    <section class="content-section">
+      <h2>লসাগু (LCM) নির্ণয়ের পদ্ধতি (Methods to Find LCM)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 পদ্ধতি ১: গুণিতক পদ্ধতি (Multiple Method)</strong><br>
+        ছোট সংখ্যার জন্য উপযোগী।<br>
+        <strong>Step 1:</strong> প্রতিটি সংখ্যার গুণিতক লিখুন।<br>
+        <strong>Step 2:</strong> সাধারণ গুণিতকগুলো চিহ্নিত করুন।<br>
+        <strong>Step 3:</strong> ক্ষুদ্রতমটি হবে LCM।
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 পদ্ধতি ২: মৌলিক উৎপাদক পদ্ধতি (Prime Factorization Method)</strong><br>
+        <strong>Step 1:</strong> প্রতিটি সংখ্যাকে মৌলিক উৎপাদকে বিশ্লেষণ করুন।<br>
+        <strong>Step 2:</strong> সকল মৌলিক উৎপাদকের বৃহত্তম ঘাত নিয়ে গুণ করুন।
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> 12 এবং 18 এর LCM বের করুন।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> \( 12 = 2^2 \times 3^1 \)<br>
+          <strong>Step 2:</strong> \( 18 = 2^1 \times 3^2 \)<br>
+          <strong>Step 3:</strong> বৃহত্তম ঘাত: \( 2^2 \) এবং \( 3^2 \)<br>
+          <strong>Step 4:</strong> LCM = \( 2^2 \times 3^2 = 4 \times 9 = 36 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 36 \]
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 পদ্ধতি ৩: ভাগ পদ্ধতি (Division Method)</strong><br>
+        MCQ পরীক্ষার জন্য সবচেয়ে দ্রুত পদ্ধতি।<br>
+        <strong>Step 1:</strong> সংখ্যাগুলো পাশাপাশি লিখুন।<br>
+        <strong>Step 2:</strong> যেকোনো মৌলিক সংখ্যা দিয়ে ভাগ করুন যা অন্তত একটি সংখ্যাকে ভাগ করতে পারে।<br>
+        <strong>Step 3:</strong> সব সংখ্যা 1 না হওয়া পর্যন্ত চালিয়ে যান।<br>
+        <strong>Step 4:</strong> সকল ভাজকের গুণফল হবে LCM।
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> 8, 12 এবং 18 এর LCM বের করুন (ভাগ পদ্ধতিতে)।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <pre>
+2 | 8, 12, 18
+2 | 4,  6,  9
+3 | 2,  3,  9
+3 | 2,  1,  3
+  | 2,  1,  1
+          </pre>
+          <strong>Step:</strong> LCM = \( 2 \times 2 \times 3 \times 3 \times 2 = 72 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 72 \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{দুটি সংখ্যার গুণফল} = \text{HCF} \times \text{LCM} \]</li>
+        <li>\[ \text{HCF} = \frac{\text{সংখ্যা}_1 \times \text{সংখ্যা}_2}{\text{LCM}} \]</li>
+        <li>\[ \text{LCM} = \frac{\text{সংখ্যা}_1 \times \text{সংখ্যা}_2}{\text{HCF}} \]</li>
+        <li>\[ \text{দুটি সহমৌলিক সংখ্যার HCF} = 1 \]</li>
+        <li>\[ \text{দুটি সহমৌলিক সংখ্যার LCM} = \text{তাদের গুণফল} \]</li>
+        <li>\[ \text{দুটি সংখ্যার HCF সর্বদা তাদের LCM এর উৎপাদক} \]</li>
+        <li>\[ \text{তিন বা ততোধিক সংখ্যার ক্ষেত্রে: HCF} \times \text{LCM} \neq \text{গুণফল} \]</li>
+        <li>\[ \text{যেকোনো সংখ্যার সাথে 0 এর HCF} = \text{সেই সংখ্যা} \]</li>
+      </ul>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> দুটি সংখ্যার LCM 120 এবং HCF 10। যদি একটি সংখ্যা 30 হয়, অপর সংখ্যা কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সূত্র: \( \text{সংখ্যা}_1 \times \text{সংখ্যা}_2 = \text{HCF} \times \text{LCM} \)<br>
+          <strong>Step 2:</strong> \( 30 \times \text{সংখ্যা}_2 = 10 \times 120 \)<br>
+          <strong>Step 3:</strong> \( 30 \times \text{সংখ্যা}_2 = 1200 \)<br>
+          <strong>Step 4:</strong> \( \text{সংখ্যা}_2 = \frac{1200}{30} = 40 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 40 \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: দুটি সংখ্যার HCF ও LCM দ্রুত বের করা</strong><br>
+        যদি দুটি সংখ্যা দেওয়া থাকে এবং একটির সাথে অপরটির সম্পর্ক জানা থাকে:<br>
+        উদাহরণ: 12 এবং 18<br>
+        12 = 2² × 3, 18 = 2 × 3²<br>
+        HCF = ন্যূনতম ঘাত = 2¹ × 3¹ = 6<br>
+        LCM = সর্বোচ্চ ঘাত = 2² × 3² = 36
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: সহমৌলিক সংখ্যার শর্টকাট</strong><br>
+        যদি দুটি সংখ্যা সহমৌলিক হয় (HCF = 1):<br>
+        তাহলে LCM = সংখ্যা দুটির গুণফল<br>
+        উদাহরণ: 7 এবং 9 → LCM = 7 × 9 = 63
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: একটি সংখ্যা অন্যটির গুণিতক হলে</strong><br>
+        যদি একটি সংখ্যা অপরটির গুণিতক হয়:<br>
+        HCF = ছোট সংখ্যা, LCM = বড় সংখ্যা<br>
+        উদাহরণ: 6 এবং 18 → HCF = 6, LCM = 18
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: তিনটি সংখ্যার LCM দ্রুত বের করা</strong><br>
+        প্রথমে দুটি সংখ্যার LCM বের করুন।<br>
+        তারপর সেই LCM এবং তৃতীয় সংখ্যার LCM বের করুন।<br>
+        উদাহরণ: 4, 6, 8<br>
+        LCM(4, 6) = 12, তারপর LCM(12, 8) = 24
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: HCF থেকে LCM বের করা</strong><br>
+        যদি দুটি সংখ্যা এবং তাদের HCF জানা থাকে:<br>
+        LCM = \( \frac{\text{সংখ্যা}_1 \times \text{সংখ্যা}_2}{\text{HCF}} \)<br>
+        উদাহরণ: সংখ্যা 12 এবং 18, HCF = 6<br>
+        LCM = (12 × 18) / 6 = 36
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: ভগ্নাংশের HCF এবং LCM</strong><br>
+        ভগ্নাংশের HCF = \( \frac{\text{লবগুলোর HCF}}{\text{হরগুলোর LCM}} \)<br>
+        ভগ্নাংশের LCM = \( \frac{\text{লবগুলোর LCM}}{\text{হরগুলোর HCF}} \)
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. 24 এবং 36 এর HCF কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 12। মৌলিক উৎপাদক: 24 = 2³×3, 36 = 2²×3². HCF = 2²×3 = 12</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. 12, 15 এবং 18 এর LCM কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 180। 12=2²×3, 15=3×5, 18=2×3². LCM = 2²×3²×5 = 180</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. দুটি সংখ্যার গুণফল 1080 এবং তাদের HCF 6। LCM কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 180। সূত্র: LCM = গুণফল / HCF = 1080 / 6 = 180</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. 15 এবং 25 এর LCM এবং HCF এর যোগফল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 80। HCF = 5, LCM = 75। যোগফল = 5 + 75 = 80</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. দুটি সহমৌলিক সংখ্যা 7 এবং 11 এর LCM কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 77। সহমৌলিক সংখ্যার LCM = তাদের গুণফল = 7 × 11 = 77</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. তিনটি ঘণ্টা যথাক্রমে 6, 8 এবং 12 মিনিট অন্তর বাজে। একসাথে বাজার পর কতক্ষণ পরে আবার একসাথে বাজবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 24 মিনিট পরে। LCM(6, 8, 12) = 24</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. দুটি সংখ্যার LCM 180 এবং HCF 15। একটি সংখ্যা 45 হলে অপরটি কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 60। সূত্র: সংখ্যা = (HCF × LCM) / অপর সংখ্যা = (15 × 180) / 45 = 60</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 48 এবং 72 এর বৃহত্তম সাধারণ উৎপাদক (HCF) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 24। 48 = 2⁴×3, 72 = 2³×3². HCF = 2³×3 = 24</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>HCF × LCM = দুটি সংখ্যার গুণফল (শুধু দুটি সংখ্যার ক্ষেত্রে)</li>
+      <li>HCF সবসময় সংখ্যাগুলোর চেয়ে ছোট বা সমান</li>
+      <li>LCM সবসময় সংখ্যাগুলোর চেয়ে বড় বা সমান</li>
+      <li>সহমৌলিক সংখ্যার HCF = 1, LCM = তাদের গুণফল</li>
+      <li>ভাগ পদ্ধতি (Euclid's Algorithm) দ্রুততম পদ্ধতি</li>
+      <li>মৌলিক উৎপাদক পদ্ধতি নির্ভুল ও MCQ-friendly</li>
+      <li>ভগ্নাংশের HCF = লবের HCF / হরের LCM</li>
+      <li>সময়, দূরত্ব ইত্যাদি সমস্যায় LCM ব্যবহার হয়</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="01-number-system.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="03-fractions-decimals.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

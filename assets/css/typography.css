@@ -1,0 +1,492 @@
+/**
+ * typography.css
+ * Heading, Text, Link & Font Styles
+ * WB ANM GNM 2026 Preparation Platform
+ *
+ * Import Order: After base.css, before utilities.css
+ * Primary Font: Hind Siliguri (Bengali + Latin)
+ */
+
+/* ════════════════════════════════════════
+   HEADINGS
+════════════════════════════════════════ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:  var(--font-primary);
+  color:        var(--text-primary);
+  line-height:  var(--leading-tight);
+  font-weight:  var(--font-bold);
+  /* Prevent overflow on small screens */
+  overflow-wrap: break-word;
+  word-break:    break-word;
+}
+
+/* ── H1 ── */
+h1, .h1 {
+  font-size:   var(--text-3xl);
+  font-weight: var(--font-bold);
+  line-height: 1.2;
+  letter-spacing: var(--tracking-tight);
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: var(--text-4xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  h1, .h1 {
+    font-size: var(--text-5xl);
+  }
+}
+
+/* ── H2 ── */
+h2, .h2 {
+  font-size:   var(--text-2xl);
+  font-weight: var(--font-bold);
+  line-height: 1.25;
+}
+
+@media (min-width: 768px) {
+  h2, .h2 {
+    font-size: var(--text-3xl);
+  }
+}
+
+/* ── H3 ── */
+h3, .h3 {
+  font-size:   var(--text-xl);
+  font-weight: var(--font-semibold);
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  h3, .h3 {
+    font-size: var(--text-2xl);
+  }
+}
+
+/* ── H4 ── */
+h4, .h4 {
+  font-size:   var(--text-lg);
+  font-weight: var(--font-semibold);
+  line-height: 1.35;
+}
+
+/* ── H5 ── */
+h5, .h5 {
+  font-size:   var(--text-base);
+  font-weight: var(--font-semibold);
+  line-height: 1.4;
+}
+
+/* ── H6 ── */
+h6, .h6 {
+  font-size:   var(--text-sm);
+  font-weight: var(--font-semibold);
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--text-secondary);
+}
+
+/* ════════════════════════════════════════
+   PARAGRAPH & BODY TEXT
+════════════════════════════════════════ */
+
+p {
+  font-size:   var(--text-base);
+  line-height: var(--leading-relaxed);
+  color:       var(--text-primary);
+  overflow-wrap: break-word;
+  word-break:    break-word;
+}
+
+/* Lead paragraph — larger intro text */
+.lead {
+  font-size:   var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color:       var(--text-secondary);
+  font-weight: var(--font-normal);
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: var(--text-xl);
+  }
+}
+
+/* Small helper text */
+.text-helper {
+  font-size:  var(--text-xs);
+  color:      var(--text-secondary);
+  line-height: var(--leading-normal);
+}
+
+/* Caption text */
+.caption {
+  font-size:  var(--text-xs);
+  color:      var(--text-tertiary);
+  line-height: var(--leading-snug);
+}
+
+/* ════════════════════════════════════════
+   LINKS
+════════════════════════════════════════ */
+
+a {
+  color:           var(--text-link);
+  text-decoration: none;
+  transition:      color var(--transition-fast);
+}
+
+a:hover {
+  color:           var(--text-link-hover);
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline:        2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius:  2px;
+}
+
+/* Link variants */
+.link-primary {
+  color: var(--primary);
+}
+
+.link-primary:hover {
+  color: var(--primary-dark);
+}
+
+.link-muted {
+  color: var(--text-secondary);
+}
+
+.link-muted:hover {
+  color: var(--text-primary);
+}
+
+.link-underline {
+  text-decoration: underline;
+}
+
+/* ════════════════════════════════════════
+   FONT WEIGHT UTILITIES
+════════════════════════════════════════ */
+
+.font-normal   { font-weight: var(--font-normal); }
+.font-medium   { font-weight: var(--font-medium); }
+.font-semibold { font-weight: var(--font-semibold); }
+.font-bold     { font-weight: var(--font-bold); }
+
+/* ════════════════════════════════════════
+   FONT SIZE UTILITIES
+════════════════════════════════════════ */
+
+.text-xs   { font-size: var(--text-xs); }
+.text-sm   { font-size: var(--text-sm); }
+.text-base { font-size: var(--text-base); }
+.text-lg   { font-size: var(--text-lg); }
+.text-xl   { font-size: var(--text-xl); }
+.text-2xl  { font-size: var(--text-2xl); }
+.text-3xl  { font-size: var(--text-3xl); }
+.text-4xl  { font-size: var(--text-4xl); }
+
+/* ════════════════════════════════════════
+   TEXT COLOR UTILITIES
+════════════════════════════════════════ */
+
+.text-primary-color  { color: var(--primary); }
+.text-secondary-color { color: var(--secondary); }
+.text-success-color  { color: var(--success); }
+.text-danger-color   { color: var(--danger); }
+.text-warning-color  { color: var(--warning); }
+.text-muted          { color: var(--text-secondary); }
+.text-light          { color: var(--text-tertiary); }
+.text-dark           { color: var(--text-primary); }
+.text-white          { color: var(--color-white); }
+.text-inherit        { color: inherit; }
+
+/* ════════════════════════════════════════
+   TEXT ALIGNMENT
+════════════════════════════════════════ */
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Responsive alignment */
+@media (min-width: 768px) {
+  .md\:text-left   { text-align: left; }
+  .md\:text-center { text-align: center; }
+  .md\:text-right  { text-align: right; }
+}
+
+/* ════════════════════════════════════════
+   TEXT TRANSFORM
+════════════════════════════════════════ */
+
+.uppercase   { text-transform: uppercase; }
+.lowercase   { text-transform: lowercase; }
+.capitalize  { text-transform: capitalize; }
+.normal-case { text-transform: none; }
+
+/* ════════════════════════════════════════
+   TEXT DECORATION
+════════════════════════════════════════ */
+
+.underline      { text-decoration: underline; }
+.line-through   { text-decoration: line-through; }
+.no-underline   { text-decoration: none; }
+
+/* ════════════════════════════════════════
+   LINE HEIGHT
+════════════════════════════════════════ */
+
+.leading-none     { line-height: var(--leading-none); }
+.leading-tight    { line-height: var(--leading-tight); }
+.leading-snug     { line-height: var(--leading-snug); }
+.leading-normal   { line-height: var(--leading-normal); }
+.leading-relaxed  { line-height: var(--leading-relaxed); }
+.leading-loose    { line-height: var(--leading-loose); }
+
+/* ════════════════════════════════════════
+   LETTER SPACING
+════════════════════════════════════════ */
+
+.tracking-tight   { letter-spacing: var(--tracking-tight); }
+.tracking-normal  { letter-spacing: var(--tracking-normal); }
+.tracking-wide    { letter-spacing: var(--tracking-wide); }
+.tracking-wider   { letter-spacing: var(--tracking-wider); }
+.tracking-widest  { letter-spacing: var(--tracking-widest); }
+
+/* ════════════════════════════════════════
+   LISTS
+════════════════════════════════════════ */
+
+/* Styled unordered list */
+.list-styled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.list-styled li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--text-primary);
+}
+
+.list-styled li::before {
+  content: '•';
+  color: var(--primary);
+  font-weight: var(--font-bold);
+  flex-shrink: 0;
+  margin-top: 0.1em;
+}
+
+/* Numbered list */
+.list-numbered {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: list-counter;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.list-numbered li {
+  counter-increment: list-counter;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+.list-numbered li::before {
+  content: counter(list-counter);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  background: var(--primary-alpha-10);
+  color: var(--primary-dark);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: var(--font-bold);
+  flex-shrink: 0;
+}
+
+/* ════════════════════════════════════════
+   BLOCKQUOTE
+════════════════════════════════════════ */
+
+blockquote {
+  border-left: 4px solid var(--primary);
+  padding: var(--space-3) var(--space-4);
+  background: var(--primary-alpha-10);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-size: var(--text-base);
+  color: var(--text-primary);
+  font-style: italic;
+  line-height: var(--leading-relaxed);
+}
+
+blockquote cite {
+  display: block;
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  font-style: normal;
+  font-weight: var(--font-medium);
+}
+
+/* ════════════════════════════════════════
+   CODE & PRE
+════════════════════════════════════════ */
+
+code {
+  font-family:      var(--font-mono);
+  font-size:        0.875em;
+  background:       var(--gray-100);
+  color:            var(--primary-dark);
+  padding:          0.1em 0.4em;
+  border-radius:    var(--radius-sm);
+  border:           1px solid var(--border-light);
+}
+
+pre {
+  font-family:    var(--font-mono);
+  font-size:      var(--text-sm);
+  background:     var(--gray-900);
+  color:          var(--gray-100);
+  padding:        var(--space-4);
+  border-radius:  var(--radius-lg);
+  overflow-x:     auto;
+  line-height:    var(--leading-relaxed);
+  tab-size:       2;
+}
+
+pre code {
+  background: none;
+  border:     none;
+  padding:    0;
+  color:      inherit;
+  font-size:  inherit;
+}
+
+/* ════════════════════════════════════════
+   HORIZONTAL RULE TYPOGRAPHY
+════════════════════════════════════════ */
+
+.hr-text {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--text-tertiary);
+  font-size: var(--text-xs);
+  font-weight: var(--font-medium);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  margin-block: var(--space-4);
+}
+
+.hr-text::before,
+.hr-text::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border-color);
+}
+
+/* ════════════════════════════════════════
+   BENGALI-SPECIFIC TYPOGRAPHY
+════════════════════════════════════════ */
+
+/**
+ * Bengali numerals are taller than Latin —
+ * slightly adjust line-height for mixed content
+ */
+:lang(bn) {
+  word-spacing: 0.05em;
+}
+
+/**
+ * Bengali script needs slightly more line-height
+ * for comfortable reading on mobile
+ */
+.bn-text {
+  font-family:  var(--font-primary);
+  line-height:  var(--leading-loose);
+  word-spacing: 0.08em;
+}
+
+/* ════════════════════════════════════════
+   SECTION TITLES
+════════════════════════════════════════ */
+
+/* Section label (small text above title) */
+.section-label {
+  display: inline-block;
+  font-size:      var(--text-xs);
+  font-weight:    var(--font-semibold);
+  color:          var(--primary);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+  margin-bottom:  var(--space-2);
+}
+
+/* Section title */
+.section-title {
+  font-size:   var(--text-2xl);
+  font-weight: var(--font-bold);
+  color:       var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: var(--text-3xl);
+  }
+}
+
+/* Section description */
+.section-desc {
+  font-size:  var(--text-base);
+  color:      var(--text-secondary);
+  line-height: var(--leading-relaxed);
+  max-width:  60ch;
+  margin-inline: auto;
+}
+
+/* ════════════════════════════════════════
+   HIGHLIGHT & MARK
+════════════════════════════════════════ */
+
+mark {
+  background: rgba(255, 235, 59, 0.40);
+  color:      inherit;
+  padding:    0.1em 0.2em;
+  border-radius: 2px;
+}
+
+.highlight-primary {
+  background: var(--primary-alpha-10);
+  color:      var(--primary-dark);
+  padding:    0.1em 0.3em;
+  border-radius: var(--radius-sm);
+  font-weight:  var(--font-semibold);
+}

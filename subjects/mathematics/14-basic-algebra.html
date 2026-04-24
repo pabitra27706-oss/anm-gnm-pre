@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Algebra | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="14">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 14</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 14 / 14</div>
+    <h1 class="chapter-title">Basic Algebra</h1>
+    <h2 class="chapter-title-bn">বীজগণিত মৌলিক</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>বীজগণিতের ভূমিকা (Introduction to Algebra)</h2>
+
+      <p>ANM GNM পরীক্ষায় <strong>বীজগণিত (Algebra)</strong> থেকে সরল সমীকরণ, উৎপাদক, সূত্র প্রয়োগ ইত্যাদি প্রশ্ন আসে। এই অধ্যায়ে আমরা বীজগণিতের মৌলিক ধারণা ও গুরুত্বপূর্ণ সূত্রগুলো শিখব।</p>
+
+      <div class="definition-box">
+        <strong>বীজগণিত (Algebra):</strong>
+        গণিতের যে শাখায় সংখ্যার পরিবর্তে অক্ষর বা প্রতীক ব্যবহার করে গাণিতিক সম্পর্ক প্রকাশ করা হয় তাকে বীজগণিত বলে। যেমন: \( a + b = c \)
+        <em>💡 MCQ Tip: বীজগণিতে অক্ষর = অজানা সংখ্যা।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>চলক (Variable):</strong>
+        যে অক্ষর বা প্রতীকের মান পরিবর্তনশীল তাকে চলক বলে। যেমন: x, y, z ইত্যাদি।
+        <em>💡 MCQ Tip: চলক = অজানা সংখ্যা, ধ্রুবক = নির্দিষ্ট সংখ্যা।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>রাশি (Expression):</strong>
+        চলক, ধ্রুবক এবং গাণিতিক চিহ্নের সমন্বয়ে গঠিত গাণিতিক বাক্যকে রাশি বলে। যেমন: \( 3x + 5 \), \( 2a^2 - 4b + 7 \)
+        <em>💡 MCQ Tip: রাশিতে সমান (=) চিহ্ন থাকে না, সমীকরণে থাকে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সমীকরণ (Equation):</strong>
+        দুটি রাশি সমান চিহ্ন (=) দ্বারা যুক্ত হলে তাকে সমীকরণ বলে। যেমন: \( 2x + 3 = 11 \)
+        <em>💡 MCQ Tip: সমীকরণ সমাধান = চলকের মান বের করা।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সহগ (Coefficient):</strong>
+        চলকের সাথে যুক্ত সংখ্যাকে সহগ বলে। \( 5x \) এ 5 হলো x এর সহগ।
+        <em>💡 MCQ Tip: x মানে 1x, -y মানে -1y</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সমীকরণের মাত্রা (Degree):</strong>
+        সমীকরণে চলকের সর্বোচ্চ ঘাতকে মাত্রা বলে। \( x^2 + 3x + 2 = 0 \) এর মাত্রা 2 (দ্বিঘাত)।
+        <em>💡 MCQ Tip: মাত্রা 1 = সরল সমীকরণ, মাত্রা 2 = দ্বিঘাত সমীকরণ।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>পরিভাষা</th>
+            <th>ইংরেজি</th>
+            <th>উদাহরণ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>চলক</td>
+            <td>Variable</td>
+            <td>x, y, z</td>
+          </tr>
+          <tr>
+            <td>ধ্রুবক</td>
+            <td>Constant</td>
+            <td>2, 5, -3, π</td>
+          </tr>
+          <tr>
+            <td>সহগ</td>
+            <td>Coefficient</td>
+            <td>3x তে 3</td>
+          </tr>
+          <tr>
+            <td>পদ</td>
+            <td>Term</td>
+            <td>3x, 5y², -7</td>
+          </tr>
+          <tr>
+            <td>একঘাত রাশি</td>
+            <td>Linear Expression</td>
+            <td>\( 2x + 3 \)</td>
+          </tr>
+          <tr>
+            <td>দ্বিঘাত রাশি</td>
+            <td>Quadratic Expression</td>
+            <td>\( x^2 + 5x + 6 \)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Algebraic Identities Section -->
+    <section class="content-section">
+      <h2>বীজগণিতের গুরুত্বপূর্ণ সূত্র (Important Algebraic Identities)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 মৌলিক সূত্রসমূহ (Basic Identities):</strong><br>
+        <strong>1.</strong> \[ (a + b)^2 = a^2 + 2ab + b^2 \]
+        <strong>2.</strong> \[ (a - b)^2 = a^2 - 2ab + b^2 \]
+        <strong>3.</strong> \[ a^2 - b^2 = (a + b)(a - b) \]
+        <strong>4.</strong> \[ (a + b)^2 - (a - b)^2 = 4ab \]
+        <strong>5.</strong> \[ (a + b)^2 + (a - b)^2 = 2(a^2 + b^2) \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 ঘন সম্পর্কিত সূত্র (Cube Identities):</strong><br>
+        <strong>6.</strong> \[ (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3 = a^3 + b^3 + 3ab(a+b) \]
+        <strong>7.</strong> \[ (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3 = a^3 - b^3 - 3ab(a-b) \]
+        <strong>8.</strong> \[ a^3 + b^3 = (a + b)(a^2 - ab + b^2) \]
+        <strong>9.</strong> \[ a^3 - b^3 = (a - b)(a^2 + ab + b^2) \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 সূচকের নিয়ম (Laws of Exponents):</strong><br>
+        <strong>10.</strong> \[ a^m \times a^n = a^{m+n} \]
+        <strong>11.</strong> \[ \frac{a^m}{a^n} = a^{m-n} \]
+        <strong>12.</strong> \[ (a^m)^n = a^{mn} \]
+        <strong>13.</strong> \[ a^0 = 1 \quad (a \neq 0) \]
+        <strong>14.</strong> \[ a^{-n} = \frac{1}{a^n} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> \( (x + 5)^2 \) এর মান বিস্তৃত করুন।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সূত্র ব্যবহার: \( (a + b)^2 = a^2 + 2ab + b^2 \)<br>
+          <strong>Step 2:</strong> এখানে a = x, b = 5<br>
+          <strong>Step 3:</strong> \( = x^2 + 2(x)(5) + 5^2 = x^2 + 10x + 25 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ x^2 + 10x + 25 \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> \( 53^2 - 47^2 \) এর মান কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সূত্র: \( a^2 - b^2 = (a+b)(a-b) \)<br>
+          <strong>Step 2:</strong> \( = (53 + 47)(53 - 47) \)<br>
+          <strong>Step 3:</strong> \( = 100 \times 6 = 600 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 600 \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>\( (a+b)^2 \) সূত্র:</strong> "বর্গ + দ্বিগুণ গুণফল + বর্গ" মনে রাখুন</li>
+        <li><strong>\( a^2 - b^2 \):</strong> সবসময় (যোগ)(বিয়োগ) এ ভাগ হয়</li>
+        <li><strong>যদি \( a + b \) এবং \( ab \) জানা:</strong> \( a^2 + b^2 = (a+b)^2 - 2ab \)</li>
+        <li><strong>যদি \( a - b \) এবং \( ab \) জানা:</strong> \( a^2 + b^2 = (a-b)^2 + 2ab \)</li>
+        <li><strong>\( a^0 = 1 \):</strong> যেকোনো সংখ্যার শূন্য ঘাত 1 (শূন্য ছাড়া)</li>
+        <li><strong>\( a^{-n} = 1/a^n \):</strong> ঋণাত্মক ঘাত = ভগ্নাংশে পরিবর্তন</li>
+      </ul>
+    </section>
+
+    <!-- Linear Equations Section -->
+    <section class="content-section">
+      <h2>সরল সমীকরণ সমাধান (Solving Linear Equations)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 সরল সমীকরণ সমাধানের নিয়ম:</strong><br>
+        <strong>Rule 1:</strong> সমীকরণের উভয় পক্ষে একই সংখ্যা যোগ/বিয়োগ করা যায়<br>
+        <strong>Rule 2:</strong> সমীকরণের উভয় পক্ষকে একই সংখ্যা দিয়ে গুণ/ভাগ করা যায়<br>
+        <strong>Rule 3:</strong> যোগের পদ বিয়োগ হয়ে অন্যপক্ষে যায় (পদ স্থানান্তর)<br>
+        <strong>Rule 4:</strong> গুণ ভাগ হয়ে এবং ভাগ গুণ হয়ে অন্যপক্ষে যায়
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> সমাধান করুন: \( 3x + 7 = 22 \)
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> \( 3x + 7 = 22 \)<br>
+          <strong>Step 2:</strong> \( 3x = 22 - 7 = 15 \) (7 বিয়োগ হয়ে অন্যপক্ষে)<br>
+          <strong>Step 3:</strong> \( x = \frac{15}{3} = 5 \) (3 ভাগ হয়ে অন্যপক্ষে)<br>
+          <strong>যাচাই:</strong> 3(5) + 7 = 15 + 7 = 22 ✓<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ x = 5 \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> সমাধান করুন: \( \frac{2x - 3}{4} = 5 \)
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> \( \frac{2x - 3}{4} = 5 \)<br>
+          <strong>Step 2:</strong> \( 2x - 3 = 5 \times 4 = 20 \) (4 গুণ হয়ে অন্যপক্ষে)<br>
+          <strong>Step 3:</strong> \( 2x = 20 + 3 = 23 \)<br>
+          <strong>Step 4:</strong> \( x = \frac{23}{2} = 11.5 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ x = 11.5 \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> দুটি সমীকরণ সমাধান করুন: \( x + y = 10 \) এবং \( x - y = 4 \)
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> দুটি সমীকরণ যোগ করি:<br>
+          \( (x + y) + (x - y) = 10 + 4 \)<br>
+          \( 2x = 14 \)<br>
+          \( x = 7 \)<br>
+          <strong>Step 2:</strong> x = 7 বসাই প্রথম সমীকরণে:<br>
+          \( 7 + y = 10 \)<br>
+          \( y = 3 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ x = 7, \quad y = 3 \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> একটি সংখ্যার 3 গুণ থেকে 5 বিয়োগ করলে 16 হয়। সংখ্যাটি কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> ধরি, সংখ্যাটি x<br>
+          <strong>Step 2:</strong> সমীকরণ: \( 3x - 5 = 16 \)<br>
+          <strong>Step 3:</strong> \( 3x = 16 + 5 = 21 \)<br>
+          <strong>Step 4:</strong> \( x = 21/3 = 7 \)<br>
+          <strong>যাচাই:</strong> 3(7) - 5 = 21 - 5 = 16 ✓<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ x = 7 \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Quadratic Equations Section -->
+    <section class="content-section">
+      <h2>দ্বিঘাত সমীকরণ মৌলিক (Basics of Quadratic Equations)</h2>
+
+      <div class="definition-box">
+        <strong>দ্বিঘাত সমীকরণ (Quadratic Equation):</strong>
+        \( ax^2 + bx + c = 0 \) আকারের সমীকরণকে দ্বিঘাত সমীকরণ বলে, যেখানে \( a \neq 0 \)।
+        <em>💡 MCQ Tip: দ্বিঘাত সমীকরণের সর্বোচ্চ 2 টি মূল (root) থাকে।</em>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 দ্বিঘাত সমীকরণের সূত্র (Quadratic Formula):</strong><br>
+        \[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+        যেখানে \( b^2 - 4ac \) কে বিচারক (Discriminant) বলে।<br>
+        <strong>যদি \( b^2 - 4ac > 0 \):</strong> দুটি ভিন্ন বাস্তব মূল<br>
+        <strong>যদি \( b^2 - 4ac = 0 \):</strong> দুটি সমান মূল<br>
+        <strong>যদি \( b^2 - 4ac < 0 \):</strong> কোনো বাস্তব মূল নেই
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 উৎপাদক বিশ্লেষণ (Factorization Method):</strong><br>
+        \( x^2 + 5x + 6 = 0 \) → এমন দুটি সংখ্যা খুঁজুন যাদের:<br>
+        • গুণফল = 6 (ধ্রুবক পদ)<br>
+        • যোগফল = 5 (x এর সহগ)<br>
+        → 2 এবং 3 (2×3=6, 2+3=5)<br>
+        → \( (x+2)(x+3) = 0 \)<br>
+        → \( x = -2 \) বা \( x = -3 \)
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৭ (Example 7):</strong> সমাধান করুন: \( x^2 - 7x + 12 = 0 \)
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> এমন দুটি সংখ্যা যাদের গুণফল 12 এবং যোগফল 7<br>
+          <strong>Step 2:</strong> 3 এবং 4 (3×4=12, 3+4=7)<br>
+          <strong>Step 3:</strong> \( x^2 - 3x - 4x + 12 = 0 \)<br>
+          <strong>Step 4:</strong> \( x(x-3) - 4(x-3) = 0 \)<br>
+          <strong>Step 5:</strong> \( (x-3)(x-4) = 0 \)<br>
+          <strong>Step 6:</strong> \( x = 3 \) বা \( x = 4 \)<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ x = 3 \text{ বা } x = 4 \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ (a+b)^2 = a^2 + 2ab + b^2 \] — বর্গের সূত্র (যোগ)</li>
+        <li>\[ (a-b)^2 = a^2 - 2ab + b^2 \] — বর্গের সূত্র (বিয়োগ)</li>
+        <li>\[ a^2 - b^2 = (a+b)(a-b) \] — বর্গের পার্থক্য</li>
+        <li>\[ a^3 + b^3 = (a+b)(a^2 - ab + b^2) \] — ঘনের যোগ</li>
+        <li>\[ a^3 - b^3 = (a-b)(a^2 + ab + b^2) \] — ঘনের পার্থক্য</li>
+        <li>\[ a^m \times a^n = a^{m+n}, \quad a^m \div a^n = a^{m-n} \] — সূচক</li>
+        <li>\[ a^0 = 1, \quad a^{-n} = \frac{1}{a^n} \] — বিশেষ সূচক</li>
+        <li>\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \] — দ্বিঘাত সূত্র</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: \( a^2 - b^2 \) সবচেয়ে দ্রুত সূত্র</strong><br>
+        a² - b² = (a+b)(a-b)<br>
+        \( 99^2 - 1^2 = (99+1)(99-1) = 100 \times 98 = 9800 \)<br>
+        \( 75^2 - 25^2 = (75+25)(75-25) = 100 \times 50 = 5000 \)<br>
+        MCQ তে বড় সংখ্যার বর্গ হিসাবে অতি দ্রুত!
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: দ্রুত বর্গ নির্ণয়</strong><br>
+        50 এর কাছাকাছি সংখ্যার বর্গ:<br>
+        \( 48^2 = (50-2)^2 = 2500 - 200 + 4 = 2304 \)<br>
+        \( 52^2 = (50+2)^2 = 2500 + 200 + 4 = 2704 \)<br>
+        সূত্র: \( (50 \pm n)^2 = 2500 \pm 100n + n^2 \)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: সরল সমীকরণ দ্রুত সমাধান</strong><br>
+        \( 5x + 3 = 28 \)<br>
+        মনে মনে: 28 - 3 = 25, 25/5 = 5<br>
+        উত্তর: x = 5<br>
+        "ধ্রুবক অন্যপক্ষে → ভাগ করুন" — এটুকুই!
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: দ্বিঘাত সমীকরণে মূলের যোগ ও গুণ</strong><br>
+        \( ax^2 + bx + c = 0 \) হলে:<br>
+        মূলদ্বয়ের যোগ = -b/a<br>
+        মূলদ্বয়ের গুণফল = c/a<br>
+        \( x^2 - 7x + 12 = 0 \) → যোগ = 7, গুণফল = 12 → মূল = 3, 4
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: সূচকের নিয়ম মনে রাখুন</strong><br>
+        গুণে ঘাত যোগ: \( 2^3 \times 2^4 = 2^7 = 128 \)<br>
+        ভাগে ঘাত বিয়োগ: \( 3^5 \div 3^2 = 3^3 = 27 \)<br>
+        শূন্য ঘাত = 1: \( 5^0 = 1 \)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: যোগফল ও গুণফল থেকে সংখ্যা</strong><br>
+        দুটি সংখ্যার যোগ = S, গুণফল = P<br>
+        তাদের পার্থক্য = \( \sqrt{S^2 - 4P} \)<br>
+        সংখ্যা দুটি = \( \frac{S + d}{2} \) এবং \( \frac{S - d}{2} \)<br>
+        উদাহরণ: S=10, P=21 → d=√(100-84)=√16=4 → 7 ও 3
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. \( (a + b)^2 \) এর বিস্তৃত রূপ কী?</p>
+        <p class="answer"><strong>উত্তর:</strong> \( a^2 + 2ab + b^2 \)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. \( 101^2 - 99^2 \) এর মান কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 400 [(101+99)(101-99) = 200×2 = 400]</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. সমাধান করুন: \( 4x - 8 = 12 \)</p>
+        <p class="answer"><strong>উত্তর:</strong> x = 5 (4x = 20, x = 20/4 = 5)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. \( x^2 - 5x + 6 = 0 \) এর মূল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> x = 2 বা x = 3 [(x-2)(x-3) = 0]</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. \( 2^5 \times 2^3 \) এর মান কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 256 (\( 2^{5+3} = 2^8 = 256 \))</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. যদি \( a + b = 8 \) এবং \( ab = 15 \) হয়, তবে \( a^2 + b^2 \) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 34 [\( (a+b)^2 - 2ab = 64 - 30 = 34 \)]</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. একটি সংখ্যার 5 গুণ এবং 8 এর যোগফল 33 হলে সংখ্যাটি কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 5 (5x + 8 = 33, 5x = 25, x = 5)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. \( 5^0 + 3^0 + 2^{-1} \) এর মান কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 2.5 (1 + 1 + 1/2 = 2 + 0.5 = 2.5)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>\( (a+b)^2 = a^2+2ab+b^2 \), \( (a-b)^2 = a^2-2ab+b^2 \)</li>
+      <li>\( a^2-b^2 = (a+b)(a-b) \) — MCQ তে সবচেয়ে বেশি ব্যবহৃত</li>
+      <li>সরল সমীকরণ: পদ স্থানান্তর → চলকের মান বের করুন</li>
+      <li>দ্বিঘাত: উৎপাদকে বিশ্লেষণ বা সূত্র ব্যবহার</li>
+      <li>মূলের যোগ = -b/a, গুণফল = c/a</li>
+      <li>\( a^m \times a^n = a^{m+n} \), \( a^m \div a^n = a^{m-n} \)</li>
+      <li>\( a^0 = 1 \), \( a^{-n} = 1/a^n \)</li>
+      <li>\( a^2+b^2 = (a+b)^2 - 2ab \) — গুরুত্বপূর্ণ সম্পর্ক</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="13-data-interpretation.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="./index.html" class="btn btn-nav next-btn">
+      অধ্যায় তালিকা
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

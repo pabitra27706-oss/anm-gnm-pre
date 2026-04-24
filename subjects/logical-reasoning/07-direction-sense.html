@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direction Sense | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="7">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 7</span>
+  </nav>
+
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 7 / 14</div>
+    <h1 class="chapter-title">Direction Sense</h1>
+    <h2 class="chapter-title-bn">দিক নির্ণয়</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Direction Sense (দিক নির্ণয়)</strong> হল কম্পাস দিক (North, South, East, West) এবং ছায়া (Shadow) সম্পর্কিত যুক্তিভিত্তিক প্রশ্ন। এখানে একজন ব্যক্তির চলার পথ বিশ্লেষণ করে তার চূড়ান্ত অবস্থান, দিক বা দূরত্ব বের করতে হয়।</p>
+
+      <div class="definition-box">
+        <strong>Cardinal Directions (প্রধান দিক):</strong>
+        চারটি প্রধান দিক: North (উত্তর), South (দক্ষিণ), East (পূর্ব), West (পশ্চিম)। এগুলি পরস্পর 90° কোণে অবস্থিত।
+        <em>💡 MCQ Tip: NEWS = North, East, West, South ঘড়ির কাঁটার দিকে মনে রাখুন</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Ordinal Directions (উপ-দিক):</strong>
+        চারটি উপ-দিক: North-East (উত্তর-পূর্ব), North-West (উত্তর-পশ্চিম), South-East (দক্ষিণ-পূর্ব), South-West (দক্ষিণ-পশ্চিম)। প্রতিটি 45° কোণে।
+        <em>💡 MCQ Tip: দুই প্রধান দিকের মাঝে উপ-দিক থাকে</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Shadow Rule (ছায়ার নিয়ম):</strong>
+        সকালে (Morning) ছায়া পশ্চিমে (West) পড়ে, সন্ধ্যায় (Evening) ছায়া পূর্বে (East) পড়ে। ছায়া সবসময় সূর্যের বিপরীত দিকে পড়ে।
+        <em>💡 MCQ Tip: সূর্য পূর্বে উঠে → ছায়া পশ্চিমে; সূর্য পশ্চিমে অস্ত যায় → ছায়া পূর্বে</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>8টি দিক:</strong> N, NE, E, SE, S, SW, W, NW (ঘড়ির কাঁটার দিকে)</li>
+        <li><strong>বিপরীত দিক:</strong> N↔S, E↔W, NE↔SW, NW↔SE</li>
+        <li><strong>Right Turn:</strong> ঘড়ির কাঁটার দিকে 90° ঘোরা</li>
+        <li><strong>Left Turn:</strong> ঘড়ির কাঁটার বিপরীত 90° ঘোরা</li>
+        <li><strong>About Turn:</strong> 180° ঘোরা (বিপরীত দিক)</li>
+        <li><strong>Pythagoras:</strong> দূরত্ব = √(x² + y²) — সরাসরি দূরত্ব বের করতে</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: DIRECTION MAP & RULES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>দিক মানচিত্র ও নিয়ম (Direction Map & Rules)</h2>
+
+      <pre class="reasoning-diagram">
+        8 Directions Compass Map:
+        
+                    NORTH (উত্তর)
+                        |
+              NW        |        NE
+          (উত্তর-পশ্চিম)  |  (উত্তর-পূর্ব)
+                  \     |     /
+                   \    |    /
+        WEST -------+------- EAST
+        (পশ্চিম)    |    (পূর্ব)
+                   /    |    \
+                  /     |     \
+              SW        |        SE
+         (দক্ষিণ-পশ্চিম) |  (দক্ষিণ-পূর্ব)
+                        |
+                    SOUTH (দক্ষিণ)
+        
+        Turn Rules:
+        Facing North + Right Turn = Facing East
+        Facing North + Left Turn  = Facing West
+        Facing North + About Turn = Facing South
+      </pre>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>বর্তমান দিক (Facing)</th>
+            <th>Right Turn (ডান)</th>
+            <th>Left Turn (বাম)</th>
+            <th>About Turn (পেছন)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>North</th><td>East</td><td>West</td><td>South</td></tr>
+          <tr><th>East</th><td>South</td><td>North</td><td>West</td></tr>
+          <tr><th>South</th><td>West</td><td>East</td><td>North</td></tr>
+          <tr><th>West</th><td>North</td><td>South</td><td>East</td></tr>
+        </tbody>
+      </table>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        Right Turn = ঘড়ির কাঁটার দিকে: N→E→S→W→N। Left Turn = উল্টো: N→W→S→E→N। একটি চক্র মনে রাখলে সব Turn সমাধান হয়ে যায়।
+      </div>
+
+      <div class="trick-box">
+        <strong>⚡ ছায়া ট্রিক (Shadow Trick):</strong>
+        Morning Shadow = West (সকাল = পশ্চিম)। Evening Shadow = East (সন্ধ্যা = পূর্ব)। দুপুরে ছায়া সবচেয়ে ছোট (দক্ষিণে/উত্তরে)। "ME" মনে রাখুন: Morning=West(W), Evening=East(E)।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: SOLVED EXAMPLES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong> Ram starts from his house and walks 5 km North, then turns right and walks 3 km, then turns right and walks 5 km. In which direction is he from his starting point?<br>
+        (A) North (B) East (C) South (D) West
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> 5 km North (উত্তরে)<br>
+          <strong>Step 2:</strong> Right turn → East দিকে মুখ। 3 km East<br>
+          <strong>Step 3:</strong> Right turn → South দিকে মুখ। 5 km South<br>
+          <strong>Step 4:</strong> North 5km + South 5km = 0 (cancel)। শুধু 3 km East বাকি<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) East
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Direction Diagram for Example 1:
+        
+        Start (Home)
+          |
+          | 5 km (North)
+          |
+          B ─────────── C
+          |   3 km (East)  |
+          |                |
+          |                | 5 km (South)
+          |                |
+          A ─ ─ ─ ─ ─ ─ ─ D (Final Position)
+          (Start)          
+                     3 km East
+        
+        Final Direction from Start = EAST
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong> One morning, Ravi was walking towards the sun. He turned left, then turned right, then turned right again. In which direction was he finally walking?<br>
+        (A) North (B) South (C) East (D) West
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Morning + Walking towards sun = Walking East (সকালে সূর্য পূর্বে)<br>
+          <strong>Step 2:</strong> Left turn → North<br>
+          <strong>Step 3:</strong> Right turn → East<br>
+          <strong>Step 4:</strong> Right turn → South<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) South
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong> If a person is facing South-East and turns 135° clockwise, which direction will he face?<br>
+        (A) North (B) South (C) West (D) South-West
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Starting direction = South-East (SE)<br>
+          <strong>Step 2:</strong> Clockwise 135° = 3 positions clockwise (each position = 45°)<br>
+          <strong>Step 3:</strong> SE → S (45°) → SW (90°) → W (135°)<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) West
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৪ (Example 4):</strong> In the evening, Seema's shadow falls to her left. In which direction is she facing?<br>
+        (A) North (B) South (C) East (D) West
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Evening → ছায়া East-এ পড়ে (সূর্য West-এ)<br>
+          <strong>Step 2:</strong> ছায়া বামে পড়ছে → East হল বাম দিক<br>
+          <strong>Step 3:</strong> East যদি বাম হয়, তাহলে মুখ North-এ<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (A) North
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৫ (Example 5):</strong> A walks 10 km East, then 6 km North. What is his straight-line distance from starting point?<br>
+        (A) 16 km (B) √136 km (C) 4 km (D) 8 km
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Pythagoras theorem: Distance = √(10² + 6²)<br>
+          <strong>Step 2:</strong> = √(100 + 36) = √136<br>
+          <strong>Step 3:</strong> = √136 ≈ 11.66 km<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) √136 km
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+      <ul class="fact-list">
+        <li><strong>সূর্যোদয়:</strong> পূর্ব দিকে (Morning sun = East)</li>
+        <li><strong>সূর্যাস্ত:</strong> পশ্চিম দিকে (Evening sun = West)</li>
+        <li><strong>ছায়া:</strong> সবসময় সূর্যের বিপরীত দিকে পড়ে</li>
+        <li><strong>Clockwise (ঘড়ির কাঁটায়):</strong> N→NE→E→SE→S→SW→W→NW</li>
+        <li><strong>Anti-clockwise (বিপরীত):</strong> N→NW→W→SW→S→SE→E→NE</li>
+        <li><strong>90° Turn:</strong> Right/Left turn = পরবর্তী Cardinal direction</li>
+        <li><strong>180° Turn:</strong> About turn = বিপরীত দিক</li>
+        <li><strong>দূরত্ব সূত্র:</strong> √(x² + y²) — Pythagoras theorem ব্যবহার করুন</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        চিত্র আঁকুন! প্রতিটি পদক্ষেপ ছবিতে দেখান। N উপরে, S নিচে, E ডানে, W বামে রাখুন। এতে দিক ও দূরত্ব দুটোই সহজে বের হয়।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: PRACTICE QUESTIONS (8)
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. A man faces North and turns 90° clockwise. Which direction is he facing now?<br>
+        (A) South (B) East (C) West (D) North-East</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) East — North + 90° clockwise = East।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. In the morning, if you face the sun, your shadow will fall in which direction?<br>
+        (A) East (B) West (C) North (D) Behind you (West)</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (D) Behind you (West) — সকালে সূর্য East-এ, ছায়া West-এ (পিছনে)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. Facing South, Ram turns left. Which direction is he facing now?<br>
+        (A) North (B) East (C) West (D) South-East</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) East — South + Left turn = East।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. A walks 3 km North, then 4 km East. How far is he from the starting point?<br>
+        (A) 7 km (B) 1 km (C) 5 km (D) 12 km</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) 5 km — √(3² + 4²) = √(9+16) = √25 = 5 km। (3-4-5 Pythagorean triplet)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. Facing North-East, a person turns 180°. Which direction is he facing now?<br>
+        (A) North-West (B) South-West (C) South-East (D) East</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) South-West — NE এর বিপরীত দিক = SW।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. In the evening, Meera's shadow falls to her right. Which direction is she facing?<br>
+        (A) North (B) South (C) East (D) West</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) South — Evening: ছায়া East-এ। ছায়া ডানে = East ডানে → মুখ South-এ।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. A man walks 8 km South, then turns right and walks 6 km. In which direction is he from starting?<br>
+        (A) South-West (B) South-East (C) North-West (D) North-East</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) South-West — 8 km South + Right turn from South = West, 6 km West। Final position: South-West।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. Facing West, a person turns 270° clockwise. Which direction is he facing?<br>
+        (A) North (B) South (C) East (D) West</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) South — 270° clockwise = 90° anti-clockwise. West + 90° anti-clockwise = South।</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>4 প্রধান দিক:</strong> N, E, S, W (ঘড়ির কাঁটায়)</li>
+      <li><strong>4 উপ-দিক:</strong> NE, SE, SW, NW</li>
+      <li><strong>Right Turn:</strong> N→E→S→W→N (ঘড়ির কাঁটায়)</li>
+      <li><strong>Left Turn:</strong> N→W→S→E→N (বিপরীত)</li>
+      <li><strong>ছায়া:</strong> Morning = West, Evening = East</li>
+      <li><strong>দূরত্ব:</strong> Pythagoras = √(x² + y²)</li>
+      <li><strong>180° = About Turn:</strong> বিপরীত দিক (N↔S, E↔W)</li>
+      <li><strong>সবচেয়ে গুরুত্বপূর্ণ:</strong> চিত্র আঁকুন — সব সমস্যা সহজ হয়ে যায়</li>
+    </ul>
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="06-blood-relations.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+    <a href="./index.html" class="btn btn-index">অধ্যায় তালিকা</a>
+    <a href="08-syllogism.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

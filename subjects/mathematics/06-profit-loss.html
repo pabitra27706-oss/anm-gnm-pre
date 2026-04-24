@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profit & Loss | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="6">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 6</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 6 / 14</div>
+    <h1 class="chapter-title">Profit & Loss</h1>
+    <h2 class="chapter-title-bn">লাভ ও ক্ষতি</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>লাভ ও ক্ষতির ভূমিকা (Introduction to Profit & Loss)</h2>
+      
+      <p>ANM GNM পরীক্ষায় <strong>লাভ ও ক্ষতি (Profit & Loss)</strong> থেকে প্রায়ই প্রশ্ন আসে। ব্যবসায়িক হিসাব, দোকান পরিচালনা, ওষুধের মূল্য ইত্যাদি ক্ষেত্রে এই জ্ঞান প্রয়োজন।</p>
+
+      <div class="definition-box">
+        <strong>ক্রয়মূল্য (Cost Price - CP):</strong>
+        যে মূল্যে কোনো পণ্য ক্রয় করা হয় তাকে ক্রয়মূল্য বলে। একে CP দ্বারা প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: CP হলো পণ্য কিনতে যত টাকা খরচ হয়েছে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>বিক্রয়মূল্য (Selling Price - SP):</strong>
+        যে মূল্যে কোনো পণ্য বিক্রয় করা হয় তাকে বিক্রয়মূল্য বলে। একে SP দ্বারা প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: SP হলো পণ্য বিক্রি করে যত টাকা পাওয়া যায়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>লাভ (Profit):</strong>
+        বিক্রয়মূল্য ক্রয়মূল্য অপেক্ষা বেশি হলে তাদের পার্থক্যকে লাভ বলে। লাভ = SP - CP (যখন SP > CP)
+        <em>💡 MCQ Tip: লাভ হয় যখন বিক্রয়মূল্য ক্রয়মূল্যের চেয়ে বেশি।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>ক্ষতি (Loss):</strong>
+        ক্রয়মূল্য বিক্রয়মূল্য অপেক্ষা বেশি হলে তাদের পার্থক্যকে ক্ষতি বলে। ক্ষতি = CP - SP (যখন CP > SP)
+        <em>💡 MCQ Tip: ক্ষতি হয় যখন বিক্রয়মূল্য ক্রয়মূল্যের চেয়ে কম।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>লাভ শতাংশ (Profit Percentage):</strong>
+        ক্রয়মূল্যের উপর ভিত্তি করে লাভের শতাংশকে লাভ শতাংশ বলে।
+        <em>💡 MCQ Tip: লাভ শতাংশ সবসময় ক্রয়মূল্যের উপর হিসাব করা হয়, বিক্রয়মূল্যের উপর নয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>ক্ষতি শতাংশ (Loss Percentage):</strong>
+        ক্রয়মূল্যের উপর ভিত্তি করে ক্ষতির শতাংশকে ক্ষতি শতাংশ বলে।
+        <em>💡 MCQ Tip: ক্ষতি শতাংশও ক্রয়মূল্যের উপর হিসাব করা হয়।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>পরিভাষা</th>
+            <th>ইংরেজি</th>
+            <th>সংক্ষেপ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ক্রয়মূল্য</td>
+            <td>Cost Price</td>
+            <td>CP</td>
+          </tr>
+          <tr>
+            <td>বিক্রয়মূল্য</td>
+            <td>Selling Price</td>
+            <td>SP</td>
+          </tr>
+          <tr>
+            <td>লাভ</td>
+            <td>Profit</td>
+            <td>P</td>
+          </tr>
+          <tr>
+            <td>ক্ষতি</td>
+            <td>Loss</td>
+            <td>L</td>
+          </tr>
+          <tr>
+            <td>চিহ্নিত মূল্য</td>
+            <td>Marked Price</td>
+            <td>MP</td>
+          </tr>
+          <tr>
+            <td>ছাড়/বাট্টা</td>
+            <td>Discount</td>
+            <td>D</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Basic Formulas Section -->
+    <section class="content-section">
+      <h2>মূল সূত্রাবলী (Basic Formulas)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 লাভ ও ক্ষতির মূল সূত্র:</strong><br>
+        <strong>1. লাভ:</strong> \[ \text{Profit} = SP - CP \quad (\text{যখন } SP > CP) \]
+        <strong>2. ক্ষতি:</strong> \[ \text{Loss} = CP - SP \quad (\text{যখন } CP > SP) \]
+        <strong>3. লাভ শতাংশ:</strong> \[ \text{Profit\%} = \frac{\text{Profit}}{\text{CP}} \times 100 \]
+        <strong>4. ক্ষতি শতাংশ:</strong> \[ \text{Loss\%} = \frac{\text{Loss}}{\text{CP}} \times 100 \]
+        <strong>5. SP যখন লাভ:</strong> \[ SP = CP + \text{Profit} = CP \times \left(1 + \frac{\text{Profit\%}}{100}\right) \]
+        <strong>6. SP যখন ক্ষতি:</strong> \[ SP = CP - \text{Loss} = CP \times \left(1 - \frac{\text{Loss\%}}{100}\right) \]
+        <strong>7. CP যখন লাভ:</strong> \[ CP = \frac{SP}{1 + \frac{\text{Profit\%}}{100}} = \frac{SP \times 100}{100 + \text{Profit\%}} \]
+        <strong>8. CP যখন ক্ষতি:</strong> \[ CP = \frac{SP}{1 - \frac{\text{Loss\%}}{100}} = \frac{SP \times 100}{100 - \text{Loss\%}} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> একটি পণ্য 500 টাকায় কিনে 600 টাকায় বিক্রি করা হলো। লাভ ও লাভ শতাংশ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> CP = 500 টাকা, SP = 600 টাকা<br>
+          <strong>Step 2:</strong> লাভ = SP - CP = 600 - 500 = 100 টাকা<br>
+          <strong>Step 3:</strong> লাভ% = (লাভ/CP) × 100 = (100/500) × 100<br>
+          <strong>Step 4:</strong> = (1/5) × 100 = 20%<br>
+          <strong>∴ উত্তর (Answer):</strong> লাভ = 100 টাকা, লাভ% = 20%
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> একটি পণ্য 800 টাকায় কিনে 720 টাকায় বিক্রি করা হলো। ক্ষতি ও ক্ষতি শতাংশ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> CP = 800 টাকা, SP = 720 টাকা<br>
+          <strong>Step 2:</strong> ক্ষতি = CP - SP = 800 - 720 = 80 টাকা<br>
+          <strong>Step 3:</strong> ক্ষতি% = (ক্ষতি/CP) × 100 = (80/800) × 100<br>
+          <strong>Step 4:</strong> = (1/10) × 100 = 10%<br>
+          <strong>∴ উত্তর (Answer):</strong> ক্ষতি = 80 টাকা, ক্ষতি% = 10%
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> একটি পণ্য 25% লাভে বিক্রয় করা হলো। যদি CP 400 টাকা হয়, SP কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> CP = 400 টাকা, লাভ% = 25%<br>
+          <strong>Step 2:</strong> SP = CP × (100 + লাভ%) / 100<br>
+          <strong>Step 3:</strong> = 400 × 125/100 = 400 × 1.25<br>
+          <strong>Step 4:</strong> = 500 টাকা<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ SP = 500 \text{ টাকা} \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>মনে রাখুন:</strong> লাভ/ক্ষতি শতাংশ সবসময় CP এর উপর</li>
+        <li><strong>যদি SP > CP:</strong> লাভ হয়েছে</li>
+        <li><strong>যদি CP > SP:</strong> ক্ষতি হয়েছে</li>
+        <li><strong>যদি SP = CP:</strong> লাভও নয়, ক্ষতিও নয়</li>
+        <li><strong>10% লাভে SP:</strong> CP × 1.1</li>
+        <li><strong>10% ক্ষতিতে SP:</strong> CP × 0.9</li>
+      </ul>
+    </section>
+
+    <!-- Discount Section -->
+    <section class="content-section">
+      <h2>ছাড় বা বাট্টা (Discount)</h2>
+
+      <div class="definition-box">
+        <strong>চিহ্নিত মূল্য (Marked Price - MP):</strong>
+        পণ্যের গায়ে বা দোকানে যে মূল্য লেখা থাকে তাকে চিহ্নিত মূল্য বলে।
+        <em>💡 MCQ Tip: MP সাধারণত CP এর চেয়ে বেশি রাখা হয় যাতে ছাড় দিয়েও লাভ থাকে।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>ছাড় বা বাট্টা (Discount):</strong>
+        চিহ্নিত মূল্য থেকে কম মূল্যে বিক্রয় করলে যে পরিমাণ কমানো হয় তাকে ছাড় বলে।
+        <em>💡 MCQ Tip: ছাড় সবসময় চিহ্নিত মূল্যের উপর হিসাব করা হয়।</em>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 ছাড়ের সূত্র:</strong><br>
+        <strong>1. ছাড়:</strong> \[ \text{Discount} = MP - SP \]
+        <strong>2. ছাড় শতাংশ:</strong> \[ \text{Discount\%} = \frac{\text{Discount}}{\text{MP}} \times 100 \]
+        <strong>3. SP (ছাড়ের পর):</strong> \[ SP = MP - \text{Discount} = MP \times \left(1 - \frac{\text{Discount\%}}{100}\right) \]
+        <strong>4. MP বের করা:</strong> \[ MP = \frac{SP \times 100}{100 - \text{Discount\%}} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> একটি জামার চিহ্নিত মূল্য 1000 টাকা। 20% ছাড়ে বিক্রয়মূল্য কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> MP = 1000 টাকা, ছাড়% = 20%<br>
+          <strong>Step 2:</strong> ছাড় = 1000 × 20/100 = 200 টাকা<br>
+          <strong>Step 3:</strong> SP = MP - ছাড় = 1000 - 200 = 800 টাকা<br>
+          <strong>অথবা সরাসরি:</strong><br>
+          <strong>Step 4:</strong> SP = 1000 × (100-20)/100 = 1000 × 0.8 = 800<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ SP = 800 \text{ টাকা} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> একজন দোকানদার পণ্যে CP এর 30% বেশি চিহ্নিত মূল্য রাখেন এবং 10% ছাড় দেন। তার লাভ শতাংশ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> ধরি, CP = 100 টাকা<br>
+          <strong>Step 2:</strong> MP = 100 + 30% = 100 + 30 = 130 টাকা<br>
+          <strong>Step 3:</strong> ছাড় = 130 × 10/100 = 13 টাকা<br>
+          <strong>Step 4:</strong> SP = 130 - 13 = 117 টাকা<br>
+          <strong>Step 5:</strong> লাভ = 117 - 100 = 17 টাকা<br>
+          <strong>Step 6:</strong> লাভ% = (17/100) × 100 = 17%<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ \text{লাভ } 17\% \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> দুটি ক্রমিক ছাড় 10% ও 20% দিলে মোট ছাড় কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> ধরি, MP = 100 টাকা<br>
+          <strong>Step 2:</strong> প্রথম ছাড় 10% পর = 100 - 10 = 90 টাকা<br>
+          <strong>Step 3:</strong> দ্বিতীয় ছাড় 20% (90 এর উপর) = 90 × 20/100 = 18<br>
+          <strong>Step 4:</strong> ছাড়ের পর = 90 - 18 = 72 টাকা<br>
+          <strong>Step 5:</strong> মোট ছাড় = 100 - 72 = 28 টাকা = 28%<br>
+          <strong>শর্টকাট সূত্র:</strong> a% ও b% ক্রমিক ছাড় = \( a + b - \frac{ab}{100} \)<br>
+          = 10 + 20 - (10×20/100) = 30 - 2 = 28%<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 28\% \text{ ছাড়} \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{লাভ } = SP - CP \quad (SP > CP) \]</li>
+        <li>\[ \text{ক্ষতি } = CP - SP \quad (CP > SP) \]</li>
+        <li>\[ \text{লাভ\%} = \frac{\text{লাভ}}{CP} \times 100 \]</li>
+        <li>\[ \text{ক্ষতি\%} = \frac{\text{ক্ষতি}}{CP} \times 100 \]</li>
+        <li>\[ SP = CP \times \frac{100 + \text{লাভ\%}}{100} \]</li>
+        <li>\[ SP = CP \times \frac{100 - \text{ক্ষতি\%}}{100} \]</li>
+        <li>\[ \text{ছাড়} = MP - SP \]</li>
+        <li>\[ \text{ক্রমিক ছাড় a%, b%} = a + b - \frac{ab}{100}\% \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: দ্রুত SP বের করা</strong><br>
+        <strong>x% লাভে SP:</strong> CP × (100+x)/100<br>
+        <strong>x% ক্ষতিতে SP:</strong> CP × (100-x)/100<br>
+        উদাহরণ: CP=200, 25% লাভ → SP = 200×125/100 = 250
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: দ্রুত CP বের করা</strong><br>
+        <strong>x% লাভে CP:</strong> SP × 100/(100+x)<br>
+        <strong>x% ক্ষতিতে CP:</strong> SP × 100/(100-x)<br>
+        উদাহরণ: SP=600, 20% লাভ → CP = 600×100/120 = 500
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: ক্রমিক ছাড় দ্রুত হিসাব</strong><br>
+        a% ও b% ক্রমিক ছাড় = a + b - (ab/100)%<br>
+        উদাহরণ: 20% ও 10% = 20+10-(20×10/100) = 30-2 = 28%<br>
+        মনে রাখুন: ক্রমিক ছাড় < দুটির যোগফল
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: লাভ-ক্ষতি একসাথে</strong><br>
+        একটি পণ্য x% লাভে, অন্যটি x% ক্ষতিতে বিক্রয়:<br>
+        সবসময় (x²/100)% ক্ষতি হয়<br>
+        উদাহরণ: 10% লাভ ও 10% ক্ষতি = 10²/100 = 1% ক্ষতি
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: দ্রুত লাভ% চেক</strong><br>
+        যদি SP/CP = 5/4 হয়, তবে লাভ% = (1/4)×100 = 25%<br>
+        সাধারণ সূত্র: লাভ% = [(SP-CP)/CP] × 100
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: মুখস্থ রাখুন</strong><br>
+        10% লাভ → SP = CP × 1.1<br>
+        20% লাভ → SP = CP × 1.2<br>
+        25% লাভ → SP = CP × 1.25<br>
+        10% ক্ষতি → SP = CP × 0.9<br>
+        20% ক্ষতি → SP = CP × 0.8
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. একটি পণ্য 400 টাকায় কিনে 500 টাকায় বিক্রি করলে লাভ শতাংশ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 25% (লাভ = 100, লাভ% = 100/400 × 100 = 25%)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. 20% লাভে একটি পণ্য 600 টাকায় বিক্রি হলে CP কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 500 টাকা (CP = 600 × 100/120 = 500)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. 800 টাকার পণ্যে 15% ছাড় দিলে SP কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 680 টাকা (ছাড় = 120, SP = 800-120 = 680)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. একজন দোকানদার 10% লাভে একটি পণ্য বিক্রি করেন এবং অন্যটি 10% ক্ষতিতে। তার মোট লাভ/ক্ষতি কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 1% ক্ষতি (শর্টকাট: 10²/100 = 1% ক্ষতি)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. 20% এবং 10% ক্রমিক ছাড় দিলে মোট ছাড় কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 28% (20+10-20×10/100 = 30-2 = 28%)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. একটি পণ্য CP এর 40% বেশি MP রাখা হয় এবং 20% ছাড় দিলে লাভ শতাংশ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 12% (CP=100 → MP=140 → ছাড়=28 → SP=112 → লাভ=12%)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. 750 টাকায় বিক্রয় করলে 25% লাভ হয়। 10% ক্ষতিতে বিক্রয়মূল্য কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 540 টাকা (CP=750×100/125=600, SP=600×90/100=540)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. একটি পণ্য 900 টাকায় কিনে কত টাকায় বিক্রি করলে 20% লাভ হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 1080 টাকা (SP = 900 × 120/100 = 1080)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>লাভ = SP - CP (যখন SP > CP)</li>
+      <li>ক্ষতি = CP - SP (যখন CP > SP)</li>
+      <li>লাভ% = (লাভ/CP) × 100, ক্ষতি% = (ক্ষতি/CP) × 100</li>
+      <li>SP = CP × (100±x)/100 (+ লাভে, - ক্ষতিতে)</li>
+      <li>ছাড় = MP - SP, ছাড়% চিহ্নিত মূল্যের উপর</li>
+      <li>ক্রমিক ছাড় a%, b% = a+b-(ab/100)%</li>
+      <li>x% লাভ ও x% ক্ষতি = (x²/100)% ক্ষতি</li>
+      <li>মুখস্থ: 25% লাভ → SP = CP × 1.25</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="05-percentages.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="07-simple-interest.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

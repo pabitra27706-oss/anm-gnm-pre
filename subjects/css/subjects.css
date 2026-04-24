@@ -1,0 +1,403 @@
+/* ============================================
+   SUBJECTS DASHBOARD STYLES
+   WB ANM GNM 2026 Preparation Platform
+   ============================================ */
+
+/* Mobile-first base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Container */
+.subjects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Header */
+.subjects-header {
+  text-align: center;
+  padding: 24px 16px;
+  margin-bottom: 24px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  margin-bottom: 16px;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #f0f0f0;
+  border-color: #ccc;
+}
+
+.back-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.subjects-header h1 {
+  font-size: 28px;
+  color: #1a1a2e;
+  margin: 8px 0;
+}
+
+.subjects-header .subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Subject Grid */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 0 0 40px;
+}
+
+/* Subject Card */
+.subject-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  border-top: 4px solid #ccc;
+  position: relative;
+  cursor: pointer;
+}
+
+.subject-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.subject-card:active {
+  transform: translateY(-2px);
+}
+
+/* Subject icon */
+.subject-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subject-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Subject name */
+.subject-name-bn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+}
+
+.subject-name-en {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+/* Chapter count */
+.chapter-count {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 16px;
+  background: #f5f5f5;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+/* Progress bar */
+.progress-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4caf50;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+  width: 0%;
+}
+
+/* Button */
+.subject-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.subject-btn:hover {
+  filter: brightness(1.1);
+}
+
+.subject-btn:active {
+  filter: brightness(0.95);
+  transform: scale(0.98);
+}
+
+/* Subject-specific colors */
+.subject-life-science { border-top-color: #4caf50; }
+.subject-life-science .subject-icon svg { color: #4caf50; }
+.subject-life-science .subject-btn { background: #4caf50; }
+.subject-life-science .progress-fill { background: #4caf50; }
+
+.subject-physical-science { border-top-color: #2196f3; }
+.subject-physical-science .subject-icon svg { color: #2196f3; }
+.subject-physical-science .subject-btn { background: #2196f3; }
+.subject-physical-science .progress-fill { background: #2196f3; }
+
+.subject-mathematics { border-top-color: #ff9800; }
+.subject-mathematics .subject-icon svg { color: #ff9800; }
+.subject-mathematics .subject-btn { background: #ff9800; }
+.subject-mathematics .progress-fill { background: #ff9800; }
+
+.subject-general-knowledge { border-top-color: #9c27b0; }
+.subject-general-knowledge .subject-icon svg { color: #9c27b0; }
+.subject-general-knowledge .subject-btn { background: #9c27b0; }
+.subject-general-knowledge .progress-fill { background: #9c27b0; }
+
+.subject-logical-reasoning { border-top-color: #e91e63; }
+.subject-logical-reasoning .subject-icon svg { color: #e91e63; }
+.subject-logical-reasoning .subject-btn { background: #e91e63; }
+.subject-logical-reasoning .progress-fill { background: #e91e63; }
+
+.subject-basic-english { border-top-color: #00bcd4; }
+.subject-basic-english .subject-icon svg { color: #00bcd4; }
+.subject-basic-english .subject-btn { background: #00bcd4; }
+.subject-basic-english .progress-fill { background: #00bcd4; }
+
+/* Chapter list styles (for subject index pages) */
+.subject-intro {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #666;
+  font-size: 15px;
+}
+
+.chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.chapter-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  transition: all 0.2s;
+  gap: 16px;
+}
+
+.chapter-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateX(4px);
+}
+
+.chapter-number {
+  min-width: 40px;
+  height: 40px;
+  background: #f0f4ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2196f3;
+}
+
+.chapter-info {
+  flex: 1;
+}
+
+.chapter-info h3 {
+  font-size: 15px;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+}
+
+.chapter-info p {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}
+
+.chapter-status {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter-status.read svg {
+  color: #4caf50;
+  width: 20px;
+  height: 20px;
+}
+
+/* Quick actions */
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: #2196f3;
+  border-color: #2196f3;
+  color: #fff;
+}
+
+.btn:hover {
+  filter: brightness(0.95);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 600px) {
+  .subjects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .subjects-header h1 {
+    font-size: 32px;
+  }
+  
+  .subjects-container {
+    padding: 24px;
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 900px) {
+  .subjects-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  
+  .subjects-header {
+    padding: 40px 16px;
+  }
+  
+  .subjects-header h1 {
+    font-size: 36px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .subject-card,
+  .chapter-card {
+    transition: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: #fff;
+  }
+  
+  .back-btn,
+  .subject-btn,
+  .quick-actions {
+    display: none;
+  }
+  
+  .subject-card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+}

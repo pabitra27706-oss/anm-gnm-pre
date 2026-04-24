@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syllogism | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="8">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 8</span>
+  </nav>
+
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 8 / 14</div>
+    <h1 class="chapter-title">Syllogism</h1>
+    <h2 class="chapter-title-bn">ন্যায়বাক্য</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Syllogism (ন্যায়বাক্য)</strong> হল দুটি বিবৃতি (Statements) থেকে একটি সিদ্ধান্ত (Conclusion) বের করার যুক্তি পদ্ধতি। এখানে "All", "Some", "No" শব্দগুলি ব্যবহার করে বিবৃতি তৈরি করা হয় এবং Venn Diagram দিয়ে সিদ্ধান্ত যাচাই করা হয়। ANM GNM পরীক্ষায় নিয়মিত এই প্রশ্ন আসে।</p>
+
+      <div class="definition-box">
+        <strong>Syllogism (ন্যায়বাক্য):</strong>
+        দুই বা ততোধিক বিবৃতি (Premise) থেকে যৌক্তিক সিদ্ধান্ত (Conclusion) বের করার প্রক্রিয়া। বিবৃতি সত্য ধরে নিয়ে সিদ্ধান্ত যাচাই করতে হয়।
+        <em>💡 MCQ Tip: বিবৃতি সবসময় সত্য ধরুন, সাধারণ জ্ঞান ব্যবহার করবেন না</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>All (সকল):</strong>
+        "All A are B" মানে A-এর প্রতিটি সদস্য B-তে অন্তর্ভুক্ত। Venn Diagram-এ A বৃত্ত সম্পূর্ণ B বৃত্তের ভিতরে থাকে।
+        <em>💡 MCQ Tip: "All A are B" থেকে "Some B are A" সবসময় সত্য</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Some (কিছু):</strong>
+        "Some A are B" মানে A-এর অন্তত কিছু সদস্য B-তেও আছে। Venn Diagram-এ দুটি বৃত্ত আংশিক overlap করে।
+        <em>💡 MCQ Tip: "Some A are B" = "Some B are A" (পরস্পর সমান)</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>No (কোনো...না):</strong>
+        "No A is B" মানে A এবং B-এর কোনো সদস্য সাধারণ নয়। Venn Diagram-এ দুটি বৃত্ত সম্পূর্ণ আলাদা থাকে।
+        <em>💡 MCQ Tip: "No A is B" = "No B is A" (পরস্পর সমান)</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>চার ধরনের বিবৃতি:</strong> All (Universal Affirmative), No (Universal Negative), Some (Particular Affirmative), Some...not (Particular Negative)</li>
+        <li><strong>Venn Diagram:</strong> সমাধানের সবচেয়ে সহজ পদ্ধতি</li>
+        <li><strong>"All" থেকে "Some":</strong> All A are B → Some A are B (সত্য) এবং Some B are A (সত্য)</li>
+        <li><strong>"No" থেকে "Some not":</strong> No A is B → Some A are not B (সত্য)</li>
+        <li><strong>Reverse:</strong> "All A are B" মানে "All B are A" নয়!</li>
+        <li><strong>বিবৃতি সত্য ধরুন:</strong> সাধারণ জ্ঞান ব্যবহার করবেন না</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: RULES TABLE
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ নিয়ম (Important Rules)</h2>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>বিবৃতি (Statement)</th>
+            <th>অবশ্যই সত্য (Definitely True)</th>
+            <th>অবশ্যই মিথ্যা (Definitely False)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>All A are B</th>
+            <td>Some A are B ✓, Some B are A ✓</td>
+            <td>No A is B ✗</td>
+          </tr>
+          <tr>
+            <th>No A is B</th>
+            <td>No B is A ✓, Some A are not B ✓</td>
+            <td>All A are B ✗, Some A are B ✗</td>
+          </tr>
+          <tr>
+            <th>Some A are B</th>
+            <td>Some B are A ✓</td>
+            <td>No A is B ✗</td>
+          </tr>
+          <tr>
+            <th>Some A are not B</th>
+            <td>—</td>
+            <td>All A are B ✗</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <pre class="reasoning-diagram">
+        Venn Diagram Patterns:
+        
+        1. All A are B:        2. No A is B:
+           ┌────────┐             ┌───┐  ┌───┐
+           │  B     │             │ A │  │ B │
+           │ ┌──┐   │             │   │  │   │
+           │ │A │   │             └───┘  └───┘
+           │ └──┘   │           (Separate circles)
+           └────────┘
+        (A inside B)
+        
+        3. Some A are B:      4. Some A are not B:
+           ┌──┐┌──┐              ┌──┐┌──┐
+           │A ││ B│              │A ││ B│
+           │  ├┤  │              │ x├┤  │
+           │  ││  │              │  ││  │
+           └──┘└──┘              └──┘└──┘
+        (Overlapping)          (Part of A outside B)
+      </pre>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        প্রতিটি Syllogism প্রশ্নে Venn Diagram আঁকুন! "All" = ছোট বৃত্ত বড়র ভিতরে। "Some" = দুটি বৃত্ত overlap। "No" = দুটি আলাদা বৃত্ত। Diagram থেকে Conclusion সরাসরি দেখুন।
+      </div>
+
+      <div class="trick-box">
+        <strong>⚡ দ্রুত নিয়ম (Quick Rule):</strong>
+        All + All = All, All + No = No, Some + All = Some, Some + No = Some...not। বাকি combination থেকে কোনো definite conclusion বের হয় না। এই 4টি rule মনে রাখুন!
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: SOLVED EXAMPLES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong>
+        Statements: All cats are dogs. All dogs are animals.<br>
+        Conclusions: I. All cats are animals. II. All animals are cats.<br>
+        (A) Only I follows (B) Only II follows (C) Both follow (D) Neither follows
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> All cats ⊂ dogs, All dogs ⊂ animals → All cats ⊂ animals ✓<br>
+          <strong>Step 2:</strong> Conclusion I: All cats are animals → TRUE (All + All = All)<br>
+          <strong>Step 3:</strong> Conclusion II: All animals are cats → FALSE (Reverse not valid)<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (A) Only I follows
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong>
+        Statements: All roses are flowers. Some flowers are red.<br>
+        Conclusions: I. Some roses are red. II. Some red are flowers.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> All roses ⊂ flowers, Some flowers = red<br>
+          <strong>Step 2:</strong> Conclusion I: Some roses are red → NOT definite (Red part may not overlap with Roses)<br>
+          <strong>Step 3:</strong> Conclusion II: Some red are flowers → TRUE ("Some flowers are red" → "Some red are flowers")<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) Only II follows
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong>
+        Statements: No pen is a book. All books are copies.<br>
+        Conclusions: I. No pen is a copy. II. Some copies are books.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> No pen = book (আলাদা), All books ⊂ copies<br>
+          <strong>Step 2:</strong> Conclusion I: No pen is a copy → NOT definite (Pens could be copies through other routes)<br>
+          <strong>Step 3:</strong> Conclusion II: Some copies are books → TRUE (All books are copies → Some copies are books)<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) Only II follows
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৪ (Example 4):</strong>
+        Statements: Some dogs are cats. No cat is a bird.<br>
+        Conclusions: I. Some dogs are not birds. II. No dog is a bird.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Some dogs = cats, No cat = bird<br>
+          <strong>Step 2:</strong> Some + No = Some...not → Some dogs are not birds ✓<br>
+          <strong>Step 3:</strong> Conclusion II: No dog is a bird → NOT definite<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (A) Only I follows
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৫ (Example 5):</strong>
+        Statements: All men are strong. All strong are healthy.<br>
+        Conclusions: I. All men are healthy. II. Some healthy are men.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> All men ⊂ strong ⊂ healthy → All men ⊂ healthy ✓<br>
+          <strong>Step 2:</strong> All men are healthy → Some healthy are men ✓ (All → Some reverse)<br>
+          <strong>Step 3:</strong> Both I and II follow<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) Both follow
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+      <ul class="fact-list">
+        <li><strong>All + All = All:</strong> All A are B + All B are C = All A are C</li>
+        <li><strong>All + No = No:</strong> All A are B + No B is C = No A is C</li>
+        <li><strong>Some + All = Some:</strong> Some A are B + All B are C = Some A are C</li>
+        <li><strong>Some + No = Some...not:</strong> Some A are B + No B is C = Some A are not C</li>
+        <li><strong>"Some" is Reversible:</strong> Some A are B = Some B are A</li>
+        <li><strong>"No" is Reversible:</strong> No A is B = No B is A</li>
+        <li><strong>"All" is NOT Reversible:</strong> All A are B ≠ All B are A</li>
+        <li><strong>Venn Diagram:</strong> সবচেয়ে নির্ভুল এবং দ্রুত পদ্ধতি</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        মনে রাখুন: "All + All = All", "All + No = No", "Some + All = Some", "Some + No = Some...not"। এই 4টি combination মনে রাখলে Venn Diagram ছাড়াও সমাধান করতে পারবেন!
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: PRACTICE QUESTIONS (8)
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. Statements: All apples are fruits. All fruits are food.<br>
+        Conclusions: I. All apples are food. II. Some food are apples.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) Both — All+All=All: All apples are food ✓। All→Some reverse: Some food are apples ✓।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. Statements: No car is a bus. All buses are trains.<br>
+        Conclusions: I. No car is a train. II. Some trains are buses.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) Only II — No car is bus + All bus are train ≠ No car is train (not definite)। All buses are trains → Some trains are buses ✓।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. Statements: Some men are doctors. All doctors are educated.<br>
+        Conclusions: I. Some men are educated. II. All educated are doctors.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) Only I — Some+All=Some: Some men are educated ✓। All educated are doctors → FALSE (reverse of All)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. Statements: All books are pens. No pen is a pencil.<br>
+        Conclusions: I. No book is a pencil. II. Some pens are books.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (C) Both — All+No=No: No book is pencil ✓। All books are pens → Some pens are books ✓।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. Statements: Some cats are dogs. Some dogs are rats.<br>
+        Conclusions: I. Some cats are rats. II. Some dogs are cats.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) Only II — Some+Some = No definite conclusion (I ✗)। Some cats are dogs → Some dogs are cats ✓ (reversible)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. Statements: All girls are students. No student is lazy.<br>
+        Conclusions: I. No girl is lazy. II. Some lazy are students.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) Only I — All+No=No: No girl is lazy ✓। No student is lazy → Some lazy are students ✗ (FALSE)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. Statements: All tigers are lions. All lions are animals.<br>
+        Conclusions: I. All tigers are animals. II. All animals are tigers.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) Only I — All+All=All: All tigers are animals ✓। All animals are tigers ✗ (reverse invalid)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. Statements: No A is B. No B is C.<br>
+        Conclusions: I. No A is C. II. Some A are not C.<br>
+        (A) Only I (B) Only II (C) Both (D) Neither</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (D) Neither — No+No = No definite conclusion। A ও C-এর মধ্যে কোনো নিশ্চিত সম্পর্ক নেই।</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>Syllogism:</strong> Statements থেকে Conclusion বের করা</li>
+      <li><strong>4 ধরনের বিবৃতি:</strong> All, No, Some, Some...not</li>
+      <li><strong>Combination Rules:</strong> All+All=All, All+No=No, Some+All=Some, Some+No=Some...not</li>
+      <li><strong>"Some" ও "No" Reversible:</strong> Some A are B = Some B are A</li>
+      <li><strong>"All" NOT Reversible:</strong> All A are B ≠ All B are A</li>
+      <li><strong>All → Some:</strong> All A are B → Some A are B (সত্য) ও Some B are A (সত্য)</li>
+      <li><strong>Venn Diagram:</strong> সবচেয়ে নির্ভুল সমাধান পদ্ধতি</li>
+      <li><strong>সাবধান:</strong> বিবৃতি সত্য ধরুন, সাধারণ জ্ঞান ব্যবহার করবেন না</li>
+    </ul>
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="07-direction-sense.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+    <a href="./index.html" class="btn btn-index">অধ্যায় তালিকা</a>
+    <a href="09-seating-arrangement.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

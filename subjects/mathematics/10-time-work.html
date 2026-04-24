@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time & Work | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="10">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 10</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 10 / 14</div>
+    <h1 class="chapter-title">Time & Work</h1>
+    <h2 class="chapter-title-bn">সময় ও কাজ</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>সময় ও কাজের ভূমিকা (Introduction to Time & Work)</h2>
+
+      <p>ANM GNM পরীক্ষায় <strong>সময় ও কাজ (Time & Work)</strong> থেকে প্রায়ই প্রশ্ন আসে। এই অধ্যায়ে আমরা শিখব কীভাবে একজন বা একাধিক ব্যক্তি কোনো কাজ কত সময়ে সম্পন্ন করতে পারে এবং তাদের কর্মদক্ষতা কত।</p>
+
+      <div class="definition-box">
+        <strong>কাজ (Work):</strong>
+        কোনো নির্দিষ্ট কাজকে সাধারণত 1 (একটি সম্পূর্ণ কাজ) ধরা হয়। প্রতিদিন বা প্রতি ঘণ্টায় কতটুকু কাজ হয় তা ভগ্নাংশে প্রকাশ করা হয়।
+        <em>💡 MCQ Tip: সম্পূর্ণ কাজ = 1, আংশিক কাজ = ভগ্নাংশ</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>কর্মদক্ষতা (Efficiency):</strong>
+        একজন ব্যক্তি প্রতি একক সময়ে কতটুকু কাজ করে তাকে তার কর্মদক্ষতা বলে। যদি কেউ n দিনে একটি কাজ করে, তার 1 দিনের কাজ = \( \frac{1}{n} \) অংশ।
+        <em>💡 MCQ Tip: কম সময়ে কাজ শেষ = বেশি কর্মদক্ষতা</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>একসাথে কাজ (Combined Work):</strong>
+        একাধিক ব্যক্তি একসাথে কাজ করলে তাদের প্রতিদিনের কাজের যোগফল হবে মোট প্রতিদিনের কাজ।
+        <em>💡 MCQ Tip: A ও B একসাথে 1 দিনে = 1/a + 1/b অংশ কাজ করে (a, b = তাদের একা কাজ শেষের দিন)</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>পাইপ ও চৌবাচ্চা (Pipes & Cistern):</strong>
+        ভরার পাইপ = ধনাত্মক কাজ, খালি করার পাইপ = ঋণাত্মক কাজ। নিয়ম সময় ও কাজের মতোই।
+        <em>💡 MCQ Tip: ভরার পাইপ (+), খালি করার পাইপ (-) ধরে যোগ করুন।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>ধারণা</th>
+            <th>সূত্র</th>
+            <th>উদাহরণ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 দিনের কাজ</td>
+            <td>\( \frac{1}{n} \)</td>
+            <td>10 দিনে কাজ → 1 দিনে 1/10</td>
+          </tr>
+          <tr>
+            <td>একসাথে 1 দিনের কাজ</td>
+            <td>\( \frac{1}{a} + \frac{1}{b} \)</td>
+            <td>A=10, B=15 → 1/10+1/15 = 1/6</td>
+          </tr>
+          <tr>
+            <td>একসাথে দিনের সংখ্যা</td>
+            <td>\( \frac{ab}{a+b} \)</td>
+            <td>10×15/(10+15) = 150/25 = 6</td>
+          </tr>
+          <tr>
+            <td>বাকি কাজ</td>
+            <td>\( 1 - \text{সম্পন্ন কাজ} \)</td>
+            <td>2/5 হলে বাকি = 1 - 2/5 = 3/5</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Core Formulas Section -->
+    <section class="content-section">
+      <h2>মূল সূত্র ও সমাধান পদ্ধতি (Core Formulas & Methods)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 মূল সূত্রাবলী (Key Formulas):</strong><br>
+        <strong>1. একজনের 1 দিনের কাজ:</strong>
+        \[ \text{1 দিনের কাজ} = \frac{1}{\text{মোট দিন}} \]
+        <strong>2. দুজন একসাথে কাজ করলে:</strong>
+        \[ \text{একসাথে 1 দিনের কাজ} = \frac{1}{a} + \frac{1}{b} \]
+        <strong>3. দুজন একসাথে কাজ শেষের দিন:</strong>
+        \[ \text{দিন} = \frac{a \times b}{a + b} \]
+        <strong>4. তিনজন একসাথে:</strong>
+        \[ \text{1 দিনের কাজ} = \frac{1}{a} + \frac{1}{b} + \frac{1}{c} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> A একটি কাজ 12 দিনে এবং B 18 দিনে করতে পারে। একসাথে কত দিনে কাজটি শেষ হবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> A এর 1 দিনের কাজ = \( \frac{1}{12} \)<br>
+          <strong>Step 2:</strong> B এর 1 দিনের কাজ = \( \frac{1}{18} \)<br>
+          <strong>Step 3:</strong> একসাথে 1 দিনের কাজ = \( \frac{1}{12} + \frac{1}{18} = \frac{3+2}{36} = \frac{5}{36} \)<br>
+          <strong>Step 4:</strong> মোট দিন = \( \frac{36}{5} = 7\frac{1}{5} \) দিন<br>
+          <strong>শর্টকাট:</strong> \( \frac{12 \times 18}{12+18} = \frac{216}{30} = 7.2 \) দিন<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 7\frac{1}{5} \text{ দিন বা } 7.2 \text{ দিন} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> A ও B একসাথে একটি কাজ 8 দিনে করতে পারে। A একা 12 দিনে পারে। B একা কত দিনে পারবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> A ও B একসাথে 1 দিনের কাজ = \( \frac{1}{8} \)<br>
+          <strong>Step 2:</strong> A এর 1 দিনের কাজ = \( \frac{1}{12} \)<br>
+          <strong>Step 3:</strong> B এর 1 দিনের কাজ = \( \frac{1}{8} - \frac{1}{12} = \frac{3-2}{24} = \frac{1}{24} \)<br>
+          <strong>Step 4:</strong> B একা কাজটি করবে = 24 দিনে<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 24 \text{ দিন} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> A একটি কাজ 10 দিনে করে। A 4 দিন কাজ করার পর বাকি কাজ B 9 দিনে শেষ করে। B একা কত দিনে কাজটি করবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> A এর 1 দিনের কাজ = \( \frac{1}{10} \)<br>
+          <strong>Step 2:</strong> A এর 4 দিনে কাজ = \( \frac{4}{10} = \frac{2}{5} \)<br>
+          <strong>Step 3:</strong> বাকি কাজ = \( 1 - \frac{2}{5} = \frac{3}{5} \)<br>
+          <strong>Step 4:</strong> B এই \( \frac{3}{5} \) কাজ করে 9 দিনে<br>
+          <strong>Step 5:</strong> B এর 1 দিনের কাজ = \( \frac{3/5}{9} = \frac{3}{45} = \frac{1}{15} \)<br>
+          <strong>Step 6:</strong> B একা সম্পূর্ণ কাজ = 15 দিনে<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 15 \text{ দিন} \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>সম্পূর্ণ কাজ = 1:</strong> এটি সবসময় ধরতে হবে</li>
+        <li><strong>বেশি দিন = কম দক্ষতা:</strong> 20 দিনে কাজ করা ব্যক্তি 10 দিনে কাজ করা ব্যক্তির অর্ধেক দক্ষ</li>
+        <li><strong>দক্ষতা ∝ 1/সময়:</strong> দক্ষতা ও সময় বিপরীতভাবে সমানুপাতিক</li>
+        <li><strong>একসাথে কাজ দ্রুত:</strong> একসাথে কাজ করলে সময় কমে</li>
+        <li><strong>LCM পদ্ধতি:</strong> কঠিন সমস্যায় মোট কাজকে LCM ধরলে হিসাব সহজ</li>
+        <li><strong>পাইপের সমস্যা:</strong> ভরার পাইপ ধনাত্মক, খালির পাইপ ঋণাত্মক</li>
+      </ul>
+    </section>
+
+    <!-- LCM Method Section -->
+    <section class="content-section">
+      <h2>LCM পদ্ধতি ও পাইপ-চৌবাচ্চা (LCM Method & Pipes)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 LCM পদ্ধতি (সবচেয়ে সহজ ও দ্রুত):</strong><br>
+        <strong>Step 1:</strong> দিনগুলোর LCM বের করুন = মোট কাজ<br>
+        <strong>Step 2:</strong> প্রতিজনের প্রতিদিনের কাজ = মোট কাজ ÷ তার দিনের সংখ্যা<br>
+        <strong>Step 3:</strong> একসাথে প্রতিদিনের কাজ = সবার প্রতিদিনের কাজের যোগফল<br>
+        <strong>Step 4:</strong> মোট দিন = মোট কাজ ÷ একসাথে প্রতিদিনের কাজ
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> A 15 দিনে, B 20 দিনে এবং C 30 দিনে একটি কাজ করে। তিনজন একসাথে কত দিনে করবে? (LCM পদ্ধতি)
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> LCM(15, 20, 30) = 60 = মোট কাজ<br>
+          <strong>Step 2:</strong> A এর প্রতিদিন = 60/15 = 4 ইউনিট<br>
+          <strong>Step 3:</strong> B এর প্রতিদিন = 60/20 = 3 ইউনিট<br>
+          <strong>Step 4:</strong> C এর প্রতিদিন = 60/30 = 2 ইউনিট<br>
+          <strong>Step 5:</strong> একসাথে প্রতিদিন = 4 + 3 + 2 = 9 ইউনিট<br>
+          <strong>Step 6:</strong> দিন = 60/9 = \( 6\frac{2}{3} \) দিন<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 6\frac{2}{3} \text{ দিন} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> একটি পাইপ 6 ঘণ্টায় একটি চৌবাচ্চা ভরতে পারে এবং অন্য একটি পাইপ 12 ঘণ্টায় খালি করতে পারে। দুটি পাইপ একসাথে খোলা থাকলে কত ঘণ্টায় চৌবাচ্চা ভরবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> ভরার পাইপ: 1 ঘণ্টায় \( \frac{1}{6} \) অংশ ভরে (ধনাত্মক)<br>
+          <strong>Step 2:</strong> খালির পাইপ: 1 ঘণ্টায় \( \frac{1}{12} \) অংশ খালি করে (ঋণাত্মক)<br>
+          <strong>Step 3:</strong> একসাথে 1 ঘণ্টায় = \( \frac{1}{6} - \frac{1}{12} = \frac{2-1}{12} = \frac{1}{12} \)<br>
+          <strong>Step 4:</strong> সম্পূর্ণ ভরতে = 12 ঘণ্টা<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 12 \text{ ঘণ্টা} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> 5 জন একটি কাজ 12 দিনে করে। 3 জন কত দিনে করবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> মোট কাজ = জন × দিন = 5 × 12 = 60 ম্যান-ডে<br>
+          <strong>Step 2:</strong> 3 জনে দিন = 60/3 = 20 দিন<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 20 \text{ দিন} \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{1 দিনের কাজ} = \frac{1}{\text{মোট দিন}} \] — মূল সূত্র</li>
+        <li>\[ \text{দুজনে একসাথে} = \frac{ab}{a+b} \text{ দিন} \] — দ্রুত সূত্র</li>
+        <li>\[ \text{তিনজনে একসাথে: 1 দিন =} \frac{1}{a} + \frac{1}{b} + \frac{1}{c} \]</li>
+        <li>\[ M_1 \times D_1 = M_2 \times D_2 \] — ম্যান-ডে সূত্র</li>
+        <li>\[ M_1 \times D_1 \times H_1 = M_2 \times D_2 \times H_2 \] — ম্যান-ডে-আওয়ার</li>
+        <li>\[ \text{পাইপ: ভরা + খালি =} \frac{1}{a} - \frac{1}{b} \] — নেট কাজ</li>
+        <li>\[ \text{দক্ষতার অনুপাত = সময়ের ব্যস্ত অনুপাত} \]</li>
+        <li>\[ \text{n জন d দিনে কাজ করলে: মোট কাজ} = n \times d \text{ ম্যান-ডে} \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: দ্রুত দুজনের একসাথে কাজের দিন</strong><br>
+        সরাসরি সূত্র: দিন = (a × b) / (a + b)<br>
+        A=10, B=15 → 10×15/(10+15) = 150/25 = 6 দিন<br>
+        গুণ করে যোগফল দিয়ে ভাগ — এটাই শর্টকাট!
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: LCM পদ্ধতি ব্যবহার করুন</strong><br>
+        ভগ্নাংশ এড়াতে দিনগুলোর LCM = মোট কাজ ধরুন।<br>
+        তারপর প্রতিজনের প্রতিদিনের কাজ পূর্ণসংখ্যায় পাবেন।<br>
+        MCQ তে এটি সবচেয়ে দ্রুত ও নির্ভুল পদ্ধতি।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: ম্যান-ডে পদ্ধতি</strong><br>
+        জন × দিন = ধ্রুবক (একই কাজের জন্য)<br>
+        5 জন × 12 দিন = 60 ম্যান-ডে<br>
+        10 জনে = 60/10 = 6 দিন<br>
+        জন বেশি = দিন কম (ব্যস্ত সম্পর্ক)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: বাকি কাজ বের করা</strong><br>
+        A কাজ করল d দিন, তার ক্ষমতা 1/n:<br>
+        A এর d দিনের কাজ = d/n<br>
+        বাকি কাজ = 1 - d/n<br>
+        বাকি কাজে B র সময় = বাকি কাজ × B এর মোট দিন
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: পাইপ সমস্যায় দ্রুত হিসাব</strong><br>
+        ভরার পাইপ = (+), খালির পাইপ = (-)<br>
+        নেট = ভরা - খালি<br>
+        যদি নেট ধনাত্মক → চৌবাচ্চা ভরবে<br>
+        যদি নেট ঋণাত্মক → চৌবাচ্চা খালি হবে
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: দক্ষতার অনুপাত</strong><br>
+        A 10 দিনে, B 15 দিনে কাজ করলে:<br>
+        দক্ষতার অনুপাত = 1/10 : 1/15 = 15:10 = 3:2<br>
+        মজুরি ভাগ করলে দক্ষতার অনুপাতে ভাগ হবে।
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. A 10 দিনে এবং B 15 দিনে একটি কাজ করে। একসাথে কত দিনে করবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 6 দিন (10×15/(10+15) = 150/25 = 6)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. A ও B একসাথে 6 দিনে একটি কাজ করে। A একা 10 দিনে পারে। B একা কত দিনে পারবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 15 দিন (B = 1/6 - 1/10 = (5-3)/30 = 2/30 = 1/15 → 15 দিন)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. 6 জন একটি কাজ 15 দিনে করে। 10 জন কত দিনে করবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 9 দিন (ম্যান-ডে: 6×15=90, 90/10 = 9)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. A একটি কাজ 20 দিনে করে। A 5 দিন কাজের পর B বাকি কাজ 12 দিনে শেষ করে। B একা কত দিনে পারবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 16 দিন (A র 5 দিন = 5/20 = 1/4, বাকি = 3/4, B র 1 দিন = 3/4÷12 = 1/16 → 16 দিন)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. একটি পাইপ 8 ঘণ্টায় চৌবাচ্চা ভরে, অন্যটি 24 ঘণ্টায় খালি করে। দুটো একসাথে খুললে কত ঘণ্টায় ভরবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 12 ঘণ্টা (1/8 - 1/24 = (3-1)/24 = 2/24 = 1/12 → 12 ঘণ্টা)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. A, B, C যথাক্রমে 10, 12, 15 দিনে একটি কাজ করে। তিনজন একসাথে কত দিনে করবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 4 দিন (LCM=60, A=6, B=5, C=4, একসাথে=15, দিন=60/15=4)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. A, B এর দ্বিগুণ দক্ষ। B একটি কাজ 18 দিনে করে। একসাথে কত দিনে করবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 6 দিন (A = 9 দিনে, একসাথে = 9×18/(9+18) = 162/27 = 6)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 4 জন প্রতিদিন 6 ঘণ্টা কাজ করে 10 দিনে একটি কাজ শেষ করে। 5 জন প্রতিদিন 8 ঘণ্টা কাজ করলে কত দিনে শেষ হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 6 দিন (4×6×10 = 240, 5×8×D = 240, D = 240/40 = 6)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>1 দিনের কাজ = 1/(মোট দিন), সম্পূর্ণ কাজ = 1</li>
+      <li>দুজনে একসাথে = ab/(a+b) দিন</li>
+      <li>ম্যান-ডে: M₁×D₁ = M₂×D₂</li>
+      <li>LCM পদ্ধতি = সবচেয়ে দ্রুত ও সহজ</li>
+      <li>পাইপ: ভরা (+), খালি (-) ধরে হিসাব</li>
+      <li>বাকি কাজ = 1 - সম্পন্ন কাজ</li>
+      <li>দক্ষতা ∝ 1/সময় (বিপরীত সম্পর্ক)</li>
+      <li>মজুরি ভাগ হয় দক্ষতার অনুপাতে</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="09-average.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="11-speed-distance.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

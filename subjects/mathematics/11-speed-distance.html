@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speed & Distance | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="11">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 11</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 11 / 14</div>
+    <h1 class="chapter-title">Speed & Distance</h1>
+    <h2 class="chapter-title-bn">গতি ও দূরত্ব</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>গতি ও দূরত্বের ভূমিকা (Introduction to Speed & Distance)</h2>
+
+      <p>ANM GNM পরীক্ষায় <strong>গতি, দূরত্ব ও সময় (Speed, Distance & Time)</strong> থেকে নিয়মিত প্রশ্ন আসে। ট্রেন, নৌকা, গড় গতি ইত্যাদি বিভিন্ন ধরনের সমস্যা থাকে।</p>
+
+      <div class="definition-box">
+        <strong>দূরত্ব (Distance):</strong>
+        কোনো বস্তু যে পথ অতিক্রম করে তাকে দূরত্ব বলে। এর একক হলো মিটার (m), কিলোমিটার (km) ইত্যাদি।
+        <em>💡 MCQ Tip: দূরত্ব সবসময় ধনাত্মক হয়।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>গতিবেগ (Speed):</strong>
+        একক সময়ে কোনো বস্তু যে দূরত্ব অতিক্রম করে তাকে গতিবেগ বলে। \( \text{Speed} = \frac{\text{Distance}}{\text{Time}} \)
+        <em>💡 MCQ Tip: গতিবেগের একক km/hr বা m/sec</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সময় (Time):</strong>
+        কোনো দূরত্ব অতিক্রম করতে যে সময় লাগে। \( \text{Time} = \frac{\text{Distance}}{\text{Speed}} \)
+        <em>💡 MCQ Tip: সময়ের একক ঘণ্টা (hr) বা সেকেন্ড (sec)</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>গড় গতিবেগ (Average Speed):</strong>
+        মোট অতিক্রান্ত দূরত্বকে মোট সময় দিয়ে ভাগ করলে গড় গতিবেগ পাওয়া যায়। \( \text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}} \)
+        <em>💡 MCQ Tip: গড় গতিবেগ ≠ গতিবেগের গড়। মোট দূরত্ব ÷ মোট সময়।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>রাশি</th>
+            <th>সূত্র</th>
+            <th>একক</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>দূরত্ব (Distance)</td>
+            <td>\( D = S \times T \)</td>
+            <td>km, m</td>
+          </tr>
+          <tr>
+            <td>গতিবেগ (Speed)</td>
+            <td>\( S = \frac{D}{T} \)</td>
+            <td>km/hr, m/sec</td>
+          </tr>
+          <tr>
+            <td>সময় (Time)</td>
+            <td>\( T = \frac{D}{S} \)</td>
+            <td>hr, sec</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Unit Conversion Section -->
+    <section class="content-section">
+      <h2>একক রূপান্তর ও মূল সূত্র (Unit Conversion & Core Formulas)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 একক রূপান্তর (Unit Conversion):</strong><br>
+        <strong>km/hr থেকে m/sec:</strong>
+        \[ 1 \text{ km/hr} = \frac{5}{18} \text{ m/sec} \]
+        অর্থাৎ km/hr কে \( \frac{5}{18} \) দিয়ে গুণ করুন।<br>
+        <strong>m/sec থেকে km/hr:</strong>
+        \[ 1 \text{ m/sec} = \frac{18}{5} \text{ km/hr} \]
+        অর্থাৎ m/sec কে \( \frac{18}{5} \) দিয়ে গুণ করুন।
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 গতি, দূরত্ব, সময়ের সম্পর্ক:</strong><br>
+        \[ D = S \times T \]
+        \[ S = \frac{D}{T} \]
+        \[ T = \frac{D}{S} \]
+        <em>মনে রাখার কৌশল: DST ত্রিভুজ — D উপরে, S ও T নিচে</em>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> 72 km/hr কে m/sec এ প্রকাশ করুন।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সূত্র: km/hr × 5/18 = m/sec<br>
+          <strong>Step 2:</strong> \( 72 \times \frac{5}{18} = \frac{360}{18} = 20 \) m/sec<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 20 \text{ m/sec} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> একটি গাড়ি 60 km/hr বেগে 3 ঘণ্টায় কত দূরত্ব যাবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> D = S × T = 60 × 3 = 180 km<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 180 \text{ km} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> একজন ব্যক্তি 40 km দূরত্ব 5 ঘণ্টায় অতিক্রম করে। তার গতিবেগ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> S = D/T = 40/5 = 8 km/hr<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 8 \text{ km/hr} \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>36 km/hr</strong> = 10 m/sec (সবচেয়ে বেশি ব্যবহৃত রূপান্তর)</li>
+        <li><strong>54 km/hr</strong> = 15 m/sec</li>
+        <li><strong>72 km/hr</strong> = 20 m/sec</li>
+        <li><strong>90 km/hr</strong> = 25 m/sec</li>
+        <li><strong>108 km/hr</strong> = 30 m/sec</li>
+        <li><strong>1 km</strong> = 1000 m, <strong>1 hr</strong> = 3600 sec</li>
+      </ul>
+    </section>
+
+    <!-- Special Problems Section -->
+    <section class="content-section">
+      <h2>বিশেষ সমস্যা: গড় গতি, ট্রেন ও নৌকা (Average Speed, Trains & Boats)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 গড় গতিবেগের সূত্র:</strong><br>
+        <strong>সমান দূরত্ব, ভিন্ন গতি:</strong>
+        \[ \text{গড় গতি} = \frac{2 \times S_1 \times S_2}{S_1 + S_2} \]
+        <em>এটি গাণিতিক গড় নয়, এটি Harmonic Mean!</em>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> একজন ব্যক্তি যাওয়ার পথে 40 km/hr এবং ফেরার পথে 60 km/hr বেগে যান। গড় গতিবেগ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সমান দূরত্বে গড় গতি = \( \frac{2 \times S_1 \times S_2}{S_1 + S_2} \)<br>
+          <strong>Step 2:</strong> = \( \frac{2 \times 40 \times 60}{40 + 60} = \frac{4800}{100} = 48 \) km/hr<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 48 \text{ km/hr} \]
+          <em>(গাণিতিক গড় = 50 হতো, কিন্তু গড় গতি = 48)</em>
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 ট্রেনের সমস্যার সূত্র:</strong><br>
+        <strong>1. খুঁটি/ব্যক্তি পার হতে সময়:</strong> \[ T = \frac{\text{ট্রেনের দৈর্ঘ্য}}{\text{ট্রেনের গতি}} \]
+        <strong>2. প্ল্যাটফর্ম পার হতে সময়:</strong> \[ T = \frac{\text{ট্রেনের দৈর্ঘ্য} + \text{প্ল্যাটফর্মের দৈর্ঘ্য}}{\text{ট্রেনের গতি}} \]
+        <strong>3. বিপরীত দিক থেকে আসা দুটি ট্রেন:</strong> আপেক্ষিক গতি = \( S_1 + S_2 \)<br>
+        <strong>4. একই দিকে চলা দুটি ট্রেন:</strong> আপেক্ষিক গতি = \( |S_1 - S_2| \)
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> 200 মিটার দীর্ঘ ট্রেন 72 km/hr বেগে চলে। একটি 300 মিটার প্ল্যাটফর্ম পার হতে কত সময় লাগবে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> মোট দূরত্ব = ট্রেন + প্ল্যাটফর্ম = 200 + 300 = 500 m<br>
+          <strong>Step 2:</strong> গতি = 72 km/hr = 72 × 5/18 = 20 m/sec<br>
+          <strong>Step 3:</strong> সময় = 500/20 = 25 sec<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 25 \text{ সেকেন্ড} \]
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 নৌকা ও স্রোতের সূত্র:</strong><br>
+        ধরি, নৌকার গতি = B, স্রোতের গতি = R<br>
+        <strong>স্রোতের অনুকূলে (Downstream):</strong> \[ \text{গতি} = B + R \]
+        <strong>স্রোতের প্রতিকূলে (Upstream):</strong> \[ \text{গতি} = B - R \]
+        <strong>নৌকার গতি:</strong> \[ B = \frac{\text{অনুকূল গতি} + \text{প্রতিকূল গতি}}{2} \]
+        <strong>স্রোতের গতি:</strong> \[ R = \frac{\text{অনুকূল গতি} - \text{প্রতিকূল গতি}}{2} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> একটি নৌকা স্রোতের অনুকূলে 18 km/hr এবং প্রতিকূলে 12 km/hr বেগে চলে। নৌকার নিজস্ব গতি ও স্রোতের গতি কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> নৌকার গতি = (18 + 12)/2 = 30/2 = 15 km/hr<br>
+          <strong>Step 2:</strong> স্রোতের গতি = (18 - 12)/2 = 6/2 = 3 km/hr<br>
+          <strong>∴ উত্তর (Answer):</strong> নৌকার গতি = 15 km/hr, স্রোতের গতি = 3 km/hr
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ D = S \times T, \quad S = \frac{D}{T}, \quad T = \frac{D}{S} \] — মূল সূত্র</li>
+        <li>\[ \text{km/hr} \to \text{m/sec: } \times \frac{5}{18} \] — রূপান্তর</li>
+        <li>\[ \text{m/sec} \to \text{km/hr: } \times \frac{18}{5} \] — রূপান্তর</li>
+        <li>\[ \text{সমান দূরত্বে গড় গতি} = \frac{2S_1 S_2}{S_1 + S_2} \]</li>
+        <li>\[ \text{ট্রেন প্ল্যাটফর্ম পার} = \frac{L_{\text{train}} + L_{\text{platform}}}{S} \]</li>
+        <li>\[ \text{বিপরীত দিকে আপেক্ষিক গতি} = S_1 + S_2 \]</li>
+        <li>\[ \text{একই দিকে আপেক্ষিক গতি} = |S_1 - S_2| \]</li>
+        <li>\[ \text{নৌকার গতি} = \frac{\text{অনুকূল + প্রতিকূল}}{2}, \text{ স্রোত} = \frac{\text{অনুকূল - প্রতিকূল}}{2} \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: km/hr ↔ m/sec দ্রুত রূপান্তর</strong><br>
+        km/hr → m/sec: সংখ্যা ÷ 3.6<br>
+        m/sec → km/hr: সংখ্যা × 3.6<br>
+        অথবা মুখস্থ: 36=10, 54=15, 72=20, 90=25
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: গড় গতিতে ভুল এড়ান</strong><br>
+        গড় গতি ≠ (S₁ + S₂)/2<br>
+        সমান দূরত্বে: গড় গতি = 2S₁S₂/(S₁+S₂)<br>
+        40 ও 60 এর গড় গতি = 48, 50 নয়!
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: ট্রেন সমস্যায় মনে রাখুন</strong><br>
+        খুঁটি পার = শুধু ট্রেনের দৈর্ঘ্য<br>
+        সেতু/প্ল্যাটফর্ম পার = ট্রেন + সেতু/প্ল্যাটফর্ম<br>
+        বিপরীত ট্রেন = দুটি ট্রেনের দৈর্ঘ্যের যোগ, গতি যোগ<br>
+        একই দিকে = দুটি ট্রেনের দৈর্ঘ্যের যোগ, গতি বিয়োগ
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: নৌকা সমস্যায় দ্রুত সমাধান</strong><br>
+        অনুকূল = নৌকা + স্রোত<br>
+        প্রতিকূল = নৌকা - স্রোত<br>
+        নৌকা = (অনুকূল + প্রতিকূল) ÷ 2<br>
+        স্রোত = (অনুকূল - প্রতিকূল) ÷ 2
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: দূরত্ব-সময় সম্পর্ক</strong><br>
+        একই দূরত্ব, দ্বিগুণ গতি → অর্ধেক সময়<br>
+        একই দূরত্ব, তিনগুণ গতি → এক-তৃতীয়াংশ সময়<br>
+        গতি ও সময় বিপরীতভাবে সমানুপাতিক (একই দূরত্বে)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: দেরি/আগে পৌঁছানোর সমস্যা</strong><br>
+        S₁ বেগে t₁ দেরি, S₂ বেগে t₂ আগে পৌঁছালে:<br>
+        দূরত্ব = \( \frac{S_1 \times S_2 \times (t_1 + t_2)}{S_2 - S_1} \)
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. 90 km/hr কে m/sec এ প্রকাশ করুন।</p>
+        <p class="answer"><strong>উত্তর:</strong> 25 m/sec (90 × 5/18 = 450/18 = 25)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. একটি গাড়ি 50 km/hr বেগে 4 ঘণ্টায় কত দূরত্ব যাবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 200 km (D = S×T = 50×4 = 200)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. 300 km দূরত্ব 5 ঘণ্টায় যেতে গতিবেগ কত হবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 60 km/hr (S = D/T = 300/5 = 60)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. যাওয়ায় 30 km/hr, ফেরায় 20 km/hr হলে গড় গতিবেগ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 24 km/hr (2×30×20/(30+20) = 1200/50 = 24)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. 150 m ট্রেন 54 km/hr বেগে একটি খুঁটি পার হতে কত সময় নেবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 10 sec (54 km/hr = 15 m/sec, T = 150/15 = 10)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. নৌকার অনুকূল গতি 20 km/hr, প্রতিকূল গতি 14 km/hr। স্রোতের গতি কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 3 km/hr ((20-14)/2 = 6/2 = 3)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. 200 m ট্রেন 36 km/hr বেগে 400 m সেতু পার হতে কত সময় লাগবে?</p>
+        <p class="answer"><strong>উত্তর:</strong> 60 sec (দূরত্ব = 200+400 = 600m, গতি = 10 m/sec, T = 600/10 = 60)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 15 m/sec কে km/hr এ প্রকাশ করুন।</p>
+        <p class="answer"><strong>উত্তর:</strong> 54 km/hr (15 × 18/5 = 270/5 = 54)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>D = S × T, S = D/T, T = D/S (মূল সূত্র)</li>
+      <li>km/hr → m/sec: ×5/18, m/sec → km/hr: ×18/5</li>
+      <li>36=10, 54=15, 72=20, 90=25 (মুখস্থ রাখুন)</li>
+      <li>সমান দূরত্বে গড় গতি = 2S₁S₂/(S₁+S₂)</li>
+      <li>ট্রেন: খুঁটি = ট্রেনের দৈর্ঘ্য, প্ল্যাটফর্ম = ট্রেন + প্ল্যাটফর্ম</li>
+      <li>বিপরীত দিক: গতি যোগ, একই দিক: গতি বিয়োগ</li>
+      <li>নৌকা = (অনু+প্রতি)/2, স্রোত = (অনু-প্রতি)/2</li>
+      <li>গতি ↑ সময় ↓ (একই দূরত্বে বিপরীত সম্পর্ক)</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="10-time-work.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="12-mensuration.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WB ANM GNM 2026 প্রস্তুতি অ্যাপ সম্পর্কে বিস্তারিত তথ্য" />
+  <meta name="theme-color" content="#e91e63" />
+  <title>অ্যাপ সম্পর্কে | WB ANM GNM 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/pages.css" />
+  <style>
+    /* ── Page-specific overrides ── */
+    .about-hero {
+      background: linear-gradient(135deg, #e91e63 0%, #c2185b 50%, #880e4f 100%);
+      color: #fff;
+      border-radius: 16px;
+      padding: 40px 32px;
+      text-align: center;
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .about-hero::before {
+      content: "";
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 50%;
+    }
+    .about-hero::after {
+      content: "";
+      position: absolute;
+      bottom: -40px;
+      left: -40px;
+      width: 150px;
+      height: 150px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 50%;
+    }
+    .app-logo {
+      width: 80px;
+      height: 80px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      backdrop-filter: blur(10px);
+    }
+    .about-hero h1 {
+      font-size: clamp(1.4rem, 4vw, 1.9rem);
+      font-weight: 700;
+      margin: 0 0 8px;
+      color: #fff;
+    }
+    .about-hero .tagline {
+      font-size: 0.95rem;
+      opacity: 0.88;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .version-badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.8rem;
+      margin-top: 12px;
+      font-weight: 500;
+    }
+
+    /* Feature grid */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .feature-item {
+      background: #fff;
+      border: 1px solid #f0f0f0;
+      border-radius: 12px;
+      padding: 18px 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feature-item:hover {
+      box-shadow: 0 6px 20px rgba(233, 30, 99, 0.1);
+      transform: translateY(-2px);
+    }
+    .feature-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: #fce4ec;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .feature-icon svg {
+      width: 20px;
+      height: 20px;
+      color: #e91e63;
+    }
+    .feature-text h4 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 0 0 4px;
+    }
+    .feature-text p {
+      font-size: 0.8rem;
+      color: #666;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Info cards */
+    .info-card {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .info-card h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .info-card h2 svg {
+      width: 22px;
+      height: 22px;
+      color: #e91e63;
+      flex-shrink: 0;
+    }
+
+    /* Tech stack */
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      padding: 0;
+      list-style: none;
+    }
+    .tech-list li {
+      background: #f3f4f6;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #374151;
+    }
+
+    /* Version table */
+    .version-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    .version-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: top;
+    }
+    .version-table td:first-child {
+      font-weight: 600;
+      color: #555;
+      width: 45%;
+    }
+    .version-table td:last-child {
+      color: #1a1a1a;
+    }
+    .version-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Developer card */
+    .dev-card {
+      background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
+      border: 1px solid #e8eaf6;
+      border-radius: 14px;
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .dev-avatar {
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(135deg, #e91e63, #c2185b);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+    }
+    .dev-avatar svg {
+      width: 32px;
+      height: 32px;
+      color: #fff;
+    }
+    .dev-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 4px;
+    }
+    .dev-card p {
+      font-size: 0.85rem;
+      color: #666;
+      margin: 0 0 16px;
+    }
+    .heart-text {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.6;
+    }
+    .heart-text .heart {
+      color: #e91e63;
+      font-size: 1rem;
+    }
+
+    /* Disclaimer */
+    .disclaimer-box {
+      background: #fff8e1;
+      border: 1px solid #ffe082;
+      border-left: 4px solid #ffa000;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .disclaimer-box h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #e65100;
+      margin: 0 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .disclaimer-box h2 svg {
+      width: 20px;
+      height: 20px;
+    }
+    .disclaimer-box p {
+      font-size: 0.88rem;
+      color: #5d4037;
+      margin: 0 0 8px;
+      line-height: 1.7;
+    }
+    .disclaimer-box p:last-child {
+      margin-bottom: 0;
+    }
+    .official-link {
+      color: #1976d2;
+      font-weight: 600;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .official-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .contact-item {
+      background: #f8faff;
+      border: 1px solid #e3e8f0;
+      border-radius: 10px;
+      padding: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .contact-item svg {
+      width: 18px;
+      height: 18px;
+      color: #1976d2;
+      flex-shrink: 0;
+    }
+    .contact-item span {
+      font-size: 0.84rem;
+      color: #374151;
+    }
+
+    /* Privacy quick links */
+    .quick-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .quick-nav a {
+      background: #e3f2fd;
+      color: #1565c0;
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .quick-nav a:hover {
+      background: #bbdefb;
+    }
+
+    @media (max-width: 480px) {
+      .about-hero { padding: 28px 20px; }
+      .features-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+    @media print {
+      .about-hero {
+        background: #e91e63 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ PAGE HEADER ══ -->
+  <header class="page-header" role="banner">
+    <div class="page-header-inner">
+      <button
+        id="backBtn"
+        class="btn-icon"
+        aria-label="পিছনে যান"
+        title="পিছনে যান"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+             aria-hidden="true">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="page-header-title">
+        <h1>অ্যাপ সম্পর্কে</h1>
+        <span class="page-header-sub">About App</span>
+      </div>
+
+      <div class="header-actions">
+        <!-- placeholder to keep flex balanced -->
+        <span style="width:36px;"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ MAIN CONTENT ══ -->
+  <main class="page-main" id="main-content" role="main">
+    <div class="page-container">
+
+      <!-- ── Hero ── -->
+      <section class="about-hero" aria-label="অ্যাপ পরিচিতি">
+        <div class="app-logo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               width="40" height="40">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            <line x1="9" y1="7" x2="15" y2="7"/>
+            <line x1="9" y1="11" x2="15" y2="11"/>
+            <line x1="9" y1="15" x2="12" y2="15"/>
+          </svg>
+        </div>
+        <h1>WB ANM GNM 2026<br/>প্রস্তুতি প্ল্যাটফর্ম</h1>
+        <p class="tagline">
+          West Bengal Joint Entrance Exam Board (WB JEEB) পরিচালিত<br/>
+          ANM ও GNM প্রবেশিকা পরীক্ষার জন্য সম্পূর্ণ বিনামূল্যে প্রস্তুতি সহায়িকা
+        </p>
+        <span class="version-badge">সংস্করণ ১.০.০ · জানুয়ারি ২০২৫</span>
+      </section>
+
+      <!-- ── About App ── -->
+      <section class="info-card" aria-labelledby="about-heading">
+        <h2 id="about-heading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          এই অ্যাপ কী?
+        </h2>
+        <p style="font-size:0.92rem;color:#444;line-height:1.8;margin:0 0 12px;">
+          <strong>WB ANM GNM 2026 প্রস্তুতি প্ল্যাটফর্ম</strong> একটি সম্পূর্ণ বিনামূল্যে
+          Progressive Web App (PWA)। এটি West Bengal Joint Entrance Exam Board (WB JEEB)
+          দ্বারা পরিচালিত ANM (Auxiliary Nursing Midwifery) ও GNM (General Nursing and
+          Midwifery) প্রবেশিকা পরীক্ষার জন্য বিশেষভাবে তৈরি করা হয়েছে।
+        </p>
+        <p style="font-size:0.92rem;color:#444;line-height:1.8;margin:0;">
+          এই প্ল্যাটফর্মে আপনি সম্পূর্ণ সিলেবাস, বিষয়ভিত্তিক নোটস, পুরনো প্রশ্নপত্র,
+          অনুশীলন সেট এবং মক টেস্ট পাবেন — সব কিছু বাংলায়, সব কিছু বিনামূল্যে।
+        </p>
+      </section>
+
+      <!-- ── Features ── -->
+      <section aria-labelledby="features-heading">
+        <h2 id="features-heading" class="section-heading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <polyline points="9 11 12 14 22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+          মূল বৈশিষ্ট্যসমূহ
+        </h2>
+
+        <div class="features-grid" role="list">
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>সম্পূর্ণ সিলেবাস</h4>
+              <p>৬টি বিষয়ের সম্পূর্ণ সিলেবাস বাংলায়</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>বিষয়ভিত্তিক নোটস</h4>
+              <p>সহজ ভাষায় বিষয়ভিত্তিক পড়ার উপকরণ</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>পুরনো প্রশ্নপত্র</h4>
+              <p>বিগত বছরের প্রশ্নপত্র (PYQ) সমাধানসহ</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 11l3 3L22 4"/>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>অনুশীলন সেট</h4>
+              <p>বিষয় অনুযায়ী অনুশীলনের সুযোগ</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>মক টেস্ট</h4>
+              <p>পূর্ণ পরীক্ষার সিমুলেশন সহ ফলাফল</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"/>
+                <line x1="12" y1="20" x2="12" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="14"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>ফলাফল ট্র্যাকিং</h4>
+              <p>আপনার অগ্রগতি ট্র্যাক করুন</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/>
+                <line x1="8" y1="2" x2="8" y2="18"/>
+                <line x1="16" y1="6" x2="16" y2="22"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>অফলাইন সাপোর্ট</h4>
+              <p>ইন্টারনেট ছাড়াও পড়তে পারবেন</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                <line x1="12" y1="18" x2="12.01" y2="18"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>মোবাইল ফ্রেন্ডলি</h4>
+              <p>যেকোনো ডিভাইসে সুন্দরভাবে দেখা যায়</p>
+            </div>
+          </article>
+
+          <article class="feature-item" role="listitem">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>সম্পূর্ণ বিনামূল্যে</h4>
+              <p>কোনো সাবস্ক্রিপশন বা চার্জ নেই</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ── Tech Stack ── -->
+      <section class="info-card" style="margin-top:24px;" aria-labelledby="tech-heading">
+        <h2 id="tech-heading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+          প্রযুক্তি স্ট্যাক
+        </h2>
+        <p style="font-size:0.88rem;color:#666;margin:0 0 12px;">
+          এই অ্যাপটি আধুনিক ওয়েব প্রযুক্তি ব্যবহার করে তৈরি:
+        </p>
+        <ul class="tech-list" role="list">
+          <li>Progressive Web App (PWA)</li>
+          <li>HTML5 · CSS3 · JavaScript</li>
+          <li>Service Worker (অফলাইন)</li>
+          <li>LocalStorage (ডেটা সংরক্ষণ)</li>
+          <li>Hind Siliguri Font</li>
+          <li>Responsive Design</li>
+          <li>No frameworks</li>
+          <li>No ads · No tracking</li>
+        </ul>
+      </section>
+
+      <!-- ── Version Info ── -->
+      <section class="info-card" aria-labelledby="version-heading">
+        <h2 id="version-heading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          সংস্করণ তথ্য
+        </h2>
+        <table class="version-table" aria-label="সংস্করণ তথ্য তালিকা">
+          <tbody>
+            <tr>
+              <td>সংস্করণ</td>
+              <td>১.০.০ (Stable)</td>
+            </tr>
+            <tr>
+              <td>মুক্তির তারিখ</td>
+              <td>জানুয়ারি ২০২৫</td>
+            </tr>
+            <tr>
+              <td>শেষ আপডেট</td>
+              <td>জানুয়ারি ২০২৫</td>
+            </tr>
+            <tr>
+              <td>পরবর্তী আপডেট</td>
+              <td>আরও মক টেস্ট ও PYQ যোগ করা হবে</td>
+            </tr>
+            <tr>
+              <td>সমর্থিত পরীক্ষা</td>
+              <td>WB ANM GNM 2026</td>
+            </tr>
+            <tr>
+              <td>পরিচালনা সংস্থা</td>
+              <td>WB JEEB (West Bengal Joint Entrance Exam Board)</td>
+            </tr>
+            <tr>
+              <td>লাইসেন্স</td>
+              <td>MIT License (Open Source)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ── Developer ── -->
+      <section class="dev-card" aria-labelledby="dev-heading">
+        <div class="dev-avatar" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <h3 id="dev-heading">ডেভেলপার</h3>
+        <p>WB ANM GNM 2026 প্রস্তুতি দল</p>
+        <p class="heart-text">
+          ANM ও GNM পরীক্ষার্থীদের জন্য
+          <span class="heart" aria-hidden="true">♥</span> দিয়ে তৈরি।<br/>
+          আপনাদের সাফল্যই আমাদের লক্ষ্য।
+        </p>
+        <div class="quick-nav">
+          <a href="privacy.html">গোপনীয়তা নীতি</a>
+          <a href="https://wbjee.b.in/anm-gnm" target="_blank" rel="noopener noreferrer">
+            অফিশিয়াল সাইট
+          </a>
+        </div>
+      </section>
+
+      <!-- ── Disclaimer ── -->
+      <section class="disclaimer-box" aria-labelledby="disclaimer-heading" role="note">
+        <h2 id="disclaimer-heading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e65100"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0
+                     1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          গুরুত্বপূর্ণ বিজ্ঞপ্তি (Disclaimer)
+        </h2>
+        <p>
+          এই অ্যাপটি <strong>অফিশিয়াল WB JEEB অ্যাপ নয়</strong>।
+          এটি শুধুমাত্র শিক্ষার্থীদের প্রস্তুতির সুবিধার জন্য তৈরি একটি
+          তৃতীয় পক্ষের (Third-party) শিক্ষামূলক প্ল্যাটফর্ম।
+        </p>
+        <p>
+          সিলেবাস, পরীক্ষার তারিখ, এবং অন্যান্য অফিশিয়াল তথ্যের জন্য সর্বদা
+          অফিশিয়াল ওয়েবসাইট দেখুন:
+          <a
+            href="https://wbjee.b.in/anm-gnm"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="official-link"
+          >wbjee.b.in/anm-gnm</a>
+        </p>
+        <p>
+          এই অ্যাপে প্রদত্ত তথ্য শুধুমাত্র শিক্ষামূলক উদ্দেশ্যে।
+          কোনো সিদ্ধান্ত নেওয়ার আগে অফিশিয়াল সূত্র যাচাই করুন।
+        </p>
+      </section>
+
+      <!-- ── Contact / Feedback ── -->
+      <section class="info-card" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          যোগাযোগ ও মতামত
+        </h2>
+        <p style="font-size:0.88rem;color:#666;margin:0 0 14px;line-height:1.6;">
+          কোনো ভুল তথ্য পেলে বা নতুন কিছু যোগ করার পরামর্শ থাকলে আমাদের জানান।
+          আপনার মতামত এই প্ল্যাটফর্মকে আরও ভালো করতে সাহায্য করবে।
+        </p>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>wbanmgnm2026@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M21 2H3v16h5l3 3 3-3h7V2z"/>
+              <line x1="9" y1="9" x2="15" y2="9"/>
+              <line x1="9" y1="13" x2="12" y2="13"/>
+            </svg>
+            <span>GitHub Issues-এ রিপোর্ট করুন</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Related Pages ── -->
+      <nav class="info-card" aria-label="সম্পর্কিত পাতা">
+        <h2 style="font-size:1rem;font-weight:700;color:#1a1a1a;margin:0 0 14px;
+                   display:flex;align-items:center;gap:8px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e91e63"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               width="20" height="20" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+          দ্রুত নেভিগেশন
+        </h2>
+        <div class="quick-nav">
+          <a href="syllabus.html">সিলেবাস</a>
+          <a href="exam-pattern.html">পরীক্ষা প্যাটার্ন</a>
+          <a href="preparation-strategy.html">প্রস্তুতি কৌশল</a>
+          <a href="privacy.html">গোপনীয়তা নীতি</a>
+          <a href="../index.html">হোম পাতা</a>
+        </div>
+      </nav>
+
+    </div><!-- /.page-container -->
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="page-footer" role="contentinfo">
+    <div class="page-container">
+      <p>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             width="14" height="14" aria-hidden="true" style="vertical-align:middle;">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="12"/>
+          <line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        অফিশিয়াল সূত্র:
+        <a href="https://wbjee.b.in/anm-gnm"
+           target="_blank" rel="noopener noreferrer"
+           class="footer-link">wbjee.b.in/anm-gnm</a>
+      </p>
+      <p style="margin-top:4px;font-size:0.78rem;opacity:0.7;">
+        © ২০২৫ WB ANM GNM প্রস্তুতি প্ল্যাটফর্ম · MIT License
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+    document.addEventListener('DOMContentLoaded', () => {
+      /* ── Back button ── */
+      const backBtn = document.getElementById('backBtn');
+      if (backBtn) {
+        backBtn.addEventListener('click', () => {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = '../index.html';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

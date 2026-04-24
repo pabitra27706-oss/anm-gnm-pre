@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#e91e63" />
+  <title>অফলাইন — WB ANM GNM 2026</title>
+
+  <style>
+    /* ── Reset ── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ── Root Variables ── */
+    :root {
+      --primary:      #e91e63;
+      --secondary:    #1976d2;
+      --text-main:    #212121;
+      --text-muted:   #757575;
+      --bg:           #f8f9fa;
+      --white:        #ffffff;
+      --border:       #e0e0e0;
+      --radius-lg:    12px;
+      --radius-full:  9999px;
+      --shadow:       0 4px 24px rgba(0,0,0,0.10);
+    }
+
+    /* ── Base ── */
+    html, body {
+      height: 100%;
+      font-family: 'Hind Siliguri', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    /* ── Page Layout ── */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 40px 32px;
+      max-width: 420px;
+      width: 100%;
+    }
+
+    /* ── Offline Icon ── */
+    .icon-wrap {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: #fce4ec;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+    }
+
+    .icon-wrap svg {
+      width: 52px;
+      height: 52px;
+      color: var(--primary);
+    }
+
+    /* ── Typography ── */
+    .title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .desc {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      line-height: 1.7;
+    }
+
+    /* ── Status Indicator ── */
+    .status-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #fff3e0;
+      border: 1px solid #ffe0b2;
+      border-radius: var(--radius-full);
+      padding: 8px 16px;
+      margin-bottom: 28px;
+      font-size: 0.8125rem;
+      color: #e65100;
+      font-weight: 500;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ff9800;
+      animation: pulse 1.5s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(0.8); }
+    }
+
+    /* ── Buttons ── */
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 24px;
+      border-radius: var(--radius-full);
+      font-size: 0.9375rem;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      border: none;
+      transition:
+        background 0.18s ease,
+        transform 0.15s ease,
+        box-shadow 0.18s ease;
+      width: 100%;
+    }
+
+    .btn:active {
+      transform: scale(0.97);
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--white);
+      box-shadow: 0 4px 14px rgba(233,30,99,0.30);
+    }
+
+    .btn-primary:hover {
+      background: #c2185b;
+      box-shadow: 0 6px 18px rgba(233,30,99,0.40);
+    }
+
+    .btn-secondary {
+      background: var(--white);
+      color: var(--secondary);
+      border: 1.5px solid var(--secondary);
+    }
+
+    .btn-secondary:hover {
+      background: #e3f2fd;
+    }
+
+    .btn svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 4px 0;
+      color: var(--border);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .divider::before,
+    .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── Offline Tips ── */
+    .tips {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: left;
+    }
+
+    .tips-title {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      text-align: center;
+    }
+
+    .tips-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tips-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+    }
+
+    .tip-icon {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      margin-top: 1px;
+      color: #4caf50;
+    }
+
+    /* ── Footer note ── */
+    .footer-note {
+      margin-top: 24px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Online detection feedback ── */
+    .online-toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #4caf50;
+      color: white;
+      padding: 12px 24px;
+      border-radius: var(--radius-full);
+      font-size: 0.875rem;
+      font-weight: 600;
+      font-family: inherit;
+      box-shadow: 0 4px 16px rgba(76,175,80,0.4);
+      transition: transform 0.3s ease;
+      white-space: nowrap;
+      z-index: 9999;
+    }
+
+    .online-toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page" role="main">
+    <div class="card" role="region" aria-label="অফলাইন বার্তা">
+
+      <!-- Offline SVG Icon -->
+      <div class="icon-wrap" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <!-- WiFi off icon -->
+          <line x1="1" y1="1" x2="23" y2="23"/>
+          <path d="M16.72 11.06A10.94 10.94 0 0119 12.55"/>
+          <path d="M5 12.55a10.94 10.94 0 015.17-2.39"/>
+          <path d="M10.71 5.05A16 16 0 0122.56 9"/>
+          <path d="M1.42 9a15.91 15.91 0 014.7-2.88"/>
+          <path d="M8.53 16.11a6 6 0 016.95 0"/>
+          <circle cx="12" cy="20" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+
+      <!-- Main Message -->
+      <h1 class="title" id="offline-title">আপনি অফলাইন আছেন</h1>
+      <p class="subtitle">ইন্টারনেট সংযোগ চেক করুন</p>
+      <p class="desc">
+        এই পেজটি লোড করতে ইন্টারনেট সংযোগ প্রয়োজন।
+        আপনার Wi-Fi বা মোবাইল ডেটা চালু আছে কিনা পরীক্ষা করুন।
+      </p>
+
+      <!-- Status Indicator -->
+      <div class="status-bar" role="status" aria-live="polite" id="status-bar">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="status-text">সংযোগ নেই</span>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="btn-group" role="group" aria-label="কার্যক্রম">
+        <button
+          class="btn btn-primary"
+          id="retry-btn"
+          type="button"
+          aria-label="আবার চেষ্টা করুন"
+          onclick="retryConnection()"
+        >
+          <!-- Refresh icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <polyline points="23 4 23 10 17 10"/>
+            <path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/>
+          </svg>
+          আবার চেষ্টা করুন
+        </button>
+
+        <div class="divider">অথবা</div>
+
+        <a
+          href="/"
+          class="btn btn-secondary"
+          aria-label="হোম পেজে যান"
+        >
+          <!-- Home icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+          হোম পেজে যান
+        </a>
+      </div>
+
+      <!-- Offline Tips -->
+      <div class="tips" aria-label="অফলাইনে কী করতে পারবেন">
+        <p class="tips-title">📱 অফলাইনে যা করতে পারবেন</p>
+        <ul class="tips-list" role="list">
+          <li role="listitem">
+            <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            আগে ভিজিট করা পেজগুলো দেখতে পারবেন
+          </li>
+          <li role="listitem">
+            <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            ক্যাশ করা প্রশ্ন ও উত্তর পড়তে পারবেন
+          </li>
+          <li role="listitem">
+            <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            আপনার ফলাফল ও অগ্রগতি দেখতে পারবেন
+          </li>
+          <li role="listitem">
+            <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            সিলেবাস ও গুরুত্বপূর্ণ তথ্য পড়তে পারবেন
+          </li>
+        </ul>
+      </div>
+
+    </div><!-- /card -->
+
+    <p class="footer-note">
+      WB ANM GNM 2026 প্রস্তুতি &copy; 2026
+    </p>
+  </div><!-- /page -->
+
+  <!-- Online Toast Notification -->
+  <div
+    class="online-toast"
+    id="online-toast"
+    role="alert"
+    aria-live="assertive"
+    aria-atomic="true"
+  >
+    ✅ ইন্টারনেট সংযোগ পাওয়া গেছে!
+  </div>
+
+  <script>
+    'use strict';
+
+    const retryBtn   = document.getElementById('retry-btn');
+    const statusBar  = document.getElementById('status-bar');
+    const statusText = document.getElementById('status-text');
+    const toast      = document.getElementById('online-toast');
+
+    /**
+     * Retry connection — reload the page
+     */
+    function retryConnection() {
+      retryBtn.disabled = true;
+      retryBtn.textContent = 'লোড হচ্ছে...';
+
+      // Small delay for UX feedback
+      setTimeout(() => {
+        window.location.reload();
+      }, 600);
+    }
+
+    /**
+     * Show online toast and redirect
+     */
+    function handleOnline() {
+      statusText.textContent = 'সংযোগ পাওয়া গেছে';
+      statusBar.style.background = '#e8f5e9';
+      statusBar.style.borderColor = '#c8e6c9';
+      statusBar.style.color = '#2e7d32';
+      statusBar.querySelector('.status-dot').style.background = '#4caf50';
+
+      toast.classList.add('show');
+
+      // Redirect to home after showing toast
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 1800);
+    }
+
+    /**
+     * Handle offline event
+     */
+    function handleOffline() {
+      statusText.textContent = 'সংযোগ নেই';
+      statusBar.style.background = '#fff3e0';
+      statusBar.style.borderColor = '#ffe0b2';
+      statusBar.style.color = '#e65100';
+    }
+
+    // Listen for connectivity changes
+    window.addEventListener('online',  handleOnline);
+    window.addEventListener('offline', handleOffline);
+
+    // Check immediately on load
+    if (navigator.onLine) {
+      handleOnline();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Interpretation | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="13">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 13</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 13 / 14</div>
+    <h1 class="chapter-title">Data Interpretation</h1>
+    <h2 class="chapter-title-bn">তথ্য বিশ্লেষণ</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>তথ্য বিশ্লেষণের ভূমিকা (Introduction to Data Interpretation)</h2>
+
+      <p>ANM GNM পরীক্ষায় <strong>তথ্য বিশ্লেষণ (Data Interpretation - DI)</strong> থেকে সারণি, লেখচিত্র ও পাই চার্ট সংক্রান্ত প্রশ্ন আসে। হাসপাতালের তথ্য, রোগীর পরিসংখ্যান, স্বাস্থ্য সমীক্ষা ইত্যাদি ক্ষেত্রে DI অত্যন্ত গুরুত্বপূর্ণ।</p>
+
+      <div class="definition-box">
+        <strong>তথ্য (Data):</strong>
+        কোনো বিষয় সম্পর্কে সংগৃহীত সংখ্যাগত বা গুণগত তথ্যকে Data বলে। এটি দুই ধরনের: প্রাথমিক তথ্য (Primary Data) এবং গৌণ তথ্য (Secondary Data)।
+        <em>💡 MCQ Tip: তথ্য সংগ্রহ → সংকলন → বিশ্লেষণ → উপস্থাপন — এই চারটি ধাপ মনে রাখুন।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সারণি (Table):</strong>
+        সংখ্যাসমূহকে সারি (Row) ও কলামে (Column) সুশৃঙ্খলভাবে সাজিয়ে উপস্থাপন করাকে সারণি বলে।
+        <em>💡 MCQ Tip: সারণি পড়ার সময় প্রথমে শিরোনাম পড়ুন, তারপর প্রশ্ন অনুযায়ী তথ্য খুঁজুন।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>দণ্ড লেখচিত্র (Bar Graph):</strong>
+        সমান প্রস্থের আয়তাকার দণ্ডের মাধ্যমে তথ্য উপস্থাপন করা হয়। দণ্ডের উচ্চতা মানকে প্রকাশ করে।
+        <em>💡 MCQ Tip: দণ্ডের উচ্চতা তুলনা করে উত্তর দিন।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>রেখা লেখচিত্র (Line Graph):</strong>
+        সময়ের সাথে কোনো রাশির পরিবর্তন দেখাতে রেখা লেখচিত্র ব্যবহৃত হয়। বিন্দুগুলো সরলরেখায় যুক্ত থাকে।
+        <em>💡 MCQ Tip: রেখার ঢাল (slope) = পরিবর্তনের হার। ঊর্ধ্বগামী = বৃদ্ধি, নিম্নগামী = হ্রাস।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>পাই চার্ট (Pie Chart):</strong>
+        একটি বৃত্তকে বিভিন্ন খাতে ভাগ করে তথ্য উপস্থাপন করাকে পাই চার্ট বলে। সম্পূর্ণ বৃত্ত = 360° = 100%।
+        <em>💡 MCQ Tip: 1% = 3.6°, 10% = 36°, 25% = 90°, 50% = 180°</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>চিত্রলেখ (Pictograph):</strong>
+        প্রতীক বা চিত্রের মাধ্যমে তথ্য উপস্থাপন করাকে চিত্রলেখ বলে। প্রতিটি প্রতীক একটি নির্দিষ্ট সংখ্যা প্রকাশ করে।
+        <em>💡 MCQ Tip: প্রতীকের মান (key/legend) প্রথমে দেখে নিন।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>লেখচিত্রের ধরন</th>
+            <th>কখন ব্যবহৃত হয়</th>
+            <th>বৈশিষ্ট্য</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>সারণি (Table)</td>
+            <td>নির্দিষ্ট সংখ্যা দেখাতে</td>
+            <td>সব ধরনের তথ্যের জন্য</td>
+          </tr>
+          <tr>
+            <td>দণ্ড লেখচিত্র</td>
+            <td>তুলনা দেখাতে</td>
+            <td>শ্রেণি অনুযায়ী তুলনা</td>
+          </tr>
+          <tr>
+            <td>রেখা লেখচিত্র</td>
+            <td>সময়ের সাথে পরিবর্তন</td>
+            <td>প্রবণতা (Trend) বোঝা যায়</td>
+          </tr>
+          <tr>
+            <td>পাই চার্ট</td>
+            <td>অংশ ও সমগ্রের সম্পর্ক</td>
+            <td>মোট 360° বা 100%</td>
+          </tr>
+          <tr>
+            <td>চিত্রলেখ</td>
+            <td>সহজবোধ্য উপস্থাপন</td>
+            <td>প্রতীক দিয়ে প্রকাশ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Pie Chart Section -->
+    <section class="content-section">
+      <h2>পাই চার্ট গণনা (Pie Chart Calculations)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 পাই চার্টের মূল সূত্র:</strong><br>
+        <strong>1. শতাংশ থেকে ডিগ্রি:</strong>
+        \[ \text{ডিগ্রি} = \frac{\text{শতাংশ}}{100} \times 360° \]
+        <strong>2. ডিগ্রি থেকে শতাংশ:</strong>
+        \[ \text{শতাংশ} = \frac{\text{ডিগ্রি}}{360} \times 100 \]
+        <strong>3. খাতের মান:</strong>
+        \[ \text{মান} = \frac{\text{ডিগ্রি}}{360} \times \text{মোট মান} \]
+        <strong>4. ডিগ্রি থেকে মান:</strong>
+        \[ \text{মান} = \frac{\text{শতাংশ}}{100} \times \text{মোট মান} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 মনে রাখার সহজ সারণি:</strong><br>
+        \[ 1\% = 3.6° \]
+        \[ 10\% = 36° \]
+        \[ 20\% = 72° \]
+        \[ 25\% = 90° \]
+        \[ 50\% = 180° \]
+        \[ 100\% = 360° \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> একটি পাই চার্টে খাদ্য খাতের কেন্দ্রীয় কোণ 90°। মোট ব্যয় 12000 টাকা হলে খাদ্য খাতে ব্যয় কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> খাদ্যের শতাংশ = (90/360) × 100 = 25%<br>
+          <strong>Step 2:</strong> খাদ্য ব্যয় = 25% × 12000 = 0.25 × 12000<br>
+          <strong>Step 3:</strong> = 3000 টাকা<br>
+          <strong>অথবা সরাসরি:</strong> (90/360) × 12000 = 12000/4 = 3000<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 3000 \text{ টাকা} \]
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> একটি পরিবারের মাসিক ব্যয় 20000 টাকা। বিভিন্ন খাতে ব্যয় নিম্নরূপ:
+
+        <table class="info-table">
+          <thead>
+            <tr><th>খাত</th><th>শতাংশ</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>খাদ্য</td><td>35%</td></tr>
+            <tr><td>বাড়ি ভাড়া</td><td>25%</td></tr>
+            <tr><td>শিক্ষা</td><td>15%</td></tr>
+            <tr><td>যাতায়াত</td><td>10%</td></tr>
+            <tr><td>অন্যান্য</td><td>15%</td></tr>
+          </tbody>
+        </table>
+
+        শিক্ষা খাতে কত টাকা ব্যয় হয় এবং পাই চার্টে এর কেন্দ্রীয় কোণ কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> শিক্ষা ব্যয় = 15% × 20000 = 3000 টাকা<br>
+          <strong>Step 2:</strong> কেন্দ্রীয় কোণ = 15% × 360° = 0.15 × 360° = 54°<br>
+          <strong>∴ উত্তর (Answer):</strong> ব্যয় = 3000 টাকা, কোণ = 54°
+        </div>
+      </div>
+    </section>
+
+    <!-- Table & Bar Graph Section -->
+    <section class="content-section">
+      <h2>সারণি ও দণ্ড লেখচিত্র বিশ্লেষণ (Table & Bar Graph Analysis)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 সারণি থেকে তথ্য বিশ্লেষণের ধাপ:</strong><br>
+        <strong>Step 1:</strong> সারণির শিরোনাম ও একক ভালো করে পড়ুন<br>
+        <strong>Step 2:</strong> প্রশ্ন অনুযায়ী সঠিক সারি ও কলাম চিহ্নিত করুন<br>
+        <strong>Step 3:</strong> প্রয়োজনীয় গাণিতিক ক্রিয়া (যোগ/বিয়োগ/শতাংশ) সম্পন্ন করুন<br>
+        <strong>Step 4:</strong> উত্তর সঠিক একক সহ লিখুন
+      </div>
+
+      <p>নিচের সারণিটি দেখুন এবং এর ভিত্তিতে প্রশ্ন সমাধান করুন:</p>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>বছর</th>
+            <th>ছেলে</th>
+            <th>মেয়ে</th>
+            <th>মোট</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>2020</td><td>120</td><td>80</td><td>200</td></tr>
+          <tr><td>2021</td><td>150</td><td>100</td><td>250</td></tr>
+          <tr><td>2022</td><td>180</td><td>120</td><td>300</td></tr>
+          <tr><td>2023</td><td>200</td><td>150</td><td>350</td></tr>
+          <tr><td>2024</td><td>220</td><td>180</td><td>400</td></tr>
+        </tbody>
+      </table>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> উপরের সারণি থেকে: (a) 2020 থেকে 2024 এ মোট শিক্ষার্থীর বৃদ্ধি শতাংশ কত? (b) কোন বছরে মেয়েদের সংখ্যা সবচেয়ে বেশি বেড়েছে?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>(a) মোট বৃদ্ধি%:</strong><br>
+          <strong>Step 1:</strong> বৃদ্ধি = 400 - 200 = 200<br>
+          <strong>Step 2:</strong> বৃদ্ধি% = (200/200) × 100 = 100%<br><br>
+
+          <strong>(b) মেয়েদের বার্ষিক বৃদ্ধি:</strong><br>
+          2020→2021: 100-80 = 20<br>
+          2021→2022: 120-100 = 20<br>
+          2022→2023: 150-120 = 30 ← সবচেয়ে বেশি<br>
+          2023→2024: 180-150 = 30 ← সমান<br>
+          <strong>∴ উত্তর:</strong> (a) 100% বৃদ্ধি, (b) 2022→2023 এবং 2023→2024 (30 জন করে)
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> উপরের সারণি থেকে: 5 বছরে গড় মোট শিক্ষার্থী কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> মোট যোগফল = 200 + 250 + 300 + 350 + 400 = 1500<br>
+          <strong>Step 2:</strong> গড় = 1500/5 = 300<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ \text{গড়} = 300 \text{ জন} \]
+        </div>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>বৃদ্ধি%:</strong> \( \frac{\text{বৃদ্ধি}}{\text{পূর্বের মান}} \times 100 \)</li>
+        <li><strong>হ্রাস%:</strong> \( \frac{\text{হ্রাস}}{\text{পূর্বের মান}} \times 100 \)</li>
+        <li><strong>গড়:</strong> \( \frac{\text{মোট যোগফল}}{\text{সংখ্যা}} \)</li>
+        <li><strong>অনুপাত:</strong> ছেলে:মেয়ে = 120:80 = 3:2 (2020 সালে)</li>
+        <li><strong>পার্থক্য:</strong> সরাসরি বিয়োগ করুন</li>
+        <li><strong>সর্বোচ্চ/সর্বনিম্ন:</strong> তথ্য স্ক্যান করে চিহ্নিত করুন</li>
+      </ul>
+    </section>
+
+    <!-- Central Tendency Section -->
+    <section class="content-section">
+      <h2>কেন্দ্রীয় প্রবণতা (Measures of Central Tendency)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 কেন্দ্রীয় প্রবণতার তিনটি পরিমাপ:</strong><br>
+        <strong>1. গড় (Mean):</strong>
+        \[ \bar{x} = \frac{\sum x_i}{n} = \frac{x_1 + x_2 + \ldots + x_n}{n} \]
+        <strong>2. মধ্যমা (Median):</strong> ক্রমে সাজিয়ে মাঝের মান<br>
+        <strong>3. বহুল (Mode):</strong> সবচেয়ে বেশিবার আসা মান
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 পরিসর ও বিচ্যুতি:</strong><br>
+        <strong>পরিসর (Range):</strong>
+        \[ \text{Range} = \text{সর্বোচ্চ মান} - \text{সর্বনিম্ন মান} \]
+        <strong>গড় বিচ্যুতি (Mean Deviation):</strong>
+        \[ MD = \frac{\sum |x_i - \bar{x}|}{n} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৫ (Example 5):</strong> 5 জন রোগীর তাপমাত্রা (°F): 98.6, 99.2, 100.4, 98.8, 101.0। গড়, মধ্যমা, পরিসর বের করুন।
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>গড়:</strong> (98.6 + 99.2 + 100.4 + 98.8 + 101.0)/5 = 498/5 = 99.6°F<br>
+          <strong>মধ্যমা:</strong> ক্রমে: 98.6, 98.8, 99.2, 100.4, 101.0 → মাঝের = 99.2°F<br>
+          <strong>পরিসর:</strong> 101.0 - 98.6 = 2.4°F<br>
+          <strong>∴ উত্তর:</strong> গড় = 99.6°F, মধ্যমা = 99.2°F, পরিসর = 2.4°F
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৬ (Example 6):</strong> একটি হাসপাতালে 7 দিনে রোগী ভর্তির সংখ্যা: 12, 15, 12, 18, 20, 15, 12। বহুল (Mode) কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> সংখ্যার পুনরাবৃত্তি গোনা:<br>
+          12 → 3 বার, 15 → 2 বার, 18 → 1 বার, 20 → 1 বার<br>
+          <strong>Step 2:</strong> 12 সবচেয়ে বেশি (3 বার) এসেছে<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ \text{Mode} = 12 \]
+        </div>
+      </div>
+    </section>
+
+    <!-- Important Formulas Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{গড়} = \frac{\text{যোগফল}}{\text{সংখ্যা}} \] — কেন্দ্রীয় প্রবণতা</li>
+        <li>\[ \text{পরিসর} = \text{সর্বোচ্চ} - \text{সর্বনিম্ন} \] — বিস্তার</li>
+        <li>\[ \text{পাই চার্ট: ডিগ্রি} = \frac{\%}{100} \times 360° \]</li>
+        <li>\[ \text{পাই চার্ট: শতাংশ} = \frac{\text{ডিগ্রি}}{360} \times 100 \]</li>
+        <li>\[ \text{পাই চার্ট: মান} = \frac{\text{ডিগ্রি}}{360} \times \text{মোট} \]</li>
+        <li>\[ \text{বৃদ্ধি\%} = \frac{\text{নতুন মান} - \text{পুরাতন মান}}{\text{পুরাতন মান}} \times 100 \]</li>
+        <li>\[ 1\% = 3.6°, \quad 10\% = 36°, \quad 25\% = 90°, \quad 50\% = 180° \]</li>
+        <li>\[ \text{গড় বিচ্যুতি} = \frac{\sum |x_i - \bar{x}|}{n} \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: পাই চার্টে শতাংশ → ডিগ্রি দ্রুত রূপান্তর</strong><br>
+        শতাংশ × 3.6 = ডিগ্রি<br>
+        25% = 25 × 3.6 = 90°<br>
+        15% = 15 × 3.6 = 54°<br>
+        30% = 30 × 3.6 = 108°
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: সারণি দ্রুত পড়ার কৌশল</strong><br>
+        প্রথমে প্রশ্ন পড়ুন, তারপর সারণি দেখুন।<br>
+        শুধু প্রয়োজনীয় সারি/কলামে নজর দিন।<br>
+        পুরো সারণি পড়ার দরকার নেই, সময় বাঁচান।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: গড় বের করার শর্টকাট</strong><br>
+        সংখ্যাগুলো কাছাকাছি হলে:<br>
+        একটি আনুমানিক গড় ধরুন, তারপর বিচ্যুতির গড় যোগ/বিয়োগ করুন।<br>
+        যেমন: 48, 52, 50, 46, 54 → আনুমানিক 50<br>
+        বিচ্যুতি: -2, 2, 0, -4, 4 → যোগ = 0 → গড় = 50
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: বৃদ্ধি/হ্রাস শতাংশ দ্রুত হিসাব</strong><br>
+        মান 200 থেকে 250 হলে:<br>
+        বৃদ্ধি = 50, বৃদ্ধি% = (50/200) × 100 = 25%<br>
+        MCQ তে: বৃদ্ধি/মূল × 100 মনে রাখুন (মূল = পুরাতন মান)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: পাই চার্টের খাতের তুলনা</strong><br>
+        দুটি খাতের অনুপাত = তাদের কোণের অনুপাত = শতাংশের অনুপাত<br>
+        60° ও 90° → 60:90 = 2:3<br>
+        সরাসরি কোণ তুলনা করুন, মান বের করার দরকার নেই।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: মধ্যমা দ্রুত বের করা</strong><br>
+        বিজোড় সংখ্যক তথ্যে: মাঝের ক্রমাঙ্ক = (n+1)/2<br>
+        জোড় সংখ্যক তথ্যে: মাঝের দুটির গড়<br>
+        7 টি তথ্যে: 4 তম মান = মধ্যমা
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. একটি পাই চার্টে শিক্ষা খাতের কোণ 72°। মোট ব্যয় 50000 টাকা হলে শিক্ষা ব্যয় কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 10000 টাকা (72/360 × 50000 = 1/5 × 50000 = 10000)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. 40% কে পাই চার্টের কোণে প্রকাশ করুন।</p>
+        <p class="answer"><strong>উত্তর:</strong> 144° (40 × 3.6 = 144°)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. 5 জন শিক্ষার্থীর নম্বর: 65, 72, 80, 58, 75। গড় নম্বর কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 70 (যোগফল = 350, 350/5 = 70)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. 10, 15, 10, 20, 25, 10, 30 — এই তথ্যের বহুল (Mode) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 10 (10 তিনবার এসেছে, সবচেয়ে বেশি)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. কোনো ক্লাসে 2022 এ 200 জন এবং 2023 এ 250 জন ছাত্র ছিল। বৃদ্ধি শতাংশ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 25% (বৃদ্ধি = 50, 50/200 × 100 = 25%)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. 8, 12, 15, 18, 22 এর পরিসর (Range) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 14 (22 - 8 = 14)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. একটি পাই চার্টে খাদ্য 35%, বাড়ি ভাড়া 25%, যাতায়াত 15%, শিক্ষা 10%, অন্যান্য 15%। খাদ্যের কোণ কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 126° (35 × 3.6 = 126°)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. 4, 7, 9, 11, 13, 16 এর মধ্যমা (Median) কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 10 (জোড় সংখ্যক, মাঝের দুটি 9 ও 11, গড় = (9+11)/2 = 10)</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>পাই চার্ট: সম্পূর্ণ বৃত্ত = 360° = 100%</li>
+      <li>1% = 3.6°, 10% = 36°, 25% = 90°, 50% = 180°</li>
+      <li>খাতের মান = (ডিগ্রি/360) × মোট মান</li>
+      <li>গড় = যোগফল/সংখ্যা</li>
+      <li>মধ্যমা = ক্রমে সাজিয়ে মাঝের মান</li>
+      <li>বহুল = সবচেয়ে বেশি বার আসা সংখ্যা</li>
+      <li>পরিসর = সর্বোচ্চ - সর্বনিম্ন</li>
+      <li>বৃদ্ধি% = (বৃদ্ধি/পুরাতন মান) × 100</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="12-mensuration.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="14-basic-algebra.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

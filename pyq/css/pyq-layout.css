@@ -1,0 +1,614 @@
+/* ═══════════════════════════════════════════════════════════════
+   PYQ-LAYOUT.CSS
+   Styles for pyq/index.html — Year selector, cards, header, footer
+   WB ANM GNM 2026 Preparation Platform
+═══════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────
+   FONT & ROOT VARIABLES
+───────────────────────────────────────── */
+:root {
+  --pyq-primary:        #1a73e8;
+  --pyq-primary-dark:   #1557b0;
+  --pyq-primary-light:  #e8f0fe;
+  --pyq-accent:         #34a853;
+  --pyq-accent-light:   #e6f4ea;
+  --pyq-warning:        #ff9800;
+  --pyq-warning-light:  #fff3e0;
+  --pyq-danger:         #ea4335;
+  --pyq-danger-light:   #fce8e6;
+  --pyq-cat1:           #1a73e8;
+  --pyq-cat2:           #9c27b0;
+  --pyq-cat1-light:     #e8f0fe;
+  --pyq-cat2-light:     #f3e5f5;
+
+  --pyq-bg:             #f8f9fa;
+  --pyq-surface:        #ffffff;
+  --pyq-border:         #e0e0e0;
+  --pyq-text:           #202124;
+  --pyq-text-secondary: #5f6368;
+  --pyq-text-light:     #9aa0a6;
+
+  --pyq-shadow-sm:      0 1px 3px rgba(0,0,0,0.08);
+  --pyq-shadow-md:      0 4px 12px rgba(0,0,0,0.10);
+  --pyq-shadow-lg:      0 8px 24px rgba(0,0,0,0.12);
+  --pyq-shadow-hover:   0 8px 20px rgba(26,115,232,0.18);
+
+  --pyq-radius-sm:      8px;
+  --pyq-radius-md:      12px;
+  --pyq-radius-lg:      16px;
+
+  --pyq-font:           'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+
+  --pyq-header-h:       64px;
+  --pyq-transition:     0.2s ease;
+}
+
+/* ─────────────────────────────────────────
+   GLOBAL RESET FOR THIS PAGE
+───────────────────────────────────────── */
+.pyq-index-page {
+  font-family:      var(--pyq-font);
+  background-color: var(--pyq-bg);
+  color:            var(--pyq-text);
+  min-height:       100vh;
+  display:          flex;
+  flex-direction:   column;
+  margin:           0;
+  padding:          0;
+}
+
+/* ─────────────────────────────────────────
+   HEADER
+───────────────────────────────────────── */
+.pyq-header {
+  background-color: var(--pyq-surface);
+  border-bottom:    1px solid var(--pyq-border);
+  box-shadow:       var(--pyq-shadow-sm);
+  position:         sticky;
+  top:              0;
+  z-index:          100;
+  height:           var(--pyq-header-h);
+}
+
+.pyq-header__inner {
+  max-width:      1100px;
+  margin:         0 auto;
+  padding:        0 1.25rem;
+  height:         100%;
+  display:        flex;
+  align-items:    center;
+  justify-content: space-between;
+  gap:            1rem;
+}
+
+/* Back button */
+.pyq-back-btn {
+  display:      flex;
+  align-items:  center;
+  gap:          0.375rem;
+  color:        var(--pyq-primary);
+  text-decoration: none;
+  font-size:    0.9rem;
+  font-weight:  500;
+  padding:      0.5rem 0.75rem;
+  border-radius: var(--pyq-radius-sm);
+  border:       1px solid transparent;
+  transition:   all var(--pyq-transition);
+  white-space:  nowrap;
+  min-width:    80px;
+}
+
+.pyq-back-btn:hover,
+.pyq-back-btn:focus-visible {
+  background-color: var(--pyq-primary-light);
+  border-color:     var(--pyq-primary);
+  outline:          none;
+}
+
+.pyq-back-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(26,115,232,0.3);
+}
+
+/* Header title group */
+.pyq-header__title {
+  display:      flex;
+  align-items:  center;
+  gap:          0.625rem;
+  flex:         1;
+  justify-content: center;
+}
+
+.pyq-header__title h1 {
+  font-size:    1.2rem;
+  font-weight:  700;
+  color:        var(--pyq-text);
+  margin:       0;
+  line-height:  1.2;
+}
+
+.pyq-header__sub {
+  font-size:    0.85rem;
+  font-weight:  400;
+  color:        var(--pyq-text-secondary);
+}
+
+.pyq-header__icon {
+  color:        var(--pyq-primary);
+  flex-shrink:  0;
+}
+
+.pyq-header__spacer {
+  min-width: 80px;
+}
+
+/* ─────────────────────────────────────────
+   MAIN
+───────────────────────────────────────── */
+.pyq-main {
+  flex:       1;
+  max-width:  1100px;
+  width:      100%;
+  margin:     0 auto;
+  padding:    1.5rem 1.25rem 3rem;
+  display:    flex;
+  flex-direction: column;
+  gap:        2rem;
+}
+
+/* ─────────────────────────────────────────
+   INFO BANNER
+───────────────────────────────────────── */
+.pyq-info-banner {
+  background:    linear-gradient(135deg, var(--pyq-primary), var(--pyq-primary-dark));
+  border-radius: var(--pyq-radius-md);
+  padding:       1rem 1.5rem;
+  color:         #ffffff;
+}
+
+.pyq-info-banner__inner {
+  display:         flex;
+  flex-wrap:       wrap;
+  gap:             1rem 2rem;
+  justify-content: center;
+}
+
+.pyq-info-item {
+  display:     flex;
+  align-items: center;
+  gap:         0.5rem;
+  font-size:   0.875rem;
+  font-weight: 500;
+}
+
+.pyq-info-item svg {
+  opacity: 0.85;
+  flex-shrink: 0;
+}
+
+/* ─────────────────────────────────────────
+   YEAR SELECTOR SECTION
+───────────────────────────────────────── */
+.year-selector {
+  display:        flex;
+  flex-direction: column;
+  gap:            1.25rem;
+}
+
+.year-selector__header {
+  text-align: center;
+}
+
+.year-selector__title {
+  font-size:   1.4rem;
+  font-weight: 700;
+  color:       var(--pyq-text);
+  margin:      0 0 0.375rem;
+}
+
+.year-selector__subtitle {
+  font-size:   0.9rem;
+  color:       var(--pyq-text-secondary);
+  margin:      0;
+}
+
+/* ─────────────────────────────────────────
+   YEAR CARDS GRID
+   Mobile: 1 col | Tablet: 2 col | Desktop: 3 col
+───────────────────────────────────────── */
+.year-cards-grid {
+  display:               grid;
+  grid-template-columns: 1fr;
+  gap:                   1rem;
+}
+
+@media (min-width: 540px) {
+  .year-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .year-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ─────────────────────────────────────────
+   INDIVIDUAL YEAR CARD
+───────────────────────────────────────── */
+.year-card {
+  background:    var(--pyq-surface);
+  border:        1px solid var(--pyq-border);
+  border-radius: var(--pyq-radius-md);
+  padding:       1.5rem;
+  cursor:        pointer;
+  transition:    transform var(--pyq-transition),
+                 box-shadow var(--pyq-transition),
+                 border-color var(--pyq-transition);
+  display:       flex;
+  flex-direction: column;
+  gap:           1rem;
+  text-align:    left;
+  position:      relative;
+  overflow:      hidden;
+  /* For role="listitem" accessibility */
+  list-style:    none;
+}
+
+/* Decorative accent stripe */
+.year-card::before {
+  content:          '';
+  position:         absolute;
+  top:              0;
+  left:             0;
+  right:            0;
+  height:           3px;
+  background:       linear-gradient(90deg, var(--pyq-primary), var(--pyq-accent));
+  transform:        scaleX(0);
+  transform-origin: left;
+  transition:       transform var(--pyq-transition);
+}
+
+.year-card:hover::before,
+.year-card:focus-visible::before {
+  transform: scaleX(1);
+}
+
+.year-card:hover,
+.year-card:focus-visible {
+  transform:    translateY(-3px);
+  box-shadow:   var(--pyq-shadow-hover);
+  border-color: var(--pyq-primary);
+  outline:      none;
+}
+
+.year-card:focus-visible {
+  box-shadow: 0 0 0 3px rgba(26,115,232,0.3),
+              var(--pyq-shadow-hover);
+}
+
+.year-card:active {
+  transform: translateY(-1px);
+}
+
+/* Card icon row */
+.year-card__icon-row {
+  display:     flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.year-card__icon-wrap {
+  width:            48px;
+  height:           48px;
+  background:       var(--pyq-primary-light);
+  border-radius:    var(--pyq-radius-sm);
+  display:          flex;
+  align-items:      center;
+  justify-content:  center;
+  color:            var(--pyq-primary);
+  flex-shrink:      0;
+  transition:       background var(--pyq-transition);
+}
+
+.year-card:hover .year-card__icon-wrap {
+  background: var(--pyq-primary);
+  color:      #ffffff;
+}
+
+.year-card__arrow {
+  color:      var(--pyq-text-light);
+  transition: transform var(--pyq-transition), color var(--pyq-transition);
+}
+
+.year-card:hover .year-card__arrow {
+  transform: translateX(4px);
+  color:     var(--pyq-primary);
+}
+
+/* Card title */
+.year-card__title {
+  font-size:   1.25rem;
+  font-weight: 700;
+  color:       var(--pyq-text);
+  margin:      0;
+  line-height: 1.2;
+}
+
+/* Card meta row */
+.year-card__meta {
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       0.5rem;
+}
+
+.year-card__badge {
+  display:       inline-flex;
+  align-items:   center;
+  gap:           0.25rem;
+  font-size:     0.75rem;
+  font-weight:   600;
+  padding:       0.25rem 0.625rem;
+  border-radius: 100px;
+  line-height:   1;
+}
+
+.year-card__badge--total {
+  background: #e8f5e9;
+  color:      #2e7d32;
+}
+
+.year-card__badge--cat1 {
+  background: var(--pyq-cat1-light);
+  color:      var(--pyq-cat1);
+}
+
+.year-card__badge--cat2 {
+  background: var(--pyq-cat2-light);
+  color:      var(--pyq-cat2);
+}
+
+/* Card CTA */
+.year-card__cta {
+  font-size:   0.85rem;
+  font-weight: 600;
+  color:       var(--pyq-primary);
+  display:     flex;
+  align-items: center;
+  gap:         0.375rem;
+  margin-top:  auto;
+  transition:  gap var(--pyq-transition);
+}
+
+.year-card:hover .year-card__cta {
+  gap: 0.625rem;
+}
+
+/* ─────────────────────────────────────────
+   LOADING STATE
+───────────────────────────────────────── */
+.pyq-loading {
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  justify-content: center;
+  gap:             1rem;
+  padding:         4rem 2rem;
+  color:           var(--pyq-text-secondary);
+  font-size:       1rem;
+}
+
+.pyq-loading__spinner svg {
+  color:     var(--pyq-primary);
+  animation: pyq-spin 1s linear infinite;
+}
+
+@keyframes pyq-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ─────────────────────────────────────────
+   ERROR STATE
+───────────────────────────────────────── */
+.pyq-error {
+  display:         flex;
+  flex-direction:  column;
+  align-items:     center;
+  justify-content: center;
+  gap:             0.75rem;
+  padding:         4rem 2rem;
+  text-align:      center;
+  background:      var(--pyq-surface);
+  border:          1px solid var(--pyq-border);
+  border-radius:   var(--pyq-radius-md);
+}
+
+.pyq-error__icon {
+  color:   var(--pyq-danger);
+  opacity: 0.7;
+}
+
+.pyq-error h3 {
+  font-size:   1.1rem;
+  font-weight: 700;
+  color:       var(--pyq-danger);
+  margin:      0;
+}
+
+.pyq-error p {
+  font-size: 0.9rem;
+  color:     var(--pyq-text-secondary);
+  margin:    0;
+}
+
+.pyq-retry-btn {
+  display:       inline-flex;
+  align-items:   center;
+  gap:           0.5rem;
+  background:    var(--pyq-primary);
+  color:         #ffffff;
+  border:        none;
+  border-radius: var(--pyq-radius-sm);
+  padding:       0.625rem 1.25rem;
+  font-family:   var(--pyq-font);
+  font-size:     0.9rem;
+  font-weight:   600;
+  cursor:        pointer;
+  margin-top:    0.5rem;
+  transition:    background var(--pyq-transition);
+}
+
+.pyq-retry-btn:hover {
+  background: var(--pyq-primary-dark);
+}
+
+.pyq-retry-btn:focus-visible {
+  outline:    none;
+  box-shadow: 0 0 0 3px rgba(26,115,232,0.3);
+}
+
+/* ─────────────────────────────────────────
+   LEGEND SECTION
+───────────────────────────────────────── */
+.pyq-legend {
+  border-top: 1px solid var(--pyq-border);
+  padding-top: 1.5rem;
+}
+
+.pyq-legend__inner {
+  display:         flex;
+  flex-wrap:       wrap;
+  gap:             1rem;
+  justify-content: center;
+}
+
+.pyq-legend__item {
+  display:     flex;
+  align-items: center;
+  gap:         0.625rem;
+  font-size:   0.825rem;
+  color:       var(--pyq-text-secondary);
+}
+
+.pyq-legend__badge {
+  display:       inline-block;
+  padding:       0.2rem 0.6rem;
+  border-radius: 100px;
+  font-size:     0.75rem;
+  font-weight:   700;
+}
+
+.pyq-legend__badge--cat1 {
+  background: var(--pyq-cat1-light);
+  color:      var(--pyq-cat1);
+}
+
+.pyq-legend__badge--cat2 {
+  background: var(--pyq-cat2-light);
+  color:      var(--pyq-cat2);
+}
+
+/* ─────────────────────────────────────────
+   FOOTER
+───────────────────────────────────────── */
+.pyq-footer {
+  background:  var(--pyq-surface);
+  border-top:  1px solid var(--pyq-border);
+  padding:     1.25rem;
+  margin-top:  auto;
+}
+
+.pyq-footer__inner {
+  max-width:       1100px;
+  margin:          0 auto;
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  gap:             1rem;
+  flex-wrap:       wrap;
+}
+
+.pyq-footer__home-link {
+  display:        flex;
+  align-items:    center;
+  gap:            0.375rem;
+  color:          var(--pyq-primary);
+  text-decoration: none;
+  font-size:      0.875rem;
+  font-weight:    500;
+  transition:     opacity var(--pyq-transition);
+}
+
+.pyq-footer__home-link:hover {
+  opacity: 0.75;
+}
+
+.pyq-footer__copy {
+  font-size: 0.8rem;
+  color:     var(--pyq-text-light);
+  margin:    0;
+}
+
+/* ─────────────────────────────────────────
+   UTILITY: HIDDEN
+───────────────────────────────────────── */
+.hidden {
+  display: none !important;
+}
+
+/* ─────────────────────────────────────────
+   RESPONSIVE: MOBILE TWEAKS
+───────────────────────────────────────── */
+@media (max-width: 480px) {
+  .pyq-header__title h1 {
+    font-size: 1rem;
+  }
+
+  .pyq-header__spacer {
+    min-width: 50px;
+  }
+
+  .pyq-back-btn span {
+    display: none; /* show only icon on very small screens */
+  }
+
+  .pyq-back-btn {
+    min-width: auto;
+    padding:   0.5rem;
+  }
+
+  .pyq-info-banner__inner {
+    gap: 0.75rem 1rem;
+  }
+
+  .year-selector__title {
+    font-size: 1.15rem;
+  }
+
+  .year-card {
+    padding: 1.25rem;
+  }
+
+  .pyq-footer__inner {
+    justify-content: center;
+    text-align:      center;
+  }
+}
+
+/* ─────────────────────────────────────────
+   PRINT: HIDE INTERACTIVE ELEMENTS
+───────────────────────────────────────── */
+@media print {
+  .pyq-header,
+  .pyq-footer,
+  .pyq-back-btn,
+  .pyq-retry-btn {
+    display: none !important;
+  }
+
+  .pyq-main {
+    padding: 0;
+  }
+}

@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="bn" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="WB ANM GNM 2026 প্রস্তুতি অ্যাপের গোপনীয়তা নীতি"
+  />
+  <meta name="theme-color" content="#e91e63" />
+  <title>গোপনীয়তা নীতি | WB ANM GNM 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/pages.css" />
+  <style>
+    /* ── Privacy-specific styles ── */
+    .privacy-hero {
+      background: linear-gradient(135deg, #1565c0 0%, #1976d2 60%, #42a5f5 100%);
+      color: #fff;
+      border-radius: 16px;
+      padding: 36px 28px;
+      margin-bottom: 28px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .privacy-hero-icon {
+      width: 64px;
+      height: 64px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .privacy-hero-icon svg {
+      width: 32px;
+      height: 32px;
+      color: #fff;
+    }
+    .privacy-hero-text h1 {
+      font-size: clamp(1.2rem, 3.5vw, 1.6rem);
+      font-weight: 700;
+      margin: 0 0 6px;
+      color: #fff;
+    }
+    .privacy-hero-text p {
+      font-size: 0.88rem;
+      opacity: 0.88;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Last updated banner */
+    .last-updated {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #e8f5e9;
+      border: 1px solid #c8e6c9;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 0.84rem;
+      color: #2e7d32;
+      margin-bottom: 24px;
+    }
+    .last-updated svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    /* Privacy sections */
+    .privacy-section {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 14px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .privacy-section-header {
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      border-bottom: 1px solid #f5f5f5;
+    }
+    .privacy-section-num {
+      width: 32px;
+      height: 32px;
+      background: #e91e63;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.82rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .privacy-section-header h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0;
+    }
+    .privacy-section-body {
+      padding: 20px;
+    }
+    .privacy-section-body p {
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.8;
+      margin: 0 0 12px;
+    }
+    .privacy-section-body p:last-child {
+      margin-bottom: 0;
+    }
+    .privacy-section-body ul {
+      margin: 8px 0 12px 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    .privacy-section-body ul li {
+      font-size: 0.9rem;
+      color: #444;
+      line-height: 1.7;
+      padding: 5px 0 5px 28px;
+      position: relative;
+    }
+    .privacy-section-body ul li::before {
+      content: "";
+      position: absolute;
+      left: 8px;
+      top: 12px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #e91e63;
+    }
+
+    /* Yes/No grid */
+    .yn-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .yn-card {
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .yn-card.yes {
+      background: #e8f5e9;
+      border: 1px solid #c8e6c9;
+    }
+    .yn-card.no {
+      background: #ffebee;
+      border: 1px solid #ffcdd2;
+    }
+    .yn-card-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin: 0 0 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .yn-card.yes .yn-card-title { color: #2e7d32; }
+    .yn-card.no .yn-card-title { color: #c62828; }
+    .yn-card-title svg { width: 16px; height: 16px; }
+    .yn-card ul {
+      margin: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    .yn-card ul li {
+      font-size: 0.82rem;
+      line-height: 1.6;
+      padding: 2px 0;
+    }
+    .yn-card.yes ul li { color: #388e3c; }
+    .yn-card.no ul li { color: #d32f2f; }
+    .yn-card ul li::before { display: none !important; }
+
+    /* Storage visualization */
+    .storage-box {
+      background: #f8faff;
+      border: 1px solid #e3e8f0;
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+    .storage-box h4 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 10px;
+    }
+    .storage-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid #eef0f6;
+    }
+    .storage-item:last-child { border-bottom: none; }
+    .storage-item svg {
+      width: 16px;
+      height: 16px;
+      color: #1976d2;
+      flex-shrink: 0;
+    }
+    .storage-item-label {
+      font-size: 0.84rem;
+      color: #555;
+      flex: 1;
+    }
+    .storage-item-val {
+      font-size: 0.8rem;
+      color: #888;
+      font-style: italic;
+    }
+
+    /* Rights cards */
+    .rights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .right-card {
+      background: #f3f4f6;
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center;
+    }
+    .right-card-icon {
+      width: 36px;
+      height: 36px;
+      background: #e91e63;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px;
+    }
+    .right-card-icon svg {
+      width: 18px;
+      height: 18px;
+      color: #fff;
+    }
+    .right-card h4 {
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 4px;
+    }
+    .right-card p {
+      font-size: 0.78rem;
+      color: #666;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    /* Contact box */
+    .contact-box {
+      background: linear-gradient(135deg, #fff8e1 0%, #fff 100%);
+      border: 1px solid #ffe082;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .contact-box h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #e65100;
+      margin: 0 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .contact-box h2 svg {
+      width: 20px;
+      height: 20px;
+    }
+    .contact-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #fff;
+      border: 1px solid #ffe082;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 0.88rem;
+      color: #e65100;
+      font-weight: 500;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    .contact-email svg {
+      width: 16px;
+      height: 16px;
+    }
+    .contact-email:hover {
+      background: #fff8e1;
+    }
+
+    /* TOC */
+    .toc-box {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .toc-box h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 12px;
+    }
+    .toc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 6px;
+    }
+    .toc-list li a {
+      font-size: 0.84rem;
+      color: #1976d2;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 0;
+    }
+    .toc-list li a:hover { text-decoration: underline; }
+    .toc-list li a svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 480px) {
+      .privacy-hero { flex-direction: column; text-align: center; }
+      .yn-grid { grid-template-columns: 1fr; }
+      .rights-grid { grid-template-columns: 1fr 1fr; }
+      .toc-list { grid-template-columns: 1fr; }
+    }
+    @media print {
+      .privacy-hero {
+        background: #1565c0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ PAGE HEADER ══ -->
+  <header class="page-header" role="banner">
+    <div class="page-header-inner">
+      <button
+        id="backBtn"
+        class="btn-icon"
+        aria-label="পিছনে যান"
+        title="পিছনে যান"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"
+             aria-hidden="true">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="page-header-title">
+        <h1>গোপনীয়তা নীতি</h1>
+        <span class="page-header-sub">Privacy Policy</span>
+      </div>
+
+      <button
+        id="printBtn"
+        class="btn-icon"
+        aria-label="প্রিন্ট করুন"
+        title="প্রিন্ট করুন"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             aria-hidden="true">
+          <polyline points="6 9 6 2 18 2 18 9"/>
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1
+                   2 2v5a2 2 0 0 1-2 2h-2"/>
+          <rect x="6" y="14" width="12" height="8"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ══ -->
+  <main class="page-main" id="main-content" role="main">
+    <div class="page-container">
+
+      <!-- ── Hero ── -->
+      <section class="privacy-hero" aria-label="গোপনীয়তা নীতি পরিচিতি">
+        <div class="privacy-hero-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <div class="privacy-hero-text">
+          <h1>আপনার গোপনীয়তা আমাদের অগ্রাধিকার</h1>
+          <p>
+            আমরা কোনো ব্যক্তিগত তথ্য সংগ্রহ করি না।
+            আপনার সব ডেটা শুধুমাত্র আপনার ডিভাইসে সংরক্ষিত থাকে।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Last Updated ── -->
+      <div class="last-updated" role="note" aria-label="সর্বশেষ আপডেটের তারিখ">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <span>
+          সর্বশেষ আপডেট: <strong>জানুয়ারি ২০২৫</strong> ·
+          কার্যকর তারিখ: জানুয়ারি ১, ২০২৫
+        </span>
+      </div>
+
+      <!-- ── TOC ── -->
+      <nav class="toc-box" aria-label="বিষয়সূচি">
+        <h2>বিষয়সূচি</h2>
+        <ul class="toc-list">
+          <li>
+            <a href="#s1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              ভূমিকা
+            </a>
+          </li>
+          <li>
+            <a href="#s2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              তথ্য সংগ্রহ
+            </a>
+          </li>
+          <li>
+            <a href="#s3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              ডেটা সংরক্ষণ
+            </a>
+          </li>
+          <li>
+            <a href="#s4">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              কুকিজ ও ট্র্যাকিং
+            </a>
+          </li>
+          <li>
+            <a href="#s5">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              তৃতীয় পক্ষ
+            </a>
+          </li>
+          <li>
+            <a href="#s6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              আপনার অধিকার
+            </a>
+          </li>
+          <li>
+            <a href="#s7">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              শিশুদের গোপনীয়তা
+            </a>
+          </li>
+          <li>
+            <a href="#s8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              নীতির পরিবর্তন
+            </a>
+          </li>
+          <li>
+            <a href="#s9">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+              যোগাযোগ
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ── Section 1: Introduction ── -->
+      <section class="privacy-section" id="s1" aria-labelledby="s1-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">১</div>
+          <h2 id="s1-heading">ভূমিকা (Introduction)</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            <strong>WB ANM GNM 2026 প্রস্তুতি প্ল্যাটফর্ম</strong>-এ আপনাকে স্বাগতম।
+            এই গোপনীয়তা নীতি (Privacy Policy) আপনাকে জানাবে যে আমরা আপনার তথ্য
+            কীভাবে পরিচালনা করি।
+          </p>
+          <p>
+            সংক্ষেপে: <strong>আমরা আপনার কোনো ব্যক্তিগত তথ্য সংগ্রহ, সংরক্ষণ বা
+            শেয়ার করি না।</strong> এই অ্যাপটি সম্পূর্ণ অফলাইন-কেন্দ্রিক এবং
+            আপনার সব ডেটা শুধুমাত্র আপনার নিজের ডিভাইসে থাকে।
+          </p>
+          <p>
+            এই অ্যাপ ব্যবহার করে আপনি এই গোপনীয়তা নীতির সাথে সম্মত হচ্ছেন।
+            যদি আপনি এই নীতির সাথে একমত না হন, অনুগ্রহ করে অ্যাপটি ব্যবহার বন্ধ করুন।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 2: Data Collection ── -->
+      <section class="privacy-section" id="s2" aria-labelledby="s2-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">২</div>
+          <h2 id="s2-heading">আমরা কী তথ্য সংগ্রহ করি?</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            আমরা নিম্নলিখিত তথ্য <strong>সংগ্রহ করি না</strong>:
+          </p>
+
+          <div class="yn-grid">
+            <div class="yn-card yes">
+              <div class="yn-card-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                স্থানীয়ভাবে সংরক্ষিত
+              </div>
+              <ul role="list">
+                <li>আপনার মক টেস্ট স্কোর</li>
+                <li>অনুশীলন অগ্রগতি</li>
+                <li>বুকমার্ক করা প্রশ্ন</li>
+                <li>অ্যাপ সেটিংস</li>
+                <li>শেষ পড়া অধ্যায়</li>
+              </ul>
+            </div>
+
+            <div class="yn-card no">
+              <div class="yn-card-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                  <line x1="18" y1="6" x2="6" y2="18"/>
+                  <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+                সংগ্রহ করা হয় না
+              </div>
+              <ul role="list">
+                <li>নাম বা পরিচয়</li>
+                <li>ইমেইল বা ফোন নম্বর</li>
+                <li>অবস্থান (Location)</li>
+                <li>ডিভাইস আইডি</li>
+                <li>ব্রাউজিং ইতিহাস</li>
+              </ul>
+            </div>
+          </div>
+
+          <p style="margin-top:16px;">
+            যদি আপনি ঐচ্ছিকভাবে আমাদের সাথে যোগাযোগ করেন (যেমন ইমেইলে),
+            আপনি যে তথ্য প্রদান করবেন তা শুধুমাত্র আপনার প্রশ্নের উত্তর দিতে
+            ব্যবহার করা হবে এবং কোথাও শেয়ার করা হবে না।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 3: Data Storage ── -->
+      <section class="privacy-section" id="s3" aria-labelledby="s3-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৩</div>
+          <h2 id="s3-heading">ডেটা কোথায় সংরক্ষিত হয়?</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            এই অ্যাপটি একটি Progressive Web App (PWA)। আপনার অ্যাপ ব্যবহারের
+            সমস্ত ডেটা <strong>শুধুমাত্র আপনার ডিভাইসের স্থানীয় স্টোরেজে</strong>
+            সংরক্ষিত হয়। আমাদের কাছে কোনো সার্ভার নেই যেখানে আপনার ডেটা পাঠানো হয়।
+          </p>
+
+          <div class="storage-box" aria-label="স্টোরেজ তালিকা">
+            <h4>ডিভাইসে কী সংরক্ষিত হয়:</h4>
+
+            <div class="storage-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              <span class="storage-item-label">মক টেস্ট ফলাফল ও স্কোর</span>
+              <span class="storage-item-val">localStorage</span>
+            </div>
+
+            <div class="storage-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <line x1="18" y1="20" x2="18" y2="10"/>
+                <line x1="12" y1="20" x2="12" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="14"/>
+              </svg>
+              <span class="storage-item-label">অনুশীলন অগ্রগতি ট্র্যাকার</span>
+              <span class="storage-item-val">localStorage</span>
+            </div>
+
+            <div class="storage-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+              </svg>
+              <span class="storage-item-label">বুকমার্ক করা প্রশ্ন</span>
+              <span class="storage-item-val">localStorage</span>
+            </div>
+
+            <div class="storage-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.07 4.93l-1.41 1.41M5.34 18.66l-1.41 1.41
+                         M2 12h2m16 0h2M19.07 19.07l-1.41-1.41M5.34 5.34L3.93 3.93
+                         M12 2v2m0 16v2"/>
+              </svg>
+              <span class="storage-item-label">অ্যাপ সেটিংস (থিম, ভাষা)</span>
+              <span class="storage-item-val">localStorage</span>
+            </div>
+
+            <div class="storage-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                   aria-hidden="true">
+                <path d="M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z"/>
+                <line x1="8" y1="2" x2="8" y2="18"/>
+                <line x1="16" y1="6" x2="16" y2="22"/>
+              </svg>
+              <span class="storage-item-label">অফলাইন কন্টেন্ট ক্যাশে</span>
+              <span class="storage-item-val">Service Worker Cache</span>
+            </div>
+          </div>
+
+          <p style="margin-top:14px;">
+            আপনি যেকোনো সময় আপনার ব্রাউজার সেটিংস থেকে এই সমস্ত ডেটা মুছে
+            ফেলতে পারবেন। ডেটা মুছলে আপনার অগ্রগতি রিসেট হয়ে যাবে।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 4: Cookies & Tracking ── -->
+      <section class="privacy-section" id="s4" aria-labelledby="s4-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৪</div>
+          <h2 id="s4-heading">কুকিজ ও ট্র্যাকিং</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            এই অ্যাপটি <strong>কোনো ট্র্যাকিং কুকিজ ব্যবহার করে না</strong>।
+            আমরা Google Analytics, Facebook Pixel বা অন্য কোনো তৃতীয় পক্ষের
+            ট্র্যাকিং সেবা ব্যবহার করি না।
+          </p>
+          <ul role="list">
+            <li>
+              কোনো বিজ্ঞাপন ট্র্যাকিং নেই
+            </li>
+            <li>
+              কোনো ব্যবহারকারী বিশ্লেষণ (User Analytics) নেই
+            </li>
+            <li>
+              কোনো ফিঙ্গারপ্রিন্টিং নেই
+            </li>
+            <li>
+              কোনো ক্রস-সাইট ট্র্যাকিং নেই
+            </li>
+            <li>
+              শুধুমাত্র কার্যকরী স্টোরেজ (Functional localStorage) ব্যবহার করা হয়
+            </li>
+          </ul>
+          <p>
+            Google Fonts ব্যবহারের কারণে প্রথমবার লোড হওয়ার সময় Google-এর
+            সার্ভারে একটি সংযোগ স্থাপিত হয়। এটি ফন্ট লোড করার জন্য প্রয়োজনীয়।
+            অফলাইন মোডে এটি ক্যাশে থেকে লোড হয়।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 5: Third Party ── -->
+      <section class="privacy-section" id="s5" aria-labelledby="s5-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৫</div>
+          <h2 id="s5-heading">তৃতীয় পক্ষের সেবা</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>এই অ্যাপ নিম্নলিখিত তৃতীয় পক্ষের সেবা ব্যবহার করে:</p>
+          <ul role="list">
+            <li>
+              <strong>Google Fonts (Hind Siliguri)</strong> — বাংলা ফন্ট লোড
+              করার জন্য। প্রথমবার ব্যবহারে Google-এর ফন্ট সার্ভার থেকে ডাউনলোড
+              হয়। এরপর ক্যাশে থাকে।
+            </li>
+            <li>
+              <strong>WB JEEB অফিশিয়াল ওয়েবসাইট</strong> — আমরা শুধুমাত্র
+              লিংক প্রদান করি। তাদের নিজস্ব গোপনীয়তা নীতি রয়েছে।
+            </li>
+          </ul>
+          <p>
+            আমরা কোনো বিজ্ঞাপন নেটওয়ার্ক, সোশ্যাল মিডিয়া প্লাগইন বা
+            পেমেন্ট গেটওয়ে ব্যবহার করি না।
+          </p>
+          <p>
+            বাহ্যিক লিংকে (External Links) ক্লিক করলে আপনি তৃতীয় পক্ষের
+            ওয়েবসাইটে যাবেন। সেই সাইটের গোপনীয়তা নীতি আমাদের নিয়ন্ত্রণে নেই।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 6: Your Rights ── -->
+      <section class="privacy-section" id="s6" aria-labelledby="s6-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৬</div>
+          <h2 id="s6-heading">আপনার অধিকারসমূহ</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            যেহেতু আমরা কোনো ব্যক্তিগত ডেটা সংগ্রহ করি না, আপনার সব ডেটা
+            সম্পূর্ণ আপনার নিয়ন্ত্রণে। তবুও আপনার নিম্নলিখিত অধিকার রয়েছে:
+          </p>
+
+          <div class="rights-grid" role="list">
+            <div class="right-card" role="listitem">
+              <div class="right-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+              <h4>দেখার অধিকার</h4>
+              <p>ব্রাউজার DevTools-এ localStorage দেখুন</p>
+            </div>
+
+            <div class="right-card" role="listitem">
+              <div class="right-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="3 6 5 6 21 6"/>
+                  <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+                  <path d="M10 11v6M14 11v6"/>
+                  <path d="M9 6V4h6v2"/>
+                </svg>
+              </div>
+              <h4>মুছে ফেলার অধিকার</h4>
+              <p>যেকোনো সময় ব্রাউজার ডেটা ক্লিয়ার করুন</p>
+            </div>
+
+            <div class="right-card" role="listitem">
+              <div class="right-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="18" cy="18" r="3"/>
+                  <circle cx="6" cy="6" r="3"/>
+                  <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
+                  <line x1="6" y1="9" x2="6" y2="21"/>
+                </svg>
+              </div>
+              <h4>স্থানান্তরের অধিকার</h4>
+              <p>আপনার ডেটা Export করে নিতে পারবেন</p>
+            </div>
+
+            <div class="right-card" role="listitem">
+              <div class="right-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <h4>নিরাপত্তার অধিকার</h4>
+              <p>আপনার ডেটা কখনো শেয়ার করা হবে না</p>
+            </div>
+          </div>
+
+          <p style="margin-top:16px;">
+            ব্রাউজার সেটিংসে গিয়ে <strong>Site Settings → Storage → Clear Data</strong>
+            করলে এই অ্যাপের সমস্ত স্থানীয় ডেটা মুছে যাবে।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 7: Children's Privacy ── -->
+      <section class="privacy-section" id="s7" aria-labelledby="s7-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৭</div>
+          <h2 id="s7-heading">শিশুদের গোপনীয়তা</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            এই অ্যাপটি ১৩ বছরের কম বয়সী শিশুদের জন্য প্রযোজ্য নয়।
+            WB ANM GNM পরীক্ষার যোগ্যতা অনুযায়ী, পরীক্ষার্থীরা সাধারণত
+            ১৭ বছরের বেশি বয়সী।
+          </p>
+          <p>
+            যেহেতু আমরা কোনো ব্যক্তিগত তথ্য সংগ্রহ করি না, তাই শিশুদের
+            ডেটা সংক্রান্ত কোনো ঝুঁকি নেই।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Section 8: Policy Changes ── -->
+      <section class="privacy-section" id="s8" aria-labelledby="s8-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৮</div>
+          <h2 id="s8-heading">নীতির পরিবর্তন</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            আমরা সময়ে সময়ে এই গোপনীয়তা নীতি আপডেট করতে পারি।
+            কোনো পরিবর্তন হলে এই পাতায় তারিখ আপডেট করা হবে।
+          </p>
+          <p>
+            গুরুত্বপূর্ণ পরিবর্তনের ক্ষেত্রে অ্যাপের হোম পেজে একটি নোটিফিকেশন
+            দেখানো হবে।
+          </p>
+          <ul role="list">
+            <li>পরিবর্তন কার্যকর হওয়ার ৩০ দিন আগে জানানো হবে</li>
+            <li>পুরনো নীতি GitHub-এ সংরক্ষিত থাকবে</li>
+            <li>অব্যাহত ব্যবহার নতুন নীতির সম্মতি বোঝায়</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ── Section 9: Contact ── -->
+      <section class="privacy-section" id="s9" aria-labelledby="s9-heading">
+        <div class="privacy-section-header">
+          <div class="privacy-section-num" aria-hidden="true">৯</div>
+          <h2 id="s9-heading">যোগাযোগ</h2>
+        </div>
+        <div class="privacy-section-body">
+          <p>
+            গোপনীয়তা সংক্রান্ত কোনো প্রশ্ন বা উদ্বেগ থাকলে আমাদের সাথে
+            যোগাযোগ করুন:
+          </p>
+          <a
+            href="mailto:wbanmgnm2026@gmail.com"
+            class="contact-email"
+            aria-label="ইমেইল পাঠান"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            wbanmgnm2026@gmail.com
+          </a>
+          <p style="margin-top:14px;">
+            আমরা সাধারণত ৪৮ ঘণ্টার মধ্যে উত্তর দিই।
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Summary box ── -->
+      <div
+        class="tips-box tips-success"
+        role="note"
+        aria-label="সারসংক্ষেপ"
+        style="margin-top:8px;"
+      >
+        <h3 class="tips-box-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               width="18" height="18" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          সংক্ষেপে আমাদের প্রতিশ্রুতি
+        </h3>
+        <ul class="tips-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                 width="16" height="16" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            আপনার কোনো ব্যক্তিগত তথ্য সংগ্রহ করা হয় না
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                 width="16" height="16" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            কোনো বিজ্ঞাপন বা ট্র্যাকিং নেই
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                 width="16" height="16" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            সব ডেটা আপনার ডিভাইসে, আপনার নিয়ন্ত্রণে
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                 width="16" height="16" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            সম্পূর্ণ বিনামূল্যে, কোনো লুকানো চার্জ নেই
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                 width="16" height="16" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Open Source — সম্পূর্ণ স্বচ্ছ (Transparent)
+          </li>
+        </ul>
+      </div>
+
+      <!-- ── Related ── -->
+      <nav style="margin-top:20px;" aria-label="সম্পর্কিত পাতা">
+        <div class="quick-nav-row">
+          <a href="about.html" class="nav-pill-btn">অ্যাপ সম্পর্কে</a>
+          <a href="syllabus.html" class="nav-pill-btn">সিলেবাস</a>
+          <a href="../index.html" class="nav-pill-btn">হোম পাতা</a>
+        </div>
+      </nav>
+
+    </div><!-- /.page-container -->
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="page-footer" role="contentinfo">
+    <div class="page-container">
+      <p>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             width="14" height="14" aria-hidden="true" style="vertical-align:middle;">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+        গোপনীয়তা নীতি · WB ANM GNM 2026 প্রস্তুতি প্ল্যাটফর্ম
+      </p>
+      <p style="margin-top:4px;font-size:0.78rem;opacity:0.7;">
+        সর্বশেষ আপডেট: জানুয়ারি ২০২৫ ·
+        <a href="about.html" class="footer-link">অ্যাপ সম্পর্কে</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+    document.addEventListener('DOMContentLoaded', () => {
+      /* ── Back button ── */
+      const backBtn = document.getElementById('backBtn');
+      if (backBtn) {
+        backBtn.addEventListener('click', () => {
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            window.location.href = '../index.html';
+          }
+        });
+      }
+
+      /* ── Print button ── */
+      const printBtn = document.getElementById('printBtn');
+      if (printBtn) {
+        printBtn.addEventListener('click', () => window.print());
+      }
+
+      /* ── Smooth scroll for TOC links ── */
+      const tocLinks = document.querySelectorAll('.toc-list a[href^="#"]');
+      tocLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          const target = document.querySelector(link.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            /* focus the heading for accessibility */
+            const heading = target.querySelector('h2');
+            if (heading) {
+              heading.setAttribute('tabindex', '-1');
+              heading.focus();
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensuration | গণিত | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body data-subject="mathematics" data-chapter="12">
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">গণিত</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 12</span>
+  </nav>
+
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 12 / 14</div>
+    <h1 class="chapter-title">Mensuration</h1>
+    <h2 class="chapter-title-bn">ক্ষেত্রমিতি</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <!-- Chapter Content -->
+  <article class="chapter-content">
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+      <h2>ক্ষেত্রমিতির ভূমিকা (Introduction to Mensuration)</h2>
+
+      <p><strong>ক্ষেত্রমিতি (Mensuration)</strong> হলো জ্যামিতিক আকৃতির ক্ষেত্রফল, পরিসীমা, আয়তন ইত্যাদি পরিমাপ সংক্রান্ত গণিত। ANM GNM পরীক্ষায় এটি একটি গুরুত্বপূর্ণ অধ্যায়।</p>
+
+      <div class="definition-box">
+        <strong>পরিসীমা (Perimeter):</strong>
+        কোনো সমতল আকৃতির বাহুগুলোর মোট দৈর্ঘ্যকে পরিসীমা বলে। এর একক সেমি (cm) বা মিটার (m)।
+        <em>💡 MCQ Tip: পরিসীমা = বেড়ার দৈর্ঘ্য = চারদিকের মোট দূরত্ব</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>ক্ষেত্রফল (Area):</strong>
+        কোনো সমতল আকৃতির অভ্যন্তরীণ পরিমাণকে ক্ষেত্রফল বলে। এর একক বর্গ সেমি (cm²) বা বর্গ মিটার (m²)।
+        <em>💡 MCQ Tip: ক্ষেত্রফল = মেঝে ঢাকতে কত টাইলস লাগবে তার ধারণা।</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>আয়তন (Volume):</strong>
+        কোনো ত্রিমাত্রিক বস্তুর অভ্যন্তরীণ ধারণক্ষমতাকে আয়তন বলে। এর একক ঘন সেমি (cm³) বা ঘন মিটার (m³)।
+        <em>💡 MCQ Tip: 1 লিটার = 1000 cm³, 1 m³ = 1000 লিটার</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>সম্পূর্ণ পৃষ্ঠতলের ক্ষেত্রফল (Total Surface Area - TSA):</strong>
+        কোনো ত্রিমাত্রিক বস্তুর সকল তলের ক্ষেত্রফলের যোগফলকে সম্পূর্ণ পৃষ্ঠতলের ক্ষেত্রফল বলে।
+        <em>💡 MCQ Tip: TSA = রঙ করতে কতটা রঙ লাগবে তার হিসাব।</em>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>পরিমাপ</th>
+            <th>একক</th>
+            <th>কী পরিমাপ করে</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>পরিসীমা</td>
+            <td>cm, m</td>
+            <td>বাইরের ঘের</td>
+          </tr>
+          <tr>
+            <td>ক্ষেত্রফল</td>
+            <td>cm², m²</td>
+            <td>সমতলের পরিমাণ</td>
+          </tr>
+          <tr>
+            <td>আয়তন</td>
+            <td>cm³, m³, লিটার</td>
+            <td>ধারণক্ষমতা</td>
+          </tr>
+          <tr>
+            <td>পার্শ্বতলের ক্ষেত্রফল</td>
+            <td>cm², m²</td>
+            <td>পাশের তলের পরিমাণ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 2D Shapes Section -->
+    <section class="content-section">
+      <h2>সমতল ক্ষেত্র: ক্ষেত্রফল ও পরিসীমা (2D Shapes: Area & Perimeter)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 আয়তক্ষেত্র (Rectangle):</strong><br>
+        \[ \text{ক্ষেত্রফল} = \text{দৈর্ঘ্য} \times \text{প্রস্থ} = l \times b \]
+        \[ \text{পরিসীমা} = 2(l + b) \]
+        \[ \text{কর্ণ} = \sqrt{l^2 + b^2} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 বর্গক্ষেত্র (Square):</strong><br>
+        \[ \text{ক্ষেত্রফল} = a^2 \quad \text{(a = বাহু)} \]
+        \[ \text{পরিসীমা} = 4a \]
+        \[ \text{কর্ণ} = a\sqrt{2} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 ত্রিভুজ (Triangle):</strong><br>
+        \[ \text{ক্ষেত্রফল} = \frac{1}{2} \times \text{ভূমি} \times \text{উচ্চতা} = \frac{1}{2}bh \]
+        <strong>সমবাহু ত্রিভুজ:</strong> \[ \text{ক্ষেত্রফল} = \frac{\sqrt{3}}{4}a^2, \quad \text{পরিসীমা} = 3a \]
+        <strong>হেরনের সূত্র:</strong> \[ A = \sqrt{s(s-a)(s-b)(s-c)} \quad \text{যেখানে } s = \frac{a+b+c}{2} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 বৃত্ত (Circle):</strong><br>
+        \[ \text{ক্ষেত্রফল} = \pi r^2 \]
+        \[ \text{পরিধি (Circumference)} = 2\pi r = \pi d \]
+        \[ \text{ব্যাস} = 2r, \quad \pi \approx \frac{22}{7} \approx 3.14 \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ১ (Example 1):</strong> একটি আয়তক্ষেত্রের দৈর্ঘ্য 12 cm এবং প্রস্থ 8 cm। ক্ষেত্রফল ও পরিসীমা কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> ক্ষেত্রফল = l × b = 12 × 8 = 96 cm²<br>
+          <strong>Step 2:</strong> পরিসীমা = 2(l + b) = 2(12 + 8) = 2 × 20 = 40 cm<br>
+          <strong>∴ উত্তর (Answer):</strong> ক্ষেত্রফল = 96 cm², পরিসীমা = 40 cm
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ২ (Example 2):</strong> একটি বৃত্তের ব্যাসার্ধ 7 cm। ক্ষেত্রফল ও পরিধি কত? (\( \pi = \frac{22}{7} \))
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> ক্ষেত্রফল = \( \pi r^2 = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154 \) cm²<br>
+          <strong>Step 2:</strong> পরিধি = \( 2\pi r = 2 \times \frac{22}{7} \times 7 = 44 \) cm<br>
+          <strong>∴ উত্তর (Answer):</strong> ক্ষেত্রফল = 154 cm², পরিধি = 44 cm
+        </div>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>আকৃতি</th>
+            <th>ক্ষেত্রফল</th>
+            <th>পরিসীমা</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>আয়তক্ষেত্র</td>
+            <td>\( l \times b \)</td>
+            <td>\( 2(l+b) \)</td>
+          </tr>
+          <tr>
+            <td>বর্গক্ষেত্র</td>
+            <td>\( a^2 \)</td>
+            <td>\( 4a \)</td>
+          </tr>
+          <tr>
+            <td>ত্রিভুজ</td>
+            <td>\( \frac{1}{2}bh \)</td>
+            <td>\( a+b+c \)</td>
+          </tr>
+          <tr>
+            <td>সমবাহু ত্রিভুজ</td>
+            <td>\( \frac{\sqrt{3}}{4}a^2 \)</td>
+            <td>\( 3a \)</td>
+          </tr>
+          <tr>
+            <td>বৃত্ত</td>
+            <td>\( \pi r^2 \)</td>
+            <td>\( 2\pi r \)</td>
+          </tr>
+          <tr>
+            <td>অর্ধবৃত্ত</td>
+            <td>\( \frac{\pi r^2}{2} \)</td>
+            <td>\( \pi r + 2r \)</td>
+          </tr>
+          <tr>
+            <td>সামান্তরিক</td>
+            <td>\( b \times h \)</td>
+            <td>\( 2(a+b) \)</td>
+          </tr>
+          <tr>
+            <td>ট্রাপিজিয়াম</td>
+            <td>\( \frac{1}{2}(a+b) \times h \)</td>
+            <td>চারটি বাহুর যোগ</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 3D Shapes Section -->
+    <section class="content-section">
+      <h2>ত্রিমাত্রিক বস্তু: আয়তন ও পৃষ্ঠতল (3D Shapes: Volume & Surface Area)</h2>
+
+      <div class="highlight-box">
+        <strong>📐 ঘনক (Cube) — বাহু = a:</strong><br>
+        \[ \text{আয়তন} = a^3 \]
+        \[ \text{TSA} = 6a^2 \]
+        \[ \text{কর্ণ} = a\sqrt{3} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 আয়তঘন (Cuboid) — দৈর্ঘ্য l, প্রস্থ b, উচ্চতা h:</strong><br>
+        \[ \text{আয়তন} = l \times b \times h \]
+        \[ \text{TSA} = 2(lb + bh + lh) \]
+        \[ \text{কর্ণ} = \sqrt{l^2 + b^2 + h^2} \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 সিলিন্ডার (Cylinder) — ব্যাসার্ধ r, উচ্চতা h:</strong><br>
+        \[ \text{আয়তন} = \pi r^2 h \]
+        \[ \text{বক্রতলের ক্ষেত্রফল (CSA)} = 2\pi rh \]
+        \[ \text{TSA} = 2\pi r(r + h) \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 গোলক (Sphere) — ব্যাসার্ধ r:</strong><br>
+        \[ \text{আয়তন} = \frac{4}{3}\pi r^3 \]
+        \[ \text{পৃষ্ঠতল} = 4\pi r^2 \]
+      </div>
+
+      <div class="highlight-box">
+        <strong>📐 শঙ্কু (Cone) — ব্যাসার্ধ r, উচ্চতা h, তির্যক উচ্চতা l:</strong><br>
+        \[ \text{আয়তন} = \frac{1}{3}\pi r^2 h \]
+        \[ \text{CSA} = \pi rl \]
+        \[ \text{TSA} = \pi r(r + l) \]
+        \[ l = \sqrt{r^2 + h^2} \]
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৩ (Example 3):</strong> একটি ঘনকের বাহু 5 cm। আয়তন ও TSA কত?
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> আয়তন = \( a^3 = 5^3 = 125 \) cm³<br>
+          <strong>Step 2:</strong> TSA = \( 6a^2 = 6 \times 25 = 150 \) cm²<br>
+          <strong>∴ উত্তর (Answer):</strong> আয়তন = 125 cm³, TSA = 150 cm²
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>উদাহরণ ৪ (Example 4):</strong> একটি সিলিন্ডারের ব্যাসার্ধ 7 cm ও উচ্চতা 10 cm। আয়তন কত? (\( \pi = 22/7 \))
+        <div class="solution">
+          <strong>সমাধান (Solution):</strong><br>
+          <strong>Step 1:</strong> আয়তন = \( \pi r^2 h = \frac{22}{7} \times 7^2 \times 10 \)<br>
+          <strong>Step 2:</strong> = \( \frac{22}{7} \times 49 \times 10 = 22 \times 7 \times 10 = 1540 \) cm³<br>
+          <strong>∴ উত্তর (Answer):</strong> \[ 1540 \text{ cm}^3 \]
+        </div>
+      </div>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>বস্তু</th>
+            <th>আয়তন</th>
+            <th>TSA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ঘনক</td>
+            <td>\( a^3 \)</td>
+            <td>\( 6a^2 \)</td>
+          </tr>
+          <tr>
+            <td>আয়তঘন</td>
+            <td>\( lbh \)</td>
+            <td>\( 2(lb+bh+lh) \)</td>
+          </tr>
+          <tr>
+            <td>সিলিন্ডার</td>
+            <td>\( \pi r^2 h \)</td>
+            <td>\( 2\pi r(r+h) \)</td>
+          </tr>
+          <tr>
+            <td>গোলক</td>
+            <td>\( \frac{4}{3}\pi r^3 \)</td>
+            <td>\( 4\pi r^2 \)</td>
+          </tr>
+          <tr>
+            <td>শঙ্কু</td>
+            <td>\( \frac{1}{3}\pi r^2 h \)</td>
+            <td>\( \pi r(r+l) \)</td>
+          </tr>
+          <tr>
+            <td>অর্ধগোলক</td>
+            <td>\( \frac{2}{3}\pi r^3 \)</td>
+            <td>\( 3\pi r^2 \)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Important Formulas Summary Section -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ সূত্রাবলী (Important Formulas)</h2>
+
+      <ul class="fact-list">
+        <li>\[ \text{আয়তক্ষেত্র: ক্ষেত্রফল} = l \times b, \text{ পরিসীমা} = 2(l+b) \]</li>
+        <li>\[ \text{বর্গক্ষেত্র: ক্ষেত্রফল} = a^2, \text{ পরিসীমা} = 4a \]</li>
+        <li>\[ \text{ত্রিভুজ: ক্ষেত্রফল} = \frac{1}{2}bh \]</li>
+        <li>\[ \text{বৃত্ত: ক্ষেত্রফল} = \pi r^2, \text{ পরিধি} = 2\pi r \]</li>
+        <li>\[ \text{ঘনক: আয়তন} = a^3, \text{ TSA} = 6a^2 \]</li>
+        <li>\[ \text{আয়তঘন: আয়তন} = lbh, \text{ TSA} = 2(lb+bh+lh) \]</li>
+        <li>\[ \text{সিলিন্ডার: আয়তন} = \pi r^2 h, \text{ TSA} = 2\pi r(r+h) \]</li>
+        <li>\[ \text{গোলক: আয়তন} = \frac{4}{3}\pi r^3, \text{ পৃষ্ঠতল} = 4\pi r^2 \]</li>
+      </ul>
+    </section>
+
+    <!-- Shortcut Tricks Section -->
+    <section class="content-section">
+      <h2>শর্টকাট ট্রিকস (Shortcut Tricks for MCQ)</h2>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 1: r = 7 হলে হিসাব সহজ</strong><br>
+        r = 7, π = 22/7 ব্যবহার করুন, ভাগ সহজে মিলে যায়।<br>
+        ক্ষেত্রফল = 22/7 × 49 = 154<br>
+        পরিধি = 2 × 22/7 × 7 = 44<br>
+        পরীক্ষায় r = 7 বা 14 খুব বেশি আসে।
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 2: ঘনকের সূত্র মনে রাখার কৌশল</strong><br>
+        ঘনক = সব বাহু সমান<br>
+        আয়তন = a³ (3D → ঘন)<br>
+        TSA = 6a² (6 তল → 6 × বাহু²)<br>
+        6 টি তল, 12 টি ধার, 8 টি শীর্ষ
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 3: শঙ্কু = সিলিন্ডারের 1/3</strong><br>
+        একই ব্যাসার্ধ ও উচ্চতার শঙ্কুর আয়তন = সিলিন্ডারের 1/3<br>
+        \( V_{\text{cone}} = \frac{1}{3} V_{\text{cylinder}} \)<br>
+        মনে রাখুন: শঙ্কু = 1/3 × πr²h
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 4: গোলক = সিলিন্ডারের 2/3</strong><br>
+        একই ব্যাসার্ধের গোলকের আয়তন = সিলিন্ডারের 2/3<br>
+        (যখন সিলিন্ডারের h = 2r)<br>
+        \( V_{\text{sphere}} = \frac{4}{3}\pi r^3 \)
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 5: একক রূপান্তর</strong><br>
+        1 m² = 10000 cm²<br>
+        1 m³ = 1000000 cm³<br>
+        1 লিটার = 1000 cm³ = 1000 ml<br>
+        1 m³ = 1000 লিটার
+      </div>
+
+      <div class="shortcut-box">
+        <strong>⚡ Trick 6: পথের ক্ষেত্রফল</strong><br>
+        আয়তক্ষেত্রের চারদিকে d চওড়া পথ:<br>
+        পথের ক্ষেত্রফল = 2d(l + b + 2d) (বাইরে)<br>
+        পথের ক্ষেত্রফল = 2d(l + b - 2d) (ভিতরে)
+      </div>
+    </section>
+
+    <!-- Exam Questions Section -->
+    <section class="exam-questions">
+      <h2>পরীক্ষায় আসতে পারে (Possible Exam Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. একটি আয়তক্ষেত্রের দৈর্ঘ্য 15 m ও প্রস্থ 10 m। ক্ষেত্রফল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 150 m² (15 × 10 = 150)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. 14 cm ব্যাসার্ধের বৃত্তের ক্ষেত্রফল কত? (π = 22/7)</p>
+        <p class="answer"><strong>উত্তর:</strong> 616 cm² (22/7 × 14² = 22/7 × 196 = 616)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. 6 cm বাহুর ঘনকের আয়তন কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 216 cm³ (6³ = 216)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. একটি সিলিন্ডারের r = 7 cm, h = 15 cm হলে আয়তন কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 2310 cm³ (22/7 × 49 × 15 = 22 × 7 × 15 = 2310)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. একটি বর্গক্ষেত্রের পরিসীমা 60 cm হলে ক্ষেত্রফল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 225 cm² (বাহু = 60/4 = 15, ক্ষেত্রফল = 15² = 225)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. 21 cm ব্যাসার্ধের গোলকের আয়তন কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 38808 cm³ (4/3 × 22/7 × 21³ = 4/3 × 22/7 × 9261 = 38808)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. ত্রিভুজের ভূমি 10 cm ও উচ্চতা 8 cm হলে ক্ষেত্রফল কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> 40 cm² (1/2 × 10 × 8 = 40)</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. একটি আয়তঘনের দৈর্ঘ্য 10 cm, প্রস্থ 5 cm, উচ্চতা 4 cm। আয়তন ও TSA কত?</p>
+        <p class="answer"><strong>উত্তর:</strong> আয়তন = 200 cm³ (10×5×4), TSA = 220 cm² [2(50+20+40) = 2×110]</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <!-- Quick Revision Box -->
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li>আয়তক্ষেত্র: A = l×b, P = 2(l+b)</li>
+      <li>বর্গক্ষেত্র: A = a², P = 4a</li>
+      <li>বৃত্ত: A = πr², C = 2πr, π ≈ 22/7</li>
+      <li>ত্রিভুজ: A = ½bh</li>
+      <li>ঘনক: V = a³, TSA = 6a²</li>
+      <li>সিলিন্ডার: V = πr²h, TSA = 2πr(r+h)</li>
+      <li>গোলক: V = 4/3 πr³, SA = 4πr²</li>
+      <li>শঙ্কু: V = 1/3 πr²h (সিলিন্ডারের 1/3)</li>
+    </ul>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="11-speed-distance.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+
+    <a href="./index.html" class="btn btn-index">
+      অধ্যায় তালিকা
+    </a>
+
+    <a href="13-data-interpretation.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

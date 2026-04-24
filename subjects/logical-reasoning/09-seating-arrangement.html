@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seating Arrangement | যুক্তিবিদ্যা | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../css/chapter.css">
+</head>
+<body data-subject="logical-reasoning" data-chapter="9">
+
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="../../index.html">হোম</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="../index.html">বিষয়সমূহ</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="./index.html">যুক্তিবিদ্যা</a>
+    <span class="breadcrumb-sep">›</span>
+    <span>Chapter 9</span>
+  </nav>
+
+  <header class="chapter-header">
+    <div class="chapter-badge">Chapter 9 / 14</div>
+    <h1 class="chapter-title">Seating Arrangement</h1>
+    <h2 class="chapter-title-bn">বসার ব্যবস্থা</h2>
+    <button class="print-btn" id="printBtn" aria-label="Print chapter">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 6 2 18 2 18 9"/>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+                 a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+        <rect x="6" y="14" width="12" height="8"/>
+      </svg>
+      প্রিন্ট করুন
+    </button>
+  </header>
+
+  <article class="chapter-content">
+
+    <!-- ════════════════════════════════════
+         SECTION 1: INTRODUCTION & DEFINITIONS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>ভূমিকা ও সংজ্ঞা (Introduction & Definition)</h2>
+
+      <p><strong>Seating Arrangement (বসার ব্যবস্থা)</strong> হল কিছু ব্যক্তিকে একটি নির্দিষ্ট ব্যবস্থায় (সারি, বৃত্তাকার, আয়তাকার) বসানো এবং তাদের অবস্থান সম্পর্কে প্রশ্নের উত্তর দেওয়া। ANM GNM পরীক্ষায় Linear (সরল সারি) এবং Circular (বৃত্তাকার) — এই দুই ধরনের প্রশ্ন বেশি আসে।</p>
+
+      <div class="definition-box">
+        <strong>Linear Arrangement (সরল সারি):</strong>
+        ব্যক্তিদের একটি সরল সারিতে বসানো। মুখ একই দিকে বা বিপরীত দিকে থাকতে পারে। Left-Right সম্পর্ক বোঝা গুরুত্বপূর্ণ।
+        <em>💡 MCQ Tip: "left" ও "right" কার দৃষ্টিকোণ থেকে তা নিশ্চিত করুন</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Circular Arrangement (বৃত্তাকার):</strong>
+        ব্যক্তিদের একটি গোল টেবিলের চারপাশে বসানো। এখানে প্রথম ও শেষ সিট সংযুক্ত থাকে। Clockwise (ঘড়ির কাঁটায়) ও Anti-clockwise বোঝা জরুরি।
+        <em>💡 MCQ Tip: "immediate left" = ঠিক পাশে বামে, "second to the left" = দুই ঘর বামে</em>
+      </div>
+
+      <div class="definition-box">
+        <strong>Facing Centre (কেন্দ্রমুখী):</strong>
+        বৃত্তাকার ব্যবস্থায় সবাই কেন্দ্রের দিকে মুখ করে বসলে "facing centre" বলা হয়। এই অবস্থায় Left-Right নির্ধারণ সাধারণ নিয়মের বিপরীত হয়।
+        <em>💡 MCQ Tip: কেন্দ্রমুখী হলে ঘড়ির কাঁটায় = Right, বিপরীতে = Left</em>
+      </div>
+
+      <ul class="fact-list">
+        <li><strong>দুই প্রধান ধরন:</strong> Linear (সরল) ও Circular (বৃত্তাকার)</li>
+        <li><strong>Linear-এ:</strong> Left-Right দিকনির্দেশ ব্যক্তির দৃষ্টিকোণে</li>
+        <li><strong>Circular-এ:</strong> Clockwise = Right, Anti-clockwise = Left (facing centre)</li>
+        <li><strong>"Immediate":</strong> ঠিক পাশে (1 ঘর)</li>
+        <li><strong>"Second to":</strong> 2 ঘর দূরে</li>
+        <li><strong>"Opposite":</strong> বিপরীত দিকে (circular-এ ব্যাসের অপর প্রান্তে)</li>
+      </ul>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 2: ARRANGEMENT DIAGRAMS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>বিন্যাস চিত্র ও নিয়ম (Arrangement Diagrams & Rules)</h2>
+
+      <pre class="reasoning-diagram">
+        Linear Arrangement (Facing North):
+        
+        Left ←────────────────────────→ Right
+        [1]  [2]  [3]  [4]  [5]  [6]
+         A    B    C    D    E    F
+        
+        ↑ All facing North
+        
+        B is to the immediate right of A
+        D is to the immediate left of E
+        C is second to the right of A
+        
+        ═══════════════════════════════════════
+        
+        Circular Arrangement (Facing Centre):
+        
+                [H]    [A]
+              [G]        [B]
+              [F]        [C]
+                [E]    [D]
+        
+        (All facing centre)
+        Clockwise: A → B → C → D → E → F → G → H
+        A's immediate right = H (anti-clockwise)
+        A's immediate left = B (clockwise)
+        
+        Note: Facing Centre হলে:
+        Clockwise = Left, Anti-clockwise = Right
+      </pre>
+
+      <table class="info-table">
+        <thead>
+          <tr>
+            <th>শব্দ (Term)</th>
+            <th>Linear-এ অর্থ</th>
+            <th>Circular-এ অর্থ (Facing Centre)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>Immediate Right</th><td>ঠিক ডান পাশে</td><td>Anti-clockwise দিকে পরবর্তী</td></tr>
+          <tr><th>Immediate Left</th><td>ঠিক বাম পাশে</td><td>Clockwise দিকে পরবর্তী</td></tr>
+          <tr><th>Second to Right</th><td>2 ঘর ডানে</td><td>Anti-clockwise 2 ঘর</td></tr>
+          <tr><th>Third to Left</th><td>3 ঘর বামে</td><td>Clockwise 3 ঘর</td></tr>
+          <tr><th>Opposite</th><td>প্রযোজ্য নয়</td><td>ব্যাসের অপর প্রান্তে</td></tr>
+        </tbody>
+      </table>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        প্রথমে নিশ্চিত তথ্য (definite clues) দিয়ে শুরু করুন। "A is second to the right of B" → B আর A-র অবস্থান ফিক্স করুন। তারপর বাকি তথ্য একে একে যোগ করুন।
+      </div>
+
+      <div class="trick-box">
+        <strong>⚡ Circular-এ Opposite ট্রিক (Opposite Trick):</strong>
+        n জন ব্যক্তির Circular arrangement-এ, কোনো ব্যক্তির Opposite = n/2 ঘর দূরে। 8 জনের টেবিলে, Opposite = 4 ঘর দূরে।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 3: SOLVED EXAMPLES
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>সবিস্তার উদাহরণ (Solved Examples)</h2>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ১ (Example 1):</strong> 5 persons A, B, C, D, E sit in a row facing North. B sits to the immediate right of A. D sits to the immediate left of E. C sits in the middle. Who sits at the extreme left?<br>
+        (A) A (B) B (C) D (D) E
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> C is in the middle = position 3<br>
+          <strong>Step 2:</strong> B is to immediate right of A → A-B পাশাপাশি<br>
+          <strong>Step 3:</strong> D is to immediate left of E → D-E পাশাপাশি<br>
+          <strong>Step 4:</strong> Arrangement: D, E, C, A, B or A, B, C, D, E<br>
+          <strong>Step 5:</strong> Since D-E and A-B are pairs and C is middle: D E C A B<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (C) D
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Linear Solution:
+        
+        Left ←─────────────────→ Right
+        [1]  [2]  [3]  [4]  [5]
+         D    E    C    A    B
+        
+        ↑ All facing North
+        
+        D is at extreme left
+        B is at extreme right
+        C is in the middle
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ২ (Example 2):</strong> 6 persons P, Q, R, S, T, U sit around a circular table facing the centre. P sits opposite to Q. R is to the immediate left of P. T is to the immediate right of Q. Who sits opposite to R?<br>
+        (A) S (B) T (C) U (D) Q
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> P ও Q বিপরীতে → 3 ঘর দূরে (6/2=3)<br>
+          <strong>Step 2:</strong> R is immediate left of P → P-এর clockwise পাশে (facing centre)<br>
+          <strong>Step 3:</strong> T is immediate right of Q → Q-এর anti-clockwise পাশে<br>
+          <strong>Step 4:</strong> Arrange: ...R, P, _, _, Q, T... → R বিপরীতে T<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) T
+        </div>
+      </div>
+
+      <pre class="reasoning-diagram">
+        Circular Solution (6 persons, facing centre):
+        
+                [U]    [R]
+              [Q]        [P]
+                [T]    [S]
+        
+        P opposite Q ✓
+        R immediate left of P ✓
+        T immediate right of Q ✓
+        R opposite T ✓
+      </pre>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৩ (Example 3):</strong> 6 students sit in a row facing South. A is third from the left. B is second from the right. How many students sit between A and B?<br>
+        (A) 0 (B) 1 (C) 2 (D) 3
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> A = 3rd from left = position 3<br>
+          <strong>Step 2:</strong> B = 2nd from right = 6-2+1 = position 5<br>
+          <strong>Step 3:</strong> Between position 3 and 5 = position 4 → 1 person<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) 1
+        </div>
+      </div>
+
+      <div class="solved-example">
+        <strong>📝 উদাহরণ ৪ (Example 4):</strong> In a row of 10 students, Ram is 5th from left and Shyam is 3rd from right. How many students are between them?<br>
+        (A) 1 (B) 2 (C) 3 (D) 4
+        <div class="solution-steps">
+          <strong>পদক্ষেপ (Steps):</strong><br>
+          <strong>Step 1:</strong> Ram = 5th from left = position 5<br>
+          <strong>Step 2:</strong> Shyam = 3rd from right = 10-3+1 = position 8<br>
+          <strong>Step 3:</strong> Between position 5 and 8 = positions 6, 7 → 2 persons<br>
+          <strong>∴ উত্তর (Answer):</strong> Option (B) 2
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 4: IMPORTANT FACTS
+         ════════════════════════════════════ -->
+    <section class="content-section">
+      <h2>গুরুত্বপূর্ণ তথ্য (Important Facts)</h2>
+      <ul class="fact-list">
+        <li><strong>Position from Right:</strong> n জনের সারিতে ডান থেকে kth = বাম থেকে (n-k+1)th</li>
+        <li><strong>Between Two:</strong> Position পার্থক্য - 1 = মাঝে কতজন</li>
+        <li><strong>Circular Opposite:</strong> n জনের টেবিলে Opposite = n/2 ঘর দূরে</li>
+        <li><strong>Facing Centre:</strong> Left = Clockwise, Right = Anti-clockwise</li>
+        <li><strong>Facing Outside:</strong> Left = Anti-clockwise, Right = Clockwise (উল্টো!)</li>
+        <li><strong>চিত্র আঁকুন:</strong> Linear-এ সরল রেখা, Circular-এ বৃত্ত আঁকুন</li>
+        <li><strong>Definite Clue আগে:</strong> "Opposite", "Immediate" = নিশ্চিত অবস্থান, এগুলি আগে বসান</li>
+        <li><strong>ভুল এড়ান:</strong> "Left" ও "Right" — কার দৃষ্টিকোণে তা সবসময় চেক করুন</li>
+      </ul>
+
+      <div class="trick-box">
+        <strong>⚡ শর্টকাট ট্রিক (Shortcut Trick):</strong>
+        Linear-এ: Left থেকে position + Right থেকে position = Total + 1 (verify করুন)। Circular-এ: Opposite এর position = নিজের position + n/2 (mod n)।
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         SECTION 5: PRACTICE QUESTIONS (8)
+         ════════════════════════════════════ -->
+    <section class="exam-questions">
+      <h2>প্র্যাকটিস প্রশ্ন (Practice Questions)</h2>
+
+      <div class="question-item">
+        <p class="question">Q1. In a row of 8 students, A is 3rd from left and B is 4th from right. How many students sit between A and B?<br>
+        (A) 0 (B) 1 (C) 2 (D) 3</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) 0 — A=3rd from left=position 3. B=4th from right=8-4+1=position 5. Between 3 and 5 = position 4 → 1 person. Wait: 5-3-1=1. Option (B) 1।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q2. 5 persons sit in a row facing North. C is at the extreme right. A is second from left. B is between A and C. Who is at the extreme left?<br>
+        (A) A (B) D (C) E (D) Cannot determine</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (D) Cannot determine — D ও E-এর অবস্থান নিশ্চিত নয়। D বা E যেকোনো একজন extreme left-এ থাকতে পারে।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q3. In a circular arrangement of 8 persons, A sits opposite to E. B sits to the immediate left of A. Who sits opposite to B?<br>
+        (A) F (B) G (C) C (D) D</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) F — 8 জনের বৃত্তে opposite = 4 ঘর দূরে। B is immediate left of A, so B opposite = 4 positions from B।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q4. In a row of 20 students, Ram is 12th from left. What is his position from right?<br>
+        (A) 8th (B) 9th (C) 10th (D) 11th</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 9th — Position from right = Total - Position from left + 1 = 20-12+1 = 9।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q5. 6 persons A-F sit in a circle facing centre. A is opposite D. B is to immediate right of A. Who is to the immediate left of D?<br>
+        (A) E (B) C (C) F (D) B</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) E — A opposite D (3 positions apart). B immediate right of A (anti-clockwise). Arrangement determines E is to D's immediate left (clockwise)।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q6. In a row, A is 5th from left and 6th from right. How many persons are in the row?<br>
+        (A) 9 (B) 10 (C) 11 (D) 12</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (B) 10 — Total = Left position + Right position - 1 = 5+6-1 = 10।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q7. 4 friends sit around a square table, one on each side, facing centre. Ram faces South. Who sits opposite to Ram?<br>
+        (A) Person facing North (B) Person facing East (C) Person on Ram's left (D) Cannot determine</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) Person facing North — Facing centre: Ram faces South means he sits on the North side. Opposite = South side person, who faces North।</p>
+      </div>
+
+      <div class="question-item">
+        <p class="question">Q8. In a row of 15 students, Rani is 7th from right and Soni is 9th from left. How many students are between them if they don't overlap?<br>
+        (A) 0 (B) 1 (C) No overlap, impossible (D) Cannot determine</p>
+        <p class="answer"><strong>উত্তর:</strong> Option (A) 0 — Rani from left = 15-7+1=9. Soni=9th from left. Both at same position? If same position then Rani=Soni → 0 between them. Actually they might be the same person or adjacent. Rani=9, Soni=9 → same position → not possible if different people. If not same: no one between।</p>
+      </div>
+
+    </section>
+
+  </article>
+
+  <div class="revision-box">
+    <h3>📝 দ্রুত পুনরাবৃত্তি (Quick Revision)</h3>
+    <ul>
+      <li><strong>দুই ধরন:</strong> Linear (সারি) ও Circular (বৃত্তাকার)</li>
+      <li><strong>Position Formula:</strong> Right থেকে = Total - Left থেকে + 1</li>
+      <li><strong>Total Formula:</strong> Total = Left + Right - 1 (যদি একই ব্যক্তি)</li>
+      <li><strong>Between Formula:</strong> Between = |Pos1 - Pos2| - 1</li>
+      <li><strong>Circular Opposite:</strong> n/2 ঘর দূরে</li>
+      <li><strong>Facing Centre:</strong> Left = Clockwise, Right = Anti-clockwise</li>
+      <li><strong>চিত্র আঁকুন:</strong> সবসময় diagram বানান</li>
+      <li><strong>Definite Clue আগে:</strong> নিশ্চিত তথ্য দিয়ে শুরু করুন</li>
+    </ul>
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    <a href="08-syllogism.html" class="btn btn-nav prev-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      আগের অধ্যায়
+    </a>
+    <a href="./index.html" class="btn btn-index">অধ্যায় তালিকা</a>
+    <a href="10-puzzles.html" class="btn btn-nav next-btn">
+      পরবর্তী অধ্যায়
+      <svg width="16" height="16" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </nav>
+
+  <script src="../js/chapter-reader.js"></script>
+</body>
+</html>

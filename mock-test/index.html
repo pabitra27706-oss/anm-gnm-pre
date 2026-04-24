@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>মক টেস্ট | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="../assets/css/base.css">
+  
+  <link rel="stylesheet" href="css/mock-layout.css">
+</head>
+
+<body>
+  
+  <header class="header">
+    <button class="back-btn" id="backBtn" aria-label="হোমে ফিরুন">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7" />
+      </svg>
+    </button>
+    <h1>মক টেস্ট</h1>
+  </header>
+  
+  <main class="main-content">
+    
+    <section class="instructions-panel" aria-label="পরীক্ষার নির্দেশনা">
+      <h2>পরীক্ষার নির্দেশনা</h2>
+      <ul>
+        <li>মোট প্রশ্ন: ১০০টি</li>
+        <li>সময়: ৯০ মিনিট</li>
+        <li>Category-1: ৮৫টি (সঠিক উত্তর +১, ভুল উত্তর −০.২৫)</li>
+        <li>Category-2: ১৫টি (সম্পূর্ণ সঠিক +২, আংশিক সঠিক আনুপাতিক নম্বর)</li>
+        <li>নেগেটিভ মার্কিং প্রযোজ্য</li>
+        <li>সময় শেষ হলে স্বয়ংক্রিয়ভাবে জমা হবে</li>
+      </ul>
+    </section>
+    
+    <!-- Loading State -->
+    <div class="loading-state" id="loadingState" role="status" aria-live="polite">
+      <div class="loading-spinner"></div>
+      <p>লোড হচ্ছে...</p>
+    </div>
+    
+    <!-- Mock List Grid -->
+    <section class="mock-list" id="mockList" aria-label="মক টেস্ট তালিকা">
+      <!-- Cards injected by mock-app.js -->
+    </section>
+    
+    <!-- Error Container -->
+    <div class="error-container hidden" id="errorContainer" role="alert">
+      <div class="error-message">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#f44336" stroke-width="2">
+          <circle cx="12" cy="12" r="10" />
+          <line x1="12" y1="8" x2="12" y2="12" />
+          <line x1="12" y1="16" x2="12.01" y2="16" />
+        </svg>
+        <p id="errorMessage">ডেটা লোড করতে সমস্যা হয়েছে</p>
+        <button class="btn btn-primary" onclick="location.reload()">
+          আবার চেষ্টা করুন
+        </button>
+      </div>
+    </div>
+    
+  </main>
+  
+  <footer class="footer">
+    <a href="/" aria-label="হোম পেজে যান">← হোমে ফিরুন</a>
+  </footer>
+  
+  <script src="js/mock-storage.js"></script>
+  <script src="js/mock-app.js"></script>
+  
+</body>
+
+</html>
