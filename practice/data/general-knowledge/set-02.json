@@ -1,0 +1,520 @@
+{
+  "subject": "general-knowledge",
+  "set": 2,
+  "questions": [
+    {
+      "id": "gk-02-001",
+      "question": "২০২৪ সালের আইপিএল বিজয়ী দল কোনটি?",
+      "options": [
+        "চেন্নাই সুপার কিংস",
+        "কলকাতা নাইট রাইডার্স",
+        "মুম্বাই ইন্ডিয়ান্স",
+        "গুজরাট টাইটানস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "09-sports",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-02-002",
+      "question": "পৃথিবীর অভ্যন্তরীণ তাপের উৎস কী কী?",
+      "options": [
+        "তেজস্ক্রিয় ক্ষয়",
+        "প্রাথমিক তাপ (মহাকর্ষীয় সংকোচন)",
+        "সূর্যের তাপ",
+        "কেন্দ্রের লৌহ ও নিকেল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "gk-02-003",
+      "question": "নাথুরাম গডসে কোন দলের সাথে যুক্ত ছিলেন?",
+      "options": [
+        "হিন্দু মহাসভা",
+        "আর এস এস",
+        "জমিয়ত উলামায়ে হিন্দ",
+        "জাতীয় স্বয়ংসেবক দল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-02-004",
+      "question": "জাপানের রাজধানীর নাম কী?",
+      "options": [
+        "ওসাকা",
+        "নাগোয়া",
+        "টোকিও",
+        "ইয়োকোহামা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "07-political-geography",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-005",
+      "question": "মেঘালয়ের রাজধানী কোথায়?",
+      "options": [
+        "তুরা",
+        "শিলং",
+        "জাওয়াই",
+        "বাঘমারা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "07-political-geography",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-006",
+      "question": "X-রে কে আবিষ্কার করেন?",
+      "options": [
+        "হেনরি বেকারেল",
+        "ডব্লিউ. সি. রন্টজেন",
+        "জে. জে. থমসন",
+        "এনরিকো ফার্মি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "08-science-and-technology",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-007",
+      "question": "খেদা সত্যাগ্রহ কত সালে হয়েছিল?",
+      "options": [
+        "1916",
+        "1917",
+        "1918",
+        "1919"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-02-008",
+      "question": "আজাদ হিন্দ ফৌজের প্রতিষ্ঠাতা কে?",
+      "options": [
+        "জওহরলাল নেহরু",
+        "মহাত্মা গান্ধী",
+        "সুভাষচন্দ্র বসু",
+        "বাল গঙ্গাধর তিলক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-009",
+      "question": "'লাল-বাল-পাল' ত্রয়ীর মধ্যে কে ছিলেন না?",
+      "options": [
+        "লালা লাজপত রায়",
+        "বাল গঙ্গাধর তিলক",
+        "বিপিন চন্দ্র পাল",
+        "গোপাল কৃষ্ণ গোখলে"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-010",
+      "question": "প্রতিস্থাপনযোগ্য অঙ্গ (Transplant) সংরক্ষণে ক্রায়োপ্রিজারভেশন (Cryopreservation) কৌশল কী কাজে লাগে?",
+      "options": [
+        "অঙ্গকে গরম রাখতে",
+        "অতি নিম্ন তাপমাত্রায় অঙ্গ সংরক্ষণ করতে",
+        "অঙ্গকে রাসায়নিকভাবে শোধন করতে",
+        "অঙ্গ দ্রুত শুকিয়ে ফেলতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "08-science-and-technology",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-02-011",
+      "question": "উলারের হ্রদ কোথায় অবস্থিত?",
+      "options": [
+        "হিমাচল প্রদেশ",
+        "পাঞ্জাব",
+        "জম্মু ও কাশ্মীর",
+        "উত্তরাখণ্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-02-012",
+      "question": "নিচের কোন স্থান ইউনেস্কো স্বীকৃতি পেয়েছে?",
+      "options": [
+        "ভারত সৌন্দর্য",
+        "দার্জিলিং হিমালয়ান রেলওয়ে",
+        "সুন্দরবন",
+        "হাওড়া সেতু"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-02-013",
+      "question": "ভারতের প্রথম মহিলা প্রধানমন্ত্রী কে?",
+      "options": [
+        "অন্না চান্ডি",
+        "ইন্দিরা গান্ধী",
+        "প্রণব মুখার্জি",
+        "রানী লক্ষ্মীবাঈ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "04-indian-history",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-014",
+      "question": "পৃথিবীর কেন্দ্রমণ্ডল প্রধান কী দিয়ে গঠিত?",
+      "options": [
+        "সিলিকন ও অ্যালুমিনিয়াম",
+        "লোহা ও নিকেল (Nife)",
+        "অক্সিজেন ও হাইড্রোজেন",
+        "সোডিয়াম ও পটাশিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-015",
+      "question": "BLIS (Bhabha Atomic Research Centre) কোথায় অবস্থিত?",
+      "options": [
+        "কলকাতা",
+        "মুম্বাই (ট্রম্বে)",
+        "চেন্নাই",
+        "হায়দ্রাবাদ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "08-science-and-technology",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-02-016",
+      "question": "জালিয়ানওয়ালাবাগ হত্যাকাণ্ড কত তারিখে ঘটে?",
+      "options": [
+        "13 এপ্রিল 1919",
+        "13 এপ্রিল 1920",
+        "11 এপ্রিল 1919",
+        "15 এপ্রিল 1919"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-017",
+      "question": "ভারতের কোন রাজ্য সবচেয়ে বেশি চা উৎপন্ন করে?",
+      "options": [
+        "কেরালা",
+        "কর্ণাটক",
+        "আসাম",
+        "পশ্চিমবঙ্গ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-018",
+      "question": "মাঝখান দিয়ে বিষুবরেখা যায় এমন মহাদেশ কোনটি?",
+      "options": [
+        "এশিয়া",
+        "ইউরোপ",
+        "আফ্রিকা",
+        "অস্ট্রেলিয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-019",
+      "question": "পশ্চিমবঙ্গের মুখ্যমন্ত্রী কে ছিলেন যিনি সবচেয়ে দীর্ঘ সময় ক্ষমতায় ছিলেন?",
+      "options": [
+        "প্রফুল্ল চন্দ্র সেন",
+        "সিদ্ধার্থশঙ্কর রায়",
+        "জ্যোতি বসু",
+        "মমতা বন্দ্যোপাধ্যায়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-020",
+      "question": "ফিফা ফুটবল বিশ্বকাপ ২০২২ বিজয়ী কোন দেশ?",
+      "options": [
+        "ফ্রান্স",
+        "ব্রাজিল",
+        "জার্মানি",
+        "আর্জেন্টিনা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "09-sports",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-021",
+      "question": "সতীদাহ প্রথার বিরুদ্ধে যারা আন্দোলন করেছিলেন তারা কে কে?",
+      "options": [
+        "রাজা রামমোহন রায়",
+        "লর্ড বেন্টিঙ্ক",
+        "ইশ্বরচন্দ্র বিদ্যাসাগর",
+        "লর্ড ডেলহাউসি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "04-indian-history",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-02-022",
+      "question": "শিক্ষার অধিকার কোন সংশোধনীর মাধ্যমে সংবিধানে যুক্ত হয়?",
+      "options": [
+        "42তম সংশোধনী",
+        "44তম সংশোধনী",
+        "86তম সংশোধনী",
+        "73তম সংশোধনী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "05-indian-polity",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-02-023",
+      "question": "ভারতের প্রথম মহিলা প্রধানমন্ত্রী কে ছিলেন?",
+      "options": [
+        "সোনিয়া গান্ধী",
+        "প্রণব মুখার্জি",
+        "ইন্দিরা গান্ধী",
+        "অনিতা আর. কুমার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-024",
+      "question": "নিচের কোন শহরটি রেল নেটওয়ার্কের গুরুত্বপূর্ণ জংশন?",
+      "options": [
+        "হাওড়া",
+        "শিয়ালদহ",
+        "দুর্গাপুর",
+        "বালুরঘাট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-02-025",
+      "question": "পশ্চিমবঙ্গের নিচে কোন নদী ও তাদের উপাধি সঠিক?",
+      "options": [
+        "দামোদর - বাংলার দুঃখ",
+        "গঙ্গা - পশ্চিমবঙ্গের প্রধান নদী",
+        "তিস্তা - সিকিম থেকে আসে",
+        "অজয় - হুগলি জেলায় অবস্থিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-02-026",
+      "question": "সুনীল ছেত্রী নিম্নলিখিত কোন কোন বিষয়ে ভারতের রেকর্ডধারী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "আন্তর্জাতিক ফুটবলে সর্বোচ্চ গোলদাতা (ভারতীয়)",
+        "সর্বাধিক ম্যাচ খেলা ভারতীয় ফুটবলার",
+        "ক্রিকেটে সর্বাধিক সেঞ্চুরি",
+        "হকি বিশ্বকাপজয়ী"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "09-sports",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "gk-02-027",
+      "question": "'আজাদ হিন্দ সেনা' সম্পর্কে সঠিক তথ্য নির্বাচন করো।",
+      "options": [
+        "সুভাষ চন্দ্র বসু ১৯৪৩ সালে এর দায়িত্ব নেন",
+        "এটি ব্রিটিশ বিরোধী সশস্ত্র বাহিনী ছিল",
+        "সিঙ্গাপুরে আজাদ হিন্দ সরকার গঠিত হয়",
+        "রানী অফ ঝাঁসি রেজিমেন্ট ছিল এর উল্লেখযোগ্য অংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-02-028",
+      "question": "সংযুক্ত আরব আমিরাতের (UAE) রাজধানীর নাম কী?",
+      "options": [
+        "দুবাই",
+        "আবুধাবি",
+        "শারজাহ",
+        "আজমান"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "07-political-geography",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-029",
+      "question": "ভারতীয় জাতীয় কংগ্রেস কত সালে প্রতিষ্ঠিত হয়?",
+      "options": [
+        "1883",
+        "1885",
+        "1887",
+        "1889"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-02-030",
+      "question": "নীরজ চোপড়া টোকিও ২০২০ অলিম্পিকে কোন খেলায় স্বর্ণপদক জিতেছিলেন?",
+      "options": [
+        "কুস্তি",
+        "বক্সিং",
+        "জ্যাভলিন থ্রো",
+        "ব্যাডমিন্টন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "09-sports",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}

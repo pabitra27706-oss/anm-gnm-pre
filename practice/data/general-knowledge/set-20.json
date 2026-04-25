@@ -1,0 +1,523 @@
+{
+  "subject": "general-knowledge",
+  "set": 20,
+  "questions": [
+    {
+      "id": "gk-20-001",
+      "question": "নোবেল পুরস্কার কত সালে প্রথম প্রবর্তিত হয়?",
+      "options": [
+        "1895",
+        "1900",
+        "1901",
+        "1905"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "01-awards-and-honours",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-002",
+      "question": "বেলুড় মঠ কোথায় অবস্থিত?",
+      "options": [
+        "কলকাতা",
+        "হাওড়া",
+        "দক্ষিণেশ্বর",
+        "বেলুড়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-003",
+      "question": "গঙ্গা-ব্রহ্মপুত্র ডেল্টা কোন দুটি দেশে বিস্তৃত?",
+      "options": [
+        "ভারত ও নেপাল",
+        "ভারত ও পাকিস্তান",
+        "ভারত ও বাংলাদেশ",
+        "ভারত ও মায়ানমার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-004",
+      "question": "বুদ্ধের চারটি অমৃত সত্য কী কী?",
+      "options": [
+        "জীবন দুঃখময়",
+        "তৃষ্ণা দুঃখের কারণ",
+        "তৃষ্ণা বিনাশ মার্গ",
+        "ধন সঞ্চয় কাম্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "04-indian-history",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-20-005",
+      "question": "'চাঁদের পাহাড়' উপন্যাসটির রচয়িতা কে?",
+      "options": [
+        "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+        "সত্যজিৎ রায়",
+        "বিমল কর",
+        "কাজী নজরুল ইসলাম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "02-books-and-authors",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-006",
+      "question": "ভারতের প্রথম প্রধানমন্ত্রী কে ছিলেন?",
+      "options": [
+        "রাজেন্দ্র প্রসাদ",
+        "সর্দার প্যাটেল",
+        "জওহরলাল নেহেরু",
+        "মহাত্মা গান্ধী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "04-indian-history",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-007",
+      "question": "গান্ধীজির নিহত হওয়ার পরিস্থিতি সম্পর্কে সঠিক তথ্য নির্বাচন করো।",
+      "options": [
+        "১৯৪৮ সালের ৩০ জানুয়ারি দিল্লির বিড়লা হাউসে",
+        "নাথুরাম গডসে তাঁকে গুলি করে",
+        "গডসে হিন্দু মহাসভার সাথে যুক্ত ছিলেন",
+        "ঘটনার পর সারা দেশে শোকের ছায়া নেমে আসে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-20-008",
+      "question": "ভারতের প্রথম কৃত্রিম উপগ্রহের নাম কী?",
+      "options": [
+        "ভাস্কর",
+        "আর্যভট্ট",
+        "রোহিণী",
+        "ইনস্যাট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "08-science-and-technology",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-009",
+      "question": "মোট কয়টি বিভাগে নোবেল পুরস্কার দেওয়া হয়?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "01-awards-and-honours",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-010",
+      "question": "নিচের কোনটি কমব্যাট স্পোর্টস (Combat Sports)? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বক্সিং",
+        "জুডো",
+        "কুস্তি",
+        "দাবা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "09-sports",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-20-011",
+      "question": "নিচের কোন নদীগুলি হিমালয় থেকে উৎপন্ন?",
+      "options": [
+        "গঙ্গা",
+        "যমুনা",
+        "ব্রহ্মপুত্র",
+        "গোদাবরী"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-20-012",
+      "question": "বারদৌলি সত্যাগ্রহের নেতৃত্ব দিয়েছিলেন কে?",
+      "options": [
+        "মহাত্মা গান্ধী",
+        "জওহরলাল নেহরু",
+        "সর্দার বল্লভভাই প্যাটেল",
+        "মোরারজি দেসাই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-013",
+      "question": "নিচের কোন জোড়াগুলি সঠিক (রাজ্য - রাজধানী)?",
+      "options": [
+        "আসাম - ডিসপুর",
+        "তেলেঙ্গানা - হায়দ্রাবাদ",
+        "সিকিম - গ্যাংটক",
+        "গোয়া - পানাজি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "07-political-geography",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "gk-20-014",
+      "question": "ভারতীয় সংবিধান কবে কার্যকর হয়?",
+      "options": [
+        "15 আগস্ট 1947",
+        "26 জানুয়ারি 1950",
+        "26 নভেম্বর 1949",
+        "26 জানুয়ারি 1949"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "05-indian-polity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-015",
+      "question": "'পূর্ণ স্বরাজ' এর দাবি কবে ঘোষিত হয়?",
+      "options": [
+        "26 জানুয়ারি 1929",
+        "26 জানুয়ারি 1930",
+        "26 জানুয়ারি 1931",
+        "26 জানুয়ারি 1932"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-016",
+      "question": "ভারতের জাতীয় ক্রীড়া কী?",
+      "options": [
+        "ক্রিকেট",
+        "ফুটবল",
+        "হকি",
+        "ব্যাডমিন্টন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "05-indian-polity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-017",
+      "question": "পৃথিবীর সর্বোচ্চ মালভূমি কোনটি?",
+      "options": [
+        "তিব্বতের মালভূমি",
+        "দাক্ষিণাত্যের মালভূমি",
+        "ইরানের মালভূমি",
+        "বোলিভিয়ার মালভূমি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-20-018",
+      "question": "শান্তিনিকেতন কোথায় অবস্থিত?",
+      "options": [
+        "হুগলি জেলা",
+        "বর্ধমান জেলা",
+        "বীরভূম জেলা",
+        "নদিয়া জেলা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-019",
+      "question": "নিম্নলিখিত কৃতিত্বগুলি আলোচনা কর: ভারতীয় বংশোদ্ভূত বিজ্ঞানী কাদের NASA-তে গুরুত্বপূর্ণ ভূমিকা আছে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সুনীতা উইলিয়ামস",
+        "কল্পনা চাওলা",
+        "রাজা চারি",
+        "টেসলা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "08-science-and-technology",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-20-020",
+      "question": "'দ্বি-জাতি তত্ত্ব' (Two-Nation Theory) কে প্রস্তাব করেন?",
+      "options": [
+        "মুহাম্মদ ইকবাল",
+        "মোহাম্মদ আলী জিন্নাহ",
+        "স্যার সৈয়দ আহমদ খান",
+        "লিয়াকত আলি খান"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-20-021",
+      "question": "অশোক কালিঙ্গ যুদ্ধের পর কোন ধর্ম গ্রহণ করেছিলেন?",
+      "options": [
+        "জৈন ধর্ম",
+        "হিন্দু ধর্ম",
+        "বৌদ্ধ ধর্ম",
+        "ইসলাম ধর্ম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "04-indian-history",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-022",
+      "question": "রবীন্দ্রনাথ ঠাকুর কোন বিষয়ে নোবেল পুরস্কার পান?",
+      "options": [
+        "পদার্থবিদ্যা",
+        "রসায়ন",
+        "সাহিত্য",
+        "শান্তি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-023",
+      "question": "নিচের কোন বন্দর পশ্চিমবঙ্গে অবস্থিত?",
+      "options": [
+        "হলদিয়া বন্দর",
+        "কোলকাতা বন্দর",
+        "পারাদ্বীপ বন্দর",
+        "কামারাজার বন্দর"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "gk-20-024",
+      "question": "পশ্চিমবঙ্গের ক্ষেত্রফলের দিক থেকে সবচেয়ে ছোট জেলা কোনটি?",
+      "options": [
+        "হাওড়া",
+        "কলকাতা",
+        "কোচবিহার",
+        "দার্জিলিং"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "10-west-bengal-gk",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-025",
+      "question": "পৃথিবীর সবচেয়ে পুরু স্তর কোনটি?",
+      "options": [
+        "ভূত্বক (Crust)",
+        "গুরুমণ্ডল (Mantle)",
+        "কেন্দ্রমণ্ডল (Core)",
+        "বায়ুমণ্ডল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gk-20-026",
+      "question": "ভারতের সর্বোচ্চ সাহিত্য পুরস্কার কোনটি?",
+      "options": [
+        "সাহিত্য অকাদেমি পুরস্কার",
+        "জ্ঞানপীঠ পুরস্কার",
+        "সারস্বত সম্মান",
+        "বঙ্কিম পুরস্কার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "01-awards-and-honours",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-027",
+      "question": "কনিষ্ক কোন ধর্মের পৃষ্ঠপোষক ছিলেন?",
+      "options": [
+        "হিন্দু",
+        "জৈন",
+        "বৌদ্ধ",
+        "সুফি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "04-indian-history",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "gk-20-028",
+      "question": "মরুত্বের সাথে কোন ধরনের জলবায়ু সম্পর্কিত?",
+      "options": [
+        "পানির অভাব",
+        "বেশি বৃষ্টি",
+        "ঠাণ্ডা আবহাওয়া",
+        "শুষ্ক ও বিরল বৃষ্টিপাত"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "06-physical-geography",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-029",
+      "question": "'ইনকিলাব জিন্দাবাদ' স্লোগানটি কে দিয়েছিলেন?",
+      "options": [
+        "মহাত্মা গান্ধী",
+        "জওহরলাল নেহরু",
+        "ভগৎ সিং",
+        "সর্দার প্যাটেল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "03-indian-freedom-struggle",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gk-20-030",
+      "question": "এ.আর. রহমান কয়টি অস্কার পেয়েছেন?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-knowledge",
+      "unit": "01-awards-and-honours",
+      "type": "memory",
+      "difficulty": "hard"
+    }
+  ]
+}
