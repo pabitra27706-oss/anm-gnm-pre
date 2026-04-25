@@ -1,0 +1,534 @@
+{
+  "subject": "english-grammar",
+  "set": 6,
+  "questions": [
+    {
+      "id": "eg-06-001",
+      "question": "Which subjects take a singular verb even though they end in \"s\"? (More than one answer may be correct)",
+      "options": [
+        "Politics",
+        "Economics",
+        "Scissors",
+        "Trousers"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "08-subject-verb-agreement",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "eg-06-002",
+      "question": "Which arrangements correctly form meaningful sentences from: daily / exercises / perform / these / should / you ? (More than one answer may be correct)",
+      "options": [
+        "You should perform these exercises daily",
+        "Daily you should perform these exercises",
+        "These exercises you should perform daily",
+        "Perform daily you should these exercises"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "07-sentence-rearrangement",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "eg-06-003",
+      "question": "I _____ him since childhood.",
+      "options": [
+        "know",
+        "knew",
+        "have known",
+        "am knowing"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "10-tenses",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-004",
+      "question": "He is addicted _____ drugs.",
+      "options": [
+        "to",
+        "with",
+        "of",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "04-fill-in-the-blanks",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-005",
+      "question": "Which words mean \"one who studies animals/plants\"? (More than one answer may be correct)",
+      "options": [
+        "Zoologist",
+        "Botanist",
+        "Biologist",
+        "Geologist"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "05-one-word-substitution",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "eg-06-006",
+      "question": "Rearrange: to / need / we / also / plenty / of / rest / take / sleep / and",
+      "options": [
+        "We also need to take plenty of rest and sleep",
+        "Need we also to take plenty of rest and sleep",
+        "Plenty of rest and sleep we also need to take",
+        "Take plenty of rest and sleep we also need"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "07-sentence-rearrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-007",
+      "question": "The patient had died _____ the doctor arrived.",
+      "options": [
+        "before",
+        "after",
+        "when",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "04-fill-in-the-blanks",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-008",
+      "question": "Identify the correct negative sentences. (More than one answer may be correct)",
+      "options": [
+        "She does not like coffee.",
+        "He did not went to school.",
+        "They have not finished their work.",
+        "I will not go there."
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "10-tenses",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "eg-06-009",
+      "question": "Which sentences correctly use \"for\" and \"since\"? (More than one answer may be correct)",
+      "options": [
+        "I have been waiting for two hours.",
+        "She has lived here since 2015.",
+        "He has been ill since three days.",
+        "They have known me for ten years."
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "10-tenses",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "eg-06-010",
+      "question": "One who studies birds is an:",
+      "options": [
+        "Entomologist",
+        "Ornithologist",
+        "Paleontologist",
+        "Biologist"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "05-one-word-substitution",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-011",
+      "question": "Let's go for a walk, _____ ?",
+      "options": [
+        "will we",
+        "shall we",
+        "won't we",
+        "don't we"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "04-fill-in-the-blanks",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "eg-06-012",
+      "question": "The United Nations _____ its headquarters in New York.",
+      "options": [
+        "have",
+        "are",
+        "were",
+        "has"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "08-subject-verb-agreement",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-013",
+      "question": "Please _____ the light. It is dark here.",
+      "options": [
+        "put on",
+        "turn on",
+        "switch off",
+        "put off"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "04-fill-in-the-blanks",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-014",
+      "question": "Which sentences have errors in tense usage? (More than one answer may be correct)",
+      "options": [
+        "She has gone to Kolkata yesterday.",
+        "I have finished my homework.",
+        "He had went to the market.",
+        "They were playing when I came."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "10-tenses",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "eg-06-015",
+      "question": "Nothing _____ impossible in this world.",
+      "options": [
+        "are",
+        "were",
+        "have",
+        "is"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "08-subject-verb-agreement",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-016",
+      "question": "Which sentences are correct? (More than one answer may be correct)",
+      "options": [
+        "Nothing is impossible.",
+        "Nothing are impossible.",
+        "Everything is fine.",
+        "Everything are fine."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "08-subject-verb-agreement",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "eg-06-017",
+      "question": "BEGINNING is closest in meaning to:",
+      "options": [
+        "End",
+        "Completion",
+        "Start",
+        "Conclusion"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "09-synonyms",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-018",
+      "question": "Select the synonyms of FRIEND. (More than one answer may be correct)",
+      "options": [
+        "Enemy",
+        "Companion",
+        "Ally",
+        "Foe"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "09-synonyms",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "eg-06-019",
+      "question": "Choose the correct transition for contrast.",
+      "options": [
+        "Furthermore",
+        "Therefore",
+        "However",
+        "In addition"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "03-basic-writing-skills",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-020",
+      "question": "______ dog is a faithful animal.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "02-articles",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-021",
+      "question": "DILIGENT is closest in meaning to:",
+      "options": [
+        "Lazy",
+        "Idle",
+        "Hardworking",
+        "Negligent"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "09-synonyms",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-022",
+      "question": "Place where books are kept is a:",
+      "options": [
+        "Library",
+        "Archive",
+        "Museum",
+        "Gallery"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "05-one-word-substitution",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-023",
+      "question": "Which are antonyms of RICH? (More than one answer may be correct)",
+      "options": [
+        "Wealthy",
+        "Poor",
+        "Affluent",
+        "Destitute"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "01-antonyms",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "eg-06-024",
+      "question": "Which words mean the same as CRUEL? (More than one answer may be correct)",
+      "options": [
+        "Brutal",
+        "Kind",
+        "Merciless",
+        "Gentle"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "09-synonyms",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "eg-06-025",
+      "question": "PRAISE is opposite to:",
+      "options": [
+        "Compliment",
+        "Criticize",
+        "Applaud",
+        "Commend"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "01-antonyms",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-026",
+      "question": "Divide the chocolates ______ five children.",
+      "options": [
+        "between",
+        "among",
+        "in",
+        "within"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "06-prepositions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "eg-06-027",
+      "question": "Not only the principal but also the teachers _____ invited.",
+      "options": [
+        "was",
+        "has",
+        "is",
+        "were"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "08-subject-verb-agreement",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-028",
+      "question": "Which time change is correct in indirect speech? He said, \"I met her yesterday.\"",
+      "options": [
+        "He said that he met her yesterday.",
+        "He said that he had met her the day before.",
+        "He said that he had met her yesterday.",
+        "He said that he met her the day before."
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "03-basic-writing-skills",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "eg-06-029",
+      "question": "Identify the sentences with incorrect use of comparatives without \"than\". (More than one answer may be correct)",
+      "options": [
+        "She is taller than her sister.",
+        "He is more intelligent.",
+        "This medicine is better.",
+        "She is stronger than him."
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "11-error-spotting",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "eg-06-030",
+      "question": "Choose the correct synonym of ADMONISH.",
+      "options": [
+        "Praise",
+        "Reprimand",
+        "Ignore",
+        "Entertain"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "english-grammar",
+      "unit": "09-synonyms",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

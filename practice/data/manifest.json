@@ -1,66 +1,54 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2026-01-01",
   "subjects": {
     "life-science": {
       "name": "জীবন বিজ্ঞান",
       "english": "Life Science",
-      "sets": 66,
-      "totalSets": 66,
+      "sets": 70,
       "questionsPerSet": 50,
-      "color": "#22c55e",
-      "colorLight": "#dcfce7",
-      "icon": "microscope"
+      "totalQuestions": 3500,
+      "color": "#4caf50"
     },
-    "physical-science": {
-      "name": "ভৌত বিজ্ঞান",
-      "english": "Physical Science",
-      "sets": 11,
-      "totalSets": 11,
+    "general-science": {
+      "name": "সাধারণ বিজ্ঞান",
+      "english": "General Science",
+      "sets": 146,
       "questionsPerSet": 30,
-      "color": "#3b82f6",
-      "colorLight": "#dbeafe",
-      "icon": "atom"
+      "totalQuestions": 4380,
+      "color": "#2196f3"
     },
-    "mathematics": {
+    "arithmetic-mathematics": {
       "name": "গণিত",
       "english": "Mathematics",
-      "sets": 10,
-      "totalSets": 10,
+      "sets": 144,
       "questionsPerSet": 30,
-      "color": "#f59e0b",
-      "colorLight": "#fef3c7",
-      "icon": "calculator"
+      "totalQuestions": 4320,
+      "color": "#ff9800"
+    },
+    "reasoning-general-knowledge": {
+      "name": "যুক্তিবিদ্যা ও সাধারণ জ্ঞান",
+      "english": "Reasoning & GK",
+      "sets": 24,
+      "questionsPerSet": 30,
+      "totalQuestions": 720,
+      "color": "#e91e63"
     },
     "general-knowledge": {
       "name": "সাধারণ জ্ঞান",
       "english": "General Knowledge",
-      "sets": 10,
-      "totalSets": 10,
+      "sets": 42,
       "questionsPerSet": 30,
-      "color": "#8b5cf6",
-      "colorLight": "#ede9fe",
-      "icon": "globe"
+      "totalQuestions": 1260,
+      "color": "#9c27b0"
     },
-    "logical-reasoning": {
-      "name": "যুক্তিবিদ্যা",
-      "english": "Logical Reasoning",
-      "sets": 10,
-      "totalSets": 10,
+    "english-grammar": {
+      "name": "ইংরেজি ব্যাকরণ",
+      "english": "English Grammar",
+      "sets": 41,
       "questionsPerSet": 30,
-      "color": "#ec4899",
-      "colorLight": "#fce7f3",
-      "icon": "brain"
-    },
-    "basic-english": {
-      "name": "ইংরেজি",
-      "english": "Basic English",
-      "sets": 10,
-      "totalSets": 10,
-      "questionsPerSet": 30,
-      "color": "#14b8a6",
-      "colorLight": "#ccfbf1",
-      "icon": "book"
+      "totalQuestions": 1230,
+      "color": "#00bcd4"
     }
-  }
+  },
+  "totalFiles": 467,
+  "totalQuestions": 15410
 }
