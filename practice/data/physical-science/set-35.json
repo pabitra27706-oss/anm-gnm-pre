@@ -1,0 +1,508 @@
+{
+  "subject": "general-science",
+  "set": 35,
+  "questions": [
+    {
+      "id": "ge-35-001",
+      "question": "একটি বস্তুকে 10 m উচ্চতায় তুললে তার বিভব শক্তি 1000 J; বস্তুর ভর কত? (g=10 m/s²)",
+      "options": [
+        "10 kg",
+        "1 kg",
+        "100 kg",
+        "0.1 kg"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-002",
+      "question": "অবতল দর্পণের ফোকাস দূরত্ব নিচের কোনটির সমান?",
+      "options": [
+        "R",
+        "R/2",
+        "2R",
+        "3R"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-003",
+      "question": "[NUMERICAL] STP-তে 5.6 L আয়তনের একটি গ্যাসের ভর 11g। গ্যাসটির আণবিক ভর কত?",
+      "options": [
+        "22",
+        "44",
+        "32",
+        "28"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-35-004",
+      "question": "pH স্কেলের বিস্তার (Range) কত পর্যন্ত হয়?",
+      "options": [
+        "1-10",
+        "0-14",
+        "0-7",
+        "7-14"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-005",
+      "question": "তাপ ইঞ্জিনের কর্মদক্ষতা বাড়ানোর উপায় কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ উৎসের তাপমাত্রা বাড়িয়ে",
+        "তাপ গ্রাহকের তাপমাত্রা কমিয়ে",
+        "ঘর্ষণ কমিয়ে",
+        "ইঞ্জিন ঠান্ডা করে"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-35-006",
+      "question": "একটি অধাতু যা তড়িৎ পরিবহন করে এবং অনুঘটক হিসেবেও ব্যবহৃত হতে পারে—",
+      "options": [
+        "সালফার",
+        "গ্রাফাইট",
+        "ফসফরাস",
+        "আয়োডিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-007",
+      "question": "নিচের কোনটি উত্তল লেন্সের ব্যবহার? (i) ক্যামেরা (ii) অণুবীক্ষণ যন্ত্র (iii) দূরবীক্ষণ যন্ত্র (iv) গাড়ির সাইড মিরর",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-008",
+      "question": "Cl⁻ আয়নে ইলেকট্রন সংখ্যা কত? (Cl: Z=17)",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "35.5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-009",
+      "question": "ক্ষারীয় মাটির অম্লতা দূর করতে চাষীরা জমিতে কী ব্যবহার করেন?",
+      "options": [
+        "ইউরিয়া",
+        "চুন",
+        "জিপসাম",
+        "সাধারণ লবণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-010",
+      "question": "তড়িৎ ক্ষমতা P, বিভব V ও তড়িৎ I এর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "P = I/V",
+        "P = V/I",
+        "P = VI",
+        "P = V²I"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-011",
+      "question": "আলুর চিপসের প্যাকেটে জারণ রোধ করার জন্য কোন গ্যাস ভরা থাকে?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "Chlorine"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-012",
+      "question": "আর্সেনিক দূষণের প্রধান ফলাফল কী?",
+      "options": [
+        "ব্ল্যাক ফুট ডিজিজ ও ত্বকের ক্যান্সার",
+        "অস্থি ক্ষয়",
+        "দাঁতের এনামেল ক্ষয়",
+        "রক্তাল্পতা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-013",
+      "question": "পর্যায় সারণির পর্যায়ের সংখ্যা কত?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-014",
+      "question": "নিচের কোনটি প্রাকৃতিক উৎস থেকে প্রাপ্ত জৈব যৌগ? (i) সুগার (ii) স্টার্চ (iii) সেলুলোজ (iv) প্রোটিন",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-015",
+      "question": "300 K তাপমাত্রা সেলসিয়াসে কত?",
+      "options": [
+        "573°C",
+        "27°C",
+        "-27°C",
+        "300°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-016",
+      "question": "5 Ω ও 20 Ω রোধ সমান্তরালে যুক্ত করে 20 V ব্যাটারির সঙ্গে যুক্ত করলে ব্যাটারি থেকে কত তড়িৎ প্রবাহিত হবে?",
+      "options": [
+        "4 A",
+        "5 A",
+        "1 A",
+        "0.8 A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-35-017",
+      "question": "4Fe + 3O₂ → 2Fe₂O₃ — এই বিক্রিয়াটি কোন পদ্ধতির উদাহরণ?",
+      "options": [
+        "Corrosion (Rusting)",
+        "Rancidity",
+        "Photosynthesis",
+        "Neutralization"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-018",
+      "question": "আল্ট্রাসোনোগ্রাফিতে (USG) ব্যবহৃত শব্দের কম্পাঙ্ক কত?",
+      "options": [
+        "20 Hz এর কম",
+        "20 Hz থেকে 20,000 Hz",
+        "20,000 Hz এর বেশি",
+        "5 Hz এর সমান"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-019",
+      "question": "NaCl তড়িৎ বিশ্লেষণে পারদ ক্যাথোড ব্যবহার করলে— (বহু-সঠিক)",
+      "options": [
+        "সোডিয়াম অ্যামালগাম তৈরি হয়",
+        "ক্লোরিন গ্যাস নির্গত হয়",
+        "দ্রবণে NaOH তৈরি হয় না",
+        "কস্টিক সোডা পাওয়ার জন্য বিশেষ পদ্ধতি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-35-020",
+      "question": "পারমাণবিক ভর একক (amu) হিসেবে কোন পরমাণুকে আদর্শ ধরা হয়?",
+      "options": [
+        "H-1",
+        "C-12",
+        "O-16",
+        "N-14"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-021",
+      "question": "0 K তাপমাত্রাকে সেলসিয়াস স্কেলে প্রকাশ করলে মান কত হবে?",
+      "options": [
+        "273°C",
+        "0°C",
+        "-273°C",
+        "-100°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-022",
+      "question": "সমতল দর্পণে প্রতিবিম্বের প্রকৃতি কেমন?",
+      "options": [
+        "বাস্তব ও অবশীর্ষ",
+        "বাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও অবশীর্ষ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-023",
+      "question": "প্রিজম দিয়ে সূর্যালোক চালনা করলে কয়টি রঙ পাওয়া যায়?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-35-024",
+      "question": "কেলভিন স্কেলে তাপমাত্রার মান কখনোই—",
+      "options": [
+        "ঋণাত্মক হয় না",
+        "-273 এর নিচে যায় না",
+        "শূন্য হতে পারে না",
+        "সেলসিয়াসের সমান হয় না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-35-025",
+      "question": "নিচের কোনগুলি তাপের (Heat) বৈশিষ্ট্য? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "এটি তাপমাত্রার কারণ",
+        "এটি শক্তির একটি রূপ",
+        "এটি স্থানান্তরিত হয়",
+        "এর একক কেলভিন"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-35-026",
+      "question": "নিচের কোনগুলি অজৈব বা খনিজ অ্যাসিড?",
+      "options": [
+        "হাইড্রোক্লোরিক অ্যাসিড",
+        "সালফিউরিক অ্যাসিড",
+        "সাইট্রিক অ্যাসিড",
+        "ফসফরিক অ্যাসিড"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-35-027",
+      "question": "কাপড় কাচার সোডায় (Washing Soda) কেলাস জলের সংখ্যা কত?",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-028",
+      "question": "R₁ ও R₂ রোধ সমান্তরালে যুক্ত, তাদের তুল্য রোধ Rₚ এবং তারা শ্রেণিতে যুক্ত হলে Rs। নিচের কোন সম্পর্কটি সঠিক?",
+      "options": [
+        "Rₚ > R₁ > R₂",
+        "Rs > R₁ > R₂ > Rₚ",
+        "Rs < R₁ < R₂",
+        "Rₚ = (R₁+R₂)/Rs"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-35-029",
+      "question": "নির্জলা দহন (Complete combustion) কিসের পরিমাণ কমাতে সাহায্য করে?",
+      "options": [
+        "CO₂",
+        "O₂",
+        "CO",
+        "N₂"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-35-030",
+      "question": "[NUMERICAL] শব্দের বেগ 330 m/s এবং পর্যায়কাল 0.01 s হলে তরঙ্গদৈর্ঘ্য কত?",
+      "options": [
+        "3.3 m",
+        "33 m",
+        "0.33 m",
+        "330 m"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

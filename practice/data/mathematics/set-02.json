@@ -1,0 +1,529 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 2,
+  "questions": [
+    {
+      "id": "am-02-001",
+      "question": "(a + b)² - (a - b)² = 4ab এটি একটি?",
+      "options": [
+        "সূত্র",
+        "সমীকরণ",
+        "অসমতা",
+        "ধ্রুবক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-002",
+      "question": "0.3 × 0.3 = ?",
+      "options": [
+        "0.09",
+        "0.9",
+        "0.009",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-003",
+      "question": "দুটি বর্গক্ষেত্রের বাহুর অনুপাত 2:3। তাদের ক্ষেত্রফলের অনুপাত কত?",
+      "options": [
+        "2:3",
+        "3:2",
+        "4:9",
+        "9:4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-004",
+      "question": "বার্ষিক 20% হারে কত টাকার 2 বছরের CI 880 টাকা?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-005",
+      "question": "ওজনযুক্ত গড় (Weighted Average) কী?",
+      "options": [
+        "সকল সংখ্যার যোগফল",
+        "গুরুত্ব অনুযায়ী গড়",
+        "শুধুমাত্র মধ্যম মান",
+        "গুণফলের গড়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-006",
+      "question": "42, 56, 70-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 14",
+        "LCM = 840",
+        "840, 7 দ্বারা বিভাজ্য",
+        "14 × 840 = 42×56×70"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-02-007",
+      "question": "(2.5) × (1.2) = ?",
+      "options": [
+        "3.0",
+        "3.00",
+        "30",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-008",
+      "question": "75, 100, 125-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 25",
+        "LCM = 500",
+        "LCM = 1500",
+        "500, 25 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-02-009",
+      "question": "একটি কাজ A 12 দিনে, B 15 দিনে করে। তারা একসাথে 4 দিন কাজ করার পর B চলে গেলে বাকি কাজ A কত দিনে করবে?",
+      "options": [
+        "4.8 দিন",
+        "5.2 দিন",
+        "5.6 দিন",
+        "6 দিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-010",
+      "question": "y-অক্ষের সমীকরণ কী?",
+      "options": [
+        "x = 0",
+        "y = 0",
+        "x = y",
+        "y = 1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-011",
+      "question": "নিচের কোন বিন্দুগুলি X-অক্ষের উপর অবস্থিত?",
+      "options": [
+        "(2,0)",
+        "(-5,0)",
+        "(0,3)",
+        "(0,-4)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-02-012",
+      "question": "একটি গোলকের ব্যাসার্ধ 30% হ্রাস করলে পৃষ্ঠতলের ক্ষেত্রফল কত% হ্রাস পাবে?",
+      "options": [
+        "30%",
+        "51%",
+        "70%",
+        "90%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-02-013",
+      "question": "সরল সুদের ক্ষেত্রে Principal ধনাত্মক না হলে কী হবে?",
+      "options": [
+        "ঋণাত্মক সুদ",
+        "শূন্য সুদ",
+        "অপরিবর্তিত",
+        "হিসাব অসম্ভব"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-014",
+      "question": "একটি রাশির মান নির্ণয়ের জন্য কী কী জানা প্রয়োজন?",
+      "options": [
+        "চলকের মান",
+        "রাশির গঠন",
+        "ধ্রুবকের মান",
+        "রাশির উৎপাদক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-02-015",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 1500 টাকা। 20% ছাড় দিয়ে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "1100 টাকা",
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-016",
+      "question": "15, 20, 25-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 5",
+        "LCM = 150",
+        "LCM = 300",
+        "150, 12 দ্বারা বিভাজ্য নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-02-017",
+      "question": "নিচের রেখা লেখচিত্রে বৃষ্টিপাত (মিমি): Jan: 10, Feb: 15, Mar: 25, Apr: 40, May: 60, Jun: 80 কোন মাসে বৃষ্টিপাত সবচেয়ে বেশি?",
+      "options": [
+        "Apr",
+        "May",
+        "Jun",
+        "Mar"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-018",
+      "question": "2x² + 3x - 5 = 0 সমীকরণটি কী ধরনের?",
+      "options": [
+        "দ্বিঘাত",
+        "সরলরৈখিক",
+        "ত্রিঘাত",
+        "ঘন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-019",
+      "question": "সিলিন্ডারের আয়তন নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "2πrh",
+        "2πr(h + r)",
+        "πr²h",
+        "4πr²"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-020",
+      "question": "একটি গাড়ি 240 কিমি পথ যায় 4 ঘন্টায়। 360 কিমি যেতে কত সময় লাগবে?",
+      "options": [
+        "5 ঘন্টা",
+        "6 ঘন্টা",
+        "7 ঘন্টা",
+        "8 ঘন্টা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-021",
+      "question": "4x² - 9-এর উৎপাদক কোন কোনটি?",
+      "options": [
+        "(2x + 3)",
+        "(2x - 3)",
+        "(4x + 9)",
+        "(x - 9)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-02-022",
+      "question": "3x + 7 = 16 সমীকরণের সমাধান কী কী হবে?",
+      "options": [
+        "x = 3",
+        "3x = 9",
+        "x = 9/3",
+        "x = 4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-02-023",
+      "question": "নিচের রেখা লেখচিত্রে রেলের যাত্রী সংখ্যা (লাখে): 2018: 2.5, 2019: 3.0, 2020: 2.8, 2021: 3.5, 2022: 4.0 কোন বছরে যাত্রী সংখ্যা সর্বাধিক?",
+      "options": [
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-02-024",
+      "question": "কোন জোড় সংখ্যার গসাগু 7 এবং লসাগু 70?",
+      "options": [
+        "7,70",
+        "14,35",
+        "21,70",
+        "35,42"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-02-025",
+      "question": "নিচের কোন কোনটি সঠিক?",
+      "options": [
+        "জোড় + জোড় = জোড়",
+        "জোড় + বিজোড় = জোড়",
+        "বিজোড় + বিজোড় = জোড়",
+        "বিজোড় + জোড় = বিজোড়"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-02-026",
+      "question": "একটি জিনিসের বিক্রয়মূল্য ও ক্রয়মূল্যের অনুপাত 6:5। জিনিসটির লাভের শতকরা হার কত?",
+      "options": [
+        "15%",
+        "18%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-027",
+      "question": "একটি কাজ A 12 দিনে, B 18 দিনে করে। A ও B একসাথে কাজ করে 500 টাকা পেলে B-এর ভাগ কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-028",
+      "question": "একটি জিনিসের বিক্রয়মূল্য ও ক্রয়মূল্যের অনুপাত 7:5 হলে লাভের শতকরা হার কত?",
+      "options": [
+        "35%",
+        "40%",
+        "45%",
+        "50%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-02-029",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "কাজ = সময় × দক্ষতা",
+        "সময় = কাজ/দক্ষতা",
+        "দক্ষতা = কাজ/সময়",
+        "কাজ = সময়/দক্ষতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-02-030",
+      "question": "একজন দোকানদার 800 টাকায় একটি দ্রব্য কিনে 10% ক্ষতিতে বিক্রয় করল। তার বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "710 টাকা",
+        "720 টাকা",
+        "730 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    }
+  ]
+}

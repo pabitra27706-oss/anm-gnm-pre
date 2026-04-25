@@ -1,0 +1,511 @@
+{
+  "subject": "general-science",
+  "set": 89,
+  "questions": [
+    {
+      "id": "ge-89-001",
+      "question": "অ্যাসিড বৃষ্টির কারণে মাটির pH এর কী পরিবর্তন হয়?",
+      "options": [
+        "বৃদ্ধি",
+        "হ্রাস",
+        "অপরিবর্তিত",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-002",
+      "question": "একটি আদর্শ অ্যামিটারের রোধ কেমন হওয়া উচিত?",
+      "options": [
+        "খুব বেশি",
+        "1 Ω",
+        "খুব কম",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-003",
+      "question": "বোর মডেল অনুসারে ইলেকট্রন নিউক্লিয়াসের চারপাশে কীভাবে ঘোরে?",
+      "options": [
+        "যে কোনো পথে",
+        "নির্দিষ্ট কক্ষপথে",
+        "সরলরেখায়",
+        "উপবৃত্তাকার পথে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-004",
+      "question": "পানীয় জলের pH যদি 9.5 হয়, তবে সেটি—",
+      "options": [
+        "আম্লিক",
+        "প্রশম",
+        "ক্ষারীয়",
+        "পানযোগ্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-005",
+      "question": "তাপজনিত কারণে প্রসারণের সূত্র কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ΔL = αL₀ΔT",
+        "Q = mL",
+        "ΔA = βA₀ΔT",
+        "ΔV = γV₀ΔT"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-89-006",
+      "question": "খুব শীতপ্রধান অঞ্চলের তাপমাত্রা মাপতে কোন থার্মোমিটার ব্যবহৃত হয়?",
+      "options": [
+        "পারদ থার্মোমিটার",
+        "অ্যালকোহল থার্মোমিটার",
+        "প্ল্যাটিনাম রোধ থার্মোমিটার",
+        "ডিজিটাল থার্মোমিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-007",
+      "question": "CaO যৌগ সম্পর্কে সঠিক উক্তি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "এটি তড়িৎযোজী",
+        "Ca²⁺ ও O²⁻ আয়ন দ্বারা গঠিত",
+        "এটি পানি শোষণ করে",
+        "এটি একটি আম্লিক অক্সাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-89-008",
+      "question": "নিচের কোনটি 'এস্ট্রিঞ্জেন্ট' (Astringent) হিসেবে ব্যবহৃত হয়?",
+      "options": [
+        "NaCl",
+        "Alum (ফটকিরি)",
+        "NaOH",
+        "HCl"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-009",
+      "question": "বয়েল সূত্রের গাণিতিক প্রকাশ হতে পারে—",
+      "options": [
+        "PV = Constant",
+        "P ∝ 1/V",
+        "P/V = Constant",
+        "V ∝ 1/P"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-89-010",
+      "question": "100 W এর একটি বাতি 10 মিনিট জ্বললে কত শক্তি খরচ হয়?",
+      "options": [
+        "10 kJ",
+        "30 kJ",
+        "60 kJ",
+        "100 kJ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-89-011",
+      "question": "তাপ প্রয়োগে কোন অবস্থার প্রসারণ সবচেয়ে বেশি হয়?",
+      "options": [
+        "কঠিন",
+        "তরল",
+        "গ্যাস",
+        "প্লাজমা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-012",
+      "question": "কোন রঙের আলোর বিচ্যুতি সবচেয়ে বেশি?",
+      "options": [
+        "লাল",
+        "সবুজ",
+        "হলুদ",
+        "বেগুনি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-013",
+      "question": "একটি হিটারে 5 A তড়িৎ প্রবাহিত হলে 1 মিনিটে 66000 J তাপ উৎপন্ন হয়। হিটারের রোধ কত?",
+      "options": [
+        "44 Ω",
+        "220 Ω",
+        "110 Ω",
+        "22 Ω"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-89-014",
+      "question": "সমান্তরাল বর্তনীর প্রধান অসুবিধা কী?",
+      "options": [
+        "তড়িৎ প্রবাহ কমে যাওয়া",
+        "ভোল্টেজের তারতম্য",
+        "অতিরিক্ত তড়িৎ প্রবাহের সম্ভাবনা",
+        "একটি বাতি খারাপ হলে সব বন্ধ হয়ে যাওয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-015",
+      "question": "ভাইটাল ফোর্স তত্ত্বের প্রবক্তা কে ছিলেন?",
+      "options": [
+        "ভোলার",
+        "বার্জেলিয়াস",
+        "ল্যাভয়সিয়ে",
+        "ডাল্টন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-016",
+      "question": "I = Q/t সূত্রটি কিসের?",
+      "options": [
+        "বিভব",
+        "তড়িৎ প্রবাহ",
+        "রোধ",
+        "ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-017",
+      "question": "32°F-কে সেলসিয়াস স্কেলে প্রকাশ কর?",
+      "options": [
+        "-0°C",
+        "0°C",
+        "10°C",
+        "32°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-018",
+      "question": "অতিরিক্ত ফ্লোরাইডের ফলে কোন রোগ হয়?",
+      "options": [
+        "গলগণ্ড",
+        "ফ্লুরোসিস (দাঁত ও হাড়ের রোগ)",
+        "অ্যানিমিয়া",
+        "রাতকানা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-019",
+      "question": "Cu, Al, Fe এগুলোর মধ্যে কোনটি সবচেয়ে ভালো পরিবাহী?",
+      "options": [
+        "Al",
+        "Fe",
+        "Cu",
+        "সব সমান"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-020",
+      "question": "[NUMERICAL] 2 mole H₂SO₄ এর ভর কত?",
+      "options": [
+        "98 g",
+        "196 g",
+        "49 g",
+        "100 g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-021",
+      "question": "10 kg ভরের একটি বস্তু 5 m/s বেগে চললে তার গতিশক্তি কত?",
+      "options": [
+        "100 J",
+        "125 J",
+        "50 J",
+        "250 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-022",
+      "question": "বরফ গলনের সুপ্ততাপের বৈশিষ্ট্য কী কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "একক ক্যালোরি/গ্রাম",
+        "তাপমাত্রা স্থির থাকে",
+        "বরফ কঠিন থেকে তরলে পরিণত হয়",
+        "তাপ প্রয়োগের ফলে কঠিন থেকে সরাসরি গ্যাস হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-89-023",
+      "question": "রিন্ডার সল্ট বা Rock Salt এর বর্ণ অনেক সময় বাদামী হয় কেন?",
+      "options": [
+        "আয়োডিনের উপস্থিতিতে",
+        "অপদ্রব্যের উপস্থিতিতে",
+        "সূর্যের আলোয়",
+        "অক্সাইড তৈরির ফলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-024",
+      "question": "'তাপ এক প্রকার শক্তি' এটি প্রমাণ করেন কে?",
+      "options": [
+        "নিউটন",
+        "জুল",
+        "আইনস্টাইন",
+        "গ্যালিলিও"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-89-025",
+      "question": "এক বস্তুর ভর দ্বিগুণ ও উচ্চতা দ্বিগুণ করলে তার বিভব শক্তি কতগুণ হবে?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-89-026",
+      "question": "2 মিটার ফোকাস দূরত্বের উত্তল লেন্সের ক্ষমতা কত?",
+      "options": [
+        "0.5 D",
+        "2 D",
+        "5 D",
+        "0.2 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-027",
+      "question": "দর্পণ সূত্র 1/f = 1/v + 1/u - এ f কে কী বলে?",
+      "options": [
+        "বক্রতা ব্যাসার্ধ",
+        "ফোকাস দূরত্ব",
+        "প্রতিবিম্ব দূরত্ব",
+        "বস্তু দূরত্ব"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-028",
+      "question": "ভিজে কাপড় শুকোনোর ঘটনাটি কী?",
+      "options": [
+        "স্ফুটন",
+        "গলন",
+        "বাষ্পীভবন",
+        "ঊর্ধ্বপাতন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-89-029",
+      "question": "সাবানের ফেনা (Soap foam) একটি—",
+      "options": [
+        "কোলয়েড",
+        "বিস্তৃত দশা গ্যাস",
+        "বিস্তৃত দশা তরল",
+        "বিস্তার মাধ্যম তরল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-89-030",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) মায়োপিয়ায় দূরের বস্তু দেখতে সমস্যা হয় (ii) হাইপারমেট্রোপিয়ায় কাছের বস্তু দেখতে সমস্যা হয় (iii) প্রেসবায়োপিয়ায় বয়স বাড়ার সাথে সাথে পড়তে অসুবিধা হয় (iv) অ্যাস্টিগমাটিজমে বস্তু বিকৃত দেখায়",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

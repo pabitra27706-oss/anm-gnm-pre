@@ -1,0 +1,519 @@
+{
+  "subject": "general-science",
+  "set": 44,
+  "questions": [
+    {
+      "id": "ge-44-001",
+      "question": "শব্দের তীব্রতা (Intensity) কিসের বর্গের সমানুপাতিক?",
+      "options": [
+        "কম্পাঙ্ক",
+        "বিস্তার",
+        "তরঙ্গদৈর্ঘ্য",
+        "বেগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-44-002",
+      "question": "অ্যাসিড বৃষ্টির জন্য দায়ী অ্যাসিড কোনগুলি?",
+      "options": [
+        "HCl, HF",
+        "H₂SO₄, HNO₃",
+        "CH₃COOH, HCOOH",
+        "HClO₄, HBr"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-003",
+      "question": "নিচের কোনটি পজিটিভ আয়ন?",
+      "options": [
+        "Cl⁻",
+        "O²⁻",
+        "K⁺",
+        "F⁻"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-004",
+      "question": "সমান দৈর্ঘ্যের দুটি তারের মধ্যে একটি মোটা ও একটি সরু। কোনটির রোধ বেশি?",
+      "options": [
+        "মোটা তারের",
+        "সরু তারের",
+        "সমান",
+        "বলা যাবে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-005",
+      "question": "রাসায়নিক সমীকরণ ব্যালেন্স করার সময় কোনটির পরিবর্তন করা যাবে না?",
+      "options": [
+        "Coefficient",
+        "Subscript (সংকেতের নিচের সংখ্যা)",
+        "বিক্রিয়কের সংখ্যা",
+        "বিক্রিয়াজাত পদার্থের সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-44-006",
+      "question": "নিচের কোনটি পলিমার দৈনন্দিন জীবনে ব্যবহৃত হয়? (i) পলিথিন ব্যাগ (ii) নাইলন দড়ি (iii) পিভিসি পাইপ (iv) টেফলন নন-স্টিক প্যান",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-007",
+      "question": "শীতকালে কুয়াশা পড়ার সময় ঠান্ডা কম লাগে কারণ-",
+      "options": [
+        "জলের বাষ্পীভবন কম হয়",
+        "জলের বাষ্পীভবনের সুপ্ততাপ ত্যাগ করে",
+        "মেঘ সূর্যকে ঢেকে রাখে",
+        "বাতাস দ্রুত প্রবাহিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-44-008",
+      "question": "নিচের কোন ক্ষেত্রে পরিবহন পদ্ধতি বিদ্যমান? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "একটি ধাতব দণ্ডের একপ্রান্ত গরম করা",
+        "ইস্ত্রি করা কাপড়",
+        "পুকুরের জল উপরে গরম হওয়া",
+        "রান্নার পাত্র গরম হওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-44-009",
+      "question": "1 mm² = কত m²? (বহু-সঠিক সম্পর্ক)",
+      "options": [
+        "10⁻⁶ m²",
+        "0.000001 m²",
+        "10⁻⁴ m²",
+        "(10⁻³ m)²"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-44-010",
+      "question": "কোনগুলো নিষ্ক্রিয় গ্যাস? (বহু-সঠিক)",
+      "options": [
+        "He",
+        "O₂",
+        "Ar",
+        "Ne"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-44-011",
+      "question": "ভূপৃষ্ঠ থেকে h উচ্চতায় একটি বস্তুর বিভব শক্তি কিসের ওপর নির্ভর করে?",
+      "options": [
+        "ভর",
+        "অভিকর্ষজ ত্বরণ",
+        "উচ্চতা",
+        "সবগুলো"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-012",
+      "question": "অবতল দর্পণ কী জাতীয় দর্পণ?",
+      "options": [
+        "সমতল দর্পণ",
+        "অপসারী দর্পণ",
+        "অভিসারী দর্পণ",
+        "উত্তল দর্পণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-013",
+      "question": "ক্লোরিন জলের বর্ণ হলুদ হয় কেন?",
+      "options": [
+        "হাইপোক্লোরাস অ্যাসিড তৈরির জন্য",
+        "ক্লোরিন দ্রবীভূত থাকার জন্য",
+        "জারণের জন্য",
+        "লবণের জন্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-44-014",
+      "question": "নিচের কোনগুলো সঠিকভাবে মেলে? (i) মায়োপিয়া - অবতল লেন্স (ii) হাইপারমেট্রোপিয়া - উত্তল লেন্স (iii) প্রেসবায়োপিয়া - দ্বিফোকাস লেন্স (iv) অ্যাস্টিগমাটিজম - বেলনাকার লেন্স",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-015",
+      "question": "তাপ ইঞ্জিনের কার্যকরতা সর্বোচ্চ হয়-",
+      "options": [
+        "যখন উৎস ও সিঙ্কের তাপমাত্রা সমান",
+        "যখন উৎস ও সিঙ্কের তাপমাত্রার পার্থক্য সর্বোচ্চ",
+        "যখন সিঙ্কের তাপমাত্রা সর্বোচ্চ",
+        "যখন ইঞ্জিন ধীরে চলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-44-016",
+      "question": "সমান দৈর্ঘ্যের দুটি তারের মধ্যে একটি মোটা ও একটি সরু। কোনটির রোধ বেশি?",
+      "options": [
+        "মোটা তারের",
+        "সরু তারের",
+        "সমান",
+        "বলা যাবে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-017",
+      "question": "নিচের কোনগুলি 'ব্লিচিং এজেন্ট' হিসেবে ব্যবহৃত হয়?",
+      "options": [
+        "ক্লোরিন",
+        "হাইড্রোজেন পারঅক্সাইড",
+        "সালফার ডাই অক্সাইড",
+        "সোডিয়াম ক্লোরাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-44-018",
+      "question": "ট্রান্সফরমার কাজ করে কীসের ওপর ভিত্তি করে? (বহু-সঠিক)",
+      "options": [
+        "মিউচুয়াল ইন্ডাকশন",
+        "AC তড়িৎ",
+        "কোরের জন্য নরম লোহা ব্যবহৃত হয়",
+        "ডিসি তড়িৎ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-44-019",
+      "question": "নিচের কোনটি তীব্র অ্যাসিডের উদাহরণ নয়?",
+      "options": [
+        "H2SO4",
+        "HNO3",
+        "H2CO3",
+        "HCl"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-020",
+      "question": "নিচের কোনটি জৈব-বিয়োজ্য (Biodegradable)?",
+      "options": [
+        "প্লাস্টিক ব্যাগ",
+        "কাগজ",
+        "কাচের বোতল",
+        "থার্মোকল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-021",
+      "question": "আইসোটোপ সম্পর্কে সঠিক উক্তিটি কোনটি?",
+      "options": [
+        "রাসায়নিক ধর্ম ভিন্ন হয়",
+        "ভৌত ধর্ম একই হয়",
+        "ভৌত ধর্ম ভিন্ন হয়",
+        "ভর সংখ্যা একই হয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-022",
+      "question": "বাদ্যযন্ত্রের তারের টান বাড়ালে শব্দের কোন ধর্মের পরিবর্তন হয়?",
+      "options": [
+        "প্রাবল্য",
+        "তীক্ষ্ণতা (Pitch)",
+        "বেগ",
+        "বিস্তার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-023",
+      "question": "দৈর্ঘ্য পরিমাপে স্ক্রু গেজ ব্যবহার করা হয় কেন? (বহু-সঠিক)",
+      "options": [
+        "খুব ছোট দৈর্ঘ্যের সূক্ষ্ম পরিমাপে",
+        "এটির LC খুব কম",
+        "এটি ওজন মাপে",
+        "এটি আয়তন মাপে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-44-024",
+      "question": "প্রসাধনী বা সাবান তৈরিতে কোন ক্ষারটি বহুল ব্যবহৃত?",
+      "options": [
+        "Ca(OH)₂",
+        "NaOH",
+        "Mg(OH)₂",
+        "NH₄OH"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-025",
+      "question": "বায়ু থেকে অক্সিজেন ও নাইট্রোজেন আলাদা করার পদ্ধতি কোনটি?",
+      "options": [
+        "Filtration",
+        "Fractional Distillation",
+        "Osmosis",
+        "Sublimation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-026",
+      "question": "I = Q/t সূত্রটি কিসের?",
+      "options": [
+        "বিভব",
+        "তড়িৎ প্রবাহ",
+        "রোধ",
+        "ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-44-027",
+      "question": "রান্নার পাত্রের হাতল তৈরিতে কোন ধরনের পদার্থ ব্যবহার করা হয়?",
+      "options": [
+        "তাপের সুপরিবাহী",
+        "তাপের অপরিবাহী",
+        "চৌম্বক পদার্থ",
+        "স্বচ্ছ পদার্থ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-028",
+      "question": "মহাকাশে দুটি পাথরকে একে অপরের সাথে ধাক্কা দিলে কী হবে?",
+      "options": [
+        "পাথর দুটি দূরে চলে যাবে কিন্তু কোনো শব্দ শোনা যাবে না",
+        "খুব জোরে শব্দ হবে",
+        "পাথর দুটি আটকে যাবে",
+        "পাথর দুটি স্থির থাকবে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-029",
+      "question": "50 cm ফোকাস দূরত্বের উত্তল লেন্সের ক্ষমতা কত?",
+      "options": [
+        "5 D",
+        "2 D",
+        "0.5 D",
+        "20 D"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-44-030",
+      "question": "কোশ পর্দার মাধ্যমে কম ঘনত্বের স্থান থেকে বেশি ঘনত্বের স্থানে দ্রাবকের চলাচলকে কী বলে?",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Active transport",
+        "Plasmolysis"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

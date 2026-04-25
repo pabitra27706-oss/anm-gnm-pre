@@ -1,0 +1,508 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 22,
+  "questions": [
+    {
+      "id": "am-22-001",
+      "question": "নিচের কোন দশমিকটি বৃহত্তম?",
+      "options": [
+        "0.009",
+        "0.09",
+        "0.9",
+        "0.0009"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-22-002",
+      "question": "8.5 - 3.25 = ?",
+      "options": [
+        "5.25",
+        "5.00",
+        "5.50",
+        "4.75"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-22-003",
+      "question": "কোন সংখ্যা 391 এবং 476-এর গসাগু?",
+      "options": [
+        "17",
+        "19",
+        "23",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-22-004",
+      "question": "একটি জিনিস 15% ক্ষতিতে বিক্রয় করলে 75 টাকা ক্ষতি হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "520 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-005",
+      "question": "একটি ঘরের মেঝের দৈর্ঘ্য 5 মি ও প্রস্থ 4 মি। টাইলসের মাপ 50 সেমি × 50 সেমি।",
+      "options": [
+        "মেঝের ক্ষেত্রফল = 20 বর্গমি = 200000 বর্গসেমি",
+        "একটি টাইলসের ক্ষেত্রফল = 2500 বর্গসেমি",
+        "80টি টাইলস লাগবে",
+        "টাইলসের সংখ্যা = 200000/2500 = 80"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-22-006",
+      "question": "A একটি কাজ 10 দিনে করে, B 15 দিনে করে। A একা শুরু করে 4 দিন কাজ করার পর B যোগ দেয়। বাকি কাজ কত দিনে শেষ হবে?",
+      "options": [
+        "3 দিন",
+        "3.6 দিন",
+        "4 দিন",
+        "4.5 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-22-007",
+      "question": "A একা একটি কাজ 12 দিনে করে। A ও B একসাথে কাজটি 8 দিনে করে। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "22 দিন",
+        "24 দিন",
+        "26 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-008",
+      "question": "7-এর 5-এর ঘাত (power) কত?",
+      "options": [
+        "7⁵",
+        "5⁷",
+        "35",
+        "7×5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-22-009",
+      "question": "1000 টাকার 2 বছরের সরল সুদ 200 টাকা হলে, সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-010",
+      "question": "একই হার ও সময়ে P দ্বিগুণ করলে SI কী হবে?",
+      "options": [
+        "অর্ধেক হবে",
+        "দ্বিগুণ হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-011",
+      "question": "6টি সংখ্যার গড় 40। 1ম 3টির গড় 35 ও শেষ 3টির গড় 45 হলে, মধ্যবর্তী কোনো বিশেষ সম্পর্ক নেই। এটি সঠিক?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "সবসময় সঠিক",
+        "কখনো সঠিক নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-012",
+      "question": "10% ও 20% ক্রমিক ছাড় দেওয়া হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "net ছাড় = 28%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 720 টাকা",
+        "net ছাড় = 30%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 700 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-013",
+      "question": "একটি সমান্তর ধারার প্রথম পদ 10, সাধারণ অন্তর -2 হলে, 5ম পদ কত?",
+      "options": [
+        "2",
+        "-2",
+        "0",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-014",
+      "question": "100টি সংখ্যার গড় 35। 75টি সংখ্যার গড় 40 হলে, বাকি 25টির গড় কত?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-22-015",
+      "question": "লাভ ও ক্ষতির সংজ্ঞা সম্পর্কে সঠিক বিবৃতি কোনগুলি?",
+      "options": [
+        "লাভ = বিক্রয়মূল্য - ক্রয়মূল্য",
+        "ক্ষতি = ক্রয়মূল্য - বিক্রয়মূল্য",
+        "লাভ = ক্রয়মূল্য - বিক্রয়মূল্য",
+        "ক্ষতি = বিক্রয়মূল্য - ক্রয়মূল্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-22-016",
+      "question": "ক্ষুদ্রতম সংখ্যা যা 12, 15 এবং 18 দ্বারা বিভাজ্য, তা হল:",
+      "options": [
+        "120",
+        "150",
+        "180",
+        "240"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-017",
+      "question": "A, B ও C-এর কাজের সময়ের অনুপাত 4:5:6। তারা একসাথে 2 দিন কাজ করার পর C চলে গেলে বাকি কাজ A ও B আরও 3 দিনে শেষ করে। পুরো কাজটি A একা কত দিনে করবে?",
+      "options": [
+        "10 দিন",
+        "12 দিন",
+        "14 দিন",
+        "16 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-22-018",
+      "question": "10% ছাড়ে একটি পণ্যের বিক্রয়মূল্য 450 টাকা হলে, ধার্যমূল্য কত?",
+      "options": [
+        "480 টাকা",
+        "500 টাকা",
+        "520 টাকা",
+        "540 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-019",
+      "question": "নিচের পাই চার্টে একজন ব্যক্তির মাসিক আয়ের বণ্টন: ভাড়া 90°, খাবার 120°, পরিবহন 60°, সঞ্চয় 30°, বিনোদন 60°। সঞ্চয়ের শতকরা কত?",
+      "options": [
+        "5%",
+        "8.33%",
+        "10%",
+        "12.5%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-020",
+      "question": "8টি সংখ্যার গড় 45। 2টি সংখ্যা বাদ দিলে গড় 40 হয়। বাদ দেওয়া সংখ্যা দুটির যোগফল কত?",
+      "options": [
+        "76",
+        "78",
+        "80",
+        "82"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-22-021",
+      "question": "7500 টাকার 4 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "1300 টাকা",
+        "1400 টাকা",
+        "1500 টাকা",
+        "1600 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-022",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 1000 টাকা, ছাড় 20% হলে কী কী সত্য?",
+      "options": [
+        "ছাড় = 200 টাকা",
+        "SP = 800 টাকা",
+        "ছাড়% = 20%",
+        "SP = 750 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-22-023",
+      "question": "প্রথম n জোড় স্বাভাবিক সংখ্যার গড় কত?",
+      "options": [
+        "n",
+        "n+1",
+        "2n",
+        "2n+1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-22-024",
+      "question": "6% হারে 6000 টাকার 3 বছর 4 মাসের সরল সুদ কত?",
+      "options": [
+        "1100 টাকা",
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-025",
+      "question": "1-এর বর্গমূল কত?",
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "1 এবং −1"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-026",
+      "question": "120, 180, 240-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 60",
+        "LCM = 720",
+        "720, 60 দ্বারা বিভাজ্য",
+        "720, 360 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-22-027",
+      "question": "9, 12 এবং 18-এর লসাগু কত?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-22-028",
+      "question": "গাড়ির মূল্য হ্রাসের সমস্যায় নিচের কোনটি সত্য?",
+      "options": [
+        "V_n = V_0(1 - R/100)ⁿ",
+        "R% প্রতি বছর হ্রাসের হার",
+        "n বছর পরে মূল্য V_n হয়",
+        "V_n = V_0(1 + R/100)ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-22-029",
+      "question": "গড় 25 এবং সংখ্যা 6টি হলে, মোট যোগফল কত?",
+      "options": [
+        "120",
+        "130",
+        "140",
+        "150"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-22-030",
+      "question": "নিচের দণ্ড লেখচিত্রে মোবাইল ব্যবহার (ঘন্টা): A: 3, B: 5, C: 4, D: 6, E: 2 সর্বনিম্ন ব্যবহার কত ঘন্টা?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    }
+  ]
+}

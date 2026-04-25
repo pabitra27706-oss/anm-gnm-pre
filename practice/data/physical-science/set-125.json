@@ -1,0 +1,510 @@
+{
+  "subject": "general-science",
+  "set": 125,
+  "questions": [
+    {
+      "id": "ge-125-001",
+      "question": "প্রিজম দিয়ে সূর্যালোক চালনা করলে কয়টি রঙ পাওয়া যায়?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-125-002",
+      "question": "তড়িৎ চুম্বকীয় আবেশ কে আবিষ্কার করেন?",
+      "options": [
+        "ওয়েরস্টেড",
+        "অ্যাম্পিয়ার",
+        "ফ্যারাডে",
+        "জুল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-003",
+      "question": "নীচের কোন পদার্থটি তাপের সুপরিবাহী?",
+      "options": [
+        "কাঠ",
+        "প্লাস্টিক",
+        "তামা",
+        "বায়ু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-125-004",
+      "question": "একটি বস্তুকে উত্তল লেন্সের 2F ও F এর মধ্যে রাখলে প্রতিবিম্ব কোথায় তৈরি হবে?",
+      "options": [
+        "2F তে",
+        "F তে",
+        "2F এর বাইরে",
+        "অনন্তে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-005",
+      "question": "তেলের জারণ রোধ করতে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "জারক পদার্থ",
+        "বিজারক বা অ্যান্টি-অক্সিডেন্ট",
+        "অনুঘটক",
+        "অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-006",
+      "question": "সূর্যের আলোকে প্রিজমের সাহায্যে বর্ণালীতে বিশ্লেষণ করা যায় কেন?",
+      "options": [
+        "আলোর প্রতিফলনের কারণে",
+        "আলোর প্রতিসরণের কারণে",
+        "আলোর বিচ্ছুরণের কারণে",
+        "আলোর বেগ পরিবর্তনের কারণে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-007",
+      "question": "নিচের কোনগুলি জারণ সংখ্যা বাড়ায়?",
+      "options": [
+        "Fe2+ → Fe3+",
+        "Cl- → Cl2",
+        "Cu2+ → Cu",
+        "H2 → H+"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-125-008",
+      "question": "আমাজন অরণ্যকে \"পৃথিবীর ফুসফুস\" বলা হয় কেন?",
+      "options": [
+        "বিশাল আকারের জন্য",
+        "প্রচুর CO₂ উৎপাদনের জন্য",
+        "প্রচুর O₂ উৎপাদনের জন্য",
+        "বৃষ্টিপাতের জন্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-009",
+      "question": "রকেট চালনা নিউটনের কোন গতিসূত্রের ওপর ভিত্তি করে কাজ করে?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "সবকটি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-010",
+      "question": "দর্পণ ও লেন্সের ক্ষেত্রে সঠিক সম্পর্কগুলি নির্বাচন করো: (i) m = -v/u (দর্পণ) (ii) m = v/u (লেন্স) (iii) 1/f = 1/v + 1/u (দর্পণ) (iv) 1/f = 1/v - 1/u (লেন্স)",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-125-011",
+      "question": "কোনো বস্তুকে অবতল দর্পণের সামনে কোথায় রাখলে বিবর্ধন +2 হবে?",
+      "options": [
+        "C বিন্দুতে",
+        "F বিন্দুতে",
+        "P ও F এর মাঝে",
+        "C ও F এর মাঝে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-125-012",
+      "question": "অ্যালকিনের সাধারণ সংকেত নিচের কোনটি?",
+      "options": [
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₄"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-125-013",
+      "question": "তরল ও গ্যাসের মিশ্রণকে কী বলা হয়?",
+      "options": [
+        "Liquid aerosol",
+        "Solid aerosol",
+        "Foam",
+        "Sol"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-014",
+      "question": "একটি গাছে কতজন মানুষের জন্য অক্সিজেন সরবরাহ করতে পারে?",
+      "options": [
+        "100 জন",
+        "500 জন",
+        "1-2 জন (প্রায়)",
+        "1000 জন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-015",
+      "question": "নিচের কোন রাশিগুলির একক একই?",
+      "options": [
+        "কাজ (Work)",
+        "শক্তি (Energy)",
+        "লীনতাপ",
+        "তাপের যান্ত্রিক তুল্যাঙ্ক"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-125-016",
+      "question": "নিচের কোন গুলি নবায়নযোগ্য শক্তি? (বহু-সঠিক)",
+      "options": [
+        "ভূ-তাপীয় শক্তি",
+        "বায়োমাস",
+        "পারমাণবিক শক্তি",
+        "জলবিদ্যুৎ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-125-017",
+      "question": "আলোর তরঙ্গ দৈর্ঘ্য বৃদ্ধি পেলে প্রতিসরাঙ্কের কী পরিবর্তন হয়?",
+      "options": [
+        "বৃদ্ধি পায়",
+        "হ্রাস পায়",
+        "অপরিবর্তিত থাকে",
+        "কখনও বাড়ে কখনও কমে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-125-018",
+      "question": "বর্জ্য ব্যবস্থাপনার 3R নীতি কী?",
+      "options": [
+        "Reduce, Reuse, Recycle",
+        "React, Reform, Reduce",
+        "Reuse, Remove, React",
+        "Recycle, Reform, Reduce"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-019",
+      "question": "ঘর্ষণ কমানোর জন্য বল-বিয়ারিং-এ কী করা হয়?",
+      "options": [
+        "স্লাইডিং ঘর্ষণকে রোলিং ঘর্ষণে রূপান্তরিত করা হয়",
+        "রোলিং ঘর্ষণকে স্লাইডিং ঘর্ষণে রূপান্তরিত করা হয়",
+        "ঘর্ষণ বল শূন্য করা হয়",
+        "বস্তুর ভর কমানো হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-020",
+      "question": "পরম শূন্য তাপমাত্রায় আদর্শ গ্যাসের আয়তন কত হয়?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "শূন্য",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-021",
+      "question": "নিচের কোনটি কলোয়েড কণার ব্রাউনীয় গতির ওপর প্রভাব ফেলে না?",
+      "options": [
+        "কণার বর্ণ",
+        "পাত্রের উপাদান",
+        "আধানের পরিমাণ",
+        "কণার আকার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-125-022",
+      "question": "একবর্ণী আলো কাকে বলে?",
+      "options": [
+        "এক রঙের আলো",
+        "সাত রঙের আলো",
+        "সূর্যালোক",
+        "বাতির আলো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-125-023",
+      "question": "কোন ভৌত রাশির পরিবর্তনে স্পর্শ না করেই তাপমাত্রা অনুমান করা যায়? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "রং",
+        "আয়তন",
+        "রোধ",
+        "বিকিরণের তরঙ্গ দৈর্ঘ্য"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-125-024",
+      "question": "নিচের কোনটি ভুল বিবৃতি?",
+      "options": [
+        "CO গ্রীনহাউস গ্যাস নয়",
+        "CH₄ গ্রীনহাউস গ্যাস",
+        "O₂ গ্রীনহাউস গ্যাস",
+        "CO₂ গ্রীনহাউস গ্যাস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-125-025",
+      "question": "[NUMERICAL] STP-তে 11.2 L আয়তনের কার্বন ডাই অক্সাইডের ভর কত?",
+      "options": [
+        "44g",
+        "22g",
+        "11g",
+        "88g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-125-026",
+      "question": "সরল মাইক্রোস্কোপের বিবর্ধন ক্ষমতা কিসের ওপর নির্ভর করে?",
+      "options": [
+        "লেন্সের ব্যাস",
+        "লেন্সের ফোকাস দূরত্ব",
+        "লেন্সের বেধ",
+        "আলোর তীব্রতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-027",
+      "question": "একটি বৈদ্যুতিক বাতির ফিলামেন্টের রোধ 20 Ω। বাতিটি 220 V লাইনে 5 মিনিট জ্বললে কত তাপ উৎপন্ন হবে?",
+      "options": [
+        "1.452 × 10⁶ J",
+        "7.26 × 10⁵ J",
+        "2420 J",
+        "14520 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-125-028",
+      "question": "শীতকালে কুয়াশা পড়ার সময় ঠান্ডা কম লাগে কারণ-",
+      "options": [
+        "জলের বাষ্পীভবন কম হয়",
+        "জলের বাষ্পীভবনের সুপ্ততাপ ত্যাগ করে",
+        "মেঘ সূর্যকে ঢেকে রাখে",
+        "বাতাস দ্রুত প্রবাহিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-125-029",
+      "question": "তরল ও গ্যাসের মধ্যে তাপ প্রধানত কোন পদ্ধতিতে সঞ্চালিত হয়?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "পরিবহন ও বিকিরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-125-030",
+      "question": "সূর্যের শক্তির মূল উৎস কী?",
+      "options": [
+        "রাসায়নিক বিক্রিয়া",
+        "নিউক্লীয় সংযোজন",
+        "নিউক্লীয় বিভাজন",
+        "তাপীয় বিকিরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}

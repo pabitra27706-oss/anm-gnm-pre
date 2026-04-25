@@ -1,0 +1,526 @@
+{
+  "subject": "general-science",
+  "set": 102,
+  "questions": [
+    {
+      "id": "ge-102-001",
+      "question": "একটি বস্তু তাপ গ্রহণ করে উত্তপ্ত হচ্ছে। বস্তুটির তাপমাত্রা পরিবর্তনের হার নির্ভর করে-",
+      "options": [
+        "শুধু ভরের উপর",
+        "শুধু আপেক্ষিক তাপের উপর",
+        "ভর ও আপেক্ষিক তাপ উভয়ের উপর(D) পরিবেশের রঙের উপর",
+        ""
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-002",
+      "question": "নিচের কোনগুলো আলোর প্রতিফলনের প্রয়োগ? (i) পেরিস্কোপ (ii) দর্পণ (iii) ক্যালিডোস্কোপ (iv) অপটিক্যাল ফাইবার",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-003",
+      "question": "100 W-এর একটি বাতি 220 V লাইনে জ্বলছে। এই বাতি সম্পর্কে সঠিক তথ্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "বাতির রোধ 484 Ω",
+        "বাতির মধ্য দিয়ে তড়িৎ প্রবাহ 0.45 A",
+        "বাতিটি 1 ঘণ্টায় 0.1 kWh শক্তি খরচ করে",
+        "বাতিটি 100 J শক্তি 1 সেকেন্ডে খরচ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-102-004",
+      "question": "[NUMERICAL] একটি লবণের দ্রাব্যতা 25। 50g সম্পৃক্ত দ্রবণ থেকে জল বাষ্পীভূত করলে কত গ্রাম লবণ পাওয়া যাবে?",
+      "options": [
+        "10g",
+        "12.5g",
+        "25g",
+        "15g"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-102-005",
+      "question": "20 N বল প্রয়োগ করে একটি বস্তুকে বলের দিকে 5 m সরানো হলে কৃত কার্য কত?",
+      "options": [
+        "4 J",
+        "25 J",
+        "100 J",
+        "50 J"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-102-006",
+      "question": "ক্যাটায়ন ও অ্যানায়ন সম্পর্কে কোনটি সঠিক? (বহু-সঠিক)",
+      "options": [
+        "ক্যাটায়ন ধনাত্মক আধানযুক্ত",
+        "অ্যানায়ন ঋণাত্মক আধানযুক্ত",
+        "Na⁺ একটি ক্যাটায়ন",
+        "Cl⁻ একটি অ্যানায়ন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-102-007",
+      "question": "জৈব-বিয়োজ্য বর্জ্য থেকে কোন গ্যাস পাওয়া যায়?",
+      "options": [
+        "O₂",
+        "H₂",
+        "বায়োগ্যাস (Methane)",
+        "CO"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-008",
+      "question": "নিচের কোনটি ফিউজের উপাদানের বৈশিষ্ট্য?",
+      "options": [
+        "উচ্চ গলনাঙ্ক ও উচ্চ রোধ",
+        "নিম্ন গলনাঙ্ক ও উচ্চ রোধ",
+        "নিম্ন গলনাঙ্ক ও নিম্ন রোধ",
+        "উচ্চ গলনাঙ্ক ও নিম্ন রোধ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-009",
+      "question": "বৈদ্যুতিক বাল্বে নিষ্ক্রিয় গ্যাস ভরা থাকে কেন?",
+      "options": [
+        "ফিলামেন্টের জারণ রোধ করতে",
+        "রোধ বাড়াতে",
+        "ক্ষমতা কমাতে",
+        "আলো বাড়াতে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-010",
+      "question": "নিচের কোনটি ওহমীয় পরিবাহীর বৈশিষ্ট্য?",
+      "options": [
+        "V-I গ্রাফ সরলরেখা হয় না",
+        "তাপমাত্রা বাড়লে রোধ কমে",
+        "V ও I সমানুপাতিক",
+        "রোধ পরিবর্তনশীল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-011",
+      "question": "নিচের কোনগুলি আম্লিক লবণ (Acidic Salts)?",
+      "options": [
+        "NaHCO3",
+        "NaHSO4",
+        "NaH2PO4",
+        "NaCl"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-102-012",
+      "question": "নিচের কোনটি ওহম নয় পরিবাহী? (বহু-সঠিক)",
+      "options": [
+        "Cu তার",
+        "ডায়োড",
+        "ট্রানজিস্টর",
+        "টিউবলাইট"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-102-013",
+      "question": "নিচের কোনটি 'অ্যালকালি' (Alkali)?",
+      "options": [
+        "Fe(OH)3",
+        "Cu(OH)2",
+        "NaOH",
+        "Zn(OH)2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-102-014",
+      "question": "নিচের কোন ঘটনাগুলি দৈনন্দিন জীবনে দৃষ্ট হয়? (i) মরীচিকা (ii) নীল আকাশ (iii) সূর্যোদয় ও সূর্যাস্তের সময় লাল আভা (iv) বৃষ্টির পরে রংধনু",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-015",
+      "question": "পৃথিবী থেকে সূর্যের গড় দূরত্ব প্রকাশ করা হয়— (বহু-সঠিক)",
+      "options": [
+        "1 AU",
+        "1.496 × 10¹¹ m",
+        "1.496 × 10⁸ km",
+        "1 আলোকবর্ষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-102-016",
+      "question": "তৃতীয় শ্রেণির লিভারে—",
+      "options": [
+        "বল মাঝে থাকে",
+        "আলম্ব মাঝে থাকে",
+        "ভার মাঝে থাকে",
+        "বল ও ভার একদিকে থাকে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-017",
+      "question": "কিটোনের ফাংশনাল গ্রুপ কী?",
+      "options": [
+        "-CHO",
+        "-OH",
+        "-COOH",
+        "-CO- (কার্বনিল গ্রুপ)"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-018",
+      "question": "কোন বায়ু দূষণের কারণে দিল্লিতে অড-ইভেন (Odd-Even) গাড়ি চলাচল নীতি চালু হয়েছিল?",
+      "options": [
+        "অক্সিজেন আধিক্য",
+        "PM2.5 ও PM10 এর মাত্রা বেড়ে যাওয়ায়",
+        "বায়ুতে জলীয় বাষ্প বেড়ে যাওয়ায়",
+        "ওজোন স্তর ক্ষয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-019",
+      "question": "অবতল লেন্সের ক্ষেত্রে প্রতিবিম্ব সর্বদা কীরূপ হয়?",
+      "options": [
+        "বাস্তব ও অবশীর্ষ",
+        "বাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও অবশীর্ষ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-020",
+      "question": "নিচের কোনগুলির স্ফুটনাঙ্ক বায়ুমণ্ডলীয় চাপের উপর নির্ভর করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "জল",
+        "অ্যালকোহল",
+        "পারদ",
+        "বরফ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-102-021",
+      "question": "জলের হিমাঙ্ক ফারেনহাইট স্কেলে কত?",
+      "options": [
+        "0°F",
+        "32°F",
+        "100°F",
+        "212°F"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-102-022",
+      "question": "Na⁺ আয়নে ইলেকট্রন সংখ্যা কত? (Na: Z=11)",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-023",
+      "question": "প্লাস্টিক বর্জ্য পোড়ানোর সময় বায়ুমণ্ডলে কী নির্গত হয় যা ক্যান্সার সৃষ্টি করতে পারে?",
+      "options": [
+        "জলীয় বাষ্প",
+        "ডাইঅক্সিন",
+        "অক্সিজেন",
+        "নাইট্রোজেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-102-024",
+      "question": "নীচের কোনটি হিলিয়াম পরমাণুর বৈশিষ্ট্য? (He: 2p, 2n, 2e)",
+      "options": [
+        "তেজস্ক্রিয় মৌল",
+        "হ্যালোজেন",
+        "নিষ্ক্রিয় গ্যাস",
+        "ক্ষার ধাতু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-025",
+      "question": "সমান্তরাল আলোক রশ্মি একটি অবতল লেন্সে আপতিত হলে কীরূপ হয়?",
+      "options": [
+        "অভিসারিত হয়",
+        "অপসারিত হয়",
+        "সমান্তরাল থাকে",
+        "শোষিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-026",
+      "question": "তড়িৎ বিশ্লেষণে তড়িৎদ্বারের ভর বৃদ্ধি কোন সূত্রের ওপর নির্ভর করে?",
+      "options": [
+        "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র",
+        "ওহমের সূত্র",
+        "কুলম্বের সূত্র",
+        "জুলের সূত্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-027",
+      "question": "2 kg জলের (c=4200 J/(kg·K)) তাপমাত্রা 10 K বৃদ্ধি করতে কত শক্তি লাগবে?",
+      "options": [
+        "42 kJ",
+        "84 kJ",
+        "21 kJ",
+        "8.4 kJ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-102-028",
+      "question": "বরফকে গলিয়ে ফুটানো পর্যন্ত তাপ প্রদান করলে তাপমাত্রা বনাম সময় গ্রাফ কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "গলন ও স্ফুটন বিন্দুতে সরলরেখা",
+        "অন্যান্য স্থানে ঢালু রেখা",
+        "সর্বদা সরলরেখা",
+        "প্রথমে ঢালু পরে সরল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-102-029",
+      "question": "দস্তার সাথে লঘু সালফিউরিক অ্যাসিডের বিক্রিয়ায় কোন গ্যাস উৎপন্ন হয়?",
+      "options": [
+        "O2",
+        "SO2",
+        "H2",
+        "CO2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-102-030",
+      "question": "সাধারণ লবণের সাথে আয়োডিন মেশানো হয় কেন?",
+      "options": [
+        "গলগণ্ড (Goitre) রোগ প্রতিরোধে",
+        "থাইরয়েড গ্রন্থির কার্যকারিতা বজায় রাখতে",
+        "স্বাদ বাড়াতে",
+        "লবণকে সাদা করতে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

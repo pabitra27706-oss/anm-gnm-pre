@@ -1,0 +1,531 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 108,
+  "questions": [
+    {
+      "id": "am-108-001",
+      "question": "3x + 2y = 6 সমীকরণটির x-অক্ষচ্ছেদ কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-002",
+      "question": "5000 টাকার বার্ষিক 8% হারে 2 বছরের CI ও 10% হারে 2 বছরের SI-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "120 টাকা",
+        "140 টাকা",
+        "160 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-108-003",
+      "question": "34.567-এ 6-এর স্থানীয় মান কত?",
+      "options": [
+        "6",
+        "0.6",
+        "0.06",
+        "0.006"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-004",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 10 দিনে করে, B একা 15 দিনে করে → একসাথে 6 দিনে করে",
+        "A একা 12 দিনে করে, B একা 18 দিনে করে → একসাথে 7.2 দিনে করে",
+        "A একা 8 দিনে করে, B একা 12 দিনে করে → একসাথে 4.8 দিনে করে",
+        "A একা 20 দিনে করে, B একা 30 দিনে করে → একসাথে 12 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-108-005",
+      "question": "5% হারে 3 বছরের SI 450 টাকা। P? একই P-এর 4% হারে 5 বছরের SI?",
+      "options": [
+        "P = 3000",
+        "SI = 600",
+        "P = 2500",
+        "SI = 500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-108-006",
+      "question": "A ও B একসাথে একটি কাজ 12 দিনে শেষ করে। A একা 20 দিনে শেষ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "B একা 30 দিনে শেষ করে",
+        "B-এর দক্ষতা A-এর 1/3",
+        "B-এর কাজ A-এর চেয়ে ধীর",
+        "A ও B একসাথে 1 দিনে 1/12 কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-108-007",
+      "question": "66.67% = 2/3, এটি সঠিক কিনা?",
+      "options": [
+        "হ্যাঁ, প্রায়",
+        "না, সঠিক 66.66%",
+        "না, 65%",
+        "কখনোই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-108-008",
+      "question": "(a + b)² ও (a - b)²-এর মধ্যে সম্পর্ক কী কী?",
+      "options": [
+        "(a + b)² = (a - b)² + 4ab",
+        "(a - b)² = (a + b)² - 4ab",
+        "(a + b)² + (a - b)² = 2(a² + b²)",
+        "(a + b)² - (a - b)² = 4ab"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-108-009",
+      "question": "A ও B-এর দক্ষতার অনুপাত 3:5। তারা একসাথে একটি কাজ 30 দিনে শেষ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 80 দিনে করবে",
+        "B একা 48 দিনে করবে",
+        "A ও B-এর সময়ের অনুপাত 5:3",
+        "B এর সময় A এর সময়ের 3/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-108-010",
+      "question": "নিচের রেখা লেখচিত্রে একটি কারখানার উৎপাদন (হাজারে): 2015: 40, 2016: 55, 2017: 70, 2018: 85, 2019: 100 2015 থেকে 2019 পর্যন্ত কত বৃদ্ধি পেয়েছে?",
+      "options": [
+        "50 হাজার",
+        "55 হাজার",
+        "60 হাজার",
+        "65 হাজার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-011",
+      "question": "একটি দ্রব্যের ক্রয়মূল্য 800 টাকা এবং ক্ষতি 10% হলে বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "710 টাকা",
+        "720 টাকা",
+        "730 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-012",
+      "question": "একটি দ্রব্য 15% লাভে বিক্রয় করলে 135 টাকা লাভ হয়। ক্রয়মূল্য কত?",
+      "options": [
+        "800 টাকা",
+        "850 টাকা",
+        "900 টাকা",
+        "950 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-013",
+      "question": "ক্ষতি কখন হয়? সঠিক বিকল্পগুলি নির্বাচন করো।",
+      "options": [
+        "CP > SP হলে",
+        "SP < CP হলে",
+        "SP = CP হলে",
+        "CP = 2×SP হলে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-108-014",
+      "question": "একটি ঋণ 4 বছর পরে 8% হারে সুদে-আসলে 6600 টাকা হয়। ঋণের পরিমাণ কত?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-108-015",
+      "question": "পাই চার্টের বৈশিষ্ট্য:",
+      "options": [
+        "মোট কোণ 360°",
+        "প্রতিটি খাতের কোণ 360° এর ভগ্নাংশ",
+        "ডিগ্রি থেকে শতকরা বের করা যায়",
+        "সবচেয়ে বড় খাত সবচেয়ে বেশি মান বুঝায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-108-016",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "একটি কাজ A 8 দিনে, B 12 দিনে করে → A ও B একসাথে 24/5 দিনে করে",
+        "A ও B একসাথে 9 দিনে করে, A একা 15 দিনে করে → B একা 22.5 দিনে করে",
+        "A ও B একসাথে 10 দিনে করে, B একা 25 দিনে করে → A একা 16.67 দিনে করে",
+        "দক্ষতা বেশি মানে কাজ শেষের সময় কম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-108-017",
+      "question": "y = 2x + 3 সরলরেখার ঢাল কত?",
+      "options": [
+        "2",
+        "3",
+        "1/2",
+        "-2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-108-018",
+      "question": "1/3-এর দশমিক রূপ কী?",
+      "options": [
+        "0.333...",
+        "0.3",
+        "0.33",
+        "0.25"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-108-019",
+      "question": "একজন দোকানদার 20% লাভে এবং 20% ক্ষতিতে দুটি জিনিস একই দামে বিক্রয় করলে কী কী সত্য?",
+      "options": [
+        "4% ক্ষতি",
+        "সামগ্রিক ক্ষতি = CP-এর 4%",
+        "সামগ্রিক লাভ = CP-এর 4%",
+        "লাভ = ক্ষতি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-108-020",
+      "question": "0.4 × 0.4 - 0.4 × 0.3 = ?",
+      "options": [
+        "0.4 × 0.1",
+        "0.16 - 0.12",
+        "0.04",
+        "0.4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-108-021",
+      "question": "10% ও 20% ক্রমিক ছাড়ে একটি দ্রব্যের চিহ্নিত মূল্য 500 টাকা হলে চূড়ান্ত SP কত?",
+      "options": [
+        "360 টাকা",
+        "500 × 0.9 × 0.8 = 360 টাকা",
+        "350 টাকা",
+        "370 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-022",
+      "question": "নিচের কোন ভগ্নাংশটি ক্ষুদ্রতম?",
+      "options": [
+        "3/7",
+        "4/9",
+        "5/11",
+        "6/13"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-108-023",
+      "question": "নিচের সারণি: ১০ জনের বয়স: 20, 22, 21, 23, 24, 20, 25, 22, 21, 23 প্রচুরক (Mode) কত?",
+      "options": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-024",
+      "question": "12টি সংখ্যার গড় 25। একটি সংখ্যা 15 বাদ দিলে বাকি 11টির গড় কত?",
+      "options": [
+        "25.91",
+        "26.91",
+        "27.91",
+        "28.91"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-108-025",
+      "question": "1/3-এর সমান আবৃত দশমিক কোনগুলো?",
+      "options": [
+        "0.3̅",
+        "0.33",
+        "0.333...",
+        "0.0333..."
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-026",
+      "question": "√(25 + 144) = ?",
+      "options": [
+        "13",
+        "17",
+        "12",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-027",
+      "question": "20টি জিনিসের ক্রয়মূল্য 16টি জিনিসের বিক্রয়মূল্যের সমান হলে লাভের শতকরা হার কত?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-108-028",
+      "question": "একটি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্যের অনুপাত 4:5। জিনিসটির লাভের শতকরা হার কত?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-029",
+      "question": "300 দিন কত বছরের সমান?",
+      "options": [
+        "0.8 বছর",
+        "0.82 বছর",
+        "0.85 বছর",
+        "0.9 বছর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-108-030",
+      "question": "একটি বর্গক্ষেত্রের প্রতিটি বাহু 4 সেমি বৃদ্ধি করলে ক্ষেত্রফল 160 বর্গসেমি বৃদ্ধি পায়। পুরাতন বাহুর দৈর্ঘ্য কত?",
+      "options": [
+        "10 সেমি",
+        "12 সেমি",
+        "14 সেমি",
+        "16 সেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

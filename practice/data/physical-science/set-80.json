@@ -1,0 +1,509 @@
+{
+  "subject": "general-science",
+  "set": 80,
+  "questions": [
+    {
+      "id": "ge-80-001",
+      "question": "পরিবাহী ও অন্তরকের মাঝামাঝি ধর্ম বিশিষ্ট পদার্থ কোনটি?",
+      "options": [
+        "সুপরিবাহী",
+        "অর্ধপরিবাহী",
+        "ফিউজ",
+        "ইলেকট্রোড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-002",
+      "question": "মন্দন (Retardation)-এর একক নিচের কোনটির এককের সমান?",
+      "options": [
+        "বেগ",
+        "ত্বরণ",
+        "দ্রুতি",
+        "বল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-003",
+      "question": "জুলের তাপীয় সূত্রানুসারে, উৎপন্ন তাপ (H) নির্ভর করে— (বহু-সঠিক)",
+      "options": [
+        "তড়িৎ প্রবাহের বর্গের ওপর",
+        "রোধের ওপর",
+        "সময়ের ওপর",
+        "আধানের প্রকৃতির ওপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-80-004",
+      "question": "সালফিউরিক অ্যাসিডের বাষ্পকে কী বলা হয়?",
+      "options": [
+        "ওলিয়াম",
+        "ভিট্রিল বাষ্প",
+        "মিউরিয়াটিক গ্যাস",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-005",
+      "question": "সৌর শক্তির প্রধান উৎস কী?",
+      "options": [
+        "চাঁদ",
+        "সূর্য",
+        "নক্ষত্র",
+        "আগ্নেয়গিরি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-006",
+      "question": "সাবান তৈরির পদ্ধতিকে (Saponification) কী বলা হয়?",
+      "options": [
+        "প্রসমন",
+        "এস্টারিফিকেশন",
+        "স্যাপোনিফিকেশন",
+        "হাইড্রোলিসিস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-007",
+      "question": "প্রশমিত তাপ বা নির্গত তাপ নির্ভর করে- (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বস্তুর ভর",
+        "বস্তুর উপাদানের প্রকৃতি",
+        "তাপমাত্রার পার্থক্য",
+        "বস্তুর রঙের ওপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-80-008",
+      "question": "ইনভার্সন (Thermal Inversion) কী?",
+      "options": [
+        "স্বাভাবিক তাপমাত্রা বন্টন",
+        "ভূপৃষ্ঠের কাছে ঠান্ডা বায়ু, উপরে গরম বায়ু থাকায় দূষণ আটকা পড়ে",
+        "শুধু গ্রীষ্মকালীন অবস্থা",
+        "বাষ্পীভবন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-80-009",
+      "question": "[NUMERICAL] 1 mole কার্বন পরমাণুর সংখ্যা কত?",
+      "options": [
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "3.011 × 10²³",
+        "10²³"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-010",
+      "question": "চোখের কোন অংশ আলোর তীব্রতা নিয়ন্ত্রণ করে?",
+      "options": [
+        "কর্ণিয়া",
+        "আইরিস",
+        "লেন্স",
+        "রেটিনা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-011",
+      "question": "একটি লিভারের ভারবাহু ও বলবাহুর দৈর্ঘ্য যথাক্রমে 0.5 m ও 2 m; (বহু-সঠিক)",
+      "options": [
+        "MA = 4",
+        "10 kg ভার তুলতে 25 N বল প্রয়োজন (g=10)",
+        "এটি দ্বিতীয় শ্রেণির হতে পারে",
+        "বলবাহু বড়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-80-012",
+      "question": "অ্যাভোগাড্রো সংখ্যা 'N' কোন রাশির সাথে সম্পর্কিত?",
+      "options": [
+        "ভর",
+        "মোল",
+        "তাপমাত্রা",
+        "আয়তন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-013",
+      "question": "পরিচলন স্রোত কীরূপ?",
+      "options": [
+        "ঊর্ধ্বমুখী ও নিম্নগামী উভয়ই হতে পারে",
+        "শুধু নিম্নগামী",
+        "শুধু অনুভূমিক",
+        "শুধু বৃত্তাকার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-014",
+      "question": "4 Ω রোধের একটি তারের মধ্য দিয়ে 2 A তড়িৎ প্রবাহ চলছে; ক্ষমতা কত?",
+      "options": [
+        "8 W",
+        "16 W",
+        "4 W",
+        "2 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-015",
+      "question": "ঝামা পাথর (Pumice stone) হলো একটি—",
+      "options": [
+        "Solid foam",
+        "Solid sol",
+        "Gel",
+        "Emulsion"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-80-016",
+      "question": "পালি (Pulley) কোন ধরনের সরল যন্ত্র?",
+      "options": [
+        "লিভার",
+        "আনত তল",
+        "স্ক্রু",
+        "চাকা ও অক্ষ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-017",
+      "question": "সমুদ্রের জল থেকে লবণ পৃথক করার জন্য কোন পদ্ধতি ব্যবহার করা হয়?",
+      "options": [
+        "Sublimation",
+        "Evaporation",
+        "Filtration",
+        "Diffusion"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-018",
+      "question": "বরফ গলনের সময় আয়তনের কী পরিবর্তন হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "প্রথমে কমে পরে বাড়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-019",
+      "question": "ফোম (Foam) কোলয়েড সিস্টেমে—",
+      "options": [
+        "বিস্তৃত দশা হলো গ্যাস",
+        "বিস্তার মাধ্যম হলো তরল",
+        "বিস্তৃত দশা হলো তরল",
+        "বিস্তার মাধ্যম হলো গ্যাস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-80-020",
+      "question": "রৈখিক গতিতে বল যা কাজ করে, ঘূর্ণন গতিতে সেই একই কাজ করে কোনটি?",
+      "options": [
+        "কৌণিক ভরবেগ",
+        "টর্ক (Torque)",
+        "কৌণিক ত্বরণ",
+        "জড়তা ভ্রামক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-80-021",
+      "question": "0.2 m ফোকাস দূরত্বের অবতল লেন্সের ক্ষমতা কত?",
+      "options": [
+        "+5 D",
+        "-5 D",
+        "+0.5 D",
+        "-0.5 D"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-022",
+      "question": "ঘনত্বের একক kg/m³, g/cm³ ছাড়াও প্রকাশ করা যায়— (বহু-সঠিক)",
+      "options": [
+        "g/mL",
+        "kg/L",
+        "N/m³",
+        "Pa"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-80-023",
+      "question": "যদি কোনো স্থানে বিভব 10 V ও অপরস্থানে 2 V হয়, তবে বিভব পার্থক্য কত?",
+      "options": [
+        "12 V",
+        "8 V",
+        "5 V",
+        "20 V"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-024",
+      "question": "ঘর্ষণ কমানোর জন্য নিচের কোনটি ব্যবহৃত হয় না?",
+      "options": [
+        "লুব্রিকেন্ট (Grease)",
+        "বল বিয়ারিং",
+        "স্ট্রিমলাইনিং",
+        "বালুকণা ছিটানো"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-025",
+      "question": "নিচের কোনগুলো প্রিজমের ভিতর দিয়ে আলো যাওয়ার সময় ঘটে? (i) প্রতিসরণ (ii) বিচ্ছুরণ (iii) অভ্যন্তরীণ পূর্ণ প্রতিফলন (iv) প্রতিফলন",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-026",
+      "question": "একটি বস্তুকে উত্তল লেন্সের 2F ও F এর মাঝে রাখলে প্রতিবিম্ব কোথায় গঠিত হয়?",
+      "options": [
+        "2F তে",
+        "F তে",
+        "2F এর বাইরে",
+        "অসীমে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-80-027",
+      "question": "গতি নির্ণয়কারী যন্ত্র কোনটি?",
+      "options": [
+        "স্পিডোমিটার",
+        "ওডোমিটার",
+        "ম্যানোমিটার",
+        "থার্মোমিটার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-028",
+      "question": "আলোকবর্ষ কোন ভৌত রাশির একক?",
+      "options": [
+        "সময়",
+        "দূরত্ব",
+        "বেগ",
+        "তীব্রতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-80-029",
+      "question": "5টি কার্বন পরমাণু বিশিষ্ট অ্যালকেনের নাম কী?",
+      "options": [
+        "মিথেন",
+        "ইথেন",
+        "প্রোপেন",
+        "পেন্টেন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-80-030",
+      "question": "ইউট্রোফিকেশনের ফলে জলাশয়ে কী ঘটে?",
+      "options": [
+        "অক্সিজেন বৃদ্ধি",
+        "অক্সিজেন হ্রাস ও জলজ প্রাণীর মৃত্যু",
+        "জলের স্বচ্ছতা বৃদ্ধি",
+        "মাছের সংখ্যা বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

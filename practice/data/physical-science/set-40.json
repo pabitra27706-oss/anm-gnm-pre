@@ -1,0 +1,529 @@
+{
+  "subject": "general-science",
+  "set": 40,
+  "questions": [
+    {
+      "id": "ge-40-001",
+      "question": "নিচের কোন উক্তিটি ভুল? (বহু-সঠিক)",
+      "options": [
+        "স্থির কপিকলের MA > 1",
+        "কাঁচি প্রথম শ্রেণির লিভার",
+        "SCREW একটি সরল যন্ত্র",
+        "আনত তলের MA সর্বদা 1"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-40-002",
+      "question": "একটি পাথরকে উপরে ছুঁড়লে সর্বোচ্চ উচ্চতায় কীরূপ শক্তি রূপান্তর হয়?",
+      "options": [
+        "গতিশক্তি → তাপশক্তি",
+        "গতিশক্তি → বিভব শক্তি",
+        "বিভব শক্তি → গতিশক্তি",
+        "রাসায়নিক শক্তি → তাপশক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-003",
+      "question": "একটি ব্যাটারির EMF 12 V এবং অভ্যন্তরীণ রোধ 2 Ω, এটি 10 Ω বাহ্যিক রোধে সংযুক্ত করলে তড়িৎ প্রবাহ কত?",
+      "options": [
+        "1 A",
+        "6 A",
+        "1.2 A",
+        "0.1 A"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-004",
+      "question": "একই তাপমাত্রা ও চাপে সম আয়তন সকল গ্যাসে সমান সংখ্যক অণু থাকে— এটি কার সূত্র?",
+      "options": [
+        "Boyle's law",
+        "Avogadro's law",
+        "Dalton's law",
+        "Graham's law"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-40-005",
+      "question": "লবণের জলীয় দ্রবণ তড়িৎ পরিবহন করতে পারে, কারণ এতে উপস্থিত থাকে—",
+      "options": [
+        "অণু",
+        "ধনাত্মক ও ঋণাত্মক আয়ন",
+        "কেবল ধনাত্মক আয়ন",
+        "কেবল ইলেকট্রন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-006",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) সাদা আলো সাতটি রঙের সমষ্টি (ii) লাল আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে বেশি (iii) বেগুনি আলোর প্রতিসরাঙ্ক সবচেয়ে বেশি (iv) লাল আলোর বেগ কাঁচে সবচেয়ে কম",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-007",
+      "question": "[NUMERICAL] একটি কণা 10 m ব্যাসার্ধের বৃত্তাকার পথে এক পাক পূর্ণ করলে—",
+      "options": [
+        "তার সরণ 0 m",
+        "তার অতিক্রান্ত দূরত্ব 20π m",
+        "তার সরণ 20 m",
+        "তার গড় বেগ শূন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-40-008",
+      "question": "ফুটন্ত জলের তাপমাত্রা 100°C, কিন্তু ফুটন্ত তেলের তাপমাত্রা 200°C-এর বেশি হতে পারে কারণ-",
+      "options": [
+        "তেলের আপেক্ষিক তাপ বেশি",
+        "তেলের ঘনত্ব বেশি",
+        "তেলের স্ফুটনাঙ্ক বেশি",
+        "তেল কুপরিবাহী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-009",
+      "question": "তাপীয় দূষণের প্রভাব কী? (একাধিক উত্তর)",
+      "options": [
+        "DO (Dissolved Oxygen) কমে যায়",
+        "মাছের প্রজনন ক্ষতিগ্রস্ত হয়",
+        "বাষ্পীভবন বাড়ে",
+        "পানি নীল হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-40-010",
+      "question": "Br (Z=35) সম্পর্কে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "এটি হ্যালোজেন",
+        "এর যোজ্যতা 1",
+        "এটি চতুর্থ পর্যায়ে অবস্থিত",
+        "এটি তরল অধাতু"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-40-011",
+      "question": "নিচের কোন জোড়াগুলো সঠিকভাবে মেলেনি? (i) লেন্স সূত্র - 1/f = 1/v - 1/u (ii) দর্পণ সূত্র - 1/f = 1/v + 1/u (iii) বিবর্ধন (লেন্স) - m = -v/u (iv) বিবর্ধন (দর্পণ) - m = v/u",
+      "options": [
+        "(iii) ও (iv)",
+        "(ii) ও (iii)",
+        "(i) ও (iv)",
+        "(ii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-012",
+      "question": "বিদ্যুৎ বাল্বের ফিলামেন্টে কোন ধাতু ব্যবহার করা হয়?",
+      "options": [
+        "তামা",
+        "লোহা",
+        "টাংস্টেন",
+        "অ্যালুমিনিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-40-013",
+      "question": "NTP বলতে তাপমাত্রা কত বোঝায়?",
+      "options": [
+        "0°C",
+        "25°C",
+        "100°C",
+        "273°C"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-40-014",
+      "question": "গবাদি পশুর খাদ্য হিসেবে ব্যবহৃত খড়ে কোন অ্যাসিড থাকতে পারে?",
+      "options": [
+        "সাইট্রিক অ্যাসিড",
+        "ল্যাকটিক অ্যাসিড",
+        "বিউটাইরিক অ্যাসিড (পচনের ফলে)",
+        "সালফিউরিক অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-015",
+      "question": "একটি গ্যাসের আণবিক ভর আণবিক সংকেতের ওপর নির্ভর করে— এটি কার উক্তি?",
+      "options": [
+        "Dalton",
+        "Avogadro",
+        "Berzelius",
+        "Boyle"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-016",
+      "question": "LPG-র প্রধান উপাদান কী কী?",
+      "options": [
+        "মিথেন ও ইথেন",
+        "ইথেন ও ইথিন",
+        "প্রোপেন ও বুটেন",
+        "মিথেন ও প্রোপেন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-017",
+      "question": "তরল পদার্থের উপরিভাগের অণুগুলির ওপর—",
+      "options": [
+        "লব্ধি বল নিচের দিকে কাজ করে",
+        "পৃষ্ঠটান সৃষ্টি হয়",
+        "বিভব শক্তি বেশি থাকে",
+        "গতিশক্তি শূন্য থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-40-018",
+      "question": "নিচের কোন উক্তিটি/গুলো শক্তি সম্পর্কে সঠিক? (বহু-সঠিক)",
+      "options": [
+        "শক্তির একক জুল",
+        "এটি স্কেলার রাশি",
+        "শক্তি = ক্ষমতা × সময়",
+        "বিভব শক্তি = গতিশক্তি সবসময়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-40-019",
+      "question": "ঘনত্বের সূত্র কোনটি? (ρ = ঘনত্ব)",
+      "options": [
+        "m × V",
+        "m / V",
+        "V / m",
+        "m + V"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-020",
+      "question": "ইস্পাতের চেয়ে তামার তাপীয় পরিবাহিতা বেশি হওয়ার অর্থ- (একাধিক উত্তর সঠিক)",
+      "options": [
+        "একই সময়ে তামা বেশি তাপ পরিবহন করে",
+        "তামা বেশি সম্প্রসারিত হয়",
+        "তামার রোধ কম",
+        "তামা দ্রুত গরম হয়"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-40-021",
+      "question": "একটি অবতল দর্পণের সামনে একটি বস্তু রাখা হলো। প্রতিবিম্বটির বিবর্ধন +2.5। নিচের কোন বিবৃতিগুলি সঠিক? (i) প্রতিবিম্ব অবাস্তব (ii) প্রতিবিম্ব সমশীর্ষ (iii) বস্তু F ও P এর মধ্যে অবস্থিত (iv) বস্তু C ও F এর মধ্যে অবস্থিত",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-022",
+      "question": "ফ্লেমিং -এর দক্ষিণহস্ত নিয়ম কোনটির দিক নির্ণয়ে ব্যবহৃত হয়?",
+      "options": [
+        "বল",
+        "আবিষ্ট তড়িৎ প্রবাহ",
+        "চৌম্বক প্রাবল্য",
+        "বিদ্যুৎ ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-023",
+      "question": "ফ্লেমিং-এর বামহস্ত নিয়মে বৃদ্ধাঙ্গুলি, তর্জনী ও মধ্যমার দিক নির্দেশ করে যথাক্রমে— (বহু-সঠিক)",
+      "options": [
+        "বল/গতি",
+        "চৌম্বক ক্ষেত্র",
+        "তড়িৎ প্রবাহ",
+        "বিভব"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-40-024",
+      "question": "জলের ব্যতিক্রমী প্রসারণের জন্য শীতপ্রধান দেশে জলাশয়ের বাস্তুতন্ত্র রক্ষা পায় কারণ-",
+      "options": [
+        "নিচের জল ঠান্ডা থাকে",
+        "উপরের বরফ অন্তরকের কাজ করে",
+        "জলের ঘনত্ব কমে যায়",
+        "জল তাড়াতাড়ি গরম হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-025",
+      "question": "প্রেসবায়োপিয়া ত্রুটি কেন হয়?",
+      "options": [
+        "জন্মগত ত্রুটি",
+        "চোখের আঘাত",
+        "বয়সজনিত কারণে সমঞ্জসন ক্ষমতা হ্রাস",
+        "আলোর অভাব"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-026",
+      "question": "নীচের কোনটি ধাতুকল্প নয়?",
+      "options": [
+        "সিলিকন (Si)",
+        "জার্মেনিয়াম (Ge)",
+        "অ্যালুমিনিয়াম (Al)",
+        "আর্সেনিক (As)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-027",
+      "question": "50g লোহার টুকরো 80°C থেকে 30°C এ ঠান্ডা হলে কত তাপ বর্জন করবে? (লোহার আপেক্ষিক তাপ = 0.1 cal/g°C)",
+      "options": [
+        "150 cal",
+        "250 cal",
+        "350 cal",
+        "450 cal"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-40-028",
+      "question": "নিচের কোনগুলি 'এসিডিক অক্সাইড' (Acidic Oxides)?",
+      "options": [
+        "SO2",
+        "CO2",
+        "P2O5",
+        "Na2O"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-40-029",
+      "question": "ক্ষারীয় দ্রবণে মেথাইল রেড নির্দেশকের বর্ণ কী হয়?",
+      "options": [
+        "লাল",
+        "হলুদ",
+        "কমলা",
+        "গোলাপী"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-40-030",
+      "question": "কোন পদ্ধতিতে তাপ স্থানান্তরের জন্য মাধ্যমের প্রয়োজন হয় না?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "A ও B উভয়ই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

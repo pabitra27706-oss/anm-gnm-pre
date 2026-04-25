@@ -1,0 +1,519 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 121,
+  "questions": [
+    {
+      "id": "am-121-001",
+      "question": "10 সেমি বাহুবিশিষ্ট একটি ঘনক গলিয়ে 20 সেমি দৈর্ঘ্য ও 10 সেমি প্রস্থবিশিষ্ট একটি আয়তঘন তৈরি করা হলো। আয়তঘনের উচ্চতা কত?",
+      "options": [
+        "2 সেমি",
+        "3 সেমি",
+        "4 সেমি",
+        "5 সেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-121-002",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য l, প্রস্থ b, উচ্চতা h হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "আয়তন = lbh",
+        "সমগ্রতলের ক্ষেত্রফল = 2(lb + bh + hl)",
+        "পার্শ্বতলের ক্ষেত্রফল = 2h(l + b)",
+        "কর্ণ = √(l² + b² + h²)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-121-003",
+      "question": "9% হারে 3 বছরের SI 540 টাকা হলে P ও A:",
+      "options": [
+        "P = 2000",
+        "A = 2540",
+        "P = 2200",
+        "A = 2740"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-121-004",
+      "question": "একটি দণ্ড লেখচিত্রে ৪টি লাইনে সার্ভিসের সময় (মিনিট): L1: 15, L2: 20, L3: 10, L4: 25 কোন লাইনে সময় সবচেয়ে বেশি?",
+      "options": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-121-005",
+      "question": "a = 2, b = 3 হলে, a² + b² - 2ab = ?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-006",
+      "question": "একটি গোলকের ব্যাস 7 সেমি। আয়তন কত? (π = 22/7)",
+      "options": [
+        "143.67 ঘনসেমি",
+        "179.67 ঘনসেমি",
+        "179.67 ঘনসেমি",
+        "200 ঘনসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-007",
+      "question": "(2³)² = ?",
+      "options": [
+        "2⁵",
+        "2⁶",
+        "2⁹",
+        "2¹"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-008",
+      "question": "একটি দ্রব্যের দাম 20% কমার ফলে 8000 টাকায় আগের চেয়ে 200 কেজি বেশি কেনা যায়। নতুন দরে প্রতি কেজি দাম কত?",
+      "options": [
+        "6 টাকা",
+        "7 টাকা",
+        "8 টাকা",
+        "10 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-121-009",
+      "question": "7, 13, 19-এর লসাগু কত?",
+      "options": [
+        "1729",
+        "1728",
+        "1369",
+        "2197"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-010",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য 10 সেমি, প্রস্থ 4 সেমি ও উচ্চতা 6 সেমি। সমগ্রতলের ক্ষেত্রফল কত?",
+      "options": [
+        "124 বর্গসেমি",
+        "168 বর্গসেমি",
+        "188 বর্গসেমি",
+        "248 বর্গসেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-011",
+      "question": "একটি আয়তক্ষেত্রের কর্ণ 10 সেমি ও দৈর্ঘ্য 6 সেমি। ক্ষেত্রফল কত?",
+      "options": [
+        "24 বর্গসেমি",
+        "32 বর্গসেমি",
+        "48 বর্গসেমি",
+        "60 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-012",
+      "question": "2x × 3y = ?",
+      "options": [
+        "5xy",
+        "6xy",
+        "6x + 6y",
+        "5x + 5y"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-121-013",
+      "question": "একটি রেখা লেখচিত্রে লাভ (হাজারে): 2016: 40, 2017: 55, 2018: 70, 2019: 85, 2020: 100 কত বছর সময়ে লাভ 60 হাজার বেড়েছে (প্রথম থেকে শেষ)?",
+      "options": [
+        "4 বছর",
+        "5 বছর",
+        "6 বছর",
+        "7 বছর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-121-014",
+      "question": "একটি দ্রব্য 25% লাভে বিক্রয় করলে লাভ হয় 200 টাকা। দ্রব্যটির CP ও SP কত?",
+      "options": [
+        "CP = 800 টাকা",
+        "SP = 1000 টাকা",
+        "CP = 600 টাকা",
+        "SP = 800 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-015",
+      "question": "বার্ষিক 5% হারে কত টাকার 2 বছরের CI ও SI-এর পার্থক্য 25 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "15000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-016",
+      "question": "একটি জিনিস 20% লাভে বিক্রয় করলে বিক্রয়মূল্য 720 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-121-017",
+      "question": "একটি বৃত্তের ব্যাসার্ধ 20% বৃদ্ধি করলে ক্ষেত্রফল কত% বৃদ্ধি পাবে?",
+      "options": [
+        "20%",
+        "40%",
+        "44%",
+        "48%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-121-018",
+      "question": "নিচের দণ্ড লেখচিত্রে বিভিন্ন পণ্যের ওজন: P1: 10, P2: 15, P3: 12, P4: 18 P2 এর ওজন P4 এর ওজনের কত অংশ?",
+      "options": [
+        "5/6",
+        "6/5",
+        "5/7",
+        "7/5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-121-019",
+      "question": "A, B, C যথাক্রমে 10, 15 ও 20 দিনে একটি কাজ করতে পারে। তারা একসাথে কাজ করে 1300 টাকা পায়। C-এর ভাগ কত?",
+      "options": [
+        "300 টাকা",
+        "400 টাকা",
+        "500 টাকা",
+        "600 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-121-020",
+      "question": "10 জন পুরুষ 15 দিনে একটি কাজ করে। 5 জন পুরুষ ও 5 জন মহিলা একই কাজ 12 দিনে করে। 1 জন মহিলা একা কাজটি কত দিনে করবে?",
+      "options": [
+        "30 দিন",
+        "33 দিন",
+        "36 দিন",
+        "40 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-121-021",
+      "question": "x² + 2xy + y² কে (x + y) দ্বারা ভাগ করলে ভাগফল কী?",
+      "options": [
+        "x + y",
+        "x - y",
+        "x² + y²",
+        "x² - y²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-022",
+      "question": "360 এর 33⅓% কত?",
+      "options": [
+        "100",
+        "110",
+        "120",
+        "130"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-023",
+      "question": "দুটি সংখ্যার গসাগু 6, লসাগু 72। একটি সংখ্যা 18 হলে, অপর সংখ্যাটি কত?",
+      "options": [
+        "20",
+        "24",
+        "30",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-024",
+      "question": "18, 30, 42, 66-এর গসাগু কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-121-025",
+      "question": "(1/2) ÷ (2/3) ÷ (3/4) = ?",
+      "options": [
+        "1/4",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-121-026",
+      "question": "হিস্টোগ্রামের বৈশিষ্ট্য:",
+      "options": [
+        "ক্রমিক শ্রেণি ব্যবধান থাকে",
+        "স্তম্ভগুলো স্পর্শ করে",
+        "ক্ষেত্রফল কম্পাঙ্ক নির্দেশ করে",
+        "পৃথক ডাটার জন্য নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-121-027",
+      "question": "A ও B-এর কাজের সময়ের অনুপাত a:b হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "দক্ষতার অনুপাত b:a",
+        "A ও B একসাথে কাজ করলে সময় হবে ab/(a+b)",
+        "A এর দক্ষতা = 1/a, B এর দক্ষতা = 1/b",
+        "A ও B একসাথে 1 দিনে (a+b)/ab কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-121-028",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "CP = SP × 100/(100 + লাভ%)",
+        "CP = SP × 100/(100 - ক্ষতি%)",
+        "SP = CP × (100 + লাভ%)/100",
+        "SP = CP × (100 - ক্ষতি%)/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-121-029",
+      "question": "x² - 8x + 16 = (x - 4)²?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "কখনো সত্য নয়",
+        "শুধু x = 4 হলে সত্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-121-030",
+      "question": "একটি চাকা 3.5 মি ব্যাসার্ধের। চাকাটি 1 বার ঘুরলে কত দূরত্ব যায়? (π = 22/7)",
+      "options": [
+        "পরিধি = 2 × 22/7 × 3.5 = 22 মি",
+        "10 বার ঘুরলে 220 মি",
+        "1 বার ঘুরলে 22 মি",
+        "পরিধি = 22 মি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

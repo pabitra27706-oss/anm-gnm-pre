@@ -1,0 +1,530 @@
+{
+  "subject": "general-science",
+  "set": 61,
+  "questions": [
+    {
+      "id": "ge-61-001",
+      "question": "ইলেকট্রন বিন্যাস 2,8,8,1 হলে মৌলটি কী?",
+      "options": [
+        "Ar",
+        "K",
+        "Ca",
+        "Na"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-002",
+      "question": "গ্যাস থার্মোমিটার তরল থার্মোমিটার অপেক্ষা বেশি সংবেদনশীল কেন?",
+      "options": [
+        "গ্যাস হালকা",
+        "গ্যাসের প্রসারণ গুণাঙ্ক বেশি",
+        "গ্যাস সস্তা",
+        "গ্যাস রঙিন হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-003",
+      "question": "বল একটি ভেক্টর রাশি, কারণ— (বহু-সঠিক)",
+      "options": [
+        "এর মান আছে",
+        "এর নির্দিষ্ট দিক আছে",
+        "ভেক্টর বীজগণিতের নিয়মে যোগ্য",
+        "এর কোনো একক নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-61-004",
+      "question": "একটি 60 W-এর বাতি প্রতিদিন 8 ঘণ্টা জ্বালানো হয়। 30 দিনে কত ইউনিট বিদ্যুৎ খরচ হবে?",
+      "options": [
+        "48 kWh",
+        "14.4 kWh",
+        "480 kWh",
+        "60 kWh"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-005",
+      "question": "সূর্যের আলো প্রিজমের ভিতর দিয়ে গেলে কী তৈরি হয়?",
+      "options": [
+        "লাল আলো",
+        "বর্ণালী",
+        "অবাস্তব প্রতিবিম্ব",
+        "শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-61-006",
+      "question": "কলোয়েড কণাগুলি ফিল্টার পেপার দিয়ে যেতে পারে কারণ—",
+      "options": [
+        "কণাগুলি খুব ছোট",
+        "ফিল্টার পেপারের ছিদ্র কণাগুলির চেয়ে বড়",
+        "কণাগুলি দ্রাবকে দ্রবীভূত থাকে",
+        "কণাগুলির কোনো ভর নেই"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-61-007",
+      "question": "1000 J কাজ 20 সেকেন্ডে করলে ক্ষমতা কত HP হবে? (HP = 746 W)",
+      "options": [
+        "0.067 HP",
+        "0.67 HP",
+        "6.7 HP",
+        "67 HP"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-61-008",
+      "question": "কাঁচ থেকে বায়ুতে আলো যাওয়ার সময় আলোক রশ্মি কিরূপ হয়?",
+      "options": [
+        "অভিলম্বের দিকে বেঁকে যায়",
+        "অভিলম্ব থেকে দূরে সরে যায়",
+        "কোনো পরিবর্তন হয় না",
+        "প্রতিফলিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-009",
+      "question": "MCB -এর পুরো নাম কী?",
+      "options": [
+        "Main Circuit Breaker",
+        "Miniature Circuit Breaker",
+        "Maximum Current Board",
+        "Mini Current Board"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-010",
+      "question": "রৈখিক ভরবেগের নিত্যতা সূত্র প্রয়োগ করা হয়—",
+      "options": [
+        "রকেট উৎক্ষেপণে",
+        "বন্দুকের প্রতিঘাত বা পশ্চাৎ বেগে",
+        "ঘর্ষণ হীন পথে চলার সময়",
+        "বায়ু শূন্য স্থানে চলার সময়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-61-011",
+      "question": "নিচের কোনগুলো টেলিস্কোপের বৈশিষ্ট্য? (i) দূরের বস্তুকে কাছে এনে দেখায় (ii) জ্যোতির্বিদ্যায় ব্যবহার হয় (iii) অভিলক্ষ্যের ফোকাস দূরত্ব বেশি হয় (iv) বিবর্ধন ক্ষমতা f₀/fₑ এর সমান",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-61-012",
+      "question": "CO₂ বায়ুমণ্ডলে কোন সমস্যার প্রধান কারণ?",
+      "options": [
+        "অ্যাসিড বৃষ্টি",
+        "ওজোন স্তরের ক্ষয়",
+        "গ্রীনহাউস প্রভাব ও বিশ্ব উষ্ণায়ন",
+        "সালোকসংশ্লেষ হ্রাস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-013",
+      "question": "একটি পরমাণুতে K, L পূর্ণ ও M কক্ষে 1টি ইলেকট্রন; মৌলটি কী?",
+      "options": [
+        "Na",
+        "Mg",
+        "Al",
+        "K"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-014",
+      "question": "নিচের কোনগুলি বেগের একক? (বহু-সঠিক)",
+      "options": [
+        "m/s",
+        "km/h",
+        "cm/s",
+        "m·s"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-61-015",
+      "question": "[NUMERICAL] 22.4 L (STP) আয়তনের অ্যামোনিয়া গ্যাসে (NH3) কত গ্রাম নাইট্রোজেন থাকে?",
+      "options": [
+        "14 g",
+        "17 g",
+        "3 g",
+        "28 g"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-016",
+      "question": "একমুখী তড়িৎ প্রবাহ কোনটি?",
+      "options": [
+        "AC",
+        "DC",
+        "উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-61-017",
+      "question": "[NUMERICAL] একটি বস্তুর ভর 50 kg এবং বেগ 4 m/s হলে তার ভরবেগ কত?",
+      "options": [
+        "200 kg·m/s",
+        "12.5 kg·m/s",
+        "200 N",
+        "100 kg·m/s"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-61-018",
+      "question": "সুরশলাকার বাহুর কম্পন থেকে যে শব্দ উৎপন্ন হয় তার—",
+      "options": [
+        "কম্পাঙ্ক নির্দিষ্ট থাকে",
+        "বিস্তার ধীরে ধীরে কমে (বায়ুর বাধার জন্য)",
+        "এটি একটি সুরযুক্ত শব্দ",
+        "এটি শুনতে পাওয়া যায় না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-61-019",
+      "question": "একটি ধাতুর নাম কর যা অ্যাসিড থেকে হাইড্রোজেন প্রতিস্থাপিত করতে পারে না—",
+      "options": [
+        "Zn",
+        "Mg",
+        "Cu",
+        "Fe"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-61-020",
+      "question": "n-বিউটেন ও আইসো-বিউটেন কী ধরনের যৌগ?",
+      "options": [
+        "সমাণু",
+        "সমবায়ু",
+        "সমচ্ছেদী",
+        "সমসত্ত্ব"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-021",
+      "question": "মরীচিকা (Mirage) কিসের উদাহরণ?",
+      "options": [
+        "নিয়মিত প্রতিফলন",
+        "অনিয়মিত প্রতিফলন",
+        "অভ্যন্তরীণ পূর্ণ প্রতিফলন",
+        "বিচ্ছুরণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-022",
+      "question": "সুরযুক্ত শব্দের কোয়ালিটি বা গুণ চিনতে সাহায্য করে—",
+      "options": [
+        "তরঙ্গের রূপ (Waveform) দেখে",
+        "বিভিন্ন বাদ্যযন্ত্রের পার্থক্য করতে",
+        "গানের সুর বুঝতে",
+        "শব্দের বেগ মাপতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-61-023",
+      "question": "সোলার হিটার কোন নীতি ব্যবহার করে?",
+      "options": [
+        "বিকিরণ ও পরিচলন",
+        "পরিবহন",
+        "আলোক সংশ্লেষ",
+        "তড়িৎ বিশ্লেষণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-024",
+      "question": "নেল পলিশ রিমুভার হিসেবে কোন অ্যাসিডের ডেরিভেটিভ (অ্যাসিটোন) বা মৃদু অ্যাসিড ব্যবহৃত হয়?",
+      "options": [
+        "Acetic",
+        "Formic",
+        "Butyric",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-61-025",
+      "question": "2 kg ভরের একটি বস্তুকে 10 m উচ্চতায় তুললে তার বিভব শক্তি কত হবে? (g = 10 m/s²)",
+      "options": [
+        "100 J",
+        "200 J",
+        "50 J",
+        "120 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-61-026",
+      "question": "নিচের কোনগুলি আমাদের শরীরে pH নিয়ন্ত্রণে সাহায্য করে?",
+      "options": [
+        "ফুসফুস (CO2 ত্যাগের মাধ্যমে)",
+        "বৃক্ক বা কিডনি (H+ ত্যাগের মাধ্যমে)",
+        "রক্তে উপস্থিত প্রোটিন",
+        "পাকস্থলীর প্রাচীর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-61-027",
+      "question": "নিচের কোনটি নবায়নযোগ্য শক্তির উৎস নয়?",
+      "options": [
+        "সৌর",
+        "বায়ু",
+        "কয়লা",
+        "ভূ-তাপ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-61-028",
+      "question": "নিচের কোনগুলো লব্ধ রাশি? (বহু-সঠিক)",
+      "options": [
+        "ঘনত্ব",
+        "দৈর্ঘ্য",
+        "ত্বরণ",
+        "বল"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-61-029",
+      "question": "50°C উষ্ণতার 3kg জল ও 10°C উষ্ণতার 2kg জল মেশালে চূড়ান্ত তাপমাত্রা কত হবে?",
+      "options": [
+        "30°C",
+        "32°C",
+        "34°C",
+        "36°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-61-030",
+      "question": "তড়িৎ রাসায়নিক কোষে— (বহু-সঠিক)",
+      "options": [
+        "রাসায়নিক শক্তি → তড়িৎ শক্তি",
+        "একটি তড়িৎদ্বার দ্রবীভূত হয়",
+        "ক্যাথোড ধনাত্মক",
+        "ড্যানিয়েল কোষ একটি উদাহরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

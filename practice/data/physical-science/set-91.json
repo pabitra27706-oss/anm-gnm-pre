@@ -1,0 +1,518 @@
+{
+  "subject": "general-science",
+  "set": 91,
+  "questions": [
+    {
+      "id": "ge-91-001",
+      "question": "কোনো ইঞ্জিন 800 J তাপ গ্রহণ করে 600 J তাপ বর্জন করলে ইঞ্জিনের কর্মদক্ষতা কত?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-002",
+      "question": "আপেক্ষিক ত্রুটি নির্ণয়ে প্রয়োজন— (বহু-সঠিক)",
+      "options": [
+        "গড় ত্রুটি",
+        "প্রকৃত মান",
+        "পরিমাণগত পার্থক্য",
+        "শূন্য ত্রুটি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-91-003",
+      "question": "[NUMERICAL] 2 mole Hydrogen গ্যাসের ভর কত?",
+      "options": [
+        "1g",
+        "2g",
+        "4g",
+        "8g"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-91-004",
+      "question": "তড়িৎ চুম্বক আবেশের ক্ষেত্রে কুণ্ডলীর পাক সংখ্যা বাড়ালে আবিষ্ট তড়িচ্চালক বল কী হবে?",
+      "options": [
+        "কমবে",
+        "বাড়বে",
+        "একই থাকবে",
+        "শূন্য হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-005",
+      "question": "নিচের কোন বিবৃতিগুলো সঠিক নয়? (i) সমতল দর্পণের ফোকাস দূরত্ব শূন্য (ii) উত্তল দর্পণের ফোকাস দূরত্ব ধনাত্মক (iii) অবতল দর্পণের ফোকাস দূরত্ব ঋণাত্মক (iv) সমতল দর্পণের বিবর্ধন অসীম",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-91-006",
+      "question": "ত্বরণ = ?",
+      "options": [
+        "(v-u) × t",
+        "(v+u) / t",
+        "(v-u) / t",
+        "(v+u) × t"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-007",
+      "question": "একটি অবতল দর্পণে 10 cm দূরে বস্তু রাখায় প্রতিবিম্ব দর্পণের পিছনে 30 cm দূরে তৈরি হয়। ফোকাস দূরত্ব কত?",
+      "options": [
+        "7.5 cm",
+        "15 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-91-008",
+      "question": "CFC গ্যাসের উৎস কী?",
+      "options": [
+        "কৃষিকাজ",
+        "রেফ্রিজারেটর, শীতাতপ নিয়ন্ত্রণ যন্ত্র, এরোসল স্প্রে",
+        "পাহাড়",
+        "সমুদ্র"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-009",
+      "question": "ডাক্তারি থার্মোমিটারের পরিসর কত?",
+      "options": [
+        "0°C – 100°C",
+        "35°C – 42°C",
+        "-10°C – 110°C",
+        "20°F – 120°F"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-010",
+      "question": "একটি লেন্সের ক্ষমতা -2.5 D। লেন্সটি কী ধরনের?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "সমতল",
+        "দ্বি-উত্তল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-91-011",
+      "question": "নিচের কোনগুলো একটি ক্যামেরার অংশ? (i) লেন্স (ii) অ্যাপারচার (iii) শাটার (iv) ফিল্ম বা সেন্সর",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-91-012",
+      "question": "নিচের কোনগুলো আলোর প্রতিসরণের জন্য দায়ী? (i) মাধ্যম পরিবর্তনে আলোর বেগ পরিবর্তন (ii) আপতন কোণ শূন্য না হওয়া (iii) মাধ্যমের রঙ পরিবর্তন (iv) আলোর কম্পাঙ্ক পরিবর্তন",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-013",
+      "question": "আলোর প্রতিফলনের ক্ষেত্রে নিচের কোন বিবৃতিগুলো সঠিক? (i) আপতিত রশ্মি, প্রতিফলিত রশ্মি ও অভিলম্ব এক সমতলে থাকে (ii) আপতন কোণ = প্রতিফলন কোণ (iii) আপতন কোণ > প্রতিফলন কোণ (iv) প্রতিফলিত রশ্মি অভিলম্বের বিপরীত দিকে চলে",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-91-014",
+      "question": "আপেক্ষিক তাপের SI একক কী?",
+      "options": [
+        "J/kg",
+        "J/(kg·K)",
+        "cal/g",
+        "J/g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-015",
+      "question": "অক্সিজেন সিলিন্ডারের গায়ে 'তাপ থেকে দূরে রাখুন' লেখা থাকে, কারণ তাপে-",
+      "options": [
+        "গ্যাস প্রসারিত হয়ে বিস্ফোরণ ঘটাতে পারে",
+        "গ্যাস সংকুচিত হয়",
+        "গ্যাস তরল হয়ে যায়",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-91-016",
+      "question": "সোডিয়াম বাইকার্বনেট (Baking Soda) ব্যবহৃত হয়—",
+      "options": [
+        "কেক বা পাউরুটি ফোলাতে",
+        "অগ্নিনির্বাপক যন্ত্রে",
+        "এসিডিটির ওষুধ হিসেবে",
+        "কাপড় কাচতে (প্রধান উপাদান হিসেবে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-91-017",
+      "question": "নিচের কোন ক্ষেত্রে কার্য শূন্য? (বহু-সঠিক)",
+      "options": [
+        "সূর্যের চারদিকে পৃথিবীর আবর্তন",
+        "হাঁটা",
+        "ঘড়ির কাঁটার চলন (ব্যাটারি শেষ হলে)",
+        "চৌম্বক ক্ষেত্রে স্থির আধান"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-91-018",
+      "question": "তরল পদার্থে তাপ সঞ্চালনের পদ্ধতি কোনগুলি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "ঊর্ধ্বপাতন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-91-019",
+      "question": "কোনো কুণ্ডলীর কাছে চুম্বক দ্রুত সরানো হলে কী উৎপন্ন হয়?",
+      "options": [
+        "কেবল তাপ",
+        "আবিষ্ট তড়িৎ",
+        "স্থির তড়িৎ",
+        "আলো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-020",
+      "question": "Ca (Z=20) কোন পর্যায় ও গ্রুপে অবস্থিত?",
+      "options": [
+        "পর্যায় 4, গ্রুপ 2",
+        "পর্যায় 2, গ্রুপ 4",
+        "পর্যায় 3, গ্রুপ 2",
+        "পর্যায় 4, গ্রুপ 4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-91-021",
+      "question": "ভূপৃষ্ঠের ওজোন (Ground level ozone) কী?",
+      "options": [
+        "ভালো ওজোন",
+        "দূষণকারী হিসেবে কাজ করে, ফটোকেমিক্যাল স্মগ তৈরি করে",
+        "স্ট্র্যাটোস্ফিয়ারিক ওজোন",
+        "অক্সিজেনের রূপ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-022",
+      "question": "নিচের কোনগুলো আলোর সাথে সম্পর্কিত মৌলিক ধারণা? (i) আলো তড়িৎ চৌম্বকীয় তরঙ্গ (ii) শূন্যস্থানে আলোর বেগ সর্বোচ্চ (iii) আলোর প্রতিফলন ও প্রতিসরণ ঘটে (iv) আলোর বেগ সব মাধ্যমেই সমান",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-023",
+      "question": "He-এর ইলেকট্রন বিন্যাস কী?",
+      "options": [
+        "2,2",
+        "2,0",
+        "2",
+        "1,1"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-024",
+      "question": "একটি অবতল দর্পণের সামনে একটি বস্তু রাখা হলো। প্রতিবিম্বটির বিবর্ধন +2.5। নিচের কোন বিবৃতিগুলি সঠিক? (i) প্রতিবিম্ব অবাস্তব (ii) প্রতিবিম্ব সমশীর্ষ (iii) বস্তু F ও P এর মধ্যে অবস্থিত (iv) বস্তু C ও F এর মধ্যে অবস্থিত",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-91-025",
+      "question": "প্রশমন তাপ (Heat of Neutralization) নির্ভর করে—",
+      "options": [
+        "অ্যাসিডের শক্তির ওপর",
+        "ক্ষারের শক্তির ওপর",
+        "আয়ননের মাত্রার ওপর",
+        "লবণের রঙের ওপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-91-026",
+      "question": "বস্তুর জাড্য ধর্ম (Inertia) নিচের কোন সূত্রের মাধ্যমে জানা যায়?",
+      "options": [
+        "নিউটনের প্রথম গতিসূত্র",
+        "নিউটনের দ্বিতীয় গতিসূত্র",
+        "নিউটনের তৃতীয় গতিসূত্র",
+        "মহাকর্ষ সূত্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-91-027",
+      "question": "নিচের কোনগুলি কঠিন অ্যারোসল (Solid Aerosol)?",
+      "options": [
+        "ধোঁয়া",
+        "ধুলিকণা যুক্ত বাতাস",
+        "মেঘ",
+        "কুয়াশা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-91-028",
+      "question": "নিচের কোনটি তড়িৎ চুম্বকীয় আবেশের উদাহরণ?",
+      "options": [
+        "সাইকেলের ডায়নামো",
+        "হিটার",
+        "ইস্ত্রি",
+        "বাতি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-91-029",
+      "question": "নিচের কোনগুলি অধাতু?",
+      "options": [
+        "হাইড্রোজেন",
+        "হিলিয়াম",
+        "কার্বন",
+        "তামা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-91-030",
+      "question": "100°C তাপমাত্রার 10g বাষ্প 0°C তাপমাত্রার বরফে পরিণত হলে মোট কত তাপ ত্যাগ করবে? (L_v = 540 cal/g, L_f = 80 cal/g)",
+      "options": [
+        "5400 cal",
+        "6200 cal",
+        "7200 cal",
+        "8200 cal"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

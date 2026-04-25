@@ -1,0 +1,524 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 49,
+  "questions": [
+    {
+      "id": "am-49-001",
+      "question": "3/5 এবং 5/8-এর মধ্যে কোনটি বড়?",
+      "options": [
+        "3/5",
+        "5/8",
+        "সমান",
+        "তুলনা করা যায় না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-002",
+      "question": "বীজগণিতের মৌলিক ক্রিয়াগুলি সঠিকভাবে সম্পাদনের জন্য কী কী জানা প্রয়োজন?",
+      "options": [
+        "সদৃশ ও অসদৃশ পদের ধারণা",
+        "চিহ্নের নিয়ম",
+        "বন্ধনী খোলার নিয়ম",
+        "সূচকের নিয়ম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-49-003",
+      "question": "একটি ট্রেন 40 km/h বেগে চললে একটি স্টেশন 12 মিনিট দেরিতে পৌঁছে। যদি 50 km/h বেগে চলে, তবে 2 মিনিট আগে পৌঁছে। দূরত্ব কত?",
+      "options": [
+        "45 km",
+        "46.67 km",
+        "50 km",
+        "53.33 km"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-49-004",
+      "question": "25% লাভে একটি জিনিস 500 টাকায় বিক্রি করলে ক্রয়মূল্য ও লাভ:",
+      "options": [
+        "ক্রয়মূল্য = 400",
+        "লাভ = 100 টাকা",
+        "25% লাভ মানে 125% of CP = SP",
+        "CP = 400/-"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-49-005",
+      "question": "5টি সংখ্যার গড় 22। এদের মধ্যে 3টির গড় 18 হলে, বাকি 2টির গড় কত?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-49-006",
+      "question": "10000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "2000 টাকা",
+        "2100 টাকা",
+        "2200 টাকা",
+        "2300 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-49-007",
+      "question": "12-এর 125% কত?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "21"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-008",
+      "question": "6 সেমি ব্যাসার্ধবিশিষ্ট একটি গোলক গলিয়ে 2 সেমি ব্যাসার্ধবিশিষ্ট কতগুলি ছোট গোলক তৈরি করা যাবে?",
+      "options": [
+        "3টি",
+        "9টি",
+        "18টি",
+        "27টি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-49-009",
+      "question": "A একটি কাজ 3 দিনে করে, B 4 দিনে করে। তারা একসাথে কাজ করে 700 টাকা পেলে A কত পাবে?",
+      "options": [
+        "300 টাকা",
+        "350 টাকা",
+        "400 টাকা",
+        "450 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-010",
+      "question": "0.25-এর সঙ্গে কোন কোন সংখ্যা যোগ করলে 1 পাওয়া যায়?",
+      "options": [
+        "0.75",
+        "3/4",
+        "0.5",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-49-011",
+      "question": "একটি বৃত্তের ব্যাসার্ধ r থেকে 2r করলে ক্ষেত্রফল কতগুণ হবে?",
+      "options": [
+        "2 গুণ",
+        "3 গুণ",
+        "4 গুণ",
+        "8 গুণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-012",
+      "question": "100, 200, 300, 400, 500 এর গড় কত?",
+      "options": [
+        "250",
+        "260",
+        "280",
+        "300"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-49-013",
+      "question": "0.75-কে ভগ্নাংশে লিখলে নিচের কোনগুলো সঠিক?",
+      "options": [
+        "75/100",
+        "3/4",
+        "6/8",
+        "15/20"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-49-014",
+      "question": "1, 4, 9, 16, 25, 36 এর গড়:",
+      "options": [
+        "15.17",
+        "91/6 ≈ 15.17",
+        "15",
+        "16"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-49-015",
+      "question": "8টি সংখ্যার গড় 22। 4টি সংখ্যার গড় 18 হলে, বাকি 4টির গড় কত?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-49-016",
+      "question": "(x + y)² - (x - y)² = ?",
+      "options": [
+        "4xy",
+        "(x² + 2xy + y²) - (x² - 2xy + y²)",
+        "4xy",
+        "2xy"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-49-017",
+      "question": "5000 টাকার 10% হারে 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1500 টাকা",
+        "1550 টাকা",
+        "1600 টাকা",
+        "1655 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-018",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 4 ও 6 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 8 ঘন্টায় খালি হয়। চৌবাচ্চা অর্ধেক ভর্তি থাকলে তিনটি একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "নিট ভরার হার = 1/4 + 1/6 - 1/8 = (6+4-3)/24 = 7/24",
+        "অর্ধেক কাজের জন্য সময় = (1/2)/(7/24) = 12/7 = 1.714 ঘন্টা",
+        "1.714 ঘন্টা",
+        "2 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-49-019",
+      "question": "800 টাকার 2 বছরে সরল সুদ 128 টাকা হলে, সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-020",
+      "question": "নিচের সারণি: ৬টি পণ্যের ওজন (কেজি): P1: 5, P2: 8, P3: 6, P4: 10, P5: 7, P6: 9 মোট ওজন কত কেজি?",
+      "options": [
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-49-021",
+      "question": "A ও B একসাথে একটি কাজ 6 দিনে শেষ করতে পারে। A একা ওই কাজ 10 দিনে শেষ করলে B একা কত দিনে করবে?",
+      "options": [
+        "12 দিন",
+        "13 দিন",
+        "14 দিন",
+        "15 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-022",
+      "question": "9 জন ছাত্রের গড় ওজন 48 কেজি। একজন নতুন ছাত্র যোগ দিলে গড় 50 কেজি হয়। নতুন ছাত্রের ওজন কত?",
+      "options": [
+        "60 কেজি",
+        "62 কেজি",
+        "66 কেজি",
+        "68 কেজি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-49-023",
+      "question": "5x - 7 = 3x + 5 হলে, x = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-024",
+      "question": "সমীকরণের উভয়পক্ষে একই সংখ্যা যোগ করলে সমীকরণের সমাধান কী হয়?",
+      "options": [
+        "অপরিবর্তিত থাকে",
+        "পরিবর্তিত হয়",
+        "দ্বিগুণ হয়",
+        "অর্ধেক হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-49-025",
+      "question": "একটি গাছের উচ্চতা প্রতি বছর 5% হারে বৃদ্ধি পায়। বর্তমান উচ্চতা 2 মিটার হলে 3 বছর পরে উচ্চতা কত?",
+      "options": [
+        "2.31 মি",
+        "2.32 মি",
+        "2.33 মি",
+        "2.35 মি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-026",
+      "question": "30 m/s কে km/h এ প্রকাশ করলে কত?",
+      "options": [
+        "100 km/h",
+        "104 km/h",
+        "108 km/h",
+        "112 km/h"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-49-027",
+      "question": "2 বছরের CI ও SI-এর পার্থক্যের সূত্র সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "CI - SI = P(R/100)²",
+        "পার্থক্য P ও R-এর উপর নির্ভর করে",
+        "পার্থক্য n-এর উপর নির্ভর করে না (2 বছরের জন্য)",
+        "R বেশি হলে পার্থক্য বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-49-028",
+      "question": "নিচের সারণি: ৫টি গ্রুপের স্কোর: G1: 88, G2: 92, G3: 85, G4: 90, G5: 86 মধ্যমা (Median) কত?",
+      "options": [
+        "86",
+        "88",
+        "90",
+        "92"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-029",
+      "question": "A ও B একসাথে একটি কাজ 15 দিনে করে। A একা 20 দিনে করে। B একা কত দিনে করবে?",
+      "options": [
+        "40 দিন",
+        "50 দিন",
+        "60 দিন",
+        "70 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-49-030",
+      "question": "A একটি কাজ 4 দিনে করে, B 6 দিনে করে। A ও B একসাথে কাজ করে মজুরি পায় 300 টাকা। A-এর মজুরি কত?",
+      "options": [
+        "150 টাকা",
+        "160 টাকা",
+        "170 টাকা",
+        "180 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

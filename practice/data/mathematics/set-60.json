@@ -1,0 +1,539 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 60,
+  "questions": [
+    {
+      "id": "am-60-001",
+      "question": "5% হারে কত বছরে কোনো আসল তিনগুণ হবে?",
+      "options": [
+        "30 বছর",
+        "35 বছর",
+        "40 বছর",
+        "45 বছর"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-002",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 120 টাকা। সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "30000 টাকা",
+        "32000 টাকা",
+        "33333.33 টাকা",
+        "35000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-003",
+      "question": "পাই চার্ট ও দণ্ড লেখচিত্রের তুলনা:",
+      "options": [
+        "পাই চার্ট অনুপাত বোঝায়",
+        "দণ্ড লেখচিত্র সঠিক মান বোঝায়",
+        "পাই চার্টে অংশের তুলনা সহজ",
+        "দণ্ড লেখচিত্রে অংশের সঠিক মান সহজ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-60-004",
+      "question": "একটি কাজ A 12 দিনে, B 15 দিনে করে। A ও B একসাথে কাজ শুরু করে 4 দিন পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "A ও B একসাথে 4 দিনে কাজ করে = 4(1/12+1/15) = 4(5/60+4/60) = 4×9/60 = 36/60 = 3/5",
+        "বাকি কাজ = 2/5",
+        "B-এর সময় = (2/5)/(1/15) = 6 দিন",
+        "6 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-60-005",
+      "question": "P = 8500, R = 6%, T = 3 বছর। SI:",
+      "options": [
+        "1530 টাকা",
+        "A = 10030",
+        "SI = 1500 টাকা",
+        "A = 10000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-60-006",
+      "question": "20% ছাড় দিয়ে একটি দ্রব্য বিক্রয় করলে SP = 800 টাকা। নিচের কোনটি সঠিক?",
+      "options": [
+        "MP = 1000 টাকা",
+        "ছাড় = 200 টাকা",
+        "MP = 960 টাকা",
+        "ছাড় = 150 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-007",
+      "question": "10টি জিনিসের CP = 12টি জিনিসের SP। ক্ষতি% কত?",
+      "options": [
+        "16.67%",
+        "CP of 10 = SP of 12 → SP of 10 = 8.33 → ক্ষতি% = 16.67%",
+        "20%",
+        "25%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-008",
+      "question": "নিচের কোনটি সসীম দশমিক?",
+      "options": [
+        "1/3",
+        "1/6",
+        "1/8",
+        "1/7"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-009",
+      "question": "একটি গোলকের পৃষ্ঠতলের ক্ষেত্রফল 616 বর্গসেমি। গোলকটির ব্যাসার্ধ কত? (π = 22/7)",
+      "options": [
+        "3 সেমি",
+        "5 সেমি",
+        "7 সেমি",
+        "9 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-010",
+      "question": "বার্ষিক 8% হারে 10000 টাকার 1.5 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1224 টাকা",
+        "1248.64 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-011",
+      "question": "নিচের কোন কোনটি সঠিক সরলীকরণ?",
+      "options": [
+        "3(2x + 4) = 6x + 12",
+        "5(3x - 2) = 15x - 10",
+        "-2(4x - 3) = -8x + 6",
+        "-3(2x + 5) = -6x - 15"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-60-012",
+      "question": "ট্রেনের দৈর্ঘ্য 180 মিটার, সেতুর দৈর্ঘ্য 220 মিটার, অতিক্রম করতে 20 সেকেন্ড সময় লাগলে ট্রেনের গতি:",
+      "options": [
+        "মোট দূরত্ব = 400 মিটার",
+        "গতি = 400/20 = 20 m/s = 72 km/h",
+        "গতি = 18 m/s",
+        "20 m/s = 72 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-60-013",
+      "question": "অসাধু ব্যবসায়ীর ক্ষেত্রে নিচের কোনটি সঠিক?",
+      "options": [
+        "লাভ% = (ভুল ওজন/প্রকৃত ওজন) × 100%",
+        "অসাধু লাভ% = (প্রকৃত ওজন - ভুল ওজন)/ভুল ওজন × 100%",
+        "1000 গ্রামের জায়গায় 900 গ্রাম দিলে লাভ% = 11.11%",
+        "1000 গ্রামের জায়গায় 800 গ্রাম দিলে লাভ% = 20%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-014",
+      "question": "কোনো টাকার 2 বছরের CI 630 টাকা এবং SI 600 টাকা। সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-015",
+      "question": "2000 টাকার 20% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "840 টাকা",
+        "880 টাকা",
+        "920 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-60-016",
+      "question": "3, 9, 27, 81,... ধারাটির সাধারণ অনুপাত কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-60-017",
+      "question": "8টি কলমের মূল্য 120 টাকা হলে 15টি কলমের মূল্য কত?",
+      "options": [
+        "200 টাকা",
+        "210 টাকা",
+        "220 টাকা",
+        "225 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-018",
+      "question": "ভগ্নাংশ ও দশমিকের ব্যবহারিক জীবনে প্রয়োগ সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "options": [
+        "ওষুধের মাত্রায় ভগ্নাংশ ব্যবহার হয়",
+        "পরীক্ষার নম্বর দশমিকে প্রকাশ করা হয়",
+        "পকেট মানির ভগ্নাংশ ব্যবহার হয়",
+        "থার্মোমিটারের তাপমাত্রা দশমিকে হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-60-019",
+      "question": "48-এর গুণনীয়ক সংখ্যা কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-020",
+      "question": "48, 72, 108-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 432",
+        "12 × 432 = 48×72×108",
+        "432, 108 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-60-021",
+      "question": "P = 9000, R = 6%, T = 4 বছর। SI ও A:",
+      "options": [
+        "SI = 2160",
+        "A = 11160",
+        "SI = 2160 টাকা",
+        "A = 11160 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-60-022",
+      "question": "72 এবং 108-এর গসাগু ও লসাগুর গুণফল কত?",
+      "options": [
+        "7776",
+        "6480",
+        "5832",
+        "5184"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-023",
+      "question": "A ও B-এর কাজের সময়ের অনুপাত 2:3। তারা একসাথে একটি কাজ 12 দিনে শেষ করে। A একা কাজটি কত দিনে করবে?",
+      "options": [
+        "16 দিন",
+        "18 দিন",
+        "20 দিন",
+        "22 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-024",
+      "question": "সরল সুদের সূত্র থেকে সুদের হার নির্ণয়ের সূত্র কী?",
+      "options": [
+        "(SI × 100) / (P × T)",
+        "(P × T) / (SI × 100)",
+        "(SI × T) / (P × 100)",
+        "(SI × P) / (100 × T)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-025",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 10% বৃদ্ধি ও প্রস্থ 5% হ্রাস করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষেত্রফল পরিবর্তন = (1.1 × 0.95) - 1 = 1.045 - 1 = 0.045 = 4.5% বৃদ্ধি",
+        "ক্ষেত্রফল বৃদ্ধি পায়",
+        "ক্ষেত্রফল হ্রাস পায়",
+        "ক্ষেত্রফল 4.5% হ্রাস পায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-60-026",
+      "question": "একটি ট্রেন 300 মিটার লম্বা। এটি 72 km/h বেগে একটি সিগন্যাল পোস্ট অতিক্রম করে কত সেকেন্ডে?",
+      "options": [
+        "12 সেকেন্ড",
+        "15 সেকেন্ড",
+        "18 সেকেন্ড",
+        "20 সেকেন্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-027",
+      "question": "একটি ক্লাসে 60 জন ছেলে ও 84 জন মেয়ে আছে। তাদের সমান সংখ্যক গ্রুপে ভাগ করতে হবে এবং প্রতিটি গ্রুপে ছেলে ও মেয়ের সংখ্যা সমান হবে। সর্বোচ্চ কত গ্রুপ করা যাবে?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-028",
+      "question": "একটি জিনিস 20% লাভে বিক্রয় করলে এবং 10% লাভে বিক্রয় করলে বিক্রয়মূল্যের পার্থক্য 50 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-60-029",
+      "question": "600 টাকার 3 বছরের সরল সুদ 144 টাকা। একই হারে 1000 টাকার 4 বছরের সুদ কত?",
+      "options": [
+        "300 টাকা",
+        "310 টাকা",
+        "320 টাকা",
+        "340 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-60-030",
+      "question": "(−2)⁴ এবং (−2)³-এর মধ্যে পার্থক্য কী?",
+      "options": [
+        "(−2)⁴ = 16, (−2)³ = −8",
+        "(−2)⁴ > (−2)³",
+        "(−2)⁴ = −16, (−2)³ = 8",
+        "(−2)⁴ − (−2)³ = 24"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

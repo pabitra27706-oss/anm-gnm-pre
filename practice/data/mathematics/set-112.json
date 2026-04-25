@@ -1,0 +1,514 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 112,
+  "questions": [
+    {
+      "id": "am-112-001",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 2000 টাকা। দোকানদার 10% ছাড় দিয়ে বিক্রয় করল। বিক্রয়মূল্য কত?",
+      "options": [
+        "1700 টাকা",
+        "1750 টাকা",
+        "1800 টাকা",
+        "1850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-002",
+      "question": "6 : 10-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "3 : 5",
+        "5 : 3",
+        "6 : 10",
+        "12 : 20"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-003",
+      "question": "7/3-এর বিপরীত ভগ্নাংশ কত?",
+      "options": [
+        "3/7",
+        "-3/7",
+        "7/3",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-004",
+      "question": "2.5 ÷ 0.05 = ?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "0.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-005",
+      "question": "একটি গাড়ি 60 কিমি/ঘন্টা বেগে 5 ঘন্টায় একটি পথ অতিক্রম করে। 75 কিমি/ঘন্টা বেগে কত সময় লাগবে?",
+      "options": [
+        "3 ঘন্টা",
+        "4 ঘন্টা",
+        "5 ঘন্টা",
+        "6 ঘন্টা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-006",
+      "question": "নিচের পাই চার্টে বিভিন্ন ব্র্যান্ডের শেয়ার: A: 25%, B: 35%, C: 20%, D: 15%, E: 5%। B এর কোণ কত?",
+      "options": [
+        "90°",
+        "108°",
+        "126°",
+        "144°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-007",
+      "question": "নিচের সারণিটি ৪টি কোম্পানির আয় (লক্ষ টাকায়) দেখায়: P: 200, Q: 250, R: 300, S: 150 কোম্পানি R এর আয় কোম্পানি S এর আয়ের কত গুণ?",
+      "options": [
+        "1.5",
+        "2",
+        "2.5",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-008",
+      "question": "একজন ব্যক্তি 10000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 3 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "3 বছর পর সুদ-আসল 13310 টাকা",
+        "চক্রবৃদ্ধি সুদ 3310 টাকা",
+        "সরল সুদে পেতেন 3000 টাকা",
+        "CI - SI = 310 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-112-009",
+      "question": "একটি জিনিসের বিক্রয়মূল্য ও ক্রয়মূল্যের অনুপাত 5:6। জিনিসটির ক্ষতির শতকরা হার কত?",
+      "options": [
+        "10%",
+        "12.5%",
+        "15%",
+        "16.67%"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-010",
+      "question": "16, y, 25 ক্রমিক সমানুপাতী হলে y-এর মান কত?",
+      "options": [
+        "20",
+        "20, কারণ 16×25 = 400, √400 = 20",
+        "400",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-011",
+      "question": "15% = 3/20, এটি সঠিক?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "মাঝে মাঝে",
+        "শুধু বড় সংখ্যার জন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-012",
+      "question": "একটি স্কুলে ছাত্র ও শিক্ষকের অনুপাত 25 : 1। শিক্ষকের সংখ্যা 15 হলে ছাত্র সংখ্যা কত?",
+      "options": [
+        "350",
+        "375",
+        "400",
+        "425"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-013",
+      "question": "2000 টাকার 5% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "200 টাকা",
+        "205 টাকা",
+        "210 টাকা",
+        "215 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-014",
+      "question": "সবচেয়ে বড় সংখ্যা যা 16, 24 এবং 32 কে নিঃশেষে ভাগ করবে, তা হল:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-015",
+      "question": "নিচের সারণিটি বিভিন্ন কারণে অনুপস্থিতির সংখ্যা দেখায়: জ্বর: 15, মাথাব্যথা: 8, পেটব্যথা: 10, অন্য: 5 সর্বাধিক অনুপস্থিতির কারণ কী?",
+      "options": [
+        "জ্বর",
+        "মাথাব্যথা",
+        "পেটব্যথা",
+        "অন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-016",
+      "question": "24 : 36-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "4 : 6",
+        "12 : 18",
+        "2 : 3",
+        "3 : 2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-017",
+      "question": "4000 টাকার 5% হারে 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "600 টাকা",
+        "620 টাকা",
+        "630.5 টাকা",
+        "640 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-018",
+      "question": "একটি রেখা লেখচিত্রে আয় (হাজারে): 2016: 80, 2017: 95, 2018: 110, 2019: 125, 2020: 140 ২০১৮ থেকে ২০২০ পর্যন্ত কত বৃদ্ধি?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-019",
+      "question": "একটি বার গ্রাফের উপযুক্ত ব্যবহার:",
+      "options": [
+        "বিভিন্ন বিভাগের তুলনা",
+        "ক্যাটাগরিক্যাল ডাটা",
+        "স্বতন্ত্র মান",
+        "র্যাঙ্কিং বোঝাতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-112-020",
+      "question": "সাধারণ গুণিতক (Common multiple) কাকে বলে?",
+      "options": [
+        "যে সংখ্যা দুটি সংখ্যার প্রত্যেকটি দ্বারা বিভাজ্য",
+        "যে সংখ্যা দুটি সংখ্যার গুণফল",
+        "যে সংখ্যা দুটি সংখ্যার যোগফল",
+        "যে সংখ্যা দুটি সংখ্যার বিয়োগফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-021",
+      "question": "(3/4) + (5/6) - (1/2) = ?",
+      "options": [
+        "13/12",
+        "11/12",
+        "1/12",
+        "5/12"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-022",
+      "question": "0.75-কে মূলদ সংখ্যার আকারে লিখলে?",
+      "options": [
+        "3/4",
+        "4/3",
+        "75/1000",
+        "7/5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-023",
+      "question": "একজন দোকানদার 10% লাভে এবং 10% ক্ষতিতে দুটি জিনিস একই দামে বিক্রয় করলে সামগ্রিক ফলাফল কী কী সত্য?",
+      "options": [
+        "1% ক্ষতি",
+        "লাভ = ক্ষতি",
+        "ক্ষতির পরিমাণ = CP-এর 1%",
+        "লাভের পরিমাণ = CP-এর 1%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-112-024",
+      "question": "1, 2, 3, 4, 5, 6-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 60",
+        "1 এর সঙ্গে যেকোনো সংখ্যার গসাগু 1",
+        "লসাগু সব সংখ্যার গুণফল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-112-025",
+      "question": "7, 13, 19-এর গসাগু কত?",
+      "options": [
+        "1",
+        "7",
+        "13",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-112-026",
+      "question": "600 টাকার 8% = 48 টাকা, 400 টাকার 12% = 48 টাকা, এই দুটি সমান কিনা?",
+      "options": [
+        "হ্যাঁ",
+        "না, একটি 2 টাকা বেশি",
+        "না, একটি 2 টাকা কম",
+        "না, একটি 4 টাকা বেশি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-112-027",
+      "question": "দুই বোনের বয়সের অনুপাত 5 : 4। 6 বছর পরে তাদের বয়সের অনুপাত হবে 6 : 5। ছোট বোনের বর্তমান বয়স কত?",
+      "options": [
+        "20 বছর",
+        "24 বছর",
+        "28 বছর",
+        "32 বছর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-112-028",
+      "question": "একটি শঙ্কুর আয়তন V, ব্যাসার্ধ r ও উচ্চতা h হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "h = 3V/(πr²)",
+        "r = √(3V/πh)",
+        "V = ⅓πr²h",
+        "3V = πr²h"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-112-029",
+      "question": "18, 30, 45-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 3",
+        "LCM = 90",
+        "LCM × HCF = 18×30×45",
+        "LCM সব সংখ্যার গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-112-030",
+      "question": "একটি বিদ্যালয়ের 70% ছাত্র ছাত্রী ক্রিকেট খেলে, 50% ফুটবল খেলে এবং 20% উভয়টি খেলে। কত শতাংশ কোনোটি খেলে না?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "15%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    }
+  ]
+}

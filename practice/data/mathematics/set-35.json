@@ -1,0 +1,546 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 35,
+  "questions": [
+    {
+      "id": "am-35-001",
+      "question": "নিচের কোন কোনটি সূচকের নিয়ম অনুযায়ী সঠিক?",
+      "options": [
+        "2³ × 2⁴ = 2⁷",
+        "5⁶ ÷ 5² = 5³",
+        "(3²)³ = 3⁶",
+        "10⁰ = 0"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-35-002",
+      "question": "−3, −2, −1, 0, 1, 2, 3 এই সেটটিকে বলে?",
+      "options": [
+        "স্বাভাবিক সংখ্যা",
+        "পূর্ণ সংখ্যা",
+        "অখণ্ড সংখ্যা",
+        "অমূলদ সংখ্যা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-003",
+      "question": "1500 টাকার 2 বছরের SI 240 টাকা। একই হারে 2000 টাকার 3 বছরের SI:",
+      "options": [
+        "480 টাকা",
+        "2 গুণ সময় ও 1.33 গুণ P",
+        "360 টাকা",
+        "400 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-35-004",
+      "question": "800 টাকার 3 বছরের সুদ 192 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-35-005",
+      "question": "একটি বাস 30 km/h গতিতে 1.5 ঘন্টায় কিছু দূর যায়। বাকি দূরত্ব 20 km/h গতিতে 2 ঘন্টায় যায়। গড় গতি:",
+      "options": [
+        "প্রথম অংশ দূরত্ব = 45 কিমি",
+        "দ্বিতীয় অংশ দূরত্ব = 40 কিমি",
+        "মোট দূরত্ব = 85 কিমি, মোট সময় = 3.5 ঘন্টা, গড় = 24.29 km/h",
+        "24.29 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-35-006",
+      "question": "A = 5000, P = 4000, T = 2 বছর। R ও SI:",
+      "options": [
+        "SI = 1000",
+        "R = 12.5%",
+        "R = 10%",
+        "SI = 1000 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-35-007",
+      "question": "লাভ ও ক্ষতির সংজ্ঞা সম্পর্কে সঠিক বিবৃতি কোনগুলি?",
+      "options": [
+        "লাভ = বিক্রয়মূল্য - ক্রয়মূল্য",
+        "ক্ষতি = ক্রয়মূল্য - বিক্রয়মূল্য",
+        "লাভ = ক্রয়মূল্য - বিক্রয়মূল্য",
+        "ক্ষতি = বিক্রয়মূল্য - ক্রয়মূল্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-008",
+      "question": "(−2) + (−2) + (−2) = ?",
+      "options": [
+        "−6",
+        "6",
+        "−2",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-009",
+      "question": "1.5 মি ব্যাসার্ধ ও 2 মি উচ্চতাবিশিষ্ট একটি সিলিন্ডার আকৃতির ট্যাংকে কত লিটার পানি ধরে? (π = 3.14, 1 ঘনমি = 1000 লি)",
+      "options": [
+        "10000 লি",
+        "12130 লি",
+        "14130 লি",
+        "16130 লি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-35-010",
+      "question": "নিচের সারণিটি ৪টি ক্লাসের ছাত্র সংখ্যা: ক্লাস 1: 40, 2: 45, 3: 35, 4: 50 মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "160",
+        "165",
+        "170",
+        "175"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-011",
+      "question": "একটি ট্রেন 360 মিটার লম্বা সেতু অতিক্রম করে 21 সেকেন্ডে এবং 140 মিটার লম্বা প্ল্যাটফর্ম অতিক্রম করে 11 সেকেন্ডে। ট্রেনের দৈর্ঘ্য ও গতি:",
+      "options": [
+        "ধরি L train = L, v = (L+360)/21 = (L+140)/11",
+        "11L + 3960 = 21L + 2940 → 1020 = 10L → L = 102 মিটার",
+        "v = (102+360)/21 = 462/21 = 22 m/s = 79.2 km/h",
+        "79.2 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-35-012",
+      "question": "দূরত্ব নির্ণয়ের সূত্র কী?",
+      "options": [
+        "দ্রুতি × সময়",
+        "দূরত্ব / সময়",
+        "সময় / দ্রুতি",
+        "(দ্রুতি × সময়)/2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-013",
+      "question": "3 বছরের সরল সুদ 450 টাকা, R = 5%। P ও A:",
+      "options": [
+        "P = 3000",
+        "A = 3450",
+        "P = 3000 টাকা",
+        "A = 3450 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-35-014",
+      "question": "4000 টাকার 4.5 বছরের সুদ 1440 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-35-015",
+      "question": "কোনো আসল 3 বছরে 10% হারে সুদে-আসলে 13000 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-35-016",
+      "question": "কোনো ব্যক্তি বা যন্ত্রের একক সময়ে কতটুকু কাজ করতে পারে তাকে কী বলে?",
+      "options": [
+        "কাজের পরিমাণ",
+        "দক্ষতা",
+        "মোট সময়",
+        "মোট শ্রমিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-017",
+      "question": "1/3 -এর প্রায়শতকরা মান কত?",
+      "options": [
+        "33.33%",
+        "33⅓%",
+        "0.3333",
+        "3.33%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-35-018",
+      "question": "40, 45, 50, 55, 60, 65, 70 এর গড়:",
+      "options": [
+        "55",
+        "385/7=55",
+        "50",
+        "60"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-35-019",
+      "question": "একজন দোকানদার 10% লাভে বিক্রয় করে এবং 1000 গ্রামের জায়গায় 900 গ্রাম দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "18%",
+        "20%",
+        "22.22%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-35-020",
+      "question": "নিচের কোনগুলো অসদৃশ ভগ্নাংশ?",
+      "options": [
+        "1/3",
+        "1/4",
+        "1/5",
+        "2/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-35-021",
+      "question": "উপরের সারণি থেকে সব গ্রুপ মিলিয়ে গড় নম্বর কত?",
+      "options": [
+        "72.5",
+        "73.5",
+        "74.5",
+        "75.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-35-022",
+      "question": "6% = 0.06, 60% = 0.60, এই সম্পর্কটি সঠিক?",
+      "options": [
+        "হ্যাঁ, সবসময়",
+        "না, কখনো নয়",
+        "শুধু পূর্ণ সংখ্যার জন্য",
+        "শুধু দশমিকের জন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-023",
+      "question": "2x + 5 = 3x - 4 হলে, x = ?",
+      "options": [
+        "9",
+        "-9",
+        "1",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-024",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 100 টাকা এবং সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 10000 টাকা",
+        "CI = 2100 টাকা",
+        "SI = 2000 টাকা",
+        "3 বছরের CI = 3310 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-35-025",
+      "question": "দ্রুতি (Speed) নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "দূরত্ব × সময়",
+        "দূরত্ব / সময়",
+        "সময় / দূরত্ব",
+        "দূরত্ব + সময়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-35-026",
+      "question": "নিচের কোন অবস্থাগুলিতে ক্ষতি হয়?",
+      "options": [
+        "CP > SP",
+        "CP = SP + ক্ষতি",
+        "SP > CP",
+        "SP = CP - ক্ষতি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-35-027",
+      "question": "6টি সংখ্যার গড় 20, 4টি সংখ্যার গড় 25। সব মিলিয়ে গড়:",
+      "options": [
+        "(120+100)/10 = 220/10 = 22",
+        "22",
+        "23",
+        "21"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-35-028",
+      "question": "একটি সিলিন্ডারের ব্যাসার্ধ ও উচ্চতার অনুপাত 1:2 এবং আয়তন 16π। ব্যাসার্ধ কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-35-029",
+      "question": "1 থেকে 99 পর্যন্ত বিজোড় সংখ্যার গড় কত?",
+      "options": [
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-35-030",
+      "question": "একজন দোকানদার 20% ছাড় দিয়ে একটি জিনিস বিক্রয় করল এবং 25% লাভ করল। জিনিসটির চিহ্নিত মূল্য ও ক্রয়মূল্যের অনুপাত কত?",
+      "options": [
+        "25:16",
+        "5:4",
+        "6:5",
+        "4:3"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

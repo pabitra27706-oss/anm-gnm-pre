@@ -1,0 +1,537 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 110,
+  "questions": [
+    {
+      "id": "am-110-001",
+      "question": "একজন দোকানদার 20% লাভে বিক্রয় করে এবং 1000 গ্রামের জায়গায় 800 গ্রাম দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "40%",
+        "45%",
+        "50%",
+        "55%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-110-002",
+      "question": "কত টাকার 5% হারে 3 বছরের সরল সুদ 300 টাকা হবে?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-003",
+      "question": "একটি ট্রেন 120 মিটার লম্বা, গতি 54 km/h। এটি একটি প্ল্যাটফর্ম 20 সেকেন্ডে অতিক্রম করলে:",
+      "options": [
+        "প্ল্যাটফর্মের দৈর্ঘ্য 180 মিটার",
+        "মোট অতিক্রান্ত দূরত্ব = 300 মিটার",
+        "54 km/h = 15 m/s",
+        "প্ল্যাটফর্মের দৈর্ঘ্য 200 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-110-004",
+      "question": "A, B, C যথাক্রমে 8, 12 ও 16 দিনে একটি কাজ করতে পারে। তারা একত্রে কাজ শুরু করে 3 দিন পর B চলে গেলে বাকি কাজ A ও C কত দিনে করবে?",
+      "options": [
+        "2 দিন",
+        "2.5 দিন",
+        "3 দিন",
+        "3.5 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-110-005",
+      "question": "একটি বর্গক্ষেত্রের কর্ণ 10 সেমি। পরিসীমা কত? (√2 = 1.414)",
+      "options": [
+        "20 সেমি",
+        "25 সেমি",
+        "28.28 সেমি",
+        "30 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-006",
+      "question": "অনুপাত ও সমানুপাতের ব্যবহারিক প্রয়োগ কোথায় দেখা যায়?",
+      "options": [
+        "রান্নায় উপকরণের অনুপাত",
+        "ওষুধের মাত্রায়",
+        "ম্যাপের স্কেলে",
+        "লাভ বণ্টনে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-110-007",
+      "question": "90% -এর সমতুল্য:",
+      "options": [
+        "0.9",
+        "9/10",
+        "90/100",
+        "0.09"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-110-008",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র কোনটি?",
+      "options": [
+        "A = P(1 + R/100)ⁿ",
+        "A = P(1 + R×n/100)",
+        "A = P + (P×R×n/100)",
+        "A = P(1 + R/100)×n"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-110-009",
+      "question": "10 জন পুরুষ 12 দিনে একটি কাজ করতে পারে। 8 জন পুরুষ ওই কাজ কত দিনে করবে?",
+      "options": [
+        "12 দিন",
+        "13 দিন",
+        "14 দিন",
+        "15 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-010",
+      "question": "(-2, 3) বিন্দুটি কোন চতুর্থাংশে অবস্থিত?",
+      "options": [
+        "দ্বিতীয়",
+        "প্রথম",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-110-011",
+      "question": "একটি ট্রেন 30 m/s বেগে 400 মিটার লম্বা সেতু অতিক্রম করে 25 সেকেন্ডে। ট্রেনের দৈর্ঘ্য:",
+      "options": [
+        "মোট দূরত্ব = 30×25 = 750 মিটার",
+        "ট্রেন = 750-400 = 350 মিটার",
+        "350 মিটার",
+        "300 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-110-012",
+      "question": "5% -এর সমতুল্য:",
+      "options": [
+        "1/20",
+        "0.05",
+        "5/100",
+        "0.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-110-013",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 40 টাকা এবং সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "14000 টাকা",
+        "15000 টাকা",
+        "16000 টাকা",
+        "18000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-014",
+      "question": "একটি শহরের জনসংখ্যা 2 বছরে 8% হারে বৃদ্ধি পেয়ে 116640 হলে প্রাথমিক জনসংখ্যা কত?",
+      "options": [
+        "100000",
+        "105000",
+        "110000",
+        "115000"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-110-015",
+      "question": "55, 60, 65, 70, 75, 80 এর গড়:",
+      "options": [
+        "67.5",
+        "405/6=67.5",
+        "68",
+        "67"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-110-016",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 750 টাকা। 20% ছাড় দিয়ে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "550 টাকা",
+        "570 টাকা",
+        "590 টাকা",
+        "600 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-110-017",
+      "question": "একটি দ্রব্য 10% ক্ষতিতে বিক্রয় করলে SP হয় 720 টাকা। দ্রব্যটির CP কত এবং ক্ষতি কত?",
+      "options": [
+        "CP = 800 টাকা",
+        "ক্ষতি = 80 টাকা",
+        "CP = 750 টাকা",
+        "ক্ষতি = 30 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-018",
+      "question": "একটি দ্রব্য 10% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য 450 টাকা হলে ক্রয়মূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "520 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-019",
+      "question": "যদি S = n/2 × (a + l) হয়, তবে l = ?",
+      "options": [
+        "2S/n - a",
+        "2S/n + a",
+        "S/2n - a",
+        "2S - a/n"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-110-020",
+      "question": "নিচের কোন কোনটি পূর্ণঘন সংখ্যা?",
+      "options": [
+        "8",
+        "27",
+        "64",
+        "100"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-110-021",
+      "question": "একটি শঙ্কুর ভূমির ব্যাসার্ধ 6 সেমি ও উচ্চতা 8 সেমি। শঙ্কুটির তির্যক উচ্চতা কত?",
+      "options": [
+        "6 সেমি",
+        "8 সেমি",
+        "10 সেমি",
+        "12 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-022",
+      "question": "x/3 = 5 হলে, x = ?",
+      "options": [
+        "5",
+        "8",
+        "15",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-110-023",
+      "question": "বীজগাণিতিক রাশি সরলীকরণের সময় বন্ধনী খোলার নিয়ম কী কী?",
+      "options": [
+        "- চিহ্নের পরে বন্ধনী খুললে ভিতরের সকল পদের চিহ্ন বদলে যায়",
+        "+ চিহ্নের পরে বন্ধনী খুললে কোনো পরিবর্তন হয় না",
+        "গুণের ক্ষেত্রে বণ্টন নিয়ম প্রযোজ্য",
+        "ভাগের ক্ষেত্রে বিপরীত ক্রিয়া হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-110-024",
+      "question": "9 + (−4) − (−2) = ?",
+      "options": [
+        "7",
+        "3",
+        "11",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-110-025",
+      "question": "নিচের কোনটি অপ্রকৃত ভগ্নাংশ?",
+      "options": [
+        "2/3",
+        "5/9",
+        "7/7",
+        "1/8"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-110-026",
+      "question": "4টি সংখ্যার গড় 15। আরও 2টি সংখ্যা যোগ করলে গড় 18 হয়। নতুন সংখ্যা দুটির যোগফল:",
+      "options": [
+        "48",
+        "4×15=60, 6×18=108, 108-60=48",
+        "50",
+        "46"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-110-027",
+      "question": "একজন ব্যক্তি 6000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 7260 টাকা",
+        "চক্রবৃদ্ধি সুদ 1260 টাকা",
+        "সরল সুদে পেতেন 1200 টাকা",
+        "CI - SI = 60 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-110-028",
+      "question": "125, 325, 425-এর লসাগু কত?",
+      "options": [
+        "27625",
+        "28750",
+        "29500",
+        "31250"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-110-029",
+      "question": "একটি কাজ A 15 দিনে করে। A, B অপেক্ষা 25% বেশি দক্ষ। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "18 দিন",
+        "18.75 দিন",
+        "19 দিন",
+        "19.5 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-110-030",
+      "question": "নিচের কোনটি বিজোড় সংখ্যার সাথে জোড় সংখ্যার যোগফল?",
+      "options": [
+        "জোড়",
+        "বিজোড়",
+        "শূন্য",
+        "মৌলিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    }
+  ]
+}

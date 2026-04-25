@@ -1,0 +1,521 @@
+{
+  "subject": "general-science",
+  "set": 18,
+  "questions": [
+    {
+      "id": "ge-18-001",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 20 cm। লেন্স থেকে 15 cm দূরে একটি 2 cm উচ্চতার বস্তু রাখলে প্রতিবিম্বের উচ্চতা কত হবে? (i) 8 cm (ii) -8 cm (iii) 0.5 cm (iv) -0.5 cm",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-18-002",
+      "question": "অ্যালুমিনিয়ামের পাত্র ফয়েল দিয়ে ঢেকে রান্না করলে তাড়াতাড়ি রান্না হয়। কারণ-",
+      "options": [
+        "ফয়েল তাপের সুপরিবাহী",
+        "ফয়েল তাপের বিকিরণ প্রতিফলিত করে",
+        "ফয়েল তাপ শোষণ করে",
+        "ফয়েল শব্দ প্রতিরোধ করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-18-003",
+      "question": "কার্বক্সিলিক অ্যাসিডের ফাংশনাল গ্রুপ কী?",
+      "options": [
+        "-OH",
+        "-CHO",
+        "-COOH",
+        "-NH₂"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-004",
+      "question": "কর্মদক্ষতা (η) -এর সূত্র কোনটি?",
+      "options": [
+        "(ইনপুট / আউটপুট) × 100%",
+        "(আউটপুট / ইনপুট) × 100%",
+        "আউটপুট × ইনপুট",
+        "(ক্ষমতা / কার্য) × 100%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-005",
+      "question": "একটি 36 W বাতি 220 V এর পরিবর্তে 110 V এ চালালে— (বহু-সঠিক)",
+      "options": [
+        "ক্ষমতা কমবে",
+        "ক্ষমতা বাড়বে",
+        "রোধ একই থাকবে",
+        "তড়িৎ প্রবাহ অর্ধেক হবে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-18-006",
+      "question": "রক্তে pH এর ভারসাম্য রক্ষা করে—",
+      "options": [
+        "বাইকার্বনেট বাফার",
+        "ফসফেট বাফার",
+        "প্লাজমা প্রোটিন",
+        "সাধারণ লবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-18-007",
+      "question": "বল প্রয়োগ করলেও বস্তুর সরণ না হলে কৃত কার্যের পরিমাণ কত?",
+      "options": [
+        "অসীম",
+        "শূন্য",
+        "বলের সমান",
+        "ঋণাত্মক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-008",
+      "question": "নিচের কোন উক্তিগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "সমধর্মী আধান পরস্পরকে বিকর্ষণ করে",
+        "বিপরীতধর্মী আধান পরস্পরকে আকর্ষণ করে",
+        "আধানের SI একক কুলম্ব",
+        "ইলেকট্রনের আধান ধনাত্মক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-18-009",
+      "question": "একটি পরমাণুতে ইলেকট্রন সংখ্যা 20, ভর সংখ্যা 40; নিউট্রন সংখ্যা কত?",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-010",
+      "question": "নিউটনের দ্বিতীয় গতিসূত্র থেকে আমরা কীসের পরিমাপ পাই?",
+      "options": [
+        "জাড্য",
+        "বলের মান",
+        "প্রতিধ্বনি",
+        "ত্বরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-011",
+      "question": "একটি সুষম তারের রোধ R। তারটিকে টেনে দ্বিগুণ করা হলে (ভর স্থির রেখে) রোধ কত হবে?",
+      "options": [
+        "2R",
+        "4R",
+        "R/2",
+        "R"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-18-012",
+      "question": "সাদা আলোর বিচ্ছুরণে কোন রঙের বিচ্যুতি সবচেয়ে কম?",
+      "options": [
+        "লাল",
+        "কমলা",
+        "সবুজ",
+        "বেগুনি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-013",
+      "question": "১ নিউটন (1 N) নিচের কোনটির সমান?",
+      "options": [
+        "1 kg·m/s",
+        "1 kg·m/s²",
+        "1 g·cm/s²",
+        "1 kg/m²"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-014",
+      "question": "ঘর্ষণ বল বস্তুর গতির ওপর কী প্রভাব ফেলে?",
+      "options": [
+        "গতিকে সাহায্য করে",
+        "গতিকে বাধা দেয়",
+        "বেগকে ধ্রুবক রাখে",
+        "কোনো প্রভাব ফেলে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-015",
+      "question": "Cu (Z=29) এর K কক্ষে ইলেকট্রন সংখ্যা কত?",
+      "options": [
+        "2",
+        "8",
+        "18",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-016",
+      "question": "কোনো পরিমাপের সুক্ষ্মতা (Precision) বলতে কী বোঝায়?",
+      "options": [
+        "প্রকৃত মানের কাছাকাছি হওয়া",
+        "একাধিক পরিমাপে একই মান আসা",
+        "পরিমাপে ত্রুটি থাকা",
+        "কম গণনা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-017",
+      "question": "মিথেন (CH₄) গ্রীনহাউস প্রভাবে CO₂ থেকে কত গুণ বেশি ক্ষমতাশালী?",
+      "options": [
+        "10-20 গুণ",
+        "2-5 গুণ",
+        "25 গুণ (প্রায়)",
+        "100 গুণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-18-018",
+      "question": "নিচের কোনগুলো প্রিজমের বৈশিষ্ট্য? (i) আলোর বিচ্ছুরণ ঘটে (ii) বিভিন্ন রঙের বিচ্যুতি ভিন্ন (iii) লোহিত রশ্মির বিচ্যুতি সর্বনিম্ন (iv) বেগুনি রশ্মির বিচ্যুতি সর্বোচ্চ",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-019",
+      "question": "হাসপাতালের জীবাণুমুক্তকরণ যন্ত্র অটোক্লেভ সম্পর্কে কোন উক্তিগুলি সঠিক? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "উচ্চ চাপে ফুটন্ত জলের বাষ্প ব্যবহার হয়",
+        "তাপমাত্রা 121°C বা তার বেশি হতে পারে",
+        "প্রেশার কুকারের মতো কাজ করে",
+        "এটি জীবাণুনাশক রাসায়নিক মেশায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-18-020",
+      "question": "দাঁতের এনামেল ক্ষয় শুরু হয় যখন মুখের লালার pH কতর নিচে নেমে যায়?",
+      "options": [
+        "7.0",
+        "6.5",
+        "5.5",
+        "8.0"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-021",
+      "question": "ক্ষমতা নির্ণয়ের অপর সূত্র কোনটি? (I ও R-এর মাধ্যমে)",
+      "options": [
+        "P = IR",
+        "P = I/R",
+        "P = I²R",
+        "P = R/I"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-022",
+      "question": "নিচের কোনটি তড়িৎ-বিশ্লেষ্য (Electrolyte)?",
+      "options": [
+        "পাতিত জল",
+        "নুন জল",
+        "অ্যালকোহল",
+        "চিনি দ্রবণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-023",
+      "question": "ঘর্ষণ বলের সুবিধাগুলি হলো—",
+      "options": [
+        "হাঁটতে সাহায্য করা",
+        "গাড়ির ব্রেক কষতে সাহায্য করা",
+        "দিয়াশলাই জ্বালাতে সাহায্য করা",
+        "যন্ত্রের আয়ু কমানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-18-024",
+      "question": "ডালটনের পরমাণুবাদের একটি ত্রুটি কী?",
+      "options": [
+        "পরমাণু অবিভাজ্য নয়",
+        "পরমাণু অদৃশ্য",
+        "পরমাণু সৃষ্টি করা যায়",
+        "পরমাণু ধ্বংস করা যায় না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-025",
+      "question": "নিচের কোন ক্ষেত্রে শুধুমাত্র তাপের বিকিরণ ঘটে?",
+      "options": [
+        "ফুটন্ত জল",
+        "রুম হিটার থেকে ঘর গরম হওয়া",
+        "রান্নার চামচ গরম হওয়া",
+        "সমুদ্রবায়ু"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-026",
+      "question": "তড়িৎ প্রবাহের চুম্বকীয় প্রভাবের বাস্তব ব্যবহার— (বহু-সঠিক)",
+      "options": [
+        "ইলেকট্রিক মোটর",
+        "বৈদ্যুতিক ঘন্টা",
+        "ফিউজ",
+        "ম্যাগনেটিক রেজোন্যান্স ইমেজিং"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-18-027",
+      "question": "CNG (Compressed Natural Gas) এর মূল উপাদান কী?",
+      "options": [
+        "ইথেন",
+        "প্রোপেন",
+        "মিথেন",
+        "বিউটেন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-028",
+      "question": "জলের স্ফুটনাঙ্ক পাহাড়ে কম হয় কেন?",
+      "options": [
+        "বাতাসের চাপ কম বলে",
+        "তাপমাত্রা কম বলে",
+        "অক্সিজেন কম বলে",
+        "জল বিশুদ্ধ থাকে না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-18-029",
+      "question": "বাফার দ্রবণ (Buffer Solution) এর কাজ কী?",
+      "options": [
+        "pH দ্রুত বৃদ্ধি করা",
+        "pH দ্রুত হ্রাস করা",
+        "pH পরিবর্তনে বাধা দেওয়া",
+        "দ্রবণের বর্ণ পরিবর্তন করা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-18-030",
+      "question": "নিচের কোনগুলি তড়িৎ চুম্বকীয় আবেশের উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "ডায়নামো",
+        "ট্রান্সফরমার",
+        "বৈদ্যুতিক ঘন্টা",
+        "জেনারেটর"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

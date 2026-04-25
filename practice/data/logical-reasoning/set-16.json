@@ -1,0 +1,528 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 16,
+  "questions": [
+    {
+      "id": "rg-16-001",
+      "question": "বিবৃতি: (I) কিছু ছাত্র সত্যবাদী। (II) সব সত্যবাদী দয়ালু। সঠিক সিদ্ধান্ত নির্বাচন করুন।",
+      "options": [
+        "কিছু ছাত্র দয়ালু",
+        "কিছু দয়ালু ছাত্র",
+        "সব ছাত্র দয়ালু",
+        "কোনো দয়ালু ছাত্র নয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-16-002",
+      "question": "ফ্লোর পাজলে নিচের কোন বাক্যগুলি সঠিক সম্ভাব্য ক্লু? (Multiple Correct)",
+      "options": [
+        "A, B এর ঠিক উপরের তলায়",
+        "C, D এর উপরে কিন্তু E এর নিচে",
+        "F সবচেয়ে নিচের তলায়",
+        "G, H এর নিচে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-16-003",
+      "question": "\"X হল Y-এর মায়ের একমাত্র পুত্রের কন্যা\" এই বাক্যটিতে X ও Y-এর সম্পর্ক কী হতে পারে?",
+      "options": [
+        "X, Y-এর ভাগ্নি",
+        "X, Y-এর মেয়ে",
+        "Y, X-এর মা",
+        "Y, X-এর কাকিমা"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-16-004",
+      "question": "\"A, B এর বাঁয়ে দ্বিতীয়\" বলতে কী বোঝায়? (Multiple Correct)",
+      "options": [
+        "A ও B এর মাঝে ঠিক একজন আছে",
+        "B এর বাঁয়ের দিক থেকে দ্বিতীয় অবস্থানে A আছে",
+        "A, B এর বাঁয়ে এবং তাদের মাঝে একজন আছে",
+        "B, A এর ডানে দ্বিতীয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-16-005",
+      "question": "বিবৃতি: \"এই কম্পানিতে কাজ করতে চাইলে ইংরেজিতে সাবলীল হতে হবে।\" অনুমান: I. কম্পানির কাজে ইংরেজি প্রয়োজন। II. আবেদনকারীদের ইংরেজি জ্ঞান নেই।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-006",
+      "question": "ছয়জন ব্যক্তি A, B, C, D, E, F বৃত্তাকারে বসে। A, F এর বাঁয়ে বসে। B, C এর ডানে বসে। D, E এর বিপরীতে বসে। A, C এর ডানে বসে। F এর বিপরীতে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-16-007",
+      "question": "সুমিত বলল, \"ওই ব্যক্তিটি আমার মায়ের একমাত্র পুত্রের পিতার বাবা।\" সুমিতের সাথে ওই ব্যক্তির সম্পর্ক কী?",
+      "options": [
+        "পিতামহ",
+        "মাতামহ",
+        "বাবা",
+        "জ্যাঠা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-008",
+      "question": "বিবৃতি I: অরণ্যবিনাশ বাড়ছে। বিবৃতি II: কার্বন ডাই অক্সাইডের মাত্রা বাড়ছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-009",
+      "question": "1, 4, 27, 64, 125, ?",
+      "options": [
+        "216",
+        "343",
+        "512",
+        "729"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-010",
+      "question": "2, 5, 8, 11, 14, ?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-16-011",
+      "question": "ELEPHANT : TRUNK :: PEACOCK : ?",
+      "options": [
+        "NECK",
+        "FEATHER",
+        "BEAK",
+        "TAIL"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-16-012",
+      "question": "একটি সারিতে সাতজন বসে। A, B এর বাঁয়ে দ্বিতীয়। C, D এর ডানে তৃতীয়। E, F ও G এর মাঝে। B, C এর ডানে। বাঁ প্রান্ত থেকে তৃতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-16-013",
+      "question": "3, 7, 15, 31, 63, ?",
+      "options": [
+        "95",
+        "105",
+        "125",
+        "127"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-014",
+      "question": "বিবৃতি: (I) কোনো সাপ বিষহীন নয়। (II) সব কোবরা সাপ। সিদ্ধান্ত: I. সব কোবরা বিষাক্ত। II. কিছু বিষাক্ত সাপ কোবরা।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-015",
+      "question": "Z, X, V, T, ?",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "P"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-16-016",
+      "question": "নীচের কোন চিত্রগুলোতে \"B সম্পূর্ণ A এর ভেতর\" বোঝায়? (একাধিক উত্তর)",
+      "options": [
+        "B বৃত্ত A বৃত্তের ভেতর অবস্থিত",
+        "A∩B = B",
+        "A∪B = A",
+        "B - A = কিছু উপাদান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-16-017",
+      "question": "দুটি পাশা একসাথে ছোড়া হলে, উপরের মুখের সমষ্টি 7 পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "1/6",
+        "1/5",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-018",
+      "question": "যদি কোনো বৃত্ত পরস্পর থেকে সম্পূর্ণ আলাদা হয়, তবে তাদের মধ্যে- (একাধিক উত্তর)",
+      "options": [
+        "কোনো সাধারণ উপাদান নেই",
+        "Intersection ফাঁকা",
+        "Union = যোগফল",
+        "overlap অঞ্চল শূন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-16-019",
+      "question": "বিবৃতি: \"নার্সিং পেশায় যুক্ত হতে চাইলে ধৈর্য ও সহানুভূতি থাকা জরুরি।\" অনুমান: (Multiple Correct) I. নার্সিং পেশায় ধৈর্যের প্রয়োজন। II. সহানুভূতি ছাড়া ভালো নার্স হওয়া যায় না। (III III) সব নার্সেরই ধৈর্য আছে। IV. এই গুণগুলো শেখা সম্ভব।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-020",
+      "question": "8 টা 10 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "175°",
+        "170°",
+        "165°",
+        "160°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-16-021",
+      "question": "একটি সারিতে পাঁচজন বসে। A, B এর ডানে। C, A এর বাঁয়ে। D, E এর ডানে। B, C এর ডানে এবং E এর বাঁয়ে। ডান দিক থেকে দ্বিতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-022",
+      "question": "যদি \"INDIA\" কে \"JOEJB\" লেখা হয়, তবে \"DELHI\" কে কী লেখা হবে?",
+      "options": [
+        "EFMIJ",
+        "EFMGI",
+        "EFMHI",
+        "EGLIJ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-023",
+      "question": "CLERK : OFFICE :: CAPTAIN : ?",
+      "options": [
+        "TEAM",
+        "SHIP",
+        "FIELD",
+        "BATTLE"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-024",
+      "question": "পাঁচটি ভিন্ন বই: Math, Science, English, History, Geography। Math, Science এর ডানদিকে রাখা। English, History এর বাঁদিকে। Geography, Math এর বাঁদিকে। History সবচেয়ে ডানদিকে। বাঁদিক থেকে দ্বিতীয় বই কোনটি?",
+      "options": [
+        "Math",
+        "Science",
+        "English",
+        "Geography"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-025",
+      "question": "1, 2, 3, 5, 8, 13, 21, ? - এই সিরিজের ক্ষেত্রে কোন কোন তথ্য সঠিক?",
+      "options": [
+        "এটি ফিবোনাচ্চি সিরিজ",
+        "প্রতিটি পদ আগের দুটির যোগফল",
+        "পরবর্তী পদ 34",
+        "পরবর্তী পদ 33"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-16-026",
+      "question": "একটি পাশায় 1, 2, 3, 4, 5, 6। দুটি অবস্থান: (1) 6 উপরে, 2 সামনে; (2) 4 উপরে, 6 সামনে। 1 এর বিপরীতে কত?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-16-027",
+      "question": "একটি কোডে \"BAG\" = 27, \"CAT\" = 24, \"RAT\" এর মান কত?",
+      "options": [
+        "31",
+        "39",
+        "42",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-028",
+      "question": "বিবৃতি: (I) কিছু ছাত্র মেধাবী। (II) কোনো মেধাবী অলস নয়। সিদ্ধান্ত: I. কিছু ছাত্র অলস নয়। II. কোনো ছাত্র অলস নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-16-029",
+      "question": "বিবৃতি: \"টাকা সাশ্রয় করতে চাইলে অনলাইনে কেনাকাটা করুন।\" অনুমান: (Multiple Correct) I. অনলাইন কেনাকাটা সস্তা। II. মানুষ টাকা সাশ্রয় করতে চান। III. সবাই অনলাইনে কেনাকাটা করতে পারে। IV. দোকানের চেয়ে অনলাইনে দাম কম।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-16-030",
+      "question": "যদি 10ই অক্টোবর বুধবার হয়, তাহলে নিচের কোন তারিখগুলি বুধবার হবে? (Multiple Correct)",
+      "options": [
+        "3রা অক্টোবর",
+        "17ই অক্টোবর",
+        "24শে অক্টোবর",
+        "31শে অক্টোবর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

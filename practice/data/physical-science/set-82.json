@@ -1,0 +1,520 @@
+{
+  "subject": "general-science",
+  "set": 82,
+  "questions": [
+    {
+      "id": "ge-82-001",
+      "question": "কঠিন তরল ও গ্যাসের মধ্যে তাপীয় প্রসারণের সঠিক ক্রমটি কোনটি?",
+      "options": [
+        "কঠিন < তরল < গ্যাস",
+        "গ্যাস < তরল < কঠিন",
+        "তরল < গ্যাস < কঠিন",
+        "সব সমান"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-002",
+      "question": "ঘর্ষণ বলের অসুবিধাগুলি হলো—",
+      "options": [
+        "শক্তির অপচয় (তাপ হিসেবে)",
+        "যন্ত্রপাতির ক্ষয়",
+        "গতিরোধ করা",
+        "হাঁটাচলা করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-82-003",
+      "question": "সাদা আলোর বিচ্ছুরণে কোন রঙের বিচ্যুতি সবচেয়ে কম?",
+      "options": [
+        "লাল",
+        "কমলা",
+        "সবুজ",
+        "বেগুনি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-004",
+      "question": "একটি মেশিনের দক্ষতা 80%; ইনপুট 500 J হলে আউটপুট কত?",
+      "options": [
+        "400 J",
+        "100 J",
+        "500 J",
+        "80 J"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-005",
+      "question": "ক্ষমতার SI একক কী?",
+      "options": [
+        "জুল",
+        "নিউটন",
+        "ওয়াট",
+        "ভোল্ট"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-82-006",
+      "question": "কার্বনিক অ্যাসিড (H2CO3) পাওয়া যায়—",
+      "options": [
+        "সোডা ওয়াটারে",
+        "সফট ড্রিঙ্কসে",
+        "বৃষ্টির জলে (সামান্য)",
+        "ব্যাটারির তরলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-82-007",
+      "question": "কোনটির ইলেকট্রন বিন্যাস 2,8,18,8? (বহু-সঠিক)",
+      "options": [
+        "Kr (Z=36)",
+        "Rb⁺",
+        "Ar",
+        "Xe"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-82-008",
+      "question": "কেলাস শক্তির সূত্র কোনটি? (গতিশক্তি)",
+      "options": [
+        "mgh",
+        "½mv²",
+        "F × s",
+        "P/t"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-82-009",
+      "question": "[NUMERICAL] সোডিয়াম বাইকার্বনেটের (NaHCO₃) মোলার ভর কত? (Na=23, H=1, C=12, O=16)",
+      "options": [
+        "84 g/mol",
+        "106 g/mol",
+        "40 g/mol",
+        "58.5 g/mol"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-82-010",
+      "question": "নিচের কোন যৌগগুলি একই আণবিক সংকেত বিশিষ্ট? (i) n-বিউটেন (ii) আইসো-বিউটেন (iii) বুটিন (iv) বুটাইন",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-011",
+      "question": "তড়িৎ স্থিত বল (Electrostatic force) কী ধরনের বল?",
+      "options": [
+        "কন্টাক্ট ফোর্স",
+        "নন-কন্টাক্ট ফোর্স",
+        "ঘর্ষণ বল",
+        "জাড্য বল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-82-012",
+      "question": "প্রথাগত তড়িৎ প্রবাহের দিক কী?",
+      "options": [
+        "ঋণাত্মক থেকে ধনাত্মক",
+        "ধনাত্মক থেকে ঋণাত্মক",
+        "উভয় দিকে",
+        "কোনো নির্দিষ্ট দিক নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-013",
+      "question": "লেড নাইট্রেট (Pb(NO₃)₂) কে উত্তপ্ত করলে কোন রঙের গ্যাস নির্গত হয়?",
+      "options": [
+        "বর্ণহীন",
+        "বাদামী (NO₂)",
+        "সবুজ",
+        "নীল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-82-014",
+      "question": "250g জলের তাপমাত্রা 5°C বাড়াতে কত জুল তাপের প্রয়োজন? (জলের আপেক্ষিক তাপ = 4200 J/kg·K)",
+      "options": [
+        "4250 J",
+        "5250 J",
+        "6250 J",
+        "7250 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-015",
+      "question": "অ্যালকোহল থার্মোমিটারের সুবিধা কী?",
+      "options": [
+        "খুব উচ্চ তাপমাত্রা মাপা যায়",
+        "খুব নিম্ন তাপমাত্রা মাপা যায়",
+        "সহজে ভাঙে না",
+        "এটি বিষাক্ত নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-016",
+      "question": "নিচের কোনগুলো মৌলিক রাশি? (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্য",
+        "ক্ষেত্রফল",
+        "ভর",
+        "সময়"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-82-017",
+      "question": "কার্বনিক অ্যাসিডের (H₂CO₃) ক্ষারগ্রাহিতা (Basicity) কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-018",
+      "question": "কোন ক্ষেত্রে বাষ্পীভবন দ্রুত ঘটে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "শুষ্ক বায়ুতে",
+        "বায়ুপ্রবাহে",
+        "আর্দ্র আবহাওয়ায়",
+        "রৌদ্রোজ্জ্বল দিনে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-82-019",
+      "question": "[NUMERICAL] একটি বাদ্যযন্ত্র 250 Hz কম্পাঙ্কবিশিষ্ট শব্দ উৎপন্ন করছে। বায়ুতে শব্দের বেগ 340 m/s হলে শব্দটির তরঙ্গদৈর্ঘ্য কত?",
+      "options": [
+        "1.36 m",
+        "0.73 m",
+        "85 m",
+        "1.5 m"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-020",
+      "question": "বৈজ্ঞানিক পরিমাপের বৈশিষ্ট্য কী? (বহু-সঠিক)",
+      "options": [
+        "নির্ভুলতা",
+        "পুনরুৎপাদনযোগ্যতা",
+        "যথেচ্ছাচারিতা",
+        "নিরপেক্ষতা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-82-021",
+      "question": "নিচের কোনটি ভৌত রাশি নয়?",
+      "options": [
+        "দৈর্ঘ্য",
+        "ভর",
+        "সৌন্দর্য",
+        "সময়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-82-022",
+      "question": "লিফট হঠাৎ ছিঁড়ে গেলে লিফটের ভেতরে থাকা ব্যক্তির ওজন কত হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "শূন্য (অবাধ পতন)",
+        "একই থাকবে",
+        "অর্ধেক হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-023",
+      "question": "SO₂ যৌগে S এর যোজ্যতা কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-82-024",
+      "question": "সমতল দর্পণে প্রতিবিম্বের কোন বৈশিষ্ট্যটি দেখা যায়?",
+      "options": [
+        "বাম-ডান পার্শ্বীয় বিপর্যয়",
+        "ঊর্ধ্ব-নিম্ন বিপর্যয়",
+        "বিবর্ধন",
+        "ছোটো আকার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-025",
+      "question": "কোনো গৃহস্থালির বিদ্যুৎলাইনে 5A ফিউজ ব্যবহার করা হয়েছে। 220 V-এ সর্বোচ্চ কত ক্ষমতার যন্ত্র ব্যবহার করা যাবে?",
+      "options": [
+        "44 W",
+        "1100 W",
+        "110 W",
+        "550 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-82-026",
+      "question": "কোলয়েড কণার আকার কত?",
+      "options": [
+        "1 nm - 100 nm",
+        "< 1 nm",
+        "> 1000 nm",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-027",
+      "question": "একটি বস্তুকে পৃথিবী থেকে চাঁদে নিয়ে গেলে— (বহু-সঠিক)",
+      "options": [
+        "ভর অপরিবর্তিত থাকবে",
+        "ওজন কমে যাবে",
+        "বিভব শক্তি পৃথিবী অপেক্ষা কমে যাবে (ভূপৃষ্ঠে)",
+        "গতিশক্তি অপরিবর্তিত থাকবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-82-028",
+      "question": "জলের ঘনত্ব কত তাপমাত্রায় সর্বোচ্চ হয়?",
+      "options": [
+        "0°C",
+        "4°C",
+        "-4°C",
+        "10°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-029",
+      "question": "নিচের কোনটি সঠিক দর্পণ সূত্র?",
+      "options": [
+        "1/f = 1/v + 1/u",
+        "1/f = 1/v - 1/u",
+        "1/v = 1/f + 1/u",
+        "1/u = 1/f + 1/v"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-82-030",
+      "question": "ডিউটেরিয়াম ও ট্রিটিয়াম পরস্পর কী?",
+      "options": [
+        "আইসোবার",
+        "আইসোটোন",
+        "আইসোটোপ",
+        "সমাণু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "subject": "general-science",
+  "set": 107,
+  "questions": [
+    {
+      "id": "ge-107-001",
+      "question": "10 Ω রোধের তারকে 5 টি সমান ভাগে ভাগ করে সমান্তরালে যুক্ত করলে তুল্য রোধ কত?",
+      "options": [
+        "50 Ω",
+        "2 Ω",
+        "0.4 Ω",
+        "0.2 Ω"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-107-002",
+      "question": "পৃথিবীর উপরিভাগে কোন ধাতু সর্বাপেক্ষা বেশি পরিমাণে পাওয়া যায়?",
+      "options": [
+        "Fe",
+        "Al",
+        "Cu",
+        "Na"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-003",
+      "question": "অবাধে পতনশীল বস্তুর (Free falling body)—",
+      "options": [
+        "সরণ সময়ের বর্গের সমানুপাতিক",
+        "বেগ সময়ের সমানুপাতিক",
+        "ত্বরণ ধ্রুবক (g)",
+        "ভরবেগ স্থির থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-107-004",
+      "question": "তড়িৎ আধানের SI একক কী?",
+      "options": [
+        "অ্যাম্পিয়ার",
+        "ভোল্ট",
+        "কুলম্ব",
+        "ওহম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-107-005",
+      "question": "দূরত্ব নির্ণয়ে আলোকবর্ষ ও পারসেক ব্যবহৃত হয়— (বহু-সঠিক)",
+      "options": [
+        "মহাজাগতিক দূরত্বে",
+        "ক্ষুদ্র দৈর্ঘ্যে",
+        "নক্ষত্রের দূরত্বে",
+        "আণবিক মাপে"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-107-006",
+      "question": "অ্যাসিডে প্রতিস্থাপনযোগ্য হাইড্রোজেন পরমাণু না থাকলে তাকে কী অ্যাসিড বলা যায় না?",
+      "options": [
+        "আরহেনিয়াস অ্যাসিড",
+        "লুইস অ্যাসিড",
+        "জৈব অ্যাসিড",
+        "খনিজ অ্যাসিড"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-007",
+      "question": "জীবাশ্ম জ্বালানি ব্যবহারের কুফল কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "বায়ু দূষণ",
+        "এসিড বৃষ্টি",
+        "গ্রিনহাউস প্রভাব",
+        "নবায়নযোগ্য নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-107-008",
+      "question": "মেটানোগ্লোবিনেমিয়া (Methaemoglobinaemia) রক্তে অক্সিজেন পরিবহনের ক্ষমতা কমায়, এটি কী জন্য হয়?",
+      "options": [
+        "নাইট্রেট দূষণ",
+        "ফ্লোরাইড দূষণ",
+        "লেড দূষণ",
+        "ক্যালসিয়াম দূষণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-107-009",
+      "question": "তাপ প্রয়োগে তরলের আয়তন প্রসারণের উদাহরণ কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পারদ থার্মোমিটার",
+        "বোতলের ছিপি খোলা",
+        "রেললাইনের ফাঁক",
+        "বিদ্যুতের তার"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-107-010",
+      "question": "সমবেগে গতিশীল কোনো বস্তুর ত্বরণ কত?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "শূন্য",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-107-011",
+      "question": "দর্পণের বিবর্ধন m = 3। নিচের কোন বিবৃতিটি সঠিক?",
+      "options": [
+        "প্রতিবিম্ব অবাস্তব ও সমশীর্ষ",
+        "প্রতিবিম্ব বাস্তব ও অবশীর্ষ",
+        "প্রতিবিম্ব অবাস্তব ও অবশীর্ষ",
+        "প্রতিবিম্ব বাস্তব ও সমশীর্ষ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-012",
+      "question": "তাপ সঞ্চালনের একাধিক পদ্ধতি একসাথে কাজ করে কোন কোন ক্ষেত্রে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ঘরে হিটার জ্বালানো",
+        "সূর্যের তাপে পৃথিবী গরম হওয়া",
+        "ফুটন্ত জলের পাত্র",
+        "থার্মোস ফ্লাস্ক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-107-013",
+      "question": "আয়নিক যৌগের তড়িৎ বিশ্লেষণে প্রয়োজন—",
+      "options": [
+        "গলিত অবস্থা বা জলীয় দ্রবণ",
+        "কঠিন অবস্থা",
+        "বাষ্পীয় অবস্থা",
+        "প্লাজমা অবস্থা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-014",
+      "question": "ঘর্ষণ বল কমানোর জন্য যন্ত্রপাতিতে গ্রিজ বা তেল দেওয়া হয় একে কী বলে?",
+      "options": [
+        "লুব্রিকেশন",
+        "গ্যালভানাইজেশন",
+        "টিনিং",
+        "সোল্ডারিং"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-107-015",
+      "question": "বেনজিন কী ধরনের হাইড্রোকার্বন?",
+      "options": [
+        "অ্যালিফ্যাটিক",
+        "অ্যারোমেটিক",
+        "অ্যালিসাইক্লিক",
+        "স্যাচুরেটেড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-016",
+      "question": "লেবুর রসের ওপর জল মেশালে pH—",
+      "options": [
+        "বাড়বে",
+        "কমবে",
+        "একই থাকবে",
+        "0 হয়ে যাবে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-107-017",
+      "question": "কার্বন মনোক্সাইড (CO) কিভাবে তৈরি হয়?",
+      "options": [
+        "সম্পূর্ণ দহনে",
+        "ফটোসংশ্লেষে",
+        "জ্বালানির অসম্পূর্ণ দহনে",
+        "শ্বসনে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-018",
+      "question": "3R নীতির অন্তর্ভুক্ত কী কী? (একাধিক উত্তর)",
+      "options": [
+        "Reduce",
+        "Reuse",
+        "Recycle",
+        "React"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-107-019",
+      "question": "কোল্ড ড্রিঙ্কসের বোতল খুললে বুদবুদ আকারে কোন গ্যাস বের হয়?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-107-020",
+      "question": "তাপমাত্রা পরিমাপের যন্ত্রের নাম কী?",
+      "options": [
+        "ব্যারোমিটার",
+        "থার্মোমিটার",
+        "হাইগ্রোমিটার",
+        "ম্যানোমিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-107-021",
+      "question": "10 kg ভরের একটি বস্তুকে 2 m/s² ত্বরণে 5 m সরাতে প্রয়োজনীয় কার্য কত?",
+      "options": [
+        "100 J",
+        "200 J",
+        "50 J",
+        "20 J"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-022",
+      "question": "মানুষের শব্দোত্তর শব্দ শুনতে না পাওয়ার কারণ—",
+      "options": [
+        "কানের পর্দা খুব বড়",
+        "শব্দ খুব জোরে হয়",
+        "কানের পর্দার জড়তা ও গঠনগত সীমা",
+        "মাধ্যম বাধা দেয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-107-023",
+      "question": "একটি বাতির রোধ 1000 Ω ও বিভব 220 V, তাহলে— (বহু-সঠিক)",
+      "options": [
+        "প্রবাহ = 0.22 A",
+        "ক্ষমতা = 48.4 W",
+        "1 ঘণ্টায় শক্তি খরচ ≈ 0.048 kWh",
+        "এটি 100 W বাতির চেয়ে বেশি উজ্জ্বল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-107-024",
+      "question": "দর্পণে বিবর্ধন ঋণাত্মক হওয়ার অর্থ কী? (i) প্রতিবিম্ব বাস্তব (ii) প্রতিবিম্ব অবশীর্ষ (iii) প্রতিবিম্ব অবাস্তব (iv) প্রতিবিম্ব সমশীর্ষ",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-025",
+      "question": "একটি ব্যাটারিচালিত গাড়িতে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "রাসায়নিক → যান্ত্রিক",
+        "যান্ত্রিক → তাপ",
+        "বিদ্যুৎ → আলোক",
+        "তাপ → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-026",
+      "question": "জুলের তাপীয় সূত্রানুসারে, উৎপন্ন তাপ (H) নির্ভর করে— (বহু-সঠিক)",
+      "options": [
+        "তড়িৎ প্রবাহের বর্গের ওপর",
+        "রোধের ওপর",
+        "সময়ের ওপর",
+        "আধানের প্রকৃতির ওপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-107-027",
+      "question": "তাপমাত্রা স্থির রেখে কোনো কঠিন পদার্থকে তরলে পরিণত করতে যে তাপের প্রয়োজন হয় তাকে কী বলে?",
+      "options": [
+        "Specific heat",
+        "Latent heat of fusion",
+        "Latent heat of vaporization",
+        "Sensible heat"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-028",
+      "question": "6 V এর ব্যাটারির অভ্যন্তরীণ রোধ 1 Ω, এটি একটি 2 Ω রোধের তারের সঙ্গে যুক্ত করলে তড়িৎ প্রবাহ কত হবে?",
+      "options": [
+        "2 A",
+        "3 A",
+        "6 A",
+        "1 A"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-029",
+      "question": "Na (Z=11, A=23) পরমাণুটির নিউক্লিয়াসে কতটি কণা আছে?",
+      "options": [
+        "11",
+        "12",
+        "23",
+        "34"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-107-030",
+      "question": "কোনো মাধ্যম ছাড়াই সুগন্ধি বা ধূপের ধোঁয়া ছড়িয়ে পড়াকে কী বলা হয়?",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Filtration",
+        "Sublimation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    }
+  ]
+}

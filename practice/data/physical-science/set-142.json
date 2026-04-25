@@ -1,0 +1,506 @@
+{
+  "subject": "general-science",
+  "set": 142,
+  "questions": [
+    {
+      "id": "ge-142-001",
+      "question": "O²⁻ আয়নে ইলেকট্রন সংখ্যা কত? (O: Z=8)",
+      "options": [
+        "8",
+        "10",
+        "6",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-002",
+      "question": "[NUMERICAL] পৃথিবীতে একটি বস্তুর ওজন 60 N হলে চাঁদে তার ওজন কত হবে?",
+      "options": [
+        "60 N",
+        "10 N",
+        "360 N",
+        "6 N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-003",
+      "question": "জলের আপেক্ষিক তাপ বেশি হওয়ার সুফল কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সামুদ্রিক অঞ্চলের জলবায়ু সমভাবাপন্ন",
+        "গাড়ির রেডিয়েটরে কুল্যান্ট হিসেবে ব্যবহার",
+        "জল তাড়াতাড়ি ফোটে",
+        "তাপ ধরে রাখতে পারে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-142-004",
+      "question": "দৃষ্টি ত্রুটি ও সংশোধনের সঠিক জোড়টি কোনটি?",
+      "options": [
+        "মায়োপিয়া - উত্তল লেন্স",
+        "হাইপারমেট্রোপিয়া - অবতল লেন্স",
+        "প্রেসবায়োপিয়া - দ্বিফোকাস লেন্স",
+        "ছানি - বেলনাকার লেন্স"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-005",
+      "question": "হাইড্রোজেন সালফাইডের (H₂S) গন্ধ কেমন?",
+      "options": [
+        "সুগন্ধি",
+        "পচা ডিমের মতো",
+        "ঝাঁঝালো",
+        "কোনো গন্ধ নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-006",
+      "question": "[NUMERICAL] pH = 3 যুক্ত দ্রবণের গাঢ়ত্ব 100 গুণ কমালে নতুন pH কত হবে?",
+      "options": [
+        "1",
+        "5",
+        "3",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-007",
+      "question": "একটি গাড়ির বেগ 54 km/h থেকে বেড়ে 72 km/h হল 5 সেকেন্ডে। ত্বরণ কত?",
+      "options": [
+        "1 m/s²",
+        "3.6 m/s²",
+        "18 m/s²",
+        "5 m/s²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-008",
+      "question": "থার্মোমিটারে পারদের ব্যবহারের একটি কারণ কী?",
+      "options": [
+        "পারদ অস্বচ্ছ",
+        "পারদের প্রসারণ অনিয়মিত",
+        "পারদের স্ফুটনাঙ্ক খুবই কম",
+        "পারদের প্রসারণ সুষম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-009",
+      "question": "'রাসায়নিকের রাজা' (King of Chemicals) কোন অ্যাসিডকে বলা হয়?",
+      "options": [
+        "HCl",
+        "HNO₃",
+        "H₂SO₄",
+        "CH₃COOH"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-010",
+      "question": "নিচের কোনটি অর্ধপরিবাহী? (বহু-সঠিক)",
+      "options": [
+        "সিলিকন",
+        "জার্মেনিয়াম",
+        "কার্বন (গ্রাফাইট)",
+        "তামা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-142-011",
+      "question": "45° সঙ্কট কোণবিশিষ্ট মাধ্যমের প্রতিসরাঙ্ক কত?",
+      "options": [
+        "1/√2",
+        "√2",
+        "2",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-012",
+      "question": "একটি স্প্রিং-এর বিভব শক্তির সূত্র কোনটি? (k = স্প্রিং ধ্রুবক, x = সংকোচন/প্রসারণ)",
+      "options": [
+        "½kx²",
+        "½kx",
+        "kx²",
+        "kx"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-013",
+      "question": "তড়িৎলেপনের শর্ত কী? (বহু-সঠিক)",
+      "options": [
+        "লেপনীয় ধাতু অ্যানোড",
+        "লেপ্য বস্তু ক্যাথোড",
+        "লেপনীয় ধাতব আয়নের দ্রবণ তড়িৎ বিশ্লেষ্য",
+        "DC তড়িৎ আবশ্যক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-142-014",
+      "question": "একটি মেশিনের ইনপুট 400 J ও আউটপুট 300 J, ক্ষতি কত?",
+      "options": [
+        "700 J",
+        "100 J",
+        "-100 J",
+        "1.33 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-015",
+      "question": "-273°C-এর চেয়ে কম তাপমাত্রা সম্ভব নয় কেন?",
+      "options": [
+        "কারণ পারদ জমে যায়",
+        "কারণ এটি পরম শূন্য তাপমাত্রা যেখানে অণুগুলির গতি থেমে যায়",
+        "কারণ আপেক্ষিক তাপ শূন্য হয়",
+        "কারণ সব পদার্থ কঠিন হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-016",
+      "question": "মোলের সংখ্যা (Number of moles) বের করার সঠিক সূত্রটি কী?",
+      "options": [
+        "ভর / আণবিক ভর",
+        "আণবিক ভর / ভর",
+        "ভর × আণবিক ভর",
+        "ভর + আণবিক ভর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-017",
+      "question": "একটি বৈদ্যুতিক ইস্ত্রিতে 220 V, 1000 W লেখা আছে। এর রোধ নির্ণয় করো।",
+      "options": [
+        "220 Ω",
+        "48.4 Ω",
+        "484 Ω",
+        "22 Ω"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-018",
+      "question": "গ্রাফাইট কী ধরনের পরিবাহী?",
+      "options": [
+        "অন্তরক",
+        "সুপরিবাহী",
+        "অর্ধপরিবাহী",
+        "তড়িৎ অবিশ্লেষ্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-019",
+      "question": "একটি গাড়ির বেগ দ্বিগুণ করলে তার গতিশক্তি কত গুণ হবে?",
+      "options": [
+        "2",
+        "4",
+        "½",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-020",
+      "question": "শব্দের প্রাবল্য (Loudness) কিসের ওপর নির্ভর করে?",
+      "options": [
+        "বিস্তার",
+        "কম্পাঙ্ক",
+        "তরঙ্গদৈর্ঘ্য",
+        "বেগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-021",
+      "question": "সোডা অ্যাশ (Soda Ash) নিচের কোনটিকে বলা হয়?",
+      "options": [
+        "Na₂CO₃.10H₂O",
+        "Na₂CO₃",
+        "NaHCO₃",
+        "NaOH"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-022",
+      "question": "প্রকৃত দ্রবণ ও কোলয়েড দ্রবণের মধ্যে পার্থক্য করার প্রধান উপায় হলো—",
+      "options": [
+        "বর্ণ দেখা",
+        "ফিল্টার পেপার ব্যবহার",
+        "টাইন্ডাল এফেক্ট পর্যবেক্ষণ",
+        "স্বাদ নেওয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-023",
+      "question": "5 Ω ও 20 Ω রোধ সমান্তরালে যুক্ত করে 20 V ব্যাটারির সঙ্গে যুক্ত করলে ব্যাটারি থেকে কত তড়িৎ প্রবাহিত হবে?",
+      "options": [
+        "4 A",
+        "5 A",
+        "1 A",
+        "0.8 A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-142-024",
+      "question": "নিচের কোনগুলো অপটিক্যাল যন্ত্র? (i) মাইক্রোস্কোপ (ii) টেলিস্কোপ (iii) ক্যামেরা (iv) প্রজেক্টর",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-025",
+      "question": "ক্লিনিক্যাল থার্মোমিটার তাপমাত্রা পরিমাপক পাল্লা 35-42°C রাখার কারণ-",
+      "options": [
+        "এই তাপমাত্রার বাইরে মানবদেহ বাঁচতে পারে না",
+        "পারদের প্রসারণ এই সীমায় সীমাবদ্ধ",
+        "সহজপাঠ্যতা",
+        "নিম্ন তাপমাত্রা মাপার প্রয়োজন নেই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-026",
+      "question": "মিথেনের (CH₄) দহনে কী কী উৎপন্ন হয়?",
+      "options": [
+        "CO₂ + H₂O + Heat",
+        "C + H₂",
+        "CO + H₂",
+        "কেবল জল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-027",
+      "question": "একটি পাত্রে জল ফুটতে থাকলে তাপমাত্রা 100°C-এর উপরে ওঠে না কারণ-",
+      "options": [
+        "অতিরিক্ত তাপ বাষ্পীভবনের সুপ্ততাপ হিসেবে বাষ্প বের হতে নিয়ে যায়",
+        "জল তাপ নষ্ট করে",
+        "পাত্র ঠান্ডা হয়ে যায়",
+        "থার্মোমিটার নষ্ট হয়ে যায়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-142-028",
+      "question": "শব্দের প্রতিফলন ব্যবহার করা হয়—",
+      "options": [
+        "প্রতিধ্বনি শোনার জন্য",
+        "স্টেথোস্কোপে",
+        "মেগাফোনে",
+        "জলের তলায় বাধা শনাক্ত করতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-142-029",
+      "question": "তুঁতের (Blue Vitriol) রাসায়নিক নাম কী?",
+      "options": [
+        "ফেরাস সালফেট",
+        "কপার সালফেট",
+        "ম্যাগনেসিয়াম সালফেট",
+        "ক্যালসিয়াম সালফেট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-142-030",
+      "question": "অ্যাসিড ও ক্ষারের বিক্রিয়াটি একটি—",
+      "options": [
+        "একমুখী বিক্রিয়া",
+        "উভমুখী বিক্রিয়া (সাধারণত)",
+        "তাপশোষী বিক্রিয়া",
+        "ভৌত পরিবর্তন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

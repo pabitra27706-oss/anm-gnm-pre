@@ -1,0 +1,524 @@
+{
+  "subject": "general-science",
+  "set": 16,
+  "questions": [
+    {
+      "id": "ge-16-001",
+      "question": "একটি বাল্ব ও একটি হিটার সমান সময় চালালে হিটারে বেশি শক্তি খরচ হয়, কারণ—",
+      "options": [
+        "হিটারের বিভব বেশি",
+        "হিটারের রোধ কম",
+        "হিটারের ক্ষমতা বেশি",
+        "হিটারের আকার বড়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-002",
+      "question": "5 HP এর অর্থ কত ওয়াট?",
+      "options": [
+        "7460 W",
+        "3730 W",
+        "1492 W",
+        "5000 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-003",
+      "question": "লঘু সালফিউরিক অ্যাসিডের সাথে বিক্রিয়ায় হাইড্রোজেন গ্যাস দেয়—",
+      "options": [
+        "জিঙ্ক",
+        "ম্যাগনেসিয়াম",
+        "আয়রন",
+        "তামা (Cu)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-16-004",
+      "question": "1 kg জলের তাপমাত্রা 1 K কমাতে কত তাপ অপসারণ করতে হবে?",
+      "options": [
+        "1 J",
+        "420 J",
+        "4200 J",
+        "1000 J"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-005",
+      "question": "গ্যাসের গতীয় তত্ত্ব অনুযায়ী অণুগুলির—",
+      "options": [
+        "স্থিতিশক্তি শূন্য ধরা হয়",
+        "মোট শক্তি কেবল গতিশক্তি",
+        "মহাকর্ষ বলের প্রভাব অগ্রাহ্য করা হয়",
+        "বেগ সব অণুর সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-16-006",
+      "question": "যে যন্ত্র তড়িৎ প্রবাহের উপস্থিতি নির্দেশ করে তাকে কী বলে?",
+      "options": [
+        "ভোল্টমিটার",
+        "গ্যালভানোমিটার",
+        "অ্যামিটার",
+        "ফিউজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-007",
+      "question": "অ্যাসিটোন-এর সংকেত নিচের কোনটি?",
+      "options": [
+        "HCHO",
+        "CH₃CHO",
+        "CH₃COCH₃",
+        "C₂H₅OC₂H₅"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-008",
+      "question": "সঠিক সমান্তরাল সমবায় সম্পর্কগুলো কী? (বহু-সঠিক)",
+      "options": [
+        "প্রতিটি রোধে একই বিভব পার্থক্য",
+        "1/R = 1/R₁ + 1/R₂",
+        "তুল্য রোধ সবচেয়ে ছোট রোধের চেয়েও কম",
+        "তড়িৎ সরবরাহ নিরবচ্ছিন্ন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-16-009",
+      "question": "শুষ্ক কোষে কী থাকে? (বহু-সঠিক)",
+      "options": [
+        "দস্তা পাত্র (অ্যানোড)",
+        "কার্বন দণ্ড (ক্যাথোড)",
+        "NH₄Cl পেস্ট",
+        "তরল H₂SO₄"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-16-010",
+      "question": "KCl এর আণবিক ভর কত? (K=39, Cl=35.5)",
+      "options": [
+        "74.5",
+        "64.5",
+        "84.5",
+        "54.5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-011",
+      "question": "পরিবেশ রসায়ন (Environmental Chemistry) এর মূল বিষয় কী?",
+      "options": [
+        "শুধু রাসায়নিক বিক্রিয়া",
+        "পরিবেশে রাসায়নিক দূষণ ও তার প্রভাব",
+        "শুধু বায়ু দূষণ",
+        "শুধু জল দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-012",
+      "question": "একটি লেন্সের বিবর্ধন -2.5। নিচের কোন বিবৃতিগুলি সঠিক? (i) প্রতিবিম্ব বাস্তব (ii) প্রতিবিম্ব অবশীর্ষ (iii) প্রতিবিম্ব বিবর্ধিত (iv) লেন্সটি উত্তল",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-16-013",
+      "question": "আমলকী কোন অ্যাসিডের প্রাকৃতিক উৎস?",
+      "options": [
+        "সাইট্রিক অ্যাসিড",
+        "অ্যাসকরবিক অ্যাসিড (ভিটামিন সি)",
+        "টার্টারিক অ্যাসিড",
+        "ম্যালিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-014",
+      "question": "অনুঘটক (Catalyst) বিক্রিয়ার হার বাড়াতে পারে যদি তা—",
+      "options": [
+        "ধনাত্মক অনুঘটক হয়",
+        "সূক্ষ্ম চূর্ণ আকারে থাকে",
+        "বিক্রিয়কের সংস্পর্শে থাকে",
+        "নেতিবাচক অনুঘটক হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-16-015",
+      "question": "নীচের কোনটির ইলেকট্রন আসক্তি সবচেয়ে বেশি?",
+      "options": [
+        "F",
+        "Cl",
+        "Br",
+        "I"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-16-016",
+      "question": "বৈদ্যুতিক ক্ষমতার একক কোনটি/গুলো? (বহু-সঠিক)",
+      "options": [
+        "ওয়াট",
+        "জুল/সেকেন্ড",
+        "ভোল্ট·অ্যাম্পিয়ার",
+        "অশ্বক্ষমতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-16-017",
+      "question": "সালফারের একটি পরমাণুর ভর অক্সিজেনের একটি পরমাণুর ভরের কত গুণ? (S=32, O=16)",
+      "options": [
+        "1 গুণ",
+        "2 গুণ",
+        "4 গুণ",
+        "অর্ধেক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-018",
+      "question": "একটি বৈদ্যুতিক বাতির ফিলামেন্টের রোধ 20 Ω। বাতিটি 220 V লাইনে 5 মিনিট জ্বললে কত তাপ উৎপন্ন হবে?",
+      "options": [
+        "1.452 × 10⁶ J",
+        "7.26 × 10⁵ J",
+        "2420 J",
+        "14520 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-16-019",
+      "question": "সালোকসংশ্লেষ (Photosynthesis) কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Exothermic",
+        "Endothermic",
+        "Combustion",
+        "Displacement"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-020",
+      "question": "প্রোটিয়াম, ডিউটেরিয়াম ও ট্রিটিয়ামের মধ্যে কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "প্রোটনের সংখ্যা একই",
+        "নিউট্রনের সংখ্যা ভিন্ন",
+        "ইলেকট্রনের সংখ্যা একই",
+        "এরা হাইড্রোজেনের আইসোটোপ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-16-021",
+      "question": "সরল অণুবীক্ষণ যন্ত্র মূলত কী?",
+      "options": [
+        "একটি উত্তল লেন্স",
+        "একটি অবতল লেন্স",
+        "দুটি উত্তল লেন্স",
+        "একটি দর্পণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-022",
+      "question": "একটি মোটর 2 কিলোওয়াট ক্ষমতা সম্পন্ন; এটি কত ওয়াটের সমান?",
+      "options": [
+        "20 W",
+        "200 W",
+        "2000 W",
+        "2 W"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-023",
+      "question": "প্রকৃত দ্রবণের (True Solution) কণার ব্যাস কত?",
+      "options": [
+        "< 10^-8 cm",
+        "10^-7 cm",
+        "> 10^-5 cm",
+        "10^-4 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-024",
+      "question": "কোনটি কৃষিজাত বর্জ্য নয়?",
+      "options": [
+        "পাটের ছোবড়া",
+        "ধানের খড়",
+        "প্লাস্টিকের বোতল",
+        "আখের ছিবড়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-025",
+      "question": "50 cm ফোকাস দূরত্বের লেন্সের ক্ষমতা কত?",
+      "options": [
+        "2 D",
+        "0.5 D",
+        "0.2 D",
+        "5 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-026",
+      "question": "সমুদ্রের জলে সর্বাধিক পরিমাণে কোন ধাতব আয়ন দ্রবীভূত অবস্থায় থাকে?",
+      "options": [
+        "Mg²⁺",
+        "Na⁺",
+        "K⁺",
+        "Ca²⁺"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-16-027",
+      "question": "একটি তারের প্রতিটি বিন্দুতে বিভব সমান হলে তড়িৎ প্রবাহ কেমন হবে?",
+      "options": [
+        "সর্বোচ্চ হবে",
+        "শূন্য হবে",
+        "কমে যাবে",
+        "অপরিবর্তিত থাকবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-16-028",
+      "question": "নিচের কোনটি একটি শক্তিশালী অ্যাসিড (Strong Acid)?",
+      "options": [
+        "CH₃COOH",
+        "H₂CO₃",
+        "H₂SO₄",
+        "Citric Acid"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-16-029",
+      "question": "[NUMERICAL] 5.85 g NaCl এ কত মোল NaCl আছে? (Na=23, Cl=35.5)",
+      "options": [
+        "1 mole",
+        "0.1 mole",
+        "0.5 mole",
+        "10 mole"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-16-030",
+      "question": "একটি লেন্সের ক্ষমতা -1.5 D। নিচের কোন বিবৃতিটি সঠিক? (i) ফোকাস দূরত্ব -66.7 cm (ii) লেন্সটি অবতল (iii) এটি হাইপারমেট্রোপিয়া সংশোধনে ব্যবহার হয় (iv) এটি অপসারী লেন্স",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

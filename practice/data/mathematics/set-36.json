@@ -1,0 +1,541 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 36,
+  "questions": [
+    {
+      "id": "am-36-001",
+      "question": "0.125-কে শতকরায় প্রকাশ করুন।",
+      "options": [
+        "1.25%",
+        "12.5%",
+        "125%",
+        "0.125%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-36-002",
+      "question": "সংখ্যারেখায় 0-এর বাঁদিকে কী থাকে?",
+      "options": [
+        "ধনাত্মক সংখ্যা",
+        "ঋণাত্মক সংখ্যা",
+        "শূন্য",
+        "ভগ্নাংশ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-36-003",
+      "question": "একটি কাজ A 5 দিনে করে, B 8 দিনে করে, C 10 দিনে করে। A ও B 2 দিন একসাথে কাজ করার পর C যোগ দিলে বাকি কাজ কত দিনে শেষ হবে?",
+      "options": [
+        "1.5 দিন",
+        "2 দিন",
+        "2.5 দিন",
+        "3 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-36-004",
+      "question": "একটি বর্গক্ষেত্রের কর্ণ 10 সেমি হলে নিচের কোনটি সঠিক? (√2 = 1.414)",
+      "options": [
+        "বাহু = 10/√2 ≈ 7.07 সেমি",
+        "ক্ষেত্রফল = 50 বর্গসেমি",
+        "পরিসীমা = 40/√2 ≈ 28.28 সেমি",
+        "ক্ষেত্রফল = 100 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-36-005",
+      "question": "একটি ট্রেন 54 km/h বেগে 15 সেকেন্ডে একটি ল্যাম্পপোস্ট অতিক্রম করে। ট্রেনের দৈর্ঘ্য:",
+      "options": [
+        "54 km/h = 15 m/s",
+        "দৈর্ঘ্য = 15×15 = 225 মিটার",
+        "225 মিটার",
+        "200 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-36-006",
+      "question": "0.5, 0.05, 0.005-এর সঠিক বিবরণ কোনটি?",
+      "options": [
+        "0.5 বৃহত্তম",
+        "0.005 ক্ষুদ্রতম",
+        "এদের গড় 0.185",
+        "এদের যোগফল 0.555"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-36-007",
+      "question": "একটি নির্দিষ্ট কাজের জন্য নিচের কোনটি সঠিক?",
+      "options": [
+        "কাজ স্থির থাকলে শ্রমিক সংখ্যা ও সময় পরস্পর ব্যস্তানুপাতিক",
+        "সময় স্থির থাকলে কাজ ও শ্রমিক সংখ্যা সরলানুপাতিক",
+        "শ্রমিক স্থির থাকলে কাজ ও সময় সরলানুপাতিক",
+        "কাজ স্থির থাকলে শ্রমিক ও সময় একই অনুপাতে বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-36-008",
+      "question": "2.5, 2.05, 2.005-এর সঠিক ক্রম কোনটি (ছোট থেকে বড়)?",
+      "options": [
+        "2.005 < 2.05 < 2.5",
+        "2.05 < 2.005 < 2.5",
+        "2.5 > 2.05 > 2.005",
+        "2.005 > 2.05 > 2.5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-36-009",
+      "question": "একটি দ্রব্য 25% লাভে 750 টাকায় বিক্রি করলে, ক্রয়মূল্য কত?",
+      "options": [
+        "550 টাকা",
+        "575 টাকা",
+        "600 টাকা",
+        "625 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-010",
+      "question": "30-এর মৌলিক উৎপাদকগুলি কী কী?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-36-011",
+      "question": "0.2 + 0.3 + 0.4 = ?",
+      "options": [
+        "0.9",
+        "0.09",
+        "9",
+        "0.009"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-36-012",
+      "question": "25% ছাড়ে একটি দ্রব্যের SP = 750 টাকা। দ্রব্যটির MP কত এবং 15% ছাড়ে SP কত?",
+      "options": [
+        "MP = 1000 টাকা",
+        "15% ছাড়ে SP = 850 টাকা",
+        "MP = 900 টাকা",
+        "15% ছাড়ে SP = 765 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-013",
+      "question": "একজন দোকানদার 20% লাভে একটি জিনিস বিক্রয় করল। যদি সে 25% লাভে বিক্রয় করত, তাহলে 50 টাকা বেশি পেত। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-014",
+      "question": "একটি জিনিস 20% ছাড় দিয়ে বিক্রয় করলে 15% লাভ হয়। যদি 10% ছাড় দেওয়া হয়, তাহলে লাভ কত হবে?",
+      "options": [
+        "22.5%",
+        "25%",
+        "27.5%",
+        "30%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-36-015",
+      "question": "একটি জিনিস 15% লাভে বিক্রয় করলে বিক্রয়মূল্য 1150 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "950 টাকা",
+        "980 টাকা",
+        "1000 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-36-016",
+      "question": "(1.25) × (0.4) = ?",
+      "options": [
+        "0.5",
+        "5.0",
+        "50",
+        "0.05"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-017",
+      "question": "একজন দোকানদার 25% লাভে একটি জিনিস বিক্রয় করল। যদি সে 30% লাভে বিক্রয় করত, তাহলে 100 টাকা বেশি পেত। জিনিসটির CP কত এবং 25% লাভে SP কত?",
+      "options": [
+        "CP = 2000 টাকা",
+        "25% লাভে SP = 2500 টাকা",
+        "CP = 1500 টাকা",
+        "25% লাভে SP = 2000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-36-018",
+      "question": "বীজগণিতের প্রাথমিক ক্রিয়াগুলি কী কী?",
+      "options": [
+        "যোগ",
+        "বিয়োগ",
+        "গুণ",
+        "ভাগ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-36-019",
+      "question": "নিচের পাই চার্টে বিভিন্ন খেলায় অংশগ্রহণ: ক্রিকেট 40%, ফুটবল 30%, টেনিস 20%, ব্যাডমিন্টন 10%। টেনিসের কোণ কত?",
+      "options": [
+        "72°",
+        "76°",
+        "80°",
+        "84°"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-020",
+      "question": "4 টি সংখ্যার গড় 25। একটি সংখ্যা 40 বাদ দিলে বাকি 3 টির গড় কত?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-36-021",
+      "question": "180-এর 15% = 27, 150-এর 18% = 27, সমান কিনা?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "প্রথমটি 2 বেশি",
+        "দ্বিতীয়টি 2 কম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-022",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একটি কাজ 10 দিনে করে, B 15 দিনে করে → A ও B একসাথে 6 দিনে করে",
+        "A ও B একসাথে 8 দিনে করে, A একা 12 দিনে করে → B একা 24 দিনে করে",
+        "A ও B একসাথে 6 দিনে করে, B একা 9 দিনে করে → A একা 18 দিনে করে",
+        "A ও B একসাথে 12 দিনে করে, A ও B-এর দক্ষতার অনুপাত 2:3 → A একা 30 দিনে করে, B একা 20 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-36-023",
+      "question": "একটি জিনিস 25% লাভে বিক্রয় করলে লাভ 100 টাকা হয়। জিনিসটির বিক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-024",
+      "question": "ত্রৈমাসিক CI-তে 2 বছরের জন্য n = 8 এবং R = 12% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "প্রতি 3 মাসে R/4 = 3% সুদ",
+        "A = P(1.03)⁸",
+        "CI = P[(1.03)⁸ - 1]",
+        "P = 10000 টাকা হলে CI ≈ 2667.7 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-36-025",
+      "question": "0.04 -এর সমতুল্য:",
+      "options": [
+        "4%",
+        "1/25",
+        "4/100",
+        "0.40"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-36-026",
+      "question": "30% লাভে একটি বই 260 টাকায় বিক্রি করলে, ক্রয়মূল্য কত?",
+      "options": [
+        "180 টাকা",
+        "190 টাকা",
+        "200 টাকা",
+        "210 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-027",
+      "question": "একটি কাজ A 14 দিনে করে, B 21 দিনে করে। A ও B একসাথে 4 দিন কাজ করার পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/14+1/21 = 5/42",
+        "4 দিনে করে = 20/42 = 10/21",
+        "বাকি কাজ = 11/21",
+        "B এর সময় = (11/21)/(1/21) = 11 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-36-028",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে সময় দ্বিগুণ হলে সুদের পরিমাণ কী হয়?",
+      "options": [
+        "ঠিক দ্বিগুণ হয়",
+        "দ্বিগুণের চেয়ে বেশি হয়",
+        "দ্বিগুণের চেয়ে কম হয়",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-029",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 8 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 10 ঘন্টায় ভরাতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "3.5 ঘন্টা",
+        "4 ঘন্টা",
+        "4.44 ঘন্টা",
+        "5 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-36-030",
+      "question": "পাইপ একটি চৌবাচ্চা 6 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 12 ঘন্টায় ভরাতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "2 ঘন্টা",
+        "3 ঘন্টা",
+        "4 ঘন্টা",
+        "5 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

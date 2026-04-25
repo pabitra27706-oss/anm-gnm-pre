@@ -1,0 +1,508 @@
+{
+  "subject": "general-science",
+  "set": 43,
+  "questions": [
+    {
+      "id": "ge-43-001",
+      "question": "জলের ঘনত্ব কত তাপমাত্রায় সর্বোচ্চ হয়?",
+      "options": [
+        "0°C",
+        "4°C",
+        "-4°C",
+        "10°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-002",
+      "question": "ন্যাপথলিন ঘরের তাপমাত্রায় উবে যায় কেন?",
+      "options": [
+        "এটি বাষ্পীভূত হয়",
+        "এটি ঊর্ধ্বপাতিত হয়",
+        "এটি গলে যায়",
+        "এটি বাতাসের সাথে বিক্রিয়া করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-43-003",
+      "question": "একটি বাষ্প ইঞ্জিন কোন নীতির ওপর কাজ করে?",
+      "options": [
+        "গতির সূত্র",
+        "তাপগতিবিদ্যা",
+        "মহাকর্ষ",
+        "ঘর্ষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-004",
+      "question": "কোন মৌল দুটি তৃতীয় পর্যায়ে অবস্থিত? (বহু-সঠিক)",
+      "options": [
+        "Na",
+        "K",
+        "Mg",
+        "Ca"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-43-005",
+      "question": "ভার্নিয়ার ক্যালিপার্সের সর্বনিম্ন ধ্রুবক (Least count) কত?",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.1 mm",
+        "0.01 mm"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-006",
+      "question": "[NUMERICAL] pH = 7 এবং pH = 10 যুক্ত দুটি দ্রবণের মধ্যে OH⁻ আয়নের গাঢ়ত্বের পার্থক্য কতগুণ?",
+      "options": [
+        "3 গুণ",
+        "30 গুণ",
+        "1000 গুণ",
+        "10 গুণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-007",
+      "question": "নিচের কোনটি সঠিক নয়?",
+      "options": [
+        "উত্তল দর্পণের ফোকাস দূরত্ব ঋণাত্মক",
+        "অবতল দর্পণের ফোকাস দূরত্ব ধনাত্মক",
+        "উত্তল লেন্সের ফোকাস দূরত্ব ধনাত্মক",
+        "অবতল লেন্সের ফোকাস দূরত্ব ঋণাত্মক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-008",
+      "question": "কোনগুলি গ্রিনহাউস গ্যাস? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "CO₂",
+        "O₂",
+        "CH₄",
+        "N₂O"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-43-009",
+      "question": "সেন্টি (c) উপসর্গটির মান কত?",
+      "options": [
+        "10⁻¹",
+        "10⁻²",
+        "10⁻³",
+        "10²"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-010",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) সঙ্কট কোণ বাড়লে প্রতিসরাঙ্ক কমে (ii) প্রতিসরাঙ্ক বাড়লে আলোর বেগ কমে (iii) তরঙ্গদৈর্ঘ্য বাড়লে প্রতিসরাঙ্ক বাড়ে (iv) বেগ বাড়লে প্রতিসরাঙ্ক বাড়ে",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-011",
+      "question": "পরম শূন্য তাপমাত্রার তাত্ত্বিক ভিত্তি কোন সূত্র থেকে পাওয়া যায়?",
+      "options": [
+        "বয়েল সূত্র",
+        "চার্লস সূত্র",
+        "অ্যাভোগাড্রো সূত্র",
+        "গ্রাহাম সূত্র"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-012",
+      "question": "একটি ক্যামেরার ফোকাস দূরত্ব কমানো হলে কী ঘটে?",
+      "options": [
+        "দৃশ্য প্রসারিত হয়",
+        "দৃশ্য সংকুচিত হয়",
+        "প্রতিবিম্ব বড় হয়",
+        "প্রতিবিম্ব ছোট হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-013",
+      "question": "একটি ইঞ্জিন 100 N বল প্রয়োগ করে একটি গাড়িকে 72 km/h বেগে চালাচ্ছে। ইঞ্জিনের ক্ষমতা কত?",
+      "options": [
+        "2000 W",
+        "7200 W",
+        "1000 W",
+        "5000 W"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-014",
+      "question": "একটি লিফট 500 kg ভর বহন করে 20 m উচ্চতায় 10 s-এ উঠছে। লিফটের ক্ষমতা কত? (g=10 m/s²)",
+      "options": [
+        "100 kW",
+        "10 kW",
+        "1 kW",
+        "500 kW"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-015",
+      "question": "নিচের কোনগুলো সঠিকভাবে মেলে? (i) লেন্স সূত্র - 1/f = 1/v - 1/u (ii) দর্পণ সূত্র - 1/f = 1/v + 1/u (iii) ক্ষমতা - P = 1/f (iv) বিবর্ধন - m = h'/h = -v/u (দর্পণ)",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-016",
+      "question": "0°C তাপমাত্রার বরফ 0°C তাপমাত্রার জলের থেকে ঠান্ডা লাগার কারণ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বরফ গলনের সুপ্ততাপ শোষণ করে",
+        "বরফের পরিবাহিতা কম",
+        "বরফের আপেক্ষিক তাপ বেশি",
+        "বরফের তাপমাত্রা কম"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-43-017",
+      "question": "কপার অক্সাইডের ওপর দিয়ে হাইড্রোজেন গ্যাস চালনা করলে (CuO + H₂ → Cu + H₂O), এখানে কোনটি বিজারক পদার্থ?",
+      "options": [
+        "CuO",
+        "H₂",
+        "Cu",
+        "H₂O"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-018",
+      "question": "[NUMERICAL] 1 mole কার্বন ডাই অক্সাইডে (CO2) আছে—",
+      "options": [
+        "44 g ভর",
+        "6.022 × 10^23 অণু",
+        "22.4 L আয়তন (STP)",
+        "12 g অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-43-019",
+      "question": "নিচের কোনটি ক্ষারীয় মৃত্তিকা ধাতু নয় কিন্তু ক্ষার তৈরি করে?",
+      "options": [
+        "Mg",
+        "Ca",
+        "Na",
+        "Ba"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-020",
+      "question": "গ্রিনহাউস প্রভাবের জন্য দায়ী প্রধান গ্যাস কোনটি?",
+      "options": [
+        "অক্সিজেন",
+        "নাইট্রোজেন",
+        "কার্বন ডাইঅক্সাইড",
+        "হাইড্রোজেন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-43-021",
+      "question": "যেসব ক্ষার জলে দ্রবীভূত হয় তাদের কী বলা হয়?",
+      "options": [
+        "অ্যাসিড",
+        "অ্যালকালি বা ক্ষারক",
+        "বাফার",
+        "নির্দেশক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-43-022",
+      "question": "নিচের কোনটি একটি প্রশম অক্সাইড?",
+      "options": [
+        "SO2",
+        "CO",
+        "Na2O",
+        "MgO"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-023",
+      "question": "একটি ক্যামেরায় অবতল লেন্স কেন ব্যবহার করা হয় না?",
+      "options": [
+        "বাস্তব প্রতিবিম্ব তৈরি করে না বলে",
+        "বিবর্ধিত প্রতিবিম্ব তৈরি করে বলে",
+        "ক্ষুদ্রতর প্রতিবিম্ব তৈরি করে বলে",
+        "উল্টো প্রতিবিম্ব তৈরি করে বলে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-43-024",
+      "question": "VIBGYOR-এ G অক্ষরটি কীসের প্রতীক?",
+      "options": [
+        "গোলাপী",
+        "সবুজ",
+        "সোনালি",
+        "নীল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-43-025",
+      "question": "ফিউজ তার বর্তনীতে কীভাবে সংযোগ করতে হয়?",
+      "options": [
+        "সমান্তরালে",
+        "যন্ত্রের সাথে জোড়া",
+        "পৃথক তার দিয়ে",
+        "শ্রেণিতে"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-026",
+      "question": "একটি 200 W ক্ষমতার বাতি 5 ঘণ্টা জ্বললে কত kWh বিদ্যুৎ খরচ হবে?",
+      "options": [
+        "1 kWh",
+        "10 kWh",
+        "40 kWh",
+        "1000 kWh"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-027",
+      "question": "অর্ধপরিবাহীর V-I গ্রাফ কেমন হয়? (বহু-সঠিক)",
+      "options": [
+        "সরলরৈখিক",
+        "অ-সরলরৈখিক",
+        "ওহমের সূত্র মেনে চলে না",
+        "মূলবিন্দুগামী সরলরেখা"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-43-028",
+      "question": "[NUMERICAL] একটি দ্রবণের pH = 14। এতে H+ আয়নের গাঢ়ত্ব কত?",
+      "options": [
+        "1 M",
+        "10^-14 M",
+        "10^-7 M",
+        "10^14 M"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-43-029",
+      "question": "সমবেগে চললে একটি বৃত্তাকার পথে ঘূর্ণনরত বস্তুর কী পরিবর্তন হয়?",
+      "options": [
+        "দ্রুতি",
+        "বেগের অভিমুখ",
+        "ভর",
+        "ব্যাসার্ধ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-43-030",
+      "question": "সোডিয়াম কার্বনেট (Na2CO3) এর জলীয় দ্রবণ—",
+      "options": [
+        "আম্লিক",
+        "ক্ষারীয়",
+        "প্রশম",
+        "বর্ণহীন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard"
+    }
+  ]
+}

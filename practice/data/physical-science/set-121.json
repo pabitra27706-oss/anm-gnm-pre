@@ -1,0 +1,527 @@
+{
+  "subject": "general-science",
+  "set": 121,
+  "questions": [
+    {
+      "id": "ge-121-001",
+      "question": "পটাশিয়াম ধাতু জলের সাথে বিক্রিয়া করে কোন গ্যাস উৎপন্ন করে?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Chlorine"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-002",
+      "question": "বৈদ্যুতিক মোটরে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "যান্ত্রিক → বিদ্যুৎ",
+        "বিদ্যুৎ → যান্ত্রিক",
+        "তাপ → যান্ত্রিক",
+        "বিদ্যুৎ → কেবল তাপ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-003",
+      "question": "[NUMERICAL] 0.05 M H2SO4 দ্রবণের pH কত? (সম্পূর্ণ বিয়োজন ধরে)",
+      "options": [
+        "2",
+        "1",
+        "1.3",
+        "0.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-121-004",
+      "question": "ভরবেগ (Momentum) সম্পর্কে সত্য উক্তি—",
+      "options": [
+        "এটি একটি ভেক্টর রাশি",
+        "এর অভিমুখ বেগের অভিমুখে থাকে",
+        "এর একক kg·m/s",
+        "এটি ভরের ওপর নির্ভর করে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-121-005",
+      "question": "ছানি পড়া রোগের চিকিৎসা কী?",
+      "options": [
+        "লেন্স প্রতিস্থাপন",
+        "চশমা ব্যবহার",
+        "ওষুধ",
+        "ব্যায়াম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-006",
+      "question": "বৃষ্টির জলের pH সাধারণত কতর কম হলে তাকে অ্যাসিড বৃষ্টি বলা হয়?",
+      "options": [
+        "7.0",
+        "6.0",
+        "5.6",
+        "4.5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-007",
+      "question": "P = F × v সূত্রটি কিসের ক্ষেত্রে প্রযোজ্য? (ক্ষমতা)",
+      "options": [
+        "স্থির ত্বরণ",
+        "সমবেগ",
+        "সুষম মন্দন",
+        "সরল দোলগতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-008",
+      "question": "একই পারমাণবিক সংখ্যা কিন্তু ভিন্ন ভর সংখ্যা বিশিষ্ট পরমাণুগুলোকে কী বলে?",
+      "options": [
+        "আইসোবার",
+        "আইসোটোন",
+        "আইসোটোপ",
+        "আইসোমার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-009",
+      "question": "সাদা আলোকে কয়টি মৌলিক রঙে ভাগ করা যায়?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-010",
+      "question": "রাসায়নিক সমীকরণ থেকে কী কী জানা যায়?",
+      "options": [
+        "বিক্রয়ক ও বিক্রয়াজাত পদার্থের নাম",
+        "অণুর সংখ্যা ও ভরের অনুপাত",
+        "বিক্রিয়ার গতিবেগ",
+        "বিক্রিয়ার হার"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-121-011",
+      "question": "নিচের কোনটি গ্রীনহাউস গ্যাস নয়?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "O₂",
+        "N₂O"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-012",
+      "question": "একটি বস্তুকে অবতল দর্পণের সামনে 30 cm দূরে রাখায় প্রতিবিম্ব দর্পণ থেকে 15 cm দূরে তৈরি হয়। ফোকাস দূরত্ব কত?",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "30 cm",
+        "45 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-013",
+      "question": "রংধনুতে ভায়োলেট রঙ কোথায় থাকে?",
+      "options": [
+        "সবচেয়ে বাইরে",
+        "সবচেয়ে ভিতরে",
+        "মাঝখানে",
+        "নির্দিষ্ট নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-014",
+      "question": "তড়িৎ বিশ্লেষণ প্রক্রিয়ায় অ্যানোড কী?",
+      "options": [
+        "ঋণাত্মক তড়িৎদ্বার",
+        "ধনাত্মক তড়িৎদ্বার",
+        "নিরপেক্ষ তড়িৎদ্বার",
+        "ভোল্টমিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-015",
+      "question": "পরম শূন্য তাপমাত্রা (Absolute zero temperature) এর মান সেলসিয়াস স্কেলে কত?",
+      "options": [
+        "273°C",
+        "-273.15°C",
+        "0°C",
+        "-100°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-016",
+      "question": "নিচের কোনগুলো একটি গোলীয় দর্পণের ক্ষেত্রে সঠিক? (i) R = 2f (ii) মেরু ও ফোকাসের মধ্যবর্তী দূরত্ব f (iii) C বিন্দু ও P বিন্দুর মধ্যবর্তী দূরত্ব R (iv) f = R/2",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-017",
+      "question": "লেন্স সূত্রে ব্যবহৃত রাশিগুলি কী কী?",
+      "options": [
+        "u, v, f",
+        "u, v, R",
+        "f, R, D",
+        "u, f, P"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-018",
+      "question": "ফ্লেমিং-এর বামহস্ত নিয়মে বৃদ্ধাঙ্গুলি, তর্জনী ও মধ্যমার দিক নির্দেশ করে যথাক্রমে— (বহু-সঠিক)",
+      "options": [
+        "বল/গতি",
+        "চৌম্বক ক্ষেত্র",
+        "তড়িৎ প্রবাহ",
+        "বিভব"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-121-019",
+      "question": "নিচের কোন কোন যন্ত্রে তড়িৎশক্তি যান্ত্রিক শক্তিতে রূপান্তরিত হয়? (বহু-সঠিক)",
+      "options": [
+        "বৈদ্যুতিক পাখা",
+        "মোটর",
+        "টিউবলাইট",
+        "ইলেকট্রিক ইস্ত্রি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-121-020",
+      "question": "নিচের কোনটি স্থানীয় বায়ু দূষণের উদাহরণ?",
+      "options": [
+        "বায়ুমণ্ডলে CO₂ বৃদ্ধি",
+        "কলকারখানার ধোঁয়া থেকে আশেপাশে ধূলিকণা জমা",
+        "অ্যাসিড বৃষ্টি",
+        "ওজোন স্তর ক্ষয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-021",
+      "question": "N₂ + 3H₂ → 2NH₃ — এই সমীকরণটি কোন সূত্রের ওপর ভিত্তি করে ব্যালেন্স করা হয়েছে?",
+      "options": [
+        "Law of constant proportions",
+        "Law of conservation of mass",
+        "Avogadro's law",
+        "Boyle's law"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-022",
+      "question": "পোলারায়ন প্রতিরোধের উপায় কী? (বহু-সঠিক)",
+      "options": [
+        "ডিপোলারাইজার ব্যবহার (MnO₂)",
+        "নিষ্ক্রিয় তড়িৎদ্বার ব্যবহার",
+        "তাপমাত্রা বাড়ানো",
+        "তড়িৎদ্বার ঘষে পরিষ্কার করা"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-121-023",
+      "question": "সাবান জল (Soap solution) হলো—",
+      "options": [
+        "অ্যাসোসিয়েটেড কোলয়েড",
+        "মি সেল (Micelle) গঠন করে",
+        "সত্য দ্রবণ",
+        "ইমালশন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-121-024",
+      "question": "মোলার আয়তন (22.4 L) কিসের ওপর নির্ভর করে?",
+      "options": [
+        "উষ্ণতা (T)",
+        "চাপ (P)",
+        "মোল সংখ্যা",
+        "গ্যাসের বর্ণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-121-025",
+      "question": "পরম শূন্য তাপমাত্রায় পদার্থের গতিশীলতা কেমন হয়?",
+      "options": [
+        "সর্বোচ্চ হয়",
+        "সর্বনিম্ন (প্রায় শূন্য) হয়",
+        "অপরিবর্তিত থাকে",
+        "অনিয়মিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-121-026",
+      "question": "মাইক্রোফোন কোন শক্তিকে রূপান্তরিত করে?",
+      "options": [
+        "শব্দ → বিদ্যুৎ",
+        "বিদ্যুৎ → শব্দ",
+        "তাপ → শব্দ",
+        "চৌম্বক → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-121-027",
+      "question": "বিশ্ব উষ্ণায়নে কোন কোন খাত থেকে প্রধান গ্যাস নির্গত হয়? (একাধিক উত্তর)",
+      "options": [
+        "শক্তি উৎপাদন",
+        "পরিবহন",
+        "কৃষি",
+        "তথ্যপ্রযুক্তি (IT)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-121-028",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) VIBGYOR-এর শেষের দিকের রঙের তরঙ্গদৈর্ঘ্য কম (ii) VIBGYOR-এর শুরুর দিকের রঙের কম্পাঙ্ক কম (iii) লাল আলোর প্রতিসরাঙ্ক সবচেয়ে কম (iv) বেগুনি আলোর বেগ সবচেয়ে কম",
+      "options": [
+        "(i), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (ii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-121-029",
+      "question": "নিচের কোন আয়নগুলির ইলেকট্রন সংখ্যা 18? (বহু-সঠিক)",
+      "options": [
+        "K⁺",
+        "Ca²⁺",
+        "Cl⁻",
+        "Na⁺"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-121-030",
+      "question": "একটি বাল্বের ক্ষমতা 100 W। দৈনিক 5 ঘণ্টা জ্বালালে এপ্রিল মাসে (30 দিন) কত ইউনিট বিদ্যুৎ খরচ হবে?",
+      "options": [
+        "15 kWh",
+        "500 kWh",
+        "15 kW",
+        "0.5 kWh"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

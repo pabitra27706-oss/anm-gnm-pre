@@ -1,0 +1,519 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 88,
+  "questions": [
+    {
+      "id": "am-88-001",
+      "question": "16, 24, 32, 40-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 8",
+        "LCM = 480",
+        "LCM = 960",
+        "8, 480-এর গুণনীয়ক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-88-002",
+      "question": "“ফ্যাক্টরাইজেশন পদ্ধতিতে গসাগু পেতে মৌলিক গুণনীয়কগুলির ক্ষুদ্রতম ঘাত নিতে হয়” – এই বক্তব্য:",
+      "options": [
+        "সঠিক",
+        "ভুল, গসাগুতে বড় ঘাত নিতে হয়",
+        "লসাগুর ক্ষেত্রে প্রযোজ্য",
+        "ভগ্নাংশের ক্ষেত্রে প্রযোজ্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-003",
+      "question": "15% ও 25% ক্রমিক ছাড় দেওয়া হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "net ছাড় = 36.25%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 637.5 টাকা",
+        "net ছাড় = 40%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 600 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-88-004",
+      "question": "100 টাকায় 8টি পেন কিনলে 175 টাকায় কতটি পেন কেনা যাবে?",
+      "options": [
+        "12টি",
+        "13টি",
+        "14টি",
+        "15টি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-005",
+      "question": "চক্রবৃদ্ধি সুদের প্রয়োগ নিচের কোন ক্ষেত্রে দেখা যায়?",
+      "options": [
+        "ব্যাংকের সঞ্চয়ী হিসাব",
+        "ঋণ পরিশোধের ক্ষেত্রে",
+        "জনসংখ্যা বৃদ্ধি গণনায়",
+        "গাড়ির মূল্য হ্রাস গণনায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-88-006",
+      "question": "6 : 10 = 9 : 15 সমানুপাতটি সঠিক কিনা?",
+      "options": [
+        "সঠিক",
+        "ভুল",
+        "তথ্য অসম্পূর্ণ",
+        "কোনটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-007",
+      "question": "একটি ক্লাসের 3/5 অংশ ছাত্রী। ছাত্রী সংখ্যা 24 হলে মোট ছাত্র-ছাত্রী সংখ্যা কত?",
+      "options": [
+        "30",
+        "36",
+        "40",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-008",
+      "question": "80 টাকায় 10টি ডিম কিনে 100 টাকায় 8টি ডিম বিক্রয় করলে লাভের হার কত?",
+      "options": [
+        "50%",
+        "56.25%",
+        "60%",
+        "66.66%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-009",
+      "question": "7টি সংখ্যার গড় 15। একটি সংখ্যা 12 বাদ দিয়ে 20 যোগ করলে গড় কত হয়?",
+      "options": [
+        "15.14",
+        "16.14",
+        "17.14",
+        "18.14"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-88-010",
+      "question": "150% -এর সমতুল্য:",
+      "options": [
+        "1.5",
+        "3/2",
+        "150/100",
+        "15/10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-88-011",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 900 টাকা। 15% ছাড় দিয়ে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "735 টাকা",
+        "745 টাকা",
+        "755 টাকা",
+        "765 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-012",
+      "question": "একটি জিনিস 8% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য 920 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "950 টাকা",
+        "980 টাকা",
+        "1000 টাকা",
+        "1020 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-013",
+      "question": "2 জন পুরুষ ও 3 জন মহিলা একটি কাজ 8 দিনে করতে পারে। 3 জন পুরুষ ও 2 জন মহিলা একই কাজ 6 দিনে করতে পারে। 4 জন পুরুষ ও 4 জন মহিলা একত্রে কাজটি কত দিনে করবে?",
+      "options": [
+        "3.2 দিন",
+        "4 দিন",
+        "4.8 দিন",
+        "5.5 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-88-014",
+      "question": "একটি গোলকের ব্যাসার্ধ 3 সেমি হলে নিচের কোনটি সঠিক? (π = 3.14)",
+      "options": [
+        "পৃষ্ঠতলের ক্ষেত্রফল = 113.04 বর্গসেমি",
+        "আয়তন = 113.04 ঘনসেমি",
+        "অর্ধগোলকের সমগ্রতলের ক্ষেত্রফল = 84.78 বর্গসেমি",
+        "অর্ধগোলকের আয়তন = 56.52 ঘনসেমি"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-88-015",
+      "question": "একটি সারণি: ৫টি ব্যবসার লাভ (লাখ টাকায়): B1: 8, B2: 12, B3: 10, B4: 15, B5: 9 কোন ব্যবসার লাভ সবচেয়ে বেশি?",
+      "options": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-016",
+      "question": "একটি আসল 3 বছরে 8% হারে সুদাসলে 12400 টাকা হলে, আসল ও সুদ কত?",
+      "options": [
+        "P=10000, SI=2400",
+        "P=9500, SI=2900",
+        "P=11000, SI=1400",
+        "P=9000, SI=3400"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-88-017",
+      "question": "A একা একটি কাজ 10 দিনে করে। A ও B একসাথে কাজটি 6 দিনে করে। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "12 দিন",
+        "13 দিন",
+        "14 দিন",
+        "15 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-018",
+      "question": "4 মাস কত বছরের সমান?",
+      "options": [
+        "1/4 বছর",
+        "1/3 বছর",
+        "1/2 বছর",
+        "2/3 বছর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-019",
+      "question": "7 সেমি ব্যাসার্ধবিশিষ্ট বৃত্তের পরিধি কত? (π = 22/7)",
+      "options": [
+        "22 সেমি",
+        "38 সেমি",
+        "44 সেমি",
+        "48 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-020",
+      "question": "দুটি গাড়ি একই দিকে চললে আপেক্ষিক দ্রুতি কত?",
+      "options": [
+        "S1 + S2",
+        "S1 - S2",
+        "S1 × S2",
+        "S1 / S2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-021",
+      "question": "9, 15, 21, 27-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 3",
+        "LCM = 945",
+        "945, 81 দ্বারা বিভাজ্য",
+        "945, 45 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-88-022",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 600 টাকা। 10% ছাড় দিয়ে বিক্রয় করলে 20% লাভ হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "420 টাকা",
+        "450 টাকা",
+        "480 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-023",
+      "question": "200 মিটার লম্বা ট্রেন 72 km/h বেগে 300 মিটার লম্বা সেতু অতিক্রম করতে কত সময় নেবে?",
+      "options": [
+        "20 সেকেন্ড",
+        "22 সেকেন্ড",
+        "25 সেকেন্ড",
+        "28 সেকেন্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-88-024",
+      "question": "4, 8, 12, 16... এরা কী কী?",
+      "options": [
+        "মৌলিক সংখ্যা",
+        "4-এর গুণিতক",
+        "বিজোড় সংখ্যা",
+        "অমূলদ সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-025",
+      "question": "একটি কাজ A 9 দিনে করে, B 12 দিনে করে। A ও B একসাথে কাজ শুরু করে 3 দিন পর B চলে গেলে বাকি কাজ A কত দিনে করবে?",
+      "options": [
+        "3.25 দিন",
+        "3.5 দিন",
+        "3.75 দিন",
+        "4 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-026",
+      "question": "একটি কাজ A 6 দিনে, B 8 দিনে, C 12 দিনে করে। B ও C 3 দিন একসাথে কাজ করার পর A যোগ দিলে বাকি কাজ কত দিনে শেষ হবে?",
+      "options": [
+        "1 দিন",
+        "2 দিন",
+        "3 দিন",
+        "4 দিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-88-027",
+      "question": "100% বলতে কী বোঝায়?",
+      "options": [
+        "অর্ধেক",
+        "এক-চতুর্থাংশ",
+        "সম্পূর্ণ অংশ",
+        "দ্বিগুণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-88-028",
+      "question": "একটি দ্রব্য 12% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য 880 টাকা হলে ক্রয়মূল্য কত?",
+      "options": [
+        "1000 টাকা",
+        "950 টাকা",
+        "900 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-88-029",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "যদি A একা 10 দিনে, B একা 12 দিনে কাজ করে, A ও B একসাথে 60/11 দিনে কাজ শেষ করবে",
+        "A একা 8 দিনে, B একা 12 দিনে কাজ করলে A ও B একসাথে 24/5 দিনে করবে",
+        "A একা 15 দিনে, B একা 20 দিনে কাজ করলে A ও B একসাথে 60/7 দিনে করবে",
+        "A একা 6 দিনে, B একা 9 দিনে কাজ করলে A ও B একসাথে 18/5 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-88-030",
+      "question": "দুটি ট্রেন একই দিকে 45 km/h ও 30 km/h বেগে চলছে। দ্রুত ট্রেনটি ধীর ট্রেনটিকে অতিক্রম করতে 90 সেকেন্ড সময় নেয়। ট্রেন দুটির মোট দৈর্ঘ্য কত?",
+      "options": [
+        "340 মিটার",
+        "360 মিটার",
+        "375 মিটার",
+        "400 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    }
+  ]
+}

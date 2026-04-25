@@ -1,0 +1,514 @@
+{
+  "subject": "general-science",
+  "set": 32,
+  "questions": [
+    {
+      "id": "ge-32-001",
+      "question": "অবতল দর্পণের সামনে বস্তু C ও F এর মাঝে থাকলে প্রতিবিম্বের প্রকৃতি কেমন?",
+      "options": [
+        "অবাস্তব, সমশীর্ষ",
+        "বাস্তব, অবশীর্ষ ও বিবর্ধিত",
+        "বাস্তব, সমশীর্ষ ও সমান",
+        "অবাস্তব, অবশীর্ষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-32-002",
+      "question": "নিচের কোনটি মিথেন (CH₄) উৎপাদনের উৎস নয়?",
+      "options": [
+        "ধানক্ষেত",
+        "গবাদি পশুর পাচনতন্ত্র",
+        "জলাভূমি",
+        "গাড়ির ইঞ্জিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-003",
+      "question": "একটি বস্তুর ভর ও ওজনের মধ্যে পার্থক্য হলো—",
+      "options": [
+        "ভর ধ্রুবক থাকে কিন্তু ওজন পরিবর্তিত হয়",
+        "ভর একটি স্কেলার রাশি কিন্তু ওজন ভেক্টর রাশি",
+        "ভরের একক kg কিন্তু ওজনের একক Newton",
+        "ভর ও ওজন সবসময় একই থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-32-004",
+      "question": "একটি পাথরকে উপরে ছুঁড়লে তার গতিপথের মধ্য বিন্দুতে কীভাবে শক্তি বণ্টিত থাকে?",
+      "options": [
+        "গতিশক্তি > বিভব শক্তি",
+        "বিভব শক্তি > গতিশক্তি",
+        "গতিশক্তি = বিভব শক্তি",
+        "কেবল গতিশক্তি থাকে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-32-005",
+      "question": "নার্সিং-এ তাপমাত্রা সংক্রান্ত নিচের কোন উক্তিগুলি সঠিক? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "জ্বর (পাইরেক্সিয়া) 100.4°F এর ওপরে হলে বোঝায়",
+        "হাইপোথার্মিয়া 35°C (95°F) এর নীচে",
+        "রোদে পুড়ে গেলে শরীরের তাপ বিকিরণ বেড়ে যায়",
+        "ভিজে কাপড়ে শরীর মোছালে বাষ্পীভবনে তাপমাত্রা কমে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-32-006",
+      "question": "নিচের কোন জোড়াটি ভুল?",
+      "options": [
+        "Milk - Emulsion",
+        "Fog - Aerosol",
+        "Gemstone - Solid Sol",
+        "Cloud - Gel"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-007",
+      "question": "2 m/s বেগে চলমান 4 kg ভরের একটি বস্তুর গতিশক্তি কত?",
+      "options": [
+        "4 J",
+        "8 J",
+        "16 J",
+        "6 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-32-008",
+      "question": "সুর্যের ক্ষতিকারক UV রশ্মি থেকে রক্ষা পেতে কোন রঙের ছাতা ভালো?",
+      "options": [
+        "সাদা বা সিলভার",
+        "কালো",
+        "লাল",
+        "গোলাপি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-32-009",
+      "question": "একটি হিটার 220 V লাইনে 5 A তড়িৎ নেয়, এর ক্ষমতা কত?",
+      "options": [
+        "44 W",
+        "1100 W",
+        "225 W",
+        "450 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-010",
+      "question": "নিচের কোন বিবৃতিগুলো অবতল দর্পণের ক্ষেত্রে সত্য? (i) বস্তু F ও P এর মধ্যে রাখলে প্রতিবিম্ব অবাস্তব ও বিবর্ধিত হয় (ii) বাস্তব প্রতিবিম্ব সর্বদা অবশীর্ষ হয় (iii) বিবর্ধন ধনাত্মক ও ঋণাত্মক উভয় হতে পারে (iv) সর্বদা ক্ষুদ্রতর প্রতিবিম্ব তৈরি করে",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-32-011",
+      "question": "একটি উত্তল লেন্সের প্রতিবিম্ব বাস্তব ও সমান আকারের। বস্তুটি কোথায় অবস্থিত?",
+      "options": [
+        "F বিন্দুতে",
+        "2F বিন্দুতে",
+        "অনন্তে",
+        "O বিন্দুতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-012",
+      "question": "[NUMERICAL] 18 g জলে কত মোল ইলেকট্রন থাকে?",
+      "options": [
+        "1 mole",
+        "8 mole",
+        "10 mole",
+        "18 mole"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-32-013",
+      "question": "চুনের জলের ওপর দিয়ে অতিরিক্ত CO2 চালনা করলে ঘোলা ভাব কেটে যায় কেন?",
+      "options": [
+        "CaCO3 তৈরি হয়",
+        "Ca(HCO3)2 তৈরি হয়",
+        "CaO তৈরি হয়",
+        "জল বাষ্পীভূত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-32-014",
+      "question": "টেলিস্কোপের বিবর্ধন ক্ষমতা বেশি হয় যদি ঐ লেন্সের ফোকাস দূরত্ব কী হয়?",
+      "options": [
+        "কম হয়",
+        "বেশি হয়",
+        "শূন্য হয়",
+        "অসীম হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-015",
+      "question": "নিচের কোন দুটি রোধাঙ্কের একক? (বহু-সঠিক)",
+      "options": [
+        "ওহম-মিটার",
+        "ওহম/মিটার",
+        "ওহম-সেমি",
+        "মিটার/ওহম"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-32-016",
+      "question": "এসিড এবং ধাতুর বিক্রিয়ায় সাধারণত কোন গ্যাসটি তৈরি হয়?",
+      "options": [
+        "O2",
+        "H2",
+        "CO2",
+        "Cl2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-32-017",
+      "question": "রৈখিক ত্বরণের একক কী?",
+      "options": [
+        "m/s",
+        "m/s²",
+        "m²/s",
+        "N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-32-018",
+      "question": "SPM কী?",
+      "options": [
+        "দ্রবীভূত গ্যাস",
+        "বায়ুতে ভাসমান ক্ষুদ্র কঠিন কণা",
+        "অতি ভারী ধাতু",
+        "তেজস্ক্রিয় রশ্মি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-019",
+      "question": "নিচের কোনটিতে কার্বন-কার্বন ত্রিবন্ধন আছে?",
+      "options": [
+        "ইথেন",
+        "ইথিন",
+        "ইথিন",
+        "প্রোপেন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-020",
+      "question": "পরিচলন স্রোত কীরূপ?",
+      "options": [
+        "ঊর্ধ্বমুখী ও নিম্নগামী উভয়ই হতে পারে",
+        "শুধু নিম্নগামী",
+        "শুধু অনুভূমিক",
+        "শুধু বৃত্তাকার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-021",
+      "question": "তড়িৎ পরিবাহিতা ও রোধের মধ্যে সম্পর্ক— (বহু-সঠিক)",
+      "options": [
+        "পরিবাহিতা = 1/রোধ",
+        "রোধ বাড়লে পরিবাহিতা কমে",
+        "তাদের একক এক",
+        "পরিবাহিতা তাপমাত্রার সাথে কমে (ধাতুতে)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-32-022",
+      "question": "প্রতিফলনের প্রথম সূত্রানুসারে কোনটি সঠিক?",
+      "options": [
+        "আপতন কোণ > প্রতিফলন কোণ",
+        "আপতন কোণ < প্রতিফলন কোণ",
+        "আপতন কোণ = প্রতিফলন কোণ",
+        "আপতন কোণ + প্রতিফলন কোণ = 90°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-32-023",
+      "question": "গে-লুসাক-এর গ্যাস আয়তন সূত্র প্রযোজ্য হয়—",
+      "options": [
+        "বিক্রিয়ক গ্যাসগুলির ক্ষেত্রে",
+        "উৎপন্ন গ্যাসীয় পদার্থের ক্ষেত্রে",
+        "কঠিন পদার্থের ক্ষেত্রে",
+        "তরল পদার্থের ক্ষেত্রে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-32-024",
+      "question": "বৃষ্টির পর রাস্তা শুকিয়ে যায় কোন প্রক্রিয়ায়?",
+      "options": [
+        "স্ফুটন",
+        "বাষ্পীভবন",
+        "গলন",
+        "ঊর্ধ্বপাতন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-32-025",
+      "question": "অ্যালুমিনিয়াম নিষ্কাশনে ক্রায়োলাইট (Na₃AlF₆) যোগ করা হয় কেন?",
+      "options": [
+        "রোধ কমাতে",
+        "গলনাঙ্ক কমাতে ও পরিবাহিতা বাড়াতে",
+        "তাপমাত্রা বাড়াতে",
+        "অ্যালুমিনিয়াম জমা করতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-32-026",
+      "question": "নিচের কোনটি/গুলো শক্তির সাশ্রয়ী? (বহু-সঠিক)",
+      "options": [
+        "LED বাল্ব",
+        "ফিলামেন্ট বাল্ব",
+        "CFL",
+        "টিউবলাইট"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-32-027",
+      "question": "মেন্ডেলিফ তার সারণিতে কোন মৌলের জন্য ফাঁকা স্থান রেখেছিলেন?",
+      "options": [
+        "He",
+        "Ga",
+        "Ar",
+        "Na"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-028",
+      "question": "আল্ট্রাসাউন্ডের সাহায্যে কিডনির পাথর ভেঙে ফেলা সম্ভব হয় কারণ—",
+      "options": [
+        "এটি পাথরকে গলিয়ে দেয়",
+        "উচ্চ কম্পাঙ্কের কম্পনে পাথর চূর্ণ হয়ে যায়",
+        "এটি পাথরকে টেনে বের করে আনে",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-029",
+      "question": "তাপমাত্রা বাড়ালে সাধারণত পরিবাহীর রোধ কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "কমে",
+        "অপরিবর্তিত থাকে",
+        "বাড়ে",
+        "প্রথমে বাড়ে পরে কমে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-32-030",
+      "question": "লিটার কোন রাশির একক?",
+      "options": [
+        "ভর",
+        "দৈর্ঘ্য",
+        "আয়তন",
+        "ঘনত্ব"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

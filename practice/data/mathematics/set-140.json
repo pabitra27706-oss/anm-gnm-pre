@@ -1,0 +1,537 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 140,
+  "questions": [
+    {
+      "id": "am-140-001",
+      "question": "একটি সমবাহু ত্রিভুজের বাহুর দৈর্ঘ্য 4 সেমি। ক্ষেত্রফল কত? (√3 = 1.732)",
+      "options": [
+        "4 বর্গসেমি",
+        "5.196 বর্গসেমি",
+        "6.928 বর্গসেমি",
+        "8 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-002",
+      "question": "একটি সামান্তরিক ও একটি আয়তক্ষেত্রের মধ্যে পার্থক্য কী?",
+      "options": [
+        "আয়তক্ষেত্রের সব কোণ সমকোণ",
+        "সামান্তরিকের কোণ সমকোণ নাও হতে পারে",
+        "আয়তক্ষেত্রের কর্ণ সমান",
+        "সামান্তরিকের কর্ণ অসমান হতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-140-003",
+      "question": "6% হারে কোন আসল 3 বছরে সুদাসলে 11800 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "SI = 1800",
+        "P = 10200",
+        "SI = 1600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-140-004",
+      "question": "একটি সংখ্যার 15% = 75 হলে, সংখ্যাটির 40% কত?",
+      "options": [
+        "180",
+        "190",
+        "200",
+        "210"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-005",
+      "question": "কোন পদ্ধতিতে ভগ্নাংশের গসাগু নির্ণয় করা সম্ভব নয়?",
+      "options": [
+        "লবের গসাগু / হরের লসাগু",
+        "প্রতিটি ভগ্নাংশকে লঘিষ্ঠ আকারে এনে লবের গসাগু / হরের লসাগু",
+        "সব ভগ্নাংশের হর সমান করে লবের গসাগু / সাধারণ হর",
+        "লবের লসাগু / হরের গসাগু"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-140-006",
+      "question": "একটি কাজ A 11 দিনে করে, B 13 দিনে করে। B একা কাজ শুরু করে 2 দিন পর A যোগ দিলে কাজটি মোট কত দিনে শেষ হবে?",
+      "options": [
+        "6.5 দিন",
+        "7 দিন",
+        "7.5 দিন",
+        "8 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-140-007",
+      "question": "(3/5) ÷ (2/7) = ?",
+      "options": [
+        "6/35",
+        "21/10",
+        "35/6",
+        "10/21"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-008",
+      "question": "ভগ্নাংশ p/q-এর সংজ্ঞা অনুযায়ী নিচের কোন শর্তটি আবশ্যক?",
+      "options": [
+        "p > q",
+        "q ≠ 0",
+        "p = 0",
+        "q = 1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-009",
+      "question": "একটি মেশিনের দাম প্রতি বছর 20% হারে কমে যায়। বর্তমান দাম 100000 টাকা হলে 2 বছর পরে দাম কত?",
+      "options": [
+        "60000 টাকা",
+        "62000 টাকা",
+        "64000 টাকা",
+        "65000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-010",
+      "question": "3 জন পুরুষ ও 5 জন মহিলা একটি কাজ 8 দিনে করতে পারে। 5 জন পুরুষ ও 3 জন মহিলা একই কাজ 6 দিনে করতে পারে। নিচের কোনটি সঠিক?",
+      "options": [
+        "1 জন পুরুষের 1 দিনের কাজ = 1/32",
+        "1 জন মহিলার 1 দিনের কাজ = 1/48",
+        "2 জন পুরুষ ও 4 জন মহিলা একত্রে কাজটি 12 দিনে করবে",
+        "4 জন পুরুষ ও 2 জন মহিলা একত্রে কাজটি 9.6 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-140-011",
+      "question": "বার্ষিক 10% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে নিচের কোনটি সত্য?",
+      "options": [
+        "কার্যকরী হার = 10.25%",
+        "A = 10000(1 + 0.05)⁴",
+        "A = 12155.06 টাকা (প্রায়)",
+        "CI = 2100 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-140-012",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 10 দিনে, B একা 15 দিনে, C একা 20 দিনে কাজ করে → একসাথে 60/13 দিনে করে",
+        "A একা 12 দিনে, B একা 18 দিনে, C একা 24 দিনে কাজ করে → একসাথে 72/13 দিনে করে",
+        "A একা 14 দিনে, B একা 21 দিনে, C একা 28 দিনে কাজ করে → একসাথে 84/13 দিনে করে",
+        "A একা 16 দিনে, B একা 24 দিনে, C একা 32 দিনে কাজ করে → একসাথে 96/13 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-140-013",
+      "question": "60-কে 3:2 অনুপাতে ভাগ করলে বড়ো অংশ কত?",
+      "options": [
+        "24",
+        "36",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-014",
+      "question": "গ্রাফের সাহায্যে সমীকরণ সমাধানের সুবিধা কী কী?",
+      "options": [
+        "সমাধান চাক্ষুষভাবে বোঝা যায়",
+        "দুই চলকের সমীকরণ সমাধান সহজ হয়",
+        "সরলরেখা ও বক্ররেখার ছেদ বিন্দু সমাধান দেয়",
+        "সূত্রের প্রয়োজন নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-140-015",
+      "question": "একটি সংখ্যা 2 ও 3 দ্বারা বিভাজ্য হলে তা কত দ্বারা বিভাজ্য?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-016",
+      "question": "একটি জিনিস 680 টাকায় বিক্রয় করাতে 15% ক্ষতি হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "750 টাকা",
+        "780 টাকা",
+        "800 টাকা",
+        "820 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-017",
+      "question": "4 : 9 = 12 : 27 সমানুপাতটি সত্য কিনা?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "কখনো সত্য, কখনো মিথ্যা",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-018",
+      "question": "একটি হিস্টোগ্রামে চাপ ও সংখ্যা: 110-120: 5, 120-130: 10, 130-140: 15, 140-150: 8, 150-160: 4 130-140 চাপের সংখ্যা কত?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-019",
+      "question": "গড়ের বৈশিষ্ট্য:",
+      "options": [
+        "সব সংখ্যার সাথে ধ্রুবক যোগ করলে গড়ও সেই ধ্রুবক বাড়ে",
+        "সব সংখ্যাকে ধ্রুবক দিয়ে গুণ করলে গড়ও সেই ধ্রুবক গুণিত হয়",
+        "গড় সর্বদা পূর্ণসংখ্যা হয়",
+        "গড় কখনো ঋণাত্মক হতে পারে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-140-020",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 5 ও 10 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 8 ঘন্টায় খালি হয়। চৌবাচ্চা খালি থাকলে তিনটি একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "নিট ভরার হার = 1/5 + 1/10 - 1/8 = (8+4-5)/40 = 7/40",
+        "সময় = 40/7 ≈ 5.71 ঘন্টা",
+        "40/7 ঘন্টা",
+        "5 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-140-021",
+      "question": "লাভের শতকরা হার নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "(লাভ/বিক্রয়মূল্য) × 100%",
+        "(লাভ/ক্রয়মূল্য) × 100%",
+        "(লাভ/লাভ) × 100%",
+        "(লাভ/ছাড়) × 100%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-022",
+      "question": "2, 4, 6, 8, 10 এর গড় কত?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-023",
+      "question": "কোন বিবৃতিটি সত্য?",
+      "options": [
+        "HCF সবসময় সংখ্যার যোগফলের সমান",
+        "LCM সবসময় সংখ্যার গুণফলের সমান",
+        "LCM সবসময় HCF দ্বারা বিভাজ্য",
+        "HCF সবসময় LCM দ্বারা বিভাজ্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-140-024",
+      "question": "3 : 4 = x : 20 হলে x-এর মান কত?",
+      "options": [
+        "12",
+        "15",
+        "16",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-025",
+      "question": "A, B ও C একটি কাজ যথাক্রমে 12, 15 ও 20 দিনে করতে পারে। A ও B একসাথে কাজ শুরু করে 4 দিন পর C যোগ দিলে কাজটি কত দিনে শেষ হবে?",
+      "options": [
+        "5 দিন",
+        "6 দিন",
+        "7 দিন",
+        "8 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-140-026",
+      "question": "ঘনক ও আয়তঘনের মধ্যে মিল নিচের কোনটি?",
+      "options": [
+        "উভয়ের তল সমতল",
+        "উভয়ের কর্ণ বের করা যায়",
+        "উভয়ের আয়তন = দৈর্ঘ্য × প্রস্থ × উচ্চতা",
+        "উভয়ের সব বাহু সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-140-027",
+      "question": "পাইপ ও চৌবাচ্চার নিচের সমস্যাগুলির মধ্যে কোনটি সঠিক?",
+      "options": [
+        "A পাইপ 4 ঘন্টায় ভরায়, B পাইপ 6 ঘন্টায় খালি করে → নিট ভরার সময় 12 ঘন্টা",
+        "A পাইপ 5 ঘন্টায় ভরায়, B পাইপ 10 ঘন্টায় ভরায় → একসাথে 3.33 ঘন্টায় ভরবে",
+        "A পাইপ 3 ঘন্টায় ভরায়, B পাইপ 4 ঘন্টায় খালি করে → চৌবাচ্চা কখনো ভরবে না",
+        "A পাইপ 2 ঘন্টায় ভরায়, B পাইপ 3 ঘন্টায় খালি করে → 6 ঘন্টায় ভরবে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-140-028",
+      "question": "একটি জিনিস 20% লাভে বিক্রয় করা হলো। যদি এটি 20% কম দামে কেনা হতো এবং 20% বেশি দামে বিক্রয় করা হতো তাহলে লাভ হতো 40 টাকা বেশি। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "500 টাকা",
+        "600 টাকা",
+        "700 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-140-029",
+      "question": "নিচের রেখা লেখচিত্রে একটি ওয়েবসাইটের ভিজিটর সংখ্যা: Day1: 500, Day2: 700, Day3: 600, Day4: 900, Day5: 800 Day2 থেকে Day4 পর্যন্ত কত বৃদ্ধি পেয়েছে?",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "250"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-140-030",
+      "question": "একটি কাজ B 20 দিনে করে। B, A অপেক্ষা 20% কম দক্ষ। A একা কাজটি কত দিনে করবে?",
+      "options": [
+        "14 দিন",
+        "15 দিন",
+        "16 দিন",
+        "17 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

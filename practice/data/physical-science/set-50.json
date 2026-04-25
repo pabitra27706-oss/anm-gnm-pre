@@ -1,0 +1,532 @@
+{
+  "subject": "general-science",
+  "set": 50,
+  "questions": [
+    {
+      "id": "ge-50-001",
+      "question": "পরিবেশ রক্ষায় নার্সের ভূমিকা কী?",
+      "options": [
+        "হাসপাতালের জৈব চিকিৎসা বর্জ্যের সঠিক নিষ্কাশন",
+        "পরিবেশ সুরক্ষায় সচেতনতা বৃদ্ধি",
+        "সম্পদের অপচয় রোধ",
+        "উপরের সব কটি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-002",
+      "question": "একটি এনার্জি বাল্ব 15 W, এটি 220 V এ জ্বললে তড়িৎ প্রবাহ প্রায় কত?",
+      "options": [
+        "0.068 A",
+        "15 A",
+        "6.8 A",
+        "0.68 A"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-50-003",
+      "question": "তাপমাত্রা পরিমাপক যন্ত্র কোনটি?",
+      "options": [
+        "ব্যারোমিটার",
+        "থার্মোমিটার",
+        "হাইড্রোমিটার",
+        "গ্যালভানোমিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-50-004",
+      "question": "[NUMERICAL] 100 g ভরের একটি ক্রিকেট বল 20 m/s বেগে এসে ব্যাটে আঘাত করল এবং 0.1 s স্থির থাকল। ব্যাটের ওপর প্রযুক্ত গড় বল কত?",
+      "options": [
+        "2 N",
+        "20 N",
+        "200 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-50-005",
+      "question": "DC তড়িৎ প্রবাহের দিক কেমন?",
+      "options": [
+        "পরিবর্তনশীল",
+        "একমুখী",
+        "উভয়মুখী",
+        "ঘূর্ণনশীল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-006",
+      "question": "[NUMERICAL] মিথেন (CH₄) এর শতকরা কত ভাগ কার্বন আছে? (C=12, H=1)",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "80%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-007",
+      "question": "তাপ ইঞ্জিনের কর্মদক্ষতা বাড়ানোর উপায় কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ উৎসের তাপমাত্রা বাড়িয়ে",
+        "তাপ গ্রাহকের তাপমাত্রা কমিয়ে",
+        "ঘর্ষণ কমিয়ে",
+        "ইঞ্জিন ঠান্ডা করে"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-50-008",
+      "question": "যান্ত্রিক শক্তি কাকে বলে?",
+      "options": [
+        "গতিশক্তি + তাপশক্তি",
+        "বিভব শক্তি + আলোক শক্তি",
+        "গতিশক্তি + বিভব শক্তি",
+        "তাপশক্তি + বিদ্যুৎশক্তি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-50-009",
+      "question": "কোনো ইঞ্জিন 800 J তাপ গ্রহণ করে 600 J তাপ বর্জন করলে ইঞ্জিনের কর্মদক্ষতা কত?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-010",
+      "question": "0°C তাপমাত্রার 1 kg বরফকে সম্পূর্ণ গলাতে কত কিলো জুল তাপ প্রয়োজন? (L_f = 336 kJ/kg)",
+      "options": [
+        "80 kJ",
+        "168 kJ",
+        "336 kJ",
+        "420 kJ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-011",
+      "question": "তড়িৎ বিশ্লেষণ প্রক্রিয়ায় ক্যাথোড কীরূপ?",
+      "options": [
+        "ধনাত্মক",
+        "নিস্তড়িৎ",
+        "ঋণাত্মক",
+        "উভয় ধর্মী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-012",
+      "question": "[NUMERICAL] 1 kg ওজনে কত নিউটন (N) হয়?",
+      "options": [
+        "1 N",
+        "9.8 N",
+        "100 N",
+        "0.98 N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-50-013",
+      "question": "পদার্থের গ্যাসীয় অবস্থা থেকে তরল হওয়ার প্রক্রিয়ায়—",
+      "options": [
+        "একে ঘনীভবন (Condensation) বলে",
+        "তাপ বর্জিত হয়",
+        "লীনতাপ ত্যাগ করে",
+        "অণুগুলির গতিশক্তি বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-50-014",
+      "question": "তাপমাত্রা বৃদ্ধি পেলে রোধের পরিবর্তন কেমন হয়? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সাধারণত ধাতুর রোধ বাড়ে",
+        "অর্ধপরিবাহীর রোধ কমে",
+        "অন্তরকের রোধ কমে",
+        "রোধের কোনো পরিবর্তন হয় না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-50-015",
+      "question": "H₂S গ্যাসের উৎস কী?",
+      "options": [
+        "ফুলের ঘ্রাণ",
+        "জৈব পদার্থের পচন (Sewage ইত্যাদি)",
+        "পারফিউম",
+        "মোটর গাড়ি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-016",
+      "question": "নিচের কোনগুলো প্রতিসরণজনিত ঘটনা? (i) তারা ঝিকিমিকি করে (ii) সূর্য দিগন্তে থাকলেও দেখা যায় (iii) পানি থেকে কাঁচে আলো গেলে রশ্মি বেঁকে যায় (iv) দর্পণে প্রতিবিম্ব দেখি",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-017",
+      "question": "তড়িৎ বিশ্লেষণের সময় ক্যাথোডে—",
+      "options": [
+        "ক্যাটায়নগুলি যায়",
+        "বিজারণ ঘটে",
+        "ইলেকট্রন গ্রহণ হয়",
+        "জারণ ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-50-018",
+      "question": "শব্দের বেগ (v), কম্পাঙ্ক (f) ও তরঙ্গদৈর্ঘ্য (λ) সংক্রান্ত সঠিক তথ্য—",
+      "options": [
+        "v = fλ",
+        "কম্পাঙ্ক বাড়লে তরঙ্গদৈর্ঘ্য কমে (একই মাধ্যমে)",
+        "বেগ বাড়লে কম্পাঙ্ক বাড়ে না (উৎস স্থির থাকলে)",
+        "কোনোটিই নয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-50-019",
+      "question": "সাবানের ক্ষারীয় ধর্ম বেশি হলে—",
+      "options": [
+        "এটি ত্বকের ক্ষতি করতে পারে",
+        "এটি সুতির কাপড়ের ক্ষতি করতে পারে",
+        "এটি বেশি ফেনা দেয়",
+        "এটি খুব সুগন্ধি হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-50-020",
+      "question": "একটি তারের R₁ ও R₂ দুটি অংশ করে সমান্তরালে যুক্ত করলে তুল্য রোধ— (বহু-সঠিক)",
+      "options": [
+        "R₁+R₂",
+        "(R₁R₂)/(R₁+R₂)",
+        "মূল রোধের চেয়ে কম",
+        "দুইটির স্বতন্ত্র রোধের চেয়েও কম"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-50-021",
+      "question": "একটি অবতল দর্পণে বস্তু ও প্রতিবিম্ব উভয়ই বাস্তব হলে বিবর্ধন কীরূপ?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "শূন্য",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-022",
+      "question": "কোনো পরিমাপক যন্ত্রের ক্ষুদ্রতম যে পরিমাপ নেওয়া যায় তাকে কী বলে?",
+      "options": [
+        "শূন্য ত্রুটি",
+        "যান্ত্রিক ত্রুটি",
+        "সর্বনিম্ন ধ্রুবক",
+        "আপেক্ষিক ত্রুটি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-023",
+      "question": "একটি বৈদ্যুতিক ইস্ত্রির রোধ 110 Ω, এটি 220 V-এ কত ক্ষমতা প্রদর্শন করবে?",
+      "options": [
+        "220 W",
+        "440 W",
+        "110 W",
+        "880 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-024",
+      "question": "100g অ্যালুমিনিয়ামের তাপমাত্রা 20°C বাড়াতে 1800 J তাপের প্রয়োজন। অ্যালুমিনিয়ামের আপেক্ষিক তাপ কত?",
+      "options": [
+        "600 J/(kg·K)",
+        "700 J/(kg·K)",
+        "800 J/(kg·K)",
+        "900 J/(kg·K)"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-50-025",
+      "question": "ক্লোরিনেশন পদ্ধতির অসুবিধা কী? (একাধিক উত্তর)",
+      "options": [
+        "THM (Trihalomethane) তৈরি",
+        "জলের স্বাদ বদল",
+        "কিছু জীবাণু (Cryptosporidium) মারে না",
+        "গন্ধ দূর হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-50-026",
+      "question": "তড়িৎ ক্ষমতা কমাতে কী করা যায়? (বহু-সঠিক)",
+      "options": [
+        "রোধ বাড়ানো (স্থির V তে)",
+        "তড়িৎ প্রবাহ কমানো",
+        "বিভব বাড়ানো (স্থির R তে)",
+        "রোধ কমানো (স্থির I তে)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-50-027",
+      "question": "নিচের কোন রঙগুলির কম্পাঙ্ক যথাক্রমে কম ও বেশি? (i) লাল ও বেগুনি (ii) কমলা ও নীল (iii) হলুদ ও সবুজ (iv) বেগুনি ও লাল",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-028",
+      "question": "চোখের লেন্সের ফোকাস দূরত্ব পরিবর্তন করার ক্ষমতাকে কী বলে?",
+      "options": [
+        "প্রতিসরণ",
+        "সমঞ্জসন",
+        "বিচ্ছুরণ",
+        "বিবর্ধন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-029",
+      "question": "পারদ থার্মোমিটারের পরিবর্তে ডিজিটাল থার্মোমিটার ব্যবহারের মূল কারণ কী?",
+      "options": [
+        "ডিজিটাল থার্মোমিটার বেশি টেকসই",
+        "পারদ একটি বিষাক্ত ধাতু",
+        "ডিজিটাল থার্মোমিটারের পরিমাপ বেশি সঠিক",
+        "B ও C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-50-030",
+      "question": "তামা (Cu) সম্পর্কে সঠিক তথ্য—",
+      "options": [
+        "এটি লোহা অপেক্ষা কম সক্রিয়",
+        "এটি অ্যাসিড থেকে হাইড্রোজেন উৎপন্ন করতে পারে না",
+        "এটি একটি বিজারক ধাতু",
+        "এটি নীল বর্ণের অক্সাইড তৈরি করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

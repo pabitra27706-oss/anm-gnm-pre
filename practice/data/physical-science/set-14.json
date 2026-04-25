@@ -1,0 +1,521 @@
+{
+  "subject": "general-science",
+  "set": 14,
+  "questions": [
+    {
+      "id": "ge-14-001",
+      "question": "1 m³ আয়তনের মধ্যে কত লিটার জল ধরে?",
+      "options": [
+        "1 L",
+        "10 L",
+        "100 L",
+        "1000 L"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-002",
+      "question": "নিচের কোন প্রাকৃতিক উৎস থেকে জৈব যৌগ পাওয়া যায়? (i) উদ্ভিদ (ii) প্রাণী (iii) জীবাশ্ম (iv) কৃত্রিম সংশ্লেষণ",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-003",
+      "question": "আলোর পূর্ণ অভ্যন্তরীণ প্রতিফলন কোথায় ব্যবহার করা হয়?",
+      "options": [
+        "অপটিক্যাল ফাইবারে",
+        "বাতিতে",
+        "টেলিভিশনে",
+        "কম্পিউটারে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-004",
+      "question": "তড়িৎ প্রবাহ সম্পর্কে সঠিক বিবৃতি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "I = Q/t",
+        "এর SI একক অ্যাম্পিয়ার",
+        "এটি একটি স্কেলার রাশি",
+        "প্রথাগত প্রবাহের দিক ইলেকট্রনের প্রবাহের বিপরীত"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-14-005",
+      "question": "ফ্যারাডের দ্বিতীয় সূত্র কোনটির উপর ভিত্তি করে লেখা হয়েছে?",
+      "options": [
+        "আণবিক ভর",
+        "পারমাণবিক ভর",
+        "তড়িৎ রাসায়নিক তুল্যাঙ্ক",
+        "তুল্যাঙ্ক ভর"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-006",
+      "question": "ভরের সংরক্ষণ সূত্র (Law of Conservation of Mass) অনুযায়ী—",
+      "options": [
+        "বিক্রিয়কের মোট ভর > বিক্রিয়াজাত পদার্থের মোট ভর",
+        "বিক্রিয়কের মোট ভর < বিক্রিয়াজাত পদার্থের মোট ভর",
+        "বিক্রিয়কের মোট ভর = বিক্রিয়াজাত পদার্থের মোট ভর",
+        "ভরের কোনো নির্দিষ্ট নিয়ম নেই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-007",
+      "question": "\"গঙ্গা অ্যাকশন প্ল্যান\" কীসের জন্য?",
+      "options": [
+        "বাঘ সংরক্ষণ",
+        "গঙ্গার জল দূষণ রোধ",
+        "শিক্ষা উন্নয়ন",
+        "বায়ু দূষণ রোধ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-008",
+      "question": "একটি অবতল লেন্সের ফোকাস দূরত্ব -20 cm। লেন্সের ক্ষমতা কত?",
+      "options": [
+        "-5 D",
+        "+5 D",
+        "-0.5 D",
+        "+0.5 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-009",
+      "question": "ইলেকট্রিক ইস্ত্রির তল গরম হয় কীসের ফলে?",
+      "options": [
+        "বিভব শক্তি",
+        "গতিশক্তি",
+        "তড়িৎ প্রবাহের তাপীয় প্রভাব",
+        "চুম্বকীয় প্রভাব"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-010",
+      "question": "বলের ঘাত (Impulse of force) সম্পর্কে সঠিক তথ্য—",
+      "options": [
+        "এটি বল ও সময়ের গুণফল",
+        "এটি ভরবেগের পরিবর্তনের সমান",
+        "এর একক N·s",
+        "এটি একটি স্কেলার রাশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-14-011",
+      "question": "তাপ ত্যাগের ফলে কী হতে পারে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপমাত্রা হ্রাস",
+        "অবস্থার পরিবর্তন (গ্যাস থেকে তরল)",
+        "প্রসারণ",
+        "সংকোচন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-14-012",
+      "question": "[NUMERICAL] 44.8 L কার্বন ডাই অক্সাইডে (STP) কত মোল অণু বর্তমান?",
+      "options": [
+        "1 mole",
+        "2 mole",
+        "3 mole",
+        "0.5 mole"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-013",
+      "question": "বস্তুর সরণ শূন্য হলে নিচের কোনটি অবশ্যই শূন্য হবে?",
+      "options": [
+        "গড় দ্রুতি",
+        "গড় বেগ",
+        "দূরত্ব",
+        "ভর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-014",
+      "question": "LPG-র পূর্ণরূপ কী?",
+      "options": [
+        "Liquefied Petroleum Gas",
+        "Liquid Petroleum Gas",
+        "Liquefied Pressure Gas",
+        "Low Pressure Gas"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-015",
+      "question": "[NUMERICAL] 0°C তাপমাত্রায় 10g বরফকে জলে পরিণত করতে কত তাপ লাগবে?",
+      "options": [
+        "80 cal",
+        "800 cal",
+        "540 cal",
+        "5400 cal"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-016",
+      "question": "তড়িৎ ক্ষমতা (P) নির্ণয়ের সূত্র কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "P = VI",
+        "P = I²R",
+        "P = V²/R",
+        "P = V/I"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-14-017",
+      "question": "নিচের কোন ইলেকট্রন বিন্যাসটি নিষ্ক্রিয় গ্যাসের?",
+      "options": [
+        "2,8,1",
+        "2,8,7",
+        "2,8,8",
+        "2,3"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-018",
+      "question": "তাপীয় সাম্যাবস্থা অর্জিত হলে- (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ স্থানান্তর বন্ধ হয়",
+        "উভয় বস্তুর তাপমাত্রা সমান হয়",
+        "উভয়ের আপেক্ষিক তাপ সমান হয়",
+        "উভয় বস্তুর তাপমাত্রা ভিন্ন হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-14-019",
+      "question": "উত্তল দর্পণে আলোক রশ্মি কেমন আচরণ করে?",
+      "options": [
+        "অপসারিত হয়",
+        "অভিসারিত হয়",
+        "সমান্তরাল থাকে",
+        "শোষিত হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-020",
+      "question": "বৃত্তীয় গতিতে ঘূর্ণনরত বস্তুর কেন্দ্রবিমুখী বল (Centrifugal force) কী ধরনের বল?",
+      "options": [
+        "বাস্তব বল",
+        "অলীক বল (Pseudo force)",
+        "চৌম্বক বল",
+        "ঘর্ষণ বল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-14-021",
+      "question": "একটি উত্তল দর্পণের ফোকাস দূরত্ব 30 cm। দর্পণ থেকে 30 cm দূরে বস্তু রাখলে বিবর্ধন কত?",
+      "options": [
+        "1",
+        "0.5",
+        "2",
+        "1.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-14-022",
+      "question": "N ও P ধরণের অর্ধপরিবাহী নিয়ে গঠিত হয়— (বহু-সঠিক)",
+      "options": [
+        "ডায়োড",
+        "ট্রানজিস্টর",
+        "সোলার সেল",
+        "রোধক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-14-023",
+      "question": "নিচের কোন উক্তিটি ঠিক?",
+      "options": [
+        "তাপ ও তাপমাত্রা একই",
+        "তাপমাত্রা বস্তুর তাপীয় অবস্থা নির্দেশ করে",
+        "তাপ বস্তুর তাপীয় অবস্থা নির্দেশ করে",
+        "তাপ ও তাপমাত্রার একক একই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-14-024",
+      "question": "কোলয়েড দ্রবণকে স্থিতিশীল করতে নিচের কোনটি ব্যবহার করা হয়?",
+      "options": [
+        "ইলেকট্রোলাইট",
+        "প্রোটেক্টিভ কোলয়েড",
+        "উত্তাপ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-14-025",
+      "question": "[NUMERICAL] একটি শব্দতরঙ্গ 10 সেকেন্ডে 3400 মিটার দূরত্ব অতিক্রম করলে তার বেগ কত?",
+      "options": [
+        "34 m/s",
+        "340 m/s",
+        "34000 m/s",
+        "100 m/s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-026",
+      "question": "একটি ব্যাটারির EMF (E) ও টার্মিনাল ভোল্টেজ (V) এর সম্পর্ক— (বহু-সঠিক)",
+      "options": [
+        "ডিসচার্জের সময় V = E - Ir",
+        "চার্জের সময় V = E + Ir",
+        "খোলা বর্তনীতে V = E",
+        "V সর্বদা E এর চেয়ে বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-14-027",
+      "question": "নিউক্লিয়াসে কোন দুটি কণা থাকে?",
+      "options": [
+        "প্রোটন ও ইলেকট্রন",
+        "নিউট্রন ও ইলেকট্রন",
+        "প্রোটন ও নিউট্রন",
+        "ইলেকট্রন ও পজিট্রন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-028",
+      "question": "ইথানলের ব্যবহারগুলি নির্বাচন করো: (i) পানীয় হিসেবে (ii) অ্যান্টিসেপটিক হিসেবে (iii) দ্রাবক হিসেবে (iv) জ্বালানি হিসেবে",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-029",
+      "question": "কোনো রাসায়নিক বিক্রিয়ায় অনুঘটকের ভূমিকা কী?",
+      "options": [
+        "বিক্রিয়া শুরু করা",
+        "বিক্রিয়ার হার পরিবর্তন করা",
+        "বিক্রিয়াজাত পদার্থের পরিমাণ বাড়ানো",
+        "বিক্রিয়া বন্ধ করা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-14-030",
+      "question": "উত্তল দর্পণে প্রতিবিম্ব সর্বদা কীরূপ হয়?",
+      "options": [
+        "বাস্তব, অবশীর্ষ ও বিবর্ধিত",
+        "অবাস্তব, সমশীর্ষ ও ক্ষুদ্রতর",
+        "বাস্তব, সমশীর্ষ ও সমান",
+        "অবাস্তব, অবশীর্ষ ও ক্ষুদ্রতর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}

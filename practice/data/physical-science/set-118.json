@@ -1,0 +1,510 @@
+{
+  "subject": "general-science",
+  "set": 118,
+  "questions": [
+    {
+      "id": "ge-118-001",
+      "question": "মহাকর্ষ বলের তুলনায় তড়িৎ বল কেমন?",
+      "options": [
+        "অনেক দুর্বল",
+        "অনেক শক্তিশালী",
+        "সমান",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-002",
+      "question": "একটি অবতল দর্পণের ফোকাস দূরত্ব 10 cm। দর্পণ থেকে কত দূরে বস্তু রাখলে বিবর্ধন -1 হবে?",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-003",
+      "question": "সাবান কীসের লবণ?",
+      "options": [
+        "ফ্যাটি অ্যাসিডের সোডিয়াম বা পটাসিয়াম লবণ",
+        "হাইড্রোক্লোরিক অ্যাসিডের লবণ",
+        "নাইট্রিক অ্যাসিডের লবণ",
+        "সালফিউরিক অ্যাসিডের লবণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-004",
+      "question": "একটি চল কপিকলের যান্ত্রিক সুবিধা তাত্ত্বিকভাবে কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-005",
+      "question": "বোর পরমাণু মডেল সম্পর্কে সঠিক উক্তি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "ইলেকট্রন নির্দিষ্ট কক্ষে ঘোরে",
+        "কক্ষগুলোকে শক্তিস্তর বলে",
+        "ইলেকট্রন শক্তি বিকিরণ করে না",
+        "নিউক্লিয়াসের আকর্ষণে কক্ষপথ ডিম্বাকৃতি হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-118-006",
+      "question": "একটি উত্তপ্ত গ্যাসের আয়তন বেড়ে গেলে তার তাপমাত্রা কীরূপ হবে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "হ্রাস পেতে পারে (প্রসারণ মানেই ঠান্ডা হওয়া)",
+        "বাহ্যিক কাজ করলে অভ্যন্তরীণ শক্তির হ্রাসের জন্য তাপমাত্রা কমে",
+        "বাষ্পের মতো আচরণ করে",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-118-007",
+      "question": "নিচের কোন উক্তিগুলো CO বিষয়ে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "বর্ণহীন, গন্ধহীন গ্যাস",
+        "অসম্পূর্ণ দহনে সৃষ্টি হয়",
+        "রক্তের O₂ পরিবহন ক্ষমতা কমায়",
+        "গ্রিনহাউজ গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-118-008",
+      "question": "দর্পণ সূত্র 1/f = 1/v + 1/u - এ চিহ্ন প্রথানুসারে অবতল দর্পণের f ও u এর চিহ্ন কী?",
+      "options": [
+        "f ও u উভয়ই ধনাত্মক",
+        "f ধনাত্মক, u ঋণাত্মক",
+        "f ঋণাত্মক, u ধনাত্মক",
+        "উভয়ই ঋণাত্মক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-118-009",
+      "question": "°F = (9/5)°C + 32 এই সূত্রটি কোন রূপান্তরের ক্ষেত্রে প্রযোজ্য?",
+      "options": [
+        "সেলসিয়াস থেকে ফারেনহাইট",
+        "ফারেনহাইট থেকে সেলসিয়াস",
+        "সেলসিয়াস থেকে কেলভিন",
+        "কেলভিন থেকে ফারেনহাইট"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-010",
+      "question": "কোনো ভোল্টমিটারের পাঠ 2 V বলতে বোঝায়—",
+      "options": [
+        "2 A প্রবাহ",
+        "প্রতি কুলম্ব আধানে 2 J কাজ সম্পন্ন হয়",
+        "2 Ω রোধ",
+        "2 W ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-011",
+      "question": "কোল্ড ড্রিংকসের কৌটায় কোন ধাতব দূষণের সম্ভাবনা থাকে?",
+      "options": [
+        "লোহা",
+        "অ্যালুমিনিয়াম",
+        "সোনা",
+        "সোডিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-012",
+      "question": "পটাসিয়ামের রাসায়নিক প্রতীক কী?",
+      "options": [
+        "P",
+        "Po",
+        "K",
+        "Pt"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-118-013",
+      "question": "[NUMERICAL] 2 kg ভরের একটি স্থির বস্তুর ওপর 10 N বল প্রয়োগ করলে 2 সেকেন্ড পর বস্তুটির সরণ কত হবে?",
+      "options": [
+        "20 m",
+        "10 m",
+        "5 m",
+        "40 m"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-118-014",
+      "question": "অবতল দর্পণে কোন অবস্থায় প্রতিবিম্ব অসীমে তৈরি হয়?",
+      "options": [
+        "বস্তু C তে থাকলে",
+        "বস্তু F তে থাকলে",
+        "বস্তু অনন্তে থাকলে",
+        "বস্তু P তে থাকলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-015",
+      "question": "পদার্থের পরিমাণের SI একক কী?",
+      "options": [
+        "কিলোগ্রাম",
+        "মোল",
+        "গ্রাম",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-016",
+      "question": "0.2 মিটার ফোকাস দূরত্বের একটি লেন্সের ক্ষমতা নির্ণয় করো।",
+      "options": [
+        "5 D",
+        "-5 D",
+        "0.5 D",
+        "-0.5 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-118-017",
+      "question": "মিল্ক অফ চুন (Milk of Lime) হলো ক্যালসিয়াম হাইড্রোক্সাইডের একটি—",
+      "options": [
+        "স্বচ্ছ দ্রবণ",
+        "সাসপেনশন বা ঘোলাটে মিশ্রণ",
+        "কলয়েড",
+        "কঠিন দানা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-018",
+      "question": "1 অ্যাম্পিয়ার সমান কত?",
+      "options": [
+        "1 জুল/সেকেন্ড",
+        "1 কুলম্ব/সেকেন্ড",
+        "1 ভোল্ট/সেকেন্ড",
+        "1 ওহম/সেকেন্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-019",
+      "question": "থার্মোমিটারে সাধারণত কোন তরল ধাতু ব্যবহৃত হয়?",
+      "options": [
+        "অ্যালুমিনিয়াম",
+        "লোহা",
+        "পারদ (মার্কারি)",
+        "সোডিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-118-020",
+      "question": "সরণ (Displacement) নিচের কোনটির চেয়ে কখনও বড় হতে পারে না?",
+      "options": [
+        "বেগ",
+        "দূরত্ব",
+        "ত্বরণ",
+        "সময়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-118-021",
+      "question": "নিচের কোনগুলি 'অক্সাসিড' (Oxyacids)?",
+      "options": [
+        "H2SO4",
+        "HNO3",
+        "H3PO4",
+        "HCl"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-118-022",
+      "question": "একটি অ্যামিটারকে ভোল্টমিটার হিসেবে ব্যবহার করতে কী করতে হবে?",
+      "options": [
+        "শ্রেণিতে যুক্ত করতে হবে",
+        "শান্ট জুড়তে হবে",
+        "উচ্চ রোধের তার শ্রেণিতে যুক্ত করতে হবে",
+        "কিছু করতে হবে না"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-118-023",
+      "question": "একটি ধাতব পাত্রে জল ফুটানো হলে প্রথমে পাত্রটি গরম হয় এবং পরে জল গরম হয়। এটি ঘটে-",
+      "options": [
+        "পাত্রের আপেক্ষিক তাপ বেশি বলে",
+        "জলের আপেক্ষিক তাপ বেশি বলে",
+        "পাত্রের পরিবাহিতা কম বলে",
+        "জলের পরিবাহিতা বেশি বলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-118-024",
+      "question": "DOM (Dissolved Organic Matter) কী নির্দেশ করে?",
+      "options": [
+        "বাতাসের দূষণ",
+        "জলে দ্রবীভূত জৈব পদার্থ",
+        "মাটির অম্লত্ব",
+        "পারদের পরিমাণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-118-025",
+      "question": "আল্ট্রাসোনিক তরঙ্গ শুনতে পায় নিচের কোন প্রাণীরা?",
+      "options": [
+        "বাদুড়",
+        "ডলফিন",
+        "কুকুর",
+        "গণ্ডার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-118-026",
+      "question": "তড়িৎ ক্ষমতার SI একক কী?",
+      "options": [
+        "জুল",
+        "কিলোওয়াট",
+        "ওয়াট",
+        "ওহম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-118-027",
+      "question": "[NUMERICAL] pH = 0 যুক্ত দ্রবণের তুলনায় pH = 1 যুক্ত দ্রবণ কতগুণ কম আম্লিক?",
+      "options": [
+        "1 গুণ",
+        "10 গুণ",
+        "100 গুণ",
+        "0.1 গুণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-028",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 30 cm এবং একটি অবতল লেন্সের ফোকাস দূরত্ব -20 cm। এদের সংস্পর্শে রাখলে নিচের কোন বিবৃতিগুলি সঠিক হবে? (i) তুল্য ফোকাস দূরত্ব -60 cm (ii) তুল্য ক্ষমতা -1.67 D (iii) লেন্স যুগল অপসারী (iv) লেন্স যুগল অভিসারী",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-118-029",
+      "question": "স্ফুটন ও বাষ্পীভবনের মধ্যে মূল পার্থক্য কী?",
+      "options": [
+        "স্ফুটন শুধুমাত্র উপরিতলে হয়",
+        "বাষ্পীভবন নির্দিষ্ট তাপমাত্রায় হয়",
+        "স্ফুটন নির্দিষ্ট তাপমাত্রায় সম্পূর্ণ তরলে হয়, বাষ্পীভবন যেকোনো তাপমাত্রায় উপরিতলে হয়",
+        "কোনো পার্থক্য নেই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-118-030",
+      "question": "নিচের কোনটি অপসারী আলোক রশ্মিগুচ্ছের উদাহরণ?",
+      "options": [
+        "টর্চলাইটের আলো",
+        "সূর্যকিরণ",
+        "লেজার রশ্মি",
+        "অভিসারী লেন্স থেকে নির্গত আলো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

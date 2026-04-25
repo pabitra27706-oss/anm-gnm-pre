@@ -1,0 +1,528 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 134,
+  "questions": [
+    {
+      "id": "am-134-001",
+      "question": "একটি জিনিস 20% লাভে বিক্রয় করলে 100 টাকা লাভ হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-002",
+      "question": "2/3কে দশমিকে লিখলে 0.666... পাওয়া যায়। এ সম্পর্কে সঠিক তথ্য কী কী?",
+      "options": [
+        "এটি আবৃত দশমিক",
+        "এটি 0.6̅ লেখা যায়",
+        "এটি অ-সসীম দশমিক",
+        "এটি সসীম দশমিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-134-003",
+      "question": "একজন অসাধু দোকানদার 1 কেজির জায়গায় 800 গ্রাম দেয়। নিচের কোনটি সঠিক?",
+      "options": [
+        "লাভ = 25%",
+        "(1000-800)/800 × 100% = 25%",
+        "লাভ = 20%",
+        "লাভ = 30%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-004",
+      "question": "2.5 -কে শতকরায় লিখুন।",
+      "options": [
+        "25%",
+        "250%",
+        "2.5%",
+        "0.25%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-005",
+      "question": "P = 1000, R=10%, T=2 বছর এবং P=1000, R=5%, T=4 বছর:",
+      "options": [
+        "SI সমান (200 টাকা)",
+        "SI সমান (100 টাকা)",
+        "A সমান",
+        "A ভিন্ন"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-134-006",
+      "question": "একটি বর্গাকার বাগানের বাহু 40 মি। এর চারপাশে 2 মি চওড়া রাস্তা আছে। নিচের কোনটি সঠিক?",
+      "options": [
+        "রাস্তার ক্ষেত্রফল = (44² - 40²) = 1936 - 1600 = 336 বর্গমি",
+        "রাস্তার ক্ষেত্রফল = 4 × 2 × (40 + 2) = 8 × 42 = 336 বর্গমি",
+        "রাস্তার ক্ষেত্রফল = 4 × 40 × 2 + 4 × 4 = 320 + 16 = 336 বর্গমি",
+        "রাস্তার ক্ষেত্রফল = 336 বর্গমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-134-007",
+      "question": "1400 টাকার 2 বছরের CI 294 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-134-008",
+      "question": "2/5 এবং 3/5-এর মধ্যে কটি ভগ্নাংশ আছে?",
+      "options": [
+        "অসংখ্য",
+        "1টি",
+        "2টি",
+        "3টি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-009",
+      "question": "একটি সামান্তরিকের ভূমি 10 সেমি ও উচ্চতা 6 সেমি। ক্ষেত্রফল কত?",
+      "options": [
+        "30 বর্গসেমি",
+        "40 বর্গসেমি",
+        "50 বর্গসেমি",
+        "60 বর্গসেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-010",
+      "question": "একটি দণ্ড লেখচিত্রে তথ্য উপস্থাপনে:",
+      "options": [
+        "দণ্ডের রঙ বা প্যাটার্ন আলাদা হয়",
+        "টাইটেল থাকে",
+        "অক্ষদ্বয় চিহ্নিত থাকে",
+        "স্কেল স্পষ্ট থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-134-011",
+      "question": "একটি বাস 15 m/s বেগে 1 ঘন্টায় কত কিমি যায়?",
+      "options": [
+        "48 km",
+        "50 km",
+        "52 km",
+        "54 km"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-012",
+      "question": "5, 10, 15, 20,... ধারাটির 8-তম পদ কত?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-013",
+      "question": "A ও B 200 মিটার দূরে। তারা একই দিকে 6 m/s ও 4 m/s বেগে চললে, A B-কে কত সময়ে ধরবে?",
+      "options": [
+        "80 সেকেন্ড",
+        "90 সেকেন্ড",
+        "100 সেকেন্ড",
+        "120 সেকেন্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-014",
+      "question": "10, 12, 15, 18-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 180",
+        "180, 24 দ্বারা বিভাজ্য",
+        "180, সব সংখ্যার গুণিতক"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-134-015",
+      "question": "A একটি কাজ 12 দিনে করে, B 15 দিনে করে এবং C 20 দিনে করে। A, B, C একসাথে কাজ করলে কাজটি কত দিনে শেষ হবে?",
+      "options": [
+        "4 দিন",
+        "5 দিন",
+        "6 দিন",
+        "7 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-016",
+      "question": "20 জন পুরুষ 15 দিনে একটি কাজ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "মোট কাজ = 300 পুরুষ-দিন",
+        "25 জন পুরুষ 12 দিনে করবে",
+        "30 জন পুরুষ 10 দিনে করবে",
+        "10 জন পুরুষ 30 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-134-017",
+      "question": "0.05, 0.5, 0.005 -এর সঠিক ক্রম কোনটি (ছোট থেকে বড়)?",
+      "options": [
+        "0.005 < 0.05 < 0.5",
+        "0.05 < 0.005 < 0.5",
+        "0.5 < 0.05 < 0.005",
+        "0.005 < 0.5 < 0.05"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-018",
+      "question": "25% -এর দশমিক রূপ কী?",
+      "options": [
+        "0.25",
+        "0.50",
+        "0.75",
+        "0.20"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-019",
+      "question": "একটি হিস্টোগ্রামে বয়স ও সংখ্যা: 20-30: 6, 30-40: 10, 40-50: 14, 50-60: 8, 60-70: 4 30-40 বয়সের সংখ্যা 40-50 এর তুলনায় কত কম?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-020",
+      "question": "একটি নির্বাচনে মোট ভোটের 60% পেয়ে প্রার্থী A 2400 ভোটে জিতলেন। প্রতিদ্বন্দ্বী প্রার্থী কত ভোট পেয়েছিলেন?",
+      "options": [
+        "1200",
+        "1400",
+        "1600",
+        "1800"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-134-021",
+      "question": "3x + 2y = 7 সমীকরণে y-এর মান কীসের উপর নির্ভর করে?",
+      "options": [
+        "x",
+        "ধ্রুবক",
+        "অন্য y",
+        "x এবং ধ্রুবক উভয়ের"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-022",
+      "question": "নিচের কোন কোনটি সূচকের নিয়ম?",
+      "options": [
+        "a⁰ = 1",
+        "a⁻ⁿ = 1/aⁿ",
+        "(ab)ⁿ = aⁿbⁿ",
+        "(a/b)ⁿ = aⁿ/bⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-134-023",
+      "question": "8% -এর সমতুল্য:",
+      "options": [
+        "0.08",
+        "2/25",
+        "8/100",
+        "0.8"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-134-024",
+      "question": "একটি জিনিস 10% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য 540 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "550 টাকা",
+        "580 টাকা",
+        "600 টাকা",
+        "620 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-025",
+      "question": "(−2)³ = ?",
+      "options": [
+        "−8",
+        "8",
+        "−6",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-026",
+      "question": "3টি সংখ্যার গড় 12। যদি একটি সংখ্যা 18 প্রতিস্থাপিত করে অন্য একটি সংখ্যা বসানো হয়, তবে গড় 14 হয়। নতুন সংখ্যাটি কত?",
+      "options": [
+        "22",
+        "24",
+        "26",
+        "28"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-134-027",
+      "question": "x² + 3x + 2 = 0 সমীকরণটির একটি মূল কী?",
+      "options": [
+        "1",
+        "-1",
+        "2",
+        "-2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-134-028",
+      "question": "A, B অপেক্ষা তিনগুণ দক্ষ। B একটি কাজ 30 দিনে করলে A ওই কাজ কত দিনে করবে?",
+      "options": [
+        "8 দিন",
+        "9 দিন",
+        "10 দিন",
+        "11 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-029",
+      "question": "8 : 15 = x : 30 হলে x-এর মান কত?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-134-030",
+      "question": "15 জন পুরুষ একটি কাজ 10 দিনে করে। 5 জন পুরুষ ওই কাজ কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "25 দিন",
+        "30 দিন",
+        "35 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy"
+    }
+  ]
+}

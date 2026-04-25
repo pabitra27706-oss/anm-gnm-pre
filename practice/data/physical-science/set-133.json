@@ -1,0 +1,534 @@
+{
+  "subject": "general-science",
+  "set": 133,
+  "questions": [
+    {
+      "id": "ge-133-001",
+      "question": "নিচের কোন জোড়াগুলো সঠিকভাবে মেলেনি? (i) লেন্স সূত্র - 1/f = 1/v - 1/u (ii) দর্পণ সূত্র - 1/f = 1/v + 1/u (iii) বিবর্ধন (লেন্স) - m = -v/u (iv) বিবর্ধন (দর্পণ) - m = v/u",
+      "options": [
+        "(iii) ও (iv)",
+        "(ii) ও (iii)",
+        "(i) ও (iv)",
+        "(ii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-133-002",
+      "question": "কোন তাপমাত্রা সেলসিয়াস ও ফারেনহাইট সমান?",
+      "options": [
+        "-40°",
+        "0°",
+        "40°",
+        "100°"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-133-003",
+      "question": "1 কিলোওয়াট-ঘণ্টা (kWh) সমান কত জুল?",
+      "options": [
+        "3.6 × 10⁵ J",
+        "3.6 × 10⁶ J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁴ J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-133-004",
+      "question": "তড়িৎ পরিবহন ও তড়িৎ বিশ্লেষণের সময়— (বহু-সঠিক)",
+      "options": [
+        "উভয় ক্ষেত্রেই কণা প্রবাহ ঘটে",
+        "তড়িৎ বিশ্লেষণে রাসায়নিক পরিবর্তন আবশ্যক",
+        "ধাতুতে শুধু ইলেকট্রন প্রবাহ",
+        "তরলে আয়নের প্রবাহ হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-133-005",
+      "question": "অ্যাভোগাড্রো প্রকল্পের প্রয়োগ হলো—",
+      "options": [
+        "আণবিক ভর নির্ণয়",
+        "গ্যাসীয় মৌলের পারমাণবিকতা নির্ণয়",
+        "বাষ্প ঘনত্ব ও আণবিক ভরের সম্পর্ক স্থাপন",
+        "লীনতাপ নির্ণয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-133-006",
+      "question": "নিচের কোনগুলো লেন্সের ক্ষেত্রে সঠিক? (i) P = 1/f (f মিটারে) (ii) D = 1/m (iii) উত্তল লেন্সের P > 0 (iv) অবতল লেন্সের P < 0",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-007",
+      "question": "তড়িৎ পরিবহনে ধাতু ও তড়িৎ বিশ্লেষ্যের মধ্যে পার্থক্য— (বহু-সঠিক)",
+      "options": [
+        "ধাতুতে ইলেকট্রন প্রবাহ, তড়িৎ বিশ্লেষ্যে আয়ন",
+        "ধাতুতে রাসায়নিক পরিবর্তন হয় না",
+        "তড়িৎ বিশ্লেষ্যে রাসায়নিক পরিবর্তন হয়",
+        "ধাতুর তুলনায় তড়িৎ বিশ্লেষ্যের রোধ বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-133-008",
+      "question": "গতিশক্তি ও ভরবেগের মধ্যে সম্পর্ক নিয়ে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "K = p²/2m",
+        "p ধ্রুবক থাকলে m বাড়লে K কমে",
+        "m ধ্রুবক থাকলে p বাড়লে K বাড়ে",
+        "K ও p সরাসরি সমানুপাতিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-133-009",
+      "question": "দর্পণ সূত্র 1/f = 1/v + 1/u - এ f কে কী বলে?",
+      "options": [
+        "বক্রতা ব্যাসার্ধ",
+        "ফোকাস দূরত্ব",
+        "প্রতিবিম্ব দূরত্ব",
+        "বস্তু দূরত্ব"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-010",
+      "question": "CH₃CHO যৌগটির নাম কী?",
+      "options": [
+        "মিথানল",
+        "ইথানল",
+        "মিথানাল",
+        "ইথানাল"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-011",
+      "question": "তেঁতুলে কোন জৈব অ্যাসিড উপস্থিত থাকে?",
+      "options": [
+        "অক্সালিক অ্যাসিড",
+        "সাইট্রিক অ্যাসিড",
+        "টার্টারিক অ্যাসিড",
+        "ম্যালিক অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-012",
+      "question": "বিদ্যুৎ সাশ্রয়ের উপায় হিসেবে কোনগুলো কার্যকর? (বহু-সঠিক)",
+      "options": [
+        "LED বাতির ব্যবহার",
+        "প্রয়োজন না থাকলে বাতি নিভিয়ে রাখা",
+        "সোলার প্যানেলের ব্যবহার",
+        "পুরোনো তার ব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-133-013",
+      "question": "Dry Ice বা কঠিন কার্বন ডাই অক্সাইড (CO2) সরাসরি গ্যাসে পরিণত হওয়াকে কী বলা হয়?",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Sublimation",
+        "Melting"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-014",
+      "question": "CNG-র পূর্ণরূপ কী?",
+      "options": [
+        "Compressed Natural Gas",
+        "Compressed Nitrogen Gas",
+        "Carbon Natural Gas",
+        "Compressed Neon Gas"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-015",
+      "question": "হাইপারমেট্রোপিয়া (দূরদৃষ্টি) ত্রুটির কারণ কী?",
+      "options": [
+        "চোখের লেন্সের ক্ষমতা অতিরিক্ত",
+        "চোখের লেন্সের ক্ষমতা কম",
+        "চোখের গোলক খুব লম্বা",
+        "কর্ণিয়ার অস্বাভাবিকতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-016",
+      "question": "অবতল দর্পণের ফোকাস দূরত্ব 10 cm হলে বক্রতা ব্যাসার্ধ কত?",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "40 cm"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-017",
+      "question": "অ্যালকেনের শেষ প্রত্যয় কী?",
+      "options": [
+        "-ene",
+        "-yne",
+        "-ane",
+        "-ol"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-018",
+      "question": "নিচের কোনগুলো আলোর বেগের সাথে সম্পর্কিত? (i) 3 × 10⁸ m/s (ii) শূন্যস্থানে সর্বোচ্চ (iii) মাধ্যম ঘনত্ব বাড়লে কমে (iv) পানিতে বেশি, বায়ুতে কম",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-019",
+      "question": "[NUMERICAL] 11.2 L (STP) হিলিয়াম গ্যাসের ভর কত?",
+      "options": [
+        "2 g",
+        "4 g",
+        "8 g",
+        "1 g"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-020",
+      "question": "নিচের কোন বিষয়গুলি দ্রাব্যতা (Solubility)-কে প্রভাবিত করে?",
+      "options": [
+        "উষ্ণতা",
+        "দ্রাব ও দ্রাবকের প্রকৃতি",
+        "দ্রাবের ভর",
+        "চাপ (গ্যাসের ক্ষেত্রে)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-133-021",
+      "question": "কোলয়েড কণাগুলির ওপর কী আধান থাকে?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "নিস্তড়িৎ",
+        "ধনাত্মক অথবা ঋণাত্মক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-133-022",
+      "question": "নিউক্লিয় বল সম্পর্কে সঠিক উক্তি কী? (বহু-সঠিক)",
+      "options": [
+        "এটি সবল আকর্ষণ বল",
+        "প্রোটন-প্রোটনের মধ্যে ক্রিয়া করে",
+        "এটি তড়িৎ বলের চেয়ে দুর্বল",
+        "নিউক্লিয়াসকে স্থিতিশীল রাখে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-133-023",
+      "question": "VIBGYOR-এর I অক্ষরটি কীসের প্রতীক?",
+      "options": [
+        "সাদা",
+        "নীল",
+        "আসমানি",
+        "সবুজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-024",
+      "question": "নিচের কোনগুলি পরিবাহী পদার্থ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "গ্রাফাইট",
+        "তামা",
+        "কাঠ",
+        "লোহা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-133-025",
+      "question": "গৃহস্থালির বর্তনীতে— (বহু-সঠিক)",
+      "options": [
+        "বাতিগুলো সমান্তরালে থাকে",
+        "সুইচ লাইভ তারে থাকে",
+        "লাইভ তার বাদামি রঙের হয়",
+        "আর্থিং নিরাপত্তার জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-133-026",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) মায়োপিয়ায় দূরের বস্তু দেখতে সমস্যা হয় (ii) হাইপারমেট্রোপিয়ায় কাছের বস্তু দেখতে সমস্যা হয় (iii) প্রেসবায়োপিয়ায় বয়স বাড়ার সাথে সাথে পড়তে অসুবিধা হয় (iv) অ্যাস্টিগমাটিজমে বস্তু বিকৃত দেখায়",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-027",
+      "question": "Boyle's law অনুযায়ী P বনাম V লেখচিত্রটি কীরূপ?",
+      "options": [
+        "মূলবিন্দুগামী সরলরেখা",
+        "সমপরাবৃত্ত (Rectangular hyperbola)",
+        "বৃত্তাকার",
+        "অধিবৃত্ত"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-028",
+      "question": "নীচের কোন পদার্থটি তাপের সুপরিবাহী?",
+      "options": [
+        "কাঠ",
+        "প্লাস্টিক",
+        "তামা",
+        "বায়ু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-133-029",
+      "question": "নিচের কোন মাধ্যম জোড়ায় আলোর প্রতিসরণ ঘটে? (i) বায়ু-পানি (ii) কাঁচ-বায়ু (iii) বায়ু-শূন্যস্থান (iv) পানি-তেল",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-133-030",
+      "question": "CFL -এর পুরো নাম কী?",
+      "options": [
+        "Compact Fluorescent Lamp",
+        "Common Fluorescent Light",
+        "Central Fluorescent Lamp",
+        "Compact Filament Light"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 29,
+  "questions": [
+    {
+      "id": "am-29-001",
+      "question": "km/h থেকে m/s -এ রূপান্তরের গুণক কত?",
+      "options": [
+        "5/18",
+        "18/5",
+        "1/3.6",
+        "3.6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-002",
+      "question": "একটি ঘনকের সমগ্রতলের ক্ষেত্রফল 150 বর্গসেমি হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "বাহু = 5 সেমি",
+        "আয়তন = 125 ঘনসেমি",
+        "কর্ণ = 5√3 সেমি",
+        "এক তলের কর্ণ = 5√2 সেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-29-003",
+      "question": "√144-এর মান কত?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-004",
+      "question": "একটি স্কুলের 3/8 অংশ ছেলে। মোট 400 জন ছাত্র হলে ছেলে সংখ্যা কত?",
+      "options": [
+        "150",
+        "200",
+        "250",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-005",
+      "question": "নিচের সারণি: ৮টি পরিবারের মাসিক আয় (টাকায়): F1: 12000, F2: 15000, F3: 18000, F4: 14000, F5: 16000, F6: 20000, F7: 11000, F8: 13000 মোট আয় কত?",
+      "options": [
+        "119000",
+        "120000",
+        "121000",
+        "122000"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-006",
+      "question": "A ও B একসাথে একটি কাজ 12 দিনে শেষ করতে পারে। তারা একসাথে কাজ শুরু করে 4 দিন পর A চলে গেলে বাকি কাজ B 16 দিনে শেষ করে। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "22 দিন",
+        "24 দিন",
+        "26 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-29-007",
+      "question": "বার্ষিক 15% হারে কত টাকার 2 বছরের CI 1290 টাকা?",
+      "options": [
+        "3000 টাকা",
+        "3500 টাকা",
+        "4000 টাকা",
+        "4500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-008",
+      "question": "সমানুপাতের যেকোনো তিনটি পদ থাকলে চতুর্থ পদ নির্ণয়ের সূত্র কী কী?",
+      "options": [
+        "a : b = c : d → d = bc/a",
+        "a : b = c : d → d = bc/a",
+        "a : b = c : d → c = ad/b",
+        "সবকটিই সঠিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-29-009",
+      "question": "420-এর 30% = ?",
+      "options": [
+        "120",
+        "124",
+        "126",
+        "128"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-010",
+      "question": "একটি জিনিসের CP ও SP-এর অনুপাত 8:7 হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষতি = 12.5%",
+        "CP : SP = 8:7 → ক্ষতি% = (8-7)/8 × 100% = 12.5%",
+        "লাভ = 12.5%",
+        "ক্ষতি = 14.28%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-011",
+      "question": "একজন সাইকেল আরোহী 30 km/h গতিতে 15 মিনিটে কত দূরত্ব যায়?",
+      "options": [
+        "6.5 km",
+        "7 km",
+        "7.5 km",
+        "8 km"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-012",
+      "question": "কত টাকার 6% হারে 3 বছরের সরল সুদ 540 টাকা হবে?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-013",
+      "question": "A ও B একসাথে একটি কাজ 6 দিনে শেষ করে। A একা 10 দিনে শেষ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "B একা 15 দিনে শেষ করে",
+        "B-এর দক্ষতা A-এর 1/3",
+        "A-এর দক্ষতা B-এর 1.5 গুণ",
+        "B-এর কাজ A-এর চেয়ে কম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-29-014",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 6 ও 12 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 9 ঘন্টায় খালি হয়। তিনটি একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A এর হার = 1/6, B এর = 1/12, নালার = 1/9",
+        "নিট হার = 1/6+1/12-1/9 = (6+3-4)/36 = 5/36",
+        "সময় = 36/5 = 7.2 ঘন্টা",
+        "7.2 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-29-015",
+      "question": "8টি জিনিসের ক্রয়মূল্য 5টি জিনিসের বিক্রয়মূল্যের সমান হলে লাভের শতকরা হার কত?",
+      "options": [
+        "50%",
+        "55%",
+        "60%",
+        "65%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-29-016",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 2 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 3 ঘন্টায় খালি করতে পারে। চৌবাচ্চা অর্ধেক ভরা থাকলে দুটি পাইপ একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "1 ঘন্টা",
+        "2 ঘন্টা",
+        "3 ঘন্টা",
+        "4 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-29-017",
+      "question": "12টি কলম 120 টাকায় কিনে 10টি কলম 100 টাকায় বিক্রয় করলে লাভ বা ক্ষতি কত?",
+      "options": [
+        "লাভ 10 টাকা",
+        "ক্ষতি 10 টাকা",
+        "লাভ বা ক্ষতি নেই",
+        "ক্ষতি 20 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-018",
+      "question": "লাভের হার ও ক্ষতির হার সম্পর্কে নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "লাভ% সবসময় লাভের টাকার চেয়ে কম হলে হয় না",
+        "একই টাকার লাভ ও ক্ষতি হলে CP ছোট হলে লাভ% বেশি হয়",
+        "ক্ষতি% কখনো 100% এর বেশি হতে পারে",
+        "লাভ% কখনো 100% এর বেশি হতে পারে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-019",
+      "question": "একটি কাজ A 5 দিনে করে, B 8 দিনে করে, C 10 দিনে করে। A ও B 2 দিন একসাথে কাজ করার পর C যোগ দিলে বাকি কাজ কত দিনে শেষ হবে?",
+      "options": [
+        "1.5 দিন",
+        "2 দিন",
+        "2.5 দিন",
+        "3 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-29-020",
+      "question": "বার্ষিক 5% হারে 3 বছরের CI ও SI-এর পার্থক্য 61 টাকা। মূলধন কত?",
+      "options": [
+        "6000 টাকা",
+        "7000 টাকা",
+        "8000 টাকা",
+        "9000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-29-021",
+      "question": "Q253 এর স্রোতের গতি:",
+      "options": [
+        "(4-2)/2 = 1 km/h",
+        "1 km/h",
+        "2 km/h",
+        "0.5 km/h"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-29-022",
+      "question": "নিচের সারণি: বিভিন্ন শ্রেণিতে শিক্ষার্থীর সংখ্যা: I: 45, II: 50, III: 48, IV: 52, V: 47 III ও V শ্রেণির মোট শিক্ষার্থী কত?",
+      "options": [
+        "90",
+        "95",
+        "97",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-023",
+      "question": "গড় ও মধ্যমা (median) সম্পর্কে সত্য:",
+      "options": [
+        "গড় ও মধ্যমা ভিন্ন হতে পারে",
+        "প্রতিসম বিন্যাসে গড় = মধ্যমা",
+        "গড় সবসময় মধ্যমার সমান",
+        "অপ্রতিসম বিন্যাসে গড় ও মধ্যমা ভিন্ন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-29-024",
+      "question": "0.142857142857... ধরণের দশমিক সংখ্যাটি কী নামে পরিচিত?",
+      "options": [
+        "সসীম দশমিক",
+        "আবৃত্ত দশমিক",
+        "অসীম অনাবৃত্ত দশমিক",
+        "পূর্ণসংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-025",
+      "question": "একটি পরীক্ষায় 35% পরীক্ষার্থী ফেল করল। 585 জন পাস করলে, মোট পরীক্ষার্থী সংখ্যা কত?",
+      "options": [
+        "800",
+        "850",
+        "900",
+        "950"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-026",
+      "question": "গড় 30 এবং সংখ্যা 8টি হলে, যোগফল কত?",
+      "options": [
+        "220",
+        "230",
+        "240",
+        "250"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-027",
+      "question": "0.2, 0.02, 0.002-এর মধ্যে সঠিক তুলনা কোনটি?",
+      "options": [
+        "0.2 > 0.02",
+        "0.02 > 0.002",
+        "0.002 < 0.02",
+        "0.2 = 0.02"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-29-028",
+      "question": "20 মিনিট = কত ঘন্টা?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-29-029",
+      "question": "একটি দ্রব্য 30% ছাড় দিয়ে 1400 টাকায় বিক্রয় করলে চিহ্নিত মূল্য কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-29-030",
+      "question": "3 সেমি ব্যাসার্ধবিশিষ্ট গোলকের আয়তন কত? (π = 3.14)",
+      "options": [
+        "37.68 ঘনসেমি",
+        "84.78 ঘনসেমি",
+        "100.48 ঘনসেমি",
+        "113.04 ঘনসেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

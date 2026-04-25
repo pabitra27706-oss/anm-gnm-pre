@@ -1,0 +1,504 @@
+{
+  "subject": "general-science",
+  "set": 42,
+  "questions": [
+    {
+      "id": "ge-42-001",
+      "question": "IUPAC-এর পুরো নাম কী?",
+      "options": [
+        "International Union of Pure and Applied Chemistry",
+        "Indian Union of Pure and Applied Chemistry",
+        "International Union of Practical and Applied Chemistry",
+        "Indian Union of Practical and Applied Chemistry"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-002",
+      "question": "আলোর প্রতিফলনের সময় আপতন কোণ 45° হলে প্রতিফলন কোণ কত হবে?",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-003",
+      "question": "তামা ও লোহার মধ্যে কোনটির রোধাঙ্ক বেশি?",
+      "options": [
+        "তামা",
+        "লোহা",
+        "সমান",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-004",
+      "question": "ফল পাকানোর জন্য কোন গ্যাস ব্যবহার করা হয়?",
+      "options": [
+        "মিথেন",
+        "ইথিন",
+        "ইথিন",
+        "প্রোপেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-005",
+      "question": "[NUMERICAL] pH = 13 হলে দ্রবণটি—",
+      "options": [
+        "মৃদু ক্ষারীয়",
+        "তীব্র ক্ষারীয়",
+        "মৃদু আম্লিক",
+        "তীব্র আম্লিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-006",
+      "question": "ঘর্ষণ বলের কারণে উৎপন্ন তাপ—",
+      "options": [
+        "শক্তির অপচয় ঘটায়",
+        "যন্ত্রাংশ গরম করে",
+        "ঘর্ষণ কমাতে সাহায্য করে",
+        "কার্যক্ষমতা বাড়ায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-42-007",
+      "question": "একটি বস্তুর ভর দ্বিগুণ হলে অর্ধেক উচ্চতায় তুললে বিভব শক্তি কেমন হবে?",
+      "options": [
+        "একই থাকবে",
+        "দ্বিগুণ হবে",
+        "অর্ধেক হবে",
+        "চারগুণ হবে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-42-008",
+      "question": "অ্যাস্টিগমাটিজম ত্রুটি সংশোধনে কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "গোলীয় লেন্স",
+        "বেলনাকার লেন্স",
+        "সমতল লেন্স",
+        "দ্বিফোকাস লেন্স"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-009",
+      "question": "লেন্সের ক্ষমতার একক কী?",
+      "options": [
+        "মিটার",
+        "ডায়োপ্টার",
+        "ওয়াট",
+        "জুল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-010",
+      "question": "সিসাযুক্ত রং এখন নিষিদ্ধ করা হয়েছে কারণ এর কারণ কী হতে পারে?",
+      "options": [
+        "দেয়াল সুন্দর হয় না",
+        "বিশেষ করে শিশুদের স্নায়ুতন্ত্রের ক্ষতি",
+        "দাম বেড়ে যায়",
+        "দেয়ালে ছাতা পড়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-011",
+      "question": "নিচের কোনগুলো একটি গোলীয় দর্পণের ক্ষেত্রে সঠিক? (i) R = 2f (ii) মেরু ও ফোকাসের মধ্যবর্তী দূরত্ব f (iii) C বিন্দু ও P বিন্দুর মধ্যবর্তী দূরত্ব R (iv) f = R/2",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-012",
+      "question": "একটি 60W বাতি 5 ঘণ্টা জ্বললে কত শক্তি ব্যয়িত হয়?",
+      "options": [
+        "300 Wh",
+        "1.08 × 10⁶ J",
+        "A ও B উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-013",
+      "question": "নিচের কোনটি ডিসি-র বৈশিষ্ট্য? (বহু-সঠিক)",
+      "options": [
+        "একমুখী প্রবাহ",
+        "ব্যাটারি থেকে উৎপন্ন হয়",
+        "ট্রান্সফরমারে ব্যবহার করা যায় না",
+        "ফ্রিকোয়েন্সি 50 Hz"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-42-014",
+      "question": "500g ভরের একটি পাথরকে 200°C-এ গরম করে 1000g জলে (20°C) ফেলা হলো। মিশ্রণ তাপমাত্রা 25°C হলে পাথরের আপেক্ষিক তাপ কত?",
+      "options": [
+        "0.25 J/gK",
+        "0.37 J/gK",
+        "0.57 J/gK",
+        "0.47 J/gK"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-42-015",
+      "question": "অবতল দর্পণের সামনে অসীম দূরত্বে বস্তু রাখলে প্রতিবিম্ব কোথায় গঠিত হয়?",
+      "options": [
+        "ফোকাসে (F)",
+        "অনন্তে",
+        "মেরুতে (P)",
+        "বক্রতা কেন্দ্রে (C)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-016",
+      "question": "ওহমের সূত্রটি কী?",
+      "options": [
+        "V = R/I",
+        "I = VR",
+        "V = IR",
+        "R = VI"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-017",
+      "question": "[NUMERICAL] 20°C তাপমাত্রায় 20g সম্পৃক্ত দ্রবণে 4g দ্রাব থাকলে দ্রাব্যতা কত?",
+      "options": [
+        "20",
+        "25",
+        "16",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-018",
+      "question": "কৃত্রিম উপগ্রহে ইলেকট্রনিক যন্ত্রাংশ ঠান্ডা করতে কী ব্যবহৃত হয়?",
+      "options": [
+        "পাখা",
+        "পরিচলন স্রোত",
+        "তাপ নল (Heat Pipe)",
+        "শুধু পরিবহন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-42-019",
+      "question": "বৈজ্ঞানিক কর্মকাণ্ডে SI এককের প্রয়োজনীয়তা কী? (বহু-সঠিক)",
+      "options": [
+        "সর্বজনীনতা",
+        "সহজ রূপান্তর",
+        "বিভ্রান্তি এড়ানো",
+        "কেবল একটি দেশে ব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-42-020",
+      "question": "কোনো পরিবাহীর তাপমাত্রা বাড়ালে আপেক্ষিক রোধ সাধারণত কী হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "শূন্য হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-021",
+      "question": "অ্যালকোহল থার্মোমিটারের পরিসীমা কত হতে পারে?",
+      "options": [
+        "-100°C থেকে 100°C",
+        "-50°C থেকে 200°C",
+        "-112°C থেকে 78°C",
+        "35°C থেকে 42°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-022",
+      "question": "কম্পাঙ্কের SI একক কী?",
+      "options": [
+        "Decibel",
+        "Hertz (Hz)",
+        "Meter",
+        "Watt"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-42-023",
+      "question": "সল্ট হাইড্রোলাইসিস (Salt Hydrolysis) এর ফলে NaCl এর জলীয় দ্রবণ—",
+      "options": [
+        "আম্লিক হয়",
+        "ক্ষারীয় হয়",
+        "প্রশম থাকে",
+        "লবণাক্ত হয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-024",
+      "question": "যৌগিক অণুবীক্ষণ যন্ত্রে কোন লেন্স থাকে?",
+      "options": [
+        "একটি উত্তল লেন্স",
+        "একটি অবতল লেন্স",
+        "দুটি উত্তল লেন্স",
+        "একটি উত্তল ও একটি অবতল লেন্স"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-025",
+      "question": "4 Ω রোধের একটি তারের মধ্য দিয়ে 2 A তড়িৎ 5 সেকেন্ড ধরে প্রবাহিত হলে উৎপন্ন তাপ কত?",
+      "options": [
+        "40 J",
+        "80 J",
+        "16 J",
+        "8 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-026",
+      "question": "একটি ইলেকট্রিক ইস্ত্রির ক্ষমতা 1000 W ও রোধ 48.4 Ω, এটির বিভব পার্থক্য কত?",
+      "options": [
+        "220 V",
+        "110 V",
+        "440 V",
+        "380 V"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-42-027",
+      "question": "কোন কোন পদ্ধতিতে নবজাতকের তাপ নিয়ন্ত্রণ করা হয়? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ইনকিউবেটরে রেখে",
+        "ক্যাঙ্গারু মাদার কেয়ারে",
+        "ফ্যানের বাতাসে",
+        "ঠান্ডা জলে স্নান করিয়ে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-42-028",
+      "question": "বায়োগ্যাসে প্রধানত কোন গ্যাস থাকে?",
+      "options": [
+        "অক্সিজেন",
+        "নাইট্রোজেন",
+        "মিথেন",
+        "কার্বন ডাই অক্সাইড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-029",
+      "question": "নিচের কোনটি উত্তল লেন্সের ব্যবহার নয়?",
+      "options": [
+        "চশমার লেন্স",
+        "ক্যামেরার লেন্স",
+        "অণুবীক্ষণ যন্ত্রের লেন্স",
+        "বাইফোকাল লেন্স"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-42-030",
+      "question": "একটি কয়লা ভিত্তিক তাপবিদ্যুৎ কেন্দ্রে প্রথমে কোন শক্তি উৎপন্ন হয়?",
+      "options": [
+        "বিদ্যুৎ",
+        "যান্ত্রিক",
+        "তাপ",
+        "আলোক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

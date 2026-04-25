@@ -1,0 +1,537 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 97,
+  "questions": [
+    {
+      "id": "am-97-001",
+      "question": "সমবাহু ত্রিভুজের উচ্চতা নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "(√3/2)a",
+        "(√3/4)a",
+        "(√3/2)a²",
+        "(√3/4)a²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-002",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 1000 টাকা এবং 20% ছাড় দিলে বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-003",
+      "question": "5টি সংখ্যার গড় 16। 2টি সংখ্যা 10 ও 15 বাদ দিলে বাকি 3টির গড় কত?",
+      "options": [
+        "16.67",
+        "17.67",
+        "18.67",
+        "19.67"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-97-004",
+      "question": "একটি কাজ A 14 দিনে করে, B 21 দিনে করে। A ও B একসাথে 4 দিন কাজ করার পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/14+1/21 = 5/42",
+        "4 দিনে করে = 20/42 = 10/21",
+        "বাকি কাজ = 11/21",
+        "B এর সময় = (11/21)/(1/21) = 11 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-97-005",
+      "question": "6, 8 এবং 12-এর লসাগু কত?",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-97-006",
+      "question": "5, 10, 15, 20, 25 এর গড়:",
+      "options": [
+        "15",
+        "যোগফল 75",
+        "75/5 = 15",
+        "গড় 20"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-97-007",
+      "question": "অসাধু ব্যবসায়ীর ক্ষেত্রে নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "কম ওজন দিলে লাভ বেশি হয়",
+        "লাভ% ওজন কমানোর শতকরা হারের চেয়ে বেশি হয়",
+        "10% ওজন কমালে লাভ% = 11.11%",
+        "ওজন কমানো ও লাভ% সমান হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-97-008",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 1000 টাকা, ছাড় 20% হলে কী কী সত্য?",
+      "options": [
+        "ছাড় = 200 টাকা",
+        "SP = 800 টাকা",
+        "ছাড়% = 20%",
+        "SP = 750 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-97-009",
+      "question": "নিচের কোন কোনটি (a + b)²-এর বিস্তারের অংশ?",
+      "options": [
+        "a²",
+        "2ab",
+        "b²",
+        "a²b²"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-97-010",
+      "question": "একটি দ্রব্য 10% ক্ষতিতে বিক্রয় করলে SP = 450 টাকা। নিচের কোনটি সঠিক?",
+      "options": [
+        "CP = 500 টাকা",
+        "ক্ষতি = 50 টাকা",
+        "CP = 450 টাকা",
+        "ক্ষতি = 45 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-97-011",
+      "question": "20000 টাকার বার্ষিক 8% হারে 1.5 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "22000 টাকা",
+        "22300 টাকা",
+        "22400 টাকা",
+        "22497.28 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-97-012",
+      "question": "একটি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্যের অনুপাত 5:6 হলে লাভের শতকরা হার কত?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-97-013",
+      "question": "একটি দ্রব্য 575 টাকায় বিক্রয় করাতে 8% ক্ষতি হয়। দ্রব্যটির ক্রয়মূল্য কত?",
+      "options": [
+        "600 টাকা",
+        "620 টাকা",
+        "625 টাকা",
+        "630 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-97-014",
+      "question": "একটি জিনিস 15% ক্ষতিতে বিক্রয় করা হলো। যদি ক্রয়মূল্য 10% বেশি হতো এবং বিক্রয়মূল্য 20% বেশি হতো, তাহলে লাভ/ক্ষতি কত হতো?",
+      "options": [
+        "5% লাভ",
+        "6.67% লাভ",
+        "8% লাভ",
+        "10% লাভ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-97-015",
+      "question": "একটি রেখা লেখচিত্রে উৎপাদন: 2016:80, 2017:90, 2018:70, 2019:100, 2020:110। সঠিক:",
+      "options": [
+        "2017-2018 কমেছে 20",
+        "2018-2019 বেড়েছে 30",
+        "2019-2020 বেড়েছে 10",
+        "সর্বোচ্চ 2020"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-97-016",
+      "question": "একটি মূলধন 6% হারে 2 বছরে সুদে-আসলে 5600 টাকা হলে, আসল ও সুদ কত?",
+      "options": [
+        "P=5000, SI=600",
+        "P=4800, SI=800",
+        "P=5200, SI=400",
+        "P=4500, SI=1100"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-97-017",
+      "question": "4 জন মহিলা একটি কাজ 9 দিনে করে। 6 জন মহিলা ওই কাজ কত দিনে করবে?",
+      "options": [
+        "4 দিন",
+        "5 দিন",
+        "6 দিন",
+        "7 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-018",
+      "question": "ছাড়ের ক্ষেত্রে সঠিক সূত্রগুলি কী কী?",
+      "options": [
+        "ছাড় = চিহ্নিত মূল্য - বিক্রয়মূল্য",
+        "ছাড়% = (ছাড়/চিহ্নিত মূল্য) × 100%",
+        "ছাড়% = (ছাড়/বিক্রয়মূল্য) × 100%",
+        "বিক্রয়মূল্য = চিহ্নিত মূল্য + ছাড়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-019",
+      "question": "উপরের দণ্ড লেখচিত্র থেকে Team2 ও Team5 এর রানের অনুপাত কত?",
+      "options": [
+        "20:21",
+        "21:20",
+        "21:19",
+        "21:22"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-020",
+      "question": "24, 36, 48, 60-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 720",
+        "720, 12 দ্বারা বিভাজ্য",
+        "720, 40 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-97-021",
+      "question": "একটি জিনিস 1150 টাকায় বিক্রয় করাতে 15% লাভ হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "950 টাকা",
+        "980 টাকা",
+        "1000 টাকা",
+        "1020 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-97-022",
+      "question": "নিচের দণ্ড লেখচিত্রে বিভিন্ন পণ্যের উৎপাদন: A: 150, B: 200, C: 175, D: 220, E: 160 B ও D এর মোট উৎপাদন কত?",
+      "options": [
+        "400",
+        "410",
+        "420",
+        "430"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-023",
+      "question": "0.75 + 0.75 = ?",
+      "options": [
+        "1.5",
+        "1.25",
+        "1.75",
+        "2.0"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-024",
+      "question": "2, 3, 5, 7, 11 এদের সঠিক বক্তব্য কী?",
+      "options": [
+        "সবগুলিই মৌলিক",
+        "সবগুলিই বিজোড়",
+        "2 ছাড়া সবগুলি বিজোড়",
+        "সবগুলিই অখণ্ড"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-97-025",
+      "question": "3000 টাকার 2 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "250 টাকা",
+        "280 টাকা",
+        "300 টাকা",
+        "320 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-026",
+      "question": "100 থেকে 200 পর্যন্ত সংখ্যার গড় কত?",
+      "options": [
+        "150",
+        "(100+200)/2 = 150 (ধারাবাহিক সমান ব্যবধানে)",
+        "151",
+        "149"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-97-027",
+      "question": "একটি জিনিসের ক্রয়মূল্য 1200 টাকা। 10% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "1020 টাকা",
+        "1050 টাকা",
+        "1080 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-97-028",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 4 ও 6 ঘন্টায় ভরা যায়। চৌবাচ্চাটি অর্ধেক ভরতি থাকলে দুটি পাইপ একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 2.4 ঘন্টায় সম্পূর্ণ ভরে",
+        "অর্ধেক ভরতে সময় লাগে 1.2 ঘন্টা",
+        "1.2 ঘন্টা",
+        "2 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-97-029",
+      "question": "ছয়টি সংখ্যার গড় 18। যদি একটি সংখ্যা 10 বাদ পড়ে যায়, তবে বাকি পাঁচটির গড় কত?",
+      "options": [
+        "18.6",
+        "18.8",
+        "19.2",
+        "19.6"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-97-030",
+      "question": "A একটি কাজ 8 দিনে করে, B 12 দিনে করে। A ও B একসাথে কাজ করে মজুরি পায় 1000 টাকা। B-এর মজুরি কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

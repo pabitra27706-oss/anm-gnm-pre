@@ -1,0 +1,514 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 2,
+  "questions": [
+    {
+      "id": "rg-02-001",
+      "question": "1, 3, 7, 15, 31, ?",
+      "options": [
+        "55",
+        "57",
+        "61",
+        "63"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-002",
+      "question": "1 : 1 :: 2 : 8 :: 3 : ?",
+      "options": [
+        "9",
+        "18",
+        "24",
+        "27"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-003",
+      "question": "বিবৃতি: \"সরকার সব সরকারি হাসপাতালে বিনামূল্যে ওষুধ সরবরাহ করছে।\" অনুমান: I. সরকারি হাসপাতালে রোগীর সংখ্যা বেশি। II. সব রোগী ওষুধ কিনতে পারে না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-02-004",
+      "question": "LIGHT : CANDLE : : ? : ?",
+      "options": [
+        "HEAT : FIRE",
+        "WATER : TAP",
+        "POWER : BATTERY",
+        "SOUND : SPEAKER"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-02-005",
+      "question": "ACE : BDF :: GIK : ?",
+      "options": [
+        "HJL",
+        "HJK",
+        "HIL",
+        "HJN"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-006",
+      "question": "বিবৃতি: \"বেসরকারি হাসপাতালের চেয়ে সরকারি হাসপাতালে ভর্তি ফি কম।\" অনুমান: I. রোগীরা কম ফিতে চিকিৎসা নিতে চান। II. সরকারি হাসপাতালের চিকিৎসা মান ভালো।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-007",
+      "question": "নীচের কোন সংখ্যাটি অসম? (সকল সংখ্যা পূর্ণবর্গ, কিন্তু একটি ভিন্ন বৈশিষ্ট্যের)",
+      "options": [
+        "121",
+        "144",
+        "169",
+        "196"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-02-008",
+      "question": "নিচের কোন জোড়ায় বিবৃতি I ও বিবৃতি II উভয়ই একটি সাধারণ তৃতীয় কারণের ফলাফল?",
+      "options": [
+        "I: দুর্গাপূজার সময় ছুটি, II: কলকাতা শহর ফাঁকা",
+        "I: শিশুটি কাঁদছে, II: শিশুটি ক্ষুধার্ত",
+        "I: বেকারত্ব বেড়েছে, II: হতাশার হার বেড়েছে",
+        "I: তাপমাত্রা বেড়েছে, II: বিদ্যুতের ব্যবহার বেড়েছে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-02-009",
+      "question": "বিবৃতি: (I) সব রক্তকণিকা শ্বেতকণিকা নয়। (II) কিছু লোহিত রক্তকণিকা রক্তকণিকা। সিদ্ধান্ত: I. কিছু লোহিত রক্তকণিকা শ্বেতকণিকা নয়। II. কিছু শ্বেতকণিকা লোহিত রক্তকণিকা নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-02-010",
+      "question": "1লা জানুয়ারি 2023 রবিবার হলে, 31শে ডিসেম্বর 2023 কি বার?",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-011",
+      "question": "PEN : WRITE :: KNIFE : ?",
+      "options": [
+        "CUT",
+        "SHARP",
+        "FIGHT",
+        "STAB"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-012",
+      "question": "নীচের কোন গ্রহগুলির উপগ্রহ নেই? (একাধিক উত্তর)",
+      "options": [
+        "বুধ",
+        "শুক্র",
+        "পৃথিবী",
+        "মঙ্গল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-02-013",
+      "question": "যদি \"MAN\" = 13114 হয়, তবে \"BAT\" = ?",
+      "options": [
+        "2120",
+        "3121",
+        "1220",
+        "22120"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-02-014",
+      "question": "নিচের কোনটি সঠিক? পিতার বোনের স্বামীকে কী বলে?",
+      "options": [
+        "জ্যাঠা",
+        "ফুপা",
+        "মামা",
+        "মেসো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-015",
+      "question": "বিবৃতি I: গঙ্গার জল দূষিত হচ্ছে। বিবৃতি II: জলে টাইফয়েডের জীবাণু পাওয়া যাচ্ছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-016",
+      "question": "নীচের বর্ণক্রমগুলোর মধ্যে কোনটি আলাদা?",
+      "options": [
+        "ACE",
+        "BDF",
+        "HJG",
+        "MOQ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-02-017",
+      "question": "বিবৃতি: \"সন্তানকে বেশি বেশি সবজি খাওয়ান।\" অনুমান: I. সবজি স্বাস্থ্যের জন্য ভালো। II. সন্তানেরা সবজি পছন্দ করে না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-018",
+      "question": "নীচের সংখ্যাগুলোর মধ্যে কোনটি আলাদা?",
+      "options": [
+        "8",
+        "27",
+        "64",
+        "100"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-019",
+      "question": "SCISSOR : CUT :: OVEN : ?",
+      "options": [
+        "COOK",
+        "BAKE",
+        "HEAT",
+        "WARM"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-020",
+      "question": "সুশীল ও সুনীল দুই ভাই। সুশীলের পুত্র সুনীলের কী হয়?",
+      "options": [
+        "ছেলে",
+        "ভাগ্নে",
+        "ভাই",
+        "জামাই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-021",
+      "question": "মায়ের ভাইয়ের বোন কী সম্পর্ক?",
+      "options": [
+        "ফুপু",
+        "কাকিমা",
+        "মাসি",
+        "বোন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-022",
+      "question": "\"মোবাইল, ইলেকট্রনিক্স ডিভাইস, কম্পিউটার\" - চিত্র কোনটি?",
+      "options": [
+        "বড় বৃত্ত ইলেকট্রনিক্স, তার ভেতর মোবাইল ও কম্পিউটার দুটি পৃথক বৃত্ত",
+        "তিনটি পৃথক বৃত্ত",
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-023",
+      "question": "বিবৃতি: (I) সব ইঞ্জিনিয়ার স্নাতক। (II) কোনো স্নাতক নিরক্ষর নয়। কোন সিদ্ধান্তগুলি সঠিক?",
+      "options": [
+        "সব ইঞ্জিনিয়ার নিরক্ষর নয়",
+        "কোনো ইঞ্জিনিয়ার নিরক্ষর নয়",
+        "কিছু নিরক্ষর ইঞ্জিনিয়ার নয়",
+        "সব স্নাতক ইঞ্জিনিয়ার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-02-024",
+      "question": "1, 9, 25, 49, 81, ?",
+      "options": [
+        "100",
+        "121",
+        "144",
+        "169"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-02-025",
+      "question": "বিবৃতি: \"ফল ও সবজির দাম বাড়ায় সরকার উদ্বিগ্ন।\" অনুমান: (Multiple Correct) I. ফল ও সবজির দাম স্বাভাবিকের চেয়ে বেশি। II. বেশি দামে মানুষ কষ্ট পাচ্ছে। (III III) সরকার জনগণের কথা ভাবে। IV. দাম কমাতে সরকার ব্যবস্থা নেবে।",
+      "options": [
+        "I, II, III",
+        "I, II, IV",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-02-026",
+      "question": "বিবৃতি: (I) সব হাসপাতাল স্বাস্থ্য কেন্দ্র। (II) কিছু স্বাস্থ্য কেন্দ্র বিমা কভার করেছে। কোনটি অনুমানযোগ্য?",
+      "options": [
+        "কিছু হাসপাতাল বিমা কভার করেছে",
+        "কিছু বিমা কভারকৃত কেন্দ্র হাসপাতাল",
+        "সব হাসপাতাল বিমা কভার করেছে",
+        "কোনো স্বাস্থ্য কেন্দ্র বিমা কভার করেনি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-02-027",
+      "question": "100, 95, 90, 85, ?",
+      "options": [
+        "75",
+        "80",
+        "82",
+        "78"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-028",
+      "question": "নীচের কোন মাসগুলিতে 31 দিন থাকে? (একাধিক উত্তর)",
+      "options": [
+        "জানুয়ারি",
+        "মার্চ",
+        "জুন",
+        "অগাস্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-02-029",
+      "question": "EYE : SEE :: EAR : ?",
+      "options": [
+        "SMELL",
+        "TASTE",
+        "HEAR",
+        "TOUCH"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-02-030",
+      "question": "একটি ভাষায় \"BLACK\" = CMBDO, \"WHITE\" = XJSUF। \"GREEN\" = ?",
+      "options": [
+        "HSFFO",
+        "HRFDO",
+        "HSFDO",
+        "HRFFO"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

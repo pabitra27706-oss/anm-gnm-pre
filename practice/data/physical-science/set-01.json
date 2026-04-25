@@ -1,0 +1,532 @@
+{
+  "subject": "general-science",
+  "set": 1,
+  "questions": [
+    {
+      "id": "ge-01-001",
+      "question": "ব্যাটারির অ্যাসিড (Battery Acid) নামে পরিচিত কোনটি?",
+      "options": [
+        "HCl",
+        "HNO3",
+        "H2SO4",
+        "H3PO4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-01-002",
+      "question": "সুরযুক্ত শব্দের বৈশিষ্ট্যগুলি হলো—",
+      "options": [
+        "প্রাবল্য",
+        "তীক্ষ্ণতা",
+        "গুণ বা জাতি",
+        "প্রতিধ্বনি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-01-003",
+      "question": "কোনো বস্তুর ভর m এবং ওজন w, তবে g-এর সূত্র কী?",
+      "options": [
+        "w × m",
+        "m / w",
+        "w / m",
+        "w + m"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-004",
+      "question": "একটি লেন্সের ক্ষমতা -4 D। ফোকাস দূরত্ব কত?",
+      "options": [
+        "25 cm",
+        "-25 cm",
+        "40 cm",
+        "-40 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-005",
+      "question": "পারমাণবিক চুল্লিতে নিউক্লীয় বিভাজনের ফলে কী শক্তি উৎপন্ন হয়?",
+      "options": [
+        "রাসায়নিক",
+        "তাপ",
+        "আলোক",
+        "চৌম্বক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-006",
+      "question": "‘শক্তির অবক্ষয়’ বলতে বোঝায়—",
+      "options": [
+        "শক্তি ধ্বংস হওয়া",
+        "শক্তি নবায়ন না হওয়া",
+        "শক্তির রূপান্তর",
+        "শক্তির ব্যবহার্যতা হ্রাস"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-01-007",
+      "question": "নিচের কোন মানবসৃষ্ট দুর্যোগ পরিবেশ দূষিত করে? (একাধিক উত্তর)",
+      "options": [
+        "ভূপাল গ্যাস ট্র্যাজেডি",
+        "চেরনোবিল বিপর্যয়",
+        "তেলবাহী জাহাজ ডুবে তেল ছড়িয়ে পড়া",
+        "বজ্রপাত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-01-008",
+      "question": "নিচের কোন জোড়াগুলি স্কেলার রাশি?",
+      "options": [
+        "ভর ও সময়",
+        "দূরত্ব ও দ্রুতি",
+        "কাজ ও শক্তি",
+        "বেগ ও সরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-01-009",
+      "question": "নীল লিটমাস লাল হয় কোন দ্রবণে?",
+      "options": [
+        "লেবুর রস",
+        "সাবান জল",
+        "চুন জল",
+        "সাধারণ লবণ জল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-01-010",
+      "question": "জলের আপেক্ষিক তাপ সর্বাধিক। এর মান কত (SI এককে)?",
+      "options": [
+        "2200 J/(kg·K)",
+        "3200 J/(kg·K)",
+        "4200 J/(kg·K)",
+        "5200 J/(kg·K)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-01-011",
+      "question": "220 V লাইনে 0.5 A তড়িৎ নেওয়া একটি বাতির ক্ষমতা কত?",
+      "options": [
+        "440 W",
+        "110 W",
+        "50 W",
+        "220 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-01-012",
+      "question": "নিচের কোন জোড়াগুলি দৃষ্টি ত্রুটি ও তার সংশোধনের সঠিক? (i) মায়োপিয়া - অবতল লেন্স (ii) হাইপারমেট্রোপিয়া - উত্তল লেন্স (iii) প্রেসবায়োপিয়া - দ্বিফোকাস লেন্স (iv) অ্যাস্টিগমাটিজম - গোলীয় লেন্স",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-013",
+      "question": "বর্জ্য জল পরিশোধনে সক্রিয় স্লাজ পদ্ধতি মূলত দূর করে-",
+      "options": [
+        "ভারী ধাতু",
+        "দ্রবীভূত লবণ",
+        "জৈব দূষক",
+        "তেজস্ক্রিয়তা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-014",
+      "question": "টক খাবারে উপস্থিত অ্যাসিড কোনটি?",
+      "options": [
+        "সালফিউরিক অ্যাসিড",
+        "সাইট্রিক অ্যাসিড",
+        "নাইট্রিক অ্যাসিড",
+        "হাইড্রোক্লোরিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-01-015",
+      "question": "একটি লোহার দণ্ডের দৈর্ঘ্য 10m, তাপমাত্রা 20°C থেকে 40°C বাড়ানো হলে প্রসারণ কত? (α = 12 × 10⁻⁶ /°C)",
+      "options": [
+        "2.4 mm",
+        "0.24 mm",
+        "4.8 mm",
+        "1.2 mm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-01-016",
+      "question": "তাপ ও তাপমাত্রার মধ্যে সম্পর্ক কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ তাপমাত্রার কারণ",
+        "তাপমাত্রা তাপের ফলাফল",
+        "তাপমাত্রা তাপ প্রবাহ নির্দেশ করে",
+        "দুটি একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-01-017",
+      "question": "নিচের কোন যন্ত্রটি বিভব পার্থক্যের ওপর নির্ভর করে চলে না?",
+      "options": [
+        "বৈদ্যুতিক ইস্ত্রি",
+        "ফ্রিজ",
+        "ফিউজ",
+        "মোটর"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-018",
+      "question": "Ca পরমাণু (Z=20) এর ক্ষেত্রে সঠিক কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "এটি ক্ষারীয় মৃত্তিকা ধাতু",
+        "এর যোজ্যতা 2",
+        "এর ইলেকট্রন বিন্যাস 2,8,8,2",
+        "এটি নিষ্ক্রিয় গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-01-019",
+      "question": "তড়িৎ চুম্বক আবেশের একটি ব্যবহারিক উদাহরণ কোনটি?",
+      "options": [
+        "বৈদ্যুতিক বাল্ব",
+        "ট্রান্সফরমার",
+        "ফিউজ",
+        "হিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-020",
+      "question": "এসি জেনারেটরের স্থির অংশকে কী বলে?",
+      "options": [
+        "আর্মেচার",
+        "স্টেটর",
+        "রটার",
+        "কমিউটেটর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-021",
+      "question": "নিচের কোনটি ব্যাপন ক্রিয়া নয়?",
+      "options": [
+        "ধূপের গন্ধ ছড়ানো",
+        "জলের মধ্যে কালির বিস্তার",
+        "মাটির কলসিতে জল ঠান্ডা হওয়া",
+        "চিনি জলে মিশে যাওয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-022",
+      "question": "মোমবাতির দহন—",
+      "options": [
+        "কেবল ভৌত পরিবর্তন",
+        "কেবল রাসায়নিক পরিবর্তন",
+        "ভৌত ও রাসায়নিক উভয় পরিবর্তন",
+        "কোনো পরিবর্তন নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-023",
+      "question": "শেইভিং ক্রিম (Shaving cream) কী ধরনের কলোয়েড?",
+      "options": [
+        "Sol",
+        "Foam",
+        "Emulsion",
+        "Gel"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-01-024",
+      "question": "লাল আলো প্রিজমের মধ্য দিয়ে গেলে কীরূপ বর্ণপাত দেখা যায়?",
+      "options": [
+        "সাত রঙের",
+        "লাল রঙের",
+        "বর্ণহীন",
+        "নীল রঙের"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-025",
+      "question": "[NUMERICAL] 1 mole গ্লুকোজে (C6H12O6) আছে—",
+      "options": [
+        "180 g ভর",
+        "6 mole কার্বন পরমাণু",
+        "12 mole হাইড্রোজেন পরমাণু",
+        "1 mole অণু"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-01-026",
+      "question": "স্থিরানুপাত সূত্র (Law of Constant Proportions) অনুযায়ী—",
+      "options": [
+        "যৌগের উপাদান মৌলদের ভরের অনুপাত সর্বদা স্থির",
+        "এটি ডাল্টনের পরমাণুবাদের সাথে সংগতিপূর্ণ",
+        "এটি সব রাসায়নিক যৌগের ক্ষেত্রে প্রযোজ্য",
+        "এটি কেবল গ্যাসীয় পদার্থের জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-01-027",
+      "question": "পলিথিন নিচের কোন মনোমার থেকে তৈরি?",
+      "options": [
+        "ইথিন",
+        "ইথিন",
+        "মিথেন",
+        "প্রোপেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-028",
+      "question": "নিচের কোনটি পলিমারের উদাহরণ? (i) পলিথিন (ii) পিভিসি (iii) স্টার্চ (iv) গ্লুকোজ",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-01-029",
+      "question": "একটি আদর্শ গ্যাসের উষ্ণতা বাড়ালে—",
+      "options": [
+        "অণুগুলির গড় বেগ বাড়ে",
+        "অণুগুলির গড় গতিশক্তি বাড়ে",
+        "অণুগুলির সংঘর্ষের সংখ্যা বাড়ে",
+        "অণুগুলির ভর বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-01-030",
+      "question": "তাপ প্রয়োগ ও তাপ নিষ্কাশনের ওপর ভিত্তি করে কোন যন্ত্র কাজ করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ ইঞ্জিন",
+        "রেফ্রিজারেটর",
+        "হিটার",
+        "বৈদ্যুতিক বাতি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

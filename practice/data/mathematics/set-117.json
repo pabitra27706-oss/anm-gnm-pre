@@ -1,0 +1,540 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 117,
+  "questions": [
+    {
+      "id": "am-117-001",
+      "question": "যদি A একটি কাজ 10 দিনে করে তবে A-এর 1 দিনের কাজ কত?",
+      "options": [
+        "1/5",
+        "1/8",
+        "1/9",
+        "1/10"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-117-002",
+      "question": "উপরের প্রশ্নের স্রোতের গতি কত?",
+      "options": [
+        "3 km/h",
+        "4 km/h",
+        "5 km/h",
+        "6 km/h"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-003",
+      "question": "24 এবং 36-এর গসাগু ও লসাগুর গুণফল কত?",
+      "options": [
+        "864",
+        "720",
+        "576",
+        "432"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-004",
+      "question": "5টি সংখ্যার গড় 30। 2টি নতুন সংখ্যা যোগ করলে গড় 32 হয়। নতুন সংখ্যা দুটির গড় কত?",
+      "options": [
+        "35",
+        "37",
+        "39",
+        "41"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-005",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 3 ও 5 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 6 ঘন্টায় খালি হয়। চৌবাচ্চা খালি থাকলে তিনটি একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A পাইপের ভরার হার = 1/3, B পাইপের = 1/5, নালার খালির হার = 1/6",
+        "নিট ভরার হার = 1/3 + 1/5 - 1/6 = (10+6-5)/30 = 11/30",
+        "চৌবাচ্চা ভরতে সময় = 30/11 ≈ 2.73 ঘন্টা",
+        "30/11 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-117-006",
+      "question": "A একটি কাজ 24 দিনে করে, B 36 দিনে করে। A একা কাজ শুরু করে কয়েক দিন পর B যোগ দেয় এবং কাজটি 18 দিনে শেষ হয়। A কত দিন একা কাজ করেছিল?",
+      "options": [
+        "6 দিন",
+        "8 দিন",
+        "10 দিন",
+        "12 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-007",
+      "question": "16, 24 এবং 40-এর গসাগু কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-008",
+      "question": "3 বছরের CI ও SI-এর পার্থক্যের সূত্র কোনটি?",
+      "options": [
+        "P(R/100)²",
+        "P(R/100)² × 3",
+        "P(R/100)² × (3 + R/100)",
+        "P(R/100)² × (R/100)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-009",
+      "question": "8% হারে কত টাকার 2 বছরের সরল সুদ 800 টাকা হবে?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-010",
+      "question": "একটি ট্রেন খুঁটি অতিক্রম সম্পর্কে সঠিক:",
+      "options": [
+        "সময় = ট্রেনের দৈর্ঘ্য / গতি",
+        "ট্রেনের দৈর্ঘ্য = গতি × সময়",
+        "গতি = ট্রেনের দৈর্ঘ্য / সময়",
+        "প্ল্যাটফর্মের দৈর্ঘ্য বিবেচনা করতে হয় না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-117-011",
+      "question": "পাটিগণিত ও বীজগণিতের মধ্যে সম্পর্ক কী?",
+      "options": [
+        "বীজগণিত পাটিগণিতের সাধারণ রূপ",
+        "পাটিগণিত সংখ্যা নিয়ে কাজ করে, বীজগণিত চলক নিয়ে",
+        "পাটিগণিতের নিয়ম বীজগণিতেও প্রযোজ্য",
+        "উভয়ের মধ্যে কোনো সম্পর্ক নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-117-012",
+      "question": "দূরত্ব = 120 কিমি, গতি = 40 km/h। সময় কত?",
+      "options": [
+        "3 ঘন্টা",
+        "120/40 = 3 ঘন্টা",
+        "3 ঘন্টা = 180 মিনিট",
+        "3.5 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-117-013",
+      "question": "30 জন শ্রমিক একটি কাজ 18 দিনে করতে পারে। কাজটি 12 দিনে করতে চাইলে কত জন শ্রমিক লাগবে?",
+      "options": [
+        "40 জন",
+        "42 জন",
+        "45 জন",
+        "48 জন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-014",
+      "question": "একটি জিনিস 1020 টাকায় বিক্রয় করাতে 15% ক্ষতি হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "1100 টাকা",
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-015",
+      "question": "একটি জিনিস 10% লাভে বিক্রয় করলে এবং 5% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্যের পার্থক্য 60 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "300 টাকা",
+        "400 টাকা",
+        "500 টাকা",
+        "600 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-016",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 144 টাকা। সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "40000 টাকা",
+        "38000 টাকা",
+        "36000 টাকা",
+        "35000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-017",
+      "question": "7 সেমি ব্যাসার্ধবিশিষ্ট অর্ধবৃত্তের ক্ষেত্রফল কত? (π = 22/7)",
+      "options": [
+        "44 বর্গসেমি",
+        "56 বর্গসেমি",
+        "77 বর্গসেমি",
+        "154 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-018",
+      "question": "a : b = 1 : 2, b : c = 3 : 4, c : d = 5 : 6 হলে a : d কত এবং a : b : c : d কত?",
+      "options": [
+        "a : d = 15 : 48 = 5 : 16",
+        "a : b : c : d = 15 : 30 : 40 : 48",
+        "a : d = 1 : 6",
+        "a : b : c : d = 1 : 2 : 3 : 4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-019",
+      "question": "(2/3) × (3/5) = ?",
+      "options": [
+        "6/15",
+        "2/5",
+        "5/8",
+        "1/5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-117-020",
+      "question": "একই বিক্রয়মূল্যে একটি জিনিস লাভে ও অপরটি ক্ষতিতে বিক্রয় করলে সামগ্রিক ফলাফল কী কী সত্য?",
+      "options": [
+        "সবসময় ক্ষতি হয়",
+        "ক্ষতির হার = (x/10)²",
+        "লাভের হার = (x/10)²",
+        "20% লাভ ও 20% ক্ষতিতে 4% ক্ষতি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-117-021",
+      "question": "একটি ট্রেন 40 m/s বেগে 480 মিটার দীর্ঘ সেতু অতিক্রম করে 16 সেকেন্ডে। ট্রেনের দৈর্ঘ্য:",
+      "options": [
+        "মোট দূরত্ব = 40×16 = 640 মিটার",
+        "ট্রেন = 640-480 = 160 মিটার",
+        "160 মিটার",
+        "200 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-117-022",
+      "question": "নিচের রেখা লেখচিত্রে শেয়ার বাজার সূচক: Day1: 1500, Day2: 1600, Day3: 1550, Day4: 1700, Day5: 1650 Day2 থেকে Day4 কত বৃদ্ধি পেয়েছে?",
+      "options": [
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-117-023",
+      "question": "65% -এর সমতুল্য:",
+      "options": [
+        "0.65",
+        "13/20",
+        "65/100",
+        "0.065"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-117-024",
+      "question": "একটি দ্বিঘাত সমীকরণের সাধারণ রূপ ax² + bx + c = 0-তে নিচের কোনটি সত্য?",
+      "options": [
+        "a ≠ 0",
+        "a, b, c বাস্তব সংখ্যা",
+        "x চলক",
+        "b = 0 হতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-117-025",
+      "question": "একটি জিনিস 10% লাভে বিক্রয় করা হলো। যদি এটি 10% কম দামে কেনা হতো এবং 10% বেশি দামে বিক্রয় করা হতো তাহলে লাভ হতো 20 টাকা বেশি। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-026",
+      "question": "2.5 × 10⁴-এর মান কত?",
+      "options": [
+        "250",
+        "2500",
+        "25000",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-117-027",
+      "question": "8000 টাকার বার্ষিক 5% হার 2 বছরের ত্রৈমাসিক চক্রবৃদ্ধি সুদে সুদ-আসল কত?",
+      "options": [
+        "8800 টাকা",
+        "8820 টাকা",
+        "8830 টাকা",
+        "8850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-117-028",
+      "question": "একটি কাজ A 6 দিনে করে, B 8 দিনে করে, C 12 দিনে করে। A ও B একসাথে 2 দিন কাজ করার পর C যোগ দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/6+1/8 = 7/24",
+        "2 দিনে করে = 14/24 = 7/12",
+        "বাকি কাজ = 5/12",
+        "A, B, C একসাথে 1 দিনে কাজ করে = 1/6+1/8+1/12 = (4+3+2)/24 = 9/24 = 3/8 → সময় = (5/12)/(3/8) = (5/12)×(8/3) = 40/36 = 10/9 ≈ 1.11 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-117-029",
+      "question": "বার্ষিক 10% হারে কত টাকার 2 বছরের CI ও SI-এর পার্থক্য 100 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-117-030",
+      "question": "2 জন পুরুষ 3 দিনে একটি কাজ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "একটি পুরুষ 1 দিনে 1/6 কাজ করে",
+        "3 জন পুরুষ 2 দিনে কাজটি করবে",
+        "6 জন পুরুষ 1 দিনে কাজটি করবে",
+        "কাজটি সম্পূর্ণ করতে 6 জন-দিন প্রয়োজন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

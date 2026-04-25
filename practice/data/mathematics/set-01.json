@@ -1,0 +1,531 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 1,
+  "questions": [
+    {
+      "id": "am-01-001",
+      "question": "নিচের কোন জোড়াগুলিতে লাভ% একই?",
+      "options": [
+        "CP=500, SP=600 এবং CP=1000, SP=1200",
+        "উভয় ক্ষেত্রেই লাভ% = 20%",
+        "CP=400, SP=500 এবং CP=800, SP=1000",
+        "প্রথমটিতে 25%, দ্বিতীয়টিতে 25%"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-01-002",
+      "question": "একটি নৌকা স্থির জলে 12 km/h, স্রোত 3 km/h:",
+      "options": [
+        "Downstream = 15 km/h",
+        "Upstream = 9 km/h",
+        "45 কিমি downstream যেতে 3 ঘন্টা",
+        "45 কিমি upstream যেতে 5 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-01-003",
+      "question": "পাইপ ও চৌবাচ্চা সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "ভরার পাইপের গতি (+) এবং খালির পাইপের গতি (-) ধরা হয়",
+        "নিট গতি = ভরার পাইপের গতি - খালির পাইপের গতি",
+        "নিট গতি ধনাত্মক হলে চৌবাচ্চা ভরবে",
+        "নিট গতি ঋণাত্মক হলে চৌবাচ্চা খালি হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-01-004",
+      "question": "15 m/s -কে km/h -এ রূপান্তর করুন।",
+      "options": [
+        "48 km/h",
+        "50 km/h",
+        "54 km/h",
+        "60 km/h"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-005",
+      "question": "একটি বৃত্তের ব্যাসার্ধ r, একটি বর্গক্ষেত্রের বাহু a। তাদের ক্ষেত্রফল সমান হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "r²π = a²",
+        "a = r√π",
+        "r = a/√π",
+        "a/r = √π"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-01-006",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 64 টাকা। সুদের হার 8% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "12000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-007",
+      "question": "1/10 -এর সমতুল্য:",
+      "options": [
+        "10%",
+        "0.1",
+        "10/100",
+        "0.01"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-01-008",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 36 টাকা। সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "12000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-009",
+      "question": "25, 30, 35, 40, 45, 50 এর গড় কত?",
+      "options": [
+        "35",
+        "36",
+        "37.5",
+        "38"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-010",
+      "question": "30, 42, 54, 66-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 6",
+        "LCM = 13860",
+        "LCM = 6930",
+        "6 × 13860 = 30×42×54×66"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-01-011",
+      "question": "একটি বর্গক্ষেত্রের ক্ষেত্রফল A ও পরিসীমা P হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A = P²/16",
+        "P = 4√A",
+        "A = (P/4)²",
+        "P = √(16A)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-01-012",
+      "question": "একজন অসাধু দোকানদার 1 কেজির জায়গায় 800 গ্রাম দেয়। নিচের কোনটি সঠিক?",
+      "options": [
+        "লাভ = 25%",
+        "(1000-800)/800 × 100% = 25%",
+        "লাভ = 20%",
+        "লাভ = 30%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-013",
+      "question": "একটি জিনিস 15% লাভে বিক্রয় করলে লাভ 75 টাকা। জিনিসটির বিক্রয়মূল্য কত?",
+      "options": [
+        "500 টাকা",
+        "525 টাকা",
+        "550 টাকা",
+        "575 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-014",
+      "question": "একটি ব্যক্তি প্রথম 10 কিমি 5 km/h, পরবর্তী 20 কিমি 10 km/h এবং শেষ 15 কিমি 15 km/h গতিতে যায়। গড় গতিবেগ কত?",
+      "options": [
+        "9 km/h",
+        "10 km/h",
+        "11 km/h",
+        "12 km/h"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-01-015",
+      "question": "দুটি ক্রমিক জোড় সংখ্যার যোগফল 30 হলে, বড়ো সংখ্যাটি কত?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-016",
+      "question": "6x + 12-এর উৎপাদক কী?",
+      "options": [
+        "6(x + 2)",
+        "2(x + 6)",
+        "3(2x + 4)",
+        "12(x/2 + 1)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-017",
+      "question": "একটি শহরের লোকসংখ্যা 2 বছরে 20% বৃদ্ধি পেয়ে 72000 হলে, প্রারম্ভিক জনসংখ্যা কত?",
+      "options": [
+        "48000",
+        "49000",
+        "50000",
+        "52000"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-01-018",
+      "question": "একটি বৃত্তের ব্যাসার্ধ 10% বৃদ্ধি করলে পরিধি কত% বৃদ্ধি পাবে?",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "20%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-019",
+      "question": "ক্রয়মূল্য বলতে কী বোঝায়?",
+      "options": [
+        "যে দামে জিনিস কেনা হয়",
+        "যে দামে জিনিস বিক্রি করা হয়",
+        "জিনিসের চিহ্নিত দাম",
+        "ছাড়ের পরের দাম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-020",
+      "question": "কোনো টাকার 2 বছরের CI 420 টাকা এবং SI 400 টাকা। মূলধন কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-01-021",
+      "question": "2000 টাকার 8 মাসে 9% হারে সরল সুদ কত?",
+      "options": [
+        "110 টাকা",
+        "115 টাকা",
+        "120 টাকা",
+        "125 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-022",
+      "question": "√2 দশমিক বিস্তার কীরূপ?",
+      "options": [
+        "সসীম",
+        "আবৃত্ত",
+        "অনাবৃত্ত অসীম",
+        "পূর্ণসংখ্যা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-023",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য 5 সেমি, প্রস্থ 4 সেমি ও উচ্চতা 3 সেমি। সমগ্রতলের ক্ষেত্রফল ও আয়তন কত?",
+      "options": [
+        "সমগ্রতলের ক্ষেত্রফল = 2(20+12+15) = 2×47 = 94 বর্গসেমি",
+        "আয়তন = 60 ঘনসেমি",
+        "সমগ্রতলের ক্ষেত্রফল = 94 বর্গসেমি",
+        "আয়তন = 60 ঘনসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-01-024",
+      "question": "P = 5000, R = 10%, T = 2.5 বছর। সরল সুদ কত?",
+      "options": [
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-025",
+      "question": "9x² - 49 = ?",
+      "options": [
+        "(3x + 7)(3x - 7)",
+        "(9x + 7)(x - 7)",
+        "(3x - 7)²",
+        "(9x - 7)²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-026",
+      "question": "1440-এর 15% = ?",
+      "options": [
+        "210",
+        "214",
+        "216",
+        "218"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-027",
+      "question": "নিচের কোনটি অখণ্ড সংখ্যা নয়?",
+      "options": [
+        "-3",
+        "0",
+        "½",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-028",
+      "question": "একটি বাক্সে লাল ও সবুজ মার্বেলের অনুপাত 4 : 7। সবুজ মার্বেলের সংখ্যা 42 হলে লাল মার্বেলের সংখ্যা কত?",
+      "options": [
+        "18",
+        "24",
+        "28",
+        "35"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-01-029",
+      "question": "0.25-এর বর্গমূল কত?",
+      "options": [
+        "0.5",
+        "0.05",
+        "0.005",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-01-030",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য 12 সেমি, প্রস্থ 8 সেমি ও উচ্চতা 5 সেমি। আয়তঘনটির কর্ণের দৈর্ঘ্য কত?",
+      "options": [
+        "√113 সেমি",
+        "√233 সেমি",
+        "√353 সেমি",
+        "√433 সেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

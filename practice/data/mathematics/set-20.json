@@ -1,0 +1,537 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 20,
+  "questions": [
+    {
+      "id": "am-20-001",
+      "question": "16, 28, 40, 52-এর গসাগু কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-002",
+      "question": "1200-এর 15% + 800-এর 10% = কত?",
+      "options": [
+        "140",
+        "180",
+        "220",
+        "260"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-003",
+      "question": "3, 5, 7, 11, 13 এরা কী কী?",
+      "options": [
+        "যৌগিক সংখ্যা",
+        "জোড় সংখ্যা",
+        "মৌলিক সংখ্যা",
+        "পূর্ণবর্গ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-20-004",
+      "question": "3.25 বছর = কত মাস?",
+      "options": [
+        "36 মাস",
+        "38 মাস",
+        "39 মাস",
+        "40 মাস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-005",
+      "question": "একজন ব্যক্তি 9000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 10890 টাকা",
+        "চক্রবৃদ্ধি সুদ 1890 টাকা",
+        "সরল সুদে পেতেন 1800 টাকা",
+        "CI - SI = 90 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-20-006",
+      "question": "10টি সংখ্যার গড় 40। প্রতিটি সংখ্যা থেকে 5 বিয়োগ করলে নতুন গড় কত?",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "35"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-007",
+      "question": "কোন শ্রেণির 20 জন ছাত্রের গড় নম্বর 70। পরে দেখা গেল 2 জনের নম্বর ভুল করে 40 এবং 50 এর পরিবর্তে 30 ও 40 লেখা হয়েছিল। সঠিক গড় কত?",
+      "options": [
+        "70",
+        "71",
+        "72",
+        "73"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-20-008",
+      "question": "নিচের কোনটি 8 দিয়ে বিভাজ্য?",
+      "options": [
+        "1111",
+        "2222",
+        "3333",
+        "4444"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-20-009",
+      "question": "একটি ঘনকের আয়তন 125 ঘনসেমি। ঘনকটির সমগ্রতলের ক্ষেত্রফল কত?",
+      "options": [
+        "100 বর্গসেমি",
+        "125 বর্গসেমি",
+        "150 বর্গসেমি",
+        "175 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-010",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 6 দিনে করে, B একা 8 দিনে করে → A ও B একসাথে 24/7 দিনে করে",
+        "A ও B একসাথে 10 দিনে করে, A একা 15 দিনে করে → B একা 30 দিনে করে",
+        "A ও B একসাথে 12 দিনে করে, B একা 18 দিনে করে → A একা 36 দিনে করে",
+        "A ও B একসাথে 8 দিনে করে, A একা 12 দিনে করে → B একা 24 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-20-011",
+      "question": "25, 35 এবং 45-এর গসাগু কত?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-012",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 6 ঘন্টায় ভরাতে পারে। একটি ছিদ্র থাকায় চৌবাচ্চাটি ভর bias 8 ঘন্টা লাগে। ছিদ্রটি একাই চৌবাচ্চাটি কত ঘন্টায় খালি করবে?",
+      "options": [
+        "20 ঘন্টা",
+        "22 ঘন্টা",
+        "24 ঘন্টা",
+        "26 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-20-013",
+      "question": "একটি সমবাহু ত্রিভুজের পরিসীমা 36 সেমি। ক্ষেত্রফল কত? (√3 = 1.732)",
+      "options": [
+        "48 বর্গসেমি",
+        "56.25 বর্গসেমি",
+        "62.35 বর্গসেমি",
+        "75 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-20-014",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 5x ও প্রস্থ 4x। ক্ষেত্রফল 80 হলে x-এর মান কত?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-015",
+      "question": "13, 17, 19-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 4199",
+        "4199, 39 দ্বারা বিভাজ্য নয়",
+        "এরা পরস্পর সহমৌলিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-20-016",
+      "question": "ট্রেনের দৈর্ঘ্য 180 মিটার, গতি 90 km/h। একটি প্ল্যাটফর্ম অতিক্রম করতে 16 সেকেন্ড লাগলে প্ল্যাটফর্মের দৈর্ঘ্য কত?",
+      "options": [
+        "200 মিটার",
+        "210 মিটার",
+        "220 মিটার",
+        "240 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-20-017",
+      "question": "একটি ঘরের দৈর্ঘ্য 8 মি, প্রস্থ 6 মি ও উচ্চতা 4 মি। ঘরটির চার দেওয়ালের ক্ষেত্রফল কত?",
+      "options": [
+        "2 × 4 × (8+6) = 8 × 14 = 112 বর্গমি",
+        "পার্শ্বতলের ক্ষেত্রফল = 112 বর্গমি",
+        "মেঝের ক্ষেত্রফল = 48 বর্গমি",
+        "ছাদের ক্ষেত্রফল = 48 বর্গমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-20-018",
+      "question": "সূত্রের পুনর্বিন্যাস (rearrangement) করার সময় কী কী জানা দরকার?",
+      "options": [
+        "কোন চলককে উল্লেখ্য করতে হবে",
+        "সমীকরণের উভয়পক্ষে একই ক্রিয়া প্রয়োগ",
+        "চিহ্ন পরিবর্তনের নিয়ম",
+        "সবসময় ধ্রুবক নির্ণয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-20-019",
+      "question": "A ও B বিপরীত দিক থেকে 200 মিটার দূরত্বে থেকে 5 m/s ও 7 m/s বেগে এগিয়ে এলে কত সময়ে মিলিত হবে?",
+      "options": [
+        "15.67 সেকেন্ড",
+        "16.67 সেকেন্ড",
+        "17.67 সেকেন্ড",
+        "18.67 সেকেন্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-020",
+      "question": "নিচের কোন কোনটি সদৃশ পদ?",
+      "options": [
+        "3x, 7x",
+        "5y, -2y",
+        "2x, 2y",
+        "4ab, 5ab"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-20-021",
+      "question": "নিচের দণ্ড লেখচিত্রে বিভিন্ন ফলের ওজন (কেজি): Apple: 5, Banana: 3, Mango: 7, Orange: 4, Grape: 2 মোট ওজন কত কেজি?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-20-022",
+      "question": "0.75 -এর সমতুল্য:",
+      "options": [
+        "75%",
+        "3/4",
+        "0.750",
+        "7.5%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-20-023",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 5 দিনে করে, B একা 7 দিনে করে → A ও B একসাথে 35/12 দিনে করে → 1 দিনে 12/35 অংশ কাজ করে",
+        "A ও B একসাথে 6 দিনে করে, A একা 9 দিনে করে → A ও B একসাথে 1 দিনে 1/6 কাজ করে, A একা 1/9 কাজ করে → B একা 1/6 - 1/9 = 3/18 - 2/18 = 1/18 → B 18 দিনে করে",
+        "A ও B একসাথে 8 দিনে করে, B একা 12 দিনে করে → A ও B একসাথে 1/8, B একা 1/12 → A একা 1/8 - 1/12 = 3/24 - 2/24 = 1/24 → A 24 দিনে করে",
+        "A ও B একসাথে 10 দিনে করে, A একা 15 দিনে করে → B একা 30 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-20-024",
+      "question": "5, 7, 9, 11, x এর গড় 10 হলে x এর মান কত?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-025",
+      "question": "একটি দ্রব্য 10% লাভে বিক্রয় করলে SP = 660 টাকা এবং 15% লাভে বিক্রয় করলে SP = 690 টাকা। নিচের কোনটি সঠিক?",
+      "options": [
+        "CP = 600 টাকা",
+        "লাভের পার্থক্য = 30 টাকা",
+        "CP = 500 টাকা",
+        "লাভের পার্থক্য = 50 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-026",
+      "question": "16, 28, 40, 52-এর লসাগু কত?",
+      "options": [
+        "3640",
+        "5460",
+        "7280",
+        "10920"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-20-027",
+      "question": "ত্রৈমাসিক চক্রবৃদ্ধি সুদে সুদ কত মাস অন্তর মূলধনে যোগ হয়?",
+      "options": [
+        "6 মাস",
+        "4 মাস",
+        "3 মাস",
+        "2 মাস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-20-028",
+      "question": "A একটি কাজ 5 দিনে করে, B 7 দিনে করে। তারা একসাথে কাজ করে 1200 টাকা পেলে B কত পাবে?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-20-029",
+      "question": "6টি জিনিসের ক্রয়মূল্য 5টি জিনিসের বিক্রয়মূল্যের সমান হলে লাভের শতকরা হার কত?",
+      "options": [
+        "15%",
+        "18%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-20-030",
+      "question": "একটি বাস 50 km/h গতিতে 2.5 ঘন্টায় একটি গন্তব্যে পৌঁছে। ফেরার পথে গতি 40 km/h:",
+      "options": [
+        "যেতে দূরত্ব = 125 কিমি",
+        "ফেরাতে সময় = 3.125 ঘন্টা",
+        "মোট সময় = 5.625 ঘন্টা",
+        "গড় গতি = 44.44 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

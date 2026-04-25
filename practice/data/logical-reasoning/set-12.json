@@ -1,0 +1,540 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 12,
+  "questions": [
+    {
+      "id": "rg-12-001",
+      "question": "বিবৃতি: (I) কোনো ধাতু তরল নয়। (II) সমস্ত তরল প্রবাহিত হতে পারে। সিদ্ধান্ত: I. কোনো ধাতু প্রবাহিত হতে পারে না। II. কিছু প্রবাহিত পদার্থ ধাতু নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-002",
+      "question": "যদি \"A\" = 1, \"B\" = 4, \"C\" = 9, \"D\" = 16 হয়, তবে \"E\" = ?",
+      "options": [
+        "20",
+        "25",
+        "24",
+        "26"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-003",
+      "question": "ক্যালেন্ডার পাজল সংক্রান্ত নিচের কোন তথ্যগুলি সঠিক? (Multiple Correct)",
+      "options": [
+        "একটি সাধারণ বছরে 365 দিন = 52 সপ্তাহ + 1 দিন",
+        "একটি লিপ ইয়ারে 366 দিন = 52 সপ্তাহ + 2 দিন",
+        "যদি 1লা জানুয়ারি রবিবার হয়, তাহলে 31শে ডিসেম্বর রবিবার হবে সাধারণ বছরে",
+        "লিপ ইয়ারে ফেব্রুয়ারি মাসে 29 দিন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-12-004",
+      "question": "একজন ব্যক্তি উত্তর দিকে মুখ করে থাকলে, তার সাপেক্ষে কোন বক্তব্য ঠিক? (একাধিক উত্তর)",
+      "options": [
+        "তার ডান দিক পূর্ব",
+        "তার বাম দিক পশ্চিম",
+        "তার পিছন দক্ষিণ",
+        "সামনে উত্তর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-12-005",
+      "question": "বিবৃতি: (I) কিছু ডাক্তার অস্ত্রোপচারবিদ। (II) কোনো অস্ত্রোপচারবিদ কাপুরুষ নয়। সিদ্ধান্ত: I. কিছু ডাক্তার কাপুরুষ নয়। II. কোনো ডাক্তার কাপুরুষ নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-006",
+      "question": "বিবৃতি: (I) সমস্ত স্বাস্থ্যকেন্দ্র চিকিৎসালয় নয়। (II) কিছু স্বাস্থ্যকেন্দ্র গ্রামীণ। সিদ্ধান্ত: I. কিছু গ্রামীণ প্রতিষ্ঠান চিকিৎসালয় নয়। II. কিছু চিকিৎসালয় স্বাস্থ্যকেন্দ্র নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-007",
+      "question": "নিচের কোন নির্দেশগুলি সঠিকভাবে মিলেছে?",
+      "options": [
+        "কাকিমা - কাকার স্ত্রী",
+        "জ্যাঠা - বাবার বড় ভাই",
+        "মেসো - মায়ের বোনের স্বামী",
+        "ফুপা - বাবার বোনের স্বামী"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-12-008",
+      "question": "পূর্ব-উত্তর কোণকে কী বলা হয়?",
+      "options": [
+        "45° North of East",
+        "90° East",
+        "180° South",
+        "0° North"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-12-009",
+      "question": "বিবৃতি I: পশ্চিমবঙ্গ সরকার স্বাস্থ্য সাথী কার্ড চালু করেছে। বিবৃতি II: দরিদ্র রোগীরা বিনামূল্যে চিকিৎসা পাচ্ছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-12-010",
+      "question": "বিবৃতি I: মালদহে আম বাগানের ফলন ভালো হয়েছে। বিবৃতি II: মালদহের আমের দাম কমেছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-12-011",
+      "question": "25, 50, 75, 100, 125, ?",
+      "options": [
+        "140",
+        "145",
+        "150",
+        "160"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-12-012",
+      "question": "Z, Y, X, W, ?",
+      "options": [
+        "U",
+        "T",
+        "V",
+        "S"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-12-013",
+      "question": "CRICKET : BAT : : ? : ?",
+      "options": [
+        "TENNIS : RACKET",
+        "HOCKEY : STICK",
+        "FOOTBALL : GOALPOST",
+        "BASEBALL : BAT"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-12-014",
+      "question": "একটি বৃত্তে আটজন বসে। নিচের কোন তথ্যগুলি সঠিকভাবে বিন্যাস নির্ণয়ে সাহায্য করে? (Multiple Correct)",
+      "options": [
+        "A, B এর বিপরীতে",
+        "C, D এর ডানে দ্বিতীয়",
+        "E, F এর বাঁয়ে তৃতীয়",
+        "G ও H পাশাপাশি বসে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-12-015",
+      "question": "AC, EG, IK, MO, ?",
+      "options": [
+        "PS",
+        "PR",
+        "QS",
+        "QT"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-016",
+      "question": "একজন ব্যক্তি একটি ছবির দিকে ইঙ্গিত করে বলল, \"এই ব্যক্তির মা আমার মায়ের একমাত্র কন্যা।\" ছবির ব্যক্তিটি তার কী হয়?",
+      "options": [
+        "ভাগ্নে",
+        "বোন",
+        "মেয়ে",
+        "ছেলে"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-017",
+      "question": "নিচের কোন বর্ণ জোড়াটি একই নিয়মে তৈরি?",
+      "options": [
+        "AB : BC :: CD : DE",
+        "MN : NO :: OP : PQ",
+        "XY : YZ :: ZA : AB",
+        "PQ : QR :: RS : ST"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-12-018",
+      "question": "A2, C4, E6, G8, ?",
+      "options": [
+        "H10",
+        "I9",
+        "I10",
+        "J10"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-12-019",
+      "question": "Z, U, P, K, F, ? - নিচের কোনটি সঠিক?",
+      "options": [
+        "পার্থক্য: 5, 5, 5, 5, 5",
+        "পিছনের দিকে 5 করে কমছে",
+        "পরবর্তী পদ A",
+        "পরবর্তী পদ B"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-12-020",
+      "question": "সকালে সূর্যের দিকে মুখ করে দাঁড়ালে তোমার ছায়া কোন দিকে পড়বে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-12-021",
+      "question": "AC, CE, EG, GI, ?",
+      "options": [
+        "HJ",
+        "IK",
+        "HK",
+        "IL"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-12-022",
+      "question": "নিচের কোন কোন সংখ্যাগুলি 3, 12, 27, 48, 75, ? সিরিজের পরবর্তী পদ হতে পারে?",
+      "options": [
+        "96",
+        "108",
+        "120",
+        "147"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-12-023",
+      "question": "একদল লোকে 45 জন Cricket খেলে, 40 জন Football খেলে, 15 জন উভয়ই খেলে। কতজন শুধু Football খেলে?",
+      "options": [
+        "30",
+        "25",
+        "15",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-12-024",
+      "question": "ঘড়ির কাঁটার কোণ সংক্রান্ত নিচের কোন সূত্রটি সঠিক? (Multiple Correct)",
+      "options": [
+        "কোণ = |30H - 5.5M|, যেখানে H = ঘণ্টা, M = মিনিট",
+        "3 টায় কোণ = 90°",
+        "6 টায় কোণ = 180°",
+        "12 টায় কোণ = 0°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-12-025",
+      "question": "সূর্যোদয়ের সময় একটি পতাকার ছায়া যদি পতাকা দণ্ডের ডানদিকে পড়ে, তবে পতাকাটি কোন দিকে উড়ছে (পতাকা যেদিকে উড়ে, তার বিপরীত দিকে ছায়া নয়, পতাকা পশ্চিম দিকে ওড়ে, মুখ পূর্ব, ছায়া পশ্চিমে, ডানদিকে মানে ...)?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-026",
+      "question": "বিবৃতি I: নোংরা পরিবেশে থাকলে সংক্রমণের ঝুঁকি বাড়ে। বিবৃতি II: সঠিক স্যানিটেশনের গুরুত্ব অপরিসীম।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-12-027",
+      "question": "যদি RED = 1854, তবে নিচের কোন সম্পর্ক সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "BLUE = 212215",
+        "GREEN = 7185514",
+        "PINK = 1691411",
+        "BLACK = 2121311"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-12-028",
+      "question": "বিবৃতি: \"মোবাইল ফোন স্বাস্থ্যের জন্য ক্ষতিকর হতে পারে।\" অনুমান: (Multiple Correct) I. মোবাইল ফোনের বিকিরণ ক্ষতিকর। II. মানুষ দীর্ঘ সময় মোবাইল ব্যবহার করে। III. মোবাইল ফোন এড়িয়ে চলা উচিত। IV. গবেষণা এটা প্রমাণ করেছে।",
+      "options": [
+        "I, II, III",
+        "I, II, IV",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-12-029",
+      "question": "2, 5, 10, 17, 26, ?",
+      "options": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-12-030",
+      "question": "বিবৃতি I: দোকানে হ্যান্ড স্যানিটাইজারের স্টক শেষ। বিবৃতি II: করোনা সংক্রমণের ভয়ে মানুষ বেশি স্যানিটাইজার কিনছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

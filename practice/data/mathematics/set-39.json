@@ -1,0 +1,514 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 39,
+  "questions": [
+    {
+      "id": "am-39-001",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 5/6 মিটার ও প্রস্থ 2/3 মিটার। ক্ষেত্রফল কত বর্গমিটার?",
+      "options": [
+        "5/9",
+        "10/18",
+        "7/9",
+        "5/18"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-002",
+      "question": "A একটি কাজ 8 দিনে করে, B 12 দিনে করে। A ও B একসাথে কাজ শুরু করে 2 দিন কাজ করার পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "6 দিন",
+        "7 দিন",
+        "8 দিন",
+        "9 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-39-003",
+      "question": "35% -এর সমতুল্য:",
+      "options": [
+        "0.35",
+        "7/20",
+        "35/100",
+        "0.035"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-39-004",
+      "question": "15 − [8 − {4 − (2 − 1)}] = ?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-39-005",
+      "question": "বৃত্তের ক্ষেত্রফলের সূত্র πr²। r = 7 হলে, ক্ষেত্রফল কত? (π = 22/7)",
+      "options": [
+        "154 বর্গএকক",
+        "44 বর্গএকক",
+        "22 বর্গএকক",
+        "308 বর্গএকক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-006",
+      "question": "একটি শ্রেণীর 30% ছাত্র ফেল করায় 42 জন পাস করল। মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-007",
+      "question": "একটি সংখ্যার 60% = 30 হলে, সংখ্যাটি কত?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-008",
+      "question": "7টি সংখ্যার গড় 25। দুটি সংখ্যা 20 ও 30 বাদ দিলে নতুন গড়:",
+      "options": [
+        "(175-50)/5 = 125/5 = 25",
+        "25",
+        "24",
+        "26"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-39-009",
+      "question": "500 টাকার 18% = ?",
+      "options": [
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-010",
+      "question": "দুটি সংখ্যার অনুপাত 5 : 7 এবং তাদের গসাগু 4 হলে সংখ্যা দুটি কী কী?",
+      "options": [
+        "20 ও 28",
+        "10 ও 14",
+        "5 ও 7",
+        "15 ও 21"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-011",
+      "question": "একটি দণ্ড লেখচিত্রে বিভিন্ন বিভাগে কর্মী: HR: 20, IT: 35, Sales: 25, Finance: 30 IT ও Sales এর মোট কর্মী কত?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-012",
+      "question": "5 জন শ্রমিক একটি কাজ 20 দিনে করে। একই কাজ 4 দিনে করতে কত জন শ্রমিক লাগবে?",
+      "options": [
+        "20 জন",
+        "25 জন",
+        "30 জন",
+        "35 জন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-013",
+      "question": "একটি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্যের অনুপাত 4:5। জিনিসটির লাভের শতকরা হার কত?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-014",
+      "question": "5, 10, 15, 20, 25, 30 এর গড়:",
+      "options": [
+        "17.5",
+        "105/6 = 17.5",
+        "18",
+        "19"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-39-015",
+      "question": "0.48 -এর সমতুল্য:",
+      "options": [
+        "48%",
+        "12/25",
+        "48/100",
+        "0.048"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-39-016",
+      "question": "15% ক্ষতিতে বিক্রয় করলে ক্ষতি 75 টাকা। দ্রব্যটির CP কত এবং 10% ক্ষতিতে SP কত?",
+      "options": [
+        "CP = 500 টাকা",
+        "10% ক্ষতিতে SP = 450 টাকা",
+        "CP = 600 টাকা",
+        "10% ক্ষতিতে SP = 540 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-017",
+      "question": "একটি কাজ A 8 দিনে, B 10 দিনে, C 12 দিনে করে। A ও B একসাথে 2 দিন কাজ করার পর C যোগ দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/8+1/10 = 9/40",
+        "2 দিনে করে = 18/40 = 9/20",
+        "বাকি কাজ = 11/20",
+        "A, B, C একসাথে 1 দিনে কাজ করে = 1/8+1/10+1/12 = (15+12+10)/120 = 37/120 → সময় = (11/20)/(37/120) = (11/20)×(120/37) = (11×6)/37 = 66/37 ≈ 1.78 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-39-018",
+      "question": "নিচের রেখা লেখচিত্রে জনসংখ্যা বৃদ্ধি (লক্ষে): 2000: 50, 2010: 65, 2020: 85, 2030: 110 2000 থেকে 2030 পর্যন্ত মোট বৃদ্ধি কত লক্ষ?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-019",
+      "question": "গোলকের পৃষ্ঠতলের ক্ষেত্রফল নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "4πr²",
+        "2πr²",
+        "6πr²",
+        "πr²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-020",
+      "question": "(−1) বিজোড় সংখ্যক বার গুণ করলে ফল কী?",
+      "options": [
+        "1",
+        "−1",
+        "0",
+        "সংজ্ঞায়িত নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-021",
+      "question": "(x - 2)³ = ?",
+      "options": [
+        "x³ - 6x² + 12x - 8",
+        "x³ - 8",
+        "x³ + 6x² + 12x + 8",
+        "x³ - 6x² - 12x - 8"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-022",
+      "question": "1000 টাকার 10% হারে 2 বছরে CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "5 টাকা",
+        "8 টাকা",
+        "10 টাকা",
+        "12 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-023",
+      "question": "একটি দ্রব্য 360 টাকায় বিক্রয় করাতে 10% ক্ষতি হয়। দ্রব্যটির ক্রয়মূল্য কত?",
+      "options": [
+        "380 টাকা",
+        "390 টাকা",
+        "400 টাকা",
+        "420 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-024",
+      "question": "1200 টাকার 5% = 60 টাকা। এটি সঠিক?",
+      "options": [
+        "হ্যাঁ",
+        "না, হবে 70 টাকা",
+        "না, হবে 50 টাকা",
+        "না, হবে 65 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-025",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 500 টাকা। 10% ছাড় দিয়ে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "430 টাকা",
+        "440 টাকা",
+        "450 টাকা",
+        "460 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-026",
+      "question": "গসাগু নির্ণয়ের ইউক্লিডীয় ভাগ পদ্ধতি কোন ধারণার ওপর ভিত্তি করে?",
+      "options": [
+        "বীজগণিত",
+        "ভগ্নাংশ",
+        "ভাগশেষ",
+        "গড়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-39-027",
+      "question": "7টি সংখ্যার গড় 25, 3টি সংখ্যার গড় 15। সব মিলিয়ে গড়:",
+      "options": [
+        "(175+45)/10 = 220/10 = 22",
+        "22",
+        "23",
+        "24"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-39-028",
+      "question": "নিচের কোনটি বিনিময় নিয়ম (Commutative property) সঠিকভাবে দেখায়?",
+      "options": [
+        "a + b = b + a",
+        "a − b = b − a",
+        "a ÷ b = b ÷ a",
+        "(a+b)+c = a+(b+c)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-029",
+      "question": "(x + 7)(x - 7) + 49 = ?",
+      "options": [
+        "x²",
+        "2x²",
+        "x² - 49",
+        "x² + 49"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-39-030",
+      "question": "একটি জিনিস 15% লাভে বিক্রয় করলে বিক্রয়মূল্য 1150 টাকা হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "980 টাকা",
+        "1000 টাকা",
+        "1020 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

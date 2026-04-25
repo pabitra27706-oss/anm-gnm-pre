@@ -1,0 +1,548 @@
+{
+  "subject": "general-science",
+  "set": 9,
+  "questions": [
+    {
+      "id": "ge-09-001",
+      "question": "সুপ্ততাপ কাকে বলে?",
+      "options": [
+        "তাপমাত্রার পরিবর্তনে প্রয়োজনীয় তাপ",
+        "অবস্থার পরিবর্তনে প্রয়োজনীয় তাপ",
+        "বস্তুর তাপমাত্রা",
+        "বস্তুর অভ্যন্তরীণ শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-09-002",
+      "question": "সূর্যের চারদিকে পৃথিবীর গতি কী ধরনের?",
+      "options": [
+        "রৈখিক গতি",
+        "পর্যায়বৃত্ত গতি",
+        "সরল ছন্দিত গতি",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-003",
+      "question": "কুলম্বের সূত্র অনুসারে দুটি আধানের মধ্যে বল— (বহু-সঠিক)",
+      "options": [
+        "আধানের গুণফলের সমানুপাতিক",
+        "দূরত্বের বর্গের ব্যস্তানুপাতিক",
+        "মাধ্যমের উপর নির্ভরশীল",
+        "আধানের প্রকৃতির উপর নির্ভরশীল"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-004",
+      "question": "চোখের লেন্সের ফোকাস দূরত্ব পরিবর্তন করার ক্ষমতাকে কী বলে?",
+      "options": [
+        "প্রতিসরণ",
+        "সমঞ্জসন",
+        "বিচ্ছুরণ",
+        "বিবর্ধন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-005",
+      "question": "নিচের কোনগুলি 'অ্যানহাইড্রাইড' (Anhydrides)?",
+      "options": [
+        "SO3 (H2SO4 এর)",
+        "P2O5 (H3PO4 এর)",
+        "CO2 (H2CO3 এর)",
+        "CaO (Ca(OH)2 এর)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-09-006",
+      "question": "পলিথিন ব্যাগে চারা গাছ ঢেকে রাখা হয় কেন? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপমাত্রা নিয়ন্ত্রণ",
+        "বাষ্পীভবন রোধ",
+        "গ্রিনহাউস প্রভাব সৃষ্টি করে",
+        "বায়ু চলাচল বাড়াতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-007",
+      "question": "নিচের কোনটি ইমালশন (Emulsion)-এর উদাহরণ?",
+      "options": [
+        "কাদা জল",
+        "কোকাকোলা",
+        "শ্যাম্পু",
+        "চিনির সিরাম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-008",
+      "question": "নিচের কোনটি ডিসি-র বৈশিষ্ট্য? (বহু-সঠিক)",
+      "options": [
+        "একমুখী প্রবাহ",
+        "ব্যাটারি থেকে উৎপন্ন হয়",
+        "ট্রান্সফরমারে ব্যবহার করা যায় না",
+        "ফ্রিকোয়েন্সি 50 Hz"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-009",
+      "question": "N (Z=7, A=14) পরমাণুটির ইলেকট্রন বিন্যাস কেমন?",
+      "options": [
+        "2,5",
+        "2,8,4",
+        "1,7",
+        "2,4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-010",
+      "question": "ওহমের সূত্র মেনে চলে এমন পরিবাহীর ক্ষেত্রে— (বহু-সঠিক)",
+      "options": [
+        "V = IR",
+        "V-I গ্রাফ সরলরেখা হয়",
+        "তাপমাত্রা বাড়লে রোধ অপরিবর্তিত থাকে",
+        "রোধ ধ্রুবক থাকে (তাপমাত্রা স্থির থাকলে)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-011",
+      "question": "একটি আদর্শ পানীয় জলের গুণাবলী হলো—",
+      "options": [
+        "pH 6.5 থেকে 8.5 এর মধ্যে থাকা",
+        "ক্ষতিকারক জীবাণুমুক্ত হওয়া",
+        "অতিরিক্ত খনিজ লবণ না থাকা",
+        "স্বাদে তীব্র আম্লিক হওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-09-012",
+      "question": "CGS পদ্ধতিতে ভরের একক কী?",
+      "options": [
+        "কিলোগ্রাম",
+        "মিলিগ্রাম",
+        "পাউন্ড",
+        "গ্রাম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-013",
+      "question": "সঞ্চয়ক কোষে শক্তি সঞ্চিত থাকে কী রূপে?",
+      "options": [
+        "তাপ",
+        "যান্ত্রিক",
+        "রাসায়নিক",
+        "পারমাণবিক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-014",
+      "question": "কোনো বিক্রিয়ার গতি বাড়ানো যায়—",
+      "options": [
+        "উষ্ণতা বাড়িয়ে",
+        "অনুঘটক ব্যবহার করে",
+        "বিক্রিয়কের গাঢ়ত্ব বাড়িয়ে",
+        "চাপ কমিয়ে (গ্যাসীয় বিক্রিয়ার ক্ষেত্রে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-015",
+      "question": "নিচের কোনগুলো বায়ু দূষণ-জনিত রোগ? (একাধিক উত্তর)",
+      "options": [
+        "অ্যাজমা",
+        "ব্রঙ্কাইটিস",
+        "ক্যান্সার",
+        "টিটেনাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-016",
+      "question": "কোনো তারের R = ρL/A সূত্র অনুসারে, L দ্বিগুণ ও A দ্বিগুণ করলে R কিরূপ হবে?",
+      "options": [
+        "অর্ধেক",
+        "দ্বিগুণ",
+        "চারগুণ",
+        "অপরিবর্তিত"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-017",
+      "question": "50 kg ভরের একটি বাক্সকে 10 m দূরে টানতে 100 N বল প্রয়োগ করা হল। কৃত কার্য কত?",
+      "options": [
+        "500 J",
+        "1000 J",
+        "50 J",
+        "10 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-018",
+      "question": "ভৌত রাশির মাত্রা নির্ণয়ে মৌলিক রাশি হিসেবে ধরা হয়— (বহু-সঠিক)",
+      "options": [
+        "M (ভর)",
+        "L (দৈর্ঘ্য)",
+        "T (সময়)",
+        "Q (আধান)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-019",
+      "question": "9 Ω রোধের একটি তারকে তিনটি সমান ভাগে কেটে সমান্তরালে যুক্ত করলে তুল্য রোধ কত?",
+      "options": [
+        "1 Ω",
+        "3 Ω",
+        "9 Ω",
+        "27 Ω"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-020",
+      "question": "1 HP সম্পর্কে কোন উক্তিগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "746 W এর সমান",
+        "ক্ষমতার একক",
+        "1000 J এর সমান",
+        "ইঞ্জিনের ক্ষমতা প্রকাশে ব্যবহৃত"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-021",
+      "question": "একটি গ্যাসের বাষ্প ঘনত্ব (Vapour Density) 16 হলে তার আণবিক ভর কত?",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-022",
+      "question": "তামা ও লোহার মধ্যে কোনটির রোধাঙ্ক বেশি?",
+      "options": [
+        "তামা",
+        "লোহা",
+        "সমান",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-023",
+      "question": "শক্তির চূড়ান্ত উৎস কী?",
+      "options": [
+        "কয়লা",
+        "সূর্য",
+        "বায়ু",
+        "বিদ্যুৎ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-024",
+      "question": "অ্যাসিড, ক্ষার ও লবণের জ্ঞান আমাদের প্রাত্যহিক জীবনে প্রয়োজন—",
+      "options": [
+        "স্বাস্থ্যবিধি বজায় রাখতে",
+        "কৃষিকাজে ফলন বাড়াতে",
+        "শিল্পক্ষেত্রে দ্রব্য উৎপাদনে",
+        "বৃষ্টির জল বিশুদ্ধ করতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-09-025",
+      "question": "অবতল দর্পণের ফোকাস দূরত্ব নিচের কোনটির সমান?",
+      "options": [
+        "R",
+        "R/2",
+        "2R",
+        "3R"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-09-026",
+      "question": "তাপমোচী (Exothermic) বিক্রিয়ার উদাহরণ হলো—",
+      "options": [
+        "শ্বসন (Respiration)",
+        "দহন (Combustion)",
+        "চুনে জল মেশানো",
+        "সালোকসংশ্লেষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-09-027",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) সাদা আলো সাতটি রঙের সমষ্টি (ii) লাল আলোর তরঙ্গদৈর্ঘ্য সবচেয়ে বেশি (iii) বেগুনি আলোর প্রতিসরাঙ্ক সবচেয়ে বেশি (iv) লাল আলোর বেগ কাঁচে সবচেয়ে কম",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-09-028",
+      "question": "সিসার (Lead) বিষক্রিয়ায় কী ক্ষতি হয়?",
+      "options": [
+        "ফুসফুসের ক্যান্সার",
+        "মস্তিষ্কের বিকাশ ব্যাহত (বিশেষত শিশুদের)",
+        "চর্মরোগ",
+        "দৃষ্টিশক্তি হ্রাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-09-029",
+      "question": "নিচের কোনগুলো অণুবীক্ষণ যন্ত্রের অংশ? (i) অভিলক্ষ্য (Objective) (ii) অভিনেত্র (Eyepiece) (iii) লেন্স (iv) প্রতিবিম্ব",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-09-030",
+      "question": "চলন্ত বাস হঠাৎ থামলে যাত্রীরা সামনের দিকে ঝুঁকে পড়েন— এটি কিসের উদাহরণ?",
+      "options": [
+        "স্থিতি জাড্য",
+        "গতি জাড্য",
+        "নিউটনের তৃতীয় গতিসূত্র",
+        "শক্তির সংরক্ষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy"
+    }
+  ]
+}

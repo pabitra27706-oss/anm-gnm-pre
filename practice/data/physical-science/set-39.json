@@ -1,0 +1,549 @@
+{
+  "subject": "general-science",
+  "set": 39,
+  "questions": [
+    {
+      "id": "ge-39-001",
+      "question": "সিলভার ক্লোরাইড (AgCl) সূর্যের আলোয় ধূসর বর্ণ ধারণ করে। এটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Photochemical decomposition",
+        "Thermal combination",
+        "Redox",
+        "Displacement"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-002",
+      "question": "বাদ্যযন্ত্রের তারে আঙুল দিয়ে আঘাত করলে কী ধরনের কম্পন সৃষ্টি হয়?",
+      "options": [
+        "মুক্ত কম্পন",
+        "পরবশ কম্পন",
+        "অবমন্দিত কম্পন",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-39-003",
+      "question": "[NUMERICAL] একটি বস্তু 5 m/s² ত্বরণে 10 সেকেন্ড চললে—",
+      "options": [
+        "তার বেগের পরিবর্তন 50 m/s",
+        "তার সরণ 250 m (স্থির অবস্থা থেকে)",
+        "তার বেগ সবসময় স্থির থাকে",
+        "তার মন্দন ঘটে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-39-004",
+      "question": "ফর্মালডিহাইডের সংকেত নিচের কোনটি?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "HCHO",
+        "CH₃COCH₃"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-39-005",
+      "question": "পরিবেশ বান্ধব শৌচাগার বলতে কী বোঝায়? (একাধিক উত্তর)",
+      "options": [
+        "যেখানে জল কম লাগে",
+        "বর্জ্য সার হিসেবে পুনর্ব্যবহৃত হয়",
+        "পাকাবাড়ি",
+        "জৈব টয়লেট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-006",
+      "question": "গ্যাসের মধ্যে তাপ সঞ্চালনের প্রক্রিয়া কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পরিচলন",
+        "বিকিরণ",
+        "পরিবহন (সামান্য)",
+        "শুধু বিকিরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-39-007",
+      "question": "বায়ু থেকে কাঁচে আলো যাওয়ার সময় আলোক রশ্মি কিরূপ হয়?",
+      "options": [
+        "অভিলম্ব থেকে দূরে সরে যায়",
+        "অভিলম্বের দিকে বেঁকে যায়",
+        "সরল পথে চলে",
+        "শোষিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-008",
+      "question": "একটি ফ্রিজে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "বিদ্যুৎ → তাপ",
+        "তাপ → বিদ্যুৎ",
+        "রাসায়নিক → যান্ত্রিক",
+        "আলোক → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-009",
+      "question": "নিউটনের তৃতীয় গতিসূত্র অনুযায়ী—",
+      "options": [
+        "ক্রিয়া ও প্রতিক্রিয়া সমান",
+        "ক্রিয়া ও প্রতিক্রিয়া বিপরীতমুখী",
+        "এরা একই বস্তুর ওপর কাজ করে",
+        "এরা ভিন্ন ভিন্ন বস্তুর ওপর কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-010",
+      "question": "ক্যান্ডেলা (cd) কীসের একক?",
+      "options": [
+        "তাপমাত্রা",
+        "দীপন তীব্রতা",
+        "তড়িৎ প্রবাহ",
+        "দীপন ফ্লাক্স"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-011",
+      "question": "2,8,1 ইলেকট্রন বিন্যাসটি কোন মৌলের?",
+      "options": [
+        "Mg",
+        "Na",
+        "Al",
+        "Si"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-012",
+      "question": "বৈদ্যুতিক ঘন্টা কোন নীতিতে কাজ করে?",
+      "options": [
+        "তড়িৎ প্রবাহের তাপীয় প্রভাব",
+        "তড়িৎ চুম্বকীয় প্রভাব",
+        "রাসায়নিক বিক্রিয়া",
+        "আলোক প্রভাব"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-013",
+      "question": "Si (সিলিকন) এর পারমাণবিক সংখ্যা কত?",
+      "options": [
+        "6",
+        "14",
+        "22",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-014",
+      "question": "সুপ্ততাপের একক কী কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "J/kg",
+        "cal/g",
+        "J/(kg·K)",
+        "°C"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-015",
+      "question": "আদর্শ তাপ ইঞ্জিন কোনটি?",
+      "options": [
+        "ডিজেল ইঞ্জিন",
+        "পেট্রোল ইঞ্জিন",
+        "কার্নো ইঞ্জিন",
+        "বাষ্পীয় ইঞ্জিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-39-016",
+      "question": "অ্যাসিড বৃষ্টির ফলাফল কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "ভবনের ক্ষতি",
+        "মাছের মৃত্যু",
+        "ফসলের ক্ষতি",
+        "জলের pH বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-017",
+      "question": "নিচের কোনটি/গুলো শক্তি রূপান্তরের ভুল উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "সৌরকোষ: তাপ → বিদ্যুৎ",
+        "ডায়নামো: যান্ত্রিক → বিদ্যুৎ",
+        "টিউবলাইট: বিদ্যুৎ → আলোক",
+        "বৈদ্যুতিক ঘন্টা: শব্দ → বিদ্যুৎ"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-018",
+      "question": "গ্যাসের ব্যাপন হার (Diffusion rate) তার আণবিক ভরের সাথে কীভাবে সম্পর্কিত?",
+      "options": [
+        "সমানুপাতিক",
+        "বর্গের সমানুপাতিক",
+        "আণবিক ভরের বর্গমূলের ব্যস্তানুপাতিক",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-39-019",
+      "question": "একটি ভৌত রাশি স্কেলার হবে যদি— (বহু-সঠিক)",
+      "options": [
+        "এর মান থাকে কিন্তু নির্দিষ্ট দিক থাকে না",
+        "বীজগণিতের সাধারণ নিয়মে যোগ করা যায়",
+        "মান ও দিক উভয়ই থাকে",
+        "কেবল ধনাত্মক হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-020",
+      "question": "গ্রুপ 1 এর মৌল সম্পর্কে কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "এরা ক্ষার ধাতু",
+        "এদের যোজ্যতা 1",
+        "এরা সহজেই ইলেকট্রন ত্যাগ করে",
+        "এদের তড়িৎ ঋণাত্মকতা বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-021",
+      "question": "যে সকল রাসায়নিক সমীকরণে বিক্রিয়ক ও বিক্রিয়াজাত উভয় পার্শ্বে প্রতিটি মৌলের পরমাণু সংখ্যা সমান থাকে তাকে কী বলে?",
+      "options": [
+        "Skeleton equation",
+        "Balanced equation",
+        "Unbalanced equation",
+        "Primary equation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-39-022",
+      "question": "কোনো কক্ষের সর্বাধিক ইলেকট্রন ধারণ ক্ষমতা নির্ণয়ের সূত্রটি হল—",
+      "options": [
+        "n²",
+        "2n²",
+        "n²+2",
+        "n²/2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-39-023",
+      "question": "নিচের কোন লবণটি অ্যান্টিসেপটিক হিসেবে ব্যবহৃত হয়?",
+      "options": [
+        "NaCl",
+        "Boric Acid (লবণ হিসেবে গণ্য করা হলে)",
+        "NaHCO3",
+        "Bleaching Powder"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-024",
+      "question": "কোনো তারের মধ্য দিয়ে 1 মিনিটে 60 C আধান প্রবাহিত হলে— (বহু-সঠিক)",
+      "options": [
+        "তড়িৎ 1 A",
+        "তারটির রোধ 10 Ω হলে বিভব 10 V",
+        "ক্ষমতা 10 W",
+        "উৎপন্ন তাপ 600 J (1 মিনিটে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-025",
+      "question": "অনুঘটক বিষ (Catalytic poison) কোনটি?",
+      "options": [
+        "আর্সেনিক অক্সাইড",
+        "অক্সিজেন",
+        "হাইড্রোজেন",
+        "নাইট্রোজেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-39-026",
+      "question": "বৈদ্যুতিক বাল্বের ফিলামেন্ট কী দিয়ে তৈরি?",
+      "options": [
+        "টিন",
+        "টাংস্টেন",
+        "তামা",
+        "নাইক্রোম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-39-027",
+      "question": "নিম্নের মধ্যে কোনগুলি রাসায়নিক বন্ধন? (বহু-সঠিক)",
+      "options": [
+        "সমযোজী",
+        "তড়িৎযোজী",
+        "হাইড্রোজেন বন্ধন",
+        "মহাকর্ষ বল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-028",
+      "question": "চাপের বিভিন্ন একক নিচের কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "পাস্কাল",
+        "বার",
+        "টর",
+        "অ্যাটমস্ফিয়ার"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-39-029",
+      "question": "মেগা (M) উপসর্গটির মান কত?",
+      "options": [
+        "10³",
+        "10⁶",
+        "10⁹",
+        "10⁻⁶"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-39-030",
+      "question": "তড়িৎ প্রকৌশলে নিরাপত্তামূলক ব্যবস্থা কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "ফিউজ ব্যবহার",
+        "আর্থিং সংযোগ",
+        "পুরু প্লাস্টিকের তার",
+        "অ্যামিটার ব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "subject": "general-science",
+  "set": 105,
+  "questions": [
+    {
+      "id": "ge-105-001",
+      "question": "একটি আদর্শ অ্যামিটারের রোধ কেমন হওয়া উচিত?",
+      "options": [
+        "খুব বেশি",
+        "1 Ω",
+        "খুব কম",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-002",
+      "question": "সমতল দর্পণে প্রতিবিম্বের দূরত্ব ও বস্তুর দূরত্বের সম্পর্কটি নিচের কোন সমীকরণ দ্বারা প্রকাশ করা হয়?",
+      "options": [
+        "v = u",
+        "v = -u",
+        "v = 2u",
+        "v = u/2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-003",
+      "question": "শব্দদূষণ রোধের উপায়গুলি হলো—",
+      "options": [
+        "কলকারখানায় সাইলেন্সার ব্যবহার",
+        "জনবহুল এলাকায় হর্ন বাজানো নিষিদ্ধ করা",
+        "বনায়ন বা গাছ লাগানো (শব্দ শোষণ করে)",
+        "মাইকের আওয়াজ নির্দিষ্ট সীমার মধ্যে রাখা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-105-004",
+      "question": "পানীয় জলে আর্সেনিকের গ্রহণযোগ্য সর্বোচ্চ সীমা (WHO) কত?",
+      "options": [
+        "0.05 mg/L",
+        "0.01 mg/L",
+        "1.0 mg/L",
+        "5.0 mg/L"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-105-005",
+      "question": "নিচের কোনটি/গুলো সমযোজী যৌগ? (বহু-সঠিক)",
+      "options": [
+        "HCl",
+        "CH₄",
+        "CO₂",
+        "KBr"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-105-006",
+      "question": "কর্মদক্ষতা সম্পর্কে সঠিক বিবৃতি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "η = (আউটপুট/ইনপুট) × 100%",
+        "এটি কখনো 100% এর বেশি হতে পারে না",
+        "ঘর্ষণের কারণে ক্ষতি হয়",
+        "আদর্শ যন্ত্রের η = 100%"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-105-007",
+      "question": "সময় পরিমাপক যন্ত্র কোনটি?",
+      "options": [
+        "ভার্নিয়ার ক্যালিপার্স",
+        "নিক্তি",
+        "স্টপওয়াচ",
+        "স্ক্রু গেজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-105-008",
+      "question": "নিচের কোন কোলয়েডগুলিতে বিস্তৃত দশাটি তরল?",
+      "options": [
+        "কুয়াশা",
+        "পনির",
+        "জেল",
+        "ধোঁয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-105-009",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 20 cm। লেন্স থেকে 15 cm দূরে একটি 2 cm উচ্চতার বস্তু রাখলে প্রতিবিম্বের উচ্চতা কত হবে? (i) 8 cm (ii) -8 cm (iii) 0.5 cm (iv) -0.5 cm",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-105-010",
+      "question": "গৃহস্থালির বর্তনীতে বাতিগুলো কীভাবে যুক্ত থাকে?",
+      "options": [
+        "শ্রেণিতে",
+        "সমান্তরালে",
+        "মিশ্র",
+        "এককভাবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-011",
+      "question": "একটি বস্তু v বেগে চলছে, এর গতিশক্তি E। বেগ 3v করলে গতিশক্তি কত হবে?",
+      "options": [
+        "3E",
+        "9E",
+        "27E",
+        "E"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-012",
+      "question": "নিচের কোনগুলি কোলয়েড দ্রবণের বৈশিষ্ট্য?",
+      "options": [
+        "এটি অসমসত্ত্ব (Heterogeneous) মিশ্রণ",
+        "এটি টাইন্ডাল এফেক্ট দেখায়",
+        "এর কণাগুলি আল্ট্রা-ফিল্টার পেপার দিয়ে আলাদা করা যায়",
+        "এর কণাগুলি খালি চোখে দেখা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-105-013",
+      "question": "কোনো বস্তুকে উত্তল লেন্সের 2F বিন্দুতে রাখলে প্রতিবিম্ব কোথায় গঠিত হয়?",
+      "options": [
+        "F তে",
+        "অনন্তে",
+        "2F তে",
+        "আলোক কেন্দ্রে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-014",
+      "question": "একটি ইলেকট্রনের আধান কত? (প্রায়)",
+      "options": [
+        "+1.6 × 10⁻¹⁹ C",
+        "-1.6 × 10⁻¹⁹ C",
+        "0 C",
+        "+1 C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-015",
+      "question": "গাড়ির ওডোমিটার (Odometer) দিয়ে কী মাপা হয়?",
+      "options": [
+        "বেগ",
+        "অতিক্রান্ত দূরত্ব",
+        "ত্বরণ",
+        "বল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-105-016",
+      "question": "তড়িৎ আধানের SI একক কী?",
+      "options": [
+        "অ্যাম্পিয়ার",
+        "ভোল্ট",
+        "কুলম্ব",
+        "ওহম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-105-017",
+      "question": "বৃষ্টির ফোঁটা গোলাকার হয় পদার্থের কোন ধর্মের জন্য?",
+      "options": [
+        "Viscosity",
+        "Surface tension",
+        "Elasticity",
+        "Density"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-018",
+      "question": "অপটিক্যাল ঘনত্বের সংজ্ঞা কী?",
+      "options": [
+        "মাধ্যমের প্রতিসরাঙ্ক",
+        "মাধ্যমের ভর",
+        "মাধ্যমের আয়তন",
+        "মাধ্যমের তাপমাত্রা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-019",
+      "question": "ফটকিরি (Alum) জল পরিষ্কার করে কারণ—",
+      "options": [
+        "এটি কাদার কণাগুলিকে থিতিয়ে দেয় (Coagulation)",
+        "এটি একটি তড়িৎবিশ্লেষ্য",
+        "এটি কণাগুলির আধান প্রশমিত করে",
+        "এটি বালিকে গলিয়ে দেয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-105-020",
+      "question": "নিচের কোনটি/গুলো তড়িৎযোজী যৌগ? (বহু-সঠিক)",
+      "options": [
+        "NaCl",
+        "CaO",
+        "HCl",
+        "MgCl₂"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-105-021",
+      "question": "দর্পণের বিবর্ধন m = -2। প্রতিবিম্বের প্রকৃতি কীরূপ?",
+      "options": [
+        "অবাস্তব, সমশীর্ষ, বিবর্ধিত",
+        "অবাস্তব, সমশীর্ষ, ক্ষুদ্রতর",
+        "বাস্তব, অবশীর্ষ, বিবর্ধিত",
+        "বাস্তব, অবশীর্ষ, ক্ষুদ্রতর"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-022",
+      "question": "শব্দের তীব্রতা স্তরের একক কী?",
+      "options": [
+        "বেল (Bel)",
+        "ডেসিবল (dB)",
+        "A এবং B উভয়ই",
+        "হার্টজ (Hz)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-023",
+      "question": "ফ্রিজ কোন স্থানে রাখা উচিত?",
+      "options": [
+        "উনুনের পাশে",
+        "তাপ উৎস থেকে দূরে ও বায়ু চলাচলের সুব্যবস্থা আছে এমন স্থানে",
+        "রোদে",
+        "দেয়ালের সাথে একেবারে লাগিয়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-024",
+      "question": "জৈব যৌগের বৈশিষ্ট্যগুলি নির্বাচন করো: (i) এদের অণুতে কার্বন থাকে (ii) এদের গলনাঙ্ক ও স্ফুটনাঙ্ক সাধারণত কম (iii) এরা সাধারণত তড়িৎ পরিবাহী নয় (iv) এদের বিক্রিয়ার হার কম",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-025",
+      "question": "36 J কাজ করে 6 C আধান স্থানান্তরিত করলে বিভব পার্থক্য কত?",
+      "options": [
+        "6 V",
+        "216 V",
+        "0.167 V",
+        "30 V"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-026",
+      "question": "NaCl এর জলীয় দ্রবণ সম্পর্কে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "এটি তড়িৎ পরিবাহী",
+        "Na⁺ ও Cl⁻ আয়ন তৈরি করে",
+        "এটি সমযোজী যৌগের দ্রবণ",
+        "এটি প্রশম দ্রবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-105-027",
+      "question": "শব্দের উচ্চতা (Pitch) ও পর্যায়কালের মধ্যে সম্পর্ক—",
+      "options": [
+        "পর্যায়কাল কমলে উচ্চতা বাড়ে",
+        "পর্যায়কাল বাড়লে উচ্চতা কমে",
+        "পর্যায়কাল ও উচ্চতা সমানুপাতিক",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-105-028",
+      "question": "CFC দূষণের উৎস কী কী? (একাধিক উত্তর)",
+      "options": [
+        "রেফ্রিজারেটর",
+        "এসি",
+        "এরোসল স্প্রে",
+        "বিদ্যুৎ উৎপাদন কেন্দ্র"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-105-029",
+      "question": "20 ডায়োপ্টার ক্ষমতার একটি লেন্সের ফোকাস দূরত্ব কত?",
+      "options": [
+        "0.05 m",
+        "0.5 m",
+        "5 m",
+        "0.2 m"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-105-030",
+      "question": "শুকনো বর্জ্য ও ভেজা বর্জ্য আলাদা করার কারণ কী? (একাধিক উত্তর)",
+      "options": [
+        "সহজ রিসাইক্লিং",
+        "কম্পোস্টিং সহজ",
+        "বর্জ্য ব্যবস্থাপনা সাশ্রয়ী",
+        "ভেজা বর্জ্য পোড়ানো সহজ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

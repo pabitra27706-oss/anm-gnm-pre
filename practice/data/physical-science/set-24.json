@@ -1,0 +1,508 @@
+{
+  "subject": "general-science",
+  "set": 24,
+  "questions": [
+    {
+      "id": "ge-24-001",
+      "question": "LED বাতির সুবিধা কী কী? (বহু-সঠিক)",
+      "options": [
+        "কম বিদ্যুৎ খরচ",
+        "কম তাপ উৎপাদন",
+        "দীর্ঘস্থায়ী",
+        "দাম বেশি হলেও সাশ্রয়ী"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-24-002",
+      "question": "সোলার হিটার কোন নীতি ব্যবহার করে?",
+      "options": [
+        "বিকিরণ ও পরিচলন",
+        "পরিবহন",
+        "আলোক সংশ্লেষ",
+        "তড়িৎ বিশ্লেষণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-003",
+      "question": "15 cm ফোকাস দূরত্বের উত্তল লেন্সের সামনে 10 cm দূরে বস্তু রাখলে প্রতিবিম্বের দূরত্ব কত?",
+      "options": [
+        "-30 cm",
+        "+30 cm",
+        "-20 cm",
+        "+20 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-004",
+      "question": "ডিজিটাল থার্মোমিটারের সুবিধা কী?",
+      "options": [
+        "এটি ভাঙার ভয় থাকে না",
+        "পারদযুক্ত ও সহজপাঠ্য",
+        "খুবই সস্তা",
+        "অতীতের তাপমাত্রা মনে রাখতে পারে না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-005",
+      "question": "জলের তড়িৎ বিশ্লেষণে অ্যানোডে কোন গ্যাস পাওয়া যায়?",
+      "options": [
+        "হাইড্রোজেন",
+        "ক্লোরিন",
+        "অক্সিজেন",
+        "নাইট্রোজেন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-006",
+      "question": "একটি গোলীয় দর্পণের বক্রতা ব্যাসার্ধ 40 cm। এর ফোকাস দূরত্ব কত?",
+      "options": [
+        "20 cm",
+        "40 cm",
+        "80 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-007",
+      "question": "কম ক্ষমতাসম্পন্ন বাতির বৈশিষ্ট্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "রোধ বেশি",
+        "রোধ কম",
+        "তড়িৎ কম নেয়",
+        "উজ্জ্বলতা কম"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-24-008",
+      "question": "50g বরফকে 0°C তাপমাত্রায় সম্পূর্ণরূপে জলে পরিণত করতে কত তাপ প্রয়োজন? (বরফের গলনের সুপ্ততাপ = 80 cal/g)",
+      "options": [
+        "2000 cal",
+        "3000 cal",
+        "4000 cal",
+        "5000 cal"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-009",
+      "question": "সোডা-অ্যাসিড অগ্নিনির্বাপক যন্ত্রে কোন লবণটি ব্যবহৃত হয়?",
+      "options": [
+        "NaCl",
+        "Na₂CO₃",
+        "NaHCO₃",
+        "CaSO₄"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-010",
+      "question": "তড়িৎ বাতির ক্ষমতা লেখা থাকে কোন এককে?",
+      "options": [
+        "ভোল্ট",
+        "জুল",
+        "ওয়াট",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-011",
+      "question": "কোনো গৃহস্থালির বিদ্যুৎলাইনে 5A ফিউজ ব্যবহার করা হয়েছে। 220 V-এ সর্বোচ্চ কত ক্ষমতার যন্ত্র ব্যবহার করা যাবে?",
+      "options": [
+        "44 W",
+        "1100 W",
+        "110 W",
+        "550 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-012",
+      "question": "একটি লেন্সের ফোকাস দূরত্ব 100 cm। ক্ষমতা নির্ণয় করো।",
+      "options": [
+        "1 D",
+        "10 D",
+        "0.1 D",
+        "100 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-013",
+      "question": "নিচের কোন দর্পণের ক্ষেত্রে প্রতিবিম্বের দূরত্ব ও ফোকাস দূরত্ব ঋণাত্মক হয়? (i) উত্তল দর্পণ (ii) অবতল দর্পণ (iii) সমতল দর্পণ (iv) কোনোটিই নয়",
+      "options": [
+        "শুধু (i)",
+        "শুধু (ii)",
+        "(i) ও (iii)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-014",
+      "question": "[NUMERICAL] Avogadro's Number (N) এর মান কত?",
+      "options": [
+        "6.022 × 10²³",
+        "6.022 × 10²²",
+        "6.022 × 10²¹",
+        "1.66 × 10⁻²⁴"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-015",
+      "question": "বিশুদ্ধ জলের pH এর মান কত?",
+      "options": [
+        "0",
+        "14",
+        "7",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-016",
+      "question": "অবতল দর্পণে কোন অবস্থায় প্রতিবিম্ব অবাস্তব ও বিবর্ধিত হয়? (i) বস্তু F ও P এর মধ্যে (ii) বস্তু C ও F এর মধ্যে (iii) বস্তু C তে (iv) বস্তু P তে",
+      "options": [
+        "(i) ও (iv)",
+        "(ii) ও (iii)",
+        "(i) ও (ii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-017",
+      "question": "আগুনের পাশে দাঁড়ালে তাপ অনুভূত হয়। এটি কোন পদ্ধতি?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "শোষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-018",
+      "question": "উত্তল লেন্সের ক্ষেত্রে নিচের কোনটি সঠিক?",
+      "options": [
+        "f ঋণাত্মক",
+        "f ধনাত্মক",
+        "P ঋণাত্মক",
+        "বিবর্ধন সর্বদা ধনাত্মক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-019",
+      "question": "ক্যালরিমিতির মূলনীতি কী?",
+      "options": [
+        "গৃহীত তাপ > বর্জিত তাপ",
+        "গৃহীত তাপ < বর্জিত তাপ",
+        "গৃহীত তাপ = বর্জিত তাপ",
+        "গৃহীত তাপ + বর্জিত তাপ = শূন্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-020",
+      "question": "কপার সালফেট দ্রবণের তড়িৎ বিশ্লেষণে ক্যাথোডে তামা জমা হয়। কপার আয়নের আকৃতি কী?",
+      "options": [
+        "Cu⁺",
+        "Cu²⁺",
+        "Cu⁻",
+        "Cu²⁻"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-021",
+      "question": "ভরের SI একক কী?",
+      "options": [
+        "গ্রাম",
+        "পাউন্ড",
+        "কিলোগ্রাম",
+        "মিলিগ্রাম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-24-022",
+      "question": "অভ্যন্তরীণ পূর্ণ প্রতিফলন কখন ঘটে?",
+      "options": [
+        "আলো ঘনতর মাধ্যম থেকে বিরল মাধ্যমে যাওয়ার সময় আপতন কোণ সঙ্কট কোণের চেয়ে বড় হলে",
+        "আলো বিরল মাধ্যম থেকে ঘনতর মাধ্যমে যাওয়ার সময়",
+        "আলো সমান্তরাল পৃষ্ঠে পড়লে",
+        "আলো শোষিত হলে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-023",
+      "question": "যৌগিক অণুবীক্ষণ যন্ত্রে কোন লেন্স থাকে?",
+      "options": [
+        "একটি উত্তল লেন্স",
+        "একটি অবতল লেন্স",
+        "দুটি উত্তল লেন্স",
+        "একটি উত্তল ও একটি অবতল লেন্স"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-024",
+      "question": "নিচের কোনটি বিজারিত জলে দ্রবীভূত হয়ে ক্ষার তৈরি করে?",
+      "options": [
+        "C",
+        "Fe",
+        "Na",
+        "Si"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-025",
+      "question": "একটি অবতল দর্পণের ফোকাস দূরত্ব 10 cm। দর্পণ থেকে 5 cm দূরে বস্তু রাখলে প্রতিবিম্ব কীরূপ হবে?",
+      "options": [
+        "বাস্তব, অবশীর্ষ, বিবর্ধিত",
+        "অবাস্তব, সমশীর্ষ, বিবর্ধিত",
+        "বাস্তব, সমশীর্ষ, ক্ষুদ্রতর",
+        "অবাস্তব, অবশীর্ষ, ক্ষুদ্রতর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-24-026",
+      "question": "পরম শূন্য তাপমাত্রা সম্পর্কে সঠিক তথ্য—",
+      "options": [
+        "এটি -273.15°C",
+        "এটি 0 K",
+        "এই তাপমাত্রায় গ্যাসের আয়তন তাত্ত্বিকভাবে শূন্য",
+        "এটি কোনোদিন অর্জন করা সম্ভব নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-24-027",
+      "question": "বাতাসের গতিবেগ বৃদ্ধি পেলে বাষ্পীভবনের হার কী পরিবর্তন হবে?",
+      "options": [
+        "হ্রাস পাবে",
+        "বৃদ্ধি পাবে",
+        "অপরিবর্তিত থাকবে",
+        "শূন্য হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-028",
+      "question": "একটি ইলেকট্রিক বাতির ক্ষমতা কমানোর উপায় কী? (বহু-সঠিক)",
+      "options": [
+        "ডিমার ব্যবহার",
+        "কম ওয়াটের বাতি ব্যবহার",
+        "ভোল্টেজ কমালে",
+        "সমান্তরালে আরও বাতি জুড়লে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-24-029",
+      "question": "চোখের লেন্সের ফোকাস দূরত্ব কমানোর জন্য পেশির কী পরিবর্তন হয়?",
+      "options": [
+        "সিলিয়ারি পেশি সংকুচিত হয়",
+        "সিলিয়ারি পেশি প্রসারিত হয়",
+        "আইরিস সংকুচিত হয়",
+        "পিউপিল প্রসারিত হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-24-030",
+      "question": "তড়িৎ বিশ্লেষণ প্রক্রিয়ায় নিষ্ক্রিয় তড়িৎদ্বার বলতে বোঝায়—",
+      "options": [
+        "তড়িৎদ্বার যা দ্রবীভূত হয়",
+        "তড়িৎদ্বার যা রাসায়নিকভাবে বিক্রিয়া করে না",
+        "তড়িৎদ্বার যা আয়ন তৈরি করে",
+        "কেবল ধাতব দণ্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

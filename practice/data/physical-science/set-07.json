@@ -1,0 +1,515 @@
+{
+  "subject": "general-science",
+  "set": 7,
+  "questions": [
+    {
+      "id": "ge-07-001",
+      "question": "Mg²⁺ আয়নের 2 মোল বিজারিত করতে কত ফ্যারাডে তড়িৎ প্রয়োজন? (1 F = 96500 C)",
+      "options": [
+        "1 F",
+        "2 F",
+        "4 F",
+        "0.5 F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-07-002",
+      "question": "নিস্ক্রিয় গ্যাসের গ্রুপ সংখ্যা কত?",
+      "options": [
+        "17",
+        "18",
+        "2",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-003",
+      "question": "একটি পরিবেশ দূষণমুক্ত জীবনে সবচেয়ে গুরুত্বপূর্ণ হলো-",
+      "options": [
+        "উন্নত জীবনযাপন",
+        "টেকসই উন্নয়ন (Sustainable Development)",
+        "যানবাহন বৃদ্ধি",
+        "শিল্পায়ন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-004",
+      "question": "কোন দুটি বক্তব্য সঠিক? (বহু-সঠিক)",
+      "options": [
+        "আয়নীকরণ শক্তি পর্যায় বরাবর বাড়ে",
+        "তড়িৎ ঋণাত্মকতা পর্যায় বরাবর কমে",
+        "পারমাণবিক ব্যাসার্ধ গ্রুপ বরাবর বাড়ে",
+        "ইলেকট্রন আসক্তি গ্রুপ বরাবর বাড়ে"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-07-005",
+      "question": "নিচের কোনটির একক জুল নয়? (বহু-সঠিক)",
+      "options": [
+        "কার্য",
+        "ক্ষমতা",
+        "তাপ",
+        "শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-006",
+      "question": "সোডিয়াম হাইড্রোক্সাইড ও হাইড্রোক্লোরিক অ্যাসিডের প্রসমন তাপের মান কত?",
+      "options": [
+        "57.3 kJ",
+        "100 kJ",
+        "13.7 kJ",
+        "0 kJ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-07-007",
+      "question": "বৈদ্যুতিক বিভবের SI একক কী?",
+      "options": [
+        "কুলম্ব",
+        "অ্যাম্পিয়ার",
+        "ভোল্ট",
+        "জুল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-008",
+      "question": "নিচের কোনটি একটি রাসায়নিক পরিবর্তন?",
+      "options": [
+        "মোমের গলন",
+        "বরফ থেকে জল হওয়া",
+        "লোহায় মরিচা ধরা",
+        "চিনির জলীয় দ্রবণ তৈরি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-009",
+      "question": "রুক্ষ পৃষ্ঠ থেকে আলোর প্রতিফলনকে কী বলে?",
+      "options": [
+        "নিয়মিত প্রতিফলন",
+        "অনিয়মিত প্রতিফলন",
+        "পূর্ণ প্রতিফলন",
+        "বিচ্ছুরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-010",
+      "question": "CFC সম্পর্কে সঠিক তথ্য কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "ওজোন স্তর ধ্বংস করে",
+        "গ্রীনহাউস গ্যাস",
+        "বিষাক্ত ও দাহ্য",
+        "স্থিতিশীল হওয়ায় সহজে ভাঙে না"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-07-011",
+      "question": "নিচের কোনটি গতির সমীকরণ?",
+      "options": [
+        "v = u + at",
+        "v² = u² + 2as",
+        "F = ma",
+        "s = ut + ½at²"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-07-012",
+      "question": "1 জুল = কত আর্গ?",
+      "options": [
+        "10⁵",
+        "10⁷",
+        "10³",
+        "10⁻⁷"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-013",
+      "question": "SONAR কোন ক্ষেত্রে বহুল ব্যবহৃত হয়?",
+      "options": [
+        "বিমান চালনায়",
+        "চিকিৎসায়",
+        "নৌপরিবহন ও সমুদ্র গবেষণায়",
+        "মহাকাশ গবেষণায়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-014",
+      "question": "অ্যাসিড ও ধাতব কার্বনেটের বিক্রিয়ায় উৎপন্ন হয়—",
+      "options": [
+        "লবণ",
+        "জল",
+        "কার্বন ডাই অক্সাইড",
+        "হাইড্রোজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-07-015",
+      "question": "নিম্নের কোনগুলি রাসায়নিক সূত্র? (বহু-সঠিক)",
+      "options": [
+        "ভরের নিত্যতা সূত্র",
+        "স্থির অনুপাত সূত্র",
+        "গ্যাস আয়তন সূত্র",
+        "আর্কিমিডিসের সূত্র"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-07-016",
+      "question": "দুটি তড়িতাধানের মধ্যে ক্রিয়াশীল বল নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "ওহমের সূত্র",
+        "জুলের সূত্র",
+        "কুলম্বের সূত্র",
+        "ফ্যারাডের সূত্র"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-017",
+      "question": "নিচের কোনটি 'এসিড রেইন' এর ফলে মাছের মৃত্যু ঘটায়?",
+      "options": [
+        "জলের pH কমে যাওয়া",
+        "অক্সিজেন বেড়ে যাওয়া",
+        "নুন কমে যাওয়া",
+        "জল গরম হওয়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-018",
+      "question": "তড়িৎ প্রবাহ নির্ণয়ে বর্তনীতে অ্যামিটারকে কীভাবে যুক্ত করবে?",
+      "options": [
+        "সমান্তরালে",
+        "শ্রেণিতে",
+        "উভয় প্রকারেই",
+        "ভোল্টমিটারের সাথে জুড়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-019",
+      "question": "মিল্ক অফ ম্যাগনেশিয়া (Milk of Magnesia) হলো—",
+      "options": [
+        "Sol",
+        "Suspension",
+        "Emulsion",
+        "True solution"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-07-020",
+      "question": "[NUMERICAL] 100g সম্পৃক্ত দ্রবণে 20g দ্রাব থাকলে ওই দ্রাবটির দ্রাব্যতা (Solubility) কত?",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "80"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-021",
+      "question": "পানীয় জলে ক্লোরিনের পরিমাণ কত হওয়া উচিত?",
+      "options": [
+        "10-20 mg/L",
+        "0.2-1.0 mg/L",
+        "5-10 mg/L",
+        "0 mg/L"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-07-022",
+      "question": "জল দূষণ কাকে বলে?",
+      "options": [
+        "জলে খনিজ পদার্থের উপস্থিতি",
+        "জলে ক্ষতিকারক রাসায়নিক, জৈব বর্জ্যের উপস্থিতি",
+        "জলে O₂ বৃদ্ধি",
+        "জলে মাছ চাষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-023",
+      "question": "নিচের কোনটি অবতল দর্পণে প্রযোজ্য নয়?",
+      "options": [
+        "অভিসারী দর্পণ",
+        "বাস্তব প্রতিবিম্ব তৈরি করে",
+        "অবাস্তব প্রতিবিম্ব তৈরি করে না",
+        "সর্বদা সমশীর্ষ প্রতিবিম্ব তৈরি করে"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-024",
+      "question": "1 অ্যাম্পিয়ার সমান কত?",
+      "options": [
+        "1 জুল/সেকেন্ড",
+        "1 কুলম্ব/সেকেন্ড",
+        "1 ভোল্ট/সেকেন্ড",
+        "1 ওহম/সেকেন্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-025",
+      "question": "H₂SO₄ এর আণবিক ভর কত? (H=1, S=32, O=16)",
+      "options": [
+        "50",
+        "98",
+        "49",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-026",
+      "question": "নিচের কোন জোড়াগুলি সঠিকভাবে মেলে? (i) মিথাইল অ্যালকোহল - উড স্পিরিট (ii) ইথাইল অ্যালকোহল - গ্রেইন অ্যালকোহল (iii) মিথানাল - ফর্মালডিহাইড (iv) ইথানাল - অ্যাসিটালডিহাইড",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-07-027",
+      "question": "বিদ্যুৎ বাল্বের ফিলামেন্টে কোন ধাতু ব্যবহার করা হয়?",
+      "options": [
+        "তামা",
+        "লোহা",
+        "টাংস্টেন",
+        "অ্যালুমিনিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-028",
+      "question": "নিচের কোনগুলি জারক পদার্থ (Oxidizing Agents)?",
+      "options": [
+        "O2",
+        "Cl2",
+        "KMnO4",
+        "H2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-07-029",
+      "question": "₁₇Cl³⁵ এবং ₁₇Cl³⁷ পরমাণু দুটিকে কী বলে?",
+      "options": [
+        "আইসোবার",
+        "আইসোটোন",
+        "আইসোটোপ",
+        "সমভরী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-07-030",
+      "question": "একটি ঘড়ির পেন্ডুলামের সর্বনিম্ন বিন্দুতে কীরূপ শক্তি সর্বাধিক থাকে?",
+      "options": [
+        "বিভব শক্তি",
+        "গতিশক্তি",
+        "চৌম্বক শক্তি",
+        "স্থিতি শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

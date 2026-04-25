@@ -1,0 +1,516 @@
+{
+  "subject": "general-science",
+  "set": 65,
+  "questions": [
+    {
+      "id": "ge-65-001",
+      "question": "আলোর পূর্ণ অভ্যন্তরীণ প্রতিফলন কোথায় ব্যবহার করা হয়?",
+      "options": [
+        "অপটিক্যাল ফাইবারে",
+        "বাতিতে",
+        "টেলিভিশনে",
+        "কম্পিউটারে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-002",
+      "question": "আলোর সরলরেখায় গতিকে কী বলে?",
+      "options": [
+        "প্রতিফলন",
+        "প্রতিসরণ",
+        "সরলরেখীয় প্রসার",
+        "বিচ্ছুরণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-003",
+      "question": "ক্লিনিক্যাল থার্মোমিটার তাপমাত্রা পরিমাপক পাল্লা 35-42°C রাখার কারণ-",
+      "options": [
+        "এই তাপমাত্রার বাইরে মানবদেহ বাঁচতে পারে না",
+        "পারদের প্রসারণ এই সীমায় সীমাবদ্ধ",
+        "সহজপাঠ্যতা",
+        "নিম্ন তাপমাত্রা মাপার প্রয়োজন নেই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-004",
+      "question": "মোলার ভরের একক কোনটি?",
+      "options": [
+        "g",
+        "g/mol",
+        "mol/g",
+        "unitless"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-005",
+      "question": "[NUMERICAL] একটি গ্যাসের চাপ 1 atm থেকে বাড়িয়ে 2 atm করা হলো এবং তাপমাত্রা 300 K থেকে কমিয়ে 150 K করা হলো। আয়তন কত গুণ হবে?",
+      "options": [
+        "4 গুণ",
+        "2 গুণ",
+        "1/4 গুণ",
+        "একই থাকবে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-65-006",
+      "question": "নিচের কোনগুলি শক্তি সঞ্চয় করে রাখতে পারে? (বহু-সঠিক)",
+      "options": [
+        "ব্যাটারি",
+        "জেনারেটর",
+        "ক্যাপাসিটর",
+        "স্প্রিং"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-65-007",
+      "question": "বাষ্পীভবন কাকে বলে?",
+      "options": [
+        "নির্দিষ্ট তাপমাত্রায় তরলের তলদেশ থেকে গ্যাসে পরিণত হওয়া",
+        "যে কোনো তাপমাত্রায় তরলের উপরিতল থেকে ধীরে ধীরে গ্যাসে পরিণত হওয়া",
+        "কঠিন থেকে সরাসরি বাষ্পে পরিণত হওয়া",
+        "নির্দিষ্ট তাপমাত্রায় তরলের অভ্যন্তর থেকে বুদবুদ আকারে গ্যাস বের হওয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-008",
+      "question": "জলের বাষ্পীভবনের সুপ্ততাপ কত (প্রায়)?",
+      "options": [
+        "340 J/g",
+        "540 J/g",
+        "1260 J/g",
+        "2260 J/g"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-009",
+      "question": "গোলীয় দর্পণের বক্রতা কেন্দ্র (C) কাকে বলে?",
+      "options": [
+        "দর্পণের মেরু",
+        "দর্পণের মুখ্য ফোকাস",
+        "দর্পণের বক্রপৃষ্ঠের কেন্দ্র",
+        "দর্পণের পাদদেশ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-010",
+      "question": "কোনো ভোল্টমিটারের পাঠ 2 V বলতে বোঝায়—",
+      "options": [
+        "2 A প্রবাহ",
+        "প্রতি কুলম্ব আধানে 2 J কাজ সম্পন্ন হয়",
+        "2 Ω রোধ",
+        "2 W ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-011",
+      "question": "R₁ ও R₂ রোধ সমান্তরালে যুক্ত, তাদের তুল্য রোধ Rₚ এবং তারা শ্রেণিতে যুক্ত হলে Rs। নিচের কোন সম্পর্কটি সঠিক?",
+      "options": [
+        "Rₚ > R₁ > R₂",
+        "Rs > R₁ > R₂ > Rₚ",
+        "Rs < R₁ < R₂",
+        "Rₚ = (R₁+R₂)/Rs"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-65-012",
+      "question": "রোধ নির্ণয়ের সূত্র R = ρL/A অনুসারে, রোধ নির্ভর করে— (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্যের ওপর",
+        "প্রস্থচ্ছেদের ওপর",
+        "তাপমাত্রার ওপর (ρ পরিবর্তিত হয়)",
+        "রঙের ওপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-65-013",
+      "question": "অ্যালুমিনিয়ামের তড়িৎ বিশ্লেষণ নিষ্কাশনে— (বহু-সঠিক)",
+      "options": [
+        "অ্যানোডে কার্বন দণ্ড ব্যবহৃত হয়",
+        "ক্যাথোডে অ্যালুমিনিয়াম জমা হয়",
+        "ক্রায়োলাইট গলনাঙ্ক কমায়",
+        "অ্যানোডে অক্সিজেন উৎপন্ন হয় (যা কার্বনের সাথে বিক্রিয়া করে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-65-014",
+      "question": "NTP-তে 1 mol গ্যাসের আয়তন কত?",
+      "options": [
+        "2.24 L",
+        "22.4 L",
+        "224 L",
+        "44.8 L"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-015",
+      "question": "একবর্ণী আলো কাকে বলে?",
+      "options": [
+        "এক রঙের আলো",
+        "সাত রঙের আলো",
+        "সূর্যালোক",
+        "বাতির আলো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-016",
+      "question": "একটি লেন্সের ক্ষমতা -4 D। ফোকাস দূরত্ব কত?",
+      "options": [
+        "25 cm",
+        "-25 cm",
+        "40 cm",
+        "-40 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-017",
+      "question": "রক সল্ট (Rock Salt) মূলত কোন লবণের খনিজ রূপ?",
+      "options": [
+        "KCl",
+        "NaCl",
+        "CaCl₂",
+        "MgCl₂"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-018",
+      "question": "নিচের কোনগুলো সঠিকভাবে মেলে? (i) মায়োপিয়া - অবতল লেন্স (ii) হাইপারমেট্রোপিয়া - উত্তল লেন্স (iii) প্রেসবায়োপিয়া - দ্বিফোকাস লেন্স (iv) অ্যাস্টিগমাটিজম - বেলনাকার লেন্স",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-019",
+      "question": "R = ρL/A সূত্রে ρ কাকে বলে?",
+      "options": [
+        "রোধ",
+        "আপেক্ষিক রোধ বা রোধাঙ্ক",
+        "পরিবাহকত্ব",
+        "তড়িৎ ক্ষেত্র"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-020",
+      "question": "জলের স্ফুটনাঙ্ক সেলসিয়াস স্কেলে কত?",
+      "options": [
+        "0°C",
+        "32°C",
+        "100°C",
+        "212°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-021",
+      "question": "পরম শূন্য তাপমাত্রা সংক্রান্ত সঠিক উক্তিগুলি চিহ্নিত করো। (একাধিক উত্তর সঠিক)",
+      "options": [
+        "0 K",
+        "-273°C",
+        "গ্যাসের আয়তন শূন্য হবে (তাত্ত্বিক)",
+        "অণুগুলির গতি সর্বোচ্চ হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-65-022",
+      "question": "কোন প্রক্রিয়ায় তাপ সঞ্চালনের জন্য বস্তুকণার স্থানান্তর ঘটে?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "A ও B উভয়ই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-023",
+      "question": "তাপমাত্রার SI একক কী?",
+      "options": [
+        "সেলসিয়াস",
+        "ফারেনহাইট",
+        "কেলভিন",
+        "রোমার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-024",
+      "question": "ওহম (Ω) কোন রাশির একক হতে পারে? (বহু-সঠিক)",
+      "options": [
+        "রোধ",
+        "ইম্পিডেন্স",
+        "রিঅ্যাক্টেন্স",
+        "তড়িৎ প্রবাহ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-65-025",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) ফোকাস দূরত্ব অর্ধেক বক্রতা ব্যাসার্ধের সমান (ii) দর্পণ সূত্র 1/f = 1/v - 1/u (iii) বিবর্ধন m = -v/u (iv) সমতল দর্পণের ফোকাস দূরত্ব অসীম",
+      "options": [
+        "(i), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (ii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-65-026",
+      "question": "জারণ-বিজারণ বিক্রিয়াকে একত্রে কী বলা হয়?",
+      "options": [
+        "Addition reaction",
+        "Redox reaction",
+        "Substitution reaction",
+        "Precipitation reaction"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-65-027",
+      "question": "আপেক্ষিক তাপের SI একক কী?",
+      "options": [
+        "J/kg",
+        "J/(kg·K)",
+        "cal/g",
+        "J/g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-028",
+      "question": "কুপরিবাহী পদার্থের ব্যবহারিক প্রয়োগ নয় কোনটি?",
+      "options": [
+        "থার্মোকলের কাপ",
+        "প্লাস্টিকের হাতল",
+        "ধাতব পাত",
+        "উলের কাপড়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-65-029",
+      "question": "জল একমাত্র তরল যা 4°C-এ সর্বোচ্চ ঘনত্ব অর্জন করে। এর প্রভাবগুলি কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বরফ পানিতে ভাসে",
+        "জলজ প্রাণী শীতকালে নিচের জলে বেঁচে থাকে",
+        "জল তাড়াতাড়ি বাষ্পীভূত হয়",
+        "জলপথে জাহাজ চলাচলে অসুবিধা হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-65-030",
+      "question": "ফর্মিক অ্যাসিড কোনটিতে পাওয়া যায়?",
+      "options": [
+        "ভিনেগার",
+        "পিঁপড়ার হুল",
+        "নারকেল তেল",
+        "আঙ্গুর রস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

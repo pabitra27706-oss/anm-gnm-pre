@@ -1,0 +1,517 @@
+{
+  "subject": "general-science",
+  "set": 123,
+  "questions": [
+    {
+      "id": "ge-123-001",
+      "question": "আল্ট্রাসোনিক তরঙ্গ ব্যবহারের সুবিধা হলো—",
+      "options": [
+        "এটি অনেক দূর পর্যন্ত যেতে পারে",
+        "এটি সহজে বিচ্ছুরিত হয় না",
+        "এটি ছোট ছোট কণা শনাক্ত করতে পারে",
+        "এটি মানুষ শুনতে পায় না তাই বিরক্তিকর নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-123-002",
+      "question": "কোনো স্বচ্ছ মাধ্যমের প্রতিসরাঙ্ক n = c/v। এখানে c কী?",
+      "options": [
+        "শূন্যস্থানে আলোর বেগ",
+        "মাধ্যমে আলোর বেগ",
+        "আলোর কম্পাঙ্ক",
+        "আলোর তরঙ্গদৈর্ঘ্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-003",
+      "question": "নিচের কোন ঘটনাটি আলোর প্রতিসরণের উদাহরণ?",
+      "options": [
+        "পুকুরের পানি কম মনে হওয়া",
+        "দর্পণে মুখ দেখা",
+        "ছায়া পড়া",
+        "পানি ফুটানো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-004",
+      "question": "মুক্ত পতনের (Free fall) সময় বস্তুর—",
+      "options": [
+        "ত্বরণ সবসময় 'g' হয়",
+        "ওজন শূন্য মনে হয়",
+        "বেগ ক্রমাগত বাড়ে",
+        "ভর পরিবর্তিত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-123-005",
+      "question": "P = W/t সূত্রানুসারে, (বহু-সঠিক)",
+      "options": [
+        "কাজ ধ্রুবক রেখে সময় কমালে ক্ষমতা বাড়ে",
+        "সময় ধ্রুবক রেখে কাজ বাড়ালে ক্ষমতা বাড়ে",
+        "ক্ষমতা কাজের সমানুপাতিক",
+        "ক্ষমতা সময়ের সমানুপাতিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-123-006",
+      "question": "আলোক বর্ষ কীসের একক?",
+      "options": [
+        "সময়",
+        "দূরত্ব",
+        "বেগ",
+        "শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-007",
+      "question": "আদর্শ গ্যাস সমীকরণে 'R' কে কী বলা হয়?",
+      "options": [
+        "Gas constant",
+        "Universal gas constant",
+        "Boltzmann constant",
+        "Avogadro constant"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-008",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 20 cm। লেন্স থেকে 60 cm দূরে বস্তু রাখলে প্রতিবিম্বের দূরত্ব কত?",
+      "options": [
+        "15 cm",
+        "30 cm",
+        "45 cm",
+        "60 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-009",
+      "question": "একটি বর্তনীতে দুটি রোধ R₁ ও R₂ সমান্তরালে যুক্ত, মোট প্রবাহ I. R₁ এর ভেতর দিয়ে প্রবাহ I₁ = ?",
+      "options": [
+        "I × (R₂/(R₁+R₂))",
+        "I × (R₁+R₂)/R₂",
+        "I × R₁/(R₁+R₂)",
+        "I × (R₁/R₂)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-123-010",
+      "question": "স্নেলের সূত্রের গাণিতিক রূপ নিচের কোনটি?",
+      "options": [
+        "n = c/v",
+        "n₁ sin i = n₂ sin r",
+        "sin i / sin r = n",
+        "i + r = 90°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-011",
+      "question": "টাংস্টেনের গলনাঙ্ক কেমন?",
+      "options": [
+        "কম",
+        "পরিবর্তনশীল",
+        "উচ্চ",
+        "0°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-012",
+      "question": "ক্যাথোডে কোন প্রক্রিয়া ঘটে?",
+      "options": [
+        "জারণ",
+        "বিজারণ",
+        "প্রশমন",
+        "উদাসীনকরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-013",
+      "question": "অ্যাসিড ও ক্ষারের বিক্রিয়ায় লবণ ও জল উৎপন্ন হওয়ার পদ্ধতিকে কী বলে?",
+      "options": [
+        "জারণ",
+        "বিজারণ",
+        "প্রশমন (Neutralization)",
+        "আর্দ্র বিশ্লেষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-014",
+      "question": "SONAR-এ কোন ধরনের শব্দ ব্যবহার করা হয়?",
+      "options": [
+        "শ্রুতিগোচর শব্দ (Audible)",
+        "শব্দোত্তর শব্দ (Ultrasonic)",
+        "শব্দেতর শব্দ (Infrasonic)",
+        "সাধারণ রেডিও তরঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-015",
+      "question": "একটি বস্তু ওপর থেকে ছেড়ে দিলে তার ক্ষেত্রে শক্তির রূপান্তর কী হবে?",
+      "options": [
+        "বিভব → গতি",
+        "গতি → বিভব",
+        "তাপ → আলোক",
+        "রাসায়নিক → তাপ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-016",
+      "question": "0°C তাপমাত্রার 20g বরফকে 0°C তাপমাত্রার জলে পরিণত করতে কত তাপ লাগবে? (বরফের গলনের সুপ্ততাপ = 336 J/g)",
+      "options": [
+        "4720 J",
+        "5720 J",
+        "6720 J",
+        "7720 J"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-017",
+      "question": "সূর্যের আলো বর্ণালীতে বিভক্ত হওয়ার কারণ কী?",
+      "options": [
+        "প্রতিফলন",
+        "প্রতিসরণ",
+        "বিচ্ছুরণ",
+        "শোষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-018",
+      "question": "পদার্থের চতুর্থ অবস্থা কোনটি যা অত্যন্ত উচ্চ তাপমাত্রায় আয়নিত গ্যাস হিসেবে থাকে?",
+      "options": [
+        "Solid",
+        "Bose-Einstein Condensate",
+        "Plasma",
+        "Superfluid"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-123-019",
+      "question": "1000 kg ভরের একটি গাড়িকে 2 m/s² ত্বরণে 5 s ধরে চলালে কৃত কার্য কত? (s = ut + ½at² = 0 + ½×2×25 = 25 m)",
+      "options": [
+        "50 kJ",
+        "25 kJ",
+        "10 kJ",
+        "5 kJ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-123-020",
+      "question": "নিচের কোনটি আম্লিক প্রকৃতির ফল নয়?",
+      "options": [
+        "লেবু",
+        "আমলকী",
+        "পাকা কলা (সাধারণত)",
+        "তেঁতুল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-021",
+      "question": "তাপজনিত কারণে প্রসারণের সূত্র কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ΔL = αL₀ΔT",
+        "Q = mL",
+        "ΔA = βA₀ΔT",
+        "ΔV = γV₀ΔT"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-123-022",
+      "question": "থার্মোমিটারের বাল্বটি কাচের তৈরি হয় কারণ কাচ-",
+      "options": [
+        "তাপের সুপরিবাহী",
+        "তাপের কুপরিবাহী",
+        "আপেক্ষিক তাপ বেশি",
+        "আপেক্ষিক তাপ কম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-123-023",
+      "question": "নিচের কোনগুলি অবতল দর্পণের বৈশিষ্ট্য? (i) অভিসারী দর্পণ (ii) অপসারী দর্পণ (iii) বাস্তব ও অবাস্তব উভয় ধরনের প্রতিবিম্ব গঠন করতে পারে (iv) সর্বদা ক্ষুদ্রতর প্রতিবিম্ব গঠন করে",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (iv)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-024",
+      "question": "ফ্যারাডের দ্বিতীয় সূত্র কোনটির উপর ভিত্তি করে লেখা হয়েছে?",
+      "options": [
+        "আণবিক ভর",
+        "পারমাণবিক ভর",
+        "তড়িৎ রাসায়নিক তুল্যাঙ্ক",
+        "তুল্যাঙ্ক ভর"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-025",
+      "question": "নাইট্রেট দূষণের ফলে শিশুদের কী রোগ হয়?",
+      "options": [
+        "ব্লু বেবি সিনড্রোম (মিথেমোগ্লোবিনিমিয়া)",
+        "পোলিও",
+        "হাম",
+        "জন্ডিস"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-026",
+      "question": "আলোর পূর্ণ অভ্যন্তরীণ প্রতিফলনের শর্ত কী?",
+      "options": [
+        "আলো ঘন মাধ্যম থেকে বিরল মাধ্যমে যাবে",
+        "আপতন কোণ সঙ্কট কোণের চেয়ে বড় হবে",
+        "উভয় শর্তই প্রয়োজন",
+        "আলো লম্বভাবে আপতিত হবে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-123-027",
+      "question": "[NUMERICAL] 1 mole কার্বন ডাই অক্সাইড (CO₂) এর ভর কত?",
+      "options": [
+        "12 g",
+        "32 g",
+        "44 g",
+        "28 g"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-028",
+      "question": "অম্ল বৃষ্টির ফলে ক্ষতিগ্রস্ত হয়—",
+      "options": [
+        "মার্বেল পাথরের স্থাপত্য",
+        "জলাশয়ের মাছ",
+        "মাটির উর্বরতা",
+        "প্লাস্টিকের পাইপ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-123-029",
+      "question": "ফটোকেমিক্যাল স্মগ তৈরিতে কোনটি দায়ী?",
+      "options": [
+        "CO",
+        "SO₂",
+        "NO₂, O₃ ও সূর্যালোক",
+        "CO₂"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-123-030",
+      "question": "ক্লোরিনেশন ছাড়া জল বিশুদ্ধকরণের আরও কী কী পদ্ধতি আছে? (একাধিক উত্তর)",
+      "options": [
+        "ফুটানো",
+        "UV ফিল্টার",
+        "ওজোনেশন",
+        "স্ক্রাবার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

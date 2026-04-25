@@ -1,0 +1,517 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 25,
+  "questions": [
+    {
+      "id": "am-25-001",
+      "question": "একটি দণ্ড লেখচিত্রে ৫টি ব্র্যান্ডের দাম: A:50, B:40, C:70, D:60, E:45। সঠিক:",
+      "options": [
+        "C সবচেয়ে দামি",
+        "B সবচেয়ে সস্তা",
+        "A ও E এর গড় 47.5",
+        "C ও D এর পার্থক্য 10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-25-002",
+      "question": "6x² + 5x - 6-এর উৎপাদক কী?",
+      "options": [
+        "(3x - 2)(2x + 3)",
+        "(3x + 2)(2x - 3)",
+        "(6x - 1)(x + 6)",
+        "(2x - 3)(3x + 2)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-003",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 4 ও 12 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 6 ঘন্টায় খালি হয়। চৌবাচ্চা খালি থাকলে তিনটি একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "নিট হার = 1/4+1/12-1/6 = (3+1-2)/12 = 2/12 = 1/6",
+        "সময় = 6 ঘন্টা",
+        "6 ঘন্টা",
+        "4 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-25-004",
+      "question": "1 এবং 100-এর মধ্যে কতগুলি মৌলিক সংখ্যা আছে?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "23"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-005",
+      "question": "A, B, C যথাক্রমে 10, 15 ও 20 দিনে একটি কাজ করতে পারে। তারা একসাথে কাজ করে 1300 টাকা পায়। C-এর ভাগ কত?",
+      "options": [
+        "300 টাকা",
+        "400 টাকা",
+        "500 টাকা",
+        "600 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-006",
+      "question": "m/s থেকে km/h -এ রূপান্তরের গুণক কত?",
+      "options": [
+        "5/18",
+        "18/5",
+        "1/3.6",
+        "3.6"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-25-007",
+      "question": "5.5 ÷ 0.5 = ?",
+      "options": [
+        "11",
+        "1.1",
+        "110",
+        "0.11"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-25-008",
+      "question": "5, 10, 15, 20, 25 এর গড় কত?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-25-009",
+      "question": "1500 টাকার বার্ষিক 8% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "8.64 টাকা",
+        "9.6 টাকা",
+        "10 টাকা",
+        "11 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-010",
+      "question": "A ও B 200 মিটার দূরে, বিপরীত দিকে 4 m/s ও 6 m/s গতিতে এগোলে:",
+      "options": [
+        "আপেক্ষিক গতি 10 m/s",
+        "মিলিত হতে সময় 20 সেকেন্ড",
+        "মিলিত হতে 50 সেকেন্ড",
+        "আপেক্ষিক গতি 2 m/s"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-25-011",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 8 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 10 ঘন্টায় ভরাতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "3.5 ঘন্টা",
+        "4 ঘন্টা",
+        "4.44 ঘন্টা",
+        "5 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-012",
+      "question": "12টি জিনিসের ক্রয়মূল্য 15টি জিনিসের বিক্রয়মূল্যের সমান হলে ক্ষতির শতকরা হার কত?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-013",
+      "question": "a = 5, b = 3 হলে, a³ - b³-এর মান কত?",
+      "options": [
+        "98",
+        "152",
+        "125",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-014",
+      "question": "4% হারে কত বছরে কোনো আসল দ্বিগুণ হবে?",
+      "options": [
+        "20 বছর",
+        "25 বছর",
+        "30 বছর",
+        "35 বছর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-015",
+      "question": "√0.0025 = ?",
+      "options": [
+        "0.05",
+        "0.5",
+        "5",
+        "0.005"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-016",
+      "question": "8 জন লোক একটি কাজ 15 দিনে করে। 12 জন লোক সেই কাজ কত দিনে করবে?",
+      "options": [
+        "8 দিন",
+        "9 দিন",
+        "10 দিন",
+        "12 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-017",
+      "question": "x² - 5x + 6 = 0 সমীকরণের মূল কোন কোনটি?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-25-018",
+      "question": "0.333... এবং 0.666... আবৃত দশমিক দুটির ভগ্নাংশ কীরূপ?",
+      "options": [
+        "যথাক্রমে 1/3 ও 2/3",
+        "উভয়ই প্রকৃত ভগ্নাংশ",
+        "এদের যোগফল 1",
+        "এদের গুণফল 2/9"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-25-019",
+      "question": "4/5-এর 3/4 অংশ কত?",
+      "options": [
+        "3/5",
+        "12/20",
+        "16/15",
+        "3/20"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-020",
+      "question": "8 জন পুরুষ 12 দিনে একটি কাজ করে। 6 জন পুরুষ ও 4 জন মহিলা একই কাজ 9 দিনে করে। 1 জন মহিলা একা কাজটি কত দিনে করবে?",
+      "options": [
+        "24 দিন",
+        "28 দিন",
+        "32 দিন",
+        "36 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-021",
+      "question": "একটি বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য 10 সেমি। বর্গক্ষেত্রটির ক্ষেত্রফল কত?",
+      "options": [
+        "25 বর্গসেমি",
+        "50 বর্গসেমি",
+        "100 বর্গসেমি",
+        "200 বর্গসেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-022",
+      "question": "T = 2π√(l/g) সূত্রে l = ?",
+      "options": [
+        "(T²g)/(4π²)",
+        "(Tg)/(2π)",
+        "(T²g)/(2π²)",
+        "(4π²g)/T²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-023",
+      "question": "A, B, C এর কাজের সময়ের অনুপাত 4:5:6। তারা একসাথে কাজ করলে কত দিনে কাজ শেষ হবে?",
+      "options": [
+        "60/37 দিন",
+        "60/38 দিন",
+        "60/39 দিন",
+        "60/40 দিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-024",
+      "question": "একই কাজ করতে শ্রমিক সংখ্যা বাড়লে সময় কী হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "দ্বিগুণ হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-25-025",
+      "question": "কোনো আসল 2 বছরে 20% চক্রবৃদ্ধি সুদের হারে 7200 টাকা হলে, আসল কত?",
+      "options": [
+        "4500 টাকা",
+        "4800 টাকা",
+        "5000 টাকা",
+        "5200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-026",
+      "question": "একটি পাই চার্ট স্কুলের বিভিন্ন কার্যকলাপে সময় বণ্টন দেখায়: খেলা 90°, পড়া 180°, ঘুম 60°, খাওয়া 30°। পড়ার জন্য বরাদ্ধ কোণ কত?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-25-027",
+      "question": "12 জন পুরুষ একটি কাজ 24 দিনে করতে পারে। কাজটি 16 দিনে করতে চাইলে কত জন পুরুষ লাগবে?",
+      "options": [
+        "16 জন",
+        "18 জন",
+        "20 জন",
+        "22 জন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-028",
+      "question": "তাহির প্রথম 1 ঘন্টায় 50 km/h এবং পরবর্তী 1 ঘন্টায় 70 km/h গতিতে চলে। গড় দ্রুতি কত?",
+      "options": [
+        "55 km/h",
+        "60 km/h",
+        "65 km/h",
+        "70 km/h"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-25-029",
+      "question": "একটি সিলিন্ডারের ব্যাসার্ধ 10% বৃদ্ধি ও উচ্চতা 10% হ্রাস করলে আয়তন কত% পরিবর্তন হবে?",
+      "options": [
+        "8.9% বৃদ্ধি",
+        "8.9% হ্রাস",
+        "10% বৃদ্ধি",
+        "10% হ্রাস"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-25-030",
+      "question": "নিচের কোন কোনটি চতুর্থাংশের নাম?",
+      "options": [
+        "প্রথম চতুর্থাংশ",
+        "দ্বিতীয় চতুর্থাংশ",
+        "তৃতীয় চতুর্থাংশ",
+        "চতুর্থ চতুর্থাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

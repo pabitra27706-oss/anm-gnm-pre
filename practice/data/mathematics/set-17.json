@@ -1,0 +1,568 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 17,
+  "questions": [
+    {
+      "id": "am-17-001",
+      "question": "20% ছাড়ে একটি জিনিসের বিক্রয়মূল্য 400 টাকা হলে, ধার্যমূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "520 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-002",
+      "question": "A একটি কাজ 12 দিনে করে, B 16 দিনে করে, C 24 দিনে করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 48/7 ≈ 6.857 দিনে করে",
+        "B ও C একসাথে 48/5 ≈ 9.6 দিনে করে",
+        "A ও C একসাথে 8 দিনে করে",
+        "A, B, C একসাথে 16/3 ≈ 5.33 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-003",
+      "question": "কোন সংখ্যা সবচেয়ে ছোট যা 24, 36 এবং 48 দ্বারা ভাগ করলে প্রতিটি ক্ষেত্রে 5 ভাগশেষ থাকে?",
+      "options": [
+        "149",
+        "145",
+        "141",
+        "139"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-17-004",
+      "question": "পাইপ ও চৌবাচ্চার নিচের সমস্যাগুলির মধ্যে কোনটি সঠিক?",
+      "options": [
+        "A পাইপ 4 ঘন্টায় ভরায়, B পাইপ 6 ঘন্টায় খালি করে → নিট ভরার সময় 12 ঘন্টা",
+        "A পাইপ 5 ঘন্টায় ভরায়, B পাইপ 10 ঘন্টায় ভরায় → একসাথে 3.33 ঘন্টায় ভরবে",
+        "A পাইপ 3 ঘন্টায় ভরায়, B পাইপ 4 ঘন্টায় খালি করে → চৌবাচ্চা কখনো ভরবে না",
+        "A পাইপ 2 ঘন্টায় ভরায়, B পাইপ 3 ঘন্টায় খালি করে → 6 ঘন্টায় ভরবে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-005",
+      "question": "সরল সুদের ক্ষেত্রে মূলধন (P) নির্ণয়ের সূত্র কী?",
+      "options": [
+        "(SI × 100) / (R × T)",
+        "(SI × R × T) / 100",
+        "(100 × R × T) / SI",
+        "(SI × R) / (100 × T)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-006",
+      "question": "একটি দোকানে 10% এবং 20% ক্রমিক ছাড় দেওয়া হয়। মোট ছাড়ের শতকরা হার কত?",
+      "options": [
+        "25%",
+        "26%",
+        "27%",
+        "28%"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-17-007",
+      "question": "একটি দ্রব্য 800 টাকায় কিনে 680 টাকায় বিক্রয় করলে ক্ষতির শতকরা হার কত?",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "18%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-008",
+      "question": "একটি সিলিন্ডারের ব্যাসার্ধ r ও উচ্চতা h হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "বক্রতলের ক্ষেত্রফল = 2πrh",
+        "সমগ্রতলের ক্ষেত্রফল = 2πr(h + r)",
+        "আয়তন = πr²h",
+        "ভূমির ক্ষেত্রফল = πr²"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-17-009",
+      "question": "একটি ঘনকের বাহু 50% বৃদ্ধি করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "আয়তন 3.375 গুণ হয়",
+        "সমগ্রতলের ক্ষেত্রফল 2.25 গুণ হয়",
+        "কর্ণ 50% বৃদ্ধি পায়",
+        "একটি তলের ক্ষেত্রফল 2.25 গুণ হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-010",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "CP = SP × 100/(100 + লাভ%)",
+        "CP = SP × 100/(100 - ক্ষতি%)",
+        "SP = CP × (100 + লাভ%)/100",
+        "SP = CP × (100 - ক্ষতি%)/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-17-011",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "মোট কাজ = মোট ব্যক্তি-দিন",
+        "M1D1 = M2D2 (কাজ স্থির থাকলে)",
+        "W1/M1D1 = W2/M2D2",
+        "M1D1/W1 = M2D2/W2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-17-012",
+      "question": "12টি সংখ্যার গড় 25। প্রথম 5টির গড় 20 ও শেষ 4টির গড় 30 হলে, 6ষ্ঠ,7ম,8ম সংখ্যার গড়:",
+      "options": [
+        "(300 - 100 - 120)/3 = 80/3 = 26.67",
+        "26.67",
+        "27",
+        "25"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-013",
+      "question": "শঙ্কুর তির্যক উচ্চতা নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "√(r² + h²)",
+        "√(r² - h²)",
+        "r + h",
+        "r² + h²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-17-014",
+      "question": "a² - b² = ?",
+      "options": [
+        "(a + b)²",
+        "(a - b)²",
+        "(a + b)(a - b)",
+        "(a + b)(a + b)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-17-015",
+      "question": "p : q = 1 : 2, q : r = 4 : 3, r : s = 9 : 10 হলে p : s কত?",
+      "options": [
+        "3 : 5",
+        "3 : 10",
+        "6 : 10",
+        "9 : 20"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-17-016",
+      "question": "একটি দ্রব্য 15% লাভে বিক্রয় করলে SP = 1150 টাকা। দ্রব্যটির CP কত এবং 20% লাভে SP কত?",
+      "options": [
+        "CP = 1000 টাকা",
+        "20% লাভে SP = 1200 টাকা",
+        "CP = 950 টাকা",
+        "20% লাভে SP = 1140 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-017",
+      "question": "0.5 -এর সমতুল্য:",
+      "options": [
+        "1/2",
+        "50%",
+        "0.50",
+        "5/10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-17-018",
+      "question": "নিচের কোন কোনটি বহুপদীর মাত্রা (degree) নির্ধারণ করে?",
+      "options": [
+        "সর্বোচ্চ ঘাতযুক্ত পদের ঘাত",
+        "চলকের গুণিতকের যোগফল",
+        "পদের সংখ্যা",
+        "ধ্রুবক পদের মান"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-17-019",
+      "question": "একটি কাজে 5 জন পুরুষ 12 দিনে করে নিচের কোনটি সঠিক?",
+      "options": [
+        "মোট কাজ = 60 পুরুষ-দিন",
+        "10 জন পুরুষ 6 দিনে করবে",
+        "15 জন পুরুষ 4 দিনে করবে",
+        "20 জন পুরুষ 3 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-17-020",
+      "question": "একটি ট্রেন 360 মিটার লম্বা সেতু অতিক্রম করে 24 সেকেন্ডে এবং একটি খুঁটি অতিক্রম করে 6 সেকেন্ডে। ট্রেনের দৈর্ঘ্য ও গতি:",
+      "options": [
+        "খুঁটি অতিক্রমে দৈর্ঘ্য = L, সময় 6 সেকেন্ড",
+        "সেতু অতিক্রমে মোট দূরত্ব = L+360, সময় 24 সেকেন্ড",
+        "গতি v = L/6 = (L+360)/24 → 4L = L+360 → 3L=360 → L=120 মিটার",
+        "v = 120/6 = 20 m/s = 72 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-021",
+      "question": "2 জন পুরুষ ও 3 জন মহিলা একটি কাজ 12 দিনে করতে পারে। 4 জন পুরুষ ও 5 জন মহিলা একই কাজ 6 দিনে করতে পারে। 3 জন পুরুষ ও 4 জন মহিলা একত্রে কাজটি কত দিনে করবে?",
+      "options": [
+        "1 জন পুরুষের 1 দিনের কাজ = 1/12",
+        "1 জন মহিলার 1 দিনের কাজ = 1/18",
+        "3 জন পুরুষ ও 4 জন মহিলা একত্রে 1 দিনে কাজ করে = 3/12 + 4/18 = 1/4 + 2/9 = (9+8)/36 = 17/36",
+        "কাজ শেষের সময় = 36/17 ≈ 2.12 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-022",
+      "question": "3 সেমি বাহুবিশিষ্ট ঘনকের কর্ণের দৈর্ঘ্য কত? (√3 = 1.732)",
+      "options": [
+        "3.464 সেমি",
+        "4.242 সেমি",
+        "5.196 সেমি",
+        "6.928 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-023",
+      "question": "(2x + 3)² - 4x² = ?",
+      "options": [
+        "12x + 9",
+        "9",
+        "4x² + 9",
+        "12x"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-024",
+      "question": "একটি সিলিন্ডারের ব্যাসার্ধ অর্ধেক ও উচ্চতা দ্বিগুণ করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "আয়তন অর্ধেক হয়",
+        "আয়তন (½)² × 2 = ½ গুণ",
+        "বক্রতলের ক্ষেত্রফল অপরিবর্তিত থাকে",
+        "বক্রতলের ক্ষেত্রফল = 2π(½r)(2h) = 2πrh"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-17-025",
+      "question": "একটি গোলকের ব্যাস 14 সেমি। গোলকটির আয়তন কত? (π = 22/7)",
+      "options": [
+        "1437.33 ঘনসেমি",
+        "1560 ঘনসেমি",
+        "1780 ঘনসেমি",
+        "2000 ঘনসেমি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-026",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 5 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 7 ঘন্টায় ভরাতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "2.5 ঘন্টা",
+        "2.8 ঘন্টা",
+        "2.92 ঘন্টা",
+        "3 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-17-027",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 5 দিনে করে, B একা 7 দিনে করে → A ও B একসাথে 35/12 দিনে করে → 1 দিনে 12/35 অংশ কাজ করে",
+        "A ও B একসাথে 6 দিনে করে, A একা 9 দিনে করে → A ও B একসাথে 1 দিনে 1/6 কাজ করে, A একা 1/9 কাজ করে → B একা 1/6 - 1/9 = 3/18 - 2/18 = 1/18 → B 18 দিনে করে",
+        "A ও B একসাথে 8 দিনে করে, B একা 12 দিনে করে → A ও B একসাথে 1/8, B একা 1/12 → A একা 1/8 - 1/12 = 3/24 - 2/24 = 1/24 → A 24 দিনে করে",
+        "A ও B একসাথে 10 দিনে করে, A একা 15 দিনে করে → B একা 30 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-17-028",
+      "question": "দুটি সংখ্যার গ.সা.গু. 7 ও ল.সা.গু. 84, একটি সংখ্যা 21 হলে অপরটি কত?",
+      "options": [
+        "28",
+        "14",
+        "42",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-17-029",
+      "question": "নিচের কোন কোনটি 'x' চলকযুক্ত সমীকরণের সমাধান?",
+      "options": [
+        "2x + 5 = 13 → x = 4",
+        "3x - 4 = 11 → x = 5",
+        "x/3 + 2 = 5 → x = 9",
+        "4x + 7 = 15 → x = 2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-17-030",
+      "question": "10 জনের গড় বয়স 30 বছর। 5 বছর আগে তাদের গড় বয়স কত ছিল?",
+      "options": [
+        "20 বছর",
+        "22 বছর",
+        "24 বছর",
+        "25 বছর"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

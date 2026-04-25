@@ -1,0 +1,537 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 64,
+  "questions": [
+    {
+      "id": "am-64-001",
+      "question": "একটি গোলকের পৃষ্ঠতলের ক্ষেত্রফল A ও আয়তন V হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A = 4πr², V = ⁴⁄₃πr³",
+        "r = √(A/4π)",
+        "V = (A√(A/π))/6",
+        "A³ ∝ V²"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-64-002",
+      "question": "সামান্তরিকের পরিসীমা নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "2(a + b)",
+        "4a",
+        "a + b",
+        "ab"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-003",
+      "question": "A একটি কাজ 20 দিনে করে। A-এর থেকে B 25% বেশি দক্ষ হলে B ওই কাজ কত দিনে করবে?",
+      "options": [
+        "14 দিন",
+        "15 দিন",
+        "16 দিন",
+        "18 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-004",
+      "question": "75% -এর ভগ্নাংশরূপ কী?",
+      "options": [
+        "1/4",
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-005",
+      "question": "3 এবং 5-এর সাধারণ গুণিতক কোন কোনটি?",
+      "options": [
+        "15,30,45,60",
+        "75,90,105,120",
+        "3,5,15",
+        "135,150"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-64-006",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 5 ও 10 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 8 ঘন্টায় খালি হয়। তিনটি একসাথে খুলে দিলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "4 ঘন্টা",
+        "4.5 ঘন্টা",
+        "5 ঘন্টা",
+        "5.5 ঘন্টা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-007",
+      "question": "a : b = 2 : 3, b : c = 4 : 5, c : d = 6 : 7 হলে a : d কত?",
+      "options": [
+        "16 : 35",
+        "48 : 105",
+        "16 : 35",
+        "48 : 35"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-008",
+      "question": "একটি টাকার 2 বছরের CI 10.25 টাকা এবং SI 10 টাকা। সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-009",
+      "question": "একটি কাজ A 15 দিনে করে। A, B অপেক্ষা 25% বেশি দক্ষ। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "18 দিন",
+        "18.75 দিন",
+        "19 দিন",
+        "19.5 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-010",
+      "question": "অপ্রকৃত ভগ্নাংশ 17/5-কে মিশ্র ভগ্নাংশে লিখলে হয়?",
+      "options": [
+        "2⅗",
+        "3⅖",
+        "3⅕",
+        "4⅕"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-011",
+      "question": "3 বছর ও 18 মাসের অনুপাত কত?",
+      "options": [
+        "3 : 18",
+        "1 : 6",
+        "2 : 1",
+        "1 : 2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-64-012",
+      "question": "0.75 এবং 3/4 সম্পর্কে নিচের কোন তথ্যগুলি সঠিক?",
+      "options": [
+        "উভয়ই সমান",
+        "0.75 = 3/4",
+        "0.75 দশমিক ভগ্নাংশ",
+        "3/4 প্রকৃত ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-64-013",
+      "question": "(x + y)² - (x - y)² = ?",
+      "options": [
+        "4xy",
+        "2xy",
+        "2x²",
+        "2y²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-64-014",
+      "question": "একটি দ্রব্য 25% ছাড় দিয়ে 600 টাকায় বিক্রয় করলে চিহ্নিত মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-64-015",
+      "question": "দশমিক ভগ্নাংশ কাকে বলে?",
+      "options": [
+        "যার হর 10-এর ঘাত",
+        "যার লব 10-এর ঘাত",
+        "যার মান 1-এর কম",
+        "যার মান 1-এর বেশি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-016",
+      "question": "রেখা লেখচিত্রে গড় নির্ণয়:",
+      "options": [
+        "বিন্দুগুলোর যোগফল / বিন্দুর সংখ্যা",
+        "প্রবণতা জানতে সাহায্য করে",
+        "নির্দিষ্ট বিন্দুর মান বের করা যায়",
+        "ভবিষ্যৎ পূর্বাভাসে কাজে লাগে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-64-017",
+      "question": "একটি আয়তক্ষেত্রের প্রস্থ 5 সেমি ও ক্ষেত্রফল 60 বর্গসেমি। দৈর্ঘ্য কত?",
+      "options": [
+        "8 সেমি",
+        "10 সেমি",
+        "12 সেমি",
+        "14 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-018",
+      "question": "A একা একটি কাজ 12 দিনে করে। A ও B একসাথে কাজটি 8 দিনে করে। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "22 দিন",
+        "24 দিন",
+        "26 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-64-019",
+      "question": "0.5, 1.5, 2.5 (ভগ্নাংশ আকারে লিখে) এর জন্য সঠিক:",
+      "options": [
+        "1/2, 3/2, 5/2",
+        "HCF = 1/2",
+        "LCM = 15/2",
+        "LCM = 7.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-64-020",
+      "question": "9, 27-এর তৃতীয় সমানুপাতী কত?",
+      "options": [
+        "18",
+        "54",
+        "81",
+        "243"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-021",
+      "question": "নৌকা ও স্রোতের সমস্যায় স্রোতের অনুকূলে (Downstream) কার্যকরী দ্রুতি কত?",
+      "options": [
+        "নৌকার গতি + স্রোতের গতি",
+        "নৌকার গতি - স্রোতের গতি",
+        "নৌকার গতি × স্রোতের গতি",
+        "স্রোতের গতি - নৌকার গতি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-022",
+      "question": "একটি জিনিস 600 টাকায় বিক্রয় করাতে 20% লাভ হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "520 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-64-023",
+      "question": "একটি শ্রেণির 40 জন ছাত্রের গড় নম্বর 65। 10 জন ছাত্রের গড় 70 হলে, বাকি 30 জনের গড় কত?",
+      "options": [
+        "60",
+        "62",
+        "63.33",
+        "65"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-64-024",
+      "question": "140% -এর সমতুল্য:",
+      "options": [
+        "1.4",
+        "7/5",
+        "140/100",
+        "1.04"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-64-025",
+      "question": "একটি দ্রব্য 15% ক্ষতিতে বিক্রয় করলে ক্ষতি = 75 টাকা। নিচের কোনটি সঠিক?",
+      "options": [
+        "CP = 500 টাকা",
+        "SP = 425 টাকা",
+        "CP = 400 টাকা",
+        "SP = 450 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-64-026",
+      "question": "5/8 এবং 3/8-এর যোগফল কত?",
+      "options": [
+        "1",
+        "2/8",
+        "8/8",
+        "1/8"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-64-027",
+      "question": "পথচারী 3 km/h গতিতে হাঁটলে 2 ঘন্টা দেরি হয়, 5 km/h গতিতে হাঁটলে 1 ঘন্টা আগে পৌঁছায়। দূরত্ব:",
+      "options": [
+        "ধরি নির্দিষ্ট সময় t, দূরত্ব d = 3(t+2) = 5(t-1)",
+        "3t+6=5t-5 → 2t=11 → t=5.5 ঘন্টা",
+        "d = 3×(7.5)=22.5 কিমি",
+        "d = 22.5 কিমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-64-028",
+      "question": "y = 2x + 3 সরলরেখার বৈশিষ্ট্য কী কী?",
+      "options": [
+        "ঢাল = 2",
+        "y-অক্ষচ্ছেদ = 3",
+        "এটি একটি সরলরেখা",
+        "x-অক্ষচ্ছেদ = -1.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-64-029",
+      "question": "একটি নৌকা স্রোতের অনুকূলে 3 ঘন্টায় 30 কিমি, স্রোতের বিপরীতে 5 ঘন্টায় 30 কিমি যায়। নৌকার গতি:",
+      "options": [
+        "Downstream = 10 km/h, Upstream = 6 km/h",
+        "Boat = (10+6)/2 = 8 km/h",
+        "8 km/h",
+        "9 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-64-030",
+      "question": "অর্ধগোলকের সমগ্রতলের ক্ষেত্রফল নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "4πr²",
+        "2πr²",
+        "3πr²",
+        "πr²"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

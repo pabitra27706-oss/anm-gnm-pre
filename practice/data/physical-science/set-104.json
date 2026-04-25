@@ -1,0 +1,526 @@
+{
+  "subject": "general-science",
+  "set": 104,
+  "questions": [
+    {
+      "id": "ge-104-001",
+      "question": "একটি ক্যামেরায় অবতল লেন্স কেন ব্যবহার করা হয় না?",
+      "options": [
+        "বাস্তব প্রতিবিম্ব তৈরি করে না বলে",
+        "বিবর্ধিত প্রতিবিম্ব তৈরি করে বলে",
+        "ক্ষুদ্রতর প্রতিবিম্ব তৈরি করে বলে",
+        "উল্টো প্রতিবিম্ব তৈরি করে বলে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-104-002",
+      "question": "দুটি তারের দৈর্ঘ্য ও প্রস্থচ্ছেদ সমান, কিন্তু উপাদান ভিন্ন; তাহলে— (বহু-সঠিক)",
+      "options": [
+        "রোধ ভিন্ন হবে",
+        "আপেক্ষিক রোধ ভিন্ন",
+        "পরিবাহিতা ভিন্ন",
+        "ভর সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-104-003",
+      "question": "40°C = ?°F",
+      "options": [
+        "96°F",
+        "100°F",
+        "104°F",
+        "108°F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-104-004",
+      "question": "মহাকর্ষীয় বল (Gravitational force) সবসময়—",
+      "options": [
+        "বিকর্ষণ ধর্মী",
+        "আকর্ষণ ধর্মী",
+        "উভয়ই হতে পারে",
+        "মাধ্যমের প্রকৃতির ওপর নির্ভর করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-104-005",
+      "question": "হাইপারমেট্রোপিয়া ত্রুটিতে চোখের লেন্সের ফোকাস দূরত্ব কীরূপ হয়?",
+      "options": [
+        "স্বাভাবিকের চেয়ে বেশি",
+        "স্বাভাবিকের চেয়ে কম",
+        "স্বাভাবিকের সমান",
+        "অনির্দিষ্ট"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-006",
+      "question": "গ্লুকোজ বা সুক্রোজের জলীয় দ্রবণ তড়িৎ পরিবহন করে না কেন?",
+      "options": [
+        "এগুলি বিষাক্ত",
+        "এগুলি আয়নে বিয়োজিত হয় না",
+        "এগুলি গ্যাসে পরিণত হয়",
+        "এগুলি খুব ঘন হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-007",
+      "question": "[NUMERICAL] 100 g ভরের একটি বস্তুর ওপর 1 N বল প্রয়োগ করলে ত্বরণ কত হবে?",
+      "options": [
+        "10 m/s²",
+        "0.01 m/s²",
+        "100 m/s²",
+        "1 m/s²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-104-008",
+      "question": "গ্রুপ 2 এর মৌল সম্পর্কে কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "এরা ক্ষারীয় মৃত্তিকা ধাতু",
+        "এদের যোজ্যতা 2",
+        "Be এই গ্রুপের প্রথম মৌল",
+        "এরা সহজেই ইলেকট্রন গ্রহণ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-104-009",
+      "question": "রৈখিক প্রসারণ গুণাঙ্কের সূত্র ΔL = αL₀ΔT-তে ΔT কী?",
+      "options": [
+        "আদি দৈর্ঘ্য",
+        "দৈর্ঘ্যের পরিবর্তন",
+        "তাপমাত্রার পরিবর্তন",
+        "প্রসারণ গুণাঙ্ক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-010",
+      "question": "গরম খাবার ঠান্ডা হতে যে পদ্ধতি কাজ করে, তা হল-",
+      "options": [
+        "শুধু পরিবহন",
+        "পরিবহন, পরিচলন ও বিকিরণ",
+        "শুধু বিকিরণ",
+        "শুধু পরিচলন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-011",
+      "question": "কোনো ধাতব তারের দৈর্ঘ্য L ও প্রস্থচ্ছেদ A, এর রোধ R। অপর একটি তারের দৈর্ঘ্য L/2 ও প্রস্থচ্ছেদ A/2, দ্বিতীয় তারটির রোধ কত?",
+      "options": [
+        "R/2",
+        "R",
+        "2R",
+        "R/4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-104-012",
+      "question": "অ্যামিটার বানাতে গ্যালভানোমিটারের সঙ্গে কী জুড়তে হয়?",
+      "options": [
+        "উচ্চ রোধ শ্রেণিতে",
+        "নিম্ন রোধ সমান্তরালে",
+        "উচ্চ রোধ সমান্তরালে",
+        "নিম্ন রোধ শ্রেণিতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-104-013",
+      "question": "বৃষ্টির ফোঁটা পড়ার আগে গ্রীষ্মকালে তাপমাত্রা কমে কেন? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বাষ্পীভবনের সুপ্ততাপ শোষণ",
+        "বাতাসের গতিবেগ কমে",
+        "মেঘ সূর্যরশ্মি আটকে দেয়",
+        "আর্দ্রতা বেড়ে যায়"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-104-014",
+      "question": "নিম্নলিখিত বিবৃতিগুলির মধ্যে কোনটি /গুলি সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "BOD পরিষ্কার জলে কম",
+        "পরিষ্কার জলের BOD 5ppm এর নিচে",
+        "দূষিত জলের pH সর্বদা ক্ষারীয়",
+        "কলিফর্ম জলে মল দূষণ নির্দেশ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-104-015",
+      "question": "একটি উত্তল লেন্সের ক্ষমতা +6 D। যদি এটিকে -2 D ক্ষমতার লেন্সের সাথে সংযুক্ত করা হয়, তবে তুল্য ক্ষমতা কত?",
+      "options": [
+        "4 D",
+        "3 D",
+        "8 D",
+        "12 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-016",
+      "question": "নিচের কোনগুলো তড়িৎ অন্তরক? (বহু-সঠিক)",
+      "options": [
+        "রাবার",
+        "প্লাস্টিক",
+        "তামা",
+        "শুকনো কাঠ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-104-017",
+      "question": "নিচের কোনটি 'স্ট্রং বেস' (Strong Base) নয়?",
+      "options": [
+        "NaOH",
+        "KOH",
+        "Mg(OH)2",
+        "Ba(OH)2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-018",
+      "question": "একটি ইলেকট্রিক বাতির ক্ষমতা কমানোর উপায় কী? (বহু-সঠিক)",
+      "options": [
+        "ডিমার ব্যবহার",
+        "কম ওয়াটের বাতি ব্যবহার",
+        "ভোল্টেজ কমালে",
+        "সমান্তরালে আরও বাতি জুড়লে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-104-019",
+      "question": "কোনো যন্ত্রের যান্ত্রিক সুবিধা 1 এর বেশি হলে—",
+      "options": [
+        "প্রযুক্ত বল ভারের চেয়ে বেশি",
+        "প্রযুক্ত বল ভারের চেয়ে কম",
+        "ভার ও বল সমান",
+        "যন্ত্রের দক্ষতা 100%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-020",
+      "question": "[NUMERICAL] একটি লবণের দ্রাব্যতা 20। 50g সম্পৃক্ত দ্রবণ তৈরি করতে কত গ্রাম লবণ লাগবে?",
+      "options": [
+        "10g",
+        "8.33g",
+        "20g",
+        "12g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-104-021",
+      "question": "গরম বাতাস উপরে ওঠে কোন নীতির ভিত্তিতে?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "বিকীর্ণন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-104-022",
+      "question": "[NUMERICAL] সোডিয়াম ক্লোরাইড (NaCl)-এর 1 mole-এ কত গ্রাম ক্লোরিন আছে?",
+      "options": [
+        "35.5 g",
+        "23 g",
+        "58.5 g",
+        "71 g"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-023",
+      "question": "প্রেসবায়োপিয়া ত্রুটিতে কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "দ্বিফোকাস",
+        "বেলনাকার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-024",
+      "question": "আলোক শক্তি কোন প্রক্রিয়ায় রাসায়নিক শক্তিতে রূপান্তরিত হয়?",
+      "options": [
+        "শ্বসন",
+        "সালোকসংশ্লেষ",
+        "বাষ্পীভবন",
+        "প্রস্বেদন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-025",
+      "question": "LED বাতির সুবিধা কী কী? (বহু-সঠিক)",
+      "options": [
+        "কম বিদ্যুৎ খরচ",
+        "কম তাপ উৎপাদন",
+        "দীর্ঘস্থায়ী",
+        "দাম বেশি হলেও সাশ্রয়ী"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-104-026",
+      "question": "চার্লস সূত্রের গাণিতিক রূপে তাপমাত্রা 'T' কিসে মাপা হয়?",
+      "options": [
+        "সেলসিয়াস",
+        "কেলভিন",
+        "ফারেনহাইট",
+        "রিউমার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-104-027",
+      "question": "সি-সা (Pb) ও সীসার ডাই অক্সাইড (PbO₂) তড়িৎদ্বার ব্যবহার করে কোন ব্যাটারি তৈরি হয়?",
+      "options": [
+        "শুষ্ক কোষ",
+        "লেড-এসিড সঞ্চয়ক",
+        "নিকেল-ক্যাডমিয়াম",
+        "লিথিয়াম-আয়ন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-028",
+      "question": "1 জুল সমান কত?",
+      "options": [
+        "1 N/m",
+        "1 N·m",
+        "1 N·m²",
+        "1 N/s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-104-029",
+      "question": "কোনো লেন্সের বিবর্ধন +2 হলে প্রতিবিম্ব কীরূপ?",
+      "options": [
+        "বাস্তব ও অবশীর্ষ",
+        "বাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও বিবর্ধিত"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-104-030",
+      "question": "একটি 10 kW ক্ষমতার মোটর 2 ঘণ্টা চালালে— (বহু-সঠিক)",
+      "options": [
+        "20 kWh বিদ্যুৎ খরচ হয়",
+        "72 × 10⁶ J শক্তি খরচ হয়",
+        "প্রতি ইউনিট 5 টাকা হলে খরচ 100 টাকা",
+        "এটি 1000 W এর সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "subject": "general-science",
+  "set": 12,
+  "questions": [
+    {
+      "id": "ge-12-001",
+      "question": "লোহার ওপর তড়িৎ লেপন (Electroplating) করার উদ্দেশ্য হলো—",
+      "options": [
+        "সৌন্দর্য বাড়ানো",
+        "মরিচা রোধ করা",
+        "লোহার ওজন বাড়ানো",
+        "লোহার তড়িৎ পরিবাহিতা বাড়ানো"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-12-002",
+      "question": "নিচের কোনটি শক্তির উৎস নয়?",
+      "options": [
+        "বায়ু",
+        "কয়লা",
+        "ব্যাটারি",
+        "বরফ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-003",
+      "question": "CNG-র প্রধান উপাদান কী?",
+      "options": [
+        "ইথেন",
+        "প্রোপেন",
+        "বুটেন",
+        "মিথেন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-004",
+      "question": "শক্তি সংকটের প্রধান কারণ কী?",
+      "options": [
+        "অতিরিক্ত বৃষ্টিপাত",
+        "জীবাশ্ম জ্বালানির অতিরিক্ত ব্যবহার",
+        "বায়ুপ্রবাহের অভাব",
+        "নদীর গতি কমে যাওয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-12-005",
+      "question": "[NUMERICAL] 1 mole ইলেকট্রনের আধান (Charge) কত? (প্রায়)",
+      "options": [
+        "96500 C",
+        "1.6 × 10⁻¹⁹ C",
+        "6.022 × 10²³ C",
+        "1 C"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-12-006",
+      "question": "ফেনলফথ্যালিন নির্দেশক সম্পর্কে কোন তথ্যগুলি সঠিক?",
+      "options": [
+        "এটি আম্লিক দ্রবণে বর্ণহীন",
+        "এটি ক্ষারীয় দ্রবণে গোলাপী",
+        "এটি একটি জৈব নির্দেশক",
+        "এটি তীব্র অ্যাসিডে লাল বর্ণ দেয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-12-007",
+      "question": "C₂H₅OH যৌগটির নাম কী?",
+      "options": [
+        "মিথানল",
+        "ইথানল",
+        "প্রোপানল",
+        "বুটানল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-008",
+      "question": "অভিকেন্দ্র বল দ্বারা কৃতকার্যের মান কত?",
+      "options": [
+        "বল × সরণ",
+        "শূন্য",
+        "অসীম",
+        "ঋণাত্মক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-12-009",
+      "question": "নিচের কোনগুলি BOD সম্পর্কে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "Biochemical Oxygen Demand",
+        "দূষিত জলে বেশি",
+        "কম অক্সিজেন খরচ হলে কম",
+        "মাছের জন্য অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-12-010",
+      "question": "CO₂ সম্পর্কে সঠিক কোনটি/গুলো? (বহু-সঠিক)",
+      "options": [
+        "এটি সমযোজী যৌগ",
+        "অণুতে C এর যোজ্যতা 4",
+        "এটি তড়িৎযোজী",
+        "এটি বর্ণহীন গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-12-011",
+      "question": "একটি বৈদ্যুতিক বাতির ক্ষমতা 60 W, 220 V। বাতিটির রোধ কত?",
+      "options": [
+        "806.67 Ω",
+        "3.67 Ω",
+        "484 Ω",
+        "220 Ω"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-12-012",
+      "question": "ভ্যান ডার ওয়ালস ধ্রুবক 'a' কিসের পরিমাপ দেয়?",
+      "options": [
+        "অণুগুলির মধ্যে আকর্ষণ বল",
+        "অণুগুলির আয়তন",
+        "গ্যাসের চাপ",
+        "অণুর ভর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-12-013",
+      "question": "কুইক লাইম (CaO) সম্পর্কে সঠিক—",
+      "options": [
+        "এটি একটি ক্ষারীয় অক্সাইড",
+        "এটি জলের সাথে তীব্র বিক্রিয়া করে",
+        "এটি গ্যাস শুষ্ক করতে ব্যবহৃত হয়",
+        "এটি একটি জৈব পদার্থ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-12-014",
+      "question": "কোন মাধ্যমের প্রতিসরাঙ্ক সবচেয়ে বেশি?",
+      "options": [
+        "বায়ু",
+        "পানি",
+        "কাঁচ",
+        "হীরক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-015",
+      "question": "কোনটি f-ব্লক মৌল হিসেবে পরিচিত?",
+      "options": [
+        "অ্যাক্টিনাইড",
+        "ক্ষার ধাতু",
+        "হ্যালোজেন",
+        "নিষ্ক্রিয় গ্যাস"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-12-016",
+      "question": "নিচের কোনটি অ্যালকেনের মূল শৃঙ্খল নির্বাচনের নিয়ম?",
+      "options": [
+        "সবচেয়ে ছোট শৃঙ্খল",
+        "সবচেয়ে বড় শৃঙ্খল",
+        "যে কোনো শৃঙ্খল",
+        "শাখাযুক্ত শৃঙ্খল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-12-017",
+      "question": "সরণ ও দূরত্বের মধ্যে সম্পর্ক হলো—",
+      "options": [
+        "দূরত্ব ≥ সরণ",
+        "সরণ কখনও দূরত্বের চেয়ে বড় হতে পারে না",
+        "বৃত্তাকার পথে এক পাক ঘুরলে সরণ শূন্য কিন্তু দূরত্ব শূন্য নয়",
+        "দূরত্ব সবসময় সরণের চেয়ে ছোট হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-12-018",
+      "question": "ইলেকট্রনের ভর কত? (প্রায়)",
+      "options": [
+        "1.67 × 10⁻²⁷ kg",
+        "9.1 × 10⁻³¹ kg",
+        "1.67 × 10⁻²⁴ kg",
+        "0 kg"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-12-019",
+      "question": "1 ক্যালোরি = কত জুল (প্রায়)?",
+      "options": [
+        "2.4 J",
+        "3.2 J",
+        "4.2 J",
+        "5.2 J"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-020",
+      "question": "টেফলন কীসের পলিমার?",
+      "options": [
+        "ইথিন",
+        "টেট্রাফ্লুরোইথিন",
+        "ভিনাইল ক্লোরাইড",
+        "প্রোপেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-12-021",
+      "question": "ক্লোরিন (Cl2) একটি—",
+      "options": [
+        "জারক গ্যাস",
+        "বিরঞ্জক (Bleaching agent)",
+        "অধাতু",
+        "হালকা গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-12-022",
+      "question": "100°C তাপমাত্রায় জলের তাপ না বাড়ার কারণ কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "গৃহীত তাপ গুপ্ততাপ হিসেবে কাজ করে",
+        "জলের অণুগুলি বাষ্পীভূত হয়ে যায়",
+        "জলের বাষ্পচাপ বায়ুমণ্ডলীয় চাপের সমান হয়",
+        "তাপমাত্রা কমতে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-12-023",
+      "question": "তড়িৎ ক্ষমতার অপর একটি সূত্র কোনটি? (I ও R এর মাধ্যমে)",
+      "options": [
+        "P = VR",
+        "P = I²R",
+        "P = V²I",
+        "P = IR²"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-12-024",
+      "question": "অ্যাভোগাড্রো সূত্রের গাণিতিক রূপ কোনটি? (V = আয়তন, n = মোল সংখ্যা)",
+      "options": [
+        "V ∝ n",
+        "V ∝ 1/n",
+        "V = n",
+        "P ∝ n"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-025",
+      "question": "কাঁচ ও পানির মধ্যে কোনটির প্রতিসরাঙ্ক বেশি?",
+      "options": [
+        "কাঁচের",
+        "পানির",
+        "সমান",
+        "নির্ভর করে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-026",
+      "question": "দই তৈরিতে কোন অ্যাসিড সাহায্য করে?",
+      "options": [
+        "Acetic acid",
+        "Lactic acid",
+        "Oxalic acid",
+        "Carbonic acid"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-027",
+      "question": "অম্ল বৃষ্টির (Acid Rain) জন্য দায়ী প্রধান গ্যাসটি হলো—",
+      "options": [
+        "CO",
+        "SO₂",
+        "He",
+        "NH₃"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-12-028",
+      "question": "pH 7 অপেক্ষা বেশি এমন পদার্থগুলি হলো—",
+      "options": [
+        "রক্ত",
+        "সাবান জল",
+        "চুনের জল",
+        "লেবুর রস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-12-029",
+      "question": "গ্যাসে জলীয় বাষ্পের পরিমাণ বাড়লে গ্যাসের ঘনত্ব কীরূপ পরিবর্তিত হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "প্রথমে বাড়ে পরে কমে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-12-030",
+      "question": "তরলের বাষ্পায়ন বাড়লে তরলের তাপমাত্রা—",
+      "options": [
+        "কমে যায়",
+        "শীতলতার সৃষ্টি হয়",
+        "একই থাকে",
+        "বেড়ে যায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

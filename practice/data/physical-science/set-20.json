@@ -1,0 +1,540 @@
+{
+  "subject": "general-science",
+  "set": 20,
+  "questions": [
+    {
+      "id": "ge-20-001",
+      "question": "MA ও η সম্পর্কে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "MA = ভার/বল",
+        "η শতকরা হিসাবে প্রকাশিত হয়",
+        "আদর্শ যন্ত্রে MA = VR",
+        "সাধারণত η > 100%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-002",
+      "question": "[NUMERICAL] স্থির অবস্থা থেকে একটি গাড়ি 2 m/s² সমত্বরণে চললে 5 সেকেন্ড পর গাড়ির বেগ কত হবে?",
+      "options": [
+        "7 m/s",
+        "10 m/s",
+        "2.5 m/s",
+        "20 m/s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-003",
+      "question": "স্ক্রু গেজের সর্বনিম্ন ধ্রুবক (Least count) কত?",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.1 mm",
+        "0.01 mm"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-004",
+      "question": "একটি পেন্ডুলামের ক্ষেত্রে— (বহু-সঠিক)",
+      "options": [
+        "সর্বোচ্চ বিন্দুতে গতিশক্তি শূন্য",
+        "সর্বনিম্ন বিন্দুতে বিভব শক্তি সর্বনিম্ন",
+        "শক্তি সর্বদা সংরক্ষিত",
+        "গতি অবিরাম চলতে থাকলে শক্তি বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-005",
+      "question": "Q = mcΔT সূত্রটিতে 'm' কী নির্দেশ করে?",
+      "options": [
+        "আপেক্ষিক তাপ",
+        "তাপমাত্রার পরিবর্তন",
+        "বস্তুর ভর",
+        "গৃহীত তাপ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-006",
+      "question": "1 ms (মিলিসেকেন্ড) = কত μs (মাইক্রোসেকেন্ড)?",
+      "options": [
+        "10 μs",
+        "100 μs",
+        "1000 μs",
+        "0.1 μs"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-007",
+      "question": "নিচের কোনটি একটি খনিজ অ্যাসিড (Mineral Acid)?",
+      "options": [
+        "সাইট্রিক অ্যাসিড",
+        "ল্যাকটিক অ্যাসিড",
+        "নাইট্রিক অ্যাসিড",
+        "অ্যাসিটিক অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-20-008",
+      "question": "একটি 60 W এর বাতি 220 V লাইনে জ্বলছে। এর মধ্য দিয়ে প্রবাহের পরিমাণ কত?",
+      "options": [
+        "3.67 A",
+        "0.27 A",
+        "0.5 A",
+        "2.7 A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-20-009",
+      "question": "দুধ গরম করার পাত্রে পানি ঢেলে গরম করা হয়। এই পদ্ধতিকে কী বলে?",
+      "options": [
+        "প্রত্যক্ষ তাপায়ন",
+        "জ্বালান",
+        "জল-স্নান তাপায়ন (Water Bath)",
+        "উনুন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-010",
+      "question": "ন্যানো (n) উপসর্গটির মান কত?",
+      "options": [
+        "10⁻⁶",
+        "10⁻⁹",
+        "10⁻¹²",
+        "10⁻³"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-011",
+      "question": "ত্বরণ ও মন্দের একক কী?",
+      "options": [
+        "m/s² (SI)",
+        "cm/s² (CGS)",
+        "m/s",
+        "Newton"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-20-012",
+      "question": "দৈর্ঘ্যের বিভিন্ন এককের মধ্যে সম্পর্ক কোনটা ঠিক? (বহু-সঠিক)",
+      "options": [
+        "1 km = 10³ m",
+        "1 cm = 10⁻² m",
+        "1 mm = 10⁻³ m",
+        "1 nm = 10⁻⁹ m"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-013",
+      "question": "প্লাস্টিকের দহনে ডাইঅক্সিন ছাড়াও কী নির্গত হয় যা গ্রিনহাউস গ্যাস?",
+      "options": [
+        "O₂",
+        "N₂",
+        "CO₂",
+        "Ar"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-014",
+      "question": "অ্যাসিড ও ক্ষারের বিক্রিয়ায় লবণ ও জল তৈরি হয়, একে প্রসমন বিক্রিয়া বলে। এটি কোন ধরনের পরিবর্তনের উদাহরণ?",
+      "options": [
+        "ভৌত পরিবর্তন",
+        "রাসায়নিক পরিবর্তন",
+        "কোনো পরিবর্তন নয়",
+        "জৈবিক পরিবর্তন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-20-015",
+      "question": "ক্ষারীয় মৃত্তিকা ধাতু (Alkaline Earth Metals) যারা ক্ষার তৈরি করে—",
+      "options": [
+        "ম্যাগনেসিয়াম",
+        "ক্যালসিয়াম",
+        "বেরিয়াম",
+        "সোডিয়াম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-016",
+      "question": "সঠিক সমান্তরাল সমবায় সম্পর্কগুলো কী? (বহু-সঠিক)",
+      "options": [
+        "প্রতিটি রোধে একই বিভব পার্থক্য",
+        "1/R = 1/R₁ + 1/R₂",
+        "তুল্য রোধ সবচেয়ে ছোট রোধের চেয়েও কম",
+        "তড়িৎ সরবরাহ নিরবচ্ছিন্ন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-017",
+      "question": "1000 W ক্ষমতার একটি ইস্ত্রি প্রতিদিন 1 ঘণ্টা ব্যবহার করা হলে জুন মাসে (30 দিন) কত ইউনিট বিদ্যুৎ খরচ হবে?",
+      "options": [
+        "30 kWh",
+        "300 kWh",
+        "10 kWh",
+        "1 kWh"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-018",
+      "question": "কোনো পরিবাহীতে তড়িৎ প্রবাহ দ্বিগুণ করলে— (বহু-সঠিক)",
+      "options": [
+        "রোধ অপরিবর্তিত থাকলে বিভব দ্বিগুণ হয়",
+        "উৎপন্ন তাপ চারগুণ হয়",
+        "আধান প্রবাহ দ্বিগুণ হয়",
+        "ফিউজ গলে যেতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-019",
+      "question": "যে যন্ত্র তড়িৎ প্রবাহের উপস্থিতি নির্দেশ করে তাকে কী বলে?",
+      "options": [
+        "ভোল্টমিটার",
+        "গ্যালভানোমিটার",
+        "অ্যামিটার",
+        "ফিউজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-020",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) বাস্তব প্রতিবিম্ব পর্দায় ধরা যায় (ii) অবাস্তব প্রতিবিম্ব পর্দায় ধরা যায় না (iii) ক্যামেরা বাস্তব প্রতিবিম্ব ধারণ করে (iv) অণুবীক্ষণ যন্ত্রে অবাস্তব প্রতিবিম্ব দেখা যায়",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-021",
+      "question": "বন্দুক থেকে গুলি ছুড়লে বন্দুকটি পেছনের দিকে ধাক্কা দেয় কেন?",
+      "options": [
+        "স্থিতিজাড্যর জন্য",
+        "ঘর্ষণ বলের জন্য",
+        "রৈখিক ভরবেগের সংরক্ষণ সূত্রের জন্য",
+        "মহাকর্ষের জন্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-022",
+      "question": "50 cm ফোকাস দূরত্ববিশিষ্ট উত্তল লেন্সের ক্ষমতা কত?",
+      "options": [
+        "+2 D",
+        "-2 D",
+        "+0.5 D",
+        "-0.5 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-023",
+      "question": "অ্যালুমিনিয়াম নিষ্কাশনে কোন আকরিকের তড়িৎ বিশ্লেষণ করা হয়?",
+      "options": [
+        "হেমাটাইট",
+        "বক্সাইট (Al₂O₃)",
+        "ম্যাগনেটাইট",
+        "সিডেরাইট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-024",
+      "question": "জলের স্ফুটনাঙ্ক ফারেনহাইট স্কেলে কত?",
+      "options": [
+        "32°F",
+        "100°F",
+        "212°F",
+        "373°F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-20-025",
+      "question": "কোনো বস্তুকে চিহ্নিত করতে যে সকল পরিমাপ জরুরি— (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্য",
+        "ভর",
+        "সময়",
+        "তাপমাত্রা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-20-026",
+      "question": "রাসায়নিক বিক্রিয়ার ক্ষেত্রে নীচের কোনটি সঠিক নয়?",
+      "options": [
+        "নতুন পদার্থের সৃষ্টি হয়",
+        "শক্তির আদান-প্রদান ঘটে",
+        "অণুগুলির পরমাণুর পুনর্বিন্যাস ঘটে",
+        "ভরের পরিবর্তন ঘটে"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-20-027",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক নয়? (i) আলো যান্ত্রিক তরঙ্গ (ii) আলোর বেগ সর্বোচ্চ শূন্যস্থানে (iii) উত্তল দর্পণ অভিসারী দর্পণ (iv) অবতল লেন্স অপসারী লেন্স",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (iv)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-20-028",
+      "question": "একটি বস্তুকে অবতল দর্পণের সামনে রাখলে প্রতিবিম্ব কখন বড়ো হয়? (i) বস্তু যখন C ও F এর মধ্যে থাকে (ii) বস্তু যখন F ও P এর মধ্যে থাকে (iii) বস্তু যখন অনন্তে থাকে (iv) বস্তু যখন C তে থাকে",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-20-029",
+      "question": "মানবদেহে তাপ উৎপাদনকারী প্রক্রিয়া কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বিপাকক্রিয়া",
+        "পেশির কাজ",
+        "শ্বসন",
+        "বাষ্পীভবন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-20-030",
+      "question": "একটি বাল্বের গায়ে 24 W, 12 V লেখা আছে। (বহু-সঠিক)",
+      "options": [
+        "রোধ 6 Ω",
+        "প্রবাহ 2 A",
+        "220 V-এ জ্বালালে ফেটে যাবে",
+        "6 V-এ ক্ষমতা 6 W হবে (রোধ স্থির)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

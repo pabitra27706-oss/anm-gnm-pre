@@ -1,0 +1,519 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 61,
+  "questions": [
+    {
+      "id": "am-61-001",
+      "question": "8.235-কে দুই দশমিক স্থান পর্যন্ত রাউন্ড করলে কী হয়?",
+      "options": [
+        "8.23",
+        "8.24",
+        "8.2",
+        "8.3"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-002",
+      "question": "একটি পাই চার্টে মোট 24000 টাকার ব্যয়। কোনো খাতের কোণ 120° হলে, ব্যয় কত?",
+      "options": [
+        "6000",
+        "7000",
+        "8000",
+        "9000"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-003",
+      "question": "2 বছরের SI 200 টাকা, 3 বছরের SI 300 টাকা একই আসলে ও হারে:",
+      "options": [
+        "R = 10%",
+        "P = 1000",
+        "R = 12%",
+        "P = 1200"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-61-004",
+      "question": "একজন দোকানদার 20% ক্ষতিতে একটি জিনিস বিক্রয় করল। যদি সে 15% লাভে বিক্রয় করত, তাহলে 70 টাকা বেশি পেত। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-005",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 3 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 5 ঘন্টায় খালি করতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "6.5 ঘন্টা",
+        "7 ঘন্টা",
+        "7.5 ঘন্টা",
+        "7.5 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-006",
+      "question": "7.25 + 4.8 = ?",
+      "options": [
+        "11.05",
+        "12.05",
+        "11.33",
+        "12.33"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-61-007",
+      "question": "একটি দ্রব্য 500 টাকায় কিনে কত টাকায় বিক্রয় করলে 20% লাভ হবে এবং 15% ক্ষতি হবে?",
+      "options": [
+        "20% লাভে SP = 600 টাকা",
+        "15% ক্ষতিতে SP = 425 টাকা",
+        "20% লাভে SP = 550 টাকা",
+        "15% ক্ষতিতে SP = 450 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-008",
+      "question": "A ও B একসাথে একটি কাজ 4 দিনে শেষ করতে পারে। A একা 6 দিনে শেষ করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "B একা 12 দিনে শেষ করবে",
+        "A-এর দক্ষতা B-এর দ্বিগুণ",
+        "B-এর দক্ষতা A-এর অর্ধেক",
+        "B একা 10 দিনে শেষ করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-61-009",
+      "question": "A ও B-এর কাজের সময়ের অনুপাত 3:5। তারা একসাথে একটি কাজ 15 দিনে শেষ করে। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "22 দিন",
+        "24 দিন",
+        "26 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-010",
+      "question": "A, B ও C একসাথে একটি কাজ 6 দিনে করতে পারে। A ও B একসাথে 8 দিনে করে। C একা কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "22 দিন",
+        "24 দিন",
+        "26 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-011",
+      "question": "2.25-কে শতকরায় লিখুন।",
+      "options": [
+        "22.5%",
+        "225%",
+        "2.25%",
+        "2250%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-012",
+      "question": "21/49-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "7/3",
+        "3/7",
+        "21/49",
+        "1/7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-61-013",
+      "question": "6000 টাকার 3 বছরের SI 1080 টাকা। R? একই R-এ 8000 টাকার 2.5 বছরের SI?",
+      "options": [
+        "R = 6%",
+        "SI = 1200",
+        "R = 7%",
+        "SI = 1400"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-61-014",
+      "question": "3 বছরের সূদ 5 বছরের সূদের অনুপাত কত হবে যদি হার ও আসল একই হয়?",
+      "options": [
+        "3 : 5",
+        "5 : 3",
+        "1 : 1",
+        "9 : 25"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-015",
+      "question": "20% ছাড়ে একটি ঘড়ি 640 টাকায় কিনলে, ধার্যমূল্য কত?",
+      "options": [
+        "780 টাকা",
+        "800 টাকা",
+        "820 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-016",
+      "question": "স্রোতের অনুকূলে গতি 14 km/h, স্রোতের বিপরীতে গতি 10 km/h। স্রোতের গতি কত?",
+      "options": [
+        "2 km/h",
+        "3 km/h",
+        "4 km/h",
+        "5 km/h"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-017",
+      "question": "বিক্রয়মূল্য বলতে কী বোঝায়?",
+      "options": [
+        "যে দামে জিনিস কেনা হয়",
+        "যে দামে জিনিস বিক্রি করা হয়",
+        "জিনিসের চিহ্নিত দাম",
+        "ছাড়ের পরিমাণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-61-018",
+      "question": "লাভ ও ক্ষতি সম্পর্কে নিচের কোন তথ্যগুলি সঠিক?",
+      "options": [
+        "লাভ বা ক্ষতি সবসময় CP-এর ওপর নির্ভর করে",
+        "একই পরিমাণ লাভ ও ক্ষতি হলে সামগ্রিক অবস্থা ক্ষতি",
+        "একই পরিমাণ লাভ ও ক্ষতি হলে সামগ্রিক অবস্থা লাভ",
+        "একই SP-তে লাভ ও ক্ষতি হলে সামগ্রিক অবস্থা ক্ষতি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-61-019",
+      "question": "A ও B-এর দক্ষতার অনুপাত 4:5। A একটি কাজ 25 দিনে করলে B ওই কাজ কত দিনে করবে?",
+      "options": [
+        "15 দিন",
+        "18 দিন",
+        "20 দিন",
+        "22 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-020",
+      "question": "একটি জিনিস 10% ক্ষতিতে বিক্রয় করা হলো। যদি ক্রয়মূল্য 20% কম হতো এবং বিক্রয়মূল্য 20% কম হতো, তাহলে লাভ বা ক্ষতির হার কত হতো?",
+      "options": [
+        "10% ক্ষতি",
+        "10% লাভ",
+        "20% ক্ষতি",
+        "20% লাভ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-021",
+      "question": "A একটি কাজ 30 দিনে করে। A-এর থেকে B 20% কম দক্ষ হলে B ওই কাজ কত দিনে করবে?",
+      "options": [
+        "36 দিন",
+        "37.5 দিন",
+        "38 দিন",
+        "39 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-022",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য, প্রস্থ ও উচ্চতা যথাক্রমে 5:4:3 অনুপাতে এবং আয়তন 480 ঘনসেমি। দৈর্ঘ্য কত?",
+      "options": [
+        "8 সেমি",
+        "9 সেমি",
+        "10 সেমি",
+        "12 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-023",
+      "question": "একটি হিস্টোগ্রামের বৈশিষ্ট্য:",
+      "options": [
+        "ক্রমাগত ডাটার জন্য",
+        "স্তম্ভগুলো স্পর্শ করে",
+        "ক্ষেত্রফল কম্পাঙ্ক নির্দেশ করে",
+        "X-অক্ষে শ্রেণি ব্যবধান"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-61-024",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 1000 টাকা। প্রথমে 10% ছাড়, তারপর 20% ছাড় দেওয়া হলে চূড়ান্ত বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "710 টাকা",
+        "720 টাকা",
+        "730 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-61-025",
+      "question": "একটি দ্রব্য 800 টাকায় কিনে 640 টাকায় বিক্রয় করলে কী কী সত্য?",
+      "options": [
+        "ক্ষতি = 160 টাকা",
+        "ক্ষতি% = 20%",
+        "ক্ষতি = 160 টাকা, ক্ষতি% = 20%",
+        "ক্ষতি% = 25%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-61-026",
+      "question": "36, 48, 60-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 720",
+        "LCM = 240",
+        "HCF × LCM ≠ 36×48×60"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-61-027",
+      "question": "নিচের পাই চার্টে মোট 5400 টাকার বাজেট: খাবার 120°, ভাড়া 90°, শিক্ষা 60°, বিনোদন 45°, সঞ্চয় 45°। ভাড়ায় কত টাকা?",
+      "options": [
+        "1200",
+        "1350",
+        "1500",
+        "1800"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-028",
+      "question": "নিচের কোন রাশিটি একটি ত্রিপদী?",
+      "options": [
+        "2x + 3",
+        "x² + 2x + 1",
+        "5x",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-61-029",
+      "question": "নিচের পাই চার্টে একটি পরিবারের সঞ্চয় 30°। মোট আয় 48000 টাকা হলে, সঞ্চয়ের পরিমাণ কত?",
+      "options": [
+        "3000",
+        "4000",
+        "5000",
+        "6000"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-61-030",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা। সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

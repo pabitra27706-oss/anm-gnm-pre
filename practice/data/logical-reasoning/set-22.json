@@ -1,0 +1,517 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 22,
+  "questions": [
+    {
+      "id": "rg-22-001",
+      "question": "যদি \"PAINT\" = 16191420 হয়, তবে \"BRUSH\" = ?",
+      "options": [
+        "21821198",
+        "31821198",
+        "21822198",
+        "12821198"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-002",
+      "question": "PAGE : BOOK : : ? : ?",
+      "options": [
+        "CHAPTER : NOVEL",
+        "LEAF : TREE",
+        "SENTENCE : PARAGRAPH",
+        "WORD : SENTENCE"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-22-003",
+      "question": "A, D, G, J, ?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-22-004",
+      "question": "যদি A=1, B=2, C=3 হয়, তবে \"CAB\" এর যোগফল কত?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-22-005",
+      "question": "বিবৃতি: \"বিদ্যুৎ সাশ্রয়ের জন্য ফ্যান ও লাইট বন্ধ করে দিন।\" অনুমান: I. ফ্যান ও লাইট জ্বালিয়ে রাখলে বিদ্যুৎ নষ্ট হয়। II. মানুষ বিদ্যুৎ সাশ্রয়ে আগ্রহী।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-006",
+      "question": "নিচের কোনটি Vowel-Consonant পরিবর্তনের ক্ষেত্রে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "MAN → NBO",
+        "TOP → UPQ",
+        "ELEPHANT → FMFQIBOU",
+        "RUN → SVO"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-22-007",
+      "question": "2, 4, 8, 16, 32, ?",
+      "options": [
+        "48",
+        "56",
+        "64",
+        "72"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-22-008",
+      "question": "একটি 6 তলা বিল্ডিংয়ে 6 জন। A, F এর উপরে। B, C এর নিচে। D, E এর উপরে। C, F এর ঠিক উপরে। সবচেয়ে উপরের তলায় কে?",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-009",
+      "question": "প্রদত্ত সংখ্যাগুলির মধ্যে কোনটি অসম?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-010",
+      "question": "একটি পরীক্ষায় 100 জন পড়ুয়ার 70 জন অংক পাস, 60 জন বাংলা পাস, 50 জন ইংরেজি পাস। 30 জন তিনটিতেই, 45 জন অংক ও বাংলা, 35 জন বাংলা ও ইংরেজি, 40 জন ইংরেজি ও অংক পাস। সঠিক কোনগুলো? (একধিক উত্তর)",
+      "options": [
+        "অংক ও বাংলা কিন্তু ইংরেজি নয় = 15",
+        "শুধু অংক = 15",
+        "বাংলা ও ইংরেজি কিন্তু অংক নয় = 5",
+        "শুধু বাংলা = 10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-22-011",
+      "question": "একটি সারিতে পাঁচজন বসে। X, Y এর ডানে কিন্তু Z এর বাঁয়ে। P, Q এর ডানে কিন্তু Y এর বাঁয়ে। ডান প্রান্তে কে?",
+      "options": [
+        "X",
+        "Y",
+        "Z",
+        "P"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-012",
+      "question": "নীচের অক্ষরগুচ্ছগুলির মধ্যে কোনটি বেমানান?",
+      "options": [
+        "VWY",
+        "MNP",
+        "QRT",
+        "HJK"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-013",
+      "question": "বিবৃতি: (I) কোনো কলম পেন্সিল নয়। (II) সমস্ত পেন্সিল ভাঙা যায়। সিদ্ধান্ত: I. কোনো কলম ভাঙা যায় না। II. কিছু ভাঙা যায় এমন জিনিস পেন্সিল।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-014",
+      "question": "সোনিয়া ও রূপার বাবা একজন। সোনিয়ার ভাই রূপার কী হয়?",
+      "options": [
+        "ভাই",
+        "বোন",
+        "বাবা",
+        "ছেলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-22-015",
+      "question": "যদি বিপরীত ক্রম (Reverse) এ লেখা হয়, কোনগুলি সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "BIG → GIB",
+        "TEN → NET",
+        "LIVE → EVIL",
+        "DOOR → ROOD"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-22-016",
+      "question": "নীচের কোনগুলি ইনপুট ডিভাইস? (একাধিক উত্তর)",
+      "options": [
+        "কীবোর্ড",
+        "মাউস",
+        "প্রিন্টার",
+        "মাইক্রোফোন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-22-017",
+      "question": "A, B, D, G, K, ?",
+      "options": [
+        "O",
+        "P",
+        "Q",
+        "R"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-018",
+      "question": "AZ, CX, EV, GT, ? - সিরিজটির বৈশিষ্ট্য কী কী?",
+      "options": [
+        "প্রথম বর্ণ: A→C→E→G→I (2 করে বৃদ্ধি)",
+        "দ্বিতীয় বর্ণ: Z→X→V→T→R (2 করে হ্রাস)",
+        "পরবর্তী পদ IR",
+        "পরবর্তী পদ IS"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-22-019",
+      "question": "নীচের শব্দগুলোর মধ্যে কোনটি ভিন্ন গোত্রের?",
+      "options": [
+        "টেবিল",
+        "চেয়ার",
+        "আলমারি",
+        "কলম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-22-020",
+      "question": "Z, Y, W, T, P, ?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-021",
+      "question": "বিবৃতি: (I) কোনো অক্সিজেন হাইড্রোজেন নয়। (II) কিছু গ্যাস অক্সিজেন। সিদ্ধান্ত: I. কিছু গ্যাস হাইড্রোজেন নয়। II. কোনো গ্যাস হাইড্রোজেন নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-022",
+      "question": "4 টা 15 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "35.5°",
+        "37.5°",
+        "40°",
+        "42.5°"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-023",
+      "question": "একটি শ্রেণিতে 30 জন ছাত্র, 20 জন ছাত্রী। 10 জন ছাত্র ও 8 জন ছাত্রী নাচে। মোট কতজন নাচে?",
+      "options": [
+        "38",
+        "18",
+        "28",
+        "26"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-024",
+      "question": "100 জন ব্যক্তির মধ্যে 30 জন সংবাদপত্র পড়ে, 20 জন ম্যাগাজিন পড়ে, 10 জন উভয়ই পড়ে। কতজন কিছুই পড়ে না?",
+      "options": [
+        "40",
+        "50",
+        "60",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-22-025",
+      "question": "একটি ছবির দিকে ইঙ্গিত করে রাহুল বলল, \"ছবির মহিলাটি আমার পিতামহের একমাত্র পুত্রবধূ।\" ছবির মহিলাটি রাহুলের কী হয়?",
+      "options": [
+        "মা",
+        "কাকিমা",
+        "ঠাকুমা",
+        "নানী"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-026",
+      "question": "একটি Venn চিত্রে 1,2,3,4,5,6,7 region চিহ্নিত করা আছে। A∩B∩C কোন অঞ্চল?",
+      "options": [
+        "1",
+        "2",
+        "কেন্দ্রীয় (সাধারনত 7)",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-027",
+      "question": "একজন ব্যক্তি বলল, \"এই ছবির লোকটি আমার বাবার বোনের ছেলে।\" ছবির লোকটির সাথে তার সম্পর্ক কী?",
+      "options": [
+        "ভাই",
+        "চাচাতো ভাই",
+        "মামাতো ভাই",
+        "ফুপুতে ভাই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-028",
+      "question": "দুপুর 12টার সময় ভারতে ছায়া কোন দিকে পড়ে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-22-029",
+      "question": "যদি \"MARCH\" কে \"OCVFI\" লেখা হয়, তবে \"JUNE\" কী হবে?",
+      "options": [
+        "LWPG",
+        "LVPF",
+        "LWPG",
+        "LVPG"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-22-030",
+      "question": "15 : 225 :: 18 : ?",
+      "options": [
+        "324",
+        "288",
+        "300",
+        "360"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "numerical",
+      "difficulty": "easy"
+    }
+  ]
+}

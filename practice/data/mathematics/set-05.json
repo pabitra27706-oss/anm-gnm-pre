@@ -1,0 +1,538 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 5,
+  "questions": [
+    {
+      "id": "am-05-001",
+      "question": "বার্ষিক 10% হারে 2 বছরের CI ও SI-এর পার্থক্যের সূত্রটি P(R/100)² দ্বারা কী বোঝায়?",
+      "options": [
+        "পার্থক্য P-এর সমানুপাতিক",
+        "পার্থক্য R²-এর সমানুপাতিক",
+        "CI সবসময় SI-এর চেয়ে (R/100)² × P বেশি",
+        "R = 10% হলে পার্থক্য = P/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-002",
+      "question": "P = 6500, R = 8%, T = 2.5 বছর। SI:",
+      "options": [
+        "1300 টাকা",
+        "A = 7800",
+        "SI = 1200 টাকা",
+        "A = 7700"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-003",
+      "question": "24, 40, 56, 72-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 8",
+        "LCM = 2520",
+        "8, 2520-এর গুণনীয়ক",
+        "2520, 56 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-05-004",
+      "question": "Y-অক্ষের উপর অবস্থিত বিন্দুর x-সহগ কত?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "যেকোনো সংখ্যা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-05-005",
+      "question": "একটি ট্রেন 84 km/h বেগে 280 মিটার লম্বা প্ল্যাটফর্ম অতিক্রম করে 24 সেকেন্ডে। ট্রেনের দৈর্ঘ্য কত?",
+      "options": [
+        "240 মিটার",
+        "260 মিটার",
+        "280 মিটার",
+        "300 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-05-006",
+      "question": "A ও B একসাথে একটি কাজ 4 দিনে শেষ করতে পারে। A একা 6 দিনে শেষ করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "B একা 12 দিনে শেষ করবে",
+        "A-এর দক্ষতা B-এর দ্বিগুণ",
+        "B-এর দক্ষতা A-এর অর্ধেক",
+        "B একা 10 দিনে শেষ করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-007",
+      "question": "একটি বৃত্তের পরিধি 88 সেমি। ব্যাসার্ধ কত? (π = 22/7)",
+      "options": [
+        "7 সেমি",
+        "10 সেমি",
+        "12 সেমি",
+        "14 সেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-008",
+      "question": "3/5, 6/10, 9/15 - এদের মধ্যে সঠিক তথ্য কোনটি?",
+      "options": [
+        "সব ভগ্নাংশ সমান",
+        "প্রতিটি 0.6-এর সমান",
+        "এরা প্রকৃত ভগ্নাংশ",
+        "এরা সমতুল্য ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-05-009",
+      "question": "একটি জিনিসের ক্রয়মূল্য 800 টাকা। 20% লাভে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "940 টাকা",
+        "950 টাকা",
+        "960 টাকা",
+        "980 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-05-010",
+      "question": "সময় ও কাজ সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "1 দিনের কাজ = 1/কাজ শেষের সময়",
+        "কাজ শেষের সময় = 1/(1 দিনের কাজ)",
+        "1 দিনের কাজের একক হলো কাজের ভগ্নাংশ",
+        "সম্পূর্ণ কাজ = 1 একক ধরা হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-05-011",
+      "question": "8 : 12 অনুপাতটির সরলতম রূপ কোনটি?",
+      "options": [
+        "4 : 6",
+        "2 : 3",
+        "3 : 2",
+        "8 : 12"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-05-012",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 50% বৃদ্ধি ও প্রস্থ 20% হ্রাস করলে ক্ষেত্রফল কত% পরিবর্তন হবে?",
+      "options": [
+        "10% বৃদ্ধি",
+        "10% হ্রাস",
+        "20% বৃদ্ধি",
+        "20% হ্রাস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-05-013",
+      "question": "স্রোতের বিপরীতে (Upstream) কার্যকরী দ্রুতি কত?",
+      "options": [
+        "নৌকার গতি + স্রোতের গতি",
+        "নৌকার গতি - স্রোতের গতি",
+        "নৌকার গতি × স্রোতের গতি",
+        "স্রোতের গতি - নৌকার গতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-05-014",
+      "question": "7টি সংখ্যার গড় 30। একটি সংখ্যা 25 হলে, বাকি 6টির গড় কত?",
+      "options": [
+        "30.83",
+        "31.83",
+        "32.83",
+        "33.83"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-05-015",
+      "question": "(−3) × (−4) × (−5) = ?",
+      "options": [
+        "−60",
+        "60",
+        "−12",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-016",
+      "question": "একটি গোলক আকৃতির বেলুনের ব্যাস 14 সেমি। বেলুনের পৃষ্ঠতলের ক্ষেত্রফল কত? (π = 22/7)",
+      "options": [
+        "308 বর্গসেমি",
+        "462 বর্গসেমি",
+        "616 বর্গসেমি",
+        "770 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-017",
+      "question": "2x + 3 < 11 অসমতাটির সমাধান সেটের উপাদান কী কী?",
+      "options": [
+        "0,1,2,3",
+        "4,5,6",
+        "x-এর সকল মান < 4",
+        "x-এর সকল মান ≤ 4"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-018",
+      "question": "একটি ঘনকের বাহু 2 সেমি। ঘনকটির কর্ণের দৈর্ঘ্য কত? (√3 = 1.732)",
+      "options": [
+        "2 সেমি",
+        "2.828 সেমি",
+        "3.464 সেমি",
+        "4 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-019",
+      "question": "10000 টাকার বার্ষিক 10% হার 2 বছরের অর্ধবার্ষিক চক্রবৃদ্ধি সুদে সুদ-আসল কত?",
+      "options": [
+        "12100 টাকা",
+        "12155 টাকা",
+        "12200 টাকা",
+        "12250 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-05-020",
+      "question": "0.375-কে ভগ্নাংশে প্রকাশ করলে কী হয় এবং এটি কোন ভগ্নাংশের সমান?",
+      "options": [
+        "375/1000",
+        "3/8",
+        "75/200",
+        "6/16"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-021",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 5 সেমি ও প্রস্থ 12 সেমি। কর্ণের দৈর্ঘ্য কত?",
+      "options": [
+        "10 সেমি",
+        "11 সেমি",
+        "12 সেমি",
+        "13 সেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-022",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 4 ও 6 ঘন্টায় ভরা যায়। চৌবাচ্চাটি খালি থাকলে দুটি পাইপ একসাথে খুলে দিলে 2 ঘন্টায় কত অংশ ভরবে?",
+      "options": [
+        "1/2",
+        "2/3",
+        "5/6",
+        "3/4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-023",
+      "question": "91 কি মৌলিক সংখ্যা?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "শুধু জোড়",
+        "কেবল 7 দিয়ে ভাগ যায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-024",
+      "question": "8টি সংখ্যার গড় 64। প্রতিটি সংখ্যা 8 দিয়ে গুণ করলে নতুন গড়:",
+      "options": [
+        "512",
+        "64×8=512",
+        "256",
+        "128"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-025",
+      "question": "একটি জিনিস 10% ক্ষতিতে বিক্রয় করলে ক্ষতি 50 টাকা। জিনিসটির বিক্রয়মূল্য কত?",
+      "options": [
+        "400 টাকা",
+        "420 টাকা",
+        "440 টাকা",
+        "450 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-026",
+      "question": "120 কিমি পথ যেতে একটি গাড়ির 3 ঘন্টা সময় লাগে। 200 কিমি যেতে কত সময় লাগবে?",
+      "options": [
+        "4 ঘন্টা",
+        "5 ঘন্টা",
+        "6 ঘন্টা",
+        "7 ঘন্টা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-05-027",
+      "question": "A, B, C যথাক্রমে 5, 6 ও 8 দিনে একটি কাজ করতে পারে। তারা একসাথে কাজ করে 590 টাকা পায়। A-এর ভাগ কত?",
+      "options": [
+        "200 টাকা",
+        "240 টাকা",
+        "250 টাকা",
+        "260 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-05-028",
+      "question": "একটি বাস 60 km/h গতিতে চলছে। এটি 5 সেকেন্ডে কত মিটার যায়?",
+      "options": [
+        "60 km/h = 50/3 ≈ 16.67 m/s",
+        "5 সেকেন্ডে দূরত্ব = 83.33 মিটার",
+        "83.33 মিটার",
+        "100 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-05-029",
+      "question": "একটি শঙ্কুর ব্যাসার্ধ 4 সেমি ও উচ্চতা 3 সেমি। তির্যক উচ্চতা কত?",
+      "options": [
+        "4 সেমি",
+        "5 সেমি",
+        "6 সেমি",
+        "7 সেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-05-030",
+      "question": "210 এবং 315-এর গসাগু কত?",
+      "options": [
+        "35",
+        "45",
+        "63",
+        "105"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

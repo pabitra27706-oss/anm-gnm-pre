@@ -1,0 +1,510 @@
+{
+  "subject": "general-science",
+  "set": 63,
+  "questions": [
+    {
+      "id": "ge-63-001",
+      "question": "সুরশলাকার বাহু দুটি কাঁপলে যে তরঙ্গ উৎপন্ন হয় সেটি কী ধরনের?",
+      "options": [
+        "অণুদৈর্ঘ্য",
+        "তির্যক",
+        "উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-63-002",
+      "question": "ওহমের সূত্রের V-I গ্রাফটি কেমন হয়?",
+      "options": [
+        "বক্ররেখা",
+        "পরাবৃত্ত",
+        "মূলবিন্দুগামী সরলরেখা",
+        "অক্ষের সমান্তরাল সরলরেখা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-003",
+      "question": "ফ্রিজ কোন স্থানে রাখা উচিত?",
+      "options": [
+        "উনুনের পাশে",
+        "তাপ উৎস থেকে দূরে ও বায়ু চলাচলের সুব্যবস্থা আছে এমন স্থানে",
+        "রোদে",
+        "দেয়ালের সাথে একেবারে লাগিয়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-004",
+      "question": "তাপমাত্রা বৃদ্ধিতে সাধারণত যা ঘটে: (বহু-সঠিক)",
+      "options": [
+        "ধাতব পরিবাহীর রোধ বাড়ে",
+        "অর্ধপরিবাহীর রোধ কমে",
+        "তড়িৎ বিশ্লেষ্যের রোধ বাড়ে",
+        "সংকর ধাতুর রোধ প্রায় অপরিবর্তিত থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-63-005",
+      "question": "ঘর্ষণ বল কিসের ওপর নির্ভর করে?",
+      "options": [
+        "তলের প্রকৃতি (মসৃণতা/অমসৃণতা)",
+        "তলের ক্ষেত্রফল",
+        "তলের বর্ণ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-006",
+      "question": "‘কার্যের একক’ ও ‘ক্ষমতার একক’ যথাক্রমে—",
+      "options": [
+        "ওয়াট ও জুল",
+        "জুল ও ওয়াট",
+        "নিউটন ও জুল",
+        "জুল ও নিউটন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-63-007",
+      "question": "হ্যালন গ্যাস কোন কাজে ব্যবহৃত হয়?",
+      "options": [
+        "রান্নায়",
+        "অগ্নি নির্বাপক যন্ত্রে (Fire extinguisher)",
+        "গাড়ির জ্বালানি",
+        "খাবার সংরক্ষণে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-63-008",
+      "question": "থার্মোস ফ্লাস্কের ভিতরের দেওয়াল রূপালি করার কারণ কী?",
+      "options": [
+        "পরিবহন রোধ",
+        "পরিচলন রোধ",
+        "বিকিরণ রোধ",
+        "ফ্লাস্ক হালকা করা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-009",
+      "question": "একটি তারের R₁ ও R₂ দুটি অংশ করে সমান্তরালে যুক্ত করলে তুল্য রোধ— (বহু-সঠিক)",
+      "options": [
+        "R₁+R₂",
+        "(R₁R₂)/(R₁+R₂)",
+        "মূল রোধের চেয়ে কম",
+        "দুইটির স্বতন্ত্র রোধের চেয়েও কম"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-63-010",
+      "question": "পারদ থার্মোমিটারের স্বাভাবিক পরিসর কত?",
+      "options": [
+        "0°C – 100°C",
+        "-10°C – 110°C",
+        "-39°C – 357°C",
+        "32°F – 212°F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-63-011",
+      "question": "কঠিনের গলনাঙ্ক বলতে কী বোঝায়?",
+      "options": [
+        "যে তাপমাত্রায় তরল গ্যাসে পরিণত হয়",
+        "যে তাপমাত্রায় কঠিন তরলে পরিণত হয়",
+        "যে তাপমাত্রায় তরল কঠিনে পরিণত হয়",
+        "যে তাপমাত্রায় বাষ্প তরলে পরিণত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-63-012",
+      "question": "অনুনাদ (Resonance) দেখা যায় যখন—",
+      "options": [
+        "বাহ্যিক বলের কম্পাঙ্ক ও বস্তুর স্বাভাবিক কম্পাঙ্ক সমান হয়",
+        "শব্দের বেগ খুব বেশি হয়",
+        "শব্দের বেগ খুব কম হয়",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-63-013",
+      "question": "সমধর্মী আধান পরস্পরকে কী করে?",
+      "options": [
+        "আকর্ষণ করে",
+        "বিকর্ষণ করে",
+        "কোনো ক্রিয়া করে না",
+        "সংযুক্ত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-63-014",
+      "question": "নিচের কোনটি বায়ু দূষণ নিয়ন্ত্রণ যন্ত্র? (একাধিক উত্তর)",
+      "options": [
+        "ইলেকট্রোস্ট্যাটিক প্রেসিপিটেটর",
+        "স্ক্রাবার",
+        "ক্যাটালিটিক কনভার্টার",
+        "থার্মোমিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-63-015",
+      "question": "[NUMERICAL] 100 g ক্যালসিয়াম কার্বনেটকে তীব্রভাবে উত্তপ্ত করলে কত গ্রাম ক্যালসিয়াম অক্সাইড (CaO) পাওয়া যাবে? (Ca=40, C=12, O=16)",
+      "options": [
+        "40 g",
+        "56 g",
+        "100 g",
+        "44 g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-016",
+      "question": "প্রেসবায়োপিয়া ত্রুটির জন্য নিচের কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "দ্বিফোকাস",
+        "বেলনাকার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-63-017",
+      "question": "সমুদ্রবায়ু প্রবাহিত হওয়া কোন প্রকার তাপ সঞ্চালনের উদাহরণ?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "অন্তরক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-018",
+      "question": "ভিনিগার (Vinegar) হলো—",
+      "options": [
+        "অ্যাসিটিক অ্যাসিডের জলীয় দ্রবণ",
+        "সাইট্রিক অ্যাসিডের জলীয় দ্রবণ",
+        "লবণের দ্রবণ",
+        "অ্যালকোহল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-63-019",
+      "question": "নিচের কোনগুলি জারণ-বিজারণ (Redox) বিক্রিয়া নয়?",
+      "options": [
+        "প্রসমন বিক্রিয়া",
+        "দ্বি-প্রতিস্থাপন বিক্রিয়া (অধঃক্ষেপণ)",
+        "দহন",
+        "প্রতিস্থাপন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-63-020",
+      "question": "20 ডায়োপ্টার ক্ষমতার একটি লেন্সের ফোকাস দূরত্ব কত?",
+      "options": [
+        "0.05 m",
+        "0.5 m",
+        "5 m",
+        "0.2 m"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-021",
+      "question": "1 সেন্টিমিটার = কত মিলিমিটার?",
+      "options": [
+        "0.1 mm",
+        "10 mm",
+        "100 mm",
+        "1 mm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-63-022",
+      "question": "স্থির কপিকলের দক্ষতা সাধারণত কত ভাগ?",
+      "options": [
+        "100%",
+        "50%",
+        "80-90%",
+        "10%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-023",
+      "question": "গতিশক্তি K এবং ভরবেগ p এর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "K = ½ p²m",
+        "K = p²/2m",
+        "K = 2m/p²",
+        "K = ½ mp²"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-63-024",
+      "question": "থার্মোস ফ্লাস্কে কোন পদ্ধতিতে তাপের অপচয় রোধ করা হয়?",
+      "options": [
+        "শুধু পরিবহন",
+        "শুধু পরিচলন",
+        "শুধু বিকিরণ",
+        "পরিবহন, পরিচলন ও বিকিরণ তিনটিই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-025",
+      "question": "নীল থুথু বা কপার সালফেট (CuSO4·5H2O) উত্তপ্ত করলে—",
+      "options": [
+        "কেলাস জল বেরিয়ে যায়",
+        "বর্ণ নীল থেকে সাদা হয়",
+        "এটি একটি রাসায়নিক পরিবর্তন",
+        "এটি একটি ভৌত পরিবর্তন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-63-026",
+      "question": "নিচের কোন মাধ্যম জোড়ায় আলোর পূর্ণ অভ্যন্তরীণ প্রতিফলন হতে পারে? (i) পানি থেকে বায়ু (ii) কাঁচ থেকে বায়ু (iii) বায়ু থেকে পানি (iv) হীরক থেকে বায়ু",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-027",
+      "question": "স্লাইডিং ঘর্ষণ অপেক্ষা রোলিং ঘর্ষণের মান—",
+      "options": [
+        "বেশি",
+        "অনেক কম",
+        "সমান",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-028",
+      "question": "ভূ-তাপীয় শক্তির উৎস কী?",
+      "options": [
+        "সূর্য",
+        "বায়ু",
+        "পৃথিবীর অভ্যন্তরীণ তাপ",
+        "মহাসাগরের ঢেউ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-029",
+      "question": "একটি বাল্বের রোধ 484 Ω, এটি 220 V লাইনে জ্বলছে। বাল্বটির ক্ষমতা কত?",
+      "options": [
+        "100 W",
+        "50 W",
+        "200 W",
+        "25 W"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-63-030",
+      "question": "বরফ গলনের সময় তাপমাত্রার কোনো পরিবর্তন হয় না কারণ-",
+      "options": [
+        "তাপমাত্রা বাড়ানোর জন্য তাপের প্রয়োজন হয়",
+        "গৃহীত তাপ বরফের কেলাস বিনষ্ট করতে ব্যবহৃত হয়",
+        "বরফ তাপ শোষণ করে না",
+        "বরফ তাপ বিকিরণ করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    }
+  ]
+}

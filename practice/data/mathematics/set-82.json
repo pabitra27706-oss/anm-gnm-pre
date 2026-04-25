@@ -1,0 +1,543 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 82,
+  "questions": [
+    {
+      "id": "am-82-001",
+      "question": "একটি পাই চার্টে মোট 900 জনের তথ্য। একটি সেক্টরের কোণ 72° হলে, সঠিক:",
+      "options": [
+        "180 জন",
+        "20%",
+        "72/360×900 = 180",
+        "180 জন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-82-002",
+      "question": "3, 6, 9, 12, 15 এর গড়:",
+      "options": [
+        "9",
+        "যোগফল 45",
+        "5টি সংখ্যার গড় 9",
+        "গড় 10"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-82-003",
+      "question": "একটি টাকার 2 বছরের CI 210 টাকা এবং SI 200 টাকা হলে নিচের কোনটি সত্য?",
+      "options": [
+        "R = 10%",
+        "P = 1000 টাকা",
+        "CI - SI = 10 টাকা",
+        "3 বছরের SI = 300 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-82-004",
+      "question": "144-এর বর্গমূল কী কী?",
+      "options": [
+        "12",
+        "−12",
+        "√144",
+        "12 এবং −12"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-82-005",
+      "question": "1, 4, 9, 16, 25,... ধারাটির n-তম পদ কী?",
+      "options": [
+        "n²",
+        "2n",
+        "2n-1",
+        "n+1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-006",
+      "question": "12, 18, 24-এর জন্য সঠিক বিবৃতি:",
+      "options": [
+        "HCF = 6",
+        "LCM = 72",
+        "6, 72-কে বিভাজিত করে",
+        "সংখ্যা তিনটির গুণফল = 5184"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-82-007",
+      "question": "নিচের কোন কোনটি চলরাশির ঘাত নিয়ে আলোচনা করে?",
+      "options": [
+        "মাত্রা",
+        "ডিগ্রি",
+        "সহগ",
+        "পদ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-82-008",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "কাজের পরিমাণ একই থাকলে শ্রমিক সংখ্যা ও সময় ব্যস্তানুপাতিক",
+        "কাজের পরিমাণ একই থাকলে শ্রমিক সংখ্যা বাড়ালে সময় কমে",
+        "কাজের পরিমাণ একই থাকলে শ্রমিক সংখ্যা কমালে সময় বাড়ে",
+        "শ্রমিক সংখ্যা দ্বিগুণ করলে সময় অর্ধেক হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-82-009",
+      "question": "a² + b² + c² + 2ab + 2bc + 2ca = ?",
+      "options": [
+        "(a + b + c)²",
+        "(a + b - c)²",
+        "(a - b + c)²",
+        "(a - b - c)²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-010",
+      "question": "একটি বাস 15 m/s গতিতে 50 সেকেন্ডে কত মিটার যায়?",
+      "options": [
+        "650 মিটার",
+        "700 মিটার",
+        "750 মিটার",
+        "800 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-82-011",
+      "question": "(−5) এবং 5-এর মধ্যে কয়টি পূর্ণ সংখ্যা আছে?",
+      "options": [
+        "−4,−3,−2,−1,0,1,2,3,4",
+        "−5 ও 5 বাদে 9টি সংখ্যা",
+        "11টি সংখ্যা",
+        "−5,−4,−3,−2,−1,0,1,2,3,4,5"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-82-012",
+      "question": "1 থেকে 50 পর্যন্ত কতগুলি বিজোড় সংখ্যা আছে?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "50"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-82-013",
+      "question": "105 এবং 210-এর লসাগু কত?",
+      "options": [
+        "105",
+        "210",
+        "315",
+        "420"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-82-014",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 45 টাকা এবং P = 5000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-015",
+      "question": "5/2 -এর সমতুল্য:",
+      "options": [
+        "250%",
+        "2.5",
+        "5/2",
+        "2.05"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-82-016",
+      "question": "নিচের কোনটি সহযোগী নিয়ম (Associative property) উদাহরণ?",
+      "options": [
+        "3 + 5 = 5 + 3",
+        "(2+4)+6 = 2+(4+6)",
+        "4 × (2+3) = 4×2 + 4×3",
+        "8+0=8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-82-017",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 5 ও 8 ঘন্টায় ভরা যায়। চৌবাচ্চাটি অর্ধেক ভরতি থাকলে দুটি পাইপ একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "1.54 ঘন্টা",
+        "2.5 ঘন্টা",
+        "3 ঘন্টা",
+        "4 ঘন্টা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-82-018",
+      "question": "7, x, 28 ক্রমিক সমানুপাতী হলে x-এর মান কত?",
+      "options": [
+        "14",
+        "x² = 7×28 = 196 → x=14",
+        "2",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-019",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 1200 টাকা এবং ছাড় 300 টাকা। ছাড়ের শতকরা হার কত?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-020",
+      "question": "নিচের কোন জোড়টির গ.সা.গু. (HCF) 1?",
+      "options": [
+        "(14, 21)",
+        "(10, 15)",
+        "(8, 9)",
+        "(12, 18)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-021",
+      "question": "একটি বাগানের চারপাশে 2 মি চওড়া রাস্তা আছে। বাগানের দৈর্ঘ্য 20 মি ও প্রস্থ 15 মি। রাস্তার ক্ষেত্রফল কত?",
+      "options": [
+        "50 বর্গমি",
+        "100 বর্গমি",
+        "150 বর্গমি",
+        "156 বর্গমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-82-022",
+      "question": "2/5 -এর শতকরা মান কত?",
+      "options": [
+        "25%",
+        "30%",
+        "40%",
+        "45%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-82-023",
+      "question": "একজন দোকানদার 1000 গ্রামের জায়গায় 900 গ্রাম ওজন দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "10%",
+        "11.11%",
+        "12%",
+        "15%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-024",
+      "question": "একটি জিনিস 5% ক্ষতিতে বিক্রয় করলে ক্ষতি 20 টাকা। জিনিসটির বিক্রয়মূল্য কত?",
+      "options": [
+        "360 টাকা",
+        "370 টাকা",
+        "380 টাকা",
+        "390 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-025",
+      "question": "(x + 2)³-এর বিস্তার কী?",
+      "options": [
+        "x³ + 6x² + 12x + 8",
+        "x³ + 8",
+        "x³ + 6x² + 8x + 12",
+        "x³ - 8"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-026",
+      "question": "Q270 এর স্রোতের গতি:",
+      "options": [
+        "(14-6)/2 = 4 km/h",
+        "4 km/h",
+        "2 km/h",
+        "6 km/h"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-82-027",
+      "question": "420 কিমি দূরত্ব 7 ঘন্টায় অতিক্রম করতে গতি কত?",
+      "options": [
+        "50 km/h",
+        "55 km/h",
+        "60 km/h",
+        "65 km/h"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-82-028",
+      "question": "একটি সংখ্যার 3 গুণ থেকে 4 বিয়োগ করলে 11 হয়। সংখ্যাটি কত?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-82-029",
+      "question": "গড় (Average) সম্পর্কে সঠিক বিবৃতি কোনগুলি?",
+      "options": [
+        "গড় = যোগফল / সংখ্যার সংখ্যা",
+        "গড় সবসময় সংখ্যাগুলির মধ্যে অবস্থান করে না",
+        "গড় পূর্ণসংখ্যা নাও হতে পারে",
+        "গড় ≥ ক্ষুদ্রতম সংখ্যা"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-82-030",
+      "question": "একজন দোকানদার 120 টাকায় 12টি ডিম কিনে 132 টাকায় বিক্রয় করল। তার লাভের শতকরা হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

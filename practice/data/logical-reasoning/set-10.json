@@ -1,0 +1,520 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 10,
+  "questions": [
+    {
+      "id": "rg-10-001",
+      "question": "বিবৃতি: \"বৃষ্টির সম্ভাবনা থাকায় সঙ্গে ছাতা নিয়ে আসুন।\" অনুমান: I. বৃষ্টি হলে ছাতা প্রয়োজন। II. মানুষ ভিজতে চায় না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-10-002",
+      "question": "নীচের কোন দেশটি বাকিগুলো থেকে ভিন্ন মহাদেশে অবস্থিত?",
+      "options": [
+        "ভারত",
+        "চীন",
+        "জাপান",
+        "ব্রাজিল"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-003",
+      "question": "একটি সারিতে নয়জন বসে। রাহুলের বাঁয়ে 3 জন, ডানে 5 জন। রাহুলের ডানে তৃতীয় ব্যক্তির বাঁয়ে কতজন?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-004",
+      "question": "B, A-এর পুত্র। C, A-এর স্বামী। D, C-এর কন্যা। E, D-এর ভাই। তাহলে E, A-এর কী হয়?",
+      "options": [
+        "পুত্র",
+        "ভাগ্নে",
+        "নাতি",
+        "জামাই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-005",
+      "question": "\"মাসি\" বলতে বোঝানো যেতে পারে—",
+      "options": [
+        "মায়ের বোন",
+        "বাবার বোন",
+        "মামার স্ত্রী",
+        "মায়ের বড় বোন"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-10-006",
+      "question": "একটি নির্দিষ্ট কোডে \"APPLE\" কে \"BQQMF\" লেখা হয়। \"ORANGE\" কে কী লেখা হবে?",
+      "options": [
+        "PSBOHF",
+        "PTBOHF",
+        "PSBPHF",
+        "PTBPHF"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-007",
+      "question": "বিবৃতি: \"বিজ্ঞপ্তি - এলাকায় বিপথগামী কুকুর রয়েছে, সতর্ক থাকুন।\" অনুমান: I. এলাকায় কুকুর আছে। II. কুকুর বিপজ্জনক হতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-10-008",
+      "question": "কোন সংখ্যাটি প্রদত্ত ক্রমে বেমানান?",
+      "options": [
+        "2, 3, 5, 7",
+        "11, 13, 17, 19",
+        "23, 29, 31, 37",
+        "41, 43, 47, 49"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-009",
+      "question": "আটজন একটি বৃত্তে বসে। একটি নির্দিষ্ট ব্যক্তি U এর বাঁয়ে তৃতীয় V বসে। V এর ডানে দ্বিতীয় W বসে। W এর বাঁয়ে চতুর্থ X বসে। U ও X এর মাঝে কতজন?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-10-010",
+      "question": "বিবৃতি: (I) কিছু ফুল গোলাপ। (II) সব গোলাপ লাল। সিদ্ধান্তের মধ্যে কোনটি অনুসরণ করে?",
+      "options": [
+        "কিছু ফুল লাল",
+        "কিছু লাল জিনিস ফুল",
+        "সব গোলাপ ফুল",
+        "কোনো ফুল লাল নয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-10-011",
+      "question": "বিবৃতি I: একজন রোগী অস্ত্রোপচারের পর সঠিক বিশ্রাম নেননি। বিবৃতি II: তাঁর পুনরায় সংক্রমণ হয়েছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-012",
+      "question": "সন্ধ্যাবেলা সূর্যের দিকে পিছন করে দাঁড়ালে, তোমার ডান দিক কোন দিক হবে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-013",
+      "question": "একটি পাশায় নিচের কোন জোড়াগুলি বিপরীত হতে পারে? (Multiple Correct)",
+      "options": [
+        "1 এবং 6",
+        "2 এবং 5",
+        "3 এবং 4",
+        "1 এবং 2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-10-014",
+      "question": "নিচের কোন কোডিং সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "উত্তর → 0° (বা 360°)",
+        "পূর্ব → 90°",
+        "দক্ষিণ → 180°",
+        "পশ্চিম → 270°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-10-015",
+      "question": "নয়নের পিতামহের পুত্রের কন্যা নয়নের কী হয়?",
+      "options": [
+        "বোন",
+        "দিদা",
+        "চাচাতো বোন",
+        "মামাতো বোন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-016",
+      "question": "4 : 64 :: 3 : ?",
+      "options": [
+        "9",
+        "12",
+        "27",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-10-017",
+      "question": "প্রদত্ত শব্দগুলির মধ্যে কোনগুলি পরিমাপক যন্ত্র? (একাধিক উত্তর)",
+      "options": [
+        "থার্মোমিটার",
+        "স্টেথোস্কোপ",
+        "স্পাইগমোম্যানোমিটার",
+        "সিরিঞ্জ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-10-018",
+      "question": "A × B মানে A, B-এর বোন, A - B মানে A, B-এর ভাই, A + B মানে A, B-এর পিতা, A ÷ B মানে A, B-এর মাতা হলে, P × Q - R + S ÷ T এ P ও T-এর সম্পর্ক কী?",
+      "options": [
+        "P, T-এর বোন",
+        "P, T-এর ভাগ্নী",
+        "P, T-এর মা",
+        "P, T-এর খালা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-10-019",
+      "question": "যদি A = B মানে A, B-এর মাতা, A / B মানে A, B-এর পিতা, A & B মানে A, B-এর স্বামী হয়, তাহলে P = Q & R / S এ P ও S-এর সম্পর্ক কী?",
+      "options": [
+        "P, S-এর ঠাকুমা",
+        "P, S-এর নানী",
+        "P, S-এর মা",
+        "P, S-এর শাশুড়ি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-10-020",
+      "question": "একটি ভবনে 4 তলা। নিচ থেকে 1ম, 2য়, 3য়, 4র্থ তলা। A, B এর নিচে বসে। C, A এর উপরে কিন্তু D এর নিচে বসে। D সবচেয়ে উপরে নয়। সবচেয়ে নিচে কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-021",
+      "question": "AZ, BY, CX, DW, ?",
+      "options": [
+        "EV",
+        "EU",
+        "FU",
+        "FV"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-022",
+      "question": "2024 সালের 15ই আগস্ট বৃহস্পতিবার হলে, 2024 সালের 15ই নভেম্বর কি বার হবে?",
+      "options": [
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-10-023",
+      "question": "A-এর বাড়ি থেকে স্কুল 5 কিমি দক্ষিণে। স্কুল থেকে হাসপাতাল 5 কিমি পূর্বে। হাসপাতাল A-এর বাড়ি থেকে কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "উত্তর-পশ্চিম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-024",
+      "question": "3 টা 15 মিনিটে ঘড়ির কাঁটার কোণ নিয়ে নিচের কোনটি সঠিক? (Multiple Correct)",
+      "options": [
+        "ঘণ্টার কাঁটা 3 থেকে একটু এগিয়ে",
+        "মিনিটের কাঁটা 3-এ (15 মিনিট)",
+        "কোণ = 7.5°",
+        "কোণ = 10°"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-10-025",
+      "question": "ROSE : FLOWER : : ? : ?",
+      "options": [
+        "SPARROW : BIRD",
+        "MANGO : FRUIT",
+        "IRON : METAL",
+        "WATER : DRINK"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-10-026",
+      "question": "2024 সালের 1লা নভেম্বর শুক্রবার হলে, 2024 সালের 30শে নভেম্বর কি বার?",
+      "options": [
+        "শনিবার",
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-10-027",
+      "question": "বিবৃতি: \"পরীক্ষার হলে মোবাইল ফোন নিয়ে আসা নিষিদ্ধ।\" অনুমান: I. পরীক্ষার্থীরা মোবাইল ফোন নিয়ে আসতে চান। II. মোবাইল ফোন পরীক্ষায় অসুবিধা সৃষ্টি করতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-028",
+      "question": "প্রদত্ত অক্ষরগুলির মধ্যে বেমানান অক্ষর কোনটি?",
+      "options": [
+        "B",
+        "G",
+        "L",
+        "Q"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-029",
+      "question": "1, 3, 2, 4, 3, 5, ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-10-030",
+      "question": "নীচের কোন যন্ত্রটি কাজের ভিত্তিতে অন্যগুলোর থেকে আলাদা?",
+      "options": [
+        "টেলিস্কোপ",
+        "মাইক্রোস্কোপ",
+        "স্টেথোস্কোপ",
+        "ক্যালকুলেটর"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 11,
+  "questions": [
+    {
+      "id": "rg-11-001",
+      "question": "নিচের কোন জোড়ার বিবৃতিদ্বয় একটি সাধারণ কারণের ফলাফল?",
+      "options": [
+        "I: তাপমাত্রা বেড়েছে, II: এসি বিক্রি বেড়েছে",
+        "I: বন্যায় ফসল নষ্ট হয়েছে, II: খাদ্যের দাম বেড়েছে",
+        "I: সাগরের জলস্তর বেড়েছে, II: উপকূলীয় এলাকা ডুবে যাচ্ছে",
+        "I: গাড়ির সংখ্যা বেড়েছে, II: বায়ু দূষণ বেড়েছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-11-002",
+      "question": "ছয়জন একটি বৃত্তে বসে। P, Q এর বাঁয়ে। R, Q এর ডানে। S, R এর বাঁয়ে। T, S এর ডানে। U, T এর বাঁয়ে। P ও T এর মাঝে কে?",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "U"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-003",
+      "question": "কোন প্রতিযোগিতায় রাজের র্যাঙ্ক উপরে থেকে 7ম এবং নিচে থেকে 5ম। মোট প্রতিযোগী সংখ্যা?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-11-004",
+      "question": "বিন্যাস পাজলের ক্ষেত্রে নিচের কোন কৌশলগুলি সঠিক? (Multiple Correct)",
+      "options": [
+        "নিশ্চিত ক্লুগুলি প্রথমে বসাও",
+        "সম্ভাব্য সকল বিন্যাস চিন্তা করো",
+        "একটি বিন্যাস ধরে নিয়ে বাকি ক্লু মিলাও",
+        "কোন বিন্যাস মিললে সেটাই উত্তর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-11-005",
+      "question": "A + B মানে A, B-এর মাতা, A - B মানে A, B-এর পিতা, A × B মানে A, B-এর ভাই হলে, C + D × E - F এ E ও F-এর সম্পর্ক কী?",
+      "options": [
+        "E, F-এর ভাই",
+        "E, F-এর বাবা",
+        "E, F-এর ছেলে",
+        "E, F-এর মামা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-006",
+      "question": "একজন ব্যক্তি দক্ষিণে 3 কিমি, ডানে 4 কিমি, উত্তরে 3 কিমি, শুরুতে ফিরতে তাকে কোন দিকে কতদূর যেতে হবে?",
+      "options": [
+        "পশ্চিমে 4 কিমি",
+        "পূর্বে 4 কিমি",
+        "পশ্চিমে 3 কিমি",
+        "পূর্বে 3 কিমি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-007",
+      "question": "1, 8, 27, 64, 125, ?",
+      "options": [
+        "150",
+        "180",
+        "216",
+        "343"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-11-008",
+      "question": "A, D, I, P, ?",
+      "options": [
+        "U",
+        "V",
+        "W",
+        "Y"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-11-009",
+      "question": "INDIA : NEW DELHI :: BANGLADESH : ?",
+      "options": [
+        "DHAKA",
+        "CHITTAGONG",
+        "KOLKATA",
+        "LAHORE"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-11-010",
+      "question": "নিচের কোন গ্রুপের কোডিং সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "HOSPITAL → IPTJUBN (+1)",
+        "NURSE → OVSTF (+1)",
+        "DOCTOR → EPDUPS (+1)",
+        "PATIENT → QBUJFOU (+1)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-11-011",
+      "question": "রবির পুত্রের মায়ের স্বামী রবির কী হয়?",
+      "options": [
+        "বাবা",
+        "স্বয়ং রবি",
+        "ভাই",
+        "দাদা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-012",
+      "question": "বিবৃতি: (I) সমস্ত P হলো Q। (II) কোনো Q, R নয়। সিদ্ধান্ত: I. কোনো R, P নয়। II. কোনো P, R নয়।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-013",
+      "question": "বিবৃতি: (I) কিছু পাখি হাঁস। (II) সমস্ত হাঁস সাঁতার জানে। সিদ্ধান্ত: I. কিছু পাখি সাঁতার জানে। II. কিছু সাঁতারজানা পাখি।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-11-014",
+      "question": "A, Z, B, Y, C, X, ?",
+      "options": [
+        "D",
+        "W",
+        "D, W",
+        "E"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-015",
+      "question": "একজন ব্যক্তি পশ্চিম দিকে 2 কিমি গেল, তারপর বাম দিকে ঘুরে 3 কিমি গেল। পুনরায় বাম দিকে ঘুরে 2 কিমি গেল। সে যাত্রা শুরুর স্থান থেকে এখন কোন দিকে অবস্থান করছে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-016",
+      "question": "নীচের কোনগুলি শ্বাসযন্ত্রের অঙ্গ? (একাধিক উত্তর)",
+      "options": [
+        "হৃদপিণ্ড",
+        "ফুসফুস",
+        "গলবিল",
+        "পাকস্থলী"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-11-017",
+      "question": "A পূর্ব দিকে 3 কিমি, তারপর উত্তর দিকে 4 কিমি গেল। তার সূচনা বিন্দু থেকে সরলরৈখিক দূরত্ব কত?",
+      "options": [
+        "7 কিমি",
+        "5 কিমি",
+        "1 কিমি",
+        "12 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-018",
+      "question": "একটি পাশায় উপরের মুখ 4, সামনের মুখ 5, ডানের মুখ 6। পাশাটিকে সামনের দিকে একবার ঘুরালে উপরের মুখ কী হবে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-11-019",
+      "question": "অমিতের মায়ের বোনের স্বামী অমিতের কী হয়?",
+      "options": [
+        "মামা",
+        "জ্যাঠা",
+        "ফুপা",
+        "মেসো"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-020",
+      "question": "বিবৃতি I: ভোরবেলা কুয়াশা পড়েছে। বিবৃতি II: রাস্তায় দুর্ঘটনা ঘটেছে।",
+      "options": [
+        "বিবৃতি I হলো কারণ, বিবৃতি II হলো ফলাফল",
+        "বিবৃতি II হলো কারণ, বিবৃতি I হলো ফলাফল",
+        "উভয়ই স্বাধীন কারণ",
+        "উভয়ই একটি সাধারণ কারণের ফলাফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "03-cause-and-effect",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-11-021",
+      "question": "যদি P × Q মানে P, Q এর ভাই হয়, তাহলে A × B + C - D সম্পর্কে A ও D-এর সম্পর্ক কী?",
+      "options": [
+        "A, D-এর মামা",
+        "A, D-এর কাকা",
+        "A, D-এর বাবা",
+        "A, D-এর ভাই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-11-022",
+      "question": "নীচের সংখ্যাগুলোর মধ্যে কোনটি বেমানান?",
+      "options": [
+        "16",
+        "25",
+        "36",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-023",
+      "question": "2, 4, 12, 48, 240, ? - সিরিজটির বৈশিষ্ট্য কী কী?",
+      "options": [
+        "প্রতিটি পদকে 2,3,4,5,... দিয়ে গুণ",
+        "পরবর্তী পদ 1440",
+        "×2, ×3, ×4, ×5, ×6",
+        "পরবর্তী পদ 1680"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-11-024",
+      "question": "IRON : METAL :: DIAMOND : ?",
+      "options": [
+        "MINERAL",
+        "GEMSTONE",
+        "CARBON",
+        "ROCK"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-025",
+      "question": "কোনো একটি ক্লিনিকে 50% রোগী ম্যালেরিয়া আক্রান্ত, 30% ডেঙ্গু আক্রান্ত, 10% উভয় রোগে আক্রান্ত। মোট রোগী 200 হলে, কতজন কোনো রোগে আক্রান্ত নয়?",
+      "options": [
+        "40",
+        "20",
+        "60",
+        "80"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-11-026",
+      "question": "7, 12, 19, 28, 39, ? - এই সিরিজের ক্ষেত্রে নিচের কোনটি সঠিক?",
+      "options": [
+        "পার্থক্য: 5, 7, 9, 11, ?",
+        "পরবর্তী পদ হবে 52",
+        "পার্থক্য ক্রমাগত 2 বাড়ছে",
+        "পরবর্তী পদ হবে 50"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-11-027",
+      "question": "বিবৃতি: \"যারা প্রতিদিন যোগব্যায়াম করেন তারা কম অসুস্থ হন।\" অনুমান: I. যোগব্যায়াম রোগ প্রতিরোধ ক্ষমতা বাড়ায়। II. সবাই যোগব্যায়াম করতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-028",
+      "question": "যদি 2019 সালের 26শে জানুয়ারি শনিবার হয়, তাহলে 2020 সালের 26শে জানুয়ারি কি বার ছিল? (2020 লিপ ইয়ার)",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-029",
+      "question": "KIDNEY : EXCRETE :: STOMACH : ?",
+      "options": [
+        "DIGEST",
+        "ABSORB",
+        "PUMP",
+        "FILTER"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-11-030",
+      "question": "বিবৃতি: \"সময়মতো ঔষধ সেবন করুন - ডাক্তারের পরামর্শ মতো।\" অনুমান: I. সময়মতো ঔষধ না খেলে রোগ ভালো হয় না। II. রোগী ডাক্তারের পরামর্শ মানতে চান।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

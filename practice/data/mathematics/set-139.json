@@ -1,0 +1,530 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 139,
+  "questions": [
+    {
+      "id": "am-139-001",
+      "question": "5000 টাকার 3 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "850 টাকা",
+        "900 টাকা",
+        "950 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-002",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 3 ও 4 ঘন্টায় ভরা যায়। চৌবাচ্চাটি অর্ধেক ভর্তি থাকলে দুটি পাইপ একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "0.5 ঘন্টা",
+        "0.75 ঘন্টা",
+        "0.86 ঘন্টা",
+        "1 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-139-003",
+      "question": "কোন সংখ্যার পরম মান সবচেয়ে ছোটো?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "শূন্য",
+        "ভগ্নাংশ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-004",
+      "question": "A, B অপেক্ষা 50% বেশি দক্ষ। B একটি কাজ 30 দিনে করলে A কত দিনে করবে?",
+      "options": [
+        "15 দিন",
+        "18 দিন",
+        "20 দিন",
+        "22 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-139-005",
+      "question": "0.36 ÷ 0.6 = ?",
+      "options": [
+        "0.6",
+        "6",
+        "0.06",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-006",
+      "question": "একটি সিলিন্ডারের ব্যাসার্ধ 7 সেমি ও উচ্চতা 10 সেমি হলে নিচের কোনটি সঠিক? (π = 22/7)",
+      "options": [
+        "বক্রতলের ক্ষেত্রফল = 440 বর্গসেমি",
+        "সমগ্রতলের ক্ষেত্রফল = 748 বর্গসেমি",
+        "আয়তন = 1540 ঘনসেমি",
+        "ভূমির ক্ষেত্রফল = 154 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-139-007",
+      "question": "A ও B একসাথে একটি কাজ 8 দিনে করে। A একা 12 দিনে করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "B একা 24 দিনে করে",
+        "B-এর দক্ষতা A-এর অর্ধেক",
+        "A-এর দক্ষতা B-এর দ্বিগুণ",
+        "B-এর কাজ A-এর চেয়ে ধীর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-139-008",
+      "question": "নিচের কোন ভগ্নাংশগুলি 40% -এর সমান?",
+      "options": [
+        "2/5",
+        "4/10",
+        "8/20",
+        "5/2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-139-009",
+      "question": "37 × 99 = 37 × (100 − 1) এটি কোন নিয়মের উদাহরণ?",
+      "options": [
+        "বিনিময়",
+        "সহযোগী",
+        "বণ্টন",
+        "অভেদ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-010",
+      "question": "বার্ষিক 8% হারে কত টাকার 2 বছরের CI 832 টাকা?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-011",
+      "question": "একটি দ্রব্য 500 টাকায় কিনে 400 টাকায় বিক্রয় করলে ক্ষতির শতকরা হার কত?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-012",
+      "question": "x⁷ ÷ x³ = ?",
+      "options": [
+        "x⁴",
+        "x¹⁰",
+        "x²¹",
+        "x²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-013",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 25 টাকা। সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-014",
+      "question": "1, 4, 9, 16, … এদের কী বলা হয়?",
+      "options": [
+        "পূর্ণঘন সংখ্যা",
+        "পূর্ণবর্গ সংখ্যা",
+        "মৌলিক সংখ্যা",
+        "যৌগিক সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-015",
+      "question": "সরল সুদ ও চক্রবৃদ্ধি সুদের মধ্যে সম্পর্ক কী?",
+      "options": [
+        "CI সবসময় SI-এর সমান",
+        "CI সবসময় SI-এর চেয়ে কম",
+        "CI সবসময় SI-এর চেয়ে বেশি বা সমান",
+        "CI কখনো SI-এর চেয়ে কম নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-016",
+      "question": "10000 টাকার বার্ষিক 10% হারে 2 বছরের CI ও 12% হারে 2 বছরের SI-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "200 টাকা",
+        "300 টাকা",
+        "400 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-139-017",
+      "question": "12টি সংখ্যার গড় 18। প্রতিটি সংখ্যার সাথে 5 যোগ করলে নতুন গড় কত?",
+      "options": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-018",
+      "question": "একটি সমকোণী ত্রিভুজের ভূমি 5 সেমি ও অতিভুজ 13 সেমি। লম্ব কত?",
+      "options": [
+        "লম্ব = √(169 - 25) = √144 = 12 সেমি",
+        "ক্ষেত্রফল = ½ × 5 × 12 = 30 বর্গসেমি",
+        "লম্ব = 12 সেমি",
+        "ক্ষেত্রফল = 30 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-139-019",
+      "question": "নিচের কোনটি শূন্য নয়?",
+      "options": [
+        "5 − 5",
+        "0 × 7",
+        "0 ÷ 5",
+        "5 ÷ 0"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-020",
+      "question": "12, 18, 24, 30, x এর গড় 25 হলে:",
+      "options": [
+        "x = 36",
+        "যোগফল = 84+x = 125",
+        "x = 41",
+        "x = 40"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-139-021",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 800 টাকা। 10% ছাড় দিয়ে বিক্রয় করলে 20% লাভ হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-139-022",
+      "question": "5000 টাকার বার্ষিক 20% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-023",
+      "question": "গুণের ক্ষেত্রে অভেদক কত?",
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-139-024",
+      "question": "নিচের কোন কোনটি অখণ্ড সংখ্যার সঠিক উদাহরণ?",
+      "options": [
+        "−100",
+        "−1",
+        "0",
+        "½"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-139-025",
+      "question": "একটি পাই চার্টে মোট 600 জনের পছন্দ। কোনো খাতের কোণ 120° হলে, সঠিক:",
+      "options": [
+        "200 জন",
+        "33.33%",
+        "120/360×600 = 200",
+        "পছন্দের তৃতীয়াংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-139-026",
+      "question": "A ও B 100 মিটার দৌড়ে A B-কে 20 মিটার এগিয়ে দিয়ে জেতে। B 200 মিটার দৌড়ে A কে কত এগিয়ে দিতে পারে?",
+      "options": [
+        "A ও B এর গতির অনুপাত = 100:80 = 5:4",
+        "B 200 মিটার দৌড়ায়, A একই সময়ে 200×(5/4) = 250 মিটার দৌড়ায়",
+        "A 250 মিটার দৌড়ায়, B 200 মিটার দৌড়ায়, তাই A 50 মিটার এগিয়ে থাকবে",
+        "A B-কে 50 মিটার এগিয়ে দিতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-139-027",
+      "question": "দুটি ট্রেনের দৈর্ঘ্য যথাক্রমে 160 মিটার ও 140 মিটার। তারা বিপরীত দিকে 50 km/h ও 70 km/h বেগে চললে পরস্পরকে অতিক্রম করতে কত সময় লাগবে?",
+      "options": [
+        "8 সেকেন্ড",
+        "9 সেকেন্ড",
+        "10 সেকেন্ড",
+        "12 সেকেন্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-139-028",
+      "question": "A 2000 টাকা এবং B 3000 টাকা বিনিয়োগ করে 6 মাস ব্যবসা করল। লাভ 1500 টাকা হলে A-এর লাভ কত?",
+      "options": [
+        "600 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-029",
+      "question": "2400 টাকার 4 মাসে 5% হারে সরল সুদ কত?",
+      "options": [
+        "35 টাকা",
+        "38 টাকা",
+        "40 টাকা",
+        "42 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-139-030",
+      "question": "দুটি জিনিস একই দামে বিক্রয় করা হল। একটি 10% লাভে এবং অপরটি 10% ক্ষতিতে বিক্রয় করলে সামগ্রিক লাভ/ক্ষতি কত?",
+      "options": [
+        "1% লাভ",
+        "1% ক্ষতি",
+        "2% লাভ",
+        "2% ক্ষতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

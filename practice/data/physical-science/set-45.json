@@ -1,0 +1,515 @@
+{
+  "subject": "general-science",
+  "set": 45,
+  "questions": [
+    {
+      "id": "ge-45-001",
+      "question": "[NUMERICAL] H₂O এর মোলার ভর (Molar Mass) কত?",
+      "options": [
+        "16 g/mol",
+        "18 g/mol",
+        "20 g/mol",
+        "10 g/mol"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-45-002",
+      "question": "ফিউজ তার সাধারণত কোন ধাতুর তৈরি?",
+      "options": [
+        "তামা",
+        "টিন ও সীসার সংকর",
+        "রূপা",
+        "লোহা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-003",
+      "question": "তাপ ইঞ্জিনের কর্মদক্ষতা নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "Input/Output × 100%",
+        "Output/Input × 100%",
+        "(Input - Output) × 100%",
+        "(Output + Input) × 100%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-004",
+      "question": "অতিরিক্ত UV রশ্মি সামুদ্রিক বাস্তুতন্ত্রে কী প্রভাব ফেলে? (একাধিক উত্তর)",
+      "options": [
+        "ফাইটোপ্ল্যাঙ্কটনের ক্ষতি",
+        "মাছের ডিম নষ্ট",
+        "প্রবাল প্রাচীর ধ্বংস",
+        "জোয়ার বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-45-005",
+      "question": "1 Å = কত ন্যানোমিটার?",
+      "options": [
+        "10 nm",
+        "0.1 nm",
+        "1 nm",
+        "0.01 nm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-006",
+      "question": "আদর্শ গ্যাস সূত্রের ধ্রুবক 'R' এর মান লিটার-অ্যাটমোস্ফিয়ার এককে কত?",
+      "options": [
+        "8.314",
+        "0.0821",
+        "1.987",
+        "6.022"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-007",
+      "question": "চুনের জল দিয়ে কার্বন ডাই অক্সাইড বেশিক্ষণ পাঠালে অধঃক্ষেপ দ্রবীভূত হয়ে যায় কেন?",
+      "options": [
+        "ক্যালসিয়াম কার্বনেট তৈরির জন্য",
+        "ক্যালসিয়াম বাইকার্বনেট তৈরির জন্য",
+        "জল উৎপন্ন হওয়ার জন্য",
+        "ক্যালসিয়াম অক্সাইড তৈরির জন্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-008",
+      "question": "বেগ-সময় (v-t) লেখচিত্রের নতি (Slope) কী নির্দেশ করে?",
+      "options": [
+        "সরণ",
+        "সরণ বৃদ্ধির হার বা ত্বরণ",
+        "বল",
+        "ভরবেগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-009",
+      "question": "মানুষের কান নিচের কোন শব্দগুলি শুনতে পায় না?",
+      "options": [
+        "5 Hz কম্পাঙ্কের শব্দ",
+        "30,000 Hz কম্পাঙ্কের শব্দ",
+        "1000 Hz কম্পাঙ্কের শব্দ",
+        "100,000 Hz কম্পাঙ্কের শব্দ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-45-010",
+      "question": "একটি বন্তুকে উত্তল লেন্সের ফোকাস বিন্দুতে রাখলে কী ঘটবে?",
+      "options": [
+        "প্রতিবিম্ব অসীমে তৈরি হবে",
+        "প্রতিবিম্ব ফোকাসে তৈরি হবে",
+        "প্রতিবিম্ব অবাস্তব হবে",
+        "কোনো প্রতিবিম্ব তৈরি হবে না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-011",
+      "question": "শব্দের প্রাবল্য (Loudness) কিসের ওপর নির্ভর করে?",
+      "options": [
+        "শব্দের উৎস থেকে শ্রোতার দূরত্ব",
+        "মাধ্যমের ঘনত্ব",
+        "উেসর কম্পনশীল তলের ক্ষেত্রফল",
+        "সবকটি সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-012",
+      "question": "শব্দের বেগ বায়ুর তাপমাত্রার সাথে কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "তাপমাত্রা বাড়লে বেগ কমে",
+        "তাপমাত্রা বাড়লে বেগ বাড়ে",
+        "তাপমাত্রার ওপর নির্ভর করে না",
+        "তাপমাত্রা বাড়লে বেগ স্থির থাকে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-013",
+      "question": "[NUMERICAL] 1 mole জলে কতগুলি হাইড্রোজেন পরমাণু থাকে?",
+      "options": [
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "1.204 × 10²³",
+        "3.011 × 10²³"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-014",
+      "question": "তাপ ও তাপমাত্রার মধ্যে সম্পর্ক কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ তাপমাত্রার কারণ",
+        "তাপমাত্রা তাপের ফলাফল",
+        "তাপমাত্রা তাপ প্রবাহ নির্দেশ করে",
+        "দুটি একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-45-015",
+      "question": "পোলারায়ন প্রতিরোধের উপায় কী? (বহু-সঠিক)",
+      "options": [
+        "ডিপোলারাইজার ব্যবহার (MnO₂)",
+        "নিষ্ক্রিয় তড়িৎদ্বার ব্যবহার",
+        "তাপমাত্রা বাড়ানো",
+        "তড়িৎদ্বার ঘষে পরিষ্কার করা"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-45-016",
+      "question": "ক্যাটালিটিক কনভার্টার গাড়িতে কী কাজে লাগে?",
+      "options": [
+        "গাড়ির গতি বাড়াতে",
+        "CO ও NO কে কম ক্ষতিকর গ্যাসে পরিবর্তন করতে",
+        "শব্দ কমাতে",
+        "ধোঁয়া বাড়াতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-017",
+      "question": "নিচের কোনগুলি 'হাইড্রেটেড সল্ট' (Hydrated Salts)?",
+      "options": [
+        "নীল থুথু",
+        "ধোলাই সোডা",
+        "জিপসাম",
+        "শুষ্ক ক্যালসিয়াম ক্লোরাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-45-018",
+      "question": "সাধারণ লবণে (NaCl) আর্দ্র আবহাওয়ায় জল শোষিত হয় কেন?",
+      "options": [
+        "NaCl নিজেই জল শোষণ করে",
+        "এতে MgCl2 এর মতো অপদ্রব্য থাকে",
+        "এতে আয়োডিন থাকে",
+        "এটি একটি গ্যাসীয় পদার্থ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-019",
+      "question": "আয়তনের SI একক কী?",
+      "options": [
+        "লিটার",
+        "বর্গমিটার",
+        "ঘনমিটার",
+        "মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-020",
+      "question": "CuSO₄ দ্রবণে Pt তড়িৎদ্বার দিয়ে তড়িৎ বিশ্লেষণ করলে অ্যানোডে কী হবে?",
+      "options": [
+        "Cu জমা হবে",
+        "Pt দ্রবীভূত হবে",
+        "O₂ গ্যাস নির্গত হবে",
+        "H₂ গ্যাস নির্গত হবে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-021",
+      "question": "নিচের কোনটি অবতল লেন্সের ব্যবহার? (i) মায়োপিয়া চিকিৎসা (ii) হাইপারমেট্রোপিয়া চিকিৎসা (iii) লেজার (iv) ফ্ল্যাশলাইট",
+      "options": [
+        "শুধু (i)",
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-022",
+      "question": "2H₂ + O₂ → 2H₂O — এই বিক্রিয়াটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Decomposition",
+        "Combination",
+        "Displacement",
+        "Redox"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-45-023",
+      "question": "বায়ু দূষণের প্রধান উৎস কী?",
+      "options": [
+        "শুধু প্রাকৃতিক উৎস",
+        "শুধু যানবাহন",
+        "জীবাশ্ম জ্বালানির দহন ও শিল্পকারখানা",
+        "শুধু কৃষিকার্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-45-024",
+      "question": "নিচের কোনটি অপসারী আলোক রশ্মিগুচ্ছের উদাহরণ?",
+      "options": [
+        "টর্চলাইটের আলো",
+        "সূর্যকিরণ",
+        "লেজার রশ্মি",
+        "অভিসারী লেন্স থেকে নির্গত আলো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-025",
+      "question": "সমান্তরাল আলোক রশ্মি একটি অবতল লেন্সে আপতিত হলে কীরূপ হয়?",
+      "options": [
+        "অভিসারিত হয়",
+        "অপসারিত হয়",
+        "সমান্তরাল থাকে",
+        "শোষিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-45-026",
+      "question": "সর্বজনীন নির্দেশক (Universal Indicator) pH 7 এ কোন বর্ণ দেখায়?",
+      "options": [
+        "লাল",
+        "নীল",
+        "সবুজ",
+        "বেগুনি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-027",
+      "question": "গ্যাসে অণুর গতির বৈশিষ্ট্য হলো—",
+      "options": [
+        "গতি এলোমেলো (Random)",
+        "সব অণুর বেগ সমান",
+        "সংঘর্ষগুলি স্থিতিস্থাপক",
+        "অণুগুলি সরলরেখায় চলে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-45-028",
+      "question": "একটি সাইকেল আরোহী 100 m দৈর্ঘ্যের ঢালু পথে 50 m উচ্চতায় উঠল। বাইকের ভর ও আরোহীর ভর মিলিয়ে 100 kg। কৃত কার্য কত? (g=9.8 m/s²)",
+      "options": [
+        "98 kJ",
+        "4.9 kJ",
+        "49 kJ",
+        "9.8 kJ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-45-029",
+      "question": "চোখের লেন্সের প্রকৃতি কীরূপ?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "সমতল",
+        "দ্বি-অবতল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-45-030",
+      "question": "R = ρL/A সূত্রে ρ কাকে বলে?",
+      "options": [
+        "রোধ",
+        "আপেক্ষিক রোধ বা রোধাঙ্ক",
+        "পরিবাহকত্ব",
+        "তড়িৎ ক্ষেত্র"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}

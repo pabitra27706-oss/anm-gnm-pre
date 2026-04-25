@@ -1,0 +1,535 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 141,
+  "questions": [
+    {
+      "id": "am-141-001",
+      "question": "45, 90, 135-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 45",
+        "LCM = 90",
+        "LCM = 135",
+        "90, 45-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-141-002",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 3 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 4 ঘন্টায় খালি করতে পারে। চৌবাচ্চা অর্ধেক ভরতি থাকলে দুটি পাইপ একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "4 ঘন্টা",
+        "5 ঘন্টা",
+        "6 ঘন্টা",
+        "8 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-141-003",
+      "question": "একটি মিশ্রণে দুধ ও জলের অনুপাত 4:1। মিশ্রণটিতে জলের শতকরা হার কত?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-004",
+      "question": "6টি পরীক্ষায় প্রাপ্ত নম্বর 60, 65, 70, 75, 80, 70। গড় নম্বর কত?",
+      "options": [
+        "68",
+        "69",
+        "70",
+        "71"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-005",
+      "question": "স্রোতের অনুকূলে একটি নৌকার গতি 15 km/h, স্রোতের গতি 3 km/h, স্থির জলে নৌকার গতি কত?",
+      "options": [
+        "স্থির জলে গতি = 15 - 3 = 12 km/h",
+        "স্রোতের বিপরীতে গতি = 12-3=9 km/h",
+        "12 km/h",
+        "9 km/h"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-141-006",
+      "question": "একটি দোকানে তিনটি বেল্ট লাইট যথাক্রমে 4 মিনিট, 6 মিনিট এবং 10 মিনিট অন্তর জ্বলে। কত মিনিট পরে তারা একসাথে জ্বলবে?",
+      "options": [
+        "30 মিনিট",
+        "45 মিনিট",
+        "60 মিনিট",
+        "120 মিনিট"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-007",
+      "question": "120 মিটার লম্বা একটি ট্রেন 54 km/h বেগে একটি ব্যক্তিকে অতিক্রম করে 8 সেকেন্ডে। ব্যক্তির গতিবেগ কত (একই দিকে)?",
+      "options": [
+        "0 m/s",
+        "1 m/s",
+        "2 m/s",
+        "3 m/s"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-141-008",
+      "question": "একজন দোকানদার 1000 টাকায় একটি দ্রব্য কিনে 20% লাভে বিক্রয় করল। তার লাভ কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-141-009",
+      "question": "নিচের সারণি: বিভিন্ন হাসপাতালে রোগীর সংখ্যা: H1: 120, H2: 150, H3: 135, H4: 140, H5: 125, H6: 145 গড় রোগী সংখ্যা কত?",
+      "options": [
+        "134",
+        "135.5",
+        "136",
+        "137.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-010",
+      "question": "একটি জিনিস 1020 টাকায় বিক্রয় করাতে 15% ক্ষতি হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "1100 টাকা",
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-011",
+      "question": "একটি জিনিসের দাম 500 টাকা থেকে 400 টাকা হলে, শতকরা হ্রাস কত?",
+      "options": [
+        "15%",
+        "18%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-141-012",
+      "question": "নিচের সারণি: ৭টি আইটেমের দাম (টাকা): I1: 25, I2: 30, I3: 28, I4: 35, I5: 22, I6: 32, I7: 27 মোট দাম কত টাকা?",
+      "options": [
+        "195",
+        "197",
+        "199",
+        "201"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-013",
+      "question": "5 টি সংখ্যার গড় 12। একটি সংখ্যা 10 বাদ দিলে নতুন গড় কত?",
+      "options": [
+        "10.5",
+        "11.5",
+        "12.5",
+        "13.5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-141-014",
+      "question": "1000-এর গুণনীয়কগুলি কী কী?",
+      "options": [
+        "1,2,4,5,8,10",
+        "20,25,40,50,100",
+        "125,200,250,500,1000",
+        "3,6,7"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-141-015",
+      "question": "A একটি কাজ 8 দিনে করে, B 12 দিনে করে। A ও B একসাথে কাজ করে মজুরি পায় 1000 টাকা। B-এর মজুরি কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-016",
+      "question": "সমানুপাতের প্রান্তীয় পদ ও মধ্য পদ সম্পর্কিত সঠিক বিবৃতি কোনগুলি?",
+      "options": [
+        "প্রান্তীয় পদের গুণফল = মধ্য পদের গুণফল",
+        "a : b = c : d হলে ad = bc",
+        "a : b = c : d হলে a : c = b : d",
+        "a : b = c : d হলে b : a = d : c"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-141-017",
+      "question": "সরল অনুপাত ও যৌগিক অনুপাতের পার্থক্য কী?",
+      "options": [
+        "সরল অনুপাতে দুটি রাশি তুলনা",
+        "যৌগিক অনুপাতে দুটির বেশি অনুপাতের গুণ",
+        "সরল অনুপাতকে যৌগিক বলা যায় না",
+        "যৌগিক অনুপাত সরল হতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-141-018",
+      "question": "5000 টাকার বার্ষিক 12% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1240 টাকা",
+        "1272 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-019",
+      "question": "4 বছরের সরল সুদ 800 টাকা, R = 5%। P ও A:",
+      "options": [
+        "P = 4000",
+        "A = 4800",
+        "P = 4000 টাকা",
+        "A = 4800 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-141-020",
+      "question": "144 এবং 180-এর গসাগু কত?",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-021",
+      "question": "12-এর সমস্ত গুণনীয়কগুলি হল:",
+      "options": [
+        "1, 2, 3, 4, 6, 12",
+        "1, 2, 3, 4, 6, 8, 12",
+        "2, 3, 4, 6, 12",
+        "1, 2, 3, 6, 9, 12"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-141-022",
+      "question": "নিচের রেখা লেখচিত্রে তাপমাত্রা: Week1: 28°, Week2: 30°, Week3: 32°, Week4: 29°, Week5: 31° Week2 ও Week3 এর গড় তাপমাত্রা কত?",
+      "options": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-141-023",
+      "question": "2x - 3 = 7 সমীকরণটির বামপক্ষ কী?",
+      "options": [
+        "2x - 3",
+        "7",
+        "x",
+        "2x"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-141-024",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে “সুদের উপর সুদ” বলতে কী বোঝায়?",
+      "options": [
+        "প্রতি বছরের শেষে সুদ মূলধনে যোগ করা",
+        "পরের বছরে পূর্বের সদের উপরও সুদ গণনা",
+        "সরল সুদে এই সুবিধা নেই",
+        "এতে সুদের পরিমাণ বেশি হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-141-025",
+      "question": "যদি A একটি কাজ 5 দিনে করে এবং B একই কাজ 10 দিনে করে তবে A ও B একসাথে কাজ করলে 1 দিনে কত কাজ করবে?",
+      "options": [
+        "1/5",
+        "1/10",
+        "3/10",
+        "1/2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-026",
+      "question": "মজুরি বণ্টন সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "মজুরি কাজের পরিমাণ অনুপাতে বণ্টিত হয়",
+        "কাজের পরিমাণ = সময় × দক্ষতা",
+        "একই সময়ে কাজ করলে দক্ষতার অনুপাতে মজুরি",
+        "একই দক্ষতায় কাজ করলে সময়ের অনুপাতে মজুরি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-141-027",
+      "question": "0.25-কে 0.5 দিয়ে গুণ করলে কী হয়?",
+      "options": [
+        "0.125",
+        "0.0125",
+        "1.25",
+        "12.5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-141-028",
+      "question": "10 মি × 8 মি × 5 মি মাপের একটি চৌবাচ্চার দেওয়াল ও মেঝে টালি দিতে হবে। মেঝে ও চার দেওয়ালের মোট ক্ষেত্রফল কত?",
+      "options": [
+        "মেঝের ক্ষেত্রফল = 80 বর্গমি",
+        "চার দেওয়ালের ক্ষেত্রফল = 2 × 5 × (10+8) = 10 × 18 = 180 বর্গমি",
+        "মোট = 80 + 180 = 260 বর্গমি",
+        "মোট = 260 বর্গমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-141-029",
+      "question": "(2 : 3) এবং (4 : 5)-এর যৌগিক অনুপাত কোনটি?",
+      "options": [
+        "6 : 8",
+        "8 : 15",
+        "2 : 5",
+        "8 : 12"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-141-030",
+      "question": "সুদের হার R = 0 হলে সুদ কত হবে?",
+      "options": [
+        "আসলের সমান",
+        "শূন্য",
+        "আসলের দ্বিগুণ",
+        "আসলের অর্ধেক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "subject": "general-science",
+  "set": 4,
+  "questions": [
+    {
+      "id": "ge-04-001",
+      "question": "নিচের কোনটি অ্যালকোহলের সাথে ধাতুর বিক্রিয়ার বৈশিষ্ট্য?",
+      "options": [
+        "অক্সিজেন গ্যাস নির্গত হয়",
+        "হাইড্রোজেন গ্যাস নির্গত হয়",
+        "নাইট্রোজেন গ্যাস নির্গত হয়",
+        "কোনো গ্যাস নির্গত হয় না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-002",
+      "question": "নিচের কোনটি শক্তির একক নয়?",
+      "options": [
+        "জুল",
+        "ওয়াট",
+        "ক্যালোরি",
+        "ইলেকট্রন ভোল্ট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-04-003",
+      "question": "AC তড়িৎ প্রবাহের দিক কেমন?",
+      "options": [
+        "একমুখী",
+        "নির্দিষ্ট",
+        "পরিবর্তনশীল",
+        "শূন্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-004",
+      "question": "50 cm ফোকাস দূরত্ববিশিষ্ট উত্তল লেন্সের ক্ষমতা কত?",
+      "options": [
+        "+2 D",
+        "-2 D",
+        "+0.5 D",
+        "-0.5 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-005",
+      "question": "প্রতিধ্বনি (Echo) শোনার জন্য উৎস ও প্রতিফলকের মধ্যে ন্যূনতম দূরত্ব কত হওয়া প্রয়োজন? (বায়ুতে শব্দের বেগ ৩৪০ মি/সেকেন্ড ধরে)",
+      "options": [
+        "10 m",
+        "17 m",
+        "34 m",
+        "100 m"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-006",
+      "question": "একটি ইঞ্জিনের দক্ষতা 40% এবং এটি প্রতি সেকেন্ডে 800 J তাপ গ্রহণ করে, কৃত কার্য কত?",
+      "options": [
+        "320 J",
+        "800 J",
+        "2000 J",
+        "480 J"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-04-007",
+      "question": "কোন পদ্ধতিতে তাপ সঞ্চালনে সময় সবচেয়ে কম লাগে?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ (আলোর গতিতে হয়)",
+        "সব সময় সমান"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-008",
+      "question": "ডাক্তারি থার্মোমিটার পড়ার সময় কী ধরনের সতর্কতা প্রয়োজন?",
+      "options": [
+        "থার্মোমিটারটি ঘুরিয়ে পড়তে হবে",
+        "চোখের সামনে আনুভূমিকভাবে ধরতে হবে, বাল্ব স্পর্শ করা যাবে না",
+        "জোরে ঝাঁকাতে হবে",
+        "যে কোনো ভাবে পড়া যায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-009",
+      "question": "ওজোন স্তর সূর্য থেকে কোন রশ্মি শোষণ করে?",
+      "options": [
+        "দৃশ্যমান আলো",
+        "অবলোহিত রশ্মি",
+        "অতিবেগুনি রশ্মি (UV)",
+        "গামা রশ্মি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-010",
+      "question": "নিচের কোনটি সঠিক VIBGYOR ক্রম?",
+      "options": [
+        "বেগুনি, নীল, আসমানি, সবুজ, হলুদ, কমলা, লাল",
+        "লাল, কমলা, হলুদ, সবুজ, নীল, আসমানি, বেগুনি",
+        "বেগুনি, আসমানি, নীল, সবুজ, হলুদ, কমলা, লাল",
+        "লাল, কমলা, হলুদ, সবুজ, আসমানি, নীল, বেগুনি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-011",
+      "question": "1 টন = কত কেজি?",
+      "options": [
+        "10 kg",
+        "100 kg",
+        "1000 kg",
+        "10,000 kg"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-04-012",
+      "question": "টেলিস্কোপে ব্যবহৃত অভিলক্ষ্যের ফোকাস দূরত্ব কী রকম হয়?",
+      "options": [
+        "কম",
+        "বেশি",
+        "শূন্য",
+        "অসীম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-013",
+      "question": "সত্য দ্রবণের (True solution) কণাগুলি—",
+      "options": [
+        "ফিল্টার পেপার ভেদ করে",
+        "টাইন্ডাল এফেক্ট দেখায় না",
+        "থিতিয়ে পড়ে না",
+        "আল্ট্রা-ফিল্টার পেপার ভেদ করে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-04-014",
+      "question": "শক্তির উৎস হিসেবে সূর্যের গুরুত্ব— (বহু-সঠিক)",
+      "options": [
+        "জীবাশ্ম জ্বালানি সৃষ্টিতে",
+        "বায়ুপ্রবাহ সৃষ্টিতে",
+        "জলচক্র চালু রাখতে",
+        "সরাসরি বিদ্যুৎ উৎপাদনে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-04-015",
+      "question": "[NUMERICAL] 22 g কার্বন ডাই অক্সাইডে কত মোল CO₂ আছে?",
+      "options": [
+        "1 mole",
+        "0.5 mole",
+        "2 mole",
+        "0.2 mole"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-016",
+      "question": "নিচের কোনগুলো নিয়মিত প্রতিফলনের প্রয়োগ? (i) দর্পণ (ii) ক্যালিডোস্কোপ (iii) পেরিস্কোপ (iv) মরুভূমির মরীচিকা",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-017",
+      "question": "একটি সরল অণুবীক্ষণ যন্ত্রের বিবর্ধন ক্ষমতা কিসের ওপর নির্ভর করে?",
+      "options": [
+        "লেন্সের ব্যাস",
+        "লেন্সের ফোকাস দূরত্ব",
+        "লেন্সের বেধ",
+        "আলোর তীব্রতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-018",
+      "question": "তাপমাত্রা নির্ণয়ে বিকিরণ থার্মোমিটার ব্যবহার করা হয়- (একাধিক উত্তর সঠিক)",
+      "options": [
+        "কানের পর্দার তাপমাত্রায় (টিমপ্যানিক)",
+        "গলিত ধাতুর তাপমাত্রায়",
+        "বরফের তাপমাত্রায়",
+        "মুখের তাপমাত্রায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-04-019",
+      "question": "আলোর তরঙ্গ দৈর্ঘ্য বৃদ্ধি পেলে প্রতিসরাঙ্কের কী পরিবর্তন হয়?",
+      "options": [
+        "বৃদ্ধি পায়",
+        "হ্রাস পায়",
+        "অপরিবর্তিত থাকে",
+        "কখনও বাড়ে কখনও কমে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-04-020",
+      "question": "নিচের কোনগুলো আলোর সাথে সম্পর্কিত সঠিক বৈশিষ্ট্য? (i) আলোর প্রতিফলন ও প্রতিসরণ ঘটে (ii) আলো শক্তির এক রূপ (iii) আলোর বেগ মাধ্যমের প্রকৃতির ওপর নির্ভর করে (iv) আলো তড়িৎ চৌম্বকীয় তরঙ্গ",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-04-021",
+      "question": "কোনো যন্ত্রের গায়ে 220V, 1500W লেখা থাকলে— (বহু-সঠিক)",
+      "options": [
+        "এটি 220V এ 1500 J/s শক্তি রূপান্তর করে",
+        "এর রোধ প্রায় 32.3 Ω",
+        "5A ফিউজ যথেষ্ট নাও হতে পারে",
+        "এটি 1.5 kWh শক্তি খরচ করে 1 ঘণ্টায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-04-022",
+      "question": "তাপমাত্রা বাড়ালে সাধারণত পরিবাহীর রোধ কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "কমে",
+        "অপরিবর্তিত থাকে",
+        "বাড়ে",
+        "প্রথমে বাড়ে পরে কমে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-023",
+      "question": "একটি তাপ পরিমাপক যন্ত্রের বৈশিষ্ট্য কী হওয়া দরকার? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সংবেদনশীলতা",
+        "দ্রুত তাপীয় সাম্যাবস্থা",
+        "সুবহ",
+        "বৃহৎ আকার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-04-024",
+      "question": "অবতল দর্পণের সামনে অসীম দূরত্বে বস্তু রাখলে প্রতিবিম্ব কোথায় গঠিত হয়?",
+      "options": [
+        "ফোকাসে (F)",
+        "অনন্তে",
+        "মেরুতে (P)",
+        "বক্রতা কেন্দ্রে (C)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-025",
+      "question": "একটি বৈদ্যুতিক মোটর 220 V লাইনে 2 A নেয় এবং 1 ঘণ্টা চলে, কত তাপ উৎপন্ন হয়? (H=VIt)",
+      "options": [
+        "440 J",
+        "1.584 × 10⁶ J",
+        "440 kWh",
+        "1584 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-04-026",
+      "question": "সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধির প্রধান কারণ কী?",
+      "options": [
+        "অ্যাসিড বৃষ্টি",
+        "বরফ গলন ও তাপীয় প্রসারণ",
+        "পলি জমা",
+        "ভূমিকম্প"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-027",
+      "question": "নিচের কোন মাধ্যমটিতে আলোর বেগ সর্বাধিক?",
+      "options": [
+        "কাঁচ",
+        "পানি",
+        "হীরক",
+        "শূন্যস্থান"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-04-028",
+      "question": "ম্যাগনেসিয়াম (Mg) কোন শ্রেণির মৌল?",
+      "options": [
+        "ক্ষার ধাতু",
+        "ক্ষারীয় মৃত্তিকা ধাতু",
+        "হ্যালোজেন",
+        "নিষ্ক্রিয় গ্যাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-04-029",
+      "question": "কোনো স্থির বস্তুর বিবর্ধন -2 হলে প্রতিবিম্ব সম্পর্কে কী বলা যায়?",
+      "options": [
+        "বাস্তব ও সমশীর্ষ",
+        "অবাস্তব ও বিবর্ধিত",
+        "বাস্তব ও অবশীর্ষ",
+        "অবাস্তব ও ছোটো"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-04-030",
+      "question": "চুনের জল (Limewater) হলো—",
+      "options": [
+        "ক্যালসিয়াম হাইড্রোক্সাইডের দ্রবণ",
+        "একটি ক্ষারীয় দ্রবণ",
+        "এটি CO2 এর উপস্থিতিতে ঘোলা হয়",
+        "এটি একটি লবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

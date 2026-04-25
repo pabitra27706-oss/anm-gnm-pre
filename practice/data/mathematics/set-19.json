@@ -1,0 +1,548 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 19,
+  "questions": [
+    {
+      "id": "am-19-001",
+      "question": "সংখ্যারেখায় −2 এবং 3-এর মধ্যে অবস্থিত পূর্ণ সংখ্যা কারা?",
+      "options": [
+        "−1",
+        "0",
+        "1",
+        "2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-19-002",
+      "question": "0.6 : 1.2-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "1 : 2",
+        "2 : 1",
+        "6 : 12",
+        "12 : 6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-003",
+      "question": "একটি কাজ A 10 দিনে, B 15 দিনে করে। A ও B একসাথে কাজ করে 400 টাকা পেলে A-এর ভাগ কত?",
+      "options": [
+        "160 টাকা",
+        "200 টাকা",
+        "240 টাকা",
+        "280 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-004",
+      "question": "3, 5, 6, 10 সমানুপাতী কিনা? কোনো একটি পদ পরিবর্তন করলে সমানুপাত হয় কী করে?",
+      "options": [
+        "না",
+        "3 : 5 = 6 : 10 করে",
+        "ইতিমধ্যে সমানুপাতী",
+        "5 ও 6 স্থান বিনিময় করলে হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-19-005",
+      "question": "একটি শ্রেণীতে 20% ছাত্র অনুপস্থিত। 24 জন উপস্থিত থাকলে, মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "35"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-006",
+      "question": "6% হারে কত বছরে 5000 টাকার সরল সুদ 900 টাকা হবে?",
+      "options": [
+        "2 বছর",
+        "3 বছর",
+        "4 বছর",
+        "5 বছর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-007",
+      "question": "একটি সাইকেল আরোহী 4 মিনিটে 1 কিমি যায়। তার গতিবেগ km/h ও m/s এ:",
+      "options": [
+        "1 কিমি/4 মিনিট = 0.25 কিমি/মিনিট = 15 km/h",
+        "15 km/h = 25/6 ≈ 4.167 m/s",
+        "15 km/h = 4.167 m/s",
+        "4.167 m/s"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-19-008",
+      "question": "2000 টাকার 2.5 বছরের সুদ 500 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-009",
+      "question": "নিচের কোন কোনটি জোড় সংখ্যার বৈশিষ্ট্য?",
+      "options": [
+        "2 দিয়ে বিভাজ্য",
+        "জোড় + জোড় = জোড়",
+        "জোড় × বিজোড় = জোড়",
+        "জোড় × জোড় = জোড়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-19-010",
+      "question": "7টি সংখ্যার গড় 28। প্রতিটি সংখ্যা 3 দিয়ে গুণ করলে নতুন গড় কত?",
+      "options": [
+        "74",
+        "80",
+        "84",
+        "90"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-011",
+      "question": "নিচের সারণি: ৫টি ক্লাসের উপস্থিতি: C1: 40/45, C2: 38/42, C3: 42/48, C4: 35/40, C5: 39/44 কোন ক্লাসে উপস্থিতির শতকরা সর্বাধিক?",
+      "options": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-19-012",
+      "question": "একজন দোকানদার 10% লাভে একটি জিনিস বিক্রয় করে এবং 1000 গ্রামের জায়গায় 900 গ্রাম দেয়। তার মোট লাভ% কত?",
+      "options": [
+        "22.22%",
+        "CP = 100, 10% লাভে SP = 110, দেয় 900 গ্রাম → 900 গ্রামের CP = 90, লাভ = 20, লাভ% = 20/90 × 100 = 22.22%",
+        "20%",
+        "25%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-19-013",
+      "question": "50000 টাকার বার্ষিক 12% হারে 2 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "12000 টাকা",
+        "12500 টাকা",
+        "13000 টাকা",
+        "13123.2 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-19-014",
+      "question": "একটি দ্রব্য 25% লাভে বিক্রয় করলে লাভ 200 টাকা। ক্রয়মূল্য কত?",
+      "options": [
+        "600 টাকা",
+        "700 টাকা",
+        "800 টাকা",
+        "900 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-015",
+      "question": "1/3-এর দশমিক রূপ 0.333...। 2/3-এর দশমিক রূপ কত?",
+      "options": [
+        "0.333...",
+        "0.666...",
+        "0.1666...",
+        "0.8333..."
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-19-016",
+      "question": "90 মিনিট = কত ঘন্টা?",
+      "options": [
+        "1 ঘন্টা",
+        "1.25 ঘন্টা",
+        "1.5 ঘন্টা",
+        "1.75 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-19-017",
+      "question": "0.75-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "3/4",
+        "6/8",
+        "9/12",
+        "12/16"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-19-018",
+      "question": "একটি কাজ A 25 দিনে করে, B 20 দিনে করে। A একা কাজ শুরু করে 5 দিন পর B যোগ দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A 5 দিনে কাজ করে = 5/25 = 1/5",
+        "বাকি কাজ = 4/5",
+        "A ও B একসাথে 1 দিনে কাজ করে = 1/25+1/20 = 9/100",
+        "বাকি কাজ শেষ করতে সময় = (4/5)/(9/100) = 80/9 ≈ 8.89 দিন, মোট সময় = 5+8.89 = 13.89 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-19-019",
+      "question": "B একটি কাজ 20 দিনে করে। A ও B একসাথে 12 দিনে করে। A একা কত দিনে করবে?",
+      "options": [
+        "25 দিন",
+        "28 দিন",
+        "30 দিন",
+        "32 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-020",
+      "question": "নিচের পাই চার্টে মোট 3600 টাকার খরচ: খাবার 120°, ভাড়া 90°, পোশাক 60°, বিনোদন 45°, সঞ্চয় 45°। খাবারে কত টাকা খরচ হয়?",
+      "options": [
+        "1000",
+        "1200",
+        "1500",
+        "1800"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-021",
+      "question": "একটি দ্রব্যের ক্রয়মূল্য 600 টাকা এবং লাভ 25% হলে বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "720 টাকা",
+        "740 টাকা",
+        "750 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-022",
+      "question": "16 জন পুরুষ একটি কাজ 15 দিনে করতে পারে। 20 জন পুরুষ ওই কাজ কত দিনে করবে?",
+      "options": [
+        "10 দিন",
+        "11 দিন",
+        "12 দিন",
+        "13 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-023",
+      "question": "একটি জিনিস 30% লাভে বিক্রয় করলে লাভ 90 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "250 টাকা",
+        "280 টাকা",
+        "300 টাকা",
+        "320 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-024",
+      "question": "6 জন পুরুষ 10 দিনে একটি কাজ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "60 জন-দিন কাজ প্রয়োজন",
+        "12 জন পুরুষ 5 দিনে করবে",
+        "3 জন পুরুষ 20 দিনে করবে",
+        "5 জন পুরুষ 12 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-19-025",
+      "question": "3/8 -এর সমতুল্য:",
+      "options": [
+        "37.5%",
+        "0.375",
+        "3/8",
+        "0.0375"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-19-026",
+      "question": "8000 টাকার 6% হারে 3.5 বছরে:",
+      "options": [
+        "SI = 1680",
+        "A = 9680",
+        "SI = 1500",
+        "A = 9500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-19-027",
+      "question": "একটি দ্রব্য 25% লাভে বিক্রয় করলে লাভ হয় 200 টাকা। দ্রব্যটির CP ও SP কত?",
+      "options": [
+        "CP = 800 টাকা",
+        "SP = 1000 টাকা",
+        "CP = 600 টাকা",
+        "SP = 800 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-19-028",
+      "question": "বার্ষিক 5% হারে 2 বছরের জন্য CI ও SI-এর সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "CI = 10.25% of P",
+        "SI = 10% of P",
+        "CI : SI = 41 : 40",
+        "CI - SI = 0.25% of P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-19-029",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "যদি A একা 8 দিনে কাজ করে, A ও B একসাথে 6 দিনে করে, B একা 24 দিনে করে",
+        "যদি A ও B একসাথে 10 দিনে করে, B একা 25 দিনে করে, A একা 50/3 দিনে করে",
+        "যদি A ও B একসাথে 15 দিনে করে, A একা 20 দিনে করে, B একা 60 দিনে করে",
+        "যদি A ও B একসাথে 18 দিনে করে, B একা 27 দিনে করে, A একা 54 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-19-030",
+      "question": "একটি দণ্ড লেখচিত্রে ইটের সংখ্যা: Site1: 2000, Site2: 3500, Site3: 2800, Site4: 4200 Site2 ও Site4 এর মোট ইট কত?",
+      "options": [
+        "6500",
+        "7000",
+        "7500",
+        "7700"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    }
+  ]
+}

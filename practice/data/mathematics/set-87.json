@@ -1,0 +1,515 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 87,
+  "questions": [
+    {
+      "id": "am-87-001",
+      "question": "25.25 ÷ 5 = ?",
+      "options": [
+        "5.05",
+        "5.5",
+        "5.15",
+        "5.25"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-87-002",
+      "question": "x² - 6x + 9 = 0 সমীকরণের সমাধান কী?",
+      "options": [
+        "x = 3",
+        "x = -3",
+        "x = 6",
+        "x = -6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-87-003",
+      "question": "0, 10, 20, 30, 40 এর গড়:",
+      "options": [
+        "20",
+        "100/5 = 20",
+        "25",
+        "15"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-87-004",
+      "question": "একজন দোকানদার 1 কেজির জায়গায় 920 গ্রাম দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "7.69%",
+        "8.69%",
+        "8.7%",
+        "8.8%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-005",
+      "question": "একটি জিনিসের ক্রয়মূল্য ও বিক্রয়মূল্যের অনুপাত 9:8। জিনিসটির ক্ষতির শতকরা হার কত?",
+      "options": [
+        "10%",
+        "11.11%",
+        "12.5%",
+        "15%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-006",
+      "question": "বার্ষিক 15% হারে 8000 টাকার 2 বছরের CI কত?",
+      "options": [
+        "2400 টাকা",
+        "2500 টাকা",
+        "2580 টাকা",
+        "2600 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-007",
+      "question": "80, 85, 90, 95, 100 এর গড়:",
+      "options": [
+        "90",
+        "450/5=90",
+        "85",
+        "95"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-87-008",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 6 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 8 ঘন্টায় খালি করতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "20 ঘন্টা",
+        "22 ঘন্টা",
+        "24 ঘন্টা",
+        "26 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-009",
+      "question": "দুইটি জিনিস একই দামে বিক্রয় করা হল। একটি 15% লাভে এবং অপরটি 15% ক্ষতিতে বিক্রয় করা হল। সামগ্রিক লাভ বা ক্ষতি কত?",
+      "options": [
+        "2.25% ক্ষতি",
+        "2.25% লাভ",
+        "1.5% ক্ষতি",
+        "1.5% লাভ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-87-010",
+      "question": "250-এর 40% , 300-এর 30% এবং 200-এর 20% -এর যোগফল:",
+      "options": [
+        "100 + 90 + 40 = 230",
+        "230",
+        "250-এর 40% = 100",
+        "230, 400-এর প্রায় 57.5%"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-87-011",
+      "question": "5 : 7 = 15 : 21 সমানুপাতটি সত্য কিনা পরীক্ষা করো?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "মাঝে মাঝে",
+        "বলা যায় না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-87-012",
+      "question": "20, 25 এবং 30-এর লসাগু কত?",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "300"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-013",
+      "question": "রম্বসের ক্ষেত্রফল নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "a²",
+        "(d₁ × d₂)/2",
+        "½ × ভূমি × উচ্চতা",
+        "4a"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-87-014",
+      "question": "A ও B একসাথে একটি কাজ 8 দিনে শেষ করতে পারে। B একা ওই কাজ 12 দিনে শেষ করলে A একা কত দিনে করবে?",
+      "options": [
+        "20 দিন",
+        "22 দিন",
+        "24 দিন",
+        "26 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-015",
+      "question": "64, 96, 128-এর লসাগু কত?",
+      "options": [
+        "128",
+        "256",
+        "384",
+        "512"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-016",
+      "question": "সকাল 8 টায় A ও B পরস্পর থেকে 600 কিমি দূরে থেকে পরস্পরের দিকে 40 km/h ও 60 km/h গতিতে রওনা দিলে তাদের মিলন কখন হবে?",
+      "options": [
+        "আপেক্ষিক গতি = 100 km/h",
+        "সময় = 600/100 = 6 ঘন্টা",
+        "মিলন হবে দুপুর 2 টায়",
+        "সন্ধ্যা 6 টায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-87-017",
+      "question": "একটি ঘনকের বাহু a হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "আয়তন = a³",
+        "সমগ্রতলের ক্ষেত্রফল = 6a²",
+        "কর্ণ = a√3",
+        "একটি তলের কর্ণ = a√2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-87-018",
+      "question": "3 সেমি ব্যাসার্ধ ও 4 সেমি উচ্চতাবিশিষ্ট শঙ্কুর তির্যক উচ্চতা কত?",
+      "options": [
+        "3 সেমি",
+        "4 সেমি",
+        "5 সেমি",
+        "6 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-019",
+      "question": "নিচের সারণি: ৬টি ব্যাচের ছাত্র সংখ্যা: B1: 42, B2: 38, B3: 45, B4: 40, B5: 39, B6: 44 B3 ও B6 এর মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "86",
+        "87",
+        "88",
+        "89"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-87-020",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 3 ঘন্টায় ভরাতে পারে। আরেকটি পাইপ 5 ঘন্টায় খালি করতে পারে। দুটি পাইপ একসাথে খোলা থাকলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "6.5 ঘন্টা",
+        "7 ঘন্টা",
+        "7.5 ঘন্টা",
+        "7.5 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-021",
+      "question": "একজন দোকানদার 20% লাভে একটি জিনিস বিক্রয় করে এবং 1000 গ্রামের জায়গায় 800 গ্রাম দেয়। তার মোট লাভ% কত?",
+      "options": [
+        "50%",
+        "CP = 100, 20% লাভে SP = 120, কিন্তু দেয় 800 গ্রাম → 800 গ্রামের CP = 80, লাভ = 40, লাভ% = 40/80 × 100 = 50%",
+        "40%",
+        "60%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-87-022",
+      "question": "22, 24, 26, 28, 30, 32 এর গড় কত?",
+      "options": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-87-023",
+      "question": "একটি দ্রব্য 10% লাভে বিক্রয় করলে লাভ হয় 100 টাকা। দ্রব্যটির ক্রয়মূল্য কত?",
+      "options": [
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা",
+        "1200 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-024",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 6 ও 8 ঘন্টায় ভরা যায়। চৌবাচ্চাটি 1/3 ভর্তি থাকলে দুটি পাইপ একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "2 ঘন্টা",
+        "2.5 ঘন্টা",
+        "2.67 ঘন্টা",
+        "3 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-87-025",
+      "question": "A একটি কাজ 8 দিনে করে, B 12 দিনে করে, C 16 দিনে করে। তারা একসাথে কাজ করে মোট মজুরি পায় 650 টাকা। C-এর মজুরি কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-87-026",
+      "question": "10000 টাকার 2 বছরের সরল সুদ ও 15000 টাকার 1 বছরের সরল সুদ সমান। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-87-027",
+      "question": "কোনো দ্রব্যের দাম 20% বেড়ে গেলে খরচ অপরিবর্তিত রাখতে কত শতাংশ কম কিনতে হবে? সঠিক সূত্র/উত্তর:",
+      "options": [
+        "16⅔%",
+        "20%",
+        "(20/120)×100%",
+        "25%"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-87-028",
+      "question": "500 টাকার 2 বছরের সুদ 80 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-029",
+      "question": "একটি মানচিত্রে 2 সেমি = 10 কিমি। স্কেল কত এবং মানচিত্রে 7 সেমি = কত কিমি?",
+      "options": [
+        "স্কেল 1 : 500000",
+        "7 সেমি = 35 কিমি",
+        "স্কেল 1 : 100000",
+        "7 সেমি = 70 কিমি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-87-030",
+      "question": "একজন ব্যক্তি 5টি ক্রমাগত দিনে 10, 15, 20, 25, 30 কিমি হাঁটলেন। প্রতিদিন গড় হাঁটা কত?",
+      "options": [
+        "18 কিমি",
+        "19 কিমি",
+        "20 কিমি",
+        "21 কিমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "easy"
+    }
+  ]
+}

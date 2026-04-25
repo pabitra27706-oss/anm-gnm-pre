@@ -1,0 +1,538 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 100,
+  "questions": [
+    {
+      "id": "am-100-001",
+      "question": "0.125-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "1/8",
+        "2/16",
+        "3/24",
+        "4/32"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-100-002",
+      "question": "y = 3 হলে, 2y² - 5-এর মান কত?",
+      "options": [
+        "13",
+        "4",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-100-003",
+      "question": "11, 22, 33, 44-এর লসাগু কত?",
+      "options": [
+        "44",
+        "66",
+        "88",
+        "132"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-004",
+      "question": "4, 8, 12, 16, 20, 24, 28 এর গড়:",
+      "options": [
+        "16",
+        "112/7 = 16",
+        "15",
+        "17"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-100-005",
+      "question": "4% হারে 4 বছরের সুদ 640 টাকা। আসল কত?",
+      "options": [
+        "3500 টাকা",
+        "3700 টাকা",
+        "4000 টাকা",
+        "4300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-006",
+      "question": "একটি চৌবাচ্চা 3 টি পাইপ দিয়ে যথাক্রমে 8, 10 ও 12 ঘন্টায় ভরা যায়। নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 40/9 ঘন্টায় ভরবে",
+        "B ও C একসাথে 60/11 ঘন্টায় ভরবে",
+        "A ও C একসাথে 24/5 ঘন্টায় ভরবে",
+        "তিনটি একসাথে 120/37 ঘন্টায় ভরবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-100-007",
+      "question": "90 মিনিট = কত ঘন্টা?",
+      "options": [
+        "1.5",
+        "1.6",
+        "1.8",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-100-008",
+      "question": "বার্ষিক 5% হারে 10000 টাকার 2 বছরের CI ও 3 বছরের SI-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "0 টাকা",
+        "100 টাকা",
+        "200 টাকা",
+        "300 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-009",
+      "question": "একটি শঙ্কুর ব্যাসার্ধ 3 সেমি ও উচ্চতা 4 সেমি। তির্যক উচ্চতা, আয়তন ও বক্রতলের ক্ষেত্রফল কত? (π = 3.14)",
+      "options": [
+        "তির্যক উচ্চতা = 5 সেমি",
+        "আয়তন = ⅓ × 3.14 × 9 × 4 = 37.68 ঘনসেমি",
+        "বক্রতলের ক্ষেত্রফল = 3.14 × 3 × 5 = 47.1 বর্গসেমি",
+        "তির্যক উচ্চতা = 5 সেমি, আয়তন = 37.68, বক্রতলের ক্ষেত্রফল = 47.1"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-100-010",
+      "question": "শ্রমিক সংখ্যা স্থির থাকলে কাজ ও সময়ের মধ্যে সম্পর্ক কী?",
+      "options": [
+        "কাজ ∝ সময়",
+        "কাজ ∝ 1/সময়",
+        "কাজ × সময় = ধ্রুবক",
+        "কোন সম্পর্ক নেই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-100-011",
+      "question": "20% ও 30% ক্রমিক ছাড় দেওয়া হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "net ছাড় = 44%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 560 টাকা",
+        "net ছাড় = 50%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-012",
+      "question": "একটি দ্রব্য 12% ক্ষতিতে বিক্রয় করলে ক্ষতি হয় 60 টাকা। দ্রব্যটির CP ও SP কত?",
+      "options": [
+        "CP = 500 টাকা",
+        "SP = 440 টাকা",
+        "CP = 450 টাকা",
+        "SP = 400 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-013",
+      "question": "(3,5) বিন্দু সম্পর্কে সঠিক তথ্য কোনটি?",
+      "options": [
+        "প্রথম চতুর্থাংশে অবস্থিত",
+        "x > 0, y > 0",
+        "x-অক্ষ থেকে 5 একক দূরে",
+        "y-অক্ষ থেকে 3 একক দূরে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-100-014",
+      "question": "একটি বৃত্তের ব্যাসার্ধ 15% বৃদ্ধি করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষেত্রফল (1.15)² = 1.3225 → 32.25% বৃদ্ধি",
+        "পরিধি 15% বৃদ্ধি",
+        "ক্ষেত্রফল 15% বৃদ্ধি",
+        "পরিধি 32.25% বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-100-015",
+      "question": "3a²b³ × 2ab² = ?",
+      "options": [
+        "6a³b⁵",
+        "6a²b⁶",
+        "5a³b⁵",
+        "5a²b⁶"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-016",
+      "question": "5% হারে 2 বছরের সরল সুদ 200 টাকা হলে, আসল কত?",
+      "options": [
+        "1500 টাকা",
+        "1800 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-017",
+      "question": "1 - 0.25 - 0.25 = ?",
+      "options": [
+        "0.5",
+        "0.75",
+        "0.25",
+        "0.35"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-100-018",
+      "question": "100টি জিনিসের ক্রয়মূল্য z টাকা এবং 80টি জিনিসের বিক্রয়মূল্য z টাকা হলে লাভ/ক্ষতি কত?",
+      "options": [
+        "20% লাভ",
+        "25% লাভ",
+        "20% ক্ষতি",
+        "25% ক্ষতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-019",
+      "question": "15% ও 25% ক্রমিক ছাড় দেওয়া হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "net ছাড় = 36.25%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 637.5 টাকা",
+        "net ছাড় = 40%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 600 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-100-020",
+      "question": "সারণি: ৫টি শহরের তাপমাত্রা: A:30, B:32, C:35, D:28, E:33। সঠিক:",
+      "options": [
+        "C তে সর্বোচ্চ 35°",
+        "D তে সর্বনিম্ন 28°",
+        "গড় 31.6°",
+        "B ও E এর পার্থক্য 1°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-100-021",
+      "question": "A একটি কাজ 20 দিনে করে, B 30 দিনে করে। তারা একসাথে কাজ শুরু করে 5 দিন পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "12.5 দিন",
+        "13.5 দিন",
+        "14.5 দিন",
+        "15.5 দিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-100-022",
+      "question": "একজন দোকানদার 1 কেজির জায়গায় 750 গ্রাম দেয়। তার প্রকৃত লাভের হার কত?",
+      "options": [
+        "25%",
+        "30%",
+        "33.33%",
+        "35%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-023",
+      "question": "A ও B-এর দক্ষতার অনুপাত 3:2। তারা একসাথে একটি কাজ 12 দিনে শেষ করে। A একা কাজটি কত দিনে করবে?",
+      "options": [
+        "16 দিন",
+        "18 দিন",
+        "20 দিন",
+        "22 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-100-024",
+      "question": "কোনো পরিবারের বাজেটে খাবারের জন্য 40% রাখা হয়। যদি মাসিক আয় 15000 টাকা হয়, তবে খাবারের জন্য কত টাকা বরাদ্দ?",
+      "options": [
+        "5000 টাকা",
+        "5500 টাকা",
+        "6000 টাকা",
+        "6500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-100-025",
+      "question": "কোন কোন সংখ্যা 2 দ্বারা বিভাজ্য?",
+      "options": [
+        "124",
+        "125",
+        "126",
+        "127"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-100-026",
+      "question": "নিচের কোন অবস্থাগুলিতে ক্ষতি হয়?",
+      "options": [
+        "CP > SP",
+        "CP = SP + ক্ষতি",
+        "SP > CP",
+        "SP = CP - ক্ষতি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-100-027",
+      "question": "গতি, দূরত্ব ও সময়ের সম্পর্কে সঠিক সূত্রগুলি:",
+      "options": [
+        "দূরত্ব = গতি × সময়",
+        "গতি = দূরত্ব / সময়",
+        "সময় = দূরত্ব / গতি",
+        "গতি = সময় / দূরত্ব"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-100-028",
+      "question": "120টি আম, 144টি কমলা এবং 96টি আপেল কয়েকটি বাক্সে সমানভাবে সাজাতে হবে। সবচেয়ে বেশি কতগুলি বাক্স লাগবে?",
+      "options": [
+        "12",
+        "16",
+        "24",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-100-029",
+      "question": "14 সেমি ব্যাসবিশিষ্ট বৃত্তের পরিধি কত? (π = 22/7)",
+      "options": [
+        "22 সেমি",
+        "44 সেমি",
+        "66 সেমি",
+        "88 সেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-100-030",
+      "question": "A, B ও C-এর কাজের সময়ের অনুপাত 3:4:5। তারা একসাথে 4 দিন কাজ করার পর B চলে গেলে বাকি কাজ A ও C 5 দিনে শেষ করে। A একা সম্পূর্ণ কাজ কত দিনে করবে?",
+      "options": [
+        "15 দিন",
+        "18 দিন",
+        "20 দিন",
+        "22 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

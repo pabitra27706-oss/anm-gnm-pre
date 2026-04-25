@@ -1,0 +1,519 @@
+{
+  "subject": "reasoning-general-knowledge",
+  "set": 17,
+  "questions": [
+    {
+      "id": "rg-17-001",
+      "question": "বিবৃতি: (I) কোনো জীবন মৃত্যু নয়। (II) সব সত্তা জীবন হতে পারে না। নিচের কোনটি সঠিক?",
+      "options": [
+        "কোনো সত্তা মৃত্যু নয়",
+        "কিছু সত্তা মৃত্যু নয়",
+        "সব সত্তা জীবন",
+        "কিছু সত্তা জীবন নয়"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "rg-17-002",
+      "question": "একটি ভাষায় \"PEN\" কে \"QFO\" এবং \"PAPER\" কে \"QBQFS\" লেখা হয়। \"INK\" কে কী লেখা হবে?",
+      "options": [
+        "JOL",
+        "JOM",
+        "JML",
+        "KNL"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-003",
+      "question": "বিবৃতি: (I) কিছু A হলো B। (II) কিছু B হলো C। সিদ্ধান্ত: I. কিছু A হলো C। II. সমস্ত A হতে পারে C।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-17-004",
+      "question": "একটি ক্লাসে রামের র্যাঙ্ক সামনে থেকে 5ম এবং পিছন থেকে 7ম। ক্লাসে মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-005",
+      "question": "যদি P # Q মানে P, Q-এর স্ত্রী হয়, এবং R $ S মানে R, S-এর পিতা হয়, তাহলে A # B $ C সম্পর্কে A ও C-এর সম্পর্ক কী?",
+      "options": [
+        "A, C-এর মা",
+        "A, C-এর ঠাকুমা",
+        "A, C-এর বোন",
+        "A, C-এর কাকিমা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-006",
+      "question": "\"মাছ, পাখি, স্তন্যপায়ী\" - সঠিক ভেন চিত্র কোনটি?",
+      "options": [
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap",
+        "তিনটি পৃথক বৃত্ত",
+        "একটি আরেকটির ভেতরে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-007",
+      "question": "DOCTOR : STETHOSCOPE : : ? : ?",
+      "options": [
+        "PAINTER : BRUSH",
+        "TEACHER : CHALK",
+        "TAILOR : SCISSOR",
+        "DRIVER : CAR"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-17-008",
+      "question": "1, 8, 27, 64, 125, ? - এই সিরিজের ক্ষেত্রে কোন কোন তথ্য সত্য?",
+      "options": [
+        "এটি ঘন সিরিজ",
+        "পরবর্তী পদ 216",
+        "পরবর্তী পদ 343",
+        "6³ = 216"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-17-009",
+      "question": "2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-010",
+      "question": "নীচের শব্দগুলোর মধ্যে বেমানান শব্দটি কোনটি?",
+      "options": [
+        "থার্মোমিটার",
+        "ব্যারোমিটার",
+        "স্টেথোস্কোপ",
+        "গিটার"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-011",
+      "question": "A, AB, ABC, ABCD, ABCDE, ?",
+      "options": [
+        "ABCDEF",
+        "ABCD",
+        "ABC",
+        "AB"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-012",
+      "question": "কোন গাছটি ফলের ভিত্তিতে অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "আম গাছ",
+        "কাঁঠাল গাছ",
+        "লিচু গাছ",
+        "বট গাছ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-013",
+      "question": "CUBE : SQUARE :: SPHERE : ?",
+      "options": [
+        "CIRCLE",
+        "ROUND",
+        "BALL",
+        "POINT"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-014",
+      "question": "নিচের কোন সংখ্যা জোড়াটি সঠিক অনুপাত নির্দেশ করে?",
+      "options": [
+        "2 : 8 :: 3 : 27",
+        "4 : 16 :: 6 : 36",
+        "5 : 25 :: 7 : 49",
+        "8 : 64 :: 9 : 72"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-17-015",
+      "question": "A, C, E, G, ?",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-016",
+      "question": "Z, W, T, Q, ?",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-017",
+      "question": "সকাল 8 টা থেকে 12 টা পর্যন্ত OPD তে আসা 150 জন রোগীর মধ্যে 80 জনের জ্বর, 60 জনের সর্দি, 30 জনের উভয়ই। কতজনের শুধু জ্বর ছিল?",
+      "options": [
+        "50",
+        "60",
+        "30",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-018",
+      "question": "কোনো ভেন চিত্রে দুটি বৃত্তের overlap অংশটি কোন বিষয় নির্দেশ করে?",
+      "options": [
+        "যে উপাদান শুধু প্রথমটিতে আছে",
+        "যে উপাদান শুধু দ্বিতীয়টিতে আছে",
+        "যে উপাদান উভয় শ্রেণিতেই আছে",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-019",
+      "question": "বিবৃতি: (I) কিছু বই উপন্যাস। (II) কিছু উপন্যাস বেস্টসেলার। সিদ্ধান্ত: I. কিছু বই বেস্টসেলার। II. কিছু বেস্টসেলার বই।",
+      "options": [
+        "শুধু সিদ্ধান্ত I সঠিক",
+        "শুধু সিদ্ধান্ত II সঠিক",
+        "উভয় সিদ্ধান্ত সঠিক",
+        "কোনো সিদ্ধান্ত সঠিক নয়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "12-syllogism",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-020",
+      "question": "4, 16, 36, 64, 100, ? - নিচের কোনটি সঠিক?",
+      "options": [
+        "এটি জোড় সংখ্যার বর্গ",
+        "2², 4², 6², 8², 10², 12²",
+        "পরবর্তী পদ 121",
+        "পরবর্তী পদ 144"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "08-number-series",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-17-021",
+      "question": "যদি \"SUCCESS\" কে \"TVDDDTT\" লেখা হয়, \"FAILURE\" কে কী লেখা হবে?",
+      "options": [
+        "GBJMVSF",
+        "GBJMVSF",
+        "GBIMVSE",
+        "GBJMVTG"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-17-022",
+      "question": "নীচের কোন প্রাণীগুলো তৃণভোজী? (একাধিক উত্তর)",
+      "options": [
+        "গরু",
+        "বাঘ",
+        "হরিণ",
+        "ছাগল"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "rg-17-023",
+      "question": "পাঁচজন একটি বৃত্তে বসে। A, B ও C এর মাঝে বসে না। D, A এর বাঁয়ে। E, B এর ডানে। C এর ডানদিকে কে?",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-17-024",
+      "question": "নীচের কোন শব্দটি অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "ক্রিকেট",
+        "ফুটবল",
+        "হকি",
+        "কাবাডি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-025",
+      "question": "একটি জরিপে দেখা গেল 40 জন ফুটবল খেলে, 30 জন ক্রিকেট খেলে, 15 জন হকি খেলে, 5 জন তিনটিই খেলে, 10 জন ফুটবল ও ক্রিকেট, 8 জন ক্রিকেট ও হকি, 6 জন ফুটবল ও হকি খেলে। শুধু ফুটবল কতজন খেলে?",
+      "options": [
+        "29",
+        "35",
+        "19",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-17-026",
+      "question": "A1, B2, C3, D4, ?",
+      "options": [
+        "E5",
+        "E4",
+        "F5",
+        "E6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "07-letter-series",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "rg-17-027",
+      "question": "FISH : WATER : : ? : ?",
+      "options": [
+        "BIRD : AIR",
+        "LION : DEN",
+        "HUMAN : HOUSE",
+        "TREE : SOIL"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "01-analogies",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "rg-17-028",
+      "question": "বিবৃতি: \"অনুগ্রহ করে লাইনে দাঁড়ান।\" অনুমান: (Multiple Correct) I. বর্তমানে লাইন নেই। II. লাইনে দাঁড়ালে শৃঙ্খলা বজায় থাকে। III. সবাই লাইনে দাঁড়াতে রাজি। IV. লাইনে না দাঁড়ালে সমস্যা হবে।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "rg-17-029",
+      "question": "দীপকের মায়ের পুত্রের বোনের স্বামী দীপকের কী হয়?",
+      "options": [
+        "ভাই",
+        "বড় ভাই",
+        "জামাই",
+        "বাবা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "rg-17-030",
+      "question": "নীচের কোন মৌলটি ধাতু নয়?",
+      "options": [
+        "সোডিয়াম",
+        "পটাসিয়াম",
+        "ক্যালসিয়াম",
+        "অক্সিজেন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "reasoning-general-knowledge",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

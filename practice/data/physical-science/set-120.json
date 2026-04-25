@@ -1,0 +1,516 @@
+{
+  "subject": "general-science",
+  "set": 120,
+  "questions": [
+    {
+      "id": "ge-120-001",
+      "question": "পরম শূন্য তাপমাত্রায় গ্যাসের অণুগুলির বেগ কত?",
+      "options": [
+        "অসীম",
+        "শূন্য",
+        "আলোর বেগের সমান",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-002",
+      "question": "100 m উচ্চতার একটি জলপ্রপাতের শীর্ষে 1 kg জলের বিভব শক্তি কত? (g=10 m/s²)",
+      "options": [
+        "1000 J",
+        "10 J",
+        "100 J",
+        "1 J"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-003",
+      "question": "নিম্নের কোনটি গ্রিনহাউজ গ্যাস নয়?",
+      "options": [
+        "CO₂",
+        "O₂",
+        "CH₄",
+        "N₂O"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-004",
+      "question": "5g বাষ্প 100°C থেকে 0°C জলে পরিণত হলে মোট কত তাপ ত্যাগ করে? (L_v=540 cal/g)",
+      "options": [
+        "3200 cal",
+        "2700 cal",
+        "3500 cal",
+        "3000 cal"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-120-005",
+      "question": "ভিনেগারের প্রধান উপাদান কী?",
+      "options": [
+        "মিথানল",
+        "ইথানল",
+        "অ্যাসিটিক অ্যাসিড",
+        "ফর্মালডিহাইড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-006",
+      "question": "তড়িৎ পরিবহনে সক্ষম জলীয় দ্রবণকে কী বলে?",
+      "options": [
+        "অপরিবাহী",
+        "তড়িৎ বিশ্লেষ্য",
+        "অর্ধপরিবাহী",
+        "তড়িৎদ্বার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-007",
+      "question": "মায়োপিয়া ত্রুটির জন্য নিচের কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "দ্বিফোকাস",
+        "বেলনাকার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-008",
+      "question": "লোহার ওপর মরিচা ধরা রোধ করতে ব্যবহৃত ধাতু হলো—",
+      "options": [
+        "দস্তা (Zn)",
+        "টিন (Sn)",
+        "ক্রোমিয়াম (Cr)",
+        "সোডিয়াম (Na)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-120-009",
+      "question": "হাইপোথার্মিয়া আক্রান্ত রোগীর ক্ষেত্রে করণীয় কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ধীরে ধীরে শরীর গরম করা",
+        "গরম জল (উষ্ণ) সেবন করানো",
+        "শরীর ঠান্ডা করা",
+        "কম্বল জড়িয়ে দেওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-120-010",
+      "question": "নিচের কোনগুলি ভৌত পরিবর্তন?",
+      "options": [
+        "বরফ গলে জল হওয়া",
+        "কর্পূরের ঊর্ধ্বপাতন",
+        "লোহার চুম্বকত্ব লাভ",
+        "ম্যাগনেসিয়াম ফিতা পোড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-120-011",
+      "question": "লোহার ওপর দস্তার প্রলেপ দেওয়াকে কী বলা হয়?",
+      "options": [
+        "জারণ",
+        "গ্যালভানাইজেশন (Galvanization)",
+        "তড়িৎ বিশ্লেষণ",
+        "দহন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-012",
+      "question": "বরফ গলে জলে পরিণত হওয়ার সময় যে সুপ্ততাপ শোষিত হয় তাকে কী বলে?",
+      "options": [
+        "বাষ্পীভবনের সুপ্ততাপ",
+        "গলনের সুপ্ততাপ",
+        "ঊর্ধ্বপাতনের সুপ্ততাপ",
+        "বিকিরণের সুপ্ততাপ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-013",
+      "question": "একটি আদর্শ যন্ত্রের কর্মদক্ষতা কত?",
+      "options": [
+        "0%",
+        "50%",
+        "100%",
+        "75%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-014",
+      "question": "-40°C তাপমাত্রা ফারেনহাইট স্কেলে কত?",
+      "options": [
+        "-40°F",
+        "-72°F",
+        "-32°F",
+        "0°F"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-120-015",
+      "question": "বল (Force)-এর SI একক কোনটি?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-016",
+      "question": "মেন্ডেলিফের সারণির প্রথম পর্যায়ে কয়টি মৌল ছিল?",
+      "options": [
+        "2",
+        "8",
+        "18",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-017",
+      "question": "পটাশিয়াম পারম্যাঙ্গানেট (KMnO4) একটি—",
+      "options": [
+        "শক্তিশালী জারক",
+        "শক্তিশালী বিজারক",
+        "অনুঘটক",
+        "জৈব যৌগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-018",
+      "question": "Na ও Cl পরমাণুর মধ্যে NaCl গঠনের সময়— (বহু-সঠিক)",
+      "options": [
+        "Na ইলেকট্রন ত্যাগ করে",
+        "Cl ইলেকট্রন গ্রহণ করে",
+        "Na⁺ ও Cl⁻ আয়ন তৈরি হয়",
+        "সমযোজী বন্ধন গঠিত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-120-019",
+      "question": "সেলসিয়াস ও ফারেনহাইট স্কেলে সমান তাপমাত্রা কত? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "-40°",
+        "40°",
+        "-40°F",
+        "-40°C"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-120-020",
+      "question": "একটি দ্রবণের pH = 0। দ্রবণটি কীরূপ?",
+      "options": [
+        "প্রশম",
+        "তীব্র আম্লিক",
+        "তীব্র ক্ষারীয়",
+        "অসম্ভব মান"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-021",
+      "question": "অভ্যন্তরীণ পূর্ণ প্রতিফলনের জন্য নিচের কোন শর্তটি প্রয়োজন? (i) আলো ঘন মাধ্যম থেকে বিরল মাধ্যমে যাবে (ii) আপতন কোণ > সঙ্কট কোণ",
+      "options": [
+        "শুধু (i)",
+        "শুধু (ii)",
+        "(i) ও (ii) উভয়ই",
+        "কোনটিই নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-022",
+      "question": "নিচের কোনটি জৈব যৌগের সাধারণ বৈশিষ্ট্য? (i) সাধারণত দাহ্য (ii) পানিতে কম দ্রবণীয় (iii) জৈব দ্রাবকে দ্রবণীয় (iv) আয়নে বিভক্ত হয়",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-023",
+      "question": "ব্যাপন (Diffusion) পদার্থের কোন অবস্থায় দ্রুততম হয়?",
+      "options": [
+        "কঠিন",
+        "তরল",
+        "গ্যাস",
+        "সব ক্ষেত্রে সমান"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-024",
+      "question": "লোহার ওপর দস্তার প্রলেপ দেওয়ার আগে কোন অ্যাসিড দিয়ে লোহাকে পরিষ্কার করা হয়?",
+      "options": [
+        "HNO3",
+        "H2SO4",
+        "HCl",
+        "B এবং C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-120-025",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 30 cm। লেন্সের ক্ষমতা কত?",
+      "options": [
+        "3.33 D",
+        "33.3 D",
+        "0.33 D",
+        "0.033 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-120-026",
+      "question": "[NUMERICAL] বিশুদ্ধ জলের আয়নীয় গুণফলের (Kw) মান 25°C এ কত?",
+      "options": [
+        "10^-7",
+        "10^-14",
+        "10^-1",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-120-027",
+      "question": "তাপীয় প্রসারণের একটি ব্যবহারিক প্রয়োগ হলো-",
+      "options": [
+        "রেললাইনে ফাঁক রাখা",
+        "ট্রেন চলাচল",
+        "পাখা ঘোরানো",
+        "আলো জ্বালানো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-028",
+      "question": "হাইপারমেট্রোপিয়ার বৈশিষ্ট্যগুলি নির্বাচন করো: (i) কাছের বস্তু পরিষ্কার দেখা যায় না (ii) চোখের গোলক ছোট হয় (iii) চোখের লেন্স খুব উত্তল হয় (iv) উত্তল লেন্স দিয়ে সংশোধন করা হয়",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-120-029",
+      "question": "অম্ল বৃষ্টির ফলে মাটির pH কমে গেলে—",
+      "options": [
+        "গাছপালার বৃদ্ধি ব্যাহত হয়",
+        "দরকারী অণুজীব মারা যায়",
+        "মাটির বিষাক্ত ধাতু (যেমন Al) দ্রবীভূত হয়",
+        "মাটির উর্বরতা বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-120-030",
+      "question": "একটি লোহার দণ্ডের একপ্রান্ত আগুনে রাখলে অন্য প্রান্ত গরম হয়। এটি কী?",
+      "options": [
+        "পরিচলন",
+        "বিকিরণ",
+        "পরিবহন",
+        "প্রসারণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    }
+  ]
+}

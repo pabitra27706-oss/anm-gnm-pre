@@ -1,0 +1,526 @@
+{
+  "subject": "general-science",
+  "set": 55,
+  "questions": [
+    {
+      "id": "ge-55-001",
+      "question": "একটি ক্যালোরিমিটারের গঠনে কী থাকে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তামার পাত্র",
+        "থার্মোমিটার",
+        "স্টিরার",
+        "উত্তল লেন্স"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-55-002",
+      "question": "নিচের কোনগুলি প্রশম অক্সাইড?",
+      "options": [
+        "H2O",
+        "NO",
+        "CO",
+        "SO2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-55-003",
+      "question": "তড়িৎ ক্ষমতা P, বিভব V ও তড়িৎ I এর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "P = I/V",
+        "P = V/I",
+        "P = VI",
+        "P = V²I"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-55-004",
+      "question": "[NUMERICAL] 0.1 M NaOH দ্রবণের pH কত?",
+      "options": [
+        "1",
+        "13",
+        "14",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-005",
+      "question": "কোনো পরিমাপের উল্লেখযোগ্য অঙ্ক (Significant figures) বলতে বোঝায়— (বহু-সঠিক)",
+      "options": [
+        "নির্ভরযোগ্য অঙ্ক + শেষ অনিশ্চিত অঙ্ক",
+        "পরিমাপের সূক্ষ্মতা",
+        "শূন্য সবসময় অঙ্ক হয় না",
+        "দশমিকের আগের সব অঙ্ক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-55-006",
+      "question": "P = V²/R সূত্রানুসারে V স্থির রেখে R দ্বিগুণ করলে P কিরূপ হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "চারগুণ",
+        "এক চতুর্থাংশ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-007",
+      "question": "3A ও 5A তড়িৎপ্রবাহের জন্য R রোধের তারের ক্ষমতা কত হবে অনুপাত?",
+      "options": [
+        "3:5",
+        "9:25",
+        "5:3",
+        "25:9"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-55-008",
+      "question": "100g অ্যালুমিনিয়ামের তাপমাত্রা 20°C বাড়াতে 1800 J তাপের প্রয়োজন। অ্যালুমিনিয়ামের আপেক্ষিক তাপ কত?",
+      "options": [
+        "600 J/(kg·K)",
+        "700 J/(kg·K)",
+        "800 J/(kg·K)",
+        "900 J/(kg·K)"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-55-009",
+      "question": "কোন কোন বিষয় বাষ্পীভবনের হারকে প্রভাবিত করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পাত্রের রং",
+        "আর্দ্রতা",
+        "বায়ুপ্রবাহ",
+        "পৃষ্ঠের ক্ষেত্রফল"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-55-010",
+      "question": "কোনো রাশির মাত্রা সূত্রে নিচের কোন প্রতীক ব্যবহার হয়? (বহু-সঠিক)",
+      "options": [
+        "[M]",
+        "[L]",
+        "[T]",
+        "[Ω]"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-55-011",
+      "question": "কোন উৎস দুটি অনবায়নযোগ্য? (বহু-সঠিক)",
+      "options": [
+        "কয়লা",
+        "বায়ু",
+        "সূর্যরশ্মি",
+        "পেট্রোলিয়াম"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-55-012",
+      "question": "ফটোকেমিক্যাল স্মগের উপাদান কী কী? (একাধিক উত্তর)",
+      "options": [
+        "ওজোন (O₃)",
+        "PAN (Peroxyacetyl nitrate)",
+        "SO₂",
+        "NO₂"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-55-013",
+      "question": "লেবুর রসের সংস্পর্শে মিথাইল অরেঞ্জের বর্ণ কেমন হয়?",
+      "options": [
+        "হলুদ",
+        "লালচে",
+        "নীল",
+        "কমলা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-014",
+      "question": "অ্যানোড ও ক্যাথোড সম্পর্কে সঠিক উক্তি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "অ্যানোড ধনাত্মক তড়িৎদ্বার",
+        "অ্যানোডে জারণ ঘটে",
+        "ক্যাথোড ঋণাত্মক তড়িৎদ্বার",
+        "ক্যাথোডে বিজারণ ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-55-015",
+      "question": "তড়িৎ প্রবাহ দ্বিগুণ করলে উৎপন্ন তাপ কতগুণ হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "চারগুণ",
+        "আটগুণ",
+        "একই থাকবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-016",
+      "question": "দর্পণ সূত্রে ব্যবহৃত রাশিগুলি কী কী?",
+      "options": [
+        "u, v, f",
+        "u, v, R",
+        "f, R, D",
+        "u, f, P"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-55-017",
+      "question": "নিচের কোন লেন্সের জোড়গুলি পরস্পরের সাথে মিলিয়ে রাখলে একটি উত্তল লেন্স তৈরি হয়? (i) 2D ও 3D (ii) -2D ও -3D (iii) 5D ও -2D (iv) -1D ও -4D",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (ii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-55-018",
+      "question": "প্রতিফলনের প্রথম সূত্রানুসারে কোনটি সঠিক?",
+      "options": [
+        "আপতন কোণ > প্রতিফলন কোণ",
+        "আপতন কোণ < প্রতিফলন কোণ",
+        "আপতন কোণ = প্রতিফলন কোণ",
+        "আপতন কোণ + প্রতিফলন কোণ = 90°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-55-019",
+      "question": "অভিসারী আলোক রশ্মিগুচ্ছ কী ধরনের?",
+      "options": [
+        "সমান্তরাল রশ্মি",
+        "অপসারী রশ্মি",
+        "কেন্দ্রগামী রশ্মি",
+        "বিচ্ছুরিত রশ্মি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-020",
+      "question": "পর্যায় সারণির দ্বিতীয় পর্যায়ে সর্ববামের মৌল কোনটি?",
+      "options": [
+        "Li",
+        "Be",
+        "B",
+        "He"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-021",
+      "question": "5 kg = কত গ্রাম?",
+      "options": [
+        "50 g",
+        "500 g",
+        "5000 g",
+        "5 ग्राम"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-55-022",
+      "question": "প্রথাগত তড়িৎ প্রবাহের দিক কী?",
+      "options": [
+        "ঋণাত্মক থেকে ধনাত্মক",
+        "ধনাত্মক থেকে ঋণাত্মক",
+        "উভয় দিকে",
+        "কোনো নির্দিষ্ট দিক নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-023",
+      "question": "রোধের SI একক ওহম, এর প্রতীক কোন গ্রিক অক্ষর?",
+      "options": [
+        "α",
+        "β",
+        "γ",
+        "Ω"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-55-024",
+      "question": "একটি জৈব বিজারক পদার্থের উদাহরণ হলো—",
+      "options": [
+        "অক্সালিক অ্যাসিড",
+        "নাইট্রিক অ্যাসিড",
+        "পটাশিয়াম পারম্যাঙ্গানেট",
+        "ক্লোরিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-55-025",
+      "question": "শুকনো বরফ কী?",
+      "options": [
+        "কঠিন কার্বন ডাই অক্সাইড",
+        "কঠিন জল",
+        "তরল নাইট্রোজেন",
+        "কঠিন অক্সিজেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-026",
+      "question": "কোনো ধাতব তারের তাপমাত্রা 20°C থেকে 100°C করা হলে দৈর্ঘ্যের কীরূপ পরিবর্তন হবে?",
+      "options": [
+        "হ্রাস পাবে",
+        "বৃদ্ধি পাবে",
+        "অপরিবর্তিত থাকবে",
+        "দ্বিগুণ হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-55-027",
+      "question": "চোখের সমঞ্জসন ক্ষমতা কী?",
+      "options": [
+        "ফোকাস দূরত্ব পরিবর্তনের ক্ষমতা",
+        "আলোর তীব্রতা নিয়ন্ত্রণের ক্ষমতা",
+        "রঙ শনাক্ত করার ক্ষমতা",
+        "প্রতিবিম্বের আকার পরিবর্তন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-028",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 20 cm। লেন্স থেকে 60 cm দূরে বস্তু রাখলে প্রতিবিম্বের দূরত্ব কত?",
+      "options": [
+        "15 cm",
+        "30 cm",
+        "45 cm",
+        "60 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-029",
+      "question": "নিকট বিন্দু কাকে বলে?",
+      "options": [
+        "চোখের সবচেয়ে কাছে যে বিন্দু পরিষ্কার দেখা যায়",
+        "চোখের সবচেয়ে দূরে যে বিন্দু পরিষ্কার দেখা যায়",
+        "চোখের লেন্সের ফোকাস বিন্দু",
+        "রেটিনার কেন্দ্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-55-030",
+      "question": "আলোর প্রতিফলনের ক্ষেত্রে নিচের কোন বিবৃতিগুলো সঠিক? (i) আপতিত রশ্মি, প্রতিফলিত রশ্মি ও অভিলম্ব এক সমতলে থাকে (ii) আপতন কোণ = প্রতিফলন কোণ (iii) আপতন কোণ > প্রতিফলন কোণ (iv) প্রতিফলিত রশ্মি অভিলম্বের বিপরীত দিকে চলে",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

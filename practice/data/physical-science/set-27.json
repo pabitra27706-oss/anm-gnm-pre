@@ -1,0 +1,509 @@
+{
+  "subject": "general-science",
+  "set": 27,
+  "questions": [
+    {
+      "id": "ge-27-001",
+      "question": "অম্লরাজ বা Aqua regia তৈরিতে HCl ও HNO₃ এর আয়তনগত অনুপাত কত থাকে?",
+      "options": [
+        "1:3",
+        "3:1",
+        "2:1",
+        "1:1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-002",
+      "question": "সোডিয়াম সম্পর্কে কোন তথ্য সঠিক? (বহু-সঠিক)",
+      "options": [
+        "পারমাণবিক সংখ্যা 11",
+        "ইলেকট্রন বিন্যাস 2,8,1",
+        "এটি ক্ষারীয় মৃত্তিকা ধাতু",
+        "এটি নরম ধাতু"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-27-003",
+      "question": "দুধ থেকে মাখন পৃথক করার পদ্ধতিতে কোনটি কাজ করে?",
+      "options": [
+        "Filtration",
+        "Centrifugation",
+        "Evaporation",
+        "Sublimation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-004",
+      "question": "কলোয়েডাল গোল্ড (Colloidal Gold) ব্যবহৃত হয়—",
+      "options": [
+        "রক্তস্বল্পতা দূর করতে",
+        "মাংসপেশিতে ইনজেকশন হিসেবে",
+        "রোগ প্রতিরোধ ক্ষমতা বাড়াতে",
+        "চোখের চিকিৎসায়"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-27-005",
+      "question": "কেলভিন স্কেলে জলের ত্রৈধবিন্দুর তাপমাত্রা কত?",
+      "options": [
+        "0.01 K",
+        "273.16 K",
+        "273.15 K",
+        "373.15 K"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-27-006",
+      "question": "ওজোন স্তরের ক্ষয়ের প্রধান কারণ কী?",
+      "options": [
+        "CO₂",
+        "ক্লোরোফ্লুরোকার্বন (CFC)",
+        "SO₂",
+        "CH₄"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-007",
+      "question": "নিচের কোনটি মায়োপিয়া (নিকটদৃষ্টি) ত্রুটির বৈশিষ্ট্য?",
+      "options": [
+        "দূরের বস্তু অস্পষ্ট দেখা",
+        "কাছের বস্তু অস্পষ্ট দেখা",
+        "সব বস্তু অস্পষ্ট দেখা",
+        "রঙিন বলয় দেখা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-008",
+      "question": "220 V ও 250 V লেবেলের বাল্ব — 110 V-এ জ্বালালে কী হবে?",
+      "options": [
+        "ফেটে যাবে",
+        "খুব উজ্জ্বলভাবে জ্বলবে",
+        "অনুজ্জ্বলভাবে জ্বলবে",
+        "অন্য কিছু হবে না"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-009",
+      "question": "বাতাসের গতিবেগ বৃদ্ধি পেলে বাষ্পীভবনের হার কী পরিবর্তন হবে?",
+      "options": [
+        "হ্রাস পাবে",
+        "বৃদ্ধি পাবে",
+        "অপরিবর্তিত থাকবে",
+        "শূন্য হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-010",
+      "question": "তাপ ইঞ্জিনের কর্মদক্ষতা নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "Input/Output × 100%",
+        "Output/Input × 100%",
+        "(Input - Output) × 100%",
+        "(Output + Input) × 100%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-011",
+      "question": "K কক্ষ n=1; সর্বোচ্চ ইলেকট্রন সংখ্যা কত?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-012",
+      "question": "একটি 220 V বাতি 110 V এ জ্বালালে— (বহু-সঠিক)",
+      "options": [
+        "অপেক্ষাকৃত কম উজ্জ্বল হবে",
+        "ক্ষমতা কমে যাবে",
+        "রোধ অপরিবর্তিত থাকবে (তাপমাত্রা উপেক্ষা করলে)",
+        "তড়িৎ প্রবাহ বেড়ে যাবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-27-013",
+      "question": "নিচের কোন জোড়াগুলি সঠিকভাবে মেলে? (i) ফল পাকানো - ইথিন (ii) ঢালাই - ইথাইন (iii) সংরক্ষক - ফর্মালিন (iv) নেইল পলিশ রিমুভার - অ্যাসিটোন",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-014",
+      "question": "0°C তাপমাত্রার 1 kg বরফকে সম্পূর্ণ গলাতে কত কিলো জুল তাপ প্রয়োজন? (L_f = 336 kJ/kg)",
+      "options": [
+        "80 kJ",
+        "168 kJ",
+        "336 kJ",
+        "420 kJ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-015",
+      "question": "বিশ্ব উষ্ণায়নের জন্য কোন গ্যাস সবচেয়ে বেশি দায়ী?",
+      "options": [
+        "CO₂",
+        "O₂",
+        "N₂",
+        "H₂"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-016",
+      "question": "[NUMERICAL] শব্দের একটি উৎস 1 সেকেন্ডে 500টি তরঙ্গ উৎপন্ন করলে তার কম্পাঙ্ক কত?",
+      "options": [
+        "500 Hz",
+        "0.002 Hz",
+        "1 Hz",
+        "1000 Hz"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-017",
+      "question": "পর্যায় সারণিতে ওপর থেকে নীচে নামলে ক্ষার ধাতুর সক্রিয়তা কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "কমে",
+        "বাড়ে",
+        "অপরিবর্তিত থাকে",
+        "প্রথমে বাড়ে পরে কমে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-018",
+      "question": "একটি বৈদ্যুতিক যন্ত্রের ক্ষমতা কত বোঝার জন্য গায়ে 2 kW লেখা থাকে। যন্ত্রটি 220 V-এ কাজ করলে কত তড়িৎ নেবে?",
+      "options": [
+        "110 A",
+        "0.11 A",
+        "9.09 A",
+        "440 A"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-27-019",
+      "question": "বরফের উপর চাপ দিলে-",
+      "options": [
+        "বরফ গলে যেতে পারে কারণ চাপে গলনাঙ্ক কমে",
+        "বরফ জমে যায়",
+        "বরফ ভাঙে",
+        "বরফের তাপমাত্রা বাড়ে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-27-020",
+      "question": "শব্দের বেগ (Speed of sound) নিচের কোনটির ওপর নির্ভর করে না?",
+      "options": [
+        "বায়ুর চাপ (উষ্ণতা স্থির থাকলে)",
+        "শব্দের প্রাবল্য",
+        "শব্দের কম্পাঙ্ক",
+        "বায়ুর উষ্ণতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-27-021",
+      "question": "কোনটি তাপমাত্রা পরিবর্তনের সাথে ঘটে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "রৈখিক প্রসারণ",
+        "অবস্থার পরিবর্তন (স্টেট চেঞ্জ)",
+        "পরিবহন বৃদ্ধি",
+        "আপেক্ষিক তাপের হ্রাস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-27-022",
+      "question": "সাইকেল চালানোর সময় পা দিয়ে প্যাডেলে বল প্রয়োগ করলে কোন শক্তি উৎপন্ন হয়?",
+      "options": [
+        "বিভব শক্তি",
+        "রাসায়নিক শক্তি",
+        "যান্ত্রিক শক্তি",
+        "তাপশক্তি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-023",
+      "question": "কপার সালফেট বা তুঁতের সংকেতে কত অণু কেলাস জল থাকে?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-024",
+      "question": "কুয়াশার মধ্য দিয়ে গাড়ির হেডলাইটের আলো দেখা যাওয়া কোন ঘটনার উদাহরণ?",
+      "options": [
+        "Reflection",
+        "Tyndall effect",
+        "Refraction",
+        "Dispersion"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-025",
+      "question": "নিষ্ক্রিয় গ্যাসসমূহ রাসায়নিকভাবে নিষ্ক্রিয়, কারণ এদের—",
+      "options": [
+        "যোজ্যতা ইলেকট্রন সংখ্যা 8",
+        "পারমাণবিক সংখ্যা বেশি",
+        "প্রোটন সংখ্যা বেশি",
+        "ভর সংখ্যা বেশি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-026",
+      "question": "ডাইইথাইল ইথার-এর সংকেত নিচের কোনটি?",
+      "options": [
+        "CH₃OCH₃",
+        "C₂H₅OC₂H₅",
+        "CH₃COOC₂H₅",
+        "C₂H₅OH"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-027",
+      "question": "প্রতিসরণের পর আলোর কী পরিবর্তন হয় না?",
+      "options": [
+        "বেগ",
+        "কম্পাঙ্ক",
+        "তরঙ্গদৈর্ঘ্য",
+        "দিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-028",
+      "question": "সক্রিয়তা শ্রেণিতে (Reactivity series) কোন ধাতুটির সক্রিয়তা সবচেয়ে বেশি?",
+      "options": [
+        "Na",
+        "K",
+        "Au",
+        "Fe"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-27-029",
+      "question": "কোনো পরিমাপের নির্ভুলতা বলতে কী বোঝায়?",
+      "options": [
+        "পরিমাপের মান প্রকৃত মানের কাছাকাছি হওয়া",
+        "একই রকম অনেকগুলো মান পাওয়া",
+        "দৈর্ঘ্যের পরিমাপ",
+        "ক্ষুদ্রতম পরিমাপযোগ্য মান"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-27-030",
+      "question": "আলোকীয় ঘন মাধ্যমের প্রতিসরাঙ্ক 1-এর চেয়ে কীরূপ হয়?",
+      "options": [
+        "কম",
+        "বেশি",
+        "সমান",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

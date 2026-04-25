@@ -1,0 +1,511 @@
+{
+  "subject": "general-science",
+  "set": 8,
+  "questions": [
+    {
+      "id": "ge-08-001",
+      "question": "নিচের কোন শিল্পে জৈব যৌগ ব্যবহার করা হয়? (i) প্লাস্টিক শিল্প (ii) ওষুধ শিল্প (iii) প্রসাধনী শিল্প (iv) কৃষি শিল্প",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-002",
+      "question": "1 কিউবিক মিটার (m³) = কত লিটার?",
+      "options": [
+        "10 L",
+        "100 L",
+        "1000 L",
+        "10,000 L"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-08-003",
+      "question": "নীচের কোনটি প্রাকৃতিক বায়ু দূষক?",
+      "options": [
+        "কারখানার ধোঁয়া",
+        "গাড়ির ধোঁয়া",
+        "আগ্নেয়গিরির ছাই",
+        "সিগারেটের ধোঁয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-004",
+      "question": "সূর্য থেকে পৃথিবীতে তাপ কোন পদ্ধতিতে আসে?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "বাষ্পীভবন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-005",
+      "question": "অবতল লেন্সের বৈশিষ্ট্যগুলি নির্বাচন করো: (i) অপসারী লেন্স (ii) অভিসারী লেন্স (iii) সর্বদা অবাস্তব প্রতিবিম্ব গঠন করে (iv) সর্বদা বাস্তব প্রতিবিম্ব গঠন করে",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (iv)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-006",
+      "question": "কোনো দর্পণের বিবর্ধন -1 হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "বস্তু অসীম দূরে",
+        "বস্তু C বিন্দুতে",
+        "বস্তু F বিন্দুতে",
+        "বস্তু P বিন্দুতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-08-007",
+      "question": "মেন্ডেলিফের সারণির ত্রুটিগুলো কী কী? (বহু-সঠিক)",
+      "options": [
+        "আইসোটোপের স্থান নির্ণীত হয়নি",
+        "হাইড্রোজেনের স্থান নির্দিষ্ট ছিল না",
+        "ধাতু-অধাতুর বিভাজন স্পষ্ট ছিল না",
+        "কিছু মৌলের ক্রম উল্টো ছিল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-08-008",
+      "question": "তামার তারের তুলনায় অ্যালুমিনিয়ামের তারের সুবিধা কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "হালকা",
+        "সস্তা",
+        "একই রোধের জন্য ব্যাস বড় প্রয়োজন",
+        "বেশি পরিবাহী"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-08-009",
+      "question": "হাইড্রোজেন পারঅক্সাইড (H₂O₂) বিয়োজিত হয়ে কী কী উৎপন্ন করে?",
+      "options": [
+        "H₂ + O₂",
+        "H₂O + O₂",
+        "H₂ + H₂O",
+        "কেবল অক্সিজেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-010",
+      "question": "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র অনুসারে, জমা হওয়া পদার্থের পরিমাণ নির্ভর করে কীসের ওপর?",
+      "options": [
+        "কেবল সময়",
+        "কেবল তড়িৎ",
+        "তড়িৎ পরিমাণ ও পদার্থের তড়িৎ রাসায়নিক তুল্যাঙ্ক",
+        "ভোল্টেজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-011",
+      "question": "লেবুর রসের pH প্রায় কত হয়?",
+      "options": [
+        "2.2",
+        "7.0",
+        "10.5",
+        "14.0"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-012",
+      "question": "15 তলা বাড়ির ছাদে পাম্প করে জল তোলার জন্য কোন শক্তির প্রয়োজন?",
+      "options": [
+        "তাপ",
+        "বিদ্যুৎ",
+        "চুম্বক",
+        "পারমাণবিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-013",
+      "question": "সাধারণ কথোপকথনের শব্দের তীব্রতা কত ডেসিবল?",
+      "options": [
+        "10-20 dB",
+        "40-60 dB",
+        "90-100 dB",
+        "120 dB"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-014",
+      "question": "নৌকার দাঁড় দিয়ে জল পেছনে ঠেলে নৌকা এগিয়ে নিয়ে যাওয়া কোন সূত্রের প্রয়োগ?",
+      "options": [
+        "বয়েল সূত্র",
+        "নিউটনের প্রথম গতিসূত্র",
+        "নিউটনের তৃতীয় গতিসূত্র",
+        "মহাকর্ষ সূত্র"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-015",
+      "question": "নিচের কোন রাশিটি স্কেলার নয়?",
+      "options": [
+        "কার্য",
+        "শক্তি",
+        "ক্ষমতা",
+        "ত্বরণ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-016",
+      "question": "নিম্নের কোনটি গ্রিনহাউজ গ্যাস নয়?",
+      "options": [
+        "CO₂",
+        "O₂",
+        "CH₄",
+        "N₂O"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-017",
+      "question": "চিহ্ন প্রথা অনুসারে, বস্তুর দূরত্ব (u) সাধারণত কীরূপ হয়?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "শূন্য",
+        "অনির্দিষ্ট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-018",
+      "question": "কাঁচ থেকে বায়ুতে আলো যাওয়ার সময় আলোক রশ্মি কিরূপ হয়?",
+      "options": [
+        "অভিলম্বের দিকে বেঁকে যায়",
+        "অভিলম্ব থেকে দূরে সরে যায়",
+        "কোনো পরিবর্তন হয় না",
+        "প্রতিফলিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-019",
+      "question": "ভিনিগারের ব্যবহার হলো—",
+      "options": [
+        "আচার সংরক্ষণে",
+        "চাউমিন বা রান্নায় স্বাদ বৃদ্ধিতে",
+        "ল্যাবরেটরিতে বিকারক হিসেবে",
+        "ব্যাটারির তরল হিসেবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-08-020",
+      "question": "সেলসিয়াস ও ফারেনহাইট স্কেলে সমান তাপমাত্রা কত? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "-40°",
+        "40°",
+        "-40°F",
+        "-40°C"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-08-021",
+      "question": "ভরবেগ ও বলের মধ্যে সম্পর্ক হলো—",
+      "options": [
+        "বল = ভরবেগের পরিবর্তনের হার",
+        "বল ও সময় গুণ করলে ভরবেগের পরিবর্তন পাওয়া যায়",
+        "বল শূন্য হলে ভরবেগ স্থির থাকে",
+        "উভয়ের একক একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-08-022",
+      "question": "একটি ব্যাটারির তড়িচ্চালক বল (EMF) 1.5 V বলতে বোঝায়—",
+      "options": [
+        "ব্যাটারির রোধ 1.5 Ω",
+        "ব্যাটারি 1.5 A দিতে পারে",
+        "ব্যাটারি প্রতি কুলম্ব আধানের ওপর 1.5 J কাজ করে",
+        "ব্যাটারির ক্ষমতা 1.5 W"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-023",
+      "question": "50°C উষ্ণতার 3kg জল ও 10°C উষ্ণতার 2kg জল মেশালে চূড়ান্ত তাপমাত্রা কত হবে?",
+      "options": [
+        "30°C",
+        "32°C",
+        "34°C",
+        "36°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-08-024",
+      "question": "শুকনো বরফ কী?",
+      "options": [
+        "কঠিন কার্বন ডাই অক্সাইড",
+        "কঠিন জল",
+        "তরল নাইট্রোজেন",
+        "কঠিন অক্সিজেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-025",
+      "question": "আলোর প্রতিফলনের সঠিক সূত্রগুলি নির্বাচন করো: (i) আপতন কোণ = প্রতিফলন কোণ (ii) আপতিত রশ্মি, প্রতিফলিত রশ্মি ও অভিলম্ব একই সমতলে থাকে (iii) আপতন কোণ > প্রতিফলন কোণ (iv) প্রতিফলিত রশ্মি অভিলম্বের সাথে 90° কোণ তৈরি করে",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-026",
+      "question": "হিমঘর বা কোল্ড স্টোরেজে কোন গ্যাস শীতলীকরণের জন্য ব্যবহৃত হয়?",
+      "options": [
+        "Nitrogen",
+        "Ammonia (NH3)",
+        "Carbon dioxide",
+        "Helium"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-027",
+      "question": "অপারেশন থিয়েটারের তাপমাত্রা কীরূপ হওয়া উচিত?",
+      "options": [
+        "20-24°C ও আর্দ্রতা নিয়ন্ত্রিত",
+        "30-35°C",
+        "10-15°C",
+        "40-45°C"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-08-028",
+      "question": "শক্তির SI একক কী?",
+      "options": [
+        "ওয়াট",
+        "জুল",
+        "নিউটন",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-029",
+      "question": "আপেল বা লেবুর রসে উপস্থিত অ্যাসিডগুলি মূলত কোন শ্রেণির অন্তর্গত?",
+      "options": [
+        "খনিজ অ্যাসিড",
+        "জৈব অ্যাসিড",
+        "অজৈব অ্যাসিড",
+        "শক্তিশালী অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-08-030",
+      "question": "সমতল দর্পণে প্রতিবিম্বের আকার কেমন হয়?",
+      "options": [
+        "বস্তুর চেয়ে বড়",
+        "বস্তুর চেয়ে ছোট",
+        "বস্তুর সমান",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

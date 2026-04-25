@@ -1,0 +1,534 @@
+{
+  "subject": "general-science",
+  "set": 83,
+  "questions": [
+    {
+      "id": "ge-83-001",
+      "question": "বৈদ্যুতিক ক্ষমতা নির্ণয়ের সূত্রগুলো চিহ্নিত করো: (বহু-সঠিক)",
+      "options": [
+        "P = VI",
+        "P = I²R",
+        "P = V²/R",
+        "P = V/I"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-83-002",
+      "question": "নিচের কোনগুলির স্ফুটনাঙ্ক বায়ুমণ্ডলীয় চাপের উপর নির্ভর করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "জল",
+        "অ্যালকোহল",
+        "পারদ",
+        "বরফ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-83-003",
+      "question": "কার্য = ?",
+      "options": [
+        "বল × সময়",
+        "বল / সরণ",
+        "বল × সরণ",
+        "বল + সরণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-004",
+      "question": "ইলেকট্রন আসক্তি নিয়ে কোন উক্তিগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "Cl এর ইলেকট্রন আসক্তি F এর চেয়ে বেশি",
+        "নিষ্ক্রিয় গ্যাসের ইলেকট্রন আসক্তি ধনাত্মক",
+        "হ্যালোজেনের ইলেকট্রন আসক্তি বেশি",
+        "ধাতুর ইলেকট্রন আসক্তি কম"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-83-005",
+      "question": "দুটি বস্তুর মধ্যে তাপের স্থানান্তর না ঘটার অর্থ কী?",
+      "options": [
+        "উভয় বস্তুর তাপমাত্রা সমান",
+        "উভয় বস্তুর ভর সমান",
+        "উভয় বস্তুর আয়তন সমান",
+        "উভয় বস্তুই কঠিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-006",
+      "question": "রাদারফোর্ডের আলফা কণা বিচ্ছুরণ পরীক্ষায় কোন ধাতব পাত ব্যবহৃত হয়েছিল?",
+      "options": [
+        "অ্যালুমিনিয়াম",
+        "রূপা",
+        "সোনা",
+        "তামা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-83-007",
+      "question": "নিচের কোনগুলো সঠিকভাবে মেলে? (i) লেন্স সূত্র - 1/f = 1/v - 1/u (ii) দর্পণ সূত্র - 1/f = 1/v + 1/u (iii) ক্ষমতা - P = 1/f (iv) বিবর্ধন - m = h'/h = -v/u (দর্পণ)",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-008",
+      "question": "কোন আয়ন দুটির ইলেকট্রন বিন্যাস নিয়নের মতো? (বহু-সঠিক)",
+      "options": [
+        "O²⁻",
+        "Na⁺",
+        "Mg²⁺",
+        "Cl⁻"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-83-009",
+      "question": "নিচের কোনগুলি উদগ্রাহী (Deliquescent) পদার্থ?",
+      "options": [
+        "NaOH",
+        "CaCl2",
+        "সাধারণ লবণ (বিশুদ্ধ)",
+        "KOH"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-83-010",
+      "question": "একটি তারের ব্যাস অর্ধেক করলে রোধ কত গুণ হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "চারগুণ",
+        "ষোলগুণ",
+        "অর্ধেক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-83-011",
+      "question": "বৈদ্যুতিক ট্রেন কোন ধরনের তড়িৎ ব্যবহার করে?",
+      "options": [
+        "AC",
+        "DC",
+        "উভয়ই",
+        "স্থির তড়িৎ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-83-012",
+      "question": "কোনো গোলীয় দর্পণের ফোকাস দূরত্ব 20 cm। দর্পণটি কোন ধরনের হতে পারে?",
+      "options": [
+        "অবতল",
+        "উত্তল",
+        "উভয়ই হতে পারে",
+        "কোনোোটিই নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-013",
+      "question": "একই গ্রুপে ওপর থেকে নীচে নামলে আয়নীকরণ শক্তি কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "অপরিবর্তিত থাকে",
+        "অনিয়মিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-014",
+      "question": "200g ভরের একটি ধাতব বস্তুকে 100°C উত্তপ্ত করে 500g জলে (15°C) ছাড়া হলো। মিশ্রণের চূড়ান্ত তাপমাত্রা 20°C হলে ধাতুটির আপেক্ষিক তাপ কত? (জলের আপেক্ষিক তাপ = 1 cal/g°C)",
+      "options": [
+        "0.10",
+        "0.15",
+        "0.20",
+        "0.16"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-83-015",
+      "question": "15°C থেকে 35°C হওয়ার জন্য 200g জলে কত তাপ দিতে হবে?",
+      "options": [
+        "4.2 kJ",
+        "8.4 kJ",
+        "12.6 kJ",
+        "16.8 kJ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-016",
+      "question": "কোনো তারের দৈর্ঘ্য L এবং ব্যাসার্ধ r; রোধ R ∝ (বহু-সঠিক)",
+      "options": [
+        "L",
+        "1/r²",
+        "1/A (A = πr²)",
+        "r²"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-83-017",
+      "question": "একটি অবতল দর্পণে 10 cm দূরে বস্তু রাখায় প্রতিবিম্ব দর্পণের পিছনে 30 cm দূরে তৈরি হয়। ফোকাস দূরত্ব কত?",
+      "options": [
+        "7.5 cm",
+        "15 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-83-018",
+      "question": "কোন পদ্ধতিতে তাপ সঞ্চালনে সময় সবচেয়ে কম লাগে?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ (আলোর গতিতে হয়)",
+        "সব সময় সমান"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-019",
+      "question": "পাখার গতি নিয়ন্ত্রণে যে সুইচ ব্যবহার হয়— (বহু-সঠিক)",
+      "options": [
+        "এটি একটি রোধক",
+        "রোধের ভিন্ন ট্যাপিং থাকে",
+        "এটি একটি ফিউজ",
+        "তড়িৎ পরিবর্তন করে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-83-020",
+      "question": "R Ω রোধের একটি তারকে টেনে দ্বিগুণ করলে (আয়তন অপরিবর্তিত)— (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্য দ্বিগুণ",
+        "প্রস্থচ্ছেদ অর্ধেক",
+        "রোধ চারগুণ",
+        "রোধ দ্বিগুণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-83-021",
+      "question": "কোনো তারের মধ্য দিয়ে 500 mA তড়িৎ 2 মিনিট চললে প্রবাহিত আধানের পরিমাণ কত?",
+      "options": [
+        "1 C",
+        "60 C",
+        "1000 C",
+        "250 C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-022",
+      "question": "10 cm ফোকাস দূরত্ববিশিষ্ট উত্তল লেন্সের সামনে 5 cm দূরে বস্তু রাখলে বিবর্ধন কত?",
+      "options": [
+        "+2",
+        "-2",
+        "+0.5",
+        "-0.5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-83-023",
+      "question": "রোধাঙ্কের SI একক কী?",
+      "options": [
+        "ওহম",
+        "ওহম·মি",
+        "ওহম/মি",
+        "সিমেন্স"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-024",
+      "question": "কোন পদার্থের মধ্য দিয়ে তড়িৎ প্রবাহিত হতে পারে না?",
+      "options": [
+        "তামা",
+        "লবণ জল",
+        "কাঠ",
+        "গ্রাফাইট"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-83-025",
+      "question": "অ্যালকেনের সাধারণ সংকেত নিচের কোনটি?",
+      "options": [
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₄"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-83-026",
+      "question": "বন্দুক থেকে গুলি ছুড়লে বন্দুকের পেছনের দিকে সরে আসার বেগকে কী বলে?",
+      "options": [
+        "পশ্চাৎ বেগ (Recoil velocity)",
+        "প্রাথমিক বেগ",
+        "গড় বেগ",
+        "অন্তিম বেগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-83-027",
+      "question": "তাপমাত্রা নির্ণয়ে বিকিরণ থার্মোমিটার ব্যবহার করা হয়- (একাধিক উত্তর সঠিক)",
+      "options": [
+        "কানের পর্দার তাপমাত্রায় (টিমপ্যানিক)",
+        "গলিত ধাতুর তাপমাত্রায়",
+        "বরফের তাপমাত্রায়",
+        "মুখের তাপমাত্রায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-83-028",
+      "question": "ঘর্ষণজনিত কার্যের ফলে— (বহু-সঠিক)",
+      "options": [
+        "তাপ উৎপন্ন হয়",
+        "যান্ত্রিক শক্তি তাপে রূপান্তরিত হয়",
+        "শক্তি ধ্বংস হয়",
+        "গতিশক্তি হ্রাস পায়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-83-029",
+      "question": "আলোর প্রতিফলন কাকে বলে?",
+      "options": [
+        "কোনো পৃষ্ঠে আলো বেঁকে যাওয়া",
+        "এক মাধ্যম থেকে অন্য মাধ্যমে আলো যাওয়া",
+        "কোনো পৃষ্ঠে আলো এসে পড়ে ফিরে যাওয়া",
+        "আলোর বেগ পরিবর্তন হওয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-83-030",
+      "question": "[NUMERICAL] 5 mole অক্সিজেনের (O2) আণবিক ভর কত?",
+      "options": [
+        "32 g",
+        "160 g",
+        "80 g",
+        "16 g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    }
+  ]
+}

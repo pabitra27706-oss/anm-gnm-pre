@@ -1,0 +1,562 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 53,
+  "questions": [
+    {
+      "id": "am-53-001",
+      "question": "একটি দ্রব্য 20% লাভে বিক্রয় করলে বিক্রয়মূল্য 720 টাকা হলে ক্রয়মূল্য কত?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-002",
+      "question": "একটি জিনিসের চিহ্নিত মূল্য 1000 টাকা। প্রথমে 10% ছাড়, তারপর 20% ছাড় দেওয়া হলে চূড়ান্ত বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "710 টাকা",
+        "720 টাকা",
+        "730 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-003",
+      "question": "মজুরি বণ্টন সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "মজুরি কাজের পরিমাণ অনুপাতে",
+        "কাজের পরিমাণ সময় ও দক্ষতার গুণফল",
+        "একই সময় কাজ করলে দক্ষতার অনুপাতে মজুরি",
+        "একই দক্ষতায় কাজ করলে সময়ের অনুপাতে মজুরি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-004",
+      "question": "একটি সমবাহু ত্রিভুজের বাহু 4 সেমি হলে নিচের কোনটি সঠিক? (√3 = 1.732)",
+      "options": [
+        "ক্ষেত্রফল = 6.928 বর্গসেমি",
+        "উচ্চতা = 3.464 সেমি",
+        "পরিসীমা = 12 সেমি",
+        "ক্ষেত্রফল = 8 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-005",
+      "question": "4, 6, 8-এর চতুর্থ সমানুপাতী কত?",
+      "options": [
+        "3",
+        "12",
+        "6",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-006",
+      "question": "প্রথম 10টি স্বাভাবিক সংখ্যার গড়:",
+      "options": [
+        "5.5",
+        "55/10 = 5.5",
+        "5",
+        "6"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-007",
+      "question": "ভগ্নাংশের তুলনায় নিচের কোন পদ্ধতিগুলি সঠিক?",
+      "options": [
+        "হর সমান করে লব দেখি",
+        "লব সমান করলে ছোট হর বড় ভগ্নাংশ",
+        "আড় গুণন পদ্ধতি ব্যবহার করা যায়",
+        "দশমিকে রূপান্তর করে তুলনা করা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-53-008",
+      "question": "A একটি কাজ 3 দিনে করে, B একই কাজ 6 দিনে করে। A ও B একসাথে কাজ করলে কাজটি কত দিনে শেষ হবে?",
+      "options": [
+        "1 দিন",
+        "2 দিন",
+        "3 দিন",
+        "4 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-009",
+      "question": "0.5-কে শতকরায় প্রকাশ করলে?",
+      "options": [
+        "5%",
+        "50%",
+        "0.5%",
+        "500%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-53-010",
+      "question": "একটি জিনিস 25% লাভে বিক্রয় করলে লাভ 100 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "300 টাকা",
+        "350 টাকা",
+        "400 টাকা",
+        "450 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-011",
+      "question": "একজন দোকানদার 1000 টাকায় একটি দ্রব্য কিনে 1200 টাকায় বিক্রয় করল। তার লাভ কত?",
+      "options": [
+        "100 টাকা",
+        "150 টাকা",
+        "200 টাকা",
+        "250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-53-012",
+      "question": "y = mx + c সরলরেখার সমীকরণে m এবং c কী নির্দেশ করে?",
+      "options": [
+        "m = ঢাল",
+        "c = y-অক্ষচ্ছেদ",
+        "m = x-অক্ষচ্ছেদ",
+        "c = ঢাল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-013",
+      "question": "পাইপ ও চৌবাচ্চা সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "ভরার পাইপের গতি (+) এবং খালির পাইপের গতি (-) ধরা হয়",
+        "নিট গতি = ভরার পাইপের গতি - খালির পাইপের গতি",
+        "নিট গতি ধনাত্মক হলে চৌবাচ্চা ভরবে",
+        "নিট গতি ঋণাত্মক হলে চৌবাচ্চা খালি হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-014",
+      "question": "1/2-কে দশমিকে লিখলে 0.5 হয়। 1/5-কে দশমিকে লিখলে কী হয়?",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.5",
+        "0.05"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-53-015",
+      "question": "একটি বাগানের দৈর্ঘ্য 20 মি ও প্রস্থ 15 মি। বাগানের ক্ষেত্রফল কত?",
+      "options": [
+        "200 বর্গমি",
+        "250 বর্গমি",
+        "300 বর্গমি",
+        "350 বর্গমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-53-016",
+      "question": "পাই চার্টে উপাদানের কোণ 72° হলে তার শতকরা কত?",
+      "options": [
+        "20%",
+        "25%",
+        "0.2 × 100% = 20%",
+        "72/360×100 = 20%"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-017",
+      "question": "4200 টাকার 2 বছরের SI 672 টাকা। R? একই R-এ 5600 টাকার 3 বছরের SI?",
+      "options": [
+        "R = 8%",
+        "SI = 1344",
+        "R = 10%",
+        "SI = 1680"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-53-018",
+      "question": "10% লাভে বিক্রয় করলে SP=550 টাকা। দ্রব্যটির CP কত এবং 15% লাভে SP কত?",
+      "options": [
+        "CP = 500 টাকা",
+        "15% লাভে SP = 575 টাকা",
+        "CP = 550 টাকা",
+        "15% লাভে SP = 632.5 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-019",
+      "question": "নিচের কোন কোনটি পূর্ণ বর্গ সংখ্যা?",
+      "options": [
+        "400",
+        "441",
+        "484",
+        "500"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-53-020",
+      "question": "একটি চৌবাচ্চা 3 টি পাইপ দিয়ে যথাক্রমে 4, 6 ও 8 ঘন্টায় ভরা যায়। চৌবাচ্চাটি অর্ধেক ভরতি থাকলে তিনটি পাইপ একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A, B, C একসাথে ভরার হার = 1/4+1/6+1/8 = (6+4+3)/24 = 13/24",
+        "অর্ধেক ভরতে সময় = (1/2)/(13/24) = 12/13 ≈ 0.923 ঘন্টা",
+        "12/13 ঘন্টা",
+        "1 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-53-021",
+      "question": "একটি দ্রব্য 20% লাভে বিক্রয় করলে বিক্রয়মূল্য 600 টাকা। ক্রয়মূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-022",
+      "question": "250% -এর সমতুল্য:",
+      "options": [
+        "2.5",
+        "5/2",
+        "250/100",
+        "20%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-53-023",
+      "question": "16 ও 64-এর মধ্য সমানুপাতী কত?",
+      "options": [
+        "32",
+        "40",
+        "48",
+        "56"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-024",
+      "question": "8 × 10⁵ ÷ 4 × 10² = ?",
+      "options": [
+        "2 × 10³",
+        "2 × 10²",
+        "2 × 10⁷",
+        "2 × 10⁺"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-53-025",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য 6 সেমি, প্রস্থ 8 সেমি ও উচ্চতা 10 সেমি। সমগ্রতলের ক্ষেত্রফল ও আয়তন কত?",
+      "options": [
+        "সমগ্রতলের ক্ষেত্রফল = 2(48+80+60) = 2×188 = 376 বর্গসেমি",
+        "আয়তন = 480 ঘনসেমি",
+        "সমগ্রতলের ক্ষেত্রফল = 376 বর্গসেমি",
+        "আয়তন = 480 ঘনসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-026",
+      "question": "দুই অঙ্কের একটি সংখ্যার দশকের অঙ্ক এককের অঙ্কের দ্বিগুণ। অঙ্কদ্বয় স্থান বিনিময় করলে সংখ্যা 18 কমে যায়। সংখ্যাটি কত?",
+      "options": [
+        "42",
+        "63",
+        "84",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-53-027",
+      "question": "পাইথাগোরাসের উপপাদ্য বীজগণিতের সাহায্যে কীভাবে লেখা যায়?",
+      "options": [
+        "a² + b² = c²",
+        "(hypotenuse)² = (height)² + (base)²",
+        "a² = b² + c²",
+        "b² = c² - a²"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-53-028",
+      "question": "দুই চলকের সরল সমীকরণের সাধারণ রূপ কী কী?",
+      "options": [
+        "ax + by + c = 0",
+        "y = mx + c",
+        "ax² + bx + c = 0",
+        "x/a + y/b = 1"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-53-029",
+      "question": "12 এবং 18-এর গসাগু (HCF) কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-53-030",
+      "question": "একজন ব্যক্তি 2000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 2420 টাকা",
+        "চক্রবৃদ্ধি সুদ 420 টাকা",
+        "সরল সুদে পেতেন 400 টাকা",
+        "CI - SI = 20 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

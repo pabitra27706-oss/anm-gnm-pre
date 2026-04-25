@@ -1,0 +1,537 @@
+{
+  "subject": "general-science",
+  "set": 108,
+  "questions": [
+    {
+      "id": "ge-108-001",
+      "question": "[NUMERICAL] 1 লিটার দ্রবণে 0.1 মোল HCl থাকলে pH কত?",
+      "options": [
+        "1",
+        "0.1",
+        "0",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-002",
+      "question": "একটি বৈদ্যুতিক হিটারে 2 A প্রবাহ দিলে 440 W ক্ষমতা উৎপন্ন হয়। হিটারটির (বহু-সঠিক)",
+      "options": [
+        "রোধ 110 Ω",
+        "বিভব 220 V",
+        "5 A প্রবাহ দিলে ক্ষমতা 2750 W",
+        "রোধ পরিবর্তনশীল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-108-003",
+      "question": "নিচের কোনটি উত্তল দর্পণের বৈশিষ্ট্য?",
+      "options": [
+        "অভিসারী দর্পণ",
+        "অপসারী দর্পণ",
+        "সমতল দর্পণ",
+        "বাস্তব প্রতিবিম্ব তৈরি করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-004",
+      "question": "1 kWh সমান কত তা নিচের কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "3.6 × 10⁶ J",
+        "1000 Wh",
+        "1000 J/s × 3600 s",
+        "3600 kJ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-108-005",
+      "question": "বিদ্যুতের বাতির ফিলামেন্ট কী কারণে উজ্জ্বল হয়?",
+      "options": [
+        "পরিচলন",
+        "বিকিরণে তাপ ও আলো উৎপন্ন হয়",
+        "পরিবহন",
+        "শোষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-006",
+      "question": "পরম শূন্য তাপমাত্রা— (বহু-সঠিক)",
+      "options": [
+        "-273.15°C",
+        "0 K",
+        "সমস্ত আণবিক গতি থামার তাপমাত্রা",
+        "32°F"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-108-007",
+      "question": "মহাকাশচারীরা মহাকাশে একে অপরের সাথে কথা বলার জন্য কী ব্যবহার করেন?",
+      "options": [
+        "সাধারণ চিৎকার",
+        "রেডিও তরঙ্গ",
+        "জলের মাধ্যমে কথা বলা",
+        "ইশারা (শব্দ শুনতে পান না কারণ মাধ্যম নেই)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-008",
+      "question": "নিম্নের কোনগুলি অবস্থার পরিবর্তন? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "গলন",
+        "স্ফুটন",
+        "বাষ্পীভবন",
+        "পরিবহন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-108-009",
+      "question": "1 মিলি সেকেন্ড = কত সেকেন্ড?",
+      "options": [
+        "10⁻² s",
+        "10⁻³ s",
+        "10⁻⁶ s",
+        "10³ s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-010",
+      "question": "সৌর প্যানেলের সাহায্যে— (বহু-সঠিক)",
+      "options": [
+        "DC বিদ্যুৎ উৎপন্ন হয়",
+        "দূষণ হয় না",
+        "ফোটোভোল্টায়িক কোষে আলোক → বিদ্যুৎ রূপান্তর",
+        "রাতে বেশি কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-108-011",
+      "question": "ইথিনের সংকেত নিচের কোনটি?",
+      "options": [
+        "C₂H₆",
+        "C₂H₄",
+        "C₂H₂",
+        "CH₄"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-012",
+      "question": "সর্বাপেক্ষা হালকা অধাতু কোনটি?",
+      "options": [
+        "H",
+        "He",
+        "Li",
+        "C"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-013",
+      "question": "অটোক্লেভে জীবাণুমুক্তকরণে কোন নীতি ব্যবহৃত হয়?",
+      "options": [
+        "উচ্চ চাপে বাষ্পের মাধ্যমে তাপ প্রয়োগ",
+        "অতিবেগুনি রশ্মি",
+        "শুষ্ক তাপ",
+        "বিকিরণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-014",
+      "question": "NaCl দ্রবণের তড়িৎ বিশ্লেষণে উৎপন্ন পদার্থগুলো কী কী? (বহু-সঠিক)",
+      "options": [
+        "ক্যাথোডে H₂ গ্যাস",
+        "অ্যানোডে Cl₂ গ্যাস",
+        "দ্রবণে NaOH",
+        "অ্যানোডে O₂ গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-108-015",
+      "question": "গৃহস্থালির বর্তনীতে— (বহু-সঠিক)",
+      "options": [
+        "বাতিগুলো সমান্তরালে থাকে",
+        "সুইচ লাইভ তারে থাকে",
+        "লাইভ তার বাদামি রঙের হয়",
+        "আর্থিং নিরাপত্তার জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-108-016",
+      "question": "পদার্থের কঠিন অবস্থা থেকে সরাসরি বাষ্প হওয়ার উদাহরণ—",
+      "options": [
+        "কঠিন CO2",
+        "আয়োডিন",
+        "অ্যামোনিয়াম ক্লোরাইড",
+        "বরফ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-108-017",
+      "question": "জুলের তাপীয় সূত্র অনুসারে উৎপন্ন তাপ H = কত?",
+      "options": [
+        "IRt",
+        "VIt",
+        "I²Rt",
+        "সবগুলোই সমান"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-018",
+      "question": "নবায়নযোগ্য শক্তি উৎস কোনগুলো? (একাধিক উত্তর)",
+      "options": [
+        "সূর্যালোক",
+        "বায়ুপ্রবাহ",
+        "প্রাকৃতিক গ্যাস",
+        "বায়োমাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-108-019",
+      "question": "পর্যায় সারণিতে মৌলের পারমাণবিক আয়তনের পর্যায়বৃত্তিক ধর্মটি কী?",
+      "options": [
+        "চক্রাকারে পরিবর্তিত হয়",
+        "ক্রমাগত বাড়ে",
+        "ক্রমাগত কমে",
+        "অপরিবর্তিত থাকে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-020",
+      "question": "একটি গোলীয় দর্পণের বক্রতা ব্যাসার্ধ 40 cm। এর ফোকাস দূরত্ব কত?",
+      "options": [
+        "20 cm",
+        "40 cm",
+        "80 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-021",
+      "question": "মানবদেহের স্বাভাবিক তাপমাত্রা সেলসিয়াস স্কেলে কত?",
+      "options": [
+        "35°C",
+        "37°C",
+        "39°C",
+        "40°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-022",
+      "question": "নিচের কোনটি একটি সল (Sol)-এর উদাহরণ?",
+      "options": [
+        "কুয়াশা",
+        "রং (Paint)",
+        "চিজ",
+        "মাখন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-023",
+      "question": "শীতকালে সোয়েটার পরলে শরীর গরম থাকে কারণ সোয়েটার-",
+      "options": [
+        "তাপ উৎপন্ন করে",
+        "তাপের সুপরিবাহী",
+        "তাপের কুপরিবাহী হয়ে শরীরের তাপ বাইরে যেতে বাধা দেয়",
+        "তাপ শোষণ করে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-024",
+      "question": "কোন জৈব যৌগ 'গ্রিনহাউস গ্যাস' হিসেবে পরিচিত?",
+      "options": [
+        "মিথেন",
+        "ইথেন",
+        "প্রোপেন",
+        "বুটেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-025",
+      "question": "[NUMERICAL] 25°C তাপমাত্রায় 50g জলে সর্বাধিক 20g লবণ দ্রবীভূত হতে পারে। ওই তাপমাত্রায় লবণের Solubility কত?",
+      "options": [
+        "20",
+        "25",
+        "40",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-026",
+      "question": "কঠিন পদার্থের নির্দিষ্ট জ্যামিতিক আকার থাকে কারণ—",
+      "options": [
+        "অণুগুলি খুব কাছাকাছি থাকে",
+        "আকর্ষণ বল খুব বেশি",
+        "অণুগুলি স্থির থাকে",
+        "অণুগুলি কেবল কাঁপতে পারে (Vibrate)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-108-027",
+      "question": "বিশ্ব উষ্ণায়নের জন্য কোন গ্যাস সবচেয়ে বেশি দায়ী?",
+      "options": [
+        "CO₂",
+        "O₂",
+        "N₂",
+        "H₂"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-108-028",
+      "question": "শব্দের তীব্রতা (Intensity) ও প্রাবল্য (Loudness)—",
+      "options": [
+        "একই বিষয়",
+        "তীব্রতা একটি ভৌত রাশি কিন্তু প্রাবল্য একটি অনুভূতি",
+        "প্রাবল্য একটি ভৌত রাশি কিন্তু তীব্রতা অনুভূতি",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-108-029",
+      "question": "1 অ্যাংস্ট্রম (Å) = কত মিটার?",
+      "options": [
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁻¹⁰ m",
+        "10⁻¹² m"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-108-030",
+      "question": "নিচের কোনটি প্রাকৃতিক পলিমার?",
+      "options": [
+        "পলিথিন",
+        "পিভিসি",
+        "স্টার্চ",
+        "টেফলন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "subject": "general-science",
+  "set": 127,
+  "questions": [
+    {
+      "id": "ge-127-001",
+      "question": "একটি 24 V এর ব্যাটারি 2 Ω ও 4 Ω দুটি সমান্তরাল সমবায়ে যুক্ত করলে— (বহু-সঠিক)",
+      "options": [
+        "2 Ω এর ভেতর দিয়ে প্রবাহ 12 A",
+        "4 Ω এর ভেতর দিয়ে প্রবাহ 6 A",
+        "ব্যাটারি থেকে মোট প্রবাহ 18 A",
+        "মোট রোধ 1.33 Ω"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-127-002",
+      "question": "[NUMERICAL] শব্দের বেগ 340 m/s এবং কম্পাঙ্ক 1000 Hz হলে তরঙ্গদৈর্ঘ্য কত?",
+      "options": [
+        "340000 m",
+        "0.34 m",
+        "3.4 m",
+        "1 m"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-003",
+      "question": "DC মোটরে কমিউটেটরের কাজ কী?",
+      "options": [
+        "বল সরবরাহ করা",
+        "AC-কে DC-তে পরিবর্তন করা",
+        "প্রতি অর্ধ ঘূর্ণনে তড়িৎ প্রবাহের দিক পরিবর্তন করা",
+        "গতি কমানো"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-004",
+      "question": "নিচের কোন কাজে উচ্চ আপেক্ষিক তাপবিশিষ্ট পদার্থ ব্যবহৃত হয়? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "কুল্যান্ট",
+        "থার্মোমিটার",
+        "তাপ নিরোধক",
+        "ফিউজ তার"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-127-005",
+      "question": "আলোর প্রতিসরণের প্রধান কারণ কী?",
+      "options": [
+        "আলোর তরঙ্গদৈর্ঘ্যের পরিবর্তন",
+        "মাধ্যম পরিবর্তনে আলোর বেগের পরিবর্তন",
+        "মাধ্যমের রঙের পরিবর্তন",
+        "আলোক শক্তির হ্রাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-006",
+      "question": "নিচের কোন যৌগগুলি অ্যালকিনের উদাহরণ? (i) C₂H₄ (ii) C₂H₂ (iii) C₃H₆ (iv) C₄H₁₀",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (ii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-007",
+      "question": "250g জলের তাপমাত্রা 5°C বাড়াতে কত জুল তাপের প্রয়োজন? (জলের আপেক্ষিক তাপ = 4200 J/kg·K)",
+      "options": [
+        "4250 J",
+        "5250 J",
+        "6250 J",
+        "7250 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-008",
+      "question": "একটি উত্তপ্ত গ্যাসের আয়তন বেড়ে গেলে তার তাপমাত্রা কীরূপ হবে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "হ্রাস পেতে পারে (প্রসারণ মানেই ঠান্ডা হওয়া)",
+        "বাহ্যিক কাজ করলে অভ্যন্তরীণ শক্তির হ্রাসের জন্য তাপমাত্রা কমে",
+        "বাষ্পের মতো আচরণ করে",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-127-009",
+      "question": "মাখন (Butter) হলো—",
+      "options": [
+        "তরলে কঠিনের কলোয়েড",
+        "কঠিনের মধ্যে তরলের কলোয়েড",
+        "গ্যাসে তরলের কলোয়েড",
+        "তরলে গ্যাসের কলোয়েড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-127-010",
+      "question": "SO₂ মানবদেহে কোন রোগের কারণ হতে পারে?",
+      "options": [
+        "ডায়াবেটিস",
+        "শ্বাসকষ্ট, ব্রঙ্কাইটিস",
+        "উচ্চ রক্তচাপ",
+        "হৃদরোগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-011",
+      "question": "নিচের কোন কোন গ্রীনহাউস গ্যাস? (একাধিক উত্তর)",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "O₂",
+        "N₂O"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-127-012",
+      "question": "এসিড ও ক্ষারের আধুনিক ধারণা (Brønsted-Lowry) অনুযায়ী—",
+      "options": [
+        "অ্যাসিড হলো প্রোটন দাতা",
+        "ক্ষার হলো প্রোটন গ্রহীতা",
+        "জল উভয় হিসেবে কাজ করতে পারে",
+        "এটি কেবল বায়ুতে কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-127-013",
+      "question": "কোনো প্রতিবিম্বের দূরত্ব +60 cm। প্রতিবিম্বটি সম্পর্কে কী বলা যায়?",
+      "options": [
+        "অবাস্তব ও সমশীর্ষ",
+        "বাস্তব ও অবশীর্ষ",
+        "অবাস্তব ও অবশীর্ষ",
+        "বাস্তব ও সমশীর্ষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-014",
+      "question": "একটি অণুবীক্ষণ যন্ত্রে কোন লেন্সগুলি ব্যবহার করা হয়?",
+      "options": [
+        "দুটি উত্তল লেন্স",
+        "দুটি অবতল লেন্স",
+        "একটি উত্তল ও একটি অবতল লেন্স",
+        "একটি সমতল ও একটি উত্তল লেন্স"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-015",
+      "question": "থার্মোমিটারে পারদের বৈশিষ্ট্য কোনগুলি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সুষম প্রসারণ",
+        "অস্বচ্ছ",
+        "স্ফুটনাঙ্ক উচ্চ",
+        "কাচে ভিজিয়ে রাখে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-127-016",
+      "question": "ঘর্ষণ বল (Frictional force) সর্বদা গতির—",
+      "options": [
+        "অভিমুখে কাজ করে",
+        "লম্বভাবে কাজ করে",
+        "বিপরীত অভিমুখে কাজ করে",
+        "কোনোটিই নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-127-017",
+      "question": "[NUMERICAL] 2 mole কার্বন পোড়ালে (C + O2 → CO2) কত লিটার CO2 (STP) উৎপন্ন হবে?",
+      "options": [
+        "22.4 L",
+        "44.8 L",
+        "11.2 L",
+        "5.6 L"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-018",
+      "question": "সোডিয়াম বাইকার্বনেট কোন গ্যাসের উৎস হিসেবে অগ্নিনির্বাপক যন্ত্রে ব্যবহৃত হয়?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-127-019",
+      "question": "নিচের কোনটি শক্তিশালী ইলেকট্রোলাইট (Strong Electrolyte) হিসেবে কাজ করে?",
+      "options": [
+        "চিনি",
+        "গ্লুকোজ",
+        "HCl",
+        "ইথানল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-127-020",
+      "question": "H₂O অণু সম্পর্কে সঠিক উক্তিগুলো কী? (বহু-সঠিক)",
+      "options": [
+        "এটি সমযোজী যৌগ",
+        "O এর যোজ্যতা 2",
+        "H ও O এর মধ্যে সমযোজী বন্ধন আছে",
+        "এটি আয়নিক যৌগ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-127-021",
+      "question": "নিচের কোন বিক্রিয়াগুলি জৈব রসায়নে গুরুত্বপূর্ণ? (i) প্রতিস্থাপন (ii) সংযোজন (iii) অপসারণ (iv) জারণ-বিজারণ",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-022",
+      "question": "পরিমাপ কাকে বলে?",
+      "options": [
+        "একটি নির্দিষ্ট ভৌত রাশির সঙ্গে একজাতীয় আদর্শ রাশির তুলনা",
+        "কোনো বস্তুর ওজন নির্ণয়",
+        "কেবল দৈর্ঘ্য নির্ণয়",
+        "তাপমাত্রা নির্ণয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-127-023",
+      "question": "অ্যামোনিয়া গ্যাসকে শুষ্ক করতে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "গাঢ় H₂SO₄",
+        "P₂O₅",
+        "পোড়াচুন (CaO)",
+        "CaCl₂"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-127-024",
+      "question": "তারল্যের তড়িৎ বিশ্লেষণের সময় তড়িৎদ্বার দুটির মাঝে কোন কণা চলাচল করে?",
+      "options": [
+        "কেবল ইলেকট্রন",
+        "ধনাত্মক ও ঋণাত্মক আয়ন",
+        "কেবল প্রোটন",
+        "অণু"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-025",
+      "question": "একটি তামার তারের দৈর্ঘ্য বৃদ্ধির জন্য তাপমাত্রা বাড়ানো হলো। এটি কোন প্রসারণ?",
+      "options": [
+        "আয়তন প্রসারণ",
+        "রৈখিক প্রসারণ",
+        "পৃষ্ঠটান",
+        "পরিচলন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-026",
+      "question": "অ্যাভোগাড্রো সংখ্যাকে কী অক্ষর দিয়ে প্রকাশ করা হয়?",
+      "options": [
+        "R",
+        "N",
+        "K",
+        "A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-127-027",
+      "question": "আলোর প্রতিসরণে কোন সূত্রটি প্রযোজ্য?",
+      "options": [
+        "স্নেলের সূত্র",
+        "নিউটনের সূত্র",
+        "ফ্যারাডের সূত্র",
+        "ওহমের সূত্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-127-028",
+      "question": "নিচের কোনটি সঠিক নয়?",
+      "options": [
+        "উত্তল দর্পণের ফোকাস দূরত্ব ঋণাত্মক",
+        "অবতল দর্পণের ফোকাস দূরত্ব ধনাত্মক",
+        "উত্তল লেন্সের ফোকাস দূরত্ব ধনাত্মক",
+        "অবতল লেন্সের ফোকাস দূরত্ব ঋণাত্মক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-127-029",
+      "question": "সন্ধিগত মৌলসমূহ কোন গ্রুপে অবস্থিত?",
+      "options": [
+        "1-2",
+        "3-12",
+        "13-18",
+        "1-8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-127-030",
+      "question": "ওহম-মিটার নিম্নের কোনটির একক? (বহু-সঠিক)",
+      "options": [
+        "রোধ",
+        "আপেক্ষিক রোধ",
+        "রোধাঙ্ক",
+        "পরিবাহকত্ব"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard"
+    }
+  ]
+}

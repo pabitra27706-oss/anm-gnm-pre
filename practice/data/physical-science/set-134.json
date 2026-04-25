@@ -1,0 +1,528 @@
+{
+  "subject": "general-science",
+  "set": 134,
+  "questions": [
+    {
+      "id": "ge-134-001",
+      "question": "একটি পরমাণুতে প্রোটনের সংখ্যা 19 ও ভর সংখ্যা 39; নিউট্রন সংখ্যা কত?",
+      "options": [
+        "19",
+        "20",
+        "39",
+        "58"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-002",
+      "question": "একটি বৈদ্যুতিক হিটার 500 W ক্ষমতায় চলে। 2 মিনিটে কত তাপ উৎপন্ন করবে?",
+      "options": [
+        "30 kJ",
+        "60 kJ",
+        "90 kJ",
+        "120 kJ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-003",
+      "question": "একটি 9V ব্যাটারি 1.5 Ω রোধের মধ্য দিয়ে তড়িৎ পাঠালে— (বহু-সঠিক)",
+      "options": [
+        "I = 6 A",
+        "P = 54 W",
+        "P = VI",
+        "মোট কার্য 54 J প্রতি সেকেন্ডে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-134-004",
+      "question": "ফরেনহাইট ও সেলসিয়াস স্কেলের মধ্যে সম্পর্ক স্থাপনকারী রেখাচিত্রটি কী রূপ?",
+      "options": [
+        "সরলরেখা",
+        "পরাবৃত্ত",
+        "উপবৃত্ত",
+        "অসম্পৃক্ত"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-134-005",
+      "question": "অম্ল ও ক্ষারের বিক্রিয়ায় লবণ ও জল উৎপন্ন হওয়াকে কী বলা হয়?",
+      "options": [
+        "Oxidation",
+        "Reduction",
+        "Neutralization",
+        "Fermentation"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-006",
+      "question": "10 Ω রোধের একটি তারকে টেনে দৈর্ঘ্য দ্বিগুণ করলে রোধ কত হবে? (Assuming volume constant, R ∝ L²)",
+      "options": [
+        "40 Ω",
+        "20 Ω",
+        "10 Ω",
+        "5 Ω"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-134-007",
+      "question": "সাবান বুদবুদ (Soap bubble) হলো—",
+      "options": [
+        "গ্যাসে তরলের কলোয়েড",
+        "তরলে গ্যাসের কলোয়েড",
+        "কঠিনের মধ্যে গ্যাস",
+        "তরলে কঠিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-008",
+      "question": "মিল্ক অফ লাইম (Milk of Lime) কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "বাড়ি সাদা করতে (চুনকাম)",
+        "রান্নায়",
+        "জামাকাপড় কাচতে",
+        "পানীয় হিসেবে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-009",
+      "question": "মানব চোখের অংশগুলি সঠিকভাবে নির্বাচন করো: (i) কর্ণিয়া (ii) আইরিস (iii) লেন্স (iv) রেটিনা",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-010",
+      "question": "কোণ পরিমাপের একক কী?",
+      "options": [
+        "মিটার",
+        "গ্রাম",
+        "রেডিয়ান",
+        "নিউটন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-011",
+      "question": "অভিসারী আলোক রশ্মিগুচ্ছ কী ধরনের?",
+      "options": [
+        "সমান্তরাল রশ্মি",
+        "অপসারী রশ্মি",
+        "কেন্দ্রগামী রশ্মি",
+        "বিচ্ছুরিত রশ্মি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-012",
+      "question": "'R' এর মান নির্ভর করে—",
+      "options": [
+        "ব্যবহৃত এককের ওপর",
+        "গ্যাসের প্রকৃতির ওপর",
+        "চাপের ওপর",
+        "কোনোটির ওপর নয় (এটি ধ্রুবক)"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-134-013",
+      "question": "Boyle's law অনুযায়ী PV বনাম V লেখচিত্রটি কেমন?",
+      "options": [
+        "V-অক্ষের সমান্তরাল সরলরেখা",
+        "মূলবিন্দুগামী সরলরেখা",
+        "বক্ররেখা",
+        "P-অক্ষের সমান্তরাল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-014",
+      "question": "তড়িৎ প্রবাহের সবচেয়ে ভালো একক কোনটি?",
+      "options": [
+        "ভোল্ট",
+        "জুল",
+        "অ্যাম্পিয়ার",
+        "ওয়াট"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-015",
+      "question": "অ্যামিটার বানাতে গ্যালভানোমিটারের সঙ্গে কী জুড়তে হয়?",
+      "options": [
+        "উচ্চ রোধ শ্রেণিতে",
+        "নিম্ন রোধ সমান্তরালে",
+        "উচ্চ রোধ সমান্তরালে",
+        "নিম্ন রোধ শ্রেণিতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-134-016",
+      "question": "সাবানের ফেনার pH সাধারণত—",
+      "options": [
+        "7 এর কম",
+        "7 এর বেশি",
+        "ঠিক 7",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-017",
+      "question": "CH₄ অণুতে C এর যোজ্যতা কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-018",
+      "question": "ক্লোরোফ্লুরোকার্বন (CFC) ওজোন স্তর ধ্বংস করে কী ছেড়ে দিয়ে?",
+      "options": [
+        "ফ্লোরিন পরমাণু",
+        "কার্বন পরমাণু",
+        "ক্লোরিন পরমাণু",
+        "অক্সিজেন পরমাণু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-019",
+      "question": "রাদারফোর্ডের পরীক্ষার সিদ্ধান্ত কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "নিউক্লিয়াস ধনাত্মক আধানযুক্ত",
+        "পরমাণুর অধিকাংশ স্থান ফাঁকা",
+        "ইলেকট্রন নিউক্লিয়াসের চারপাশে ঘোরে",
+        "ভর নিউক্লিয়াসে কেন্দ্রীভূত"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-134-020",
+      "question": "শব্দের তীব্রতা (Intensity) ও বিস্তারের (Amplitude) সম্পর্ক—",
+      "options": [
+        "Intensity ∝ (Amplitude)²",
+        "বিস্তার দ্বিগুণ করলে তীব্রতা চারগুণ হয়",
+        "বিস্তার তিনগুণ করলে তীব্রতা নয়গুণ হয়",
+        "এদের কোনো সম্পর্ক নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-134-021",
+      "question": "শীতকালে পাখিরা পালক ফুলিয়ে বসে থাকে কেন?",
+      "options": [
+        "পরিবহন কমাতে",
+        "তাপের অন্তরক হিসেবে বায়ু আটকাতে",
+        "বাষ্পীভবন বাড়াতে",
+        "বিকিরণ বাড়াতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-134-022",
+      "question": "DC মোটরে কোন অংশটি ঘুরে?",
+      "options": [
+        "চুম্বক",
+        "আর্মেচার কয়েল",
+        "ব্যাটারি",
+        "ব্রাশ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-023",
+      "question": "VIBGYOR-এর I অক্ষরটি কীসের প্রতীক?",
+      "options": [
+        "সাদা",
+        "নীল",
+        "আসমানি",
+        "সবুজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-024",
+      "question": "নিচের কোন অ্যাসিডটি কাঁচ খোদাই (Glass Etching) করতে ব্যবহৃত হয়?",
+      "options": [
+        "HCl",
+        "HNO3",
+        "HF",
+        "H2SO4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-134-025",
+      "question": "পৃথিবী ও সূর্যের মধ্যে মহাকর্ষ বলের কাজ হলো—",
+      "options": [
+        "পৃথিবীকে কক্ষপথে রাখা",
+        "অভিকেন্দ্র বল জোগান দেওয়া",
+        "পৃথিবীকে সূর্যের দিকে টেনে নেওয়া",
+        "জোয়ার-ভাটা নিয়ন্ত্রণ করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-134-026",
+      "question": "Ne (Z=10) সম্পর্কে কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "নিষ্ক্রিয় গ্যাস",
+        "যোজ্যতা 0",
+        "ইলেকট্রন বিন্যাস 2,8",
+        "এটি দ্বিতীয় পর্যায়ে অবস্থিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-134-027",
+      "question": "নিচের কোনটি ব্যাপন (Diffusion) এর হারকে কমিয়ে দেয়?",
+      "options": [
+        "তাপমাত্রা বৃদ্ধি",
+        "ঘনত্বের পার্থক্য কমানো",
+        "কণার ভর কমানো",
+        "চাপের পার্থক্য বাড়ানো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-134-028",
+      "question": "একটি ক্যালোরিমিটারের গঠনে কী থাকে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তামার পাত্র",
+        "থার্মোমিটার",
+        "স্টিরার",
+        "উত্তল লেন্স"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-134-029",
+      "question": "দুধ (Milk) নিচের কোনটির উদাহরণ?",
+      "options": [
+        "Sol",
+        "Emulsion",
+        "Foam",
+        "Suspension"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-134-030",
+      "question": "অভিস্রবণ (Osmosis) প্রক্রিয়ায়—",
+      "options": [
+        "অর্ধভেদ্য পর্দা প্রয়োজন",
+        "দ্রাবক অণু চলাচল করে",
+        "নিম্ন ঘনত্ব থেকে উচ্চ ঘনত্বের দিকে প্রবাহ ঘটে",
+        "দ্রাব অণু চলাচল করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "subject": "general-science",
+  "set": 130,
+  "questions": [
+    {
+      "id": "ge-130-001",
+      "question": "কোন কোন কারণে তাপীয় প্রসারণ বিবেচনা করা হয়? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "দালান নির্মাণে ফাঁক রাখতে",
+        "টেলিফোনের তার ঝুলিয়ে রাখতে",
+        "কাচের গ্লাস গরম জলে ফেটে যাওয়া",
+        "কাচের গ্লাস ঠান্ডা রাখতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-130-002",
+      "question": "কোনো বস্তুর ভরবেগ স্থির রেখে ভর দ্বিগুণ করলে গতিশক্তি কেমন হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "চারগুণ",
+        "এক-চতুর্থাংশ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-130-003",
+      "question": "একটি আদর্শ গ্যাস অণুর আকার কত ধরা হয়?",
+      "options": [
+        "1 nm",
+        "অত্যন্ত ক্ষুদ্র (বিন্দুসম)",
+        "1 mm",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-004",
+      "question": "অক্সিজেন সিলিন্ডারের গায়ে 'তাপ থেকে দূরে রাখুন' লেখা থাকে, কারণ তাপে-",
+      "options": [
+        "গ্যাস প্রসারিত হয়ে বিস্ফোরণ ঘটাতে পারে",
+        "গ্যাস সংকুচিত হয়",
+        "গ্যাস তরল হয়ে যায়",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-130-005",
+      "question": "ব্লিচিং পাউডার (Bleaching Powder) সম্পর্কে সঠিক তথ্য—",
+      "options": [
+        "এর সংকেত CaOCl(Cl)",
+        "এটি একটি মিশ্র লবণ (Mixed Salt)",
+        "এটি ক্লোরিনের গন্ধযুক্ত",
+        "এটি স্বাদে মিষ্টি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-130-006",
+      "question": "নীচের কোন যন্ত্র বায়ুর দূষণ মাপে?",
+      "options": [
+        "ব্যারোমিটার",
+        "থার্মোমিটার",
+        "AQI মনিটর",
+        "ল্যাকটোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-007",
+      "question": "একটি বর্তনীতে মোট রোধ 10 Ω এবং বিভব 20 V, প্রবাহ কত?",
+      "options": [
+        "10 A",
+        "2 A",
+        "200 A",
+        "0.5 A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-130-008",
+      "question": "নিচের কোন যৌগগুলি এস্টার? (i) CH₃COOC₂H₅ (ii) C₂H₅OC₂H₅ (iii) CH₃COOCH₃ (iv) C₂H₅OH",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (ii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-009",
+      "question": "কুপরিবাহী পদার্থের ব্যবহারিক প্রয়োগ নয় কোনটি?",
+      "options": [
+        "থার্মোকলের কাপ",
+        "প্লাস্টিকের হাতল",
+        "ধাতব পাত",
+        "উলের কাপড়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-010",
+      "question": "নিচের কোন দর্পণটি সর্বদা অবাস্তব, সমশীর্ষ ও ক্ষুদ্রতর প্রতিবিম্ব তৈরি করে?",
+      "options": [
+        "সমতল",
+        "অবতল",
+        "উত্তল",
+        "উত্তল ও অবতল উভয়েই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-011",
+      "question": "সূর্যের আলো প্রিজমের ভিতর দিয়ে গেলে কী তৈরি হয়?",
+      "options": [
+        "লাল আলো",
+        "বর্ণালী",
+        "অবাস্তব প্রতিবিম্ব",
+        "শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-130-012",
+      "question": "বয়েল সূত্রের ধ্রুবক রাশি—",
+      "options": [
+        "গ্যাসের ভর",
+        "উষ্ণতা",
+        "আয়তন",
+        "চাপ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-130-013",
+      "question": "বায়ু থেকে কাঁচে আলো যাওয়ার সময় আলোক রশ্মি কিরূপ হয়?",
+      "options": [
+        "অভিলম্ব থেকে দূরে সরে যায়",
+        "অভিলম্বের দিকে বেঁকে যায়",
+        "সরল পথে চলে",
+        "শোষিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-014",
+      "question": "কঠিন পদার্থে তাপ সঞ্চালনের পদ্ধতি কোনগুলি ঘটতে পারে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "ব্যাপন"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-130-015",
+      "question": "সরণ ও বেগের মধ্যে সম্পর্ক—",
+      "options": [
+        "সরণ = বেগ × সময় (সমবেগের ক্ষেত্রে)",
+        "বেগের পরিবর্তনের হার হলো ত্বরণ",
+        "সরণ শূন্য হলে গড় বেগ শূন্য হয়",
+        "সরণ একটি স্কেলার রাশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-130-016",
+      "question": "অপটিক্যাল ফাইবার কোন নীতির ওপর কাজ করে?",
+      "options": [
+        "প্রতিফলন",
+        "প্রতিসরণ",
+        "অভ্যন্তরীণ পূর্ণ প্রতিফলন",
+        "বিচ্ছুরণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-017",
+      "question": "একটি বর্গাকার ক্ষেত্রের বাহুর দৈর্ঘ্য 2 m, ক্ষেত্রফল কত?",
+      "options": [
+        "2 m²",
+        "4 m²",
+        "8 m²",
+        "16 m²"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-130-018",
+      "question": "নিচের কোনটি শব্দের বেগের একক হতে পারে?",
+      "options": [
+        "m/s",
+        "km/h",
+        "Mach",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-019",
+      "question": "পাকস্থলীতে খাদ্যের পরিপাকে সাহায্য করার জন্য কোন অ্যাসিড নিঃসৃত হয়?",
+      "options": [
+        "H₂SO₄",
+        "HNO₃",
+        "HCl",
+        "CH₃COOH"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-020",
+      "question": "নাইট্রোজেন ডাই অক্সাইড (NO₂) কী রঙের গ্যাস?",
+      "options": [
+        "বর্ণহীন",
+        "সবুজ",
+        "লালচে-বাদামি",
+        "হলুদ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-021",
+      "question": "বরফকে গলিয়ে ফুটানো পর্যন্ত তাপ প্রদান করলে তাপমাত্রা বনাম সময় গ্রাফ কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "গলন ও স্ফুটন বিন্দুতে সরলরেখা",
+        "অন্যান্য স্থানে ঢালু রেখা",
+        "সর্বদা সরলরেখা",
+        "প্রথমে ঢালু পরে সরল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-130-022",
+      "question": "প্লাস্টার অফ প্যারিস তৈরির সময় জিপসামকে কত ডিগ্রি তাপমাত্রায় উত্তপ্ত করা হয়?",
+      "options": [
+        "50°C",
+        "100°C",
+        "200°C",
+        "373 K"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-130-023",
+      "question": "চুনের জলের ঘোলা ভাব দূর করার উপায়—",
+      "options": [
+        "অতিরিক্ত CO2 চালনা করা",
+        "লঘু HCl যোগ করা",
+        "তাপ দেওয়া",
+        "জল মিশিয়ে লঘু করা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-130-024",
+      "question": "দুধ টক হওয়ার জন্য কোন অ্যাসিড দায়ী?",
+      "options": [
+        "অ্যাসিটিক অ্যাসিড",
+        "টারটারিক অ্যাসিড",
+        "ল্যাকটিক অ্যাসিড",
+        "সাইট্রিক অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-025",
+      "question": "একটি উত্তপ্ত বস্তু স্পর্শ করলে তাপ আমাদের শরীরে প্রবেশ করে-",
+      "options": [
+        "পরিচলনে",
+        "বিকিরণে",
+        "পরিবহনে",
+        "শোষণে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-130-026",
+      "question": "রিয়েল গ্যাস সমীকরণ (Van der Waals Equation) কাদের জন্য প্রযোজ্য?",
+      "options": [
+        "কেবল আদর্শ গ্যাস",
+        "বাস্তব গ্যাস",
+        "তরল পদার্থ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-027",
+      "question": "10 Ω রোধের একটি তার ইস্ত্রির কয়েলে ব্যবহার করা হল; 220 V বিভবে এটি কত তড়িৎ নেবে?",
+      "options": [
+        "22 A",
+        "2.2 A",
+        "0.045 A",
+        "10 A"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-028",
+      "question": "F⁻ আয়নে প্রোটন সংখ্যা কত? (F: Z=9)",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "19"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-130-029",
+      "question": "[NUMERICAL] 5 kg ভরের একটি বস্তু 10 m উচ্চতায় থাকলে তার স্থিতিশক্তি (Potential Energy) কত? (g = 10 m/s²)",
+      "options": [
+        "50 J",
+        "500 J",
+        "200 J",
+        "100 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-130-030",
+      "question": "তাপমাত্রার পরম শূন্যে পৌঁছানোর পূর্বেই গ্যাস তরলে পরিণত হয়। এর কারণ কী?",
+      "options": [
+        "পরম শূন্য শুধু তাত্ত্বিক ধারণা",
+        "গ্যাস ঘনীভবনের তাপমাত্রা পরম শূন্যের উপরে",
+        "কঠিন সৃষ্টি হয়",
+        "তাপমাত্রা কমে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    }
+  ]
+}

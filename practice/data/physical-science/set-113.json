@@ -1,0 +1,531 @@
+{
+  "subject": "general-science",
+  "set": 113,
+  "questions": [
+    {
+      "id": "ge-113-001",
+      "question": "নিচের কোনগুলি তাপের একক? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "জুল",
+        "ক্যালোরি",
+        "ওয়াট",
+        "পাস্কাল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-113-002",
+      "question": "তাপ ইঞ্জিন ও রেফ্রিজারেটরের মধ্যে পার্থক্য কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ইঞ্জিন তাপ থেকে কাজ উৎপাদন করে",
+        "রেফ্রিজারেটর কাজ করে তাপ স্থানান্তর করে",
+        "উভয়ের কার্যচক্র বিপরীতমুখী",
+        "উভয়ই একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-113-003",
+      "question": "নিচের কোন বক্তব্যটি সঠিক?",
+      "options": [
+        "তাপমাত্রা থাকলেই তাপ আছে",
+        "তাপমাত্রা পার্থক্য ছাড়াই তাপ সঞ্চালিত হয়",
+        "তাপমাত্রা ও তাপ একই",
+        "শক্তি স্থানান্তরের পরিমাপই তাপ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-113-004",
+      "question": "হাইড্রোফ্লুরিক অ্যাসিড (HF) প্লাস্টিকের বোতলে রাখা হয় কেন?",
+      "options": [
+        "এটি কাঁচের সাথে বিক্রিয়া করে",
+        "এটি প্লাস্টিকের সাথে বিক্রিয়া করে না",
+        "এটি খুব সস্তা",
+        "এটি কাঁচকে স্বচ্ছ করে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-113-005",
+      "question": "একটি নিস্তড়িৎ বস্তু ও একটি আহিত বস্তুর মধ্যে কোন বল কাজ করে?",
+      "options": [
+        "চৌম্বক বল",
+        "স্থিত তড়িৎ আকর্ষণ বল",
+        "ঘর্ষণ বল",
+        "কোনো বল কাজ করে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-006",
+      "question": "অ্যালুমিনিয়ামের তড়িৎ বিশ্লেষণ নিষ্কাশনে— (বহু-সঠিক)",
+      "options": [
+        "অ্যানোডে কার্বন দণ্ড ব্যবহৃত হয়",
+        "ক্যাথোডে অ্যালুমিনিয়াম জমা হয়",
+        "ক্রায়োলাইট গলনাঙ্ক কমায়",
+        "অ্যানোডে অক্সিজেন উৎপন্ন হয় (যা কার্বনের সাথে বিক্রিয়া করে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-113-007",
+      "question": "ক্যালসিয়াম অক্সাইড (CaO) ব্যবহৃত হয়—",
+      "options": [
+        "সিমেন্ট তৈরিতে",
+        "ব্লিচিং পাউডার প্রস্তুতিতে",
+        "মাটির অম্লতা দূর করতে",
+        "খাবার সোডা হিসেবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-113-008",
+      "question": "একটি কণা v বেগে চলছে। বেগ দ্বিগুণ করলে তার গতিশক্তির পরিবর্তন হবে কী?",
+      "options": [
+        "2 গুণ",
+        "3 গুণ",
+        "4 গুণ",
+        "অপরিবর্তিত"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-009",
+      "question": "কোন বিজ্ঞানী প্রথম পরমাণু তত্ত্ব প্রদান করেন?",
+      "options": [
+        "ডেমোক্রিটাস",
+        "ডালটন",
+        "বোর",
+        "রাদারফোর্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-010",
+      "question": "মন্দন (Retardation) বলতে কী বোঝায়?",
+      "options": [
+        "ধনাত্মক ত্বরণ",
+        "ঋণাত্মক ত্বরণ",
+        "ধ্রুবক বেগ",
+        "অসীম বেগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-113-011",
+      "question": "অ্যান্টি-অক্সিডেন্ট (Anti-oxidant) হিসেবে ব্যবহৃত হয়—",
+      "options": [
+        "নাইট্রোজেন গ্যাস",
+        "ভিটামিন C",
+        "ভিটামিন E",
+        "অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-113-012",
+      "question": "সোডিয়াম কার্বনেট ডেকাহাইড্রেটে (Na2CO3.10H2O) জলের শতকরা পরিমাণ কত? (প্রায়)",
+      "options": [
+        "10%",
+        "30%",
+        "63%",
+        "80%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-113-013",
+      "question": "অ্যাসিটিলিন ল্যাম্পে কী ধরনের শিখা ব্যবহৃত হয়?",
+      "options": [
+        "জারণ শিখা",
+        "বিজারণ শিখা",
+        "উজ্জ্বল শিখা",
+        "ধূম্র শিখা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-014",
+      "question": "তড়িৎ প্রবাহের SI একক কী?",
+      "options": [
+        "কুলম্ব",
+        "ভোল্ট",
+        "অ্যাম্পিয়ার",
+        "জুল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-113-015",
+      "question": "মানবদেহে খাদ্য থেকে শক্তি উৎপাদনের প্রক্রিয়ায় প্রধানত কী ঘটে?",
+      "options": [
+        "নিউক্লীয় বিভাজন",
+        "দহন",
+        "শ্বসন",
+        "বাষ্পীভবন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-016",
+      "question": "ভর ও ওজনের (Mass and Weight) মধ্যে কোনটি স্থানভেদে পরিবর্তিত হয়?",
+      "options": [
+        "ভর",
+        "ওজন",
+        "উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-113-017",
+      "question": "নীচের কোনগুলি সেকেন্ডারি (Secondary) বায়ু দূষক? (একাধিক উত্তর)",
+      "options": [
+        "PAN",
+        "O₃ (ট্রপোস্ফিয়ারিক)",
+        "স্মগ",
+        "SO₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-113-018",
+      "question": "গ্রাফাইট কী ধরনের পরিবাহী?",
+      "options": [
+        "অন্তরক",
+        "সুপরিবাহী",
+        "অর্ধপরিবাহী",
+        "তড়িৎ অবিশ্লেষ্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-019",
+      "question": "তাপীয় প্রসারণের একটি ব্যবহারিক প্রয়োগ হলো-",
+      "options": [
+        "রেললাইনে ফাঁক রাখা",
+        "ট্রেন চলাচল",
+        "পাখা ঘোরানো",
+        "আলো জ্বালানো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-020",
+      "question": "নিচের কোন অ্যাসিডটি চোখে ড্রপ হিসেবে বা অ্যান্টিসেপটিক হিসেবে ব্যবহৃত হয়?",
+      "options": [
+        "HCl",
+        "Boric Acid",
+        "H₂SO₄",
+        "HNO₃"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-113-021",
+      "question": "পর্যায়বৃত্ত ধর্ম কোনটি নয়?",
+      "options": [
+        "তড়িৎ ঋণাত্মকতা",
+        "পারমাণবিক ব্যাসার্ধ",
+        "আয়নীকরণ শক্তি",
+        "ভর সংখ্যা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-022",
+      "question": "দর্পণে বস্তু ও প্রতিবিম্বের উচ্চতার অনুপাতকে কী বলে?",
+      "options": [
+        "ফোকাস দূরত্ব",
+        "বিবর্ধন",
+        "ক্ষমতা",
+        "প্রতিসরাঙ্ক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-113-023",
+      "question": "আলোর প্রতিবর্তনের সূত্র কে আবিষ্কার করেন?",
+      "options": [
+        "নিউটন",
+        "স্নেল",
+        "আইনস্টাইন",
+        "গ্যালিলিও"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-024",
+      "question": "নীচের কোনটি তাপের অপরিবাহী (কুপরিবাহী)?",
+      "options": [
+        "রূপা",
+        "লোহা",
+        "অ্যালুমিনিয়াম",
+        "কাঠ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-113-025",
+      "question": "নিচের কোনগুলো সঠিকভাবে মিলিত হয়েছে? (i) P = 5 D - f = 0.2 m (ii) f = 0.5 m - P = 2 D (iii) f = -0.2 m - P = -5 D (iv) P = -2 D - f = -0.5 m",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-113-026",
+      "question": "সঠিক তাপমাত্রা রূপান্তর সূত্র কোনগুলি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "°F = 9/5°C + 32",
+        "K = °C + 273",
+        "°C = K - 273",
+        "°F = K + 273"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-113-027",
+      "question": "200 Ω ও 300 Ω রোধ সমান্তরালে যুক্ত করলে তুল্য রোধ কত?",
+      "options": [
+        "120 Ω",
+        "500 Ω",
+        "100 Ω",
+        "50 Ω"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-113-028",
+      "question": "100 cm³ আয়তনের একটি বস্তুর ভর 200 g হলে— (বহু-সঠিক)",
+      "options": [
+        "ঘনত্ব 2 g/cm³",
+        "আপেক্ষিক গুরুত্ব 2",
+        "SI এককে ঘনত্ব 2000 kg/m³",
+        "এটি জলে ডুবে যাবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-113-029",
+      "question": "নিচের কোনটি তড়িৎ অবিশ্লেষ্য?",
+      "options": [
+        "গলিত NaCl",
+        "ইউরিয়া দ্রবণ",
+        "লঘু H2SO4",
+        "চুন জল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-113-030",
+      "question": "টমেটো পিউরি বা টমেটো সসের pH সাধারণত—",
+      "options": [
+        "4-5 এর মধ্যে",
+        "8-9 এর মধ্যে",
+        "1-2 এর মধ্যে",
+        "12-13 এর মধ্যে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

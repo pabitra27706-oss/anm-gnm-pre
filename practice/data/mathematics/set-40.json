@@ -1,0 +1,557 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 40,
+  "questions": [
+    {
+      "id": "am-40-001",
+      "question": "12% হারে 2 বছরে সরল সুদ 480 টাকা হলে, মূলধন কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-002",
+      "question": "P = 8000, R = 5%, T = 2 বছর। সরল সুদ কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-40-003",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 40 টাকা এবং সুদের হার 5% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 16000 টাকা",
+        "CI = 1640 টাকা",
+        "SI = 1600 টাকা",
+        "CI - SI = 40 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-40-004",
+      "question": "10% হারে 3 বছরের সুদ 600 টাকা। একই আসলের 2 বছরে কত সুদ হবে?",
+      "options": [
+        "350 টাকা",
+        "380 টাকা",
+        "400 টাকা",
+        "420 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-005",
+      "question": "1 থেকে 100-এর মধ্যে কতগুলি সংখ্যা 3 এবং 5 উভয়ের দ্বারা বিভাজ্য?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-006",
+      "question": "একটি কাজ A 12 দিনে করে। A-এর থেকে B দ্বিগুণ দক্ষ হলে B ওই কাজ কত দিনে করবে?",
+      "options": [
+        "4 দিন",
+        "5 দিন",
+        "6 দিন",
+        "8 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-40-007",
+      "question": "একটি কাজ A 7 দিনে করে, B 9 দিনে করে। A একা কাজ শুরু করে 2 দিন পর B যোগ দিলে কাজটি মোট কত দিনে শেষ হবে?",
+      "options": [
+        "4.5 দিন",
+        "5 দিন",
+        "5.5 দিন",
+        "6 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-40-008",
+      "question": "3 ঘন্টা 45 মিনিট = কত ঘন্টা?",
+      "options": [
+        "3.5 ঘন্টা",
+        "3.6 ঘন্টা",
+        "3.75 ঘন্টা",
+        "3.8 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-40-009",
+      "question": "নিচের কোনটি চক্রবৃদ্ধি সুদের বৈশিষ্ট্য?",
+      "options": [
+        "সুদ মূলধনের সাথে যোগ হয়",
+        "পরবর্তী সময়ে সুদের উপর সুদ গণনা হয়",
+        "সময়ের সাথে সাথে সুদ বৃদ্ধির হার কমে",
+        "সময়ের সাথে সাথে সুদ বৃদ্ধির হার বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-40-010",
+      "question": "একটি দ্রব্য 10% লাভে বিক্রয় করলে যে লাভ হয়, 15% ক্ষতিতে বিক্রয় করলে সেই পরিমাণ ক্ষতি হয়। ক্রয়মূল্য কত?",
+      "options": [
+        "100 টাকা",
+        "200 টাকা",
+        "তথ্য অসম্পূর্ণ",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-40-011",
+      "question": "চক্রবৃদ্ধি সুদের বৈশিষ্ট্য সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "সুদের উপর সুদ গণনা করা হয়",
+        "সময়ের সাথে সাথে সুদের পরিমাণ দ্রুত বাড়ে",
+        "সরল সুদের চেয়ে বেশি সুদ পাওয়া যায় (যখন n>1)",
+        "কখনো সরল সুদের সমান হতে পারে (যখন n=1)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-40-012",
+      "question": "10, 20, 30, 40, 50 এর গড় সম্পর্কে সঠিক:",
+      "options": [
+        "গড় = 30",
+        "যোগফল = 150",
+        "গড় = 25",
+        "যোগফল = 150 হলে গড় = 30"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-40-013",
+      "question": "একটি বৃত্তের ব্যাসার্ধ দ্বিগুণ করলে ক্ষেত্রফল কতগুণ হবে?",
+      "options": [
+        "2 গুণ",
+        "3 গুণ",
+        "4 গুণ",
+        "5 গুণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-40-014",
+      "question": "6 টি পাইপ একটি চৌবাচ্চা 8 ঘন্টায় ভরাতে পারে। 4 টি পাইপ ওই চৌবাচ্চা কত ঘন্টায় ভরাতে পারবে?",
+      "options": [
+        "10 ঘন্টা",
+        "11 ঘন্টা",
+        "12 ঘন্টা",
+        "13 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-015",
+      "question": "লাভ ও ক্ষতির শতকরা হার নির্ণয়ে ভিত্তি কী?",
+      "options": [
+        "লাভ% ও ক্ষতি% উভয়ই CP-এর ওপর",
+        "লাভ% ও ক্ষতি% উভয়ই SP-এর ওপর",
+        "লাভ% CP-এর ওপর, ক্ষতি% SP-এর ওপর",
+        "লাভ% SP-এর ওপর, ক্ষতি% CP-এর ওপর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-40-016",
+      "question": "50 টাকা 2 : 3 অনুপাতে ভাগ করলে ছোট অংশ কত?",
+      "options": [
+        "10 টাকা",
+        "20 টাকা",
+        "25 টাকা",
+        "30 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-40-017",
+      "question": "3, 8, 12, 16-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 48",
+        "48, 24 দ্বারা বিভাজ্য",
+        "48, 3,8,12,16-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-40-018",
+      "question": "অনুপাত a : b-এর প্রতিটি পদের সঙ্গে x যোগ করলে অনুপাত c : d হয়। আসল সংখ্যা নির্ণয়ের সূত্র কী?",
+      "options": [
+        "a/b = c/d সমাধান করে x বের",
+        "(a+x)/(b+x) = c/d",
+        "a ও b বের করতে x জানা লাগে",
+        "সরাসরি বের করা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-40-019",
+      "question": "60 টাকায় 12টি ডিম কিনে 66 টাকায় 11টি ডিম বিক্রয় করলে লাভ বা ক্ষতির হার কত?",
+      "options": [
+        "10% লাভ",
+        "15% লাভ",
+        "20% লাভ",
+        "25% লাভ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-020",
+      "question": "24 মিটার, 36 মিটার এবং 48 মিটার লম্বা তিনটি ফিতা সমান দৈর্ঘ্যের টুকরোতে কাটতে হবে। সবচেয়ে বড় টুকরোর দৈর্ঘ্য কত হবে?",
+      "options": [
+        "6 মিটার",
+        "8 মিটার",
+        "12 মিটার",
+        "24 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-021",
+      "question": "1000 টাকার 5 বছর ও 3 বছরের SI-এর পার্থক্য 100 টাকা। R কত?",
+      "options": [
+        "P = 1000 হলে R=10%",
+        "R = 10% হলে পার্থক্য = P×R×2/100",
+        "R = 5%",
+        "পার্থক্য 100 টাকা। R = 10%, T পার্থক্য 2 বছর"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-40-022",
+      "question": "মজুরি বণ্টন সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "মজুরি কাজের পরিমাণ অনুপাতে",
+        "কাজের পরিমাণ সময় ও দক্ষতার গুণফল",
+        "একই সময় কাজ করলে দক্ষতার অনুপাতে মজুরি",
+        "একই দক্ষতায় কাজ করলে সময়ের অনুপাতে মজুরি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-40-023",
+      "question": "(4/9) ÷ (2/3) = ?",
+      "options": [
+        "2/3",
+        "8/27",
+        "3/2",
+        "4/6"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-024",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A, B, C একসাথে কাজ করলে 1 দিনের কাজ = 1/a + 1/b + 1/c",
+        "কাজ শেষের সময় = 1/(1/a + 1/b + 1/c)",
+        "a, b, c যত কম হবে কাজ তত দ্রুত শেষ হবে",
+        "a, b, c যত বেশি হবে কাজ তত ধীরে শেষ হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-40-025",
+      "question": "নিচের কোন পরিস্থিতিতে কোনো লাভ বা ক্ষতি হয় না?",
+      "options": [
+        "SP = CP",
+        "লাভ% = 0%",
+        "ক্ষতি% = 0%",
+        "ছাড় = 0%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-40-026",
+      "question": "22, 33, 44, 55-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 11",
+        "LCM = 660",
+        "660, 11 দ্বারা বিভাজ্য",
+        "660, 110 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-40-027",
+      "question": "ক্রমিক ছাড়ের ক্ষেত্রে নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "d1% ও d2% ক্রমিক ছাড়ে net ছাড় = d1 + d2 - (d1×d2/100)",
+        "ক্রমান্বয়ে ছাড় দেওয়া হলে মোট ছাড়ের হার সরল ছাড়ের চেয়ে কম হয়",
+        "ক্রমিক ছাড়ের ক্ষেত্রে SP = MP × (1-d1/100) × (1-d2/100)",
+        "20% ও 30% ক্রমিক ছাড় = 50% একক ছাড়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-40-028",
+      "question": "3 বছরের জন্য A 15000 টাকা এবং 4 বছরের জন্য B 12000 টাকা বিনিয়োগ করলে লাভের অনুপাত কত?",
+      "options": [
+        "15000×3 : 12000×4 = 45000 : 48000 = 15 : 16",
+        "15 : 16",
+        "16 : 15",
+        "5 : 4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-029",
+      "question": "সংখ্যারেখায় −4 এবং 4-এর মধ্যবর্তী দূরত্ব কত একক?",
+      "options": [
+        "0",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-40-030",
+      "question": "3, 5, 7, 9, 11, 13 এর গড়:",
+      "options": [
+        "8",
+        "যোগফল 48",
+        "6টি সংখ্যার গড় 8",
+        "গড় 7"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

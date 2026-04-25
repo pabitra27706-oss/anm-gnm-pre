@@ -1,0 +1,542 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 85,
+  "questions": [
+    {
+      "id": "am-85-001",
+      "question": "একটি ব্যাটসম্যানের 10 ইনিংসের গড় 45। 11শ ইনিংসে 50 রান করলে নতুন গড় কত?",
+      "options": [
+        "45.2",
+        "45.5",
+        "45.8",
+        "46"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-85-002",
+      "question": "একটি বর্গক্ষেত্রের কর্ণের দৈর্ঘ্য 4√2 সেমি। বর্গক্ষেত্রটির ক্ষেত্রফল কত?",
+      "options": [
+        "8 বর্গসেমি",
+        "12 বর্গসেমি",
+        "16 বর্গসেমি",
+        "24 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-003",
+      "question": "ক্ষতির সূত্রগুলি কী কী?",
+      "options": [
+        "ক্ষতি = CP - SP",
+        "ক্ষতি% = (ক্ষতি/CP)×100%",
+        "ক্ষতি% = (ক্ষতি/SP)×100%",
+        "ক্ষতি = SP - CP"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-85-004",
+      "question": "3200 টাকার 3 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "460 টাকা",
+        "470 টাকা",
+        "480 টাকা",
+        "490 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-005",
+      "question": "একটি সামান্তরিকের ভূমি 12 সেমি ও উচ্চতা 7 সেমি। ক্ষেত্রফল কত?",
+      "options": [
+        "42 বর্গসেমি",
+        "56 বর্গসেমি",
+        "70 বর্গসেমি",
+        "84 বর্গসেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-85-006",
+      "question": "SI = P × R × T / 100 সূত্রে যদি R = 8, T = 2, P = 500 হয় তবে:",
+      "options": [
+        "SI = 80",
+        "A = 580",
+        "SI = 60",
+        "A = 560"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-85-007",
+      "question": "0.7 -এর সমতুল্য:",
+      "options": [
+        "70%",
+        "7/10",
+        "0.70",
+        "0.07"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-85-008",
+      "question": "একটি সমবাহু ত্রিভুজের বাহু 12 সেমি হলে নিচের কোনটি সঠিক? (√3 = 1.732)",
+      "options": [
+        "ক্ষেত্রফল = 62.35 বর্গসেমি",
+        "উচ্চতা = 10.392 সেমি",
+        "পরিসীমা = 36 সেমি",
+        "ক্ষেত্রফল = 36 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-85-009",
+      "question": "36 km/h -কে m/s -এ প্রকাশ করলে কত হবে?",
+      "options": [
+        "5 m/s",
+        "8 m/s",
+        "10 m/s",
+        "12 m/s"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-85-010",
+      "question": "2/3 এবং 4/5-এর গসাগু কত?",
+      "options": [
+        "2/15",
+        "4/15",
+        "2/5",
+        "4/5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-85-011",
+      "question": "(a + b + c)²-এর বিস্তারে 2ab-এর সহগ কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-012",
+      "question": "5% হারে 3 বছরের SI 150 টাকা। সঠিক:",
+      "options": [
+        "P = 1000",
+        "2 বছরের SI = 100",
+        "4 বছরের SI = 200",
+        "6% হারে 3 বছরে SI = 180"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-85-013",
+      "question": "2 থেকে 100 পর্যন্ত জোড় সংখ্যার গড় কত?",
+      "options": [
+        "49",
+        "50",
+        "51",
+        "52"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-85-014",
+      "question": "A ও B একসাথে একটি কাজ 6 দিনে শেষ করে। A একা 9 দিনে শেষ করলে নিচের কোনটি সঠিক?",
+      "options": [
+        "B একা 18 দিনে শেষ করবে",
+        "1 দিনে A করে 1/9, B করে 1/18",
+        "A এর দক্ষতা B এর দ্বিগুণ",
+        "B এর দক্ষতা A এর দ্বিগুণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-85-015",
+      "question": "5টি সংখ্যার গড় 18, 4টি সংখ্যার গড় 15। সব মিলিয়ে গড়:",
+      "options": [
+        "(5×18+4×15)/9 = 90+60/9 = 150/9 = 16.67",
+        "16.67",
+        "17",
+        "16.5"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-85-016",
+      "question": "একটি ঘনকের কর্ণের দৈর্ঘ্য 5√3 সেমি। ঘনকটির সমগ্রতলের ক্ষেত্রফল কত?",
+      "options": [
+        "100 বর্গসেমি",
+        "150 বর্গসেমি",
+        "200 বর্গসেমি",
+        "250 বর্গসেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-85-017",
+      "question": "8x³ + 27y³-এর উৎপাদক কী?",
+      "options": [
+        "(2x + 3y)(4x² - 6xy + 9y²)",
+        "(2x - 3y)(4x² + 6xy + 9y²)",
+        "(2x + 3y)(4x² + 6xy + 9y²)",
+        "(2x - 3y)(4x² - 6xy + 9y²)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-85-018",
+      "question": "60, 72, 84, 96-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 5040",
+        "5040, 30 দ্বারা বিভাজ্য",
+        "5040, 120 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-85-019",
+      "question": "0.025 -এর সমতুল্য:",
+      "options": [
+        "2.5%",
+        "1/40",
+        "25/1000",
+        "0.25%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-85-020",
+      "question": "যদি 6 জন পুরুষ অথবা 8 জন মহিলা একটি কাজ 15 দিনে করে তবে 12 জন পুরুষ ও 16 জন মহিলা একত্রে কত দিনে করবে?",
+      "options": [
+        "3 দিন",
+        "12/6=2গুণ পুরুষ, 16/8=2গুণ মহিলা",
+        "মোট 4 গুণ দক্ষতা → 15/4 = 3.75 দিন",
+        "7.5 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-85-021",
+      "question": "একটি দ্রব্য 10% ক্ষতিতে বিক্রয় করলে SP = 720 টাকা। দ্রব্যটির CP কত এবং 5% ক্ষতিতে SP কত?",
+      "options": [
+        "CP = 800 টাকা",
+        "5% ক্ষতিতে SP = 760 টাকা",
+        "CP = 750 টাকা",
+        "5% ক্ষতিতে SP = 712.5 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-022",
+      "question": "600 টাকার 12% কত?",
+      "options": [
+        "62 টাকা",
+        "68 টাকা",
+        "70 টাকা",
+        "72 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-85-023",
+      "question": "একটি ঘনকের প্রতিটি বাহু 2 সেমি। আয়তন কত?",
+      "options": [
+        "4 ঘনসেমি",
+        "6 ঘনসেমি",
+        "8 ঘনসেমি",
+        "10 ঘনসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-85-024",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 144 টাকা। সুদের হার 12% হলে মূলধন কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-025",
+      "question": "20% ছাড় দিয়ে একটি দ্রব্য বিক্রয় করলে SP = 800 টাকা। নিচের কোনটি সঠিক?",
+      "options": [
+        "MP = 1000 টাকা",
+        "ছাড় = 200 টাকা",
+        "MP = 960 টাকা",
+        "ছাড় = 150 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-026",
+      "question": "A ও B-এর কাজের সময়ের অনুপাত 5:3। তারা একসাথে একটি কাজ 15 দিনে শেষ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 40 দিনে করে",
+        "B একা 24 দিনে করে",
+        "A-এর দক্ষতা B-এর 3/5",
+        "B-এর দক্ষতা A-এর 5/3"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-85-027",
+      "question": "নিচের কোন সংখ্যাগুলি 7 দ্বারা বিভাজ্য?",
+      "options": [
+        "105",
+        "107",
+        "112",
+        "119"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-85-028",
+      "question": "দুটি জিনিস একই দামে বিক্রয় করা হল। একটি 30% লাভে এবং অপরটি 30% ক্ষতিতে বিক্রয় করলে সামগ্রিক লাভ/ক্ষতি কত?",
+      "options": [
+        "6% ক্ষতি",
+        "9% ক্ষতি",
+        "12% ক্ষতি",
+        "15% ক্ষতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-85-029",
+      "question": "A একটি কাজ 18 দিনে করে, B একই কাজ 24 দিনে করে। A ও B একসাথে কাজ করলে কাজটি কত দিনে শেষ হবে?",
+      "options": [
+        "10 দিন",
+        "10.29 দিন",
+        "10.5 দিন",
+        "11 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-85-030",
+      "question": "একজন দোকানদার 1 কেজির জায়গায় 920 গ্রাম দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "7.69%",
+        "8.69%",
+        "8.7%",
+        "8.8%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

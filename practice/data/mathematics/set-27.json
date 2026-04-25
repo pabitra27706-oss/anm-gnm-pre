@@ -1,0 +1,542 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 27,
+  "questions": [
+    {
+      "id": "am-27-001",
+      "question": "7 ও 63-এর মধ্য সমানুপাতী কত?",
+      "options": [
+        "14",
+        "21",
+        "28",
+        "35"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-002",
+      "question": "24, 60-এর কত শতাংশ?",
+      "options": [
+        "30%",
+        "35%",
+        "40%",
+        "45%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-003",
+      "question": "হিস্টোগ্রাম ও ফ্রিকোয়েন্সি পলিগন:",
+      "options": [
+        "ফ্রিকোয়েন্সি পলিগন হিস্টোগ্রামের শীর্ষবিন্দু যোগ করে পাওয়া যায়",
+        "উভয়ই কম্পাঙ্ক বণ্টন দেখায়",
+        "পলিগন মসৃণ রেখা",
+        "হিস্টোগ্রামে আয়তাকার স্তম্ভ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-27-004",
+      "question": "0.004 -কে শতকরায় লিখুন।",
+      "options": [
+        "0.04%",
+        "0.4%",
+        "4%",
+        "40%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-005",
+      "question": "দুইটি বাস একই দিকে 60 km/h ও 40 km/h গতিতে চলছে। দূরত্ব 50 কিমি:",
+      "options": [
+        "দ্রুতগামী ধরতে সময় = 50/20 = 2.5 ঘন্টা",
+        "আপেক্ষিক গতি = 20 km/h",
+        "ধরতে 2.5 ঘন্টা",
+        "কোনো ভিন্ন গতির সম্পর্ক নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-27-006",
+      "question": "10% লাভে বিক্রয় করলে লাভ 50 টাকা। দ্রব্যটির CP কত এবং 20% লাভে SP কত?",
+      "options": [
+        "CP = 500 টাকা",
+        "20% লাভে SP = 600 টাকা",
+        "CP = 550 টাকা",
+        "20% লাভে SP = 660 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-007",
+      "question": "একটি ট্রেন 70 km/h বেগে 3.2 ঘন্টায় কত দূর যায়?",
+      "options": [
+        "224 কিমি",
+        "70×3.2 = 224 কিমি",
+        "224 কিমি",
+        "200 কিমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-27-008",
+      "question": "8টি জিনিসের CP = 6টি জিনিসের SP। লাভ% কত?",
+      "options": [
+        "33.33%",
+        "CP of 8 = SP of 6 → SP of 8 = 10.66 → লাভ% = 33.33%",
+        "25%",
+        "40%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-009",
+      "question": "গড় দ্রুতি (Average Speed) নির্ণয়ের সূত্র কী?",
+      "options": [
+        "মোট দূরত্ব / মোট সময়",
+        "(মোট দূরত্ব × মোট সময়)/2",
+        "মোট সময় / মোট দূরত্ব",
+        "(প্রথম দ্রুতি + শেষ দ্রুতি)/2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-27-010",
+      "question": "একটি ট্রেন 120 মিটার লম্বা, 72 km/h বেগে একটি ল্যাম্পপোস্ট অতিক্রম করতে কত সময় নেয়?",
+      "options": [
+        "4 সেকেন্ড",
+        "5 সেকেন্ড",
+        "6 সেকেন্ড",
+        "7 সেকেন্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-011",
+      "question": "একটি সমকোণী ত্রিভুজের বাহু 3 সেমি ও 4 সেমি হলে অতিভুজ কত?",
+      "options": [
+        "3 সেমি",
+        "4 সেমি",
+        "5 সেমি",
+        "6 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-27-012",
+      "question": "2000 টাকার 4 বছরের সরল সুদ 640 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-013",
+      "question": "বার্ষিক 10% হারে 2000 টাকার 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "600 টাকা",
+        "620 টাকা",
+        "662 টাকা",
+        "680 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-014",
+      "question": "একটি পাই চার্টে খাদ্য 30%, ভাড়া 20%, শিক্ষা 25%, অন্যান্য 25%। সঠিক:",
+      "options": [
+        "খাদ্যের কোণ 108°",
+        "ভাড়ার কোণ 72°",
+        "শিক্ষার কোণ 90°",
+        "অন্যান্যের কোণ 90°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-27-015",
+      "question": "একটি দ্রব্যের ক্রয়মূল্য 700 টাকা। 5% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "650 টাকা",
+        "655 টাকা",
+        "660 টাকা",
+        "665 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-27-016",
+      "question": "আয়তক্ষেত্রের কর্ণ নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "√(l + b)",
+        "√(l² + b²)",
+        "l² + b²",
+        "l + b"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-27-017",
+      "question": "একটি কাজ A 20 দিনে করে, B 30 দিনে করে। A একা কাজ শুরু করে 10 দিন পর B যোগ দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A 10 দিনে কাজ করে = 10/20 = 1/2",
+        "বাকি কাজ = 1/2",
+        "A ও B একসাথে 1 দিনে কাজ করে = 1/20+1/30 = 1/12",
+        "বাকি কাজ শেষ করতে সময় = (1/2)/(1/12) = 6 দিন, মোট সময় = 10+6 = 16 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-27-018",
+      "question": "ক্রমিক মৌলিক সংখ্যা (Twin primes) কারা?",
+      "options": [
+        "3,5",
+        "5,7",
+        "11,13",
+        "17,19"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-27-019",
+      "question": "ভগ্নাংশের ক্ষেত্রে সূচকের নিয়ম কোন কোনটি সঠিক?",
+      "options": [
+        "(a/b)ⁿ = aⁿ/bⁿ",
+        "(a/b)⁻ⁿ = (b/a)ⁿ",
+        "(a/b)⁰ = 1",
+        "(a/b)¹ = a/b"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-27-020",
+      "question": "10% ও 20% ক্রমিক ছাড়ের সমতুল্য একক ছাড় কত এবং 1000 টাকার জিনিসের চূড়ান্ত মূল্য কত?",
+      "options": [
+        "28% একক ছাড়",
+        "চূড়ান্ত মূল্য = 720 টাকা",
+        "30% একক ছাড়",
+        "চূড়ান্ত মূল্য = 700 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-021",
+      "question": "নিচের সারণি: ৬টি স্কুলে ছাত্র সংখ্যা: S1: 300, S2: 450, S3: 380, S4: 500, S5: 420, S6: 350 S2 ও S4 এর ছাত্র সংখ্যার অনুপাত কত?",
+      "options": [
+        "9:10",
+        "10:9",
+        "15:17",
+        "17:15"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-27-022",
+      "question": "180-এর 33⅓% কত?",
+      "options": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-023",
+      "question": "একটি জিনিস 12% ক্ষতিতে বিক্রয় করলে ক্ষতি 60 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-024",
+      "question": "64, 80-এর কত শতাংশ?",
+      "options": [
+        "75%",
+        "78%",
+        "80%",
+        "85%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-025",
+      "question": "একটি ট্রেন 360 মিটার লম্বা সেতু অতিক্রম করে 18 সেকেন্ডে, 180 মিটার লম্বা প্ল্যাটফর্ম অতিক্রম করে 12 সেকেন্ডে। ট্রেনের দৈর্ঘ্য:",
+      "options": [
+        "ধরি L ট্রেন, v = (L+360)/18 = (L+180)/12",
+        "12L + 4320 = 18L + 3240 → 1080 = 6L → L = 180 মিটার",
+        "180 মিটার",
+        "200 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-27-026",
+      "question": "নৌকার গতি 8 km/h, স্রোতের গতি 2 km/h:",
+      "options": [
+        "স্রোতের অনুকূলে 30 কিমি যেতে 3 ঘন্টা",
+        "স্রোতের বিপরীতে 30 কিমি যেতে 5 ঘন্টা",
+        "যাওয়া-আসার গড় গতি = 2×10×6/(10+6) = 120/16 = 7.5 km/h",
+        "যাওয়া-আসার গড় গতি = (8+2)(8-2)/(8) সূত্র নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-27-027",
+      "question": "একজন অসাধু দোকানদার 1 কেজির জায়গায় 900 গ্রাম দেয়। নিচের কোনটি সঠিক?",
+      "options": [
+        "তার লাভ = 11.11%",
+        "(1000-900)/900 × 100% = 11.11%",
+        "তার লাভ = 10%",
+        "ক্ষতি = 11.11%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-028",
+      "question": "2 বছরের CI ও SI-এর পার্থক্যের সূত্র P(R/100)² কোন শর্তে সত্য?",
+      "options": [
+        "সবসময়",
+        "যখন বার্ষিক চক্রবৃদ্ধি হয়",
+        "যখন অর্ধবার্ষিক চক্রবৃদ্ধি হয়",
+        "যখন ত্রৈমাসিক চক্রবৃদ্ধি হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-27-029",
+      "question": "একজন ব্যক্তি 3000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 3630 টাকা",
+        "চক্রবৃদ্ধি সুদ 630 টাকা",
+        "সরল সুদে পেতেন 600 টাকা",
+        "CI - SI = 30 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-27-030",
+      "question": "কত টাকার 8% হারে 2 বছরের সরল সুদ 160 টাকা হবে?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

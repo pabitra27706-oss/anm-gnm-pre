@@ -1,0 +1,530 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 84,
+  "questions": [
+    {
+      "id": "am-84-001",
+      "question": "একটি কাজ A 14 দিনে করে, B 21 দিনে করে। A ও B একসাথে কাজ শুরু করে 3 দিন পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "10.5 দিন",
+        "11.5 দিন",
+        "12.5 দিন",
+        "13.5 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-84-002",
+      "question": "একটি দ্রব্য 10% লাভে বিক্রয় করলে লাভ হয় 50 টাকা। দ্রব্যটির CP ও SP কত?",
+      "options": [
+        "CP = 500 টাকা",
+        "SP = 550 টাকা",
+        "CP = 450 টাকা",
+        "SP = 500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-003",
+      "question": "একটি জিনিস 10% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য 540 টাকা। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "550 টাকা",
+        "580 টাকা",
+        "600 টাকা",
+        "620 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-84-004",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "একটি কাজ A 6 দিনে করে, B 8 দিনে করে → A ও B একসাথে 24/7 দিনে করে",
+        "A, B অপেক্ষা 25% বেশি দক্ষ মানে A-এর সময় B-এর সময়ের 80%",
+        "A, B অপেক্ষা 20% কম দক্ষ মানে A-এর সময় B-এর সময়ের 125%",
+        "A ও B-এর দক্ষতার অনুপাত 3:2 মানে কাজের সময়ের অনুপাত 2:3"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-84-005",
+      "question": "32, 48, 64, 80-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 16",
+        "LCM = 480",
+        "LCM = 960",
+        "16 × 960 = 32×48×64×80"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-84-006",
+      "question": "নিচের কোনটি \"A ও B একত্রে কাজ করে কাজ শেষ করতে সময়\" এর সঠিক সূত্র? (A ও B যথাক্রমে m ও n দিনে কাজ করে)",
+      "options": [
+        "mn/(m+n)",
+        "1/(1/m + 1/n)",
+        "m+n",
+        "m×n"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-84-007",
+      "question": "33⅓% -এর ভগ্নাংশরূপ কী?",
+      "options": [
+        "1/3",
+        "2/3",
+        "1/4",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-84-008",
+      "question": "একটি দ্রব্য 15% ক্ষতিতে বিক্রয় করলে ক্ষতি 150 টাকা। ক্রয়মূল্য কত?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-009",
+      "question": "একই হার ও সময়ে SI1 : SI2 = 3 : 4 হলে, P1 : P2 কত?",
+      "options": [
+        "3 : 4",
+        "4 : 3",
+        "9 : 16",
+        "16 : 9"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-010",
+      "question": "12.5% -এর ভগ্নাংশরূপ কী?",
+      "options": [
+        "1/8",
+        "1/5",
+        "5/8",
+        "3/8"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-84-011",
+      "question": "0.0001 কে 10-এর ঘাত আকারে লিখলে কী হবে?",
+      "options": [
+        "10⁻⁴",
+        "10⁻³",
+        "10⁴",
+        "10³"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-84-012",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 225 টাকা। সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "80000 টাকা",
+        "85000 টাকা",
+        "90000 টাকা",
+        "95000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-013",
+      "question": "27, 45, 63-এর গসাগু কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-014",
+      "question": "A, B ও C একসাথে একটি কাজ 4 দিনে শেষ করতে পারে। A একা 10 দিনে, B একা 12 দিনে করলে C একা কত দিনে করবে?",
+      "options": [
+        "12 দিন",
+        "13 দিন",
+        "14 দিন",
+        "15 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-84-015",
+      "question": "231, 273, 315-এর লসাগু কত?",
+      "options": [
+        "45045",
+        "15015",
+        "30030",
+        "60060"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-84-016",
+      "question": "একটি সংখ্যা a, অপর সংখ্যা b দ্বারা নিঃশেষে বিভাজ্য হলে, a এবং b-এর গসাগু কত হবে?",
+      "options": [
+        "a",
+        "b",
+        "a×b",
+        "a/b"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-017",
+      "question": "একটি কাজ A 12 দিনে, B 15 দিনে, C 18 দিনে করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 20/3 দিনে করে",
+        "B ও C একসাথে 90/11 দিনে করে",
+        "A ও C একসাথে 36/5 দিনে করে",
+        "A, B, C একসাথে 180/37 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-84-018",
+      "question": "16x² - 24x + 9 = ?",
+      "options": [
+        "(4x - 3)²",
+        "(4x + 3)²",
+        "(8x - 3)²",
+        "(4x - 9)²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-019",
+      "question": "1500-এর 8% -এর সাথে 1200-এর 10% -এর যোগফল কত?",
+      "options": [
+        "210",
+        "220",
+        "230",
+        "240"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-020",
+      "question": "উপার্জন ও সঞ্চয়ের অনুপাত 5 : 2। সঞ্চয় 4000 টাকা হলে উপার্জন ও ব্যয় কত?",
+      "options": [
+        "উপার্জন 10000 টাকা",
+        "ব্যয় 6000 টাকা",
+        "উপার্জন 14000 টাকা",
+        "ব্যয় 10000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-021",
+      "question": "একটি দ্রব্য 30% ছাড় দিয়ে 1400 টাকায় বিক্রয় করা হলে চিহ্নিত মূল্য কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-022",
+      "question": "5000 টাকার 5% হারে 2.5 বছরে:",
+      "options": [
+        "SI = 625",
+        "A = 5625",
+        "SI = 600",
+        "A = 5600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-84-023",
+      "question": "5% হারে 4 বছরে সরল সুদ 800 টাকা। আসল কত?",
+      "options": [
+        "3500 টাকা",
+        "3800 টাকা",
+        "4000 টাকা",
+        "4200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-024",
+      "question": "3x² + 5x - 2-এর উৎপাদক কোন কোনটি?",
+      "options": [
+        "(3x - 1)(x + 2)",
+        "(x + 2)(3x - 1)",
+        "(3x + 2)(x - 1)",
+        "(x - 1)(3x + 2)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-84-025",
+      "question": "একটি শঙ্কুর ব্যাসার্ধ 5 সেমি ও উচ্চতা 12 সেমি হলে নিচের কোনটি সঠিক? (π = 3.14)",
+      "options": [
+        "তির্যক উচ্চতা = 13 সেমি",
+        "বক্রতলের ক্ষেত্রফল = 204.1 বর্গসেমি",
+        "আয়তন = 314 ঘনসেমি",
+        "সমগ্রতলের ক্ষেত্রফল = 282.6 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-84-026",
+      "question": "সরল সমানুপাতের ক্ষেত্রে নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "একটি বাড়লে অপরটি বাড়ে",
+        "একটি কমলে অপরটি কমে",
+        "অনুপাত ধ্রুবক থাকে",
+        "গুণফল ধ্রুবক থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-84-027",
+      "question": "একজন ফল বিক্রেতা 50 টাকায় 10টি আম কিনে 60 টাকায় 8টি আম বিক্রয় করল। তার লাভ/ক্ষতি কত?",
+      "options": [
+        "25% লাভ",
+        "30% লাভ",
+        "40% লাভ",
+        "50% লাভ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-84-028",
+      "question": "7! (ফ্যাক্টরিয়াল)-এর মান কত?",
+      "options": [
+        "5040",
+        "720",
+        "40320",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-84-029",
+      "question": "জনসংখ্যা বৃদ্ধির সমস্যায় নিচের কোনটি সত্য?",
+      "options": [
+        "P_n = P_0(1 + R/100)ⁿ",
+        "R% প্রতি বছর বৃদ্ধির হার",
+        "n বছর পরে জনসংখ্যা P_n হয়",
+        "P_n = P_0(1 - R/100)ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-84-030",
+      "question": "60টি লিচু, 84টি জাম এবং 108টি কলা সমান সংখ্যক শিশুর মধ্যে সমানভাবে ভাগ করে দিতে হবে। সবচেয়ে বেশি কত শিশুর মধ্যে ভাগ করা যাবে?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

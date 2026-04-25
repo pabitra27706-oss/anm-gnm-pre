@@ -1,0 +1,528 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 123,
+  "questions": [
+    {
+      "id": "am-123-001",
+      "question": "একজন দোকানদার 25% লাভে বিক্রয় করে এবং 10% কম ওজন দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "35%",
+        "36.11%",
+        "37.5%",
+        "38.88%"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-123-002",
+      "question": "37.5% -এর সমতুল্য:",
+      "options": [
+        "3/8",
+        "0.375",
+        "375/1000",
+        "37.5/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-123-003",
+      "question": "A, B ও C একসাথে একটি কাজ 4 দিনে শেষ করতে পারে। A একা 10 দিনে, B একা 12 দিনে করলে C একা কত দিনে করবে?",
+      "options": [
+        "12 দিন",
+        "13 দিন",
+        "14 দিন",
+        "15 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-123-004",
+      "question": "একজন দোকানদার 1000 গ্রামের জায়গায় 950 গ্রাম দেয়। তার লাভের হার কত?",
+      "options": [
+        "4.26%",
+        "5.26%",
+        "6.26%",
+        "7.26%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-005",
+      "question": "√3 × √3 = ?",
+      "options": [
+        "√3",
+        "3",
+        "9",
+        "√6"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-123-006",
+      "question": "4000 টাকার 2.5 বছরে 8% হারে সরল সুদ কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-007",
+      "question": "সুদের হার দ্বিগুণ হলে চক্রবৃদ্ধি সুদের পরিমাণ কী হয়?",
+      "options": [
+        "দ্বিগুণ হয়",
+        "দ্বিগুণের চেয়ে কম হয়",
+        "দ্বিগুণের চেয়ে বেশি হয়",
+        "একই থাকে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-008",
+      "question": "−7 এবং 2-এর মধ্যে কতটি পূর্ণসংখ্যা আছে?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-009",
+      "question": "5000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "40 টাকা",
+        "45 টাকা",
+        "50 টাকা",
+        "55 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-010",
+      "question": "4% হারে 4 বছরের SI 320 টাকা। P? একই P-এর 2 বছরে 6% হারে SI?",
+      "options": [
+        "P = 2000",
+        "SI = 240",
+        "P = 2500",
+        "SI = 300"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-123-011",
+      "question": "একটি সারণি: বিভিন্ন সেমিনারে অংশগ্রহণ: S1:80, S2:95, S3:110, S4:85। সঠিক:",
+      "options": [
+        "S3 সর্বোচ্চ",
+        "S1 সর্বনিম্ন",
+        "S2 ও S4 এর মোট 180",
+        "গড় 92.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-123-012",
+      "question": "200% -এর সমতুল্য:",
+      "options": [
+        "2",
+        "200/100",
+        "2/1",
+        "0.2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-123-013",
+      "question": "8 জন শ্রমিক একটি কাজ 12 দিনে করতে পারে। 6 জন শ্রমিক ওই কাজ কত দিনে করবে?",
+      "options": [
+        "14 দিন",
+        "15 দিন",
+        "16 দিন",
+        "18 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-123-014",
+      "question": "দুটি অমূলদ সংখ্যার যোগফল কী হতে পারে?",
+      "options": [
+        "সবসময় অমূলদ",
+        "সবসময় মূলদ",
+        "মূলদ বা অমূলদ",
+        "সবসময় পূর্ণসংখ্যা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-123-015",
+      "question": "একটি সংখ্যার 40% = 80 হলে, সংখ্যাটির 15% কত?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-016",
+      "question": "একটি জিনিস 15% লাভে বিক্রয় করলে লাভ 75 টাকা। জিনিসটির বিক্রয়মূল্য কত?",
+      "options": [
+        "500 টাকা",
+        "525 টাকা",
+        "550 টাকা",
+        "575 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-017",
+      "question": "একটি ঋণ 10% হারে 2 বছরের সুদে-আসলে 2400 টাকা। ঋণের পরিমাণ কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-018",
+      "question": "চক্রবৃদ্ধি সুদ ও সরল সুদের মধ্যে সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "একই P, R, n-এর জন্য CI ≥ SI",
+        "n = 1 হলে CI = SI",
+        "n > 1 হলে CI > SI",
+        "n < 1 হলে CI < SI"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-123-019",
+      "question": "নিচের দণ্ড লেখচিত্রে বিভিন্ন দলের রান: Team1: 180, Team2: 210, Team3: 195, Team4: 225, Team5: 200 কোন দলের রান সবচেয়ে বেশি?",
+      "options": [
+        "Team1",
+        "Team2",
+        "Team3",
+        "Team4"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-123-020",
+      "question": "পাইপ ও চৌবাচ্চা সংক্রান্ত নিচের কোনটি সঠিক?",
+      "options": [
+        "নিট কাজের হার = Σ(ভরার হার) - Σ(খালির হার)",
+        "নিট কাজের হার ধনাত্মক হলে চৌবাচ্চা ভরবে",
+        "নিট কাজের হার ঋণাত্মক হলে চৌবাচ্চা খালি হবে",
+        "সময় = মোট কাজ/নিট কাজের হার"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-123-021",
+      "question": "a : b = 3 : 4, a + b = 28। a ও b-এর মান কত?",
+      "options": [
+        "a = 12",
+        "b = 16",
+        "a = 9",
+        "b = 12"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-022",
+      "question": "(x + 2)(x + 3) বিস্তৃত করলে কোন পদগুলি আসে?",
+      "options": [
+        "x²",
+        "5x",
+        "6",
+        "x³"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-123-023",
+      "question": "একটি ট্রেন 100 মিটার লম্বা এবং 50 m/s বেগে চলছে। একটি 200 মিটার লম্বা সেতু অতিক্রম করতে কত সময় লাগে?",
+      "options": [
+        "4 সেকেন্ড",
+        "5 সেকেন্ড",
+        "6 সেকেন্ড",
+        "7 সেকেন্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-024",
+      "question": "6 : 9 = 12 : 18 সমানুপাতটিতে কোন কোন পদগুলি প্রান্তীয় ও মধ্য?",
+      "options": [
+        "প্রান্তীয় = 6 ও 18",
+        "মধ্য = 9 ও 12",
+        "প্রান্তীয় = 6 ও 12",
+        "মধ্য = 9 ও 18"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-123-025",
+      "question": "দুটি ট্রেন একই দিকে 60 km/h ও 40 km/h গতিতে চলছে। প্রথমটির দৈর্ঘ্য 100 মিটার, দ্বিতীয়টির দৈর্ঘ্য 150 মিটার। প্রথমটি দ্বিতীয়টিকে অতিক্রম করতে কত সময় নেবে?",
+      "options": [
+        "35 সেকেন্ড",
+        "40 সেকেন্ড",
+        "45 সেকেন্ড",
+        "50 সেকেন্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-123-026",
+      "question": "একটি ভগ্নাংশের লব ও হরের অনুপাত 3 : 5। লব ও হরের সঙ্গে 1 যোগ করলে অনুপাত 2 : 3 হয়। ভগ্নাংশটি কত?",
+      "options": [
+        "3/5",
+        "6/10",
+        "9/15",
+        "12/20"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-123-027",
+      "question": "দুই ব্যক্তি একই বিন্দু থেকে বিপরীত দিকে 4 km/h ও 6 km/h গতিতে হাঁটলে 3 ঘন্টা পরে তাদের দূরত্ব:",
+      "options": [
+        "আপেক্ষিক গতি 10 km/h",
+        "দূরত্ব = 30 কিমি",
+        "দূরত্ব = 30 × 3 = 90 কিমি",
+        "10×3=30 কিমি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-123-028",
+      "question": "10, 20, 30, 40, 50 - এই পাঁচটি সংখ্যার গড় কত?",
+      "options": [
+        "25",
+        "30",
+        "32",
+        "35"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-123-029",
+      "question": "একটি জিনিস 5% ক্ষতিতে বিক্রয় করলে ক্ষতি 25 টাকা। জিনিসটির বিক্রয়মূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "460 টাকা",
+        "475 টাকা",
+        "480 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-123-030",
+      "question": "একটি দ্রব্য 10% ক্ষতিতে বিক্রয় করলে বিক্রয়মূল্য 720 টাকা। ক্রয়মূল্য কত?",
+      "options": [
+        "750 টাকা",
+        "780 টাকা",
+        "800 টাকা",
+        "820 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

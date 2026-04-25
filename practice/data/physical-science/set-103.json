@@ -1,0 +1,560 @@
+{
+  "subject": "general-science",
+  "set": 103,
+  "questions": [
+    {
+      "id": "ge-103-001",
+      "question": "হাসপাতালের জীবাণুমুক্তকরণ যন্ত্র অটোক্লেভ সম্পর্কে কোন উক্তিগুলি সঠিক? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "উচ্চ চাপে ফুটন্ত জলের বাষ্প ব্যবহার হয়",
+        "তাপমাত্রা 121°C বা তার বেশি হতে পারে",
+        "প্রেশার কুকারের মতো কাজ করে",
+        "এটি জীবাণুনাশক রাসায়নিক মেশায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-002",
+      "question": "নিচের কোন উপসর্গের মান সঠিক? (বহু-সঠিক)",
+      "options": [
+        "কিলো = 10³",
+        "সেন্টি = 10⁻²",
+        "মিলি = 10⁻³",
+        "মাইক্রো = 10⁻⁶"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-003",
+      "question": "মহাকর্ষ বলের ফলে—",
+      "options": [
+        "জোয়ার-ভাটা হয়",
+        "গ্রহরা সূর্যের চারদিকে ঘোরে",
+        "বায়ুমণ্ডল পৃথিবীর সাথে আটকে থাকে",
+        "তড়িৎ উৎপন্ন হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-103-004",
+      "question": "লন রোলার টানা সহজ নাকি ঠেলা সহজ?",
+      "options": [
+        "ঠেলা সহজ",
+        "টানা সহজ",
+        "উভয়ই সমান",
+        "চাকার ওপর নির্ভর করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-103-005",
+      "question": "প্রতিসরণের স্নেলের সূত্রানুসারে নিচের কোনটি সঠিক?",
+      "options": [
+        "sin i / sin r = ধ্রুবক",
+        "sin r / sin i = ধ্রুবক",
+        "i / r = ধ্রুবক",
+        "r / i = ধ্রুবক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-006",
+      "question": "একটি ট্রাক ও একটি কার একই বেগে চললে কোনটির গতিশক্তি বেশি?",
+      "options": [
+        "কার",
+        "ট্রাক",
+        "সমান",
+        "বলা যাবে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-103-007",
+      "question": "রূপার প্রলেপ দেওয়ার জন্য কোন দ্রবণ ব্যবহৃত হয়?",
+      "options": [
+        "CuSO₄",
+        "AgNO₃",
+        "NaCl",
+        "FeSO₄"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-008",
+      "question": "Mg²⁺ আয়নের 2 মোল বিজারিত করতে কত ফ্যারাডে তড়িৎ প্রয়োজন? (1 F = 96500 C)",
+      "options": [
+        "1 F",
+        "2 F",
+        "4 F",
+        "0.5 F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-103-009",
+      "question": "1 kW ক্ষমতার একটি হিটার 1 ঘণ্টায় কত তাপ উৎপন্ন করবে? (Joule এ)",
+      "options": [
+        "1000 J",
+        "3600 J",
+        "3.6 × 10⁶ J",
+        "100 J"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-010",
+      "question": "-273°C-এর চেয়ে কম তাপমাত্রা সম্ভব নয় কেন?",
+      "options": [
+        "কারণ পারদ জমে যায়",
+        "কারণ এটি পরম শূন্য তাপমাত্রা যেখানে অণুগুলির গতি থেমে যায়",
+        "কারণ আপেক্ষিক তাপ শূন্য হয়",
+        "কারণ সব পদার্থ কঠিন হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-103-011",
+      "question": "নিচের কোনটি ফ্যারাডের সূত্রের সাথে সম্পর্কিত? (বহু-সঠিক)",
+      "options": [
+        "m = ZQ",
+        "Z = তুল্যাঙ্ক ভর / F",
+        "Q = It",
+        "F = 96500 C"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-103-012",
+      "question": "নিউট্রন কণা আবিষ্কার করেন কে?",
+      "options": [
+        "রাদারফোর্ড",
+        "জে.জে. থমসন",
+        "চ্যাডউইক",
+        "মোসেলে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-103-013",
+      "question": "আগুনের পাশে দাঁড়ালে তাপ অনুভূত হয়। এটি কোন পদ্ধতি?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "শোষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-103-014",
+      "question": "একটি আদর্শ যন্ত্রে— (বহু-সঠিক)",
+      "options": [
+        "ইনপুট = আউটপুট",
+        "MA = VR",
+        "η = 100%",
+        "ঘর্ষণ আছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-015",
+      "question": "জলের আপেক্ষিক তাপ বেশি হওয়ার সুফল কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সামুদ্রিক অঞ্চলের জলবায়ু সমভাবাপন্ন",
+        "গাড়ির রেডিয়েটরে কুল্যান্ট হিসেবে ব্যবহার",
+        "জল তাড়াতাড়ি ফোটে",
+        "তাপ ধরে রাখতে পারে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-016",
+      "question": "1 টন = কত কুইন্টাল?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-017",
+      "question": "একটি ব্যাটারির EMF (E) ও টার্মিনাল ভোল্টেজ (V) এর সম্পর্ক— (বহু-সঠিক)",
+      "options": [
+        "ডিসচার্জের সময় V = E - Ir",
+        "চার্জের সময় V = E + Ir",
+        "খোলা বর্তনীতে V = E",
+        "V সর্বদা E এর চেয়ে বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-103-018",
+      "question": "শক্তি কী ধরনের রাশি?",
+      "options": [
+        "ভেক্টর",
+        "টেনসর",
+        "স্কেলার",
+        "উভয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-103-019",
+      "question": "নীচের কোন বিষয়গুলি বায়ুর AQI নির্ণয়ে বিবেচিত হয়? (একাধিক উত্তর)",
+      "options": [
+        "PM2.5",
+        "PM10",
+        "SO₂",
+        "CO"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-020",
+      "question": "বিশুদ্ধ জলের তড়িৎ বিশ্লেষণ করতে সামান্য অ্যাসিড মেশানো হয় কেন?",
+      "options": [
+        "বিশুদ্ধ জল মৃদু তড়িৎ-বিশ্লেষ্য",
+        "অ্যাসিড মেশালে আয়নের সংখ্যা বাড়ে",
+        "পরিবাহিতা বৃদ্ধির জন্য",
+        "জলকে রঙিন করার জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-021",
+      "question": "সিলিকন (Si) সম্পর্কে সঠিক উক্তি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "পারমাণবিক সংখ্যা 14",
+        "এটি ধাতুকল্প",
+        "যোজ্যতা ইলেকট্রন 4",
+        "এটি গ্রুপ 14 এ অবস্থিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-022",
+      "question": "[NUMERICAL] STP-তে 22.4 L CO2 গ্যাসের মধ্যে—",
+      "options": [
+        "44g ভর আছে",
+        "1 mole কণা আছে",
+        "6.022 × 10^23 অণু আছে",
+        "12g অক্সিজেন আছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-023",
+      "question": "কোনো তারের মধ্য দিয়ে 1 মিনিটে 60 C আধান প্রবাহিত হলে— (বহু-সঠিক)",
+      "options": [
+        "তড়িৎ 1 A",
+        "তারটির রোধ 10 Ω হলে বিভব 10 V",
+        "ক্ষমতা 10 W",
+        "উৎপন্ন তাপ 600 J (1 মিনিটে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-024",
+      "question": "সঠিক যোজ্যতা নির্ণয় করো: (বহু-সঠিক)",
+      "options": [
+        "Al এর যোজ্যতা 3",
+        "Zn এর যোজ্যতা 2",
+        "Ag এর যোজ্যতা 1",
+        "O এর যোজ্যতা 6"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-025",
+      "question": "কোনো লেন্সের ক্ষমতার একক কী?",
+      "options": [
+        "মিটার",
+        "ডায়োপ্টার",
+        "সেন্টিমিটার",
+        "ফুট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-103-026",
+      "question": "পটাশিয়াম হাইড্রোক্সাইড (KOH) এর অন্য নাম কী?",
+      "options": [
+        "Caustic Potash",
+        "Pearl Ash",
+        "Quick Lime",
+        "Sal ammoniac"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-027",
+      "question": "অতিরিক্ত UV রশ্মির প্রভাবে কোন রোগ হতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "ত্বকের ক্যান্সার",
+        "ছানি (Cataract)",
+        "রোগ প্রতিরোধ ক্ষমতা হ্রাস",
+        "অ্যানিমিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-103-028",
+      "question": "[NUMERICAL] বায়ুতে শব্দের বেগ 330 m/s এবং তরঙ্গদৈর্ঘ্য 3.3 m হলে কম্পাঙ্ক কত?",
+      "options": [
+        "100 Hz",
+        "1000 Hz",
+        "33 Hz",
+        "10 Hz"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-029",
+      "question": "Li (Z=3) ও Na (Z=11) পর্যায় সারণির কোন গ্রুপে অবস্থিত?",
+      "options": [
+        "গ্রুপ 2",
+        "গ্রুপ 1",
+        "গ্রুপ 11",
+        "গ্রুপ 12"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-103-030",
+      "question": "কোন উৎস থেকে CFC অবমুক্ত হয় না?",
+      "options": [
+        "জমির সার",
+        "রেফ্রিজারেটর",
+        "এয়ার কন্ডিশনার",
+        "ফোম শীট"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

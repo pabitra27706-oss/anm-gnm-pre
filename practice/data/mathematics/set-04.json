@@ -1,0 +1,530 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 4,
+  "questions": [
+    {
+      "id": "am-04-001",
+      "question": "12/18-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "6/9",
+        "4/6",
+        "2/3",
+        "3/4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-002",
+      "question": "নিচের সারণি: ১০ জনের উচ্চতা (সেমি): 150, 160, 155, 165, 170, 158, 162, 168, 172, 155 মধ্যক (Median) কত?",
+      "options": [
+        "160",
+        "161",
+        "162",
+        "163"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-003",
+      "question": "750 টাকার 12% = ?",
+      "options": [
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-004",
+      "question": "একটি ঘনকের বাহু 4 সেমি। ঘনকটির সমগ্রতলের ক্ষেত্রফল কত?",
+      "options": [
+        "64 বর্গসেমি",
+        "80 বর্গসেমি",
+        "96 বর্গসেমি",
+        "112 বর্গসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-005",
+      "question": "একজন দোকানদার 1000 গ্রামের জায়গায় 900 গ্রাম ওজন দেয়। তার শতকরা লাভ কত?",
+      "options": [
+        "10%",
+        "11.11%",
+        "12%",
+        "15%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-006",
+      "question": "6 জন পুরুষ 10 দিনে একটি কাজ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "60 জন-দিন কাজ প্রয়োজন",
+        "12 জন পুরুষ 5 দিনে করবে",
+        "3 জন পুরুষ 20 দিনে করবে",
+        "5 জন পুরুষ 12 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-04-007",
+      "question": "7/8 -এর সমতুল্য:",
+      "options": [
+        "87.5%",
+        "0.875",
+        "7/8",
+        "0.0875"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-04-008",
+      "question": "A, B অপেক্ষা 25% কম দক্ষ। A একটি কাজ 40 দিনে করলে B ওই কাজ কত দিনে করবে?",
+      "options": [
+        "25 দিন",
+        "28 দিন",
+        "30 দিন",
+        "32 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-04-009",
+      "question": "বার্ষিক 8% হারে 10000 টাকার 2 বছরের ত্রৈমাসিক CI-তে নিচের কোনটি সত্য?",
+      "options": [
+        "কার্যকরী হার = 8.24%",
+        "A = 10000(1 + 0.02)⁸",
+        "A = 11716.5 টাকা (প্রায়)",
+        "CI = 1600 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-04-010",
+      "question": "১ থেকে ১০০ পর্যন্ত কয়টি সংখ্যার শেষ অঙ্ক 5?",
+      "options": [
+        "5,15,25,...,95",
+        "10টি সংখ্যা",
+        "20টি সংখ্যা",
+        "5, 10"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-04-011",
+      "question": "নিচের দণ্ড লেখচিত্রে বিভিন্ন পণ্যের দাম: P1: 50, P2: 40, P3: 70, P4: 60 P3 এর দাম P1 এর দামের কত গুণ?",
+      "options": [
+        "1.2",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-012",
+      "question": "একটি রম্বসের কর্ণদ্বয় 6 সেমি ও 8 সেমি। ক্ষেত্রফল কত?",
+      "options": [
+        "12 বর্গসেমি",
+        "24 বর্গসেমি",
+        "36 বর্গসেমি",
+        "48 বর্গসেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-013",
+      "question": "দুটি সংখ্যার লসাগু (LCM) সর্বদা সেই সংখ্যাগুলির ________ হয়।",
+      "options": [
+        "গুণনীয়ক",
+        "ভাজক",
+        "গুণিতক",
+        "যোগফল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-014",
+      "question": "একটি পাই চার্টে একটি উপাদানের শতকরা 25% হলে, তার কোণ কত?",
+      "options": [
+        "75°",
+        "80°",
+        "85°",
+        "90°"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-015",
+      "question": "1000 টাকার 1 বছরে 10% হারে সরল সুদ কত?",
+      "options": [
+        "50 টাকা",
+        "80 টাকা",
+        "100 টাকা",
+        "120 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-016",
+      "question": "1234 সংখ্যাটি 4 দ্বারা বিভাজ্য কিনা?",
+      "options": [
+        "হ্যাঁ, শেষ দুই অঙ্ক 34, 4 দ্বারা বিভাজ্য নয়",
+        "হ্যাঁ",
+        "না",
+        "শুধু 2 দ্বারা বিভাজ্য"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-017",
+      "question": "2 : 3 = 5 : 7 সমানুপাতটি সত্য কিনা?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "মাঝে মাঝে",
+        "বলা যায় না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-018",
+      "question": "2/5 < 3/7 - কথাটি সত্য নাকি মিথ্যা?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "মাঝে মাঝে",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-019",
+      "question": "ক্ষতির সূত্র কোনটি?",
+      "options": [
+        "ক্রয়মূল্য - বিক্রয়মূল্য",
+        "বিক্রয়মূল্য - ক্রয়মূল্য",
+        "চিহ্নিত মূল্য - বিক্রয়মূল্য",
+        "বিক্রয়মূল্য + ক্রয়মূল্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-04-020",
+      "question": "8টি সংখ্যার গড় 55। তাদের মধ্যে একটি সংখ্যা 60 হলে, বাকি 7টির গড় কত?",
+      "options": [
+        "52.86",
+        "53.86",
+        "54.86",
+        "55.86"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-04-021",
+      "question": "8 সেমি বাহুবিশিষ্ট সমবাহু ত্রিভুজের উচ্চতা কত? (√3 = 1.732)",
+      "options": [
+        "4 সেমি",
+        "5 সেমি",
+        "6.928 সেমি",
+        "8 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-022",
+      "question": "নিচের পাই চার্ট: একটি কোম্পানির মোট বিক্রয় 72000 টাকা। বিভিন্ন পণ্যের কোণ: P1 90°, P2 120°, P3 60°, P4 45°, P5 45°। P1 এর বিক্রয় কত?",
+      "options": [
+        "15000",
+        "16000",
+        "18000",
+        "20000"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-04-023",
+      "question": "কোনো দ্রব্যের চিহ্নিত মূল্য 1000 টাকা। 10% ও 20% ক্রমিক ছাড় দেওয়া হলে চূড়ান্ত বিক্রয়মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "710 টাকা",
+        "720 টাকা",
+        "730 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-024",
+      "question": "একটি গোলকের পৃষ্ঠতলের ক্ষেত্রফল 314 বর্গসেমি। ব্যাসার্ধ কত? (π = 3.14)",
+      "options": [
+        "3 সেমি",
+        "4 সেমি",
+        "5 সেমি",
+        "6 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-025",
+      "question": "12, 16, 20, 24-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 4",
+        "LCM = 240",
+        "240, 32 দ্বারা বিভাজ্য নয়",
+        "240, 8 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-04-026",
+      "question": "নিচের রেখা লেখচিত্রে দূরত্ব (কিমি): 8AM: 10, 9AM: 20, 10AM: 35, 11AM: 55, 12PM: 80 9AM থেকে 12PM পর্যন্ত কত কিমি বেড়েছে?",
+      "options": [
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-04-027",
+      "question": "সারণি: ৭টি প্যাকেটের ওজন: 2,3,4,5,6,7,8 কেজি। সঠিক:",
+      "options": [
+        "গড় 5 কেজি",
+        "পরিসর 6",
+        "মোট ওজন 35 কেজি",
+        "মধ্যমা 5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-04-028",
+      "question": "একটি কাজ A 12 দিনে, B 15 দিনে করে। A ও B একসাথে কাজ শুরু করে 4 দিন পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "A ও B একসাথে 4 দিনে কাজ করে = 4(1/12+1/15) = 4(5/60+4/60) = 4×9/60 = 36/60 = 3/5",
+        "বাকি কাজ = 2/5",
+        "B-এর সময় = (2/5)/(1/15) = 6 দিন",
+        "6 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-04-029",
+      "question": "একটি কাজ A 6 দিনে, B 8 দিনে, C 12 দিনে করে। B ও C 3 দিন একসাথে কাজ করার পর A যোগ দিলে বাকি কাজ কত দিনে শেষ হবে?",
+      "options": [
+        "1 দিন",
+        "2 দিন",
+        "3 দিন",
+        "4 দিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-04-030",
+      "question": "(2x + 3)(x - 4) বিস্তৃত করলে কী কী পাওয়া যায়?",
+      "options": [
+        "2x²",
+        "-8x + 3x = -5x",
+        "-12",
+        "2x² - 5x - 12"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

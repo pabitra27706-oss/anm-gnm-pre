@@ -1,0 +1,527 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 50,
+  "questions": [
+    {
+      "id": "am-50-001",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে “কম্পাউন্ডিং ফ্রিকোয়েন্সি” বলতে কী বোঝায়?",
+      "options": [
+        "বছরে কতবার সুদ মূলধনে যোগ হচ্ছে",
+        "সাধারণত বার্ষিক, অর্ধবার্ষিক, ত্রৈমাসিক ইত্যাদি",
+        "ফ্রিকোয়েন্সি বেশি হলে CI বেশি হয়",
+        "ফ্রিকোয়েন্সি CI-কে প্রভাবিত করে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-50-002",
+      "question": "7.349-কে নিকটতম পূর্ণ সংখ্যায় রাউন্ড করলে কী হয়?",
+      "options": [
+        "7",
+        "7.3",
+        "8",
+        "7.35"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-003",
+      "question": "একটি জিনিস 25% লাভে বিক্রয় করা হলো। যদি ক্রয়মূল্য 10% কম হতো এবং বিক্রয়মূল্য 10% কম হতো, তাহলে লাভের শতকরা হার কত হতো?",
+      "options": [
+        "20%",
+        "22.5%",
+        "25%",
+        "27.5%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-50-004",
+      "question": "10 জন পুরুষ 15 দিনে একটি কাজ করে। 5 জন পুরুষ ও 5 জন মহিলা একই কাজ 12 দিনে করে। 1 জন মহিলা একা কাজটি কত দিনে করবে?",
+      "options": [
+        "30 দিন",
+        "33 দিন",
+        "36 দিন",
+        "40 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-50-005",
+      "question": "10 মিটার বাহুবিশিষ্ট বর্গক্ষেত্রের ক্ষেত্রফল কত?",
+      "options": [
+        "40 বর্গমি",
+        "80 বর্গমি",
+        "100 বর্গমি",
+        "120 বর্গমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-006",
+      "question": "0.125-কে ভগ্নাংশে লিখলে?",
+      "options": [
+        "1/8",
+        "1/4",
+        "125/100",
+        "5/4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-007",
+      "question": "8% হারে 4 বছরের সরল সুদ 800 টাকা হলে, আসল কত?",
+      "options": [
+        "2000 টাকা",
+        "2200 টাকা",
+        "2400 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-008",
+      "question": "একটি দ্রব্য 6% ক্ষতিতে বিক্রয় করলে 48 টাকা ক্ষতি হয়। ক্রয়মূল্য কত?",
+      "options": [
+        "600 টাকা",
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-009",
+      "question": "50 জন পুরুষের গড় ওজন 70 কেজি এবং 30 জন মহিলার গড় ওজন 60 কেজি। সব মিলিয়ে গড় ওজন কত?",
+      "options": [
+        "65.25 কেজি",
+        "66.25 কেজি",
+        "67.25 কেজি",
+        "68.25 কেজি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-010",
+      "question": "8টি সংখ্যার যোগফল 320 হলে, গড় কত?",
+      "options": [
+        "35",
+        "38",
+        "40",
+        "42"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-011",
+      "question": "বীজগণিতের ইতিহাসে গুরুত্বপূর্ণ ব্যক্তিত্ব কারা?",
+      "options": [
+        "আল-খোয়ারিজমি",
+        "রেনে দেকার্ত",
+        "আইজ্যাক নিউটন",
+        "আর্যভট্ট"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-50-012",
+      "question": "10টি জিনিসের ক্রয়মূল্য 8টি জিনিসের বিক্রয়মূল্যের সমান হলে লাভের শতকরা হার কত?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-50-013",
+      "question": "3.75 ঘন্টা = কত মিনিট?",
+      "options": [
+        "210 মিনিট",
+        "215 মিনিট",
+        "220 মিনিট",
+        "225 মিনিট"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-014",
+      "question": "567 সংখ্যার অঙ্কের যোগফল কত?",
+      "options": [
+        "15",
+        "18",
+        "21",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-015",
+      "question": "একটি আয়তক্ষেত্রের ক্ষেত্রফল 200 বর্গমি ও দৈর্ঘ্য 20 মি হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "প্রস্থ 10 মি",
+        "পরিসীমা 60 মি",
+        "কর্ণ √500 মি",
+        "ক্ষেত্রফল 200 বর্গমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-50-016",
+      "question": "x² - 11x + 28 = (x - 4)(x - 7) এটি সত্য কিনা?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "কখনো সত্য নয়",
+        "শুধু x = 0 হলে সত্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-017",
+      "question": "বর্গমূল নির্ণয় করা যায় কোন কোন সংখ্যার?",
+      "options": [
+        "0",
+        "1",
+        "−1",
+        "4"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-50-018",
+      "question": "একটি ট্রেন 300 মিটার লম্বা, 108 km/h বেগে। একটি ব্যক্তি একই দিকে 6 km/h গতিতে হাঁটছে। ট্রেনটি ব্যক্তিকে অতিক্রম করতে কত সময় নেবে?",
+      "options": [
+        "108 km/h = 30 m/s, 6 km/h = 5/3 ≈ 1.667 m/s",
+        "আপেক্ষিক গতি = 30 - 1.667 = 28.333 m/s",
+        "সময় = 300 / 28.333 ≈ 10.59 সেকেন্ড",
+        "10.59 সেকেন্ড"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-50-019",
+      "question": "একটি বর্গক্ষেত্রের বাহু a হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষেত্রফল a²",
+        "পরিসীমা 4a",
+        "কর্ণ a√2",
+        "কর্ণ a/√2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-50-020",
+      "question": "পিতার বর্তমান বয়স পুত্রের বয়সের 3 গুণ। 5 বছর পরে পিতার বয়স পুত্রের বয়সের 2.5 গুণ হবে। পুত্রের বর্তমান বয়স কত?",
+      "options": [
+        "10 বছর",
+        "12 বছর",
+        "15 বছর",
+        "18 বছর"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-50-021",
+      "question": "75%-কে দশমিকে লিখলে কী হয়?",
+      "options": [
+        "0.75",
+        "7.5",
+        "75",
+        "0.075"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-022",
+      "question": "A, B ও C যথাক্রমে 6, 8 ও 12 দিনে একটি কাজ করতে পারে। তারা একসাথে কাজ করে 900 টাকা পায়। B-এর ভাগ কত?",
+      "options": [
+        "200 টাকা",
+        "250 টাকা",
+        "300 টাকা",
+        "350 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-50-023",
+      "question": "49, 56, 63-এর লসাগু কত?",
+      "options": [
+        "392",
+        "504",
+        "784",
+        "1008"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-024",
+      "question": "20 জন পুরুষের কাজ 30 জন মহিলার কাজের সমান। 12 জন পুরুষ ও 24 জন মহিলা একত্রে কাজটি কত দিনে করবে যদি পুরুষেরা 24 দিনে কাজটি করে?",
+      "options": [
+        "পুরুষের কাজ 1 দিনে 1/24",
+        "মহিলার কাজ = 20/30 × 1/24 = 1/36",
+        "12/24 + 24/36 = 0.5 + 0.666 = 1.166 >1 → 1/1.166 = 0.857 দিন",
+        "0.857 দিন বা 20.57 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-50-025",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 720 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-026",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 125 টাকা এবং P = 5000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-027",
+      "question": "একটি দ্রব্যের দাম 25% বেড়ে গেলে খরচ অপরিবর্তিত রাখতে কত শতাংশ কম দ্রব্য কিনতে হবে?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-50-028",
+      "question": "উপরের সারণি অনুযায়ী, জানুয়ারি ও ফেব্রুয়ারির মোট বিক্রয় কত হাজার?",
+      "options": [
+        "85",
+        "90",
+        "95",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-50-029",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 180 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-50-030",
+      "question": "স্রোতের অনুকূলে একটি নৌকার গতি 14 km/h, উপরে 6 km/h। স্থির জলে নৌকার গতি:",
+      "options": [
+        "(14+6)/2 = 10 km/h",
+        "10 km/h",
+        "12 km/h",
+        "8 km/h"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

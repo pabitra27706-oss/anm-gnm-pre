@@ -1,0 +1,530 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 142,
+  "questions": [
+    {
+      "id": "am-142-001",
+      "question": "কোনো ব্যক্তি 30 km/h গতিতে 1 ঘন্টা এবং 40 km/h গতিতে 2 ঘন্টা চললে, গড় দ্রুতি কত?",
+      "options": [
+        "35 km/h",
+        "36.67 km/h",
+        "37.5 km/h",
+        "38.33 km/h"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-002",
+      "question": "5%-কে ভগ্নাংশে প্রকাশ করলে কী হয়?",
+      "options": [
+        "1/20",
+        "1/10",
+        "1/5",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-003",
+      "question": "1 থেকে 30-এর মধ্যে মৌলিক সংখ্যা কারা?",
+      "options": [
+        "2,3,5,7",
+        "11,13,17,19",
+        "23,29",
+        "4,6,8,9"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-142-004",
+      "question": "একটি কাজ A 12 দিনে করে, B 15 দিনে করে। A ও B একসাথে কাজ শুরু করে 4 দিন পর B চলে গেলে বাকি কাজ A কত দিনে করবে?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/12+1/15 = 9/60 = 3/20",
+        "4 দিনে করে = 12/20 = 3/5",
+        "বাকি কাজ = 2/5",
+        "A এর সময় = (2/5)/(1/12) = (2/5)×12 = 24/5 = 4.8 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-142-005",
+      "question": "75-কে 150-এর শতকরায় প্রকাশ করলে কী হয়?",
+      "options": [
+        "40%",
+        "45%",
+        "50%",
+        "55%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-006",
+      "question": "1/2, 1/3, 1/4-এর মধ্যে কোনটি সবচেয়ে বড়?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "সব সমান"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-007",
+      "question": "কোনো কাজ সম্পূর্ণ করতে যে সময় লাগে তাকে কী বলে?",
+      "options": [
+        "কাজের সময়",
+        "দক্ষতা",
+        "মোট কাজ",
+        "মজুরি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-008",
+      "question": "2 বছরে 6% হারে সরল সুদ মূলধনের কত শতাংশ?",
+      "options": [
+        "10%",
+        "12%",
+        "14%",
+        "16%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-009",
+      "question": "A, B, C যথাক্রমে 10, 12 ও 15 দিনে একটি কাজ করতে পারে। তারা একত্রে কাজ শুরু করে 2 দিন পর C চলে গেলে বাকি কাজ A ও B কত দিনে করবে?",
+      "options": [
+        "2 দিন",
+        "3 দিন",
+        "4 দিন",
+        "5 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-142-010",
+      "question": "একটি সিলিন্ডারের আয়তন V, ব্যাসার্ধ r ও উচ্চতা h হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "h = V/(πr²)",
+        "r = √(V/πh)",
+        "r² = V/(πh)",
+        "V = πr²h"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-142-011",
+      "question": "একটি দ্রব্য 20% লাভে বিক্রয় করলে SP হয় 600 টাকা। দ্রব্যটির CP কত এবং লাভ কত?",
+      "options": [
+        "CP = 500 টাকা",
+        "লাভ = 100 টাকা",
+        "CP = 480 টাকা",
+        "লাভ = 120 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-012",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য l ও প্রস্থ b হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষেত্রফল বৃদ্ধি পায় যদি l বা b বাড়ে",
+        "l ও b সমান হলে ক্ষেত্রফল সর্বোচ্চ",
+        "পরিসীমা ধ্রুবক থাকলে l = b হলে ক্ষেত্রফল সর্বোচ্চ",
+        "l ও b-এর জন্য বিভিন্ন জোড়া থাকতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-142-013",
+      "question": "কোনো টাকার 2 বছরের চক্রবৃদ্ধি সুদ 420 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-142-014",
+      "question": "কোনো পরীক্ষায় 40% পরীক্ষার্থী ইংরেজিতে ফেল করল, 30% গণিতে ফেল করল এবং 10% উভয় বিষয়ে ফেল করল। কত শতাংশ পরীক্ষার্থী উভয় বিষয়ে পাস করল?",
+      "options": [
+        "30%",
+        "35%",
+        "40%",
+        "45%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-142-015",
+      "question": "1200 টাকার 4 বছরের সরল সুদ 384 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-016",
+      "question": "20% ও 30% ক্রমিক ছাড় দেওয়া হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "net ছাড় = 44%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 560 টাকা",
+        "net ছাড় = 50%",
+        "1000 টাকার জিনিসের চূড়ান্ত মূল্য 500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-017",
+      "question": "(3y)²-এর মান কত?",
+      "options": [
+        "6y",
+        "9y",
+        "6y²",
+        "9y²"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-018",
+      "question": "3² + 4² = ?",
+      "options": [
+        "12",
+        "25",
+        "7",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-019",
+      "question": "মধ্য পদ ভাঙনের (middle term split) জন্য কী কী প্রয়োজন?",
+      "options": [
+        "ac-এর উৎপাদক",
+        "উৎপাদকগুলির যোগফল = b",
+        "উৎপাদকগুলির গুণফল = ac",
+        "সবসময় দুটি উৎপাদক পাওয়া যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-142-020",
+      "question": "ক্ষতির শতকরা হার নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "(ক্ষতি/বিক্রয়মূল্য) × 100%",
+        "(ক্ষতি/ছাড়) × 100%",
+        "(ক্ষতি/ক্রয়মূল্য) × 100%",
+        "(ক্ষতি/লাভ) × 100%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-142-021",
+      "question": "14 সেমি ব্যাসার্ধের একটি বৃত্তের একটি চতুর্থাংশের ক্ষেত্রফল কত? (π = 22/7)",
+      "options": [
+        "সমগ্র বৃত্তের ক্ষেত্রফল = 616 বর্গসেমি",
+        "চতুর্থাংশের ক্ষেত্রফল = 616/4 = 154 বর্গসেমি",
+        "চতুর্থাংশের ক্ষেত্রফল = 154 বর্গসেমি",
+        "চতুর্থাংশের পরিধি = 25 + 14 + 14 = 53 সেমি (প্রায়)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-142-022",
+      "question": "40 নম্বর পেতে 25% নম্বর দরকার। পরীক্ষাটি কত নম্বরের?",
+      "options": [
+        "140",
+        "150",
+        "160",
+        "170"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-023",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য ও প্রস্থের অনুপাত 5 : 3 এবং পরিসীমা 96 মিটার। দৈর্ঘ্য কত মিটার?",
+      "options": [
+        "20 মি",
+        "24 মি",
+        "28 মি",
+        "30 মি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-024",
+      "question": "A একটি কাজ 9 দিনে করে, B 12 দিনে করে। A কাজ শুরু করে 3 দিন পর B যোগ দিলে কাজটি মোট কত দিনে শেষ হবে?",
+      "options": [
+        "6 দিন",
+        "6.5 দিন",
+        "7 দিন",
+        "7.5 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-142-025",
+      "question": "4, 6, 8, 12, 16-এর লসাগু কত?",
+      "options": [
+        "24",
+        "36",
+        "48",
+        "96"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-026",
+      "question": "যৌগিক সংখ্যা কারা?",
+      "options": [
+        "4",
+        "6",
+        "9",
+        "11"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-142-027",
+      "question": "তিনটি ঘণ্টা 15 মিনিট, 20 মিনিট ও 25 মিনিট অন্তর বাজে। তারা কত মিনিট পরে একসঙ্গে বাজবে?",
+      "options": [
+        "150 min",
+        "200 min",
+        "250 min",
+        "300 min"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-028",
+      "question": "বার্ষিক 10% হারে কত বছরে একটি টাকা দ্বিগুণ হবে?",
+      "options": [
+        "প্রায় 7 বছর",
+        "প্রায় 7.2 বছর",
+        "প্রায় 7.5 বছর",
+        "প্রায় 8 বছর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-142-029",
+      "question": "85% -কে ভগ্নাংশে লিখুন।",
+      "options": [
+        "16/20",
+        "17/20",
+        "18/20",
+        "19/20"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-142-030",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য l ও প্রস্থ b হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষেত্রফল = l × b",
+        "কর্ণ = √(l² + b²)",
+        "পরিসীমা = 2(l + b)",
+        "l = b হলে বর্গক্ষেত্র"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

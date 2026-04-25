@@ -1,0 +1,537 @@
+{
+  "subject": "general-science",
+  "set": 5,
+  "questions": [
+    {
+      "id": "ge-05-001",
+      "question": "F (Z=9) এর ইলেকট্রন বিন্যাস কোনটি?",
+      "options": [
+        "2,6",
+        "2,7",
+        "2,8",
+        "2,5,2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-002",
+      "question": "কোন রোগগুলি জলবাহিত (Water-borne)? (একাধিক উত্তর)",
+      "options": [
+        "কলেরা",
+        "টাইফয়েড",
+        "হাঁপানি",
+        "আমাশয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-003",
+      "question": "নিচের কোনটি 'পেট্রোকেমিক্যাল' পণ্য? (i) প্লাস্টিক (ii) সিন্থেটিক ফাইবার (iii) রাবার (iv) সার",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-004",
+      "question": "ওজোন স্তরের ক্ষয় রোধে করণীয় কী? (একাধিক উত্তর)",
+      "options": [
+        "CFC ব্যবহার হ্রাস",
+        "পুরনো এসি ও ফ্রিজ রিসাইক্লিং",
+        "মন্ট্রিল প্রোটোকল অনুসরণ",
+        "বেশি করে কয়লা পোড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-005",
+      "question": "নিচের কোন দুটি মৌল ক্ষার ধাতু? (বহু-সঠিক)",
+      "options": [
+        "Na",
+        "Mg",
+        "K",
+        "Ca"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-05-006",
+      "question": "থার্মোমিটারে রঙিন অ্যালকোহল ব্যবহার করা হয় কেন?",
+      "options": [
+        "রঙিন হলে সুন্দর দেখায়",
+        "সহজে তাপমাত্রা পড়া যায়",
+        "বিষাক্ততা কম",
+        "ফোটোজেনিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-007",
+      "question": "বর্জ্য ব্যবস্থাপনার আধুনিক পদ্ধতি কী? (একাধিক উত্তর)",
+      "options": [
+        "কম্পোস্টিং",
+        "বর্জ্য থেকে শক্তি উৎপাদন (Waste to energy)",
+        "ভরাটকরণ (Landfill)",
+        "নদীতে ফেলা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-008",
+      "question": "NaCl তড়িৎ বিশ্লেষণে পারদ ক্যাথোড ব্যবহার করলে— (বহু-সঠিক)",
+      "options": [
+        "সোডিয়াম অ্যামালগাম তৈরি হয়",
+        "ক্লোরিন গ্যাস নির্গত হয়",
+        "দ্রবণে NaOH তৈরি হয় না",
+        "কস্টিক সোডা পাওয়ার জন্য বিশেষ পদ্ধতি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-05-009",
+      "question": "তড়িৎলেপন (Electroplating) প্রক্রিয়ায় কোনটি করা হয়?",
+      "options": [
+        "একটি ধাতুর উপর অন্য ধাতুর প্রলেপ দেওয়া",
+        "ধাতু গলানো",
+        "তড়িৎ উৎপাদন",
+        "রোধ পরিমাপ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-010",
+      "question": "0°C তাপমাত্রার বরফ 0°C তাপমাত্রার জলের থেকে ঠান্ডা লাগার কারণ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বরফ গলনের সুপ্ততাপ শোষণ করে",
+        "বরফের পরিবাহিতা কম",
+        "বরফের আপেক্ষিক তাপ বেশি",
+        "বরফের তাপমাত্রা কম"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-05-011",
+      "question": "নিচের কোন লবণটি প্রশম কিন্তু এর জলীয় দ্রবণ আম্লিক?",
+      "options": [
+        "NaCl",
+        "NH4Cl",
+        "Na2CO3",
+        "KNO3"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-05-012",
+      "question": "টিন-সীসা সংকর ফিউজ তারের বৈশিষ্ট্য— (বহু-সঠিক)",
+      "options": [
+        "কম গলনাঙ্ক",
+        "নির্দিষ্ট রোধ",
+        "সস্তা",
+        "নিম্ন রোধ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-013",
+      "question": "সমুদ্রের জোয়ার-ভাটা থেকে কী ধরনের শক্তি পাওয়া যায়?",
+      "options": [
+        "সৌর",
+        "তাপ",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "রাসায়নিক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-014",
+      "question": "60 W ও 100 W এর দুটি বাল্ব 220 V এ সমান্তরালে যুক্ত করলে— (বহু-সঠিক)",
+      "options": [
+        "100 W বাল্ব বেশি উজ্জ্বল",
+        "60 W বাল্বের রোধ বেশি",
+        "100 W বাল্বের প্রবাহ বেশি",
+        "উভয় বাল্বের ভোল্টেজ 220 V"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-015",
+      "question": "একটি বস্তুকে ছাদ থেকে ফেলে দিলে— (বহু-সঠিক)",
+      "options": [
+        "ছাদে গতিশক্তি সর্বনিম্ন বা শূন্য",
+        "মাটিতে বিভব শক্তি সর্বনিম্ন",
+        "পুরো পথে মোট শক্তি একই থাকে",
+        "গতিশক্তি ক্রমাগত বাড়তে থাকে (বাধাহীন)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-016",
+      "question": "নিচের কোন মৌলটির পারমাণবিক ব্যাসার্ধ সবচেয়ে বেশি?",
+      "options": [
+        "Li",
+        "Na",
+        "K",
+        "Rb"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-017",
+      "question": "নিষ্ক্রিয় গ্যাস সম্পর্কে সঠিক কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "এদের যোজ্যতা শূন্য",
+        "এরা সহজে বিক্রিয়া করে",
+        "এদের সর্ববহিঃস্থ কক্ষ সম্পূর্ণ",
+        "গ্রুপ 18 এ অবস্থিত"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-05-018",
+      "question": "4টি কার্বন পরমাণু বিশিষ্ট জৈব যৌগের মূল শব্দ কী?",
+      "options": [
+        "মিথ-",
+        "ইথ-",
+        "প্রপ-",
+        "বুট-"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-05-019",
+      "question": "কপার সালফেট বা তুঁতকে উত্তপ্ত করলে কী হয়?",
+      "options": [
+        "এটি নীল বর্ণ হারায়",
+        "এটি সাদা চূর্ণে পরিণত হয়",
+        "কেলাস জল বাষ্পীভূত হয়",
+        "সবকটি সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-020",
+      "question": "চিহ্ন প্রথা অনুসারে উত্তল দর্পণের ফোকাস দূরত্বের চিহ্ন কী?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "শূন্য",
+        "অনির্দিষ্ট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-021",
+      "question": "লেড-এসিড ব্যাটারির তড়িৎ বিশ্লেষ্য পদার্থ কী?",
+      "options": [
+        "HCl",
+        "HNO₃",
+        "H₂SO₄",
+        "NaOH"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-022",
+      "question": "1 মাইক্রন (μm) = কত মিটার?",
+      "options": [
+        "10⁻³ m",
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁻¹² m"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-023",
+      "question": "একটি ফ্রিজে খাবার ঠান্ডা রাখা হয়-",
+      "options": [
+        "পরিচলনের মাধ্যমে",
+        "পরিবহনের মাধ্যমে",
+        "বাষ্পীভবনের মাধ্যমে তাপ শোষণ করে",
+        "বিকিরণের মাধ্যমে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-024",
+      "question": "অবতল দর্পণে কোন অবস্থায় প্রতিবিম্ব অসীমে তৈরি হয়?",
+      "options": [
+        "বস্তু C তে থাকলে",
+        "বস্তু F তে থাকলে",
+        "বস্তু অনন্তে থাকলে",
+        "বস্তু P তে থাকলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-025",
+      "question": "কপার সালফেট বা তুঁতের কেলাসিত বর্ণ কীরূপ?",
+      "options": [
+        "সাদা",
+        "নীল",
+        "সবুজ",
+        "বাদামী"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-05-026",
+      "question": "তড়িৎ লোহা গরম হওয়া কোন নীতির ওপর নির্ভরশীল?",
+      "options": [
+        "তড়িৎ প্রবাহের চৌম্বক ক্রিয়া",
+        "তড়িৎ বিশ্লেষণ",
+        "জুলের সূত্র",
+        "ফ্যারাডের সূত্র"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-027",
+      "question": "গরম খাবার ঠান্ডা হতে যে পদ্ধতি কাজ করে, তা হল-",
+      "options": [
+        "শুধু পরিবহন",
+        "পরিবহন, পরিচলন ও বিকিরণ",
+        "শুধু বিকিরণ",
+        "শুধু পরিচলন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-05-028",
+      "question": "ভিজে কাপড় শুকোনোর ঘটনাটি কী?",
+      "options": [
+        "স্ফুটন",
+        "গলন",
+        "বাষ্পীভবন",
+        "ঊর্ধ্বপাতন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-05-029",
+      "question": "একটি ধাতব চামচ গরম চায়ের মধ্যে রাখলে চামচটির পুরো অংশ গরম হয়ে যায়। এটি কোন পদ্ধতির উদাহরণ?",
+      "options": [
+        "পরিচলন",
+        "বিকিরণ",
+        "পরিবহন",
+        "শোষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-05-030",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 40 cm। 20 cm দূরে বস্তু রাখলে প্রতিবিম্বের দূরত্ব কত?",
+      "options": [
+        "-40 cm",
+        "+40 cm",
+        "-20 cm",
+        "+20 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

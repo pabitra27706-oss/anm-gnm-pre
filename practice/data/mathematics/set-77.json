@@ -1,0 +1,524 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 77,
+  "questions": [
+    {
+      "id": "am-77-001",
+      "question": "রেখা লেখচিত্রে একাধিক রেখা:",
+      "options": [
+        "তুলনা সহজ হয়",
+        "বিভিন্ন ডাটা সেট একসাথে",
+        "লেজেন্ড ব্যবহার করা হয়",
+        "একই অক্ষ ব্যবহার হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-77-002",
+      "question": "8টি সংখ্যার গড় 42। প্রথম 3টির গড় 38 হলে, শেষ 5টির গড়:",
+      "options": [
+        "(336 - 114)/5 = 222/5 = 44.4",
+        "44.4",
+        "45",
+        "43"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-77-003",
+      "question": "3 বছরের জন্য CI ও SI-এর পার্থক্যের সূত্র কোনটি?",
+      "options": [
+        "P(R/100)²",
+        "P(R/100)² × (3 + R/100)",
+        "P(R/100)² × (3 + R/100)",
+        "3PR/100"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-004",
+      "question": "(1/2) × (2/3) × (3/4) × (4/5) সরলীকরণ করলে কী পাওয়া যায় এবং এটি কোন ভগ্নাংশের সমান?",
+      "options": [
+        "1/5",
+        "0.2",
+        "20/100",
+        "0.02"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-77-005",
+      "question": "পাই চার্টে শতকরা থেকে কোণ বের করার নিয়ম:",
+      "options": [
+        "শতকরা × 360 / 100",
+        "1% = 3.6°",
+        "10% = 36°",
+        "25% = 90°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-77-006",
+      "question": "180 টাকা A, B, C-এর মধ্যে এমনভাবে ভাগ করো যেন A : B = 2 : 3 এবং B : C = 4 : 5 হয়। A, B, C-এর প্রাপ্ত টাকা কত?",
+      "options": [
+        "A = 48 টাকা",
+        "B = 72 টাকা",
+        "C = 60 টাকা",
+        "A = 40 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-77-007",
+      "question": "(a - b)³-এর বিস্তারে কোন কোন পদ থাকে?",
+      "options": [
+        "a³",
+        "-3a²b",
+        "3ab²",
+        "-b³"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-77-008",
+      "question": "একটি ত্রিভুজের বাহু a, b, c হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "পরিসীমা = a + b + c",
+        "s = (a + b + c)/2",
+        "ক্ষেত্রফল = √[s(s-a)(s-b)(s-c)]",
+        "a + b > c, b + c > a, c + a > b"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-77-009",
+      "question": "একটি শহরের জনসংখ্যা প্রতি বছর 5% হারে বাড়ছে। বর্তমান জনসংখ্যা 80000 হলে, 2 বছর পর জনসংখ্যা কত হবে?",
+      "options": [
+        "84000",
+        "86000",
+        "88000",
+        "88200"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-77-010",
+      "question": "একটি টেবিলের দাম 25% ছাড়ে 375 টাকা হলে, ধার্যমূল্য কত?",
+      "options": [
+        "450 টাকা",
+        "480 টাকা",
+        "500 টাকা",
+        "520 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-011",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 40 টাকা এবং সুদের হার 4% হলে মূলধন কত?",
+      "options": [
+        "20000 টাকা",
+        "22000 টাকা",
+        "23000 টাকা",
+        "25000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-012",
+      "question": "নিচের পাই চার্টে মোট 900 জন শিক্ষার্থীর পছন্দ: বিজ্ঞান 120°, কলা 100°, বাণিজ্য 80°, আইটি 60°। বিজ্ঞানের শিক্ষার্থী সংখ্যা কত?",
+      "options": [
+        "200",
+        "250",
+        "300",
+        "350"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-77-013",
+      "question": "10% লাভে একটি জিনিস বিক্রয় করলে যে লাভ হয়, 10% ক্ষতিতে বিক্রয় করলে সেই পরিমাণ ক্ষতি হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "যে কোনো মূল্য হতে পারে",
+        "নির্দিষ্ট নয়",
+        "0 টাকা",
+        "অসীম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-014",
+      "question": "5 জন ছাত্রের নম্বর 56, 62, 68, 74, x। তাদের গড় 65 হলে x কত?",
+      "options": [
+        "60",
+        "62",
+        "64",
+        "65"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-015",
+      "question": "5x - 3y এবং 2x + 4y যোগ করলে কী পাওয়া যায়?",
+      "options": [
+        "7x + y",
+        "7x - y",
+        "3x + 7y",
+        "3x - 7y"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-016",
+      "question": "সব সংখ্যা যদি সমান হয়, তবে গড় কী হয়?",
+      "options": [
+        "0",
+        "1",
+        "সেই সংখ্যা",
+        "অর্ধেক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-017",
+      "question": "0 কে কোন সংখ্যার যোগাত্মক বিপরীত বলা হয়?",
+      "options": [
+        "1",
+        "−1",
+        "0",
+        "সংজ্ঞায়িত নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-018",
+      "question": "ক্ষতি কখন হয়?",
+      "options": [
+        "যখন ক্রয়মূল্য < বিক্রয়মূল্য",
+        "যখন বিক্রয়মূল্য > ক্রয়মূল্য",
+        "যখন ক্রয়মূল্য > বিক্রয়মূল্য",
+        "যখন কোন ছাড় নেই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-019",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 250 টাকা। সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "80000 টাকা",
+        "90000 টাকা",
+        "100000 টাকা",
+        "110000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-020",
+      "question": "√3 আনুমানিক মান কত?",
+      "options": [
+        "1.41",
+        "1.73",
+        "2.14",
+        "1.57"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-021",
+      "question": "6, 8, 12-এর চতুর্থ সমানুপাতী কত?",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-022",
+      "question": "একটি পাইপ একটি চৌবাচ্চা 6 ঘন্টায় ভরাতে পারে। একটি ছিদ্র থাকায় চৌবাচ্চাটি ভর bias 8 ঘন্টা লাগে। ছিদ্রটি একাই চৌবাচ্চাটি কত ঘন্টায় খালি করবে?",
+      "options": [
+        "20 ঘন্টা",
+        "22 ঘন্টা",
+        "24 ঘন্টা",
+        "26 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-77-023",
+      "question": "একটি দ্রব্যের চিহ্নিত মূল্য 2500 টাকা। 20% ছাড় দিয়ে বিক্রয় করলে বিক্রয়মূল্য কত?",
+      "options": [
+        "2000 টাকা",
+        "1900 টাকা",
+        "1800 টাকা",
+        "1700 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-024",
+      "question": "6000 টাকার বার্ষিক 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1240 টাকা",
+        "1260 টাকা",
+        "1280 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-025",
+      "question": "একটি মাঠের তিনটি প্রান্তে তিনটি বাতি যথাক্রমে 8 সেকেন্ড, 12 সেকেন্ড এবং 18 সেকেন্ড অন্তর জ্বলে। কত সেকেন্ড পরে তারা একসাথে জ্বলবে?",
+      "options": [
+        "48 সেকেন্ড",
+        "56 সেকেন্ড",
+        "64 সেকেন্ড",
+        "72 সেকেন্ড"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-026",
+      "question": "15 : 25-এর সরলতম অনুপাত কোনটি?",
+      "options": [
+        "3 : 5",
+        "5 : 3",
+        "15 : 25",
+        "5 : 8"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-027",
+      "question": "HCF(a, a) = ?",
+      "options": [
+        "0",
+        "1",
+        "a",
+        "a²"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-77-028",
+      "question": "8টি সংখ্যার গড় 14। প্রতিটি সংখ্যার সাথে 4 যোগ করে নতুন যে সংখ্যাগুলি পাওয়া যায়, তাদের গড় কত?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-77-029",
+      "question": "নিচের পাই চার্টে মোট 600 জনের পছন্দ: রাজনীতি 72°, খেলা 108°, সিনেমা 90°, সঙ্গীত 54°, অন্য 36°। খেলা পছন্দ করে কত জন?",
+      "options": [
+        "150",
+        "160",
+        "170",
+        "180"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-77-030",
+      "question": "সমানুপাত কাকে বলে?",
+      "options": [
+        "দুটি অনুপাতের সমতা",
+        "দুটি অনুপাতের যোগফল",
+        "দুটি অনুপাতের গুণফল",
+        "দুটি অনুপাতের বিয়োগফল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

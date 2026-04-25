@@ -1,0 +1,527 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 111,
+  "questions": [
+    {
+      "id": "am-111-001",
+      "question": "নিচের কোনটি মৌলিক সংখ্যা নয়?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-002",
+      "question": "0.125 লিটার দুধের দাম 5 টাকা হলে প্রতি লিটার দুধের দাম কত?",
+      "options": [
+        "40 টাকা",
+        "50 টাকা",
+        "30 টাকা",
+        "20 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-003",
+      "question": "লাভ কখন হয়?",
+      "options": [
+        "যখন ক্রয়মূল্য > বিক্রয়মূল্য",
+        "যখন বিক্রয়মূল্য > ক্রয়মূল্য",
+        "যখন ক্রয়মূল্য = বিক্রয়মূল্য",
+        "যখন ছাড় দেওয়া হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-004",
+      "question": "যদি সমান সময় x ও y গতিতে যায়, তবে গড় গতিবেগ কী?",
+      "options": [
+        "(x+y)/2",
+        "2xy/(x+y)",
+        "√(xy)",
+        "(x-y)/2"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-005",
+      "question": "নিচের কোন কোনটি সঠিক উৎপাদক বিশ্লেষণ?",
+      "options": [
+        "x² + 5x + 6 = (x + 2)(x + 3)",
+        "x² - 5x + 6 = (x - 2)(x - 3)",
+        "x² + x - 6 = (x + 3)(x - 2)",
+        "x² - x - 6 = (x + 2)(x - 3)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-111-006",
+      "question": "1000 টাকার 2 বছরের সুদ 160 টাকা। একই হারে 1500 টাকার 3 বছরের সুদ কত?",
+      "options": [
+        "320 টাকা",
+        "340 টাকা",
+        "360 টাকা",
+        "380 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-111-007",
+      "question": "250 টাকায় 20 কেজি চাল কিনলে 375 টাকায় কত কেজি চাল কেনা যাবে?",
+      "options": [
+        "25 কেজি",
+        "28 কেজি",
+        "30 কেজি",
+        "32 কেজি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-008",
+      "question": "একটি দ্রব্যের CP ও SP-এর অনুপাত 7:8 হলে লাভ% কত এবং CP:SP = 5:4 হলে ক্ষতি% কত?",
+      "options": [
+        "প্রথমটিতে লাভ% = 14.28%",
+        "দ্বিতীয়টিতে ক্ষতি% = 20%",
+        "প্রথমটিতে লাভ% = 12.5%",
+        "দ্বিতীয়টিতে ক্ষতি% = 25%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-009",
+      "question": "একটি সাইকেল আরোহী 18 km/h গতিতে 30 মিনিটে কত দূর যায়?",
+      "options": [
+        "6 কিমি",
+        "7 কিমি",
+        "8 কিমি",
+        "9 কিমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-010",
+      "question": "একটি জিনিস 10% লাভে বিক্রয় করা হল। যদি এটি 20% বেশি দামে কেনা হতো এবং 10% কম দামে বিক্রয় করা হতো, তাহলে লাভ/ক্ষতি কত হতো?",
+      "options": [
+        "5% ক্ষতি",
+        "8% ক্ষতি",
+        "10% ক্ষতি",
+        "12% ক্ষতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-111-011",
+      "question": "0.5-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "1/2",
+        "2/4",
+        "3/6",
+        "4/9"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-111-012",
+      "question": "একটি কাজ A 8 দিনে করে, B 10 দিনে করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 40/9 দিনে করে",
+        "A ও B একসাথে 1 দিনে 9/40 কাজ করে",
+        "A ও B একসাথে 4 দিনে 36/40 কাজ করে",
+        "A ও B একসাথে 5 দিনে কাজ শেষ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-111-013",
+      "question": "3x² + 2x - 5 রাশিতে কয়টি পদ আছে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-014",
+      "question": "100, 200, 300, 400, 500 এর গড়:",
+      "options": [
+        "300",
+        "1500/5 = 300",
+        "250",
+        "350"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-111-015",
+      "question": "2/5 অংশ = 50 টাকা। সম্পূর্ণ টাকার পরিমাণ কত?",
+      "options": [
+        "100 টাকা",
+        "125 টাকা",
+        "150 টাকা",
+        "200 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-016",
+      "question": "অর্ধবার্ষিক চক্রবৃদ্ধি সুদে বার্ষিক সুদের হার 10% হলে প্রকৃত বার্ষিক সুদের হার কত?",
+      "options": [
+        "10%",
+        "10.25%",
+        "10.5%",
+        "11%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-017",
+      "question": "একটি স্কুলবাস 30 km/h গতিতে 5 মিনিটে কত দূরত্ব অতিক্রম করে?",
+      "options": [
+        "2 km",
+        "2.2 km",
+        "2.5 km",
+        "3 km"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-018",
+      "question": "একটি দ্রব্য 15% লাভে বিক্রয় করলে SP = 1150 টাকা। দ্রব্যটির CP কত এবং 20% লাভে SP কত?",
+      "options": [
+        "CP = 1000 টাকা",
+        "20% লাভে SP = 1200 টাকা",
+        "CP = 950 টাকা",
+        "20% লাভে SP = 1140 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-019",
+      "question": "8টি সংখ্যার যোগফল 320। 9ম সংখ্যা যোগ করলে যোগফল 370 হয়। 9ম সংখ্যাটি কত?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-020",
+      "question": "1/2, 2/4, 3/6, 4/8 - এদের ক্ষেত্রে নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "সব ভগ্নাংশ সমান",
+        "প্রতিটি 0.5-এর সমান",
+        "এরা সমতুল্য ভগ্নাংশ",
+        "প্রতিটি প্রকৃত ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-111-021",
+      "question": "A ও B একসাথে একটি কাজ 9 দিনে করে। A একা 15 দিনে করলে B একা কত দিনে করবে?",
+      "options": [
+        "20.5 দিন",
+        "21.5 দিন",
+        "22.5 দিন",
+        "23.5 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-022",
+      "question": "বর্গক্ষেত্রের ক্ষেত্রফল কর্ণের মাধ্যমে নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "d²/2",
+        "d²/4",
+        "2d²",
+        "d²"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-023",
+      "question": "নিচের দণ্ড লেখচিত্রে ৪টি ব্র্যান্ডের দাম: Brand A: 100, B: 150, C: 120, D: 180 B ও D এর দামের অনুপাত কত?",
+      "options": [
+        "5:6",
+        "6:5",
+        "5:7",
+        "7:5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-024",
+      "question": "নিচের কোন ভগ্নাংশ ও দশমিক জোড়াগুলি সমান?",
+      "options": [
+        "1/2 = 0.5",
+        "1/4 = 0.25",
+        "3/4 = 0.75",
+        "1/5 = 0.2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-111-025",
+      "question": "নিচের পাই চার্টে ৫টি বিষয়ে সময় বণ্টন: বাংলা 72°, ইংরেজি 108°, গণিত 90°, বিজ্ঞান 54°, ইতিহাস 36°। ইংরেজির জন্য কোণ কত?",
+      "options": [
+        "72°",
+        "90°",
+        "108°",
+        "120°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-026",
+      "question": "নিচের কোন কোনটি দ্বিঘাত সমীকরণ?",
+      "options": [
+        "x² + 3x + 2 = 0",
+        "2x + 3 = 7",
+        "x² = 25",
+        "x³ + 8 = 0"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-111-027",
+      "question": "2.5 + 3.5 = 6.0। 2.5 + 3.55 = কত?",
+      "options": [
+        "6.05",
+        "6.5",
+        "5.05",
+        "5.95"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-111-028",
+      "question": "একটি কাজ A 10 দিনে, B 12 দিনে, C 15 দিনে করে। A ও B 2 দিন একসাথে কাজ করার পর C যোগ দিলে বাকি কাজ কত দিনে শেষ হবে?",
+      "options": [
+        "2 দিন",
+        "3 দিন",
+        "4 দিন",
+        "5 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-111-029",
+      "question": "45% -কে লঘিষ্ঠ ভগ্নাংশে প্রকাশ করুন।",
+      "options": [
+        "7/20",
+        "9/20",
+        "11/20",
+        "13/20"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-111-030",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 4 ও 6 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 8 ঘন্টায় খালি হয়। চৌবাচ্চা অর্ধেক ভর্তি থাকলে তিনটি একসাথে খুলে দিলে সম্পূর্ণ ভ bias কত ঘন্টা লাগবে?",
+      "options": [
+        "নিট ভরার হার = 1/4 + 1/6 - 1/8 = (6+4-3)/24 = 7/24",
+        "অর্ধেক কাজের জন্য সময় = (1/2)/(7/24) = 12/7 = 1.714 ঘন্টা",
+        "1.714 ঘন্টা",
+        "2 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

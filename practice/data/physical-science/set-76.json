@@ -1,0 +1,524 @@
+{
+  "subject": "general-science",
+  "set": 76,
+  "questions": [
+    {
+      "id": "ge-76-001",
+      "question": "অ্যাসিড বৃষ্টির ফলে তাজমহলের কী ক্ষতি হচ্ছে?",
+      "options": [
+        "মাটি ধসে যাচ্ছে",
+        "মার্বেল পাথরের রং পরিবর্তন ও ক্ষয় (মার্বেল ক্যান্সার)",
+        "নকশা উঠে যাচ্ছে",
+        "পানির স্তর কমে যাচ্ছে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-002",
+      "question": "একই ভর সংখ্যা কিন্তু ভিন্ন পারমাণবিক সংখ্যা বিশিষ্ট পরমাণুগুলোকে কী বলে?",
+      "options": [
+        "আইসোটোপ",
+        "আইসোবার",
+        "আইসোটোন",
+        "আইসোমার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-76-003",
+      "question": "চিকিৎসকরা যে যন্ত্র দ্বারা রক্তচাপ নির্ণয় করেন তা হল—",
+      "options": [
+        "স্টেথোস্কোপ",
+        "স্ফিগমোম্যানোমিটার",
+        "থার্মোমিটার",
+        "আলট্রাসনোগ্রাফি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-004",
+      "question": "[NUMERICAL] একটি বস্তু 5 m উচ্চতা থেকে অবাধে পড়লে ভূমিতে পৌঁছাতে কত সময় লাগবে? (g = 10 m/s²)",
+      "options": [
+        "1 s",
+        "2 s",
+        "0.5 s",
+        "1.5 s"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-76-005",
+      "question": "কোনটি নবায়নযোগ্য শক্তির উৎস যা তাপ উৎপাদন করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সৌর শক্তি",
+        "ভূ-তাপীয় শক্তি",
+        "কয়লা",
+        "পেট্রোলিয়াম"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-76-006",
+      "question": "1 ফ্যারাড = কত? (ধারকত্বের একক)",
+      "options": [
+        "কুলম্ব/ভোল্ট",
+        "(অ্যাম্পিয়ার·সেকেন্ড)/ভোল্ট",
+        "জুল/ভোল্ট²",
+        "ওহম/সেকেন্ড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-76-007",
+      "question": "বস্তুর স্থিতিজাড্য কিসের ওপর নির্ভর করে?",
+      "options": [
+        "বেগ",
+        "ভর",
+        "আয়তন",
+        "উচ্চতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-76-008",
+      "question": "অ্যালকোহল ও অ্যাসিডের বিক্রিয়ায় কী তৈরি হয়?",
+      "options": [
+        "অ্যালডিহাইড",
+        "কিটোন",
+        "এস্টার",
+        "ইথার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-009",
+      "question": "10g বরফকে 0°C থেকে 10°C জলে পরিণত করতে মোট কত তাপ লাগবে? (L_f = 80 cal/g)",
+      "options": [
+        "800 cal",
+        "900 cal",
+        "1000 cal",
+        "1800 cal"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-76-010",
+      "question": "বরফ গলনের লীনতাপ (Latent heat of fusion) কত?",
+      "options": [
+        "540 cal/g",
+        "100 cal/g",
+        "80 cal/g",
+        "0 cal/g"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-76-011",
+      "question": "গরমের দিনে কুকুর হাঁপায়। এর কারণ কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ঘাম গ্রন্থি কম থাকায়",
+        "বাষ্পীভবনের মাধ্যমে তাপমাত্রা নিয়ন্ত্রণ",
+        "শরীর ঠান্ডা রাখার জন্য",
+        "অক্সিজেন বাড়ানোর জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-76-012",
+      "question": "ফিউজ বর্তনীর কোন লাইনে সংযোগ করা উচিত? (বহু-সঠিক)",
+      "options": [
+        "লাইভ তারে",
+        "নিরপেক্ষ তারের আগে",
+        "মূল লাইনে আগে",
+        "আর্থ তারে"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-76-013",
+      "question": "বায়ু দূষণ প্রতিরোধে BS (Bharat Stage) নর্মস চালু হয়েছে কোনটি নিয়ন্ত্রণে?",
+      "options": [
+        "খাদ্য দূষণ",
+        "বাহন নির্গমন (Vehicular emission)",
+        "জল দূষণ",
+        "মাটি দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-014",
+      "question": "তড়িৎ লেপনের জন্য লেপনীয় বস্তুটি কোন তড়িৎদ্বারের সাথে যুক্ত করতে হয়?",
+      "options": [
+        "অ্যানোড",
+        "ক্যাথোড",
+        "ভোল্ট মিটার",
+        "অ্যামিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-015",
+      "question": "অবতল দর্পণ কী জাতীয় দর্পণ?",
+      "options": [
+        "সমতল দর্পণ",
+        "অপসারী দর্পণ",
+        "অভিসারী দর্পণ",
+        "উত্তল দর্পণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-76-016",
+      "question": "ক্যালোরিমিতির ব্যবহারিক প্রয়োগ হলো-",
+      "options": [
+        "তাপমাত্রা নির্ণয়",
+        "বস্তুর আপেক্ষিক তাপ নির্ণয়",
+        "দৈর্ঘ্য নির্ণয়",
+        "ভর নির্ণয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-017",
+      "question": "একটি বস্তুকে উত্তল লেন্সের 2F ও F এর মধ্যে রাখলে প্রতিবিম্ব কোথায় তৈরি হবে?",
+      "options": [
+        "2F তে",
+        "F তে",
+        "2F এর বাইরে",
+        "অনন্তে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-018",
+      "question": "30°C তাপমাত্রাকে কেলভিন স্কেলে প্রকাশ করলে মান কত হবে?",
+      "options": [
+        "243 K",
+        "303 K",
+        "313 K",
+        "333 K"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-76-019",
+      "question": "Q = mcΔT সূত্রটিতে 'm' কী নির্দেশ করে?",
+      "options": [
+        "আপেক্ষিক তাপ",
+        "তাপমাত্রার পরিবর্তন",
+        "বস্তুর ভর",
+        "গৃহীত তাপ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-020",
+      "question": "কপারের তুলনায় অ্যালুমিনিয়ামের রোধাঙ্ক—",
+      "options": [
+        "বেশি",
+        "কম",
+        "সমান",
+        "শূন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-021",
+      "question": "নিচের কোনটি উত্তল দর্পণের বৈশিষ্ট্য?",
+      "options": [
+        "অভিসারী দর্পণ",
+        "অপসারী দর্পণ",
+        "সমতল দর্পণ",
+        "বাস্তব প্রতিবিম্ব তৈরি করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-76-022",
+      "question": "নিচের কোনটি ক্ষারক (Base) কিন্তু ক্ষার (Alkali) নয়?",
+      "options": [
+        "NaOH",
+        "KOH",
+        "Al(OH)3",
+        "Ca(OH)2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-76-023",
+      "question": "[NUMERICAL] 1 mole অক্সিজেনে (O2) থাকে—",
+      "options": [
+        "32 g ভর",
+        "6.022 × 10^23 অণু",
+        "1.204 × 10^24 পরমাণু",
+        "22.4 L (STP) আয়তন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-76-024",
+      "question": "একটি অবতল দর্পণের ফোকাস দূরত্ব 15 cm। দর্পণ থেকে 10 cm দূরে বস্তু রাখলে প্রতিবিম্বের অবস্থান কত হবে এবং প্রতিবিম্বের প্রকৃতি কীরূপ হবে? (i) v = -30 cm (ii) প্রতিবিম্ব অবাস্তব (iii) প্রতিবিম্ব সমশীর্ষ (iv) বিবর্ধন +3",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-76-025",
+      "question": "বলের সংজ্ঞা ও বলের পরিমাপ পাওয়া যায় যথাক্রমে—",
+      "options": [
+        "প্রথম গতিসূত্র থেকে সংজ্ঞা",
+        "দ্বিতীয় গতিসূত্র থেকে পরিমাপ",
+        "তৃতীয় গতিসূত্র থেকে সংজ্ঞা",
+        "মহাকর্ষ সূত্র থেকে পরিমাপ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-76-026",
+      "question": "একটি আদর্শ ভোল্টমিটারের বৈশিষ্ট্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "অসীম রোধ",
+        "সমান্তরালে সংযোগ",
+        "শূন্য রোধ",
+        "বিভব মাপা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-76-027",
+      "question": "নিচের কোনগুলি সমসত্ত্ব মিশ্রণ (Homogeneous mixture)?",
+      "options": [
+        "বাতাসের মিশ্রণ",
+        "পিতল",
+        "লবণ জল",
+        "চক ও জলের মিশ্রণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-76-028",
+      "question": "হিমবাহ সৃষ্টি হয় কোন প্রক্রিয়ায়?",
+      "options": [
+        "জমাট বাঁধা ও চাপে গলন",
+        "বাষ্পীভবন",
+        "বিকিরণ",
+        "প্রসারণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-76-029",
+      "question": "নির্দিষ্ট গলনাঙ্ক নেই এমন একটি কঠিন পদার্থের উদাহরণ হলো—",
+      "options": [
+        "Ice",
+        "Iron",
+        "Glass",
+        "Copper"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-76-030",
+      "question": "1 মিলিগ্রাম = কত কিলোগ্রাম?",
+      "options": [
+        "10⁻³ kg",
+        "10⁻⁶ kg",
+        "10³ kg",
+        "0.001 g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

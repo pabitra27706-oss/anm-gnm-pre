@@ -1,0 +1,545 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 104,
+  "questions": [
+    {
+      "id": "am-104-001",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে প্রথম বছরের সুদের পর কী হয়?",
+      "options": [
+        "সুদ মূলধন থেকে বাদ যায়",
+        "সুদ মূলধনের সাথে যোগ হয়",
+        "সুদ বাতিল হয়ে যায়",
+        "সুদ অর্ধেক হয়ে যায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-104-002",
+      "question": "নিচের কোন ভগ্নাংশটির দশমিক বিস্তার সসীম?",
+      "options": [
+        "1/3",
+        "2/7",
+        "3/8",
+        "4/9"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-003",
+      "question": "বীজগাণিতিক সূত্রের প্রয়োগ কোথায় দেখা যায়?",
+      "options": [
+        "জ্যামিতিতে ক্ষেত্রফল নির্ণয়ে",
+        "পদার্থবিজ্ঞানের সূত্রে",
+        "পরিসংখ্যানে",
+        "দৈনন্দিন জীবনের গণনায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-104-004",
+      "question": "6 মাসকে বছরে প্রকাশ করলে কত হবে?",
+      "options": [
+        "0.5 বছর",
+        "0.6 বছর",
+        "0.8 বছর",
+        "1 বছর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-104-005",
+      "question": "একই আসলে যদি T দ্বিগুণ করা হয় তাহলে SI কী হবে (R অপরিবর্তিত)?",
+      "options": [
+        "অর্ধেক হবে",
+        "দ্বিগুণ হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-006",
+      "question": "একটি গোলকের পৃষ্ঠতলের ক্ষেত্রফল 616 বর্গসেমি। গোলকটির আয়তন কত? (π = 22/7)",
+      "options": [
+        "1232 ঘনসেমি",
+        "1437.33 ঘনসেমি",
+        "1540 ঘনসেমি",
+        "1640 ঘনসেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-104-007",
+      "question": "0.875-কে শতকরায় লিখুন।",
+      "options": [
+        "87.5%",
+        "8.75%",
+        "875%",
+        "0.875%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-008",
+      "question": "একটি শ্রেণির 15 জন ছাত্রের গড় নম্বর 80। পরবর্তী পরীক্ষায় 5 জন ছাত্রের গড় নম্বর 90। সব মিলিয়ে গড় কত?",
+      "options": [
+        "82",
+        "82.5",
+        "83",
+        "83.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-009",
+      "question": "একটি পরীক্ষায় 1200 পরীক্ষার্থীর মধ্যে 35% ফেল করলে, পাস করা পরীক্ষার্থীর সংখ্যা কত?",
+      "options": [
+        "680",
+        "720",
+        "760",
+        "780"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-010",
+      "question": "কোন সংখ্যাটি 12 এবং 18 উভয়েরই গুণিতক?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-104-011",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 80 টাকা। সুদের হার 8% হলে মূলধন কত?",
+      "options": [
+        "10000 টাকা",
+        "11000 টাকা",
+        "12000 টাকা",
+        "12500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-012",
+      "question": "নিচের কোন জোড়াগুলিতে লাভ% একই?",
+      "options": [
+        "CP=500, SP=600 এবং CP=1000, SP=1200",
+        "উভয় ক্ষেত্রেই লাভ% = 20%",
+        "CP=400, SP=500 এবং CP=800, SP=1000",
+        "প্রথমটিতে 25%, দ্বিতীয়টিতে 25%"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-104-013",
+      "question": "একটি রেখা লেখচিত্রে দাম: 2020:50, 2021:60, 2022:55, 2023:70। সঠিক:",
+      "options": [
+        "2021 থেকে 2022 কমেছে",
+        "2020 থেকে 2023 বেড়েছে 20",
+        "2021 থেকে 2023 বেড়েছে 10",
+        "2022 থেকে 2023 বেড়েছে 15"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-104-014",
+      "question": "একটি জিনিসের বিক্রয়মূল্য ও ক্রয়মূল্যের অনুপাত 4:5 হলে ক্ষতির শতকরা হার কত?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-015",
+      "question": "একজন দোকানদার 20% লাভে এবং 20% ক্ষতিতে দুটি জিনিস একই দামে বিক্রয় করলে কী কী সত্য?",
+      "options": [
+        "4% ক্ষতি",
+        "সামগ্রিক ক্ষতি = CP-এর 4%",
+        "সামগ্রিক লাভ = CP-এর 4%",
+        "লাভ = ক্ষতি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-104-016",
+      "question": "দূরত্ব 50% বাড়লে এবং গতি 25% বাড়লে সময়ের কত % পরিবর্তন হবে?",
+      "options": [
+        "20% বৃদ্ধি",
+        "20% হ্রাস",
+        "25% বৃদ্ধি",
+        "25% হ্রাস"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-104-017",
+      "question": "একটি সাইকেল আরোহী 18 km/h গতিতে 20 মিনিটে কত যায়?",
+      "options": [
+        "18 × (20/60) = 6 কিমি",
+        "6 কিমি",
+        "3600 মিটার",
+        "6000 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-104-018",
+      "question": "√(0.0004) = ?",
+      "options": [
+        "0.2",
+        "0.02",
+        "0.002",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-019",
+      "question": "লাভের সূত্রগুলি কী কী?",
+      "options": [
+        "লাভ = SP - CP",
+        "লাভ% = (লাভ/CP)×100%",
+        "লাভ% = (লাভ/SP)×100%",
+        "লাভ = CP - SP"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-104-020",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 4 ও 6 ঘন্টায় ভরা যায়। চৌবাচ্চাটি অর্ধেক ভরতি থাকলে দুটি পাইপ একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 2.4 ঘন্টায় সম্পূর্ণ ভরে",
+        "অর্ধেক ভরতে সময় লাগে 1.2 ঘন্টা",
+        "1.2 ঘন্টা",
+        "2 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-104-021",
+      "question": "0.0005 কে 0.5 দিয়ে গুণ করলে কত হয়?",
+      "options": [
+        "0.00025",
+        "0.0025",
+        "0.025",
+        "0.25"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-022",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 5 ও 7 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 10 ঘন্টায় খালি হয়। চৌবাচ্চা খালি থাকলে তিনটি একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "নিট হার = 1/5+1/7-1/10 = (14+10-7)/70 = 17/70",
+        "সময় = 70/17 ≈ 4.12 ঘন্টা",
+        "70/17 ঘন্টা",
+        "4 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-104-023",
+      "question": "0.6 = 3/5 = 60%। এই সম্পর্কটি সঠিক কিনা?",
+      "options": [
+        "হ্যাঁ",
+        "না, 0.6 = 6%",
+        "না, 3/5 = 30%",
+        "শুধু প্রথম দুটি সঠিক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-104-024",
+      "question": "একটি পানির বোতলে 2/5 লিটার পানি আছে। আরও 1/4 লিটার পানি মেশালে মোট পানি কত লিটার হবে?",
+      "options": [
+        "3/9 লি",
+        "13/20 লি",
+        "3/20 লি",
+        "7/20 লি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-104-025",
+      "question": "20 জন পুরুষ 15 দিনে একটি কাজ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "মোট কাজ = 300 পুরুষ-দিন",
+        "25 জন পুরুষ 12 দিনে করবে",
+        "30 জন পুরুষ 10 দিনে করবে",
+        "10 জন পুরুষ 30 দিনে করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-104-026",
+      "question": "10টি সংখ্যার গড় 50। প্রতিটি সংখ্যা 5 বাড়ালে নতুন গড়:",
+      "options": [
+        "55",
+        "50+5=55",
+        "60",
+        "52"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-104-027",
+      "question": "4 জন পুরুষ ও 6 জন মহিলা একটি কাজ 10 দিনে করতে পারে। 3 জন পুরুষ ও 5 জন মহিলা একই কাজ 12 দিনে করতে পারে। নিচের কোনটি সঠিক?",
+      "options": [
+        "1 জন পুরুষের 1 দিনের কাজ = 1/20",
+        "1 জন মহিলার 1 দিনের কাজ = 1/30",
+        "2 জন পুরুষ ও 4 জন মহিলা একত্রে 1 দিনে কাজ করে = 2/20 + 4/30 = 1/10 + 2/15 = (3+4)/30 = 7/30",
+        "কাজ শেষের সময় = 30/7 ≈ 4.29 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-104-028",
+      "question": "একটি গোলকের ব্যাস 7 সেমি। গোলকটির পৃষ্ঠতলের ক্ষেত্রফল ও আয়তন কত? (π = 22/7)",
+      "options": [
+        "ব্যাসার্ধ = 3.5 সেমি",
+        "পৃষ্ঠতলের ক্ষেত্রফল = 4 × 22/7 × (3.5)² = 4 × 22/7 × 12.25 = 154 বর্গসেমি",
+        "আয়তন = 4/3 × 22/7 × (3.5)³ = 4/3 × 22/7 × 42.875 = 179.67 ঘনসেমি",
+        "পৃষ্ঠতলের ক্ষেত্রফল = 154 বর্গসেমি, আয়তন = 179.67 ঘনসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-104-029",
+      "question": "লাভের সূত্রগুলি কী কী?",
+      "options": [
+        "লাভ = SP - CP",
+        "লাভ% = (লাভ/CP)×100%",
+        "লাভ% = (লাভ/SP)×100%",
+        "লাভ = CP - SP"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-104-030",
+      "question": "অনাবৃত্ত দশমিকের উদাহরণ কী কী?",
+      "options": [
+        "0.101101110...",
+        "√2",
+        "0.333...",
+        "0.5"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

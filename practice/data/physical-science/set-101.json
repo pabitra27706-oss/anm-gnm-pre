@@ -1,0 +1,544 @@
+{
+  "subject": "general-science",
+  "set": 101,
+  "questions": [
+    {
+      "id": "ge-101-001",
+      "question": "5 Ω, 10 Ω ও 30 Ω রোধ সমান্তরালে সংযুক্ত, তুল্য রোধ কত ওহম?",
+      "options": [
+        "45",
+        "3",
+        "0.3",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-101-002",
+      "question": "100°C তাপমাত্রার 10g বাষ্প 0°C তাপমাত্রার বরফে পরিণত হলে মোট কত তাপ ত্যাগ করবে? (L_v = 540 cal/g, L_f = 80 cal/g)",
+      "options": [
+        "5400 cal",
+        "6200 cal",
+        "7200 cal",
+        "8200 cal"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-101-003",
+      "question": "কম্পাঙ্কের SI একক কী?",
+      "options": [
+        "ওয়াট",
+        "হার্জ",
+        "সেকেন্ড",
+        "মিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-101-004",
+      "question": "গ্যাসের অণুগুলির মোট আয়তন পাত্রের আয়তনের তুলনায় নগণ্য ধরা হয়—",
+      "options": [
+        "আদর্শ গ্যাসের ক্ষেত্রে",
+        "নিম্ন চাপে",
+        "উচ্চ চাপে",
+        "সব গ্যাসের ক্ষেত্রে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-101-005",
+      "question": "[NUMERICAL] 10^-2 M HCl এবং 10^-2 M NaOH সম্পর্কে সত্য—",
+      "options": [
+        "প্রথমটির pH = 2",
+        "দ্বিতীয়টির pH = 12",
+        "উভয়ের গাঢ়ত্ব সমান",
+        "উভয়ে সমান আয়তনে মিশলে pH = 7 হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-006",
+      "question": "ইউরিয়ার রাসায়নিক সংকেত কী?",
+      "options": [
+        "NH₂CONH₂",
+        "CH₄",
+        "C₂H₅OH",
+        "CH₃COOH"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-101-007",
+      "question": "নিচের কোন উক্তিগুলি নিউটনের গতিসূত্র সম্পর্কে সত্য?",
+      "options": [
+        "প্রথম সূত্র জাড্যের ধারণা দেয়",
+        "দ্বিতীয় সূত্র বলের গাণিতিক পরিমাপ দেয়",
+        "তৃতীয় সূত্র ক্রিয়া-প্রতিক্রিয়ার কথা বলে",
+        "এরা কেবল স্থির বস্তুর জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-008",
+      "question": "ক্যালোরিমিতির পরীক্ষায় স্টিরার ব্যবহার করা হয় কেন?",
+      "options": [
+        "তাপ সমানভাবে ছড়ানোর জন্য",
+        "তাপমাত্রা কমানোর জন্য",
+        "তাপ বাড়ানোর জন্য",
+        "পাত্র ধোয়ার জন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-101-009",
+      "question": "একটি বর্তনীতে 2 A প্রবাহ 6 Ω রোধের মধ্য দিয়ে যাচ্ছে; বিভব পার্থক্য কত?",
+      "options": [
+        "12 V",
+        "3 V",
+        "8 V",
+        "0.33 V"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-101-010",
+      "question": "নিচের কোন শক্তি রূপান্তরটি সঠিক নয়? (বহু-সঠিক)",
+      "options": [
+        "টিভি: বিদ্যুৎ → কেবল আলোক",
+        "হিটার: বিদ্যুৎ → তাপ",
+        "মোটর: বিদ্যুৎ → যান্ত্রিক",
+        "জেনারেটর: বিদ্যুৎ → যান্ত্রিক"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-011",
+      "question": "হলুদ (Turmeric) ক্ষারীয় দ্রবণের সংস্পর্শে এলে কোন বর্ণ ধারণ করে?",
+      "options": [
+        "হলুদই থাকে",
+        "লালচে-বাদামী",
+        "নীল",
+        "সবুজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-101-012",
+      "question": "তরল পদার্থের নির্দিষ্ট—",
+      "options": [
+        "ভর থাকে",
+        "আয়তন থাকে",
+        "আকার থাকে",
+        "ঘনত্ব থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-101-013",
+      "question": "ভরের সংরক্ষণ সূত্র লঙ্ঘিত হয় না—",
+      "options": [
+        "রাসায়নিক বিক্রিয়ায়",
+        "ভৌত পরিবর্তনের সময়",
+        "কেন্দ্রকীয় বিক্রিয়ায় (Nuclear Reaction)",
+        "সব ক্ষেত্রে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-101-014",
+      "question": "জৈব-বিয়োজ্য বর্জ্য কী কী? (একাধিক উত্তর)",
+      "options": [
+        "কাগজ",
+        "কাঠ",
+        "লোহার পাত",
+        "খাবারের উচ্ছিষ্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-101-015",
+      "question": "অ্যাভোগাড্রো সংখ্যা (N) কোন রাশিগুলির ক্ষেত্রে প্রযোজ্য?",
+      "options": [
+        "পরমাণু",
+        "অণু",
+        "আয়ন",
+        "ইলেকট্রন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-101-016",
+      "question": "মায়োপিয়া ত্রুটির চোখের লেন্সের ফোকাস দূরত্ব কীরূপ হয়?",
+      "options": [
+        "স্বাভাবিকের চেয়ে বেশি",
+        "স্বাভাবিকের চেয়ে কম",
+        "স্বাভাবিকের সমান",
+        "অসীম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-101-017",
+      "question": "কয়লা পোড়ালে কী কী দূষক নির্গত হয়? (একাধিক উত্তর)",
+      "options": [
+        "CO₂",
+        "SO₂",
+        "ফ্লাই অ্যাশ",
+        "O₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-018",
+      "question": "দহন (Combustion) একটি—",
+      "options": [
+        "জারণ বিক্রিয়া",
+        "বিজারণ বিক্রিয়া",
+        "বিয়োজন বিক্রিয়া",
+        "প্রতিস্থাপন বিক্রিয়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-101-019",
+      "question": "একাধিক যোজ্যতা যুক্ত মৌল কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "Fe",
+        "Cu",
+        "Na",
+        "Ca"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-020",
+      "question": "একটি পাত্রে 30°C উষ্ণতার 100g জল ও অন্য পাত্রে 50°C উষ্ণতার 200g জল মেশানো হলো। মিশ্রণের তাপমাত্রা কত হবে?",
+      "options": [
+        "40°C",
+        "43.3°C",
+        "45°C",
+        "47.5°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-101-021",
+      "question": "[NUMERICAL] একটি বস্তুর ভর 10 kg হলে পৃথিবীতে তার ওজন কত? (g=9.8 m/s²)",
+      "options": [
+        "10 kg",
+        "98 N",
+        "9.8 N",
+        "100 N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-101-022",
+      "question": "পচা মাছে দুর্গন্ধ হওয়ার কারণ কী?",
+      "options": [
+        "জারণ (Oxidation)",
+        "বিজারণ",
+        "আর্দ্র বিশ্লেষণ",
+        "প্রসমন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-101-023",
+      "question": "রক্ত সংরক্ষণ করতে ব্যবহৃত হয়-",
+      "options": [
+        "ইনকিউবেটর",
+        "কোল্ড স্টোরেজ বা রেফ্রিজারেটর (2-6°C)",
+        "অটোক্লেভ",
+        "হিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-101-024",
+      "question": "সঠিক তাপমাত্রা রূপান্তর সূত্র কোনগুলি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "°F = 9/5°C + 32",
+        "K = °C + 273",
+        "°C = K - 273",
+        "°F = K + 273"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-025",
+      "question": "জ্যোতির্বৈজ্ঞানিক একক (AU) কী মাপতে ব্যবহৃত হয়?",
+      "options": [
+        "নক্ষত্রের দূরত্ব",
+        "গ্রহ-নক্ষত্রের মধ্যেকার দূরত্ব",
+        "আলোর বেগ",
+        "ছায়াপথের বেগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-101-026",
+      "question": "তরল পদার্থে তাপ সঞ্চালনের পদ্ধতি কোনগুলি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "ঊর্ধ্বপাতন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-101-027",
+      "question": "পারমাণবিক সংখ্যা (Z) বলতে কী বোঝায়?",
+      "options": [
+        "প্রোটন ও নিউট্রনের মোট সংখ্যা",
+        "নিউক্লিয়াসে উপস্থিত প্রোটনের সংখ্যা",
+        "পরমাণুতে উপস্থিত ইলেকট্রনের সংখ্যা",
+        "নিউট্রনের সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-101-028",
+      "question": "একটি 2 cm উচ্চতার বস্তুকে একটি উত্তল দর্পণের সামনে 10 cm দূরে রাখলে দর্পণের পিছনে 5 cm দূরে প্রতিবিম্ব তৈরি হয়। নিচের কোন বিবৃতিগুলি সঠিক? (i) বিবর্ধন +0.5 (ii) প্রতিবিম্বের উচ্চতা 1 cm (iii) ফোকাস দূরত্ব 10 cm (iv) দর্পণটি অবতল হলে প্রতিবিম্ব বাস্তব হতো",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-101-029",
+      "question": "বায়োগ্যাসের প্রধান উপাদান কী?",
+      "options": [
+        "মিথেন",
+        "ইথেন",
+        "প্রোপেন",
+        "বুটেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-101-030",
+      "question": "মিথেন থেকে ক্লোরোমিথেন তৈরির বিক্রিয়াটি কী ধরনের?",
+      "options": [
+        "সংযোজন",
+        "প্রতিস্থাপন",
+        "অপসারণ",
+        "পলিমারাইজেশন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

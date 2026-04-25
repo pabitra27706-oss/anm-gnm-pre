@@ -1,0 +1,508 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 81,
+  "questions": [
+    {
+      "id": "am-81-001",
+      "question": "একটি জিনিসের CP ও SP-এর অনুপাত 8:7 হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "ক্ষতি = 12.5%",
+        "CP : SP = 8:7 → ক্ষতি% = (8-7)/8 × 100% = 12.5%",
+        "লাভ = 12.5%",
+        "ক্ষতি = 14.28%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-002",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 400 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "30000 টাকা",
+        "35000 টাকা",
+        "38000 টাকা",
+        "40000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-003",
+      "question": "একটি আয়তক্ষেত্রের কর্ণের দৈর্ঘ্য 15 সেমি ও প্রস্থ 9 সেমি। দৈর্ঘ্য কত?",
+      "options": [
+        "9 সেমি",
+        "10 সেমি",
+        "11 সেমি",
+        "12 সেমি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-004",
+      "question": "একটি চৌবাচ্চা 2 টি পাইপ দিয়ে যথাক্রমে 3 ও 5 ঘন্টায় ভরা যায়। একটি নালা দিয়ে 6 ঘন্টায় খালি হয়। চৌবাচ্চা খালি থাকলে তিনটি একসাথে খুলে দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A পাইপের ভরার হার = 1/3, B পাইপের = 1/5, নালার খালির হার = 1/6",
+        "নিট ভরার হার = 1/3 + 1/5 - 1/6 = (10+6-5)/30 = 11/30",
+        "চৌবাচ্চা ভরতে সময় = 30/11 ≈ 2.73 ঘন্টা",
+        "30/11 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-81-005",
+      "question": "একটি কাজ A 10 দিনে, B 12 দিনে করে। A কাজ শুরু করে 4 দিন করার পর B যোগ দিলে কাজটি কত দিনে শেষ হবে?",
+      "options": [
+        "6.33 দিন",
+        "6.67 দিন",
+        "7 দিন",
+        "7.33 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-006",
+      "question": "বার্ষিক 12% হারে কত টাকার 2 বছরের CI 1272 টাকা?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-007",
+      "question": "একটি দ্রব্য 800 টাকায় কিনে 680 টাকায় বিক্রয় করলে ক্ষতির শতকরা হার কত?",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "18%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-008",
+      "question": "(4x² - 9) ÷ (2x + 3) = ?",
+      "options": [
+        "2x - 3",
+        "2x + 3",
+        "4x - 3",
+        "4x + 3"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-009",
+      "question": "একটি ট্রেন 126 km/h বেগে 490 মিটার লম্বা সেতু অতিক্রম করে 30 সেকেন্ডে। ট্রেনের দৈর্ঘ্য কত?",
+      "options": [
+        "520 মিটার",
+        "540 মিটার",
+        "560 মিটার",
+        "580 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-010",
+      "question": "কোনো টাকার 2 বছরের CI 210 টাকা এবং SI 200 টাকা। মূলধন কত?",
+      "options": [
+        "900 টাকা",
+        "950 টাকা",
+        "1000 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-011",
+      "question": "5/11 ভগ্নাংশটিতে হর কত?",
+      "options": [
+        "5",
+        "11",
+        "16",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-012",
+      "question": "(1/2) ÷ (1/2) ÷ (1/2) = ?",
+      "options": [
+        "2",
+        "1/2",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-013",
+      "question": "একটি রম্বসের কর্ণদ্বয় 10 সেমি ও 24 সেমি। রম্বসের বাহুর দৈর্ঘ্য কত?",
+      "options": [
+        "10 সেমি",
+        "12 সেমি",
+        "13 সেমি",
+        "15 সেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-014",
+      "question": "108 km/h বেগকে m/s -এ প্রকাশ করুন।",
+      "options": [
+        "25 m/s",
+        "30 m/s",
+        "32 m/s",
+        "35 m/s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-015",
+      "question": "3x + 5 সমীকরণ নয় কেন?",
+      "options": [
+        "এতে সমান চিহ্ন নেই",
+        "এতে চলক নেই",
+        "এতে ধ্রুবক নেই",
+        "এতে রাশি নেই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-016",
+      "question": "নিচের কোন পরিস্থিতিতে কোনো লাভ বা ক্ষতি হয় না?",
+      "options": [
+        "SP = CP",
+        "লাভ% = 0%",
+        "ক্ষতি% = 0%",
+        "ছাড় = 0%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-017",
+      "question": "একটি দ্রব্য 1500 টাকায় বিক্রয় করাতে 20% লাভ হয়। দ্রব্যটির ক্রয়মূল্য কত?",
+      "options": [
+        "1200 টাকা",
+        "1250 টাকা",
+        "1300 টাকা",
+        "1350 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-018",
+      "question": "147 এবং 189-এর লসাগু কত?",
+      "options": [
+        "567",
+        "756",
+        "882",
+        "1323"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-019",
+      "question": "একটি ট্রেন 110 মিটার লম্বা, 60 km/h বেগে 160 মিটার সেতু অতিক্রম করতে:",
+      "options": [
+        "মোট দূরত্ব = 270 মিটার",
+        "গতি = 60×5/18 = 50/3 ≈ 16.67 m/s",
+        "সময় = 270 / (50/3) = 270×3/50 = 810/50 = 16.2 সেকেন্ড",
+        "সময় = 18 সেকেন্ড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-81-020",
+      "question": "1008 এবং 1512-এর গসাগু কত?",
+      "options": [
+        "168",
+        "252",
+        "336",
+        "504"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-021",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 5 সেমি বৃদ্ধি ও প্রস্থ 3 সেমি বৃদ্ধি করলে ক্ষেত্রফল 65 বর্গসেমি বৃদ্ধি পায়। দৈর্ঘ্য ও প্রস্থের যোগফল 20 হলে ক্ষেত্রফল কত?",
+      "options": [
+        "75 বর্গসেমি",
+        "91 বর্গসেমি",
+        "100 বর্গসেমি",
+        "125 বর্গসেমি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-022",
+      "question": "একটি ঘনকের কর্ণের দৈর্ঘ্য 5√3 সেমি। ঘনকটির আয়তন কত?",
+      "options": [
+        "64 ঘনসেমি",
+        "100 ঘনসেমি",
+        "125 ঘনসেমি",
+        "216 ঘনসেমি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-81-023",
+      "question": "22.5 m/s কত km/h?",
+      "options": [
+        "77 km/h",
+        "79 km/h",
+        "81 km/h",
+        "83 km/h"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-024",
+      "question": "আয়তঘনের আয়তন নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "l + b + h",
+        "lbh",
+        "2(lb + bh + hl)",
+        "4(l + b)h"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-025",
+      "question": "ত্রিভুজের ক্ষেত্রফল নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "½ × ভূমি × উচ্চতা",
+        "ভূমি × উচ্চতা",
+        "2 × ভূমি × উচ্চতা",
+        "ভূমি + উচ্চতা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-026",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 160 টাকা। সুদের হার 4% হলে মূলধন কত?",
+      "options": [
+        "100000 টাকা",
+        "105000 টাকা",
+        "110000 টাকা",
+        "120000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-81-027",
+      "question": "নিচের কোনটি সঠিক?",
+      "options": [
+        "A একটি কাজ 5 দিনে করে, B 7 দিনে করে → A ও B একসাথে 35/12 ≈ 2.92 দিনে করে",
+        "A ও B একসাথে 15 দিনে করে, A একা 20 দিনে করে → B একা 60 দিনে করে",
+        "A ও B একসাথে 10 দিনে করে, A ও B-এর দক্ষতার অনুপাত 1:2 → A একা 30 দিনে, B একা 15 দিনে করে",
+        "A ও B-এর কাজের সময়ের অনুপাত 3:5, তারা একসাথে 15 দিনে করে → A একা 24 দিনে, B একা 40 দিনে করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-81-028",
+      "question": "একটি জিনিসের ক্রয়মূল্য 600 টাকা। কত টাকায় বিক্রয় করলে 15% ক্ষতি হবে?",
+      "options": [
+        "500 টাকা",
+        "510 টাকা",
+        "520 টাকা",
+        "530 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-81-029",
+      "question": "একটি কাজ A 8 দিনে করে, B 10 দিনে করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B একসাথে 40/9 দিনে করে",
+        "A ও B একসাথে 1 দিনে 9/40 কাজ করে",
+        "A ও B একসাথে 4 দিনে 36/40 কাজ করে",
+        "A ও B একসাথে 5 দিনে কাজ শেষ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-81-030",
+      "question": "100 টাকা 2 : 3 অনুপাতে ভাগ করলে বড় অংশ ও ছোট অংশের পার্থক্য কত?",
+      "options": [
+        "20 টাকা",
+        "ছোট = 40, বড় = 60, পার্থক্য = 20",
+        "40 টাকা",
+        "10 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 52,
+  "questions": [
+    {
+      "id": "am-52-001",
+      "question": "0.18 -এর সমতুল্য:",
+      "options": [
+        "18%",
+        "9/50",
+        "18/100",
+        "0.018"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-52-002",
+      "question": "A ও B-এর দক্ষতার অনুপাত 5:4। তারা একসাথে একটি কাজ 20 দিনে শেষ করে। B একা কাজটি কত দিনে করবে?",
+      "options": [
+        "36 দিন",
+        "38 দিন",
+        "40 দিন",
+        "45 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-52-003",
+      "question": "নিচের সারণি: ৮ জন শিক্ষার্থীর নম্বর: 55, 60, 65, 70, 75, 80, 85, 90 মধ্যমা (Median) কত?",
+      "options": [
+        "70.5",
+        "72.5",
+        "74.5",
+        "76.5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-004",
+      "question": "A ও B-এর দক্ষতার অনুপাত 6:7। B একটি কাজ 42 দিনে করলে A ওই কাজ কত দিনে করবে?",
+      "options": [
+        "30 দিন",
+        "32 দিন",
+        "34 দিন",
+        "36 দিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-005",
+      "question": "একটি সংখ্যার এক-তৃতীয়াংশ 8 হলে, সংখ্যাটি কত?",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-006",
+      "question": "নিচের পাই চার্টে একটি কোম্পানির মোট বিক্রয় 72000 টাকা। কোণ: P1 90°, P2 120°, P3 60°, P4 45°, P5 45°। P2 এর বিক্রয় কত?",
+      "options": [
+        "18000",
+        "20000",
+        "24000",
+        "28000"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-52-007",
+      "question": "5 জন পুরুষ ও 7 জন মহিলা একটি কাজ 12 দিনে করতে পারে। 7 জন পুরুষ ও 5 জন মহিলা একই কাজ কত দিনে করবে?",
+      "options": [
+        "8 দিন",
+        "9 দিন",
+        "10 দিন",
+        "11 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-52-008",
+      "question": "একটি কাজ A 24 দিনে করে, B 32 দিনে করে। A ও B একসাথে 8 দিন কাজ করার পর A চলে গেলে বাকি কাজ B কত দিনে করবে?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/24+1/32 = 7/96",
+        "8 দিনে করে = 56/96 = 7/12",
+        "বাকি কাজ = 5/12",
+        "B এর সময় = (5/12)/(1/32) = (5/12)×32 = 160/12 = 40/3 ≈ 13.33 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-52-009",
+      "question": "যদি a : b = 2 : 3 এবং b : c = 4 : 5 হয়, তবে a : c কত?",
+      "options": [
+        "2 : 5",
+        "8 : 15",
+        "4 : 15",
+        "8 : 5"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-010",
+      "question": "কোন কোন সংখ্যা 2 এবং 3 উভয় দ্বারা বিভাজ্য?",
+      "options": [
+        "6,12,18,24",
+        "30,36,42,48",
+        "54,60,66,72",
+        "5,7,9,11"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-52-011",
+      "question": "9% হারে 2 বছরের সুদ 540 টাকা। আসল কত?",
+      "options": [
+        "2500 টাকা",
+        "2700 টাকা",
+        "2800 টাকা",
+        "3000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-012",
+      "question": "a : b = 2 : 3 এবং b : c = 4 : 5 হলে a : c = ?",
+      "options": [
+        "8 : 15",
+        "2 : 5",
+        "15 : 8",
+        "6 : 12"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-52-013",
+      "question": "3 : 4 = 9 : 12 সমানুপাতটিতে প্রান্তীয় পদ কোনগুলি?",
+      "options": [
+        "3 ও 4",
+        "3 ও 12",
+        "4 ও 9",
+        "9 ও 12"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-014",
+      "question": "0.6 কে শতকরায় প্রকাশ করুন।",
+      "options": [
+        "6%",
+        "60%",
+        "600%",
+        "0.06%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-015",
+      "question": "30% ক্ষতিতে একটি জিনিস 280 টাকায় বিক্রি করলে, ক্রয়মূল্য কত?",
+      "options": [
+        "350 টাকা",
+        "360 টাকা",
+        "380 টাকা",
+        "400 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-016",
+      "question": "2(x + 3) - 3(x - 2) সরল করলে?",
+      "options": [
+        "-x + 12",
+        "-x + 0",
+        "5x + 12",
+        "-x - 12"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-017",
+      "question": "নিচের সারণি: ৮টি ব্যাগের ওজন: 5, 6, 7, 8, 9, 10, 11, 12 কেজি মোট ওজন কত?",
+      "options": [
+        "64",
+        "66",
+        "68",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-018",
+      "question": "যদি গতি দ্বিগুণ করা হয়, একই দূরত্ব যেতে সময় কত হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "এক-চতুর্থাংশ",
+        "অপরিবর্তিত"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-019",
+      "question": "ছাড়ের শতকরা হার নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "(ছাড়/বিক্রয়মূল্য) × 100%",
+        "(ছাড়/ক্রয়মূল্য) × 100%",
+        "(ছাড়/চিহ্নিত মূল্য) × 100%",
+        "(ছাড়/লাভ) × 100%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-020",
+      "question": "দুটি সংখ্যার যোগফল 25 এবং অন্তর 5 হলে, ছোটো সংখ্যাটি কত?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-021",
+      "question": "A ও B-এর কাজের সময়ের অনুপাত 3:4 হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "তাদের দক্ষতার অনুপাত 4:3",
+        "A অধিক দক্ষ",
+        "B অধিক দক্ষ",
+        "তাদের কাজের অনুপাত 3:4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-52-022",
+      "question": "একটি দ্রব্য 10% ক্ষতিতে বিক্রয় করলে 500 টাকা ক্ষতি হয়। দ্রব্যটির ক্রয়মূল্য কত?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-023",
+      "question": "500 টাকার 3 বছরের সুদ 150 টাকা। একই হারে 1000 টাকার 2 বছরের সুদ কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-52-024",
+      "question": "একটি দ্রব্য 25% ছাড় দিয়ে 600 টাকায় বিক্রয় করলে চিহ্নিত মূল্য কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-025",
+      "question": "নিচের কোন কোনটি সঠিকভাবে মেলানো?",
+      "options": [
+        "স্বাভাবিক সংখ্যা → {1,2,3,...}",
+        "পূর্ণ সংখ্যা → {0,1,2,...}",
+        "অখণ্ড সংখ্যা → {...,-2,-1,0,1,2,...}",
+        "অমূলদ সংখ্যা → {p/q আকারের}"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-52-026",
+      "question": "একটি কাপড়ের 2/7 অংশ লাল, 3/7 অংশ নীল এবং বাকি অংশ সবুজ। সবুজ অংশ কত?",
+      "options": [
+        "2/7",
+        "3/7",
+        "1/7",
+        "4/7"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-027",
+      "question": "1 থেকে 30 পর্যন্ত জোড় সংখ্যার গড় কত?",
+      "options": [
+        "15",
+        "15.5",
+        "16",
+        "16.5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-52-028",
+      "question": "সমানুপাতে প্রান্তীয় পদের গুণফল = ?",
+      "options": [
+        "মধ্য পদের গুণফল",
+        "প্রান্তীয় পদের যোগফল",
+        "মধ্য পদের যোগফল",
+        "শূন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-52-029",
+      "question": "5/6 এবং 7/8-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "1/24",
+        "1/12",
+        "1/6",
+        "1/8"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-52-030",
+      "question": "A একটি কাজ 8 দিনে করে, B 12 দিনে করে, C 16 দিনে করে। তারা একসাথে কাজ করে মোট মজুরি পায় 650 টাকা। C-এর মজুরি কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "application",
+      "difficulty": "hard"
+    }
+  ]
+}

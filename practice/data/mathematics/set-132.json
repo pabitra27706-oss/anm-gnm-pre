@@ -1,0 +1,554 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 132,
+  "questions": [
+    {
+      "id": "am-132-001",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (কাজ স্থির থাকলে)",
+      "options": [
+        "যদি শ্রমিক সংখ্যা দ্বিগুণ হয়, সময় অর্ধেক হয়",
+        "যদি শ্রমিক সংখ্যা তিনগুণ হয়, সময় এক-তৃতীয়াংশ হয়",
+        "যদি সময় দ্বিগুণ হয়, শ্রমিক সংখ্যা অর্ধেক হয়",
+        "যদি সময় অর্ধেক হয়, শ্রমিক সংখ্যা দ্বিগুণ হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-132-002",
+      "question": "10টি সংখ্যার গড় 40। একটি সংখ্যা ভুল করে 50 এর পরিবর্তে 30 পড়া হয়েছিল। সঠিক গড় কত?",
+      "options": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-132-003",
+      "question": "1/5 -এর সমতুল্য:",
+      "options": [
+        "20%",
+        "0.2",
+        "1/5",
+        "0.02"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-132-004",
+      "question": "12 জন পুরুষ একটি কাজ 8 দিনে করে। 16 জন পুরুষ ওই কাজ কত দিনে করবে?",
+      "options": [
+        "4 দিন",
+        "5 দিন",
+        "6 দিন",
+        "7 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-005",
+      "question": "15% ক্ষতিতে বিক্রয় করলে SP = 680 টাকা। 5% ক্ষতিতে বিক্রয় করলে SP কত হবে?",
+      "options": [
+        "760 টাকা",
+        "CP = 800 টাকা, 5% ক্ষতিতে SP = 760 টাকা",
+        "740 টাকা",
+        "780 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-006",
+      "question": "1.2 কে শতকরায় লিখুন।",
+      "options": [
+        "12%",
+        "120%",
+        "1200%",
+        "0.12%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-132-007",
+      "question": "একটি শঙ্কুর ভূমির ব্যাস 12 সেমি ও উচ্চতা 8 সেমি। (π = 3.14)",
+      "options": [
+        "ব্যাসার্ধ = 6 সেমি",
+        "তির্যক উচ্চতা = √(36 + 64) = √100 = 10 সেমি",
+        "আয়তন = ⅓ × 3.14 × 36 × 8 = 301.44 ঘনসেমি",
+        "বক্রতলের ক্ষেত্রফল = 3.14 × 6 × 10 = 188.4 বর্গসেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-132-008",
+      "question": "20 জন লোক একটি কাজ 6 দিনে করে। কাজটি 4 দিনে করতে চাইলে কত জন লোক লাগবে?",
+      "options": [
+        "25 জন",
+        "28 জন",
+        "30 জন",
+        "32 জন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-009",
+      "question": "চক্রবৃদ্ধি সুদে মূলধন কত বছর পর দ্বিগুণ হয় তা নির্ভর করে?",
+      "options": [
+        "শুধু R-এর উপর",
+        "শুধু P-এর উপর",
+        "P ও R উভয়ের উপর",
+        "R ও n উভয়ের উপর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-010",
+      "question": "0.05-কে ভগ্নাংশে লিখলে কী হয়?",
+      "options": [
+        "5/10",
+        "1/20",
+        "1/5",
+        "5/1000"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-011",
+      "question": "নিচের কোন জোড়াগুলিতে ক্ষতি% একই?",
+      "options": [
+        "CP=800, SP=640 এবং CP=500, SP=400",
+        "উভয় ক্ষেত্রেই ক্ষতি% = 20%",
+        "CP=600, SP=510 এবং CP=1000, SP=850",
+        "প্রথমটিতে 15%, দ্বিতীয়টিতে 15%"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-132-012",
+      "question": "একটি শহরের জনসংখ্যা 8% হারে বৃদ্ধি পায়। বর্তমান জনসংখ্যা 50000 হলে 2 বছর পরে জনসংখ্যা কত?",
+      "options": [
+        "58000",
+        "58200",
+        "58320",
+        "58400"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-013",
+      "question": "12 জন লোক একটি কাজ 15 দিনে করে। 20 জন লোক সেই কাজ কত দিনে করবে? সম্পর্কটি কী?",
+      "options": [
+        "9 দিন",
+        "ব্যস্ত সমানুপাত",
+        "সরল সমানুপাত",
+        "10 দিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-014",
+      "question": "39, 52, 65-এর গসাগু কত?",
+      "options": [
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-015",
+      "question": "প্রথম 5টি স্বাভাবিক সংখ্যার গড় কত?",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "3.5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-132-016",
+      "question": "4টি ধারাবাহিক স্বাভাবিক সংখ্যার গড় 14.5। সংখ্যাগুলি:",
+      "options": [
+        "13,14,15,16",
+        "গড় 14.5, তাই সংখ্যা 13,14,15,16",
+        "14,15,16,17",
+        "12,13,14,15"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-132-017",
+      "question": "6 জন পুরুষ 10 দিনে একটি কাজ করে। 8 জন মহিলা 12 দিনে একই কাজ করে। 3 জন পুরুষ ও 6 জন মহিলা একত্রে কাজটি কত দিনে করবে?",
+      "options": [
+        "8 দিন",
+        "9 দিন",
+        "10 দিন",
+        "11 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-132-018",
+      "question": "2000 টাকার 5% হারে 3 বছরের সঠিক তথ্য:",
+      "options": [
+        "SI = 300 টাকা",
+        "A = 2300 টাকা",
+        "SI = 350 টাকা",
+        "A = 2350 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-132-019",
+      "question": "একটি সমকোণী ত্রিভুজের বাহু a, b (লম্ব ও ভূমি) ও c (অতিভুজ) হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "a² + b² = c²",
+        "ক্ষেত্রফল = ½ab",
+        "c > a এবং c > b",
+        "পরিসীমা = a + b + c"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-132-020",
+      "question": "30% ও 10% ক্রমিক ছাড়ে একটি দ্রব্যের চিহ্নিত মূল্য 2000 টাকা হলে চূড়ান্ত SP কত?",
+      "options": [
+        "1260 টাকা",
+        "2000 × 0.7 × 0.9 = 1260 টাকা",
+        "1200 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-021",
+      "question": "(3x + 1)² - (3x - 1)² = ?",
+      "options": [
+        "12x",
+        "6x",
+        "9x²",
+        "18x"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-132-022",
+      "question": "6টি সংখ্যার গড় 32। একটি সংখ্যা বাদ দিলে গড় 30 হয়। বাদ দেওয়া সংখ্যাটি:",
+      "options": [
+        "42",
+        "6×32=192, 5×30=150, 192-150=42",
+        "40",
+        "38"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-132-023",
+      "question": "8% হারে কোন আসল 2 বছরে সুদাসলে 11600 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "SI = 1600",
+        "P = 11000",
+        "SI = 600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-132-024",
+      "question": "দূরত্ব ও সময়ের মধ্যে সম্পর্ক:",
+      "options": [
+        "ধ্রুব গতিতে দূরত্ব ∝ সময়",
+        "ধ্রুব দূরত্বে গতি ∝ 1/সময়",
+        "ধ্রুব সময়ে দূরত্ব ∝ গতি",
+        "সবগুলো সঠিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-132-025",
+      "question": "একটি ট্রেন 400 মিটার লম্বা, 80 km/h বেগে 2 মিনিটে একটি সেতু অতিক্রম করে। সেতুর দৈর্ঘ্য:",
+      "options": [
+        "80 km/h = 200/9 ≈ 22.22 m/s",
+        "2 মিনিট = 120 সেকেন্ড, মোট দূরত্ব = 22.22×120 ≈ 2666.67 মিটার",
+        "সেতু = 2666.67 - 400 = 2266.67 মিটার",
+        "2266.67 মিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-132-026",
+      "question": "একটি পাই চার্টে দুটি সেক্টরের কোণ 90° ও 120°। মোট কোণ কত?",
+      "options": [
+        "210°",
+        "বাকি 150°",
+        "210° দুই সেক্টরের মোট",
+        "বাকি সেক্টর 150°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-132-027",
+      "question": "নিচের কোন কোনটি পূর্ণবর্গ সংখ্যা?",
+      "options": [
+        "36",
+        "49",
+        "50",
+        "81"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-132-028",
+      "question": "শতকরা (Percentage) শব্দটির অর্থ কী?",
+      "options": [
+        "প্রতি দশে",
+        "প্রতি শতকে",
+        "প্রতি হাজারে",
+        "প্রতি লাখে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-132-029",
+      "question": "(0.05) × (0.2) = ?",
+      "options": [
+        "0.1",
+        "0.01",
+        "0.001",
+        "1.0"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-132-030",
+      "question": "300 কিমি দূরত্ব 50 km/h বেগে যেতে কত সময় লাগবে?",
+      "options": [
+        "4 ঘন্টা",
+        "5 ঘন্টা",
+        "6 ঘন্টা",
+        "7 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    }
+  ]
+}

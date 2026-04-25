@@ -1,0 +1,512 @@
+{
+  "subject": "general-science",
+  "set": 67,
+  "questions": [
+    {
+      "id": "ge-67-001",
+      "question": "ক্যাটালিস্ট (Catalyst) শব্দটি প্রথম কে ব্যবহার করেন?",
+      "options": [
+        "Berzelius",
+        "Dalton",
+        "Avogadro",
+        "Priestley"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-67-002",
+      "question": "I-V গ্রাফের নতি থেকে কী বোঝা যায়? (বহু-সঠিক)",
+      "options": [
+        "নতি = 1/R",
+        "রোধ বেশি হলে নতি কম",
+        "ওহমীয় পরিবাহীর নতি ধ্রুবক",
+        "নতি পরিবাহিতার সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-67-003",
+      "question": "1 MPa = কত Pa?",
+      "options": [
+        "10³ Pa",
+        "10⁶ Pa",
+        "10⁹ Pa",
+        "10⁻⁶ Pa"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-004",
+      "question": "বজ্রপাতের সময় সৃষ্টি হয়—",
+      "options": [
+        "স্থির তড়িৎ",
+        "তড়িৎ প্রবাহ",
+        "চুম্বকত্ব",
+        "তাপ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-005",
+      "question": "কোনো লিভারের MA 5 এবং বল 10 cm সরলে ভার কত উঠবে?",
+      "options": [
+        "50 cm",
+        "2 cm",
+        "5 cm",
+        "10 cm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-67-006",
+      "question": "মহাবিশ্বের যা কিছু স্থান দখল করে থাকে এবং যার নির্দিষ্ট ভর আছে তাকে কী বলা হয়?",
+      "options": [
+        "Energy",
+        "Matter",
+        "Vacuum",
+        "Force"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-007",
+      "question": "সোনার (SONAR)-এর পূর্ণরূপ কী?",
+      "options": [
+        "Sound Navigation And Ranging",
+        "Sound Note And Range",
+        "Silent Note And Ranging",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-008",
+      "question": "ক্যালসিয়াম কার্বনেটকে তীব্রভাবে উত্তপ্ত করলে কোন গ্যাস পাওয়া যায়?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-009",
+      "question": "বিদ্যুতের বাতির ফিলামেন্ট কী কারণে উজ্জ্বল হয়?",
+      "options": [
+        "পরিচলন",
+        "বিকিরণে তাপ ও আলো উৎপন্ন হয়",
+        "পরিবহন",
+        "শোষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-010",
+      "question": "কোনো উত্তল দর্পণের ফোকাস দূরত্ব 20 cm। বস্তুটি দর্পণ থেকে 30 cm দূরে থাকলে প্রতিবিম্বের দূরত্ব কত?",
+      "options": [
+        "+12 cm",
+        "-12 cm",
+        "+60 cm",
+        "-60 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-67-011",
+      "question": "জারণ ও বিজারণ বিক্রিয়ায়—",
+      "options": [
+        "ইলেকট্রন দাতা বিজারক",
+        "ইলেকট্রন গ্রহীতা জারক",
+        "জারণ সংখ্যা বৃদ্ধি হলো জারণ",
+        "বিজারণ সংখ্যা বৃদ্ধি হলো বিজারণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-67-012",
+      "question": "50°C সমান কত °F?",
+      "options": [
+        "100°F",
+        "112°F",
+        "122°F",
+        "132°F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-013",
+      "question": "B, Si, Ge, As, Sb, Te; এদের মধ্যে কোনটি একই গ্রুপে নয়?",
+      "options": [
+        "B",
+        "Si",
+        "Te",
+        "As"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-67-014",
+      "question": "ভরের একক হিসেবে কিলোগ্রামের সংজ্ঞায় বলা হয়েছে— (বহু-সঠিক)",
+      "options": [
+        "1 লিটার জলের ভর 4°C তাপমাত্রায়",
+        "আন্তর্জাতিক প্রোটোটাইপ কিলোগ্রাম",
+        "প্লাটিনাম-ইরিডিয়ামের তৈরি",
+        "ফ্রান্সের স্যাভ্রেতে সংরক্ষিত"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-67-015",
+      "question": "ফ্যারাডের প্রথম সূত্র অনুযায়ী, জমা হওয়া পদার্থের ভর m, তড়িৎ পরিমাণ Q এর—",
+      "options": [
+        "সমানুপাতিক",
+        "বর্গমূলের সমানুপাতিক",
+        "ব্য়াস্তানুপাতিক",
+        "সমান"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-016",
+      "question": "নিচের কোন জৈব যৌগটি মিষ্টি ও সাবানের মতো গন্ধযুক্ত?",
+      "options": [
+        "অ্যাসিটোন",
+        "ইথাইল অ্যাসিটেট",
+        "ফর্মালডিহাইড",
+        "অ্যাসিটিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-017",
+      "question": "60° কোণে একটি প্রিজমের ভিতর দিয়ে আলো যাওয়ার সময় ন্যূনতম বিচ্যুতি 30°। প্রিজমের প্রতিসরাঙ্ক কত?",
+      "options": [
+        "1.5",
+        "1.33",
+        "1.73",
+        "2.0"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-67-018",
+      "question": "হাইপারমেট্রোপিয়া ত্রুটির জন্য নিচের কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "দ্বিফোকাস",
+        "বেলনাকার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-019",
+      "question": "প্রাকৃতিক গ্যাসের প্রধান উপাদান কী?",
+      "options": [
+        "ইথেন",
+        "প্রোপেন",
+        "বুটেন",
+        "মিথেন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-020",
+      "question": "পুকুর থেকে তোলা জলে কাদার কণাগুলি থিতিয়ে পড়ার পদ্ধতিকে কী বলে?",
+      "options": [
+        "Filtration",
+        "Sedimentation",
+        "Decantation",
+        "Distillation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-021",
+      "question": "একটি গাড়ির গতিশক্তি 2000 J, বেগ 20 m/s; গাড়িটির ভর কত?",
+      "options": [
+        "10 kg",
+        "100 kg",
+        "50 kg",
+        "20 kg"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-67-022",
+      "question": "চল কপিকলের সাহায্যে 100 N ভার তুলতে কত বল প্রয়োজন? (ঘর্ষণ বিহীন)",
+      "options": [
+        "100 N",
+        "200 N",
+        "50 N",
+        "400 N"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-023",
+      "question": "এন্টাসিডের প্রধান কাজ হলো—",
+      "options": [
+        "পাকস্থলীর pH কমানো",
+        "অতিরিক্ত অ্যাসিডকে প্রশমিত করা",
+        "খাবার হজম করা",
+        "এনজাইম তৈরি করা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-024",
+      "question": "[NUMERICAL] একটি বলকে উপরে ছুড়লে সর্বোচ্চ উচ্চতায় তার বেগ কত হবে?",
+      "options": [
+        "9.8 m/s",
+        "0 m/s",
+        "প্রাথমিক বেগের সমান",
+        "অসীম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-025",
+      "question": "অ্যারোসল (Aerosol) কলোয়েডে বিস্তৃত মাধ্যমটি কী?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-67-026",
+      "question": "ক্ষারের সাধারণ বৈশিষ্ট্য হলো—",
+      "options": [
+        "স্পর্শে পিচ্ছিল",
+        "স্বাদে তেতো",
+        "লাল লিটমাসকে নীল করে",
+        "ধাতুর সাথে বিক্রিয়ায় অক্সিজেন দেয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-67-027",
+      "question": "একটি বৈদ্যুতিক বর্তনীতে চাবি (Switch) এর কাজ কী?",
+      "options": [
+        "তড়িৎ প্রবাহ বৃদ্ধি করা",
+        "বর্তনী সম্পূর্ণ বা ভঙ্গ করা",
+        "রোধ কমানো",
+        "বিভব বৃদ্ধি করা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-028",
+      "question": "ভরবেগের নিত্যতা সূত্র অনুযায়ী সংঘর্ষের আগে ও পরে মোট ভরবেগ—",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "শূন্য হয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-67-029",
+      "question": "কোন ক্ষেত্রে বাষ্পীভবন দ্রুত ঘটে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "শুষ্ক বায়ুতে",
+        "বায়ুপ্রবাহে",
+        "আর্দ্র আবহাওয়ায়",
+        "রৌদ্রোজ্জ্বল দিনে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-67-030",
+      "question": "বায়ু দূষণ কাকে বলে?",
+      "options": [
+        "বায়ুতে O₂ বৃদ্ধি",
+        "বায়ুতে ক্ষতিকারক পদার্থের উপস্থিতি যা জীবের ক্ষতি করে",
+        "বায়ুতে N₂ বৃদ্ধি",
+        "বায়ুতে জলীয় বাষ্প বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

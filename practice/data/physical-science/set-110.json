@@ -1,0 +1,541 @@
+{
+  "subject": "general-science",
+  "set": 110,
+  "questions": [
+    {
+      "id": "ge-110-001",
+      "question": "তাপ ইঞ্জিনের ক্ষেত্রে কোনগুলি সঠিক? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "এটি তাপশক্তিকে যান্ত্রিক শক্তিতে রূপান্তর করে",
+        "কার্নো ইঞ্জিন একটি আদর্শ ইঞ্জিন",
+        "কর্মদক্ষতা আউটপুট/ইনপুট",
+        "কোনোটিই নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-002",
+      "question": "নিচের কোনগুলি পরিবেশগত সমস্যা সরাসরি মানব স্বাস্থ্যের উপর প্রভাব ফেলে? (একাধিক উত্তর)",
+      "options": [
+        "বায়ু দূষণ",
+        "জল দূষণ",
+        "ওজোন স্তরের ক্ষয়",
+        "রাস্তা নির্মাণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-003",
+      "question": "নিউট্রনের আপেক্ষিক আধান কত?",
+      "options": [
+        "+1",
+        "-1",
+        "0",
+        "+2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-110-004",
+      "question": "নীচের কোন উক্তিটি CFC এর ক্ষেত্রে ভুল?",
+      "options": [
+        "এটি ওজোন স্তর ধ্বংস করে",
+        "এটি রেফ্রিজারেন্ট হিসেবে ব্যবহৃত হয়",
+        "এটি গ্রীনহাউস গ্যাস",
+        "এটি সহজেই বায়ুমণ্ডলে ভেঙে যায়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-110-005",
+      "question": "আয়নিক যৌগের তড়িৎ বিশ্লেষণে প্রয়োজন—",
+      "options": [
+        "গলিত অবস্থা বা জলীয় দ্রবণ",
+        "কঠিন অবস্থা",
+        "বাষ্পীয় অবস্থা",
+        "প্লাজমা অবস্থা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-006",
+      "question": "বাস্তব গ্যাসগুলি আদর্শ গ্যাসের সমীকরণ মেনে চলে না কারণ—",
+      "options": [
+        "আন্তঃআণবিক আকর্ষণ বলের জন্য চাপের ত্রুটি",
+        "অণুগুলির নিজস্ব আয়তনের জন্য আয়তনের ত্রুটি",
+        "অণুগুলি স্থির থাকে",
+        "অণুগুলির ভর থাকে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-110-007",
+      "question": "নিকট বিন্দু কাকে বলে?",
+      "options": [
+        "চোখের সবচেয়ে কাছে যে বিন্দু পরিষ্কার দেখা যায়",
+        "চোখের সবচেয়ে দূরে যে বিন্দু পরিষ্কার দেখা যায়",
+        "চোখের লেন্সের ফোকাস বিন্দু",
+        "রেটিনার কেন্দ্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-008",
+      "question": "একটি তামার তারের দৈর্ঘ্য বৃদ্ধির জন্য তাপমাত্রা বাড়ানো হলো। এটি কোন প্রসারণ?",
+      "options": [
+        "আয়তন প্রসারণ",
+        "রৈখিক প্রসারণ",
+        "পৃষ্ঠটান",
+        "পরিচলন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-009",
+      "question": "বৈদ্যুতিক বাল্বে আর্গন গ্যাস ব্যবহারের কারণ—",
+      "options": [
+        "আলো দেওয়া",
+        "ফিলামেন্টের জারণ রোধ ও দীর্ঘস্থায়ী করা",
+        "তাপ বাড়ানো",
+        "রোধ কমানো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-010",
+      "question": "একটি আলোক রশ্মি বায়ু থেকে 30° কোণে পানিতে প্রবেশ করে। প্রতিসরণ কোণ 22° হলে নিচের কোন বিবৃতিগুলি সঠিক? (পানির প্রতিসরাঙ্ক 1.33) (i) sin i / sin r = 1.33 (ii) আলোর বেগ পানিতে কমে (iii) রশ্মিটি অভিলম্বের দিকে বেঁকে যায় (iv) রশ্মিটি অভিলম্ব থেকে দূরে সরে যায়",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-011",
+      "question": "মিথানলের সংকেত নিচের কোনটি?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "HCHO",
+        "CH₃CHO"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-110-012",
+      "question": "স্থিতিস্থাপক বিভব শক্তির উদাহরণ কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "টানা ধনুক",
+        "ঘড়ির স্প্রিং",
+        "বাঁধের জল",
+        "সংকুচিত গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-013",
+      "question": "নিচের কোনগুলি 'লবণের কেলাস' (Crystals)?",
+      "options": [
+        "ব্লু ভিট্রিল",
+        "ইপসম সল্ট (MgSO4.7H2O)",
+        "গ্লোবার সল্ট (Na2SO4.10H2O)",
+        "সাধারণ বালি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-014",
+      "question": "C ও Si সম্পর্কে সঠিক উক্তি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "একই গ্রুপে অবস্থিত",
+        "C অধাতু, Si ধাতুকল্প",
+        "উভয়ের যোজ্যতা 4",
+        "Si এর পারমাণবিক সংখ্যা 14"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-015",
+      "question": "কার্বন (C) একটি—",
+      "options": [
+        "বিজারক পদার্থ",
+        "অধাতু",
+        "জ্বালানি",
+        "জারক পদার্থ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-110-016",
+      "question": "নিচের কোনটির সাহায্যে বিশুদ্ধ জল ও নোনা জলের পার্থক্য করা যায়?",
+      "options": [
+        "থার্মোমিটার",
+        "হাইড্রোমিটার",
+        "ব্যারোমিটার",
+        "স্টপওয়াচ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-017",
+      "question": "ইমালসিফায়ার (Emulsifier) এর কাজ কী?",
+      "options": [
+        "ইমালশনকে নষ্ট করা",
+        "ইমালশনকে স্থায়িত্ব দেওয়া",
+        "দ্রবণকে স্বচ্ছ করা",
+        "স্ফুটনাঙ্ক কমানো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-018",
+      "question": "নিচের কোন গ্যাসগুলির ব্যাপন হার অক্সিজেন (O2) অপেক্ষা বেশি?",
+      "options": [
+        "CO2",
+        "H2",
+        "NH3",
+        "CH4"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-110-019",
+      "question": "সোনার (SONAR) যন্ত্রে ব্যবহার করা হয়—",
+      "options": [
+        "আল্ট্রাসোনিক তরঙ্গ",
+        "শব্দের প্রতিফলন ধর্ম",
+        "প্রতিধ্বনি",
+        "আলোক তরঙ্গ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-020",
+      "question": "নিচের কোনটি সমযোজী যৌগ?",
+      "options": [
+        "CaO",
+        "KF",
+        "CH₄",
+        "MgCl₂"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-021",
+      "question": "নিচের কোনটি একটি উদগ্রাহী লবণ (Efflorescent Salt) যা জল ত্যাগ করে চূর্ণে পরিণত হয়?",
+      "options": [
+        "Washing Soda",
+        "Epsom Salt",
+        "Glauber's Salt",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-110-022",
+      "question": "নিচের কোন জোড়াগুলি সঠিক নয়? (i) অ্যাসিটিক অ্যাসিড - ফলের স্বাদ (ii) ফর্মালডিহাইড - সংরক্ষক (iii) অ্যাসিটোন - দ্রাবক (iv) বেনজিন - খাদ্য উপাদান",
+      "options": [
+        "(i) ও (iv)",
+        "(ii) ও (iv)",
+        "(i) ও (iii)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-023",
+      "question": "যে বস্তুর আপেক্ষিক তাপ কম, তা-",
+      "options": [
+        "দ্রুত গরম হয় ও দ্রুত ঠান্ডা হয়",
+        "ধীরে গরম হয় ও ধীরে ঠান্ডা হয়",
+        "কখনো ঠান্ডা হয় না",
+        "শুধু গরম হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-024",
+      "question": "লোহাকে স্পর্শ করলে ঠান্ডা লাগে, কিন্তু কাঠকে স্পর্শ করলে তেমন ঠান্ডা লাগে না কেন?",
+      "options": [
+        "লোহা তাপ ভালো পরিবাহী, দ্রুত তাপ টেনে নেয়",
+        "কাঠ তাপ ভালো পরিবাহী",
+        "লোহা তাপ উৎপন্ন করে",
+        "লোহার তাপমাত্রা কম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-025",
+      "question": "ক্লিনিক্যাল থার্মোমিটারের কাঠামোগত বৈশিষ্ট্য কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সরু কৈশিক নল",
+        "প্রিজম আকৃতির কাচ",
+        "বাল্বে পারদের ভাণ্ডার",
+        "সম্প্রসারণ কুঠুরি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-110-026",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) দর্পণ ও লেন্স উভয়ের ক্ষেত্রে u এর মান সাধারণত ঋণাত্মক (ii) উত্তল লেন্সের f ধনাত্মক (iii) উত্তল দর্পণের f ঋণাত্মক (iv) অবতল লেন্সের f ধনাত্মক",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-027",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক নয়? (i) বাস্তব প্রতিবিম্ব পর্দায় ধরা যায় (ii) অবাস্তব প্রতিবিম্ব পর্দায় ধরা যায় না (iii) সমতল দর্পণের প্রতিবিম্ব বাস্তব (iv) উত্তল দর্পণের প্রতিবিম্ব অবাস্তব কিন্তু বিবর্ধিত",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-028",
+      "question": "অ্যাস্টিগমাটিজম ত্রুটি সংশোধনে কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "গোলীয় লেন্স",
+        "বেলনাকার লেন্স",
+        "সমতল লেন্স",
+        "দ্বিফোকাস লেন্স"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-110-029",
+      "question": "লোহার পাইপে দস্তার প্রলেপ দেওয়াকে কী বলে?",
+      "options": [
+        "Tinning",
+        "Galvanization",
+        "Electroplating",
+        "Oxidation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-110-030",
+      "question": "কোনো রাশির মান সম্পূর্ণরূপে প্রকাশ করতে প্রয়োজন— (বহু-সঠিক)",
+      "options": [
+        "সংখ্যা",
+        "একক",
+        "দিক (ভেক্টর হলে)",
+        "রং"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

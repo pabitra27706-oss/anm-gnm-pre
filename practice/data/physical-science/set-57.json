@@ -1,0 +1,531 @@
+{
+  "subject": "general-science",
+  "set": 57,
+  "questions": [
+    {
+      "id": "ge-57-001",
+      "question": "তড়িৎ চুম্বক তৈরি করতে কী প্রয়োজন?",
+      "options": [
+        "তামার তার ও কাঠের দণ্ড",
+        "অন্তরিত তার ও নরম লোহার দণ্ড",
+        "রূপার তার",
+        "প্লাস্টিকের দণ্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-002",
+      "question": "বরফের গলনের সুপ্ততাপ কত (cal/g এককে)?",
+      "options": [
+        "40 cal/g",
+        "60 cal/g",
+        "80 cal/g",
+        "100 cal/g"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-003",
+      "question": "কোনো লেন্সের ক্ষমতার একক কী?",
+      "options": [
+        "মিটার",
+        "ডায়োপ্টার",
+        "সেন্টিমিটার",
+        "ফুট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-004",
+      "question": "নিচের কোনটি ভেক্টর রাশি?",
+      "options": [
+        "দ্রুতি",
+        "শক্তি",
+        "তাপমাত্রা",
+        "বল"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-005",
+      "question": "অ্যালকোহলের শেষ প্রত্যয় কী?",
+      "options": [
+        "-al",
+        "-ol",
+        "-one",
+        "-oic acid"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-006",
+      "question": "একটি কালো বস্তু তাপ বিকিরণের কী প্রকার?",
+      "options": [
+        "ভালো শোষক কিন্তু মন্দ নির্গমনকারী",
+        "মন্দ শোষক কিন্তু ভালো নির্গমনকারী",
+        "ভালো শোষক ও ভালো নির্গমনকারী",
+        "মন্দ শোষক ও মন্দ নির্গমনকারী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-007",
+      "question": "15 cm ফোকাস দূরত্বের উত্তল লেন্সের সামনে 10 cm দূরে বস্তু রাখলে প্রতিবিম্বের দূরত্ব কত?",
+      "options": [
+        "-30 cm",
+        "+30 cm",
+        "-20 cm",
+        "+20 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-57-008",
+      "question": "[NUMERICAL] 11.2 L হিলিয়াম গ্যাসে (STP) কত মোল হিলিয়াম আছে?",
+      "options": [
+        "1 mole",
+        "0.5 mole",
+        "2 mole",
+        "0.1 mole"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-009",
+      "question": "শব্দের বেগ কম হয় কোন কোন মাধ্যমে?",
+      "options": [
+        "গ্যাসীয় মাধ্যমে",
+        "শুষ্ক বায়ু অপেক্ষা আর্দ্র বায়ুতে (শুষ্ক বায়ুতে বেগ কম)",
+        "শূন্যস্থানে (একেবারে শূন্য)",
+        "কঠিন মাধ্যমে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-57-010",
+      "question": "সল (Sol) এবং জেলের (Gel) মধ্যে পার্থক্য—",
+      "options": [
+        "সল হলো তরলে কঠিন",
+        "জেল হলো কঠিনের মধ্যে তরল",
+        "সল বেশি সান্দ্র হয়",
+        "জেল অর্ধ-কঠিন হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-57-011",
+      "question": "মৌলের তড়িৎঋণাত্মকতা বেশি হলে তা কী ধরনের যৌগ গঠন করে?",
+      "options": [
+        "সমযোজী",
+        "তড়িৎযোজী",
+        "উপধাতব",
+        "কোনোটি নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-012",
+      "question": "মিথাইল অরেঞ্জ (Methyl Orange) অ্যাসিড দ্রবণে কী বর্ণ দেয়?",
+      "options": [
+        "হলুদ",
+        "নীল",
+        "লাল",
+        "সবুজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-013",
+      "question": "একটি যন্ত্র 100 J কাজ 5 সেকেন্ডে করলে ক্ষমতা কত?",
+      "options": [
+        "500 W",
+        "50 W",
+        "20 W",
+        "5 W"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-014",
+      "question": "ইথিনের আর কী বলা হয়?",
+      "options": [
+        "ইথিলিন",
+        "অ্যাসিটিলিন",
+        "মিথেন",
+        "বুটেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-015",
+      "question": "কাজ ও ক্ষমতার মধ্যে পার্থক্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "কাজ সময় নিরপেক্ষ, ক্ষমতা সময় সাপেক্ষ",
+        "উভয়ের একক জুল",
+        "কাজ জুল, ক্ষমতা জুল/সেকেন্ড",
+        "ক্ষমতা কাজের হার নির্দেশ করে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-57-016",
+      "question": "নিচের কোনগুলি 'মনোবেসিক অ্যাসিড' (Monobasic Acids)?",
+      "options": [
+        "HCl",
+        "HNO3",
+        "CH3COOH",
+        "H2SO4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-57-017",
+      "question": "220 V-100 W বাতির ফিলামেন্টের রোধ কত?",
+      "options": [
+        "100 Ω",
+        "220 Ω",
+        "484 Ω",
+        "48.4 Ω"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-018",
+      "question": "বায়ুশক্তির অসুবিধা কী হতে পারে? (বহু-সঠিক)",
+      "options": [
+        "শব্দ দূষণ",
+        "পাখির ক্ষতি",
+        "সব জায়গায় পাওয়া যায় না",
+        "ব্যয়বহুল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-57-019",
+      "question": "ফরেনহাইট ও সেলসিয়াস স্কেলের মধ্যে সম্পর্ক স্থাপনকারী রেখাচিত্রটি কী রূপ?",
+      "options": [
+        "সরলরেখা",
+        "পরাবৃত্ত",
+        "উপবৃত্ত",
+        "অসম্পৃক্ত"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-57-020",
+      "question": "[NUMERICAL] 2 atm চাপে 5 L আয়তনের একটি গ্যাসকে 10 L করা হলো। নতুন চাপ কত হবে?",
+      "options": [
+        "1 atm",
+        "4 atm",
+        "2 atm",
+        "0.5 atm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-021",
+      "question": "তাপ সঞ্চালনের কোন পদ্ধতিতে বস্তুকণা স্থানান্তরিত না হলেও শক্তি স্থানান্তরিত হয়?",
+      "options": [
+        "পরিবহন",
+        "পরিচলন",
+        "বিকিরণ",
+        "A ও C"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-57-022",
+      "question": "স্টেথোস্কোপে শব্দের কোন ধর্মকে কাজে লাগানো হয়?",
+      "options": [
+        "প্রতিসরণ",
+        "প্রতিফলন",
+        "বিচ্ছুরণ",
+        "শোষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-023",
+      "question": "[NUMERICAL] 1000 kg ভরের একটি গাড়ির ওপর কত বল প্রয়োগ করলে গাড়িটিতে 5 m/s² ত্বরণ সৃষ্টি হবে?",
+      "options": [
+        "200 N",
+        "5000 N",
+        "1005 N",
+        "50 N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-57-024",
+      "question": "চার্লস সূত্রের লেখচিত্র (V-T) মূলবিন্দু দিয়ে যায় না কেন?",
+      "options": [
+        "পরম শূন্য তাপমাত্রায় আয়তন শূন্য হয়",
+        "লেখচিত্রটি কেলভিন স্কেলে করলে মূলবিন্দুগামী হয়",
+        "সেলসিয়াস স্কেলে এটি -273°C এ ছেদ করে",
+        "আয়তন ধ্রুবক থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-57-025",
+      "question": "কার্বন মনোক্সাইড (CO) শরীরে কী ক্ষতি করে?",
+      "options": [
+        "ফুসফুসের টিস্যু নষ্ট করে",
+        "হিমোগ্লোবিনের সাথে যুক্ত হয়ে অক্সিজেন পরিবহন বাধা দেয়",
+        "চামড়ার ক্যান্সার করে",
+        "অ্যাসিডিটি বাড়ায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-026",
+      "question": "নিচের কোন বিক্রিয়াটি সংযোজন বিক্রিয়ার উদাহরণ? (i) ইথিন + হাইড্রোজেন → ইথেন (ii) ইথিন + ব্রোমিন → ডাইব্রোমোইথেন (iii) মিথেন + ক্লোরিন → ক্লোরোমিথেন (iv) ইথানল → ইথিন + পানি",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-57-027",
+      "question": "ফিউজ সম্পর্কে সঠিক উক্তিগুলো কী? (বহু-সঠিক)",
+      "options": [
+        "এটি একটি সুরক্ষা যন্ত্র",
+        "এর গলনাঙ্ক কম",
+        "এটি বর্তনীতে সমান্তরালে লাগানো হয়",
+        "টিন-সীসার সংকর দিয়ে তৈরি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-57-028",
+      "question": "নিচের কোনগুলো ভৌত রাশি? (বহু-সঠিক)",
+      "options": [
+        "কার্য",
+        "দৈর্ঘ্য",
+        "সময়",
+        "ভালোবাসা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-57-029",
+      "question": "গতিবেগের একক নিচের কোনগুলি হতে পারে?",
+      "options": [
+        "m/s",
+        "km/h",
+        "cm/s",
+        "m/s²"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-57-030",
+      "question": "নিচের কোনটিকে 'Universal Solvent' বলা হয়?",
+      "options": [
+        "Alcohol",
+        "Benzene",
+        "Water",
+        "Ether"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "subject": "general-science",
+  "set": 84,
+  "questions": [
+    {
+      "id": "ge-84-001",
+      "question": "নিচের কোনটি একটি জৈব নির্দেশক নয়?",
+      "options": [
+        "হলুদ",
+        "জবা ফুলের রস",
+        "মিথাইল অরেঞ্জ",
+        "নীল ক্যাবেজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-002",
+      "question": "আইসোমার কাকে বলে?",
+      "options": [
+        "একই আণবিক সংকেত ও ভিন্ন গঠনের যৌগ",
+        "ভিন্ন আণবিক সংকেত ও একই গঠনের যৌগ",
+        "একই আণবিক ভর ও ভিন্ন সংকেতের যৌগ",
+        "একই স্ফুটনাঙ্কের যৌগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-003",
+      "question": "[NUMERICAL] 40 kg ভরের একটি বালকের ওজন পৃথিবীতে কত? (g = 9.8 m/s²)",
+      "options": [
+        "40 kg",
+        "392 N",
+        "400 N",
+        "4.08 N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-004",
+      "question": "K, L, M, N কক্ষের শক্তির ক্রম কোনটি?",
+      "options": [
+        "K > L > M > N",
+        "N > M > L > K",
+        "K = L = M = N",
+        "L > K > M > N"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-005",
+      "question": "ওহমের সূত্রটি কী?",
+      "options": [
+        "V = R/I",
+        "I = VR",
+        "V = IR",
+        "R = VI"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-006",
+      "question": "Al³⁺ আয়নে ইলেকট্রন সংখ্যা কত? (Al: Z=13)",
+      "options": [
+        "10",
+        "13",
+        "16",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-007",
+      "question": "অবতল লেন্সের ক্ষমতা কীরূপ হয়?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "শূন্য",
+        "অনির্দিষ্ট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-008",
+      "question": "নির্দেশকের বর্ণ পরিবর্তনের পরিসীমা (pH Range) সম্পর্কে সঠিক—",
+      "options": [
+        "মিথাইল অরেঞ্জ (3.1 - 4.4)",
+        "ফেনলফথ্যালিন (8.3 - 10.0)",
+        "লিটমাস (5.0 - 8.0)",
+        "সব নির্দেশকের রেঞ্জ একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-84-009",
+      "question": "রান্নার এলপিজি (LPG) সিলিন্ডারে মূলত কী থাকে?",
+      "options": [
+        "Methane",
+        "Propane & Butane",
+        "Ethane",
+        "Hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-010",
+      "question": "কম্পনশীল বস্তুর কম্পন বন্ধ হয়ে গেলে শব্দ শোনা যায় না কেন?",
+      "options": [
+        "মাধ্যম নষ্ট হয়ে যায়",
+        "তরঙ্গ তৈরি হওয়া বন্ধ হয়",
+        "তরঙ্গদৈর্ঘ্য বেড়ে যায়",
+        "বিস্তার শূন্য হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-011",
+      "question": "শূন্যস্থানে (Vacuum) শব্দের বেগ কত?",
+      "options": [
+        "330 m/s",
+        "3 × 10⁸ m/s",
+        "শূন্য (0 m/s)",
+        "1500 m/s"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-012",
+      "question": "অ্যালকোহল থার্মোমিটারের পরিসীমা কত হতে পারে?",
+      "options": [
+        "-100°C থেকে 100°C",
+        "-50°C থেকে 200°C",
+        "-112°C থেকে 78°C",
+        "35°C থেকে 42°C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-013",
+      "question": "নিচের কোন ধাতু নিষ্কাশনে তড়িৎ বিশ্লেষণ ব্যবহৃত হয়? (বহু-সঠিক)",
+      "options": [
+        "Na",
+        "Al",
+        "Fe",
+        "Cu (পরিশোধন)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-84-014",
+      "question": "নিচের কোনটি জারণ প্রক্রিয়ায় তৈরি হয়?",
+      "options": [
+        "অ্যালকোহল থেকে অ্যালডিহাইড",
+        "অ্যালডিহাইড থেকে অ্যালকোহল",
+        "অ্যালকেন থেকে অ্যালকিন",
+        "অ্যালকিন থেকে অ্যালকেন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-015",
+      "question": "98.6°F সমান কত °C?",
+      "options": [
+        "35°C",
+        "37°C",
+        "39°C",
+        "41°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-016",
+      "question": "বায়ুদূষণ রোধে বৃক্ষরোপণ কোন ধরনের সমাধান?",
+      "options": [
+        "শুধু আইনি",
+        "প্রযুক্তিগত ও জৈবিক",
+        "শুধু রাসায়নিক",
+        "অকার্যকর"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-017",
+      "question": "নিচের কোনগুলো আলোর বিচ্ছুরণের বৈশিষ্ট্য? (i) সাদা আলো বিভিন্ন রঙে বিভক্ত হয় (ii) বিভিন্ন রঙের বিচ্যুতি ভিন্ন (iii) লাল আলোর বিচ্যুতি সবচেয়ে কম (iv) বেগুনি আলোর বিচ্যুতি সবচেয়ে বেশি",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-018",
+      "question": "বাষ্পীভবন ও স্ফুটনের মধ্যে পার্থক্য কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বাষ্পীভবন যে কোনো তাপমাত্রায় হয়",
+        "স্ফুটন নির্দিষ্ট তাপমাত্রায় হয়",
+        "উভয়ই একই",
+        "বাষ্পীভবন অভ্যন্তরেও হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-84-019",
+      "question": "চিকিৎসাক্ষেত্রে জ্বর মাপার জন্য কোন থার্মোমিটার ব্যবহৃত হয়?",
+      "options": [
+        "ল্যাবরেটরি থার্মোমিটার",
+        "সর্বোচ্চ-সর্বনিম্ন থার্মোমিটার",
+        "ক্লিনিক্যাল থার্মোমিটার",
+        "গ্যাস থার্মোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-020",
+      "question": "ইলেকট্রনিক বর্জ্যে (E-waste) কী কী থাকে? (একাধিক উত্তর)",
+      "options": [
+        "সিসা (Pb)",
+        "পারদ (Hg)",
+        "ক্যাডমিয়াম (Cd)",
+        "প্লাস্টিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-84-021",
+      "question": "বিদ্যুৎ পরিবাহী তারের মোড়কে কোন ধাতু ব্যবহৃত হয়?",
+      "options": [
+        "লোহা ও ক্রোমিয়াম",
+        "অ্যালুমিনিয়াম ও কপার",
+        "টিন ও সীসা",
+        "রূপা ও প্লাটিনাম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-022",
+      "question": "অভিকর্ষজ ত্বরণ 'g'-এর মান পৃথিবীর কোথায় সবচেয়ে কম?",
+      "options": [
+        "মেরু অঞ্চলে",
+        "বিষুব রেখায়",
+        "কোনো খনির ভেতরে",
+        "পৃথিবীর কেন্দ্রে (এখানে শূন্য)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-023",
+      "question": "32°F-কে সেলসিয়াস স্কেলে প্রকাশ কর?",
+      "options": [
+        "-0°C",
+        "0°C",
+        "10°C",
+        "32°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-024",
+      "question": "সমতল দর্পণে বস্তু ও প্রতিবিম্বের দূরত্বের সম্পর্ক নিচের কোনটি?",
+      "options": [
+        "প্রতিবিম্বের দূরত্ব < বস্তুর দূরত্ব",
+        "প্রতিবিম্বের দূরত্ব > বস্তুর দূরত্ব",
+        "প্রতিবিম্বের দূরত্ব = বস্তুর দূরত্ব",
+        "প্রতিবিম্বের দূরত্ব দ্বিগুণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-025",
+      "question": "আমাদের রক্ত আম্লিক হয়ে গেলে (Acidosis) কী হতে পারে?",
+      "options": [
+        "শ্বাসকষ্ট",
+        "ক্লান্তি",
+        "এনজাইমের কার্যকারিতা নষ্ট হওয়া",
+        "জীবনীশক্তি বেড়ে যাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-84-026",
+      "question": "ডাল্টনের আংশিক চাপ সূত্র প্রযোজ্য নয় এমন গ্যাস মিশ্রণ—",
+      "options": [
+        "H2 ও Cl2 (আলোর উপস্থিতিতে)",
+        "NH3 ও HCl",
+        "N2 ও O2",
+        "He ও Ar"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-84-027",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক নয়? (i) বাস্তব প্রতিবিম্ব পর্দায় ধরা যায় (ii) অবাস্তব প্রতিবিম্ব পর্দায় ধরা যায় না (iii) সমতল দর্পণের প্রতিবিম্ব বাস্তব (iv) উত্তল দর্পণের প্রতিবিম্ব অবাস্তব কিন্তু বিবর্ধিত",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-84-028",
+      "question": "কাপড় কাচার সোডা (Na2CO3.10H2O) সম্পর্কে সঠিক তথ্য হলো—",
+      "options": [
+        "এতে 10 অণু কেলাস জল থাকে",
+        "এটি একটি ক্ষারীয় লবণ",
+        "এটি জলের খরতা দূর করে",
+        "এটি একটি শক্তিশালী অ্যাসিড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-84-029",
+      "question": "এসিড ও ক্ষারের প্রশমন বিক্রিয়ায় কী উৎপন্ন হয়?",
+      "options": [
+        "কেবল লবণ",
+        "লবণ ও জল",
+        "কেবল জল",
+        "হাইড্রোজেন গ্যাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-84-030",
+      "question": "একটি টর্চের ব্যাটারিতে কী শক্তি জমা থাকে?",
+      "options": [
+        "তাপ",
+        "গতি",
+        "রাসায়নিক",
+        "পারমাণবিক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

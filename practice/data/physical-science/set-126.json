@@ -1,0 +1,529 @@
+{
+  "subject": "general-science",
+  "set": 126,
+  "questions": [
+    {
+      "id": "ge-126-001",
+      "question": "নিচের কোন উক্তিটি ঠিক?",
+      "options": [
+        "তাপ ও তাপমাত্রা একই",
+        "তাপমাত্রা বস্তুর তাপীয় অবস্থা নির্দেশ করে",
+        "তাপ বস্তুর তাপীয় অবস্থা নির্দেশ করে",
+        "তাপ ও তাপমাত্রার একক একই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-002",
+      "question": "নিচের কোনগুলি পরিবেশবান্ধব চর্চা? (একাধিক উত্তর)",
+      "options": [
+        "কাপড়ের ব্যাগ ব্যবহার",
+        "সাইকেল চালানো",
+        "এলইডি বাতি ব্যবহার(D) এসির তাপমাত্রা ১৬ ডিগ্রিতে সেট করা",
+        ""
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-126-003",
+      "question": "অবতল দর্পণের সামনে বস্তু C ও F এর মাঝে থাকলে প্রতিবিম্বের প্রকৃতি কেমন?",
+      "options": [
+        "অবাস্তব, সমশীর্ষ",
+        "বাস্তব, অবশীর্ষ ও বিবর্ধিত",
+        "বাস্তব, সমশীর্ষ ও সমান",
+        "অবাস্তব, অবশীর্ষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-126-004",
+      "question": "নিচের কোন জোড়াগুলো আইসোটোপ? (বহু-সঠিক)",
+      "options": [
+        "₁H¹ ও ₁H²",
+        "₁₇Cl³⁵ ও ₁₇Cl³⁷",
+        "₁₈Ar⁴⁰ ও ₂₀Ca⁴⁰",
+        "₆C¹² ও ₆C¹⁴"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-126-005",
+      "question": "ইউট্রোফিকেশনের কারণ? (একাধিক উত্তর)",
+      "options": [
+        "ফসফেট সার",
+        "নাইট্রেট সার",
+        "অক্সিজেন বৃদ্ধি",
+        "শৈবালের আধিক্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-126-006",
+      "question": "C₁₂H₂₂O₁₁ এর আণবিক ভর কত? (C=12, H=1, O=16)",
+      "options": [
+        "180",
+        "342",
+        "350",
+        "322"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-007",
+      "question": "5 D ক্ষমতার একটি উত্তল লেন্সের ফোকাস দূরত্ব কত?",
+      "options": [
+        "20 cm",
+        "50 cm",
+        "5 cm",
+        "0.5 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-008",
+      "question": "[NUMERICAL] 30°C তাপমাত্রায় একটি লবণের দ্রাব্যতা 40। ওই তাপমাত্রায় 200g সম্পৃক্ত দ্রবণ তৈরি করতে কত গ্রাম জল লাগবে?",
+      "options": [
+        "142.8g",
+        "100g",
+        "160g",
+        "120g"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-126-009",
+      "question": "লোহায় মরিচা ধরার জন্য নিচের কোনগুলি আবশ্যক?",
+      "options": [
+        "অক্সিজেন",
+        "জলীয় বাষ্প",
+        "কার্বন ডাই অক্সাইড",
+        "আলো"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-126-010",
+      "question": "মানবদেহের স্বাভাবিক তাপমাত্রা ফারেনহাইট স্কেলে কত?",
+      "options": [
+        "96.8°F",
+        "97.6°F",
+        "98.4°F",
+        "98.6°F"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-011",
+      "question": "'ব্রাইন' (Brine) দ্রবণের প্রকৃতি কী?",
+      "options": [
+        "তীব্র আম্লিক",
+        "তীব্র ক্ষারীয়",
+        "প্রশম (Neutral)",
+        "মৃদু আম্লিক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-012",
+      "question": "নাইট্রোজেন সার জমিতে প্রয়োগ করলে কোন দূষণ হতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "মাটি অম্লীয়করণ",
+        "জল দূষণ (নাইট্রেট)",
+        "বায়ু দূষণ (N₂O)",
+        "অক্সিজেন দূষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-126-013",
+      "question": "রৈখিক সরণ 's', প্রাথমিক বেগ 'u', সময় 't' এবং ত্বরণ 'a' হলে গতির দ্বিতীয় সমীকরণটি কোনটি?",
+      "options": [
+        "v = u + at",
+        "s = ut + ½at²",
+        "v² = u² + 2as",
+        "s = vt"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-014",
+      "question": "গরমের দিনে কুকুর হাঁপায়। এর কারণ কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ঘাম গ্রন্থি কম থাকায়",
+        "বাষ্পীভবনের মাধ্যমে তাপমাত্রা নিয়ন্ত্রণ",
+        "শরীর ঠান্ডা রাখার জন্য",
+        "অক্সিজেন বাড়ানোর জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-126-015",
+      "question": "আলোকীয় ঘনত্বের সংজ্ঞা কী?",
+      "options": [
+        "মাধ্যমের ভর",
+        "মাধ্যমের প্রতিসরাঙ্ক",
+        "মাধ্যমের আলোর বেগ",
+        "মাধ্যমের তাপমাত্রা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-016",
+      "question": "স্যাপোনিফিকেশনে কী কী উৎপন্ন হয়?",
+      "options": [
+        "অ্যালকোহল + অ্যাসিড",
+        "সাবান + গ্লিসারল",
+        "এস্টার + পানি",
+        "পলিমার + মনোমার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-017",
+      "question": "সালফিউরিক অ্যাসিডে কতগুলি হাইড্রোজেন পরমাণু থাকে?",
+      "options": [
+        "1টি",
+        "2টি",
+        "3টি",
+        "4টি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-018",
+      "question": "সরল যন্ত্রের উদাহরণ কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "লিভার",
+        "পালি",
+        "মোটর গাড়ি",
+        "আনত তল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-126-019",
+      "question": "অবতল দর্পণের ক্ষেত্রে সঠিক বিবৃতিগুলি বাছাই করো: (i) f = R/2 (ii) u সাধারণত ঋণাত্মক (iii) v ধনাত্মক বা ঋণাত্মক হতে পারে (iv) বাস্তব প্রতিবিম্বের জন্য v ঋণাত্মক",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-126-020",
+      "question": "Fe (Z=26) কোন ব্লকের মৌল?",
+      "options": [
+        "s",
+        "p",
+        "d",
+        "f"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-126-021",
+      "question": "[NUMERICAL] একটি গ্যাসের আয়তন 2 atm চাপে 10 L। তাপমাত্রা স্থির রেখে চাপ 4 atm করলে আয়তন কত হবে?",
+      "options": [
+        "20 L",
+        "5 L",
+        "2.5 L",
+        "40 L"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-022",
+      "question": "উত্তল দর্পণের বৈশিষ্ট্যগুলি নির্বাচন করো: (i) অপসারী দর্পণ (ii) অভিসারী দর্পণ (iii) সর্বদা অবাস্তব ও সমশীর্ষ প্রতিবিম্ব গঠন করে (iv) সর্বদা বিবর্ধিত প্রতিবিম্ব গঠন করে",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (iv)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-023",
+      "question": "নিচের কোন ঘটনাগুলি দৈনন্দিন জীবনে দৃষ্ট হয়? (i) মরীচিকা (ii) নীল আকাশ (iii) সূর্যোদয় ও সূর্যাস্তের সময় লাল আভা (iv) বৃষ্টির পরে রংধনু",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-024",
+      "question": "কোনো মাধ্যমে আলোর বেগ 2 × 10⁸ m/s হলে প্রতিসরাঙ্ক কত?",
+      "options": [
+        "1.5",
+        "2.0",
+        "1.33",
+        "2.5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-126-025",
+      "question": "[NUMERICAL] কোনো গ্যাসের তাপমাত্রা 27°C থেকে বাড়িয়ে 327°C করা হলো। আয়তন কত গুণ হবে (চাপ স্থির)?",
+      "options": [
+        "2 গুণ",
+        "1.5 গুণ",
+        "4 গুণ",
+        "12 গুণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-126-026",
+      "question": "মিল্ক অফ ম্যাগনেশিয়া (Milk of Magnesia) মূলত কী কাজে ব্যবহৃত হয়?",
+      "options": [
+        "জামাকাপড় কাঁচতে",
+        "অ্যান্টাসিড হিসেবে",
+        "সার হিসেবে",
+        "রঞ্জক হিসেবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-027",
+      "question": "বাষ্পীভবনের হার বাড়ায় এমন কারণগুলি নির্বাচন করো। (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপমাত্রা বৃদ্ধি",
+        "আর্দ্রতা বৃদ্ধি",
+        "বায়ুপ্রবাহ বৃদ্ধি",
+        "পৃষ্ঠের ক্ষেত্রফল বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-126-028",
+      "question": "কঠিন থেকে সরাসরি গ্যাসে পরিণত হওয়ার প্রক্রিয়াকে কী বলে?",
+      "options": [
+        "বাষ্পীভবন",
+        "ঊর্ধ্বপাতন",
+        "গলন",
+        "স্ফুটন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-126-029",
+      "question": "Cl⁻ আয়ন সম্পর্কে কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "ইলেকট্রন সংখ্যা 18",
+        "প্রোটন সংখ্যা 17",
+        "আর্গনের মতো ইলেকট্রন বিন্যাস",
+        "এটি ক্যাটায়ন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-126-030",
+      "question": "[NUMERICAL] 34 g অ্যামোনিয়ার (NH3) আয়তন STP-তে কত?",
+      "options": [
+        "22.4 L",
+        "44.8 L",
+        "11.2 L",
+        "67.2 L"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 116,
+  "questions": [
+    {
+      "id": "am-116-001",
+      "question": "কোনো লাভ বা ক্ষতি না হলে তাকে কী বলে?",
+      "options": [
+        "লাভজনক ব্যবসা",
+        "ক্ষতিজনক ব্যবসা",
+        "ক্রয়-বিক্রয় সমান",
+        "শূন্য অবস্থা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-116-002",
+      "question": "A একটি কাজ 15 দিনে করে, B 20 দিনে করে, C 25 দিনে করে। A ও B একসাথে 5 দিন কাজ করার পর C যোগ দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/15+1/20 = 7/60",
+        "5 দিনে করে = 35/60 = 7/12",
+        "বাকি কাজ = 5/12",
+        "A, B, C একসাথে 1 দিনে কাজ করে = 1/15+1/20+1/25 = (20+15+12)/300 = 47/300 → সময় = (5/12)/(47/300) = (5/12)×(300/47) = (5×25)/47 = 125/47 ≈ 2.66 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-116-003",
+      "question": "2x + 3 < 11 অসমতাটির সমাধান কী?",
+      "options": [
+        "x < 4",
+        "x > 4",
+        "x = 4",
+        "x ≤ 4"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-004",
+      "question": "ট্রাপিজিয়ামের ক্ষেত্রফল নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "½ × (a + b) × h",
+        "a × b × h",
+        "(a + b) × h",
+        "½ × a × b × h"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-116-005",
+      "question": "একটি দ্রব্য 25% লাভে বিক্রয় করলে 400 টাকা লাভ হয়। দ্রব্যটির ক্রয়মূল্য কত?",
+      "options": [
+        "1200 টাকা",
+        "1400 টাকা",
+        "1600 টাকা",
+        "1800 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-006",
+      "question": "একটি আয়তঘনের দৈর্ঘ্য 6 সেমি, প্রস্থ 8 সেমি ও উচ্চতা 10 সেমি হলে নিচের কোনটি সঠিক?",
+      "options": [
+        "আয়তন = 480 ঘনসেমি",
+        "সমগ্রতলের ক্ষেত্রফল = 376 বর্গসেমি",
+        "কর্ণ = √200 সেমি",
+        "কর্ণ = 10√2 সেমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-116-007",
+      "question": "একটি মোবাইলের দাম 10% কমে 4500 টাকা হলে, আগের দাম কত?",
+      "options": [
+        "4800 টাকা",
+        "4900 টাকা",
+        "4950 টাকা",
+        "5000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-008",
+      "question": "121, 143, 187-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 11",
+        "LCM = 11×11×13×17",
+        "LCM = 13×17×11",
+        "কোনোটিই সহমৌলিক নয়"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-116-009",
+      "question": "সমান দূরত্বে x ও y গতিতে গেলে গড় গতিবেগ:",
+      "options": [
+        "2xy/(x+y)",
+        "(x+y)/2",
+        "হারমোনিক গড়",
+        "গাণিতিক গড়"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-116-010",
+      "question": "Amount (সর্বমোট টাকা) বলতে কী বোঝায়?",
+      "options": [
+        "শুধুমাত্র মূলধন",
+        "শুধুমাত্র সুদ",
+        "মূলধন + সরল সুদ",
+        "মূলধন - সরল সুদ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-116-011",
+      "question": "2.25 -এর সমতুল্য:",
+      "options": [
+        "225%",
+        "9/4",
+        "2 + 1/4",
+        "22.5%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "09-percentages",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-116-012",
+      "question": "সরল সুদের ক্ষেত্রে P = 2SI এবং T = 4 বছর হলে, R কত?",
+      "options": [
+        "10%",
+        "12.5%",
+        "15%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-116-013",
+      "question": "1500 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "10 টাকা",
+        "12 টাকা",
+        "15 টাকা",
+        "20 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-014",
+      "question": "3000 টাকার 3 বছরের সরল সুদ 720 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-015",
+      "question": "একটি জিনিস 15% লাভে বিক্রয় করলে বিক্রয়মূল্য 1150 টাকা হয়। জিনিসটির ক্রয়মূল্য কত?",
+      "options": [
+        "980 টাকা",
+        "1000 টাকা",
+        "1020 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-016",
+      "question": "60টি জিনিসের ক্রয়মূল্য y টাকা এবং 45টি জিনিসের বিক্রয়মূল্য y টাকা হলে লাভ/ক্ষতি কত?",
+      "options": [
+        "25% লাভ",
+        "33.33% লাভ",
+        "25% ক্ষতি",
+        "33.33% ক্ষতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-017",
+      "question": "4/5, 3/4, 2/3-এদের সঠিক ক্রম বড় থেকে ছোট কোনটি এবং কেন?",
+      "options": [
+        "4/5 > 3/4 > 2/3",
+        "4/5 বৃহত্তম কারণ লব ও হরের পার্থক্য কম",
+        "2/3 ক্ষুদ্রতম",
+        "সব সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-116-018",
+      "question": "50 জন মজুরের 30 দিনের খাবার আছে। 20 দিন পর আরও 25 জন আসলে বাকি খাবার কত দিন চলবে?",
+      "options": [
+        "8 দিন",
+        "প্রাথমিক খাবার = 50×30 = 1500 জন-দিন",
+        "20 দিনে খরচ = 50×20 = 1000, বাকি = 500",
+        "50+25=75 জন, 500/75 = 6.67 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "11-ratio-and-proportion",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-116-019",
+      "question": "A একটি কাজ 3 দিনে করে, B একই কাজ 6 দিনে করে। A ও B একসাথে কাজ করলে কাজটি কত দিনে শেষ হবে?",
+      "options": [
+        "1 দিন",
+        "2 দিন",
+        "3 দিন",
+        "4 দিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-020",
+      "question": "নিচের কোন কোনটি চলকের মানের উপর ভিত্তি করে সত্য?",
+      "options": [
+        "পদের মান পরিবর্তিত হয়",
+        "চলকের বিভিন্ন মানের জন্য রাশির মান বদলায়",
+        "ধ্রুবকের মান স্থির থাকে",
+        "চলক সবসময় ধনাত্মক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-116-021",
+      "question": "একটি সারণি: ৫টি ক্লাসের পাসের হার: C1:85, C2:78, C3:92, C4:80, C5:88। সঠিক:",
+      "options": [
+        "C3 সর্বোচ্চ",
+        "C2 সর্বনিম্ন",
+        "গড় 84.6",
+        "C1 ও C4 এর গড় 82.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-116-022",
+      "question": "একটি দ্রব্য 800 টাকায় কিনে 640 টাকায় বিক্রয় করলে কী কী সত্য?",
+      "options": [
+        "ক্ষতি = 160 টাকা",
+        "ক্ষতি% = 20%",
+        "ক্ষতি = 160 টাকা, ক্ষতি% = 20%",
+        "ক্ষতি% = 25%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-116-023",
+      "question": "80 কিমি দূরত্ব 40 km/h গতিতে গেলে সময় 2 ঘন্টা। যদি 50 km/h গতিতে যাই:",
+      "options": [
+        "সময় 1.6 ঘন্টা",
+        "সময় 0.4 ঘন্টা কমে",
+        "সময় 0.5 ঘন্টা কমে",
+        "সময় 2.5 ঘন্টা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-116-024",
+      "question": "একজন দোকানদার 1 কেজির জায়গায় 750 গ্রাম দেয়। তার প্রকৃত লাভের হার কত?",
+      "options": [
+        "25%",
+        "30%",
+        "33.33%",
+        "35%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-025",
+      "question": "60 টাকায় 12টি ডিম কিনে 66 টাকায় 11টি ডিম বিক্রয় করলে লাভ বা ক্ষতির হার কত?",
+      "options": [
+        "10% লাভ",
+        "15% লাভ",
+        "20% লাভ",
+        "25% লাভ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-026",
+      "question": "5a²b³ রাশিটির মাত্রা কত?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-027",
+      "question": "নিচের হিস্টোগ্রামে শ্রেণি ও কম্পাঙ্ক: 0-10: 5, 10-20: 8, 20-30: 12, 30-40: 7, 40-50: 4 সর্বোচ্চ কম্পাঙ্ক কোন শ্রেণিতে?",
+      "options": [
+        "0-10",
+        "10-20",
+        "20-30",
+        "30-40"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-116-028",
+      "question": "একজন ব্যক্তি 15% ক্ষতিতে একটি জিনিস বিক্রয় করল। যদি সে 5% কম ক্ষতিতে বিক্রয় করত, তাহলে 100 টাকা বেশি পেত। জিনিসটির CP কত এবং 15% ক্ষতিতে SP কত?",
+      "options": [
+        "CP = 2000 টাকা",
+        "15% ক্ষতিতে SP = 1700 টাকা",
+        "CP = 1000 টাকা",
+        "SP = 850 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-116-029",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য প্রস্থের 3 গুণ। ক্ষেত্রফল 108 বর্গমি। প্রস্থ কত?",
+      "options": [
+        "4 মি",
+        "5 মি",
+        "6 মি",
+        "7 মি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-116-030",
+      "question": "শঙ্কুর আয়তন নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "πr²h",
+        "½πr²h",
+        "⅓πr²h",
+        "¼πr²h"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

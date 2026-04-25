@@ -1,0 +1,519 @@
+{
+  "subject": "general-science",
+  "set": 2,
+  "questions": [
+    {
+      "id": "ge-02-001",
+      "question": "কোবাল্ট (Co) এর পারমাণবিক সংখ্যা কত?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-02-002",
+      "question": "NaCl দ্রবণের তড়িৎ বিশ্লেষণে উৎপন্ন পদার্থগুলো কী কী? (বহু-সঠিক)",
+      "options": [
+        "ক্যাথোডে H₂ গ্যাস",
+        "অ্যানোডে Cl₂ গ্যাস",
+        "দ্রবণে NaOH",
+        "অ্যানোডে O₂ গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-02-003",
+      "question": "উত্তল লেন্স কী জাতীয় লেন্স?",
+      "options": [
+        "অপসারী লেন্স",
+        "অভিসারী লেন্স",
+        "সমতল লেন্স",
+        "বেলনাকার লেন্স"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-004",
+      "question": "বৃষ্টির জলের pH সাধারণত কত থাকে?",
+      "options": [
+        "7.0",
+        "8.5",
+        "5.6",
+        "1.2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-005",
+      "question": "একটি উত্তল লেন্স এবং একটি অবতল লেন্সের ফোকাস দূরত্ব সমান 20 cm। এদের সংস্পর্শে রাখলে তুল্য ফোকাস দূরত্ব কত হবে?",
+      "options": [
+        "অসীম",
+        "10 cm",
+        "20 cm",
+        "40 cm"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-02-006",
+      "question": "আরহেনিয়াসের মতে ক্ষার জলীয় দ্রবণে কোন আয়ন প্রদান করে?",
+      "options": [
+        "H+",
+        "OH-",
+        "Na+",
+        "NH4+"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-007",
+      "question": "কাগজ শিল্পে কোন রাসায়নিক দূষণের জন্য \"ব্ল্যাক লিকার\" সমস্যা তৈরি করে?",
+      "options": [
+        "ক্ষার (Alkali) ও লিগনিন",
+        "অ্যাসিড",
+        "সিসা",
+        "তামা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-02-008",
+      "question": "একাধিক যোজ্যতা দেখা যায় কোনটির?",
+      "options": [
+        "Na",
+        "Mg",
+        "Fe",
+        "Al"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-009",
+      "question": "নিচের কোন ধাতুগুলো সুপরিবাহী? (বহু-সঠিক)",
+      "options": [
+        "তামা",
+        "অ্যালুমিনিয়াম",
+        "লোহা (তুলনামূলকভাবে)",
+        "রূপা"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-02-010",
+      "question": "একটি সুষম তারের রোধ R। তারটিকে টেনে দ্বিগুণ করা হলে (ভর স্থির রেখে) রোধ কত হবে?",
+      "options": [
+        "2R",
+        "4R",
+        "R/2",
+        "R"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-02-011",
+      "question": "নিচের কোন ঘটনাটি আলোর প্রতিসরণের উদাহরণ?",
+      "options": [
+        "পুকুরের পানি কম মনে হওয়া",
+        "দর্পণে মুখ দেখা",
+        "ছায়া পড়া",
+        "পানি ফুটানো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-012",
+      "question": "100 J তাপ উৎপন্ন করতে 5 Ω রোধের ভেতর দিয়ে 2 A তড়িৎ কত সেকেন্ড চলতে হবে?",
+      "options": [
+        "10 s",
+        "5 s",
+        "50 s",
+        "25 s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-02-013",
+      "question": "বায়ুর আর্দ্রতা বাড়লে শব্দের বেগ—",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "প্রথমে কমে পরে বাড়ে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-014",
+      "question": "-50°C-এ পারদের স্থিতি কোনটি?",
+      "options": [
+        "তরল",
+        "কঠিন",
+        "গ্যাস",
+        "বাষ্প"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-015",
+      "question": "সরল যন্ত্র কাকে বলে?",
+      "options": [
+        "যে যন্ত্র জটিল কাজ করে",
+        "যে যন্ত্র বলের দিক পরিবর্তন করে",
+        "যে যন্ত্র অল্প বল দিয়ে বড় বলের কাজ করে",
+        "B ও C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-016",
+      "question": "চোখের কোন অংশ আলোর তীব্রতা নিয়ন্ত্রণ করে?",
+      "options": [
+        "কর্ণিয়া",
+        "আইরিস",
+        "লেন্স",
+        "রেটিনা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-017",
+      "question": "CGS পদ্ধতিতে বলের একক কী?",
+      "options": [
+        "নিউটন",
+        "ডাইন",
+        "জুল",
+        "আর্গ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-018",
+      "question": "কার্বন ডাই অক্সাইড (CO2) সম্পর্কে কোনগুলি সত্য?",
+      "options": [
+        "এটি একটি আম্লিক অক্সাইড",
+        "এটি দহনে সাহায্য করে না",
+        "এটি চুনের জলকে ঘোলা করে",
+        "এটি একটি বিজারক গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-02-019",
+      "question": "নিচের কোনগুলি নির্দেশক (Indicators)?",
+      "options": [
+        "লিটমাস",
+        "মিথাইল অরেঞ্জ",
+        "হলুদ",
+        "চিনি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-02-020",
+      "question": "নিচের কোনটি/গুলো শক্তির নিত্যতা সূত্রের উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "দোলকের দোলন",
+        "পাথর নিচে পড়া",
+        "বরফ গলা",
+        "জল পড়া থেকে বিদ্যুৎ উৎপাদন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-02-021",
+      "question": "ইলেকট্রন, প্রোটন ও নিউট্রনের আপেক্ষিক ভর সম্পর্কে সঠিক কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "প্রোটনের ভর ≈ 1 amu",
+        "নিউট্রনের ভর ≈ 1837 ইলেকট্রন ভর",
+        "ইলেকট্রনের ভর প্রোটনের 1/1837 অংশ",
+        "নিউট্রন ও প্রোটনের ভর সমান"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-02-022",
+      "question": "S টি সমান রোধ R সমান্তরালে যুক্ত করলে তুল্য রোধ কত?",
+      "options": [
+        "R/S",
+        "RS",
+        "R+S",
+        "S/R"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-023",
+      "question": "নিচের কোনটি Heterogeneous mixture-এর উদাহরণ?",
+      "options": [
+        "বাতাস",
+        "পিতল (Brass)",
+        "নোনা জল",
+        "তেলের মধ্যে জল"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-024",
+      "question": "K কক্ষে সর্বোচ্চ কতটি ইলেকট্রন থাকতে পারে?",
+      "options": [
+        "8",
+        "18",
+        "2",
+        "32"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-025",
+      "question": "দ্বিতীয় শ্রেণির লিভারের ক্ষেত্রে—",
+      "options": [
+        "ভার মাঝখানে থাকে",
+        "আলম্ব মাঝখানে থাকে",
+        "বল মাঝখানে থাকে",
+        "আলম্ব একপ্রান্তে, ভার অন্যপ্রান্তে থাকে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-02-026",
+      "question": "অর্ধপরিবাহীর V-I গ্রাফ কেমন হয়? (বহু-সঠিক)",
+      "options": [
+        "সরলরৈখিক",
+        "অ-সরলরৈখিক",
+        "ওহমের সূত্র মেনে চলে না",
+        "মূলবিন্দুগামী সরলরেখা"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-02-027",
+      "question": "স্ফুটন ও বাষ্পীভবনের মধ্যে মূল পার্থক্য কী?",
+      "options": [
+        "স্ফুটন শুধুমাত্র উপরিতলে হয়",
+        "বাষ্পীভবন নির্দিষ্ট তাপমাত্রায় হয়",
+        "স্ফুটন নির্দিষ্ট তাপমাত্রায় সম্পূর্ণ তরলে হয়, বাষ্পীভবন যেকোনো তাপমাত্রায় উপরিতলে হয়",
+        "কোনো পার্থক্য নেই"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-028",
+      "question": "নিচের কোনটি অন্তরক?",
+      "options": [
+        "রূপা",
+        "লোহা",
+        "কাচ",
+        "অ্যালুমিনিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-02-029",
+      "question": "100 mL জলের তড়িৎ বিশ্লেষণে ক্যাথোড ও অ্যানোডে উৎপন্ন গ্যাসের অনুপাত কত? (H₂:O₂)",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:1",
+        "4:1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-02-030",
+      "question": "নিচের কোন জোড়াগুলি দৃষ্টি ত্রুটি ও তার সংশোধনের সঠিক? (i) মায়োপিয়া - অবতল লেন্স (ii) হাইপারমেট্রোপিয়া - উত্তল লেন্স (iii) প্রেসবায়োপিয়া - দ্বিফোকাস লেন্স (iv) অ্যাস্টিগমাটিজম - গোলীয় লেন্স",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}

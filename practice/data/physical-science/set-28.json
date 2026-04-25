@@ -1,0 +1,532 @@
+{
+  "subject": "general-science",
+  "set": 28,
+  "questions": [
+    {
+      "id": "ge-28-001",
+      "question": "একটি 100 W-এর বাল্ব 10 ঘণ্টা জ্বালালে কত শক্তি খরচ হবে?",
+      "options": [
+        "10 kWh",
+        "100 kWh",
+        "1 kWh",
+        "0.1 kWh"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-002",
+      "question": "[NUMERICAL] একটি গ্যাসের আয়তন 27°C-এ 500 mL। চাপ স্থির রেখে আয়তন 1000 mL করতে হলে তাপমাত্রা কত করতে হবে?",
+      "options": [
+        "54°C",
+        "327°C",
+        "600 K",
+        "B এবং C উভয়ই সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-28-003",
+      "question": "এসিডিটির সমস্যায় কোন জাতীয় ওষুধ সেবন করা হয়?",
+      "options": [
+        "অ্যান্টিবায়োটিক",
+        "অ্যানালজেসিক",
+        "অ্যান্টাসিড",
+        "অ্যান্টিসেপটিক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-004",
+      "question": "নিচের কোনটি প্রাকৃতিক পলিমার নয়?",
+      "options": [
+        "সেলুলোজ",
+        "প্রোটিন",
+        "রাবার",
+        "পলিথিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-005",
+      "question": "স্ট্র্যাটোস্ফিয়ারের ওজোন আমাদের কী থেকে রক্ষা করে?",
+      "options": [
+        "অবলোহিত রশ্মি",
+        "অতিবেগুনি রশ্মি (UV)",
+        "এক্স-রে",
+        "গামা রশ্মি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-006",
+      "question": "নিচের কোন ধাতু নিষ্কাশনে তড়িৎ বিশ্লেষণ ব্যবহৃত হয়? (বহু-সঠিক)",
+      "options": [
+        "Na",
+        "Al",
+        "Fe",
+        "Cu (পরিশোধন)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-007",
+      "question": "ইউনিভার্সাল ইন্ডিকেটর ব্যবহৃত হয়—",
+      "options": [
+        "দ্রবণের pH মান জানতে",
+        "আম্লিকতা বা ক্ষারীয়তার মাত্রা বুঝতে",
+        "প্রশমন বিন্দু নির্ণয়ে (সূক্ষ্মভাবে)",
+        "লবণের ভর মাপতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-008",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক? (i) জৈব যৌগের দহনে CO₂ ও H₂O উৎপন্ন হয় (ii) পেট্রোলিয়াম হাইড্রোকার্বনের মিশ্রণ (iii) পলিমার মনোমার দিয়ে গঠিত (iv) সাবান অ্যাসিডের লবণ",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-009",
+      "question": "নিচের কোনটি সরলরেখীয় প্রসারের উদাহরণ? (i) আলোর ছায়া পড়া (ii) গ্রহণ (iii) ক্যামেরা (iv) দর্পণে মুখ দেখা",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-010",
+      "question": "ক্ষমতা নির্ণয়ের অপর সূত্র কোনটি? (I ও R-এর মাধ্যমে)",
+      "options": [
+        "P = IR",
+        "P = I/R",
+        "P = I²R",
+        "P = R/I"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-011",
+      "question": "নিচের কোনগুলো একটি সরল মাইক্রোস্কোপের বিবর্ধন ক্ষমতা বাড়ানোর উপায়? (i) ফোকাস দূরত্ব কমানো (ii) ফোকাস দূরত্ব বাড়ানো (iii) বেশি ক্ষমতার লেন্স ব্যবহার (iv) লেন্সের ব্যাস বাড়ানো",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (ii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-012",
+      "question": "নিচের কোনটি মৃদু আম্লিক লবণ?",
+      "options": [
+        "NaCl",
+        "NaHSO4",
+        "Na2SO4",
+        "NaOH"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-013",
+      "question": "নিচের কোনটি 'অ্যান্টাসিড' হিসেবে ব্যবহৃত হয় না?",
+      "options": [
+        "Mg(OH)₂",
+        "NaHCO₃",
+        "Al(OH)₃",
+        "NaOH"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-014",
+      "question": "নিচের কোনগুলি রাসায়নিক পরিবর্তন?",
+      "options": [
+        "মোমের দহন",
+        "লোহার মরিচা",
+        "জলের তড়িৎ বিশ্লেষণ",
+        "প্লাটিনাম তার উত্তপ্ত করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-015",
+      "question": "নিচের কোনটি উচ্চ তাপমাত্রায় ঊর্ধ্বপাতিত হয়?",
+      "options": [
+        "লোহা",
+        "কপার",
+        "আয়োডিন",
+        "জল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-016",
+      "question": "এসি-এর বৈশিষ্ট্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "দিক পরিবর্তনশীল",
+        "দীর্ঘ দূরত্বে পাঠানো যায়",
+        "জেনারেটরে উৎপন্ন হয়",
+        "ফ্রিকোয়েন্সি 0 Hz"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-017",
+      "question": "[NUMERICAL] 3 mole অক্সিজেনের ভর কত? (O=16)",
+      "options": [
+        "48 g",
+        "96 g",
+        "32 g",
+        "16 g"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-018",
+      "question": "বাফার দ্রবণের pH স্থিতিশীল থাকে কারণ—",
+      "options": [
+        "এতে একটি রিজার্ভ অ্যাসিড থাকে",
+        "এতে একটি রিজার্ভ ক্ষার থাকে",
+        "এটি একটি জটিল সাম্যাবস্থা বজায় রাখে",
+        "এটি একটি জাদুর দ্রবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-28-019",
+      "question": "ম্যাগনেসিয়াম ফিতাকে দহন করলে কী বর্ণের শিখা উৎপন্ন হয়?",
+      "options": [
+        "লাল",
+        "নীল",
+        "উজ্জ্বল সাদা",
+        "হলুদ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-020",
+      "question": "নিচের কোন ধাতুগুলি অ্যাসিড থেকে হাইড্রোজেন প্রতিস্থাপন করতে পারে?",
+      "options": [
+        "Zn",
+        "Fe",
+        "Mg",
+        "Au"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-021",
+      "question": "ডালটনের পরমাণু তত্ত্ব অনুসারে ভিন্ন মৌলের পরমাণুসমূহ—",
+      "options": [
+        "কেবল আকারে ভিন্ন",
+        "কেবল ভরে ভিন্ন",
+        "আকার ও ভরে ভিন্ন",
+        "সম্পূর্ণ অভিন্ন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-022",
+      "question": "জারণ এবং বিজারণ কি একই সাথে ঘটে?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "কেবল উচ্চ তাপমাত্রায় ঘটে",
+        "কেবল তরল মাধ্যমে ঘটে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-023",
+      "question": "একই গ্রুপভুক্ত নয় কোন মৌলজোড়? (বহু-সঠিক)",
+      "options": [
+        "Li, Na",
+        "Be, Al",
+        "F, Cl",
+        "Ne, Ar"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-024",
+      "question": "মায়োপিয়ার বৈশিষ্ট্যগুলি নির্বাচন করো: (i) দূরের বস্তু পরিষ্কার দেখা যায় না (ii) চোখের গোলক লম্বা হয় (iii) চোখের লেন্স খুব চ্যাপ্টা হয় (iv) অবতল লেন্স দিয়ে সংশোধন করা হয়",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-025",
+      "question": "সমতল দর্পণে প্রতিবিম্বের দূরত্ব ও বস্তুর দূরত্বের সম্পর্কটি নিচের কোন সমীকরণ দ্বারা প্রকাশ করা হয়?",
+      "options": [
+        "v = u",
+        "v = -u",
+        "v = 2u",
+        "v = u/2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-28-026",
+      "question": "সঠিক বিবৃতিগুলো চিহ্নিত করো: (বহু-সঠিক)",
+      "options": [
+        "পরমাণুর নিউক্লিয়াসে প্রোটন ও নিউট্রন থাকে",
+        "ইলেকট্রনের ভর প্রোটনের চেয়ে বেশি",
+        "নিস্তড়িৎ পরমাণুতে p = e হয়",
+        "প্রোটনের আধান ধনাত্মক"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-027",
+      "question": "নিচের কোনগুলি বিজারক গ্যাস (Reducing Gases)?",
+      "options": [
+        "CO",
+        "H2S",
+        "H2",
+        "Cl2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-028",
+      "question": "একটি পরমাণুতে প্রোটন সংখ্যা 17, নিউট্রন 18, ইলেকট্রন 17; কোন তথ্য সঠিক? (বহু-সঠিক)",
+      "options": [
+        "পারমাণবিক সংখ্যা 17",
+        "ভর সংখ্যা 35",
+        "মৌলটি ক্লোরিন",
+        "ইলেকট্রন বিন্যাস 2,8,7"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-28-029",
+      "question": "220 V লাইনে 0.5 A তড়িৎ নেওয়া একটি বাতির ক্ষমতা কত?",
+      "options": [
+        "440 W",
+        "110 W",
+        "50 W",
+        "220 W"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-28-030",
+      "question": "নিচের কোনটি ইথানলের ভৌত ধর্ম? (i) বর্ণহীন তরল (ii) তীব্র গন্ধ (iii) জলের সাথে মিশে যায় (iv) উদ্বায়ী",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

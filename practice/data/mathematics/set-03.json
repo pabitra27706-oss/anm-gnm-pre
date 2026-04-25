@@ -1,0 +1,545 @@
+{
+  "subject": "arithmetic-mathematics",
+  "set": 3,
+  "questions": [
+    {
+      "id": "am-03-001",
+      "question": "একটি জিনিস 20% লাভে বিক্রয় করা হলো। যদি ক্রয়মূল্য 10% বেশি হতো এবং বিক্রয়মূল্য 10% বেশি হতো, তাহলে লাভের শতকরা হার কত হতো?",
+      "options": [
+        "15%",
+        "18%",
+        "20%",
+        "22%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-03-002",
+      "question": "3000 টাকার 3.5 বছরের সুদ 840 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-03-003",
+      "question": "5000 টাকার 6% হারে 3.5 বছরের জন্য:",
+      "options": [
+        "SI = 1050 টাকা",
+        "A = 6050 টাকা",
+        "SI = 900 টাকা",
+        "A = 5900 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-03-004",
+      "question": "একটি ট্রেনের চাকার ব্যাস 1.4 মি। চাকা কত বার ঘুরলে ট্রেন 1.1 কিমি যাবে? (π = 22/7)",
+      "options": [
+        "চাকার পরিধি = πd = 22/7 × 1.4 = 4.4 মি",
+        "1100 মি/4.4 মি = 250 বার",
+        "250 বার",
+        "250 বার ঘুরবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-03-005",
+      "question": "সমান্তর ধারা 3, 7, 11, 15,... সম্পর্কে সঠিক তথ্য কী কী?",
+      "options": [
+        "সাধারণ অন্তর = 4",
+        "5ম পদ = 19",
+        "10ম পদ = 39",
+        "এটি একটি গুণোত্তর ধারা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-03-006",
+      "question": "একটি কাজ A 8 দিনে, B 10 দিনে, C 12 দিনে করে। A ও B একসাথে 2 দিন কাজ করার পর C যোগ দিলে নিচের কোনটি সঠিক?",
+      "options": [
+        "A ও B 1 দিনে কাজ করে = 1/8+1/10 = 9/40",
+        "2 দিনে করে = 18/40 = 9/20",
+        "বাকি কাজ = 11/20",
+        "A, B, C একসাথে 1 দিনে কাজ করে = 1/8+1/10+1/12 = (15+12+10)/120 = 37/120 → সময় = (11/20)/(37/120) = (11/20)×(120/37) = (11×6)/37 = 66/37 ≈ 1.78 দিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-03-007",
+      "question": "20% ও 25% ক্রমিক ছাড়ের সমতুল্য একক ছাড় কত এবং 2000 টাকার জিনিসের চূড়ান্ত মূল্য কত?",
+      "options": [
+        "40% একক ছাড়",
+        "চূড়ান্ত মূল্য = 1200 টাকা",
+        "45% একক ছাড়",
+        "চূড়ান্ত মূল্য = 1100 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-03-008",
+      "question": "সূচকের সাহায্যে 10,000 কে নিচের কোন কোন আকারে লেখা যায়?",
+      "options": [
+        "10⁴",
+        "100²",
+        "10000¹",
+        "10³ × 10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-03-009",
+      "question": "7% হারে 2 বছরের SI 280 টাকা হলে P ও A:",
+      "options": [
+        "P = 2000",
+        "A = 2280",
+        "P = 2200",
+        "A = 2480"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-03-010",
+      "question": "একটি ট্রাপিজিয়ামের ক্ষেত্রফল নির্ণয়ের সূত্র নিচের কোনটি?",
+      "options": [
+        "½ × (a + b) × h",
+        "গড় সমান্তরাল বাহু × উচ্চতা",
+        "a ও b সমান্তরাল বাহু, h উচ্চতা",
+        "a × b × h"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-03-011",
+      "question": "25% ছাড় দেওয়ার পরেও যদি 20% লাভ হয়, তবে চিহ্নিত মূল্য ও ক্রয়মূল্যের অনুপাত কত?",
+      "options": [
+        "8:5",
+        "12:5",
+        "16:5",
+        "3:2"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-03-012",
+      "question": "2 জন পুরুষ ও 3 জন মহিলা একটি কাজ 8 দিনে করতে পারে। 3 জন পুরুষ ও 2 জন মহিলা একই কাজ 6 দিনে করতে পারে। 4 জন পুরুষ ও 4 জন মহিলা একত্রে কাজটি কত দিনে করবে?",
+      "options": [
+        "3.2 দিন",
+        "4 দিন",
+        "4.8 দিন",
+        "5.5 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-03-013",
+      "question": "একটি বৃত্তে ব্যাসার্ধ ও ব্যাসের সম্পর্ক নিচের কোনটি সঠিক?",
+      "options": [
+        "ব্যাস = 2 × ব্যাসার্ধ",
+        "ব্যাসার্ধ = ব্যাস/2",
+        "ব্যাস ≥ ব্যাসার্ধ",
+        "ব্যাসার্ধ অর্ধেক ব্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "07-mensuration",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "am-03-014",
+      "question": "3/8, 5/8, 7/8-এর দশমিক রূপ যথাক্রমে কী কী?",
+      "options": [
+        "0.375, 0.625, 0.875",
+        "0.375, 0.625, 0.875",
+        "0.3, 0.5, 0.7",
+        "0.38, 0.63, 0.88"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-03-015",
+      "question": "y⁰-এর মান কত? (y ≠ 0)",
+      "options": [
+        "0",
+        "1",
+        "y",
+        "সংজ্ঞায়িত নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-03-016",
+      "question": "ভগ্নাংশের ক্ষেত্রে নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "প্রকৃত ভগ্নাংশের মান 1-এর কম",
+        "অপ্রকৃত ভগ্নাংশের মান 1-এর বেশি বা সমান",
+        "একক ভগ্নাংশের লব 1",
+        "মিশ্র ভগ্নাংশে পূর্ণ সংখ্যা থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-03-017",
+      "question": "4 টি পাইপ একটি চৌবাচ্চা 3 ঘন্টায় ভরাতে পারে। 6 টি পাইপ ওই চৌবাচ্চা কত ঘন্টায় ভরাতে পারবে?",
+      "options": [
+        "1.5 ঘন্টা",
+        "2 ঘন্টা",
+        "2.5 ঘন্টা",
+        "3 ঘন্টা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-03-018",
+      "question": "নিচের রেখা লেখচিত্রে ২০২১-২০২৪ পর্যন্ত ল্যাপটপ বিক্রয় (হাজারে): 2021: 50, 2022: 65, 2023: 80, 2024: 95 কোন বছরে সবচেয়ে কম বিক্রি হয়েছে?",
+      "options": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-03-019",
+      "question": "1 থেকে n পর্যন্ত স্বাভাবিক সংখ্যার গড় (n+1)/2। n=7 হলে:",
+      "options": [
+        "গড় 4",
+        "গড় 4.5",
+        "1+2+3+4+5+6+7=28, গড় 4",
+        "28/7=4"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "am-03-020",
+      "question": "A, B ও C-এর কাজের সময়ের অনুপাত 3:4:5। তারা একসাথে 4 দিন কাজ করার পর B চলে গেলে বাকি কাজ A ও C 5 দিনে শেষ করে। A একা সম্পূর্ণ কাজ কত দিনে করবে?",
+      "options": [
+        "15 দিন",
+        "18 দিন",
+        "20 দিন",
+        "22 দিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-03-021",
+      "question": "A ও B-এর দক্ষতার অনুপাত 2:3। তারা একসাথে একটি কাজ 15 দিনে শেষ করে। নিচের কোনটি সঠিক?",
+      "options": [
+        "A একা 37.5 দিনে করবে",
+        "B একা 25 দিনে করবে",
+        "A ও B-এর সময়ের অনুপাত 3:2",
+        "A-এর সময় B-এর সময়ের 1.5 গুণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "am-03-022",
+      "question": "এক সপ্তাহের প্রথম 3 দিনের গড় তাপমাত্রা 20°C এবং শেষ 4 দিনের গড় 25°C। পুরো সপ্তাহের গড় কত?",
+      "options": [
+        "22.14°C",
+        "22.86°C",
+        "23.14°C",
+        "23.86°C"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-03-023",
+      "question": "নিচের রেখা লেখচিত্রে লিটার বিক্রয়: Mon: 80, Tue: 100, Wed: 90, Thu: 110, Fri: 120 মঙ্গল ও বৃহস্পতিবারের মোট বিক্রয় কত?",
+      "options": [
+        "200",
+        "210",
+        "220",
+        "230"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "04-data-interpretation",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-03-024",
+      "question": "81 এবং 54-এর গসাগু কত?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "54"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-03-025",
+      "question": "20 m/s -কে km/h -এ লিখুন।",
+      "options": [
+        "60 km/h",
+        "64 km/h",
+        "68 km/h",
+        "72 km/h"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-03-026",
+      "question": "প্রথম n বিজোড় স্বাভাবিক সংখ্যার গড় কত?",
+      "options": [
+        "n",
+        "n+1",
+        "2n-1",
+        "2n+1"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "01-average",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "am-03-027",
+      "question": "একটি চৌবাচ্চা 3 টি পাইপ দিয়ে যথাক্রমে 12, 15 ও 20 ঘন্টায় ভরা যায়। তিনটি পাইপ একসাথে খুলে দিলে চৌবাচ্চাটি কত ঘন্টায় ভরবে?",
+      "options": [
+        "3 ঘন্টা",
+        "4 ঘন্টা",
+        "5 ঘন্টা",
+        "6 ঘন্টা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "14-time-and-work",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-03-028",
+      "question": "নিচের কোনটি অমূলদ সংখ্যা?",
+      "options": [
+        "22/7",
+        "2.5",
+        "√2",
+        "0.333..."
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "08-number-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "am-03-029",
+      "question": "একজন দৌড়বিদ প্রথম 100 মিটার 10 সেকেন্ডে, পরবর্তী 100 মিটার 12 সেকেন্ডে এবং শেষ 100 মিটার 14 সেকেন্ডে দৌড়ায়। গড় গতিবেগ কত?",
+      "options": [
+        "8 m/s",
+        "8.33 m/s",
+        "8.67 m/s",
+        "9 m/s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "13-speed-and-distance",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "am-03-030",
+      "question": "একটি জিনিস 10% ছাড় দিয়ে বিক্রয় করলে 20% লাভ হয়। যদি 20% ছাড় দেওয়া হয়, তাহলে লাভ কত হবে?",
+      "options": [
+        "5.55%",
+        "6.66%",
+        "7.77%",
+        "8.88%"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "arithmetic-mathematics",
+      "unit": "10-profit-and-loss",
+      "type": "numerical",
+      "difficulty": "hard"
+    }
+  ]
+}

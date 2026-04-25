@@ -1,0 +1,506 @@
+{
+  "subject": "general-science",
+  "set": 73,
+  "questions": [
+    {
+      "id": "ge-73-001",
+      "question": "একটি উত্তল লেন্সের ফোকাস দূরত্ব 30 cm। লেন্সের ক্ষমতা কত?",
+      "options": [
+        "3.33 D",
+        "33.3 D",
+        "0.33 D",
+        "0.033 D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-002",
+      "question": "ফারেনহাইট ও সেলসিয়াসের সম্পর্কে সঠিক কী? (বহু-সঠিক)",
+      "options": [
+        "F = (9/5)C + 32",
+        "C = (5/9)(F - 32)",
+        "100°C = 212°F",
+        "0°C = -32°F"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-73-003",
+      "question": "একটি উত্তপ্ত বস্তু স্পর্শ করলে তাপ আমাদের শরীরে প্রবেশ করে-",
+      "options": [
+        "পরিচলনে",
+        "বিকিরণে",
+        "পরিবহনে",
+        "শোষণে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-004",
+      "question": "ফ্রিজের ভিতরের তাপমাত্রা বাইরের থেকে কম রাখতে কোন নীতি কাজ করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপ ইঞ্জিনের বিপরীত চক্র",
+        "সংকোচক ও প্রসারক ভাল্ভ",
+        "রেফ্রিজারেন্টের বাষ্পীভবন",
+        "তাপ বিকিরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-73-005",
+      "question": "কোন বল সবচেয়ে বেশি কার্য করে?",
+      "options": [
+        "10 N বল 5 m সরিয়ে",
+        "20 N বল 2 m সরিয়ে",
+        "5 N বল 10 m সরিয়ে",
+        "(A) ও (C) সমান"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-006",
+      "question": "অ্যালকোহল থার্মোমিটারের সুবিধা কী?",
+      "options": [
+        "খুব উচ্চ তাপমাত্রা মাপা যায়",
+        "খুব নিম্ন তাপমাত্রা মাপা যায়",
+        "সহজে ভাঙে না",
+        "এটি বিষাক্ত নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-007",
+      "question": "নিচের কোন যৌগগুলি জীবাশ্ম জ্বালানি? (i) কয়লা (ii) পেট্রোলিয়াম (iii) প্রাকৃতিক গ্যাস (iv) বায়োগ্যাস",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-008",
+      "question": "মানব চোখের অংশগুলি সঠিকভাবে নির্বাচন করো: (i) কর্ণিয়া (ii) আইরিস (iii) লেন্স (iv) রেটিনা",
+      "options": [
+        "(i), (ii), (iii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-009",
+      "question": "ডিজিটাল থার্মোমিটারের সুবিধা কী?",
+      "options": [
+        "এটি ভাঙার ভয় থাকে না",
+        "পারদযুক্ত ও সহজপাঠ্য",
+        "খুবই সস্তা",
+        "অতীতের তাপমাত্রা মনে রাখতে পারে না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-010",
+      "question": "বায়ুতে শব্দের বেগ ৩৩০ মি/সে হলে জলের তলায় শব্দের বেগ প্রায় কত হবে?",
+      "options": [
+        "৩৩০ মি/সে",
+        "১৫০০ মি/সে",
+        "৫০০০ মি/সে",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-011",
+      "question": "তড়িৎ বিশ্লেষণ প্রক্রিয়ায় নিষ্ক্রিয় তড়িৎদ্বার বলতে বোঝায়—",
+      "options": [
+        "তড়িৎদ্বার যা দ্রবীভূত হয়",
+        "তড়িৎদ্বার যা রাসায়নিকভাবে বিক্রিয়া করে না",
+        "তড়িৎদ্বার যা আয়ন তৈরি করে",
+        "কেবল ধাতব দণ্ড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-012",
+      "question": "40°C ও 60°C তাপমাত্রার জল 1:2 অনুপাতে মেশানো হলো। মিশ্রণের তাপমাত্রা যদি 50°C হয় তবে-",
+      "options": [
+        "সম্ভব",
+        "অসম্ভব",
+        "নির্ভর করে না",
+        "তাপমাত্রা 55°C হবে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-73-013",
+      "question": "নিচের কোন বিবৃতিটি সঠিক?",
+      "options": [
+        "সরণ না হলে সর্বদা কার্য শূন্য",
+        "বল ও সরণ বিপরীতমুখী হলে কার্য ঋণাত্মক",
+        "বল ও সরণ পরস্পর লম্ব হলে কার্য সর্বোচ্চ",
+        "A ও B উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-014",
+      "question": "রোধাঙ্কের SI একক কী?",
+      "options": [
+        "ওহম",
+        "ওহম·মি",
+        "ওহম/মি",
+        "সিমেন্স"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-015",
+      "question": "V-I লেখচিত্রে নতি নির্দেশ করে কী?",
+      "options": [
+        "ক্ষমতা",
+        "তড়িৎ",
+        "রোধের বিপরীত (1/R) বা পরিবাহকত্ব",
+        "রোধ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-016",
+      "question": "নিচের কোনগুলি 'প্রোটনিক অ্যাসিড'?",
+      "options": [
+        "HCl",
+        "H2SO4",
+        "HNO3",
+        "BF3"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-73-017",
+      "question": "1 কিলোওয়াট-ঘণ্টা সমান কত জুল?",
+      "options": [
+        "3.6 × 10³ J",
+        "3.6 × 10⁶ J",
+        "36 × 10⁶ J",
+        "1000 J"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-018",
+      "question": "তরলের স্ফুটনাঙ্ক বায়ুমণ্ডলীয় চাপের সাথে কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "চাপ বাড়লে স্ফুটনাঙ্ক কমে",
+        "চাপ বাড়লে স্ফুটনাঙ্ক বাড়ে",
+        "চাপের ওপর নির্ভর করে না",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-019",
+      "question": "অক্সিজেন পরমাণুতে (Z=8, A=16) নিউট্রন সংখ্যা কত?",
+      "options": [
+        "8",
+        "16",
+        "4",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-020",
+      "question": "লন্ডন স্মগ (1952) একটি ক্লাসিক্যাল স্মগ ছিল, এতে প্রধান দূষক কী ছিল?",
+      "options": [
+        "NO₂",
+        "SO₂ ও কয়লার ধোঁয়া",
+        "O₃",
+        "CFC"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-73-021",
+      "question": "C₄H₁₀ আণবিক সংকেতের কয়টি আইসোমার আছে?",
+      "options": [
+        "2টি",
+        "3টি",
+        "4টি",
+        "5টি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-022",
+      "question": "1 লিটার = কত মিলিলিটার?",
+      "options": [
+        "10 mL",
+        "100 mL",
+        "1000 mL",
+        "10,000 mL"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-023",
+      "question": "অভ্যন্তরীণ পূর্ণ প্রতিফলনের শর্তগুলি নির্বাচন করো: (i) আলো ঘন মাধ্যম থেকে বিরল মাধ্যমে যায় (ii) আলো বিরল মাধ্যম থেকে ঘন মাধ্যমে যায় (iii) আপতন কোণ > সঙ্কট কোণ (iv) আপতন কোণ < সঙ্কট কোণ",
+      "options": [
+        "(i) ও (iii)",
+        "(ii) ও (iv)",
+        "(i) ও (iv)",
+        "(ii) ও (iii)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-024",
+      "question": "তাপ সৃষ্টির কারণ কী? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "ঘর্ষণ",
+        "রাসায়নিক বিক্রিয়া",
+        "তড়িৎপ্রবাহ",
+        "চুম্বকীয় আবেশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-73-025",
+      "question": "রান্নার গ্যাস (LPG) প্রধানত কী কী নিয়ে গঠিত?",
+      "options": [
+        "মিথেন ও ইথেন",
+        "বিউটেন ও প্রোপেন",
+        "কার্বন মনোক্সাইড",
+        "হাইড্রোজেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-026",
+      "question": "বিভব শক্তির সূত্র কোনটি?",
+      "options": [
+        "½mv²",
+        "F × s",
+        "mgh",
+        "P × t"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-027",
+      "question": "উড়োজাহাজের আকৃতি সামনে ছুঁচালো করা হয় কেন?",
+      "options": [
+        "বায়ুর ঘর্ষণ বা বাধা কমানোর জন্য (Streamlining)",
+        "দেখতে সুন্দর করার জন্য",
+        "বেশি যাত্রী নেওয়ার জন্য",
+        "ওজন কমানোর জন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-028",
+      "question": "বৈদ্যুতিক বাল্বে নিষ্ক্রিয় গ্যাস ভরা থাকে কেন?",
+      "options": [
+        "ফিলামেন্টের জারণ রোধ করতে",
+        "রোধ বাড়াতে",
+        "ক্ষমতা কমাতে",
+        "আলো বাড়াতে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-73-029",
+      "question": "[NUMERICAL] STP-তে 22.4 L আয়তনের কার্বন ডাই অক্সাইডের অণু সংখ্যা কত?",
+      "options": [
+        "3.011 × 10²³",
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "10²³"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-73-030",
+      "question": "গ্লোবাল ওয়ার্মিং পটেনশিয়াল (GWP) সবচেয়ে বেশি কোনটির?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "CFC",
+        "N₂O"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    }
+  ]
+}

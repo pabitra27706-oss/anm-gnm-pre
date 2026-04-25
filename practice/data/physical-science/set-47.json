@@ -1,0 +1,533 @@
+{
+  "subject": "general-science",
+  "set": 47,
+  "questions": [
+    {
+      "id": "ge-47-001",
+      "question": "নিচের কোন মাধ্যমটিতে শব্দ সবচেয়ে দ্রুত চলে?",
+      "options": [
+        "জল",
+        "বায়ু",
+        "তামা",
+        "হাইড্রোজেন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-47-002",
+      "question": "ক্যাটায়ন গঠনের সময় পরমাণু থেকে কোন কণা অপসারিত হয়?",
+      "options": [
+        "প্রোটন",
+        "নিউট্রন",
+        "ইলেকট্রন",
+        "আলফা কণা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-003",
+      "question": "বল (Force) ও সময়ের গুণফলকে কী বলা হয়?",
+      "options": [
+        "ভরবেগ",
+        "ঘাত বল (Impulse)",
+        "কার্য",
+        "ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-004",
+      "question": "কোনো অ্যাসিডের পিচ্ছিল স্পর্শ নেই, তবে ক্ষারের আছে। এটি কিসের কারণে হয়?",
+      "options": [
+        "লবণের উপস্থিতি",
+        "ফ্যাটের সাথে ক্ষারের বিক্রিয়ায় সাবান তৈরি",
+        "প্রোটিনের উপস্থিতি",
+        "অ্যাসিডের ঘনত্বের কারণে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-005",
+      "question": "নিচের কোনগুলি ইমালসিফায়ার হিসেবে কাজ করে?",
+      "options": [
+        "সাবান",
+        "জিলেটিন",
+        "কুইনিন",
+        "গাম অ্যারাবিক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-47-006",
+      "question": "জৈব রসায়ন প্রধানত কী নিয়ে আলোচনা করে?",
+      "options": [
+        "কার্বন যৌগ",
+        "নাইট্রোজেন যৌগ",
+        "অক্সিজেন যৌগ",
+        "ধাতব যৌগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-47-007",
+      "question": "ফ্লেমিং -এর দক্ষিণহস্ত নিয়ম কোনটির দিক নির্ণয়ে ব্যবহৃত হয়?",
+      "options": [
+        "বল",
+        "আবিষ্ট তড়িৎ প্রবাহ",
+        "চৌম্বক প্রাবল্য",
+        "বিদ্যুৎ ক্ষমতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-47-008",
+      "question": "পরম শূন্য তাপমাত্রা সংক্রান্ত সঠিক উক্তিগুলি চিহ্নিত করো। (একাধিক উত্তর সঠিক)",
+      "options": [
+        "0 K",
+        "-273°C",
+        "গ্যাসের আয়তন শূন্য হবে (তাত্ত্বিক)",
+        "অণুগুলির গতি সর্বোচ্চ হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-47-009",
+      "question": "শব্দের প্রতিধ্বনির (Echo) ব্যবহারিক প্রয়োগ হলো—",
+      "options": [
+        "সমুদ্রের গভীরতা মাপা",
+        "বিমানের উচ্চতা মাপা",
+        "কুয়োর গভীরতা মাপা",
+        "রক্তের গতিবেগ মাপা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-47-010",
+      "question": "সূর্যের আলোকে প্রিজমের সাহায্যে বর্ণালীতে বিশ্লেষণ করা যায় কেন?",
+      "options": [
+        "আলোর প্রতিফলনের কারণে",
+        "আলোর প্রতিসরণের কারণে",
+        "আলোর বিচ্ছুরণের কারণে",
+        "আলোর বেগ পরিবর্তনের কারণে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-011",
+      "question": "[NUMERICAL] 0.0001 M NaOH দ্রবণের pH কত?",
+      "options": [
+        "4",
+        "10",
+        "14",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "01-acids-bases-salts",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-012",
+      "question": "নিচের কোনটি সুপরিবাহী?",
+      "options": [
+        "কাঠ",
+        "প্লাস্টিক",
+        "তামা",
+        "রাবার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-47-013",
+      "question": "মোলার ভর (Molar Mass) সম্পর্কে সঠিক তথ্য হলো—",
+      "options": [
+        "এটি 1 mole পদার্থের ভর",
+        "এর একক g/mol",
+        "এটি আণবিক ওজনের সমান (কিন্তু গ্রামে প্রকাশিত)",
+        "এটি সব পদার্থের জন্য একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-47-014",
+      "question": "রাসায়নিক সমীকরণ ব্যালেন্স করার পদ্ধতি হলো—",
+      "options": [
+        "Hit and trial method",
+        "Partial equation method",
+        "সংকেত পরিবর্তন করে",
+        "পরমাণুর সংখ্যা সমান করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-47-015",
+      "question": "চিকিৎসাক্ষেত্রে জ্বর মাপার জন্য কোন থার্মোমিটার ব্যবহৃত হয়?",
+      "options": [
+        "ল্যাবরেটরি থার্মোমিটার",
+        "সর্বোচ্চ-সর্বনিম্ন থার্মোমিটার",
+        "ক্লিনিক্যাল থার্মোমিটার",
+        "গ্যাস থার্মোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-47-016",
+      "question": "12V ব্যাটারি, 2Ω ও 3Ω রোধ শ্রেণিতে যুক্ত। (বহু-সঠিক)",
+      "options": [
+        "মোট রোধ 5Ω",
+        "তড়িৎ 2.4 A",
+        "2Ω এর বিভব পার্থক্য 4.8 V",
+        "3Ω এর বিভব পার্থক্য 7.2 V"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-47-017",
+      "question": "বয়েল ও চালর্স উভয় সূত্রে সাধারণ ধ্রুবক রাশি কোনটি?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Mass of the gas",
+        "Temperature"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-018",
+      "question": "C₂H₅OC₂H₅ যৌগটির নাম কী?",
+      "options": [
+        "মিথাইল ইথার",
+        "ইথাইল ইথার",
+        "ইথাইল অ্যালকোহল",
+        "ডাইইথাইল ইথার"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-019",
+      "question": "ক্লিনিক্যাল থার্মোমিটারের তাপমাত্রা পরিমাপের পাল্লা কত?",
+      "options": [
+        "0-100°C",
+        "-10-110°C",
+        "35-42°C",
+        "32-212°F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-47-020",
+      "question": "সরণ-সময় (s-t) লেখচিত্র থেকে পাওয়া যায়—",
+      "options": [
+        "বস্তুর বেগ",
+        "বস্তু স্থির কি না তা জানা যায়",
+        "বস্তু সুষম বেগে চলছে কি না তা বোঝা যায়",
+        "বস্তুর ভর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-47-021",
+      "question": "থার্মোমিটারে পারদের বৈশিষ্ট্য কোনগুলি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "সুষম প্রসারণ",
+        "অস্বচ্ছ",
+        "স্ফুটনাঙ্ক উচ্চ",
+        "কাচে ভিজিয়ে রাখে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-47-022",
+      "question": "নিচের কোনটি কার্বন-কার্বন দ্বিবন্ধন বিশিষ্ট?",
+      "options": [
+        "C₂H₆",
+        "C₃H₈",
+        "C₄H₁₀",
+        "C₂H₄"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-47-023",
+      "question": "একটি বয়লার বিস্ফোরিত হওয়ার কারণ হতে পারে-",
+      "options": [
+        "অতিরিক্ত তাপপ্রয়োগে জলের তাপীয় প্রসারণ",
+        "জলের বাষ্পীভবন কম হলে",
+        "জলের তাপমাত্রা কমে গেলে",
+        "বয়লারের ভর বেড়ে গেলে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-47-024",
+      "question": "নিচের কোন দূরত্বগুলোর মান সবসময় ধনাত্মক? (i) ফোকাস দূরত্ব (উত্তল লেন্স) (ii) ফোকাস দূরত্ব (উত্তল দর্পণ) (iii) বস্তুর দূরত্ব (চিহ্ন প্রথা) (iv) প্রতিবিম্বের দূরত্ব (বাস্তব)",
+      "options": [
+        "(i) ও (ii)",
+        "(ii) ও (iii)",
+        "(iii) ও (iv)",
+        "(i) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-47-025",
+      "question": "ক্লিনিক্যাল থার্মোমিটার সম্পর্কে সঠিক উক্তিগুলি চিহ্নিত করো। (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পাল্লা 35-42°C",
+        "পারদ ব্যবহৃত হয়",
+        "কাঁপানোর প্রয়োজন হয়",
+        "ডিজিটাল থার্মোমিটারের চেয়ে প্রাচীন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-47-026",
+      "question": "বেগের SI একক কী?",
+      "options": [
+        "m/s²",
+        "m/s",
+        "km/h",
+        "m²/s"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-027",
+      "question": "একটি বস্তুকে উত্তল লেন্সের 2F থেকে F এর দিকে সরানো হলে প্রতিবিম্বের কী পরিবর্তন হয়? (i) প্রতিবিম্ব দূরে সরে যায় (ii) প্রতিবিম্বের আকার বাড়ে (iii) প্রতিবিম্বের আকার কমে (iv) প্রতিবিম্বের প্রকৃতি বাস্তব থাকে",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-47-028",
+      "question": "আয়োডিন (I) এর পারমাণবিক সংখ্যা কত?",
+      "options": [
+        "53",
+        "35",
+        "17",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-029",
+      "question": "বৃষ্টির ফোঁটা যখন সমবেগে নিচে পড়ে তাকে কী বলে?",
+      "options": [
+        "স্থির বেগ",
+        "অন্তিম বেগ (Terminal velocity)",
+        "প্রাথমিক বেগ",
+        "কেন্দ্রবিমুখী বেগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-47-030",
+      "question": "1 ফার্মি = কত মিটার?",
+      "options": [
+        "10⁻⁹ m",
+        "10⁻¹² m",
+        "10⁻¹⁵ m",
+        "10⁻¹⁸ m"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    }
+  ]
+}

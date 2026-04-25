@@ -1,0 +1,528 @@
+{
+  "subject": "general-science",
+  "set": 92,
+  "questions": [
+    {
+      "id": "ge-92-001",
+      "question": "100°C তাপমাত্রা ফারেনহাইট ও কেলভিন স্কেলে কত?",
+      "options": [
+        "212°F, 373 K",
+        "100°F, 273 K",
+        "32°F, 273 K",
+        "180°F, 373 K"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-002",
+      "question": "BOD-এর পূর্ণরূপ কী?",
+      "options": [
+        "Biological Oxygen Demand",
+        "Biochemical Oxygen Demand",
+        "Both A and B",
+        "Biological Oxide Demand"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-92-003",
+      "question": "1 মাইক্রো অ্যাম্পিয়ার (µA) = কত অ্যাম্পিয়ার?",
+      "options": [
+        "10³ A",
+        "10⁻³ A",
+        "10⁻⁶ A",
+        "10⁶ A"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-004",
+      "question": "কোন মৌলের তড়িৎ ঋণাত্মকতা সবচেয়ে বেশি?",
+      "options": [
+        "O",
+        "N",
+        "F",
+        "Cl"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-92-005",
+      "question": "গ্যাস সিলিন্ডারের নব খুলে দিলে যে গন্ধ পাওয়া যায়, তা কিসের উদাহরণ?",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Effusion",
+        "Condensation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-92-006",
+      "question": "কোনো পরিবাহীতে তড়িৎ প্রবাহ দ্বিগুণ করলে— (বহু-সঠিক)",
+      "options": [
+        "রোধ অপরিবর্তিত থাকলে বিভব দ্বিগুণ হয়",
+        "উৎপন্ন তাপ চারগুণ হয়",
+        "আধান প্রবাহ দ্বিগুণ হয়",
+        "ফিউজ গলে যেতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-92-007",
+      "question": "ভুসি কালি (Carbon black) কোথা থেকে তৈরি হতে পারে?",
+      "options": [
+        "সম্পূর্ণ দহন",
+        "টায়ার ও রবারের অসম্পূর্ণ দহন",
+        "জলের ফোটানো",
+        "এসি থেকে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-008",
+      "question": "100 W-এর একটি বাতি 220 V লাইনে জ্বলছে। এই বাতি সম্পর্কে সঠিক তথ্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "বাতির রোধ 484 Ω",
+        "বাতির মধ্য দিয়ে তড়িৎ প্রবাহ 0.45 A",
+        "বাতিটি 1 ঘণ্টায় 0.1 kWh শক্তি খরচ করে",
+        "বাতিটি 100 J শক্তি 1 সেকেন্ডে খরচ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-92-009",
+      "question": "CO হিমোগ্লোবিনের সাথে যুক্ত হয়ে কী তৈরি করে?",
+      "options": [
+        "অক্সিহিমোগ্লোবিন",
+        "মিথেমোগ্লোবিন",
+        "কার্বক্সিহিমোগ্লোবিন",
+        "সালফোহিমোগ্লোবিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-010",
+      "question": "সবচেয়ে হালকা মৌল কোনটি?",
+      "options": [
+        "হিলিয়াম",
+        "হাইড্রোজেন",
+        "লিথিয়াম",
+        "অক্সিজেন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-92-011",
+      "question": "নিচের কোনটি পুনর্নবীকরণযোগ্য সম্পদ?",
+      "options": [
+        "কয়লা",
+        "প্রাকৃতিক গ্যাস",
+        "সৌরশক্তি",
+        "পেট্রোলিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-92-012",
+      "question": "ইউট্রোফিকেশন প্রতিরোধের উপায় কী?",
+      "options": [
+        "ডিটারজেন্ট ও সার ব্যবহার নিয়ন্ত্রণ",
+        "নাইট্রোজেন সার প্রয়োগ বাড়ানো",
+        "ময়লা জলে ফেলা",
+        "কীটনাশক স্প্রে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-013",
+      "question": "জারণ বিক্রিয়ায় পদার্থের জারণ সংখ্যা (Oxidation Number)—",
+      "options": [
+        "বৃদ্ধি পায়",
+        "হ্রাস পায়",
+        "একই থাকে",
+        "শূন্য হয়ে যায়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-014",
+      "question": "স্লাইডিং ঘর্ষণ অপেক্ষা রোলিং ঘর্ষণ সুবিধাজনক কেন?",
+      "options": [
+        "এতে শক্তির অপচয় কম হয়",
+        "যন্ত্রাংশ কম ঘসে",
+        "ঘর্ষণ বলের মান কম হয়",
+        "এটি কোনো কাজে লাগে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-92-015",
+      "question": "রেফ্রিজারেটর কী নীতিতে কাজ করে?",
+      "options": [
+        "তাপ ইঞ্জিন",
+        "বাষ্পীভবনের শীতলীকরণ",
+        "পরিচলন",
+        "পরিবহন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-016",
+      "question": "নিচের কোন বিবৃতিটি সঠিক?",
+      "options": [
+        "উত্তল লেন্স সর্বদা বিবর্ধিত প্রতিবিম্ব তৈরি করে",
+        "অবতল লেন্স সর্বদা ক্ষুদ্রতর প্রতিবিম্ব তৈরি করে",
+        "সমতল দর্পণ বিবর্ধিত প্রতিবিম্ব তৈরি করে",
+        "উত্তল দর্পণ বাস্তব প্রতিবিম্ব তৈরি করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-017",
+      "question": "সঠিক তাপমাত্রায় 1 লিটার বিশুদ্ধ জলের ভর প্রায়—",
+      "options": [
+        "100 g",
+        "500 g",
+        "1 kg",
+        "10 kg"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-018",
+      "question": "1 ক্যালোরি তাপ বলতে বোঝায়- (একাধিক উত্তর সঠিক)",
+      "options": [
+        "1 গ্রাম জলের তাপমাত্রা 1°C বৃদ্ধি করতে প্রয়োজনীয় তাপ",
+        "4.2 জুলের সমতুল্য",
+        "1 কেজি জলের তাপমাত্রা 1°C বৃদ্ধি করতে প্রয়োজনীয় তাপ",
+        "1 গ্রাম বরফ গলাতে প্রয়োজনীয় তাপ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-92-019",
+      "question": "নিচের কোনটি অ্যাসিড বৃষ্টির প্রভাব নয়?",
+      "options": [
+        "মাটির অম্লত্ব বৃদ্ধি",
+        "ভবনের ক্ষয়",
+        "নদীর অম্লত্ব হ্রাস",
+        "জলজ প্রাণীর ক্ষতি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-92-020",
+      "question": "অপারেশন থিয়েটারের তাপমাত্রা কীরূপ হওয়া উচিত?",
+      "options": [
+        "20-24°C ও আর্দ্রতা নিয়ন্ত্রিত",
+        "30-35°C",
+        "10-15°C",
+        "40-45°C"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-021",
+      "question": "পরিমাপের ত্রুটির কারণ কী হতে পারে? (বহু-সঠিক)",
+      "options": [
+        "যন্ত্রের ত্রুটি",
+        "পরিমাপকারীর ভুল",
+        "পরিবেশের প্রভাব",
+        "বস্তুর প্রকৃতি পরিবর্তন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-92-022",
+      "question": "পরিবহন, পরিচলন ও বিকিরণের মধ্যে তাপ সঞ্চালনের হার কীরূপ? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বিকিরণ দ্রুততম",
+        "পরিবহন ধীর",
+        "পরিচলন তরলে কার্যকরী",
+        "শূন্যে পরিবহন ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-92-023",
+      "question": "কপার ও জিংক দণ্ড দুটি লেবুর রসে ডোবালে কোন দণ্ডটি অ্যানোড হিসেবে কাজ করে?",
+      "options": [
+        "কপার",
+        "জিংক",
+        "উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-024",
+      "question": "ঘর্ষণ (Friction) কমানোর উপায়গুলি হলো—",
+      "options": [
+        "পিচ্ছিলকারক পদার্থ ব্যবহার",
+        "বল-বিয়ারিং ব্যবহার",
+        "তলের অমসৃণতা বাড়ানো",
+        "স্ট্রিমলাইনিং বা ধারারেখ আকৃতি দেওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-92-025",
+      "question": "পোড়া রোগীর চিকিৎসায় শরীরের তাপমাত্রা নিয়ন্ত্রণ রাখতে হয়, কারণ ত্বক-",
+      "options": [
+        "তাপ সংরক্ষণ করতে পারে না",
+        "তাপমাত্রা নিয়ন্ত্রণে ভূমিকা রাখে",
+        "ঘাম উৎপাদন করে না",
+        "A ও B উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-92-026",
+      "question": "অবতল দর্পণে কোন অবস্থায় প্রতিবিম্ব অবাস্তব ও বিবর্ধিত হয়? (i) বস্তু F ও P এর মধ্যে (ii) বস্তু C ও F এর মধ্যে (iii) বস্তু C তে (iv) বস্তু P তে",
+      "options": [
+        "(i) ও (iv)",
+        "(ii) ও (iii)",
+        "(i) ও (ii)",
+        "(iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-92-027",
+      "question": "ক্লিনিক্যাল থার্মোমিটার সাধারণত কী দিয়ে তৈরি?",
+      "options": [
+        "অ্যালকোহল",
+        "পারদ",
+        "জল",
+        "গ্লিসারিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-028",
+      "question": "সমবেগে চলা গাড়ির ক্ষেত্রে—",
+      "options": [
+        "ত্বরণ শূন্য",
+        "অতিক্রান্ত দূরত্ব = বেগ × সময়",
+        "লব্ধি বল শূন্য",
+        "বেগ ক্রমাগত বদলায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-92-029",
+      "question": "নিচের কোনগুলো নিয়মিত প্রতিফলনের প্রয়োগ? (i) দর্পণ (ii) ক্যালিডোস্কোপ (iii) পেরিস্কোপ (iv) মরুভূমির মরীচিকা",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-92-030",
+      "question": "তাপমাত্রার SI একক কী?",
+      "options": [
+        "সেলসিয়াস",
+        "ফারেনহাইট",
+        "কেলভিন",
+        "রোমার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

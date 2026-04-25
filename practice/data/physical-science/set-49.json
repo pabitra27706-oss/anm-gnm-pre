@@ -1,0 +1,516 @@
+{
+  "subject": "general-science",
+  "set": 49,
+  "questions": [
+    {
+      "id": "ge-49-001",
+      "question": "পর্যায় সারণির বামদিকের সর্বনিম্নে কোন ধাতুর অবস্থান?",
+      "options": [
+        "Li (লিথিয়াম)",
+        "Cs (সিজিয়াম)",
+        "Fr (ফ্রান্সিয়াম)",
+        "Be (বেরিলিয়াম)"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-49-002",
+      "question": "[NUMERICAL] 32g Oxygen (O2) গ্যাসের মোল সংখ্যা কত?",
+      "options": [
+        "1",
+        "2",
+        "0.5",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-003",
+      "question": "বাদ্যযন্ত্রের ফাঁপা বাক্সের কাজ কী?",
+      "options": [
+        "শব্দের প্রাবল্য বাড়ানো (অনুরণনের মাধ্যমে)",
+        "শব্দের বেগ কমানো",
+        "তারকে ধরে রাখা",
+        "দেখতে সুন্দর করা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-004",
+      "question": "একটি সরল অণুবীক্ষণ যন্ত্রের বিবর্ধন ক্ষমতা কিসের ওপর নির্ভর করে?",
+      "options": [
+        "লেন্সের ব্যাস",
+        "লেন্সের ফোকাস দূরত্ব",
+        "লেন্সের বেধ",
+        "আলোর তীব্রতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-005",
+      "question": "মানব চোখের লেন্স কীরূপ?",
+      "options": [
+        "উত্তল লেন্স",
+        "অবতল লেন্স",
+        "সমতল লেন্স",
+        "দ্বি-অবতল লেন্স"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-006",
+      "question": "একটি উত্তল দর্পণের ফোকাস দূরত্ব 50 cm হলে বক্রতা ব্যাসার্ধ কত?",
+      "options": [
+        "25 cm",
+        "50 cm",
+        "100 cm",
+        "150 cm"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-007",
+      "question": "অনুনাদ (Resonance) দেখা যায়—",
+      "options": [
+        "রেডিও টিউন করার সময়",
+        "সৈন্যদলের সেতু অতিক্রম করার সময় তালে তালে পা না ফেলে চলার নির্দেশে",
+        "গানের সময় কাঁচের গ্লাস ভেঙে গেলে",
+        "কোনোটিই নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-49-008",
+      "question": "ভরবেগ (Momentum)-এর SI একক কী?",
+      "options": [
+        "kg·m/s",
+        "kg·m/s²",
+        "N·s",
+        "A এবং C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-49-009",
+      "question": "নিচের কোনগুলো তাপের অন্তরক? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বায়ু",
+        "স্টাইরোফোম",
+        "রাবার",
+        "পারদ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-49-010",
+      "question": "বিশ্বের স্বীকৃত পরিবেশবান্ধব জ্বালানি কোনটি?",
+      "options": [
+        "ডিজেল",
+        "পেট্রোল",
+        "হাইড্রোজেন",
+        "কেরোসিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-011",
+      "question": "রূপার প্রলেপ দেওয়ার জন্য কোন দ্রবণ ব্যবহৃত হয়?",
+      "options": [
+        "CuSO₄",
+        "AgNO₃",
+        "NaCl",
+        "FeSO₄"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-012",
+      "question": "50°C সমান কত °F?",
+      "options": [
+        "100°F",
+        "112°F",
+        "122°F",
+        "132°F"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-013",
+      "question": "50g লোহার টুকরো 80°C থেকে 30°C এ ঠান্ডা হলে কত তাপ বর্জন করবে? (লোহার আপেক্ষিক তাপ = 0.1 cal/g°C)",
+      "options": [
+        "150 cal",
+        "250 cal",
+        "350 cal",
+        "450 cal"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-014",
+      "question": "LED -এর পুরো নাম কী?",
+      "options": [
+        "Light Energy Diode",
+        "Light Emitting Diode",
+        "Long Electric Diode",
+        "Light Electric Device"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-015",
+      "question": "শব্দের তীক্ষ্ণতা (Pitch) নিচের কোন বিষয়ের ওপর নির্ভর করে?",
+      "options": [
+        "উেসর কম্পাঙ্ক",
+        "উেসর আকার (যেমন- তারের সরু/মোটা হওয়া)",
+        "উেসর টান",
+        "শব্দের বিস্তার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-49-016",
+      "question": "নিচের কোনটি এক কক্ষ বিশিষ্ট মৌলের উদাহরণ?",
+      "options": [
+        "Na",
+        "Mg",
+        "He",
+        "C"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-017",
+      "question": "Ca⁺⁺ (ক্যালসিয়াম আয়ন) এর ইলেকট্রন বিন্যাস কী? (Ca: Z=20)",
+      "options": [
+        "2,8,8,2",
+        "2,8,8",
+        "2,8,10",
+        "2,8,8,1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-018",
+      "question": "উড়োজাহাজের বেগ মাপার এককের নাম কী?",
+      "options": [
+        "নট (Knot)",
+        "ম্যাক (Mach)",
+        "হার্টজ",
+        "ডেসিবল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-49-019",
+      "question": "নিচের কোনটি সুপরিবাহী?",
+      "options": [
+        "কাঠ",
+        "প্লাস্টিক",
+        "তামা",
+        "রাবার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-020",
+      "question": "আধুনিক পর্যায় সারণিতে গ্রুপের সংখ্যা কত?",
+      "options": [
+        "7",
+        "8",
+        "18",
+        "32"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-021",
+      "question": "কয়লা টার থেকে কী পাওয়া যায়?",
+      "options": [
+        "মিথেন",
+        "বেনজিন",
+        "ইথানল",
+        "অ্যাসিটোন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-022",
+      "question": "নিচের কোনগুলি ভৌত পরিবর্তন? (বহু-সঠিক)",
+      "options": [
+        "বরফ গলা",
+        "জল বাষ্প হওয়া",
+        "লোহায় মরিচা পড়া",
+        "কাচ ভাঙা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ge-49-023",
+      "question": "বলের সংজ্ঞা (Definition of Force) নিউটনের কোন গতিসূত্র থেকে পাওয়া যায়?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "মহাকর্ষ সূত্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-024",
+      "question": "নিচের কোন যৌগগুলি চিকিৎসা ক্ষেত্রে ব্যবহার করা হয়? (i) ইথানল (অ্যান্টিসেপটিক) (ii) ফর্মালিন (সংরক্ষক) (iii) অ্যাসিটোন (দ্রাবক) (iv) ইথিন (অ্যানেস্থেসিয়া)",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-025",
+      "question": "Fe + CuSO₄ → FeSO₄ + Cu বিক্রিয়াটিতে কোন ধাতু বেশি সক্রিয়?",
+      "options": [
+        "Cu",
+        "Fe",
+        "উভয়ই সমান",
+        "SO₄"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-49-026",
+      "question": "বৈদ্যুতিক ইস্ত্রিতে কোন নীতির প্রয়োগ ঘটে?",
+      "options": [
+        "ফ্যারাডের সূত্র",
+        "ওহমের সূত্র",
+        "তড়িৎ প্রবাহের তাপীয় প্রভাব",
+        "তড়িৎ চুম্বকীয় আবেশ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-027",
+      "question": "মহাকর্ষীয় ধ্রুবক (G)-এর মান নির্ধারণ করেছিলেন কোন বিজ্ঞানী?",
+      "options": [
+        "নিউটন",
+        "ক্যাভেন্ডিস",
+        "গ্যালিলিও",
+        "আইনস্টাইন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-49-028",
+      "question": "[NUMERICAL] 5.6 L (STP) N2 গ্যাসে অণুর সংখ্যা হলো—",
+      "options": [
+        "0.25 N",
+        "1.505 × 10^23",
+        "N/4",
+        "N/2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-49-029",
+      "question": "প্রেসবায়োপিয়া ত্রুটির জন্য নিচের কোন লেন্স ব্যবহার করা হয়?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "দ্বিফোকাস",
+        "বেলনাকার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-49-030",
+      "question": "ইলেকট্রিক হিটারে নাইক্রোম তার ব্যবহার করা হয়, কারণ— (বহু-সঠিক)",
+      "options": [
+        "উচ্চ রোধাঙ্ক",
+        "উচ্চ গলনাঙ্ক",
+        "সহজে জারিত হয় না",
+        "সস্তা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

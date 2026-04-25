@@ -1,0 +1,524 @@
+{
+  "subject": "general-science",
+  "set": 81,
+  "questions": [
+    {
+      "id": "ge-81-001",
+      "question": "বৃষ্টির ফোঁটা ওপর থেকে পড়ার সময় কোন বলের কারণে স্থির বেগে (Terminal velocity) পড়ে?",
+      "options": [
+        "মহাকর্ষ বল",
+        "বায়ুর সান্দ্রতা বা ঘর্ষণ বাধা",
+        "কেন্দ্রবিমুখী বল",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "07-force-motion",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-81-002",
+      "question": "200 g ভরের একটি বল 50 m/s বেগে ছোঁড়া হল। বলটির গতিশক্তি কত?",
+      "options": [
+        "250 J",
+        "500 J",
+        "5000 J",
+        "2500 J"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-003",
+      "question": "খাবার লবণ কঠিন অবস্থায় তড়িৎ পরিবহন করে না, কারণ—",
+      "options": [
+        "এতে আয়ন নেই",
+        "আয়ন চলাচল করতে পারে না",
+        "এতে ইলেকট্রন নেই",
+        "এতে প্রোটন নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-004",
+      "question": "পরিমাপক শঙ্কু (Measuring cylinder) ব্যবহার করা হয়— (বহু-সঠিক)",
+      "options": [
+        "তরলের আয়তন নির্ণয়ে",
+        "কঠিনের ভর নির্ণয়ে",
+        "গ্যাসের চাপ নির্ণয়ে",
+        "তরলের ঘনত্ব পরোক্ষভাবে নির্ণয়ে"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-81-005",
+      "question": "ডায়োথার্মি চিকিৎসায় কোন নীতি ব্যবহৃত হয়? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "তাপজনিত প্রভাব",
+        "তড়িৎ প্রবাহ",
+        "এক্স-রে",
+        "বিকিরণ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-81-006",
+      "question": "একটি মাছ পানির নিচে থেকে আকাশের দিকে তাকালে পাখিকে কোথায় দেখতে পাবে?",
+      "options": [
+        "প্রকৃত অবস্থানে",
+        "প্রকৃত অবস্থানের উপরে",
+        "প্রকৃত অবস্থানের নিচে",
+        "পিছনে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-007",
+      "question": "জীবাশ্ম জ্বালানি নয় কোনটি?",
+      "options": [
+        "কয়লা",
+        "পেট্রোলিয়াম",
+        "ইউরেনিয়াম",
+        "প্রাকৃতিক গ্যাস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-008",
+      "question": "কপার ও জিংক দণ্ড দুটি লেবুর রসে ডোবালে কোন দণ্ডটি অ্যানোড হিসেবে কাজ করে?",
+      "options": [
+        "কপার",
+        "জিংক",
+        "উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-009",
+      "question": "জলের স্ফুটনাঙ্ক নিম্নলিখিত কিসের উপর নির্ভর করে? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বায়ুমণ্ডলীয় চাপ",
+        "অশুদ্ধি",
+        "পাত্রের গঠন",
+        "তাপ উৎসের তাপমাত্রা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-81-010",
+      "question": "নীচের কোনটি পরিবেশ সুরক্ষা আইন? (একাধিক উত্তর)",
+      "options": [
+        "The Environment (Protection) Act, 1986",
+        "The Air Act, 1981",
+        "The Water Act, 1974",
+        "The RTI Act, 2005"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ge-81-011",
+      "question": "5 কুলম্ব আধান 2 সেকেন্ডে প্রবাহিত হলে, তড়িৎ প্রবাহ কত?",
+      "options": [
+        "10 A",
+        "2.5 A",
+        "0.4 A",
+        "7 A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-81-012",
+      "question": "কুয়াশাচ্ছন্ন রাতে গাড়ির আলো বিচ্ছুরিত হওয়ার কারণ—",
+      "options": [
+        "Reflection",
+        "Tyndall Effect",
+        "Refraction",
+        "Total Internal Reflection"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "10-matter-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-81-013",
+      "question": "অভিসারী লেন্স কোনটি?",
+      "options": [
+        "উত্তল",
+        "অবতল",
+        "সমতল",
+        "দ্বিফোকাস"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-81-014",
+      "question": "নিচের কোনটি বিজারক পদার্থ হিসেবে কাজ করে না?",
+      "options": [
+        "H2",
+        "C",
+        "O2",
+        "CO"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-015",
+      "question": "মানবদেহে তাপ উৎপাদনকারী প্রক্রিয়া কোনটি? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "বিপাকক্রিয়া",
+        "পেশির কাজ",
+        "শ্বসন",
+        "বাষ্পীভবন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-81-016",
+      "question": "মহাকর্ষ বলের বিরুদ্ধে কোনো বস্তুকে উপরে তুললে কৃত কার্য কী ধরনের?",
+      "options": [
+        "ধনাত্মক",
+        "শূন্য",
+        "ঋণাত্মক",
+        "অসীম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "12-work-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-017",
+      "question": "আর্সেনিক যুক্ত জল খাওয়ার ফলে হাত-পায়ের তলায় যে পুরু ছোপ পড়ে তাকে কী বলে?",
+      "options": [
+        "গ্যাংগ্রিন",
+        "ফ্লুরোসিস",
+        "কেরাটোসিস",
+        "স্কার্ভি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ge-81-018",
+      "question": "[NUMERICAL] 100 g চুনাপাথরে (CaCO3) কত গ্রাম ক্যালসিয়াম আছে?",
+      "options": [
+        "40 g",
+        "20 g",
+        "12 g",
+        "48 g"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-019",
+      "question": "কোনো তারের প্রস্থচ্ছেদ দ্বিগুণ করলে রোধের ওপর কী প্রভাব পড়বে?",
+      "options": [
+        "দ্বিগুণ হবে",
+        "অর্ধেক হবে",
+        "চারগুণ হবে",
+        "এক চতুর্থাংশ হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-020",
+      "question": "নিচের কোনগুলো চোখের সমঞ্জসন ক্ষমতার সাথে যুক্ত? (i) সিলিয়ারি পেশি (ii) লেন্সের বক্রতা পরিবর্তন (iii) ফোকাস দূরত্ব পরিবর্তন (iv) রেটিনার অবস্থান পরিবর্তন",
+      "options": [
+        "(i), (ii) ও (iii)",
+        "(i), (ii) ও (iv)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-021",
+      "question": "2D ও 3D ক্ষমতার দুটি লেন্সকে সংস্পর্শে রাখলে তুল্য ফোকাস দূরত্ব কত হবে?",
+      "options": [
+        "0.5 m",
+        "0.2 m",
+        "0.25 m",
+        "0.1 m"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-022",
+      "question": "ক্লোরিনেশন এর পরিবর্তে এখন পানি বিশুদ্ধকরণে কোন উন্নত পদ্ধতি ব্যবহার হচ্ছে?",
+      "options": [
+        "ফুটানো",
+        "ওজোনেশন (Ozonation) ও UV বিকিরণ",
+        "ঠান্ডা করা",
+        "ফ্রিজিং"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-023",
+      "question": "অ্যালডিহাইডের শেষ প্রত্যয় কী?",
+      "options": [
+        "-al",
+        "-ol",
+        "-one",
+        "-oic acid"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-81-024",
+      "question": "সবচেয়ে সরল অ্যালকিন কোনটি?",
+      "options": [
+        "ইথিন",
+        "ইথিন",
+        "প্রোপিন",
+        "বুটিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-81-025",
+      "question": "4টি কার্বন পরমাণু বিশিষ্ট অ্যালকিনের নাম কী?",
+      "options": [
+        "বুটিন",
+        "বুটেন",
+        "বুটাইন",
+        "পেন্টিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "03-basic-organic-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ge-81-026",
+      "question": "₁₉K⁴⁰ এবং ₂₀Ca⁴⁰ পরমাণু দুটি— (বহু-সঠিক)",
+      "options": [
+        "আইসোবার",
+        "পৃথক মৌল",
+        "ভিন্ন পারমাণবিক সংখ্যা",
+        "একই নিউট্রন সংখ্যা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "02-atomic-structure",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-81-027",
+      "question": "প্লাটিনাম তড়িৎদ্বারকে নিষ্ক্রিয় তড়িৎদ্বার বলা হয়, কারণ এটি—",
+      "options": [
+        "বিক্রিয়ায় অংশ নেয় না",
+        "খুব সক্রিয়",
+        "সস্তা",
+        "দ্রবীভূত হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-028",
+      "question": "নিচের কোন মাধ্যম জোড়ায় আলোর পূর্ণ অভ্যন্তরীণ প্রতিফলন হতে পারে? (i) পানি থেকে বায়ু (ii) কাঁচ থেকে বায়ু (iii) বায়ু থেকে পানি (iv) হীরক থেকে বায়ু",
+      "options": [
+        "(i), (ii) ও (iv)",
+        "(i), (ii) ও (iii)",
+        "(ii), (iii) ও (iv)",
+        "(i), (iii) ও (iv)"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "09-light-reflection-refraction",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ge-81-029",
+      "question": "12V ব্যাটারি, 2Ω ও 3Ω রোধ শ্রেণিতে যুক্ত। (বহু-সঠিক)",
+      "options": [
+        "মোট রোধ 5Ω",
+        "তড়িৎ 2.4 A",
+        "2Ω এর বিভব পার্থক্য 4.8 V",
+        "3Ω এর বিভব পার্থক্য 7.2 V"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "05-electricity-circuits",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ge-81-030",
+      "question": "নিচের কোনগুলি তাপ সম্প্রচারের ক্ষেত্রে প্রযোজ্য? (একাধিক উত্তর সঠিক)",
+      "options": [
+        "পরিবহনের জন্য বস্তুকণা প্রয়োজন",
+        "পরিচলনে বস্তুকণা স্থানান্তরিত হয়",
+        "বিকিরণে কণা স্থানান্তরিত হয়",
+        "বিকিরণ আলোর গতিতে ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "general-science",
+      "unit": "08-heat-temperature",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}
