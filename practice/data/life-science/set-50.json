@@ -1,0 +1,870 @@
+{
+  "subject": "life-science",
+  "set": 50,
+  "questions": [
+    {
+      "id": "ls-50-001",
+      "question": "নিচের কোনটি ট্রান্সক্রিপশনের জন্য প্রয়োজন?",
+      "options": [
+        "RNA পলিমারেজ",
+        "ডিএনএ টেমপ্লেট",
+        "রাইবোজোম",
+        "নিউক্লিওটাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-002",
+      "question": "ভাজক কোষে গহ্বর (Vacuole) বড় হয় না কেন?",
+      "options": [
+        "ক্লোরোপ্লাস্ট থাকে বলে",
+        "বিভাজনের জন্য ঘন সাইটোপ্লাজম প্রয়োজন",
+        "প্রাচীর পুরু বলে",
+        "মাইটোকন্ড্রিয়া বেশি থাকে বলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-003",
+      "question": "'হেমাটোমা' কী?",
+      "options": [
+        "কলার মধ্যে রক্ত জমাট বাঁধা",
+        "ধমনীর স্ফীতি",
+        "রক্তকণিকার সংখ্যা বৃদ্ধি",
+        "শিরার ঘা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-004",
+      "question": "লালারসের মধ্যে অনুপস্থিত কোনটি?",
+      "options": [
+        "লাইসোজাইম",
+        "অ্যামাইলেজ",
+        "মিউকাস",
+        "লাইপেজ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-005",
+      "question": "নিচের কোন খাদ্যগুলো গ্রহণ করলে RQ 0.7 হবে?",
+      "options": [
+        "মাখন",
+        "তেল",
+        "গ্লুকোজ",
+        "স্টার্চ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-50-006",
+      "question": "ফুসফুস দ্বিস্তরী পর্দা দ্বারা আবৃত, এর নাম কী?",
+      "options": [
+        "পেরিকার্ডিয়াম",
+        "প্লুরা",
+        "পেরিটোনিয়াম",
+        "মেনিনজেস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-007",
+      "question": "গর্ভাবস্থায় ভ্রূণের স্নায়ুতন্ত্রের বিকাশের জন্য কোন ভিটামিনটি অত্যাবশ্যক?",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B9 (Folic acid)",
+        "Vitamin C",
+        "Vitamin K"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-008",
+      "question": "নিচের কোনটি ভাল্ভুলার হৃদরোগ নির্ণয়ে ব্যবহৃত হয়?",
+      "options": [
+        "এন্ডোস্কোপি",
+        "ইকোকার্ডিওগ্রাফি",
+        "এক্স-রে",
+        "ইসিজি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-009",
+      "question": "নিচের কোনটি অস্থি ক্ষয়রোগ?",
+      "options": [
+        "আর্থ্রাইটিস",
+        "অস্টিওপোরোসিস",
+        "রিকেটস",
+        "গাউট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-010",
+      "question": "প্রোটোজোয়া ঘটিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Malaria",
+        "Kala-azar",
+        "Amoebiosis",
+        "Ringworm"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-011",
+      "question": "জল আমাদের শরীরে যা যা করে: (Multi-correct)",
+      "options": [
+        "তাপমাত্রা নিয়ন্ত্রণ করে",
+        "পরিপাক ও শোষণে সাহায্য করে",
+        "রেচন পদার্থ শরীর থেকে বের করে দেয়",
+        "শক্তি যোগায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-50-012",
+      "question": "হিমোফিলিক বাবা এবং সুস্থ (বাহক নয়) মায়ের সন্তানদের মধ্যে হিমোফিলিয়ার সম্ভাবনা কত?",
+      "options": [
+        "০%",
+        "৫০%",
+        "৭৫%",
+        "১০০%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-013",
+      "question": "খাদ্যনালীতে খাদ্য চলাচলের প্রেরক শক্তি কোনটি?",
+      "options": [
+        "অভিকর্ষ বল",
+        "পেরিস্ট্যালটিক তরঙ্গ",
+        "সিলিয়ারি চলন",
+        "রক্তচাপ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-014",
+      "question": "নিচের কোনটি ইউক্যারিওটিক বৈশিষ্ট্য?",
+      "options": [
+        "মেমব্রেন বাউন্ড অর্গানেল থাকে",
+        "নিউক্লিয়াস সুগঠিত",
+        "80S রাইবোজোম",
+        "হিস্টোন প্রোটিনযুক্ত ক্রোমোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-50-015",
+      "question": "লোহিত রক্তকণিকায় কোন ধরণের অ্যান্টিজেন থাকতে পারে (ABO সিস্টেম)? (Multi-correct)",
+      "options": [
+        "A antigen",
+        "B antigen",
+        "O antigen",
+        "D antigen"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-50-016",
+      "question": "গ্যাস্ট্রিক রসের উপাদানগুলির মধ্যে কোনটি?",
+      "options": [
+        "ট্রিপসিন এবং HCl",
+        "HCl এবং পেপসিনোজেন",
+        "পিত্ত এবং অ্যামাইলেজ",
+        "HCl এবং অ্যামাইলেজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-017",
+      "question": "খাদ্যের তাপন মূল্য কোন এককে প্রকাশ করা হয়?",
+      "options": [
+        "নিউটন",
+        "ক্যালোরি",
+        "পাস্কাল",
+        "ওয়াট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-018",
+      "question": "কোন ধরণের দাঁত খাদ্য চিবানো ও পেষণে সাহায্য করে?",
+      "options": [
+        "ইনসিসর",
+        "ক্যানাইন",
+        "প্রিমোলার ও মোলার",
+        "উইজডম টুথ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-019",
+      "question": "DNA-র এককে নিউক্লিওটাইড কী দিয়ে গঠিত?",
+      "options": [
+        "চিনি + ফসফেট + ক্ষারক",
+        "চিনি + অ্যামিনো অ্যাসিড",
+        "ফসফেট + গ্লিসারল",
+        "চিনি + লিপিড"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-020",
+      "question": "গবলেট কোষের কাজ কী?",
+      "options": [
+        "HCl ক্ষরণ",
+        "শ্লেষ্মা (Mucus) ক্ষরণ",
+        "উৎসেচক ক্ষরণ",
+        "হরমোন ক্ষরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-021",
+      "question": "কোন খনিজ নিউরোট্রান্সমিটার নিঃসরণে অপরিহার্য?",
+      "options": [
+        "আয়রন",
+        "ক্যালসিয়াম",
+        "সোডিয়াম",
+        "পটাসিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-022",
+      "question": "দুধে থাকে না বা খুব কম থাকে: (Multi-correct)",
+      "options": [
+        "Vitamin C",
+        "Iron",
+        "Calcium",
+        "Protein"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-023",
+      "question": "মানুষের ক্ষেত্রে শুক্রাণুর আয়ু (Viability) জরায়ুতে সাধারণত কতক্ষণ থাকে?",
+      "options": [
+        "১২-২৪ ঘণ্টা",
+        "২৪-৪৮ ঘণ্টা",
+        "৪৮-৭২ ঘণ্টা",
+        "১ সপ্তাহ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-024",
+      "question": "৩য় ডিগ্রি বার্ন (3rd Degree Burn) হলে ত্বকের রঙ কেমন হতে পারে?",
+      "options": [
+        "লাল",
+        "কালচে বা সাদাটে এবং অনুভূতিহীন",
+        "কেবল গোলাপি",
+        "নীল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-025",
+      "question": "প্লান্ট সেলের কোষপ্রাচীরের প্রধান উপাদান কী?",
+      "options": [
+        "কাইটিন",
+        "পেপটিডোগ্লাইকান",
+        "সেলুলোজ",
+        "লিগনিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-026",
+      "question": "কোন্ রোগটি বায়ুবাহিত (Airborne)?",
+      "options": [
+        "Cholera",
+        "Tuberculosis",
+        "Hepatitis B",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-027",
+      "question": "প্রাপ্তবয়স্ক ব্যক্তির স্বাভাবিক সিস্টোলিক রক্তচাপ কত?",
+      "options": [
+        "80 mmHg",
+        "120 mmHg",
+        "140 mmHg",
+        "160 mmHg"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-028",
+      "question": "এনজাইম বা উৎসেচক প্রধানত কোন উপাদানে গঠিত?",
+      "options": [
+        "Carbohydrate",
+        "Fat",
+        "Protein",
+        "Vitamin"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-029",
+      "question": "যক্ষ্মা রোগের প্রধান লক্ষণ কোনটি?",
+      "options": [
+        "একটানা কাশি ও কাশির সাথে রক্ত পড়া",
+        "পেট ব্যথা",
+        "চুলকানি",
+        "চোখের জল আসা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-030",
+      "question": "নীচের কোন রস পরিপাক রস নয়?",
+      "options": [
+        "লালা",
+        "পিত্ত",
+        "রক্ত",
+        "অগ্ন্যাশয় রস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-031",
+      "question": "অপসারী বিবর্তন (Divergent evolution) থেকে কোন্ ধরণের অঙ্গের উৎপত্তি হয়?",
+      "options": [
+        "সমবৃত্তীয় অঙ্গ",
+        "সমসংস্থ অঙ্গ",
+        "নিষ্ক্রিয় অঙ্গ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-032",
+      "question": "হৃদপিণ্ডের যে অংশ থেকে পালমোনারি ধমনী বেরিয়ে যায়?",
+      "options": [
+        "বাম অলিন্দ",
+        "বাম নিলয়",
+        "ডান অলিন্দ",
+        "ডান নিলয়"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-033",
+      "question": "কলা (Tissue) সম্পর্কে সঠিক তথ্য কোনগুলো?",
+      "options": [
+        "এটি একই ধরনের কোষের সমষ্টি",
+        "কোষগুলোর উৎপত্তি ও কাজ একই রকম",
+        "একটি মাত্র কোষদিয়ে গঠিত",
+        "আন্তঃকোষীয় পদার্থ থাকতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-034",
+      "question": "নিচের কোনটিতে দ্রুত স্নায়ু আবেগ পরিবাহিত হয়?",
+      "options": [
+        "মায়েলিনহীন স্নায়ু",
+        "মায়েলিনযুক্ত স্নায়ু",
+        "সাইন্যাপস",
+        "ডেনড্রাইট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-035",
+      "question": "এইডস (AIDS) শনাক্তকরণের নিশ্চিত পরীক্ষা (Confirmatory test) কোনটি?",
+      "options": [
+        "Western Blot",
+        "ELISA",
+        "Blood group",
+        "Widal"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-036",
+      "question": "অস্থিমজ্জা নিচের কোনটি তৈরী করে?",
+      "options": [
+        "শুধু লোহিত কণিকা",
+        "লোহিত, শ্বেত কণিকা ও অনুচক্রিকা",
+        "শুধু প্লাজমা",
+        "শুধু হিমোগ্লোবিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-037",
+      "question": "প্রোক্যারিওটে প্লাজমিডের ভূমিকা -",
+      "options": [
+        "অ্যান্টিবায়োটিক প্রতিরোধী জিন বহন",
+        "লিঙ্গ নির্ধারণ",
+        "বিষক্রিয়া",
+        "অতিরিক্ত জেনেটিক উপাদান"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-50-038",
+      "question": "সুষম খাদ্যে ফ্যাটের পরিমাণ কত হওয়া উচিত?",
+      "options": [
+        "15-20%",
+        "60%",
+        "5%",
+        "40%"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-039",
+      "question": "নিচের কোনগুলো WBC র গঠন প্রণালীর নাম?",
+      "options": [
+        "এরিথ্রোপয়েসিস",
+        "লিউকোপয়েসিস",
+        "গ্রানুলোপয়েসিস",
+        "লিম্ফোপয়েসিস"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-50-040",
+      "question": "অণুজীবের সাহায্যে নাইট্রোজেন সংবন্ধনে অংশগ্রহণ করে:",
+      "options": [
+        "Azotobacter",
+        "Rhizobium",
+        "Nostoc",
+        "E. coli"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-041",
+      "question": "মানুষের দ্বিনেত্র দৃষ্টির ক্ষেত্রফল প্রায় কত ডিগ্রি?",
+      "options": [
+        "৬০°",
+        "১২০°",
+        "১৯০°",
+        "৯৫°"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-042",
+      "question": "পেপটিক আলসার মূলত কোন কারণে হয়?",
+      "options": [
+        "পেপসিন ও HCl দ্বারা মিউকোসা ক্ষয়",
+        "ট্রিপসিন দ্বারা প্রোটিন ভাঙ্গা",
+        "পিত্তের অভাব",
+        "উৎসেচকের আধিক্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-043",
+      "question": "টিটেনাস টক্সয়েড (TT) কোন ধরণের অনাক্রম্যতা প্রদান করে?",
+      "options": [
+        "Natural active",
+        "Artificial active",
+        "Natural passive",
+        "Artificial passive"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-044",
+      "question": "ইমিউনোলজির (Immunology) জনক কাকে বলা হয়?",
+      "options": [
+        "Louis Pasteur",
+        "Edward Jenner",
+        "Robert Koch",
+        "Alexander Fleming"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-50-045",
+      "question": "কর্ণের শ্রবণ পদ্ধতি ও ভারসাম্য রক্ষার অংশগুলি হল: (Multi-correct)",
+      "options": [
+        "ককলিয়া - শোনা",
+        "ভেস্টিবিউল - ভারসাম্য",
+        "পিন্না - সংগ্রহ",
+        "ম্যালিওস - ভারসাম্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-046",
+      "question": "অ্যাক্রোমেগালির বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "হাত-পা বড় হওয়া",
+        "চোয়াল বড় হওয়া",
+        "কণ্ঠস্বর গম্ভীর হওয়া",
+        "উচ্চতা বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-50-047",
+      "question": "নীচের কোনটি লালাগ্রন্থি নয়?",
+      "options": [
+        "প্যারোটিড",
+        "সাব-ম্যান্ডিবুলার",
+        "সাব-লিঙ্গুয়াল",
+        "থাইরয়েড"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-048",
+      "question": "ডাউন সিনড্রোম কেন হয়?",
+      "options": [
+        "Trisomy 21",
+        "Trisomy 18",
+        "Monosomy X",
+        "Trisomy 13"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-50-049",
+      "question": "বোর ইফেক্ট (Bohr effect) অনুযায়ী নিচের কোনটি সঠিক?",
+      "options": [
+        "CO₂ বাড়লে O₂ বিযুক্তি বাড়ে",
+        "O₂ বাড়লে CO₂ বিযুক্তি বাড়ে",
+        "CO₂ কমলে O₂ বিযুক্তি কমে",
+        "তাপমাত্রার কোনো প্রভাব নেই"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-50-050",
+      "question": "মোচড় লাগলে (Sprain) প্রাথমিক চিকিৎসায় কোনটি করা উচিত?",
+      "options": [
+        "গরম জল ঢালা",
+        "মালিশ করা",
+        "বরফ দেওয়া (Ice pack)",
+        "হাঁটাচলা করা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

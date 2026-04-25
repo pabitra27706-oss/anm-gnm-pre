@@ -1,0 +1,872 @@
+{
+  "subject": "life-science",
+  "set": 15,
+  "questions": [
+    {
+      "id": "ls-15-001",
+      "question": "ত্বকের একদম নিচের স্তরটির নাম কী যা চর্বি সঞ্চয় করে?",
+      "options": [
+        "Epidermis",
+        "Dermis",
+        "Hypodermis (Subcutaneous)",
+        "Endodermis"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-002",
+      "question": "গর্ভনিরোধক ইনজেকশন 'Depo-Provera' কত মাস অন্তর নিতে হয়?",
+      "options": [
+        "১ মাস",
+        "৩ মাস",
+        "৬ মাস",
+        "১২ মাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-003",
+      "question": "ভিটামিন ডি-র কাজগুলি হলো: (Multi-correct)",
+      "options": [
+        "হাড় ও দাঁত মজবুত করা",
+        "রক্তে ক্যালসিয়াম ও ফসফরাসের শোষণ বাড়ানো",
+        "রিকেট রোগ প্রতিরোধ করা",
+        "রক্ততঞ্চন করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-004",
+      "question": "অত্যাবশ্যকীয় অ্যামিনো অ্যাসিড (Essential Amino Acid) কোনটি?",
+      "options": [
+        "Glycine",
+        "Alanine",
+        "Lysine",
+        "Serine"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-005",
+      "question": "চোখের রেটিনায় রড কোশ ও কোন কোশের অনুপাত কত?",
+      "options": [
+        "১:১",
+        "২০:১",
+        "১০০:১",
+        "৫:১"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-006",
+      "question": "নিচের কোনটি Striated muscle-এর বৈশিষ্ট্য?",
+      "options": [
+        "এককেন্দ্রিক",
+        "মসৃণ",
+        "রেখাঙ্কিত ও বহুকেন্দ্রিক",
+        "অনৈচ্ছিক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-007",
+      "question": "রক্তদানকালে 'Universal Donor' বা সর্বজনীন দাতা বলা হয় কোন গ্রপকে?",
+      "options": [
+        "A+",
+        "B+",
+        "AB+",
+        "O-"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-008",
+      "question": "কোষ চক্রের (Cell cycle) কোন দশায় DNA প্রতিলিপি ঘটে?",
+      "options": [
+        "G1 phase",
+        "S phase",
+        "G2 phase",
+        "M phase"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-009",
+      "question": "একটি অপরিহার্য ফ্যাটি অ্যাসিডের অভাব হলে চর্মে কী সমস্যা হয়?",
+      "options": [
+        "শুষ্কতা (Phrynoderma)",
+        "ব্রণ",
+        "ঘামাচি",
+        "চুলকানি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-010",
+      "question": "মাইটোসিসের টেলোফেজ দশায় নিচের কোন ঘটনাটি ঘটে?",
+      "options": [
+        "স্পিন্ডল তন্তু গঠন",
+        "নিউক্লিয়ার মেমব্রেন পুনরায় গঠিত হয়",
+        "ক্রোমোজোমগুলি বিষুবরেখায় সাজে",
+        "সেন্ট্রিওল দ্বিগুণ হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-011",
+      "question": "প্রস্রাবে গাঢ় বাদামি রং দেখা দিতে পারে কোন রোগে?",
+      "options": [
+        "হেপাটাইটিস (বিলিরুবিন বেশি)",
+        "ডায়াবেটিস",
+        "ম্যালেরিয়া",
+        "টাইফয়েড"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-012",
+      "question": "অপাচ্য খাদ্য থেকে জলশোষণ বেশি হয় কোথায়?",
+      "options": [
+        "বৃহদন্ত্র",
+        "রেক্টাম",
+        "জেজুনাম",
+        "ডিওডেনাম"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-013",
+      "question": "আন্ত্রিক রস বা সাক্কাস এন্টেরিকাস কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "যকৃৎ",
+        "অগ্ন্যাশয়",
+        "ক্ষুদ্রান্ত্রের প্রাচীর",
+        "পাকস্থলী"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-014",
+      "question": "রক্তে অ্যান্টিবডি তৈরি করে কোন কোষ?",
+      "options": [
+        "এরিথ্রোসাইট",
+        "লিম্ফোসাইট",
+        "মনোসাইট",
+        "নিউট্রোফিল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-015",
+      "question": "'Antineuritic' ভিটামিন বলা হয়—",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-016",
+      "question": "জাইলেম ফাইবার-এর প্রধান কাজ কী?",
+      "options": [
+        "জল পরিবহন",
+        "খাদ্য পরিবহন",
+        "দৃঢ়তা প্রদান ও যান্ত্রিক সহায়তা",
+        "ক্ষরণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-017",
+      "question": "কোন কোষের আকার সবচেয়ে ছোট?",
+      "options": [
+        "মাইটোকন্ড্রিয়া",
+        "ব্যাকটেরিয়া (মাইকোপ্লাজমা)",
+        "লোহিত রক্তকণিকা",
+        "ডিম্বাণু"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-018",
+      "question": "অস্থি ও কার্টিলেজের মধ্যে পার্থক্য কোনগুলি?",
+      "options": [
+        "অস্থি শক্ত, কার্টিলেজ নরম",
+        "অস্থি ক্যালসিফায়েড, কার্টিলেজ অক্যালসিফায়েড",
+        "অস্থিতে রক্ত সরবরাহ আছে, কার্টিলেজে নেই",
+        "অস্থি ও কার্টিলেজ উভয়ই একই ধরনের ম্যাট্রিক্স যুক্ত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-019",
+      "question": "টার্নার সিনড্রোম (Turner Syndrome) আক্রান্ত ব্যক্তির ক্রোমোজোম বিন্যাস কী?",
+      "options": [
+        "44A + XXY",
+        "44A + XO",
+        "44A + XYY",
+        "45A + XX"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-020",
+      "question": "ভিলাসের প্রধান কাজ কী?",
+      "options": [
+        "পেরিস্ট্যালসিস ঘটানো",
+        "পরিপাক রস ক্ষরণ",
+        "শোষণ পৃষ্ঠের ক্ষেত্রফল বৃদ্ধি করা",
+        "শ্লেষ্মা উৎপাদন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-021",
+      "question": "ল্যামার্কের মতে বিবর্তনের মূল চালিকাশক্তি কোনটি?",
+      "options": [
+        "পরিবেশের প্রভাব ও অভিযোজন করার চেষ্টা",
+        "প্রাকৃতিক নির্বাচন",
+        "মিউটেশন",
+        "জেনেটিক ড্রিফট"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-022",
+      "question": "B-লিম্ফোসাইট কী করে?",
+      "options": [
+        "টি-লিম্ফোসাইটকে সক্রিয় করে",
+        "অ্যান্টিবডি তৈরি করে",
+        "প্লাটিলেট ধ্বংস করে",
+        "লোহিত কণিকা ধ্বংস করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-023",
+      "question": "ফুসফুসের কার্যকরী একক অ্যালভিওলাইতে সারফ্যাকট্যান্ট-এর ভূমিকা কী?",
+      "options": [
+        "পৃষ্ঠটান কমানো",
+        "পৃষ্ঠটান বাড়ানো",
+        "জীবাণু ধ্বংস",
+        "অক্সিজেন পরিবহন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-024",
+      "question": "ফ্যাটের উৎসগুলি হলো: (Multi-correct)",
+      "options": [
+        "মাখন ও ঘি",
+        "উদ্ভিজ্জ তেল (সরষে, নারকেল)",
+        "চাল ও গম",
+        "মাংসের চর্বি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-15-025",
+      "question": "রেখাঙ্কিত পেশির বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "বহুকেন্দ্রিক",
+        "ঐচ্ছিক",
+        "অনুপ্রস্থ ডোরা যুক্ত",
+        "এককেন্দ্রিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-026",
+      "question": "ফ্লোরিজেন (Florigen) কী কাজে লাগে?",
+      "options": [
+        "পাতা ঝরাতে",
+        "ফুল ফোটাতে",
+        "ফল পাকাতে",
+        "মূলের বৃদ্ধিতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-027",
+      "question": "নাসিকা গহ্বরের আবরণী কলা কোন ধরনের?",
+      "options": [
+        "স্কোয়ামাস",
+        "সিউডোস্ট্র্যাটিফায়েড সিলিয়েটেড কোলামনার",
+        "কিউবয়ডাল",
+        "ট্রানজিশনাল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-028",
+      "question": "উদ্ভিদের কোষ বিভাজনে উদ্দীপনা জোগায় কোন হরমোন?",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "ABA"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-029",
+      "question": "ফুসফুসের স্থিতিস্থাপকতার (Elastic recoil) জন্য দায়ী কী?",
+      "options": [
+        "ইলাস্টিন তন্তু",
+        "সারফ্যাকট্যান্টের পৃষ্ঠটান",
+        "ফাইব্রিন তন্তু",
+        "মসৃণ পেশি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-15-030",
+      "question": "অ্যাসিড বৃষ্টির কুফলগুলি হলো— (Multi-correct)",
+      "options": [
+        "মার্বেল পাথরের ক্ষয়",
+        "মাটির অম্লতা বৃদ্ধি",
+        "জলজ প্রাণীর ক্ষতি",
+        "ওজোন স্তর তৈরি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-031",
+      "question": "উটের মরু অভিযোজনগুলি হলো: (Multi-correct)",
+      "options": [
+        "কুঁজে চর্বি সঞ্চয়",
+        "নাসারন্ধ্র বন্ধ করার ক্ষমতা",
+        "ঘন প্রস্রাব ও শুষ্ক মলত্যাগ",
+        "পাতলা ত্বক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-032",
+      "question": "কোন গ্রুপের রক্তে কোনো অ্যান্টিবডি (Antibody) থাকে না?",
+      "options": [
+        "A group",
+        "B group",
+        "AB group",
+        "O group"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-033",
+      "question": "লিভার সিরোসিস কী কারণে হতে পারে?",
+      "options": [
+        "দীর্ঘদিন অ্যালকোহল সেবন",
+        "ক্রনিক হেপাটাইটিস",
+        "ভিটামিন A-এর অভাব",
+        "ডায়রিয়া"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-034",
+      "question": "ধমনীর নামকরণ করা হয় কীভাবে?",
+      "options": [
+        "হৃদপিণ্ড থেকে যেদিকে যায়",
+        "যে অঙ্গে রক্ত সরবরাহ করে",
+        "ধমনীর আকার অনুযায়ী",
+        "শুধুমাত্র গঠন অনুযায়ী"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-15-035",
+      "question": "নিচের কোনটির অভাবে অ্যানিমিয়া (রক্তাল্পতা) হতে পারে?",
+      "options": [
+        "ভিটামিন C",
+        "আয়রন ও ভিটামিন B12",
+        "ক্যালসিয়াম",
+        "ভিটামিন A"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-036",
+      "question": "ব্রোকার Area কোথায় অবস্থিত?",
+      "options": [
+        "টেম্পোরাল লোব",
+        "ফ্রন্টাল লোব",
+        "অক্সিপিটাল লোব",
+        "প্যারাইটাল লোব"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-15-037",
+      "question": "'Dolly' কিসের উদাহরণ?",
+      "options": [
+        "Transgenic plant",
+        "Cloned sheep",
+        "Hybrid cow",
+        "Synthetic bacteria"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-038",
+      "question": "খাদ্য সংরক্ষণের প্রাকৃতিক পদ্ধতিগুলি হলো: (Multi-correct)",
+      "options": [
+        "রোদে শুকানো (Sun drying)",
+        "লবণের ব্যবহার (Salting)",
+        "চিনির ব্যবহার",
+        "প্রিজারভেটিভ কেমিক্যাল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-15-039",
+      "question": "ওজোন স্তরের ক্ষয় ঘটানোর জন্য প্রধানত দায়ী কোনটি?",
+      "options": [
+        "CO2",
+        "CFC",
+        "CH4",
+        "N2O"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-040",
+      "question": "ক্লোরোপ্লাস্টে কোন রঞ্জক পদার্থ (Pigment) থাকে?",
+      "options": [
+        "ক্যারোটিন",
+        "ক্লোরোফিল",
+        "জ্যান্থোফিল",
+        "ফাইকোবিলিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-041",
+      "question": "পত্ররন্ধ্র (Stomata) কোন দুটি কোষ নিয়ে গঠিত?",
+      "options": [
+        "কিউবয়ডাল কোষ",
+        "গার্ড কোষ",
+        "প্যারেনকাইমা কোষ",
+        "ট্রাকিড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-042",
+      "question": "নিচের কোনটি অ্যাসিডীয় অর্গানেল?",
+      "options": [
+        "লাইসোজোম",
+        "এন্ডোসোম",
+        "মাইটোকন্ড্রিয়া (ম্যাট্রিক্স নিরপেক্ষ)",
+        "নিউক্লিয়াস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-15-043",
+      "question": "নিচের কোন রক্তকণিকা ফ্যাগোসাইটোসিসে সক্ষম?",
+      "options": [
+        "নিউট্রোফিল",
+        "ইয়োসিনোফিল",
+        "বেসোফিল",
+        "মনোসাইট"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-15-044",
+      "question": "বোলাস পাকস্থলীতে গিয়ে যে তরল মণ্ডে পরিণত হয় তার নাম কী?",
+      "options": [
+        "কাইল",
+        "কাইম",
+        "বোলাস",
+        "ফাইব্রিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-045",
+      "question": "প্লাসেন্টা (Placenta) দিয়ে ভ্রূণ ও মায়ের মধ্যে রক্ত সরাসরি মেশে কি?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "কেবল অক্সিজেন মেশে",
+        "কেবল বর্জ্য পদার্থ মেশে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-046",
+      "question": "কাইনিন (Kinin) পাওয়া যায় কোনটিতে?",
+      "options": [
+        "নারকেলের দুধে",
+        "আমে",
+        "লিচুতে",
+        "জামে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-047",
+      "question": "প্রোক্যারিওটিক কোষে কোষপ্রাচীরের উপাদান কী?",
+      "options": [
+        "সেলুলোজ",
+        "পেপটিডোগ্লাইকান (মিউরিন)",
+        "কাইটিন",
+        "লিগনিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-15-048",
+      "question": "আলু একটি পরিবর্তিত ______?",
+      "options": [
+        "মূল",
+        "কান্ড (Tuber)",
+        "পাতা",
+        "ফল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-15-049",
+      "question": "ইনসুলিনের বিপরীত (Counter-regulatory) হরমোন কোনগুলো?",
+      "options": [
+        "গ্লুকাগন",
+        "অ্যাড্রিনালিন",
+        "কর্টিসল",
+        "গ্রোথ হরমোন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-15-050",
+      "question": "চোখের ভেতরে অতিরিক্ত চাপের ফলে Optic nerve ক্ষতিগ্রস্ত হওয়াকে কী বলে?",
+      "options": [
+        "Glaucoma",
+        "Cataract",
+        "Myopia",
+        "Hypermetropia"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

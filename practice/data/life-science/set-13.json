@@ -1,0 +1,869 @@
+{
+  "subject": "life-science",
+  "set": 13,
+  "questions": [
+    {
+      "id": "ls-13-001",
+      "question": "শুক্রাণুর চলনে বাধা দেয় কোন ধরণের হরমোনাল পিল?",
+      "options": [
+        "Mini pills (Progesterone only)",
+        "Morning after pills",
+        "Iron pills",
+        "Antibiotics"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-002",
+      "question": "সাবমার্সড ফার্মেন্টেশন টেকনিকে অক্সিজেনের ভূমিকা কী?",
+      "options": [
+        "শক্তির জন্য অপরিহার্য",
+        "এনারোবিক পরিবেশ বজায় রাখতে অক্সিজেন দেওয়া হয় না",
+        "অতিরিক্ত অক্সিজেন দেওয়া হয়",
+        "অক্সিজেন বিষাক্ত"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-003",
+      "question": "রক্তে কার্বন ডাই অক্সাইড পরিবহন পদ্ধতি কী কী?",
+      "options": [
+        "দ্রবীভূত অবস্থায়",
+        "বাইকার্বনেট আয়ন রূপে",
+        "কার্বামিনো-হিমোগ্লোবিন রূপে",
+        "অক্সিহিমোগ্লোবিন রূপে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-004",
+      "question": "মায়েলিন শিথ-এর প্রধান কাজ কী?",
+      "options": [
+        "রক্ত জমাট বাঁধা",
+        "স্নায়ু আবেগের গতি বৃদ্ধি করা ও অন্তরক হিসেবে কাজ করা",
+        "সংকোচন",
+        "পুষ্টি সরবরাহ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-005",
+      "question": "আয়ন গেট খোলার জন্য থ্রেশহোল্ড পটেনশিয়াল কত?",
+      "options": [
+        "-90 mV",
+        "-70 mV",
+        "-55 mV",
+        "0 mV"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-006",
+      "question": "দাঁতের শক্ত আবরণ এনামেল নিঃসৃত হয় কোন স্তর থেকে?",
+      "options": [
+        "ডেন্টিন",
+        "সিমেন্টাম",
+        "অ্যামেলোব্লাস্ট",
+        "ওডোন্টোব্লাস্ট"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-007",
+      "question": "কৈশিকনালীর প্রাচীর কীরূপ?",
+      "options": [
+        "বহুস্তরী ও পুরু",
+        "একস্তরী ও পাতলা",
+        "কপাটিকা যুক্ত",
+        "পেশিবহুল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-008",
+      "question": "নেফ্রনের কোন অংশটি সবচেয়ে লম্বা?",
+      "options": [
+        "PCT",
+        "DCT",
+        "Loop of Henle",
+        "Collecting duct"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-009",
+      "question": "CSF এর গঠনগত বৈশিষ্ট্য কী কী?",
+      "options": [
+        "স্বচ্ছ তরল",
+        "প্রোটিনের পরিমাণ রক্তের থেকে কম",
+        "গ্লুকোজ থাকে",
+        "RBC থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-010",
+      "question": "সিএনএস এস্কেপ চোট বা ক্ষত হলে পুনরুদ্ধার না হওয়ার কারণ কী?",
+      "options": [
+        "অ্যাক্সন রিজেনারেট করতে পারে না",
+        "গ্লিয়াল স্কার তৈরি হয়",
+        "শোয়ান সেলের অনুপস্থিতি",
+        "সবগুলো সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-011",
+      "question": "স্প্লিন্ট (Splint) কেন ব্যবহার করা হয়?",
+      "options": [
+        "রক্তপাত বন্ধ করতে",
+        "ভাঙা হাড়কে স্থবির রাখতে",
+        "বিষ নামাতে",
+        "শ্বাস দিতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-012",
+      "question": "ফ্যাট বা লিপিডের কাজগুলি হলো: (Multi-correct)",
+      "options": [
+        "দীর্ঘস্থায়ী শক্তির উৎস",
+        "শরীরের অঙ্গগুলিকে ধাক্কা থেকে বাঁচানো",
+        "ফ্যাটে দ্রবণীয় ভিটামিন পরিবহনে সাহায্য করা",
+        "জল সঞ্চয় করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-013",
+      "question": "উচ্চতা জনিত অসুস্থতায় (High Altitude sickness) কী হয়?",
+      "options": [
+        "শ্বাসকষ্ট, বমি ভাব",
+        "পালমোনারি ইডিমা",
+        "সেরিব্রাল ইডিমা",
+        "রক্তে হিমোগ্লোবিন কমে যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-014",
+      "question": "রিকম্বিন্যান্ট DNA টেকনোলজির সরঞ্জামগুলি হলো:",
+      "options": [
+        "Restriction enzymes",
+        "DNA ligase",
+        "Vectors",
+        "Ribosome"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-015",
+      "question": "বায়ু থেকে নিঃশ্বাসে গৃহীত অক্সিজেন রক্তে পরিবাহিত হওয়ার পথ কোনগুলো?",
+      "options": [
+        "স্কোয়ামাস এপিথেলিয়াম",
+        "অ্যালভিওলাই",
+        "কৈশিক নালীর এন্ডোথেলিয়াম",
+        "কার্টিলেজ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-016",
+      "question": "কোন অঙ্গাণুটিকে ‘অটোফ্যাজি’ প্রক্রিয়ার সাথে সম্পর্কিত বলা হয়?",
+      "options": [
+        "লাইসোজোম",
+        "গলগি বডি",
+        "পারক্সিসোম",
+        "সেন্ট্রিওল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-017",
+      "question": "ইউটিআই (UTI) বলতে কী বোঝায়?",
+      "options": [
+        "মূত্রনালির সংক্রমণ",
+        "যকৃতের সংক্রমণ",
+        "ফুসফুসের সংক্রমণ",
+        "রক্তের সংক্রমণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-018",
+      "question": "জন্ডিস রোগটি কোন অঙ্গের সমস্যার কারণে হয়?",
+      "options": [
+        "পাকস্থলী",
+        "যকৃৎ",
+        "বৃক্ক",
+        "ফুসফুস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-019",
+      "question": "কোন টিস্যুতে তির্যক ডোরা (Oblique bridges) দেখা যায়?",
+      "options": [
+        "স্নায়ু টিস্যু",
+        "আবরণী টিস্যু",
+        "হৃদপেশি",
+        "যোজক টিস্যু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-020",
+      "question": "অ্যানিমেল সেলের ভ্যাকুওল সম্পর্কে সঠিক তথ্য কোনটি?",
+      "options": [
+        "অনেকগুলি ও ছোট আকারের হয়",
+        "খাদ্য ও বর্জ্য সঞ্চয় করে",
+        "কোষটারকে চাপ দেয়",
+        "একক ও বড় হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-021",
+      "question": "ওভিউলেশন-এর পর কত সময় পর্যন্ত ডিম্বাণু উর্বর থাকে?",
+      "options": [
+        "৫ মিনিট",
+        "১২-২৪ ঘণ্টা",
+        "২ দিন",
+        "১ সপ্তাহ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-022",
+      "question": "উদ্ভিদের শীর্ষমুকুল কেটে দিলে উদ্ভিদ কী হয়?",
+      "options": [
+        "লম্বায় বৃদ্ধি বন্ধ হয়",
+        "ঝোপালো হয়",
+        "মারা যায়",
+        "শুধু মূলে বৃদ্ধি পায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-023",
+      "question": "অলিগুরিয়া (Oliguria) বলতে কী বোঝায়?",
+      "options": [
+        "প্রস্রাবের পরিমাণ 500 mL/day এর কম",
+        "প্রস্রাবে প্রোটিন",
+        "প্রস্রাবে গ্লুকোজ",
+        "প্রস্রাবের রং পরিবর্তন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-024",
+      "question": "উচ্চ রক্তচাপকে কী বলা হয়?",
+      "options": [
+        "হাইপোটেনশন",
+        "হাইপারটেনশন",
+        "ট্যাকিকার্ডিয়া",
+        "ব্র্যাডিকার্ডিয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-025",
+      "question": "ওভিউলেশন কিট কীসের উপস্থিতি পরীক্ষা করে?",
+      "options": [
+        "FSH",
+        "LH",
+        "hCG",
+        "Estrogen"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-026",
+      "question": "কোনটি ডায়াস্টোলিক মর্মর বা মর্মর শব্দ সৃষ্টি করতে পারে?",
+      "options": [
+        "স্টেনোটিক সেমিলুনার ভালভ",
+        "অসম্পূর্ণভাবে বন্ধ হওয়া মাইট্রাল ভালভ",
+        "অসম্পূর্ণভাবে বন্ধ হওয়া অ্যাওর্টিক ভালভ",
+        "B ও C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-027",
+      "question": "উজ্জ্বল আলোতে দেখতে সাহায্য করে কোন কোশ?",
+      "options": [
+        "Rod cells",
+        "Cone cells",
+        "Bipolar cells",
+        "Ganglion cells"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-028",
+      "question": "অ্যামোনিয়া, ইউরিয়া ও ইউরিক অ্যাসিডের বৈশিষ্ট্য?",
+      "options": [
+        "অ্যামোনিয়া অত্যন্ত বিষাক্ত ও দ্রবণীয়",
+        "ইউরিয়া কম বিষাক্ত",
+        "ইউরিক অ্যাসিড অল্প পানিতে দ্রবণীয়",
+        "ইউরিক অ্যাসিড অত্যন্ত বিষাক্ত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-029",
+      "question": "উদ্ভিদের বৃদ্ধি পরিমাপক যন্ত্রের নাম কী?",
+      "options": [
+        "Barometer",
+        "Auxanometer",
+        "Sphygmomanometer",
+        "Thermometer"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-030",
+      "question": "Non-striated muscle কোথায় দেখা যায়?",
+      "options": [
+        "কঙ্কাল",
+        "হৃদপিণ্ড",
+        "অন্ত্র",
+        "জিহ্বা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-031",
+      "question": "কী কী কারণে পিত্তথলিতে পাথর (Gallstones) হতে পারে?",
+      "options": [
+        "পিত্তে কোলেস্টেরলের আধিক্য",
+        "পিত্তাশয় সম্পূর্ণরূপে খালি না হওয়া",
+        "ভিটামিন-সি এর অভাব",
+        "ফ্যাটি অ্যাসিডের আধিক্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-13-032",
+      "question": "DNA-এর ক্ষারক (Base) কোনটি নয়?",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Uracil",
+        "Cytosine"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-033",
+      "question": "বৃহদন্ত্রের প্রধান কাজ কী?",
+      "options": [
+        "প্রোটিন পরিপাক",
+        "জল ও খনিজ লবণের শোষণ",
+        "গ্লুকোজ শোষণ",
+        "ভিটামিন সংশ্লেষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-034",
+      "question": "নীচের কোন্ রোগটি জলবাহিত (Waterborne)?",
+      "options": [
+        "Influenza",
+        "Cholera",
+        "Tuberculosis",
+        "Ringworm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-035",
+      "question": "'Test cross' এর অনুপাত ১:১ হলে সেটি কোন্ জনন নির্দেশ করে?",
+      "options": [
+        "একসংকর জনন",
+        "দ্বিসংকর জনন",
+        "ব্যাক ক্রস",
+        "অসম্পূর্ণ প্রকটতা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-036",
+      "question": "অপাচ্য খাদ্যবস্তু দেহ থেকে নির্গমনের প্রক্রিয়াকে কী বলে?",
+      "options": [
+        "পরিপাক",
+        "শোষণ",
+        "আত্তীকরণ",
+        "ইজেশন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-037",
+      "question": "ক্রসিং ওভার (Crossing over) মিয়োসিসের কোন দশায় ঘটে?",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diakinesis"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-038",
+      "question": "নিচের কোনটি প্লান্ট সেলের ভ্যাকুওলের কাজ?",
+      "options": [
+        "কোষের টার্গর চাপ বজায় রাখা",
+        "পানি ও আয়ন সঞ্চয়",
+        "বর্জ্য পদার্থ জমা করা",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-039",
+      "question": "আপাত-মৃত্যু বা কার্ডিয়াক অ্যারেস্টে কী করা উচিত?",
+      "options": [
+        "CPR (কার্ডিওপালমোনারি রিসাসিটেশন) শুরু করা",
+        "জরুরি ভিত্তিতে হাসপাতালে নেওয়া",
+        "AED (অটোমেটেড এক্সটার্নাল ডেফিব্রিলেটর) ব্যবহার করা, থাকলে",
+        "চোখে জল দেওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-040",
+      "question": "সক্রিয় পরিবহনের বৈশিষ্ট্য নিচের কোনগুলি?",
+      "options": [
+        "ঘনত্বের বিপরীতে চলাচল",
+        "শক্তি খরচ হয়",
+        "প্রোটিন পাম্পের প্রয়োজন",
+        "দ্রবণ ঘনত্ব সমান না হওয়া পর্যন্ত চলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-041",
+      "question": "কোলেনকাইমা টিস্যুর বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "জীবিত কোষ",
+        "অসম পুরু প্রাচীর",
+        "লিগনিন যুক্ত",
+        "কোণে পেকটিন জমা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-042",
+      "question": "অগ্ন্যাশয়ের প্রদাহকে কী বলে?",
+      "options": [
+        "গ্যাস্ট্রাইটিস",
+        "প্যানক্রিয়াটাইটিস",
+        "হেপাটাইটিস",
+        "নেফ্রাইটিস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-043",
+      "question": "দই তৈরিতে কোন ব্যাকটেরিয়া সাহায্য করে?",
+      "options": [
+        "Rhizobium",
+        "Lactobacillus",
+        "Streptococcus",
+        "E. coli"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-044",
+      "question": "নিচের কোনটি পরিপাক কাজে সাহায্য করে?",
+      "options": [
+        "শুধু এনজাইম",
+        "শুধু হরমোন",
+        "এনজাইম ও হরমোন উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-045",
+      "question": "নিচের কোন সক্রিয় প্রক্রিয়া?",
+      "options": [
+        "স্বাভাবিক Expiration",
+        "গভীর Inspiration",
+        "জোরপূর্বক Expiration",
+        "সবসময়ই Inspiration"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-13-046",
+      "question": "আইভিএফ (IVF) পদ্ধতিতে জাইগোটকে কোথায় স্থানান্তর করা হয়?",
+      "options": [
+        "Uterus",
+        "Fallopian Tube (ZIFT)",
+        "Cervix",
+        "Ovary"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-13-047",
+      "question": "মেন্ডেলের দ্বিসংকর জননে F2 জনুতে ফিনোটাইপের সংখ্যা কত?",
+      "options": [
+        "৪",
+        "৯",
+        "১৬",
+        "২"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-13-048",
+      "question": "প্রেসার ব্যান্ডেজ কেন ব্যবহার করা হয়?",
+      "options": [
+        "হাড় জোড়া দিতে",
+        "মারাত্মক রক্তক্ষরণ নিয়ন্ত্রণ করতে",
+        "পুড়ে যাওয়া সারাতে",
+        "বিষ নামাতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-049",
+      "question": "যকৃতের একটি মুখ্য কাজ কী?",
+      "options": [
+        "রক্ত জমাট বাঁধানো",
+        "ইউরিয়া তৈরী",
+        "লালা ক্ষরণ",
+        "স্নেহ পরিপাক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-13-050",
+      "question": "আয়োডিনের অভাবে কোন গ্রন্থিটি ফুলে যায়?",
+      "options": [
+        "Pituitary",
+        "Adrenal",
+        "Thyroid",
+        "Pancreas"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "easy"
+    }
+  ]
+}

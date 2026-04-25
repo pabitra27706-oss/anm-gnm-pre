@@ -1,0 +1,854 @@
+{
+  "subject": "life-science",
+  "set": 33,
+  "questions": [
+    {
+      "id": "ls-33-001",
+      "question": "ইউরিয়া কতটুকু বিষাক্ত?",
+      "options": [
+        "অ্যামোনিয়ার তুলনায় অনেক কম বিষাক্ত",
+        "অ্যামোনিয়ার তুলনায় বেশি বিষাক্ত",
+        "সম্পূর্ণ অ বিষাক্ত",
+        "ইউরিক অ্যাসিডের চেয়ে বেশি বিষাক্ত"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-002",
+      "question": "ডারউইনের মতে অস্তিত্বের জন্য সংগ্রামের প্রকারগুলি হলো—",
+      "options": [
+        "অন্তপ্রজাতি সংগ্রাম",
+        "আন্তপ্রজাতি সংগ্রাম",
+        "পরিবেশের সাথে সংগ্রাম",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-003",
+      "question": "CSF পরীক্ষা দ্বারা কোন রোগ নির্ণয় করা হয়?",
+      "options": [
+        "ডায়াবেটিস",
+        "মেনিনজাইটিস",
+        "উচ্চ রক্তচাপ",
+        "হেপাটাইটিস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-004",
+      "question": "শিশুদের হাড় বেঁকে যাওয়া কোন ভিটামিনের অভাবের লক্ষণ?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-005",
+      "question": "চোখের জল নিঃসরণ নিয়ন্ত্রণ করে কোন্ করোটিক স্নায়ু?",
+      "options": [
+        "Optic nerve",
+        "Facial nerve",
+        "Vagus nerve",
+        "Trigeminal nerve"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-33-006",
+      "question": "অ্যান্ড্রোজেন নিঃসৃত হয় কোথা থেকে?",
+      "options": [
+        "ডিম্বাশয়",
+        "শুক্রাশয় ও অ্যাড্রিনাল কর্টেক্স",
+        "থাইমাস",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-007",
+      "question": "প্রাপ্তবয়স্ক ব্যক্তির স্বাভাবিক ডায়াস্টোলিক রক্তচাপ কত?",
+      "options": [
+        "60 mmHg",
+        "80 mmHg",
+        "100 mmHg",
+        "120 mmHg"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-008",
+      "question": "এক সংকর জননের Test cross-এর অনুপাত কত হয়?",
+      "options": [
+        "3:1",
+        "1:1",
+        "1:2:1",
+        "9:3:3:1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-009",
+      "question": "ইউরিয়া চক্রের এনজাইমগুলি কী কী?",
+      "options": [
+        "Carbamoyl phosphate synthetase I",
+        "Ornithine transcarbamylase",
+        "Argininosuccinate synthetase",
+        "DNA polymerase"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-33-010",
+      "question": "নিচের কোন বর্জ্যটি সবচেয়ে কম বিষাক্ত?",
+      "options": [
+        "অ্যামোনিয়া",
+        "ইউরিয়া",
+        "ইউরিক অ্যাসিড",
+        "ক্রিয়েটিনিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-011",
+      "question": "ভিটামিন ডি-র অভাবে শিশুদের হাড় বেঁকে যাওয়াকে কী বলে?",
+      "options": [
+        "Osteoporosis",
+        "Rickets",
+        "Scurvy",
+        "Pellagra"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-012",
+      "question": "পিউবার্টি (Puberty) বা বয়ঃসন্ধিকালে ছেলেদের কণ্ঠে পরিবর্তন আনে কোন্ হরমোন?",
+      "options": [
+        "Estrogen",
+        "Testosterone",
+        "Growth hormone",
+        "Insulin"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-013",
+      "question": "ধমনীর প্রাচীর শিরার তুলনায় কেমন?",
+      "options": [
+        "সরু ও কম স্থিতিস্থাপক",
+        "পুরু ও বেশি স্থিতিস্থাপক",
+        "পুরুত্ব সমান",
+        "পুরু কিন্তু অস্থিতিস্থাপক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-014",
+      "question": "ABC নিয়মের 'B' বলতে কী বোঝায়?",
+      "options": [
+        "Bleeding",
+        "Breathing",
+        "Bone",
+        "Brain"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-015",
+      "question": "ওগেনেসিস (Oogenesis) পদ্ধতিতে উৎপন্ন হয়: (Multi-correct)",
+      "options": [
+        "একটি সক্রিয় ডিম্বাণু",
+        "তিনটি পোলার বডি",
+        "চারটি সমান ডিম্বাণু",
+        "হ্যাপ্লয়েড কোশ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-33-016",
+      "question": "DNA-র প্রতিলিপির জন্য প্রয়োজন -",
+      "options": [
+        "হেলিকেজ এনজাইম",
+        "DNA পলিমারেজ",
+        "RNA প্রাইমার",
+        "রাইবোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-33-017",
+      "question": "পেনিসিলিন এক ধরণের অ্যান্টিবায়োটিক। এটি প্রথম কোথা থেকে পাওয়া গিয়েছিল?",
+      "options": [
+        "ব্যাক্টেরিয়া",
+        "ছত্রাক (Penicillium)",
+        "ভাইরাস",
+        "শ্যাওলা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-018",
+      "question": "রক্ত জমাট বাঁধার সময় ক্যালসিয়াম আয়ন কেন প্রয়োজন?",
+      "options": [
+        "ফাইব্রিনোলাইসিসের জন্য",
+        "প্রোথ্রম্বিন থেকে থ্রম্বিন তৈরিতে",
+        "হিমোগ্লোবিন তৈরিতে",
+        "অ্যান্টিবডি তৈরিতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-33-019",
+      "question": "ভাইরাস ঘটিত একটি সাধারণ রোগ হলো—",
+      "options": [
+        "ম্যালেরিয়া",
+        "ইনফ্লুয়েঞ্জা",
+        "যক্ষ্মা",
+        "টাইফয়েড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-020",
+      "question": "সেরিব্রাল কর্টেক্সের কোন লোব দর্শনের সাথে জড়িত?",
+      "options": [
+        "ফ্রন্টাল",
+        "টেম্পোরাল",
+        "অক্সিপিটাল",
+        "প্যারাইটাল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-021",
+      "question": "Burns বা পুড়ে যাওয়ার তীব্রতা কিসের ওপর নির্ভর করে?",
+      "options": [
+        "শরীরের কত শতাংশ পুড়েছে",
+        "কত গভীর ক্ষত হয়েছে",
+        "পোড়া স্থানের অবস্থান",
+        "ব্যক্তির গায়ের রঙ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-33-022",
+      "question": "মানবদেহের দীর্ঘতম কোষ কোনটি?",
+      "options": [
+        "RBC",
+        "WBC",
+        "নিউরন",
+        "পেশি কোষ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-023",
+      "question": "প্লুরাল গহ্বরের বৈশিষ্ট্য কী?",
+      "options": [
+        "ঋণাত্মক চাপ থাকে",
+        "প্যারাইটাল ও ভিসেরাল প্লুরার মধ্যে অবস্থিত",
+        "বায়ু পূর্ণ থাকে",
+        "তরল দ্বারা পিচ্ছিল থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-33-024",
+      "question": "পূর্ণবয়স্ক মানুষের হাড়ে কোলাজেন ভেঙে গেলে কোন রোগ হয়?",
+      "options": [
+        "অস্টিওম্যালাসিয়া",
+        "অস্টিওপোরোসিস",
+        "পলিওমাইলাইটিস",
+        "রিউমাটয়েড আর্থ্রাইটিস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-33-025",
+      "question": "‘বিলিরুবিন’ সম্পর্কে সঠিক তথ্য কী?",
+      "options": [
+        "হিমোগ্লোবিন ভাঙনের产物",
+        "পিত্তের রং দেয়",
+        "বেশি হলে জন্ডিস হয়",
+        "এটি অক্সিজেন বহন করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-33-026",
+      "question": "সাইটোকাইনিন হরমোনের কাজ হলো:",
+      "options": [
+        "কোষ বিভাজন ত্বরান্বিত করা",
+        "বার্ধক্য বিলম্বিত করা",
+        "পত্ররন্ধ্র খুলতে সাহায্য করা",
+        "বীজের অঙ্কুরোদগম রোধ করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-33-027",
+      "question": "মেন্ডেলের স্বাধীন বিন্যাস সূত্রের জন্য কমপক্ষে কটি জোড়া বৈশিষ্ট্য প্রয়োজন?",
+      "options": [
+        "১ জোড়া",
+        "২ জোড়া",
+        "৩ জোড়া",
+        "৭ জোড়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-028",
+      "question": "লজ্জাবতী লতার পাতায় স্পর্শ করলে তা বুজে যায় - এটি কী ধরনের চলন?",
+      "options": [
+        "Phototropism",
+        "Seismonastic",
+        "Geotropism",
+        "Chemotaxis"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-029",
+      "question": "ঘোড়ার অগ্রপদ এবং পাখির ডানা কোন্ ধরণের অঙ্গের উদাহরণ?",
+      "options": [
+        "সমবৃত্তীয় অঙ্গ (Analogous)",
+        "সমসংস্থ অঙ্গ (Homologous)",
+        "নিষ্ক্রিয় অঙ্গ (Vestigial)",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-030",
+      "question": "CO_2-কে \"রেসপিরেটরি গ্যাস\" বলা হয় কেন?",
+      "options": [
+        "এটি রেসপিরেটরি প্রক্রিয়ায় উৎপন্ন হয় ও শ্বাস নিয়ন্ত্রণ করে",
+        "এটি শুধু দূষণ করে",
+        "এতে O₂ নেই",
+        "এটি নাইট্রোজেনের মতো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-031",
+      "question": "ওভিউলেশন-এর জন্য দায়ী প্রধান গ্রন্থি কোনটি?",
+      "options": [
+        "Anterior Pituitary",
+        "Posterior Pituitary",
+        "Ovary",
+        "Adrenal"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-032",
+      "question": "নিচের কোনগুলো অ্যাগ্রানুলোসাইট?",
+      "options": [
+        "নিউট্রোফিল",
+        "মনোসাইট",
+        "লিম্ফোসাইট",
+        "ইয়োসিনোফিল"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-33-033",
+      "question": "পিটুইটারি গ্রন্থির পোস্টেরিয়র লোব থেকে নিঃসৃত হরমোন কোনটি?",
+      "options": [
+        "GH",
+        "ADH",
+        "TSH",
+        "ACTH"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-034",
+      "question": "ডেফিব্রিলেটর যন্ত্রটি ব্যবহৃত হয় কখন?",
+      "options": [
+        "কার্ডিয়াক অ্যারেস্ট বা অনিয়মিত স্পন্দন সারানোর জন্য",
+        "রক্তচাপ মাপার জন্য",
+        "ফুসফুসের চিকিৎসা",
+        "ডায়াবেটিস নির্ণয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-035",
+      "question": "ত্বকের বাইরের স্তর এপিডার্মিস (Epidermis) সম্পর্কে সঠিক হল: (Multi-correct)",
+      "options": [
+        "এটি মৃত কোষ দিয়ে গঠিত হতে পারে",
+        "এতে মেলানিন থাকে",
+        "এতে রক্তবাহ থাকে না",
+        "এটি সবথেকে পুরু স্তর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-33-036",
+      "question": "নেফ্রনের লুপ অফ হেনলি (Loop of Henle) কোন কোন প্রাণীতে সবচেয়ে লম্বা হয়?",
+      "options": [
+        "মরুভূমির ইঁদুর (Kangaroo rat)",
+        "উট",
+        "মাছ",
+        "মানুষ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-33-037",
+      "question": "জলতঙ্ক (Rabies) রোগের টিকা কে আবিষ্কার করেন?",
+      "options": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Robert Koch",
+        "Alexander Fleming"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-038",
+      "question": "চোখের রেটিনা ও Optic nerve-এর সংযোগস্থল যেখানে কোনো প্রতিবিম্ব গঠিত হয় না তাকে কী বলে?",
+      "options": [
+        "Yellow spot",
+        "Blind spot",
+        "Pupil",
+        "Iris"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-039",
+      "question": "COPD বলতে কী বোঝায়?",
+      "options": [
+        "যক্ষা",
+        "ক্রনিক অবস্ট্রাকটিভ পালমোনারি ডিজিজ",
+        "করোনা ভাইরাস",
+        "ক্যান্সার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-040",
+      "question": "Calcitonin-এর কাজ কী?",
+      "options": [
+        "রক্তে ক্যালসিয়াম বাড়ায়",
+        "রক্তে ক্যালসিয়াম কমায় ও হাড়ে জমা করে",
+        "রক্তে গ্লুকোজ বাড়ায়",
+        "রক্তচাপ বাড়ায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-041",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে পায়ের আঙ্গুলের সংখ্যা হ্রাসের কারণ কী?",
+      "options": [
+        "দ্রুত দৌড়ানোর অভিযোজন",
+        "সাতার কাটার অভিযোজন",
+        "গাছে চড়ার অভিযোজন",
+        "খাদ্যের অভাব"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-042",
+      "question": "অ্যাক্রোসেন্ট্রিক (Acrocentric) ক্রোমোজোমে সেন্ট্রোমিয়ার কোথায় থাকে?",
+      "options": [
+        "একদম মধ্যভাগে",
+        "একটি প্রান্তের কাছে",
+        "একেবারে প্রান্তে",
+        "কোনোটা নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-043",
+      "question": "JFM (Joint Forest Management) প্রকল্পটি প্রথম ভারতের কোন রাজ্যে শুরু হয়েছিল?",
+      "options": [
+        "ওড়িশা",
+        "পশ্চিমবঙ্গ (আরাবাড়ি)",
+        "উত্তরাখণ্ড",
+        "কেরালা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-044",
+      "question": "নিচের কোনটি পরিপাক কাজে সাহায্য করে?",
+      "options": [
+        "শুধু এনজাইম",
+        "শুধু হরমোন",
+        "এনজাইম ও হরমোন উভয়ই",
+        "কোনোটিই নয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-045",
+      "question": "Connective tissue-এর প্রধান বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "কোষ ঘনসন্নিবিষ্ট",
+        "আন্তঃকোষীয় পদার্থ abundant",
+        "সংকোচন ক্ষমতা",
+        "স্নায়ু আবেগ পরিবহন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-046",
+      "question": "100 গ্রাম ফ্যাট থেকে কত ক্যালরি শক্তি পাওয়া যায়?",
+      "options": [
+        "400 kcal",
+        "700 kcal",
+        "900 kcal",
+        "1200 kcal"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-33-047",
+      "question": "পত্ররন্ধ্র (Stomata) বন্ধ করতে সাহায্য করে কোন হরমোন?",
+      "options": [
+        "ABA",
+        "Auxin",
+        "Gibberellin",
+        "Ethylene"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-048",
+      "question": "একটি সাধারণ ইউক্যারিওটিক কোষের ব্যাস কত?",
+      "options": [
+        "0.1-0.5 µm",
+        "1-5 µm",
+        "10-100 µm",
+        "1-2 mm"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-33-049",
+      "question": "নিচের কোনটি Lateral meristem?",
+      "options": [
+        "অ্যাপিক্যাল মেরিস্টেম",
+        "ইন্টারক্যালারি মেরিস্টেম",
+        "ক্যাম্বিয়াম",
+        "প্রোমেরিস্টেম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-33-050",
+      "question": "লুপ অফ হেন্লি (Loop of Henle)-র প্রধান কাজ কী?",
+      "options": [
+        "গ্লুকোজ শোষণ",
+        "পানি ও লবণের পুনঃশোষণ নিয়ন্ত্রণ",
+        "বিষাক্ত পদার্থ নিঃসরণ",
+        "pH নিয়ন্ত্রণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    }
+  ]
+}

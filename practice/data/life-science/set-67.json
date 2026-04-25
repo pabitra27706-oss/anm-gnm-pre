@@ -1,0 +1,884 @@
+{
+  "subject": "life-science",
+  "set": 67,
+  "questions": [
+    {
+      "id": "ls-67-001",
+      "question": "একটি পুরুষ ফুলে কেবল পুংকেশর থাকলে তাকে কী বলে?",
+      "options": [
+        "Pistillate",
+        "Staminate",
+        "Bisexual",
+        "Neutral"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-002",
+      "question": "সিফিলিস (Syphilis) কোন্ ধরণের রোগ?",
+      "options": [
+        "Virus ঘটিত",
+        "ব্যাক্টেরিয়া ঘটিত যৌন রোগ (STD)",
+        "Protozoa ঘটিত",
+        "বংশগত রোগ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-003",
+      "question": "A ও B ছাড়াও একটি তৃতীয় অ্যান্টিজেন কোনটি যা Rh ফ্যাক্টর নামে পরিচিত?",
+      "options": [
+        "অ্যান্টিজেন C",
+        "অ্যান্টিজেন D",
+        "অ্যান্টিজেন E",
+        "অ্যান্টিজেন X"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-004",
+      "question": "নিচের কোনটি মাইটোকন্ড্রিয়ার কাজ নয়?",
+      "options": [
+        "শ্বসন",
+        "ATP সংশ্লেষণ",
+        "ফ্যাটি অ্যাসিড জারণ",
+        "গ্লাইকোলাইসিস"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-005",
+      "question": "মধ্যকর্ণের হাড়গুলির কাজ কী?",
+      "options": [
+        "ভারসাম্য বজায় রাখা",
+        "শব্দ তরঙ্গের শক্তি বৃদ্ধি করা (Amplification)",
+        "হরমোন নিয়ন্ত্রণ",
+        "রক্ত সঞ্চালন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-006",
+      "question": "নিচের কোনটি রক্ত পাম্প করে?",
+      "options": [
+        "হৃদপিণ্ড",
+        "ফুসফুস",
+        "যকৃৎ",
+        "প্লীহা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-007",
+      "question": "গ্রে ম্যাটারে কী থাকে?",
+      "options": [
+        "মায়েলিনেটেড অ্যাক্সন",
+        "নিউরনের কোষদেহ",
+        "শুধু CSF",
+        "শুধু ডেনড্রাইট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-008",
+      "question": "নিউরনের অংশ কী কী?",
+      "options": [
+        "ডেনড্রাইট",
+        "কোষদেহ",
+        "অ্যাক্সন",
+        "সাইনোভিয়াল ক্যাভিটি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-67-009",
+      "question": "অস্থিমজ্জা কোন কোন হাড়ে রক্তকণিকা তৈরি করে?",
+      "options": [
+        "ফিমার",
+        "পাঁজর",
+        "কশেরুকা",
+        "স্টার্নাম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-010",
+      "question": "স্নেহপদার্থ পরিপাকের জন্য দায়ী কোন উৎসেচক?",
+      "options": [
+        "অ্যামাইলেজ",
+        "লাইপেজ",
+        "মল্টেজ",
+        "ল্যাকটেজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-011",
+      "question": "অর্নিথিন চক্রে শেষ ধাপে কী উৎপন্ন হয়?",
+      "options": [
+        "অর্নিথিন + ইউরিয়া",
+        "সিট্রুলিন",
+        "আর্জিনিন",
+        "অ্যামোনিয়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-012",
+      "question": "ক্যাকটাসের পাতা কাঁটায় রূপান্তরিত হওয়া কী ধরনের অভিযোজন?",
+      "options": [
+        "Photosynthesis বৃদ্ধি",
+        "Transpiration কমানো",
+        "চলন বৃদ্ধি",
+        "বংশবিস্তার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-013",
+      "question": "স্থূলতা বা Obesity-র কারণে যা হতে পারে: (Multi-correct)",
+      "options": [
+        "হৃদরোগ",
+        "টাইপ-২ ডায়াবেটিস",
+        "উচ্চ রক্তচাপ",
+        "ম্যারাসমাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-67-014",
+      "question": "DNA Fingerprinting এর প্রয়োগ দেখা যায়:",
+      "options": [
+        "অপরাধী শনাক্তকরণে",
+        "পিতৃত্ব নির্ণয়ে",
+        "জিনগত রোগের বিচারে",
+        "জ্বর কমাতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-015",
+      "question": "শিশুদের অপুষ্টিজনিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Kwashiorkor",
+        "Marasmus",
+        "Obesity",
+        "Diabetes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-67-016",
+      "question": "ত্বকের বাইরের মৃত স্তরের নাম কী?",
+      "options": [
+        "Dermis",
+        "Stratum corneum",
+        "Hypodermis",
+        "Muscle"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-017",
+      "question": "ক্ষুদ্রান্ত্র থেকে নিঃসৃত হরমোন কোনগুলি?",
+      "options": [
+        "সিক্রেটিন",
+        "CCK",
+        "গ্যাস্ট্রিন",
+        "VIP"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-67-018",
+      "question": "অস্টিওম্যালাসিয়া (Osteomalacia) রোগটি কাদের ক্ষেত্রে দেখা যায়?",
+      "options": [
+        "শিশু",
+        "বয়স্ক বা প্রাপ্তবয়স্ক",
+        "কিশোর",
+        "নবজাতক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-019",
+      "question": "প্রোটিনের ক্যালরি বিহীন অভাবজনিত রোগ কোনটি?",
+      "options": [
+        "Marasmus",
+        "Kwashiorkor",
+        "Obesity",
+        "Night blindness"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-020",
+      "question": "চোখের জল (Tears) কোন গ্রন্থি থেকে নিঃসৃত হয়?",
+      "options": [
+        "Salivary gland",
+        "Lacrimal gland",
+        "Sebaceous gland",
+        "Adrenal gland"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-021",
+      "question": "খাদ্য গলাধঃকরণের সময় কণ্ঠনালীর মুখ বন্ধ হয় কীভাবে?",
+      "options": [
+        "এপিগ্লটিস উঠে গিয়ে",
+        "এপিগ্লটিস নেমে গিয়ে",
+        "ভোকাল কর্ড স্ফীত হয়ে",
+        "ইউভুলা নেমে গিয়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-022",
+      "question": "নিচের কোনগুলো অস্থির রাসায়নিক উপাদান?",
+      "options": [
+        "হাইড্রক্সিঅ্যাপাটাইট",
+        "কোলাজেন",
+        "গ্লুকোজ",
+        "ক্যালসিয়াম কার্বনেট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-67-023",
+      "question": "শোষণে সাহায্যকারী গঠন কোনটি?",
+      "options": [
+        "ভিলাই",
+        "মাইক্রোভিলাই",
+        "পাকস্থলীর রুগা",
+        "কোলনের টিনিয়া কোলি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-024",
+      "question": "অ্যানিমিয়ার প্রকারভেদ কী কী?",
+      "options": [
+        "আয়রনের অভাবে",
+        "ভিটামিন B12 এর অভাবে (পার্নিসিয়াস)",
+        "হিমোলাইটিক",
+        "অ্যাপ্লাস্টিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-025",
+      "question": "Nodes of Ranvier কী?",
+      "options": [
+        "সাইন্যাপসের গহ্বর",
+        "মায়েলিন শিথের বিচ্ছিন্নতা",
+        "ডেনড্রাইটের শাখা",
+        "কোষদেহের কেন্দ্র"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-026",
+      "question": "গর্ভাশয় (Ovary) থেকে সরাসরি কোন ডিম্বাণু নিঃসৃত হয়?",
+      "options": [
+        "Oogonia",
+        "Primary Oocyte",
+        "Secondary Oocyte",
+        "Mature Ovum"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-027",
+      "question": "ইথিলিন (Ethylene) হরমোনের প্রধান কাজ কী?",
+      "options": [
+        "কোষ বিভাজন",
+        "ফল পাকানো",
+        "কান্ডের বৃদ্ধি",
+        "ট্রপিক চলন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-028",
+      "question": "করোটিক স্নায়ুতে সংবেদী ও চেষ্টীয় তন্তু উভয়ই থাকলে তাকে কী বলে?",
+      "options": [
+        "সেনসরি",
+        "মোটর",
+        "মিক্সড নার্ভ",
+        "ইন্টারনিউরন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-029",
+      "question": "রজঃচক্রের সময় তলপেটে ব্যথা কেন হয়?",
+      "options": [
+        "প্রোস্টাগ্ল্যান্ডিন হরমোনের জন্য",
+        "ক্যালসিয়ামের অভাবে",
+        "গ্যাস হলে",
+        "সংক্রমণের জন্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-030",
+      "question": "বিবর্তনের স্বপক্ষে সমসংস্থ অঙ্গ কোন্ বিবর্তনকে সমর্থন করে? (Multi-correct)",
+      "options": [
+        "অপসারী বিবর্তন (Divergent evolution)",
+        "একটি সাধারণ উৎস থেকে বিভিন্ন অভিযোজন",
+        "অভিসারী বিবর্তন",
+        "সমবৃত্তীয় বিবর্তন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-67-031",
+      "question": "যকৃত কোন খাদ্য উপাদান গ্লাইকোজেন হিসেবে জমা রাখে?",
+      "options": [
+        "অ্যামাইনো অ্যাসিড",
+        "ফ্যাটি অ্যাসিড",
+        "গ্লুকোজ",
+        "গ্লিসারল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-032",
+      "question": "নিচের কোনটি ফুসফুসের প্রতিরক্ষা ব্যবস্থা নয়?",
+      "options": [
+        "মিউকাস",
+        "সিলিয়া",
+        "অ্যালভিওলার ম্যাক্রোফেজ",
+        "RBC"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-033",
+      "question": "ম্যারাসমাস (Marasmus) আক্রান্ত শিশুর চেহারা কেমন হয়?",
+      "options": [
+        "ফোলা পেট",
+        "হাড় জিরজিরে ও খিটখিটে মেজাজ",
+        "উজ্জ্বল ত্বক",
+        "খুব লম্বা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-034",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে 'মেরিচিপ্পাস' (Merychippus)-এর বিশেষত্ব কী ছিল?",
+      "options": [
+        "এটি ঘাস খাওয়ার উপযোগী (Grazing) দন্তবিন্যাস শুরু করেছিল",
+        "এটি শিয়ালের মতো ছিল",
+        "এটি সাতার কাটত",
+        "এটি কেবল পাহাড়ে থাকত"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-035",
+      "question": "মাইটোসিসের প্রোফেজ দশার ঘটনা -",
+      "options": [
+        "ক্রোমোজোমের আবির্ভাব",
+        "নিউক্লিওলাস বিলুপ্তি",
+        "স্পিন্ডল গঠন",
+        "ক্রোমোজোমের বিন্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-036",
+      "question": "পরিপাকের জন্য অত্যাবশ্যকীয় যে সকল ভিটামিন?",
+      "options": [
+        "B1",
+        "B2",
+        "ভিটামিন C",
+        "ভিটামিন A"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-67-037",
+      "question": "Tourniquet কখন ব্যবহার করা হয়?",
+      "options": [
+        "সাধারণ কাটা ছেঁড়ায়",
+        "যখন অতিরিক্ত রক্তপাত অন্য উপায়ে বন্ধ করা যায় না",
+        "জ্বরের সময়",
+        "পেট ব্যথার সময়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-038",
+      "question": "মানবদেহে শ্বেতসার পরিপাক শুরু হয় মুখে এবং শেষ হয় কোথায়?",
+      "options": [
+        "পাকস্থলীতে",
+        "ক্ষুদ্রান্ত্রে",
+        "বৃহদন্ত্রে",
+        "যকৃতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-039",
+      "question": "Organ system কী?",
+      "options": [
+        "এক ধরনের টিস্যুর সমষ্টি",
+        "একটি মাত্র কোষ",
+        "একাধিক অঙ্গ যে একই শারীরবৃত্তীয় কাজে যুক্ত থাকে",
+        "শুধু পেশির সমষ্টি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-040",
+      "question": "ক্রোমোজোমের প্রান্তে সুরক্ষাকারী কাঠামোটির নাম কী?",
+      "options": [
+        "সেন্ট্রোমিয়ার",
+        "টেলোমিয়ার",
+        "কাইনেটোকোর",
+        "স্যাটেলাইট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-041",
+      "question": "অগ্ন্যাশয় রস নিঃসরণে উদ্দীপক হরমোন কোনটি?",
+      "options": [
+        "গ্যাসট্রিন",
+        "সিক্রেটিন",
+        "CCK (কলিসিস্টোকাইনিন)",
+        "উপরের B ও C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-042",
+      "question": "নিচের কোনটি ‘পারক্সিসোম’ -এর কাজ?",
+      "options": [
+        "ফ্যাটি অ্যাসিড β-অক্সিডেশন",
+        "হাইড্রোজেন পারক্সাইড নির্মূল",
+        "ক্যাটালেজ এনজাইম থাকে",
+        "প্রোটিন সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-67-043",
+      "question": "প্রেসবায়োপিয়া (Presbyopia) কেন হয়? (Multi-correct)",
+      "options": [
+        "লেন্সের নমনীয়তা কমলে",
+        "সিলিয়ারি পেশীর কার্যকারিতা কমলে",
+        "বেশি বয়সে",
+        "কর্নিয়া বেঁকে গেলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-044",
+      "question": "মধ্যকর্ণের অন্তর্গত হাড়গুলি হল: (Multi-correct)",
+      "options": [
+        "Malleus",
+        "Incus",
+        "Stapes",
+        "Cochlea"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-67-045",
+      "question": "ফ্যাট পরিপাকে সাহায্যকারী উপাদান কোনগুলি?",
+      "options": [
+        "পিত্তলবণ",
+        "লাইপেজ",
+        "এইচ.সি.এল",
+        "অ্যামাইলেজ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-67-046",
+      "question": "একটি হিমোফিলিক বাবার সব কন্যারা কেমন হবে যদি মা স্বাভাবিক হয়?",
+      "options": [
+        "হিমোফিলিক",
+        "বাহক",
+        "স্বাভাবিক",
+        "৫০% বাহক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-67-047",
+      "question": "পেরিস্ট্যালসিস প্রক্রিয়াটি কোথায় ঘটে?",
+      "options": [
+        "শুধুমাত্র মুখগহ্বরে",
+        "শুধুমাত্র খাদ্যনালীতে",
+        "সমগ্র পরিপাক নালীতে",
+        "শুধুমাত্র বৃহদন্ত্রে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-048",
+      "question": "ভিটামিন কে-র প্রধান উৎস কোনটি?",
+      "options": [
+        "লেবু",
+        "সবুজ শাকসবজি",
+        "চাল",
+        "ডাল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-67-049",
+      "question": "Larynx-কে কী বলা হয়?",
+      "options": [
+        "খাদ্যনালী",
+        "স্বরযন্ত্র",
+        "শ্বাসনালী",
+        "ফুসফুস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-67-050",
+      "question": "গনোরিয়া রোগের লক্ষ্মণ কী?",
+      "options": [
+        "গায়ে র‍্যাশ",
+        "মূত্রত্যাগের সময় জ্বালা ও পুঁজ নির্গমন",
+        "কাশি",
+        "চুল পড়ে যাওয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

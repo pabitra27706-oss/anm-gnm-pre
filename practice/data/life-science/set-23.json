@@ -1,0 +1,885 @@
+{
+  "subject": "life-science",
+  "set": 23,
+  "questions": [
+    {
+      "id": "ls-23-001",
+      "question": "লিন্ডেম্যানের সূত্রের সীমাবদ্ধতা বা বৈশিষ্ট্য হলো— (Multi-correct)",
+      "options": [
+        "প্রতিটি স্তরে ৯০% শক্তি নষ্ট হয়",
+        "কেবল ১০% শক্তি পরবর্তী স্তরে যায়",
+        "এটি শক্তির একমুখী প্রবাহ বোঝায়",
+        "এটি শক্তির চক্রাকার প্রবাহ বোঝায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-23-002",
+      "question": "\"Spirometer\" কী মাপার যন্ত্র?",
+      "options": [
+        "রক্তচাপ",
+        "শ্বাস বায়ুর পরিমাণ",
+        "হৃদস্পন্দন",
+        "তাপমাত্রা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-003",
+      "question": "ফার্স্ট এইডের ABC নিয়মের অন্তর্ভুক্ত হলো:",
+      "options": [
+        "Airway",
+        "Breathing",
+        "Circulation",
+        "Consciousness"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-23-004",
+      "question": "সরীসৃপ ও স্তন্যপায়ীর সংযোগকারী যোগসূত্র কোনটি?",
+      "options": [
+        "আরকিওপটেরিক্স",
+        "প্লাটিপাস (Duck-billed Platypus)",
+        "পেরিপেটাস",
+        "লিমুলাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-005",
+      "question": "ফ্যালোপিয়ান নালী বা লসিকা নালীতে অবস্থিত পরজীবীটি (Wuchereria bancrofti) কোন্ রোগ সৃষ্টি করে?",
+      "options": [
+        "Malaria",
+        "Filariasis (গোদ)",
+        "Ascariasis",
+        "Cholera"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-006",
+      "question": "এইডস (AIDS) রোগ সংক্রমণের মাধ্যমগুলি হলো: (Multi-correct)",
+      "options": [
+        "অসুরক্ষিত যৌন মিলন",
+        "আক্রান্ত ব্যক্তির রক্ত গ্রহণ",
+        "মা থেকে শিশুতে সংক্রমণ",
+        "করমর্দন বা একই থালায় খাবার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-23-007",
+      "question": "নাইট্রোজেন স্থিতিকারী ব্যাকটেরিয়া Rhizobium উদ্ভিদের কোন অংশে বসবাস করে?",
+      "options": [
+        "কান্ডে",
+        "পাতার কিনারে",
+        "মূলের অর্বুদে (Root nodules)",
+        "ফুলে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-008",
+      "question": "অ্যামনিওটিক তরল (Amniotic fluid) কোথায় থাকে?",
+      "options": [
+        "জরায়ুর গহ্বরে",
+        "ভ্রূণের চারপাশের থলিতে",
+        "ডিম্বাশয়ে",
+        "যোনিপথে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-009",
+      "question": "দীর্ঘস্থায়ী উপবাসের সময় শরীর শক্তি পায় কোথা থেকে?",
+      "options": [
+        "পেশীর প্রোটিন থেকে",
+        "সঞ্চিত ফ্যাট থেকে",
+        "যকৃতের গ্লাইকোজেন থেকে",
+        "সবকটিই পর্যায়ক্রমে"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-010",
+      "question": "সারফ্যাকট্যান্ট নিঃসৃত হয় কোন কোষ থেকে?",
+      "options": [
+        "টাইপ I অ্যালভিওলার কোষ",
+        "টাইপ II অ্যালভিওলার কোষ",
+        "ধূলিকোষ",
+        "মাস্ট কোষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-011",
+      "question": "নাইট্রোজেন চক্রের সাথে যুক্ত ব্যাক্টেরিয়া হলো— (Multi-correct)",
+      "options": [
+        "Rhizobium",
+        "Nitrosomonas",
+        "Azotobacter",
+        "Lactobacillus"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-23-012",
+      "question": "হৃদগতি নিয়ন্ত্রণকারী প্রাকৃতিক পেসমেকার কোনটি?",
+      "options": [
+        "AV node",
+        "Bundle of His",
+        "SA node",
+        "Purkinje fibre"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-013",
+      "question": "ডায়াবেটিস ইনসিপিডাসে মূত্রের পরিমাণ কেমন হয়?",
+      "options": [
+        "কম",
+        "অতি বেশি",
+        "স্বাভাবিক",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-014",
+      "question": "প্রস্রাব গঠনের প্রথম ধাপ কোনটি?",
+      "options": [
+        "পুনঃশোষণ (Reabsorption)",
+        "নিঃসরণ (Secretion)",
+        "অতি পরিস্রাবণ (Ultrafiltration)",
+        "ঘনীভবন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-015",
+      "question": "পিত্তরসে কোন ধরনের উৎসেচক থাকে?",
+      "options": [
+        "অ্যামাইলেজ",
+        "প্রোটিয়েজ",
+        "লাইপেজ",
+        "কোন উৎসেচক নেই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-016",
+      "question": "উদ্ভিদের বার্ধক্য প্রতিরোধ করে কোন হরমোন?",
+      "options": [
+        "Cytokinin",
+        "Ethylene",
+        "ABA",
+        "Gibberellin"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-017",
+      "question": "রক্তের pH নিয়ন্ত্রণে কোন খনিজ লবণ ভূমিকা রাখে?",
+      "options": [
+        "সোডিয়াম ক্লোরাইড",
+        "ক্যালসিয়াম ফসফেট",
+        "সোডিয়াম বাইকার্বনেট",
+        "ম্যাগনেসিয়াম সালফেট"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-018",
+      "question": "মেন্ডেলের একসংকর জননে F1 গাছগুলি কেমন হয়?",
+      "options": [
+        "বিশুদ্ধ লম্বা",
+        "সংকর লম্বা",
+        "বিশুদ্ধ খর্ব",
+        "সংকর খর্ব"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-019",
+      "question": "জাইগোট গঠনের পর শিশু মায়ের থেকে যে অনাক্রম্যতা পায় (বুকের দুধের মাধ্যমে), তাকে কী বলে?",
+      "options": [
+        "Active immunity",
+        "Natural passive immunity",
+        "Artificial active immunity",
+        "Innate immunity"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-020",
+      "question": "নিচের কোনটি মিয়োসিসের অ্যানাফেজ I-এর বৈশিষ্ট্য?",
+      "options": [
+        "ক্রোমাটিড পৃথক হয়",
+        "হোমোলোগাস ক্রোমোজোম পৃথক হয়ে বিপরীত মেরুতে যায়",
+        "ক্রোমোজোম বিষুবরেখায় সাজে",
+        "নিউক্লিয়াস পুনর্গঠিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-021",
+      "question": "খাদ্যে ফাইবার বা তন্তুর কাজ হলো—",
+      "options": [
+        "শক্তি প্রদান",
+        "কোষ্ঠকাঠিন্য দূর করা",
+        "হাড় গঠন",
+        "রক্ত বাড়ানো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-022",
+      "question": "স্কার্ভি (Scurvy) রোগ থেকে মুক্তি পেতে কোন ফলটি খাওয়া উচিত?",
+      "options": [
+        "আপেল",
+        "আমলকী",
+        "কলা",
+        "পেঁপে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-023",
+      "question": "কোষ্ঠকাঠিন্য দূর করতে কোন জাতীয় খাবার খাওয়া জরুরি?",
+      "options": [
+        "আঁশ জাতীয় খাবার",
+        "চর্বি জাতীয় খাবার",
+        "আমিষ জাতীয় খাবার",
+        "লবণাক্ত খাবার"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-024",
+      "question": "হৃদযন্ত্রের ক্রিয়া বন্ধ হয়ে যাওয়াকে কী বলে?",
+      "options": [
+        "অ্যানজাইনা",
+        "স্ট্রোক",
+        "কার্ডিয়াক অ্যারেস্ট",
+        "এথেরোস্ক্লেরোসিস"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-025",
+      "question": "নিচের কোনটি ‘এক্সোসাইটোসিস’ প্রক্রিয়ার অন্তর্গত?",
+      "options": [
+        "হরমোন নিঃসরণ",
+        "নিউরোট্রান্সমিটার মুক্তি",
+        "বর্জ্য পদার্থ বের করে দেওয়া",
+        "ব্যাকটেরিয়া গ্রাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-23-026",
+      "question": "সরীসৃপ ও পাখির মধ্যবর্তী পর্যায়ের জীব কোনটি?",
+      "options": [
+        "আরকিওপটেরিক্স",
+        "প্লাটিপাস",
+        "পেরিপেটাস",
+        "ঘোড়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-027",
+      "question": "চোখের কোন অংশটি আলো প্রবেশ নিয়ন্ত্রণ করে?",
+      "options": [
+        "Retina",
+        "Cornea",
+        "Iris",
+        "Sclera"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-028",
+      "question": "হেনলির লুপের আরোহী অংশ (Ascending limb) কোনটির জন্য অভেদ্য?",
+      "options": [
+        "লবণ",
+        "পানি",
+        "ইউরিয়া",
+        "গ্লুকোজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-029",
+      "question": "জলবাহিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Amoebiosis",
+        "Tuberculosis"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-23-030",
+      "question": "পরিপাক নালীর দৈর্ঘ্য গড়ে কত?",
+      "options": [
+        "৫-৬ মিটার",
+        "৮-১০ মিটার",
+        "১৫-২০ মিটার",
+        "১-২ মিটার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-031",
+      "question": "রজঃচক্রের সময় স্বাস্থ্যবিধি হল: (Multi-correct)",
+      "options": [
+        "পরিষ্কার প্যাড ব্যবহার",
+        "প্রতি ৬ ঘণ্টায় প্যাড পরিবর্তন",
+        "পুষ্টিকর খাদ্য গ্রহণ",
+        "বিশ্রাম নেওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-23-032",
+      "question": "মিয়োসিসের প্রথম দশা প্রোফেজ I-এ ঘটে -",
+      "options": [
+        "সিন্যাপসিস",
+        "ক্রসিং ওভার",
+        "টার্মিনালাইজেশন",
+        "সাইটোকাইনেসিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-23-033",
+      "question": "বয়ঃসন্ধির পরিবর্তনের জন্য দায়ী হরমোন কোনগুলো?",
+      "options": [
+        "টেস্টোস্টেরন",
+        "ইস্ট্রোজেন",
+        "গ্রোথ হরমোন",
+        "গোনাডোট্রপিন (FSH, LH)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-23-034",
+      "question": "পরিপাক নালীর অংশ কী কী?",
+      "options": [
+        "মুখগহ্বর",
+        "খাদ্যনালী",
+        "যকৃৎ",
+        "ক্ষুদ্রান্ত্র"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-23-035",
+      "question": "সাপে কামড়ানোর পর ওঝার কাছে যাওয়া উচিত নয় কেন?",
+      "options": [
+        "কারণ ওঝারা বিষ নামাতে পারে না",
+        "মূল্যবান সময় নষ্ট হয়",
+        "অবৈজ্ঞানিক পদ্ধতি",
+        "উপরের সবগুলি"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-036",
+      "question": "কলেরা ও টাইফয়েডের মত রোগের প্রধান কারণ কী?",
+      "options": [
+        "দূষিত খাদ্য ও জল",
+        "ভিটামিন-সি ঘাটতি",
+        "ক্যালসিয়ামের অভাব",
+        "আমিষের অভাব"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-037",
+      "question": "সংগ্রাহক নালী (Collecting duct)-এর প্রধান কাজ কী?",
+      "options": [
+        "অ্যামিনো অ্যাসিড শোষণ",
+        "পানির পুনঃশোষণ নিয়ন্ত্রণ (ADH-এর মাধ্যমে)",
+        "ক্যালসিয়াম নিঃসরণ",
+        "রক্তচাপ বাড়ানো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-038",
+      "question": "জরায়ুর গ্রীবাকে কী বলা হয়?",
+      "options": [
+        "Fundus",
+        "Cervix",
+        "Isthmus",
+        "Fimbriae"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-039",
+      "question": "কার্ডিয়াক সাইকেলের সময়কাল 0.8 সেকেন্ড হলে প্রতি মিনিটে হৃৎস্পন্দন কত?",
+      "options": [
+        "60",
+        "72",
+        "75",
+        "80"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-23-040",
+      "question": "শ্বাসতন্ত্রের জন্মগত ত্রুটি কোনগুলো?",
+      "options": [
+        "ট্রাকিও-ইসোফেজিয়াল ফিস্টুলা",
+        "জন্মগত ডায়াফ্রামেটিক হার্নিয়া",
+        "পালমোনারি হাইপোপ্লাসিয়া",
+        "ব্রঙ্কিয়াল কার্টিলেজের ত্রুটি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-23-041",
+      "question": "ডাইস্যাকারাইডের উদাহরণগুলি হলো: (Multi-correct)",
+      "options": [
+        "Sucrose",
+        "Lactose",
+        "Maltose",
+        "Fructose"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-23-042",
+      "question": "পিটুইটারি গ্রন্থির অতিরিক্ত হরমোন নিঃসরণজনিত রোগ কোনগুলো?",
+      "options": [
+        "জাইগান্টিজম",
+        "অ্যাক্রোমেগালি",
+        "কুশিং ডিজিজ",
+        "প্রোল্যাক্টিনোমা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-23-043",
+      "question": "নিচের কোনটি ‘নন-ডিজংকশন’-এর ফলে ঘটে?",
+      "options": [
+        "ক্রোমোজোম সংখ্যা অস্বাভাবিকতা (ডাউন সিনড্রোম)",
+        "জিন মিউটেশন",
+        "ক্রসিং ওভার",
+        "কোষের মৃত্যু"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-044",
+      "question": "'Ex-situ' সংরক্ষণের একটি উদাহরণ হলো—",
+      "options": [
+        "National Park",
+        "Seed Bank (বীজ ব্যাংক)",
+        "Wildlife Sanctuary",
+        "Biosphere Reserve"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-045",
+      "question": "ক্লোরোপ্লাস্টের ঝিল্লির বাইরের অংশকে কী বলে?",
+      "options": [
+        "Outer membrane",
+        "Inner membrane",
+        "Thylakoid membrane",
+        "Stroma"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-046",
+      "question": "স্নেহপদার্থ পরিপাকের জন্য দায়ী কোন উৎসেচক?",
+      "options": [
+        "অ্যামাইলেজ",
+        "লাইপেজ",
+        "মল্টেজ",
+        "ল্যাকটেজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-047",
+      "question": "যক্ষ্মা প্রতিরোধের উপায়গুলি হলো: (Multi-correct)",
+      "options": [
+        "নবজাতককে BCG টিকা দেওয়া",
+        "আক্রান্ত ব্যক্তিকে আলাদা রাখা (Isolation)",
+        "কফ যত্রতত্র না ফেলা",
+        "প্রচুর চিনি খাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-23-048",
+      "question": "যক্ষ্মা রোগে আক্রান্ত ব্যক্তির কফ পরীক্ষার নাম কী?",
+      "options": [
+        "Sputum test (কফ পরীক্ষা)",
+        "Blood sugar",
+        "Urine test",
+        "ECG"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-23-049",
+      "question": "শিশুদের ম্যারাসমাস (Marasmus) রোগের প্রধান কারণ কী?",
+      "options": [
+        "কেবল প্রোটিনের অভাব",
+        "কেবল ফ্যাটের অভাব",
+        "প্রোটিন ও ক্যালরি উভয়ের অভাব",
+        "কেবল ভিটামিনের অভাব"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-23-050",
+      "question": "নিচের কোনটি উদ্ভিদের অম্লীয় রসালো ভ্যাকুওলের কাজ?",
+      "options": [
+        "পানির ভারসাম্য রক্ষা",
+        "বিষাক্ত পদার্থ সঞ্চয়",
+        "রং প্রদান (অ্যান্থোসায়ানিন)",
+        "ATP সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

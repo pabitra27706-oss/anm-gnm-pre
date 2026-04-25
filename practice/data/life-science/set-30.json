@@ -1,0 +1,889 @@
+{
+  "subject": "life-science",
+  "set": 30,
+  "questions": [
+    {
+      "id": "ls-30-001",
+      "question": "টায়ালিন কোন গ্রন্থি থেকে নিঃসৃত হয়?",
+      "options": [
+        "প্যারোটিড",
+        "গ্যাস্ট্রিক",
+        "অগ্ন্যাশয়",
+        "ইসোফেগিয়াল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-002",
+      "question": "সহ-প্রকটতা (Co-dominance) দেখা যায় কোন ক্ষেত্রে? (Multi-correct)",
+      "options": [
+        "মানুষের AB রক্তশ্রেণী",
+        "গরুর গায়ের বর্ণ (Roan color)",
+        "মটর গাছের লম্বা বৈশিষ্ট্য",
+        "মানুষের O রক্তশ্রেণী"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-30-003",
+      "question": "Hypothyroidism-এর প্রধান লক্ষণ নয় কোনটি?",
+      "options": [
+        "ওজন বৃদ্ধি",
+        "ক্লান্তি",
+        "ওজন হ্রাস ও দ্রুত হৃৎস্পন্দন",
+        "শুষ্ক ত্বক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-004",
+      "question": "ডায়াবেটিস ইনসিপিডাসের লক্ষণ কোনগুলো?",
+      "options": [
+        "পলিইউরিয়া",
+        "পলিডিপসিয়া",
+        "গ্লাইকোসুরিয়া",
+        "ডিহাইড্রেশন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-005",
+      "question": "ডায়রিয়ায় আক্রান্ত শিশুর ডিহাইড্রেশন বোঝার উপায় কী?",
+      "options": [
+        "ত্বকের টার্গর, কান্নায় জল নেই, তৃষ্ণা",
+        "ত্বকে র্যাশ",
+        "জ্বর",
+        "চুল পড়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-006",
+      "question": "অ্যাডিসন ডিজিজ এর কারণ কী?",
+      "options": [
+        "অ্যাড্রিনাল কর্টেক্সের অকার্যকারিতা",
+        "থাইরয়েডের আধিক্য",
+        "পিটুইটারির টিউমার",
+        "ডিম্বাশয়ের সিস্ট"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-007",
+      "question": "নিচের কোনটি ‘প্রস্রাব আটকে রাখা’ (Urinary retention) -এর লক্ষণ নয়?",
+      "options": [
+        "প্রস্রাব করতে কষ্ট হওয়া",
+        "ঘন ঘন প্রস্রাব",
+        "পেটের নিচে ব্যথা",
+        "প্রস্রাবের পরিমাণ স্বাভাবিক"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-008",
+      "question": "তিমি (Whale) শ্বাস নেওয়ার সময় জল ফোয়ারার মতো বের হয় কেন?",
+      "options": [
+        "ফুলকা থাকায়",
+        "নাসারন্ধ্র মাথার ওপরে থাকায় ও জোর শ্বাস ছাড়ায়",
+        "খাদ্য ত্যাগ করে",
+        "বাতকর্ম করে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-009",
+      "question": "কোনগুলো COPD-এর অন্তর্গত?",
+      "options": [
+        "ক্রনিক ব্রঙ্কাইটিস",
+        "এমফাইসিমা",
+        "যক্ষা",
+        "অ্যাজমা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-30-010",
+      "question": "Oxyhemoglobin গঠনের সময় অক্সিজেন হিমোগ্লোবিনের কোন ধাতুর সাথে যুক্ত হয়?",
+      "options": [
+        "ক্যালসিয়াম",
+        "ম্যাগনেসিয়াম",
+        "আয়রন",
+        "জিঙ্ক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-011",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে 'ইওহিপ্পাস' (Eohippus)-এর আকার কেমন ছিল?",
+      "options": [
+        "শিয়ালের মতো",
+        "কুকুরের মতো",
+        "বর্তমান ঘোড়ার মতো",
+        "হাতির মতো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-012",
+      "question": "উটের মূত্রে ইউরিয়ার বদলে কোন্ পদার্থ থাকে যা জল সংরক্ষণে সাহায্য করে?",
+      "options": [
+        "ইউরিক অ্যাসিড",
+        "অ্যামোনিয়া",
+        "জল",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-30-013",
+      "question": "AED ব্যবহার করার সময় সঠিক পদক্ষেপ হলো:",
+      "options": [
+        "প্যাডগুলি বুকে ঠিকমতো বসানো",
+        "যন্ত্রের নির্দেশ শোনা",
+        "শক দেওয়ার সময় রোগীকে স্পর্শ না করা",
+        "রোগীর জল দিয়ে গা ভেজানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-30-014",
+      "question": "সালোকসংশ্লেষের আলোক দশা (Light reaction) ক্লোরোপ্লাস্টের কোথায় সম্পন্ন হয়?",
+      "options": [
+        "Stroma",
+        "Grana",
+        "Matrix",
+        "Cytoplasm"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-015",
+      "question": "Inspiration-এর সময় ডায়াফ্রামের অবস্থা কী?",
+      "options": [
+        "স্ফীত হয় ও উপরে যায়",
+        "শিথিল ও উপরে যায়",
+        "সংকুচিত ও নিচে নামে",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-016",
+      "question": "ব্যাক্টেরিয়া ঘটিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Tuberculosis",
+        "Cholera",
+        "Typhoid",
+        "Influenza"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-30-017",
+      "question": "একটি গর্ভনিরোধক ইনজেকশনের নাম কী?",
+      "options": [
+        "Saheli",
+        "Mala-D",
+        "DMPA (Depo-Provera)",
+        "Copper-T"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-018",
+      "question": "মানবদেহের বৃহত্তম গ্রন্থি কোনটি?",
+      "options": [
+        "অগ্ন্যাশয়",
+        "লালাগ্রন্থি",
+        "যকৃৎ",
+        "পিটুইটারি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-019",
+      "question": "অ্যালডোস্টেরন নিঃসরণের উদ্দীপক কী কী?",
+      "options": [
+        "রক্তে পটাসিয়াম বৃদ্ধি",
+        "রক্তের সোডিয়াম হ্রাস",
+        "রেনিন-অ্যানজিওটেনসিন সিস্টেম",
+        "ACTH"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-30-020",
+      "question": "প্রথম ডিগ্রি বার্ন (1st Degree Burn) এর ক্ষেত্রে ত্বকের কোন স্তর ক্ষতিগ্রস্ত হয়?",
+      "options": [
+        "Dermis",
+        "Epidermis",
+        "Subcutaneous",
+        "Muscle"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-021",
+      "question": "পাকস্থলীর শোষণে বাধাপ্রাপ্ত হয় কোনগুলি?",
+      "options": [
+        "গ্লুকোজ",
+        "অ্যালকোহল",
+        "অ্যামাইনো অ্যাসিড",
+        "ফ্যাটি অ্যাসিড"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-022",
+      "question": "কোনগুলি ডিস্যাকারাইড?",
+      "options": [
+        "সুক্রোজ",
+        "গ্লুকোজ",
+        "মল্টোজ",
+        "ল্যাকটোজ"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-023",
+      "question": "অ্যাডেনিনের সাথে থাইমিনের কয়টি হাইড্রোজেন বন্ধন থাকে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-024",
+      "question": "আরকিওপটেরিক্স-এর দেহে পাখির কোন্ বৈশিষ্ট্য দেখা যায়?",
+      "options": [
+        "ডানা ও পালক",
+        "দাঁত",
+        "লম্বা লেজ",
+        "নখর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-025",
+      "question": "ফ্যাগোসাইটোসিস করতে পারে কোন কোন WBC?",
+      "options": [
+        "নিউট্রোফিল",
+        "মনোসাইট",
+        "লিম্ফোসাইট",
+        "বেসোফিল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-30-026",
+      "question": "একটি ভাইরাসকে কেন কোষ বলা যায় না?",
+      "options": [
+        "কারণ এটি নগ্ন",
+        "কারণ এটি নিজে থেকে বিভাজিত হতে পারে না ও নিজস্ব অঙ্গাণু নেই",
+        "কারণ এটি বড়",
+        "কারণ এটি বর্ণহীন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-027",
+      "question": "লসিকা (Lymph)-এর উপাদান কী কী?",
+      "options": [
+        "লসিকা তরল",
+        "লিম্ফোসাইট",
+        "চর্বি কণা",
+        "এরিথ্রোসাইট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-028",
+      "question": "Permanent tissue-এর কোষ কীরূপ?",
+      "options": [
+        "সর্বদা বিভাজনরত",
+        "বিভাজন ক্ষমতা হারিয়ে ফেলেছে",
+        "সংকোচনশীল",
+        "স্নায়ু আবেগ পরিবহনে সক্ষম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-029",
+      "question": "নিচের কোনটি ত্বকের স্তর?",
+      "options": [
+        "এপিডার্মিস",
+        "ডার্মিস",
+        "হাইপোডার্মিস",
+        "পেরিটোনিয়াম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-030",
+      "question": "টিটেনাস রোগের জীবাণু কোন্ ধরণের টক্সিন বা বিষ নিঃসরণ করে?",
+      "options": [
+        "Tetanospasmin",
+        "Insulin",
+        "Penicillin",
+        "Melanin"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-30-031",
+      "question": "ADH-এর অভাবে কী কী ঘটে?",
+      "options": [
+        "ডায়াবেটিস ইনসিপিডাস",
+        "অতিরিক্ত পানির নিঃসরণ",
+        "প্রস্রাব পাতলা হয়",
+        "রক্তচাপ বেড়ে যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-032",
+      "question": "ডায়াবেটিস রোগীদের কেন রক্তচাপ নিয়ন্ত্রণ জরুরি?",
+      "options": [
+        "রেটিনা ও কিডনির ক্ষতি রোধে",
+        "হাত পা ফোলা কমাতে",
+        "চুল পড়া রোধে",
+        "জন্ডিস প্রতিরোধে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-033",
+      "question": "বিবর্তনের স্বপক্ষে 'অঙ্গের ব্যবহার ও অব্যবহার' সূত্রটি কার?",
+      "options": [
+        "Darwin",
+        "Lamarck",
+        "Wallace",
+        "Weismann"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-034",
+      "question": "জেনেটিক ইঞ্জিনিয়ারিং-এ বাহক (Vector) হিসেবে ব্যবহৃত হতে পারে:",
+      "options": [
+        "Plasmid",
+        "Virus",
+        "Bacteriophage",
+        "WBC"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-30-035",
+      "question": "নিম্নলিখিত কোনটি কোষ তত্ত্বের (Cell theory) সঠিক বিবৃতি?",
+      "options": [
+        "সব কোষই একই আকারের হয়",
+        "সব কোষে নিউক্লিয়াস থাকে",
+        "সব জীবই কোষ দিয়ে গঠিত ও কোষ থেকে সৃষ্ট",
+        "কোষ শুধু উদ্ভিদে থাকে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-036",
+      "question": "বাস্তুতন্ত্রের শক্তির উৎস কোনটি?",
+      "options": [
+        "জল",
+        "সূর্য",
+        "মাটি",
+        "গাছ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-037",
+      "question": "Phloem fibre-এর কোষ কীরূপ?",
+      "options": [
+        "জীবিত",
+        "মৃত ও স্ক্লেরেনকাইমা প্রকৃতির",
+        "প্যারেনকাইমা প্রকৃতির",
+        "কোলেনকাইমা প্রকৃতির"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-30-038",
+      "question": "নিচের কোনটি হ্যাপ্লয়েড কোষ?",
+      "options": [
+        "মানুষের শুক্রাণু",
+        "মানুষের ডিম্বাণু",
+        "ছত্রাকের কিছু দশা",
+        "মানুষের যকৃত কোষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-039",
+      "question": "‘চিনি মেহ’ বা ডায়াবেটিস মেলিটাসে প্রস্রাবে গ্লুকোজ আসে কেন?",
+      "options": [
+        "ADH কমে যাওয়ায়",
+        "রক্তে গ্লুকোজের মাত্রা এত বেশি যে টিউবিউল পুনঃশোষণ করতে পারে না",
+        "PCT ধ্বংস হয়ে যায়",
+        "গ্লোমেরুলাস ফিল্টার করে না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-040",
+      "question": "ভ্যাসেকটমি (Vasectomy) করলে কী বন্ধ হয়?",
+      "options": [
+        "হরমোন নিঃসরণ",
+        "বীর্য থেকে শুক্রাণুর নির্গমন",
+        "বীর্য উৎপাদন",
+        "প্রস্রাব"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-041",
+      "question": "কার্বোহাইড্রেট জারণের ফলে প্রতি গ্রাম থেকে কত শক্তি নির্গত হয়?",
+      "options": [
+        "9.3 kcal",
+        "4.1 kcal",
+        "7.0 kcal",
+        "5.6 kcal"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-042",
+      "question": "কোন কোন উৎসেচক প্রোটিন পরিপাকে সরাসরি অংশ নেয়?",
+      "options": [
+        "ট্রিপসিন",
+        "পেপসিন",
+        "অ্যামাইলেজ",
+        "কার্বক্সিপেপটাইডেজ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-043",
+      "question": "খাদ্য উপাদানের পরিপাকের পর শোষণ প্রধানত কীসের ওপর নির্ভর করে?",
+      "options": [
+        "পাকস্থলীর আকার",
+        "ক্ষুদ্রান্ত্রের ভিলাই-এর গঠন ও সংখ্যা",
+        "মুখগহ্বরের pH",
+        "যকৃতের আকার"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-044",
+      "question": "ত্বকের কোন্ অংশে ঘর্মগ্রন্থি (Sweat glands) থাকে?",
+      "options": [
+        "Epidermis",
+        "Dermis",
+        "Stratum corneum",
+        "Hair shaft"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-045",
+      "question": "এপেন্ডিক্সের অবস্থান ও কাজ?",
+      "options": [
+        "সিকামের সাথে যুক্ত",
+        "ইমিউন সিস্টেমে ভূমিকা পালন করে",
+        "পিত্ত ক্ষরণ করে",
+        "ইনসুলিন ক্ষরণ করে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-046",
+      "question": "লোহার ঘাটতি হলে রক্তে কীসের মাত্রা কমে যায়?",
+      "options": [
+        "WBC",
+        "Platelets",
+        "Haemoglobin",
+        "Glucose"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-30-047",
+      "question": "চোখের কর্নিয়ার কাজ কী?",
+      "options": [
+        "আলো প্রতিফলন",
+        "আলোর প্রতিসরণ ও চোখের সুরক্ষা",
+        "রঙ চেনা",
+        "ভারসাম্য রক্ষা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-30-048",
+      "question": "প্রোটিন বিপাকের ফলে উৎপন্ন বিষাক্ত পদার্থটি হলো—",
+      "options": [
+        "Glucose",
+        "Ammonia",
+        "Fatty acid",
+        "Glycerol"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-30-049",
+      "question": "কান ও নাকের সাধারণ বৈশিষ্ট্যগুলি হল: (Multi-correct)",
+      "options": [
+        "উভয়েই সংবেদনশীল অঙ্গ",
+        "উভয়েই তরুণাস্থি দিয়ে গঠিত অংশ আছে",
+        "উভয়েই করোটিক স্নায়ু দ্বারা নিয়ন্ত্রিত",
+        "উভয়েই পরিপাক করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-30-050",
+      "question": "ফ্যাটি অ্যাসিড ও গ্লিসারল ক্ষুদ্রান্ত্রের মিউকোসায় পুনরায় ট্রাইগ্লিসারাইড তৈরি করে। কোন চক্রে মিলিত হয়?",
+      "options": [
+        "রক্তে সরাসরি মেশে",
+        "লসিকাতন্ত্রের ল্যাক্টিয়ালে মেশে",
+        "হেপাটিক পোর্টাল শিরায় মেশে",
+        "পিত্তনালীতে মেশে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    }
+  ]
+}

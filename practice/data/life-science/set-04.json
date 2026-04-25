@@ -3,804 +3,868 @@
   "set": 4,
   "questions": [
     {
-      "id": "ls-u-0151",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Fertilization সম্পর্কে সঠিক উক্তিগুলি কোনগুলি?",
+      "id": "ls-04-001",
+      "question": "বেসোফিল নিঃসৃত প্রধান রাসায়নিক কোনটি?",
       "options": [
-        "এতে sperm ও ovum-এর nucleus মিলিত হয়",
-        "Zygote গঠিত হয়",
-        "chromosome সংখ্যা পুনরায় diploid হয়",
-        "এটি Uterus-এর fundus-এ শুরু হয়"
+        "হিস্টামিন",
+        "ইনসুলিন",
+        "অ্যাসিটাইলকোলিন",
+        "হেপারিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-04-002",
+      "question": "কৃত্রিম শ্বাসপ্রশ্বাস পদ্ধতিকে কী বলে?",
+      "options": [
+        "CPR",
+        "ডিফিব্রিলেশন",
+        "ক্যাথেটারাইজেশন",
+        "কার্ডিওভার্সন"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
+      "unit": "11-respiratory-system",
+      "type": "memory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-u-0152",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Taste sensation কমে যাওয়ার সম্ভাব্য কারণ কোনগুলি?",
+      "id": "ls-04-003",
+      "question": "হিউম্যান জিনোম প্রজেক্ট অনুযায়ী মানুষের মোট জিনের আনুমানিক সংখ্যা কত?",
       "options": [
-        "Taste bud-এর ক্ষতি",
-        "Smell কমে যাওয়া",
-        "জিহ্বার প্রদাহ",
-        "Cornea ঘোলা হওয়া"
+        "5000-10000",
+        "20000-25000",
+        "100000",
+        "1 মিলিয়ন"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 1,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-9",
-      "type": "theory",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0153",
-      "question": "Dominant (প্রকট) বৈশিষ্ট্য কাকে বলে?",
+      "id": "ls-04-004",
+      "question": "নেফ্রনের কোন অংশটি পানি পুনঃশোষণের জন্য সবচেয়ে গুরুত্বপূর্ণ?",
       "options": [
-        "যে বৈশিষ্ট্য Heterozygous অবস্থায় প্রকাশ পায়",
-        "যে বৈশিষ্ট্য শুধুমাত্র Homozygous অবস্থায় প্রকাশ পায়",
-        "যে বৈশিষ্ট্য কখনও প্রকাশ পায় না",
-        "যে বৈশিষ্ট্যটি পরিবেশ দ্বারা অবদমিত হয়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0154",
-      "question": "নিচের কোন রক্তশ্রেণিতে কোনো অ্যান্টিজেন থাকে না?",
-      "options": [
-        "Group A",
-        "Group B",
-        "Group AB",
-        "Group O"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-12",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0155",
-      "question": "Alimentary canal এর শুরু কোথা থেকে?",
-      "options": [
-        "Pharynx",
-        "Mouth",
-        "Oesophagus",
-        "Stomach"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-3",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0156",
-      "question": "দূরের বস্তু দেখার সময় Lens কেমন হয়?",
-      "options": [
-        "মোটা ও বেশি convex",
-        "তুলনামূলক চ্যাপ্টা",
-        "সম্পূর্ণ গোলাকার",
-        "Retina থেকে আলাদা হয়ে যায়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-9",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0157",
-      "question": "সালোকসংশ্লেষের আলোক বিক্রিয়া বা Light reaction কোথায় সম্পন্ন হয়?",
-      "options": [
-        "ক্লোরোপ্লাস্টের স্ট্রোমায় (Stroma)",
-        "ক্লোরোপ্লাস্টের গ্রানায় (Grana)",
-        "সাইটোপ্লাজমে",
-        "কোষপর্দায়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-13",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0158",
-      "question": "Nose-এ smell receptor কোথায় অবস্থিত?",
-      "options": [
-        "জিহ্বার ডগায়",
-        "Nasal cavity-এর উপরের Olfactory epithelium-এ",
-        "Trachea-তে",
-        "Pinna-তে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-9",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0159",
-      "question": "Dengue Hemorrhagic fever কখন হয়?",
-      "options": [
-        "প্রথমবার সংক্রমণে",
-        "দ্বিতীয়বার আলাদা strain-এর সংক্রমণে",
-        "শুধু শিশুদের",
-        "শুধু বৃদ্ধদের"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0160",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) কিডনিতে পরিশ্রাবণ (Filtration) ঝিল্লি (Membrane) কোন স্তরগুলি নিয়ে গঠিত?",
-      "options": [
-        "Glomerulus-এর এন্ডোথেলিয়াম (Endothelium)",
-        "Bowman's capsule-এর এপিথেলিয়াম (Podocytes)",
-        "উভয়ের মাঝের বেসমেন্ট মেমব্রেন (Basement membrane)",
-        "Loop of Henle-এর প্রাচীর"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-6",
-      "type": "theory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-u-0161",
-      "question": "Common cold-এর প্রধান কারণকারী virus কোনটি?",
-      "options": [
-        "Influenza virus",
-        "Rhinovirus",
-        "Poliovirus",
-        "Rabies virus"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0162",
-      "question": "Reproductive health education-এর সবচেয়ে গুরুত্বপূর্ণ উপাদান কোনটি?",
-      "options": [
-        "বিজ্ঞানসম্মত তথ্য, সচেতনতা ও দায়িত্বশীল আচরণ",
-        "কুসংস্কারভিত্তিক ধারণা",
-        "শুধু punishment",
-        "কেবল genetic problem আলোচনা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0163",
-      "question": "Cell division এর সময় Spindle fibre গঠনে সাহায্য করে কোনটি?",
-      "options": [
-        "Centrosome",
-        "Ribosome",
-        "Golgi body",
-        "Lysosome"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0164",
-      "question": "Stroke বলতে কী বোঝায়?",
-      "options": [
-        "Thyroid hormone-এর অভাব",
-        "Brain-এ রক্ত সরবরাহের হঠাৎ ব্যাঘাত",
-        "CSF-এর অতিক্ষরণ",
-        "Pituitary enlargement"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0165",
-      "question": "Bronchus এবং Bronchiole এর তুলনায় কোনটি সঠিক?",
-      "options": [
-        "Bronchiole এর প্রাচীরে cartilage ring বেশি থাকে",
-        "Bronchus তুলনায় Bronchiole সরু",
-        "Bronchiole সরাসরি Pharynx এ খোলে",
-        "Bronchus এ কখনও বায়ু থাকে না"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-4",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0166",
-      "question": "10 g Fat থেকে মোট কত kcal শক্তি পাওয়া যাবে?",
-      "options": [
-        "40 kcal",
-        "50 kcal",
-        "80 kcal",
-        "90 kcal"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0167",
-      "question": "Menopause-এর পরে Ovary-এর কার্যকারিতার কী পরিবর্তন হয়?",
-      "options": [
-        "Ovulation বাড়ে",
-        "Estrogen ও Progesterone ক্ষরণ কমে যায়",
-        "Sperm উৎপাদন শুরু হয়",
-        "hCG ক্ষরণ বাড়ে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0168",
-      "question": "প্রাপ্তবয়স্কদের Osteomalacia কোন Vitamin-এর অভাবে হয়?",
-      "options": [
-        "Vitamin D",
-        "Vitamin K",
-        "Vitamin E",
-        "Vitamin B2"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0169",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Down syndrome সম্পর্কে সঠিক উক্তিগুলি কোনগুলি?",
-      "options": [
-        "এটি chromosome number abnormality",
-        "এটি Trisomy 21",
-        "Non-disjunction-এর সঙ্গে সম্পর্কিত",
-        "এটি সবসময় X-linked"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0170",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Vaccination সম্পর্কে সঠিক উক্তিগুলি কোনগুলি?",
-      "options": [
-        "এটি Immune system-কে প্রস্তুত করে",
-        "সংক্রমণ প্রতিরোধ করতে পারে",
-        "শুধুই Viral disease-এর জন্য",
-        "BCG, DPT, OPV সবই vaccine"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0171",
-      "question": "Bone গঠনকারী কোষগুলিকে কী বলা হয়?",
-      "options": [
-        "Chondrocyte",
-        "Osteocyte",
-        "Erythrocyte",
-        "Adipocyte"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-2",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0172",
-      "question": "Marasmus প্রধানত কোন ঘাটতির জন্য হয়?",
-      "options": [
-        "শুধুই Protein deficiency",
-        "মোট Calorie deficiency",
-        "Vitamin A deficiency",
-        "Iron excess"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0173",
-      "question": "Brain-এর Motor area-তে Stroke হলে সাধারণত কী হতে পারে?",
-      "options": [
-        "শ্বাসপ্রশ্বাস তৎক্ষণাৎ বন্ধ",
-        "দেহের বিপরীত পাশ অবশ হতে পারে",
-        "Goitre",
-        "Diabetes insipidus"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0174",
-      "question": "মূত্রত্যাগের ইচ্ছা (Urge for micturition) মস্তিষ্কের কোন অংশের দ্বারা নিয়ন্ত্রিত হয়?",
-      "options": [
-        "Cerebellum",
-        "Medulla oblongata",
-        "Cerebrum (এবং সুষুম্নাকাণ্ড)",
-        "Hypothalamus"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-6",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0175",
-      "question": "ইনফ্ল্যামেশন (Inflammation) বা প্রদাহের সময় নিচের কোন রাসায়নিকটি রক্তনালীকে প্রসারিত করে?",
-      "options": [
-        "Heparin",
-        "Histamine",
-        "Serotonin",
-        "Insulin"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-12",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0176",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) নিচের কোন রোগগুলির জন্য কোনো vaccine এখনো পর্যন্ত সম্পূর্ণ কার্যকর নয়?",
-      "options": [
-        "HIV/AIDS",
-        "Dengue (সীমিত কার্যকারিতা)",
-        "Malaria (সম্পূর্ণ কার্যকর নয়)",
-        "Polio"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-u-0177",
-      "question": "ADH প্রধানত Kidney-এর কোন অংশে জল পুনঃশোষণ বাড়ায়?",
-      "options": [
-        "Bowman's capsule",
+        "PCT",
+        "DCT",
         "Collecting duct",
-        "Loop of Henle-এর descending limb মাত্র",
-        "Renal pelvis"
+        "Loop of Henle"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 2,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0178",
-      "question": "বিশ্রাম অবস্থায় একজন সুস্থ প্রাপ্তবয়স্ক মানুষের স্বাভাবিক Breathing rate কত?",
-      "options": [
-        "6-8/min",
-        "10-12/min",
-        "16-20/min",
-        "30-35/min"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-4",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0179",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) HIV সংক্রমণের পথগুলির মধ্যে কোনগুলি পড়ে?",
-      "options": [
-        "অসুরক্ষিত যৌনসংসর্গ",
-        "দূষিত সূঁচ ব্যবহারে",
-        "সংক্রমিত রক্ত সঞ্চালনে",
-        "একই থালায় খাওয়ায়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0180",
-      "question": "পুড়ে যাওয়া স্থানে বা ত্বকের যত্নে কোন ঔষধি উদ্ভিদের নির্যাস খুব উপকারী?",
-      "options": [
-        "তুলসী",
-        "ঘৃতকুমারী (Aloe vera)",
-        "সর্পগন্ধা",
-        "কালমেঘ"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-13",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0181",
-      "question": "Diaphragm কোন ধরনের contraceptive?",
-      "options": [
-        "Hormonal method",
-        "Barrier method",
-        "Surgical method",
-        "Natural method"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0182",
-      "question": "Liver কোথায় অবস্থিত?",
-      "options": [
-        "উদরের বাম নিম্নভাগে",
-        "উদরের ডান উপরের অংশে diaphragm এর নিচে",
-        "বক্ষগহ্বরের মাঝখানে",
-        "মেরুদণ্ডের পেছনে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-3",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0183",
-      "question": "Malaria-র সবচেয়ে গুরুতর ও মারাত্মক প্রজাতি কোনটি?",
-      "options": [
-        "Plasmodium vivax",
-        "Plasmodium ovale",
-        "Plasmodium falciparum",
-        "Plasmodium malariae"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0184",
-      "question": "Tongue-এর basic taste-এর সংখ্যা এখানে কতটি ধরা হয়?",
-      "options": [
-        "2",
-        "3",
-        "4",
-        "6"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-9",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0185",
-      "question": "ভাঙা হাড়কে স্থির বা অনড় রাখার জন্য যে শক্ত বস্তু (যেমন- কাঠ বা প্লাস্টিক) ব্যবহার করা হয়, তাকে কী বলে?",
-      "options": [
-        "Sling",
-        "Splint",
-        "Tourniquet",
-        "Bandage"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-13",
+      "unit": "05-excretory-system",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0186",
-      "question": "কোন প্রক্রিয়ায় উদ্ভিদ দেহ থেকে বাষ্পাকারে জল বাইরে বের করে দেয়?",
+      "id": "ls-04-005",
+      "question": "ডেঙ্গু (Dengue) রোগের প্রধান বাহক কোন্ মশা?",
       "options": [
-        "সালোকসংশ্লেষ",
-        "শ্বসন",
-        "বাষ্পমোচন (Transpiration)",
-        "গুটেশন"
+        "Anopheles",
+        "Culex",
+        "Aedes aegypti",
+        "Mansonia"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 2,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-13",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0187",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Vitamin B complex সাধারণভাবে কোন কাজগুলিতে সাহায্য করে?",
-      "options": [
-        "খাদ্যকে শক্তিতে রূপান্তর",
-        "স্নায়ুর স্বাভাবিক কাজ",
-        "রক্তকণিকা গঠন",
-        "ত্বক ও মিউকাস ঝিল্লির স্বাস্থ্যে সহায়তা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-u-0188",
-      "question": "Aedes mosquito সাধারণত কোন সময় বেশি কামড়ায়?",
-      "options": [
-        "রাতে",
-        "দিনে",
-        "ভোরবেলা",
-        "শুধু বর্ষাকালে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0189",
-      "question": "Essential amino acid বলতে কী বোঝায়?",
-      "options": [
-        "যা শরীর অতিরিক্ত পরিমাণে তৈরি করতে পারে",
-        "যা শরীরে পর্যাপ্ত পরিমাণে তৈরি হয় না",
-        "যা কেবল উদ্ভিদে থাকে",
-        "যা কেবল রক্তে থাকে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0190",
-      "question": "Ringworm-এর কারণকারী জীব কোনটি?",
-      "options": [
-        "Candida albicans",
-        "Tinea",
-        "Aspergillus",
-        "Wuchereria"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
+      "unit": "03-common-diseases",
       "type": "memory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-u-0191",
-      "question": "Nucleus এর প্রধান অংশগুলি কী কী? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "id": "ls-04-006",
+      "question": "শুক্রাণুর চলনক্ষমতা পরীক্ষার মাপকাঠি কী? (Multi-correct)",
       "options": [
-        "Nuclear envelope",
-        "Nucleoplasm",
-        "Nucleolus",
-        "Thylakoid"
+        "Motility",
+        "Morphology (আকৃতি)",
+        "Count (সংখ্যা)",
+        "Colour"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-1",
+      "unit": "10-reproductive-system",
       "type": "theory",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "multi": true
     },
     {
-      "id": "ls-u-0192",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর স঳িক হতে পারে) HIV সংক্রমণের পরে কোন লক্ষণগুলি দেখা যেতে পারে?",
+      "id": "ls-04-007",
+      "question": "সমবৃত্তীয় অঙ্গ কোন্ ধরণের বিবর্তনকে সমর্থন করে?",
       "options": [
-        "Immune system দুর্বল হওয়া",
-        "Opportunistic infection বৃদ্ধি",
-        "CD4 cell কমে যাওয়া",
-        "Platelet বেড়ে যাওয়া"
+        "অপসারী",
+        "অভিসারী (Convergent)",
+        "মিউটেশন",
+        "আইসোলেশন"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 1,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-11",
+      "unit": "03-common-diseases",
       "type": "theory",
-      "difficulty": "medium"
+      "difficulty": "hard"
     },
     {
-      "id": "ls-u-0193",
-      "question": "Asbestosis এর প্রকৃতি কেমন?",
+      "id": "ls-04-008",
+      "question": "ধমনীর রক্তপাতের বৈশিষ্ট্য কী?",
       "options": [
-        "Infectious disease only",
-        "Occupational lung disease",
-        "Digestive disorder",
-        "Blood cancer"
+        "ফোঁটা ফোঁটা পড়া",
+        "ছিটকে বেরোনো (স্পার্টিং)",
+        "গাঢ় রঙের রক্ত বেরোনো",
+        "ধীরে জমাট বাঁধা"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 1,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-4",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0194",
-      "question": "ECG পরীক্ষায় 'P-wave' কী নির্দেশ করে?",
-      "options": [
-        "অলিন্দের সংকোচন (Atrial Depolarization)",
-        "নিলয়ের সংকোচন",
-        "নিলয়ের প্রসারণ",
-        "হৃদস্পন্দন বন্ধ হওয়া"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-5",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0195",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Mineral ও কাজের সঠিক মিল কোনগুলি?",
-      "options": [
-        "Calcium — হাড় ও দাঁত",
-        "Iron — Haemoglobin",
-        "Iodine — Thyroid hormone",
-        "Potassium — Nerve function"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0196",
-      "question": "FSH ও LH উভয়ই কোন gland থেকে নিঃসৃত হয়?",
-      "options": [
-        "Thyroid gland",
-        "Anterior pituitary",
-        "Pineal gland",
-        "Adrenal medulla"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0197",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Filariasis সম্পর্কে সঠিক তথ্য কোনগুলি?",
-      "options": [
-        "Wuchereria bancrofti কারণ",
-        "Culex mosquito vector",
-        "পায়ে তীব্র ফোলা দেখা যেতে পারে",
-        "এটি Bacterial disease"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0198",
-      "question": "Meiosis Cell division সম্পর্কে কোন তথ্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
-      "options": [
-        "এটি Reproductive cells (Gametes) তৈরির সময় ঘটে",
-        "এতে Chromosome সংখ্যা অর্ধেক হয়ে যায় (Reduction division)",
-        "Meiosis এর ফলে একটি মাতৃকোষ থেকে ৪টি অপত্য কোষ সৃষ্টি হয়",
-        "এটি Somatic cell বা দেহকোষে ঘটে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
+      "unit": "02-circulatory-system",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0199",
-      "question": "নাইট্রোজেনযুক্ত রেচন পদার্থগুলির মধ্যে কোনটি সবচেয়ে বেশি বিষাক্ত এবং যা নির্গমনের জন্য প্রচুর জলের প্রয়োজন হয়?",
+      "id": "ls-04-009",
+      "question": "ম্যালেরিয়া রোগের বাহক ও জীবাণু হলো: (Multi-correct)",
       "options": [
-        "Urea",
-        "Uric acid",
-        "Ammonia",
-        "Creatinine"
+        "স্ত্রী এনোফিলিস মশা (বাহক)",
+        "Plasmodium vivax (জীবাণু)",
+        "কিউলেক্স মশা (বাহক)",
+        "Plasmodium falciparum (জীবাণু)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-010",
+      "question": "এক গ্রাম ফ্যাট থেকে কত ক্যালরি শক্তি পাওয়া যায়?",
+      "options": [
+        "4.1",
+        "9.3",
+        "5.6",
+        "7.0"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-011",
+      "question": "প্রোটিন শনাক্তকরণ পরীক্ষার মধ্যে পড়ে: (Multi-correct)",
+      "options": [
+        "Biuret test",
+        "Xanthoproteic test",
+        "Iodine test",
+        "Millon's test"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-04-012",
+      "question": "পেশিকলায় অক্সিজেন সঞ্চয়কারী প্রোটিন কোনটি?",
+      "options": [
+        "হিমোগ্লোবিন",
+        "মায়োগ্লোবিন",
+        "কোলাজেন",
+        "কেরাটিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-013",
+      "question": "যক্ষ্মা (TB) আক্রান্ত ব্যক্তির কাশির সাথে রক্ত পড়লে তাকে কী বলে?",
+      "options": [
+        "Haemoptysis",
+        "Haematemesis",
+        "Anaemia",
+        "Glycosuria"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-6",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-04-014",
+      "question": "জিহ্বার দুই পাশে কোন্ স্বাদ অনুভূত হয়?",
+      "options": [
+        "মিষ্টি",
+        "টক ও নোনতা",
+        "তিতো",
+        "ঝাল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-015",
+      "question": "মেন্ডেলের একসংকর জননে বাহক ও বিশুদ্ধ প্রকট লম্বার অনুপাত কত?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "1:2"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-04-016",
+      "question": "স্বাদের প্রকারভেদগুলি হল: (Multi-correct)",
+      "options": [
+        "মিষ্টি ও টক",
+        "তিতো ও নোনতা",
+        "উমামি",
+        "ঝাল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-04-017",
+      "question": "মানবদেহের বৃহত্তম গ্রন্থি কোনটি?",
+      "options": [
+        "অগ্ন্যাশয়",
+        "লালাগ্রন্থি",
+        "যকৃৎ",
+        "পিটুইটারি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-018",
+      "question": "\"Iron lung\" কী?",
+      "options": [
+        "লোহার তৈরি ফুসফুস",
+        "কৃত্রিম শ্বাসযন্ত্র",
+        "ফুসফুসের অংশ",
+        "একটি ওষুধ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-04-019",
+      "question": "থাইরয়েড হরমোন সংশ্লেষণের জন্য কোন খনিজ অপরিহার্য?",
+      "options": [
+        "ক্যালসিয়াম",
+        "আয়রন",
+        "আয়োডিন",
+        "জিঙ্ক"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-020",
+      "question": "প্রেগন্যান্সি টেস্ট কিট কোন হরমোন শনাক্ত করে?",
+      "options": [
+        "hCG",
+        "বিটা-hCG",
+        "প্রজেস্টেরন",
+        "ইস্ট্রোজেন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-021",
+      "question": "CPR সঠিক হচ্ছে কিনা তা বোঝার উপায় হলো:",
+      "options": [
+        "বুকের খাঁচা ৫-৬ সেমি দেবে যাওয়া",
+        "প্রতিটি কমপ্রেশনের পর বুককে স্বাভাবিক অবস্থায় ফিরতে দেওয়া",
+        "মিনিটে অন্তত ১০০ বার গতি রাখা",
+        "রোগীর চোখ খুলে যাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-04-022",
+      "question": "‘মিনিস্যাটেলাইট’ ও ‘মাইক্রোস্যাটেলাইট’ কীসের অংশ?",
+      "options": [
+        "DNA-র পুনরাবৃত্তিকারী অংশ (অনুপ্রেরক হিসেবে ব্যবহৃত হয়)",
+        "প্রোটিনের নাম",
+        "RNA-র অংশ",
+        "লিপিডের নাম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-04-023",
+      "question": "ডারউইন গ্যালোপাগোস দ্বীপপুঞ্জে কোন্ জাহাজে গিয়েছিলেন?",
+      "options": [
+        "HMS Beagle",
+        "HMS Titanic",
+        "HMS Discovery",
+        "HMS Victoria"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-024",
+      "question": "অরণ্য নিধনের (Deforestation) ফলে পরিবেশে কোন গ্যাসের পরিমাণ বৃদ্ধি পায়?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-025",
+      "question": "ব্যাকটেরিয়া কোন ধরনের কোষের উদাহরণ?",
+      "options": [
+        "প্রোক্যারিওটিক",
+        "ইউক্যারিওটিক",
+        "মেসোক্যারিওটিক",
+        "অ্যাক্যারিওটিক"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-026",
+      "question": "স্নেহপদার্থে বা ফ্যাটে দ্রবণীয় ভিটামিন কোনটি?",
+      "options": [
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin P"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-027",
+      "question": "নিষেকের (Fertilization) ফলে কী কী ঘটে? (Multi-correct)",
+      "options": [
+        "জাইগোট গঠিত হয়",
+        "ক্রোমোজোম সংখ্যা পুনরায় 2n হয়",
+        "লিঙ্গ নির্ধারিত হয়",
+        "ওভিউলেশন বন্ধ হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-04-028",
+      "question": "ভিটামিন বি কমপ্লেক্সের অভাবে হতে পারে: (Multi-correct)",
+      "options": [
+        "বেরিবেরি",
+        "পেলেগ্রা",
+        "ঠোঁটের কোণে ঘা (Cheilosis)",
+        "রাতকানা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-029",
+      "question": "সাইনোভিয়াল অস্থিসন্ধির অংশ কোনগুলো?",
+      "options": [
+        "কার্টিলেজ",
+        "সাইনোভিয়াল পর্দা",
+        "সাইনোভিয়াল তরল",
+        "হাড়ের শ্যাফট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-04-030",
+      "question": "কোন হরমোনটি গর্ভাবস্থা শনাক্তকরণে সাহায্য করে?",
+      "options": [
+        "FSH",
+        "LH",
+        "hCG",
+        "Estrogen"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-031",
+      "question": "জাইগোটের বিভাজনকে কী বলা হয়?",
+      "options": [
+        "Mitosis",
+        "Meiosis",
+        "Cleavage",
+        "Budding"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-032",
+      "question": "নাসা গহ্বরের (Nasal cavity) প্রধান কাজ নয় কোনটি?",
+      "options": [
+        "বায়ু পরিশোধন",
+        "বায়ুকে আর্দ্র করা",
+        "গ্যাস বিনিময় করা",
+        "বায়ুর উষ্ণতা নিয়ন্ত্রণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-033",
+      "question": "ডায়াবেটিস ইনসিপিডাসের বৈশিষ্ট্য কী কী?",
+      "options": [
+        "প্রস্রাবে চিনি থাকে না",
+        "ADH-এর অভাবে হয়",
+        "অতিরিক্ত পাতলা প্রস্রাব হয়",
+        "রক্তে শর্করা বেড়ে যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-034",
+      "question": "ভ্যাকসিনের মাধ্যমে শরীরে কী প্রবেশ করানো হয়?",
+      "options": [
+        "সরাসরি অ্যান্টিবডি",
+        "মৃত বা দুর্বল রোগজীবাণু/অ্যান্টিজেন",
+        "রক্ত",
+        "ভিটামিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-035",
+      "question": "ওবেসিটি (Obesity) পরিমাপের সূত্র BMI = ?",
+      "options": [
+        "Weight(kg) / Height(m)",
+        "Weight(kg) / Height(m)^2",
+        "Height(m) / Weight(kg)",
+        "Weight(g) / Height(cm)"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-036",
+      "question": "কপার-টি ব্যবহারের প্রধান অসুবিধা কী হতে পারে?",
+      "options": [
+        "ওজন বৃদ্ধি",
+        "তলপেটে ব্যথা ও অনিয়মিত রক্তপাত",
+        "চুল পড়া",
+        "স্মৃতিশক্তি হ্রাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-037",
+      "question": "ডায়াবেটিস মেলিটাস রোগীদের কোন ধরণের শর্করা এড়িয়ে চলা উচিত?",
+      "options": [
+        "Glucose",
+        "Starch",
+        "Cellulose",
+        "Glycogen"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-038",
+      "question": "হাইপোক্সিয়া বলতে কী বোঝায়?",
+      "options": [
+        "রক্তে CO₂ বেড়ে যাওয়া",
+        "টিস্যুতে অক্সিজেনের ঘাটতি",
+        "রক্তে অক্সিজেন বেড়ে যাওয়া",
+        "ফুসফুসে পানি জমা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-039",
+      "question": "অ্যানিমিয়া বা রক্তাল্পতার প্রধান কারণগুলি হলো: (Multi-correct)",
+      "options": [
+        "খাবারে আয়রনের অভাব",
+        "ভিটামিন বি১২ ও ফলিক অ্যাসিডের অভাব",
+        "কৃমির সংক্রমণ",
+        "ভিটামিন এ-র অভাব"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-040",
+      "question": "লিঙ্কেজ (Linkage) প্রথম কোন বিজ্ঞানী বর্ণনা করেন?",
+      "options": [
+        "Mendel",
+        "Morgan",
+        "Bateson & Punnett",
+        "Sutton"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-04-041",
+      "question": "সিস্টোল বলতে হৃদচক্রের কোন দশাকে বোঝায়?",
+      "options": [
+        "সংকোচন",
+        "প্রসারণ",
+        "বিশ্রাম",
+        "সম্প্রসারণ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-042",
+      "question": "SPM (Suspended Particulate Matter) কোন ধরণের দূষণের সাথে সম্পর্কিত?",
+      "options": [
+        "জল দূষণ",
+        "বায়ু দূষণ",
+        "শব্দ দূষণ",
+        "মৃত্তিকা দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-043",
+      "question": "প্রোটিনের ক্যালরি জনিত অভাবজনিত রোগ কোনটি?",
+      "options": [
+        "Kwashiorkor",
+        "Marasmus",
+        "Scurvy",
+        "Anaemia"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-044",
+      "question": "নাইট্রোজেন চক্রের কোন পর্যায়ে নাইট্রেট থেকে গ্যাসীয় নাইট্রোজেন উৎপন্ন হয়?",
+      "options": [
+        "Nitrification",
+        "Denitrification",
+        "Ammonification",
+        "Nitrogen fixation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-04-045",
+      "question": "জাইলেম টিস্যুর উপাদান কোনগুলো?",
+      "options": [
+        "ট্রাকিড",
+        "ভেসেল",
+        "সিভ টিউব",
+        "জাইলেম প্যারেনকাইমা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-046",
+      "question": "নিচের কোন প্রাণীটি ইউরিকোটেলিক?",
+      "options": [
+        "কাক",
+        "তিমি",
+        "ব্যাঙ",
+        "শুয়োর"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-047",
+      "question": "পাকস্থলীর প্রাচীর থেকে নিঃসৃত HCl-এর কাজ কী?",
+      "options": [
+        "শ্বেতসার পরিপাক",
+        "স্নেহ পরিপাক",
+        "জীবাণু ধ্বংস ও অম্লীয় মাধ্যম সৃষ্টি",
+        "ভিটামিন শোষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-04-048",
+      "question": "লাইসোজোমের এনজাইমগুলির জন্য সর্বোত্তম pH কত?",
+      "options": [
+        "7.0 (নিরপেক্ষ)",
+        "8.5 (ক্ষারীয়)",
+        "5.0 (অম্লীয়)",
+        "10.0"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
       "type": "memory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0200",
-      "question": "চোখে রাসায়নিক পদার্থ পড়লে (Chemical eye injury) প্রথম কী করা উচিত?",
+      "id": "ls-04-049",
+      "question": "DNA প্রতিলিপিতে প্রয়োজনীয় উপাদান -",
       "options": [
-        "চোখ বন্ধ করে রাখা",
-        "চোখ ঘষা",
-        "পরিষ্কার জল দিয়ে অন্তত ১৫-২০ মিনিট চোখ ধোয়া",
-        "চোখের ড্রপ দেওয়া"
+        "DNA পলিমারেজ",
+        "প্রাইমার",
+        "নিউক্লিওটাইড",
+        "রাইবোজোম"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-13",
+      "unit": "01-cell-structure-functions",
       "type": "theory",
-      "difficulty": "easy"
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-04-050",
+      "question": "Meningitis রোগে কোন অংশটি প্রদাহগ্রস্ত হয়?",
+      "options": [
+        "ফুসফুস",
+        "মেনিনজেস",
+        "হৃদপিণ্ড",
+        "যকৃৎ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
     }
   ]
 }

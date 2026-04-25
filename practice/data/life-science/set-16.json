@@ -1,0 +1,872 @@
+{
+  "subject": "life-science",
+  "set": 16,
+  "questions": [
+    {
+      "id": "ls-16-001",
+      "question": "UTI (মূত্রনালির সংক্রমণ) এর লক্ষণ কী কী?",
+      "options": [
+        "প্রস্রাবে জ্বালাপোড়া",
+        "ঘন ঘন প্রস্রাব",
+        "প্রস্রাবে দুর্গন্ধ",
+        "তীব্র তৃষ্ণা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-16-002",
+      "question": "নিচের কোনগুলি পূর্ণ ধমনী?",
+      "options": [
+        "ধমনী (Artery)",
+        "ধমনিকা (Arteriole)",
+        "মেটা-ধমনিকা",
+        "কৈশিকনালী"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-16-003",
+      "question": "গুটি বসন্ত (Smallpox) কোন্ ভাইরাস দ্বারা সৃষ্ট?",
+      "options": [
+        "Variola virus",
+        "Varicella virus",
+        "HIV",
+        "Rhinovirus"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-004",
+      "question": "Anaerobic respiration-এ ১ অণু গ্লুকোজ থেকে কত ATP উৎপন্ন হয়?",
+      "options": [
+        "2 ATP",
+        "8 ATP",
+        "30 ATP",
+        "38 ATP"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-005",
+      "question": "মানবদেহে লোহার সঞ্চিত রূপ কোনটি?",
+      "options": [
+        "Ferritin",
+        "Bilirubin",
+        "Insulin",
+        "Albumin"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-006",
+      "question": "পূর্ণবয়স্ক ব্যক্তির হৃদপিণ্ডের ওজন গড়ে কত?",
+      "options": [
+        "100-150 গ্রাম",
+        "250-350 গ্রাম",
+        "500-600 গ্রাম",
+        "800-1000 গ্রাম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-007",
+      "question": "নিচের কোনটি অ্যাপিক্যাল মেরিস্টেমের কাজ?",
+      "options": [
+        "গাসার্ধ বৃদ্ধি",
+        "লম্বায় বৃদ্ধি",
+        "গুপ্তাবস্থা",
+        "বাকল গঠন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-008",
+      "question": "স্তন্যপানকারী প্রাণীর পাকস্থলীতে অবস্থিত যে প্রকোষ্ঠে রেনিন ও পেপসিন ক্ষরিত হয় তা কী?",
+      "options": [
+        "রুমেন",
+        "রেটিকুলাম",
+        "ওমাসাম",
+        "অ্যাবোমাসাম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-009",
+      "question": "অর্নিথিন চক্রে কতটি এনজাইম ব্যবহৃত হয়?",
+      "options": [
+        "3টি",
+        "4টি",
+        "5টি",
+        "6টি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-010",
+      "question": "বর্ণান্ধ মহিলার সঙ্গে স্বাভাবিক পুরুষের বিয়ে হলে ছেলেদের অবস্থা কী হবে?",
+      "options": [
+        "সবাই স্বাভাবিক হবে",
+        "সবাই বর্ণান্ধ হবে",
+        "৫০% বর্ণান্ধ হবে",
+        "কেউ বাহক হবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-011",
+      "question": "শিরায় রক্তের পশ্চাৎপ্রবাহ রোধ করে কোনটি?",
+      "options": [
+        "কৈশিক জালিকা",
+        "সেমিলুনার ভালভ",
+        "শিরাস্থ ভালভ",
+        "ধমনী প্রাচীর"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-012",
+      "question": "যকৃতের কুফার কোষের কাজ কী?",
+      "options": [
+        "পিত্ত উৎপাদন",
+        "গ্লাইকোজেন সঞ্চয়",
+        "ব্যাকটেরিয়া ধ্বংস ও রক্ত পরিশোধন",
+        "ইউরিয়া সংশ্লেষ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-013",
+      "question": "Recombinant DNA technology-তে 'Molecular scissors' হিসেবে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "DNA Ligase",
+        "Restriction Endonuclease",
+        "Polymerase",
+        "Helicase"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-014",
+      "question": "মূত্রাশয়ে পাথর (Bladder stone) হওয়ার সাধারণ কারণ কী?",
+      "options": [
+        "অতিরিক্ত পানি পান",
+        "প্রস্রাবে খনিজ পদার্থের কেলাস",
+        "প্রোটিনের অভাব",
+        "ভিটামিন সি বেশি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-015",
+      "question": "মানবদেহের ক্ষুদ্রতম কোষ কোনটি?",
+      "options": [
+        "স্নায়ু কোষ",
+        "পেশি কোষ",
+        "শুক্রাণু",
+        "অস্থি কোষ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-016",
+      "question": "প্রোটিন পরিপাকের সঠিক ক্রম কোনটি?",
+      "options": [
+        "পেপটোন → প্রোটিওজ → পলিপেপটাইড → অ্যামাইনো-অ্যাসিড",
+        "প্রোটিন → পেপটোন → প্রোটিওজ → পলিপেপটাইড → অ্যামাইনো-অ্যাসিড",
+        "প্রোটিন → প্রোটিওজ → পেপটোন → পলিপেপটাইড → অ্যামাইনো-অ্যাসিড",
+        "প্রোটিন → পলিপেপটাইড → পেপটোন → প্রোটিওজ → অ্যামাইনো-অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-017",
+      "question": "ঘুমের মধ্যে শ্বাসের হার কেমন হয়?",
+      "options": [
+        "বেড়ে যায়",
+        "কমে যায়",
+        "অপরিবর্তিত থাকে",
+        "থেমে যায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-018",
+      "question": "নিচের কোনগুলো নিউরোট্রান্সমিটার?",
+      "options": [
+        "অ্যাসিটাইলকোলিন",
+        "ডোপামিন",
+        "ইনসুলিন",
+        "সেরোটোনিন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-019",
+      "question": "চোখের লেন্সের আকৃতি নিয়ন্ত্রণ করে কোনটি?",
+      "options": [
+        "Iris",
+        "Ciliary body",
+        "Sclera",
+        "Pupil"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-020",
+      "question": "Aerobic respiration-এ ১ অণু গ্লুকোজ থেকে মোট কত ATP উৎপন্ন হয়?",
+      "options": [
+        "2 ATP",
+        "4 ATP",
+        "36 ATP",
+        "38 ATP"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-021",
+      "question": "নিচের কোন স্তন্যপায়ী প্রাণী দীর্ঘক্ষণ জলের নিচে থাকতে পারে?",
+      "options": [
+        "তিমি",
+        "সিল",
+        "মানুষ",
+        "ডলফিন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-022",
+      "question": "ফিনোটাইপ (Phenotype) কাকে বলে?",
+      "options": [
+        "জীবের জিনগত গঠন",
+        "জীবের দৃশ্যমান বা প্রকাশিত বৈশিষ্ট্য",
+        "জীবের অ্যালিলের সংখ্যা",
+        "জীবের DNA"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-023",
+      "question": "বুকের এক্স-রেতে কার্ডিওমেগালি (হৃদপিণ্ড বড়) কেন দেখায়?",
+      "options": [
+        "কার্ডিওমায়োপ্যাথি",
+        "হার্ট ফেলিওর",
+        "পেরিকার্ডিয়াল ইফিউশন",
+        "নিউমোনিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-024",
+      "question": "স্টেম সেল (Stem cell) কী?",
+      "options": [
+        "যে কোষ যেকোনো ধরনের কোষে পরিণত হতে পারে",
+        "শুধু পেশি কোষে পরিণত হয়",
+        "শুধু রক্তকোষে পরিণত হয়",
+        "আর বিভাজিত হতে পারে না"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-025",
+      "question": "অসম্পূর্ণ প্রকটতার ক্ষেত্রে কোনটি সঠিক? (Multi-correct)",
+      "options": [
+        "F2 জনুর ফিনোটাইপ অনুপাত 1:2:1",
+        "এতে কোনো বৈশিষ্ট্যই সম্পূর্ণ প্রকট হয় না",
+        "সন্ধ্যা মালতী ফুলে এটি দেখা যায়",
+        "এটি মেন্ডেলের সূত্রের বিচ্যুতি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-026",
+      "question": "নিচের কোনটি শিরার বৈশিষ্ট্য?",
+      "options": [
+        "পুরু প্রাচীর ও কপাটিকাবিহীন",
+        "পাতলা প্রাচীর ও কপাটিকা যুক্ত",
+        "উচ্চ চাপে রক্ত বহন",
+        "সবসময় অক্সিজেনযুক্ত রক্ত বহন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-027",
+      "question": "হৃদপিণ্ডের বাম নিলয়ের প্রাচীর সবচেয়ে পুরু কেন?",
+      "options": [
+        "বাম নিলয় ফুসফুসে রক্ত পাঠায়",
+        "বাম নিলয় অ্যাওর্টার মাধ্যমে সমগ্র দেহে রক্ত পাম্প করে",
+        "ডান নিলয়ের চেয়ে কম পরিশ্রম করে",
+        "শরীরের তাপমাত্রা বজায় রাখে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-028",
+      "question": "G1 দশায় কোষে কী ঘটে?",
+      "options": [
+        "DNA দ্বিগুণ হয়",
+        "প্রোটিন ও RNA সংশ্লেষণ, কোষ বৃদ্ধি",
+        "স্পিন্ডল গঠন",
+        "ক্রোমোজোম পাশে সরে যায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-029",
+      "question": "ইউরিক অ্যাসিড দেহে পানিতে প্রায় কতটুকু দ্রবণীয়?",
+      "options": [
+        "খুব কম",
+        "মাঝারি",
+        "অত্যন্ত বেশি",
+        "সম্পূর্ণ অদ্রবণীয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-030",
+      "question": "'Red Data Book' কারা প্রকাশ করে?",
+      "options": [
+        "WHO",
+        "IUCN",
+        "WWF",
+        "UNESCO"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-031",
+      "question": "নীচের কোন্ রোগগুলি টিকা (Vaccine) দিয়ে প্রতিরোধ করা যায়? (Multi-correct)",
+      "options": [
+        "Polio",
+        "Measles",
+        "Hepatitis B",
+        "AIDS"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-032",
+      "question": "গ্যাংলিয়ন কী?",
+      "options": [
+        "স্নায়ুকোষের দেহের সমষ্টি",
+        "PNS-এ পাওয়া যায়",
+        "CSF জমা স্থান",
+        "মস্তিষ্কের অংশ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-033",
+      "question": "মানুষের দেহে অ্যামোনিয়া কীভাবে পরিবাহিত হয়?",
+      "options": [
+        "সরাসরি অ্যামোনিয়া হিসেবে",
+        "গ্লুটামিন ও অ্যালানিনের মাধ্যমে",
+        "ইউরিয়া হিসেবে",
+        "ইউরিক অ্যাসিড হিসেবে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-034",
+      "question": "সিম্প্যাথেটিক স্নায়ুতন্ত্রের কাজ কোনগুলো?",
+      "options": [
+        "হৃৎস্পন্দন বাড়ানো",
+        "পিউপিল প্রসারণ",
+        "লালাক্ষরণ বাড়ানো",
+        "ব্রঙ্কাস প্রসারণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-035",
+      "question": "থাইরক্সিন বেশি ক্ষরণের (হাইপারথাইরয়েডিজম) লক্ষণ কোনগুলো?",
+      "options": [
+        "ওজন হ্রাস",
+        "হাতের কাঁপুনি",
+        "অত্যধিক ঘামা",
+        "হৃৎস্পন্দন বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-036",
+      "question": "Respiration কাকে বলে?",
+      "options": [
+        "শুধু অক্সিজেন গ্রহণ",
+        "খাদ্য জারিত হয়ে শক্তি উৎপাদনের জৈব রাসায়নিক প্রক্রিয়া",
+        "শুধু কার্বন ডাই অক্সাইড ত্যাগ",
+        "শুধু ফুসফুসের প্রসারণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-037",
+      "question": "চোখের জল (Tears)-এর উপাদানগুলি হল: (Multi-correct)",
+      "options": [
+        "জল",
+        "সোডিয়াম ক্লোরাইড (লবণ)",
+        "লাইসোজাইম",
+        "শর্করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-16-038",
+      "question": "অ্যামোনিয়া রেচনকারী প্রাণীকে কী বলে?",
+      "options": [
+        "Ureotelic",
+        "Ammonotelic",
+        "Uricotelic",
+        "Aminotelic"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-039",
+      "question": "ভিটামিন কে-র ঘাটতি দেখা দিতে পারে: (Multi-correct)",
+      "options": [
+        "দীর্ঘ সময় অ্যান্টিবায়োটিক খেলে",
+        "যকৃতের রোগ থাকলে",
+        "ফ্যাট শোষণে সমস্যা থাকলে",
+        "বেশি ফল খেলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-16-040",
+      "question": "চোখের লেন্সের ক্ষমতা (P) ও ফোকাস দৈর্ঘ্যের (f) সম্পর্ক কী?",
+      "options": [
+        "P = f",
+        "P = 1/f",
+        "P = f^2",
+        "P = 2f"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-041",
+      "question": "প্লুরাল গহ্বরে বায়ু জমলে তাকে কী বলে?",
+      "options": [
+        "হাইড্রোথোরাক্স",
+        "নিউমোথোরাক্স",
+        "হিমোথোরাক্স",
+        "এমপাইমা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-16-042",
+      "question": "অ্যাড্রিনালিনকে \"জরুরি হরমোন\" বলা হয় কেন?",
+      "options": [
+        "এটি ধীরে কাজ করে",
+        "আকস্মিক বিপদে দেহকে লড়াই বা উড়ানের জন্য প্রস্তুত করে",
+        "এটি হজম বাড়ায়",
+        "এটি ঘুম আনে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-043",
+      "question": "রেসপিরেটরি ব্রঙ্কিওল-এর শেষ প্রান্তে কী থাকে?",
+      "options": [
+        "টার্মিনাল ব্রঙ্কিওল",
+        "অ্যালভিওলার ডাক্ট ও অ্যালভিওলার স্যাক",
+        "ট্রাকিয়া",
+        "ফ্যারিংস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-044",
+      "question": "কোনটি যৌন সংক্রামিত রোগ (STD) নয়?",
+      "options": [
+        "AIDS",
+        "Gonorrhoea",
+        "Malaria",
+        "Syphilis"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-045",
+      "question": "উটের চোখের ওপরের বড় বড় রোম (Eyelashes) মরুভূমিতে কী কাজ করে?",
+      "options": [
+        "ধুলোবালি থেকে চোখকে রক্ষা করে",
+        "রোদ থেকে বাঁচায়",
+        "দেখতে সাহায্য করে",
+        "সুন্দর দেখায়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-046",
+      "question": "চোখের লেন্স ও কর্নিয়ার স্বচ্ছতা নষ্ট হওয়াকে কী বলে?",
+      "options": [
+        "Myopia",
+        "Cataract",
+        "Glaucoma",
+        "Night blindness"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-047",
+      "question": "RNA-তে চিনির নাম কী?",
+      "options": [
+        "রাইবোজ",
+        "ডিঅক্সিরাইবোজ",
+        "ফ্রুকটোজ",
+        "ম্যালটোজ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-16-048",
+      "question": "প্রোটিন পরিপাককারী উৎসেচক কোনটি?",
+      "options": [
+        "Amylase",
+        "Pepsin",
+        "Lipase",
+        "Maltase"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-16-049",
+      "question": "জাইলেমের মৃত উপাদান কোনগুলো?",
+      "options": [
+        "ট্রাকিড",
+        "ভেসেল",
+        "জাইলেম ফাইবার",
+        "জাইলেম প্যারেনকাইমা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-16-050",
+      "question": "কমলালেবু খাওয়ার সময় আঙুলে যে ফাইবার লাগে তা কী?",
+      "options": [
+        "প্যারেনকাইমা",
+        "কোলেনকাইমা",
+        "স্ক্লেরেনকাইমা",
+        "জাইলেম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

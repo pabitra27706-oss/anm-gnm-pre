@@ -1,0 +1,882 @@
+{
+  "subject": "life-science",
+  "set": 41,
+  "questions": [
+    {
+      "id": "ls-41-001",
+      "question": "ওভিউলেশন কিট বাড়িতে ব্যবহার করার সময় কীসের পরীক্ষা করা হয়?",
+      "options": [
+        "রক্ত",
+        "মূত্র (Urine)",
+        "লালা",
+        "ঘাম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-002",
+      "question": "এইডস (AIDS) রোগ শনাক্তকরণের প্রথম পরীক্ষা কোনটি?",
+      "options": [
+        "Western Blot",
+        "ELISA test",
+        "Widal test",
+        "CT Scan"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-003",
+      "question": "অগ্ন্যাশয় নালী (Pancreatic duct) কোথায় উন্মুক্ত হয়?",
+      "options": [
+        "পাকস্থলী",
+        "জেজুনাম",
+        "ডিওডেনাম",
+        "ইলিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-004",
+      "question": "একজন ব্যক্তির রক্তচাপ 140/90 mmHg। তার নাড়ির চাপ (Pulse Pressure) কত?",
+      "options": [
+        "40 mmHg",
+        "50 mmHg",
+        "90 mmHg",
+        "140 mmHg"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-005",
+      "question": "ভিটামিন এ-র অভাবজনিত চোখের রোগের সঠিক ক্রম হলো—",
+      "options": [
+        "Night blindness -> Xerophthalmia -> Keratomalacia",
+        "Scurvy -> Rickets -> Beriberi",
+        "Myopia -> Cataract -> Glaucoma",
+        "Pellagra -> Anaemia -> Goitre"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-006",
+      "question": "অ্যাড্রিনাল কর্টেক্সের হরমোন কোনগুলো?",
+      "options": [
+        "কর্টিসল",
+        "অ্যালডোস্টেরন",
+        "অ্যাড্রিনালিন",
+        "অ্যান্ড্রোজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-007",
+      "question": "পলিউরিয়া (Polyuria) বলতে কী বোঝায়?",
+      "options": [
+        "প্রস্রাব 2.5 L/day এর বেশি হওয়া",
+        "প্রস্রাবে রক্ত",
+        "প্রস্রাবে গ্লুকোজ",
+        "প্রস্রাব বন্ধ হয়ে যাওয়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-008",
+      "question": "একটি বাস্তুতন্ত্রে যদি সূর্যের আলো থেকে ১০,০০০ কিলো-ক্যালরি শক্তি উৎপাদকের কাছে আসে, তবে গৌণ খাদক (Secondary Consumer) কত শক্তি পাবে?",
+      "options": [
+        "১০০০",
+        "১০০",
+        "১০",
+        "১"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-009",
+      "question": "Tidal Volume (TV) বলতে কী বোঝায়?",
+      "options": [
+        "সর্বোচ্চ শ্বাস গ্রহণের পরিমাণ",
+        "স্বাভাবিক নিঃশ্বাসে আদান-প্রদানকৃত বায়ুর পরিমাণ",
+        "ফুসফুসে অবশিষ্ট বায়ু",
+        "জোর করে ত্যাগ করা বায়ু"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-010",
+      "question": "গর্ভাবস্থার শেষ দিকে স্তনগ্রন্থি থেকে যে তরল নিঃসৃত হয় তাকে কী বলে?",
+      "options": [
+        "Serum",
+        "Colostrum",
+        "Plasma",
+        "Casein"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-011",
+      "question": "ইউরিয়া রেচনকারী প্রাণী কারা?",
+      "options": [
+        "মানুষ",
+        "তিমি",
+        "ব্যাঙ",
+        "কুমির"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-012",
+      "question": "উদ্ভিজ্জ উৎস থেকে প্রাপ্ত ভিটামিনগুলি হলো: (Multi-correct)",
+      "options": [
+        "Vitamin C",
+        "Vitamin A (Carotene)",
+        "Vitamin E",
+        "Vitamin B12"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-013",
+      "question": "গৌণ বৃদ্ধির জন্য দায়ী কোনটি?",
+      "options": [
+        "অ্যাপিক্যাল মেরিস্টেম",
+        "ল্যাটারাল মেরিস্টেম",
+        "ইন্টারক্যালারি মেরিস্টেম",
+        "প্যারেনকাইমা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-014",
+      "question": "টিস্যু কালচার বা অণুপ্রসারণের সুবিধা হলো:",
+      "options": [
+        "অল্প সময়ে অনেক চারা তৈরি",
+        "রোগমুক্ত উদ্ভিদ উৎপাদন",
+        "সারা বছর চারা পাওয়া যায়",
+        "বীজের ওপর নির্ভরতা বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-015",
+      "question": "ডারউইনের মতে 'প্রকরণ' (Variation) সৃষ্টি হয় কেন?",
+      "options": [
+        "পরিবেশের চাপে",
+        "ডারউইন এর সঠিক কারণ ব্যাখ্যা করতে পারেননি",
+        "কেবল খাদ্যের জন্য",
+        "ব্যায়ামের ফলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-016",
+      "question": "কোন্ রোগটি সাধারণত 'মাছি' (Housefly) দ্বারা বাহিত হয়? (Multi-correct)",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Amoebiosis",
+        "Malaria"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-017",
+      "question": "G0 দশা (কোয়েসেন্ট স্টেজ) সম্পর্কে সত্যি?",
+      "options": [
+        "কোষ আর বিভাজিত হয় না",
+        "যেমন স্নায়ু কোষ",
+        "কোষ বিভাজনের জন্য প্রস্তুত থাকে",
+        "DNA প্রতিলিপি ঘটে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-018",
+      "question": "প্রশ্বাসের (Expiration) সময় ফুসফুসের আয়তন কেমন হয়?",
+      "options": [
+        "বৃদ্ধি পায়",
+        "অপরিবর্তিত থাকে",
+        "হ্রাস পায়",
+        "দ্বিগুণ হয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-019",
+      "question": "কোন্ হরমোনের অভাবে ডায়াবেটিস মেলিটাস হয়?",
+      "options": [
+        "Glucagon",
+        "Insulin",
+        "Adrenaline",
+        "Thyroxine"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-020",
+      "question": "নিচের কোনটি ANS দ্বারা নিয়ন্ত্রিত নয়?",
+      "options": [
+        "হৃৎস্পন্দন",
+        "হাতের কঙ্কাল পেশি নাড়া",
+        "পেরিস্টালসিস",
+        "ঘাম ক্ষরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-021",
+      "question": "পরিপাক ক্রিয়া সম্পূর্ণভাবে শেষ হয় কোন অংশে?",
+      "options": [
+        "পাকস্থলী",
+        "ডিওডেনাম",
+        "জেজুনাম",
+        "ইলিয়াম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-022",
+      "question": "প্যারাথাইরয়েড গ্রন্থির অবস্থান কোথায়?",
+      "options": [
+        "মস্তিষ্কে",
+        "থাইরয়েড গ্রন্থির পিছনে",
+        "বৃক্কে",
+        "অগ্ন্যাশয়ে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-023",
+      "question": "লিঙ্গ সংযোজিত বংশগতি (Sex-linked inheritance) প্রথম কে পর্যবেক্ষণ করেন?",
+      "options": [
+        "মেন্ডেল",
+        "মরগ্যান",
+        "ডারউইন",
+        "ল্যামার্ক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-024",
+      "question": "ভিটামিন K-র অভাবে কী ঘটতে পারে?",
+      "options": [
+        "রক্ত জমাট বাঁধতে দেরি",
+        "রক্তক্ষরণ প্রবণতা",
+        "চুল পড়া",
+        "প্রোথ্রম্বিন সংশ্লেষণ ব্যাহত"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-025",
+      "question": "বিএমআর (BMR) বৃদ্ধিকারী কারণগুলি হলো: (Multi-correct)",
+      "options": [
+        "জ্বর",
+        "থাইরক্সিন হরমোন বৃদ্ধি",
+        "গর্ভাবস্থা",
+        "বার্ধক্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-41-026",
+      "question": "নিচের কোনটি ‘পোস্ট-অফিস ও প্যাকিং’ অঙ্গাণু নামে পরিচিত?",
+      "options": [
+        "গলগি বডি",
+        "মাইটোকন্ড্রিয়া",
+        "নিউক্লিয়াস",
+        "লাইসোজোম"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-41-027",
+      "question": "উদ্ভিদের অগ্রস্থ প্রকটতা (Apical dominance) ঘটায় কোন হরমোন?",
+      "options": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "Ethylene"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-028",
+      "question": "টিটেনাস টক্সয়েড (TT) ইঞ্জেকশন কত বছর অন্তর সাধারণত বুস্টার ডোজ হিসেবে নেওয়া হয়?",
+      "options": [
+        "১ বছর",
+        "১০ বছর",
+        "৫ বছর",
+        "প্রতি মাসে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-029",
+      "question": "নিচের কোন রোগে অস্থি টিস্যু ক্ষতিগ্রস্ত হয়?",
+      "options": [
+        "অস্টিওপোরোসিস",
+        "অস্টিওম্যালাসিয়া",
+        "মায়োপিয়া",
+        "রিকেটস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-030",
+      "question": "ফ্লেম সেল (Flame cell) -এ ‘ফ্লেম’ শব্দটি কী নির্দেশ করে?",
+      "options": [
+        "কোষের রং",
+        "সিলিয়ার স্পন্দন যা আগুনের শিখার মতো দেখায়",
+        "কোষের আকার",
+        "তাপ উৎপাদন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-031",
+      "question": "নিচের কোন জিনোটাইপটি হোমোজাইগাস রিসেসিভ?",
+      "options": [
+        "AA",
+        "Aa",
+        "aa",
+        "aA"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-032",
+      "question": "যে সব হরমোন গ্লুকোনিওজেনেসিস বাড়ায় সেগুলো কী কী?",
+      "options": [
+        "গ্লুকাগন",
+        "কর্টিসল",
+        "অ্যাড্রিনালিন",
+        "ইনসুলিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-41-033",
+      "question": "কোষের আকার পরিমাপের জন্য কোন একক ব্যবহার করা হয়?",
+      "options": [
+        "মিটার",
+        "সেন্টিমিটার",
+        "মাইক্রোমিটার",
+        "কিলোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-034",
+      "question": "নিচের কোনটি রাফ ER-এর কাজ?",
+      "options": [
+        "প্রোটিন সংশ্লেষণ",
+        "প্রোটিনের গ্লাইকোসাইলেশন",
+        "প্রোটিনের ভাঁজ (folding)",
+        "স্টেরয়েড সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-035",
+      "question": "'Punnett Square' এর অন্য নাম কী?",
+      "options": [
+        "Checker board",
+        "Chess board",
+        "Score board",
+        "Map board"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-036",
+      "question": "ওভিউলেশন-এর জন্য দায়ী প্রধান হরমোন কোনটি?",
+      "options": [
+        "FSH",
+        "LH",
+        "Estrogen",
+        "Prolactin"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-037",
+      "question": "DNA-র দুটি স্ট্র্যান্ড কী বন্ধন দ্বারা যুক্ত থাকে?",
+      "options": [
+        "পেপটাইড বন্ধন",
+        "গ্লাইকোসাইডিক বন্ধন",
+        "হাইড্রোজেন বন্ধন",
+        "ডাইসালফাইড বন্ধন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-038",
+      "question": "প্রোটিনের মৌলিক একক কী?",
+      "options": [
+        "Fatty acid",
+        "Amino acid",
+        "Glucose",
+        "Nucleotide"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-039",
+      "question": "ওভিউলেশন পরিমাপের ঘরোয়া পদ্ধতি কী?",
+      "options": [
+        "BBT (Basal Body Temperature)",
+        "BP check",
+        "Sugar test",
+        "X-ray"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-040",
+      "question": "ADH-এর পূর্ণরূপ কী?",
+      "options": [
+        "Antidiuretic Hormone",
+        "Adrenal Hormone",
+        "Adenosine Hormone",
+        "Antidiabetic Hormone"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-041",
+      "question": "লোহিত রক্তকণিকার প্রধান কাজ কী?",
+      "options": [
+        "রোগ প্রতিরোধ",
+        "অক্সিজেন পরিবহন",
+        "রক্ত জমাট বাঁধানো",
+        "হরমোন পরিবহন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-042",
+      "question": "ত্বকের কোন স্তরটি আমাদের জলরোধী (Waterproof) রাখতে সাহায্য করে?",
+      "options": [
+        "Epidermis",
+        "Dermis",
+        "Hypodermis",
+        "Muscle layer"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-043",
+      "question": "বিবর্তনের স্বপক্ষে 'সিমবায়োসিস' বা মিথোজীবিতা কোন্ তত্ত্বের অংশ?",
+      "options": [
+        "Endosymbiotic theory",
+        "Darwinism",
+        "Lamarckism",
+        "Cell theory"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-41-044",
+      "question": "রজঃচক্রের (Menstrual Cycle) দশাগুলি হল: (Multi-correct)",
+      "options": [
+        "Proliferative phase",
+        "Secretory phase",
+        "Menstrual phase",
+        "Luteal phase"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-045",
+      "question": "একজন মানুষ যদি শুধু প্রোটিন খেয়ে থাকে তাহলে?",
+      "options": [
+        "ইউরিয়া উৎপাদন বেড়ে যাবে",
+        "যকৃতকে বেশি কাজ করতে হবে",
+        "শ্বেতসার পরিপাক শূন্য হবে",
+        "ফ্যাট পরিপাক বেড়ে যাবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-41-046",
+      "question": "বিবর্তনের ইতিহাসে ঘোড়ার আদিতম পূর্বপুরুষ কোনটি?",
+      "options": [
+        "Merychippus",
+        "Eohippus",
+        "Mesohippus",
+        "Equus"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-41-047",
+      "question": "নিষ্ক্রিয় অঙ্গ (Vestigial organs) থেকে আমরা কী বুঝতে পারি? (Multi-correct)",
+      "options": [
+        "প্রাণীদের বিবর্তনের ইতিহাস",
+        "পূর্বপুরুষের সাথে সম্পর্ক",
+        "বর্তমানে ওই অঙ্গের কোনো কাজ নেই",
+        "ভবিষ্যতে ওই অঙ্গ নতুন কাজ শুরু করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-41-048",
+      "question": "'অ্যাবসর্পশন' শব্দটির অর্থ সঠিক কোনটি?",
+      "options": [
+        "রক্ত ও লসিকার মাধ্যমে শোষিত খাদ্য উপাদান কোষে পৌঁছানো",
+        "খাদ্য গ্রহণ",
+        "পায়ুপথে মলত্যাগ",
+        "মুখে খাদ্য চিবানো"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-049",
+      "question": "লিম্ফ নোডের প্রধান কাজ কী?",
+      "options": [
+        "রক্ত শোধন",
+        "লসিকা থেকে জীবাণু ছেঁকে ধ্বংস করা",
+        "হরমোন ক্ষরণ",
+        "হজমে সাহায্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-41-050",
+      "question": "থ্যালাসেমিয়া প্রতিরোধে প্রয়োজনীয় পদক্ষেপ হল: (Multi-correct)",
+      "options": [
+        "বিয়ের আগে জেনেটিক কাউন্সিলিং",
+        "রক্ত পরীক্ষা করে বাহক নির্ধারণ",
+        "বাহক-বাহক বিবাহ এড়িয়ে চলা",
+        "নিয়মিত ব্যায়াম করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

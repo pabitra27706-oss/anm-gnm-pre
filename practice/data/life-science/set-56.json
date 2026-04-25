@@ -1,0 +1,868 @@
+{
+  "subject": "life-science",
+  "set": 56,
+  "questions": [
+    {
+      "id": "ls-56-001",
+      "question": "অসম্পৃক্ত ফ্যাটি অ্যাসিডের (Unsaturated fatty acid) উদাহরণ হলো—",
+      "options": [
+        "ঘি",
+        "অলিভ অয়েল",
+        "মাখন",
+        "নারকেল তেল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-002",
+      "question": "'গ্যাস্ট্রোইসোফেগাল রিফ্লাক্স ডিজিজ (GERD)'-এর কারণ কী?",
+      "options": [
+        "নিম্ন খাদ্যনালী স্ফিংকটারের দুর্বলতা",
+        "পাকস্থলীর অ্যাসিড উপরে উঠে আসা",
+        "ফাস্টফুড খাওয়া",
+        "পিত্তের অতিক্ষরণ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-003",
+      "question": "মানব ইনসুলিন উৎপাদনকারী জেনেটিক্যালি মডিফাইড ব্যাকটেরিয়া কোনটি?",
+      "options": [
+        "Bacillus",
+        "E. coli",
+        "Rhizobium",
+        "Agrobacterium"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-004",
+      "question": "সালোকসংশ্লেষের আলোক-নিরপেক্ষ দশা কোথায় ঘটে?",
+      "options": [
+        "থাইলাকয়েড",
+        "স্ট্রোমা",
+        "রাইবোজোম",
+        "নিউক্লিয়াস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-005",
+      "question": "নিচের কোনটি কোষের প্রোটিন সংশ্লেষণ প্রক্রিয়ার সাথে জড়িত?",
+      "options": [
+        "রাইবোজোম",
+        "মেসেঞ্জার RNA",
+        "ট্রান্সফার RNA",
+        "লাইসোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-006",
+      "question": "হার্ডি-উইনবার্গ ভারসাম্য বিঘ্নিত হওয়ার শর্তগুলি হলো: (Multi-correct)",
+      "options": [
+        "মিউটেশন (Mutation)",
+        "জেনেটিক ড্রিফট",
+        "প্রাকৃতিক নির্বাচন",
+        "জিন প্রবাহ (Migration)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-56-007",
+      "question": "জলাতঙ্ক (Rabies) রোগের ভাইরাসটি শরীরের কোন্ তন্ত্রকে প্রধানত আক্রমণ করে?",
+      "options": [
+        "পরিপাক তন্ত্র",
+        "স্নায়ু তন্ত্র (Central Nervous System)",
+        "শ্বসন তন্ত্র",
+        "রক্ত সংবহন তন্ত্র"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-008",
+      "question": "ইউরেমিয়ার (Uremia) চিকিৎসা কী কী?",
+      "options": [
+        "ডায়ালাইসিস",
+        "কিডনি প্রতিস্থাপন",
+        "খাদ্যে প্রোটিন নিয়ন্ত্রণ",
+        "ইনসুলিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-009",
+      "question": "পাকস্থলীতে কোন উপাদান শোষিত হয়?",
+      "options": [
+        "গ্লুকোজ",
+        "ফ্যাটি অ্যাসিড",
+        "অ্যালকোহল ও কিছু জল",
+        "অ্যামাইনো অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-010",
+      "question": "অ্যামিবিক আমাশয় (Amoebic dysentery) কোন্ জীবাণু দ্বারা সৃষ্ট?",
+      "options": [
+        "Entamoeba histolytica",
+        "Plasmodium vivax",
+        "Vibrio cholerae",
+        "Leishmania"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-011",
+      "question": "নিচের কোনটি একটি যোজক টিস্যুর রোগ?",
+      "options": [
+        "মায়াস্থেনিয়া গ্র্যাভিস",
+        "স্কার্ভি",
+        "রক্তস্বল্পতা",
+        "পারকিনসন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-012",
+      "question": "কোন কপাটিকা অ্যাওর্টার মুখে অবস্থিত?",
+      "options": [
+        "বাইকাসপিড",
+        "ট্রাইকাসপিড",
+        "অ্যাওর্টিক সেমিলুনার",
+        "পালমোনারি সেমিলুনার"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-013",
+      "question": "সুষম খাদ্যে (Balanced diet) কার্বোহাইড্রেট, প্রোটিন ও ফ্যাটের আদর্শ অনুপাত হওয়া উচিত—",
+      "options": [
+        "1:1:1",
+        "4:1:1",
+        "2:1:1",
+        "3:2:1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-014",
+      "question": "নিচের কোনগুলি জন্ডিসের লক্ষণ?",
+      "options": [
+        "ত্বক ও চোখের সাদা অংশ হলুদ বর্ণ ধারণ করা",
+        "গাঢ় হলুদ মূত্র ত্যাগ করা",
+        "রক্তচাপ বেড়ে যাওয়া",
+        "অতিরিক্ত ক্ষুধা বোধ করা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-015",
+      "question": "অগ্ন্যাশয় প্রতিদিন গড়ে কত মিলি প্যানক্রিয়াটিক রস নিঃসৃত হয় সাধারণ অবস্থায়?",
+      "options": [
+        "100-200 ml",
+        "500-800 ml",
+        "1200-1500 ml",
+        "3000-3500 ml"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-016",
+      "question": "যে সমস্ত পরিপাক রসের pH ক্ষারীয়?",
+      "options": [
+        "গ্যাস্ট্রিক রস",
+        "অগ্ন্যাশয় রস",
+        "লালা",
+        "পিত্ত"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-017",
+      "question": "ট্রিপসিনোজেন সক্রিয় ট্রিপসিনে রূপান্তরিত হয় কী দ্বারা?",
+      "options": [
+        "HCl",
+        "পেপসিন",
+        "এন্টেরোকাইনেজ",
+        "লাইপেজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-018",
+      "question": "স্যালাইভারি অ্যামাইলেজের কাজ বন্ধ হয়ে যায় কোন মাধ্যমে?",
+      "options": [
+        "অম্লীয় মাধ্যমে",
+        "ক্ষারীয় মাধ্যমে",
+        "প্রশম মাধ্যমে",
+        "লবণাক্ত মাধ্যমে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-019",
+      "question": "নিচের কোনটি হৃদপিণ্ডের নিজস্ব রক্ত সংবহন?",
+      "options": [
+        "পালমোনারি সংবহন",
+        "সিস্টেমিক সংবহন",
+        "করোনারি সংবহন",
+        "পোর্টাল সংবহন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-020",
+      "question": "লিন্ডেম্যানের ১০% সূত্রটি বাস্তুতন্ত্রের কোন বিষয়ের সাথে সম্পর্কিত?",
+      "options": [
+        "জল চক্র",
+        "শক্তি প্রবাহ (Energy flow)",
+        "নাইট্রোজেন চক্র",
+        "জনসংখ্যা বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-021",
+      "question": "100 গ্রাম ফ্যাট থেকে কত ক্যালরি শক্তি পাওয়া যায়?",
+      "options": [
+        "400 kcal",
+        "700 kcal",
+        "900 kcal",
+        "1200 kcal"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-022",
+      "question": "কোন ভিটামিন ফ্যাটে দ্রবণীয় নয়?",
+      "options": [
+        "ভিটামিন A",
+        "ভিটামিন D",
+        "ভিটামিন C",
+        "ভিটামিন K"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-023",
+      "question": "মহিলাদের স্থায়ী গর্ভনিরোধক পদ্ধতিকে কী বলে?",
+      "options": [
+        "Vasectomy",
+        "Tubectomy",
+        "IUD",
+        "Barrier"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-024",
+      "question": "ঋণাত্মক ফিডব্যাক (Negative feedback) প্রক্রিয়ায় হরমোন নিঃসরণ নিয়ন্ত্রণ ব্যাখ্যা করো - কোনটি উদাহরণ?",
+      "options": [
+        "TSH বাড়লে থাইরক্সিন বাড়ে, থাইরক্সিন বাড়লে TSH কমে",
+        "রক্তচাপ বাড়লে হৃৎস্পন্দন বাড়ে",
+        "খাবার খেলে পাকস্থলী প্রসারিত হয়",
+        "ব্যথা পেলে হাত সরিয়ে নেওয়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-025",
+      "question": "Parasympathetic Nervous System-এর কাজের ফলাফল কোনগুলো?",
+      "options": [
+        "ব্রঙ্কোকনস্ট্রিকশন",
+        "লালাক্ষরণ বৃদ্ধি",
+        "হৃৎস্পন্দন হ্রাস",
+        "হজম ক্রিয়া বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-026",
+      "question": "খাদ্যবস্তু মুখগহ্বর থেকে পাকস্থলীতে পৌঁছানোর প্রক্রিয়াকে কী বলে?",
+      "options": [
+        "পরিপাক",
+        "পেরিস্ট্যালসিস",
+        "শোষণ",
+        "আত্তীকরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-027",
+      "question": "মেন্ডেলীয় জননে F1 জনু মানে কী?",
+      "options": [
+        "First Parental Generation",
+        "First Filial Generation",
+        "Final Generation",
+        "Forward Generation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-028",
+      "question": "পরিপাক নালীর যান্ত্রিক কাজের একটি উদাহরণ হল?",
+      "options": [
+        "শোষণ",
+        "পেরিস্ট্যালসিস",
+        "অ্যামাইলেজ ক্ষরণ",
+        "HCl ক্ষরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-029",
+      "question": "নিম্নলিখিত উৎসেচকগুলির মধ্যে কোনগুলি পলিস্যাকারাইড ভাঙতে সাহায্য করে?",
+      "options": [
+        "টায়ালিন",
+        "লাইপেজ",
+        "প্যানক্রিয়াটিক অ্যামাইলেজ",
+        "পেপসিন"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-030",
+      "question": "বাস্তুতন্ত্রে সর্বোচ্চ খাদক কারা?",
+      "options": [
+        "যারা ঘাস খায়",
+        "যারা বিয়োজক খায়",
+        "যারা অন্য মাংসাশী প্রাণীদের খায়",
+        "যারা জল পান করে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-031",
+      "question": "Oxytocin হরমোনের কাজ কী?",
+      "options": [
+        "বৃদ্ধিতে সহায়তা",
+        "প্রসব বেদনা ও দুধ নিঃসরণ",
+        "রক্তচাপ নিয়ন্ত্রণ",
+        "হজমে সহায়তা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-032",
+      "question": "ডারউইনের জাহাজটির নাম কী ছিল?",
+      "options": [
+        "HMS Beagle",
+        "HMS Titanic",
+        "HMS Victory",
+        "HMS Discovery"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-033",
+      "question": "অ্যালার্জি প্রতিক্রিয়ায় কোন কোশ থেকে হিস্টামিন (Histamine) ক্ষরিত হয়?",
+      "options": [
+        "Lymphocyte",
+        "Mast cell",
+        "Monocyte",
+        "Erythrocyte"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-034",
+      "question": "Respiratory Quotient (RQ) এর সূত্র কোনটি?",
+      "options": [
+        "O₂ / N₂",
+        "CO₂ উৎপন্ন / O₂ গৃহীত",
+        "O₂ গৃহীত / CO₂ উৎপন্ন",
+        "N₂ / CO₂"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-035",
+      "question": "PCR (Polymerase Chain Reaction) এর ধাপগুলি হলো:",
+      "options": [
+        "Denaturation",
+        "Annealing",
+        "Extension",
+        "Fermentation"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-036",
+      "question": "হানিমুন ডিজিজ নামে কোন রোগ পরিচিত?",
+      "options": [
+        "হাইপারথাইরয়েডিজম",
+        "হাইপারপ্যারাথাইরয়েডিজম",
+        "কুশিং সিনড্রোম",
+        "পলিসিস্টিক ওভারি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-037",
+      "question": "সার্টোলি কোশ (Sertoli cells) কোথায় পাওয়া যায়?",
+      "options": [
+        "Ovary",
+        "Pancreas",
+        "Testis",
+        "Liver"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-56-038",
+      "question": "কোনটি 'Killed Vaccine'-এর উদাহরণ?",
+      "options": [
+        "BCG",
+        "OPV",
+        "Salk Polio Vaccine",
+        "MMR"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-039",
+      "question": "কোন খাদ্য উপাদানের অভাবে পিত্তথলিতে পাথর হওয়ার সম্ভাবনা বেড়ে যায়?",
+      "options": [
+        "ফাইবার ও কম ফ্যাটজাতীয় খাদ্য",
+        "অতিরিক্ত ফ্যাট",
+        "অতিরিক্ত শর্করা",
+        "প্রোটিনের অভাব"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-040",
+      "question": "ভিটামিন বি২ (Riboflavin)-এর অভাবে হতে পারে: (Multi-correct)",
+      "options": [
+        "ঠোঁটের কোণে ঘা (Cheilosis)",
+        "জিভে ঘা (Glossitis)",
+        "চোখের জল শুকিয়ে যাওয়া",
+        "বেরিবেরি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-56-041",
+      "question": "নিচের কোনটি মনোস্যাকারাইড (Monosaccharide) নয়?",
+      "options": [
+        "Glucose",
+        "Fructose",
+        "Sucrose",
+        "Galactose"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-042",
+      "question": "চোখের দূরদৃষ্টির ত্রুটি (Hypermetropia) সংশোধনে কোন লেন্স ব্যবহৃত হয়?",
+      "options": [
+        "Concave",
+        "Convex",
+        "Cylindrical",
+        "Bifocal"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-043",
+      "question": "নীচের কোনগুলি ব্যাক্টেরিয়া ঘটিত যৌন রোগ (STD)? (Multi-correct)",
+      "options": [
+        "Syphilis",
+        "Gonorrhoea",
+        "AIDS",
+        "Genital Herpes"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-044",
+      "question": "মস্তিষ্কের সবচেয়ে ভেতরের মেনিনজেস স্তর কোনটি?",
+      "options": [
+        "ডুরা ম্যাটার",
+        "অ্যারাকনয়েড",
+        "পিয়া ম্যাটার",
+        "ভেন্ট্রিকল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-045",
+      "question": "নিচের কোনগুলি হৃদপিণ্ডের সমস্যা শনাক্তকরণে ব্যবহৃত হয়?",
+      "options": [
+        "ইসিজি (ECG)",
+        "ইকোকার্ডিওগ্রাম (Echocardiogram)",
+        "ট্রেডমিল টেস্ট (TMT)",
+        "এক্স-রে (X-Ray)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-56-046",
+      "question": "বিপন্ন প্রজাতি (Endangered Species) সংরক্ষণের উপায় হলো— (Multi-correct)",
+      "options": [
+        "চোরাশিকার বন্ধ করা",
+        "হ্যাবিটাট বা বাসস্থান রক্ষা",
+        "কৃত্রিম প্রজনন",
+        "জঙ্গল কেটে ফেলা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-56-047",
+      "question": "মাইট্রাল ভালভ প্রোল্যাপ্স (MVP) কোন বয়সে বেশি হয়?",
+      "options": [
+        "শিশু",
+        "কিশোরী ও যুবতী মহিলা",
+        "বৃদ্ধ পুরুষ",
+        "বৃদ্ধা মহিলা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-048",
+      "question": "কোলন থেকে কোন ভিটামিন দেহ শোষণ করে নেয়?",
+      "options": [
+        "ভিটামিন K ও B12",
+        "ভিটামিন A ও D",
+        "ভিটামিন C",
+        "ভিটামিন E"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-56-049",
+      "question": "গ্লাইকোজেনোলিসিস (Glycogenolysis) প্রক্রিয়ায় কী উৎপন্ন হয়?",
+      "options": [
+        "Glycogen",
+        "Glucose",
+        "Lactic acid",
+        "Fat"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-56-050",
+      "question": "শব্দ গ্রহণ করার পর তা মস্তিষ্কে বহন করে নিয়ে যায় কোন্ স্নায়ু?",
+      "options": [
+        "Optic nerve",
+        "Auditory nerve",
+        "Olfactory nerve",
+        "Vagus nerve"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

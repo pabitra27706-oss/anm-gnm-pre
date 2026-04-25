@@ -1,0 +1,845 @@
+{
+  "subject": "life-science",
+  "set": 25,
+  "questions": [
+    {
+      "id": "ls-25-001",
+      "question": "RBC সম্পর্কে সঠিক তথ্য কোনগুলো?",
+      "options": [
+        "দ্বি-অবতল আকৃতি",
+        "লোহিত বর্ণ",
+        "নিউক্লিয়াস যুক্ত",
+        "হিমোগ্লোবিন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-25-002",
+      "question": "কোন আয়ন স্নায়ু কোষে বিশ্রামাবস্থায় ভেতরে বেশি থাকে?",
+      "options": [
+        "Na+",
+        "K+",
+        "Ca2+",
+        "Cl-"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-003",
+      "question": "ইউরিক অ্যাসিড জমে কি রোগ হয়?",
+      "options": [
+        "ডায়াবেটিস",
+        "গেঁটেবাত (Gout)",
+        "ইউরেমিয়া",
+        "নেফ্রাইটিস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-004",
+      "question": "যকৃতে সঞ্চিত শর্করার নাম কী?",
+      "options": [
+        "Starch",
+        "Glycogen",
+        "Sucrose",
+        "Cellulose"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-005",
+      "question": "জরায়ুর সংকোচন ঘটিয়ে প্রসব সহজ করে কোনটি?",
+      "options": [
+        "Oxytocin",
+        "Estrogen",
+        "Prolactin",
+        "Insulin"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-006",
+      "question": "ডাউন সিনড্রোম আক্রান্ত ব্যক্তির লক্ষণগুলি হল: (Multi-correct)",
+      "options": [
+        "চ্যাপ্টা মুখমণ্ডল",
+        "ছোট ঘাড়",
+        "মানসিক প্রতিবন্ধকতা",
+        "লম্বা উচ্চতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-25-007",
+      "question": "দ্বি-প্রকোষ্ঠ পাকস্থলী দেখা যায় কোন প্রাণীতে নয়?",
+      "options": [
+        "পায়রা",
+        "গোরু",
+        "মুরগি",
+        "মানুষ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-008",
+      "question": "মাছের শ্বসন অঙ্গের নাম কী?",
+      "options": [
+        "ফুসফুস",
+        "ফুলকা (Gills)",
+        "ত্বক",
+        "ট্রাকিয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-009",
+      "question": "প্রোজেরিয়া (Progeria) কী?",
+      "options": [
+        "অকাল বার্ধক্য",
+        "দৈত্যত্ব",
+        "বামনত্ব",
+        "থাইরয়েড সমস্যা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-010",
+      "question": "ফাস্ট ফুড (Fast food) বেশি খেলে কিসের সম্ভাবনা বাড়ে?",
+      "options": [
+        "ওবেসিটি",
+        "ম্যারাসমাস",
+        "অ্যানিমিয়া",
+        "স্কার্ভি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-011",
+      "question": "সুষুম্না কাণ্ডের ডোরসাল হর্ন কী ধরনের?",
+      "options": [
+        "মোটর",
+        "সেনসরি",
+        "মিক্সড",
+        "স্বয়ংক্রিয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-25-012",
+      "question": "স্টেম সেল-এর একটি গুরুত্বপূর্ণ বৈশিষ্ট্য হলো -",
+      "options": [
+        "কেবল একটি ধরনের কোষে পরিণত হতে পারে",
+        "অসীম সংখ্যক বার বিভাজিত হয়ে বিভিন্ন কোষে রূপ নিতে পারে",
+        "বিভাজিত হয় না",
+        "শুধু ভ্রূণেই থাকে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-013",
+      "question": "গ্যাসট্রিন হরমোনটির কাজ কী?",
+      "options": [
+        "পিত্তক্ষরণ বৃদ্ধি করা",
+        "ইনসুলিন ক্ষরণ বৃদ্ধি করা",
+        "গ্যাস্ট্রিক রস ক্ষরণ বৃদ্ধি করা",
+        "অগ্ন্যাশয় রস ক্ষরণ বৃদ্ধি করা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-014",
+      "question": "সমসংস্থ অঙ্গ (Homologous organs) কোন্ ধরণের বিবর্তনকে নির্দেশ করে?",
+      "options": [
+        "অভিসারী বিবর্তন (Convergent)",
+        "অপসারী বিবর্তন (Divergent)",
+        "সমান্তরাল বিবর্তন",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-25-015",
+      "question": "রক্তের তরল অংশ থেকে ফাইব্রিনোজেন অপসারণ করলে বাকি অংশকে কী বলে?",
+      "options": [
+        "প্লাজমা",
+        "সিরাম",
+        "লসিকা",
+        "টিস্যু তরল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-016",
+      "question": "রক্ত জমাট বাঁধার জন্য প্রয়োজনীয় ভিটামিন কোনটি?",
+      "options": [
+        "ভিটামিন A",
+        "ভিটামিন B12",
+        "ভিটামিন K",
+        "ভিটামিন D"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-017",
+      "question": "দুধের প্রোটিন হজমকারী রেনিন উৎসেচক কোথায় পাওয়া যায়?",
+      "options": [
+        "প্রাপ্তবয়স্কদের পাকস্থলীতে",
+        "শিশুদের পাকস্থলীতে",
+        "ক্ষুদ্রান্ত্রে",
+        "যকৃতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-018",
+      "question": "ডারউইনের মতে নতুন প্রজাতির উৎপত্তির প্রধান কারণ কী?",
+      "options": [
+        "মিউটেশন",
+        "প্রাকৃতিক নির্বাচন (Natural selection)",
+        "ব্যবহার ও অব্যবহার",
+        "জেনেটিক ড্রিফট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-019",
+      "question": "একজন ব্যক্তির রক্তের গ্রুপ A+। তার রক্তে অ্যান্টিজেন কী কী আছে?",
+      "options": [
+        "A অ্যান্টিজেন",
+        "Rh অ্যান্টিজেন",
+        "B অ্যান্টিজেন",
+        "A ও Rh উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-020",
+      "question": "প্রতিটি বৃক্কের (Kidney) বহিঃস্থ অংশকে কী বলে?",
+      "options": [
+        "Medulla",
+        "Pelvis",
+        "Cortex",
+        "Pyramid"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-021",
+      "question": "অন্ত্রের ভিলাই ও মাইক্রোভিলাইয়ের চূড়ান্ত কাজ হল?",
+      "options": [
+        "পরিপাক শুরু করা",
+        "পেরিস্ট্যালসিস করা",
+        "শোষণ তলের ক্ষেত্রফল বৃদ্ধি করে খাদ্য শোষণ করা",
+        "শ্লেষ্মা তৈরি করা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-022",
+      "question": "FSH (ফলিকল স্টিমুলেটিং হরমোন) এর কাজ কী?",
+      "options": [
+        "পুরুষে শুক্রাণু উৎপাদন",
+        "নারীর ডিম্বাশয়ে ফলিকল বৃদ্ধি",
+        "থাইরয়েড উদ্দীপনা",
+        "A ও B উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-023",
+      "question": "নিম্নলিখিত কোন হরমোনটি সরাসরি টিউবিউলে পানি পুনঃশোষণ বাড়ায়?",
+      "options": [
+        "ADH",
+        "Aldosterone",
+        "Renin",
+        "ANP"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-024",
+      "question": "শোষিত অ্যামাইনো অ্যাসিড প্রোটিন সংশ্লেষণের জন্য ব্যবহার হওয়াকে কী বলে?",
+      "options": [
+        "শোষণ",
+        "পরিপাক",
+        "ইজেশন",
+        "আত্তীকরণ"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-025",
+      "question": "নাড়ির স্পন্দন সবচেয়ে ভালো কোথায় পাওয়া যায়?",
+      "options": [
+        "রেডিয়াল ধমনীতে",
+        "পালমোনারি শিরায়",
+        "ভেনা কাভায়",
+        "জগুলার শিরায়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-026",
+      "question": "জীবদেহে টিস্যু গঠনের প্রয়োজনীয়তা কী?",
+      "options": [
+        "শ্রমবিভাজন",
+        "কার্যদক্ষতা বৃদ্ধি",
+        "আকার বৃদ্ধি",
+        "কোষ সংরক্ষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-25-027",
+      "question": "কোন অঙ্গ থেকে সুক্রেজ উৎসেচক নিঃসৃত হয়?",
+      "options": [
+        "পাকস্থলী",
+        "যকৃৎ",
+        "ক্ষুদ্রান্ত্র",
+        "বৃহদন্ত্র"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-028",
+      "question": "প্লাসেন্টা (Placenta) থেকে নিঃসৃত হয় কোন কোন হরমোন? (Multi-correct)",
+      "options": [
+        "hCG",
+        "hPL",
+        "Estrogen",
+        "Adrenaline"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-25-029",
+      "question": "Down Syndrome রোগটি কেন হয়?",
+      "options": [
+        "Trisomy 21",
+        "Monosomy X",
+        "Trisomy 18",
+        "XY ক্রোমোজোম বৃদ্ধি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-030",
+      "question": "জিন (Gene) কী?",
+      "options": [
+        "প্রোটিনের একক",
+        "DNA-এর একটি নির্দিষ্ট অংশ যা একটি বৈশিষ্ট্য নিয়ন্ত্রণ করে",
+        "RNA-এর একটি অংশ",
+        "ক্রোমোজোমের গঠনগত অংশ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-031",
+      "question": "নবজাতকের থাইমাস গ্রন্থি বড় হয় কিন্তু বয়স বাড়ার সাথে সাথে ছোট হয়। এর কারণ কী?",
+      "options": [
+        "লিম্ফোসাইট উৎপাদন কমে",
+        "RBC উৎপাদন বৃদ্ধি পায়",
+        "স্নায়ু কোষ নষ্ট হয়",
+        "পেশি দুর্বল হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-25-032",
+      "question": "স্নায়ুতন্ত্রের \"ব্লাড-ব্রেন ব্যারিয়ার\" কী তৈরি করে?",
+      "options": [
+        "নিউরন",
+        "অ্যাস্ট্রোসাইট",
+        "মাইক্রোগ্লিয়া",
+        "শোয়ান সেল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-25-033",
+      "question": "পোলিও টিকা (Salk vaccine) প্রথম কে তৈরি করেন?",
+      "options": [
+        "Louis Pasteur",
+        "Jonas Salk",
+        "Albert Sabin",
+        "Robert Koch"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-034",
+      "question": "কোনটি একলিঙ্গ ফুল?",
+      "options": [
+        "জবা",
+        "মটর",
+        "কুমড়ো",
+        "আম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-035",
+      "question": "ELISA test প্রধানত কোন রোগের নির্ণয়ে বহুল ব্যবহৃত হয়?",
+      "options": [
+        "Typhoid",
+        "HIV/AIDS",
+        "Malaria",
+        "Cholera"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-036",
+      "question": "বৃহদন্ত্রের প্রধান কাজ কী?",
+      "options": [
+        "প্রোটিন পরিপাক",
+        "জল ও খনিজ লবণের শোষণ",
+        "গ্লুকোজ শোষণ",
+        "ভিটামিন সংশ্লেষ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-037",
+      "question": "কোন গ্রন্থি জলীয় লালা ক্ষরণ করে?",
+      "options": [
+        "প্যারোটিড",
+        "সাব-ম্যাক্সিলারি",
+        "সাব-লিঙ্গুয়াল",
+        "বাকাল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-25-038",
+      "question": "'হিস-এর বান্ডেল' (Bundle of His) কোথায় অবস্থিত?",
+      "options": [
+        "SA নোডে",
+        "অলিন্দের প্রাচীরে",
+        "ইন্টারভেন্ট্রিকুলার সেপ্টামে",
+        "ফুসফুসে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-039",
+      "question": "নিচের কোন করোটিক স্নায়ু শুধুমাত্র মোটর?",
+      "options": [
+        "অকুলোমোটর (III)",
+        "ট্রক্লিয়ার (IV)",
+        "অ্যাবডুসেন্স (VI)",
+        "অ্যাক্সেসরি (XI)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-25-040",
+      "question": "ক্লোনিং (Cloning) পদ্ধতিতে উৎপন্ন জীবটি জনিতৃ জীবের সাথে কেমন হয়?",
+      "options": [
+        "সম্পূর্ণ আলাদা",
+        "হুবহু একই (Genetically identical)",
+        "অর্ধেক মিল থাকে",
+        "কেবল আকার এক হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-041",
+      "question": "বায়ুদূষণের ফলে শিশুর ফুসফুসের বৃদ্ধি ব্যাহত হতে পারে। এর কারণ কী?",
+      "options": [
+        "ফুসফুসের স্থিতিস্থাপকতা নষ্ট",
+        "হাড়ের বৃদ্ধি কমে",
+        "পেশি দুর্বল হয়",
+        "মস্তিষ্ক ক্ষতিগ্রস্ত হয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-25-042",
+      "question": "C4 উদ্ভিদের বৈশিষ্ট্য হলো:",
+      "options": [
+        "ক্র্যাঞ্জ অ্যানাটমি থাকে",
+        "উচ্চ তাপমাত্রায় সালোকসংশ্লেষ করতে পারে",
+        "CO2 গ্রহীতা হলো PEP",
+        "এটি কেবল রাত্রে সালোকসংশ্লেষ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-25-043",
+      "question": "টেস্টোস্টেরন হরমোন কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "ডিম্বাশয়",
+        "শুক্রাশয়ের লেডিগ কোষ",
+        "অ্যাড্রিনাল",
+        "থাইরয়েড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-044",
+      "question": "2000 ক্যালোরি ডায়েটে 50% কার্বোহাইড্রেট থাকলে কত গ্রাম কার্বোহাইড্রেট খেতে হবে?",
+      "options": [
+        "200 গ্রাম",
+        "250 গ্রাম",
+        "300 গ্রাম",
+        "500 গ্রাম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-045",
+      "question": "লালারসের গড় pH মাত্রা কত?",
+      "options": [
+        "1.5-2.0",
+        "4.5-5.5",
+        "6.5-7.0",
+        "8.0-8.5"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-25-046",
+      "question": "নিচের কোনটি ভুল?",
+      "options": [
+        "ধমনী হৃদপিণ্ড থেকে রক্ত বহন করে",
+        "শিরা হৃদপিণ্ডের দিকে রক্ত বহন করে",
+        "ধমনীতে কপাটিকা বিদ্যমান",
+        "কৈশিক নালীতে গ্যাস বিনিময় হয়"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-047",
+      "question": "নিচের কোনগুলি ধমনীর বৈশিষ্ট্য?",
+      "options": [
+        "অক্সিজেনযুক্ত রক্ত বহন করে (পালমোনারি ধমনী ছাড়া)",
+        "পুরু, পেশিবহুল ও স্থিতিস্থাপক প্রাচীর",
+        "কপাটিকা বিদ্যমান",
+        "সবসময় হৃদপিণ্ডের দিকে রক্ত বহন করে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-25-048",
+      "question": "ডাউন সিনড্রোম (Down Syndrome) যুক্ত শিশুর মোট ক্রোমোজোম সংখ্যা কত?",
+      "options": [
+        "৪৫টি",
+        "৪৬টি",
+        "৪৭টি",
+        "৪৮টি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-049",
+      "question": "সাপের বিষ মূলত কী?",
+      "options": [
+        "শর্করা",
+        "পরিবর্তিত লালা বা প্রোটিন",
+        "জল",
+        "ফ্যাট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-25-050",
+      "question": "কোন দুটি গ্রন্থি মানব পরিপাকতন্ত্রে মিশ্র গ্রন্থি হিসেবে কাজ করে?",
+      "options": [
+        "যকৃৎ",
+        "অগ্ন্যাশয়",
+        "গ্যাস্ট্রিক গ্রন্থি",
+        "প্যারোটিড গ্রন্থি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

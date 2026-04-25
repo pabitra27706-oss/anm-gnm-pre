@@ -3,802 +3,892 @@
   "set": 3,
   "questions": [
     {
-      "id": "ls-u-0101",
-      "question": "Pons-এর প্রধান বৈশিষ্ট্য কী?",
+      "id": "ls-03-001",
+      "question": "একসংকর জননের Genotypic ratio কত?",
       "options": [
-        "এটি Forebrain-এর অংশ",
-        "এটি Brain-এর বিভিন্ন অংশের মধ্যে সেতুর মতো কাজ করে",
-        "এটি শুধুমাত্র স্মৃতির কেন্দ্র",
-        "এটি Endocrine gland"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0102",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Accessory glands-এর মধ্যে কোনগুলি পড়ে?",
-      "options": [
-        "Seminal vesicle",
-        "Prostate gland",
-        "Cowper's gland",
-        "Epididymis"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0103",
-      "question": "Vitamin B9-এর রাসায়নিক নাম কী?",
-      "options": [
-        "Niacin",
-        "Folic acid",
-        "Biotin",
-        "Riboflavin"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0104",
-      "question": "Sieve tube এর কাজের নিয়ন্ত্রণ কে করে?",
-      "options": [
-        "Phloem fibre",
-        "Companion cell এর Nucleus",
-        "Xylem parenchyma",
-        "Sclereid"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-2",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0105",
-      "question": "Skeletal muscle সম্পর্কিত সঠিক তথ্য কোনগুলি? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
-      "options": [
-        "এরা অস্থির সাথে যুক্ত থাকে",
-        "এরা ঐচ্ছিক পেশি (Voluntary muscle)",
-        "এদের কোষে আড়াআড়ি দাগ (Striations) দেখা যায়",
-        "প্রতিটি কোষে একটিমাত্র Nucleus থাকে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-2",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0106",
-      "question": "Alzheimer's disease প্রধানত কোন ধরনের সমস্যা সৃষ্টি করে?",
-      "options": [
-        "Motor coordination বৃদ্ধি",
-        "Progressive memory loss",
-        "Hyperthyroidism",
-        "Diabetes mellitus"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0107",
-      "question": "রক্তবাহের এন্ডোথেলিয়ামে চর্বি জমে শক্ত হয়ে যাওয়াকে কী বলে?",
-      "options": [
-        "Atherosclerosis",
-        "Arteriosclerosis",
-        "Angina",
-        "Stroke"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-5",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0108",
-      "question": "গ্যাস বিনিময় ব্যাহত হলে কোন প্রক্রিয়া সরাসরি ক্ষতিগ্রস্ত হবে?",
-      "options": [
-        "ATP production",
-        "Food chewing",
-        "Urine formation",
-        "Bile secretion"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-4",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0109",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Fertilization-এর জন্য sperm-এর কোন কোন বৈশিষ্ট্য প্রয়োজনীয়?",
-      "options": [
-        "Motility",
-        "Viability",
-        "Acrosomal enzyme",
-        "Diploid nucleus"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-u-0110",
-      "question": "Male sperm-এর কোন ধরনের chromosome সন্তানের male sex নির্ধারণে ভূমিকা রাখে?",
-      "options": [
-        "X chromosome-বাহী sperm",
-        "Y chromosome-বাহী sperm",
-        "Autosome-বাহী sperm",
-        "Mitochondria-বাহী sperm"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0111",
-      "question": "Cortisol-এর অতিক্ষরণে কোন অবস্থা দেখা দিতে পারে?",
-      "options": [
-        "Cushing syndrome",
-        "Cretinism",
-        "Diabetes insipidus",
-        "Tetany"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0112",
-      "question": "Large intestine এ দীর্ঘসময় Faeces জমে থাকলে কোনটি ঘটতে পারে?",
-      "options": [
-        "জল বেশি শোষিত হয়ে মল শক্ত হয়",
-        "HCl বাড়ে",
-        "Pepsin বাড়ে",
-        "Bile উৎপাদন বন্ধ হয়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-3",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0113",
-      "question": "সাইন্যাপটোনিমাল কমপ্লেক্স (Synaptonemal complex) কোথায় দেখা যায়?",
-      "options": [
-        "Mitosis এর Prophase এ",
-        "Meiosis I এর Zygotene উপদশায়",
-        "Meiosis II এর Metaphase এ",
-        "Interphase এ"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0114",
-      "question": "\"Prokaryote\" শব্দের অর্থ কী?",
-      "options": [
-        "True nucleus যুক্ত",
-        "Before nucleus বা আদি নিউক্লিয়াস যুক্ত",
-        "Without cell wall",
-        "Many cells"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0115",
-      "question": "মূত্রের অম্লতা (pH) কোন ধরনের খাদ্যের ওপর বেশি নির্ভর করে?",
-      "options": [
-        "প্রোটিন জাতীয় খাদ্য বেশি খেলে মূত্র বেশি অম্লীয় হয়",
-        "কার্বোহাইড্রেট বেশি খেলে মূত্র বেশি অম্লীয় হয়",
-        "ফ্যাট বেশি খেলে মূত্র ক্ষারীয় হয়",
-        "জল বেশি খেলে মূত্র অম্লীয় হয়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-6",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0116",
-      "question": "টিস্যুতে O₂ এবং CO₂ এর বিনিময়ের ক্ষেত্রে কোনটি সঠিক?",
-      "options": [
-        "O₂ Tissue থেকে Blood এ যায়",
-        "O₂ Blood থেকে Tissue এ যায়",
-        "CO₂ Tissue থেকে Blood এ যায়",
-        "O₂ ও CO₂ দুটিই Tissue থেকে Lungs এ সরাসরি যায়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-4",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0117",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) ANS-এর বিভাগগুলি হলো—",
-      "options": [
-        "Sympathetic",
-        "Parasympathetic",
-        "Somatic nervous system",
-        "Enteric component"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0118",
-      "question": "হৃদপিণ্ডের ডান অলিন্দ ও বাম অলিন্দকে পৃথক করে কোন পর্দা?",
-      "options": [
-        "Interventricular septum",
-        "Interatrial septum",
-        "Pericardium",
-        "Endocardium"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-5",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0119",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Protein-এর সাধারণ উৎস কোনগুলি?",
-      "options": [
-        "ডাল",
-        "মাছ",
-        "ডিম",
-        "মাংস"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0120",
-      "question": "Amniotic fluid-এর একটি প্রধান কাজ কী?",
-      "options": [
-        "Sperm transport",
-        "ভ্রূণকে আঘাত থেকে রক্ষা করা",
-        "Ovulation ঘটানো",
-        "Menstruation শুরু করা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0121",
-      "question": "Chiasmata গঠন কোন Cell division এর বৈশিষ্ট্য?",
-      "options": [
-        "Mitosis",
-        "Meiosis I",
-        "Meiosis II",
-        "Amitosis"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0122",
-      "question": "Glandular epithelium (গ্রন্থিময় আবরণী কলা) এর কাজ কী?",
-      "options": [
-        "চলনে সাহায্য করা",
-        "উৎসেচক (Enzyme), হরমোন বা মিউকাস ক্ষরণ করা",
-        "অক্সিজেন পরিবহন করা",
-        "উদ্দীপনা গ্রহণ করা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-2",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0123",
-      "question": "IAIB × ii cross-এ সন্তানের সম্ভাব্য blood group কোনটি হতে পারে?",
-      "options": [
-        "কেবল A ও B",
-        "কেবল AB",
-        "কেবল O",
-        "A, B, AB, O সবকটি"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0124",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) CNS-এ Myelin sheath গঠনে কোন কোষ জড়িত?",
-      "options": [
-        "Oligodendrocyte",
-        "Schwann cell",
-        "Glial cell",
-        "Neutrophil"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "medium"
-    },
-    {
-      "id": "ls-u-0125",
-      "question": "Accommodation of eye বলতে কী বোঝায়?",
-      "options": [
-        "Ear-এর চাপ সমতা",
-        "Lens-এর বক্রতার পরিবর্তনের মাধ্যমে নিকট ও দূর বস্তু দেখা",
-        "Skin receptor-এর অভিযোজন",
-        "Pupil স্থির থাকা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-9",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0126",
-      "question": "Menstrual cycle-এর স্বাভাবিক গড় দৈর্ঘ্য কত দিন?",
-      "options": [
-        "14 দিন",
-        "21 দিন",
-        "28 দিন",
-        "40 দিন"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0127",
-      "question": "রক্তে glucose বেড়ে গেলে Pancreas থেকে কোন Hormone-এর ক্ষরণ বাড়ে?",
-      "options": [
-        "Glucagon",
-        "Insulin",
-        "ADH",
-        "PTH"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0128",
-      "question": "খাদ্যে কৃত্রিম রং মেশানো কেন ক্ষতিকর হতে পারে?",
-      "options": [
-        "বিষক্রিয়া বা দীর্ঘমেয়াদি স্বাস্থ্যক্ষতি করতে পারে",
-        "কেবল রং উজ্জ্বল করে",
-        "Protein বাড়ায়",
-        "Vision বাড়ায়"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0129",
-      "question": "রক্ততঞ্চনে সাহায্যকারী ধাতব আয়ন (Metal ion) কোনটি?",
-      "options": [
-        "Iron (Fe++)",
-        "Calcium (Ca++)",
-        "Magnesium (Mg++)",
-        "Sodium (Na+)"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-2",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0130",
-      "question": "Tall (T) dominant এবং dwarf (t) recessive হলে Tt × Tt cross-এ phenotypic ratio কী হবে?",
-      "options": [
-        "1:1",
         "3:1",
+        "1:2:1",
         "9:3:3:1",
-        "1:2:1"
+        "1:1"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-002",
+      "question": "সঠিক জোড়া নির্বাচন করো?",
+      "options": [
+        "অ্যামিবা - Contractile vacuole",
+        "প্ল্যানারিয়া - Flame cell",
+        "পতঙ্গ - Malpighian tubule",
+        "কেঁচো - Green gland"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-003",
+      "question": "দাঁতের এনামেল এর প্রধান উপাদান কী?",
+      "options": [
+        "ক্যালসিয়াম ফসফেট",
+        "সোডিয়াম ক্লোরাইড",
+        "আয়রন অক্সাইড",
+        "ম্যাগনেসিয়াম সালফেট"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-8",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-004",
+      "question": "আনমাইলিনেটেড স্নায়ুতে আবেগ গতি কেমন?",
+      "options": [
+        "দ্রুত",
+        "মন্থর",
+        "শূন্য",
+        "অত্যন্ত দ্রুত"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0131",
-      "question": "Eye-এর যে স্তরটি রক্তবাহী ও বর্ণযুক্ত, সেটি কোনটি?",
+      "id": "ls-03-005",
+      "question": "বিবর্তনের ইতিহাসে কোন্ যুগকে 'সরীসৃপের যুগ' বলা হয়?",
       "options": [
-        "Sclera",
-        "Choroid",
-        "Retina",
-        "Lens"
+        "মেসোজোয়িক (Mesozoic)",
+        "সিনোজোয়িক",
+        "প্যালিওজোয়িক",
+        "আর্কিওজোয়িক"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-9",
+      "unit": "03-common-diseases",
       "type": "memory",
-      "difficulty": "easy"
+      "difficulty": "hard"
     },
     {
-      "id": "ls-u-0132",
-      "question": "প্রতি মিনিটে Kidney দ্বারা যে পরিমাণ Glomerular filtrate উৎপন্ন হয়, তাকে কী বলে?",
+      "id": "ls-03-006",
+      "question": "একটি পরিণত Sperm-এর কোন অংশে Mitochondria থাকে?",
       "options": [
-        "GFR (Glomerular Filtration Rate)",
-        "Urine flow rate",
-        "Cardiac output",
-        "Renal plasma flow"
+        "Head",
+        "Neck",
+        "Middle piece",
+        "Tail"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 2,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-6",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0133",
-      "question": "Endocrine system-এ সবচেয়ে সাধারণ Feedback কোনটি?",
-      "options": [
-        "Positive feedback",
-        "Negative feedback",
-        "No feedback",
-        "Mechanical feedback"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-7",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0134",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
-      "options": [
-        "প্রচুর পরিমাণে এনডেমিক প্রজাতির উপস্থিতি",
-        "প্রজাতির উচ্চ বৈচিত্র্য",
-        "অঞ্চলের বাস্তুতন্ত্র বিপন্ন হওয়া",
-        "অঞ্চলটি বরফে ঢাকা থাকা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-12",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0135",
-      "question": "Retina থেকে visual impulse Brain-এ পৌঁছায় কোন স্নায়ুর মাধ্যমে?",
-      "options": [
-        "Olfactory nerve",
-        "Optic nerve",
-        "Auditory nerve",
-        "Vagus nerve"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-9",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0136",
-      "question": "Telocentric chromosome এর আকার কেমন হয়?",
-      "options": [
-        "V-আকৃতির",
-        "L-আকৃতির",
-        "I-আকৃতির",
-        "J-আকৃতির"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-1",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0137",
-      "question": "10 g Carbohydrate থেকে মোট কত kcal শক্তি পাওয়া যাবে?",
-      "options": [
-        "20 kcal",
-        "30 kcal",
-        "40 kcal",
-        "90 kcal"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-10",
-      "type": "memory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0138",
-      "question": "Regeneration (পুনরুৎপাদন) এবং Fibrosis এর মধ্যে পার্থক্য কী? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
-      "options": [
-        "Regeneration এ মৃত কোষগুলি একই ধরণের নতুন কোষ দ্বারা প্রতিস্থাপিত হয়",
-        "Fibrosis এ ক্ষতস্থান Connective tissue (Scar) দ্বারা পূরণ হয়",
-        "লিভার (Liver) এর Regeneration ক্ষমতা আছে",
-        "কার্ডিয়াক পেশির (Cardiac muscle) ব্যাপক Regeneration ক্ষমতা থাকে"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-2",
+      "unit": "10-reproductive-system",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0139",
-      "question": "Digestive system সম্পর্কিত কোন বক্তব্যগুলি সঠিক? [MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে)",
+      "id": "ls-03-007",
+      "question": "নিচের কোনগুলো শ্বাসতন্ত্রের সংক্রমণ?",
       "options": [
-        "Mouth এ Mechanical ও Chemical digestion উভয়ই শুরু হয়",
-        "Stomach এ Protein digestion শুরু হয়",
-        "Small intestine হজম ও শোষণের প্রধান স্থান",
-        "Large intestine প্রধান enzyme secretion site"
+        "কোভিড-১৯",
+        "ইনফ্লুয়েঞ্জা",
+        "নিউমোনিয়া",
+        "টিটেনাস"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-3",
-      "type": "theory",
-      "difficulty": "easy"
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
     },
     {
-      "id": "ls-u-0140",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর স঳িক হতে পারে) নিচের কোনগুলি Mosquito-borne disease?",
+      "id": "ls-03-008",
+      "question": "নিচের কোনগুলি উদ্ভিদ হরমোন?",
       "options": [
-        "Malaria",
-        "Dengue",
-        "Filariasis",
-        "Sleeping sickness"
+        "IAA",
+        "GA3",
+        "Zeatin",
+        "Thyroxine"
       ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0141",
-      "question": "Vector-borne disease প্রতিরোধের সবচেয়ে কার্যকর উপায় কোনটি?",
-      "options": [
-        "Vector নিয়ন্ত্রণ",
-        "কেবল ওষুধ খাওয়া",
-        "শুধু অ্যান্টিবায়োটিক",
-        "রক্ত পরীক্ষা না করা"
+      "answer": [
+        0,
+        1,
+        2
       ],
-      "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-11",
+      "unit": "06-first-aid",
       "type": "memory",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "multi": true
     },
     {
-      "id": "ls-u-0142",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Diabetes insipidus রোগের প্রধান লক্ষণগুলি কী কী?",
+      "id": "ls-03-009",
+      "question": "লিঙ্গ নির্ধারণে সক্ষম ক্রোমোজোম কোনটি?",
       "options": [
-        "প্রচুর পরিমাণে লঘু মূত্রত্যাগ (Polyuria)",
-        "অত্যধিক জলপিপাসা (Polydipsia)",
-        "মূত্রে শর্করা নির্গমন (Glycosuria)",
-        "রক্তে শর্করার মাত্রা বৃদ্ধি"
+        "Autosome",
+        "Y-Chromosome",
+        "X-Chromosome",
+        "B and C both"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 3,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-6",
+      "unit": "10-reproductive-system",
       "type": "theory",
       "difficulty": "medium"
     },
     {
-      "id": "ls-u-0143",
-      "question": "Ascariasis কোন পথে ছড়াতে পারে?",
+      "id": "ls-03-010",
+      "question": "কোন খাদ্য উপাদানের অভাবে বন্ধ্যাত্ব (Infertility) দেখা দিতে পারে?",
       "options": [
-        "মশার কামড়ে",
-        "দূষিত মাটি বা জলের মাধ্যমে",
-        "বায়ুর মাধ্যমে",
-        "সংক্রমিত রক্তের মাধ্যমে"
+        "Vitamin E",
+        "Vitamin K",
+        "Vitamin A",
+        "Vitamin C"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-11",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-011",
+      "question": "নিচের কোনটি সাইটোপ্লাজমিক অঙ্গাণু?",
+      "options": [
+        "রাইবোজোম",
+        "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "নিউক্লিয়াস",
+        "মাইটোকন্ড্রিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-012",
+      "question": "'রক্ত' তঞ্চনের ধাপগুলি কী কী?",
+      "options": [
+        "ভাসোকন্সট্রিকশন",
+        "প্লেটলেট প্লাগ তৈরি",
+        "জমাট বাঁধানো (কোয়াগুলেশন)",
+        "ক্লট প্রত্যাহার ও ধ্বংস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-013",
+      "question": "ভেনা কাভা কত প্রকার ও কী কী?",
+      "options": [
+        "সুপিরিয়র ভেনা কাভা",
+        "ইনফিরিয়র ভেনা কাভা",
+        "করোনারি সাইনাস",
+        "পালমোনারি ভেনা কাভা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-014",
+      "question": "নিচের কোনটি অ্যানিমেল সেলের বৈশিষ্ট্য?",
+      "options": [
+        "কোষপ্রাচীর অনুপস্থিত",
+        "গ্লাইকোজেন সঞ্চয় করে",
+        "ক্লোরোপ্লাস্ট থাকে",
+        "ভ্যাকুওল ছোট ও সংখ্যায় বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-015",
+      "question": "নিচের কোনটি ‘ইউরেমিয়া’ (Uremia) এর লক্ষণ নয়?",
+      "options": [
+        "বমি",
+        "ক্লান্তি",
+        "ক্ষুধা বৃদ্ধি",
+        "ত্বকে চুলকানি"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-016",
+      "question": "ফাইব্রিনোজেন তৈরি হয় কোথায়?",
+      "options": [
+        "বৃক্কে",
+        "যকৃতে",
+        "হৃদযন্ত্রে",
+        "ফুসফুসে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-017",
+      "question": "প্রোক্যারিওটিক কোষের বৈশিষ্ট্য -",
+      "options": [
+        "হিস্টোন প্রোটিন থাকে না",
+        "প্লাজমিড থাকতে পারে",
+        "মেসোজোম থাকে",
+        "নিউক্লিয়ার মেমব্রেন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-018",
+      "question": "প্রোটিন শনাক্তকরণের একটি পরীক্ষা হলো—",
+      "options": [
+        "Benedict's test",
+        "Iodine test",
+        "Biuret test",
+        "Sudan III test"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-019",
+      "question": "বীর্য বা Semen-এর উপাদানগুলি হল: (Multi-correct)",
+      "options": [
+        "শুক্রাণু",
+        "ফ্রুক্টোজ",
+        "ক্যালসিয়াম",
+        "নির্দিষ্ট উৎসেচক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-020",
+      "question": "পরিপাক নালীর বাইরের সবচেয়ে বড় গ্রন্থি কোনটি?",
+      "options": [
+        "যকৃৎ",
+        "অগ্ন্যাশয়",
+        "প্লীহা",
+        "প্যারোটিড"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-021",
+      "question": "মিয়োসিস I ও মিয়োসিস II-এর মধ্যে ইন্টারকাইনেসিস (Interkinesis) দশায় কী ঘটে?",
+      "options": [
+        "DNA প্রতিলিপি",
+        "কোনো DNA প্রতিলিপি ঘটে না",
+        "ক্রোমোজোম সংখ্যা দ্বিগুণ হয়",
+        "কোষ মারা যায়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-022",
+      "question": "Cortisol-এর প্রধান কাজ কী?",
+      "options": [
+        "প্রদাহ কমানো ও স্ট্রেস মোকাবিলা",
+        "রক্তচাপ কমানো",
+        "হাড় গঠন",
+        "দুধ উৎপাদন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-023",
+      "question": "ফার্স্ট এইড দেওয়ার সময় উদ্ধারকারীর সুরক্ষার জন্য প্রয়োজনীয়:",
+      "options": [
+        "গ্লাভস পরা",
+        "মাস্ক ব্যবহার করা",
+        "হ্যান্ড স্যানিটাইজার ব্যবহার",
+        "রোগীর রক্ত সরাসরি স্পর্শ না করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-024",
+      "question": "জেনেটিক ইঞ্জিনিয়ারিংয়ের মাধ্যমে উৎপাদিত প্রথম মানব হরমোন কোনটি?",
+      "options": [
+        "Estrogen",
+        "Testosterone",
+        "Insulin",
+        "Thyroxine"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-025",
+      "question": "বেরিবেরি রোগটি কোন ধরণের খাদ্যের অভাবের সাথে যুক্ত?",
+      "options": [
+        "পালিশ করা চাল",
+        "অতিরিক্ত মাছ-মাংস",
+        "প্রচুর শাকসবজি",
+        "ফলমূল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-026",
+      "question": "'পেসমেকার' এর কাজ নয় কোনটি?",
+      "options": [
+        "হৃদপিণ্ডের সংকোচন নিয়ন্ত্রণ",
+        "হৃদস্পন্দন ধীর হলে উদ্দীপিত করা",
+        "অক্সিজেন সরবরাহ বৃদ্ধি",
+        "হৃৎপিণ্ডে বৈদ্যুতিক উদ্দীপনা সরবরাহ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-027",
+      "question": "কোন্ রিসেপ্টর ব্যথার অনুভূতি গ্রহণ করে?",
+      "options": [
+        "Photoreceptor",
+        "Nociceptor",
+        "Thermoreceptor",
+        "Chemoreceptor"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-028",
+      "question": "ইলেক্ট্রোকার্ডিওগ্রাম (ECG)-তে কী কী দেখা সম্ভব?",
+      "options": [
+        "অ্যারিথমিয়া",
+        "হার্ট ব্লক",
+        "ইসকেমিয়া",
+        "ফুসফুসের ক্যান্সার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-029",
+      "question": "একটি সঠিক কোষ তত্ত্ব হলো -",
+      "options": [
+        "সব জীব কোষ দিয়ে গঠিত",
+        "কোষ জীবনের গঠনগত ও কার্যকরী একক",
+        "নতুন কোষ আগের কোষ থেকেই সৃষ্টি হয়",
+        "কোষ শুধু তরল মাধ্যমে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-030",
+      "question": "লোহিত রক্ত কণিকা ধ্বংসের ফলে উৎপন্ন বিলিরুবিনের কোন বিষক্রিয়া যকৃত নষ্ট করে দিলে জন্ডিস হয়?",
+      "options": [
+        "ভাইরাস সংক্রমণ বা যকৃতের বিকলতা",
+        "ভিটামিন K-এর অভাব",
+        "ভিটামিন C-এর অভাব",
+        "ভিটামিন A-এর আধিক্য"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-031",
+      "question": "প্লুরাল ক্যাভিটিতে তরল জমাকে কী বলে?",
+      "options": [
+        "প্লুরাল ইফিউশন",
+        "নিউমোথোরাক্স",
+        "হাইড্রোথোরাক্স",
+        "পাইয়োথোরাক্স"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-032",
+      "question": "হেনলির লুপের (Loop of Henle) অবরোহী অংশ (Descending limb) কোনটির জন্য ভেদ্য?",
+      "options": [
+        "লবণ",
+        "পানি",
+        "গ্লুকোজ",
+        "প্রোটিন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-033",
+      "question": "প্রস্রাব তৈরি ও নির্গমনে জড়িত পথ অঙ্গগুলি কী কী?",
+      "options": [
+        "Kidney",
+        "Ureter",
+        "Urinary bladder",
+        "Urethra"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-034",
+      "question": "চোখের লেন্সের ফোকাস দূরত্ব বাড়লে লেন্সটি কেমন হয়?",
+      "options": [
+        "মোটা",
+        "পাতলা",
+        "ছোট",
+        "অস্পষ্ট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-035",
+      "question": "হৃদপিণ্ডের যে পর্দা অলিন্দদুটিকে পৃথক করে তাকে কী বলে?",
+      "options": [
+        "ইন্টারভেন্ট্রিকুলার সেপ্টাম",
+        "ইন্টারঅ্যাট্রিয়াল সেপ্টাম",
+        "পেরিকার্ডিয়াম",
+        "মায়োকার্ডিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-036",
+      "question": "নিচের কোনটি ‘গ্লোমেরুলোনেফ্রাইটিস’ -এর কারণ হতে পারে?",
+      "options": [
+        "স্ট্রেপ্টোকক্কাস সংক্রমণের পর ইমিউন প্রতিক্রিয়া",
+        "উচ্চ রক্তচাপ",
+        "ডায়াবেটিস",
+        "ভাইরাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-037",
+      "question": "পাখির রেচনে ইউরিক অ্যাসিড সাদা পেস্টের মতো বেরোয় কেন?",
+      "options": [
+        "কম পানি ব্যবহারের জন্য অভিযোজন (উড়তে সাহায্য করে)",
+        "বেশি পানি জমিয়ে রাখে",
+        "বিষাক্ততা কমাতে",
+        "স্বাদ বাড়াতে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-038",
+      "question": "অ্যাড্রিনাল মেডুলার টিউমারে কী লক্ষণ দেখা যায়?",
+      "options": [
+        "উচ্চ রক্তচাপের ধাক্কা (Phaeochromocytoma)",
+        "নিম্ন রক্তচাপ",
+        "ওজন বৃদ্ধি",
+        "ত্বকের কালো দাগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-039",
+      "question": "প্লাজমা মেমব্রেনের প্রধান উপাদান কী কী?",
+      "options": [
+        "শুধু লিপিড",
+        "লিপিড ও প্রোটিন",
+        "শুধু প্রোটিন",
+        "লিপিড ও কার্বোহাইড্রেট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
       "type": "theory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-u-0144",
-      "question": "Menarche বলতে কী বোঝায়?",
+      "id": "ls-03-040",
+      "question": "সুষুম্না কাণ্ডের ধূসর পদার্থের আকৃতি কেমন?",
       "options": [
-        "গর্ভধারণ",
-        "প্রথম menstruation",
-        "শেষ menstruation",
-        "Ovulation-এর দিন"
+        "গোলাকার",
+        "প্রজাপতি বা ইংরেজি 'H' অক্ষরের মতো",
+        "চৌকো",
+        "ত্রিভুজাকৃতি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-041",
+      "question": "অতি শীতল জলে স্নান করলে শ্বাস আটকে আসে কেন?",
+      "options": [
+        "অক্সিজেন বেড়ে যায়",
+        "স্নায়বিক প্রতিবর্ত ক্রিয়া (Reflex)",
+        "রক্তচাপ বাড়ে",
+        "পেশি শক্ত হয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-042",
+      "question": "ডারউইনের প্রাকৃতিক নির্বাচন তত্ত্বের প্রধান বিষয়গুলি হলো: (Multi-correct)",
+      "options": [
+        "অত্যধিক হারে বংশবৃদ্ধি",
+        "অস্তিত্বের জন্য সংগ্রাম",
+        "যোগ্যতমের উদ্বর্তন",
+        "অঙ্গের ব্যবহার ও অব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-043",
+      "question": "জাইগোট (Zygote) বিভাজিত হয়ে কোন্ দশা তৈরি করে?",
+      "options": [
+        "Morula",
+        "Spermatid",
+        "Ovum",
+        "Oogonia"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-8",
+      "unit": "10-reproductive-system",
       "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-044",
+      "question": "টার্নার সিনড্রোমের (Turner Syndrome) বৈশিষ্ট্যগুলি কী কী? (Multi-correct)",
+      "options": [
+        "এটি মহিলাদের হয়",
+        "এতে একটি X ক্রোমোজোম কম থাকে (45, X)",
+        "আক্রান্ত ব্যক্তি বন্ধ্যা হন",
+        "ডিম্বাশয় অপরিণত থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-045",
+      "question": "স্টার্চ বা শ্বেতসার পাওয়া যায়: (Multi-correct)",
+      "options": [
+        "চাল",
+        "গম",
+        "আলু",
+        "ভুট্টা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-046",
+      "question": "\"হ্যাপি হরমোন\" নামে পরিচিত কোনটি?",
+      "options": [
+        "কর্টিসল",
+        "সেরোটোনিন",
+        "অ্যাড্রিনালিন",
+        "গ্লুকাগন"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-047",
+      "question": "আমরা ঠান্ডা বা গরম অনুভব করি ত্বকের কোন্ গ্রাহকের মাধ্যমে?",
+      "options": [
+        "Photoreceptor",
+        "Thermoreceptor",
+        "Chemoreceptor",
+        "Phonoreceptor"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "memory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-u-0145",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Rabies প্রতিরোধে কোনগুলি গুরুত্বপূর্ণ?",
+      "id": "ls-03-048",
+      "question": "এপেন্ডিক্সের প্রদাহকে কী বলে?",
       "options": [
-        "কুকুরকে rabies vaccine দেওয়া",
-        "কামড় খেলে সঙ্গে সঙ্গে vaccine নেওয়া",
-        "Post-exposure prophylaxis",
-        "মশারি ব্যবহার"
+        "গ্যাস্ট্রাইটিস",
+        "এন্টেরাইটিস",
+        "অ্যাপেন্ডিসাইটিস",
+        "হেপাটাইটিস"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 2,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-11",
-      "type": "theory",
+      "unit": "04-digestive-system",
+      "type": "memory",
       "difficulty": "easy"
     },
     {
-      "id": "ls-u-0146",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Iron-এর খাদ্যউৎস কোনগুলি?",
+      "id": "ls-03-049",
+      "question": "চোখের লেন্সের স্বচ্ছতা বজায় রাখতে কোন্ ভিটামিন ও অ্যান্টিঅক্সিডেন্ট প্রয়োজন?",
       "options": [
-        "কলিজা",
-        "পালং শাক",
-        "ডাল",
-        "গুড়"
+        "Vitamin C & E",
+        "Vitamin K",
+        "Vitamin D",
+        "Vitamin B12"
       ],
       "answer": 0,
-      "explanation": "",
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-10",
-      "type": "theory",
-      "difficulty": "easy"
+      "unit": "12-sense-organs",
+      "type": "application",
+      "difficulty": "hard"
     },
     {
-      "id": "ls-u-0147",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Cornea সম্পর্কে সঠিক তথ্যগুলি হল—",
+      "id": "ls-03-050",
+      "question": "থাইমাস গ্রন্থি বয়স বাড়ার সাথে সাথে কী হয়?",
       "options": [
-        "এটি Eye-এর সামনের স্বচ্ছ অংশ",
-        "এটি আলো প্রবেশে সাহায্য করে",
-        "এটি Sclera-এরই পরিবর্তিত অংশ",
-        "এতে rods ও cones থাকে"
+        "বড় হয়",
+        "ছোট হয় (Involution)",
+        "অপরিবর্তিত থাকে",
+        "ক্যান্সার হয়"
       ],
-      "answer": 0,
-      "explanation": "",
+      "answer": 1,
+      "explanation": "No explanation available.",
       "subject": "life-science",
-      "unit": "u-9",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0148",
-      "question": "রক্তদান করার সময় দাতা ও গ্রহীতার রক্তের কী মেলাতে হয়?",
-      "options": [
-        "হিমোগ্লোবিনের পরিমাণ",
-        "ব্লাড গ্রুপ ও Rh factor",
-        "শ্বেত রক্তকণিকার সংখ্যা",
-        "অণুচক্রিকার সংখ্যা"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-5",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0149",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) PMS-এর লক্ষণগুলির মধ্যে কোনগুলি পড়ে?",
-      "options": [
-        "মেজাজ খিটখিটে হওয়া",
-        "স্তনে অস্বস্তি",
-        "পেট ফাঁপা",
-        "Sperm count কমে যাওয়া"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
-      "type": "theory",
-      "difficulty": "easy"
-    },
-    {
-      "id": "ls-u-0150",
-      "question": "[MULTI-CORRECT] (এক বা একাধিক উত্তর সঠিক হতে পারে) Monohybrid cross-এর F2-এ কোন genotype-গুলি পাওয়া যায়?",
-      "options": [
-        "Homozygous dominant",
-        "Heterozygous",
-        "Homozygous recessive",
-        "Triploid"
-      ],
-      "answer": 0,
-      "explanation": "",
-      "subject": "life-science",
-      "unit": "u-8",
+      "unit": "08-nervous-system",
       "type": "theory",
       "difficulty": "medium"
     }

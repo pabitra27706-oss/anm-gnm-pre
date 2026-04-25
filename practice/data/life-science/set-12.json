@@ -1,0 +1,849 @@
+{
+  "subject": "life-science",
+  "set": 12,
+  "questions": [
+    {
+      "id": "ls-12-001",
+      "question": "ভিটামিন বি কমপ্লেক্সের অন্তর্গত হলো: (Multi-correct)",
+      "options": [
+        "Thiamine (B1)",
+        "Riboflavin (B2)",
+        "Niacin (B3)",
+        "Folic acid (B9)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-12-002",
+      "question": "লিম্বিক সিস্টেমের কাজ কী কী?",
+      "options": [
+        "আবেগ নিয়ন্ত্রণ",
+        "স্মৃতি গঠন",
+        "প্রেষণা",
+        "ভারসাম্য রক্ষা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-12-003",
+      "question": "মেন্ডেলের স্বাধীন বিন্যাস সূত্রটি পাওয়া যায় কোথা থেকে?",
+      "options": [
+        "Monohybrid cross",
+        "Dihybrid cross",
+        "Test cross",
+        "Back cross"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-004",
+      "question": "নিচের কোনটি উদ্ভিদকোষে অনুপস্থিত?",
+      "options": [
+        "Large Vacuole",
+        "Cell wall",
+        "Chloroplast",
+        "Centriole"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-005",
+      "question": "নিচের কোনটি ‘জিন’ সম্পর্কে সত্য?",
+      "options": [
+        "DNA-র একটি ক্রম",
+        "প্রোটিন সংশ্লেষণের নির্দেশনা দেয়",
+        "একাধিক অ্যালিল থাকতে পারে",
+        "কখনো RNA দিয়েও গঠিত হতে পারে (RNA ভাইরাসে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-12-006",
+      "question": "নিচের কোনটি Simple epithelium নয়?",
+      "options": [
+        "Squamous epithelium",
+        "Cuboidal epithelium",
+        "Columnar epithelium",
+        "Stratified epithelium"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-007",
+      "question": "বেসাল মেটাবলিক রেট (BMR) কখন পরিমাপ করা ঠিক নয়?",
+      "options": [
+        "ঘুমানোর সময়",
+        "ব্যায়ামের পরপরই",
+        "জ্বরের সময়",
+        "সকালে খালি পেটে সম্পূর্ণ বিশ্রামে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-12-008",
+      "question": "অগ্ন্যাশয় রসে কোন উৎসেচকটি থাকে না?",
+      "options": [
+        "ট্রিপসিন",
+        "অ্যামাইলেজ",
+        "লাইপেজ",
+        "পেপসিন"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-009",
+      "question": "অক্সিন হরমোনের প্রবাহ কেমন?",
+      "options": [
+        "নিম্নমুখী",
+        "ঊর্ধ্বমুখী",
+        "উভয়মুখী",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-010",
+      "question": "অসমোসিসের ক্ষেত্রে পানি চলাচল করে কোন দিকে?",
+      "options": [
+        "নিম্ন ঘনত্ব থেকে উচ্চ ঘনত্বের দিকে",
+        "উচ্চ ঘনত্ব থেকে নিম্ন ঘনত্বের দিকে",
+        "নিম্ন দ্রবণ ঘনত্ব থেকে উচ্চ দ্রবণ ঘনত্বের দিকে",
+        "সর্বদা উপর থেকে নিচে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-011",
+      "question": "CSF-এর কাজ কী কী?",
+      "options": [
+        "মস্তিষ্ককে ভাসমান রাখা",
+        "পুষ্টি সরবরাহ",
+        "বর্জ্য অপসারণ",
+        "আঘাত থেকে সুরক্ষা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-12-012",
+      "question": "Human Anatomy-তে টিস্যু বলতে প্রথম ধারণা দেন কে?",
+      "options": [
+        "ডারউইন",
+        "বিচাট",
+        "হুকার",
+        "লিউয়েনহুক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-013",
+      "question": "খাদ্য মলরূপে ত্যাগের আগে সাময়িকভাবে জমা থাকে কোথায়?",
+      "options": [
+        "সিকাম",
+        "অ্যাসেন্ডিং কোলন",
+        "ট্রান্সভার্স কোলন",
+        "রেক্টাম"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-014",
+      "question": "অ্যাসিডোসিস (Acidosis) অবস্থায় কিডনি কী নিঃসরণ বাড়ায়?",
+      "options": [
+        "সোডিয়াম",
+        "বাইকার্বনেট",
+        "হাইড্রোজেন আয়ন",
+        "পটাসিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-015",
+      "question": "আরকিওপটেরিক্স-এর জীবশ্মে সরীসৃপের কোন্ বৈশিষ্ট্যটি দেখা যায়?",
+      "options": [
+        "পালক",
+        "চঞ্চু",
+        "দাঁত যুক্ত চোয়াল ও নখরযুক্ত আঙ্গুল",
+        "উড়বার ক্ষমতা"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-016",
+      "question": "গর্ভাবস্থায় রক্তের পরিমাণ কতটা বৃদ্ধি পায়?",
+      "options": [
+        "10-20%",
+        "30-50%",
+        "80-100%",
+        "পরিবর্তিত হয় না"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-017",
+      "question": "প্রস্রাবের স্বাভাবিক রং কী নির্দেশ করে?",
+      "options": [
+        "ইউরোবিলিন",
+        "হিমোগ্লোবিন",
+        "বিলিরুবিন",
+        "ক্রিয়েটিনিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-018",
+      "question": "অ্যাক্সন পাহাড় (Axon hillock) থাকে কোথায়?",
+      "options": [
+        "ডেনড্রাইটের শেষে",
+        "কোষদেহের যে স্থান থেকে অ্যাক্সন উৎপন্ন হয়",
+        "মায়েলিন শিথের মধ্যে",
+        "সাইন্যাপসে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-019",
+      "question": "আমাদের ত্বকের ডার্মিস স্তরে কিসের আধিক্য থাকে?",
+      "options": [
+        "চর্বি",
+        "কোলাজেন ও ইলাস্টিন তন্তু",
+        "হাড়",
+        "জল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-020",
+      "question": "ভিটামিন বি৩ (Niacin)-এর অভাবজনিত রোগ পেলেগ্রার লক্ষণগুলি হলো: (Multi-correct)",
+      "options": [
+        "ডার্মাটাইটিস (ত্বকের প্রদাহ)",
+        "ডায়রিয়া",
+        "ডিমেনশিয়া (স্মৃতিভ্রংশ)",
+        "রাতকানা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-12-021",
+      "question": "বিষক্রিয়ার ক্ষেত্রে (Poisoning) যদি বিষটি ক্ষয়কারী (Corrosive) হয়, তবে কী করা উচিত নয়?",
+      "options": [
+        "বমি করানো",
+        "জল খাওয়ানো",
+        "হাসপাতালে নেওয়া",
+        "শান্ত রাখা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-022",
+      "question": "ধনুষ্টঙ্কার (Tetanus) রোগের জীবাণু শরীরের কোন্ অংশে প্রবেশ করে?",
+      "options": [
+        "শ্বাসপ্রশ্বাসের সাথে",
+        "ক্ষতস্থান বা কাটা জায়গা দিয়ে",
+        "খাবারের সাথে",
+        "স্পর্শের মাধ্যমে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-023",
+      "question": "ধমনী ও শিরার প্রাচীর গঠনে পার্থক্যের কারণ কী?",
+      "options": [
+        "রক্তের চাপ ও বেগের পার্থক্য",
+        "তাপমাত্রা",
+        "রক্তের রঙ",
+        "রক্তের আয়তন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-024",
+      "question": "জরায়ু প্রাচীরে ব্লাস্টোসিস্ট গেঁথে যাওয়াকে কী বলে?",
+      "options": [
+        "Cleavage",
+        "Implantation",
+        "Fertilization",
+        "Gastrulation"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-025",
+      "question": "প্রোটিন পরিপাকের সঠিক ক্রম কোনটি?",
+      "options": [
+        "পেপটোন → প্রোটিওজ → পলিপেপটাইড → অ্যামাইনো-অ্যাসিড",
+        "প্রোটিন → পেপটোন → প্রোটিওজ → পলিপেপটাইড → অ্যামাইনো-অ্যাসিড",
+        "প্রোটিন → প্রোটিওজ → পেপটোন → পলিপেপটাইড → অ্যামাইনো-অ্যাসিড",
+        "প্রোটিন → পলিপেপটাইড → পেপটোন → প্রোটিওজ → অ্যামাইনো-অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-026",
+      "question": "পিত্তরস জমা থাকে কোথায়?",
+      "options": [
+        "যকৃতে",
+        "পিত্তাশয়ে",
+        "অগ্ন্যাশয়ে",
+        "ক্ষুদ্রান্ত্রে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-027",
+      "question": "কোন উৎসেচক স্টার্চ থেকে গ্লুকোজ সরাসরি তৈরি করতে পারে না?",
+      "options": [
+        "স্যালাইভারি অ্যামাইলেজ",
+        "প্যানক্রিয়াটিক অ্যামাইলেজ",
+        "মল্টেজ",
+        "সবকটি"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-028",
+      "question": "শোষণে সাহায্যকারী গঠন কোনটি?",
+      "options": [
+        "ভিলাই",
+        "মাইক্রোভিলাই",
+        "পাকস্থলীর রুগা",
+        "কোলনের টিনিয়া কোলি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-12-029",
+      "question": "ডিহাইড্রেশন (Dehydration) রোধে কোনটি পান করা উচিত?",
+      "options": [
+        "চা",
+        "ORS যুক্ত জল",
+        "ঠান্ডা পানীয়",
+        "কফি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-030",
+      "question": "'The Origin of Species' বইটি কত সালে প্রকাশিত হয়?",
+      "options": [
+        "১৮০৯",
+        "১৮৫৯",
+        "১৯০১",
+        "১৮৪৪"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-031",
+      "question": "গোল্ডেন রাইস (Golden Rice) কোন ভিটামিনে সমৃদ্ধ?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-032",
+      "question": "নিচের কোন হরমোন গর্ভাবস্থায় প্ল্যাসেন্টা থেকে নিঃসৃত হয়?",
+      "options": [
+        "hCG",
+        "ইস্ট্রোজেন",
+        "প্রজেস্টেরন",
+        "hPL (হিউম্যান প্ল্যাসেন্টাল ল্যাক্টোজেন)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-12-033",
+      "question": "খাদ্যে ভেজাল হিসেবে সরষের তেলে কী মেশানো হয় যা থেকে ড্রপসি (Dropsy) হতে পারে?",
+      "options": [
+        "জল",
+        "শিয়ালকাঁটার তেল (Argemone oil)",
+        "নারকেল তেল",
+        "পাম তেল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-034",
+      "question": "পাহাড়ে বা উঁচু স্থানে শ্বাসকষ্ট হয় কেন?",
+      "options": [
+        "CO₂ বেশি",
+        "অক্সিজেনের আংশিক চাপ কম",
+        "তাপমাত্রা কম",
+        "নাইট্রোজেন বেশি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-035",
+      "question": "ঘোড়ার বিবর্তনে কোন্ পর্যায়ে তার উচ্চতা সবথেকে কম ছিল?",
+      "options": [
+        "Eohippus",
+        "Mesohippus",
+        "Equus",
+        "Merychippus"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-036",
+      "question": "বৃহদন্ত্রের প্রথম অংশ কোনটি?",
+      "options": [
+        "রেক্টাম",
+        "সিকাম",
+        "কোলন",
+        "অ্যানাল ক্যানেল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-037",
+      "question": "'Luteal phase' অন্য কী নামে পরিচিত?",
+      "options": [
+        "Secretory phase",
+        "Menstrual phase",
+        "Proliferative phase",
+        "Ovulatory phase"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-038",
+      "question": "Vital Capacity (VC) কী?",
+      "options": [
+        "জোর করে নিঃশ্বাস নিয়ে সর্বোচ্চ যে পরিমাণ বায়ু ত্যাগ করা যায়",
+        "ফুসফুসে জমে থাকা বায়ু",
+        "স্বাভাবিক শ্বাসের পরিমাণ",
+        "শুধু নিঃশ্বাস নেওয়ার ক্ষমতা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-039",
+      "question": "স্তন্যদানকালে রজঃচক্র বন্ধ থাকে কেন?",
+      "options": [
+        "High Estrogen",
+        "High Prolactin",
+        "Low Oxytocin",
+        "High LH"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-040",
+      "question": "পুরুষদের ক্ষেত্রে স্থায়ী গর্ভনিরোধক পদ্ধতি কোনটি?",
+      "options": [
+        "Tubectomy",
+        "Vasectomy",
+        "IUD",
+        "Oral pills"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-041",
+      "question": "সেমিনাল ভেসিকল থেকে ক্ষরিত তরল বীর্যের মোট আয়তনের কত শতাংশ?",
+      "options": [
+        "১০%",
+        "৩০%",
+        "৬০-৭০%",
+        "৯৯%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-042",
+      "question": "মুখগহ্বরে শ্বেতসার ভেঙে কোন শর্করাটি উৎপন্ন হয়?",
+      "options": [
+        "গ্লুকোজ",
+        "ফ্রুক্টোজ",
+        "মল্টোজ",
+        "গ্যালাক্টোজ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-043",
+      "question": "ফ্যাট ইমালসিফিকেশন একটি কী ধরনের প্রক্রিয়া?",
+      "options": [
+        "জারণ-বিজারণ",
+        "পানি-বিশ্লেষণ",
+        "যান্ত্রিক",
+        "শোষণ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-044",
+      "question": "কোন্ বিবর্তন অভিসারী বিবর্তনের (Convergent evolution) ফল?",
+      "options": [
+        "পতঙ্গের ডানা ও পাখির ডানা",
+        "মানুষের হাত ও ঘোড়ার পা",
+        "তিমির প্যাডেল ও পাখির ডানা",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-045",
+      "question": "কোন রক্তগ্রুপে কোনো অ্যান্টিজেন থাকে না?",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "O"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-12-046",
+      "question": "আলসার রোগের একটি প্রধান কারণ কী?",
+      "options": [
+        "হেলিকোব্যাক্টর পাইলোরি ব্যাকটেরিয়া",
+        "ভিটামিন D-এর অভাব",
+        "অধিক ক্যালসিয়াম গ্রহণ",
+        "উচ্চ রক্তচাপ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-047",
+      "question": "কানের ভেতর দিয়ে শব্দ পৌঁছানোর সঠিক পথ কোনটি?",
+      "options": [
+        "Pinna -> Ear canal -> Tympanic membrane -> Ossicles -> Cochlea",
+        "Pinna -> Cochlea -> Ossicles -> Tympanic membrane",
+        "Cochlea -> Pinna -> Ear canal -> Tympanic membrane",
+        "Tympanic membrane -> Pinna -> Cochlea -> Ossicles"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-12-048",
+      "question": "পেশী ক্লান্তির জন্য দায়ী উপাদান কোনটি?",
+      "options": [
+        "Glucose",
+        "Lactic acid",
+        "Pyruvic acid",
+        "Amino acid"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-049",
+      "question": "রক্ত পরিসঞ্চালন বা ব্লাড ট্রান্সফিউশন কে সর্বপ্রথম সফল ভাবে করেন?",
+      "options": [
+        "লুই পাস্তুর",
+        "কার্ল ল্যান্ডস্টেইনার",
+        "জেমস ব্লান্ডেল",
+        "আলেকজান্ডার ফ্লেমিং"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-12-050",
+      "question": "গ্যাস বিনিময়ের একক কোনটি?",
+      "options": [
+        "ব্রঙ্কাস",
+        "ব্রঙ্কিওল",
+        "অ্যালভিওলাই",
+        "ট্রাকিয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    }
+  ]
+}

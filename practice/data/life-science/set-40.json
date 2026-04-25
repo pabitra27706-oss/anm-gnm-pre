@@ -1,0 +1,868 @@
+{
+  "subject": "life-science",
+  "set": 40,
+  "questions": [
+    {
+      "id": "ls-40-001",
+      "question": "নিচের কোনটি ‘প্লাজমোডেসমাটা’ সম্পর্কে সত্য?",
+      "options": [
+        "উদ্ভিদ কোষের মধ্যবর্তী সংযোগস্থল",
+        "সাইটোপ্লাজমীয় সুতা",
+        "আন্তঃকোষীয় যোগাযোগ ঘটায়",
+        "প্রাণীকোষে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-40-002",
+      "question": "জিন থেরাপির মাধ্যমে যে রোগগুলো চিকিৎসা করা সম্ভব:",
+      "options": [
+        "সিস্টিক ফাইব্রোসিস",
+        "থ্যালাসেমিয়া",
+        "হিমোফিলিয়া",
+        "সাধারণ সর্দি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-40-003",
+      "question": "অ্যাথেরোস্ক্লেরোসিস রোগটি কীসের সাথে সম্পর্কিত?",
+      "options": [
+        "শিরার প্রাচীর মোটা হওয়া",
+        "ধমনীর প্রাচীরে কোলেস্টেরল ও ফ্যাট জমে নালী সরু হয়ে যাওয়া",
+        "কৈশিক নালী ছিঁড়ে যাওয়া",
+        "হৃদপিণ্ডের প্রকোষ্ঠ বড় হয়ে যাওয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-004",
+      "question": "নিউক্লিয়াসের প্রধান কাজ কী?",
+      "options": [
+        "ATP উৎপাদন",
+        "জিনগত তথ্য সংরক্ষণ ও নিয়ন্ত্রণ",
+        "প্রোটিন সংশ্লেষণ",
+        "কোষীয় বর্জ্য হজম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-005",
+      "question": "মিউটেশন তত্ত্বের (Mutation Theory) প্রবক্তা কে?",
+      "options": [
+        "Darwin",
+        "Hugo de Vries",
+        "Lamarck",
+        "Mendel"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-006",
+      "question": "রক্তে CO₂ প্রধানত কী রূপে পরিবাহিত হয়?",
+      "options": [
+        "কার্বামিনো-হিমোগ্লোবিন",
+        "বাইকার্বনেট আয়ন",
+        "দ্রবীভূত অবস্থায়",
+        "কার্বন মনোক্সাইড"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-40-007",
+      "question": "Reflex action নিয়ন্ত্রিত হয় কোথা থেকে?",
+      "options": [
+        "সেরিব্রাম",
+        "সুষুম্না কাণ্ড",
+        "সেরিবেলাম",
+        "থ্যালামাস"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-008",
+      "question": "নিচের কোনগুলি স্নায়ুতন্ত্রের কোষ?",
+      "options": [
+        "নিউরন",
+        "নিউরোগ্লিয়া",
+        "অস্টিওসাইট",
+        "কন্ড্রোসাইট"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-40-009",
+      "question": "ফিমব্রিয়া (Fimbriae) এর কাজ কী?",
+      "options": [
+        "ডিম্বাণু সংগ্রহ করা",
+        "শুক্রাণু মারা",
+        "হরমোন নিঃসরণ",
+        "রক্তপাত বন্ধ করা"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-010",
+      "question": "কোষে অ্যামোনিয়া প্রাথমিকভাবে কোন প্রক্রিয়ায় উৎপন্ন হয়?",
+      "options": [
+        "ডিমিনেশন",
+        "ট্রান্সমিনেশন",
+        "গ্লাইকোলাইসিস",
+        "ক্রেবস চক্র"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-40-011",
+      "question": "মধুতে কোন শর্করাটি সবথেকে মিষ্টি?",
+      "options": [
+        "Glucose",
+        "Fructose",
+        "Galactose",
+        "Maltose"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-40-012",
+      "question": "রক্ত তঞ্চনে (Blood clotting) সাহায্য করে কোন ভিটামিন?",
+      "options": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin E",
+        "Vitamin K"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-013",
+      "question": "অ্যালিল (Allele) কী?",
+      "options": [
+        "একই জিনের বিভিন্ন রূপ",
+        "ভিন্ন জিনের একই রূপ",
+        "ক্রোমোজোমের প্রান্ত",
+        "একটি প্রোটিন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-014",
+      "question": "নিম্নলিখিত স্নায়ুগুলির মধ্যে কোনগুলি হৃদপিণ্ডে কাজ করে?",
+      "options": [
+        "ভেগাস স্নায়ু (প্যারাসিমপ্যাথেটিক)",
+        "সিমপ্যাথেটিক চেইন",
+        "হাইপোগ্লোসাল স্নায়ু",
+        "অ্যাক্সেসরি স্নায়ু"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-40-015",
+      "question": "ডায়ালাইসিস (Dialysis) কী?",
+      "options": [
+        "বৃক্ক প্রতিস্থাপন সার্জারি",
+        "কৃত্রিম বৃক্কের সাহায্যে বর্জ্য পদার্থ অপসারণ",
+        "প্রস্রাবের ঘনত্ব মাপা",
+        "রক্তচাপ কমানোর ওষুধ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-016",
+      "question": "ফার্স্ট এইড বক্সে 'Antiseptic solution' কেন রাখা হয়?",
+      "options": [
+        "ব্যথা কমাতে",
+        "ক্ষতস্থান জীবাণুমুক্ত করতে",
+        "রক্ত বাড়াতে",
+        "ঘুম পাড়াতে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-017",
+      "question": "BMI (Body Mass Index) বিভাগ কী?",
+      "options": [
+        "18.5-24.9 স্বাভাবিক",
+        "25.0-29.9 অধিক ওজন",
+        "30 বা তার বেশি স্থূলতা",
+        "18.5-এর কম স্থূলতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-40-018",
+      "question": "প্রোস্টেট গ্রন্থির নিঃসরণ কেমন হয়?",
+      "options": [
+        "আম্লিক",
+        "ক্ষারীয় ও দুধের মতো সাদা",
+        "নোনতা",
+        "ঘন আঠালো"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-40-019",
+      "question": "হজম প্রক্রিয়ায় কোন অঙ্গ সরাসরি অংশ নেয় না?",
+      "options": [
+        "পাকস্থলী",
+        "যকৃৎ",
+        "প্লীহা",
+        "ক্ষুদ্রান্ত্র"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-020",
+      "question": "মাইটোসিস ও মিয়োসিসের মধ্যে পার্থক্য -",
+      "options": [
+        "মাইটোসিসে দুইটি অপত্য কোষ, মিয়োসিসে চারটি",
+        "মাইটোসিসে ক্রোমোজোম সংখ্যা অপরিবর্তিত, মিয়োসিসে অর্ধেক হয়",
+        "মাইটোসিসে ক্রসিং ওভার ঘটে, মিয়োসিসে ঘটে না",
+        "মাইটোসিস দেহকোষে, মিয়োসিস জননকোষে ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-40-021",
+      "question": "ত্বকের ডার্মিস স্তরে অনুপস্থিত কোনটি?",
+      "options": [
+        "রক্তবাহ",
+        "ঘর্মগ্রন্থি",
+        "মৃত কোষের স্তর",
+        "স্নায়ুপ্রান্ত"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-40-022",
+      "question": "পরিপাক সংক্রান্ত কোন কোন অঙ্গ পেরিটোনিয়ামের পেছনে অবস্থিত (রেট্রোপেরিটোনিয়াল)?",
+      "options": [
+        "পাকস্থলী",
+        "অগ্ন্যাশয়",
+        "জেজুনাম",
+        "ডিওডেনাম"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-40-023",
+      "question": "মেন্ডেলের দ্বিসংকর জননে F2 জনুতে কটি ঘর (Box) থাকে?",
+      "options": [
+        "৪",
+        "৮",
+        "১৬",
+        "৬৪"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-024",
+      "question": "পরিপাক নালীর দৈর্ঘ্য কোন ধরণের খাদ্যের জন্য কম হয়?",
+      "options": [
+        "তৃণভোজী",
+        "মাংসাশী",
+        "সর্বভুক",
+        "শস্যভোজী"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-025",
+      "question": "শিশুরা কোন উৎসেচক দ্বারা দুধের কেসিনোজেন প্রোটিন জমাট বাঁধায়?",
+      "options": [
+        "পেপসিন",
+        "রেনিন",
+        "ট্রিপসিন",
+        "কাইমোসিন (রেনিন)"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-026",
+      "question": "ফ্র্যাকচারের ক্ষেত্রে RICE পদ্ধতির 'E' বলতে কী বোঝায়?",
+      "options": [
+        "Exercise",
+        "Elevation",
+        "Emergency",
+        "Eating"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-027",
+      "question": "সুষম খাদ্যের তালিকায় শর্করার ভাগ সবথেকে বেশি থাকে কেন?",
+      "options": [
+        "এটি সস্তা বলে",
+        "এটি শক্তির প্রধান উৎস বলে",
+        "এটি সুস্বাদু বলে",
+        "এটি সব জায়গায় পাওয়া যায় বলে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-028",
+      "question": "পেরিস্ট্যালসিস প্রক্রিয়াটি কোথায় ঘটে?",
+      "options": [
+        "শুধুমাত্র মুখগহ্বরে",
+        "শুধুমাত্র খাদ্যনালীতে",
+        "সমগ্র পরিপাক নালীতে",
+        "শুধুমাত্র বৃহদন্ত্রে"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-029",
+      "question": "উদ্ভিদের জরা বা বার্ধক্য রোধে নিচের কোন হরমোনটি সরাসরি কাজ করে?",
+      "options": [
+        "অক্সিন",
+        "জিব্বেরেলিন",
+        "সাইটোকাইনিন",
+        "ইথিলিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-030",
+      "question": "আধুনিক ঘোড়া (Equus) সম্পর্কে সঠিক তথ্য হলো: (Multi-correct)",
+      "options": [
+        "এটি লম্বা ও শক্তিশালী পা বিশিষ্ট",
+        "এটি প্রতিটি পায়ে একটি মাত্র আঙ্গুল বহন করে",
+        "এটি ঘাস খেতে অভ্যস্ত",
+        "এটি বনে বাস করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-40-031",
+      "question": "চোখের কর্ণিয়া দান (Eye donation) করার সময় কোন্ অংশটি প্রতিস্থাপন করা হয়?",
+      "options": [
+        "লেন্স",
+        "রেটিনা",
+        "কর্নিয়া",
+        "পুরো চোখ"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-032",
+      "question": "'হাইপারভলেমিয়া' কাকে বলে?",
+      "options": [
+        "রক্তের আয়তন বেড়ে যাওয়া",
+        "রক্তচাপ কমে যাওয়া",
+        "রক্তের লোহিত কণিকা কমে যাওয়া",
+        "রক্তে গ্লুকোজ বেড়ে যাওয়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-033",
+      "question": "রেটিনার কোন্ অংশে রড কোশ অনুপস্থিত থাকে?",
+      "options": [
+        "Fovea centralis",
+        "Optic disc (Blind spot)",
+        "Choroid",
+        "Ora serrata"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-034",
+      "question": "কোন শিরা ফুসফুস থেকে অক্সিজেন সমৃদ্ধ রক্ত আনে?",
+      "options": [
+        "পালমোনারি ধমনী",
+        "পালমোনারি শিরা",
+        "ভেনা কাভা",
+        "পোর্টাল শিরা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-035",
+      "question": "কোন কোন অবস্থায় MTP (Medical Termination of Pregnancy) করা আইনত বৈধ? (Multi-correct)",
+      "options": [
+        "ভ্রূণের মারাত্মক জিনগত ত্রুটি থাকলে",
+        "মায়ের জীবনের ঝুঁকি থাকলে",
+        "গর্ভাবস্থাটি ধর্ষণের ফল হলে",
+        "লিঙ্গ নির্ধারণের পর কন্যা সন্তান হলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-40-036",
+      "question": "মিয়োসিস II-এর ঘটনা -",
+      "options": [
+        "ক্রোমোজোম সংখ্যা হ্যাপ্লয়েড থাকে",
+        "সিস্টার ক্রোমাটিড পৃথক হয়",
+        "রিডাকশনাল ডিভিশন",
+        "মাইটোসিসের অনুরূপ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-40-037",
+      "question": "বিবর্তনের ধারায় মানুষের সবথেকে নিকটতম আত্মীয় কোনটি?",
+      "options": [
+        "শিম্পাঞ্জি",
+        "গরু",
+        "বাঘ",
+        "ঘোড়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-038",
+      "question": "জরায়ুর ক্যান্সার শনাক্তকরণে কোন্ পরীক্ষাটি জনপ্রিয়?",
+      "options": [
+        "Biopsy",
+        "Pap smear",
+        "X-ray",
+        "ECG"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-039",
+      "question": "কোন ধরনের পেশি অনিচ্ছাধীন?",
+      "options": [
+        "কঙ্কাল পেশি",
+        "মসৃণ পেশি",
+        "হৃদপেশি",
+        "দ্বিশির পেশি"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-40-040",
+      "question": "বিএমআর (BMR) কিসের ওপর নির্ভর করে না?",
+      "options": [
+        "বয়স",
+        "লিঙ্গ",
+        "শরীরের উচ্চতা",
+        "চুলের দৈর্ঘ্য"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-041",
+      "question": "ত্বকের ডার্মিস স্তরে যে গ্রাহকগুলি থাকে: (Multi-correct)",
+      "options": [
+        "Meissner's corpuscle",
+        "Pacinian corpuscle",
+        "Thermoreceptor",
+        "Pain receptor"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-40-042",
+      "question": "CPR দেওয়ার সময় হার কত হওয়া উচিত?",
+      "options": [
+        "১০০-১২০ বার প্রতি মিনিটে",
+        "৬০-৭০ বার প্রতি মিনিটে",
+        "৮০-৯০ বার প্রতি মিনিটে",
+        "১৫০-১৬০ বার প্রতি মিনিটে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-043",
+      "question": "কোলাজেন ও ইলাস্টিন ফাইবার ধমনীর প্রাচীরে থাকে কেন?",
+      "options": [
+        "সংকোচন ও প্রসারণ ক্ষমতা বাড়াতে",
+        "পুষ্টি সরবরাহ করতে",
+        "বর্জ্য অপসারণ করতে",
+        "গ্লুকোজ তৈরি করতে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-044",
+      "question": "পরিপাক নালীর বাইরের সবচেয়ে বড় গ্রন্থি কোনটি?",
+      "options": [
+        "যকৃৎ",
+        "অগ্ন্যাশয়",
+        "প্লীহা",
+        "প্যারোটিড"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-045",
+      "question": "শিশুদের ইউস্টেশিয়ান টিউব সোজা ও ছোট, তাই তাদের কানে সহজে ইনফেকশন হয়। এর সাথে সংযোগ?",
+      "options": [
+        "ফ্যারিংসের সাথে মধ্যকর্ণের সংযোগ",
+        "ফুসফুসের সাথে নাকের সংযোগ",
+        "হৃদপিণ্ডের সাথে ফুসফুসের সংযোগ",
+        "ল্যারিংসের সাথে পাকস্থলীর সংযোগ"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-046",
+      "question": "ডায়াস্টোল বলতে হৃদচক্রের কোন দশাকে বোঝায়?",
+      "options": [
+        "সংকোচন",
+        "প্রসারণ",
+        "কম্পন",
+        "স্থবিরতা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-047",
+      "question": "Meristematic tissue-এর কোষ কীরূপ?",
+      "options": [
+        "মৃত ও পুরু প্রাচীরযুক্ত",
+        "জীবিত ও বিভাজনক্ষম",
+        "জীবিত কিন্তু বিভাজনক্ষম নয়",
+        "আন্তঃকোষীয় ফাঁকযুক্ত"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-40-048",
+      "question": "যকৃত কোন খাদ্য উপাদান গ্লাইকোজেন হিসেবে জমা রাখে?",
+      "options": [
+        "অ্যামাইনো অ্যাসিড",
+        "ফ্যাটি অ্যাসিড",
+        "গ্লুকোজ",
+        "গ্লিসারল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-049",
+      "question": "কোন স্তন্যপায়ী প্রাণীর পাকস্থলী চার প্রকোষ্ঠবিশিষ্ট?",
+      "options": [
+        "মানুষ",
+        "গোরু",
+        "কুকুর",
+        "বিড়াল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-40-050",
+      "question": "অ্যাক্টিভ ট্রান্সপোর্টের উদাহরণ কোনগুলি?",
+      "options": [
+        "Na⁺/K⁺ পাম্প",
+        "ক্যালসিয়াম পাম্প",
+        "অক্সিজেনের চলাচল",
+        "গ্লুকোজের সক্রিয় শোষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

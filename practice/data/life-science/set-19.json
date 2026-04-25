@@ -1,0 +1,895 @@
+{
+  "subject": "life-science",
+  "set": 19,
+  "questions": [
+    {
+      "id": "ls-19-001",
+      "question": "মাম্পস রোগে কোন্ গ্রন্থি ফুলে যায়?",
+      "options": [
+        "Parotid gland",
+        "Thyroid",
+        "Adrenal",
+        "Pituitary"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-002",
+      "question": "স্বাভাবিক অবস্থায় কার্ডিয়াক আউটপুট কত?",
+      "options": [
+        "1-2 লিটার/মিনিট",
+        "5-6 লিটার/মিনিট",
+        "10-12 লিটার/মিনিট",
+        "20-25 লিটার/মিনিট"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-003",
+      "question": "কতিপয় সঠিক জোড়া কোনটি?",
+      "options": [
+        "জন্ডিস → বিলিরুবিন",
+        "গ্যাস্ট্রাইটিস → পাকস্থলী",
+        "ক্যারিস → দাঁত",
+        "এন্টেরাইটিস → যকৃৎ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-004",
+      "question": "বাম ফুসফুস কয়টি খণ্ডে বিভক্ত?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-005",
+      "question": "একসংকর জননের ক্ষেত্রে ২য় অপত্য জনুতে (F2) কত শতাংশ খর্ব গাছ হবে (বিশুদ্ধ লম্বা ও খর্ব গাছের ক্রসে)?",
+      "options": [
+        "৫০%",
+        "৭৫%",
+        "২৫%",
+        "১০০%"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-006",
+      "question": "কনট্র্যাক্টাইল ভ্যাকুওল (Contractile vacuole) বেশি দেখা যায় কোন ধরনের প্রাণীতে?",
+      "options": [
+        "স্বাদু পানির প্রোটোজোয়া",
+        "সামুদ্রিক প্রাণী",
+        "স্থলজ প্রাণী",
+        "পরজীবী"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-007",
+      "question": "রঞ্জক পদার্থের উপস্থিতিতে ফ্যাটের রঙ হলুদ হয় কোন ভিটামিনের কারণে?",
+      "options": [
+        "Vitamin A (Carotene)",
+        "Vitamin B2",
+        "Vitamin C",
+        "Vitamin E"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-008",
+      "question": "কলেরার প্রধান লক্ষণ কোনটি?",
+      "options": [
+        "জ্বর",
+        "চাল ধোয়া জলের মতো পাতলা পায়খানা ও বমি",
+        "গায়ে র‍্যাশ",
+        "মাথা ব্যথা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-009",
+      "question": "'প্রকৃতিতে যারা যোগ্য তারাই টিকে থাকবে'— এই ধারণাটি কার?",
+      "options": [
+        "ল্যামার্ক",
+        "ডারউইন",
+        "মেন্ডেল",
+        "হুগো দ্য ভ্রিজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-010",
+      "question": "বৃহদন্ত্রে বসবাসকারী ব্যাকটেরিয়া কী কী কাজ করে?",
+      "options": [
+        "ভিটামিন K সংশ্লেষ",
+        "ভিটামিন B12 সংশ্লেষ",
+        "সেলুলোজ পরিপাক",
+        "পিত্তরস ক্ষরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-011",
+      "question": "অ্যালভিওলার ভেন্টিলেশন হ্রাসের কারণ কী কী?",
+      "options": [
+        "শ্বাসনালী বাধা",
+        "ঔষধের প্রভাবে শ্বাসকেন্দ্র অবসাদ",
+        "বুকের পেশির দুর্বলতা",
+        "দৌড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-012",
+      "question": "CNS (কেন্দ্রীয় স্নায়ুতন্ত্র) কী নিয়ে গঠিত?",
+      "options": [
+        "শুধু মস্তিষ্ক",
+        "মস্তিষ্ক ও সুষুম্না কাণ্ড",
+        "করোটিক স্নায়ু",
+        "স্পাইনাল স্নায়ু"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-013",
+      "question": "মৃগী রোগের ট্রিগার কারণ কী কী হতে পারে?",
+      "options": [
+        "ঘুমের অভাব",
+        "ঝলকানি আলো",
+        "অ্যালকোহল",
+        "উচ্চ জ্বর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-014",
+      "question": "মানব পরিপাক নালীর অম্ল-ক্ষারের সঠিক ক্রম কোনটি?",
+      "options": [
+        "মুখ নিরপেক্ষ",
+        "পাকস্থলী অম্লীয়",
+        "ক্ষুদ্রান্ত্র ক্ষারীয়",
+        "মুখ অম্লীয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-015",
+      "question": "ত্বকের ডার্মিস স্তরে অবস্থিত যান্ত্রিক চাপ অনুভবকারী অঙ্গ কোনটি?",
+      "options": [
+        "Meissner's corpuscle",
+        "Pacinian corpuscle",
+        "Krause end bulb",
+        "Free nerve ending"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-016",
+      "question": "কনস্টিপেশনের (কোষ্ঠকাঠিন্য) জন্য দায়ী খাদ্যাভ্যাস কোনটি?",
+      "options": [
+        "প্রচুর শাক-সবজি খাওয়া",
+        "কম জল পান ও আঁশবিহীন খাবার",
+        "প্রচুর ফল খাওয়া",
+        "নিয়মিত জল পান"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-017",
+      "question": "কুষ্ঠ বা Leprosy রোগের জন্য দায়ী ব্যাক্টেরিয়া কোনটি?",
+      "options": [
+        "Mycobacterium leprae",
+        "Mycobacterium tuberculosis",
+        "Vibrio",
+        "Salmonella"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-018",
+      "question": "নিচের কোনগুলি পেশি ও গ্রন্থিকে নিয়ন্ত্রণ করে?",
+      "options": [
+        "সোমাটিক স্নায়ুতন্ত্র",
+        "অটোনমিক স্নায়ুতন্ত্র",
+        "মোটর স্নায়ু",
+        "সেনসরি স্নায়ু"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-019",
+      "question": "রক্তে গ্লুকোজের মাত্রা অস্বাভাবিক বেড়ে যাওয়া কোন্ রোগের লক্ষণ?",
+      "options": [
+        "Diabetes Insipidus",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Obesity"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-020",
+      "question": "স্পার্মাটোজেনেসিস প্রক্রিয়ায় কত জোড়া ক্রোমোজোম বিভাজিত হয়?",
+      "options": [
+        "২৩ জোড়া",
+        "৪৬ জোড়া",
+        "২২ জোড়া",
+        "১ জোড়া"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-021",
+      "question": "একজন রোগীকে দৈনিক 3000 kcal প্রয়োজন। যদি 40% প্রোটিন (4 kcal/g) থেকে নেন, তাহলে প্রোটিন কত গ্রাম লাগবে?",
+      "options": [
+        "100 gm",
+        "200 gm",
+        "300 gm",
+        "400 gm"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-022",
+      "question": "ইলাস্টিন তন্তুর কাজ কী?",
+      "options": [
+        "দৃঢ়তা প্রদান",
+        "স্থিতিস্থাপকতা প্রদান",
+        "সংকোচন",
+        "ক্ষরণ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-023",
+      "question": "মানবদেহের কোন অঙ্গ সাইন্যাপস সমৃদ্ধ?",
+      "options": [
+        "যকৃৎ",
+        "বৃক্ক",
+        "মস্তিষ্ক",
+        "হৃদপিণ্ড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-024",
+      "question": "উদ্ভিদের ভাজক টিস্যুর উদাহরণ কোনগুলো?",
+      "options": [
+        "ক্যাম্বিয়াম",
+        "জাইলেম",
+        "অ্যাপিক্যাল মেরিস্টেম",
+        "কর্ক ক্যাম্বিয়াম"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-025",
+      "question": "নিউরনের অংশ কী কী?",
+      "options": [
+        "ডেনড্রাইট",
+        "অ্যাক্সন",
+        "কোষদেহ",
+        "প্লাজমা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-19-026",
+      "question": "বেলস পলসি কোন স্নায়ুর প্রদাহ?",
+      "options": [
+        "ট্রাইজেমিনাল",
+        "ফেসিয়াল",
+        "ভ্যাগাস",
+        "অপটিক"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-027",
+      "question": "অসমোসিস নিয়ন্ত্রিত হয় নিচের কোন বিষয়ের দ্বারা?",
+      "options": [
+        "তাপমাত্রা",
+        "pH",
+        "ঘনত্বের পার্থক্য",
+        "পর্দার ভেদ্যতা"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-028",
+      "question": "আয়োডিন অভাবজনিত রোগ কোনগুলো?",
+      "options": [
+        "গলগণ্ড",
+        "ক্রেটিনিজম",
+        "হাইপোথাইরয়েডিজম",
+        "ডায়াবেটিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-029",
+      "question": "ভিটামিন এ-র প্রো-ভিটামিন কোনটি?",
+      "options": [
+        "Ergosterol",
+        "Beta-carotene",
+        "Cholesterol",
+        "Niacin"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-030",
+      "question": "ম্যালেরিয়া জ্বরের বিভিন্ন দশাগুলি হলো: (Multi-correct)",
+      "options": [
+        "শীত দশা (Cold stage) - প্রচণ্ড কাঁপুনি",
+        "উত্তাপ দশা (Hot stage) - উচ্চ জ্বর",
+        "ঘর্ম দশা (Sweating stage) - ঘাম দিয়ে জ্বর ছাড়া",
+        "কাশি দশা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-031",
+      "question": "নিচের কোনটি প্রাকৃতিক অক্সিন?",
+      "options": [
+        "NAA",
+        "IAA",
+        "2,4-D",
+        "IBA"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-032",
+      "question": "ক্ষুদ্রান্ত্রের কোন অংশটি অগ্ন্যাশয় ও পিত্তনালীর রস গ্রহণ করে?",
+      "options": [
+        "ইলিয়াম",
+        "জেজুনাম",
+        "ডিওডেনাম",
+        "সিকাম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-033",
+      "question": "ব্যাঙাচির হৃদপিণ্ডে প্রকোষ্ঠ সংখ্যা?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-034",
+      "question": "অগভীর ক্ষত বা ছড়ে যাওয়াকে চিকিৎসা বিজ্ঞানের ভাষায় কী বলা হয়?",
+      "options": [
+        "Laceration",
+        "Abrasion",
+        "Puncture",
+        "Avulsion"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-035",
+      "question": "হিমোগ্লোবিন কোন কোন অণু দ্বারা গঠিত?",
+      "options": [
+        "হিম (আয়রন সমন্বিত)",
+        "গ্লোবিন (প্রোটিন)",
+        "ক্যালসিয়াম",
+        "জিংক"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-036",
+      "question": "মানুষের মেরুদণ্ডের শেষে অবস্থিত নিষ্ক্রিয় অঙ্গটির নাম কী?",
+      "options": [
+        "Coccyx",
+        "Appendix",
+        "Nictitating membrane",
+        "Wisdom tooth"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-037",
+      "question": "প্যারাসিম্প্যাথেটিক উত্তেজনার ফলে কী ঘটে?",
+      "options": [
+        "হৃৎস্পন্দন কমে",
+        "হজম রস ক্ষরণ বাড়ে",
+        "পিউপিল সংকুচিত হয়",
+        "রক্তচাপ বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-038",
+      "question": "স্ত্রী জননতন্ত্রের কোন অংশে Fertilization সম্পন্ন হয়?",
+      "options": [
+        "Uterus",
+        "Vagina",
+        "Fallopian tube",
+        "Ovary"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-039",
+      "question": "মেন্ডেলের দ্বিসংকর জননের ক্ষেত্রে কোনটি সত্য? (Multi-correct)",
+      "options": [
+        "F2 জনুর ফিনোটাইপ অনুপাত 9:3:3:1",
+        "এটি থেকে স্বাধীন বিন্যাস সূত্র পাওয়া যায়",
+        "এতে ১৬টি কম্বিনেশন তৈরি হয়",
+        "এটি কেবল এক জোড়া বৈশিষ্ট্য নিয়ে কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-040",
+      "question": "টার্বিনেট বোন-এর কাজ কী?",
+      "options": [
+        "বায়ুতে ঘূর্ণন সৃষ্টি করে ধূলি অপসারণ ও উষ্ণতা নিয়ন্ত্রণ",
+        "খাবার ভাঙা",
+        "স্বর সৃষ্টি",
+        "অশ্রু উৎপাদন"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-041",
+      "question": "স্নায়ু আবেগ আসলে কী?",
+      "options": [
+        "রক্তপ্রবাহ",
+        "বৈদ্যুতিক সংকেত",
+        "রাসায়নিক দ্রবণ",
+        "যান্ত্রিক তরঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-042",
+      "question": "উদ্ভিদের ট্রপিক চলন নিয়ন্ত্রণ করে কোন হরমোন?",
+      "options": [
+        "Auxin",
+        "Ethylene",
+        "Cytokinin",
+        "Gibberellin"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-19-043",
+      "question": "সিলিয়াক ডিজিজ কী?",
+      "options": [
+        "গ্লুটেন প্রোটিনের প্রতি অ্যালার্জিজনিত অসুখ",
+        "ক্ষুদ্রান্ত্রের ভিলাই নষ্ট হয়ে যায়",
+        "জন্ডিসের অপর নাম",
+        "ভাইরাসজনিত অসুখ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-19-044",
+      "question": "নিচের কোন অঙ্গাণুটি শুধুমাত্র প্লান্ট সেলে দেখা যায়?",
+      "options": [
+        "সেন্ট্রোজোম",
+        "লাইসোজোম",
+        "প্লাস্টিড",
+        "এন্ডোপ্লাজমিক রেটিকুলাম"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-045",
+      "question": "পাকস্থলীতে পরিপাকের পর সৃষ্ট অর্ধতরল মিশ্রণকে কী বলে?",
+      "options": [
+        "কাইল",
+        "বোলাস",
+        "কাইম",
+        "ফাইব্রিন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-19-046",
+      "question": "সোমাটিক স্নায়ুতন্ত্রের বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "স্বেচ্ছাধীন",
+        "কঙ্কাল পেশি নিয়ন্ত্রণ",
+        "একক নিউরন পথ",
+        "গ্যাংলিয়ন থাকে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-19-047",
+      "question": "নিচের কোনটি উদ্ভিদ ও প্রাণী উভয় কোষে পাওয়া যায়?",
+      "options": [
+        "নিউক্লিয়াস",
+        "রাইবোজোম",
+        "মাইটোকন্ড্রিয়া",
+        "প্লাস্টিড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-19-048",
+      "question": "ইউট্রোফিকেশন (Eutrophication)-এর ফলে যা ঘটে— (Multi-correct)",
+      "options": [
+        "শৈবাল ব্লুম (Algal Bloom)",
+        "জলে অক্সিজেনের অভাব",
+        "জলজ প্রাণীর মৃত্যু",
+        "জলের স্বচ্ছতা বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "07-immunity",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-19-049",
+      "question": "নিচের কোনটি ডাইন্সফেলনের অংশ নয়?",
+      "options": [
+        "থ্যালামাস",
+        "হাইপোথ্যালামাস",
+        "পন্স",
+        "পিনিয়াল"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-19-050",
+      "question": "স্পাইনাল কর্ডের আঘাতে প্যারাপ্লেজিয়া কোন সেগমেন্টের ক্ষতির কারণে হয়?",
+      "options": [
+        "সার্ভাইকাল",
+        "থোরাসিক",
+        "লাম্বার",
+        "স্যাক্রাল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    }
+  ]
+}

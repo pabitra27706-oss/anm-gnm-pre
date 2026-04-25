@@ -1,0 +1,892 @@
+{
+  "subject": "life-science",
+  "set": 32,
+  "questions": [
+    {
+      "id": "ls-32-001",
+      "question": "গলবিল বা ফ্যারিংস কোন কাজে যুক্ত?",
+      "options": [
+        "শুধু পরিপাক",
+        "শুধু শ্বসন",
+        "পরিপাক ও শ্বসন উভয়",
+        "রক্ত সংবহন"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-002",
+      "question": "ফ্লেবাইটিস কী?",
+      "options": [
+        "ধমনীর প্রদাহ",
+        "শিরার প্রদাহ",
+        "লসিকানালীর প্রদাহ",
+        "কৈশিক নালীর প্রদাহ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-003",
+      "question": "ACTH (অ্যাড্রিনোকর্টিকোট্রপিক হরমোন) কোন গ্রন্থিকে উদ্দীপিত করে?",
+      "options": [
+        "থাইরয়েড",
+        "অ্যাড্রিনাল কর্টেক্স",
+        "গোনাড",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-004",
+      "question": "স্নায়ু উদ্দীপনা পরিবহনের সময় আয়ন গমনাগমন ঘটে- এমন আয়ন কোনগুলো?",
+      "options": [
+        "সোডিয়াম (Na+)",
+        "ক্যালসিয়াম (Ca2+)",
+        "পটাশিয়াম (K+)",
+        "ক্লোরাইড (Cl-)"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-32-005",
+      "question": "হাইপোগ্লাইসেমিয়ার লক্ষণ কী নয়?",
+      "options": [
+        "ঘামা",
+        "কাঁপুনি",
+        "তৃষ্ণা বেড়ে যাওয়া",
+        "অজ্ঞান হওয়া"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-006",
+      "question": "বেসাল মেটাবলিক রেট (BMR) এ কোন ফ্যাক্টরটি প্রভাব ফেলে না?",
+      "options": [
+        "বয়স",
+        "লিঙ্গ",
+        "শরীরের পৃষ্ঠতল (Surface area)",
+        "চোখের রং"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-007",
+      "question": "ডাল ও সিম গোত্রীয় উদ্ভিদের বীজে প্রচুর থাকে: (Multi-correct)",
+      "options": [
+        "প্রোটিন",
+        "আয়রন",
+        "ফাইবার",
+        "ফ্যাট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-008",
+      "question": "নিচের কোনগুলি ভাস্কুলাইটিস বা রক্তনালীর প্রদাহের উদাহরণ?",
+      "options": [
+        "টেম্পোরাল আর্টারাইটিস",
+        "তাকায়াসু আর্টারাইটিস",
+        "পলিআর্টারাইটিস নোডোসা",
+        "অপটিক নিউরাইটিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-32-009",
+      "question": "মেন্ডেলের পরীক্ষায় F1 জনুতে কোন বৈশিষ্ট্যটি প্রকাশ পায় না?",
+      "options": [
+        "প্রকট",
+        "প্রচ্ছন্ন",
+        "সংকর",
+        "কোনটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-010",
+      "question": "অ্যালভিওলাইতে গ্যাস বিনিময়ে বাধা সৃষ্টিকারী উপাদান কোনগুলো?",
+      "options": [
+        "তরল জমা (ইডিমা)",
+        "ফাইব্রোসিস (দাগকলা)",
+        "O₂-এর বাড়তি চাপ",
+        "সারফ্যাকট্যান্টের আধিক্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-011",
+      "question": "ভিটামিন B12 অভাবজনিত অ্যানিমিয়ার কারণ কী?",
+      "options": [
+        "লৌহের ঘাটতি",
+        "RBC গঠনে ব্যাঘাত",
+        "প্লাটিলেট গঠনে ব্যাঘাত",
+        "প্লাজমা ক্ষয়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-012",
+      "question": "কোন্ কোন্ প্রাণী Viviparous (জরায়ুজ)? (Multi-correct)",
+      "options": [
+        "মানুষ",
+        "গরু",
+        "নীল তিমি",
+        "কুমির"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-32-013",
+      "question": "যকৃতের কাজ কী কী?",
+      "options": [
+        "পিত্তরস উৎপাদন",
+        "গ্লাইকোজেন সঞ্চয়",
+        "ইউরিয়া সংশ্লেষণ",
+        "পেপসিন ক্ষরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-014",
+      "question": "নিচের কোনটি গ্লোমেরুলার ফিল্ট্রেটের উপাদান নয়?",
+      "options": [
+        "গ্লুকোজ",
+        "ইউরিয়া",
+        "রক্তের লোহিত কণিকা",
+        "অ্যামিনো অ্যাসিড"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-015",
+      "question": "কান দিয়ে শুধু শোনা নয়, আর কোন্ গুরুত্বপূর্ণ কাজ সম্পন্ন হয়?",
+      "options": [
+        "পরিপাক",
+        "দেহের ভারসাম্য রক্ষা",
+        "রক্তশোধন",
+        "শ্বাসকার্য"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-016",
+      "question": "ফুসফুসের সারফ্যাকট্যান্ট-এর উপাদান কী কী?",
+      "options": [
+        "ফসফোলিপিড",
+        "প্রোটিন",
+        "কার্বোহাইড্রেট",
+        "নিউক্লিক অ্যাসিড"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-32-017",
+      "question": "সমবৃত্তীয় অঙ্গ কোন্ বিবর্তনকে সমর্থন করে?",
+      "options": [
+        "অপসারী",
+        "অভিসারী (Convergent)",
+        "ল্যামার্কবাদ",
+        "মেন্ডেলবাদ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-018",
+      "question": "সিবাম (Sebum) ক্ষরণ জননাঙ্গ এলাকায় কী কাজ করে?",
+      "options": [
+        "পিচ্ছিলকারক",
+        "সুরক্ষা ও আর্দ্রতা",
+        "শুক্রাণু ধ্বংস",
+        "হরমোন বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-019",
+      "question": "অপুষ্টি বা ম্যালনিউট্রিশন এর কারণ হতে পারে?",
+      "options": [
+        "ক্যালোরির অভাব",
+        "প্রোটিনের অভাব",
+        "ভিটামিন ও খনিজের অভাব",
+        "এনজাইমের অভাবে খাদ্য পরিপাকে সমস্যা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-020",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "মাইটোকন্ড্রিয়ায় cristae নামক ভাঁজ থাকে",
+        "ক্রোমোপ্লাস্টে ক্লোরোফিল থাকে",
+        "লাইসোজোমে হাইড্রোলাইটিক এনজাইম থাকে",
+        "SER লিপিড সংশ্লেষ করে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-021",
+      "question": "SA নোড কাজ না করলে কী হতে পারে?",
+      "options": [
+        "হৃৎস্পন্দন বন্ধ হয়ে যাওয়া",
+        "কৃত্রিম পেসমেকার লাগানোর প্রয়োজন হতে পারে",
+        "AV নোড পেসমেকার হিসেবে কাজ করতে পারে",
+        "ফুসফুসের প্রসারণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-022",
+      "question": "RBC-কে লোহিত কণিকা বলার কারণ কী?",
+      "options": [
+        "মাইটোকন্ড্রিয়া",
+        "হিমোগ্লোবিন",
+        "নিউক্লিয়াস",
+        "ক্লোরোফিল"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "13-tissues",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-023",
+      "question": "অমরা বা Placenta থেকে নিঃসৃত হরমোন নয় কোনটি?",
+      "options": [
+        "HCG",
+        "HPL",
+        "Estrogen",
+        "Insulin"
+      ],
+      "answer": 3,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-024",
+      "question": "সেলুলোজ (Cellulose) হলো এক ধরণের—",
+      "options": [
+        "Monosaccharide",
+        "Disaccharide",
+        "Polysaccharide",
+        "Protein"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-025",
+      "question": "নাড়ীর স্পন্দন অনুভব করা যায় কোথায়?",
+      "options": [
+        "ধমনীতে",
+        "শিরায়",
+        "কৈশিকনালীতে",
+        "লসিকানালীতে"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-026",
+      "question": "টাইফয়েড রোগের সংক্রমণ ঠেকাতে কী ধরণের জল পান করা উচিত?",
+      "options": [
+        "ফোটানো ও বিশুদ্ধ জল",
+        "নদীর জল",
+        "পুকুরের জল",
+        "নর্দমার জল"
+      ],
+      "answer": 0,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-027",
+      "question": "বৃহদন্ত্রে বসবাসকারী ব্যাকটেরিয়া কী কী কাজ করে?",
+      "options": [
+        "ভিটামিন K সংশ্লেষ",
+        "ভিটামিন B12 সংশ্লেষ",
+        "সেলুলোজ পরিপাক",
+        "পিত্তরস ক্ষরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-028",
+      "question": "অ্যামনিওসেন্টেসিস (Amniocentesis) পদ্ধতির অপব্যবহার কী?",
+      "options": [
+        "রোগ নির্ণয়",
+        "ভ্রূণের লিঙ্গ নির্ধারণ",
+        "বিপাকীয় ত্রুটি খোজা",
+        "জিনের গঠন দেখা"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-029",
+      "question": "সর্পিলাকার DNA-র একটি সম্পূর্ণ পাকের দৈর্ঘ্য কত?",
+      "options": [
+        "20 Å",
+        "34 Å",
+        "10 Å",
+        "45 Å"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-030",
+      "question": "ধমনী ও শিরার সংযোগস্থলে অবস্থিত ভালভবিহীন পথকে কী বলে?",
+      "options": [
+        "অ্যানাস্টোমোসিস",
+        "আর্টেরিওভেনাস শান্ট",
+        "কোলেটারাল",
+        "কৈশিকনালী"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-031",
+      "question": "শর্করা জাতীয় খাদ্যের উৎস নয় কোনটি?",
+      "options": [
+        "চাল",
+        "গম",
+        "মাছ",
+        "আলু"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-032",
+      "question": "পতঙ্গভুক উদ্ভিদের উদাহরণ হলো:",
+      "options": [
+        "কলসপত্রী",
+        "সূর্যশিশির",
+        "পাতাঝাঁঝি",
+        "ক্যাকটাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-32-033",
+      "question": "একনেত্র দৃষ্টির ক্ষেত্রফল কত ডিগ্রি হতে পারে?",
+      "options": [
+        "১২০°",
+        "১৮০°",
+        "২০০°",
+        "৩৬০°"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-034",
+      "question": "কর্নিয়া ও লেন্সের মধ্যবর্তী তরল 'Aqueous humour' কোথা থেকে উৎপন্ন হয়?",
+      "options": [
+        "Retina",
+        "Ciliary body",
+        "Optic nerve",
+        "Sclera"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-035",
+      "question": "ভিটামিন A-র অভাবে কোন্ চোখের রোগ হয়?",
+      "options": [
+        "Myopia",
+        "Nyctalopia (Night blindness)",
+        "Cataract",
+        "Glaucoma"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "12-sense-organs",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-036",
+      "question": "টাইফয়েড জ্বরের জীবাণু মূলত কোন্ অঙ্গে বংশবৃদ্ধি করে?",
+      "options": [
+        "ফুসফুস",
+        "ক্ষুদ্রান্ত্র ও যকৃৎ",
+        "মস্তিস্ক",
+        "হাড়"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-037",
+      "question": "বন্ধ্যাত্ব দূরীকরণে ব্যবহৃত পদ্ধতি কোনটি?",
+      "options": [
+        "MTP",
+        "IVF",
+        "IUD",
+        "Vasectomy"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-038",
+      "question": "ইস্ট্রোজেন-এর প্রধান উৎস ডিম্বাশয়ের কোন অংশ?",
+      "options": [
+        "কর্পাস লিউটিয়াম",
+        "গ্রাফিয়ান ফলিকল",
+        "স্ট্রোমা",
+        "জার্মিনাল এপিথেলিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-32-039",
+      "question": "শ্বাসবায়ুর পরিমাণ নির্ণয়ক পরিমাপ কোনগুলো?",
+      "options": [
+        "টাইডাল ভলিউম",
+        "ভাইটাল ক্যাপাসিটি",
+        "রেসিডিউয়াল ভলিউম",
+        "গ্লোমেরুলার ফিলট্রেশন রেট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "11-respiratory-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-040",
+      "question": "ক্যাসট্রেশন (Castration) মানে কী?",
+      "options": [
+        "জরায়ু বাদ দেওয়া",
+        "শুক্রাশয় বাদ দেওয়া",
+        "ফ্যালোপিয়ান টিউব কাটা",
+        "পেনিস বাদ দেওয়া"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-041",
+      "question": "ভিটামিন এ-র অভাবজনিত লক্ষণগুলি হলো: (Multi-correct)",
+      "options": [
+        "রাতকানা (Night blindness)",
+        "জেরোপথ্যালমিয়া",
+        "কেরাটোমেলাসিয়া",
+        "রিকেট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "09-nutrition-health",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-042",
+      "question": "'নাইট্রিক অক্সাইড' (NO) রক্তনালীতে কী প্রভাব ফেলে?",
+      "options": [
+        "সংকোচন",
+        "প্রসারণ",
+        "জমাট বাঁধা",
+        "কোনো প্রভাব নেই"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-043",
+      "question": "পরাগযোগের বাহক বা Agents হতে পারে:",
+      "options": [
+        "জল",
+        "বাতাস",
+        "পাখি",
+        "সূর্যরশ্মি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "06-first-aid",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-32-044",
+      "question": "নেফ্রনের অংশগুলি কী কী?",
+      "options": [
+        "Bowman's capsule",
+        "Glomerulus",
+        "Loop of Henle",
+        "Alveoli"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-32-045",
+      "question": "ADH (Antidiuretic Hormone) নিঃসরণ বাড়ে কোন কোন পরিস্থিতিতে?",
+      "options": [
+        "দেহে পানি স্বল্পতা",
+        "রক্তচাপ কমে গেলে",
+        "দেহে পানি বেশি হলে",
+        "অ্যালকোহল পান করলে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-32-046",
+      "question": "নিচের কোনগুলি হৃদপিণ্ডের বাম দিকের সমস্যার কারণে সৃষ্ট?",
+      "options": [
+        "পালমোনারি ইডিমা",
+        "অর্থোপনিয়া",
+        "পায়ে ইডিমা (প্রাথমিক নয়)",
+        "হেপাটোমেগালি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-32-047",
+      "question": "কর্পাস লুটিয়াম (Corpus luteum) থেকে কোন হরমোন প্রধানত নিঃসৃত হয়?",
+      "options": [
+        "Estrogen",
+        "LH",
+        "Progesterone",
+        "FSH"
+      ],
+      "answer": 2,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "10-reproductive-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-048",
+      "question": "গ্যাস্ট্রিক রসের উপাদানগুলির মধ্যে কোনটি?",
+      "options": [
+        "ট্রিপসিন এবং HCl",
+        "HCl এবং পেপসিনোজেন",
+        "পিত্ত এবং অ্যামাইলেজ",
+        "HCl এবং অ্যামাইলেজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "04-digestive-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-32-049",
+      "question": "হৃদপিণ্ডের অ্যাপেক্স কোথায় স্পর্শ করে?",
+      "options": [
+        "বুকের ডানদিকে ষষ্ঠ পাঁজরের নিচে",
+        "বুকের বামদিকে পঞ্চম আন্তঃপাঁজর স্থানে",
+        "স্টার্নামের ঠিক পেছনে",
+        "পেটে"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "02-circulatory-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-32-050",
+      "question": "এনুরেসিস (Enuresis) কী?",
+      "options": [
+        "প্রস্রাবে রক্ত",
+        "বিছানায় প্রস্রাব করা (রাতে)",
+        "প্রস্রাব কমে যাওয়া",
+        "প্রস্রাবে পুঁজ"
+      ],
+      "answer": 1,
+      "explanation": "No explanation available.",
+      "subject": "life-science",
+      "unit": "05-excretory-system",
+      "type": "memory",
+      "difficulty": "medium"
+    }
+  ]
+}
