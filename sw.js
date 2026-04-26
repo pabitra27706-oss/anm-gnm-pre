@@ -1,15 +1,11 @@
 // ============================================================
-// SERVICE WORKER
-// App    : ANM GNM Pre Exam
-// Repo   : https://github.com/pabitra27706-oss/anm-gnm-pre
-// Hosted : https://pabitra27706-oss.github.io/anm-gnm-pre/
-// Cache  : anm-gnm-v1
+// SERVICE WORKER - ANM GNM PRE EXAM
+// Version: v2.0.0
 // ============================================================
 
-const CACHE_NAME = 'anm-gnm-v1';
+const CACHE_NAME = 'anm-gnm-v2';
 
-// All files that make up the app shell
-// Paths are relative to the SW scope root (/anm-gnm-pre/)
+// All files that make up the app shell - CORRECTED PATHS
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -17,223 +13,265 @@ const ASSETS_TO_CACHE = [
   './manifest.json',
   './js/app.js',
   './js/countdown.js',
+  './js/storage.js',
+  './js/utils.js',
+  './js/config.js',
+  './js/scorer.js',
   './assets/css/base.css',
+  './assets/css/variables.css',
+  './assets/css/reset.css',
+  './assets/css/typography.css',
+  './assets/css/utilities.css',
+  './assets/css/print.css',
+  './icons/icon-72.png',
+  './icons/icon-96.png',
+  './icons/icon-128.png',
+  './icons/icon-144.png',
+  './icons/icon-152.png',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];
 
+// Cache subdirectory assets - CRITICAL PAGES
+const SUBDIRECTORY_ASSETS = [
+  // Mock Test
+  './mock-test/index.html',
+  './mock-test/result.html',
+  './mock-test/test.html',
+  './mock-test/css/mock-layout.css',
+  './mock-test/css/test-interface.css',
+  './mock-test/css/timer.css',
+  './mock-test/css/analysis.css',
+  './mock-test/js/mock-app.js',
+  './mock-test/js/mock-engine.js',
+  './mock-test/js/mock-loader.js',
+  
+  // Practice
+  './practice/index.html',
+  './practice/quiz.html',
+  './practice/result.html',
+  './practice/filter.html',
+  './practice/filter-quiz.html',
+  './practice/unit-filter.html',
+  './practice/css/practice-layout.css',
+  './practice/css/quiz-interface.css',
+  './practice/css/result-card.css',
+  './practice/js/practice-app.js',
+  './practice/js/quiz-engine.js',
+  './practice/js/filter-app.js',
+  
+  // PYQ
+  './pyq/index.html',
+  './pyq/viewer.html',
+  './pyq/css/pyq-layout.css',
+  './pyq/css/pyq-viewer.css',
+  './pyq/js/pyq-app.js',
+  './pyq/js/pyq-engine.js',
+  
+  // Subjects
+  './subjects/index.html',
+  './subjects/css/subjects.css',
+  './subjects/css/chapter.css',
+  './subjects/js/subjects-nav.js',
+  './subjects/js/chapter-reader.js',
+  
+  // Results
+  './results/index.html',
+  './results/css/results.css',
+  './results/js/results-app.js',
+  
+  // Pages
+  './pages/about.html',
+  './pages/syllabus.html',
+  './pages/exam-pattern.html',
+  './pages/preparation-strategy.html',
+  './pages/contact.html',
+  './pages/privacy.html',
+  './pages/css/pages.css'
+];
+
+// Combine all assets
+const ALL_ASSETS = [...ASSETS_TO_CACHE, ...SUBDIRECTORY_ASSETS];
 
 // ─────────────────────────────────────────────────────────────
-// INSTALL
-// Pre-cache all app shell files when SW is first installed
+// INSTALL - Pre-cache all app shell files
 // ─────────────────────────────────────────────────────────────
 self.addEventListener('install', event => {
-  console.log('[SW] Installing — cache:', CACHE_NAME);
+  console.log('[SW] Installing version:', CACHE_NAME);
   
   event.waitUntil(
-    caches
-    .open(CACHE_NAME)
+    caches.open(CACHE_NAME)
     .then(cache => {
       console.log('[SW] Pre-caching app shell');
-      return cache.addAll(ASSETS_TO_CACHE);
+      // Cache each file individually to avoid one failure breaking everything
+      return Promise.allSettled(
+        ALL_ASSETS.map(asset => {
+          return cache.add(asset).catch(err => {
+            console.warn('[SW] Failed to cache:', asset, err);
+          });
+        })
+      );
     })
     .then(() => {
-      console.log('[SW] Pre-cache complete — activating immediately');
-      // Force this SW to become active without waiting
+      console.log('[SW] Pre-cache complete');
       return self.skipWaiting();
-    })
-    .catch(err => {
-      console.error('[SW] Pre-cache failed:', err);
     })
   );
 });
 
-
 // ─────────────────────────────────────────────────────────────
-// ACTIVATE
-// Clean up any old/stale caches from previous versions
+// ACTIVATE - Clean up old caches
 // ─────────────────────────────────────────────────────────────
 self.addEventListener('activate', event => {
-  console.log('[SW] Activating — checking for old caches');
+  console.log('[SW] Activating - cleaning old caches');
   
   event.waitUntil(
-    caches
-    .keys()
+    caches.keys()
     .then(cacheNames => {
       return Promise.all(
-        cacheNames.map(name => {
-          if (name !== CACHE_NAME) {
-            console.log('[SW] Removing old cache:', name);
-            return caches.delete(name);
+        cacheNames.map(cacheName => {
+          if (cacheName !== CACHE_NAME) {
+            console.log('[SW] Deleting old cache:', cacheName);
+            return caches.delete(cacheName);
           }
         })
       );
     })
     .then(() => {
-      console.log('[SW] Active — claiming all open clients');
-      // Take control of all open tabs immediately
+      console.log('[SW] Now controlling all clients');
       return self.clients.claim();
-    })
-    .catch(err => {
-      console.error('[SW] Activation error:', err);
     })
   );
 });
 
-
 // ─────────────────────────────────────────────────────────────
-// HELPER: Is this request for an HTML page / navigation?
+// HELPERS
 // ─────────────────────────────────────────────────────────────
 function isHtmlRequest(request) {
   const acceptHeader = request.headers.get('accept') || '';
-  return (
-    request.mode === 'navigate' ||
-    acceptHeader.includes('text/html')
-  );
+  return request.mode === 'navigate' || acceptHeader.includes('text/html');
 }
 
-
-// ─────────────────────────────────────────────────────────────
-// HELPER: Is this request for a static asset?
-// (JS, CSS, images, fonts, JSON, icons)
-// ─────────────────────────────────────────────────────────────
 function isAssetRequest(request) {
   const url = request.url;
-  return (
-    url.endsWith('.js') ||
-    url.endsWith('.css') ||
-    url.endsWith('.png') ||
-    url.endsWith('.jpg') ||
-    url.endsWith('.jpeg') ||
-    url.endsWith('.gif') ||
-    url.endsWith('.svg') ||
-    url.endsWith('.ico') ||
-    url.endsWith('.webp') ||
-    url.endsWith('.woff') ||
-    url.endsWith('.woff2') ||
-    url.endsWith('.ttf') ||
-    url.endsWith('.json')
-  );
+  const assetExtensions = ['.js', '.css', '.png', '.jpg', '.jpeg', '.gif', '.svg', '.ico', '.webp', '.woff', '.woff2', '.ttf', '.json'];
+  return assetExtensions.some(ext => url.endsWith(ext));
 }
 
+function isApiRequest(request) {
+  return request.url.includes('/data/') || request.url.includes('.json');
+}
 
 // ─────────────────────────────────────────────────────────────
-// FETCH
-// Strategy 1 — HTML pages  → Network First, fallback offline.html
-// Strategy 2 — Assets      → Cache First, fallback network
-// Strategy 3 — Everything  → Network First, fallback cache
+// FETCH - Network-first with cache fallback
 // ─────────────────────────────────────────────────────────────
 self.addEventListener('fetch', event => {
   const { request } = event;
   
-  // ── Skip non-GET requests completely ────────────────────────
+  // Skip non-GET requests
   if (request.method !== 'GET') return;
   
-  // ── Skip non-HTTP(S) requests (browser extensions etc.) ─────
-  if (
-    !request.url.startsWith('http://') &&
-    !request.url.startsWith('https://')
-  ) return;
+  // Skip non-HTTP(S) requests
+  if (!request.url.startsWith('http')) return;
   
-  // ── Skip cross-origin requests (CDN, external APIs etc.) ────
-  const requestUrl = new URL(request.url);
-  if (requestUrl.origin !== self.location.origin) {
-    // Just let cross-origin requests go through normally
-    return;
-  }
-  
-  
-  // ────────────────────────────────────────────────────────────
-  // STRATEGY 1: NETWORK FIRST — HTML pages & navigation
-  // Try network → on fail serve cached → final fallback offline.html
-  // ────────────────────────────────────────────────────────────
+  // ──────────────────────────────────────────────────────────
+  // HTML PAGES - Network first, fallback to cache, then offline.html
+  // ──────────────────────────────────────────────────────────
   if (isHtmlRequest(request)) {
     event.respondWith(
       fetch(request)
-      .then(networkResponse => {
-        // Network responded — update cache in background
-        if (networkResponse && networkResponse.status === 200) {
-          const clonedResponse = networkResponse.clone();
+      .then(response => {
+        // Cache successful response
+        if (response && response.status === 200) {
+          const responseClone = response.clone();
           caches.open(CACHE_NAME).then(cache => {
-            cache.put(request, clonedResponse);
+            cache.put(request, responseClone);
           });
         }
-        return networkResponse;
+        return response;
       })
       .catch(() => {
-        console.warn('[SW] Network failed for HTML — checking cache:', request.url);
+        console.log('[SW] Network failed, trying cache for:', request.url);
+        return caches.match(request)
+          .then(cachedResponse => {
+            if (cachedResponse) {
+              return cachedResponse;
+            }
+            // Return offline page
+            return caches.match('./offline.html');
+          });
+      })
+    );
+    return;
+  }
+  
+  // ──────────────────────────────────────────────────────────
+  // STATIC ASSETS - Cache first with network update
+  // ──────────────────────────────────────────────────────────
+  if (isAssetRequest(request)) {
+    event.respondWith(
+      caches.match(request)
+      .then(cachedResponse => {
+        if (cachedResponse) {
+          // Update cache in background
+          fetch(request).then(response => {
+            if (response && response.status === 200) {
+              caches.open(CACHE_NAME).then(cache => {
+                cache.put(request, response);
+              });
+            }
+          }).catch(() => {});
+          return cachedResponse;
+        }
         
-        return caches.match(request).then(cachedResponse => {
-          if (cachedResponse) {
-            console.log('[SW] Serving cached HTML:', request.url);
-            return cachedResponse;
-          }
-          
-          // Nothing in cache — serve offline fallback
-          console.warn('[SW] No cache for HTML — serving offline.html');
-          return caches.match('./offline.html');
+        // Not in cache, fetch and cache
+        return fetch(request)
+          .then(response => {
+            if (response && response.status === 200) {
+              const responseClone = response.clone();
+              caches.open(CACHE_NAME).then(cache => {
+                cache.put(request, responseClone);
+              });
+            }
+            return response;
+          });
+      })
+    );
+    return;
+  }
+  
+  // ──────────────────────────────────────────────────────────
+  // API/DATA - Network first, no cache fallback
+  // ──────────────────────────────────────────────────────────
+  if (isApiRequest(request)) {
+    event.respondWith(
+      fetch(request)
+      .catch(() => {
+        return new Response(JSON.stringify({ error: 'You are offline' }), {
+          status: 503,
+          headers: { 'Content-Type': 'application/json' }
         });
       })
     );
     return;
   }
   
-  
-  // ────────────────────────────────────────────────────────────
-  // STRATEGY 2: CACHE FIRST — static assets
-  // Serve from cache instantly → if missing fetch & cache it
-  // ────────────────────────────────────────────────────────────
-  if (isAssetRequest(request)) {
-    event.respondWith(
-      caches.match(request).then(cachedResponse => {
-        if (cachedResponse) {
-          // Cache hit — serve immediately
-          return cachedResponse;
-        }
-        
-        // Cache miss — fetch from network and cache for next time
-        console.log('[SW] Asset not cached — fetching:', request.url);
-        return fetch(request)
-          .then(networkResponse => {
-            if (networkResponse && networkResponse.status === 200) {
-              const clonedResponse = networkResponse.clone();
-              caches.open(CACHE_NAME).then(cache => {
-                cache.put(request, clonedResponse);
-              });
-            }
-            return networkResponse;
-          })
-          .catch(err => {
-            console.warn('[SW] Asset fetch failed:', request.url, err);
-            // Return nothing — browser will show its own error
-          });
-      })
-    );
-    return;
-  }
-  
-  
-  // ────────────────────────────────────────────────────────────
-  // STRATEGY 3: NETWORK FIRST — everything else
-  // ────────────────────────────────────────────────────────────
+  // ──────────────────────────────────────────────────────────
+  // EVERYTHING ELSE - Network first, try cache on failure
+  // ──────────────────────────────────────────────────────────
   event.respondWith(
     fetch(request)
-    .then(networkResponse => networkResponse)
     .catch(() => {
-      console.warn('[SW] Network failed — checking cache:', request.url);
       return caches.match(request);
     })
   );
 });
 
-
 // ─────────────────────────────────────────────────────────────
-// MESSAGE — allow pages to communicate with SW
-// Send { action: 'skipWaiting' } to force update
+// MESSAGE HANDLER - For force updates
 // ─────────────────────────────────────────────────────────────
 self.addEventListener('message', event => {
   if (event.data && event.data.action === 'skipWaiting') {
-    console.log('[SW] Received skipWaiting message — updating now');
     self.skipWaiting();
   }
 });
