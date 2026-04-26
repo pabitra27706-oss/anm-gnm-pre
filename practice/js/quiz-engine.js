@@ -1,13 +1,6 @@
 /* ============================================================
    practice/js/quiz-engine.js
-   Core quiz runtime — loads questions, manages state,
-   handles navigation, renders UI, submits quiz
-   WB ANM GNM 2026 Preparation Platform
-
-   UPDATED:
-   - Validates questions on load, sets defaults for missing fields
-   - Normalizes multi answer (wraps single number in array)
-   - Safe rendering: avoids breaking on undefined fields
+   Core quiz runtime — with swipe gesture + fixed multi‑answer UI
    ============================================================ */
 
 (function QuizEngine() {
@@ -121,20 +114,10 @@
         throw new Error('এই সেটে কোনো প্রশ্ন নেই।');
       }
 
-      // Validate and clean each question
-      state.questions = data.questions.map(function(q, idx) {
-        if (!q) {
-          console.error('[QuizEngine] Question at index', idx, 'is null');
-          return { id: 'invalid-' + idx, question: 'প্রশ্ন পাওয়া যায়নি', options: [], answer: 0, multi: false };
-        }
-        // Normalize multi answer
+      state.questions = data.questions.map((q, idx) => {
+        if (!q) return { id: 'invalid-' + idx, question: 'প্রশ্ন পাওয়া যায়নি', options: [], answer: 0, multi: false };
         if (q.multi === true && !Array.isArray(q.answer)) {
-          console.warn('[QuizEngine] Normalizing multi answer for', q.id);
           q.answer = [q.answer];
-        }
-        if (!q.question && (!q.options || q.options.length === 0)) {
-          console.error('[QuizEngine] Question', q.id, 'has no text or options');
-          return Object.assign({}, q, { question: 'প্রশ্ন লোড করা যায়নি', options: [] });
         }
         return q;
       });
@@ -149,7 +132,7 @@
       setupQuizUI();
 
     } catch (err) {
-      console.error('[QuizEngine] Load failed:', err);
+      console.error(err);
       showLoading(false);
       showError(`প্রশ্ন লোড করতে সমস্যা হয়েছে। (${err.message})`);
     }
@@ -166,9 +149,7 @@
         savedAt:      Date.now(),
       };
       sessionStorage.setItem(STORAGE_SESSION, JSON.stringify(session));
-    } catch (e) {
-      console.warn('[QuizEngine] Session save failed:', e);
-    }
+    } catch (e) {}
   }
 
   function restoreSession() {
@@ -180,26 +161,59 @@
         state.userAnswers  = session.userAnswers  || {};
         state.startTime    = session.startTime    || Date.now();
         state.currentIndex = session.currentIndex || 0;
-        if (state.currentIndex >= state.questions.length) {
-          state.currentIndex = 0;
-        }
+        if (state.currentIndex >= state.questions.length) state.currentIndex = 0;
       }
       sessionStorage.removeItem(STORAGE_SESSION);
-    } catch (e) {
-      console.warn('[QuizEngine] Session restore failed:', e);
-    }
+    } catch (e) {}
   }
 
   function setupQuizUI() {
-    const el = dom.questionCard;
-    if (el) el.removeAttribute('hidden');
-    const nav = dom.quizNav;
-    if (nav) nav.removeAttribute('hidden');
+    if (dom.questionCard) dom.questionCard.removeAttribute('hidden');
+    if (dom.quizNav) dom.quizNav.removeAttribute('hidden');
     if (dom.navTotal) dom.navTotal.textContent = toBn(state.questions.length);
     setupPalette(state.questions.length);
     if (dom.sidebarSubmitBtn) dom.sidebarSubmitBtn.removeAttribute('hidden');
     renderQuestion(state.currentIndex);
     startTimer();
+    initSwipe(); // <-- add swipe
+    addSwipeHint();
+  }
+
+  function addSwipeHint() {
+    const existing = document.querySelector('.swipe-hint');
+    if (existing) return;
+    const hint = document.createElement('div');
+    hint.className = 'swipe-hint';
+    hint.innerHTML = '← সোয়াইপ করে আগের প্রশ্ন  |  পরের প্রশ্ন → সোয়াইপ করুন';
+    const container = dom.questionCard?.parentNode;
+    if (container && !container.querySelector('.swipe-hint')) {
+      container.insertBefore(hint, dom.questionCard.nextSibling);
+    }
+  }
+
+  function initSwipe() {
+    const card = document.getElementById('question-card');
+    if (!card) return;
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const minSwipeDistance = 60;
+
+    card.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    
+    card.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      const delta = touchEndX - touchStartX;
+      if (Math.abs(delta) > minSwipeDistance) {
+        if (delta > 0 && state.currentIndex > 0) {
+          navigateQuestion('prev');
+        } else if (delta < 0 && state.currentIndex < state.questions.length - 1) {
+          navigateQuestion('next');
+        }
+        if (navigator.vibrate) navigator.vibrate(20);
+      }
+    });
   }
 
   function updateHeader() {
@@ -210,79 +224,41 @@
     document.title = 'সেট ' + setNum + ' — ' + subjectName + ' | WB ANM GNM 2026';
   }
 
-  /* ── RENDER QUESTION (with safety checks) ── */
   function renderQuestion(index) {
     const q = state.questions[index];
-    if (!q) {
-      console.error('[QuizEngine] Question at index', index, 'is undefined');
-      return;
-    }
-    // Check if question is valid
-    if (!q.question || (q.options && q.options.length === 0 && q.multi !== true)) {
-      if (dom.questionText) dom.questionText.textContent = 'এই প্রশ্নটি লোড করা যায়নি।';
-      if (dom.optionsList) dom.optionsList.innerHTML = '';
-      return;
-    }
-
+    if (!q) return;
     state.currentIndex = index;
 
     if (dom.questionNumber) dom.questionNumber.textContent = toBn(index + 1);
     if (dom.questionText) dom.questionText.textContent = q.question || '';
 
     const isMulti = q.multi === true;
-
-    if (dom.badgeMulti) {
-      if (isMulti) dom.badgeMulti.removeAttribute('hidden');
-      else dom.badgeMulti.setAttribute('hidden', '');
-    }
-
+    if (dom.badgeMulti) isMulti ? dom.badgeMulti.removeAttribute('hidden') : dom.badgeMulti.setAttribute('hidden', '');
     if (dom.questionMarksBadge) {
       if (isMulti) {
         dom.questionMarksBadge.classList.add('is-multi');
-        dom.questionMarksBadge.setAttribute('aria-label', 'নম্বর বণ্টন: বহু সঠিক সর্বোচ্চ +২');
       } else {
         dom.questionMarksBadge.classList.remove('is-multi');
-        dom.questionMarksBadge.setAttribute('aria-label', 'নম্বর বণ্টন: সঠিক +১, ভুল -০.২৫');
       }
     }
 
-    if (dom.badgeDifficulty) {
-      if (q.difficulty) {
-        dom.badgeDifficulty.removeAttribute('hidden');
-        dom.badgeDifficulty.className = 'badge-difficulty';
-        const diffMap = {
-          easy:   { label: 'সহজ',   cls: 'badge-difficulty--easy'   },
-          medium: { label: 'মাঝারি', cls: 'badge-difficulty--medium' },
-          hard:   { label: 'কঠিন',  cls: 'badge-difficulty--hard'   },
-        };
-        const diff = diffMap[q.difficulty] || null;
-        if (diff) {
-          dom.badgeDifficulty.classList.add(diff.cls);
-          dom.badgeDifficulty.textContent = diff.label;
-        } else {
-          dom.badgeDifficulty.setAttribute('hidden', '');
-        }
-      } else {
-        dom.badgeDifficulty.setAttribute('hidden', '');
-      }
+    // difficulty badge
+    if (dom.badgeDifficulty && q.difficulty) {
+      dom.badgeDifficulty.removeAttribute('hidden');
+      const diffMap = { easy: 'সহজ', medium: 'মাঝারি', hard: 'কঠিন' };
+      dom.badgeDifficulty.textContent = diffMap[q.difficulty] || q.difficulty;
+      dom.badgeDifficulty.className = `badge-difficulty badge-difficulty--${q.difficulty}`;
+    } else if (dom.badgeDifficulty) {
+      dom.badgeDifficulty.setAttribute('hidden', '');
     }
 
+    // meta
     if (dom.questionMeta) {
       if (q.unit || q.type) {
         dom.questionMeta.removeAttribute('hidden');
         dom.questionMeta.innerHTML = '';
-        if (q.unit) {
-          const tag = document.createElement('span');
-          tag.className = 'question-meta__tag';
-          tag.textContent = q.unit;
-          dom.questionMeta.appendChild(tag);
-        }
-        if (q.type) {
-          const tag = document.createElement('span');
-          tag.className = 'question-meta__tag';
-          tag.textContent = q.type;
-          dom.questionMeta.appendChild(tag);
-        }
+        if (q.unit) dom.questionMeta.innerHTML += `<span class="question-meta__tag">${q.unit}</span>`;
+        if (q.type) dom.questionMeta.innerHTML += `<span class="question-meta__tag">${q.type}</span>`;
       } else {
         dom.questionMeta.setAttribute('hidden', '');
       }
@@ -300,82 +276,77 @@
     updateNavButtons(index);
     updateProgress(index);
     updatePaletteHighlight(index);
-
-    if (dom.questionCard) {
-      dom.questionCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    if (dom.questionCard) dom.questionCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  /* ── RENDER OPTIONS ── */
+  // FIXED MULTI-ANSWER RENDERING
   function renderOptions(question, savedAnswer) {
     if (!dom.optionsList) return;
     dom.optionsList.innerHTML = '';
 
     const isMulti = question.multi === true;
-
     dom.optionsList.setAttribute('role', isMulti ? 'group' : 'radiogroup');
-    dom.optionsList.setAttribute('aria-label', isMulti
-      ? 'উত্তর বিকল্প (একাধিক সঠিক)'
-      : `প্রশ্ন ${toBn(state.currentIndex + 1)}-এর উত্তর বিকল্প`
-    );
+    dom.optionsList.setAttribute('aria-label', isMulti ? 'উত্তর বিকল্প (একাধিক সঠিক)' : `প্রশ্ন ${toBn(state.currentIndex + 1)}-এর উত্তর বিকল্প`);
 
     const fragment = document.createDocumentFragment();
 
     if (isMulti) {
-      const warning = document.createElement('p');
+      const warning = document.createElement('div');
       warning.className = 'multi-warning';
-      warning.setAttribute('role', 'note');
-      warning.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ...>...</svg> এক বা একাধিক সঠিক উত্তর থাকতে পারে`;
+      warning.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> একাধিক সঠিক উত্তর থাকতে পারে (সবগুলো নির্বাচন করুন)`;
       fragment.appendChild(warning);
     }
 
-    if (!Array.isArray(question.options)) {
-      console.warn('[QuizEngine] No options array for', question.id);
-      return;
-    }
+    if (!Array.isArray(question.options)) return;
 
-    question.options.forEach((optionText, idx) => {
+    question.options.forEach((optText, idx) => {
+      const optionId = `opt-${question.id}-${idx}`;
+      const card = document.createElement('div');
+      card.className = isMulti ? 'multi-option-card' : 'option-card';
+      
+      let isSelected = false;
       if (isMulti) {
-        const label = document.createElement('label');
-        label.className = 'option-label';
-        label.htmlFor = `opt-${question.id}-${idx}`;
-        const isChecked = Array.isArray(savedAnswer) ? savedAnswer.includes(idx) : false;
-        if (isChecked) label.classList.add('option-label--selected');
-        const input = document.createElement('input');
-        input.type = 'checkbox';
-        input.id = `opt-${question.id}-${idx}`;
-        input.name = `q-${question.id}`;
-        input.value = idx;
-        input.checked = isChecked;
-        input.addEventListener('change', () => {
-          selectOptionMulti(question.id, idx, input.checked, label);
-        });
-        const optLabel = document.createElement('span');
-        optLabel.className = 'option-label-letter';
-        optLabel.textContent = OPTION_LABELS[idx];
-        optLabel.setAttribute('aria-hidden', 'true');
-        const optText = document.createElement('span');
-        optText.className = 'option-text';
-        optText.textContent = optionText;
-        label.appendChild(input);
-        label.appendChild(optLabel);
-        label.appendChild(optText);
-        fragment.appendChild(label);
+        const userArr = Array.isArray(savedAnswer) ? savedAnswer : [];
+        isSelected = userArr.includes(idx);
       } else {
-        const isSelected = savedAnswer === idx;
-        const btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'option-card' + (isSelected ? ' option-card--selected' : '');
-        btn.setAttribute('role', 'radio');
-        btn.setAttribute('aria-checked', isSelected ? 'true' : 'false');
-        btn.setAttribute('aria-label', `বিকল্প ${OPTION_LABELS[idx]}: ${optionText}`);
-        btn.dataset.optionIndex = idx;
-        btn.innerHTML = `<span class="option-label" aria-hidden="true">${OPTION_LABELS[idx]}</span><span class="option-text">${optionText}</span>`;
-        btn.addEventListener('click', () => {
-          selectOptionSingle(question.id, idx);
-        });
-        fragment.appendChild(btn);
+        isSelected = (savedAnswer === idx);
       }
+      if (isSelected) card.classList.add('option-card--selected');
+
+      const letterSpan = document.createElement('span');
+      letterSpan.className = 'option-letter';
+      letterSpan.textContent = OPTION_LABELS[idx] || String.fromCharCode(65+idx);
+
+      const textSpan = document.createElement('span');
+      textSpan.className = 'option-text';
+      textSpan.textContent = optText;
+
+      if (isMulti) {
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.id = optionId;
+        cb.checked = isSelected;
+        cb.addEventListener('change', (e) => {
+          e.stopPropagation();
+          selectOptionMulti(question.id, idx, cb.checked, card);
+        });
+        card.appendChild(cb);
+        card.appendChild(letterSpan);
+        card.appendChild(textSpan);
+        card.addEventListener('click', (e) => {
+          if (e.target !== cb) {
+            cb.checked = !cb.checked;
+            selectOptionMulti(question.id, idx, cb.checked, card);
+          }
+        });
+      } else {
+        card.setAttribute('role', 'radio');
+        card.setAttribute('aria-checked', isSelected ? 'true' : 'false');
+        card.addEventListener('click', () => selectOptionSingle(question.id, idx));
+        card.appendChild(letterSpan);
+        card.appendChild(textSpan);
+      }
+      fragment.appendChild(card);
     });
 
     dom.optionsList.appendChild(fragment);
@@ -396,20 +367,20 @@
     checkAllAnswered();
   }
 
-  function selectOptionMulti(questionId, optionIndex, isChecked, labelEl) {
+  function selectOptionMulti(questionId, optionIndex, isChecked, cardEl) {
     if (state.isSubmitted) return;
     let current = Array.isArray(state.userAnswers[questionId]) ? [...state.userAnswers[questionId]] : [];
     if (isChecked) {
       if (!current.includes(optionIndex)) {
         current.push(optionIndex);
-        current.sort((a, b) => a - b);
+        current.sort((a,b)=>a-b);
       }
     } else {
       current = current.filter(i => i !== optionIndex);
     }
-    if (labelEl) {
-      if (isChecked) labelEl.classList.add('option-label--selected');
-      else labelEl.classList.remove('option-label--selected');
+    if (cardEl) {
+      if (isChecked) cardEl.classList.add('option-card--selected');
+      else cardEl.classList.remove('option-card--selected');
     }
     if (current.length > 0) {
       state.userAnswers[questionId] = current;
@@ -439,13 +410,9 @@
       btn.type = 'button';
       btn.id = `palette-cell-${i}`;
       btn.setAttribute('role', 'listitem');
-      btn.setAttribute('aria-label', `প্রশ্ন ${toBn(i + 1)}${q && q.multi ? ' (বহু সঠিক)' : ''}`);
       btn.textContent = toBn(i + 1);
       btn.className = 'palette-num';
-      if (q && q.multi === true) {
-        btn.classList.add('palette-num--multi');
-        btn.title = 'বহু সঠিক উত্তর প্রশ্ন';
-      }
+      if (q && q.multi === true) btn.classList.add('palette-num--multi');
       btn.addEventListener('click', () => {
         navigateToQuestion(i);
         if (window.innerWidth < 1024) closePalette();
@@ -463,20 +430,16 @@
     if (!q) return;
     const attempted = isAttempted(q);
     const isCurrent = index === state.currentIndex;
-    const isMulti = q.multi === true;
     cell.className = 'palette-num';
-    if (isMulti) cell.classList.add('palette-num--multi');
+    if (q.multi === true) cell.classList.add('palette-num--multi');
     if (attempted) cell.classList.add('palette-num--answered');
     if (isCurrent) cell.classList.add('palette-num--current');
   }
 
   function updatePaletteHighlight(newIndex) {
-    if (!dom.paletteGrid) return;
     state.questions.forEach((_, idx) => updatePaletteCell(idx));
     const currentCell = document.getElementById(`palette-cell-${newIndex}`);
-    if (currentCell) {
-      currentCell.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
+    if (currentCell) currentCell.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
   function navigateQuestion(direction) {
@@ -488,9 +451,7 @@
   }
 
   function navigateToQuestion(index) {
-    if (index >= 0 && index < state.questions.length) {
-      renderQuestion(index);
-    }
+    if (index >= 0 && index < state.questions.length) renderQuestion(index);
   }
 
   function updateNavButtons(index) {
@@ -520,9 +481,9 @@
   function updateProgress(currentIndex) {
     const total = state.questions.length;
     const answered = state.questions.filter(q => isAttempted(q)).length;
-    const answeredPct = total > 0 ? (answered / total) * 100 : 0;
+    const pct = total > 0 ? (answered / total) * 100 : 0;
     if (dom.progressText) dom.progressText.textContent = `${toBn(answered)} / ${toBn(total)}`;
-    if (dom.progressMiniFill) dom.progressMiniFill.style.width = `${answeredPct}%`;
+    if (dom.progressMiniFill) dom.progressMiniFill.style.width = `${pct}%`;
   }
 
   function startTimer() {
@@ -543,10 +504,7 @@
   }
 
   function stopTimer() {
-    if (state.timerInterval) {
-      clearInterval(state.timerInterval);
-      state.timerInterval = null;
-    }
+    if (state.timerInterval) clearInterval(state.timerInterval);
   }
 
   function getElapsedSeconds() {
@@ -559,10 +517,6 @@
     if (dom.paletteBackdrop) dom.paletteBackdrop.classList.add('visible');
     if (dom.paletteToggleBtn) dom.paletteToggleBtn.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
-    requestAnimationFrame(() => {
-      const firstCell = dom.paletteGrid && dom.paletteGrid.querySelector('.palette-num');
-      if (firstCell) firstCell.focus();
-    });
   }
 
   function closePalette() {
@@ -591,7 +545,6 @@
     `;
     if (dom.confirmOverlay) dom.confirmOverlay.removeAttribute('hidden');
     document.body.style.overflow = 'hidden';
-    requestAnimationFrame(() => { if (dom.confirmSubmitBtn) dom.confirmSubmitBtn.focus(); });
   }
 
   function hideSubmitConfirm() {
@@ -608,23 +561,21 @@
     try {
       result = QuizScorer.calculateScore(state.questions, state.userAnswers);
     } catch (e) {
-      console.error('[QuizEngine] Score calculation failed:', e);
       result = { score: 0, correct: 0, wrong: 0, unattempted: state.questions.length, total: state.questions.length, percentage: '0.0', multiCount: 0, multiScore: 0 };
     }
     result.timeTaken = timeTaken;
     let details = [];
     try {
       details = QuizScorer.getDetailedResults(state.questions, state.userAnswers);
-    } catch (e) { console.error('[QuizEngine] getDetailedResults failed:', e); }
+    } catch (e) {}
     try {
       QuizStorage.saveQuizResult(state.subject, state.set, result);
       QuizStorage.markSetCompleted(state.subject, state.set);
       QuizStorage.saveResultDetails(details, result, state.subject, state.set);
-    } catch (e) { console.error('[QuizEngine] Storage save failed:', e); }
-    try { sessionStorage.removeItem(STORAGE_SESSION); } catch (e) {}
+    } catch (e) {}
+    try { sessionStorage.removeItem(STORAGE_SESSION); } catch(e) {}
     const setStr = String(state.set).padStart(2, '0');
-    const url = `${RESULT_PAGE}?subject=${encodeURIComponent(state.subject)}&set=${encodeURIComponent(setStr)}`;
-    window.location.href = url;
+    window.location.href = `${RESULT_PAGE}?subject=${encodeURIComponent(state.subject)}&set=${setStr}`;
   }
 
   function bindEvents() {
@@ -642,16 +593,13 @@
         case 'confirm-submit-btn': hideSubmitConfirm(); submitQuiz(); break;
         case 'palette-toggle-btn': togglePalette(); break;
         case 'palette-close-btn': closePalette(); break;
-        default: break;
       }
     });
     if (dom.paletteBackdrop) dom.paletteBackdrop.addEventListener('click', closePalette);
-    if (dom.confirmOverlay) {
-      dom.confirmOverlay.addEventListener('click', (e) => { if (e.target === dom.confirmOverlay) hideSubmitConfirm(); });
-    }
+    if (dom.confirmOverlay) dom.confirmOverlay.addEventListener('click', (e) => { if (e.target === dom.confirmOverlay) hideSubmitConfirm(); });
     document.addEventListener('keydown', handleKeyboard);
     window.addEventListener('beforeunload', (e) => {
-      if (!state.isSubmitted && state.questions.length > 0) {
+      if (!state.isSubmitted && state.questions.length) {
         saveSession();
         e.preventDefault();
         e.returnValue = '';
@@ -663,32 +611,24 @@
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
     const confirmOpen = dom.confirmOverlay && !dom.confirmOverlay.hidden;
     const paletteOpen = state.isPaletteOpen && window.innerWidth < 1024;
-    switch (e.key) {
-      case 'ArrowRight': case 'PageDown':
-        if (!confirmOpen && !paletteOpen) { e.preventDefault(); navigateQuestion('next'); } break;
-      case 'ArrowLeft': case 'PageUp':
-        if (!confirmOpen && !paletteOpen) { e.preventDefault(); navigateQuestion('prev'); } break;
-      case '1': case '2': case '3': case '4':
-        if (!confirmOpen && !paletteOpen) {
-          const q = state.questions[state.currentIndex];
-          if (q && q.multi !== true) {
-            const idx = parseInt(e.key, 10) - 1;
-            if (idx < q.options.length) selectOptionSingle(q.id, idx);
-          }
-        } break;
-      case 'Escape':
-        if (confirmOpen) hideSubmitConfirm();
-        else if (paletteOpen) closePalette(); break;
-      case 'Enter':
-        if (confirmOpen && document.activeElement === dom.confirmSubmitBtn) { hideSubmitConfirm(); submitQuiz(); } break;
-      default: break;
+    if (e.key === 'ArrowRight' && !confirmOpen && !paletteOpen) { e.preventDefault(); navigateQuestion('next'); }
+    else if (e.key === 'ArrowLeft' && !confirmOpen && !paletteOpen) { e.preventDefault(); navigateQuestion('prev'); }
+    else if (['1','2','3','4'].includes(e.key) && !confirmOpen && !paletteOpen) {
+      const q = state.questions[state.currentIndex];
+      if (q && q.multi !== true) {
+        const idx = parseInt(e.key,10)-1;
+        if (idx < q.options.length) selectOptionSingle(q.id, idx);
+      }
+    }
+    else if (e.key === 'Escape') {
+      if (confirmOpen) hideSubmitConfirm();
+      else if (paletteOpen) closePalette();
     }
   }
 
   function showLoading(visible) {
     if (!dom.quizLoading) return;
-    if (visible) dom.quizLoading.removeAttribute('hidden');
-    else dom.quizLoading.setAttribute('hidden', '');
+    visible ? dom.quizLoading.removeAttribute('hidden') : dom.quizLoading.setAttribute('hidden', '');
   }
 
   function showError(message) {
