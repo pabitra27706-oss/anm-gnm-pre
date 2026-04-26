@@ -2,15 +2,25 @@
    practice/js/practice-app.js
    Subject loader, modal handler, navigation
    WB ANM GNM 2026 Preparation Platform
+
+   UPDATED FOR NEW JSON FORMAT:
+   ─────────────────────────────────────────────
+   1. Reads new manifest.json structure with 6 subjects
+   2. Subject keys: life-science, general-science,
+      arithmetic-mathematics, reasoning-general-knowledge,
+      general-knowledge, english-grammar
+   3. Uses QuizStorage.getSubjectProgress() for stats
+   4. Handles varying set counts per subject (not fixed 10)
+   5. Set URLs padded to 2 digits: set-01, set-02, etc.
+   6. Updated SVG icons for new subjects
+   7. Displays total files (467) and questions (15,410)
    ============================================================ */
 
 (function PracticeApp() {
   'use strict';
 
   /* ── Constants ── */
-  const MANIFEST_PATH     = 'data/manifest.json';
-  const STORAGE_COMPLETED = 'practice_completed';
-  const STORAGE_RESULTS   = 'practice_results';
+  const MANIFEST_PATH = 'data/manifest.json';
 
   /* ── State ── */
   let manifest        = null;
@@ -21,6 +31,11 @@
   let elLoading;
   let elError;
   let elStats;
+  let elStatCompleted;
+  let elStatTotal;
+  let elStatBest;
+  let elStatTotalSets;        /* NEW */
+  let elStatTotalQuestions;   /* NEW */
   let elOverlay;
   let elModalIcon;
   let elModalTitle;
@@ -33,7 +48,7 @@
 
   /* ============================================================
      INIT
-     ============================================================ */
+  ============================================================ */
   document.addEventListener('DOMContentLoaded', init);
 
   function init() {
@@ -44,24 +59,31 @@
 
   /* Resolve all DOM references once */
   function resolveDOM() {
-    elGrid             = document.getElementById('subject-grid');
-    elLoading          = document.getElementById('loading-state');
-    elError            = document.getElementById('error-state');
-    elStats            = document.getElementById('overall-stats');
-    elOverlay          = document.getElementById('modal-overlay');
-    elModalIcon        = document.getElementById('modal-icon');
-    elModalTitle       = document.getElementById('modal-title');
-    elModalSubtitle    = document.getElementById('modal-subtitle');
-    elSetGrid          = document.getElementById('set-grid');
-    elProgressText     = document.getElementById('modal-progress-text');
-    elProgressFill     = document.getElementById('modal-progress-fill');
-    elProgressBarWrap  = document.getElementById('modal-progress-bar-wrap');
-    elCloseBtn         = document.getElementById('modal-close-btn');
+    elGrid                = document.getElementById('subject-grid');
+    elLoading             = document.getElementById('loading-state');
+    elError               = document.getElementById('error-state');
+    elStats               = document.getElementById('overall-stats');
+    elStatCompleted       = document.getElementById('stat-completed');
+    elStatTotal           = document.getElementById('stat-total');
+    elStatBest            = document.getElementById('stat-best');
+    /* NEW: manifest summary stats */
+    elStatTotalSets       = document.getElementById('stat-total-sets');
+    elStatTotalQuestions  = document.getElementById('stat-total-questions');
+    elOverlay             = document.getElementById('modal-overlay');
+    elModalIcon           = document.getElementById('modal-icon');
+    elModalTitle          = document.getElementById('modal-title');
+    elModalSubtitle       = document.getElementById('modal-subtitle');
+    elSetGrid             = document.getElementById('set-grid');
+    elProgressText        = document.getElementById('modal-progress-text');
+    elProgressFill        = document.getElementById('modal-progress-fill');
+    elProgressBarWrap     = document.getElementById('modal-progress-bar-wrap');
+    elCloseBtn            = document.getElementById('modal-close-btn');
   }
 
   /* ============================================================
      MANIFEST LOADER
-     ============================================================ */
+     UPDATED: validates new structure, reads totalFiles/totalQuestions
+  ============================================================ */
   async function loadManifest() {
     showLoading(true);
 
@@ -72,10 +94,28 @@
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
 
-      manifest = await response.json();
+      const data = await response.json();
+
+      /*
+        UPDATED validation: new format has subjects object
+        {
+          subjects: {
+            "life-science": { name, english, sets, ... },
+            ...
+          },
+          totalFiles: 467,
+          totalQuestions: 15410
+        }
+      */
+      if (!data || !data.subjects || typeof data.subjects !== 'object') {
+        throw new Error('ম্যানিফেস্ট ফরম্যাট সঠিক নয়।');
+      }
+
+      manifest = data;
+
       showLoading(false);
       renderSubjects(manifest.subjects);
-      renderOverallStats(manifest.subjects);
+      renderOverallStats(manifest);
 
     } catch (err) {
       console.error('[PracticeApp] Manifest load failed:', err);
@@ -86,14 +126,30 @@
 
   /* ============================================================
      RENDER SUBJECTS
-     ============================================================ */
+     UPDATED: uses QuizStorage.getSubjectProgress()
+  ============================================================ */
   function renderSubjects(subjects) {
-    const completed = getCompletionStatus();
-    const fragment  = document.createDocumentFragment();
+    if (!elGrid) return;
 
+    const fragment = document.createDocumentFragment();
+
+    /*
+      UPDATED: iterate new subject keys
+      Expected keys (from manifest):
+        life-science
+        general-science
+        arithmetic-mathematics
+        reasoning-general-knowledge
+        general-knowledge
+        english-grammar
+    */
     Object.entries(subjects).forEach(([id, data]) => {
-      const completedSets = completed[id] || [];
-      const card = buildSubjectCard(id, data, completedSets);
+      /*
+        UPDATED: use QuizStorage.getSubjectProgress()
+        which returns { completedCount, totalSets, progressPct, bestScore, lastPlayed }
+      */
+      const progress = QuizStorage.getSubjectProgress(id, data.sets);
+      const card     = buildSubjectCard(id, data, progress);
       fragment.appendChild(card);
     });
 
@@ -101,27 +157,53 @@
     elGrid.removeAttribute('hidden');
   }
 
-  /* Build one subject card element */
-  function buildSubjectCard(id, data, completedSets) {
-    const total      = data.totalSets;
-    const done       = completedSets.length;
-    const pct        = total > 0 ? Math.round((done / total) * 100) : 0;
+  /* ============================================================
+     BUILD SUBJECT CARD
+     UPDATED: uses progress.completedCount, .progressPct, .bestScore
+              displays data.sets (not hardcoded 10)
+  ============================================================ */
+  function buildSubjectCard(id, data, progress) {
+    if (!data) return document.createElement('div');
+
+    const total = data.sets || 0;
+    const done  = progress.completedCount || 0;
+    const pct   = progress.progressPct    || 0;
 
     const card = document.createElement('article');
-    card.className    = 'subject-card';
-    card.tabIndex     = 0;
-    card.role         = 'button';
-    card.style.setProperty('--card-color',       data.color);
-    card.style.setProperty('--card-color-light',  data.colorLight);
+    card.className = 'subject-card';
+    card.tabIndex  = 0;
+    card.role      = 'button';
+
+    /* Set CSS custom properties for card color */
+    card.style.setProperty('--card-color', data.color || '#6366f1');
+    card.style.setProperty(
+      '--card-color-light',
+      data.colorLight || `${data.color}15` /* fallback 15% opacity */
+    );
+
     card.setAttribute('aria-label',
       `${data.name} — ${done}/${total} সেট সম্পন্ন। সেট বেছে নিতে ক্লিক করুন।`
     );
     card.dataset.subjectId = id;
 
+    /*
+      UPDATED icon mapping: new subjects get new icons
+      Map subject ID → icon name
+    */
+    const iconMap = {
+      'life-science':                'microscope',
+      'general-science':             'atom',
+      'arithmetic-mathematics':      'calculator',
+      'reasoning-general-knowledge': 'brain',
+      'general-knowledge':           'globe',
+      'english-grammar':             'book',
+    };
+    const iconName = iconMap[id] || 'book';
+
     card.innerHTML = `
       <div class="subject-card__top">
         <div class="subject-card__icon" aria-hidden="true">
-          ${getSubjectSVG(data.icon, data.color)}
+          ${getSubjectSVG(iconName, data.color)}
         </div>
         <div class="subject-card__names">
           <span class="subject-card__name-bn">${data.name}</span>
@@ -131,13 +213,15 @@
 
       <div class="subject-card__meta">
         <div class="subject-card__sets">
-          <span class="subject-card__sets-count">${total}</span>
+          <span class="subject-card__sets-count">
+            ${toBn(total)}
+          </span>
           <span>&nbsp;টি সেট উপলব্ধ</span>
         </div>
         ${done > 0
           ? `<span class="subject-card__completed-badge"
                aria-label="${done}টি সম্পন্ন">
-               ✓ ${done} সম্পন্ন
+               ✓ ${toBn(done)} সম্পন্ন
              </span>`
           : ''
         }
@@ -146,7 +230,7 @@
       <div class="subject-card__progress-wrap">
         <div class="subject-card__progress-label">
           <span>অগ্রগতি</span>
-          <span>${pct}%</span>
+          <span>${toBn(Math.round(pct))}%</span>
         </div>
         <div class="subject-card__progress-bar"
              role="progressbar"
@@ -170,7 +254,7 @@
     `;
 
     /* Events */
-    card.addEventListener('click',   () => showSetModal(id, data));
+    card.addEventListener('click', () => showSetModal(id, data));
     card.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
@@ -183,53 +267,99 @@
 
   /* ============================================================
      SET SELECTION MODAL
-     ============================================================ */
+     UPDATED: uses data.sets (not hardcoded 10)
+              generates buttons from 1 to data.sets
+  ============================================================ */
   function showSetModal(subjectId, data) {
+    if (!elOverlay || !data) return;
+
     activeSubjectId = subjectId;
 
-    const completedSets = (getCompletionStatus()[subjectId] || []);
-    const total         = data.totalSets;
-    const done          = completedSets.length;
-    const pct           = total > 0 ? Math.round((done / total) * 100) : 0;
+    /*
+      UPDATED: use QuizStorage.getSubjectProgress()
+      instead of reading localStorage directly
+    */
+    const progress = QuizStorage.getSubjectProgress(subjectId, data.sets);
+    const total    = data.sets || 0;
+    const done     = progress.completedCount || 0;
+    const pct      = progress.progressPct    || 0;
 
     /* Set modal color vars */
-    elOverlay.style.setProperty('--modal-color',       data.color);
-    elOverlay.style.setProperty('--modal-color-light',  data.colorLight);
+    elOverlay.style.setProperty('--modal-color',       data.color || '#6366f1');
+    elOverlay.style.setProperty('--modal-color-light',
+      data.colorLight || `${data.color}15`
+    );
 
     /* Fill header */
-    elModalIcon.style.background = data.colorLight;
-    elModalIcon.innerHTML        = getSubjectSVG(data.icon, data.color);
-    elModalTitle.textContent     = data.name;
-    elModalSubtitle.textContent  = `${data.english} — সেট নির্বাচন করুন`;
+    if (elModalIcon) {
+      elModalIcon.style.background = data.colorLight || `${data.color}15`;
+
+      const iconMap = {
+        'life-science':                'microscope',
+        'general-science':             'atom',
+        'arithmetic-mathematics':      'calculator',
+        'reasoning-general-knowledge': 'brain',
+        'general-knowledge':           'globe',
+        'english-grammar':             'book',
+      };
+      const iconName = iconMap[subjectId] || 'book';
+      elModalIcon.innerHTML = getSubjectSVG(iconName, data.color);
+    }
+
+    if (elModalTitle) {
+      elModalTitle.textContent = data.name;
+    }
+    if (elModalSubtitle) {
+      elModalSubtitle.textContent = `${data.english} — সেট নির্বাচন করুন`;
+    }
 
     /* Progress */
-    elProgressText.textContent               = `${done}/${total} সম্পন্ন`;
-    elProgressFill.style.width               = `${pct}%`;
-    elProgressBarWrap.setAttribute('aria-valuenow', done);
-    elProgressBarWrap.setAttribute('aria-valuemax', total);
+    if (elProgressText) {
+      elProgressText.textContent = `${toBn(done)}/${toBn(total)} সম্পন্ন`;
+    }
+    if (elProgressFill) {
+      elProgressFill.style.width = `${pct}%`;
+    }
+    if (elProgressBarWrap) {
+      elProgressBarWrap.setAttribute('aria-valuenow', done);
+      elProgressBarWrap.setAttribute('aria-valuemax', total);
+    }
 
     /* Build set buttons */
-    buildSetButtons(subjectId, data, completedSets);
+    buildSetButtons(subjectId, data);
 
     /* Show overlay */
     elOverlay.removeAttribute('hidden');
     document.body.style.overflow = 'hidden';
 
-    /* Focus first set button for accessibility */
+    /* Focus first set button */
     requestAnimationFrame(() => {
+      if (!elSetGrid) return;
       const firstBtn = elSetGrid.querySelector('.set-btn');
       if (firstBtn) firstBtn.focus();
     });
   }
 
-  function buildSetButtons(subjectId, data, completedSets) {
+  /* ============================================================
+     BUILD SET BUTTONS
+     UPDATED: creates buttons from 1 to data.sets
+              uses QuizStorage.isSetCompleted() + getBestScore()
+  ============================================================ */
+  function buildSetButtons(subjectId, data) {
+    if (!elSetGrid || !data) return;
+
     elSetGrid.innerHTML = '';
     const fragment = document.createDocumentFragment();
+    const total    = data.sets || 0;
 
-    for (let i = 1; i <= data.totalSets; i++) {
-      const setNum    = String(i).padStart(2, '0');
-      const isDone    = completedSets.includes(i);
-      const btnLabel  = `সেট ${i}${isDone ? ' — সম্পন্ন' : ''}`;
+    for (let i = 1; i <= total; i++) {
+      /*
+        UPDATED: pad set number to 2 digits (01, 02, ... 146)
+        Matches new JSON file naming: set-01.json, set-146.json
+      */
+      const setNum   = String(i).padStart(2, '0');
+      const isDone   = QuizStorage.isSetCompleted(subjectId, i);
+      const btnLabel = `সেট ${i}${isDone ? ' — সম্পন্ন' : ''}`;
 
       const btn = document.createElement('button');
       btn.type      = 'button';
@@ -237,11 +367,13 @@
       btn.setAttribute('aria-label', btnLabel);
       btn.dataset.set = setNum;
 
-      /* Get best score for this set if completed */
-      const bestScore = isDone ? getBestScore(subjectId, i) : null;
+      /* Best score for this set if completed */
+      const bestScore = isDone
+        ? QuizStorage.getBestScore(subjectId, setNum)
+        : null;
 
       btn.innerHTML = `
-        <span class="set-btn__number">${i}</span>
+        <span class="set-btn__number">${toBn(i)}</span>
         <span class="set-btn__label">সেট</span>
         ${isDone
           ? `<span class="set-btn__check" aria-hidden="true">
@@ -254,7 +386,9 @@
           : ''
         }
         ${bestScore !== null
-          ? `<span class="set-btn__score" title="সেরা স্কোর">${bestScore}</span>`
+          ? `<span class="set-btn__score" title="সেরা স্কোর">
+               ${toBn(parseFloat(bestScore).toFixed(1))}
+             </span>`
           : ''
         }
       `;
@@ -264,7 +398,7 @@
       });
 
       btn.addEventListener('keydown', (e) => {
-        handleSetGridKeyNav(e, data.totalSets);
+        handleSetGridKeyNav(e, total);
       });
 
       fragment.appendChild(btn);
@@ -273,36 +407,58 @@
     elSetGrid.appendChild(fragment);
   }
 
-  /* Arrow-key navigation within set grid */
+  /* ============================================================
+     SET GRID KEYBOARD NAV
+     UPDATED: uses actual total count (not hardcoded 10)
+  ============================================================ */
   function handleSetGridKeyNav(e, total) {
+    if (!elSetGrid) return;
+
     const buttons = Array.from(elSetGrid.querySelectorAll('.set-btn'));
     const idx     = buttons.indexOf(document.activeElement);
     if (idx === -1) return;
 
-    const cols = 5; // 5 columns
+    const cols = 5; /* 5 columns in grid */
     let next   = -1;
 
     switch (e.key) {
-      case 'ArrowRight': next = Math.min(idx + 1, total - 1);      break;
-      case 'ArrowLeft':  next = Math.max(idx - 1, 0);              break;
-      case 'ArrowDown':  next = Math.min(idx + cols, total - 1);   break;
-      case 'ArrowUp':    next = Math.max(idx - cols, 0);           break;
-      default: return;
+      case 'ArrowRight':
+        next = Math.min(idx + 1, total - 1);
+        break;
+      case 'ArrowLeft':
+        next = Math.max(idx - 1, 0);
+        break;
+      case 'ArrowDown':
+        next = Math.min(idx + cols, total - 1);
+        break;
+      case 'ArrowUp':
+        next = Math.max(idx - cols, 0);
+        break;
+      default:
+        return;
     }
 
     e.preventDefault();
-    buttons[next].focus();
+    if (buttons[next]) buttons[next].focus();
   }
 
-  /* Navigate to quiz page */
+  /* ============================================================
+     NAVIGATE TO QUIZ
+     UPDATED: set parameter is already padded to 2 digits
+  ============================================================ */
   function navigateToQuiz(subjectId, setNum) {
+    /*
+      UPDATED URL format:
+      quiz.html?subject=life-science&set=01
+      quiz.html?subject=english-grammar&set=41
+    */
     const url = `quiz.html?subject=${encodeURIComponent(subjectId)}&set=${setNum}`;
     window.location.href = url;
   }
 
   /* ============================================================
      MODAL — CLOSE
-     ============================================================ */
+  ============================================================ */
   function bindGlobalEvents() {
     /* Close button */
     document.addEventListener('click', (e) => {
@@ -334,7 +490,7 @@
     elOverlay.setAttribute('hidden', '');
     document.body.style.overflow = '';
 
-    /* Return focus to the card that opened the modal */
+    /* Return focus to card */
     if (activeSubjectId) {
       const card = document.querySelector(
         `[data-subject-id="${activeSubjectId}"]`
@@ -346,74 +502,72 @@
 
   /* ============================================================
      OVERALL STATS
-     ============================================================ */
-  function renderOverallStats(subjects) {
-    const completed  = getCompletionStatus();
-    const results    = JSON.parse(
-      localStorage.getItem(STORAGE_RESULTS) || '[]'
-    );
+     UPDATED: displays manifest.totalFiles and .totalQuestions
+              counts completed sets across all subjects
+  ============================================================ */
+  function renderOverallStats(manifest) {
+    if (!elStats) return;
 
-    /* Count total completed sets across all subjects */
-    let totalDone = 0;
-    Object.values(completed).forEach(arr => {
-      totalDone += (arr || []).length;
-    });
+    /*
+      UPDATED: count total completed sets across all subjects
+      using QuizStorage.getCompletionStatus() which returns
+      { "life-science": [1,2,3], "general-science": [1], ... }
+    */
+    const completed = QuizStorage.getCompletionStatus();
+    let totalDone   = 0;
 
-    /* Best score ever */
+    if (completed && typeof completed === 'object') {
+      Object.values(completed).forEach(arr => {
+        if (Array.isArray(arr)) totalDone += arr.length;
+      });
+    }
+
+    /*
+      UPDATED: best score using QuizStorage.getStatistics()
+      which aggregates across all results
+    */
     let bestScore = null;
-    if (results.length > 0) {
-      const scores = results.map(r => parseFloat(r.score) || 0);
-      bestScore    = Math.max(...scores).toFixed(2);
+    try {
+      const stats = QuizStorage.getStatistics(); /* all subjects */
+      bestScore   = stats.bestScore || null;
+    } catch (e) {
+      console.warn('[PracticeApp] getStatistics failed:', e);
     }
 
-    const elCompleted = document.getElementById('stat-completed');
-    const elBest      = document.getElementById('stat-best');
-
-    if (elCompleted) {
-      elCompleted.textContent = toBengaliNumerals(totalDone);
+    /* Update DOM */
+    if (elStatCompleted) {
+      elStatCompleted.textContent = toBn(totalDone);
     }
-    if (elBest) {
-      elBest.textContent = bestScore !== null
-        ? toBengaliNumerals(bestScore)
+    if (elStatTotal) {
+      /* Total sets from manifest (467) */
+      elStatTotal.textContent = toBn(manifest.totalFiles || 467);
+    }
+    if (elStatBest) {
+      elStatBest.textContent = bestScore !== null
+        ? toBn(parseFloat(bestScore).toFixed(2))
         : '—';
+    }
+
+    /*
+      NEW: Update manifest summary stats in #manifest-stats
+      (from index.html new element)
+    */
+    if (elStatTotalSets) {
+      elStatTotalSets.textContent = toBn(manifest.totalFiles || 467);
+    }
+    if (elStatTotalQuestions) {
+      /* Format with comma: 15,410 → ১৫,৪১০ */
+      const total = manifest.totalQuestions || 15410;
+      const formatted = total.toLocaleString('en-US');
+      elStatTotalQuestions.textContent = toBn(formatted);
     }
 
     elStats.removeAttribute('hidden');
   }
 
   /* ============================================================
-     LOCAL STORAGE HELPERS
-     ============================================================ */
-
-  /* Returns { "life-science": [1,3,5], ... } */
-  function getCompletionStatus() {
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_COMPLETED) || '{}');
-    } catch {
-      return {};
-    }
-  }
-
-  /* Returns best score for a specific subject+set */
-  function getBestScore(subjectId, setNum) {
-    try {
-      const results = JSON.parse(
-        localStorage.getItem(STORAGE_RESULTS) || '[]'
-      );
-      const matching = results.filter(
-        r => r.subject === subjectId && parseInt(r.set) === setNum
-      );
-      if (matching.length === 0) return null;
-      const best = Math.max(...matching.map(r => parseFloat(r.score) || 0));
-      return best.toFixed(1);
-    } catch {
-      return null;
-    }
-  }
-
-  /* ============================================================
      UI STATE HELPERS
-     ============================================================ */
+  ============================================================ */
   function showLoading(visible) {
     if (!elLoading) return;
     if (visible) {
@@ -433,19 +587,24 @@
   }
 
   /* ============================================================
-     BENGALI NUMERALS CONVERTER
-     ============================================================ */
-  function toBengaliNumerals(num) {
+     BENGALI NUMERALS CONVERTER — updated alias
+  ============================================================ */
+  function toBn(num) {
     const map = {
       '0':'০','1':'১','2':'২','3':'৩','4':'৪',
-      '5':'৫','6':'৬','7':'৭','8':'৮','9':'৯'
+      '5':'৫','6':'৬','7':'৭','8':'৮','9':'৯',
+      ',':',', '.':'.'
     };
-    return String(num).replace(/[0-9]/g, d => map[d] || d);
+    return String(num).replace(/[0-9,.]/g, d => map[d] || d);
   }
 
+  /* Alias for backward compat */
+  const toBengaliNumerals = toBn;
+
   /* ============================================================
-     INLINE SVG ICONS (subject-specific)
-     ============================================================ */
+     INLINE SVG ICONS
+     UPDATED: uses new subject-specific icons
+  ============================================================ */
   function getSubjectSVG(iconName, color) {
     const c = color || '#6366f1';
     const icons = {
@@ -465,7 +624,7 @@
           <circle cx="10" cy="10" r="4"/>
         </svg>`,
 
-      /* Atom — Physical Science */
+      /* Atom — General Science (was Physical Science) */
       atom: `
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
           stroke="${c}" stroke-width="1.8"
@@ -481,7 +640,7 @@
                    -4.53 4.53-6.55 9.86-4.5 11.9z"/>
         </svg>`,
 
-      /* Calculator — Mathematics */
+      /* Calculator — Arithmetic Mathematics */
       calculator: `
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
           stroke="${c}" stroke-width="1.8"
@@ -513,7 +672,7 @@
                    15.3 15.3 0 0 1 4-10z"/>
         </svg>`,
 
-      /* Brain / Puzzle — Logical Reasoning */
+      /* Brain — Reasoning & General Knowledge */
       brain: `
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
           stroke="${c}" stroke-width="1.8"
@@ -530,7 +689,7 @@
                    2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z"/>
         </svg>`,
 
-      /* Book — Basic English */
+      /* Book — English Grammar */
       book: `
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
           stroke="${c}" stroke-width="1.8"

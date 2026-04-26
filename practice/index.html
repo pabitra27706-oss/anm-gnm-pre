@@ -21,9 +21,8 @@
   <!-- Practice styles -->
   <link rel="stylesheet" href="css/practice-layout.css" />
 
-  <!-- Inline styles for filter card -->
   <style>
-    /* Filter card special styling */
+    /* ── Filter feature card ── */
     .filter-feature-card {
       background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
       color: white;
@@ -38,7 +37,6 @@
       text-decoration: none;
       display: block;
     }
-
     .filter-feature-card::before {
       content: '';
       position: absolute;
@@ -50,12 +48,10 @@
       border-radius: 50%;
       pointer-events: none;
     }
-
     .filter-feature-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 8px 30px rgba(233, 30, 99, 0.5);
     }
-
     .filter-feature-card__header {
       display: flex;
       align-items: center;
@@ -64,7 +60,6 @@
       position: relative;
       z-index: 1;
     }
-
     .filter-feature-card__icon {
       width: 48px;
       height: 48px;
@@ -76,30 +71,23 @@
       flex-shrink: 0;
       backdrop-filter: blur(10px);
     }
-
     .filter-feature-card__icon svg {
       width: 26px;
       height: 26px;
       stroke: white;
     }
-
-    .filter-feature-card__title-wrap {
-      flex: 1;
-    }
-
+    .filter-feature-card__title-wrap { flex: 1; }
     .filter-feature-card__title {
       font-size: 1.35rem;
       font-weight: 700;
       margin: 0 0 4px 0;
       line-height: 1.2;
     }
-
     .filter-feature-card__subtitle {
       font-size: 0.82rem;
       opacity: 0.9;
       font-weight: 500;
     }
-
     .filter-feature-card__badge {
       position: absolute;
       top: 16px;
@@ -115,26 +103,22 @@
       z-index: 2;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
-
     .filter-feature-card__content {
       position: relative;
       z-index: 1;
     }
-
     .filter-feature-card__desc {
       font-size: 0.92rem;
       line-height: 1.6;
       opacity: 0.95;
       margin-bottom: 16px;
     }
-
     .filter-feature-card__features {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       margin-bottom: 16px;
     }
-
     .filter-feature-pill {
       background: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(10px);
@@ -146,13 +130,11 @@
       align-items: center;
       gap: 6px;
     }
-
     .filter-feature-pill svg {
       width: 14px;
       height: 14px;
       stroke: currentColor;
     }
-
     .filter-feature-card__cta {
       display: inline-flex;
       align-items: center;
@@ -166,25 +148,22 @@
       box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
       transition: all 0.2s;
     }
-
     .filter-feature-card__cta:hover {
       transform: translateX(4px);
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
     }
-
     .filter-feature-card__cta svg {
       width: 18px;
       height: 18px;
       stroke: currentColor;
     }
 
-    /* Divider between filter card and subject grid */
+    /* ── Section divider ── */
     .section-divider {
       margin: 32px 0;
       text-align: center;
       position: relative;
     }
-
     .section-divider::before {
       content: '';
       position: absolute;
@@ -194,7 +173,6 @@
       height: 1px;
       background: linear-gradient(to right, transparent, #e0e0e0, transparent);
     }
-
     .section-divider span {
       position: relative;
       background: #f5f5f5;
@@ -206,18 +184,37 @@
       letter-spacing: 0.5px;
     }
 
+    /* ── Multi-question badge (new) ── */
+    .badge-multi {
+      background: #1976d2;
+      color: white;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    /* ── Scoring info box (updated for new scoring) ── */
+    .scoring-info {
+      background: #f8f9fa;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 10px 16px;
+      font-size: 0.83rem;
+      color: #555;
+      margin-bottom: 8px;
+      line-height: 1.7;
+    }
+    .scoring-info strong { color: #333; }
+
     @media (max-width: 600px) {
-      .filter-feature-card__title {
-        font-size: 1.15rem;
-      }
+      .filter-feature-card__title { font-size: 1.15rem; }
       .filter-feature-card__badge {
         position: static;
         display: inline-block;
         margin-left: auto;
       }
-      .filter-feature-card__header {
-        flex-wrap: wrap;
-      }
+      .filter-feature-card__header { flex-wrap: wrap; }
     }
   </style>
 </head>
@@ -227,12 +224,7 @@
   <!-- ========== HEADER ========== -->
   <header class="practice-header" role="banner">
     <div class="practice-header__inner">
-      <a
-        href="/"
-        class="back-btn"
-        aria-label="হোমে ফিরে যান"
-      >
-        <!-- Arrow Left SVG -->
+      <a href="/" class="back-btn" aria-label="হোমে ফিরে যান">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2.5"
           stroke-linecap="round" stroke-linejoin="round"
@@ -262,20 +254,32 @@
         বিষয় বেছে নিন
       </h2>
       <p class="practice-intro__desc">
-        প্রতিটি বিষয়ে ১০টি সেট রয়েছে। প্রতিটি সেটে ২০টি প্রশ্ন।
-        সঠিক উত্তরে <strong>+১</strong> নম্বর, ভুল উত্তরে
-        <strong>−০.২৫</strong> নম্বর কাটা যাবে।
+        প্রতিটি বিষয়ে একাধিক সেট রয়েছে।
+        সঠিক উত্তরে <strong>+১</strong> নম্বর,
+        ভুল উত্তরে <strong>−০.২৫</strong> নম্বর কাটা যাবে।
+        বহু-সঠিক প্রশ্নে সম্পূর্ণ সঠিক হলে <strong>+২</strong>
+        এবং আংশিক সঠিকে আনুপাতিক নম্বর পাওয়া যাবে।
       </p>
     </section>
 
+    <!-- ── Stats summary (from manifest) ── -->
+    <div class="scoring-info" id="manifest-stats" aria-live="polite">
+      মোট বিষয়: <strong>৬</strong> &nbsp;|&nbsp;
+      মোট সেট: <strong id="stat-total-sets">৪৬৭</strong> &nbsp;|&nbsp;
+      মোট প্রশ্ন: <strong id="stat-total-questions">১৫,৪১০</strong>
+    </div>
+
     <!-- ========== FILTER FEATURE CARD ========== -->
-    <a href="./filter.html" class="filter-feature-card" aria-label="কাস্টম ফিল্টার কুইজ শুরু করুন">
+    <a href="./filter.html"
+       class="filter-feature-card"
+       aria-label="কাস্টম ফিল্টার কুইজ শুরু করুন">
+
       <span class="filter-feature-card__badge">নতুন ✨</span>
-      
+
       <div class="filter-feature-card__header">
         <div class="filter-feature-card__icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
-               stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
           </svg>
         </div>
@@ -287,7 +291,8 @@
 
       <div class="filter-feature-card__content">
         <p class="filter-feature-card__desc">
-          আপনার পছন্দ অনুযায়ী বিষয়, অধ্যায়, প্রশ্নের ধরন ও কঠিনতা নির্বাচন করে নিজের কুইজ তৈরি করুন
+          আপনার পছন্দ অনুযায়ী বিষয়, অধ্যায়, প্রশ্নের ধরন ও
+          কঠিনতা নির্বাচন করে নিজের কুইজ তৈরি করুন
         </p>
 
         <div class="filter-feature-card__features">
@@ -319,12 +324,20 @@
             </svg>
             র‍্যান্ডম ক্রম
           </span>
+          <!-- NEW: multi-correct pill -->
+          <span class="filter-feature-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 11 12 14 22 4"/>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+            </svg>
+            বহু-সঠিক প্রশ্ন
+          </span>
         </div>
 
         <div class="filter-feature-card__cta">
           <span>ফিল্টার কুইজ শুরু করুন</span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" 
-               stroke-linecap="round" stroke-linejoin="round">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="9 18 15 12 9 6"></polyline>
           </svg>
         </div>
@@ -374,7 +387,16 @@
       aria-label="বিষয় নির্বাচন"
       hidden
     >
-      <!-- Cards injected by practice-app.js -->
+      <!--
+        Cards injected by practice-app.js
+        Subject keys (from manifest):
+          life-science               → জীবন বিজ্ঞান        (70 sets, 50 Q)
+          general-science            → সাধারণ বিজ্ঞান       (146 sets, 30 Q)
+          arithmetic-mathematics     → গণিত                 (144 sets, 30 Q)
+          reasoning-general-knowledge→ যুক্তিবিদ্যা ও সাধারণ জ্ঞান (24 sets, 30 Q)
+          general-knowledge          → সাধারণ জ্ঞান         (42 sets, 30 Q)
+          english-grammar            → ইংরেজি ব্যাকরণ       (41 sets, 30 Q)
+      -->
     </section>
 
     <!-- Stats bar -->
@@ -385,7 +407,8 @@
       </div>
       <div class="stat-divider" aria-hidden="true"></div>
       <div class="stat-item">
-        <span class="stat-number" id="stat-total">৬০</span>
+        <!-- Updated: driven by manifest (467 total sets) -->
+        <span class="stat-number" id="stat-total">৪৬৭</span>
         <span class="stat-label">মোট সেট</span>
       </div>
       <div class="stat-divider" aria-hidden="true"></div>
@@ -492,8 +515,23 @@
     </div>
   </footer>
 
-  <!-- ========== SCRIPT ========== -->
+  <!-- ========== SCRIPTS ========== -->
   <script src="js/practice-app.js"></script>
 
+  <!--
+    practice-app.js must:
+    1. fetch('data/manifest.json')
+    2. Read subjects object with new keys:
+       life-science, general-science, arithmetic-mathematics,
+       reasoning-general-knowledge, general-knowledge, english-grammar
+    3. Use subject.name (Bengali) for display
+    4. Use subject.sets for set count (not hardcoded 10)
+    5. Update #stat-total with manifest.totalFiles
+    6. Update #stat-total-sets and #stat-total-questions
+       with manifest data
+    7. Build quiz URL as:
+       quiz.html?subject=<key>&set=<padded-number>
+       e.g. quiz.html?subject=life-science&set=01
+  -->
 </body>
 </html>

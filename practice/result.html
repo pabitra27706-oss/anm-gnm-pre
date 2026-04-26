@@ -19,6 +19,116 @@
   <link rel="stylesheet" href="/assets/css/utilities.css" />
   <link rel="stylesheet" href="css/practice-layout.css" />
   <link rel="stylesheet" href="css/result-card.css" />
+
+  <style>
+    /* ═══════════════════════════════════════════
+       NEW STYLES FOR MULTI-CORRECT SUPPORT
+    ═══════════════════════════════════════════ */
+
+    /* Multi badge in review items */
+    .badge-multi {
+      background: #1976d2;
+      color: white;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .badge-multi svg {
+      width: 11px;
+      height: 11px;
+      stroke: white;
+    }
+
+    /* Partial score display */
+    .partial-score {
+      color: #ff9800;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    /* Score breakdown for multi in review */
+    .score-multi {
+      border-left: 3px solid #1976d2;
+      padding-left: 8px;
+      margin: 6px 0 0 0;
+      font-size: 12px;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    /* Multi stat card in summary grid */
+    .score-stat--multi {
+      border-top: 3px solid #1976d2;
+    }
+    .score-stat--multi .score-stat__icon {
+      font-style: normal;
+    }
+
+    /* Multi chart bar */
+    .chart-bar-fill--multi {
+      background: linear-gradient(90deg, #1976d2, #42a5f5);
+    }
+
+    /* Score breakdown — updated rows */
+    .breakdown-row--multi {
+      border-left: 3px solid #1976d2;
+      padding-left: 8px;
+    }
+
+    /* Review item — multi correct answer display */
+    .review-option--correct-multi {
+      border: 1.5px solid #4caf50;
+      background: #e8f5e9;
+    }
+    .review-option--partial {
+      border: 1.5px solid #ff9800;
+      background: #fff3e0;
+    }
+    .review-option--wrong-multi {
+      border: 1.5px solid #f44336;
+      background: #ffebee;
+    }
+
+    /* Multi filter button */
+    .filter-btn[data-filter="multi"] {
+      border-color: #1976d2;
+    }
+    .filter-btn[data-filter="multi"].filter-btn--active {
+      background: #1976d2;
+      color: white;
+    }
+
+    /* Review score — partial */
+    .review-score-change--partial {
+      color: #ff9800;
+      font-weight: 700;
+    }
+
+    /* Multi options checkmark indicators */
+    .review-opt-icon--multi-correct {
+      color: #4caf50;
+      font-weight: 700;
+    }
+    .review-opt-icon--multi-missed {
+      color: #ff9800;
+      font-weight: 700;
+    }
+    .review-opt-icon--multi-wrong {
+      color: #f44336;
+      font-weight: 700;
+    }
+
+    /* Review item partial state */
+    .review-item--partial {
+      border-left: 4px solid #ff9800;
+    }
+  </style>
 </head>
 
 <body class="result-body">
@@ -27,7 +137,6 @@
   <header class="result-header" role="banner" id="result-header">
     <div class="result-header__inner">
 
-      <!-- Left: Back button -->
       <a
         href="index.html"
         class="back-btn back-btn--result"
@@ -43,7 +152,6 @@
         অনুশীলন
       </a>
 
-      <!-- Center: Title -->
       <div class="result-header__title">
         <h1>ফলাফল</h1>
         <span class="result-header__meta" id="result-header-meta">
@@ -51,7 +159,6 @@
         </span>
       </div>
 
-      <!-- Right: Print button -->
       <button
         class="print-btn"
         id="print-btn"
@@ -109,31 +216,24 @@
       </a>
     </div>
 
-    <!-- Result content (shown after load) -->
+    <!-- Result content -->
     <div class="result-content" id="result-content" hidden>
 
       <!-- ══════════════════════════════════════
            SECTION 1: SCORE SUMMARY
-           ══════════════════════════════════════ -->
-      <section
-        class="score-summary"
-        aria-labelledby="score-summary-heading"
-      >
+      ══════════════════════════════════════ -->
+      <section class="score-summary" aria-labelledby="score-summary-heading">
         <h2 id="score-summary-heading" class="sr-only">স্কোর সারসংক্ষেপ</h2>
 
-        <!-- Circular score + grade -->
+        <!-- Circular score -->
         <div class="score-circle-wrap">
-          <div class="score-circle" id="score-circle" role="img"
-            aria-label="স্কোর বৃত্ত">
-            <!-- SVG circle injected by JS -->
-            <svg class="score-svg" viewBox="0 0 120 120"
-              aria-hidden="true">
+          <div class="score-circle" id="score-circle"
+               role="img" aria-label="স্কোর বৃত্ত">
+            <svg class="score-svg" viewBox="0 0 120 120" aria-hidden="true">
               <circle
                 class="score-svg__track"
                 cx="60" cy="60" r="52"
-                fill="none"
-                stroke="#e2e8f0"
-                stroke-width="10"
+                fill="none" stroke="#e2e8f0" stroke-width="10"
               />
               <circle
                 class="score-svg__fill"
@@ -163,14 +263,19 @@
             <span class="score-stat__icon" aria-hidden="true">📊</span>
             <span class="score-stat__value" id="stat-score">০</span>
             <span class="score-stat__label">মোট নম্বর</span>
-            <span class="score-stat__sub" id="stat-score-max">/২০</span>
+            <span class="score-stat__sub" id="stat-score-max">/০</span>
           </div>
 
           <div class="score-stat score-stat--correct">
             <span class="score-stat__icon" aria-hidden="true">✅</span>
             <span class="score-stat__value" id="stat-correct">০</span>
             <span class="score-stat__label">সঠিক</span>
-            <span class="score-stat__sub">+১ প্রতিটি</span>
+            <!--
+              Sub-label updated by JS:
+              Single: "+১ প্রতিটি"
+              If multi present: "+১/+২ প্রতিটি"
+            -->
+            <span class="score-stat__sub" id="stat-correct-sub">+১ প্রতিটি</span>
           </div>
 
           <div class="score-stat score-stat--wrong">
@@ -185,6 +290,18 @@
             <span class="score-stat__value" id="stat-unattempted">০</span>
             <span class="score-stat__label">বাদ দেওয়া</span>
             <span class="score-stat__sub">০ নম্বর</span>
+          </div>
+
+          <!--
+            NEW: Multi stat card — shown by JS if multiCount > 0
+            id="stat-multi-wrap" hidden by default
+          -->
+          <div class="score-stat score-stat--multi"
+               id="stat-multi-wrap" hidden>
+            <span class="score-stat__icon" aria-hidden="true">☑️</span>
+            <span class="score-stat__value" id="stat-multi">০</span>
+            <span class="score-stat__label">বহু-সঠিক</span>
+            <span class="score-stat__sub">সর্বোচ্চ +২</span>
           </div>
 
           <div class="score-stat score-stat--time">
@@ -212,11 +329,8 @@
 
       <!-- ══════════════════════════════════════
            SECTION 2: PERFORMANCE CHART
-           ══════════════════════════════════════ -->
-      <section
-        class="performance-chart"
-        aria-labelledby="chart-heading"
-      >
+      ══════════════════════════════════════ -->
+      <section class="performance-chart" aria-labelledby="chart-heading">
         <h2 id="chart-heading" class="section-heading">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2"
@@ -231,61 +345,61 @@
 
         <div class="chart-bars" role="list">
 
-          <!-- Correct bar -->
           <div class="chart-bar-row" role="listitem">
             <span class="chart-bar-label">সঠিক</span>
             <div class="chart-bar-track" aria-hidden="true">
-              <div
-                class="chart-bar-fill chart-bar-fill--correct"
-                id="chart-correct"
-                style="width: 0%"
-              ></div>
+              <div class="chart-bar-fill chart-bar-fill--correct"
+                   id="chart-correct" style="width:0%"></div>
             </div>
             <span class="chart-bar-value" id="chart-correct-val">০</span>
           </div>
 
-          <!-- Wrong bar -->
           <div class="chart-bar-row" role="listitem">
             <span class="chart-bar-label">ভুল</span>
             <div class="chart-bar-track" aria-hidden="true">
-              <div
-                class="chart-bar-fill chart-bar-fill--wrong"
-                id="chart-wrong"
-                style="width: 0%"
-              ></div>
+              <div class="chart-bar-fill chart-bar-fill--wrong"
+                   id="chart-wrong" style="width:0%"></div>
             </div>
             <span class="chart-bar-value" id="chart-wrong-val">০</span>
           </div>
 
-          <!-- Unattempted bar -->
           <div class="chart-bar-row" role="listitem">
             <span class="chart-bar-label">বাদ দেওয়া</span>
             <div class="chart-bar-track" aria-hidden="true">
-              <div
-                class="chart-bar-fill chart-bar-fill--unattempted"
-                id="chart-unattempted"
-                style="width: 0%"
-              ></div>
+              <div class="chart-bar-fill chart-bar-fill--unattempted"
+                   id="chart-unattempted" style="width:0%"></div>
             </div>
             <span class="chart-bar-value" id="chart-unattempted-val">০</span>
+          </div>
+
+          <!--
+            NEW: Multi bar row — shown by JS if multiCount > 0
+            id="chart-multi-row" hidden by default
+          -->
+          <div class="chart-bar-row" role="listitem"
+               id="chart-multi-row" hidden>
+            <span class="chart-bar-label">বহু-সঠিক</span>
+            <div class="chart-bar-track" aria-hidden="true">
+              <div class="chart-bar-fill chart-bar-fill--multi"
+                   id="chart-multi" style="width:0%"></div>
+            </div>
+            <span class="chart-bar-value" id="chart-multi-val">০</span>
           </div>
 
         </div>
 
         <!-- Score breakdown text -->
         <div class="score-breakdown" id="score-breakdown">
-          <!-- Injected by JS -->
+          <!-- Injected by JS — updated to include multi rows -->
         </div>
 
       </section>
 
       <!-- ══════════════════════════════════════
            SECTION 3: QUESTION REVIEW
-           ══════════════════════════════════════ -->
-      <section
-        class="question-review"
-        aria-labelledby="review-heading"
-      >
+      ══════════════════════════════════════ -->
+      <section class="question-review" aria-labelledby="review-heading">
+
         <div class="review-header">
           <h2 id="review-heading" class="section-heading">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -302,37 +416,46 @@
             প্রশ্ন পর্যালোচনা
           </h2>
 
-          <!-- Filter buttons -->
-          <div class="review-filters" role="group"
-            aria-label="ফিল্টার করুন">
-            <button
-              class="filter-btn filter-btn--active"
-              data-filter="all"
-              type="button"
-              aria-pressed="true"
-            >সব</button>
-            <button
-              class="filter-btn"
-              data-filter="correct"
-              type="button"
-              aria-pressed="false"
-            >সঠিক</button>
-            <button
-              class="filter-btn"
-              data-filter="wrong"
-              type="button"
-              aria-pressed="false"
-            >ভুল</button>
-            <button
-              class="filter-btn"
-              data-filter="unattempted"
-              type="button"
-              aria-pressed="false"
-            >বাদ দেওয়া</button>
+          <!-- Filter buttons — NEW: added "multi" and "partial" filters -->
+          <div class="review-filters" role="group" aria-label="ফিল্টার করুন">
+            <button class="filter-btn filter-btn--active"
+              data-filter="all" type="button" aria-pressed="true">
+              সব
+            </button>
+            <button class="filter-btn"
+              data-filter="correct" type="button" aria-pressed="false">
+              সঠিক
+            </button>
+            <button class="filter-btn"
+              data-filter="wrong" type="button" aria-pressed="false">
+              ভুল
+            </button>
+            <button class="filter-btn"
+              data-filter="unattempted" type="button" aria-pressed="false">
+              বাদ দেওয়া
+            </button>
+            <!--
+              NEW: Multi filter — shown by JS if any multi questions exist
+              id="filter-btn-multi" hidden by default
+            -->
+            <button class="filter-btn"
+              data-filter="multi" type="button" aria-pressed="false"
+              id="filter-btn-multi" hidden>
+              বহু-সঠিক
+            </button>
+            <!--
+              NEW: Partial filter — shown by JS if any partial scores exist
+              id="filter-btn-partial" hidden by default
+            -->
+            <button class="filter-btn"
+              data-filter="partial" type="button" aria-pressed="false"
+              id="filter-btn-partial" hidden>
+              আংশিক
+            </button>
           </div>
         </div>
 
-        <!-- Question review list -->
+        <!-- Question review list — injected by JS -->
         <div
           class="review-list"
           id="review-list"
@@ -346,7 +469,7 @@
 
       <!-- ══════════════════════════════════════
            SECTION 4: ACTION BUTTONS
-           ══════════════════════════════════════ -->
+      ══════════════════════════════════════ -->
       <section class="action-buttons" aria-label="পদক্ষেপ সমূহ">
 
         <button
@@ -417,10 +540,9 @@
       </section>
 
     </div><!-- /.result-content -->
-
   </main>
 
-  <!-- ========== PRINT WATERMARK (only visible in print) ========== -->
+  <!-- Print watermark -->
   <div class="print-watermark" aria-hidden="true">
     WB ANM GNM 2026 — অনুশীলন ফলাফল
   </div>
@@ -430,60 +552,90 @@
   <script src="js/quiz-scorer.js"></script>
   <script src="js/quiz-print.js"></script>
 
-  <!-- Inline result renderer -->
   <script>
   /* ============================================================
-     Result Page Controller
-     Reads data from QuizStorage and renders all sections
-     ============================================================ */
+     Result Page Controller — Updated for new JSON format
+     Changes:
+       1. SUBJECT_NAMES uses new subject keys
+       2. renderScoreSummary handles multi stats
+       3. renderScoreBreakdown shows multi scoring rows
+       4. buildReviewItem handles multi questions:
+            - answer is array → checkboxes display
+            - partial credit display
+            - score-multi breakdown shown
+       5. renderReviewList supports "multi" and "partial" filters
+       6. bindFilters shows/hides multi+partial filter buttons
+       7. bindActions uses padded set numbers (set-01 not set-1)
+       8. All userAnswers keyed by question.id (string)
+  ============================================================ */
   (function ResultPage() {
     'use strict';
 
-    /* ── DOM ── */
+    /* ── DOM refs ── */
     const dom = {
-      loading:        document.getElementById('result-loading'),
-      error:          document.getElementById('result-error'),
-      errorMsg:       document.getElementById('result-error-msg'),
-      content:        document.getElementById('result-content'),
-      headerMeta:     document.getElementById('result-header-meta'),
-      scorePct:       document.getElementById('score-pct'),
-      scoreGrade:     document.getElementById('score-grade'),
-      scoreSvgFill:   document.getElementById('score-svg-fill'),
-      statScore:      document.getElementById('stat-score'),
-      statScoreMax:   document.getElementById('stat-score-max'),
-      statCorrect:    document.getElementById('stat-correct'),
-      statWrong:      document.getElementById('stat-wrong'),
-      statUnattempted:document.getElementById('stat-unattempted'),
-      statTime:       document.getElementById('stat-time'),
-      statAccuracy:   document.getElementById('stat-accuracy'),
-      gradeMessage:   document.getElementById('grade-message'),
-      chartCorrect:   document.getElementById('chart-correct'),
-      chartWrong:     document.getElementById('chart-wrong'),
-      chartUnattempted:document.getElementById('chart-unattempted'),
-      chartCorrectVal: document.getElementById('chart-correct-val'),
-      chartWrongVal:   document.getElementById('chart-wrong-val'),
-      chartUnattemptedVal: document.getElementById('chart-unattempted-val'),
-      scoreBreakdown: document.getElementById('score-breakdown'),
-      reviewList:     document.getElementById('review-list'),
-      btnRetry:       document.getElementById('btn-retry'),
-      btnNextSet:     document.getElementById('btn-next-set'),
-      btnPrint:       document.getElementById('print-btn'),
-      btnPrint2:      document.getElementById('btn-print'),
+      loading:            document.getElementById('result-loading'),
+      error:              document.getElementById('result-error'),
+      errorMsg:           document.getElementById('result-error-msg'),
+      content:            document.getElementById('result-content'),
+      headerMeta:         document.getElementById('result-header-meta'),
+      scorePct:           document.getElementById('score-pct'),
+      scoreGrade:         document.getElementById('score-grade'),
+      scoreSvgFill:       document.getElementById('score-svg-fill'),
+      statScore:          document.getElementById('stat-score'),
+      statScoreMax:       document.getElementById('stat-score-max'),
+      statCorrect:        document.getElementById('stat-correct'),
+      statCorrectSub:     document.getElementById('stat-correct-sub'),
+      statWrong:          document.getElementById('stat-wrong'),
+      statUnattempted:    document.getElementById('stat-unattempted'),
+      statMultiWrap:      document.getElementById('stat-multi-wrap'),
+      statMulti:          document.getElementById('stat-multi'),
+      statTime:           document.getElementById('stat-time'),
+      statAccuracy:       document.getElementById('stat-accuracy'),
+      gradeMessage:       document.getElementById('grade-message'),
+      chartCorrect:       document.getElementById('chart-correct'),
+      chartWrong:         document.getElementById('chart-wrong'),
+      chartUnattempted:   document.getElementById('chart-unattempted'),
+      chartMultiRow:      document.getElementById('chart-multi-row'),
+      chartMulti:         document.getElementById('chart-multi'),
+      chartCorrectVal:    document.getElementById('chart-correct-val'),
+      chartWrongVal:      document.getElementById('chart-wrong-val'),
+      chartUnattemptedVal:document.getElementById('chart-unattempted-val'),
+      chartMultiVal:      document.getElementById('chart-multi-val'),
+      scoreBreakdown:     document.getElementById('score-breakdown'),
+      reviewList:         document.getElementById('review-list'),
+      filterBtnMulti:     document.getElementById('filter-btn-multi'),
+      filterBtnPartial:   document.getElementById('filter-btn-partial'),
+      btnRetry:           document.getElementById('btn-retry'),
+      btnNextSet:         document.getElementById('btn-next-set'),
+      btnPrint:           document.getElementById('print-btn'),
+      btnPrint2:          document.getElementById('btn-print'),
     };
 
-    /* Subject display names */
+    /*
+      UPDATED: New subject key → Bengali name mapping
+      Matches manifest.json subject keys exactly
+    */
     const SUBJECT_NAMES = {
-      'life-science':      'জীবন বিজ্ঞান',
-      'physical-science':  'ভৌত বিজ্ঞান',
-      'mathematics':       'গণিত',
-      'general-knowledge': 'সাধারণ জ্ঞান',
-      'logical-reasoning': 'যুক্তিবিদ্যা',
-      'basic-english':     'ইংরেজি',
+      'life-science':                'জীবন বিজ্ঞান',
+      'general-science':             'সাধারণ বিজ্ঞান',
+      'arithmetic-mathematics':      'গণিত',
+      'reasoning-general-knowledge': 'যুক্তিবিদ্যা ও সাধারণ জ্ঞান',
+      'general-knowledge':           'সাধারণ জ্ঞান',
+      'english-grammar':             'ইংরেজি ব্যাকরণ',
     };
 
-    const OPTION_LABELS = ['A','B','C','D'];
+    /* Max sets per subject (from manifest) */
+    const SUBJECT_MAX_SETS = {
+      'life-science':                70,
+      'general-science':             146,
+      'arithmetic-mathematics':      144,
+      'reasoning-general-knowledge': 24,
+      'general-knowledge':           42,
+      'english-grammar':             41,
+    };
 
-    /* Active filter */
+    const OPTION_LABELS = ['A','B','C','D','E'];
+
     let activeFilter = 'all';
     let allDetails   = [];
 
@@ -491,96 +643,145 @@
     document.addEventListener('DOMContentLoaded', init);
 
     function init() {
-      const data = QuizStorage.getResultDetails();
+      let data = null;
 
-      if (!data) {
+      /* Safe localStorage read */
+      try {
+        data = QuizStorage.getResultDetails();
+      } catch (e) {
+        console.error('ResultPage: storage read error', e);
+      }
+
+      if (!data || !data.result) {
         showError('ফলাফলের ডেটা পাওয়া যায়নি। কুইজটি আবার দিন।');
         return;
       }
 
-      allDetails = data.details || [];
+      allDetails = Array.isArray(data.details) ? data.details : [];
+
       const result  = data.result;
-      const subject = data.subject;
-      const set     = data.set;
+      const subject = data.subject  || '';
+      const set     = data.set      || '01';
 
       showLoading(false);
-      dom.content.removeAttribute('hidden');
+
+      const contentEl = document.getElementById('result-content');
+      if (contentEl) contentEl.removeAttribute('hidden');
 
       renderHeader(subject, set);
       renderScoreSummary(result);
-      renderCircle(result.percentage);
+      renderCircle(parseFloat(result.percentage) || 0);
       renderChart(result);
       renderScoreBreakdown(result);
-      renderReviewList(allDetails);
-      bindActions(subject, set);
-      bindFilters();
+      renderReviewList(allDetails, 'all');
+      bindFilters(allDetails);
+      bindActions(subject, set, result);
     }
 
     /* ── HEADER ── */
     function renderHeader(subject, set) {
       const name = SUBJECT_NAMES[subject] || subject;
-      const setN = parseInt(set);
-      dom.headerMeta.textContent =
-        `${name} — সেট ${toBn(setN)}`;
-      document.title =
-        `ফলাফল: ${name} সেট ${setN} | WB ANM GNM 2026`;
+      /* set may be "01" or "1" — normalise to integer for display */
+      const setNum = parseInt(set, 10) || 1;
+
+      if (dom.headerMeta) {
+        dom.headerMeta.textContent = `${name} — সেট ${toBn(setNum)}`;
+      }
+      document.title = `ফলাফল: ${name} সেট ${setNum} | WB ANM GNM 2026`;
     }
 
     /* ── SCORE SUMMARY ── */
     function renderScoreSummary(result) {
-      /* Grade */
-      const grade = result.grade ||
-        QuizScorer.getGrade(result.percentage);
+      if (!result) return;
 
-      dom.scorePct.textContent =
-        `${toBn(result.percentage)}%`;
-      dom.scoreGrade.textContent  = grade.letter;
-      dom.scoreGrade.style.color  = grade.color;
+      /* Grade from scorer */
+      let grade = { letter: '—', color: '#6366f1', label: '' };
+      try {
+        grade = result.grade || QuizScorer.getGrade(
+          parseFloat(result.percentage) || 0
+        );
+      } catch (e) {
+        console.warn('ResultPage: getGrade error', e);
+      }
 
-      dom.statScore.textContent =
-        toBn(result.score.toFixed(2));
-      dom.statScoreMax.textContent =
-        `/${toBn(result.total)}`;
-      dom.statCorrect.textContent     = toBn(result.correct);
-      dom.statWrong.textContent       = toBn(result.wrong);
-      dom.statUnattempted.textContent = toBn(result.unattempted);
-      dom.statTime.textContent =
-        QuizScorer.formatTime(result.timeTaken || 0);
+      const pct = parseFloat(result.percentage) || 0;
 
-      /* Accuracy = correct / attempted */
-      const attempted = result.correct + result.wrong;
+      if (dom.scorePct)   dom.scorePct.textContent  = `${toBn(pct.toFixed(1))}%`;
+      if (dom.scoreGrade) {
+        dom.scoreGrade.textContent = grade.letter || '—';
+        dom.scoreGrade.style.color = grade.color  || '#6366f1';
+      }
+
+      if (dom.statScore)
+        dom.statScore.textContent = toBn(
+          (result.score || 0).toFixed(2)
+        );
+      if (dom.statScoreMax)
+        dom.statScoreMax.textContent = `/${toBn(result.total || 0)}`;
+
+      if (dom.statCorrect)
+        dom.statCorrect.textContent = toBn(result.correct || 0);
+      if (dom.statWrong)
+        dom.statWrong.textContent = toBn(result.wrong || 0);
+      if (dom.statUnattempted)
+        dom.statUnattempted.textContent = toBn(result.unattempted || 0);
+
+      /* ── NEW: Multi stat ── */
+      const multiCount = result.multiCount || 0;
+      if (multiCount > 0) {
+        if (dom.statMultiWrap) dom.statMultiWrap.removeAttribute('hidden');
+        if (dom.statMulti)     dom.statMulti.textContent = toBn(multiCount);
+        /* Update correct sub-label to reflect multi */
+        if (dom.statCorrectSub)
+          dom.statCorrectSub.textContent = '+১ / +২ প্রতিটি';
+      }
+
+      /* Time */
+      if (dom.statTime) {
+        try {
+          dom.statTime.textContent =
+            QuizScorer.formatTime(result.timeTaken || 0);
+        } catch (e) {
+          dom.statTime.textContent = '০০:০০';
+        }
+      }
+
+      /* Accuracy = correct / (correct + wrong) */
+      const attempted = (result.correct || 0) + (result.wrong || 0);
       const accuracy  = attempted > 0
-        ? ((result.correct / attempted) * 100).toFixed(1)
+        ? (((result.correct || 0) / attempted) * 100).toFixed(1)
         : '0.0';
-      dom.statAccuracy.textContent = `${toBn(accuracy)}%`;
+      if (dom.statAccuracy)
+        dom.statAccuracy.textContent = `${toBn(accuracy)}%`;
 
       /* Grade message */
-      dom.gradeMessage.innerHTML = `
-        <span class="grade-badge"
-          style="background:${grade.color}20;
-                 color:${grade.color};
-                 border:1.5px solid ${grade.color}40">
-          ${grade.letter} — ${grade.label}
-        </span>
-        <span class="grade-msg-text">
-          ${getMotivationalMsg(result.percentage)}
-        </span>
-      `;
+      if (dom.gradeMessage) {
+        dom.gradeMessage.innerHTML = `
+          <span class="grade-badge"
+            style="background:${grade.color}20;
+                   color:${grade.color};
+                   border:1.5px solid ${grade.color}40">
+            ${grade.letter} — ${grade.label || ''}
+          </span>
+          <span class="grade-msg-text">
+            ${getMotivationalMsg(pct)}
+          </span>
+        `;
+      }
     }
 
     /* ── CIRCULAR PROGRESS ── */
     function renderCircle(percentage) {
-      const pct       = Math.min(100, Math.max(0, parseFloat(percentage)));
-      const radius    = 52;
-      const circumference = 2 * Math.PI * radius; /* ≈ 326.73 */
-      const offset    = circumference - (pct / 100) * circumference;
-      const color     = getCircleColor(pct);
+      const pct           = Math.min(100, Math.max(0, percentage));
+      const radius        = 52;
+      const circumference = 2 * Math.PI * radius;
+      const offset        = circumference - (pct / 100) * circumference;
+      const color         = getCircleColor(pct);
 
       if (dom.scoreSvgFill) {
-        dom.scoreSvgFill.style.stroke            = color;
-        dom.scoreSvgFill.style.strokeDashoffset  = circumference;
+        dom.scoreSvgFill.style.stroke           = color;
+        dom.scoreSvgFill.style.strokeDashoffset = circumference;
 
-        /* Animate after small delay */
         requestAnimationFrame(() => {
           setTimeout(() => {
             dom.scoreSvgFill.style.transition =
@@ -590,10 +791,7 @@
         });
       }
 
-      /* Also animate percentage counter */
-      animateCounter(dom.scorePct, 0, pct, 1200, (v) => {
-        return `${toBn(v.toFixed(1))}%`;
-      });
+      animateCounter(dom.scorePct, 0, pct, 1200, v => `${toBn(v.toFixed(1))}%`);
     }
 
     function getCircleColor(pct) {
@@ -605,46 +803,97 @@
 
     /* ── PERFORMANCE CHART ── */
     function renderChart(result) {
-      const chart = QuizScorer.getChartData(result);
+      if (!result) return;
 
-      /* Animate bars after delay */
+      let chart = { correctPct: 0, wrongPct: 0, unattemptedPct: 0 };
+      try {
+        chart = QuizScorer.getChartData(result);
+      } catch (e) {
+        console.warn('ResultPage: getChartData error', e);
+        const total = result.total || 1;
+        chart.correctPct     = ((result.correct     || 0) / total) * 100;
+        chart.wrongPct       = ((result.wrong        || 0) / total) * 100;
+        chart.unattemptedPct = ((result.unattempted  || 0) / total) * 100;
+      }
+
       setTimeout(() => {
-        dom.chartCorrect.style.width      = `${chart.correctPct}%`;
-        dom.chartWrong.style.width        = `${chart.wrongPct}%`;
-        dom.chartUnattempted.style.width  = `${chart.unattemptedPct}%`;
+        if (dom.chartCorrect)
+          dom.chartCorrect.style.width     = `${chart.correctPct}%`;
+        if (dom.chartWrong)
+          dom.chartWrong.style.width       = `${chart.wrongPct}%`;
+        if (dom.chartUnattempted)
+          dom.chartUnattempted.style.width = `${chart.unattemptedPct}%`;
+
+        /* ── NEW: Multi bar ── */
+        const multiCount = result.multiCount || 0;
+        if (multiCount > 0 && dom.chartMultiRow) {
+          dom.chartMultiRow.removeAttribute('hidden');
+          const multiPct = ((multiCount / (result.total || 1)) * 100);
+          if (dom.chartMulti)
+            dom.chartMulti.style.width = `${multiPct}%`;
+          if (dom.chartMultiVal)
+            dom.chartMultiVal.textContent = toBn(multiCount);
+        }
       }, 400);
 
-      dom.chartCorrectVal.textContent     = toBn(result.correct);
-      dom.chartWrongVal.textContent       = toBn(result.wrong);
-      dom.chartUnattemptedVal.textContent = toBn(result.unattempted);
+      if (dom.chartCorrectVal)
+        dom.chartCorrectVal.textContent     = toBn(result.correct     || 0);
+      if (dom.chartWrongVal)
+        dom.chartWrongVal.textContent       = toBn(result.wrong        || 0);
+      if (dom.chartUnattemptedVal)
+        dom.chartUnattemptedVal.textContent = toBn(result.unattempted  || 0);
     }
 
     /* ── SCORE BREAKDOWN TEXT ── */
     function renderScoreBreakdown(result) {
-      const correctMarks     = result.correct * 1;
-      const wrongDeduction   = result.wrong * 0.25;
-      const raw              = (correctMarks - wrongDeduction).toFixed(2);
+      if (!dom.scoreBreakdown || !result) return;
+
+      const correctMarks   = (result.correct || 0) * 1;
+      const wrongDeduction = (result.wrong   || 0) * 0.25;
+      /*
+        NEW: multiScore is the total marks earned from multi questions
+        stored in result.multiScore by quiz-scorer.js
+      */
+      const multiScore   = parseFloat(result.multiScore || 0);
+      const finalScore   = Math.max(0,
+        parseFloat((result.score || 0).toFixed(2))
+      );
+
+      let multiRow = '';
+      if ((result.multiCount || 0) > 0) {
+        multiRow = `
+          <div class="breakdown-row breakdown-row--multi">
+            <span class="breakdown-label">বহু-সঠিক প্রশ্ন</span>
+            <span class="breakdown-calc">
+              ${toBn(result.multiCount)} প্রশ্ন =
+              <strong class="clr-blue">+${toBn(multiScore.toFixed(2))}</strong>
+              <span class="partial-score">(আংশিক সহ)</span>
+            </span>
+          </div>
+        `;
+      }
 
       dom.scoreBreakdown.innerHTML = `
         <div class="breakdown-row">
-          <span class="breakdown-label">সঠিক উত্তর</span>
+          <span class="breakdown-label">সঠিক উত্তর (এককটি)</span>
           <span class="breakdown-calc">
-            ${toBn(result.correct)} × ১ =
+            ${toBn(result.correct || 0)} × ১ =
             <strong class="clr-green">+${toBn(correctMarks)}</strong>
           </span>
         </div>
         <div class="breakdown-row">
           <span class="breakdown-label">ভুল উত্তর</span>
           <span class="breakdown-calc">
-            ${toBn(result.wrong)} × ০.২৫ =
+            ${toBn(result.wrong || 0)} × ০.২৫ =
             <strong class="clr-red">−${toBn(wrongDeduction.toFixed(2))}</strong>
           </span>
         </div>
+        ${multiRow}
         <div class="breakdown-row breakdown-row--total">
           <span class="breakdown-label">মোট নম্বর</span>
           <span class="breakdown-calc">
-            <strong>${toBn(parseFloat(raw) < 0 ? 0 : raw)}</strong>
-            / ${toBn(result.total)}
+            <strong>${toBn(finalScore)}</strong>
+            / ${toBn(result.total || 0)}
           </span>
         </div>
       `;
@@ -652,133 +901,320 @@
 
     /* ── QUESTION REVIEW LIST ── */
     function renderReviewList(details, filter) {
+      if (!dom.reviewList) return;
       filter = filter || 'all';
       dom.reviewList.innerHTML = '';
 
+      if (!Array.isArray(details) || details.length === 0) {
+        dom.reviewList.innerHTML =
+          '<div class="review-empty"><p>কোনো প্রশ্নের তথ্য পাওয়া যায়নি।</p></div>';
+        return;
+      }
+
       const filtered = details.filter(d => {
-        if (filter === 'correct')     return d.isCorrect;
+        if (filter === 'correct')     return d.isCorrect && !d.isPartial;
         if (filter === 'wrong')       return d.isWrong;
         if (filter === 'unattempted') return !d.isAttempted;
-        return true;
+        /* NEW filters */
+        if (filter === 'multi')       return d.isMulti === true;
+        if (filter === 'partial')     return d.isPartial === true;
+        return true; /* 'all' */
       });
 
       if (filtered.length === 0) {
-        dom.reviewList.innerHTML = `
-          <div class="review-empty">
-            <p>এই ক্যাটাগরিতে কোনো প্রশ্ন নেই।</p>
-          </div>
-        `;
+        dom.reviewList.innerHTML =
+          '<div class="review-empty"><p>এই ক্যাটাগরিতে কোনো প্রশ্ন নেই।</p></div>';
         return;
       }
 
       const fragment = document.createDocumentFragment();
-
-      filtered.forEach((d) => {
-        const item = buildReviewItem(d);
-        fragment.appendChild(item);
+      filtered.forEach(d => {
+        try {
+          fragment.appendChild(buildReviewItem(d));
+        } catch (e) {
+          console.warn('ResultPage: buildReviewItem error', e, d);
+        }
       });
-
       dom.reviewList.appendChild(fragment);
     }
 
+    /*
+      buildReviewItem — UPDATED
+      Handles both single and multi questions.
+
+      detail object shape (from quiz-scorer.js):
+      {
+        id:            "eg-01-001",        ← string ID (NEW)
+        index:         0,
+        question:      "...",
+        options:       ["A","B","C","D"],
+        answer:        0 | [1,2],          ← number or array (NEW)
+        userAnswer:    0 | [1,2] | undefined,
+        isMulti:       false | true,       ← NEW
+        isCorrect:     true | false,
+        isPartial:     false | true,       ← NEW
+        isWrong:       false | true,
+        isAttempted:   true | false,
+        scoreEarned:   1 | 0.67 | 0 | -0.25, ← NEW (actual score)
+        explanation:   "...",
+      }
+    */
     function buildReviewItem(d) {
-      const statusClass = d.isCorrect    ? 'review-item--correct'
-                        : d.isWrong      ? 'review-item--wrong'
-                        : 'review-item--unattempted';
+      const isMulti   = d.isMulti   === true;
+      const isPartial = d.isPartial === true;
 
-      const statusIcon  = d.isCorrect    ? '✓'
-                        : d.isWrong      ? '✗'
-                        : '—';
+      /* Status classification */
+      let statusKey   = 'unattempted';
+      if (d.isCorrect && !isPartial) statusKey = 'correct';
+      else if (isPartial)            statusKey = 'partial';
+      else if (d.isWrong)            statusKey = 'wrong';
 
-      const statusLabel = d.isCorrect    ? 'সঠিক'
-                        : d.isWrong      ? 'ভুল'
-                        : 'উত্তর দেওয়া হয়নি';
+      const statusClass = {
+        correct:     'review-item--correct',
+        partial:     'review-item--partial',
+        wrong:       'review-item--wrong',
+        unattempted: 'review-item--unattempted',
+      }[statusKey];
+
+      const statusIcon = {
+        correct:     '✓',
+        partial:     '◑',
+        wrong:       '✗',
+        unattempted: '—',
+      }[statusKey];
+
+      const statusLabel = {
+        correct:     'সঠিক',
+        partial:     'আংশিক সঠিক',
+        wrong:       'ভুল',
+        unattempted: 'উত্তর দেওয়া হয়নি',
+      }[statusKey];
+
+      /* Score display */
+      const scoreEarned = typeof d.scoreEarned === 'number'
+        ? d.scoreEarned
+        : (d.isCorrect ? 1 : d.isWrong ? -0.25 : 0);
+
+      let scoreDisplay = '০';
+      let scoreClass   = 'clr-gray';
+      if (scoreEarned > 0) {
+        scoreDisplay = `+${toBn(scoreEarned.toFixed(2))}`;
+        scoreClass   = isPartial ? 'review-score-change--partial' : 'clr-green';
+      } else if (scoreEarned < 0) {
+        scoreDisplay = `−${toBn(Math.abs(scoreEarned).toFixed(2))}`;
+        scoreClass   = 'clr-red';
+      }
+
+      /* Multi badge HTML */
+      const multiBadgeHTML = isMulti
+        ? `<span class="badge-multi" aria-label="বহু সঠিক উত্তর প্রশ্ন">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" aria-hidden="true">
+               <polyline points="9 11 12 14 22 4"/>
+               <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5
+                        a2 2 0 0 1 2-2h11"/>
+             </svg>
+             বহু সঠিক
+           </span>`
+        : '';
+
+      /* Build options HTML — handles single and multi */
+      const optionsHTML = buildOptionsHTML(d, isMulti);
+
+      /* Multi score breakdown (review only) */
+      const multiBreakdownHTML = buildMultiBreakdownHTML(d, isMulti, isPartial);
+
+      /* Explanation */
+      const explanationHTML = d.explanation
+        ? `<div class="review-explanation">
+             <div class="review-explanation__label">
+               <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round"
+                 aria-hidden="true">
+                 <circle cx="12" cy="12" r="10"/>
+                 <line x1="12" y1="8"  x2="12" y2="8"/>
+                 <line x1="12" y1="12" x2="12" y2="16"/>
+               </svg>
+               ব্যাখ্যা
+             </div>
+             <p class="review-explanation__text">${d.explanation}</p>
+           </div>`
+        : '';
 
       const item = document.createElement('article');
       item.className = `review-item ${statusClass}`;
       item.setAttribute('role', 'listitem');
       item.setAttribute('aria-label',
-        `প্রশ্ন ${d.index + 1}: ${statusLabel}`
+        `প্রশ্ন ${(d.index || 0) + 1}: ${statusLabel}`
       );
 
-      /* Build options HTML */
-      const optionsHTML = d.options.map((opt, idx) => {
-        const isUserAnswer    = d.userAnswer === idx;
-        const isCorrectAnswer = d.correctAnswer === idx;
+      item.innerHTML = `
+        <div class="review-item__header">
+          <div class="review-item__num-wrap">
+            <span class="review-item__num" aria-hidden="true">
+              ${toBn((d.index || 0) + 1)}
+            </span>
+            <span class="review-status-badge
+                         review-status-badge--${statusKey}"
+                  aria-label="${statusLabel}">
+              <span aria-hidden="true">${statusIcon}</span>
+              ${statusLabel}
+            </span>
+            ${multiBadgeHTML}
+          </div>
+          <span class="review-score-change ${scoreClass}"
+                aria-label="প্রাপ্ত নম্বর: ${scoreDisplay}">
+            ${scoreDisplay}
+          </span>
+        </div>
 
-        let cls = 'review-option';
-        if (isCorrectAnswer)                      cls += ' review-option--correct';
-        if (isUserAnswer && !isCorrectAnswer)      cls += ' review-option--wrong';
-        if (isUserAnswer && isCorrectAnswer)       cls += ' review-option--user-correct';
+        <p class="review-item__question">${d.question || ''}</p>
 
-        const icon = isCorrectAnswer
-          ? `<span class="review-opt-icon review-opt-icon--correct"
-               aria-label="সঠিক উত্তর">✓</span>`
-          : isUserAnswer
-            ? `<span class="review-opt-icon review-opt-icon--wrong"
-                 aria-label="আপনার ভুল উত্তর">✗</span>`
-            : '';
+        <div class="review-options-wrap" aria-label="বিকল্পসমূহ">
+          ${optionsHTML}
+        </div>
+
+        ${multiBreakdownHTML}
+        ${explanationHTML}
+      `;
+
+      return item;
+    }
+
+    /*
+      buildOptionsHTML
+      Single: userAnswer is number, answer is number
+      Multi:  userAnswer is array, answer is array
+    */
+    function buildOptionsHTML(d, isMulti) {
+      if (!Array.isArray(d.options)) return '';
+
+      const options     = d.options;
+      /* Normalise correct answer to Set for easy lookup */
+      const correctSet  = new Set(
+        Array.isArray(d.answer) ? d.answer : [d.answer]
+      );
+      /* Normalise user answer to Set */
+      const userSet = new Set(
+        Array.isArray(d.userAnswer)
+          ? d.userAnswer
+          : (typeof d.userAnswer === 'number' ? [d.userAnswer] : [])
+      );
+
+      return options.map((opt, idx) => {
+        const isCorrect = correctSet.has(idx);
+        const isUser    = userSet.has(idx);
+
+        let cls  = 'review-option';
+        let icon = '';
+
+        if (isMulti) {
+          /* Multi: colour coding */
+          if (isCorrect && isUser) {
+            /* User selected a correct option ✓ */
+            cls  += ' review-option--correct-multi';
+            icon  = `<span class="review-opt-icon review-opt-icon--multi-correct"
+                           aria-label="সঠিকভাবে নির্বাচিত">✓</span>`;
+          } else if (isCorrect && !isUser) {
+            /* Correct option user missed ◯ */
+            cls  += ' review-option--partial';
+            icon  = `<span class="review-opt-icon review-opt-icon--multi-missed"
+                           aria-label="মিস করা সঠিক উত্তর">◯</span>`;
+          } else if (!isCorrect && isUser) {
+            /* User selected a wrong option ✗ */
+            cls  += ' review-option--wrong-multi';
+            icon  = `<span class="review-opt-icon review-opt-icon--multi-wrong"
+                           aria-label="ভুলভাবে নির্বাচিত">✗</span>`;
+          }
+        } else {
+          /* Single */
+          if (isCorrect) {
+            cls  += ' review-option--correct';
+            icon  = `<span class="review-opt-icon review-opt-icon--correct"
+                           aria-label="সঠিক উত্তর">✓</span>`;
+          }
+          if (isUser && !isCorrect) {
+            cls  += ' review-option--wrong';
+            icon  = `<span class="review-opt-icon review-opt-icon--wrong"
+                           aria-label="আপনার ভুল উত্তর">✗</span>`;
+          }
+          if (isUser && isCorrect) {
+            icon  = `<span class="review-opt-icon review-opt-icon--correct"
+                           aria-label="আপনার সঠিক উত্তর">✓</span>`;
+          }
+        }
 
         return `
           <div class="${cls}">
             <span class="review-opt-label" aria-hidden="true">
-              ${OPTION_LABELS[idx]}
+              ${OPTION_LABELS[idx] || idx}
             </span>
             <span class="review-opt-text">${opt}</span>
             ${icon}
           </div>
         `;
       }).join('');
+    }
 
-      item.innerHTML = `
-        <div class="review-item__header">
-          <div class="review-item__num-wrap">
-            <span class="review-item__num"
-              aria-hidden="true">${toBn(d.index + 1)}</span>
-            <span class="review-status-badge review-status-badge--${
-              d.isCorrect ? 'correct' : d.isWrong ? 'wrong' : 'unattempted'
-            }" aria-label="${statusLabel}">
-              <span aria-hidden="true">${statusIcon}</span>
-              ${statusLabel}
-            </span>
-          </div>
-          <span class="review-score-change ${
-            d.isCorrect ? 'clr-green' : d.isWrong ? 'clr-red' : 'clr-gray'
-          }">
-            ${d.isCorrect ? '+১' : d.isWrong ? '−০.২৫' : '০'}
-          </span>
+    /*
+      buildMultiBreakdownHTML
+      Shows breakdown for multi questions in review:
+        "৩টির মধ্যে ২টি সঠিক নির্বাচন — আংশিক নম্বর: ১.৩৩"
+    */
+    function buildMultiBreakdownHTML(d, isMulti, isPartial) {
+      if (!isMulti) return '';
+
+      const correctSet = new Set(
+        Array.isArray(d.answer) ? d.answer : [d.answer]
+      );
+      const userArr = Array.isArray(d.userAnswer) ? d.userAnswer : [];
+      const userSet = new Set(userArr);
+
+      const totalCorrect   = correctSet.size;
+      const userCorrect    = [...userSet].filter(s => correctSet.has(s)).length;
+      const userWrong      = [...userSet].filter(s => !correctSet.has(s)).length;
+      const scoreEarned    = typeof d.scoreEarned === 'number'
+        ? d.scoreEarned.toFixed(2)
+        : '০';
+
+      if (!d.isAttempted) return '';
+
+      const hasWrong = userWrong > 0;
+
+      let breakdownMsg = '';
+      if (hasWrong) {
+        breakdownMsg = `ভুল নির্বাচন করেছেন — নম্বর: <strong>০</strong>`;
+      } else if (userCorrect === totalCorrect) {
+        breakdownMsg = `সব সঠিক (${toBn(totalCorrect)}/${toBn(totalCorrect)}) — নম্বর:
+          <strong class="clr-green">+${toBn(scoreEarned)}</strong>`;
+      } else {
+        breakdownMsg = `${toBn(totalCorrect)}টির মধ্যে ${toBn(userCorrect)}টি সঠিক —
+          <span class="partial-score">আংশিক নম্বর: +${toBn(scoreEarned)}</span>`;
+      }
+
+      return `
+        <div class="score-multi">
+          <strong>বহু-সঠিক বিশ্লেষণ:</strong> ${breakdownMsg}
         </div>
-
-        <p class="review-item__question">${d.question}</p>
-
-        <div class="review-options-wrap" aria-label="বিকল্পসমূহ">
-          ${optionsHTML}
-        </div>
-
-        ${d.explanation
-          ? `<div class="review-explanation">
-               <div class="review-explanation__label">
-                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
-                   stroke="currentColor" stroke-width="2"
-                   stroke-linecap="round" stroke-linejoin="round"
-                   aria-hidden="true">
-                   <circle cx="12" cy="12" r="10"/>
-                   <line x1="12" y1="8" x2="12" y2="8"/>
-                   <line x1="12" y1="12" x2="12" y2="16"/>
-                 </svg>
-                 ব্যাখ্যা
-               </div>
-               <p class="review-explanation__text">${d.explanation}</p>
-             </div>`
-          : ''
-        }
       `;
-
-      return item;
     }
 
     /* ── FILTER BUTTONS ── */
-    function bindFilters() {
+    function bindFilters(details) {
+      if (!Array.isArray(details)) return;
+
+      /* Show multi/partial filters only if relevant questions exist */
+      const hasMulti   = details.some(d => d.isMulti   === true);
+      const hasPartial = details.some(d => d.isPartial === true);
+
+      if (hasMulti && dom.filterBtnMulti) {
+        dom.filterBtnMulti.removeAttribute('hidden');
+      }
+      if (hasPartial && dom.filterBtnPartial) {
+        dom.filterBtnPartial.removeAttribute('hidden');
+      }
+
       const filterBtns = document.querySelectorAll('.filter-btn');
 
       filterBtns.forEach(btn => {
@@ -787,24 +1223,27 @@
             b.classList.remove('filter-btn--active');
             b.setAttribute('aria-pressed', 'false');
           });
-
           btn.classList.add('filter-btn--active');
           btn.setAttribute('aria-pressed', 'true');
-
-          activeFilter = btn.dataset.filter;
+          activeFilter = btn.dataset.filter || 'all';
           renderReviewList(allDetails, activeFilter);
         });
       });
     }
 
     /* ── ACTION BUTTONS ── */
-    function bindActions(subject, set) {
-      const setNum = parseInt(set);
+    function bindActions(subject, set, result) {
+      /* Normalise set number */
+      const setNum  = parseInt(set, 10) || 1;
+      const maxSets = SUBJECT_MAX_SETS[subject] || 10;
+      /* Pad to 2 digits for URL: "01", "02" … "146" */
+      const setStr  = String(setNum).padStart(2, '0');
+      const nextNum = setNum < maxSets ? setNum + 1 : 1;
+      const nextStr = String(nextNum).padStart(2, '0');
 
       /* Retry same quiz */
       if (dom.btnRetry) {
         dom.btnRetry.addEventListener('click', () => {
-          const setStr = String(setNum).padStart(2, '0');
           window.location.href =
             `quiz.html?subject=${encodeURIComponent(subject)}&set=${setStr}`;
         });
@@ -812,20 +1251,24 @@
 
       /* Next set */
       if (dom.btnNextSet) {
-        const nextSet = setNum < 10 ? setNum + 1 : 1;
         dom.btnNextSet.addEventListener('click', () => {
-          const nextStr = String(nextSet).padStart(2, '0');
           window.location.href =
             `quiz.html?subject=${encodeURIComponent(subject)}&set=${nextStr}`;
         });
-        /* Update label */
-        dom.btnNextSet.querySelector('svg').insertAdjacentText(
-          'afterend', ` সেট ${toBn(nextSet)}`
-        );
+        /* Update label text */
+        try {
+          const svgEl = dom.btnNextSet.querySelector('svg');
+          if (svgEl) {
+            svgEl.insertAdjacentText('afterend', ` সেট ${toBn(nextNum)}`);
+          }
+        } catch (e) { /* ignore */ }
       }
 
       /* Print buttons */
-      const printHandler = () => QuizPrint.printResult();
+      const printHandler = () => {
+        try { QuizPrint.printResult(); }
+        catch (e) { window.print(); }
+      };
       if (dom.btnPrint)  dom.btnPrint.addEventListener('click', printHandler);
       if (dom.btnPrint2) dom.btnPrint2.addEventListener('click', printHandler);
     }
@@ -848,27 +1291,25 @@
     /* ── COUNTER ANIMATION ── */
     function animateCounter(el, from, to, duration, formatter) {
       if (!el) return;
-      const start     = performance.now();
-      const range     = to - from;
+      const start = performance.now();
+      const range = to - from;
 
       function step(now) {
         const elapsed  = now - start;
         const progress = Math.min(elapsed / duration, 1);
-        /* Ease out cubic */
         const eased    = 1 - Math.pow(1 - progress, 3);
         const current  = from + range * eased;
-
-        el.textContent = formatter ? formatter(current) : toBn(Math.round(current));
-
-        if (progress < 1) {
-          requestAnimationFrame(step);
-        }
+        el.textContent = formatter
+          ? formatter(current)
+          : toBn(Math.round(current));
+        if (progress < 1) requestAnimationFrame(step);
       }
       requestAnimationFrame(step);
     }
 
     /* ── LOADING / ERROR ── */
     function showLoading(visible) {
+      if (!dom.loading) return;
       if (visible) {
         dom.loading.removeAttribute('hidden');
       } else {
@@ -878,7 +1319,7 @@
 
     function showError(msg) {
       showLoading(false);
-      dom.error.removeAttribute('hidden');
+      if (dom.error)    dom.error.removeAttribute('hidden');
       if (dom.errorMsg && msg) dom.errorMsg.textContent = msg;
     }
 
@@ -886,9 +1327,9 @@
     function toBn(num) {
       const map = {
         '0':'০','1':'১','2':'২','3':'৩','4':'৪',
-        '5':'৫','6':'৬','7':'৭','8':'৮','9':'৯'
+        '5':'৫','6':'৬','7':'৭','8':'৮','9':'৯','.':'.','-':'-'
       };
-      return String(num).replace(/[0-9]/g, d => map[d] || d);
+      return String(num).replace(/[0-9.\-]/g, d => map[d] || d);
     }
 
   })();

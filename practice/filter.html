@@ -5,13 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>কাস্টম কুইজ ফিল্টার — WB ANM GNM 2026</title>
   <style>
-    /* ── Reset & Base ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Reset & Base
+       ══════════════════════════════════════════════════════════════════════ */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
       --pink:        #e91e63;
       --pink-light:  #fce4ec;
       --pink-dark:   #c2185b;
+      --blue:        #1976d2;      /* NEW: for multi badge */
+      --blue-light:  #e3f2fd;      /* NEW */
       --green:       #4caf50;
       --red:         #f44336;
       --orange:      #ff9800;
@@ -35,7 +39,9 @@
       padding-bottom: 100px;
     }
 
-    /* ── Header ───────────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Header
+       ══════════════════════════════════════════════════════════════════════ */
     .header {
       background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
       color: white;
@@ -84,7 +90,9 @@
       margin-top: 2px;
     }
 
-    /* ── Page Wrapper ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Page Wrapper
+       ══════════════════════════════════════════════════════════════════════ */
     .page {
       max-width: 700px;
       margin: 0 auto;
@@ -94,7 +102,9 @@
       gap: 14px;
     }
 
-    /* ── Card ─────────────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Card
+       ══════════════════════════════════════════════════════════════════════ */
     .card {
       background: white;
       border-radius: var(--radius);
@@ -134,7 +144,9 @@
 
     .card-body { padding: 14px 16px; }
 
-    /* ── Loading State ────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Loading State
+       ══════════════════════════════════════════════════════════════════════ */
     #loadingState {
       display: block;
       background: white;
@@ -182,7 +194,9 @@
     #progressText  { font-size: 0.82rem; color: var(--gray-text); }
     #progressCount { font-size: 0.78rem; color: var(--gray-text); margin-top: 4px; }
 
-    /* ── Error State ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Error State
+       ══════════════════════════════════════════════════════════════════════ */
     #errorState {
       display: none;
       background: white;
@@ -221,10 +235,14 @@
     }
     .retry-btn:hover { background: var(--pink-dark); }
 
-    /* ── Filter Panel ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Filter Panel
+       ══════════════════════════════════════════════════════════════════════ */
     #filterPanel { display: none; }
 
-    /* ── Filter Pills ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Filter Pills
+       ══════════════════════════════════════════════════════════════════════ */
     .pills-wrap {
       display: flex;
       flex-wrap: wrap;
@@ -258,7 +276,9 @@
       box-shadow: 0 2px 6px rgba(233,30,99,0.25);
     }
 
-    /* ── Unit Filters ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Unit Filters
+       ══════════════════════════════════════════════════════════════════════ */
     .unit-group-label {
       width: 100%;
       font-size: 0.75rem;
@@ -267,6 +287,7 @@
       letter-spacing: 0.5px;
       margin: 8px 0 2px;
       padding-left: 2px;
+      color: var(--gray-text);
     }
 
     .unit-pill { font-size: 0.78rem; padding: 6px 12px; }
@@ -277,7 +298,9 @@
       padding: 8px 0;
     }
 
-    /* ── Count Buttons ────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Count Buttons
+       ══════════════════════════════════════════════════════════════════════ */
     .count-btns-row {
       display: flex;
       gap: 8px;
@@ -310,7 +333,9 @@
       box-shadow: 0 2px 6px rgba(233,30,99,0.25);
     }
 
-    /* ── Random Toggle ────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Random Toggle
+       ══════════════════════════════════════════════════════════════════════ */
     .toggle-row {
       display: flex;
       align-items: center;
@@ -364,7 +389,9 @@
       transform: translateX(22px);
     }
 
-    /* ── Preview Box ──────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Preview Box
+       ══════════════════════════════════════════════════════════════════════ */
     .preview-box {
       background: var(--gray-bg);
       border-radius: var(--radius);
@@ -424,7 +451,18 @@
       color: var(--gray-text);
     }
 
-    /* ── Start Button ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       NEW: Multi-correct pill in breakdown
+       ══════════════════════════════════════════════════════════════════════ */
+    .breakdown-pill--multi {
+      background: var(--blue-light);
+      border-color: var(--blue);
+      color: var(--blue);
+    }
+
+    /* ══════════════════════════════════════════════════════════════════════
+       Start Button
+       ══════════════════════════════════════════════════════════════════════ */
     .start-btn-wrap { padding: 0 0 8px; }
 
     #startQuizBtn {
@@ -456,7 +494,9 @@
       opacity: 0.75;
     }
 
-    /* ── Stats Bar ────────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Stats Bar
+       ══════════════════════════════════════════════════════════════════════ */
     .stats-bar {
       display: flex;
       align-items: center;
@@ -476,7 +516,9 @@
       flex-shrink: 0;
     }
 
-    /* ── Section Hint ─────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Section Hint
+       ══════════════════════════════════════════════════════════════════════ */
     .section-hint {
       font-size: 0.76rem;
       color: var(--gray-text);
@@ -485,7 +527,9 @@
       border-top: 1px dashed var(--gray-border);
     }
 
-    /* ── History Stats ────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       History Stats
+       ══════════════════════════════════════════════════════════════════════ */
     .history-stats {
       display: flex;
       gap: 8px;
@@ -514,13 +558,17 @@
     .history-dot.correct { background: var(--green); }
     .history-dot.wrong   { background: var(--red); }
     .history-dot.skipped { background: var(--orange); }
+    /* NEW: partial correct */
+    .history-dot.partial { background: #ff9800; }
 
     .history-stat-count {
       font-weight: 700;
       color: var(--dark);
     }
 
-    /* ── History Banner ────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       History Banner
+       ══════════════════════════════════════════════════════════════════════ */
     .history-banner {
       background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
       border: 1px solid #c8e6c9;
@@ -573,7 +621,9 @@
     .history-banner.empty .history-banner-title { color: var(--gray-text); }
     .history-banner.empty .history-banner-sub   { color: #9e9e9e; }
 
-    /* ── Responsive ───────────────────────────────────────────────────────── */
+    /* ══════════════════════════════════════════════════════════════════════
+       Responsive
+       ══════════════════════════════════════════════════════════════════════ */
     @media (max-width: 480px) {
       .header-text h1 { font-size: 0.98rem; }
       .header-text p  { font-size: 0.72rem; }
@@ -586,7 +636,9 @@
 </head>
 <body>
 
-<!-- ── Header ───────────────────────────────────────────────────────────────── -->
+<!-- ══════════════════════════════════════════════════════════════════════
+     Header
+     ══════════════════════════════════════════════════════════════════════ -->
 <header class="header">
   <div class="header-inner">
     <a href="./index.html" class="back-btn" aria-label="ফিরে যান">
@@ -605,7 +657,9 @@
 
 <div class="page">
 
-  <!-- ── Loading State ───────────────────────────────────────────────────── -->
+  <!-- ══════════════════════════════════════════════════════════════════════
+       Loading State
+       ══════════════════════════════════════════════════════════════════════ -->
   <div id="loadingState">
     <div class="spinner"></div>
     <p class="loading-title">প্রশ্ন লোড হচ্ছে...</p>
@@ -616,7 +670,9 @@
     <p id="progressCount"></p>
   </div>
 
-  <!-- ── Error State ─────────────────────────────────────────────────────── -->
+  <!-- ══════════════════════════════════════════════════════════════════════
+       Error State
+       ══════════════════════════════════════════════════════════════════════ -->
   <div id="errorState">
     <div class="error-icon">⚠️</div>
     <p class="error-title">লোড করতে সমস্যা হয়েছে</p>
@@ -624,7 +680,9 @@
     <button class="retry-btn" id="retryBtn">আবার চেষ্টা করুন</button>
   </div>
 
-  <!-- ── Filter Panel ────────────────────────────────────────────────────── -->
+  <!-- ══════════════════════════════════════════════════════════════════════
+       Filter Panel
+       ══════════════════════════════════════════════════════════════════════ -->
   <div id="filterPanel">
 
     <!-- History Banner -->
@@ -656,7 +714,10 @@
       </div>
     </div>
 
-    <!-- ── Filter 1: Subject ─────────────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 1: Subject
+         UPDATED: uses new subject keys from manifest
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -669,11 +730,23 @@
         <span class="card-title">বিষয় বেছে নিন</span>
       </div>
       <div class="card-body">
+        <!--
+          Subject pills injected by filter-app.js
+          New keys:
+            life-science
+            general-science
+            arithmetic-mathematics
+            reasoning-general-knowledge
+            general-knowledge
+            english-grammar
+        -->
         <div class="pills-wrap" id="subjectPills"></div>
       </div>
     </div>
 
-    <!-- ── Filter 2: Unit/Chapter ────────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 2: Unit/Chapter
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -697,7 +770,9 @@
       </div>
     </div>
 
-    <!-- ── Filter 3: Question Type ───────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 3: Question Type
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -715,7 +790,9 @@
       </div>
     </div>
 
-    <!-- ── Filter 4: Difficulty ──────────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 4: Difficulty
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -731,7 +808,30 @@
       </div>
     </div>
 
-    <!-- ── Filter 5: History Status (NEW) ────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 5: Multi-Correct Questions (NEW)
+         Added pill to filter by multi: true questions
+         ══════════════════════════════════════════════════════════════════ -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-header-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 11 12 14 22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+        </div>
+        <span class="card-title">বহু-সঠিক প্রশ্ন</span>
+      </div>
+      <div class="card-body">
+        <div class="pills-wrap" id="multiPills"></div>
+        <p class="section-hint">বহু-সঠিক প্রশ্নগুলিতে একাধিক সঠিক উত্তর থাকতে পারে</p>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 6: History Status
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -748,7 +848,9 @@
       </div>
     </div>
 
-    <!-- ── Filter 6: Question Count ─────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 7: Question Count
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -766,7 +868,9 @@
       </div>
     </div>
 
-    <!-- ── Filter 7: Random Order ────────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Filter 8: Random Order
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -794,7 +898,10 @@
       </div>
     </div>
 
-    <!-- ── Live Preview ──────────────────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Live Preview
+         UPDATED: shows multi question count in breakdown
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="card">
       <div class="card-header">
         <div class="card-header-icon">
@@ -815,6 +922,10 @@
           <p class="preview-quiz-count">
             কুইজে থাকবে: <strong><span id="quizCount">০</span>টি প্রশ্ন</strong>
           </p>
+          <!--
+            Breakdown pills now include multi count
+            Injected by filter-engine.js updatePreview()
+          -->
           <div class="breakdown-pills" id="breakdownList">
             <span class="breakdown-empty">ফিল্টার পরিবর্তন করুন</span>
           </div>
@@ -822,7 +933,9 @@
       </div>
     </div>
 
-    <!-- ── Start Button ──────────────────────────────────────────────────── -->
+    <!-- ══════════════════════════════════════════════════════════════════
+         Start Button
+         ══════════════════════════════════════════════════════════════════ -->
     <div class="start-btn-wrap">
       <button id="startQuizBtn" disabled>কুইজ শুরু করুন</button>
     </div>
@@ -830,13 +943,18 @@
   </div><!-- /#filterPanel -->
 </div><!-- /.page -->
 
-<!-- Scripts — order matters -->
+<!-- ══════════════════════════════════════════════════════════════════════
+     Scripts — load order matters
+     filter-history.js must load BEFORE filter-engine.js
+     ══════════════════════════════════════════════════════════════════════ -->
 <script src="./js/filter-history.js"></script>
 <script src="./js/filter-engine.js"></script>
 <script src="./js/filter-loader.js"></script>
 <script src="./js/filter-app.js"></script>
 
-<!-- Inline: toggle label sync -->
+<!-- ══════════════════════════════════════════════════════════════════════
+     Inline: Random toggle label sync
+     ══════════════════════════════════════════════════════════════════════ -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var toggle    = document.getElementById('randomToggle');

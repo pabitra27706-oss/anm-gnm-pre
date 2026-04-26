@@ -19,6 +19,197 @@
   <link rel="stylesheet" href="/assets/css/utilities.css" />
   <link rel="stylesheet" href="css/practice-layout.css" />
   <link rel="stylesheet" href="css/quiz-interface.css" />
+
+  <style>
+    /* ═══════════════════════════════════════════
+       MULTI-CORRECT QUESTION STYLES (NEW)
+    ═══════════════════════════════════════════ */
+
+    /* Warning banner shown above options for multi questions */
+    .multi-warning {
+      background: #e3f2fd;
+      color: #1565c0;
+      border: 1px solid #90caf9;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .multi-warning svg {
+      flex-shrink: 0;
+      width: 16px;
+      height: 16px;
+      stroke: #1565c0;
+    }
+
+    /* Badge shown in question header for multi questions */
+    .badge-multi {
+      background: #1976d2;
+      color: white;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .badge-multi svg {
+      width: 11px;
+      height: 11px;
+      stroke: white;
+    }
+
+    /* Marks badge — updated to show multi scoring too */
+    .question-marks-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .question-marks-badge.is-multi .mark-correct {
+      display: none; /* hide single +1 */
+    }
+    .mark-multi {
+      display: none;
+      background: #e3f2fd;
+      color: #1565c0;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 8px;
+      border: 1px solid #90caf9;
+    }
+    .question-marks-badge.is-multi .mark-multi {
+      display: inline-block;
+    }
+
+    /* Checkbox option — blue accent */
+    .option-label input[type="checkbox"] {
+      accent-color: #1976d2;
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+
+    /* Checked checkbox option highlight */
+    .option-label:has(input[type="checkbox"]:checked) {
+      border-color: #1976d2;
+      background: #e3f2fd;
+    }
+
+    /* Radio option — keep existing but ensure consistency */
+    .option-label input[type="radio"] {
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+
+    /* Options list role update for multi */
+    .options-list[aria-label="উত্তর বিকল্প (একাধিক সঠিক)"] {
+      /* Slightly different visual cue for multi group */
+      border-left: 3px solid #1976d2;
+      padding-left: 4px;
+      border-radius: 0 8px 8px 0;
+    }
+
+    /* Partial score display in review mode */
+    .partial-score {
+      color: #ff9800;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    /* Score breakdown for multi in review */
+    .score-multi {
+      border-left: 3px solid #1976d2;
+      padding-left: 8px;
+      margin: 4px 0;
+      font-size: 13px;
+      color: #555;
+    }
+
+    /* Correct option highlight in review mode */
+    .option-label--correct {
+      border-color: #4caf50 !important;
+      background: #e8f5e9 !important;
+    }
+    .option-label--wrong {
+      border-color: #f44336 !important;
+      background: #ffebee !important;
+    }
+    .option-label--missed {
+      border-color: #ff9800 !important;
+      background: #fff3e0 !important;
+    }
+
+    /* Question card header layout */
+    .question-card__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .question-card__header-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    /* Unit/type info line below question text */
+    .question-meta {
+      font-size: 11px;
+      color: #9e9e9e;
+      margin-bottom: 14px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .question-meta__tag {
+      background: #f5f5f5;
+      border-radius: 4px;
+      padding: 1px 6px;
+    }
+
+    /* Difficulty badges */
+    .badge-difficulty {
+      font-size: 11px;
+      padding: 2px 7px;
+      border-radius: 8px;
+      font-weight: 600;
+    }
+    .badge-difficulty--easy   { background: #e8f5e9; color: #388e3c; }
+    .badge-difficulty--medium { background: #fff8e1; color: #f57f17; }
+    .badge-difficulty--hard   { background: #ffebee; color: #c62828; }
+
+    /* Confirm dialog stats — multi breakdown */
+    .confirm-stats-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.88rem;
+      padding: 4px 0;
+      border-bottom: 1px solid #f0f0f0;
+      color: #555;
+    }
+    .confirm-stats-row:last-child { border-bottom: none; }
+    .confirm-stats-row strong { color: #333; }
+
+    /* Answered count highlight */
+    .confirm-answered-count { color: #4caf50; font-weight: 700; }
+    .confirm-unanswered-count { color: #f44336; font-weight: 700; }
+    .confirm-multi-count { color: #1976d2; font-weight: 700; }
+  </style>
 </head>
 
 <body class="quiz-body">
@@ -45,6 +236,7 @@
         </a>
 
         <div class="quiz-header__info">
+          <!-- Subject name shown in Bengali from manifest -->
           <span class="quiz-header__subject" id="header-subject">
             বিষয় লোড হচ্ছে...
           </span>
@@ -55,7 +247,7 @@
       <!-- Center: Progress indicator -->
       <div class="quiz-header__center" aria-live="polite" aria-atomic="true">
         <span class="quiz-progress-text" id="progress-text">
-          ০ / ২০
+          ০ / ০
         </span>
         <div class="quiz-progress-mini" aria-hidden="true">
           <div
@@ -66,7 +258,7 @@
         </div>
       </div>
 
-      <!-- Right: Timer -->
+      <!-- Right: Timer + palette toggle -->
       <div class="quiz-header__right">
         <div
           class="quiz-timer"
@@ -111,7 +303,7 @@
   <!-- ========== LAYOUT WRAPPER ========== -->
   <div class="quiz-layout" id="quiz-layout">
 
-    <!-- ========== QUESTION PALETTE (Sidebar / Bottom Sheet) ========== -->
+    <!-- ========== QUESTION PALETTE ========== -->
     <nav
       class="question-palette"
       id="question-palette"
@@ -135,7 +327,8 @@
         </button>
       </div>
 
-      <!-- Number grid -->
+      <!-- Number grid — injected by quiz-engine.js -->
+      <!-- Each button gets data-question-id="<string-id>" (NEW: string IDs) -->
       <div
         class="palette-grid"
         id="palette-grid"
@@ -148,16 +341,22 @@
       <!-- Palette legend -->
       <div class="palette-legend" role="list" aria-label="রঙের ব্যাখ্যা">
         <div class="palette-legend__item" role="listitem">
-          <span class="palette-dot palette-dot--current"  aria-hidden="true"></span>
+          <span class="palette-dot palette-dot--current"   aria-hidden="true"></span>
           বর্তমান
         </div>
         <div class="palette-legend__item" role="listitem">
-          <span class="palette-dot palette-dot--answered" aria-hidden="true"></span>
+          <span class="palette-dot palette-dot--answered"  aria-hidden="true"></span>
           উত্তর দেওয়া
         </div>
         <div class="palette-legend__item" role="listitem">
           <span class="palette-dot palette-dot--unanswered" aria-hidden="true"></span>
           বাকি
+        </div>
+        <!-- NEW: multi-correct legend item -->
+        <div class="palette-legend__item" role="listitem">
+          <span class="palette-dot" aria-hidden="true"
+            style="background:#1976d2;border-color:#1976d2;"></span>
+          বহু-সঠিক
         </div>
       </div>
 
@@ -220,7 +419,14 @@
         </a>
       </div>
 
-      <!-- Question card -->
+      <!-- ══════════════════════════════════════
+           QUESTION CARD
+           Key changes:
+           - Header now has left group + marks badge
+           - Multi badge injected by JS when multi===true
+           - options-list role changes for multi
+           - explanation-box unchanged
+      ══════════════════════════════════════ -->
       <div
         class="question-card"
         id="question-card"
@@ -229,37 +435,127 @@
         hidden
       >
 
-        <!-- Question badge + text -->
+        <!-- Question header row -->
         <div class="question-card__header">
-          <div class="question-badge" id="question-badge" aria-hidden="true">
-            প্রশ্ন <span id="question-number">১</span>
+
+          <!-- Left: question badge + optional multi badge -->
+          <div class="question-card__header-left">
+            <div class="question-badge" id="question-badge" aria-hidden="true">
+              প্রশ্ন <span id="question-number">১</span>
+            </div>
+
+            <!--
+              MULTI BADGE — shown/hidden by quiz-engine.js
+              Visible when question.multi === true
+            -->
+            <span
+              class="badge-multi"
+              id="badge-multi"
+              aria-label="বহু সঠিক উত্তর প্রশ্ন"
+              hidden
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                   stroke-width="2.5" stroke-linecap="round"
+                   stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 11 12 14 22 4"/>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5
+                         a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+              </svg>
+              বহু সঠিক
+            </span>
+
+            <!--
+              DIFFICULTY BADGE — shown/hidden by quiz-engine.js
+              Classes: badge-difficulty--easy / --medium / --hard
+            -->
+            <span
+              class="badge-difficulty"
+              id="badge-difficulty"
+              hidden
+            ></span>
           </div>
-          <div class="question-marks-badge" aria-label="নম্বর বণ্টন">
+
+          <!--
+            Right: Marks badge
+            JS adds class "is-multi" when multi===true
+            which hides +১/−০.২৫ and shows +২ logic
+          -->
+          <div class="question-marks-badge" id="question-marks-badge"
+               aria-label="নম্বর বণ্টন">
+            <!-- Single correct marks (default visible) -->
             <span class="mark-correct">+১</span>
             <span class="mark-wrong">−০.২৫</span>
+            <!-- Multi correct marks (hidden until JS adds is-multi) -->
+            <span class="mark-multi" aria-label="বহু সঠিক: সর্বোচ্চ দুই নম্বর">
+              +২ / আংশিক
+            </span>
           </div>
         </div>
 
+        <!--
+          Question meta line (unit / type / difficulty)
+          Injected and shown by quiz-engine.js
+          Hidden if no meta available
+        -->
+        <div class="question-meta" id="question-meta" hidden>
+          <!-- e.g. <span class="question-meta__tag">unit: 05-one-word-substitution</span> -->
+        </div>
+
+        <!-- Question text -->
         <div
           class="question-text"
           id="question-text"
           role="heading"
           aria-level="2"
         >
-          <!-- Question text injected by JS -->
+          <!-- Injected by quiz-engine.js -->
         </div>
 
-        <!-- Options -->
+        <!--
+          OPTIONS LIST
+          ─────────────────────────────────────────
+          For SINGLE correct (default):
+            role="radiogroup"
+            aria-label="উত্তর বিকল্প"
+            Contains <label> with <input type="radio">
+
+          For MULTI correct (question.multi === true):
+            role="group"
+            aria-label="উত্তর বিকল্প (একাধিক সঠিক)"
+            Contains <label> with <input type="checkbox">
+
+          quiz-engine.js sets role + aria-label + input type
+          ─────────────────────────────────────────
+        -->
         <div
           class="options-list"
           id="options-list"
           role="radiogroup"
           aria-label="উত্তর বিকল্প"
         >
-          <!-- Option cards injected by JS -->
+          <!--
+            Structure injected by renderOptions() in quiz-engine.js:
+
+            FOR SINGLE:
+            <label class="option-label" data-index="0">
+              <input type="radio" name="q-<id>" value="0" />
+              <span class="option-text">Option text</span>
+            </label>
+
+            FOR MULTI (multi===true):
+            <p class="multi-warning">...</p>   ← warning first
+            <label class="option-label" data-index="0">
+              <input type="checkbox" name="q-<id>" value="0" />
+              <span class="option-text">Option text</span>
+            </label>
+
+            userAnswers keyed by question.id (STRING):
+              Single: userAnswers["eg-01-001"] = 2
+              Multi:  userAnswers["eg-01-004"] = [1, 2]
+          -->
         </div>
 
-        <!-- Explanation (shown after review mode) -->
+        <!-- Explanation box (shown in review mode) -->
         <div
           class="explanation-box"
           id="explanation-box"
@@ -278,9 +574,20 @@
             <strong>ব্যাখ্যা</strong>
           </div>
           <p class="explanation-box__text" id="explanation-text"></p>
+
+          <!--
+            MULTI SCORE BREAKDOWN (review mode only)
+            Shown by quiz-engine.js when reviewing multi questions
+            Example content injected by JS:
+            <div class="score-multi">
+              <span class="partial-score">আংশিক: ১.৩৩ নম্বর</span>
+              (৩টির মধ্যে ২টি সঠিক)
+            </div>
+          -->
+          <div class="score-multi" id="multi-score-breakdown" hidden></div>
         </div>
 
-      </div>
+      </div><!-- /.question-card -->
 
       <!-- ========== NAVIGATION BAR ========== -->
       <div
@@ -308,7 +615,7 @@
           আগের
         </button>
 
-        <!-- Center: Submit button -->
+        <!-- Center: Submit (last question) -->
         <button
           class="nav-btn nav-btn--submit"
           id="btn-submit"
@@ -325,15 +632,11 @@
           জমা দিন
         </button>
 
-        <!-- Question counter (center) -->
-        <div
-          class="nav-counter"
-          id="nav-counter"
-          aria-hidden="true"
-        >
+        <!-- Center: Question counter -->
+        <div class="nav-counter" id="nav-counter" aria-hidden="true">
           <span id="nav-current">১</span>
           <span class="nav-counter__sep">/</span>
-          <span id="nav-total">২০</span>
+          <span id="nav-total">০</span>
         </div>
 
         <!-- Next -->
@@ -352,13 +655,16 @@
           </svg>
         </button>
 
-      </div>
+      </div><!-- /.quiz-nav -->
 
-    </main>
+    </main><!-- /.quiz-main -->
 
   </div><!-- /.quiz-layout -->
 
-  <!-- ========== SUBMIT CONFIRMATION DIALOG ========== -->
+  <!-- ═══════════════════════════════════════════
+       SUBMIT CONFIRMATION DIALOG
+       Updated: shows multi question count
+  ═══════════════════════════════════════════ -->
   <div
     class="confirm-overlay"
     id="confirm-overlay"
@@ -368,6 +674,7 @@
     hidden
   >
     <div class="confirm-box" id="confirm-box">
+
       <div class="confirm-icon" aria-hidden="true">
         <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
           stroke="#f59e0b" stroke-width="2"
@@ -383,8 +690,29 @@
         কুইজ জমা দিবেন?
       </h2>
 
+      <!--
+        CONFIRM STATS — injected by quiz-engine.js
+        New format includes multi question breakdown:
+
+        <div class="confirm-stats-row">
+          <span>উত্তর দেওয়া হয়েছে</span>
+          <span class="confirm-answered-count">১৫</span>
+        </div>
+        <div class="confirm-stats-row">
+          <span>উত্তর দেওয়া হয়নি</span>
+          <span class="confirm-unanswered-count">৫</span>
+        </div>
+        <div class="confirm-stats-row">
+          <span>বহু-সঠিক প্রশ্ন</span>
+          <span class="confirm-multi-count">৩</span>
+        </div>
+        <div class="confirm-stats-row">
+          <span>মোট প্রশ্ন</span>
+          <strong>২০</strong>
+        </div>
+      -->
       <div class="confirm-stats" id="confirm-stats">
-        <!-- Injected by JS: answered/unanswered count -->
+        <!-- Injected by quiz-engine.js -->
       </div>
 
       <p class="confirm-note">
@@ -407,10 +735,18 @@
           হ্যাঁ, জমা দিন
         </button>
       </div>
+
     </div>
-  </div>
+  </div><!-- /.confirm-overlay -->
 
   <!-- ========== SCRIPTS ========== -->
+  <!--
+    Load order:
+    1. quiz-storage.js  — localStorage helpers (try-catch wrapped)
+    2. quiz-scorer.js   — scoring logic (multi + single)
+    3. quiz-engine.js   — UI + question rendering + answer capture
+    quiz-loader.js is called from quiz-engine.js internally
+  -->
   <script src="js/quiz-storage.js"></script>
   <script src="js/quiz-scorer.js"></script>
   <script src="js/quiz-engine.js"></script>
