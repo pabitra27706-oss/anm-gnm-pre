@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>কাস্টম ফিল্টার | WB ANM GNM 2026</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink:        #e91e63;
+      --pink-light:  #fce4ec;
+      --green:       #4caf50;
+      --green-light: #e8f5e9;
+      --blue:        #2196f3;
+      --radius:      12px;
+      --shadow:      0 2px 8px rgba(0,0,0,0.09);
+      --shadow-md:   0 4px 16px rgba(0,0,0,0.13);
+      --font:        'Segoe UI', 'Noto Sans Bengali', Arial, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      background: #f5f6fa;
+      color: #1a1a2e;
+      min-height: 100vh;
+      padding-bottom: 60px;
+    }
+
+    /* ════════════════════════════
+       HEADER
+    ════════════════════════════ */
+    .page-header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 11px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: var(--shadow);
+    }
+
+    .header-btn {
+      background: none;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 7px 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 13px;
+      color: #555;
+      font-family: var(--font);
+      transition: background 0.18s;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+    .header-btn:hover { background: #f5f5f5; }
+
+    .header-title { flex: 1; min-width: 0; }
+    .header-title h1 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a1a2e;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .header-title p { font-size: 12px; color: #999; margin-top: 2px; }
+
+    /* ════════════════════════════
+       PAGE LAYOUT
+    ════════════════════════════ */
+    .page-body {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    @media (min-width: 800px) {
+      .page-body {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    }
+
+    /* ════════════════════════════
+       FILTER PANEL
+    ════════════════════════════ */
+    .filter-panel {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 20px;
+      border: 1px solid #f0f0f0;
+      flex-shrink: 0;
+      width: 100%;
+    }
+    @media (min-width: 800px) {
+      .filter-panel {
+        width: 290px;
+        position: sticky;
+        top: 68px;
+      }
+    }
+
+    .panel-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-title::before {
+      content: '';
+      width: 4px; height: 17px;
+      background: var(--pink);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .field { margin-bottom: 16px; }
+    .field label {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    /* custom select */
+    .sel-wrap { position: relative; }
+    .sel-wrap::after {
+      content: '';
+      position: absolute;
+      right: 12px; top: 50%;
+      transform: translateY(-50%);
+      border: 5px solid transparent;
+      border-top-color: #aaa;
+      pointer-events: none;
+      margin-top: 3px;
+    }
+    select.fsel {
+      width: 100%;
+      padding: 10px 34px 10px 12px;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: var(--font);
+      background: #fff;
+      color: #333;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    select.fsel:focus {
+      border-color: var(--pink);
+      box-shadow: 0 0 0 3px rgba(233,30,99,0.10);
+    }
+    select.fsel:disabled {
+      background: #fafafa;
+      color: #bbb;
+      cursor: not-allowed;
+    }
+
+    /* scan progress shown below unit select */
+    .scan-box {
+      margin-top: 8px;
+      display: none;
+    }
+    .scan-box.show { display: block; }
+
+    .scan-bar-wrap {
+      height: 6px;
+      background: #f0f0f0;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+    .scan-bar-fill {
+      height: 100%;
+      background: var(--pink);
+      border-radius: 3px;
+      width: 0%;
+      transition: width 0.25s ease;
+    }
+    .scan-text {
+      font-size: 11px;
+      color: #aaa;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .mini-spin {
+      width: 11px; height: 11px;
+      border: 2px solid #eee;
+      border-top-color: var(--pink);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+
+    .unit-summary {
+      font-size: 11px;
+      color: #aaa;
+      margin-top: 6px;
+      display: none;
+    }
+    .unit-summary.show { display: block; }
+
+    /* filter button */
+    .go-btn {
+      width: 100%;
+      padding: 12px;
+      background: var(--pink);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: var(--font);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      transition: opacity 0.2s, transform 0.15s;
+    }
+    .go-btn:hover:not(:disabled) { opacity: 0.88; }
+    .go-btn:active:not(:disabled) { transform: scale(0.98); }
+    .go-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* ════════════════════════════
+       RESULTS AREA
+    ════════════════════════════ */
+    .results-area { flex: 1; min-width: 0; }
+
+    /* meta bar */
+    .meta-bar {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .meta-bar.show { display: flex; }
+    .meta-count { font-size: 14px; font-weight: 600; color: #333; }
+    .meta-count strong { color: var(--pink); }
+    .meta-label { font-size: 12px; color: #aaa; }
+
+    /* ── placeholder ── */
+    .placeholder {
+      text-align: center;
+      padding: 70px 20px;
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1.5px dashed #ddd;
+    }
+    .placeholder .ph-emoji { font-size: 38px; margin-bottom: 14px; }
+    .placeholder p { font-size: 15px; color: #aaa; margin-bottom: 6px; }
+    .placeholder .ph-sub { font-size: 13px; color: #ccc; }
+
+    /* ── loading ── */
+    .loading-box {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff;
+      border-radius: var(--radius);
+    }
+    .spinner {
+      width: 44px; height: 44px;
+      border: 4px solid #f0f0f0;
+      border-top-color: var(--pink);
+      border-radius: 50%;
+      animation: spin 0.9s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .loading-box p { font-size: 14px; color: #888; margin-bottom: 5px; }
+    .loading-box .ld-sub { font-size: 12px; color: #ccc; }
+
+    /* ── empty ── */
+    .empty-box {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px dashed #ddd;
+    }
+    .empty-box p { font-size: 15px; color: #aaa; margin-bottom: 6px; }
+    .empty-box .em-sub { font-size: 13px; color: #ccc; }
+
+    /* ── error ── */
+    .error-box {
+      text-align: center;
+      padding: 40px 20px;
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px solid #ffcdd2;
+      color: #c62828;
+    }
+    .error-box p { margin-bottom: 8px; font-size: 14px; }
+    .error-box .err-detail { font-size: 12px; color: #ef9a9a; font-family: monospace; }
+    .retry-btn {
+      background: #ef5350;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 9px 22px;
+      font-size: 14px;
+      font-family: var(--font);
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .retry-btn:hover { opacity: 0.9; }
+
+    /* ════════════════════════════
+       QUESTION CARD
+    ════════════════════════════ */
+    .q-card {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 14px;
+      padding: 20px;
+      border: 1px solid #f0f0f0;
+      transition: box-shadow 0.18s;
+    }
+    .q-card:hover { box-shadow: var(--shadow-md); }
+
+    .q-head {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 11px;
+    }
+    .q-num {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--pink);
+      background: var(--pink-light);
+      padding: 2px 8px;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+    .q-set {
+      font-size: 11px;
+      color: #ccc;
+      padding-top: 2px;
+      flex-shrink: 0;
+    }
+    .q-badges { display: flex; flex-wrap: wrap; gap: 4px; }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .b-unit   { background: #f5f5f5; color: #666; }
+    .b-easy   { background: #e8f5e9; color: #2e7d32; }
+    .b-medium { background: #fff3e0; color: #e65100; }
+    .b-hard   { background: #ffebee; color: #c62828; }
+    .b-multi  { background: #e3f2fd; color: #1565c0; }
+
+    .q-text {
+      font-size: 15px;
+      line-height: 1.72;
+      color: #222;
+      margin-bottom: 13px;
+    }
+
+    .q-options {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 13px;
+    }
+    .q-opt {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 9px 12px;
+      border-radius: 8px;
+      border: 1px solid #ebebeb;
+      background: #fafafa;
+      font-size: 14px;
+      line-height: 1.5;
+      transition: background 0.15s;
+    }
+    .q-opt.correct {
+      background: var(--green-light);
+      border-color: var(--green);
+    }
+    .opt-letter {
+      font-weight: 700;
+      color: #999;
+      flex-shrink: 0;
+      min-width: 26px;
+    }
+    .q-opt.correct .opt-letter { color: #2e7d32; }
+    .opt-text { color: #444; }
+    .q-opt.correct .opt-text { color: #1b5e20; font-weight: 500; }
+
+    .q-answer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      background: #f9fbe7;
+      border-radius: 8px;
+      border-left: 3px solid #aed581;
+      margin-bottom: 10px;
+    }
+    .ans-label { font-size: 12px; color: #888; font-weight: 600; }
+    .ans-val   { font-size: 14px; font-weight: 700; color: #33691e; }
+
+    .q-exp {
+      display: flex;
+      gap: 7px;
+      padding: 10px 12px;
+      background: #f3f4f6;
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 1.65;
+    }
+    .exp-label { font-weight: 700; color: #666; flex-shrink: 0; }
+    .exp-text  { color: #555; }
+
+    /* ════════════════════════════
+       SCROLLBAR
+    ════════════════════════════ */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #f5f6fa; }
+    ::-webkit-scrollbar-thumb { background: #ddd; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #ccc; }
+
+    /* ════════════════════════════
+       PRINT
+    ════════════════════════════ */
+    @media print {
+      @page { margin: 1.5cm; }
+      body { background: #fff; padding: 0; }
+      .page-header { position: static; box-shadow: none; border-bottom: 1px solid #ddd; }
+      .header-btn  { display: none !important; }
+      .filter-panel { display: none !important; }
+      .page-body { flex-direction: column; padding: 0; gap: 0; }
+      .meta-bar  { display: flex !important; box-shadow: none; border: none; padding: 0 0 10px; margin-bottom: 10px; }
+      .q-card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin-bottom: 10px;
+      }
+      .q-card:nth-child(10n) { page-break-after: always; break-after: page; }
+      .q-opt.correct { background: #d4edda; border-color: #28a745; }
+      .badge { border: 1px solid #ddd; }
+      .placeholder, .loading-box, .empty-box, .error-box { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="page-header">
+  <button class="header-btn" id="backBtn">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.5"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+      <polyline points="9 22 9 12 15 12 15 22"/>
+    </svg>
+    হোম
+  </button>
+
+  <div class="header-title">
+    <h1>কাস্টম ফিল্টার</h1>
+    <p>বিষয় ও চ্যাপ্টার বেছে প্রশ্ন দেখুন</p>
+  </div>
+
+  <button class="header-btn" id="printBtn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16
+               a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+      <rect x="6" y="14" width="12" height="8"/>
+    </svg>
+    প্রিন্ট
+  </button>
+</header>
+
+<div class="page-body">
+
+  <div class="filter-panel">
+    <div class="panel-title">ফিল্টার করুন</div>
+
+    <div class="field">
+      <label for="subjectSelect">বিষয়</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="subjectSelect">
+          <option value="">-- বিষয় বাছাই করুন --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="unitSelect">চ্যাপ্টার / ইউনিট</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="unitSelect" disabled>
+          <option value="">-- আগে বিষয় বাছাই করুন --</option>
+        </select>
+      </div>
+
+      <div class="scan-box" id="scanBox">
+        <div class="scan-bar-wrap">
+          <div class="scan-bar-fill" id="scanBarFill"></div>
+        </div>
+        <div class="scan-text">
+          <div class="mini-spin"></div>
+          <span id="scanText">সেট পড়া হচ্ছে…</span>
+        </div>
+      </div>
+
+      <div class="unit-summary" id="unitSummary"></div>
+    </div>
+
+    <div class="field">
+      <label for="diffSelect">কঠিনতা (ঐচ্ছিক)</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="diffSelect" disabled>
+          <option value="">সব</option>
+          <option value="easy">সহজ</option>
+          <option value="medium">মাঝারি</option>
+          <option value="hard">কঠিন</option>
+        </select>
+      </div>
+    </div>
+
+    <button class="go-btn" id="filterBtn" disabled>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2.5"
+           stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="m21 21-4.35-4.35"/>
+      </svg>
+      দেখুন
+    </button>
+  </div>
+
+  <div class="results-area">
+
+    <div class="meta-bar" id="metaBar">
+      <div class="meta-count" id="metaCount"></div>
+      <div class="meta-label" id="metaLabel"></div>
+    </div>
+
+    <div id="resultsContainer">
+      <div class="placeholder">
+        <div class="ph-emoji">📖</div>
+        <p>বিষয় ও চ্যাপ্টার বাছাই করুন</p>
+        <p class="ph-sub">তারপর <strong>দেখুন</strong> বাটনে ক্লিক করুন</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="./js/unit-filter-app.js"></script>
+</body>
+</html>
