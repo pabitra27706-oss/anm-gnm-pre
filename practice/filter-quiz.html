@@ -2,1750 +2,293 @@
 <html lang="bn">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>কাস্টম কুইজ — WB ANM GNM 2026</title>
   <style>
-    /* ── Reset & Base ─────────────────────────────────────────────────────── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
     :root {
-      --pink:        #e91e63;
-      --pink-light:  #fce4ec;
-      --pink-dark:   #c2185b;
-      --green:       #4caf50;
-      --red:         #f44336;
-      --orange:      #ff9800;
-      --blue:        #2196f3;
-      --purple:      #9c27b0;
-      --cyan:        #00bcd4;
-      --gray-bg:     #f5f5f5;
-      --gray-border: #e0e0e0;
-      --gray-text:   #757575;
-      --dark:        #212121;
-      --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      --radius:      12px;
-    }
-
-    html { font-size: 15px; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, 'Noto Sans Bengali', sans-serif;
-      background: var(--gray-bg);
-      color: var(--dark);
-      min-height: 100vh;
-      padding-bottom: 80px;
-    }
-
-    /* ── Header ───────────────────────────────────────────────────────────── */
-    .header {
-      background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
-      color: white;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 8px rgba(233,30,99,0.3);
-    }
-
-    .header-inner {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 12px 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .header-left {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex: 1;
-      min-width: 0;
-    }
-
-    .exit-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.2);
-      border: none;
-      cursor: pointer;
-      color: white;
-      text-decoration: none;
-      flex-shrink: 0;
-      transition: background 0.2s;
-    }
-    .exit-btn:hover { background: rgba(255,255,255,0.3); }
-    .exit-btn svg { width: 18px; height: 18px; }
-
-    .header-title-wrap { flex: 1; min-width: 0; }
-    .header-title {
-      font-size: 0.95rem;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-    .header-subtitle {
-      font-size: 0.72rem;
-      opacity: 0.88;
-      margin-top: 2px;
-    }
-
-    .timer {
-      font-size: 0.95rem;
-      font-weight: 700;
-      background: rgba(255,255,255,0.2);
-      padding: 6px 12px;
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      flex-shrink: 0;
-    }
-    .timer svg { width: 16px; height: 16px; }
-
-    /* ── Page ─────────────────────────────────────────────────────────────── */
-    .page {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 16px;
-    }
-
-    /* ── Quiz Container ───────────────────────────────────────────────────── */
-    #quizContainer { display: none; }
-
-    /* Progress bar */
-    .progress-wrap {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 14px 16px;
-      margin-bottom: 14px;
-    }
-
-    .progress-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-
-    .progress-label {
-      font-size: 0.82rem;
-      color: var(--gray-text);
-    }
-
-    .progress-numbers {
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--dark);
-    }
-
-    .progress-bar-track {
-      width: 100%;
-      height: 6px;
-      background: var(--gray-border);
-      border-radius: 3px;
-      overflow: hidden;
-    }
-
-    .progress-bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--pink), var(--pink-dark));
-      border-radius: 3px;
-      width: 0%;
-      transition: width 0.3s ease;
-    }
-
-    /* Question card */
-    .question-card {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 18px;
-      margin-bottom: 14px;
-    }
-
-    /* Meta badges */
-    .question-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-bottom: 14px;
-    }
-
-    .meta-badge {
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 12px;
-      letter-spacing: 0.3px;
-      display: inline-block;
-      line-height: 1;
-    }
-
-    .badge-subject {
-      background: var(--pink-light);
-      color: var(--pink-dark);
-      border: 1px solid var(--pink);
-    }
-
-    .badge-unit {
-      background: #e3f2fd;
-      color: #1976d2;
-      border: 1px solid var(--blue);
-      font-size: 0.68rem;
-    }
-
-    .badge-type {
-      background: #f3e5f5;
-      color: #7b1fa2;
-      border: 1px solid var(--purple);
-    }
-
-    .badge-difficulty { border: 1px solid; }
-    .badge-difficulty.easy {
-      background: #e8f5e9;
-      color: #2e7d32;
-      border-color: var(--green);
-    }
-    .badge-difficulty.medium {
-      background: #fff3e0;
-      color: #e65100;
-      border-color: var(--orange);
-    }
-    .badge-difficulty.hard {
-      background: #ffebee;
-      color: #c62828;
-      border-color: var(--red);
-    }
-
-    .badge-history {
-      font-size: 0.68rem;
-      padding: 3px 8px;
-    }
-    .badge-history.prev-correct {
-      background: #e8f5e9;
-      color: #2e7d32;
-      border: 1px solid var(--green);
-    }
-    .badge-history.prev-wrong {
-      background: #ffebee;
-      color: #c62828;
-      border: 1px solid var(--red);
-    }
-    .badge-history.prev-skipped {
-      background: #fff3e0;
-      color: #e65100;
-      border: 1px solid var(--orange);
-    }
-    .badge-history.prev-attempted {
-      background: #e3f2fd;
-      color: #1565c0;
-      border: 1px solid var(--blue);
-    }
-
-    .question-number {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--pink);
-      margin-bottom: 10px;
-      display: block;
-    }
-
-    .question-text {
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--dark);
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-
-    /* Options */
-    .options-list {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .option-item {
-      border: 2px solid var(--gray-border);
-      border-radius: 10px;
-      padding: 12px 14px;
-      cursor: pointer;
-      transition: all 0.2s;
-      background: white;
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-    }
-
-    .option-item:hover:not(.selected):not(.correct):not(.wrong):not(.disabled) {
-      border-color: var(--pink);
-      background: var(--pink-light);
-    }
-
-    .option-radio {
-      width: 20px;
-      height: 20px;
-      border: 2px solid var(--gray-border);
-      border-radius: 50%;
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 2px;
-      transition: all 0.2s;
-    }
-
-    .option-item.selected .option-radio {
-      border-color: var(--pink);
-      background: var(--pink);
-    }
-
-    .option-item.selected .option-radio::after {
-      content: '';
-      width: 8px;
-      height: 8px;
-      background: white;
-      border-radius: 50%;
-    }
-
-    .option-text {
-      flex: 1;
-      font-size: 0.92rem;
-      line-height: 1.5;
-      color: var(--dark);
-    }
-
-    .option-item.selected {
-      border-color: var(--pink);
-      background: var(--pink-light);
-    }
-
-    .option-item.correct {
-      border-color: var(--green);
-      background: #e8f5e9;
-    }
-    .option-item.correct .option-radio {
-      border-color: var(--green);
-      background: var(--green);
-    }
-
-    .option-item.wrong {
-      border-color: var(--red);
-      background: #ffebee;
-    }
-    .option-item.wrong .option-radio {
-      border-color: var(--red);
-      background: var(--red);
-    }
-
-    .option-item.disabled {
-      cursor: default;
-      pointer-events: none;
-    }
-
-    /* Explanation */
-    .explanation-box {
-      background: #f9fbe7;
-      border-left: 4px solid #9ccc65;
-      border-radius: 8px;
-      padding: 12px 14px;
-      margin-top: 14px;
-      display: none;
-    }
-    .explanation-box.show { display: block; }
-
-    .explanation-title {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: #558b2f;
-      margin-bottom: 6px;
-      letter-spacing: 0.5px;
-    }
-
-    .explanation-text {
-      font-size: 0.88rem;
-      line-height: 1.6;
-      color: #33691e;
-    }
-
-    /* Nav buttons */
-    .nav-buttons {
-      display: flex;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .nav-btn {
-      flex: 1;
-      padding: 12px;
-      border: none;
-      border-radius: 10px;
-      font-size: 0.92rem;
-      font-weight: 700;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .nav-btn-prev {
-      background: white;
-      color: var(--dark);
-      border: 2px solid var(--gray-border);
-    }
-    .nav-btn-prev:hover:not(:disabled) {
-      border-color: var(--pink);
-      color: var(--pink);
-    }
-    .nav-btn-prev:disabled {
-      opacity: 0.4;
-      cursor: not-allowed;
-    }
-
-    .nav-btn-next {
-      background: linear-gradient(135deg, var(--pink), var(--pink-dark));
-      color: white;
-      box-shadow: 0 2px 8px rgba(233,30,99,0.3);
-    }
-    .nav-btn-next:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(233,30,99,0.4);
-    }
-
-    .nav-btn-submit {
-      background: linear-gradient(135deg, var(--green), #388e3c);
-      color: white;
-      box-shadow: 0 2px 8px rgba(76,175,80,0.3);
-    }
-    .nav-btn-submit:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(76,175,80,0.4);
-    }
-
-    /* Nav panel */
-    .nav-panel {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 14px;
-      margin-bottom: 14px;
-    }
-
-    .nav-panel-title {
-      font-size: 0.82rem;
-      font-weight: 700;
-      color: var(--gray-text);
-      margin-bottom: 10px;
-      letter-spacing: 0.5px;
-    }
-
-    .nav-panel-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
-      gap: 8px;
-    }
-
-    .nav-panel-btn {
-      width: 100%;
-      aspect-ratio: 1;
-      border: 2px solid var(--gray-border);
-      border-radius: 8px;
-      background: white;
-      font-size: 0.85rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--dark);
-    }
-
-    .nav-panel-btn:hover {
-      border-color: var(--pink);
-      color: var(--pink);
-    }
-
-    .nav-panel-btn.current {
-      background: var(--pink);
-      border-color: var(--pink);
-      color: white;
-    }
-
-    .nav-panel-btn.answered {
-      background: var(--pink-light);
-      border-color: var(--pink);
-      color: var(--pink-dark);
-    }
-
-    /* Subject-colored nav buttons */
-    .nav-panel-btn[data-subject="life-science"].answered {
-      border-color: var(--green); background: #e8f5e9; color: #2e7d32;
-    }
-    .nav-panel-btn[data-subject="physical-science"].answered {
-      border-color: var(--blue); background: #e3f2fd; color: #1565c0;
-    }
-    .nav-panel-btn[data-subject="mathematics"].answered {
-      border-color: var(--purple); background: #f3e5f5; color: #6a1b9a;
-    }
-    .nav-panel-btn[data-subject="general-knowledge"].answered {
-      border-color: var(--orange); background: #fff3e0; color: #e65100;
-    }
-    .nav-panel-btn[data-subject="logical-reasoning"].answered {
-      border-color: var(--cyan); background: #e0f7fa; color: #00838f;
-    }
-    .nav-panel-btn[data-subject="basic-english"].answered {
-      border-color: var(--pink); background: var(--pink-light); color: var(--pink-dark);
-    }
-
-    /* ── Result ───────────────────────────────────────────────────────────── */
-    #resultContainer { display: none; }
-
-    .result-card {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 24px;
-      text-align: center;
-      margin-bottom: 14px;
-    }
-
-    .result-icon { font-size: 4rem; margin-bottom: 12px; }
-
-    .result-title {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: var(--dark);
-      margin-bottom: 8px;
-    }
-
-    .result-score {
-      font-size: 3rem;
-      font-weight: 900;
-      background: linear-gradient(135deg, var(--pink), var(--pink-dark));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin: 10px 0;
-    }
-
-    .result-percentage {
-      font-size: 1.1rem;
-      color: var(--gray-text);
-      margin-bottom: 16px;
-    }
-
-    .result-message {
-      font-size: 0.95rem;
-      color: var(--gray-text);
-      line-height: 1.6;
-      padding: 12px;
-      background: var(--gray-bg);
-      border-radius: 8px;
-      margin-top: 12px;
-    }
-
-    /* History save confirmation */
-    .history-saved-banner {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      background: #e8f5e9;
-      border: 1px solid #c8e6c9;
-      border-radius: 10px;
-      padding: 12px 16px;
-      margin-top: 16px;
-      font-size: 0.85rem;
-      color: #2e7d32;
-      font-weight: 600;
-    }
-
-    .history-saved-banner svg {
-      width: 20px;
-      height: 20px;
-      stroke: var(--green);
-      flex-shrink: 0;
-    }
-
-    /* Stats grid */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 12px;
-      margin-top: 20px;
-    }
-
-    .stat-item {
-      background: var(--gray-bg);
-      border-radius: 10px;
-      padding: 12px;
-      text-align: center;
-    }
-
-    .stat-value {
-      font-size: 1.8rem;
-      font-weight: 800;
-      margin-bottom: 4px;
-    }
+      --pink: #e91e63; --pink-light: #fce4ec; --pink-dark: #c2185b;
+      --green: #4caf50; --green-light: #e8f5e9;
+      --red: #f44336; --red-light: #ffebee;
+      --orange: #ff9800; --blue: #2196f3; --blue-light: #e3f2fd;
+      --gray-bg: #f5f5f5; --gray-border: #e0e0e0; --gray-text: #757575;
+      --dark: #212121; --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      --radius: 16px; --radius-sm: 12px;
+    }
+    body { font-family: 'Segoe UI', system-ui, 'Noto Sans Bengali', sans-serif; background: var(--gray-bg); color: var(--dark); overflow-x: hidden; }
+    .quiz-header { position: sticky; top: 0; background: white; border-bottom: 1px solid var(--gray-border); padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; z-index: 100; box-shadow: var(--card-shadow); }
+    .header-left { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+    .exit-btn { width: 36px; height: 36px; border-radius: 50%; background: var(--pink-light); display: flex; align-items: center; justify-content: center; border: none; cursor: pointer; }
+    .exit-btn svg { width: 18px; height: 18px; stroke: var(--pink); stroke-width: 2; }
+    .title-wrap { flex: 1; min-width: 0; }
+    .quiz-title { font-size: 0.85rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .quiz-sub { font-size: 0.7rem; color: var(--gray-text); }
+    .timer { background: var(--pink-light); padding: 5px 12px; border-radius: 30px; font-weight: 700; color: var(--pink-dark); display: flex; align-items: center; gap: 5px; font-size: 0.8rem; }
+    .timer svg { width: 14px; height: 14px; stroke: var(--pink-dark); stroke-width: 2; }
+    .progress-row { background: white; padding: 8px 16px; border-bottom: 1px solid var(--gray-border); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .progress-bar-container { flex: 1; height: 5px; background: var(--gray-border); border-radius: 3px; overflow: hidden; }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--pink), var(--pink-dark)); width: 0%; transition: width 0.2s; }
+    .question-counter { font-size: 0.73rem; font-weight: 600; background: var(--gray-bg); padding: 4px 10px; border-radius: 20px; }
+    .palette-toggle { background: var(--blue-light); border: none; border-radius: 30px; padding: 5px 12px; font-size: 0.73rem; font-weight: 600; color: var(--blue); display: flex; align-items: center; gap: 5px; cursor: pointer; }
+    .palette-toggle svg { width: 14px; height: 14px; stroke: var(--blue); stroke-width: 2; }
+    .swipe-container { overflow: hidden; touch-action: pan-y pinch-zoom; }
+    .question-swipe-area { padding: 16px; transition: transform 0.2s ease-out; }
+    .question-card { background: white; border-radius: var(--radius); box-shadow: var(--card-shadow); padding: 18px; margin-bottom: 16px; }
+    .meta-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; align-items: center; }
+    .badge { font-size: 0.68rem; padding: 4px 10px; border-radius: 20px; font-weight: 600; }
+    .badge-subject { background: var(--pink-light); color: var(--pink-dark); }
+    .badge-unit { background: var(--blue-light); color: var(--blue); }
+    .badge-type { background: #f3e5f5; color: #7b1fa2; }
+    .badge-easy { background: var(--green-light); color: var(--green); }
+    .badge-medium { background: #fff3e0; color: var(--orange); }
+    .badge-hard { background: var(--red-light); color: var(--red); }
+    .badge-multi { background: #1976d2; color: white; display: inline-flex; align-items: center; gap: 3px; font-size: 0.65rem; }
+    .badge-multi svg { width: 11px; height: 11px; stroke: white; stroke-width: 2.5; }
+    .question-text { font-size: 1.05rem; line-height: 1.5; font-weight: 600; margin-bottom: 18px; }
+    .options-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px; }
+    .option { background: white; border: 2px solid var(--gray-border); border-radius: var(--radius-sm); padding: 12px 14px; display: flex; align-items: center; gap: 10px; cursor: pointer; transition: 0.2s; }
+    .option-letter { width: 30px; height: 30px; background: var(--gray-bg); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.85rem; color: var(--gray-text); }
+    .option-text { flex: 1; font-size: 0.92rem; }
+    .option.selected { border-color: var(--pink); background: var(--pink-light); }
+    .option.selected .option-letter { background: var(--pink); color: white; }
+    .option-checkbox { width: 18px; height: 18px; accent-color: var(--pink); margin-right: 6px; cursor: pointer; }
+    .multi-warning { background: #e3f2fd; border-left: 4px solid #1976d2; border-radius: 8px; padding: 8px 12px; font-size: 0.72rem; color: #1565c0; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .multi-warning svg { width: 14px; height: 14px; stroke: #1565c0; }
+    .nav-buttons { display: flex; gap: 12px; margin: 8px 0 20px; }
+    .nav-btn { flex: 1; padding: 11px; border-radius: 40px; font-weight: 700; background: white; border: 1.5px solid var(--gray-border); cursor: pointer; font-size: 0.88rem; }
+    .nav-btn-primary { background: linear-gradient(135deg, var(--pink), var(--pink-dark)); color: white; border: none; }
+    .nav-btn:disabled { opacity: 0.5; }
+    .swipe-hint { text-align: center; font-size: 0.68rem; color: var(--gray-text); margin: 8px 0; display: flex; justify-content: center; gap: 8px; align-items: center; }
+    .swipe-hint svg { width: 12px; height: 12px; stroke: var(--gray-text); stroke-width: 2; }
+    .palette-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 200; visibility: hidden; opacity: 0; transition: 0.2s; display: flex; align-items: flex-end; }
+    .palette-overlay.open { visibility: visible; opacity: 1; }
+    .palette-drawer { background: white; width: 100%; max-height: 70vh; border-radius: 24px 24px 0 0; padding: 20px; overflow-y: auto; transform: translateY(100%); transition: transform 0.25s; }
+    .palette-overlay.open .palette-drawer { transform: translateY(0); }
+    .palette-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-weight: 700; font-size: 0.95rem; }
+    .palette-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 8px; }
+    .palette-btn { aspect-ratio: 1; border: 1.5px solid var(--gray-border); background: white; border-radius: 12px; font-weight: 700; cursor: pointer; font-size: 0.85rem; }
+    .palette-btn.answered { background: var(--pink-light); border-color: var(--pink); color: var(--pink-dark); }
+    .palette-btn.current { background: var(--pink); border-color: var(--pink); color: white; }
+    .close-palette { background: none; border: none; font-size: 1.5rem; cursor: pointer; line-height: 1; }
+    .result-container { padding: 16px; display: none; }
+    .result-card, .improvement-card, .subject-breakdown { background: white; border-radius: var(--radius); box-shadow: var(--card-shadow); padding: 18px; margin-bottom: 16px; }
+    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+    .stat-item { text-align: center; background: var(--gray-bg); border-radius: var(--radius-sm); padding: 10px; }
+    .stat-value { font-size: 1.6rem; font-weight: 800; }
     .stat-value.correct { color: var(--green); }
-    .stat-value.wrong   { color: var(--red); }
+    .stat-value.wrong { color: var(--red); }
     .stat-value.skipped { color: var(--gray-text); }
-
-    .stat-label {
-      font-size: 0.8rem;
-      color: var(--gray-text);
-      font-weight: 600;
-    }
-
-    /* Subject breakdown */
-    .subject-breakdown {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 18px;
-      margin-bottom: 14px;
-    }
-
-    .breakdown-title {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--dark);
-      margin-bottom: 12px;
-    }
-
-    .breakdown-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--gray-border);
-    }
-    .breakdown-item:last-child { border-bottom: none; }
-
-    .breakdown-subject {
-      flex: 1;
-      font-size: 0.88rem;
-      font-weight: 600;
-    }
-
-    .breakdown-score {
-      font-size: 0.85rem;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 12px;
-    }
-
-    /* Improvement indicator */
-    .improvement-card {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 18px;
-      margin-bottom: 14px;
-    }
-
-    .improvement-title {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--dark);
-      margin-bottom: 12px;
-    }
-
-    .improvement-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 8px 0;
-      font-size: 0.85rem;
-    }
-
-    .improvement-icon {
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.9rem;
-      flex-shrink: 0;
-    }
-
-    .improvement-icon.improved {
-      background: #e8f5e9;
-      color: var(--green);
-    }
-    .improvement-icon.same {
-      background: #fff3e0;
-      color: var(--orange);
-    }
-    .improvement-icon.new-wrong {
-      background: #ffebee;
-      color: var(--red);
-    }
-
-    .improvement-text { flex: 1; color: var(--gray-text); }
-    .improvement-count { font-weight: 700; color: var(--dark); }
-
-    /* Action buttons */
-    .action-buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .action-btn {
-      width: 100%;
-      padding: 14px;
-      border: none;
-      border-radius: 10px;
-      font-size: 0.95rem;
-      font-weight: 700;
-      font-family: inherit;
-      cursor: pointer;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-    }
-
-    .action-btn-primary {
-      background: linear-gradient(135deg, var(--pink), var(--pink-dark));
-      color: white;
-      box-shadow: 0 4px 12px rgba(233,30,99,0.3);
-    }
-    .action-btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(233,30,99,0.4);
-    }
-
-    .action-btn-secondary {
-      background: white;
-      color: var(--dark);
-      border: 2px solid var(--gray-border);
-    }
-    .action-btn-secondary:hover {
-      border-color: var(--pink);
-      color: var(--pink);
-    }
-
-    .action-btn-wrong {
-      background: linear-gradient(135deg, var(--red), #c62828);
-      color: white;
-      box-shadow: 0 4px 12px rgba(244,67,54,0.3);
-    }
-    .action-btn-wrong:hover {
-      transform: translateY(-2px);
-    }
-
-    .action-btn svg { width: 18px; height: 18px; }
-
-    /* State boxes */
-    .state-box {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .state-icon { font-size: 3rem; margin-bottom: 16px; }
-    .state-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--dark);
-      margin-bottom: 8px;
-    }
-    .state-message {
-      font-size: 0.9rem;
-      color: var(--gray-text);
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      .header-title { font-size: 0.85rem; }
-      .header-subtitle { font-size: 0.68rem; }
-      .timer { font-size: 0.82rem; padding: 5px 10px; }
-      .question-text { font-size: 0.98rem; }
-      .option-text { font-size: 0.88rem; }
-      .nav-panel-grid { grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); }
-      .result-score { font-size: 2.5rem; }
-    }
+    .breakdown-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--gray-border); font-size: 0.85rem; }
+    .improvement-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; font-size: 0.85rem; }
+    .improvement-icon { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; }
+    .improvement-icon.improved { background: var(--green-light); color: var(--green); }
+    .improvement-icon.same { background: #fff3e0; color: var(--orange); }
+    .improvement-icon.new-wrong { background: var(--red-light); color: var(--red); }
+    .action-buttons { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+    .action-btn { padding: 12px; border-radius: 40px; font-weight: 700; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 0.88rem; }
+    .action-btn svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 2; }
+    .action-btn-primary { background: linear-gradient(135deg, var(--pink), var(--pink-dark)); color: white; }
+    .action-btn-secondary { background: white; border: 1.5px solid var(--gray-border); color: var(--dark); }
+    .action-btn-wrong { background: linear-gradient(135deg, var(--red), #c62828); color: white; }
+    .history-saved-banner { display: flex; align-items: center; gap: 10px; background: var(--green-light); border-radius: 10px; padding: 10px; margin-top: 14px; color: #2e7d32; font-weight: 600; font-size: 0.8rem; }
+    .history-saved-banner svg { width: 16px; height: 16px; stroke: #2e7d32; }
+    .loading-state, .error-state { text-align: center; padding: 60px 20px; background: white; border-radius: var(--radius); margin: 20px; }
+    @media (max-width: 480px) { .question-text { font-size: 0.98rem; } .option { padding: 10px 12px; } .option-checkbox { width: 16px; height: 16px; } }
   </style>
 </head>
 <body>
 
-<!-- ── Header ──────────────────────────────────────────────────────────── -->
-<header class="header">
-  <div class="header-inner">
-    <div class="header-left">
-      <a href="./filter.html" class="exit-btn" id="exitBtn" aria-label="প্রস্থান">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-             stroke-linecap="round" stroke-linejoin="round">
-          <line x1="18" y1="6" x2="6" y2="18"/>
-          <line x1="6" y1="6" x2="18" y2="18"/>
-        </svg>
-      </a>
-      <div class="header-title-wrap">
-        <div class="header-title" id="headerTitle">কাস্টম কুইজ</div>
-        <div class="header-subtitle" id="headerSubtitle">প্রশ্ন লোড হচ্ছে...</div>
-      </div>
-    </div>
-    <div class="timer" id="timer" style="display:none;">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-           stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="10"/>
-        <polyline points="12 6 12 12 16 14"/>
-      </svg>
-      <span id="timerText">০০:০০</span>
-    </div>
+<header class="quiz-header">
+  <div class="header-left">
+    <button class="exit-btn" id="exitBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <div class="title-wrap"><div class="quiz-title" id="headerTitle">কাস্টম কুইজ</div><div class="quiz-sub" id="headerSubtitle">প্রশ্ন লোড হচ্ছে...</div></div>
   </div>
+  <div class="timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span id="timerText">০০:০০</span></div>
 </header>
 
-<div class="page">
+<div class="progress-row">
+  <div class="progress-bar-container"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="question-counter" id="questionCounter">০/০</div>
+  <button class="palette-toggle" id="paletteToggleBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>তালিকা</button>
+</div>
 
-  <!-- Loading -->
-  <div id="loadingState" class="state-box">
-    <div class="state-icon">⏳</div>
-    <div class="state-title">প্রস্তুতি চলছে...</div>
-    <p class="state-message">আপনার কাস্টম কুইজ লোড হচ্ছে</p>
+<div class="swipe-container" id="swipeContainer">
+  <div class="question-swipe-area" id="questionSwipeArea"></div>
+</div>
+
+<div class="palette-overlay" id="paletteOverlay">
+  <div class="palette-drawer">
+    <div class="palette-header"><span>📌 সব প্রশ্ন</span><button class="close-palette" id="closePaletteBtn">&times;</button></div>
+    <div class="palette-grid" id="paletteGrid"></div>
   </div>
+</div>
 
-  <!-- Error -->
-  <div id="errorState" class="state-box" style="display:none;">
-    <div class="state-icon">⚠️</div>
-    <div class="state-title">কোনো প্রশ্ন পাওয়া যায়নি</div>
-    <p class="state-message">
-      ফিল্টার পেজ থেকে প্রশ্ন নির্বাচন করেননি।<br>
-      অনুগ্রহ করে ফিরে গিয়ে ফিল্টার সেট করুন।
-    </p>
-    <button class="action-btn action-btn-primary" onclick="window.location.href='./filter.html'">
-      ফিল্টার পেজে ফিরে যান
-    </button>
-  </div>
+<div id="resultContainer" class="result-container"></div>
+<div id="loadingState" class="loading-state"><div>⏳ প্রশ্ন লোড হচ্ছে...</div></div>
 
-  <!-- Quiz Container -->
-  <div id="quizContainer">
-
-    <!-- Progress -->
-    <div class="progress-wrap">
-      <div class="progress-header">
-        <span class="progress-label">অগ্রগতি</span>
-        <span class="progress-numbers">
-          <span id="currentQuestionNum">১</span> / <span id="totalQuestions">২০</span>
-        </span>
-      </div>
-      <div class="progress-bar-track">
-        <div class="progress-bar-fill" id="progressBarFill"></div>
-      </div>
-    </div>
-
-    <!-- Nav panel -->
-    <div class="nav-panel">
-      <div class="nav-panel-title">সব প্রশ্ন</div>
-      <div class="nav-panel-grid" id="navPanelGrid"></div>
-    </div>
-
-    <!-- Question card -->
-    <div class="question-card" id="questionCard">
-      <div class="question-meta" id="questionMeta"></div>
-      <span class="question-number" id="questionNumber">প্রশ্ন ১</span>
-      <div class="question-text" id="questionText"></div>
-      <ul class="options-list" id="optionsList"></ul>
-      <div class="explanation-box" id="explanationBox">
-        <div class="explanation-title">ব্যাখ্যা</div>
-        <div class="explanation-text" id="explanationText"></div>
-      </div>
-    </div>
-
-    <!-- Nav buttons -->
-    <div class="nav-buttons">
-      <button class="nav-btn nav-btn-prev" id="prevBtn">আগের প্রশ্ন</button>
-      <button class="nav-btn nav-btn-next" id="nextBtn">পরের প্রশ্ন</button>
-      <button class="nav-btn nav-btn-submit" id="submitBtn" style="display:none;">জমা দিন</button>
-    </div>
-
-  </div>
-
-  <!-- Result Container -->
-  <div id="resultContainer">
-
-    <div class="result-card">
-      <div class="result-icon" id="resultIcon">🎉</div>
-      <div class="result-title">কুইজ সম্পন্ন হয়েছে!</div>
-      <div class="result-score" id="resultScore">০/০</div>
-      <div class="result-percentage" id="resultPercentage">০%</div>
-      <div class="result-message" id="resultMessage"></div>
-
-      <!-- History saved confirmation -->
-      <div class="history-saved-banner" id="historySavedBanner" style="display:none;">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round">
-          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-          <polyline points="22 4 12 14.01 9 11.01"/>
-        </svg>
-        <span>আপনার অগ্রগতি সেভ হয়েছে!</span>
-      </div>
-
-      <div class="stats-grid">
-        <div class="stat-item">
-          <div class="stat-value correct" id="statCorrect">০</div>
-          <div class="stat-label">সঠিক</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value wrong" id="statWrong">০</div>
-          <div class="stat-label">ভুল</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value skipped" id="statSkipped">০</div>
-          <div class="stat-label">এড়িয়ে গেছেন</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Improvement tracker -->
-    <div class="improvement-card" id="improvementCard" style="display:none;">
-      <div class="improvement-title">📈 উন্নতির বিশ্লেষণ</div>
-      <div id="improvementList"></div>
-    </div>
-
-    <!-- Subject breakdown -->
-    <div class="subject-breakdown">
-      <div class="breakdown-title">বিষয় অনুযায়ী ফলাফল</div>
-      <div id="subjectBreakdownList"></div>
-    </div>
-
-    <!-- Action buttons -->
-    <div class="action-buttons">
-      <button class="action-btn action-btn-primary" onclick="window.location.href='./filter.html'">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round">
-          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
-        </svg>
-        আবার ফিল্টার করুন
-      </button>
-      <button class="action-btn action-btn-wrong" id="retryWrongBtn" style="display:none;">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"/>
-          <line x1="15" y1="9" x2="9" y2="15"/>
-          <line x1="9" y1="9" x2="15" y2="15"/>
-        </svg>
-        <span id="retryWrongText">ভুল প্রশ্নগুলো আবার দিন</span>
-      </button>
-      <button class="action-btn action-btn-secondary" onclick="location.reload()">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="23 4 23 10 17 10"/>
-          <polyline points="1 20 1 14 7 14"/>
-          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-        </svg>
-        একই কুইজ আবার দিন
-      </button>
-      <button class="action-btn action-btn-secondary" onclick="window.location.href='./index.html'">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-          <polyline points="9 22 9 12 15 12 15 22"/>
-        </svg>
-        হোম পেজে ফিরে যান
-      </button>
-    </div>
-
-  </div>
-
-</div><!-- /.page -->
-
-<!-- History module -->
 <script src="./js/filter-history.js"></script>
-
-<!-- Main Quiz Engine -->
 <script>
-(function() {
+(function(){
   'use strict';
-
-  // ─── Bengali Utilities ────────────────────────────────────────────────
-
-  function toBengali(num) {
-    var bn = ['০','১','২','৩','৪','৫','৬','৭','৮','৯'];
-    return String(num).replace(/[0-9]/g, function(d) { return bn[parseInt(d)]; });
+  function toBengali(num) { let bn=['০','১','২','৩','৪','৫','৬','৭','৮','৯']; return String(num).replace(/[0-9]/g, d=>bn[parseInt(d)]); }
+  function formatTime(sec) { let m=Math.floor(sec/60), s=sec%60; return toBengali(String(m).padStart(2,'0'))+':'+toBengali(String(s).padStart(2,'0')); }
+  let questions=[], userAnswers={}, currentIndex=0, startTime=Date.now(), timerInterval=null, quizSubmitted=false;
+  const SUBJECT_BN={'life-science':'জীবন বিজ্ঞান','physical-science':'ভৌত বিজ্ঞান','mathematics':'গণিত','general-knowledge':'সাধারণ জ্ঞান','logical-reasoning':'যুক্তিবিদ্যা','basic-english':'ইংরেজি'};
+  const UNIT_BN={'01-cell-structure-functions':'কোষের গঠন','02-tissues':'কলা','03-digestive-system':'পাচনতন্ত্র','04-respiratory-system':'শ্বসনতন্ত্র','05-circulatory-system':'রক্ত সংবহন','06-excretory-system':'রেচনতন্ত্র'};
+  function getUnitBn(u){ return UNIT_BN[u] || u?.replace(/-/g,' ') || ''; }
+  function getQid(q){ return q.id; }
+  function loadQuestions(){
+    try{ let qs=sessionStorage.getItem('filter_quiz_questions'); if(!qs) throw new Error(); questions=JSON.parse(qs); if(!questions.length) throw new Error(); userAnswers={}; questions.forEach(q=>{ userAnswers[getQid(q)]=null; }); return true; }catch(e){ return false; }
   }
-
-  function formatTime(seconds) {
-    var m = Math.floor(seconds / 60);
-    var s = seconds % 60;
-    return toBengali(String(m).padStart(2, '0')) + ':' +
-           toBengali(String(s).padStart(2, '0'));
-  }
-
-  // ─── Name Maps ────────────────────────────────────────────────────────
-
-  var SUBJECT_BN = {
-    'life-science': 'জীবন বিজ্ঞান',
-    'physical-science': 'ভৌত বিজ্ঞান',
-    'mathematics': 'গণিত',
-    'general-knowledge': 'সাধারণ জ্ঞান',
-    'logical-reasoning': 'যুক্তিবিদ্যা',
-    'basic-english': 'ইংরেজি'
-  };
-
-  var SUBJECT_COLORS = {
-    'life-science': '#4caf50',
-    'physical-science': '#2196f3',
-    'mathematics': '#9c27b0',
-    'general-knowledge': '#ff9800',
-    'logical-reasoning': '#00bcd4',
-    'basic-english': '#e91e63'
-  };
-
-  var UNIT_BN = {
-    '01-cell-structure-functions': 'কোষের গঠন',
-    '02-tissues': 'কলা',
-    '03-digestive-system': 'পাচনতন্ত্র',
-    '04-respiratory-system': 'শ্বসনতন্ত্র',
-    '05-circulatory-system': 'রক্ত সংবহনতন্ত্র',
-    '06-excretory-system': 'রেচনতন্ত্র',
-    '07-nervous-system': 'স্নায়ুতন্ত্র',
-    '08-reproductive-system': 'প্রজননতন্ত্র',
-    '09-sense-organs': 'ইন্দ্রিয়',
-    '10-nutrition-health': 'পুষ্টি ও স্বাস্থ্য',
-    '11-common-diseases': 'সাধারণ রোগ',
-    '12-immunity': 'রোগ প্রতিরোধ',
-    '13-first-aid-fundamentals': 'প্রাথমিক চিকিৎসা',
-    '01-matter-and-states': 'পদার্থ ও অবস্থা',
-    '02-atomic-structure': 'পারমাণবিক গঠন',
-    '03-chemical-reactions': 'রাসায়নিক বিক্রিয়া',
-    '04-acids-bases-salts': 'অ্যাসিড, ক্ষার ও লবণ',
-    '05-force-and-motion': 'বল ও গতি',
-    '06-work-and-energy': 'কাজ ও শক্তি',
-    '07-light-reflection-refraction': 'আলোর প্রতিফলন',
-    '08-electricity-and-circuits': 'বিদ্যুৎ ও বর্তনী',
-    '09-heat-and-temperature': 'তাপ ও তাপমাত্রা',
-    '10-measurements': 'পরিমাপ',
-    '11-basic-organic-chemistry': 'জৈব রসায়ন',
-    '12-environmental-chemistry': 'পরিবেশ রসায়ন',
-    '01-number-system': 'সংখ্যা পদ্ধতি',
-    '02-lcm-hcf': 'লসাগু ও গসাগু',
-    '03-fractions-decimals': 'ভগ্নাংশ',
-    '04-ratio-proportion': 'অনুপাত',
-    '05-percentages': 'শতাংশ',
-    '06-profit-loss': 'লাভ ও ক্ষতি',
-    '07-simple-interest': 'সরল সুদ',
-    '08-compound-interest': 'চক্রবৃদ্ধি সুদ',
-    '09-average': 'গড়',
-    '10-time-work': 'সময় ও কাজ',
-    '11-speed-distance': 'গতি ও দূরত্ব',
-    '12-mensuration': 'ক্ষেত্রমিতি',
-    '13-data-interpretation': 'তথ্য বিশ্লেষণ',
-    '14-basic-algebra': 'বীজগণিত'
-  };
-
-  var TYPE_BN = {
-    'theory': 'তত্ত্ব', 'numerical': 'গাণিতিক',
-    'memory': 'মুখস্থ', 'application': 'প্রয়োগ'
-  };
-
-  var DIFFICULTY_BN = {
-    'easy': 'সহজ', 'medium': 'মাঝারি', 'hard': 'কঠিন'
-  };
-
-  // ─── State ────────────────────────────────────────────────────────────
-
-  var questions    = [];
-  var config       = {};
-  var currentIndex = 0;
-  var userAnswers  = [];
-  var startTime    = Date.now();
-  var timerInterval = null;
-  var quizSubmitted = false;
-  var wrongQuestionsList = [];
-
-  // ─── DOM References ───────────────────────────────────────────────────
-
-  function getEl(id) {
-    var e = document.getElementById(id);
-    if (!e) console.warn('filter-quiz: Missing #' + id);
-    return e;
-  }
-
-  var el = {};
-
-  function cacheElements() {
-    var ids = [
-      'loadingState', 'errorState', 'quizContainer', 'resultContainer',
-      'headerTitle', 'headerSubtitle', 'timer', 'timerText',
-      'progressBarFill', 'currentQuestionNum', 'totalQuestions',
-      'navPanelGrid', 'questionCard', 'questionMeta',
-      'questionNumber', 'questionText', 'optionsList',
-      'explanationBox', 'explanationText',
-      'prevBtn', 'nextBtn', 'submitBtn', 'exitBtn',
-      'resultIcon', 'resultScore', 'resultPercentage', 'resultMessage',
-      'statCorrect', 'statWrong', 'statSkipped',
-      'subjectBreakdownList', 'historySavedBanner',
-      'improvementCard', 'improvementList',
-      'retryWrongBtn', 'retryWrongText'
-    ];
-    for (var i = 0; i < ids.length; i++) {
-      el[ids[i]] = document.getElementById(ids[i]);
-    }
-  }
-
-  // ─── Init ─────────────────────────────────────────────────────────────
-
-  function init() {
-    console.log('filter-quiz: Init started');
-    cacheElements();
-
-    // Load from sessionStorage
-    try {
-      var qs = sessionStorage.getItem('filter_quiz_questions');
-      var cf = sessionStorage.getItem('filter_quiz_config');
-
-      if (!qs) throw new Error('No questions in session');
-
-      questions = JSON.parse(qs);
-      config    = cf ? JSON.parse(cf) : {};
-
-      if (!Array.isArray(questions) || questions.length === 0) {
-        throw new Error('Empty questions array');
-      }
-
-    } catch (e) {
-      console.error('filter-quiz: Load error:', e.message);
-      showError();
-      return;
-    }
-
-    console.log('filter-quiz: Loaded', questions.length, 'questions');
-
-    // Init answers
-    userAnswers = new Array(questions.length).fill(null);
-
-    // Header
-    if (el.headerTitle)    el.headerTitle.textContent    = 'কাস্টম কুইজ';
-    if (el.headerSubtitle) el.headerSubtitle.textContent = toBengali(questions.length) + 'টি প্রশ্ন';
-    if (el.totalQuestions) el.totalQuestions.textContent  = toBengali(questions.length);
-
-    // Show quiz
-    if (el.loadingState)   el.loadingState.style.display   = 'none';
-    if (el.quizContainer)  el.quizContainer.style.display  = 'block';
-    if (el.timer)          el.timer.style.display          = 'flex';
-
-    // Build nav panel
-    buildNavPanel();
-
-    // Show first question
-    showQuestion(0);
-
-    // Start timer
-    startTimer();
-
-    // Events
-    if (el.prevBtn)   el.prevBtn.addEventListener('click', function() { navigateQuestion(-1); });
-    if (el.nextBtn)   el.nextBtn.addEventListener('click', function() { navigateQuestion(1); });
-    if (el.submitBtn) el.submitBtn.addEventListener('click', submitQuiz);
-
-    if (el.exitBtn) {
-      el.exitBtn.addEventListener('click', function(e) {
-        confirmExit(e);
-      });
-    }
-
-    console.log('filter-quiz: Init complete');
-  }
-
-  // ─── Error State ──────────────────────────────────────────────────────
-
-  function showError() {
-    if (el.loadingState) el.loadingState.style.display = 'none';
-    if (el.errorState)   el.errorState.style.display   = 'block';
-  }
-
-  // ─── Nav Panel ────────────────────────────────────────────────────────
-
-  function buildNavPanel() {
-    if (!el.navPanelGrid) return;
-    el.navPanelGrid.innerHTML = '';
-
-    for (var i = 0; i < questions.length; i++) {
-      (function(idx) {
-        var q   = questions[idx];
-        var btn = document.createElement('button');
-        btn.className   = 'nav-panel-btn';
-        btn.textContent = toBengali(idx + 1);
-        btn.dataset.index = idx;
-        if (q && q.subject) btn.dataset.subject = q.subject;
-        btn.addEventListener('click', function() { showQuestion(idx); });
-        el.navPanelGrid.appendChild(btn);
-      })(i);
-    }
-  }
-
-  // ─── Show Question ────────────────────────────────────────────────────
-
-  function showQuestion(index) {
-    if (index < 0 || index >= questions.length) return;
-
-    currentIndex = index;
-    var q = questions[index];
-    if (!q) return;
-
-    // Progress
-    var pct = ((index + 1) / questions.length) * 100;
-    if (el.progressBarFill)    el.progressBarFill.style.width    = pct + '%';
-    if (el.currentQuestionNum) el.currentQuestionNum.textContent = toBengali(index + 1);
-
-    // Meta badges
-    if (el.questionMeta) {
-      el.questionMeta.innerHTML = '';
-
-      // Subject badge
-      if (q.subject) {
-        var subBadge = document.createElement('span');
-        subBadge.className = 'meta-badge badge-subject';
-        subBadge.textContent = SUBJECT_BN[q.subject] || q.subject;
-        subBadge.style.borderColor = SUBJECT_COLORS[q.subject] || '#e91e63';
-        el.questionMeta.appendChild(subBadge);
-      }
-
-      // Unit badge
-      if (q.unit && UNIT_BN[q.unit]) {
-        var unitBadge = document.createElement('span');
-        unitBadge.className = 'meta-badge badge-unit';
-        unitBadge.textContent = UNIT_BN[q.unit];
-        el.questionMeta.appendChild(unitBadge);
-      }
-
-      // Type badge
-      if (q.type && TYPE_BN[q.type]) {
-        var typeBadge = document.createElement('span');
-        typeBadge.className = 'meta-badge badge-type';
-        typeBadge.textContent = TYPE_BN[q.type];
-        el.questionMeta.appendChild(typeBadge);
-      }
-
-      // Difficulty badge
-      if (q.difficulty) {
-        var diffBadge = document.createElement('span');
-        diffBadge.className = 'meta-badge badge-difficulty ' + q.difficulty;
-        diffBadge.textContent = DIFFICULTY_BN[q.difficulty] || q.difficulty;
-        el.questionMeta.appendChild(diffBadge);
-      }
-
-      // History badge (if FilterHistory available)
-      if (window.FilterHistory) {
-        var status = FilterHistory.getQuestionStatus(q);
-        if (status && status !== 'unseen') {
-          var histBadge = document.createElement('span');
-          histBadge.className = 'meta-badge badge-history';
-
-          if (status === 'correct') {
-            histBadge.classList.add('prev-correct');
-            histBadge.textContent = 'আগে সঠিক ✅';
-          } else if (status === 'wrong') {
-            histBadge.classList.add('prev-wrong');
-            histBadge.textContent = 'আগে ভুল ❌';
-          } else if (status === 'skipped') {
-            histBadge.classList.add('prev-skipped');
-            histBadge.textContent = 'আগে এড়ানো ⏭️';
-          }
-
-          el.questionMeta.appendChild(histBadge);
-        }
-      }
-    }
-
-    // Question text
-    if (el.questionNumber) el.questionNumber.textContent = 'প্রশ্ন ' + toBengali(index + 1);
-    if (el.questionText)   el.questionText.textContent   = q.question || '';
-
-    // Options
-    if (el.optionsList) {
-      el.optionsList.innerHTML = '';
-      if (Array.isArray(q.options)) {
-        for (var i = 0; i < q.options.length; i++) {
-          (function(optIdx) {
-            var li = document.createElement('li');
-            li.className     = 'option-item';
-            li.dataset.index = optIdx;
-
-            var radio = document.createElement('div');
-            radio.className = 'option-radio';
-
-            var text = document.createElement('div');
-            text.className   = 'option-text';
-            text.textContent = q.options[optIdx];
-
-            li.appendChild(radio);
-            li.appendChild(text);
-
-            // Previously selected
-            if (userAnswers[index] === optIdx) {
-              li.classList.add('selected');
-            }
-
-            li.addEventListener('click', function() {
-              if (!quizSubmitted) selectOption(optIdx);
-            });
-
-            el.optionsList.appendChild(li);
-          })(i);
-        }
-      }
-    }
-
-    // Hide explanation
-    if (el.explanationBox) el.explanationBox.classList.remove('show');
-
-    // Nav buttons
-    if (el.prevBtn) el.prevBtn.disabled = (index === 0);
-
-    if (index === questions.length - 1) {
-      if (el.nextBtn)   el.nextBtn.style.display   = 'none';
-      if (el.submitBtn) el.submitBtn.style.display  = 'block';
-    } else {
-      if (el.nextBtn)   el.nextBtn.style.display   = 'block';
-      if (el.submitBtn) el.submitBtn.style.display  = 'none';
-    }
-
-    // Update nav panel
-    updateNavPanel();
-
-    // Scroll
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  // ─── Select Option ────────────────────────────────────────────────────
-
-  function selectOption(optionIndex) {
-    if (quizSubmitted) return;
-
-    userAnswers[currentIndex] = optionIndex;
-
-    var items = el.optionsList ? el.optionsList.querySelectorAll('.option-item') : [];
-    for (var i = 0; i < items.length; i++) {
-      if (i === optionIndex) {
-        items[i].classList.add('selected');
+  function escapeHtml(str){ if(!str) return ''; return str.replace(/[&<>]/g, m=> m==='&'?'&amp;': m==='<'?'&lt;':'&gt;'); }
+  function renderCurrentQuestion(){
+    if(!questions.length||quizSubmitted) return;
+    let q=questions[currentIndex], qid=getQid(q), selectedVal=userAnswers[qid], isMulti=q.multi===true;
+    let html=`<div class="question-card"><div class="meta-badges">`;
+    if(q.subject) html+=`<span class="badge badge-subject">${SUBJECT_BN[q.subject]||q.subject}</span>`;
+    if(q.unit) html+=`<span class="badge badge-unit">${getUnitBn(q.unit)}</span>`;
+    if(q.type) html+=`<span class="badge badge-type">${q.type==='theory'?'তত্ত্ব':q.type==='numerical'?'গাণিতিক':q.type}</span>`;
+    if(q.difficulty) html+=`<span class="badge badge-${q.difficulty}">${q.difficulty==='easy'?'সহজ':q.difficulty==='medium'?'মাঝারি':'কঠিন'}</span>`;
+    if(isMulti) html+=`<span class="badge badge-multi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg> বহু সঠিক</span>`;
+    html+=`</div><div class="question-text">${escapeHtml(q.question)}</div>`;
+    if(isMulti) html+=`<div class="multi-warning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 12 16 12"/></svg> একাধিক উত্তর সঠিক হতে পারে। সঠিক সব উত্তর নির্বাচন করুন।</div>`;
+    html+=`<div class="options-list" id="optionsList">`;
+    let letters=['ক','খ','গ','ঘ','ঙ'];
+    for(let i=0;i<q.options.length;i++){
+      let isSelected=false;
+      if(isMulti) isSelected=Array.isArray(selectedVal)&&selectedVal.includes(i);
+      else isSelected=(selectedVal===i);
+      let selectedClass=isSelected?' selected':'';
+      if(isMulti){
+        html+=`<div class="option${selectedClass}" data-opt-index="${i}"><input type="checkbox" class="option-checkbox" ${isSelected?'checked':''}><div class="option-letter">${letters[i]}</div><div class="option-text">${escapeHtml(q.options[i])}</div></div>`;
       } else {
-        items[i].classList.remove('selected');
+        html+=`<div class="option${selectedClass}" data-opt-index="${i}"><div class="option-letter">${letters[i]}</div><div class="option-text">${escapeHtml(q.options[i])}</div></div>`;
       }
     }
-
-    updateNavPanel();
-  }
-
-  // ─── Navigate ─────────────────────────────────────────────────────────
-
-  function navigateQuestion(direction) {
-    var newIdx = currentIndex + direction;
-    if (newIdx >= 0 && newIdx < questions.length) {
-      showQuestion(newIdx);
-    }
-  }
-
-  // ─── Update Nav Panel ─────────────────────────────────────────────────
-
-  function updateNavPanel() {
-    if (!el.navPanelGrid) return;
-    var btns = el.navPanelGrid.querySelectorAll('.nav-panel-btn');
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].classList.toggle('current', i === currentIndex);
-      btns[i].classList.toggle('answered', userAnswers[i] !== null);
-    }
-  }
-
-  // ─── Timer ────────────────────────────────────────────────────────────
-
-  function startTimer() {
-    timerInterval = setInterval(function() {
-      var elapsed = Math.floor((Date.now() - startTime) / 1000);
-      if (el.timerText) el.timerText.textContent = formatTime(elapsed);
-    }, 1000);
-  }
-
-  function stopTimer() {
-    if (timerInterval) {
-      clearInterval(timerInterval);
-      timerInterval = null;
-    }
-  }
-
-  // ─── Submit Quiz ──────────────────────────────────────────────────────
-
-  function submitQuiz() {
-    var unanswered = 0;
-    for (var i = 0; i < userAnswers.length; i++) {
-      if (userAnswers[i] === null) unanswered++;
-    }
-
-    if (unanswered > 0) {
-      var msg = toBengali(unanswered) + 'টি প্রশ্নের উত্তর দেননি। জমা দিতে চান?';
-      if (!confirm(msg)) return;
-    }
-
-    quizSubmitted = true;
-    stopTimer();
-    calculateResult();
-  }
-
-  // ─── Calculate Result ─────────────────────────────────────────────────
-
-  function calculateResult() {
-    var correct  = 0;
-    var wrong    = 0;
-    var skipped  = 0;
-    var subjectStats = {};
-    wrongQuestionsList = [];
-
-    // Track improvement metrics
-    var improved    = 0; // was wrong, now correct
-    var stillWrong  = 0; // was wrong, still wrong
-    var newWrong    = 0; // was correct/unseen, now wrong
-    var newCorrect  = 0; // first time correct
-
-    for (var i = 0; i < questions.length; i++) {
-      var q        = questions[i];
-      var userAns  = userAnswers[i];
-      var correctAns = q ? q.answer : -1;
-      var subject  = (q && q.subject) ? q.subject : 'unknown';
-
-      if (!subjectStats[subject]) {
-        subjectStats[subject] = { correct: 0, total: 0, wrong: 0 };
-      }
-      subjectStats[subject].total++;
-
-      // Get previous status before saving
-      var prevStatus = 'unseen';
-      if (window.FilterHistory) {
-        prevStatus = FilterHistory.getQuestionStatus(q);
-      }
-
-      if (userAns === null) {
-        skipped++;
-      } else if (userAns === correctAns) {
-        correct++;
-        subjectStats[subject].correct++;
-
-        // Improvement tracking
-        if (prevStatus === 'wrong') {
-          improved++;
-        } else if (prevStatus === 'unseen') {
-          newCorrect++;
-        }
+    html+=`</div></div><div class="nav-buttons">`;
+    html+=`<button class="nav-btn" id="prevBtn" ${currentIndex===0?'disabled':''}>◀ আগের</button>`;
+    if(currentIndex===questions.length-1) html+=`<button class="nav-btn nav-btn-primary" id="submitQuizBtn">✅ জমা দিন</button>`;
+    else html+=`<button class="nav-btn nav-btn-primary" id="nextBtn">পরবর্তী ▶</button>`;
+    html+=`</div><div class="swipe-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg> সোয়াইপ করে প্রশ্ন পরিবর্তন <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></div>`;
+    document.getElementById('questionSwipeArea').innerHTML=html;
+    document.querySelectorAll('.option').forEach(opt=>{
+      let idx=parseInt(opt.dataset.optIndex);
+      if(isMulti){
+        let chk=opt.querySelector('.option-checkbox');
+        opt.addEventListener('click',(e)=>{ if(e.target!==chk) chk.checked=!chk.checked; if(!quizSubmitted) handleMultiSelection(idx,chk.checked); });
+        chk.addEventListener('change',(e)=>{ e.stopPropagation(); if(!quizSubmitted) handleMultiSelection(idx,chk.checked); });
       } else {
-        wrong++;
-        subjectStats[subject].wrong++;
-        wrongQuestionsList.push(q);
-
-        // Improvement tracking
-        if (prevStatus === 'wrong') {
-          stillWrong++;
-        } else {
-          newWrong++;
-        }
+        opt.addEventListener('click',()=>{ if(!quizSubmitted) handleSingleSelection(idx); });
       }
-    }
-
-    var total      = questions.length;
-    var percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
-    var elapsed    = Math.floor((Date.now() - startTime) / 1000);
-
-    // ═══ Save to FilterHistory ═══
-    var historySaved = false;
-    if (window.FilterHistory) {
-      try {
-        FilterHistory.saveQuizResults(questions, userAnswers);
-        historySaved = true;
-        console.log('filter-quiz: ✅ Results saved to history');
-      } catch (e) {
-        console.error('filter-quiz: History save failed', e);
-      }
-    }
-
-    // ═══ Save to general history (localStorage) ═══
-    saveToGeneralHistory({
-      correct: correct,
-      total: total,
-      percentage: percentage,
-      time: elapsed,
-      subjectStats: subjectStats
     });
-
-    showResult({
-      correct:      correct,
-      wrong:        wrong,
-      skipped:      skipped,
-      total:        total,
-      percentage:   percentage,
-      elapsedTime:  elapsed,
-      subjectStats: subjectStats,
-      historySaved: historySaved,
-      improved:     improved,
-      stillWrong:   stillWrong,
-      newWrong:     newWrong,
-      newCorrect:   newCorrect
-    });
+    let prevBtn=document.getElementById('prevBtn'); if(prevBtn) prevBtn.addEventListener('click',()=>navigateQuestion(-1));
+    let nextBtn=document.getElementById('nextBtn'); if(nextBtn) nextBtn.addEventListener('click',()=>navigateQuestion(1));
+    let submitBtn=document.getElementById('submitQuizBtn'); if(submitBtn) submitBtn.addEventListener('click',()=>submitQuiz());
+    updateProgressAndCounter(); updatePalette();
   }
-
-  // ─── Save General History ─────────────────────────────────────────────
-
-  function saveToGeneralHistory(stats) {
-    try {
-      var history = JSON.parse(localStorage.getItem('filter_quiz_history') || '[]');
-      history.unshift({
-        date:       new Date().toISOString(),
-        type:       'custom-filter',
-        total:      stats.total,
-        correct:    stats.correct,
-        percentage: stats.percentage,
-        time:       stats.time,
-        subjects:   Object.keys(stats.subjectStats)
-      });
-
-      if (history.length > 50) history.length = 50;
-      localStorage.setItem('filter_quiz_history', JSON.stringify(history));
-    } catch (e) {
-      console.warn('filter-quiz: General history save failed', e);
-    }
+  function handleSingleSelection(idx){ let q=questions[currentIndex], qid=getQid(q); userAnswers[qid]=idx; renderCurrentQuestion(); }
+  function handleMultiSelection(idx,checked){ let q=questions[currentIndex], qid=getQid(q), cur=userAnswers[qid]; let arr=Array.isArray(cur)?[...cur]:[]; if(checked){ if(!arr.includes(idx)) arr.push(idx); } else { arr=arr.filter(i=>i!==idx); } userAnswers[qid]=arr.length?arr:null; renderCurrentQuestion(); }
+  function navigateQuestion(delta){ let newIdx=currentIndex+delta; if(newIdx>=0 && newIdx<questions.length){ currentIndex=newIdx; renderCurrentQuestion(); } }
+  let touchStartX=0;
+  function initSwipe(){ let area=document.getElementById('questionSwipeArea'); if(!area) return; area.addEventListener('touchstart',e=>{ touchStartX=e.touches[0].clientX; }); area.addEventListener('touchend',e=>{ if(!touchStartX) return; let diff=e.changedTouches[0].clientX-touchStartX; if(Math.abs(diff)>50){ if(diff>0 && currentIndex>0) navigateQuestion(-1); else if(diff<0 && currentIndex<questions.length-1) navigateQuestion(1); } touchStartX=0; }); }
+  function updateProgressAndCounter(){ let answered=0; questions.forEach(q=>{ if(userAnswers[getQid(q)]!==null) answered++; }); let percent=(answered/questions.length)*100; document.getElementById('progressFill').style.width=percent+'%'; document.getElementById('questionCounter').innerText=`${toBengali(currentIndex+1)}/${toBengali(questions.length)} (উত্তর: ${toBengali(answered)})`; document.getElementById('headerSubtitle').innerText=`${toBengali(questions.length)} প্রশ্ন • উত্তর ${toBengali(answered)}টি`; }
+  function updatePalette(){ let grid=document.getElementById('paletteGrid'); if(!grid) return; grid.innerHTML=''; for(let i=0;i<questions.length;i++){ let q=questions[i], answered=userAnswers[getQid(q)]!==null; let btn=document.createElement('button'); btn.textContent=toBengali(i+1); btn.classList.add('palette-btn'); if(answered) btn.classList.add('answered'); if(i===currentIndex) btn.classList.add('current'); btn.addEventListener('click',()=>{ currentIndex=i; renderCurrentQuestion(); closePalette(); }); grid.appendChild(btn); } }
+  function openPalette(){ document.getElementById('paletteOverlay').classList.add('open'); }
+  function closePalette(){ document.getElementById('paletteOverlay').classList.remove('open'); }
+  function evaluateSingle(q, ans){
+    if(ans===null) return 'skipped';
+    if(q.multi===true){
+      let correctSet=new Set(Array.isArray(q.answer)?q.answer:[q.answer]);
+      let userSet=new Set(Array.isArray(ans)?ans:[]);
+      let hasWrong=false; userSet.forEach(s=>{ if(!correctSet.has(s)) hasWrong=true; });
+      if(hasWrong) return 'wrong';
+      let correctCount=0; userSet.forEach(s=>{ if(correctSet.has(s)) correctCount++; });
+      if(correctCount===correctSet.size) return 'correct';
+      if(correctCount>0) return 'partial';
+      return 'wrong';
+    }else{ let correct=Array.isArray(q.answer)?q.answer[0]:q.answer; return ans===correct?'correct':'wrong'; }
   }
-
-  // ─── Show Result ──────────────────────────────────────────────────────
-
-  function showResult(stats) {
-    if (el.quizContainer)    el.quizContainer.style.display    = 'none';
-    if (el.resultContainer)  el.resultContainer.style.display  = 'block';
-    if (el.timer)            el.timer.style.display            = 'none';
-
-    // Icon
-    if (el.resultIcon) {
-      if (stats.percentage >= 80)      el.resultIcon.textContent = '🎉';
-      else if (stats.percentage >= 60) el.resultIcon.textContent = '👍';
-      else if (stats.percentage >= 40) el.resultIcon.textContent = '😊';
-      else                             el.resultIcon.textContent = '📚';
+  function submitQuiz(){
+    if(quizSubmitted) return;
+    quizSubmitted=true; if(timerInterval) clearInterval(timerInterval);
+    let correct=0,wrong=0,partial=0,skipped=0,subjectStats={},wrongQuestions=[];
+    for(let q of questions){
+      let ans=userAnswers[getQid(q)];
+      let res=evaluateSingle(q,ans);
+      if(res==='correct') correct++; else if(res==='partial') partial++; else if(res==='wrong') wrong++; else skipped++;
+      let sub=q.subject||'unknown';
+      if(!subjectStats[sub]) subjectStats[sub]={total:0,correct:0};
+      subjectStats[sub].total++;
+      if(res==='correct') subjectStats[sub].correct++;
+      if(res==='wrong') wrongQuestions.push(q);
     }
-
-    // Score
-    if (el.resultScore) {
-      el.resultScore.textContent = toBengali(stats.correct) + '/' + toBengali(stats.total);
+    let total=questions.length, percentage=Math.round((correct/total)*100);
+    if(window.FilterHistory) try{ window.FilterHistory.saveQuizResults(questions,userAnswers); }catch(e){}
+    showResultScreen({correct,wrong,partial,skipped,total,percentage,subjectStats,wrongQuestions});
+  }
+  function showResultScreen(stats){
+    document.querySelector('.progress-row').style.display='none';
+    document.querySelector('.swipe-container').style.display='none';
+    let resultDiv=document.getElementById('resultContainer');
+    resultDiv.style.display='block';
+    let subjectHtml='';
+    for(let sub in stats.subjectStats){
+      let data=stats.subjectStats[sub];
+      let pct=data.total?Math.round((data.correct/data.total)*100):0;
+      let subName=SUBJECT_BN[sub]||sub;
+      let color=sub==='life-science'?'#4caf50':sub==='physical-science'?'#2196f3':sub==='mathematics'?'#ff9800':sub==='general-knowledge'?'#9c27b0':sub==='logical-reasoning'?'#00bcd4':'#e91e63';
+      subjectHtml+=`<div class="breakdown-item"><span>${subName}</span><span style="color:${color};font-weight:700;">${toBengali(data.correct)}/${toBengali(data.total)} (${toBengali(pct)}%)</span></div>`;
     }
-    if (el.resultPercentage) {
-      el.resultPercentage.textContent = toBengali(stats.percentage) + '%';
-    }
-
-    // Stats
-    if (el.statCorrect) el.statCorrect.textContent = toBengali(stats.correct);
-    if (el.statWrong)   el.statWrong.textContent   = toBengali(stats.wrong);
-    if (el.statSkipped) el.statSkipped.textContent  = toBengali(stats.skipped);
-
-    // Message
-    if (el.resultMessage) {
-      if (stats.percentage >= 80) {
-        el.resultMessage.textContent = 'অসাধারণ! আপনি খুবই ভালো করেছেন। 🌟';
-      } else if (stats.percentage >= 60) {
-        el.resultMessage.textContent = 'ভালো! আরও একটু অনুশীলন করলে আরও ভালো হবে। 💪';
-      } else if (stats.percentage >= 40) {
-        el.resultMessage.textContent = 'চেষ্টা চালিয়ে যান। নিয়মিত অনুশীলন করুন। 📖';
-      } else {
-        el.resultMessage.textContent = 'আরও বেশি পড়াশোনা করুন। হাল ছাড়বেন না! 🚀';
+    let improvementHtml='';
+    if(window.FilterHistory){
+      let improved=0,stillWrong=0,newWrong=0,newCorrect=0;
+      for(let q of questions){
+        let prevStatus=FilterHistory.getQuestionStatus(q);
+        let ans=userAnswers[getQid(q)];
+        let currentRes=evaluateSingle(q,ans);
+        if(prevStatus==='wrong' && currentRes==='correct') improved++;
+        else if(prevStatus==='wrong' && currentRes==='wrong') stillWrong++;
+        else if(prevStatus!=='wrong' && currentRes==='wrong') newWrong++;
+        else if(prevStatus==='unseen' && currentRes==='correct') newCorrect++;
       }
+      if(improved>0) improvementHtml+=`<div class="improvement-item"><div class="improvement-icon improved">📈</div><span>আগে ভুল ছিল, এবার সঠিক</span><span>${toBengali(improved)}টি</span></div>`;
+      if(newCorrect>0) improvementHtml+=`<div class="improvement-item"><div class="improvement-icon improved">✨</div><span>নতুন প্রশ্ন সঠিক</span><span>${toBengali(newCorrect)}টি</span></div>`;
+      if(stillWrong>0) improvementHtml+=`<div class="improvement-item"><div class="improvement-icon same">🔄</div><span>আগেও ভুল ছিল, এবারও ভুল</span><span>${toBengali(stillWrong)}টি</span></div>`;
+      if(newWrong>0) improvementHtml+=`<div class="improvement-item"><div class="improvement-icon new-wrong">⚠️</div><span>এবার নতুন ভুল</span><span>${toBengali(newWrong)}টি</span></div>`;
     }
-
-    // History saved banner
-    if (el.historySavedBanner && stats.historySaved) {
-      el.historySavedBanner.style.display = 'flex';
-    }
-
-    // Improvement card
-    showImprovementCard(stats);
-
-    // Subject breakdown
-    showSubjectBreakdown(stats.subjectStats);
-
-    // Retry wrong button
-    showRetryWrongButton(stats.wrong);
-
-    // Scroll
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    let retryWrongHtml=stats.wrongQuestions.length>0?`<button class="action-btn action-btn-wrong" id="retryWrongBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>ভুল প্রশ্নগুলো আবার দিন (${toBengali(stats.wrongQuestions.length)}টি)</button>`:'';
+    resultDiv.innerHTML=`
+      <div class="result-card"><div><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="${stats.percentage>=80?'#4caf50':'#e91e63'}" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+      <div style="font-size:1.3rem;font-weight:800;margin:10px 0;">কুইজ সম্পন্ন হয়েছে!</div>
+      <div style="font-size:2.2rem;font-weight:800;color:var(--pink)">${toBengali(stats.correct)}/${toBengali(stats.total)}</div>
+      <div style="margin:5px 0;">${toBengali(stats.percentage)}%</div>
+      <div class="stats-grid"><div class="stat-item"><div class="stat-value correct">${toBengali(stats.correct)}</div><div>সঠিক</div></div><div class="stat-item"><div class="stat-value wrong">${toBengali(stats.wrong+stats.partial)}</div><div>ভুল/আংশিক</div></div><div class="stat-item"><div class="stat-value skipped">${toBengali(stats.skipped)}</div><div>এড়িয়ে গেছেন</div></div></div>
+      <div class="history-saved-banner"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span>আপনার অগ্রগতি সেভ হয়েছে!</span></div></div>
+      ${improvementHtml?`<div class="improvement-card"><div style="font-weight:700;margin-bottom:12px;">📈 উন্নতির বিশ্লেষণ</div>${improvementHtml}</div>`:''}
+      <div class="subject-breakdown"><div style="font-weight:700;margin-bottom:12px;">বিষয় অনুযায়ী ফলাফল</div>${subjectHtml}</div>
+      <div class="action-buttons">
+        <button class="action-btn action-btn-primary" onclick="window.location.href='./filter.html'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>আবার ফিল্টার করুন</button>
+        ${retryWrongHtml}
+        <button class="action-btn action-btn-secondary" onclick="location.reload()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>একই কুইজ আবার দিন</button>
+        <button class="action-btn action-btn-secondary" onclick="window.location.href='./index.html'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>হোম পেজে ফিরে যান</button>
+      </div>
+    `;
+    let retryBtn=document.getElementById('retryWrongBtn');
+    if(retryBtn && stats.wrongQuestions.length) retryBtn.addEventListener('click',()=>{ sessionStorage.setItem('filter_quiz_questions',JSON.stringify(stats.wrongQuestions)); sessionStorage.setItem('filter_quiz_config',JSON.stringify({random:true,count:'all'})); location.reload(); });
+    window.scrollTo({top:0});
   }
-
-  // ─── Improvement Card ─────────────────────────────────────────────────
-
-  function showImprovementCard(stats) {
-    var card = el.improvementCard;
-    var list = el.improvementList;
-    if (!card || !list) return;
-
-    var hasData = (stats.improved > 0 || stats.stillWrong > 0 ||
-                   stats.newWrong > 0 || stats.newCorrect > 0);
-
-    if (!hasData) {
-      card.style.display = 'none';
-      return;
-    }
-
-    card.style.display = 'block';
-    list.innerHTML = '';
-
-    var items = [];
-
-    if (stats.improved > 0) {
-      items.push({
-        icon: '📈',
-        cls: 'improved',
-        text: 'আগে ভুল ছিল, এবার সঠিক',
-        count: stats.improved
-      });
-    }
-
-    if (stats.newCorrect > 0) {
-      items.push({
-        icon: '✨',
-        cls: 'improved',
-        text: 'নতুন প্রশ্ন সঠিক',
-        count: stats.newCorrect
-      });
-    }
-
-    if (stats.stillWrong > 0) {
-      items.push({
-        icon: '🔄',
-        cls: 'same',
-        text: 'আগেও ভুল ছিল, এবারও ভুল',
-        count: stats.stillWrong
-      });
-    }
-
-    if (stats.newWrong > 0) {
-      items.push({
-        icon: '⚠️',
-        cls: 'new-wrong',
-        text: 'এবার নতুন ভুল',
-        count: stats.newWrong
-      });
-    }
-
-    for (var i = 0; i < items.length; i++) {
-      var item = items[i];
-      var div = document.createElement('div');
-      div.className = 'improvement-item';
-      div.innerHTML =
-        '<div class="improvement-icon ' + item.cls + '">' + item.icon + '</div>' +
-        '<span class="improvement-text">' + item.text + '</span>' +
-        '<span class="improvement-count">' + toBengali(item.count) + 'টি</span>';
-      list.appendChild(div);
-    }
+  function startTimer(){ if(timerInterval) clearInterval(timerInterval); startTime=Date.now(); timerInterval=setInterval(()=>{ if(!quizSubmitted){ let elapsed=Math.floor((Date.now()-startTime)/1000); document.getElementById('timerText').innerText=formatTime(elapsed); } },1000); }
+  function init(){
+    if(!loadQuestions()){ document.getElementById('loadingState').innerHTML='<div class="error-state">⚠️ কোনো প্রশ্ন নেই। ফিল্টার পৃষ্ঠায় যান</div><button onclick="window.location.href=\'./filter.html\'" style="margin:12px auto;display:block;padding:8px 20px;background:#e91e63;color:white;border:none;border-radius:30px;">ফিল্টার পৃষ্ঠা</button>'; return; }
+    document.getElementById('loadingState').style.display='none';
+    startTimer(); renderCurrentQuestion(); initSwipe();
+    document.getElementById('paletteToggleBtn').addEventListener('click',openPalette);
+    document.getElementById('closePaletteBtn').addEventListener('click',closePalette);
+    document.getElementById('paletteOverlay').addEventListener('click',(e)=>{ if(e.target===document.getElementById('paletteOverlay')) closePalette(); });
+    document.getElementById('exitBtn').addEventListener('click',(e)=>{ if(!quizSubmitted){ let any=Object.values(userAnswers).some(v=>v!==null); if(any && !confirm('কুইজ অসম্পূর্ণ, প্রস্থান করবেন?')) e.preventDefault(); else window.location.href='./filter.html'; } });
   }
-
-  // ─── Subject Breakdown ────────────────────────────────────────────────
-
-  function showSubjectBreakdown(subjectStats) {
-    if (!el.subjectBreakdownList) return;
-    el.subjectBreakdownList.innerHTML = '';
-
-    var subjects = Object.keys(subjectStats);
-
-    for (var i = 0; i < subjects.length; i++) {
-      var subject = subjects[i];
-      var data    = subjectStats[subject];
-      var pct     = data.total > 0 ? Math.round((data.correct / data.total) * 100) : 0;
-
-      var item = document.createElement('div');
-      item.className = 'breakdown-item';
-
-      var subName = document.createElement('div');
-      subName.className   = 'breakdown-subject';
-      subName.textContent = SUBJECT_BN[subject] || subject;
-      subName.style.color = SUBJECT_COLORS[subject] || '#212121';
-
-      var score = document.createElement('div');
-      score.className   = 'breakdown-score';
-      score.textContent = toBengali(data.correct) + '/' + toBengali(data.total) +
-                          ' (' + toBengali(pct) + '%)';
-      var color = SUBJECT_COLORS[subject] || '#e91e63';
-      score.style.background   = color + '20';
-      score.style.color        = color;
-      score.style.borderColor  = color;
-
-      item.appendChild(subName);
-      item.appendChild(score);
-      el.subjectBreakdownList.appendChild(item);
-    }
-  }
-
-  // ─── Retry Wrong Questions ────────────────────────────────────────────
-
-  function showRetryWrongButton(wrongCount) {
-    var btn  = el.retryWrongBtn;
-    var text = el.retryWrongText;
-    if (!btn) return;
-
-    if (wrongCount > 0 && wrongQuestionsList.length > 0) {
-      btn.style.display = 'flex';
-      if (text) {
-        text.textContent = 'ভুল প্রশ্নগুলো আবার দিন (' + toBengali(wrongCount) + 'টি)';
-      }
-
-      btn.addEventListener('click', function() {
-        retryWrongQuestions();
-      });
-    } else {
-      btn.style.display = 'none';
-    }
-  }
-
-  function retryWrongQuestions() {
-    if (wrongQuestionsList.length === 0) return;
-
-    try {
-      sessionStorage.setItem('filter_quiz_questions', JSON.stringify(wrongQuestionsList));
-      sessionStorage.setItem('filter_quiz_config', JSON.stringify({
-        subjects: ['all'],
-        units: ['all'],
-        types: ['all'],
-        difficulties: ['all'],
-        history: 'all',
-        count: wrongQuestionsList.length,
-        random: true,
-        _retryWrong: true
-      }));
-      window.location.reload();
-    } catch (e) {
-      console.error('filter-quiz: Retry wrong failed', e);
-      alert('আবার চেষ্টা করতে সমস্যা হয়েছে।');
-    }
-  }
-
-  // ─── Confirm Exit ─────────────────────────────────────────────────────
-
-  function confirmExit(e) {
-    if (el.resultContainer && el.resultContainer.style.display === 'block') return;
-
-    var answered = 0;
-    for (var i = 0; i < userAnswers.length; i++) {
-      if (userAnswers[i] !== null) answered++;
-    }
-
-    if (answered > 0) {
-      e.preventDefault();
-      if (confirm('কুইজ শেষ হয়নি। প্রস্থান করতে চান?')) {
-        window.location.href = './filter.html';
-      }
-    }
-  }
-
-  // ─── Start ────────────────────────────────────────────────────────────
-
-  document.addEventListener('DOMContentLoaded', init);
-
+  init();
 })();
 </script>
-
 </body>
 </html>

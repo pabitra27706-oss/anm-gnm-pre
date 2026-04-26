@@ -2,978 +2,129 @@
 <html lang="bn">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>কাস্টম কুইজ ফিল্টার — WB ANM GNM 2026</title>
   <style>
-    /* ══════════════════════════════════════════════════════════════════════
-       Reset & Base
-       ══════════════════════════════════════════════════════════════════════ */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --pink:        #e91e63;
-      --pink-light:  #fce4ec;
-      --pink-dark:   #c2185b;
-      --blue:        #1976d2;      /* NEW: for multi badge */
-      --blue-light:  #e3f2fd;      /* NEW */
-      --green:       #4caf50;
-      --red:         #f44336;
-      --orange:      #ff9800;
-      --gray-bg:     #f5f5f5;
-      --gray-border: #e0e0e0;
-      --gray-text:   #757575;
-      --dark:        #212121;
-      --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
-      --radius:      12px;
-      --radius-pill: 20px;
+      --pink: #e91e63; --pink-light: #fce4ec; --pink-dark: #c2185b;
+      --blue: #1976d2; --blue-light: #e3f2fd;
+      --green: #4caf50; --red: #f44336; --orange: #ff9800;
+      --gray-bg: #f5f5f5; --gray-border: #e0e0e0; --gray-text: #757575;
+      --dark: #212121; --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      --radius: 16px; --radius-sm: 12px; --radius-pill: 40px;
     }
-
-    html { font-size: 15px; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system,
-                   'Noto Sans Bengali', sans-serif;
-      background: var(--gray-bg);
-      color: var(--dark);
-      min-height: 100vh;
-      padding-bottom: 100px;
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Header
-       ══════════════════════════════════════════════════════════════════════ */
-    .header {
-      background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%);
-      color: white;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 8px rgba(233,30,99,0.3);
-    }
-
-    .header-inner {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .back-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 38px;
-      height: 38px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.2);
-      border: none;
-      cursor: pointer;
-      color: white;
-      text-decoration: none;
-      flex-shrink: 0;
-      transition: background 0.2s;
-    }
-    .back-btn:hover { background: rgba(255,255,255,0.3); }
-    .back-btn svg   { width: 20px; height: 20px; }
-
-    .header-text { flex: 1; min-width: 0; }
-    .header-text h1 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-    .header-text p {
-      font-size: 0.78rem;
-      opacity: 0.88;
-      margin-top: 2px;
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Page Wrapper
-       ══════════════════════════════════════════════════════════════════════ */
-    .page {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Card
-       ══════════════════════════════════════════════════════════════════════ */
-    .card {
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      overflow: hidden;
-    }
-
-    .card-header {
-      padding: 14px 16px 10px;
-      border-bottom: 1px solid var(--gray-border);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .card-header-icon {
-      width: 28px;
-      height: 28px;
-      border-radius: 8px;
-      background: var(--pink-light);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-    .card-header-icon svg {
-      width: 16px;
-      height: 16px;
-      stroke: var(--pink);
-    }
-
-    .card-title {
-      font-size: 0.88rem;
-      font-weight: 700;
-      color: var(--dark);
-    }
-
+    body { font-family: 'Segoe UI', system-ui, 'Noto Sans Bengali', sans-serif; background: var(--gray-bg); color: var(--dark); padding-bottom: 100px; }
+    .header { background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%); color: white; position: sticky; top: 0; z-index: 100; }
+    .header-inner { max-width: 700px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; gap: 12px; }
+    .back-btn { width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; text-decoration: none; color: white; }
+    .back-btn svg { width: 18px; height: 18px; stroke: white; stroke-width: 2; }
+    .header-text h1 { font-size: 1rem; font-weight: 700; }
+    .header-text p { font-size: 0.72rem; opacity: 0.88; }
+    .page { max-width: 700px; margin: 0 auto; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+    .card { background: white; border-radius: var(--radius); box-shadow: var(--card-shadow); overflow: hidden; }
+    .card-header { padding: 14px 16px 10px; border-bottom: 1px solid var(--gray-border); display: flex; align-items: center; gap: 8px; }
+    .card-header-icon { width: 28px; height: 28px; background: var(--pink-light); border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .card-header-icon svg { width: 14px; height: 14px; stroke: var(--pink); stroke-width: 2; }
+    .card-title { font-size: 0.88rem; font-weight: 700; }
     .card-body { padding: 14px 16px; }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Loading State
-       ══════════════════════════════════════════════════════════════════════ */
-    #loadingState {
-      display: block;
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 32px 20px;
-      text-align: center;
-    }
-
-    .spinner {
-      width: 44px;
-      height: 44px;
-      border: 4px solid var(--pink-light);
-      border-top-color: var(--pink);
-      border-radius: 50%;
-      animation: spin 0.9s linear infinite;
-      margin: 0 auto 16px;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    .loading-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--dark);
-      margin-bottom: 6px;
-    }
-
-    .progress-bar-track {
-      width: 100%;
-      height: 6px;
-      background: var(--gray-border);
-      border-radius: 3px;
-      margin: 14px 0 8px;
-      overflow: hidden;
-    }
-
-    .progress-bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--pink), var(--pink-dark));
-      border-radius: 3px;
-      width: 0%;
-      transition: width 0.3s ease;
-    }
-
-    #progressText  { font-size: 0.82rem; color: var(--gray-text); }
-    #progressCount { font-size: 0.78rem; color: var(--gray-text); margin-top: 4px; }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Error State
-       ══════════════════════════════════════════════════════════════════════ */
-    #errorState {
-      display: none;
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: var(--card-shadow);
-      padding: 32px 20px;
-      text-align: center;
-    }
-
-    .error-icon { font-size: 2.5rem; margin-bottom: 12px; }
-
-    .error-title {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--red);
-      margin-bottom: 8px;
-    }
-
-    #errorMessage {
-      font-size: 0.85rem;
-      color: var(--gray-text);
-      margin-bottom: 16px;
-      line-height: 1.5;
-    }
-
-    .retry-btn {
-      background: var(--pink);
-      color: white;
-      border: none;
-      border-radius: var(--radius-pill);
-      padding: 10px 24px;
-      font-size: 0.9rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: background 0.2s;
-    }
-    .retry-btn:hover { background: var(--pink-dark); }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Filter Panel
-       ══════════════════════════════════════════════════════════════════════ */
-    #filterPanel { display: none; }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Filter Pills
-       ══════════════════════════════════════════════════════════════════════ */
-    .pills-wrap {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .filter-pill {
-      border: 1.5px solid var(--gray-border);
-      border-radius: var(--radius-pill);
-      padding: 7px 14px;
-      background: white;
-      color: var(--dark);
-      font-size: 0.82rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.18s ease;
-      font-family: inherit;
-      line-height: 1;
-    }
-
-    .filter-pill:hover:not(.active) {
-      border-color: var(--pink);
-      color: var(--pink);
-      background: var(--pink-light);
-    }
-
-    .filter-pill.active {
-      background: var(--pink);
-      border-color: var(--pink);
-      color: white;
-      box-shadow: 0 2px 6px rgba(233,30,99,0.25);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Unit Filters
-       ══════════════════════════════════════════════════════════════════════ */
-    .unit-group-label {
-      width: 100%;
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin: 8px 0 2px;
-      padding-left: 2px;
-      color: var(--gray-text);
-    }
-
-    .unit-pill { font-size: 0.78rem; padding: 6px 12px; }
-
-    .no-units-msg {
-      font-size: 0.82rem;
-      color: var(--gray-text);
-      padding: 8px 0;
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Count Buttons
-       ══════════════════════════════════════════════════════════════════════ */
-    .count-btns-row {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .count-btn {
-      border: 1.5px solid var(--gray-border);
-      border-radius: 10px;
-      padding: 8px 18px;
-      background: white;
-      color: var(--dark);
-      font-size: 0.9rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.18s;
-      font-family: inherit;
-      min-width: 52px;
-    }
-
-    .count-btn:hover:not(.active) {
-      border-color: var(--pink);
-      color: var(--pink);
-    }
-
-    .count-btn.active {
-      background: var(--pink);
-      border-color: var(--pink);
-      color: white;
-      box-shadow: 0 2px 6px rgba(233,30,99,0.25);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Random Toggle
-       ══════════════════════════════════════════════════════════════════════ */
-    .toggle-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .toggle-labels { flex: 1; }
-    .toggle-main-label {
-      font-size: 0.88rem;
-      font-weight: 600;
-      color: var(--dark);
-    }
-    .toggle-sub-label {
-      font-size: 0.78rem;
-      color: var(--gray-text);
-      margin-top: 2px;
-    }
-
-    .switch {
-      position: relative;
-      width: 50px;
-      height: 28px;
-      flex-shrink: 0;
-    }
+    .pills-wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filter-pill { border: 1.5px solid var(--gray-border); border-radius: var(--radius-pill); padding: 6px 14px; background: white; font-size: 0.8rem; font-weight: 500; cursor: pointer; transition: all 0.18s; }
+    .filter-pill:hover:not(.active) { border-color: var(--pink); color: var(--pink); background: var(--pink-light); }
+    .filter-pill.active { background: var(--pink); border-color: var(--pink); color: white; }
+    .filter-pill--empty { opacity: 0.5; text-decoration: line-through; }
+    .unit-group-label { font-size: 0.7rem; font-weight: 700; color: var(--gray-text); margin: 8px 0 4px; }
+    .count-btns-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .count-btn { border: 1.5px solid var(--gray-border); border-radius: 10px; padding: 6px 14px; background: white; font-weight: 600; font-size: 0.85rem; cursor: pointer; }
+    .count-btn.active { background: var(--pink); border-color: var(--pink); color: white; }
+    .toggle-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .switch { position: relative; width: 48px; height: 26px; flex-shrink: 0; }
     .switch input { opacity: 0; width: 0; height: 0; }
-    .switch-slider {
-      position: absolute;
-      inset: 0;
-      background: var(--gray-border);
-      border-radius: 14px;
-      cursor: pointer;
-      transition: background 0.25s;
-    }
-    .switch-slider::before {
-      content: '';
-      position: absolute;
-      width: 22px;
-      height: 22px;
-      left: 3px;
-      top: 3px;
-      background: white;
-      border-radius: 50%;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-      transition: transform 0.25s;
-    }
-    .switch input:checked + .switch-slider {
-      background: var(--pink);
-    }
-    .switch input:checked + .switch-slider::before {
-      transform: translateX(22px);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Preview Box
-       ══════════════════════════════════════════════════════════════════════ */
-    .preview-box {
-      background: var(--gray-bg);
-      border-radius: var(--radius);
-      padding: 14px;
-      border: 1px solid var(--gray-border);
-    }
-
-    .preview-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .preview-label {
-      font-size: 0.82rem;
-      color: var(--gray-text);
-    }
-
-    .preview-count {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: var(--pink);
-    }
-
-    .preview-quiz-count {
-      font-size: 0.82rem;
-      color: var(--gray-text);
-      margin-bottom: 10px;
-    }
-
-    .preview-quiz-count strong {
-      color: var(--dark);
-      font-weight: 700;
-    }
-
-    .breakdown-pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 4px;
-    }
-
-    .breakdown-pill {
-      font-size: 0.75rem;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: var(--radius-pill);
-      border: 1.5px solid;
-      display: inline-block;
-    }
-
-    .breakdown-empty {
-      font-size: 0.8rem;
-      color: var(--gray-text);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       NEW: Multi-correct pill in breakdown
-       ══════════════════════════════════════════════════════════════════════ */
-    .breakdown-pill--multi {
-      background: var(--blue-light);
-      border-color: var(--blue);
-      color: var(--blue);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Start Button
-       ══════════════════════════════════════════════════════════════════════ */
-    .start-btn-wrap { padding: 0 0 8px; }
-
-    #startQuizBtn {
-      display: block;
-      width: 100%;
-      padding: 16px;
-      background: linear-gradient(135deg, var(--pink), var(--pink-dark));
-      color: white;
-      border: none;
-      border-radius: var(--radius);
-      font-size: 1rem;
-      font-weight: 700;
-      cursor: pointer;
-      font-family: inherit;
-      box-shadow: 0 4px 15px rgba(233,30,99,0.35);
-      transition: all 0.2s;
-      letter-spacing: 0.3px;
-    }
-
-    #startQuizBtn:hover:not(:disabled) {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(233,30,99,0.45);
-    }
-
-    #startQuizBtn:disabled {
-      background: linear-gradient(135deg, #bdbdbd, #9e9e9e);
-      box-shadow: none;
-      cursor: not-allowed;
-      opacity: 0.75;
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Stats Bar
-       ══════════════════════════════════════════════════════════════════════ */
-    .stats-bar {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 16px;
-      background: var(--pink-light);
-      border-radius: 0 0 var(--radius) var(--radius);
-      font-size: 0.78rem;
-      color: var(--pink-dark);
-      font-weight: 600;
-    }
-
-    .stats-bar svg {
-      width: 14px;
-      height: 14px;
-      stroke: var(--pink-dark);
-      flex-shrink: 0;
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Section Hint
-       ══════════════════════════════════════════════════════════════════════ */
-    .section-hint {
-      font-size: 0.76rem;
-      color: var(--gray-text);
-      margin-top: 8px;
-      padding-top: 8px;
-      border-top: 1px dashed var(--gray-border);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       History Stats
-       ══════════════════════════════════════════════════════════════════════ */
-    .history-stats {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .history-stat-item {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.78rem;
-      color: var(--gray-text);
-      background: var(--gray-bg);
-      padding: 6px 12px;
-      border-radius: 8px;
-    }
-
-    .history-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      flex-shrink: 0;
-    }
-
-    .history-dot.unseen  { background: #bdbdbd; }
+    .switch-slider { position: absolute; inset: 0; background: var(--gray-border); border-radius: 26px; cursor: pointer; transition: background 0.25s; }
+    .switch-slider::before { content: ''; position: absolute; width: 20px; height: 20px; left: 3px; top: 3px; background: white; border-radius: 50%; transition: transform 0.25s; }
+    .switch input:checked + .switch-slider { background: var(--pink); }
+    .switch input:checked + .switch-slider::before { transform: translateX(22px); }
+    .preview-box { background: var(--gray-bg); border-radius: var(--radius-sm); padding: 12px; }
+    .preview-count { font-size: 1.3rem; font-weight: 800; color: var(--pink); }
+    .breakdown-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .breakdown-pill { font-size: 0.7rem; font-weight: 600; padding: 4px 10px; border-radius: var(--radius-pill); border: 1.5px solid; }
+    .breakdown-pill--multi { background: var(--blue-light); border-color: var(--blue); color: var(--blue); }
+    .stats-bar { display: flex; align-items: center; gap: 8px; padding: 10px 16px; background: var(--pink-light); border-radius: 0 0 var(--radius) var(--radius); font-size: 0.73rem; color: var(--pink-dark); font-weight: 600; flex-wrap: wrap; }
+    .stats-bar svg { width: 14px; height: 14px; stroke: var(--pink-dark); }
+    .history-stats { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    .history-stat-item { display: flex; align-items: center; gap: 6px; font-size: 0.7rem; background: var(--gray-bg); padding: 5px 10px; border-radius: 8px; }
+    .history-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .history-dot.unseen { background: #bdbdbd; }
     .history-dot.correct { background: var(--green); }
-    .history-dot.wrong   { background: var(--red); }
+    .history-dot.wrong { background: var(--red); }
     .history-dot.skipped { background: var(--orange); }
-    /* NEW: partial correct */
     .history-dot.partial { background: #ff9800; }
-
-    .history-stat-count {
-      font-weight: 700;
-      color: var(--dark);
-    }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       History Banner
-       ══════════════════════════════════════════════════════════════════════ */
-    .history-banner {
-      background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
-      border: 1px solid #c8e6c9;
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .history-banner-icon {
-      font-size: 1.8rem;
-      flex-shrink: 0;
-    }
-
-    .history-banner-text { flex: 1; }
-
-    .history-banner-title {
-      font-size: 0.88rem;
-      font-weight: 700;
-      color: #2e7d32;
-    }
-
-    .history-banner-sub {
-      font-size: 0.78rem;
-      color: #558b2f;
-      margin-top: 2px;
-    }
-
-    .history-progress-bar {
-      width: 100%;
-      height: 6px;
-      background: #c8e6c9;
-      border-radius: 3px;
-      margin-top: 8px;
-      overflow: hidden;
-    }
-
-    .history-progress-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--green), #8bc34a);
-      border-radius: 3px;
-      transition: width 0.5s ease;
-    }
-
-    .history-banner.empty {
-      background: linear-gradient(135deg, #f5f5f5, #fafafa);
-      border-color: var(--gray-border);
-    }
-    .history-banner.empty .history-banner-title { color: var(--gray-text); }
-    .history-banner.empty .history-banner-sub   { color: #9e9e9e; }
-
-    /* ══════════════════════════════════════════════════════════════════════
-       Responsive
-       ══════════════════════════════════════════════════════════════════════ */
-    @media (max-width: 480px) {
-      .header-text h1 { font-size: 0.98rem; }
-      .header-text p  { font-size: 0.72rem; }
-      .filter-pill    { font-size: 0.78rem; padding: 6px 11px; }
-      .count-btn      { padding: 7px 13px; font-size: 0.85rem; }
-      #startQuizBtn   { font-size: 0.92rem; padding: 14px; }
-      .history-stat-item { font-size: 0.72rem; padding: 5px 8px; }
-    }
+    .history-banner { background: linear-gradient(135deg, #e8f5e9, #f1f8e9); border-radius: var(--radius); padding: 12px 16px; display: flex; align-items: center; gap: 12px; }
+    .history-banner.empty { background: #f5f5f5; }
+    .history-progress-bar { width: 100%; height: 6px; background: #c8e6c9; border-radius: 3px; margin-top: 6px; overflow: hidden; }
+    .history-progress-fill { height: 100%; background: linear-gradient(90deg, var(--green), #8bc34a); }
+    .section-hint { font-size: 0.68rem; color: var(--gray-text); margin-top: 8px; padding-top: 6px; border-top: 1px dashed var(--gray-border); }
+    #startQuizBtn { width: 100%; padding: 14px; background: linear-gradient(135deg, var(--pink), var(--pink-dark)); color: white; border: none; border-radius: var(--radius); font-size: 0.95rem; font-weight: 700; cursor: pointer; font-family: inherit; transition: all 0.2s; }
+    #startQuizBtn:disabled { background: #bdbdbd; cursor: not-allowed; }
+    .loading-state, .error-state { text-align: center; padding: 60px 20px; background: white; border-radius: var(--radius); }
+    .spinner { width: 40px; height: 40px; border: 3px solid var(--pink-light); border-top-color: var(--pink); border-radius: 50%; animation: spin 0.9s linear infinite; margin: 0 auto 16px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 480px) { .filter-pill { padding: 5px 12px; font-size: 0.73rem; } .count-btn { padding: 5px 12px; font-size: 0.8rem; } }
   </style>
 </head>
 <body>
 
-<!-- ══════════════════════════════════════════════════════════════════════
-     Header
-     ══════════════════════════════════════════════════════════════════════ -->
 <header class="header">
   <div class="header-inner">
-    <a href="./index.html" class="back-btn" aria-label="ফিরে যান">
-      <svg viewBox="0 0 24 24" fill="none"
-           stroke="currentColor" stroke-width="2.5"
-           stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="15 18 9 12 15 6"/>
-      </svg>
-    </a>
-    <div class="header-text">
-      <h1>কাস্টম কুইজ ফিল্টার</h1>
-      <p>আপনার পছন্দ অনুযায়ী প্রশ্ন বেছে নিন</p>
-    </div>
+    <a href="./index.html" class="back-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></a>
+    <div class="header-text"><h1>কাস্টম কুইজ ফিল্টার</h1><p>আপনার পছন্দ অনুযায়ী প্রশ্ন বেছে নিন</p></div>
   </div>
 </header>
 
 <div class="page">
+  <div id="loadingState" class="loading-state"><div class="spinner"></div><p>প্রশ্ন লোড হচ্ছে...</p><div style="height:4px; background:#e0e0e0; border-radius:3px; margin-top:12px;"><div id="progressBar" style="width:0%; height:100%; background:#e91e63; border-radius:3px;"></div></div><p id="progressText" style="margin-top:8px; font-size:0.75rem;"></p></div>
+  <div id="errorState" class="error-state" style="display:none;"><div style="font-size:2rem;">⚠️</div><p id="errorMessage" style="margin:8px 0;">লোড করতে সমস্যা হয়েছে</p><button class="retry-btn" onclick="location.reload()" style="background:#e91e63; color:white; border:none; padding:8px 20px; border-radius:40px;">আবার চেষ্টা করুন</button></div>
 
-  <!-- ══════════════════════════════════════════════════════════════════════
-       Loading State
-       ══════════════════════════════════════════════════════════════════════ -->
-  <div id="loadingState">
-    <div class="spinner"></div>
-    <p class="loading-title">প্রশ্ন লোড হচ্ছে...</p>
-    <div class="progress-bar-track">
-      <div class="progress-bar-fill" id="progressBar"></div>
-    </div>
-    <p id="progressText">অপেক্ষা করুন...</p>
-    <p id="progressCount"></p>
+  <div id="filterPanel" style="display:none;">
+    <div class="history-banner empty" id="historyBanner"><div style="font-size:1.5rem;">📊</div><div><div id="historyBannerTitle" style="font-weight:600; font-size:0.85rem;">এখনও কোনো কুইজ দেওয়া হয়নি</div><div id="historyBannerSub" style="font-size:0.7rem;">প্রথম কুইজ দিন এবং অগ্রগতি দেখুন!</div><div class="history-progress-bar"><div class="history-progress-fill" id="historyProgressFill" style="width:0%"></div></div></div></div>
+    <div class="card"><div class="stats-bar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span id="totalLoadedText">প্রশ্ন লোড হচ্ছে...</span><button id="clearCacheBtn" style="margin-left:auto; background:none; border:1px solid var(--pink); border-radius:20px; padding:4px 10px; font-size:0.7rem; cursor:pointer;">🔄 ক্যাশ রিফ্রেশ</button></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><span class="card-title">বিষয় বেছে নিন</span></div><div class="card-body"><div class="pills-wrap" id="subjectPills"></div></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/></svg></div><span class="card-title">অধ্যায় বেছে নিন</span></div><div class="card-body"><div class="pills-wrap" id="unitFilters"><p class="no-units-msg" style="font-size:0.8rem; color:var(--gray-text);">প্রথমে বিষয় নির্বাচন করুন</p></div><p class="section-hint">একাধিক অধ্যায় একসাথে বেছে নেওয়া যাবে</p></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/></svg></div><span class="card-title">প্রশ্নের ধরন</span></div><div class="card-body"><div class="pills-wrap" id="typePills"></div></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><span class="card-title">কঠিনতা</span></div><div class="card-body"><div class="pills-wrap" id="difficultyPills"></div></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><span class="card-title">বহু-সঠিক প্রশ্ন</span></div><div class="card-body"><div class="pills-wrap" id="multiPills"></div><p class="section-hint">বহু-সঠিক প্রশ্নগুলিতে একাধিক সঠিক উত্তর থাকতে পারে</p></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><span class="card-title">আগের অনুশীলন</span></div><div class="card-body"><div class="pills-wrap" id="historyPills"></div><div class="history-stats" id="historyStats"></div></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div><span class="card-title">কতটি প্রশ্ন?</span></div><div class="card-body"><div class="count-btns-row" id="countButtons"></div><p class="section-hint">ফিল্টার করা প্রশ্নের চেয়ে বেশি নির্বাচন করলে সব প্রশ্ন অন্তর্ভুক্ত হবে</p></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/></svg></div><span class="card-title">প্রশ্নের ক্রম</span></div><div class="card-body"><div class="toggle-row"><div><div id="randomLabel" style="font-weight:600;">র‍্যান্ডম ক্রমে</div><div style="font-size:0.65rem; color:var(--gray-text);">প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে</div></div><label class="switch"><input type="checkbox" id="randomToggle" checked /><span class="switch-slider"></span></label></div></div></div>
+
+    <div class="card"><div class="card-header"><div class="card-header-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div><span class="card-title">ফিল্টার ফলাফল</span></div><div class="card-body"><div class="preview-box"><div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-size:0.8rem;">ফিল্টার অনুযায়ী প্রশ্ন:</span><span class="preview-count"><span id="matchCount">০</span>টি</span></div><p style="margin:8px 0; font-size:0.85rem;">কুইজে থাকবে: <strong><span id="quizCount">০</span>টি প্রশ্ন</strong></p><div class="breakdown-pills" id="breakdownList"><span class="breakdown-empty" style="font-size:0.75rem; color:var(--gray-text);">ফিল্টার পরিবর্তন করুন</span></div></div></div></div>
+
+    <div class="start-btn-wrap"><button id="startQuizBtn" disabled>কুইজ শুরু করুন</button></div>
   </div>
+</div>
 
-  <!-- ══════════════════════════════════════════════════════════════════════
-       Error State
-       ══════════════════════════════════════════════════════════════════════ -->
-  <div id="errorState">
-    <div class="error-icon">⚠️</div>
-    <p class="error-title">লোড করতে সমস্যা হয়েছে</p>
-    <p id="errorMessage">অনুগ্রহ করে পুনরায় চেষ্টা করুন।</p>
-    <button class="retry-btn" id="retryBtn">আবার চেষ্টা করুন</button>
-  </div>
-
-  <!-- ══════════════════════════════════════════════════════════════════════
-       Filter Panel
-       ══════════════════════════════════════════════════════════════════════ -->
-  <div id="filterPanel">
-
-    <!-- History Banner -->
-    <div class="history-banner empty" id="historyBanner">
-      <div class="history-banner-icon" id="historyBannerIcon">📊</div>
-      <div class="history-banner-text">
-        <div class="history-banner-title" id="historyBannerTitle">
-          এখনও কোনো কুইজ দেওয়া হয়নি
-        </div>
-        <div class="history-banner-sub" id="historyBannerSub">
-          প্রথম কুইজ দিন এবং আপনার অগ্রগতি দেখুন!
-        </div>
-        <div class="history-progress-bar">
-          <div class="history-progress-fill" id="historyProgressFill" style="width:0%"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Stats bar -->
-    <div class="card">
-      <div class="stats-bar" id="statsBar">
-        <svg viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"/>
-          <polyline points="12 6 12 12 16 14"/>
-        </svg>
-        <span id="totalLoadedText">প্রশ্ন লোড হচ্ছে...</span>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 1: Subject
-         UPDATED: uses new subject keys from manifest
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-          </svg>
-        </div>
-        <span class="card-title">বিষয় বেছে নিন</span>
-      </div>
-      <div class="card-body">
-        <!--
-          Subject pills injected by filter-app.js
-          New keys:
-            life-science
-            general-science
-            arithmetic-mathematics
-            reasoning-general-knowledge
-            general-knowledge
-            english-grammar
-        -->
-        <div class="pills-wrap" id="subjectPills"></div>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 2: Unit/Chapter
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <line x1="8" y1="6" x2="21" y2="6"/>
-            <line x1="8" y1="12" x2="21" y2="12"/>
-            <line x1="8" y1="18" x2="21" y2="18"/>
-            <line x1="3" y1="6" x2="3.01" y2="6"/>
-            <line x1="3" y1="12" x2="3.01" y2="12"/>
-            <line x1="3" y1="18" x2="3.01" y2="18"/>
-          </svg>
-        </div>
-        <span class="card-title">অধ্যায় বেছে নিন</span>
-      </div>
-      <div class="card-body">
-        <div class="pills-wrap" id="unitFilters">
-          <p class="no-units-msg">প্রথমে বিষয় নির্বাচন করুন</p>
-        </div>
-        <p class="section-hint">একাধিক অধ্যায় একসাথে বেছে নেওয়া যাবে</p>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 3: Question Type
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/>
-            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
-            <line x1="12" y1="17" x2="12.01" y2="17"/>
-          </svg>
-        </div>
-        <span class="card-title">প্রশ্নের ধরন</span>
-      </div>
-      <div class="card-body">
-        <div class="pills-wrap" id="typePills"></div>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 4: Difficulty
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-          </svg>
-        </div>
-        <span class="card-title">কঠিনতা</span>
-      </div>
-      <div class="card-body">
-        <div class="pills-wrap" id="difficultyPills"></div>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 5: Multi-Correct Questions (NEW)
-         Added pill to filter by multi: true questions
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="9 11 12 14 22 4"/>
-            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
-          </svg>
-        </div>
-        <span class="card-title">বহু-সঠিক প্রশ্ন</span>
-      </div>
-      <div class="card-body">
-        <div class="pills-wrap" id="multiPills"></div>
-        <p class="section-hint">বহু-সঠিক প্রশ্নগুলিতে একাধিক সঠিক উত্তর থাকতে পারে</p>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 6: History Status
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-          </svg>
-        </div>
-        <span class="card-title">আগের অনুশীলন</span>
-      </div>
-      <div class="card-body">
-        <div class="pills-wrap" id="historyPills"></div>
-        <div class="history-stats" id="historyStats" style="margin-top: 12px;"></div>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 7: Question Count
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <line x1="12" y1="5" x2="12" y2="19"/>
-            <line x1="5" y1="12" x2="19" y2="12"/>
-          </svg>
-        </div>
-        <span class="card-title">কতটি প্রশ্ন?</span>
-      </div>
-      <div class="card-body">
-        <div class="count-btns-row" id="countButtons"></div>
-        <p class="section-hint">ফিল্টার করা প্রশ্নের চেয়ে বেশি নির্বাচন করলে সব প্রশ্ন অন্তর্ভুক্ত হবে</p>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Filter 8: Random Order
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="16 3 21 3 21 8"/>
-            <line x1="4" y1="20" x2="21" y2="3"/>
-            <polyline points="21 16 21 21 16 21"/>
-            <line x1="15" y1="15" x2="21" y2="21"/>
-          </svg>
-        </div>
-        <span class="card-title">প্রশ্নের ক্রম</span>
-      </div>
-      <div class="card-body">
-        <div class="toggle-row">
-          <div class="toggle-labels">
-            <div class="toggle-main-label" id="randomLabel">র‍্যান্ডম ক্রমে</div>
-            <div class="toggle-sub-label" id="randomSubLabel">প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে</div>
-          </div>
-          <label class="switch">
-            <input type="checkbox" id="randomToggle" checked />
-            <span class="switch-slider"></span>
-          </label>
-        </div>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Live Preview
-         UPDATED: shows multi question count in breakdown
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="card">
-      <div class="card-header">
-        <div class="card-header-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-            <circle cx="12" cy="12" r="3"/>
-          </svg>
-        </div>
-        <span class="card-title">ফিল্টার ফলাফল</span>
-      </div>
-      <div class="card-body">
-        <div class="preview-box">
-          <div class="preview-row">
-            <span class="preview-label">ফিল্টার অনুযায়ী প্রশ্ন পাওয়া গেছে:</span>
-            <span class="preview-count"><span id="matchCount">০</span>টি</span>
-          </div>
-          <p class="preview-quiz-count">
-            কুইজে থাকবে: <strong><span id="quizCount">০</span>টি প্রশ্ন</strong>
-          </p>
-          <!--
-            Breakdown pills now include multi count
-            Injected by filter-engine.js updatePreview()
-          -->
-          <div class="breakdown-pills" id="breakdownList">
-            <span class="breakdown-empty">ফিল্টার পরিবর্তন করুন</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ══════════════════════════════════════════════════════════════════
-         Start Button
-         ══════════════════════════════════════════════════════════════════ -->
-    <div class="start-btn-wrap">
-      <button id="startQuizBtn" disabled>কুইজ শুরু করুন</button>
-    </div>
-
-  </div><!-- /#filterPanel -->
-</div><!-- /.page -->
-
-<!-- ══════════════════════════════════════════════════════════════════════
-     Scripts — load order matters
-     filter-history.js must load BEFORE filter-engine.js
-     ══════════════════════════════════════════════════════════════════════ -->
 <script src="./js/filter-history.js"></script>
 <script src="./js/filter-engine.js"></script>
 <script src="./js/filter-loader.js"></script>
 <script src="./js/filter-app.js"></script>
-
-<!-- ══════════════════════════════════════════════════════════════════════
-     Inline: Random toggle label sync
-     ══════════════════════════════════════════════════════════════════════ -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var toggle    = document.getElementById('randomToggle');
+  var toggle = document.getElementById('randomToggle');
   var mainLabel = document.getElementById('randomLabel');
-  var subLabel  = document.getElementById('randomSubLabel');
-
-  if (toggle && mainLabel && subLabel) {
+  if(toggle && mainLabel) {
     toggle.addEventListener('change', function() {
-      if (toggle.checked) {
-        mainLabel.textContent = 'র‍্যান্ডম ক্রমে';
-        subLabel.textContent  = 'প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে';
-      } else {
-        mainLabel.textContent = 'ক্রমানুসারে';
-        subLabel.textContent  = 'সেট নম্বর অনুযায়ী প্রশ্ন আসবে';
-      }
+      mainLabel.textContent = toggle.checked ? 'র‍্যান্ডম ক্রমে' : 'ক্রমানুসারে';
     });
   }
 });
 </script>
-
 </body>
 </html>
