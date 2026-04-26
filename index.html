@@ -365,10 +365,10 @@
 
     @media (min-width: 768px) {
       .cards-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 16px;
         padding: 20px 20px 12px;
-        max-width: 700px;
+        max-width: 900px;
         margin: 0 auto;
       }
     }
@@ -389,6 +389,7 @@
       align-items: center;
       gap: 8px;
       -webkit-tap-highlight-color: transparent;
+      position: relative;
     }
 
     .nav-card:hover {
@@ -421,6 +422,19 @@
       font-size: 11px;
       color: #888;
       line-height: 1.3;
+    }
+
+    .card-new-badge {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: #ffb300;
+      color: #000;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      line-height: 1;
     }
 
     /* Card themes */
@@ -809,7 +823,6 @@
   ════════════════════════════════ -->
   <header class="top-header" role="banner">
     <div class="top-header-logo" aria-hidden="true">
-      <!-- Hospital/medical SVG icon -->
       <svg class="top-header-logo-svg" viewBox="0 0 40 40" fill="none">
         <rect width="40" height="40" rx="10" fill="rgba(255,255,255,0.15)"/>
         <rect x="17" y="8" width="6" height="24" rx="3" fill="white"/>
@@ -823,12 +836,7 @@
       <div class="top-header-subtitle">সম্পূর্ণ প্রস্তুতি প্ল্যাটফর্ম</div>
     </div>
 
-    <button
-      class="top-header-menu"
-      aria-label="মেনু"
-      id="menuBtn"
-      type="button"
-    >
+    <button class="top-header-menu" aria-label="মেনু" id="menuBtn" type="button">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <circle cx="12" cy="5" r="1.2" fill="currentColor" stroke="none"/>
         <circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/>
@@ -842,7 +850,6 @@
   ════════════════════════════════ -->
   <div class="nav-tabs-wrapper" role="navigation" aria-label="দ্রুত নেভিগেশন">
     <div class="nav-tabs">
-
       <a href="#home-section" class="nav-tab active" data-tab="home">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
@@ -850,7 +857,6 @@
         </svg>
         হোম
       </a>
-
       <a href="./subjects/index.html" class="nav-tab">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
@@ -858,15 +864,12 @@
         </svg>
         বিষয়সমূহ
       </a>
-
-      <a href="./pyq/index.html" class="nav-tab">
+      <a href="./practice/unit-filter.html" class="nav-tab">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-          <polyline points="14 2 14 8 20 8"/>
+          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
         </svg>
-        পুরনো প্রশ্ন
+        ফিল্টার
       </a>
-
       <a href="./practice/index.html" class="nav-tab">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M12 20h9"/>
@@ -874,7 +877,6 @@
         </svg>
         অনুশীলন
       </a>
-
       <a href="./mock-test/index.html" class="nav-tab">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="10"/>
@@ -882,7 +884,13 @@
         </svg>
         মক টেস্ট
       </a>
-
+      <a href="./pyq/index.html" class="nav-tab">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+        </svg>
+        পুরনো প্রশ্ন
+      </a>
       <a href="./results/index.html" class="nav-tab">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="18" y1="20" x2="18" y2="10"/>
@@ -891,7 +899,6 @@
         </svg>
         ফলাফল
       </a>
-
     </div>
   </div>
 
@@ -915,69 +922,39 @@
 
     <!-- ── HERO ── -->
     <section class="hero" id="home-section" aria-label="স্বাগত বিভাগ">
-
       <p class="hero-welcome">
         <span aria-hidden="true">✨</span>
         স্বাগতম
       </p>
-
       <h1 class="hero-title">
         <span>WB ANM GNM 2026</span>
         <span>প্রবেশিকা পরীক্ষার প্রস্তুতি</span>
       </h1>
-
       <p class="hero-desc">
         বিনামূল্যে সম্পূর্ণ প্রস্তুতি — বিষয়ভিত্তিক পড়াশোনা, মক টেস্ট ও পুরনো প্রশ্ন
       </p>
-
-      <!-- Countdown Card -->
       <div class="countdown-card" role="timer" aria-label="পরীক্ষার কাউন্টডাউন">
         <p class="countdown-card-label">পরীক্ষার সময় বাকি</p>
         <span class="countdown-number" id="countdownDays" aria-live="polite">--</span>
         <span class="countdown-unit-text" id="countdownUnit">দিন বাকি</span>
         <br>
-        <button
-          class="countdown-change-btn"
-          id="changeDateBtn"
-          type="button"
-          aria-label="পরীক্ষার তারিখ পরিবর্তন করুন"
-        >
+        <button class="countdown-change-btn" id="changeDateBtn" type="button" aria-label="পরীক্ষার তারিখ পরিবর্তন করুন">
           তারিখ পরিবর্তন করুন
         </button>
       </div>
-
-      <!-- Exam Info Chips -->
       <div class="exam-chips" role="list" aria-label="পরীক্ষার তথ্য">
-        <div class="exam-chip" role="listitem">
-          <strong>১০০</strong> প্রশ্ন
-        </div>
-        <div class="exam-chip" role="listitem">
-          <strong>১১৫</strong> নম্বর
-        </div>
-        <div class="exam-chip" role="listitem">
-          <strong>৯০</strong> মিনিট
-        </div>
-        <div class="exam-chip negative" role="listitem">
-          নেগেটিভ মার্কিং <strong>-০.২৫</strong>
-        </div>
+        <div class="exam-chip" role="listitem"><strong>১০০</strong> প্রশ্ন</div>
+        <div class="exam-chip" role="listitem"><strong>১১৫</strong> নম্বর</div>
+        <div class="exam-chip" role="listitem"><strong>৯০</strong> মিনিট</div>
+        <div class="exam-chip negative" role="listitem">নেগেটিভ মার্কিং <strong>-০.২৫</strong></div>
       </div>
-
     </section>
 
     <!-- ── STATS ROW ── -->
     <div class="stats-row" role="list" aria-label="প্ল্যাটফর্ম পরিসংখ্যান">
-      <div class="stat-item" role="listitem">
-        <span class="stat-num">৬</span>
-        <span class="stat-lbl">বিষয়</span>
-      </div>
-      <div class="stat-item" role="listitem">
-        <span class="stat-num" id="statPYQ">৭</span>
-        <span class="stat-lbl">PYQ পেপার</span>
-      </div>
-      <div class="stat-item" role="listitem">
-        <span class="stat-num">১০</span>
-        <span class="stat-lbl">মক টেস্ট</span>
-      </div>
+      <div class="stat-item" role="listitem"><span class="stat-num">৬</span><span class="stat-lbl">বিষয়</span></div>
+      <div class="stat-item" role="listitem"><span class="stat-num" id="statPYQ">৭</span><span class="stat-lbl">PYQ পেপার</span></div>
+      <div class="stat-item" role="listitem"><span class="stat-num">১০</span><span class="stat-lbl">মক টেস্ট</span></div>
     </div>
 
     <!-- ── QUICK ACTIONS ── -->
@@ -1007,7 +984,7 @@
 
       <nav class="cards-grid" aria-label="বিভাগসমূহ">
 
-        <!-- Subjects -->
+        <!-- 1. Subjects -->
         <a href="./subjects/index.html" class="nav-card theme-green" aria-label="বিষয়সমূহ — ৬টি বিষয়">
           <div class="card-icon-wrap" aria-hidden="true">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#388e3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1015,11 +992,59 @@
               <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
             </svg>
           </div>
-          <span class="card-label">বিষয়সমূহ</span>
+          <span class="card-label">বিষয় সমুহ</span>
           <span class="card-meta">৬টি বিষয় · ৭৬ অধ্যায়</span>
         </a>
 
-        <!-- PYQ -->
+        <!-- 2. Chapter Wise Filter -->
+        <a href="./practice/unit-filter.html" class="nav-card theme-teal" aria-label="Chapter Wise Filter — বিষয় ও অধ্যায় অনুযায়ী প্রশ্ন">
+          <span class="card-new-badge">🔥 নতুন</span>
+          <div class="card-icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00838f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+            </svg>
+          </div>
+          <span class="card-label">Chapter Wise Filter</span>
+          <span class="card-meta">বিষয় ও অধ্যায় অনুযায়ী</span>
+        </a>
+
+        <!-- 3. Practice -->
+        <a href="./practice/index.html" class="nav-card theme-blue" aria-label="অনুশীলন — বিষয়ভিত্তিক সেট">
+          <div class="card-icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20h9"/>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+            </svg>
+          </div>
+          <span class="card-label">Practice</span>
+          <span class="card-meta">বিষয়ভিত্তিক · ৬০ সেট</span>
+        </a>
+
+        <!-- 4. Q&A / Read Mode -->
+        <a href="./practice/book.html" class="nav-card theme-orange" aria-label="প্রশ্ন উত্তর — উত্তরসহ পড়ার মোড">
+          <div class="card-icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#e65100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <span class="card-label">প্রশ্ন উত্তর</span>
+          <span class="card-meta">বইয়ের মতো পড়ুন</span>
+        </a>
+
+        <!-- 5. Mock Test -->
+        <a href="./mock-test/index.html" class="nav-card theme-pink" aria-label="মক টেস্ট — ১০০ প্রশ্ন ৯০ মিনিট">
+          <div class="card-icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c2185b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <span class="card-label">মক টেস্ট</span>
+          <span class="card-meta">১০০ প্রশ্ন · ৯০ মিনিট</span>
+        </a>
+
+        <!-- 6. PYQ -->
         <a href="./pyq/index.html" class="nav-card theme-orange" aria-label="পুরনো প্রশ্ন — ২০২১ থেকে ২০২৫">
           <div class="card-icon-wrap" aria-hidden="true">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#e65100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1033,47 +1058,10 @@
           <span class="card-meta">২০২১–২০২৫ · ৭ পেপার</span>
         </a>
 
-        <!-- Practice -->
-        <a href="./practice/index.html" class="nav-card theme-blue" aria-label="অনুশীলন — বিষয়ভিত্তিক সেট">
-          <div class="card-icon-wrap" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1565c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 20h9"/>
-              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-            </svg>
-          </div>
-          <span class="card-label">অনুশীলন</span>
-          <span class="card-meta">বিষয়ভিত্তিক · ৬০ সেট</span>
-        </a>
-
-        <!-- Mock Test -->
-        <a href="./mock-test/index.html" class="nav-card theme-pink" aria-label="মক টেস্ট — ১০০ প্রশ্ন ৯০ মিনিট">
-          <div class="card-icon-wrap" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c2185b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"/>
-              <polyline points="12 6 12 12 16 14"/>
-            </svg>
-          </div>
-          <span class="card-label">মক টেস্ট</span>
-          <span class="card-meta">১০০ প্রশ্ন · ৯০ মিনিট</span>
-        </a>
-
-        <!-- Results -->
-        <a href="./results/index.html" class="nav-card theme-purple" aria-label="ফলাফল — আপনার প্রগতি">
+        <!-- 7. Syllabus -->
+        <a href="./pages/syllabus.html" class="nav-card theme-purple" aria-label="সিলেবাস — সম্পূর্ণ পাঠ্যক্রম">
           <div class="card-icon-wrap" aria-hidden="true">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6a1b9a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="20" x2="18" y2="10"/>
-              <line x1="12" y1="20" x2="12" y2="4"/>
-              <line x1="6" y1="20" x2="6" y2="14"/>
-            </svg>
-          </div>
-          <span class="card-label">ফলাফল</span>
-          <span class="card-meta">প্রগতি দেখুন</span>
-        </a>
-
-        <!-- Syllabus -->
-        <a href="./pages/syllabus.html" class="nav-card theme-teal" aria-label="সিলেবাস — সম্পূর্ণ পাঠ্যক্রম">
-          <div class="card-icon-wrap" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00838f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <line x1="8" y1="6" x2="21" y2="6"/>
               <line x1="8" y1="12" x2="21" y2="12"/>
               <line x1="8" y1="18" x2="21" y2="18"/>
@@ -1084,6 +1072,19 @@
           </div>
           <span class="card-label">সিলেবাস</span>
           <span class="card-meta">সম্পূর্ণ পাঠ্যক্রম</span>
+        </a>
+
+        <!-- 8. Results -->
+        <a href="./results/index.html" class="nav-card theme-purple" aria-label="ফলাফল — আপনার প্রগতি">
+          <div class="card-icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#6a1b9a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="20" x2="18" y2="10"/>
+              <line x1="12" y1="20" x2="12" y2="4"/>
+              <line x1="6" y1="20" x2="6" y2="14"/>
+            </svg>
+          </div>
+          <span class="card-label">ফলাফল</span>
+          <span class="card-meta">প্রগতি দেখুন</span>
         </a>
 
       </nav>
@@ -1114,7 +1115,6 @@
        BOTTOM NAVIGATION
   ════════════════════════════════ -->
   <nav class="bottom-nav" role="navigation" aria-label="নিচের নেভিগেশন">
-
     <a href="#home-section" class="bottom-nav-item active" aria-label="হোম" aria-current="page">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
@@ -1122,7 +1122,6 @@
       </svg>
       <span class="bottom-nav-label">হোম</span>
     </a>
-
     <a href="./subjects/index.html" class="bottom-nav-item" aria-label="বিষয়">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
@@ -1130,7 +1129,6 @@
       </svg>
       <span class="bottom-nav-label">বিষয়</span>
     </a>
-
     <a href="./practice/index.html" class="bottom-nav-item" aria-label="অনুশীলন">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M12 20h9"/>
@@ -1138,7 +1136,12 @@
       </svg>
       <span class="bottom-nav-label">অনুশীলন</span>
     </a>
-
+    <a href="./practice/unit-filter.html" class="bottom-nav-item" aria-label="ফিল্টার">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+      </svg>
+      <span class="bottom-nav-label">ফিল্টার</span>
+    </a>
     <a href="./mock-test/index.html" class="bottom-nav-item" aria-label="মক টেস্ট">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="10"/>
@@ -1146,7 +1149,6 @@
       </svg>
       <span class="bottom-nav-label">মক টেস্ট</span>
     </a>
-
     <a href="./results/index.html" class="bottom-nav-item" aria-label="ফলাফল">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <line x1="18" y1="20" x2="18" y2="10"/>
@@ -1155,41 +1157,22 @@
       </svg>
       <span class="bottom-nav-label">ফলাফল</span>
     </a>
-
   </nav>
 
   <!-- ════════════════════════════════
        DATE PICKER MODAL
   ════════════════════════════════ -->
-  <div
-    class="modal-overlay"
-    id="dateModal"
-    role="dialog"
-    aria-modal="true"
-    aria-labelledby="modalTitle"
-    aria-hidden="true"
-  >
+  <div class="modal-overlay" id="dateModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
     <div class="modal-sheet">
       <div class="modal-handle" aria-hidden="true"></div>
       <h2 class="modal-title" id="modalTitle">পরীক্ষার তারিখ সেট করুন</h2>
       <p class="modal-desc">আপনার পরীক্ষার তারিখ দিন, কাউন্টডাউন আপডেট হবে</p>
-
       <label for="examDateInput" style="display:block; font-size:13px; color:#555; margin-bottom:8px; font-weight:500;">
         পরীক্ষার তারিখ বেছে নিন:
       </label>
-      <input
-        type="date"
-        id="examDateInput"
-        class="modal-date-input"
-        aria-label="পরীক্ষার তারিখ"
-      >
-
-      <button type="button" class="modal-save-btn" id="saveDateBtn">
-        তারিখ সংরক্ষণ করুন
-      </button>
-      <button type="button" class="modal-cancel-btn" id="cancelDateBtn">
-        বাতিল করুন
-      </button>
+      <input type="date" id="examDateInput" class="modal-date-input" aria-label="পরীক্ষার তারিখ">
+      <button type="button" class="modal-save-btn" id="saveDateBtn">তারিখ সংরক্ষণ করুন</button>
+      <button type="button" class="modal-cancel-btn" id="cancelDateBtn">বাতিল করুন</button>
     </div>
   </div>
 
@@ -1199,12 +1182,9 @@
   <script src="./js/storage.js"></script>
   <script src="./js/countdown.js"></script>
   <script src="./js/app.js"></script>
-
   <script>
     (function () {
       'use strict';
-
-      // ── Date Modal Logic ──────────────────────────
       const changeDateBtn = document.getElementById('changeDateBtn');
       const dateModal     = document.getElementById('dateModal');
       const examDateInput = document.getElementById('examDateInput');
@@ -1213,148 +1193,74 @@
 
       function openModal() {
         if (!dateModal) return;
-
-        // Pre-fill with stored date or today
         try {
           const stored = localStorage.getItem('anm_exam_date');
-          if (stored && examDateInput) {
-            examDateInput.value = stored;
-          } else if (examDateInput) {
-            // Default to 2026-06-01
-            examDateInput.value = '2026-06-01';
-          }
-        } catch (e) {
-          console.warn('Modal: Could not read stored date', e);
-        }
-
+          if (stored && examDateInput) examDateInput.value = stored;
+          else if (examDateInput) examDateInput.value = '2026-06-01';
+        } catch (e) { console.warn('Modal: Could not read stored date', e); }
         dateModal.classList.add('open');
         dateModal.setAttribute('aria-hidden', 'false');
-
-        if (examDateInput) {
-          examDateInput.focus();
-        }
+        if (examDateInput) examDateInput.focus();
       }
 
       function closeModal() {
         if (!dateModal) return;
         dateModal.classList.remove('open');
         dateModal.setAttribute('aria-hidden', 'true');
-
-        if (changeDateBtn) {
-          changeDateBtn.focus();
-        }
+        if (changeDateBtn) changeDateBtn.focus();
       }
 
-      if (changeDateBtn) {
-        changeDateBtn.addEventListener('click', openModal);
-      }
-
-      if (cancelDateBtn) {
-        cancelDateBtn.addEventListener('click', closeModal);
-      }
-
-      // Close on overlay click (outside sheet)
+      if (changeDateBtn) changeDateBtn.addEventListener('click', openModal);
+      if (cancelDateBtn) cancelDateBtn.addEventListener('click', closeModal);
       if (dateModal) {
-        dateModal.addEventListener('click', function (e) {
-          if (e.target === dateModal) {
-            closeModal();
-          }
-        });
+        dateModal.addEventListener('click', function (e) { if (e.target === dateModal) closeModal(); });
       }
-
-      // Close on Escape key
       document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && dateModal && dateModal.classList.contains('open')) {
-          closeModal();
-        }
+        if (e.key === 'Escape' && dateModal && dateModal.classList.contains('open')) closeModal();
       });
 
-      // Save date
       if (saveDateBtn) {
         saveDateBtn.addEventListener('click', function () {
           if (!examDateInput) return;
-
           const selectedDate = examDateInput.value;
-
-          if (!selectedDate) {
-            examDateInput.focus();
-            return;
-          }
-
-          // Validate: must be a real date
+          if (!selectedDate) { examDateInput.focus(); return; }
           const parsed = new Date(selectedDate);
-          if (isNaN(parsed.getTime())) {
-            console.warn('Modal: Invalid date selected');
-            examDateInput.focus();
-            return;
-          }
-
-          try {
-            localStorage.setItem('anm_exam_date', selectedDate);
-            console.log('Modal: Exam date saved:', selectedDate);
-          } catch (err) {
-            console.error('Modal: Failed to save date:', err);
-          }
-
+          if (isNaN(parsed.getTime())) { console.warn('Modal: Invalid date selected'); examDateInput.focus(); return; }
+          try { localStorage.setItem('anm_exam_date', selectedDate); } catch (err) { console.error('Modal: Failed to save date:', err); }
           closeModal();
-
-          // Refresh countdown
-          if (typeof window.refreshCountdown === 'function') {
-            window.refreshCountdown();
-          } else {
-            // Fallback: reload
-            window.location.reload();
-          }
+          if (typeof window.refreshCountdown === 'function') window.refreshCountdown();
+          else window.location.reload();
         });
       }
 
-      // ── Menu Button → About page ────────────────
       const menuBtn = document.getElementById('menuBtn');
       if (menuBtn) {
-        menuBtn.addEventListener('click', function () {
-          window.location.href = './pages/about.html';
-        });
+        menuBtn.addEventListener('click', function () { window.location.href = './pages/about.html'; });
       }
-
     }());
   </script>
   <!-- ── PWA: Service Worker Registration ───────────────── -->
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker
-        .register('/anm-gnm-pre/sw.js', {
-          scope: '/anm-gnm-pre/'
-        })
-        .then(registration => {
-          console.log('[SW] Registered — scope:', registration.scope);
-          
-          // Check for SW updates every 60 seconds
-          setInterval(() => {
-            registration.update();
-          }, 60 * 1000);
-          
-          // When a new SW is waiting, notify and reload
-          registration.addEventListener('updatefound', () => {
-            const newWorker = registration.installing;
-            newWorker.addEventListener('statechange', () => {
-              if (
-                newWorker.state === 'installed' &&
-                navigator.serviceWorker.controller
-              ) {
-                console.log('[SW] New version available — reloading');
-                newWorker.postMessage({ action: 'skipWaiting' });
-                window.location.reload();
-              }
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/anm-gnm-pre/sw.js', { scope: '/anm-gnm-pre/' })
+          .then(registration => {
+            console.log('[SW] Registered — scope:', registration.scope);
+            setInterval(() => { registration.update(); }, 60 * 1000);
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  console.log('[SW] New version available — reloading');
+                  newWorker.postMessage({ action: 'skipWaiting' });
+                  window.location.reload();
+                }
+              });
             });
-          });
-        })
-        .catch(error => {
-          console.error('[SW] Registration failed:', error);
-        });
-    });
-  }
-</script>
-
+          })
+          .catch(error => console.error('[SW] Registration failed:', error));
+      });
+    }
+  </script>
 </body>
 </html>
