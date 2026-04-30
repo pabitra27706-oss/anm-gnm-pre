@@ -1,0 +1,950 @@
+{
+  "subject": "logic",
+  "unit": "10-seating-arrangement",
+  "unit_code": "10",
+  "total": 55,
+  "questions": [
+    {
+      "id": "l-10-001",
+      "question": "পাঁচ বন্ধু A, B, C, D, E একটি সরলরেখায় বসে আছে। A, B এর ঠিক বাঁয়ে বসে। C, D এর ডানে বসে। E, B এর ডানে এবং C এর বাঁয়ে বসে। মাঝের অবস্থানে কে বসে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-002",
+      "question": "ছয় ব্যক্তি P, Q, R, S, T, U একটি বৃত্তাকারে বসে আছে। P এর ঠিক বিপরীতে Q বসে। R, P এর বাঁয়ে বসে। S, Q এর ডানে বসে। T, R ও S এর মাঝে নয়। U কোথায় বসে?",
+      "options": [
+        "P ও Q এর মাঝে",
+        "R ও S এর মাঝে",
+        "S ও P এর মাঝে",
+        "T ও R এর মাঝে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-003",
+      "question": "একটি সারিতে A, B, C, D চারজন বসে। A, B এর বাঁয়ে বসে। C, D এর ডানে বসে। B, C এর বাঁয়ে বসে। বাঁদিক থেকে দ্বিতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-004",
+      "question": "একটি ক্লাসে রামের র্যাঙ্ক সামনে থেকে 5ম এবং পিছন থেকে 7ম। ক্লাসে মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-005",
+      "question": "ছয়জন ব্যক্তি A, B, C, D, E, F বৃত্তাকারে বসে। A, F এর বাঁয়ে বসে। B, C এর ডানে বসে। D, E এর বিপরীতে বসে। A, C এর ডানে বসে। F এর বিপরীতে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-006",
+      "question": "একটি সারিতে পাঁচজন বসে। A, B এর ডানে। C, A এর বাঁয়ে। D, E এর ডানে। B, C এর ডানে এবং E এর বাঁয়ে। ডান দিক থেকে দ্বিতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-007",
+      "question": "আটজন ব্যক্তি একটি বৃত্তাকার টেবিলে বসে। প্রত্যেকেই কেন্দ্রের দিকে মুখ করে। A, B এর বাঁয়ে তৃতীয়। B, C এর ডানে দ্বিতীয়। C এর ঠিক বিপরীতে কে?",
+      "options": [
+        "A",
+        "D",
+        "E",
+        "F"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-008",
+      "question": "একটি সারিতে সাতজন ছাত্র বসে। মোহন, সোহনের বাঁয়ে চতুর্থ। সোহন, রোহনের ডানে। রোহন, ডান প্রান্ত থেকে দ্বিতীয়। মোহনের বাঁয়ে কতজন বসে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-009",
+      "question": "পাঁচ বন্ধু A, B, C, D, E একটি বৃত্তাকারে বসে। A, C এর ডানে। B, D এর বাঁয়ে। E, D এর ডানে। C, E এর বাঁয়ে। A এর ডানদিকে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-010",
+      "question": "একটি সারিতে ছয়জন বসে। P, Q এর ডানে। R, S এর বাঁয়ে। T, U এর ডানে। Q, R এর বাঁয়ে। S, P এর ডানে। বাঁদিক থেকে তৃতীয় কে?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-011",
+      "question": "একটি ক্লাসে সোনুর র্যাঙ্ক সামনে থেকে 12তম এবং পিছন থেকে 8ম। ক্লাসে মোট ছাত্র সংখ্যা কত?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-012",
+      "question": "সাতজন ব্যক্তি একটি সরলরেখায় উত্তরমুখী হয়ে বসে। A, B এর ডানে তৃতীয়। C, D এর বাঁয়ে দ্বিতীয়। E, F ও G এর মাঝে। B, C এর বাঁয়ে। সবচেয়ে বাঁদিকে কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-013",
+      "question": "ছয়জন বৃত্তাকারে বসে। R, S এর বাঁয়ে। T, U এর ডানে। V, W এর বাঁয়ে। R, T এর বিপরীতে। W এর ডানদিকে কে?",
+      "options": [
+        "R",
+        "S",
+        "T",
+        "U"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-014",
+      "question": "একটি সারিতে চারজন বসে। A, B ও C এর মাঝে নয়। D, A এর ডানে। B, D এর বাঁয়ে। ডান প্রান্তে কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-015",
+      "question": "দশজন একটি সারিতে বসে। রাহুলের বাঁয়ে 5 জন এবং ডানে 4 জন। রাহুলের অবস্থান কততম?",
+      "options": [
+        "5ম",
+        "6ষ্ঠ",
+        "7ম",
+        "4র্থ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-016",
+      "question": "পাঁচজন একটি বৃত্তে বসে। A, B এর ডানে। B, C এর ডানে। C, D এর ডানে। D, E এর ডানে। A এর বাঁদিকে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-017",
+      "question": "একটি সারিতে আটজন বসে। মিতা, সীতার ডানে চতুর্থ। সীতা, গীতার বাঁয়ে। গীতা, রীতার ডানে। রীতা বাঁ প্রান্ত থেকে তৃতীয়। ডান প্রান্তে কে?",
+      "options": [
+        "মিতা",
+        "সীতা",
+        "গীতা",
+        "রীতা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-018",
+      "question": "নয়জন একটি বৃত্তাকার টেবিলে বসে। A, B এর ডানে চতুর্থ। B, C এর বাঁয়ে তৃতীয়। C, D এর ডানে। A এর ঠিক বাঁদিকে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-019",
+      "question": "একটি সারিতে পাঁচজন বসে। A, B ও C এর মাঝে বসে। D, A এর ডানে। E, B এর বাঁয়ে। ডান প্রান্ত থেকে দ্বিতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-020",
+      "question": "একটি ক্লাসে সুমনের র্যাঙ্ক সামনে থেকে 15তম এবং পিছন থেকে 11তম। ক্লাসে মোট কতজন?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-021",
+      "question": "ছয়জন একটি বৃত্তে বসে। P, Q ও R এর মাঝে বসে না। S, T এর বাঁয়ে। U, P এর ডানে। Q, U এর বাঁয়ে। S এর ডানদিকে কে?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "T"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-022",
+      "question": "একটি সারিতে সাতজন বসে। A, B এর বাঁয়ে দ্বিতীয়। C, D এর ডানে তৃতীয়। E, F ও G এর মাঝে। B, C এর ডানে। বাঁ প্রান্ত থেকে তৃতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-023",
+      "question": "পাঁচজন একটি বৃত্তে বসে। A, B এর ডানে। C, B এর বাঁয়ে। D, C এর ডানে। E, A এর বাঁয়ে। A এর বিপরীতে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-024",
+      "question": "একটি সারিতে নয়জন বসে। রাহুলের বাঁয়ে 3 জন, ডানে 5 জন। রাহুলের ডানে তৃতীয় ব্যক্তির বাঁয়ে কতজন?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-025",
+      "question": "আটজন একটি বৃত্তাকার টেবিলে কেন্দ্রমুখী হয়ে বসে। A, B এর ডানে দ্বিতীয়। B, C এর বাঁয়ে তৃতীয়। D, C এর ডানে। A ও D এর মাঝে কতজন?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-026",
+      "question": "একটি সারিতে ছয়জন বসে। A, B এর বাঁয়ে। C, D এর ডানে। E, F এর বাঁয়ে। B, E এর ডানে। D, A এর বাঁয়ে। মাঝের দুজনের বাঁয়ের একজন কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-027",
+      "question": "কোন প্রতিযোগিতায় রাজের র্যাঙ্ক উপরে থেকে 7ম এবং নিচে থেকে 5ম। মোট প্রতিযোগী সংখ্যা?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-028",
+      "question": "সাতজন একটি বৃত্তে বসে। X, Y এর ডানে। Y, Z এর বাঁয়ে। Z, W এর ডানে। W, V এর বাঁয়ে। V, U এর ডানে। X এর বিপরীতে কে?",
+      "options": [
+        "W",
+        "V",
+        "U",
+        "T"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-029",
+      "question": "একটি সারিতে আটজন বসে। A, B এর বাঁয়ে। C, B এর ডানে। D, C এর ডানে। E, D এর ডানে। F, E এর ডানে। G, F এর ডানে। H, G এর ডানে। বাঁ প্রান্ত থেকে তৃতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-030",
+      "question": "দশজন একটি বৃত্তাকার টেবিলে বসে। A, B এর বাঁয়ে তৃতীয়। B, C এর ডানে দ্বিতীয়। C, D এর বাঁয়ে চতুর্থ। A ও C এর মাঝে কতজন?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-031",
+      "question": "একটি সারিতে রোহিতের অবস্থান সামনে থেকে 8ম। পিছন থেকে তার অবস্থান 6ষ্ঠ। সারিতে মোট কতজন?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-032",
+      "question": "ছয়জন একটি বৃত্তে বসে। P, Q এর বাঁয়ে। R, Q এর ডানে। S, R এর বাঁয়ে। T, S এর ডানে। U, T এর বাঁয়ে। P ও T এর মাঝে কে?",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "U"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-033",
+      "question": "একটি সারিতে পাঁচজন বসে। A, B এর ডানে। B, C এর ডানে। C, D এর ডানে। D, E এর ডানে। E এর বাঁয়ের দ্বিতীয় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-034",
+      "question": "নয়জন একটি বৃত্তাকার টেবিলে বসে। A, B এর ডানে চতুর্থ। B, C এর বাঁয়ে তৃতীয়। C, D এর ডানে দ্বিতীয়। A এর বাঁয়ে কে?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-035",
+      "question": "একটি সারিতে সাতজন বসে। মনোজ, অমিতের বাঁয়ে দ্বিতীয়। অমিত, সুমনের ডানে। সুমন, রাহুলের বাঁয়ে। রাহুল, ডান প্রান্ত থেকে তৃতীয়। বাঁ প্রান্তে কে?",
+      "options": [
+        "মনোজ",
+        "অমিত",
+        "সুমন",
+        "রাহুল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-036",
+      "question": "আটজন একটি বৃত্তে কেন্দ্রমুখী হয়ে বসে। A, B এর বাঁয়ে দ্বিতীয়। B, C এর ডানে তৃতীয়। C, A এর বাঁয়ে? D, A ও E এর মাঝে। E কোন অবস্থানে?",
+      "options": [
+        "B এর বাঁয়ে",
+        "C এর ডানে",
+        "A এর বিপরীতে",
+        "D এর ডানে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-037",
+      "question": "একটি সারিতে দশজন বসে। বিপ্লবের বাঁয়ে 4 জন এবং ডানে 5 জন। বিপ্লবের ডানে দ্বিতীয় ব্যক্তির বাঁয়ের তৃতীয় কে?",
+      "options": [
+        "বিপ্লব",
+        "বিপ্লবের ডানদিকের একজন",
+        "বিপ্লবের বাঁদিকের একজন",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-038",
+      "question": "পাঁচজন একটি বৃত্তে বসে। A, B ও C এর মাঝে বসে না। D, A এর বাঁয়ে। E, B এর ডানে। C এর ডানদিকে কে?",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-039",
+      "question": "একটি সারিতে ছয়জন বসে। P, Q এর বাঁয়ে দ্বিতীয়। R, Q এর ডানে। S, R এর বাঁয়ে। T, S এর ডানে। U, T এর ডানে। P এর বাঁয়ে কে?",
+      "options": [
+        "কেউ না",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-040",
+      "question": "একটি ক্লাসে স্নেহার র্যাঙ্ক উপরে থেকে 10ম এবং নিচে থেকে 8ম। ক্লাসে মোট ছাত্রী সংখ্যা কত?",
+      "options": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-10-041",
+      "question": "সাতজন একটি বৃত্তাকার টেবিলে বসে। A, B এর ডানে। B, C এর বাঁয়ে। C, D এর ডানে। D, E এর বাঁয়ে। E, F এর ডানে। F, G এর বাঁয়ে। A এর বিপরীতে কে?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-042",
+      "question": "একটি সারিতে পাঁচজন বসে। X, Y এর ডানে কিন্তু Z এর বাঁয়ে। P, Q এর ডানে কিন্তু Y এর বাঁয়ে। ডান প্রান্তে কে?",
+      "options": [
+        "X",
+        "Y",
+        "Z",
+        "P"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-10-043",
+      "question": "আটজন একটি বৃত্তে বসে। একটি নির্দিষ্ট ব্যক্তি U এর বাঁয়ে তৃতীয় V বসে। V এর ডানে দ্বিতীয় W বসে। W এর বাঁয়ে চতুর্থ X বসে। U ও X এর মাঝে কতজন?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-044",
+      "question": "একটি সারিতে একাদশ জন বসে। মধু, সুধার বাঁয়ে চতুর্থ। সুধা, রিনার ডানে দ্বিতীয়। রিনা ডান প্রান্ত থেকে পঞ্চম। বাঁ প্রান্ত থেকে মধুর অবস্থান কত?",
+      "options": [
+        "তৃতীয়",
+        "চতুর্থ",
+        "পঞ্চম",
+        "ষষ্ঠ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-10-045",
+      "question": "একটি সারিতে A, B, C, D, E বসে। নিচের কোন তথ্যগুলি সঠিক হতে পারে? (Multiple Correct)",
+      "options": [
+        "A যদি B এর বাঁয়ে বসে, তাহলে B A এর ডানে",
+        "C যদি মাঝে বসে, তাহলে C এর বাঁয়ে ও ডানে দুইজন করে",
+        "D যদি প্রান্তে বসে, তাহলে তার এক পাশে শুধু একজন বসবে",
+        "E যদি দ্বিতীয় হয়, তাহলে তার বাঁয়ে ও ডানে চারজন করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-10-046",
+      "question": "বৃত্তাকার বিন্যাসের ক্ষেত্রে নিচের কোনটি সত্য? (Multiple Correct)",
+      "options": [
+        "কোন নির্দিষ্ট প্রান্ত থাকে না",
+        "বাঁয়ে/ডানে বোঝায় ঘড়ির কাঁটার দিক/বিপরীত দিক",
+        "বিপরীতে বসা মানে ঠিক উল্টো দিকে",
+        "প্রান্ত থাকে না বলেই মাঝের ধারণা নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-10-047",
+      "question": "একটি সারিতে A, B, C, D, E, F বসে। নিচের কোন বিন্যাস সম্ভব? (Multiple Correct)",
+      "options": [
+        "A, B, C, D, E, F",
+        "F, E, D, C, B, A",
+        "C, A, E, B, D, F",
+        "D, C, B, A, F, E"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-10-048",
+      "question": "র্যাঙ্কিং সংক্রান্ত নিচের কোন সূত্রগুলি সঠিক? (Multiple Correct)",
+      "options": [
+        "মোট = সামনের র্যাঙ্ক + পিছনের র্যাঙ্ক - 1",
+        "সামনের র্যাঙ্ক = মোট - পিছনের র্যাঙ্ক + 1",
+        "পিছনের র্যাঙ্ক = মোট - সামনের র্যাঙ্ক + 1",
+        "মধ্য র্যাঙ্ক = (সামনের + পিছনের)/2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-10-049",
+      "question": "বৃত্তাকার বসার ক্ষেত্রে নিচের কোন বিবৃতিগুলি সঠিক? (Multiple Correct)",
+      "options": [
+        "একটি বৃত্তে যদি বিজোড় সংখ্যক ব্যক্তি বসে, তাহলে কোন সঠিক বিপরীত ব্যক্তি থাকে না",
+        "একটি বৃত্তে যদি জোড় সংখ্যক ব্যক্তি বসে, তাহলে প্রত্যেকেরই বিপরীতে একজন করে থাকে",
+        "বৃত্তে \"বাঁয়ে\" বলতে সাধারণত ঘড়ির কাঁটার বিপরীত দিক বোঝায়",
+        "বৃত্তে \"ডানে\" বলতে সাধারণত ঘড়ির কাঁটার দিক বোঝায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-10-050",
+      "question": "একটি সারিতে P, Q, R, S, T বসে। নিচের কোন তথ্যগুলি একসাথে সত্য হতে পারে? (Multiple Correct)",
+      "options": [
+        "P, Q এর বাঁয়ে",
+        "R, S এর ডানে",
+        "Q, R এর বাঁয়ে",
+        "T প্রান্তে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-10-051",
+      "question": "\"A, B এর বাঁয়ে দ্বিতীয়\" বলতে কী বোঝায়? (Multiple Correct)",
+      "options": [
+        "A ও B এর মাঝে ঠিক একজন আছে",
+        "B এর বাঁয়ের দিক থেকে দ্বিতীয় অবস্থানে A আছে",
+        "A, B এর বাঁয়ে এবং তাদের মাঝে একজন আছে",
+        "B, A এর ডানে দ্বিতীয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-10-052",
+      "question": "একটি বৃত্তে আটজন বসে। নিচের কোন তথ্যগুলি সঠিকভাবে বিন্যাস নির্ণয়ে সাহায্য করে? (Multiple Correct)",
+      "options": [
+        "A, B এর বিপরীতে",
+        "C, D এর ডানে দ্বিতীয়",
+        "E, F এর বাঁয়ে তৃতীয়",
+        "G ও H পাশাপাশি বসে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-10-053",
+      "question": "নিচের কোন বিন্যাসে A ঠিক মাঝে বসে? (Multiple Correct - 5 জনের সারিতে)",
+      "options": [
+        "B, C, A, D, E",
+        "C, B, A, E, D",
+        "D, E, A, B, C",
+        "E, D, A, C, B"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-10-054",
+      "question": "একটি লাইনের প্রান্ত সম্পর্কিত নিচের কোনটি সত্য? (Multiple Correct)",
+      "options": [
+        "বাঁ প্রান্ত মানে বাঁদিকের সবচেয়ে শেষ ব্যক্তি",
+        "ডান প্রান্ত মানে ডানদিকের সবচেয়ে শেষ ব্যক্তি",
+        "সারিতে দুই প্রান্তেই কেউ না কেউ থাকে",
+        "প্রান্তের ব্যক্তির একদিকে কেউ বসে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-10-055",
+      "question": "বৃত্তাকার বিন্যাসে \"ঠিক বিপরীতে\" বলতে কী বোঝায় - যেখানে মোট ব্যক্তি সংখ্যা 6? (Multiple Correct)",
+      "options": [
+        "তাদের মাঝে ঠিক 2 জন করে থাকে",
+        "A এর বিপরীতে B মানে A থেকে ডানে বা বাঁয়ে 3 জন দূরে",
+        "6 জনের বৃত্তে বিপরীত মানে 3 ধাপ দূরে",
+        "6 জনের বৃত্তে বিপরীত মানে 4 ধাপ দূরে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "10-seating-arrangement",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

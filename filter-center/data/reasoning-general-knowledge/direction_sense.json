@@ -1,0 +1,861 @@
+{
+  "subject": "logic",
+  "unit": "06-direction-sense",
+  "unit_code": "06",
+  "total": 50,
+  "questions": [
+    {
+      "id": "l-06-001",
+      "question": "রাম উত্তর দিকে মুখ করে দাঁড়িয়ে আছে। সে বাম দিকে ঘুরল। এখন তার মুখ কোন দিকে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "দক্ষিণ",
+        "উত্তর-পূর্ব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-06-002",
+      "question": "একজন ব্যক্তি দক্ষিণ দিকে 5 কিমি গেল। তারপর ডানদিকে ঘুরে 4 কিমি গেল। এখন তার মুখ কোন দিকে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-003",
+      "question": "A পূর্ব দিকে 3 কিমি, তারপর উত্তর দিকে 4 কিমি গেল। তার সূচনা বিন্দু থেকে সরলরৈখিক দূরত্ব কত?",
+      "options": [
+        "7 কিমি",
+        "5 কিমি",
+        "1 কিমি",
+        "12 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-004",
+      "question": "সকালে সূর্যের দিকে মুখ করে দাঁড়ালে তোমার ছায়া কোন দিকে পড়বে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-06-005",
+      "question": "একজন ছাত্র উত্তর দিকে 10 মিটার গিয়ে ডানদিকে ঘুরে 5 মিটার গেল। তারপর আবার ডানদিকে ঘুরে 10 মিটার গেল।সে প্রারম্ভিক স্থান থেকে কোন দিকে আছে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-006",
+      "question": "সোহান উত্তর-পূর্ব দিকে মুখ করে আছে। সে ঘড়ির কাঁটার দিকে 90° ঘুরল। এখন সে কোন দিকে মুখ করে আছে?",
+      "options": [
+        "উত্তর-পশ্চিম",
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-007",
+      "question": "A-এর বাড়ি থেকে স্কুল 5 কিমি দক্ষিণে। স্কুল থেকে হাসপাতাল 5 কিমি পূর্বে। হাসপাতাল A-এর বাড়ি থেকে কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "উত্তর-পশ্চিম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-008",
+      "question": "একজন ব্যক্তি পশ্চিম দিকে 2 কিমি গেল, তারপর বাম দিকে ঘুরে 3 কিমি গেল। পুনরায় বাম দিকে ঘুরে 2 কিমি গেল। সে যাত্রা শুরুর স্থান থেকে এখন কোন দিকে অবস্থান করছে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-009",
+      "question": "উত্তর দিকে মুখ করে থাকা একজন ব্যক্তি ঘড়ির কাঁটার বিপরীতে 90° ঘুরল, তারপর ঘড়ির কাঁটার দিকে 135° ঘুরল। এখন তার মুখ কোন দিকে?",
+      "options": [
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-010",
+      "question": "সকালবেলা রাজু দেখল তার ছায়া তার বাম দিকে। রাজু কোন দিকে মুখ করে আছে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-011",
+      "question": "একটি গাড়ি A থেকে উত্তরে 30 কিমি গিয়ে B তে পৌঁছালো। তারপর ডানদিকে ঘুরে 40 কিমি গিয়ে C তে পৌঁছালো। A থেকে C এর সরাসরি দূরত্ব কত?",
+      "options": [
+        "70 কিমি",
+        "50 কিমি",
+        "10 কিমি",
+        "45 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-012",
+      "question": "যদি উত্তর-পূর্বকে উত্তর বলা হয়, দক্ষিণ-পশ্চিমকে দক্ষিণ বলা হয়, তবে পূর্বকে কী বলা হবে?",
+      "options": [
+        "উত্তর-পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ-পূর্ব",
+        "পূর্ব"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-013",
+      "question": "রাম দক্ষিণ-পূর্ব দিকে তাকিয়ে আছে। সে প্রথমে 45° ডানে, তারপর 90° বামে ঘুরলো। এখন তার মুখ কোন দিকে?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-014",
+      "question": "একজন ব্যক্তি উত্তর দিকে 6 কিমি হাঁটল, তারপর পশ্চিম দিকে 4 কিমি, দক্ষিণ দিকে 3 কিমি হাঁটল। তার সূচনা বিন্দু থেকে শেষ অবস্থানের দূরত্ব কত?",
+      "options": [
+        "10 কিমি",
+        "5 কিমি",
+        "13 কিমি",
+        "7 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-015",
+      "question": "একটি মাঠে A পূর্ব দিকে মুখ করে দাঁড়িয়ে আছে। B এসে A এর সামনে দাঁড়ালো। B এর দক্ষিণে C, C এর পশ্চিমে D। D, A এর কোন দিকে অবস্থিত?",
+      "options": [
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-016",
+      "question": "সন্ধ্যাবেলা সূর্যের দিকে পিছন করে দাঁড়ালে, তোমার ডান দিক কোন দিক হবে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-017",
+      "question": "দুপুর 12টার সময় ভারতে ছায়া কোন দিকে পড়ে?",
+      "options": [
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর",
+        "দক্ষিণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-018",
+      "question": "A বিন্দু থেকে B বিন্দু 20 মিটার উত্তরে। C বিন্দু B থেকে 15 মিটার পূর্বে। C থেকে A এর দূরত্ব কত?",
+      "options": [
+        "35 মি",
+        "25 মি",
+        "10 মি",
+        "20 মি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-019",
+      "question": "একজন ব্যক্তি পশ্চিম দিকে 8 কিমি গেল। তারপর ডানদিকে ঘুরে 3 কিমি, বামদিকে ঘুরে 6 কিমি গেল। তার সূচনা বিন্দু থেকে এখন কোন দিকে আছে?",
+      "options": [
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পশ্চিম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-020",
+      "question": "একটি ক্ষুদ্র নগরীতে A, B, C, D দিক চিন্হিত করা আছে। A এবং C পরস্পর বিপরীত। B, A-এর বামে থাকলে, D কোন দিকে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-021",
+      "question": "দক্ষিণ দিকে মুখ করে থাকা মেয়ে ঘড়ির কাঁটার দিকে 90° ঘুরে বাম দিকে 45° ঘুরল। এখন তার মুখ কোন দিকে?",
+      "options": [
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-022",
+      "question": "স্টেশনের উত্তরে ব্যাংক। ব্যাংকের পশ্চিমে পার্ক। পার্কের দক্ষিণে স্কুল। স্কুল স্টেশনের কোন দিকে?",
+      "options": [
+        "উত্তর",
+        "পূর্ব",
+        "পশ্চিম",
+        "দক্ষিণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-023",
+      "question": "একজন ভ্রমণকারী উত্তর দিকে 1 কিমি হেটে পূর্বে ঘুরে 5 কিমি, দক্ষিণে 2 কিমি গেল। শুরু বিন্দু থেকে তার অবস্থান কত দূরে?",
+      "options": [
+        "8 কিমি",
+        "√26 কিমি (প্রায় 5.1)",
+        "10 কিমি",
+        "4 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-024",
+      "question": "যদি তোমার মুখ দক্ষিণে থাকে, তুমি বামে ঘুরে 45° গেলে, এখন তোমার মুখ কোন দিকে?",
+      "options": [
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-025",
+      "question": "একটি বর্গক্ষেত্রের চারপাশে ঘড়ির কাঁটার বিপরীতে হাঁটলে, যদি উত্তর থেকে শুরু কর, তৃতীয় বাহুতে পৌঁছে তুমি কোন দিকে মুখ করে আছ?",
+      "options": [
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম",
+        "উত্তর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-026",
+      "question": "লতা 10 কিমি দক্ষিণে, তারপর 6 কিমি পূর্বে, আবার 2 কিমি উত্তরে গেল। বর্তমান অবস্থান শুরু থেকে সরাসরি দূরত্ব কত?",
+      "options": [
+        "18 কিমি",
+        "10 কিমি",
+        "8 কিমি",
+        "14 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-027",
+      "question": "পশ্চিম দিকে মুখ করে দাঁড়িয়ে। কেউ বলল, \"তোমার বাম দিক কোনটা?\" উত্তর হবে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-06-028",
+      "question": "একটি কম্পাসে চৌম্বক উত্তরের কাঁটা সত্যিকারের কোন দিকে নির্দেশ করে?",
+      "options": [
+        "ভৌগোলিক উত্তর",
+        "চৌম্বক দক্ষিণ",
+        "ভৌগোলিক দক্ষিণ",
+        "চৌম্বক উত্তর"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-029",
+      "question": "এক ব্যক্তি পূর্বে 3 কিমি, উত্তরে 4 কিমি, পশ্চিমে 5 কিমি, দক্ষিণে 4 কিমি গেলে সূচনাস্থল থেকে শেষ বিন্দু কত দূরে?",
+      "options": [
+        "3 কিমি",
+        "2 কিমি",
+        "5 কিমি",
+        "4 কিমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-030",
+      "question": "পূর্ব-উত্তর কোণকে কী বলা হয়?",
+      "options": [
+        "45° North of East",
+        "90° East",
+        "180° South",
+        "0° North"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-06-031",
+      "question": "একটি বৃত্তাকার পথে ঘড়ির কাঁটার দিকে চলার সময় শুরুতে মুখ পূর্ব দিকে ছিল। 270° ঘোরার পর মুখ কোন দিকে হবে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-032",
+      "question": "অফিসের 20 কিমি দক্ষিণে থাকে রিসোর্ট। রিসোর্টের 10 কিমি পূর্বে জিম। অফিস জিমের কোন দিকে?",
+      "options": [
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর-পূর্ব"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-033",
+      "question": "যদি 'দক্ষিণ' কে 'উত্তর', 'পূর্ব' কে 'পশ্চিম' বলা হয়, তবে 'উত্তর-পূর্ব' আসলে কী?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-034",
+      "question": "সূর্যোদয়ের সময় একটি পতাকার ছায়া যদি পতাকা দণ্ডের ডানদিকে পড়ে, তবে পতাকাটি কোন দিকে উড়ছে (পতাকা যেদিকে উড়ে, তার বিপরীত দিকে ছায়া নয়, পতাকা পশ্চিম দিকে ওড়ে, মুখ পূর্ব, ছায়া পশ্চিমে, ডানদিকে মানে ...)?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-035",
+      "question": "একজন পর্যটক একটি জঙ্গলে উত্তর দিকে 5 কিমি গেল, তারপর বাঁদিকে ঘুরে 3 কিমি, আবার বাঁদিকে ঘুরে 5 কিমি, শেষে ডানদিকে ঘুরে 2 কিমি গেল। এখন সে কোন দিকে যাচ্ছে?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "পশ্চিম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-036",
+      "question": "শ্যামলের বাড়ি থেকে অফিস 10 কিমি দক্ষিণে। সে অটোতে চড়ে প্রথমে 6 কিমি উত্তরে গিয়ে বুঝতে পারলো ভুল পথে এসেছে। এখন অফিসে যেতে তাকে কোন দিকে কত দূর যেতে হবে?",
+      "options": [
+        "4 কিমি উত্তর",
+        "4 কিমি দক্ষিণ",
+        "16 কিমি দক্ষিণ",
+        "16 কিমি উত্তর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-037",
+      "question": "একজন ব্যক্তি দক্ষিণে 3 কিমি, ডানে 4 কিমি, উত্তরে 3 কিমি, শুরুতে ফিরতে তাকে কোন দিকে কতদূর যেতে হবে?",
+      "options": [
+        "পশ্চিমে 4 কিমি",
+        "পূর্বে 4 কিমি",
+        "পশ্চিমে 3 কিমি",
+        "পূর্বে 3 কিমি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-06-038",
+      "question": "নিচের কোন উক্তিটি সঠিক? (সূর্যোদয়ের সময়)",
+      "options": [
+        "ছায়া পূর্ব দিকে পড়ে",
+        "ছায়া পশ্চিম দিকে পড়ে",
+        "ছায়া উত্তরে পড়ে",
+        "ছায়া দক্ষিণে পড়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-06-039",
+      "question": "এক ব্যক্তি পূর্বে 4 কিমি, উত্তরে 8 কিমি, পশ্চিমে 6 কিমি গেল। প্রারম্ভিক অবস্থান থেকে সরাসরি দূরত্ব কত?",
+      "options": [
+        "10 কিমি",
+        "12 কিমি",
+        "8.2 কিমি (√68)",
+        "9 কিমি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-06-040",
+      "question": "নীচের কোন দিকটি মাঝামাঝি (Intermediate) নয়?",
+      "options": [
+        "উত্তর-পূর্ব",
+        "উত্তর-পশ্চিম",
+        "পূর্ব",
+        "দক্ষিণ-পূর্ব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-06-041",
+      "question": "কোন দিকগুলি প্রধান দিক (Cardinal Directions)? (একাধিক উত্তর)",
+      "options": [
+        "উত্তর",
+        "পূর্ব",
+        "দক্ষিণ",
+        "উত্তর-পশ্চিম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-06-042",
+      "question": "নিচের কোন কোডিং সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "উত্তর → 0° (বা 360°)",
+        "পূর্ব → 90°",
+        "দক্ষিণ → 180°",
+        "পশ্চিম → 270°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-06-043",
+      "question": "কোন বক্তব্য সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "ডান দিকে 90° ঘুরলে পশ্চিম থেকে উত্তর আসে",
+        "বাম দিকে 90° ঘুরলে পূর্ব থেকে উত্তর আসে",
+        "পিছন ফিরলে (180°) উত্তর থেকে দক্ষিণ আসে",
+        "360° ঘুরলে একই দিকে ফেরা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-06-044",
+      "question": "নিচের কোনগুলি উপ-দিক (Intercardinal)? (একাধিক উত্তর)",
+      "options": [
+        "উত্তর-পূর্ব",
+        "দক্ষিণ-পশ্চিম",
+        "উত্তর-পশ্চিম",
+        "দক্ষিণ-পূর্ব"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-06-045",
+      "question": "একজন ব্যক্তি উত্তর দিকে মুখ করে থাকলে, তার সাপেক্ষে কোন বক্তব্য ঠিক? (একাধিক উত্তর)",
+      "options": [
+        "তার ডান দিক পূর্ব",
+        "তার বাম দিক পশ্চিম",
+        "তার পিছন দক্ষিণ",
+        "সামনে উত্তর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-06-046",
+      "question": "যদি দক্ষিণকে উত্তর-পূর্ব এবং পূর্বকে দক্ষিণ-পশ্চিম বলা হয়, তাহলে সঠিক সম্পর্ক কী? (একাধিক উত্তর)",
+      "options": [
+        "উত্তর → দক্ষিণ-পশ্চিম (কোনো প্যাটার্নে উত্তর হবে দক্ষিণ-পশ্চিম)",
+        "পশ্চিম → উত্তর-পূর্ব",
+        "A & B সঠিক",
+        "মূল উত্তর → দক্ষিণ-পূর্ব"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-06-047",
+      "question": "ছায়া সংক্রান্ত নিচের কোনগুলো সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "ভোরে ছায়া লম্বা ও পশ্চিমে",
+        "দুপুরে ছায়া সংক্ষিপ্ত ও উত্তরে (ভারতে)",
+        "সন্ধ্যায় ছায়া পূর্বে",
+        "রাতে ছায়া হয় না"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-06-048",
+      "question": "একজন ব্যক্তি X বিন্দু থেকে 2 কিমি দক্ষিণে, তারপর 3 কিমি পশ্চিমে গেল। Y বিন্দুতে পৌঁছালো। সাপেক্ষ অবস্থান সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "Y, X এর দক্ষিণ-পশ্চিমে",
+        "X, Y এর উত্তর-পূর্বে",
+        "X থেকে Y এর দূরত্ব √13 কিমি",
+        "দূরত্ব 5 কিমি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-06-049",
+      "question": "বাতাসের দিক নির্ণয়ে... (একাধিক উত্তর)",
+      "options": [
+        "পতাকা যে দিকে উড়ে, বাতাস সেই দিক থেকে আসছে",
+        "উত্তরা বাতাস দক্ষিণ দিক থেকে আসে",
+        "পশ্চিমা বাতাস পূর্ব দিক থেকে আসে",
+        "বাতাসের গতিপথই তার অভিমুখ"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-06-050",
+      "question": "কোন Direction Sense সংক্রান্ত প্রশ্নের উত্তরে ত্রিকোণমিতি/জ্যামিতি ব্যবহার হয়? (একাধিক উত্তর)",
+      "options": [
+        "পিথাগোরাস উপপাদ্য",
+        "30-60-90 ত্রিভুজ",
+        "সরলরেখা ধারণা",
+        "বীজগণিতের বিয়োগ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "06-direction-sense",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

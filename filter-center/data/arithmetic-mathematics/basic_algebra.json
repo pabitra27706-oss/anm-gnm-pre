@@ -1,0 +1,4598 @@
+{
+  "subject": "math",
+  "unit": "02-basic-algebra",
+  "unit_code": "02",
+  "total": 260,
+  "questions": [
+    {
+      "id": "m-02-001",
+      "question": "নিচের কোনটি চলকের উদাহরণ?",
+      "options": [
+        "5",
+        "x",
+        "10",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-002",
+      "question": "5x রাশিতে সহগ কত?",
+      "options": [
+        "x",
+        "5",
+        "1",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-003",
+      "question": "নিচের কোনটি ধ্রুবক?",
+      "options": [
+        "y",
+        "7",
+        "a",
+        "b"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-004",
+      "question": "3x² + 2x - 5 রাশিতে কয়টি পদ আছে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-005",
+      "question": "নিচের কোন জোড়টি সদৃশ পদ?",
+      "options": [
+        "2x, 3y",
+        "4a, 5a",
+        "x², 2x",
+        "xy, x²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-006",
+      "question": "নিচের কোন জোড়টি অসদৃশ পদ?",
+      "options": [
+        "5x, 7x",
+        "2y, 8y",
+        "3ab, 4ab",
+        "2x, 3y"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-007",
+      "question": "3x + 2x - 5x সরল করলে কী হবে?",
+      "options": [
+        "10x",
+        "0x",
+        "5x",
+        "2x"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-008",
+      "question": "2a + 3b - a + 2b সরল করলে?",
+      "options": [
+        "a + 5b",
+        "a + b",
+        "3a + 5b",
+        "4ab"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-009",
+      "question": "x = 2 হলে, 3x + 4-এর মান কত?",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-010",
+      "question": "y = 3 হলে, 2y² - 5-এর মান কত?",
+      "options": [
+        "13",
+        "4",
+        "7",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-011",
+      "question": "2x + 3 = 11 সমীকরণে x-এর মান কত?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-012",
+      "question": "5x - 7 = 3x + 5 হলে, x = ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-013",
+      "question": "একটি সংখ্যার দ্বিগুণের সাথে 5 যোগ করলে 17 হয়। সংখ্যাটি কত?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-014",
+      "question": "একটি সংখ্যার 3 গুণ থেকে 4 বিয়োগ করলে 11 হয়। সংখ্যাটি কত?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-015",
+      "question": "তিনটি ক্রমিক স্বাভাবিক সংখ্যার যোগফল 36 হলে, সংখ্যাগুলি কী কী?",
+      "options": [
+        "10,11,12",
+        "11,12,13",
+        "12,13,14",
+        "9,10,11"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-016",
+      "question": "দুটি ক্রমিক জোড় সংখ্যার যোগফল 30 হলে, বড়ো সংখ্যাটি কত?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-017",
+      "question": "2(x + 3) বিস্তৃত করলে কী হবে?",
+      "options": [
+        "2x + 3",
+        "2x + 6",
+        "x + 6",
+        "2x - 6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-018",
+      "question": "3(2x - 4) বিস্তৃত করলে?",
+      "options": [
+        "6x - 12",
+        "6x - 4",
+        "5x - 7",
+        "6x + 12"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-019",
+      "question": "2(x + 3) - 3(x - 2) সরল করলে?",
+      "options": [
+        "-x + 12",
+        "-x + 0",
+        "5x + 12",
+        "-x - 12"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-020",
+      "question": "(a + b)²-এর বিস্তার কোনটি?",
+      "options": [
+        "a² + b²",
+        "a² + 2ab + b²",
+        "a² - 2ab + b²",
+        "a² - b²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-021",
+      "question": "(a - b)²-এর বিস্তার কোনটি?",
+      "options": [
+        "a² + b²",
+        "a² + 2ab + b²",
+        "a² - 2ab + b²",
+        "a² - b²"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-022",
+      "question": "a² - b² = ?",
+      "options": [
+        "(a + b)²",
+        "(a - b)²",
+        "(a + b)(a - b)",
+        "(a + b)(a + b)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-023",
+      "question": "(x + 3)²-এর মান কত?",
+      "options": [
+        "x² + 9",
+        "x² + 6x + 9",
+        "x² - 6x + 9",
+        "x² + 3x + 9"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-024",
+      "question": "(x - 4)² = ?",
+      "options": [
+        "x² - 16",
+        "x² + 8x + 16",
+        "x² - 8x + 16",
+        "x² - 4x + 16"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-025",
+      "question": "(x + 2)(x - 2) = ?",
+      "options": [
+        "x² - 4",
+        "x² + 4",
+        "x² - 2x - 4",
+        "x² + 2x - 4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-026",
+      "question": "x² + 5x + 6-এর উৎপাদক কী কী?",
+      "options": [
+        "(x + 2)(x + 3)",
+        "(x - 2)(x - 3)",
+        "(x + 1)(x + 6)",
+        "(x - 1)(x - 6)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-027",
+      "question": "x² - 7x + 12-এর উৎপাদক কী কী?",
+      "options": [
+        "(x - 3)(x - 4)",
+        "(x + 3)(x + 4)",
+        "(x - 2)(x - 6)",
+        "(x + 2)(x + 6)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-028",
+      "question": "6x + 12-এর উৎপাদক কী?",
+      "options": [
+        "6(x + 2)",
+        "2(x + 6)",
+        "3(2x + 4)",
+        "12(x/2 + 1)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-029",
+      "question": "x² - 9-এর উৎপাদক কী?",
+      "options": [
+        "(x - 3)(x - 3)",
+        "(x + 3)(x + 3)",
+        "(x + 3)(x - 3)",
+        "(x - 9)(x + 1)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-030",
+      "question": "4x² - 25-এর উৎপাদক কী?",
+      "options": [
+        "(2x + 5)(2x - 5)",
+        "(4x + 5)(x - 5)",
+        "(2x - 5)(2x - 5)",
+        "(4x - 5)(x + 5)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-031",
+      "question": "নিচের কোনটি একপদী রাশি?",
+      "options": [
+        "2x + 3",
+        "5x",
+        "x² + 2x",
+        "3x + 2y"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-032",
+      "question": "নিচের কোনটি দ্বিপদী রাশি?",
+      "options": [
+        "3x",
+        "4y²",
+        "2x + 5",
+        "x² + 2x + 1"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-033",
+      "question": "5x³ + 2x² - 4x + 7 রাশিটির মাত্রা কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-034",
+      "question": "a² + b² + c² + 2ab + 2bc + 2ca = ?",
+      "options": [
+        "(a + b + c)²",
+        "(a + b - c)²",
+        "(a - b + c)²",
+        "(a - b - c)²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-035",
+      "question": "x = 1, y = 2 হলে, 2x² + 3y - 5-এর মান কত?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-036",
+      "question": "a = 2, b = 3 হলে, a² + b² - 2ab = ?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-037",
+      "question": "a² × a³ = ?",
+      "options": [
+        "a⁵",
+        "a⁶",
+        "a⁸",
+        "a¹"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-038",
+      "question": "x⁷ ÷ x³ = ?",
+      "options": [
+        "x⁴",
+        "x¹⁰",
+        "x²¹",
+        "x²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-039",
+      "question": "(x²)³ = ?",
+      "options": [
+        "x⁵",
+        "x⁶",
+        "x⁸",
+        "x⁹"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-040",
+      "question": "y⁰-এর মান কত? (y ≠ 0)",
+      "options": [
+        "0",
+        "1",
+        "y",
+        "সংজ্ঞায়িত নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-041",
+      "question": "a⁻³ = ?",
+      "options": [
+        "a³",
+        "1/a³",
+        "-a³",
+        "3a"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-042",
+      "question": "(2x)³ = ?",
+      "options": [
+        "6x",
+        "8x",
+        "8x³",
+        "2x³"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-043",
+      "question": "(3y)²-এর মান কত?",
+      "options": [
+        "6y",
+        "9y",
+        "6y²",
+        "9y²"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-044",
+      "question": "2x × 3y = ?",
+      "options": [
+        "5xy",
+        "6xy",
+        "6x + 6y",
+        "5x + 5y"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-045",
+      "question": "(2x + 3y)² = ?",
+      "options": [
+        "4x² + 9y²",
+        "4x² + 12xy + 9y²",
+        "2x² + 6xy + 3y²",
+        "4x² - 12xy + 9y²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-046",
+      "question": "(3x - 2y)² = ?",
+      "options": [
+        "9x² - 12xy + 4y²",
+        "9x² + 12xy + 4y²",
+        "3x² - 6xy + 2y²",
+        "9x² - 4y²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-047",
+      "question": "2x = 16 হলে, x = ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-048",
+      "question": "x/3 = 5 হলে, x = ?",
+      "options": [
+        "5",
+        "8",
+        "15",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-049",
+      "question": "3(x - 4) = 2(x + 1) হলে, x = ?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-050",
+      "question": "4x + 7 = 19 হলে, x = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-051",
+      "question": "একটি সংখ্যার এক-তৃতীয়াংশ 8 হলে, সংখ্যাটি কত?",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "28"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-052",
+      "question": "একটি সংখ্যার 60% = 30 হলে, সংখ্যাটি কত?",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "55"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-053",
+      "question": "পিতার বর্তমান বয়স পুত্রের বয়সের 3 গুণ। 5 বছর পরে পিতার বয়স পুত্রের বয়সের 2.5 গুণ হবে। পুত্রের বর্তমান বয়স কত?",
+      "options": [
+        "10 বছর",
+        "12 বছর",
+        "15 বছর",
+        "18 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-054",
+      "question": "দুই অঙ্কের একটি সংখ্যার দশকের অঙ্ক এককের অঙ্কের দ্বিগুণ। অঙ্কদ্বয় স্থান বিনিময় করলে সংখ্যা 18 কমে যায়। সংখ্যাটি কত?",
+      "options": [
+        "42",
+        "63",
+        "84",
+        "21"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-055",
+      "question": "7 বছর আগে মায়ের বয়স পুত্রের বয়সের 5 গুণ ছিল। 7 বছর পরে মায়ের বয়স পুত্রের বয়সের 3 গুণ হবে। মায়ের বর্তমান বয়স কত?",
+      "options": [
+        "42 বছর",
+        "49 বছর",
+        "56 বছর",
+        "63 বছর"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-056",
+      "question": "x + 3 = 7 হলে, 2x + 5-এর মান কত?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-057",
+      "question": "2x + 5 = x + 9 হলে, 3x - 4 = ?",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "14"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-058",
+      "question": "নিচের কোন সমীকরণটির সমাধান x = 3?",
+      "options": [
+        "2x - 1 = 5",
+        "3x + 2 = 11",
+        "x/2 + 1 = 2.5",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-059",
+      "question": "n-তম পদ নির্ণয়ের সূত্র an = a + (n-1)d কোন ধারার ক্ষেত্রে প্রযোজ্য?",
+      "options": [
+        "গুণোত্তর ধারা",
+        "সমান্তর ধারা",
+        "ফিবোনাচ্চি ধারা",
+        "সবকটি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-060",
+      "question": "একটি সমান্তর ধারার প্রথম পদ 2 এবং সাধারণ অন্তর 3 হলে, 10-তম পদ কত?",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-061",
+      "question": "3, 7, 11, 15,... ধারাটির সাধারণ অন্তর কত?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-062",
+      "question": "5, 10, 15, 20,... ধারাটির 8-তম পদ কত?",
+      "options": [
+        "35",
+        "40",
+        "45",
+        "50"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-063",
+      "question": "2x + 3 < 11 অসমতাটির সমাধান কী?",
+      "options": [
+        "x < 4",
+        "x > 4",
+        "x = 4",
+        "x ≤ 4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-064",
+      "question": "4x - 5 > 7 হলে, x-এর মান কীরূপ হবে?",
+      "options": [
+        "x < 3",
+        "x > 3",
+        "x ≥ 3",
+        "x = 3"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-065",
+      "question": "নিচের কোন বিন্দুটি মূলবিন্দু?",
+      "options": [
+        "(1,1)",
+        "(0,0)",
+        "(2,0)",
+        "(0,3)"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-066",
+      "question": "(3, -2) বিন্দুটি কোন চতুর্থাংশে অবস্থিত?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-067",
+      "question": "(-4, -5) বিন্দুটি কোন চতুর্থাংশে অবস্থিত?",
+      "options": [
+        "প্রথম",
+        "দ্বিতীয়",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-068",
+      "question": "(2, 3) এবং (5, 7) বিন্দুদ্বয়ের মধ্যবর্তী দূরত্ব কত?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-069",
+      "question": "X-অক্ষের উপর অবস্থিত বিন্দুর y-সহগ কত?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "যেকোনো সংখ্যা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-070",
+      "question": "Y-অক্ষের উপর অবস্থিত বিন্দুর x-সহগ কত?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "যেকোনো সংখ্যা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-071",
+      "question": "2x + 3y = 12 সমীকরণটির লেখচিত্র কীরূপ হবে?",
+      "options": [
+        "বৃত্ত",
+        "সরলরেখা",
+        "পরাবৃত্ত",
+        "উপবৃত্ত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-072",
+      "question": "y = 2x + 3 সরলরেখার ঢাল কত?",
+      "options": [
+        "2",
+        "3",
+        "1/2",
+        "-2"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-073",
+      "question": "3x + 2y = 6 সমীকরণটির x-অক্ষচ্ছেদ কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-074",
+      "question": "নিচের কোনটি a³ + b³-এর উৎপাদক?",
+      "options": [
+        "(a + b)(a² - ab + b²)",
+        "(a - b)(a² + ab + b²)",
+        "(a + b)(a² + ab + b²)",
+        "(a - b)(a² - ab + b²)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-075",
+      "question": "a³ - b³ = ?",
+      "options": [
+        "(a - b)(a² + ab + b²)",
+        "(a + b)(a² - ab + b²)",
+        "(a - b)(a² - ab + b²)",
+        "(a + b)(a² + ab + b²)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-076",
+      "question": "8x³ + 27y³-এর উৎপাদক কী?",
+      "options": [
+        "(2x + 3y)(4x² - 6xy + 9y²)",
+        "(2x - 3y)(4x² + 6xy + 9y²)",
+        "(2x + 3y)(4x² + 6xy + 9y²)",
+        "(2x - 3y)(4x² - 6xy + 9y²)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-077",
+      "question": "2x + 3 = 0 সমীকরণটির ডিগ্রি কত?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-078",
+      "question": "x² + 3x + 2 = 0 সমীকরণটির একটি মূল কী?",
+      "options": [
+        "1",
+        "-1",
+        "2",
+        "-2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-079",
+      "question": "x² + 5x + 6 = 0 সমীকরণটির মূলদ্বয়ের যোগফল কত?",
+      "options": [
+        "5",
+        "-5",
+        "6",
+        "-6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-080",
+      "question": "x² - 5x + 6 = 0 সমীকরণটির মূলদ্বয়ের গুণফল কত?",
+      "options": [
+        "5",
+        "-5",
+        "6",
+        "-6"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-081",
+      "question": "3x + 2y = 7 সমীকরণে y-এর মান কীসের উপর নির্ভর করে?",
+      "options": [
+        "x",
+        "ধ্রুবক",
+        "অন্য y",
+        "x এবং ধ্রুবক উভয়ের"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-082",
+      "question": "v = u + at সূত্রে u-এর মান কত?",
+      "options": [
+        "v - at",
+        "v + at",
+        "(v - a)/t",
+        "at - v"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-083",
+      "question": "যদি A = πr² হয়, তবে r = ?",
+      "options": [
+        "√(A/π)",
+        "A/π",
+        "πA",
+        "√(πA)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-084",
+      "question": "যদি S = n/2 × (a + l) হয়, তবে l = ?",
+      "options": [
+        "2S/n - a",
+        "2S/n + a",
+        "S/2n - a",
+        "2S - a/n"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-085",
+      "question": "2(3x + 4) - 3(2x - 5) সরল করলে কত পাওয়া যায়?",
+      "options": [
+        "23",
+        "8x + 23",
+        "12x + 23",
+        "23x"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-086",
+      "question": "(x + y)² - (x - y)² = ?",
+      "options": [
+        "4xy",
+        "2xy",
+        "2x²",
+        "2y²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-087",
+      "question": "x + 1/x = 3 হলে, x² + 1/x²-এর মান কত?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-088",
+      "question": "x = 2, y = -1 হলে, 2x² - 3xy + y²-এর মান কত?",
+      "options": [
+        "15",
+        "13",
+        "11",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-089",
+      "question": "3x + 4y = 10 এবং 2x + 3y = 7 হলে, x + y = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-090",
+      "question": "2x + y = 9 এবং x - y = 3 হলে, x এবং y-এর মান কত?",
+      "options": [
+        "x=4, y=1",
+        "x=3, y=3",
+        "x=5, y=-1",
+        "x=2, y=5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-091",
+      "question": "নিচের কোন রাশিটি একটি ত্রিপদী?",
+      "options": [
+        "2x + 3",
+        "x² + 2x + 1",
+        "5x",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-092",
+      "question": "5a²b³ রাশিটির মাত্রা কত?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-093",
+      "question": "0.0001 কে 10-এর ঘাত আকারে লিখলে কী হবে?",
+      "options": [
+        "10⁻⁴",
+        "10⁻³",
+        "10⁴",
+        "10³"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-094",
+      "question": "8 × 10⁵ ÷ 4 × 10² = ?",
+      "options": [
+        "2 × 10³",
+        "2 × 10²",
+        "2 × 10⁷",
+        "2 × 10⁺"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-095",
+      "question": "(x + 2)³-এর বিস্তার কী?",
+      "options": [
+        "x³ + 6x² + 12x + 8",
+        "x³ + 8",
+        "x³ + 6x² + 8x + 12",
+        "x³ - 8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-096",
+      "question": "(x - 2)³ = ?",
+      "options": [
+        "x³ - 6x² + 12x - 8",
+        "x³ - 8",
+        "x³ + 6x² + 12x + 8",
+        "x³ - 6x² - 12x - 8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-097",
+      "question": "x² + 4x + 4 একটি পূর্ণবর্গ রাশি হলে, এটি (x + ?)²-এর সমান?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-098",
+      "question": "x² - 8x + 16 = (x - 4)²?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "কখনো সত্য নয়",
+        "শুধু x = 4 হলে সত্য"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-099",
+      "question": "(a + b + c)²-এর বিস্তারে 2ab-এর সহগ কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-100",
+      "question": "x² + 7x + 12-এর উৎপাদক নিচের কোনটি?",
+      "options": [
+        "(x + 3)(x + 4)",
+        "(x - 3)(x - 4)",
+        "(x + 6)(x + 2)",
+        "(x - 6)(x - 2)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-101",
+      "question": "x² - 10x + 25 = ?",
+      "options": [
+        "(x - 5)²",
+        "(x + 5)²",
+        "(x - 25)²",
+        "(x + 25)²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-102",
+      "question": "9x² - 49 = ?",
+      "options": [
+        "(3x + 7)(3x - 7)",
+        "(9x + 7)(x - 7)",
+        "(3x - 7)²",
+        "(9x - 7)²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-103",
+      "question": "16x² - 24x + 9 = ?",
+      "options": [
+        "(4x - 3)²",
+        "(4x + 3)²",
+        "(8x - 3)²",
+        "(4x - 9)²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-104",
+      "question": "4x² - 20x + 25 = ?",
+      "options": [
+        "(2x - 5)²",
+        "(2x + 5)²",
+        "(4x - 5)²",
+        "(4x + 5)²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-105",
+      "question": "5x - 3y এবং 2x + 4y যোগ করলে কী পাওয়া যায়?",
+      "options": [
+        "7x + y",
+        "7x - y",
+        "3x + 7y",
+        "3x - 7y"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-106",
+      "question": "8a - 3b থেকে 5a + 2b বিয়োগ করলে?",
+      "options": [
+        "3a - 5b",
+        "13a - b",
+        "3a + 5b",
+        "13a + b"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-107",
+      "question": "2x এবং 3y এর গুণফল কত?",
+      "options": [
+        "6xy",
+        "5xy",
+        "6x + 6y",
+        "5x + 5y"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-108",
+      "question": "(x + 5)(x + 2) = ?",
+      "options": [
+        "x² + 7x + 10",
+        "x² + 10x + 7",
+        "x² + 3x + 10",
+        "x² + 8x + 10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-109",
+      "question": "(x - 5)(x + 5) = ?",
+      "options": [
+        "x² - 25",
+        "x² + 25",
+        "x² - 10x + 25",
+        "x² + 10x + 25"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-110",
+      "question": "(2x - 1)(x + 3) = ?",
+      "options": [
+        "2x² + 5x - 3",
+        "2x² - 5x + 3",
+        "2x² + 7x - 3",
+        "2x² - 7x - 3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-111",
+      "question": "x² + 2xy + y² কে (x + y) দ্বারা ভাগ করলে ভাগফল কী?",
+      "options": [
+        "x + y",
+        "x - y",
+        "x² + y²",
+        "x² - y²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-112",
+      "question": "6x² ÷ 2x = ?",
+      "options": [
+        "3x",
+        "3x²",
+        "4x",
+        "4x²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-113",
+      "question": "12x³y² ÷ 4xy = ?",
+      "options": [
+        "3x²y",
+        "3xy",
+        "8x²y",
+        "8xy"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-114",
+      "question": "(4x² - 9) ÷ (2x + 3) = ?",
+      "options": [
+        "2x - 3",
+        "2x + 3",
+        "4x - 3",
+        "4x + 3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-115",
+      "question": "x² - 6x + 9 = 0 সমীকরণের সমাধান কী?",
+      "options": [
+        "x = 3",
+        "x = -3",
+        "x = 6",
+        "x = -6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-116",
+      "question": "একটি সংখ্যার 4 গুণের সাথে 7 যোগ করলে 31 হয়। সংখ্যাটি কত?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-117",
+      "question": "দুটি সংখ্যার যোগফল 25 এবং অন্তর 5 হলে, ছোটো সংখ্যাটি কত?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-118",
+      "question": "পিতার বয়স পুত্রের বয়সের 4 গুণ। 10 বছর পরে পিতার বয়স পুত্রের বয়সের 2 গুণ হবে। পুত্রের বর্তমান বয়স কত?",
+      "options": [
+        "5 বছর",
+        "10 বছর",
+        "15 বছর",
+        "20 বছর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-119",
+      "question": "একটি আয়তাকার মাঠের দৈর্ঘ্য প্রস্থের দ্বিগুণ। পরিসীমা 48 মিটার হলে, প্রস্থ কত?",
+      "options": [
+        "8 মি",
+        "10 মি",
+        "12 মি",
+        "16 মি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-120",
+      "question": "একটি কলমের দাম একটি পেন্সিলের দামের 3 গুণ। 4টি কলম ও 6টি পেন্সিলের মোট দাম 90 টাকা হলে, একটি কলমের দাম কত?",
+      "options": [
+        "15 টাকা",
+        "18 টাকা",
+        "20 টাকা",
+        "24 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-121",
+      "question": "2x + 5 = 3x - 4 হলে, x = ?",
+      "options": [
+        "9",
+        "-9",
+        "1",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-122",
+      "question": "3x - 7 = 2x + 5 হলে, 5x - 3 = ?",
+      "options": [
+        "47",
+        "57",
+        "37",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-123",
+      "question": "একটি সংখ্যা 13 এর চেয়ে বড়ো এবং 21 এর চেয়ে ছোটো, সংখ্যাটি 3 দ্বারা বিভাজ্য হলে সংখ্যাটি কত?",
+      "options": [
+        "15",
+        "16",
+        "18",
+        "20"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-124",
+      "question": "15, 20, 25, 30,... এদের সাধারণ অন্তর কত?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-125",
+      "question": "অষ্টম পদ নির্ণয় কর: 2, 6, 10, 14,...",
+      "options": [
+        "30",
+        "34",
+        "38",
+        "42"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-126",
+      "question": "1, 4, 9, 16, 25,... ধারাটির n-তম পদ কী?",
+      "options": [
+        "n²",
+        "2n",
+        "2n-1",
+        "n+1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-127",
+      "question": "3x - 5 > 4 অসমতাটির সমাধান কী?",
+      "options": [
+        "x > 3",
+        "x < 3",
+        "x ≥ 3",
+        "x = 3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-128",
+      "question": "5x + 2 ≤ 17 সমাধান করলে?",
+      "options": [
+        "x ≤ 3",
+        "x ≥ 3",
+        "x < 3",
+        "x > 3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-129",
+      "question": "(-2, 3) বিন্দুটি কোন চতুর্থাংশে অবস্থিত?",
+      "options": [
+        "দ্বিতীয়",
+        "প্রথম",
+        "তৃতীয়",
+        "চতুর্থ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-130",
+      "question": "(3, -4) বিন্দুটি X-অক্ষ থেকে কত দূরে অবস্থিত?",
+      "options": [
+        "3 একক",
+        "4 একক",
+        "5 একক",
+        "7 একক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-131",
+      "question": "y = 3x - 2 সরলরেখার ঢাল কত?",
+      "options": [
+        "3",
+        "-2",
+        "2",
+        "-3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-132",
+      "question": "x-অক্ষের সমীকরণ কী?",
+      "options": [
+        "y = 0",
+        "x = 0",
+        "y = x",
+        "y = 1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-133",
+      "question": "y-অক্ষের সমীকরণ কী?",
+      "options": [
+        "x = 0",
+        "y = 0",
+        "x = y",
+        "y = 1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-134",
+      "question": "2x - 3y = 6 সমীকরণটির x-অক্ষচ্ছেদ কত?",
+      "options": [
+        "3",
+        "2",
+        "-2",
+        "-3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-135",
+      "question": "a + b = 5, ab = 6 হলে, a² + b² = ?",
+      "options": [
+        "13",
+        "25",
+        "37",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-136",
+      "question": "a - b = 3, ab = 10 হলে, a² + b² = ?",
+      "options": [
+        "19",
+        "29",
+        "9",
+        "49"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-137",
+      "question": "a + b = 8, a - b = 2 হলে, ab = ?",
+      "options": [
+        "15",
+        "16",
+        "12",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-138",
+      "question": "(a + b)² - (a - b)² = 4ab এটি একটি?",
+      "options": [
+        "সূত্র",
+        "সমীকরণ",
+        "অসমতা",
+        "ধ্রুবক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-139",
+      "question": "যদি x + 1/x = 4 হয়, তবে x² + 1/x² = ?",
+      "options": [
+        "14",
+        "16",
+        "18",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-140",
+      "question": "5x² রাশির সহগ কত?",
+      "options": [
+        "5",
+        "x²",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-141",
+      "question": "-3xy রাশিটির সহগ কী?",
+      "options": [
+        "-3",
+        "3",
+        "xy",
+        "-xy"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-142",
+      "question": "একটি দ্বিঘাত সমীকরণের ডিগ্রি কত?",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-143",
+      "question": "2x² + 3x - 5 = 0 সমীকরণটি কী ধরনের?",
+      "options": [
+        "দ্বিঘাত",
+        "সরলরৈখিক",
+        "ত্রিঘাত",
+        "ঘন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-144",
+      "question": "x² + (a + b)x + ab = ?",
+      "options": [
+        "(x + a)(x + b)",
+        "(x - a)(x - b)",
+        "(x + a)(x - b)",
+        "(x - a)(x + b)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-145",
+      "question": "x² + 10x + 24-এর উৎপাদক কী?",
+      "options": [
+        "(x + 4)(x + 6)",
+        "(x + 3)(x + 8)",
+        "(x - 4)(x - 6)",
+        "(x + 12)(x + 2)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-146",
+      "question": "x² - 11x + 28 = (x - 4)(x - 7) এটি সত্য কিনা?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "কখনো সত্য নয়",
+        "শুধু x = 0 হলে সত্য"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-147",
+      "question": "6x² + 5x - 6-এর উৎপাদক কী?",
+      "options": [
+        "(3x - 2)(2x + 3)",
+        "(3x + 2)(2x - 3)",
+        "(6x - 1)(x + 6)",
+        "(2x - 3)(3x + 2)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-148",
+      "question": "p = 3, q = 2 হলে, 2p² - 3pq + q²-এর মান কত?",
+      "options": [
+        "0",
+        "6",
+        "12",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-149",
+      "question": "m = -1, n = 2 হলে, m³ + n³-এর মান কত?",
+      "options": [
+        "7",
+        "9",
+        "8",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-150",
+      "question": "x = 3, y = -2 হলে, 2x - 3y + 4xy = ?",
+      "options": [
+        "12",
+        "24",
+        "6",
+        "-12"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-151",
+      "question": "3a²b³ × 2ab² = ?",
+      "options": [
+        "6a³b⁵",
+        "6a²b⁶",
+        "5a³b⁵",
+        "5a²b⁶"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-152",
+      "question": "(2x²y³) × (3x³y) = ?",
+      "options": [
+        "6x⁵y⁴",
+        "6x⁶y³",
+        "5x⁵y⁴",
+        "6x⁵y³"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-153",
+      "question": "10x³y² ÷ 5xy = ?",
+      "options": [
+        "2x²y",
+        "2xy",
+        "5x²y",
+        "5xy"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-154",
+      "question": "(x + y)(x² - xy + y²) = ?",
+      "options": [
+        "x³ + y³",
+        "x³ - y³",
+        "x² + y²",
+        "x² - y²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-155",
+      "question": "(x - y)(x² + xy + y²) = ?",
+      "options": [
+        "x³ - y³",
+        "x³ + y³",
+        "x² - y²",
+        "x² + y²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-156",
+      "question": "27x³ + 64y³ = ?",
+      "options": [
+        "(3x + 4y)(9x² - 12xy + 16y²)",
+        "(3x - 4y)(9x² + 12xy + 16y²)",
+        "(3x + 4y)³",
+        "(3x - 4y)³"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-157",
+      "question": "8x³ - 125y³ = ?",
+      "options": [
+        "(2x - 5y)(4x² + 10xy + 25y²)",
+        "(2x + 5y)(4x² - 10xy + 25y²)",
+        "(2x - 5y)³",
+        "(2x + 5y)³"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-158",
+      "question": "a = 5, b = 3 হলে, a³ - b³-এর মান কত?",
+      "options": [
+        "98",
+        "152",
+        "125",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-159",
+      "question": "(3x + 1)² - (3x - 1)² = ?",
+      "options": [
+        "12x",
+        "6x",
+        "9x²",
+        "18x"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-160",
+      "question": "(2x + 3)² - 4x² = ?",
+      "options": [
+        "12x + 9",
+        "9",
+        "4x² + 9",
+        "12x"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-161",
+      "question": "(x + 7)(x - 7) + 49 = ?",
+      "options": [
+        "x²",
+        "2x²",
+        "x² - 49",
+        "x² + 49"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-162",
+      "question": "একটি বর্গক্ষেত্রের বাহুর দৈর্ঘ্য x মিটার। ক্ষেত্রফল 64 বর্গমিটার হলে, x = ?",
+      "options": [
+        "8 মি",
+        "16 মি",
+        "32 মি",
+        "4 মি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-163",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য প্রস্থের 3 গুণ। ক্ষেত্রফল 147 বর্গমিটার হলে, প্রস্থ কত?",
+      "options": [
+        "7 মি",
+        "14 মি",
+        "21 মি",
+        "49 মি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-164",
+      "question": "বৃত্তের ক্ষেত্রফলের সূত্র πr²। r = 7 হলে, ক্ষেত্রফল কত? (π = 22/7)",
+      "options": [
+        "154 বর্গএকক",
+        "44 বর্গএকক",
+        "22 বর্গএকক",
+        "308 বর্গএকক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-165",
+      "question": "T = 2π√(l/g) সূত্রে l = ?",
+      "options": [
+        "(T²g)/(4π²)",
+        "(Tg)/(2π)",
+        "(T²g)/(2π²)",
+        "(4π²g)/T²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-02-166",
+      "question": "2x - 3 = 7 সমীকরণটির বামপক্ষ কী?",
+      "options": [
+        "2x - 3",
+        "7",
+        "x",
+        "2x"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-167",
+      "question": "সমীকরণের উভয়পক্ষে একই সংখ্যা যোগ করলে সমীকরণের সমাধান কী হয়?",
+      "options": [
+        "অপরিবর্তিত থাকে",
+        "পরিবর্তিত হয়",
+        "দ্বিগুণ হয়",
+        "অর্ধেক হয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-168",
+      "question": "3x + 5 সমীকরণ নয় কেন?",
+      "options": [
+        "এতে সমান চিহ্ন নেই",
+        "এতে চলক নেই",
+        "এতে ধ্রুবক নেই",
+        "এতে রাশি নেই"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-169",
+      "question": "(a + b)² = a² + 2ab + b² একটি?",
+      "options": [
+        "অভেদ",
+        "সমীকরণ",
+        "অসমতা",
+        "রাশি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-170",
+      "question": "2x - 5 = 9 সমীকরণে x-এর মান কত?",
+      "options": [
+        "7",
+        "14",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-171",
+      "question": "x/2 + 3 = 7 হলে, x = ?",
+      "options": [
+        "8",
+        "4",
+        "10",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-172",
+      "question": "একটি সমান্তর ধারার প্রথম পদ 10, সাধারণ অন্তর -2 হলে, 5ম পদ কত?",
+      "options": [
+        "2",
+        "-2",
+        "0",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-173",
+      "question": "2, 4, 8, 16, ... ধারাটি কী ধরনের?",
+      "options": [
+        "গুণোত্তর",
+        "সমান্তর",
+        "সসীম",
+        "অসীম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-174",
+      "question": "3, 9, 27, 81,... ধারাটির সাধারণ অনুপাত কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-175",
+      "question": "x + y = 10 এবং x - y = 4 হলে, x = ?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-02-176",
+      "question": "3x + 2y = 12 এবং x = 2 হলে, y = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-02-177",
+      "question": "নিচের কোন কোনটি সদৃশ পদ?",
+      "options": [
+        "3x, 7x",
+        "5y, -2y",
+        "2x, 2y",
+        "4ab, 5ab"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-178",
+      "question": "নিচের কোন কোনটি (a + b)²-এর বিস্তারের অংশ?",
+      "options": [
+        "a²",
+        "2ab",
+        "b²",
+        "a²b²"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-179",
+      "question": "x² - 4-এর উৎপাদক কোন কোনটি?",
+      "options": [
+        "(x + 2)",
+        "(x - 2)",
+        "(x + 4)",
+        "(x - 4)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-180",
+      "question": "নিচের কোন কোনটি সূচকের নিয়ম?",
+      "options": [
+        "aᵐ × aⁿ = aᵐ⁺ⁿ",
+        "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+        "(aᵐ)ⁿ = aᵐⁿ",
+        "aᵐ + aⁿ = aᵐ⁺ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-181",
+      "question": "নিচের কোন সমীকরণগুলির সমাধান x = 4?",
+      "options": [
+        "2x + 3 = 11",
+        "3x - 5 = 7",
+        "x/2 + 1 = 3",
+        "4x = 16"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-182",
+      "question": "নিচের কোন রাশিগুলি বহুপদী?",
+      "options": [
+        "3x² + 2x + 1",
+        "5x³ - 7",
+        "√x + 2",
+        "1/x + 3"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-183",
+      "question": "নিচের কোন কোনটি চতুর্থাংশের নাম?",
+      "options": [
+        "প্রথম চতুর্থাংশ",
+        "দ্বিতীয় চতুর্থাংশ",
+        "তৃতীয় চতুর্থাংশ",
+        "চতুর্থ চতুর্থাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-184",
+      "question": "(3,5) বিন্দু সম্পর্কে সঠিক তথ্য কোনটি?",
+      "options": [
+        "প্রথম চতুর্থাংশে অবস্থিত",
+        "x > 0, y > 0",
+        "x-অক্ষ থেকে 5 একক দূরে",
+        "y-অক্ষ থেকে 3 একক দূরে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-185",
+      "question": "নিচের কোন বিন্দুগুলি X-অক্ষের উপর অবস্থিত?",
+      "options": [
+        "(2,0)",
+        "(-5,0)",
+        "(0,3)",
+        "(0,-4)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-186",
+      "question": "নিচের কোন বিন্দুগুলি Y-অক্ষের উপর অবস্থিত?",
+      "options": [
+        "(0,5)",
+        "(0,-7)",
+        "(3,0)",
+        "(-4,0)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-187",
+      "question": "নিচের কোন কোনটি সরলরেখার সমীকরণ?",
+      "options": [
+        "y = 2x + 3",
+        "3x + 4y = 12",
+        "y = x² + 2",
+        "x = 5"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-188",
+      "question": "y = 2x + 3 সরলরেখার বৈশিষ্ট্য কী কী?",
+      "options": [
+        "ঢাল = 2",
+        "y-অক্ষচ্ছেদ = 3",
+        "এটি একটি সরলরেখা",
+        "x-অক্ষচ্ছেদ = -1.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-189",
+      "question": "3x + 2y = 6 সমীকরণটির সঠিক তথ্য কী?",
+      "options": [
+        "x-অক্ষচ্ছেদ = 2",
+        "y-অক্ষচ্ছেদ = 3",
+        "ঢাল = -3/2",
+        "এটি একটি সরলরেখা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-190",
+      "question": "নিচের কোন কোনটি সূচকের নিয়ম?",
+      "options": [
+        "a⁰ = 1",
+        "a⁻ⁿ = 1/aⁿ",
+        "(ab)ⁿ = aⁿbⁿ",
+        "(a/b)ⁿ = aⁿ/bⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-191",
+      "question": "3x + 7 = 16 সমীকরণের সমাধান কী কী হবে?",
+      "options": [
+        "x = 3",
+        "3x = 9",
+        "x = 9/3",
+        "x = 4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-192",
+      "question": "নিচের কোন কোনটি দ্বিঘাত সমীকরণ?",
+      "options": [
+        "x² + 3x + 2 = 0",
+        "2x + 3 = 7",
+        "x² = 25",
+        "x³ + 8 = 0"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-193",
+      "question": "x² - 5x + 6 = 0 সমীকরণের মূল কোন কোনটি?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-194",
+      "question": "(x + 3)(x - 2) বিস্তৃত করলে কোন পদগুলি পাওয়া যায়?",
+      "options": [
+        "x²",
+        "x",
+        "-6",
+        "5x"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-195",
+      "question": "নিচের কোন কোনটি সত্য?",
+      "options": [
+        "(a + b)² = a² + 2ab + b²",
+        "(a - b)² = a² - 2ab + b²",
+        "a² - b² = (a + b)(a - b)",
+        "(a + b)³ = a³ + b³"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-196",
+      "question": "4x² - 9-এর উৎপাদক কোন কোনটি?",
+      "options": [
+        "(2x + 3)",
+        "(2x - 3)",
+        "(4x + 9)",
+        "(x - 9)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-197",
+      "question": "2x + 3 = 11 সমীকরণটির সমাধান প্রক্রিয়ায় কী কী সঠিক?",
+      "options": [
+        "2x = 11 - 3",
+        "2x = 8",
+        "x = 8/2",
+        "x = 4"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-198",
+      "question": "নিচের কোন কোনটি চলকের মানের উপর ভিত্তি করে সত্য?",
+      "options": [
+        "পদের মান পরিবর্তিত হয়",
+        "চলকের বিভিন্ন মানের জন্য রাশির মান বদলায়",
+        "ধ্রুবকের মান স্থির থাকে",
+        "চলক সবসময় ধনাত্মক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-199",
+      "question": "নিচের কোন কোনটি সমাধান করলে x = 5 পাওয়া যায়?",
+      "options": [
+        "x + 2 = 7",
+        "2x - 3 = 7",
+        "x/5 = 1",
+        "3x + 4 = 19"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-200",
+      "question": "সমান্তর ধারা 3, 7, 11, 15,... সম্পর্কে সঠিক তথ্য কী কী?",
+      "options": [
+        "সাধারণ অন্তর = 4",
+        "5ম পদ = 19",
+        "10ম পদ = 39",
+        "এটি একটি গুণোত্তর ধারা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-201",
+      "question": "নিচের কোন কোনটি সঠিক উৎপাদক বিশ্লেষণ?",
+      "options": [
+        "x² + 5x + 6 = (x + 2)(x + 3)",
+        "x² - 5x + 6 = (x - 2)(x - 3)",
+        "x² + x - 6 = (x + 3)(x - 2)",
+        "x² - x - 6 = (x + 2)(x - 3)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-202",
+      "question": "নিচের কোন কোনটি গুণোত্তর ধারার (GP) উদাহরণ?",
+      "options": [
+        "2, 4, 8, 16",
+        "3, 9, 27, 81",
+        "5, 10, 15, 20",
+        "1, 1/2, 1/4, 1/8"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-203",
+      "question": "(x + y)² - (x - y)² = ?",
+      "options": [
+        "4xy",
+        "(x² + 2xy + y²) - (x² - 2xy + y²)",
+        "4xy",
+        "2xy"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-204",
+      "question": "নিচের কোন কোনটি চলরাশির ঘাত নিয়ে আলোচনা করে?",
+      "options": [
+        "মাত্রা",
+        "ডিগ্রি",
+        "সহগ",
+        "পদ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-205",
+      "question": "(a + b + c)²-এর বিস্তারে কোন পদগুলি থাকে?",
+      "options": [
+        "a², b², c²",
+        "2ab, 2bc, 2ca",
+        "a³, b³, c³",
+        "abc"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-206",
+      "question": "নিচের কোন কোনটি সূচকের নিয়ম অনুযায়ী সঠিক?",
+      "options": [
+        "2³ × 2⁴ = 2⁷",
+        "5⁶ ÷ 5² = 5³",
+        "(3²)³ = 3⁶",
+        "10⁰ = 0"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-207",
+      "question": "2x + 3 < 11 অসমতাটির সমাধান সেটের উপাদান কী কী?",
+      "options": [
+        "0,1,2,3",
+        "4,5,6",
+        "x-এর সকল মান < 4",
+        "x-এর সকল মান ≤ 4"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-208",
+      "question": "নিচের কোন কোনটি একটি নির্দিষ্ট সমীকরণের সমাধান হতে পারে?",
+      "options": [
+        "একটিমাত্র সমাধান",
+        "অসংখ্য সমাধান",
+        "কোনো সমাধান নেই",
+        "সবসময় x = 0"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-209",
+      "question": "3x - 2y = 12 সমীকরণটির জন্য নিচের কোন বিন্দুগুলি সমাধান?",
+      "options": [
+        "(4,0)",
+        "(6,3)",
+        "(2,-3)",
+        "(0,-6)"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-02-210",
+      "question": "বীজগণিতের প্রাথমিক ক্রিয়াগুলি কী কী?",
+      "options": [
+        "যোগ",
+        "বিয়োগ",
+        "গুণ",
+        "ভাগ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-211",
+      "question": "সূত্রের পুনর্বিন্যাস (rearrangement) করার সময় কী কী জানা দরকার?",
+      "options": [
+        "কোন চলককে উল্লেখ্য করতে হবে",
+        "সমীকরণের উভয়পক্ষে একই ক্রিয়া প্রয়োগ",
+        "চিহ্ন পরিবর্তনের নিয়ম",
+        "সবসময় ধ্রুবক নির্ণয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-212",
+      "question": "নিচের কোন কোনটি সঠিক অভেদ?",
+      "options": [
+        "(a + b)² = a² + 2ab + b²",
+        "(a - b)² = a² - 2ab + b²",
+        "a² + b² = (a + b)² - 2ab",
+        "a² + b² = (a - b)² + 2ab"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-213",
+      "question": "x² + 7x + 12-এর উৎপাদক নির্ণয়ে কী কী ধাপ থাকে?",
+      "options": [
+        "12-এর উৎপাদক খুঁজি যাদের যোগফল 7",
+        "(x + 3)(x + 4)",
+        "(x + 2)(x + 6)",
+        "(x + 1)(x + 12)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-214",
+      "question": "3x² + 5x - 2-এর উৎপাদক কোন কোনটি?",
+      "options": [
+        "(3x - 1)(x + 2)",
+        "(x + 2)(3x - 1)",
+        "(3x + 2)(x - 1)",
+        "(x - 1)(3x + 2)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-02-215",
+      "question": "সূচকের সাহায্যে 10,000 কে নিচের কোন কোন আকারে লেখা যায়?",
+      "options": [
+        "10⁴",
+        "100²",
+        "10000¹",
+        "10³ × 10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-216",
+      "question": "নিচের কোন মৌলিক বীজগাণিতিক সূত্রগুলি মুখস্থ করা প্রয়োজন?",
+      "options": [
+        "(a + b)²",
+        "(a - b)²",
+        "a² - b²",
+        "(a + b)³"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-217",
+      "question": "(x + 2)(x + 3) বিস্তৃত করলে কোন পদগুলি আসে?",
+      "options": [
+        "x²",
+        "5x",
+        "6",
+        "x³"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-218",
+      "question": "(2x + 3)(x - 4) বিস্তৃত করলে কী কী পাওয়া যায়?",
+      "options": [
+        "2x²",
+        "-8x + 3x = -5x",
+        "-12",
+        "2x² - 5x - 12"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-219",
+      "question": "সমীকরণ ও অভেদের মধ্যে পার্থক্য কী কী?",
+      "options": [
+        "সমীকরণ নির্দিষ্ট মানের জন্য সত্য",
+        "অভেদ চলকের সকল মানের জন্য সত্য",
+        "সমীকরণে চলকের এক বা একাধিক মান থাকে",
+        "অভেদ সবসময় সমান চিহ্ন নিয়ে কাজ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-220",
+      "question": "2x + 3 = 7 সমীকরণটি সমাধানে নিচের কোন পদক্ষেপগুলি সঠিক?",
+      "options": [
+        "2x = 7 - 3",
+        "2x = 4",
+        "x = 4 ÷ 2",
+        "x = 2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-221",
+      "question": "লিনিয়ার সমীকরণের বৈশিষ্ট্য কী কী?",
+      "options": [
+        "চলকের সর্বোচ্চ ঘাত 1",
+        "লেখচিত্র সরলরেখা",
+        "একটি মাত্র সমাধান থাকে",
+        "এতে চলকের বর্গ থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-222",
+      "question": "নিচের কোন কোনটি বহুপদীর মাত্রা (degree) নির্ধারণ করে?",
+      "options": [
+        "সর্বোচ্চ ঘাতযুক্ত পদের ঘাত",
+        "চলকের গুণিতকের যোগফল",
+        "পদের সংখ্যা",
+        "ধ্রুবক পদের মান"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-223",
+      "question": "বীজগাণিতিক রাশিতে পদের প্রকারগুলি কী কী?",
+      "options": [
+        "একপদী",
+        "দ্বিপদী",
+        "ত্রিপদী",
+        "বহুপদী"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-224",
+      "question": "নিচের কোন কোনটি ত্রিপদী?",
+      "options": [
+        "x² + 2x + 1",
+        "2x + 3",
+        "x² + y² + z²",
+        "5"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-225",
+      "question": "x = 2, y = -1 হলে, 3x² - 2xy + y²-এর মান নির্ণয়ে কী কী ধাপ থাকে?",
+      "options": [
+        "3(4) - 2(2)(-1) + 1",
+        "12 + 4 + 1",
+        "17",
+        "20"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-226",
+      "question": "একটি সংখ্যা ও তার পঞ্চমাংশের যোগফল 30 - এটিকে সমীকরণের মাধ্যমে প্রকাশ করলে কী কী পাওয়া যায়?",
+      "options": [
+        "x + x/5 = 30",
+        "6x/5 = 30",
+        "x = 25",
+        "x = 150"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-227",
+      "question": "নিচের কোন কোনটি দ্বিঘাত সমীকরণের সমাধান পদ্ধতি?",
+      "options": [
+        "উৎপাদক বিশ্লেষণ",
+        "বর্গ সম্পূর্ণকরণ",
+        "সূত্রের সাহায্যে",
+        "অনুমান করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-228",
+      "question": "y = mx + c সরলরেখার সমীকরণে m এবং c কী নির্দেশ করে?",
+      "options": [
+        "m = ঢাল",
+        "c = y-অক্ষচ্ছেদ",
+        "m = x-অক্ষচ্ছেদ",
+        "c = ঢাল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-229",
+      "question": "পাইথাগোরাসের উপপাদ্য বীজগণিতের সাহায্যে কীভাবে লেখা যায়?",
+      "options": [
+        "a² + b² = c²",
+        "(hypotenuse)² = (height)² + (base)²",
+        "a² = b² + c²",
+        "b² = c² - a²"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-230",
+      "question": "ভগ্নাংশের ক্ষেত্রে সূচকের নিয়ম কোন কোনটি সঠিক?",
+      "options": [
+        "(a/b)ⁿ = aⁿ/bⁿ",
+        "(a/b)⁻ⁿ = (b/a)ⁿ",
+        "(a/b)⁰ = 1",
+        "(a/b)¹ = a/b"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-231",
+      "question": "নিচের কোন কোনটি সঠিক বীজগাণিতিক বিবৃতি?",
+      "options": [
+        "2x + 3x = 5x",
+        "4y - y = 3y",
+        "2a × 3b = 6ab",
+        "5p ÷ p = 5 (p ≠ 0)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-232",
+      "question": "গুণোত্তর ধারা (GP)-এর সাধারণ অনুপাত কী কী হতে পারে?",
+      "options": [
+        "ধনাত্মক সংখ্যা",
+        "ঋণাত্মক সংখ্যা",
+        "ভগ্নাংশ",
+        "শূন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-233",
+      "question": "দুই চলকের সরল সমীকরণের সাধারণ রূপ কী কী?",
+      "options": [
+        "ax + by + c = 0",
+        "y = mx + c",
+        "ax² + bx + c = 0",
+        "x/a + y/b = 1"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-234",
+      "question": "নিচের কোন কোনটি অসদৃশ পদ?",
+      "options": [
+        "2x, 3x²",
+        "5y, 5y²",
+        "2ab, 2bc",
+        "3x, 3y"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-235",
+      "question": "(a + b)³-এর বিস্তারে কোন কোন পদ থাকে?",
+      "options": [
+        "a³",
+        "3a²b",
+        "3ab²",
+        "b³"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-236",
+      "question": "(a - b)³-এর বিস্তারে কোন কোন পদ থাকে?",
+      "options": [
+        "a³",
+        "-3a²b",
+        "3ab²",
+        "-b³"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-237",
+      "question": "বীজগণিতের ইতিহাসে গুরুত্বপূর্ণ ব্যক্তিত্ব কারা?",
+      "options": [
+        "আল-খোয়ারিজমি",
+        "রেনে দেকার্ত",
+        "আইজ্যাক নিউটন",
+        "আর্যভট্ট"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-238",
+      "question": "নিচের কোন কোনটি 'x' চলকযুক্ত সমীকরণের সমাধান?",
+      "options": [
+        "2x + 5 = 13 → x = 4",
+        "3x - 4 = 11 → x = 5",
+        "x/3 + 2 = 5 → x = 9",
+        "4x + 7 = 15 → x = 2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-239",
+      "question": "মধ্য পদ ভাঙনের (middle term split) জন্য কী কী প্রয়োজন?",
+      "options": [
+        "ac-এর উৎপাদক",
+        "উৎপাদকগুলির যোগফল = b",
+        "উৎপাদকগুলির গুণফল = ac",
+        "সবসময় দুটি উৎপাদক পাওয়া যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-240",
+      "question": "একটি রাশির মান নির্ণয়ের জন্য কী কী জানা প্রয়োজন?",
+      "options": [
+        "চলকের মান",
+        "রাশির গঠন",
+        "ধ্রুবকের মান",
+        "রাশির উৎপাদক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-241",
+      "question": "নিচের কোন কোনটি সঠিক সরলীকরণ?",
+      "options": [
+        "3(2x + 4) = 6x + 12",
+        "5(3x - 2) = 15x - 10",
+        "-2(4x - 3) = -8x + 6",
+        "-3(2x + 5) = -6x - 15"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-242",
+      "question": "বর্গসমীকরণের সাধারণ রূপ ax² + bx + c = 0-এর ক্ষেত্রে a-এর মান কী হতে পারে না?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-243",
+      "question": "উৎপাদক বিশ্লেষণের সময় কী কী মনে রাখতে হবে?",
+      "options": [
+        "সাধারণ উৎপাদক বের করা",
+        "সূত্র ব্যবহার করা",
+        "সবসময় বর্গমূল নেওয়া",
+        "মধ্য পদ ভাঙা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-244",
+      "question": "নিচের কোন বিন্দুগুলি মূলবিন্দু থেকে সমান দূরত্বে অবস্থিত?",
+      "options": [
+        "(3,4) এবং (4,3)",
+        "(5,0) এবং (0,5)",
+        "(1,1) এবং (-1,-1)",
+        "(2,2) এবং (-2,-2)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-02-245",
+      "question": "বীজগাণিতিক সূত্রের প্রয়োগ কোথায় দেখা যায়?",
+      "options": [
+        "জ্যামিতিতে ক্ষেত্রফল নির্ণয়ে",
+        "পদার্থবিজ্ঞানের সূত্রে",
+        "পরিসংখ্যানে",
+        "দৈনন্দিন জীবনের গণনায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-246",
+      "question": "নিচের কোন কোনটি সঠিক?",
+      "options": [
+        "2x + 3 = 2x + 3 একটি অভেদ",
+        "2x + 3 = 7 একটি সমীকরণ",
+        "x² - 1 = (x + 1)(x - 1) একটি অভেদ",
+        "x + 2 = 5 একটি সমীকরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-247",
+      "question": "সূচকের নিয়মে ভগ্নাংশ সূচক বলতে কী বোঝায়?",
+      "options": [
+        "a^(1/n) = n-তম মূল",
+        "a^(m/n) = (n√a)ᵐ",
+        "a^(m/n) = n√(aᵐ)",
+        "a^(1/2) = √a"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-02-248",
+      "question": "বীজগাণিতিক রাশি সরলীকরণের সময় বন্ধনী খোলার নিয়ম কী কী?",
+      "options": [
+        "- চিহ্নের পরে বন্ধনী খুললে ভিতরের সকল পদের চিহ্ন বদলে যায়",
+        "+ চিহ্নের পরে বন্ধনী খুললে কোনো পরিবর্তন হয় না",
+        "গুণের ক্ষেত্রে বণ্টন নিয়ম প্রযোজ্য",
+        "ভাগের ক্ষেত্রে বিপরীত ক্রিয়া হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-249",
+      "question": "একটি দ্বিঘাত সমীকরণের সাধারণ রূপ ax² + bx + c = 0-তে নিচের কোনটি সত্য?",
+      "options": [
+        "a ≠ 0",
+        "a, b, c বাস্তব সংখ্যা",
+        "x চলক",
+        "b = 0 হতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-250",
+      "question": "পাটিগণিত ও বীজগণিতের মধ্যে সম্পর্ক কী?",
+      "options": [
+        "বীজগণিত পাটিগণিতের সাধারণ রূপ",
+        "পাটিগণিত সংখ্যা নিয়ে কাজ করে, বীজগণিত চলক নিয়ে",
+        "পাটিগণিতের নিয়ম বীজগণিতেও প্রযোজ্য",
+        "উভয়ের মধ্যে কোনো সম্পর্ক নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-251",
+      "question": "(a + b)² ও (a - b)²-এর মধ্যে সম্পর্ক কী কী?",
+      "options": [
+        "(a + b)² = (a - b)² + 4ab",
+        "(a - b)² = (a + b)² - 4ab",
+        "(a + b)² + (a - b)² = 2(a² + b²)",
+        "(a + b)² - (a - b)² = 4ab"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-252",
+      "question": "x² + 5x + 6 = 0 সমীকরণটির জন্য নিচের কোনটি সঠিক?",
+      "options": [
+        "মূলদ্বয়ের যোগফল = -5",
+        "মূলদ্বয়ের গুণফল = 6",
+        "মূলদ্বয় = -2, -3",
+        "(x + 2)(x + 3) = 0"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-253",
+      "question": "নিচের কোন কোনটি চলরাশির ঘাত?",
+      "options": [
+        "2x³ এ ঘাত = 3",
+        "5y² এ ঘাত = 2",
+        "7 এ ঘাত = 0",
+        "4x এ ঘাত = 1"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-254",
+      "question": "2x + 5y = 20 সমীকরণটির সমাধান কারা?",
+      "options": [
+        "x = 5, y = 2",
+        "x = 0, y = 4",
+        "x = 10, y = 0",
+        "x = 2, y = 3"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-255",
+      "question": "গ্রাফের সাহায্যে সমীকরণ সমাধানের সুবিধা কী কী?",
+      "options": [
+        "সমাধান চাক্ষুষভাবে বোঝা যায়",
+        "দুই চলকের সমীকরণ সমাধান সহজ হয়",
+        "সরলরেখা ও বক্ররেখার ছেদ বিন্দু সমাধান দেয়",
+        "সূত্রের প্রয়োজন নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-256",
+      "question": "সমীকরণ গঠনের সময় কী কী শর্ত মেনে চলতে হয়?",
+      "options": [
+        "চলক নির্ণয় করতে হবে",
+        "প্রদত্ত শর্তানুযায়ী সম্পর্ক বসাতে হবে",
+        "সমীকরণের উভয় পক্ষ সমান রাখতে হবে",
+        "সমীকরণে চলক থাকবেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-257",
+      "question": "একটি দ্বিঘাত সমীকরণের বীজদ্বয় বাস্তব ও সমান হওয়ার শর্ত কী?",
+      "options": [
+        "b² - 4ac = 0",
+        "a, b, c বাস্তব",
+        "a ≠ 0",
+        "b² - 4ac < 0"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-02-258",
+      "question": "নিচের কোন কোনটি সরলরেখার ঢালের বৈশিষ্ট্য?",
+      "options": [
+        "ধনাত্মক ঢাল মানে বাম থেকে ডানে ঊর্ধ্বগামী রেখা",
+        "ঋণাত্মক ঢাল মানে বাম থেকে ডানে নিম্নগামী রেখা",
+        "ঢাল শূন্য হলে রেখা অনুভূমিক",
+        "ঢাল অসংজ্ঞায়িত হলে রেখা উল্লম্ব"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-02-259",
+      "question": "বীজগাণিতিক সূত্র ব্যবহার করে সরলীকরণে সুবিধা কী কী?",
+      "options": [
+        "দ্রুত সমাধান সম্ভব",
+        "জটিল রাশি সহজে ভাঙা যায়",
+        "সবসময় সঠিক উত্তর পাওয়া যায়",
+        "মুখস্থ করা সহজ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-02-260",
+      "question": "বীজগণিতের মৌলিক ক্রিয়াগুলি সঠিকভাবে সম্পাদনের জন্য কী কী জানা প্রয়োজন?",
+      "options": [
+        "সদৃশ ও অসদৃশ পদের ধারণা",
+        "চিহ্নের নিয়ম",
+        "বন্ধনী খোলার নিয়ম",
+        "সূচকের নিয়ম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "02-basic-algebra",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

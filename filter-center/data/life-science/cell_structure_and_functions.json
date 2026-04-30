@@ -1,0 +1,5315 @@
+{
+  "subject": "life-science",
+  "unit": "01-cell-structure-functions",
+  "unit_code": "01",
+  "total": 300,
+  "questions": [
+    {
+      "id": "ls-01-001",
+      "question": "‘কোষ’ শব্দটি প্রথম ব্যবহার করেন কে?",
+      "options": [
+        "রবার্ট হুক",
+        "লিউয়েনহোক",
+        "শ্লাইডেন",
+        "শোয়ান"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-002",
+      "question": "রবার্ট হুক কোন উদ্ভিদের কর্ক কোষ দেখে কোষ আবিষ্কার করেন?",
+      "options": [
+        "আম",
+        "পেয়ারা",
+        "ওক গাছ",
+        "ক্যাকটাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-003",
+      "question": "প্রথম জীবিত কোষ দেখতে পান কে?",
+      "options": [
+        "রবার্ট হুক",
+        "অ্যান্টনি ভ্যান লিউয়েনহোক",
+        "রুডলফ ভির্খো",
+        "রবার্ট ব্রাউন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-004",
+      "question": "নিম্নলিখিত কোনটি কোষ তত্ত্বের (Cell theory) সঠিক বিবৃতি?",
+      "options": [
+        "সব কোষই একই আকারের হয়",
+        "সব কোষে নিউক্লিয়াস থাকে",
+        "সব জীবই কোষ দিয়ে গঠিত ও কোষ থেকে সৃষ্ট",
+        "কোষ শুধু উদ্ভিদে থাকে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-005",
+      "question": "কোষ তত্ত্বের প্রবক্তা কারা?",
+      "options": [
+        "শ্লাইডেন",
+        "শোয়ান",
+        "ডারউইন",
+        "মেন্ডেল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-006",
+      "question": "প্রোক্যারিয়োটিক কোষে নিম্নলিখিত কোন অঙ্গাণুটি অনুপস্থিত?",
+      "options": [
+        "রাইবোজোম",
+        "প্লাজমা মেমব্রেন",
+        "নিউক্লিয়াস",
+        "সাইটোপ্লাজম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-007",
+      "question": "ইউক্যারিয়োটিক কোষের প্রধান বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "নিউক্লিয়াস আবদ্ধ থাকে নিউক্লিয়ার মেমব্রেন দিয়ে",
+        "নিউক্লিয়য়েড থাকে",
+        "70S রাইবোজোম থাকে",
+        "মাইটোকন্ড্রিয়া অনুপস্থিত"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-008",
+      "question": "ব্যাকটেরিয়া কোন ধরনের কোষের উদাহরণ?",
+      "options": [
+        "প্রোক্যারিওটিক",
+        "ইউক্যারিওটিক",
+        "মেসোক্যারিওটিক",
+        "অ্যাক্যারিওটিক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-009",
+      "question": "প্লান্ট সেল ও অ্যানিমেল সেলের মধ্যে প্রধান পার্থক্য নিচের কোনটি?",
+      "options": [
+        "প্লান্ট সেলে Golgi body থাকে না",
+        "অ্যানিমেল সেলে কোষপ্রাচীর (Cell wall) থাকে না",
+        "প্লান্ট সেলে মাইটোকন্ড্রিয়া থাকে না",
+        "অ্যানিমেল সেলে নিউক্লিয়াস থাকে না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-010",
+      "question": "নিচের কোন অঙ্গাণুটি শুধুমাত্র প্লান্ট সেলে দেখা যায়?",
+      "options": [
+        "সেন্ট্রোজোম",
+        "লাইসোজোম",
+        "প্লাস্টিড",
+        "এন্ডোপ্লাজমিক রেটিকুলাম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-011",
+      "question": "প্লান্ট সেলের কোষপ্রাচীরের প্রধান উপাদান কী?",
+      "options": [
+        "কাইটিন",
+        "পেপটিডোগ্লাইকান",
+        "সেলুলোজ",
+        "লিগনিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-012",
+      "question": "নিচের কোনটি প্রোক্যারিওটিক ও ইউক্যারিওটিক কোষের সাধারণ বৈশিষ্ট্য?",
+      "options": [
+        "নিউক্লিয়ার মেমব্রেন",
+        "80S রাইবোজোম",
+        "প্লাজমা মেমব্রেন",
+        "মাইটোকন্ড্রিয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-013",
+      "question": "নিউক্লিয়াসের প্রধান কাজ কী?",
+      "options": [
+        "ATP উৎপাদন",
+        "জিনগত তথ্য সংরক্ষণ ও নিয়ন্ত্রণ",
+        "প্রোটিন সংশ্লেষণ",
+        "কোষীয় বর্জ্য হজম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-014",
+      "question": "নিউক্লিওলাস (Nucleolus) প্রধানত কী তৈরি করে?",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "রাইবোজোমাল RNA (rRNA) ও রাইবোজোম",
+        "DNA"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-015",
+      "question": "রাইবোজোমের প্রধান কাজ কী?",
+      "options": [
+        "লিপিড সংশ্লেষণ",
+        "প্রোটিন সংশ্লেষণ",
+        "কার্বোহাইড্রেট সংশ্লেষণ",
+        "DNA প্রতিলিপি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-016",
+      "question": "80S রাইবোজোম কোথায় পাওয়া যায়?",
+      "options": [
+        "ব্যাকটেরিয়াতে",
+        "ইউক্যারিওটিক কোষের সাইটোপ্লাজমে",
+        "মাইটোকন্ড্রিয়াতে",
+        "ক্লোরোপ্লাস্টে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-017",
+      "question": "মাইটোকন্ড্রিয়াকে ‘কোষের পাওয়ার হাউস’ বলা হয় কেন?",
+      "options": [
+        "এতে DNA থাকে",
+        "এটি ATP উৎপাদন করে",
+        "এটি প্রোটিন সংশ্লেষ করে",
+        "এটি কোষকে আকৃতি দেয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-018",
+      "question": "মাইটোকন্ড্রিয়ার ভেতরের ভাঁজকে কী বলে?",
+      "options": [
+        "Cristae",
+        "Cisternae",
+        "Thylakoid",
+        "Stroma"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-019",
+      "question": "মাইটোকন্ড্রিয়া সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "এটি দ্বিস্তরী পর্দাবিশিষ্ট",
+        "এতে নিজস্ব DNA ও রাইবোজোম থাকে",
+        "এটি শুধু প্রাণী কোষে থাকে",
+        "এটি ক্যালভিন চক্র চালায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-020",
+      "question": "গলগি বডির (Golgi body) প্রধান কাজ কী?",
+      "options": [
+        "প্রোটিন সংশ্লেষণ",
+        "লিপিড সংশ্লেষণ",
+        "প্রোটিনের প্যাকেজিং ও পরিবহন",
+        "কোষীয় শ্বসন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-021",
+      "question": "রাফ এন্ডোপ্লাজমিক রেটিকুলাম (RER) এর পৃষ্ঠে কী থাকে?",
+      "options": [
+        "লাইসোজোম",
+        "রাইবোজোম",
+        "গলগি বডি",
+        "সেন্ট্রিওল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-022",
+      "question": "স্মুথ এন্ডোপ্লাজমিক রেটিকুলাম (SER) এর প্রধান কাজ কী?",
+      "options": [
+        "প্রোটিন সংশ্লেষণ",
+        "লিপিড ও স্টেরয়েড হরমোন সংশ্লেষণ",
+        "বর্জ্য হজম",
+        "কোষ বিভাজন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-023",
+      "question": "লাইসোজোমকে ‘আত্মঘাতী থলি’ (Suicidal bag) বলা হয় কেন?",
+      "options": [
+        "এটি কোষকে শক্তি দেয়",
+        "এটি নিজেই ধ্বংস হয়ে যায়",
+        "এটি ভাঙা কোষীয় অংশ ও বাইরের পদার্থ হজম করে, প্রয়োজনে পুরো কোষকেও হজম করে",
+        "এটি DNA ধ্বংস করে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-024",
+      "question": "ক্লোরোপ্লাস্টে কোন রঞ্জক পদার্থ (Pigment) থাকে?",
+      "options": [
+        "ক্যারোটিন",
+        "ক্লোরোফিল",
+        "জ্যান্থোফিল",
+        "ফাইকোবিলিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-025",
+      "question": "লিউকোপ্লাস্ট (Leucoplast) কী সঞ্চয় করে?",
+      "options": [
+        "ক্লোরোফিল",
+        "শর্করা, তেল ও প্রোটিন",
+        "ক্যারোটিনয়েড",
+        "অক্সিজেন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-026",
+      "question": "ক্রোমোপ্লাস্ট (Chromoplast) কোন রঙের জন্য দায়ী?",
+      "options": [
+        "সবুজ",
+        "লাল, কমলা, হলুদ",
+        "নীল",
+        "বেগুনি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-027",
+      "question": "প্লান্ট সেলের বড় ভ্যাকুওলের কাজ কী?",
+      "options": [
+        "পানি ও রস সঞ্চয়, চাপ ধরে রাখা",
+        "প্রোটিন সংশ্লেষণ",
+        "কোষ বিভাজন",
+        "বংশগতি নিয়ন্ত্রণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-028",
+      "question": "সেন্ট্রোজোম ও সেন্ট্রিওল কোন ধরনের কোষে দেখা যায়?",
+      "options": [
+        "শুধু উদ্ভিদকোষে",
+        "শুধু প্রাণিকোষে",
+        "ব্যাকটেরিয়াতে",
+        "শৈবালে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-029",
+      "question": "সেন্ট্রিওলের প্রধান কাজ কী?",
+      "options": [
+        "কোষীয় শ্বসন",
+        "কোষ বিভাজনে স্পিন্ডল গঠন",
+        "প্রোটিন সংশ্লেষণ",
+        "বর্জ্য নিঃসরণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-030",
+      "question": "প্লাজমা মেমব্রেনের গঠন ব্যাখ্যাকারী মডেলের নাম কী?",
+      "options": [
+        "Fluid Mosaic Model",
+        "Sandwich Model",
+        "Unit Membrane Model",
+        "Lipid Bilayer Model"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-031",
+      "question": "প্লাজমা মেমব্রেনের প্রধান উপাদান কী কী?",
+      "options": [
+        "শুধু লিপিড",
+        "লিপিড ও প্রোটিন",
+        "শুধু প্রোটিন",
+        "লিপিড ও কার্বোহাইড্রেট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-032",
+      "question": "নিচের কোনটি ডিফিউশনের (Diffusion) উদাহরণ?",
+      "options": [
+        "ফুলের গন্ধ ছড়িয়ে পড়া",
+        "মূল দিয়ে পানি শোষণ",
+        "চিনির দ্রবণে পানি চলাচল",
+        "সোডিয়াম-পটাসিয়াম পাম্প"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-033",
+      "question": "অসমোসিস (Osmosis) কী?",
+      "options": [
+        "অর্ধভেদ্য পর্দা দিয়ে দ্রাবকের (পানি) চলাচল",
+        "অর্ধভেদ্য পর্দা দিয়ে দ্রবের চলাচল",
+        "শক্তি ব্যবহার করে অণু চলাচল",
+        "যে কোনো পর্দা দিয়ে সব অণুর চলাচল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-034",
+      "question": "অ্যাক্টিভ ট্রান্সপোর্ট (Active transport) সম্পর্কে সঠিক উক্তি কোনগুলি?",
+      "options": [
+        "এতে ATP শক্তি খরচ হয়",
+        "এতে পরিবাহক প্রোটিন প্রয়োজন",
+        "এটি ঘনত্বের উচ্চ স্থান থেকে নিম্ন স্থানে হয়",
+        "এটি নিম্ন ঘনত্ব থেকে উচ্চ ঘনত্বে অণু পরিবহন করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-035",
+      "question": "নিচের কোনটি সক্রিয় পরিবহনের উদাহরণ?",
+      "options": [
+        "অক্সিজেন রক্তে ছড়িয়ে পড়া",
+        "Sodium-Potassium pump",
+        "কার্বন ডাই অক্সাইড নিঃসরণ",
+        "লালা গ্রন্থিতে পানি চলাচল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-036",
+      "question": "ক্রোমোজোমের গঠনে দণ্ডাকার অংশটির নাম কী?",
+      "options": [
+        "Chromatid",
+        "Centromere",
+        "Chromatin",
+        "Telomere"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-037",
+      "question": "সেন্ট্রোমিয়ার ক্রোমোজোমের মধ্যভাগে থাকলে তাকে কী বলে?",
+      "options": [
+        "Metacentric",
+        "Acrocentric",
+        "Telocentric",
+        "Submetacentric"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-038",
+      "question": "অ্যাক্রোসেন্ট্রিক (Acrocentric) ক্রোমোজোমে সেন্ট্রোমিয়ার কোথায় থাকে?",
+      "options": [
+        "একদম মধ্যভাগে",
+        "একটি প্রান্তের কাছে",
+        "একেবারে প্রান্তে",
+        "কোনোটা নেই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-039",
+      "question": "টেলোসেন্ট্রিক (Telocentric) ক্রোমোজোমের বৈশিষ্ট্য কী?",
+      "options": [
+        "সেন্ট্রোমিয়ার প্রান্তে থাকে, তাই একটি বাহু থাকে",
+        "দুই বাহু সমান",
+        "সেন্ট্রোমিয়ার অনুপস্থিত",
+        "চারটি বাহু থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-040",
+      "question": "DNA-এর ডাবল হেলিক্স মডেল কারা আবিষ্কার করেন?",
+      "options": [
+        "ওয়াটসন ও ক্রিক",
+        "মেন্ডেল ও ডারউইন",
+        "হার্শে ও চেজ",
+        "গ্রিফিথ ও এভরি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-041",
+      "question": "DNA-এর ক্ষারক (Base) কোনটি নয়?",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Uracil",
+        "Cytosine"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-042",
+      "question": "RNA-তে থাইমিনের পরিবর্তে কোন ক্ষারক থাকে?",
+      "options": [
+        "Adenine",
+        "Guanine",
+        "Cytosine",
+        "Uracil"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-043",
+      "question": "mRNA-এর পূর্ণরূপ কী?",
+      "options": [
+        "Messenger RNA",
+        "Transfer RNA",
+        "Ribosomal RNA",
+        "Nuclear RNA"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-044",
+      "question": "tRNA-এর কাজ কী?",
+      "options": [
+        "DNA থেকে তথ্য বহন করে",
+        "অ্যামিনো অ্যাসিড রাইবোজোমে বহন করে",
+        "রাইবোজোম গঠন করে",
+        "এনজাইম তৈরি করে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-045",
+      "question": "rRNA প্রধানত কোথায় পাওয়া যায়?",
+      "options": [
+        "নিউক্লিয়াসে",
+        "সাইটোপ্লাজমে",
+        "রাইবোজোমে",
+        "মাইটোকন্ড্রিয়ায়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-046",
+      "question": "কোষ চক্রের (Cell cycle) কোন দশায় DNA প্রতিলিপি ঘটে?",
+      "options": [
+        "G1 phase",
+        "S phase",
+        "G2 phase",
+        "M phase"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-047",
+      "question": "G1 দশায় কোষে কী ঘটে?",
+      "options": [
+        "DNA দ্বিগুণ হয়",
+        "প্রোটিন ও RNA সংশ্লেষণ, কোষ বৃদ্ধি",
+        "স্পিন্ডল গঠন",
+        "ক্রোমোজোম পাশে সরে যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-048",
+      "question": "মাইটোসিস কোষ বিভাজনের কোন দশায় ক্রোমোজোমগুলি বিষুবরেখায় সাজে?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-049",
+      "question": "মাইটোসিসের অ্যানাফেজ দশায় কী ঘটে?",
+      "options": [
+        "নিউক্লিয়ার মেমব্রেন ভাঙে",
+        "ক্রোমাটিডগুলি সেন্ট্রোমিয়ার দিয়ে পৃথক হয়ে বিপরীত মেরুতে যায়",
+        "ক্রোমোজোমগুলি কুণ্ডলীভূত হয়",
+        "নিউক্লিয়াস পুনর্গঠিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-050",
+      "question": "মাইটোসিসের টেলোফেজ দশায় নিচের কোন ঘটনাটি ঘটে?",
+      "options": [
+        "স্পিন্ডল তন্তু গঠন",
+        "নিউক্লিয়ার মেমব্রেন পুনরায় গঠিত হয়",
+        "ক্রোমোজোমগুলি বিষুবরেখায় সাজে",
+        "সেন্ট্রিওল দ্বিগুণ হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-051",
+      "question": "মিয়োসিস কোথায় ঘটে?",
+      "options": [
+        "দেহকোষে",
+        "জননকোষে (গ্যামেট গঠনে)",
+        "পাতার কোষে",
+        "মূলের অগ্রভাগে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-052",
+      "question": "মিয়োসিস I-এর প্রথম প্রোফেজ দশার যে উপদশায় ক্রোমোজোমের সিন্যাপসিস হয় তাকে কী বলে?",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diplotene"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-053",
+      "question": "ক্রসিং ওভার (Crossing over) মিয়োসিসের কোন দশায় ঘটে?",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diakinesis"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-054",
+      "question": "মাইটোসিস ও মিয়োসিসের মধ্যে পার্থক্য -",
+      "options": [
+        "মাইটোসিসে দুইটি অপত্য কোষ, মিয়োসিসে চারটি",
+        "মাইটোসিসে ক্রোমোজোম সংখ্যা অপরিবর্তিত, মিয়োসিসে অর্ধেক হয়",
+        "মাইটোসিসে ক্রসিং ওভার ঘটে, মিয়োসিসে ঘটে না",
+        "মাইটোসিস দেহকোষে, মিয়োসিস জননকোষে ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-055",
+      "question": "মানুষের দেহকোষে ক্রোমোজোম সংখ্যা কত?",
+      "options": [
+        "23",
+        "46",
+        "48",
+        "44"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-056",
+      "question": "মানুষের গ্যামেটে (শুক্রাণু/ডিম্বাণু) ক্রোমোজোম সংখ্যা কত?",
+      "options": [
+        "46",
+        "23",
+        "22",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-057",
+      "question": "হ্যাপ্লয়েড (Haploid) কোষ বলতে কী বোঝায়?",
+      "options": [
+        "এক সেট ক্রোমোজোম বিশিষ্ট কোষ",
+        "দুই সেট ক্রোমোজোম বিশিষ্ট কোষ",
+        "চার সেট ক্রোমোজোম বিশিষ্ট কোষ",
+        "ক্রোমোজোমবিহীন কোষ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-058",
+      "question": "ডিপ্লয়েড (Diploid) কোষের উদাহরণ কোনটি?",
+      "options": [
+        "মানুষের শুক্রাণু",
+        "মানুষের ডিম্বাণু",
+        "মানুষের ত্বক কোষ",
+        "ব্যাকটেরিয়া কোষ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-059",
+      "question": "জিন (Gene) কী?",
+      "options": [
+        "প্রোটিনের একক",
+        "DNA-এর একটি নির্দিষ্ট অংশ যা একটি বৈশিষ্ট্য নিয়ন্ত্রণ করে",
+        "RNA-এর একটি অংশ",
+        "ক্রোমোজোমের গঠনগত অংশ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-060",
+      "question": "অ্যালিল (Allele) কী?",
+      "options": [
+        "একই জিনের বিভিন্ন রূপ",
+        "ভিন্ন জিনের একই রূপ",
+        "ক্রোমোজোমের প্রান্ত",
+        "একটি প্রোটিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-061",
+      "question": "জিনোটাইপ (Genotype) বলতে বোঝায় -",
+      "options": [
+        "জীবের বাহ্যিক বৈশিষ্ট্য",
+        "জীবের জিনগত গঠন",
+        "জীবের আচরণ",
+        "জীবের কোষের সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-062",
+      "question": "ফিনোটাইপ (Phenotype) কাকে বলে?",
+      "options": [
+        "জীবের জিনগত গঠন",
+        "জীবের দৃশ্যমান বা প্রকাশিত বৈশিষ্ট্য",
+        "জীবের অ্যালিলের সংখ্যা",
+        "জীবের DNA"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-063",
+      "question": "ডমিন্যান্ট (Dominant) অ্যালিল কী?",
+      "options": [
+        "যে অ্যালিল অন্য অ্যালিলের উপস্থিতিতেও নিজের বৈশিষ্ট্য প্রকাশ করে",
+        "যে অ্যালিল প্রকাশ পায় না",
+        "যে অ্যালিল কেবল মাতা থেকে আসে",
+        "যে অ্যালিল কেবল পিতা থেকে আসে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-064",
+      "question": "রিসেসিভ (Recessive) অ্যালিল কোন অবস্থায় প্রকাশ পায়?",
+      "options": [
+        "সবসময় প্রকাশ পায়",
+        "হোমোজাইগাস অবস্থায় (দুটি রিসেসিভ অ্যালিল একসাথে থাকলে)",
+        "হেটেরোজাইগাস অবস্থায়",
+        "কখনো প্রকাশ পায় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-065",
+      "question": "মিউটেশন (Mutation) কী?",
+      "options": [
+        "DNA-তে আকস্মিক পরিবর্তন",
+        "কোষের আকার পরিবর্তন",
+        "প্রোটিনের ভাঁজ পরিবর্তন",
+        "RNA-র অবনতি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-066",
+      "question": "স্টেম সেল (Stem cell) কী?",
+      "options": [
+        "যে কোষ যেকোনো ধরনের কোষে পরিণত হতে পারে",
+        "শুধু পেশি কোষে পরিণত হয়",
+        "শুধু রক্তকোষে পরিণত হয়",
+        "আর বিভাজিত হতে পারে না"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-067",
+      "question": "ATP-র পূর্ণরূপ কী?",
+      "options": [
+        "Adenosine Triphosphate",
+        "Amino Triphosphate",
+        "Adenine Triphosphate",
+        "Adenosine Diphosphate"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-068",
+      "question": "মানবদেহে সর্বাধিক ATP উৎপন্ন হয় কোথায়?",
+      "options": [
+        "সাইটোপ্লাজমে",
+        "মাইটোকন্ড্রিয়ায়",
+        "নিউক্লিয়াসে",
+        "গলগি বডিতে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-069",
+      "question": "কোন কোষের আকার সবচেয়ে ছোট?",
+      "options": [
+        "মাইটোকন্ড্রিয়া",
+        "ব্যাকটেরিয়া (মাইকোপ্লাজমা)",
+        "লোহিত রক্তকণিকা",
+        "ডিম্বাণু"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-070",
+      "question": "নিচের কোনটি উদ্ভিদকোষে অনুপস্থিত?",
+      "options": [
+        "Large Vacuole",
+        "Cell wall",
+        "Chloroplast",
+        "Centriole"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-071",
+      "question": "নিউক্লিয়াসের অংশগুলি হলো -",
+      "options": [
+        "নিউক্লিয়ার ঝিল্লি",
+        "নিউক্লিওপ্লাজম",
+        "নিউক্লিওলাস",
+        "থাইলাকয়েড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-072",
+      "question": "নিউক্লিয়ার পোরের কাজ কী?",
+      "options": [
+        "DNA কে সাইটোপ্লাজমে যেতে দেয়",
+        "RNA ও প্রোটিনের নিয়ন্ত্রিত চলাচল",
+        "ATP উৎপাদন",
+        "কোষ বিভাজন শুরু করে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-073",
+      "question": "রাফ ER ও স্মুথ ER পরস্পর সংযুক্ত থাকে - সত্যি নাকি মিথ্যা?",
+      "options": [
+        "সত্যি",
+        "মিথ্যা",
+        "",
+        ""
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-074",
+      "question": "লাইসোজোমের এনজাইমগুলি প্রকৃতিতে কী ধরনের?",
+      "options": [
+        "অক্সিডেটিভ",
+        "হাইড্রোলাইটিক (জলীয় বিশ্লেষণকারী)",
+        "সংশ্লেষণকারী",
+        "স্থানান্তরকারী"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-075",
+      "question": "ক্লোরোপ্লাস্টের ডিস্ক আকৃতির থলিগুলোকে কী বলে?",
+      "options": [
+        "Thylakoid",
+        "Granum",
+        "Stroma",
+        "Cristae"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-076",
+      "question": "পানি ও খনিজ লবণ মূল থেকে পাতায় ওঠে কীসের মাধ্যমে?",
+      "options": [
+        "ফ্লোয়েম",
+        "জাইলেম",
+        "প্যারেনকাইমা",
+        "কোলেনকাইমা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-077",
+      "question": "অসমোসিসের ক্ষেত্রে পানি চলাচল করে কোন দিকে?",
+      "options": [
+        "নিম্ন ঘনত্ব থেকে উচ্চ ঘনত্বের দিকে",
+        "উচ্চ ঘনত্ব থেকে নিম্ন ঘনত্বের দিকে",
+        "নিম্ন দ্রবণ ঘনত্ব থেকে উচ্চ দ্রবণ ঘনত্বের দিকে",
+        "সর্বদা উপর থেকে নিচে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-078",
+      "question": "ডিফিউশনের জন্য কী প্রয়োজন?",
+      "options": [
+        "ATP",
+        "অর্ধভেদ্য পর্দা",
+        "ঘনত্বের পার্থক্য",
+        "পরিবাহক প্রোটিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-079",
+      "question": "কোলেনকাইমা কোষের কাজ কী?",
+      "options": [
+        "খাদ্য সঞ্চয়",
+        "যান্ত্রিক সহায়তা ও নমনীয়তা",
+        "পানি পরিবহন",
+        "সালোকসংশ্লেষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-080",
+      "question": "DNA-র গঠন কীরকম?",
+      "options": [
+        "একক সুতা",
+        "ডাবল হেলিক্স",
+        "গোলাকার",
+        "চ্যাপ্টা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-081",
+      "question": "মিয়োসিস II কে বলা হয় -",
+      "options": [
+        "ই কোয়েশনাল ডিভিশন",
+        "রিডাকশনাল ডিভিশন",
+        "মাইটোসিসের সমতুল্য",
+        "অ্যামাইটোসিস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-082",
+      "question": "মিয়োসিস I-তে কী হ্রাস পায়?",
+      "options": [
+        "DNA-র পরিমাণ অর্ধেক হয়",
+        "ক্রোমোজোম সংখ্যা অর্ধেক হয়",
+        "প্রোটিনের পরিমাণ অর্ধেক হয়",
+        "সাইটোপ্লাজম অর্ধেক হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-083",
+      "question": "নিচের কোনটি মিয়োসিসের অ্যানাফেজ I-এর বৈশিষ্ট্য?",
+      "options": [
+        "ক্রোমাটিড পৃথক হয়",
+        "হোমোলোগাস ক্রোমোজোম পৃথক হয়ে বিপরীত মেরুতে যায়",
+        "ক্রোমোজোম বিষুবরেখায় সাজে",
+        "নিউক্লিয়াস পুনর্গঠিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-084",
+      "question": "মানুষের একটি ডিপ্লয়েড কোষের DNA পরিমাণ 2C হলে, S দশার শেষে তা কত হবে?",
+      "options": [
+        "1C",
+        "2C",
+        "4C",
+        "8C"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-085",
+      "question": "কোন কোন অঙ্গাণুতে নিজস্ব DNA থাকে?",
+      "options": [
+        "মাইটোকন্ড্রিয়া",
+        "ক্লোরোপ্লাস্ট",
+        "নিউক্লিয়াস",
+        "লাইসোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-086",
+      "question": "প্লাজমা মেমব্রেনের ফ্লুইড মোজাইক মডেলে ‘মোজাইক’ শব্দটি বোঝায় -",
+      "options": [
+        "লিপিডের এলোমেলো বিন্যাস",
+        "প্রোটিনের বিভিন্ন ধরন ও বিন্যাস",
+        "কার্বোহাইড্রেটের স্তর",
+        "জলের উপস্থিতি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-087",
+      "question": "ফ্যাগোসাইটোসিস (Phagocytosis) কোন ধরনের পরিবহন?",
+      "options": [
+        "প্যাসিভ ট্রান্সপোর্ট",
+        "এক্সোসাইটোসিস",
+        "এন্ডোসাইটোসিস",
+        "ডিফিউশন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-088",
+      "question": "হাইপারটনিক দ্রবণে রাখলে লোহিত রক্তকণিকার কী ঘটে?",
+      "options": [
+        "ফুলে ফেটে যায়",
+        "সংকুচিত হয় (Crenation)",
+        "অপরিবর্তিত থাকে",
+        "বিভাজিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-089",
+      "question": "পাতার রন্ধ্র খোলা ও বন্ধ হওয়া নিয়ন্ত্রণ করে কোন কোষ?",
+      "options": [
+        "প্যারেনকাইমা",
+        "কোলেনকাইমা",
+        "গার্ড সেল",
+        "এপিডার্মিস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-090",
+      "question": "ক্রোমাটিন তন্তু দিয়ে কী গঠিত?",
+      "options": [
+        "শুধু DNA",
+        "DNA + হিস্টোন প্রোটিন",
+        "RNA + প্রোটিন",
+        "শুধু RNA"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-091",
+      "question": "নিচের কোনটি প্রোক্যারিওটিক কোষের উদাহরণ নয়?",
+      "options": [
+        "E. coli",
+        "আর্কিয়া",
+        "ছত্রাক",
+        "সায়ানোব্যাকটেরিয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-092",
+      "question": "প্লাজমিড (Plasmid) কী?",
+      "options": [
+        "ব্যাকটেরিয়ার ছোট বৃত্তাকার DNA",
+        "ভাইরাসের RNA",
+        "ইউক্যারিওটিক প্রোটিন",
+        "কোষপ্রাচীরের অংশ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-093",
+      "question": "ক্লোরোপ্লাস্টের ঝিল্লির বাইরের অংশকে কী বলে?",
+      "options": [
+        "Outer membrane",
+        "Inner membrane",
+        "Thylakoid membrane",
+        "Stroma"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-094",
+      "question": "অ্যানিমেল সেলে গ্লাইকোজেন কোথায় সঞ্চিত থাকে?",
+      "options": [
+        "ক্লোরোপ্লাস্টে",
+        "লিউকোপ্লাস্টে",
+        "সাইটোপ্লাজমে (গ্লাইকোজেন গ্রানুল)",
+        "নিউক্লিয়াসে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-095",
+      "question": "সক্রিয় পরিবহনের বৈশিষ্ট্য নিচের কোনগুলি?",
+      "options": [
+        "ঘনত্বের বিপরীতে চলাচল",
+        "শক্তি খরচ হয়",
+        "প্রোটিন পাম্পের প্রয়োজন",
+        "দ্রবণ ঘনত্ব সমান না হওয়া পর্যন্ত চলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-096",
+      "question": "মায়োপ্লাজম কী?",
+      "options": [
+        "পেশি কোষের সাইটোপ্লাজম",
+        "স্নায়ু কোষের সাইটোপ্লাজম",
+        "রক্তরস",
+        "নিউক্লিয়ার তরল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-097",
+      "question": "প্লাজমোডেসমাটা (Plasmodesmata) কী?",
+      "options": [
+        "প্রাণীকোষের মধ্যে সংযোগ",
+        "উদ্ভিদকোষের কোষপ্রাচীরের ছিদ্রপথ",
+        "ব্যাকটেরিয়ার পিলাস",
+        "মাইটোকন্ড্রিয়ার ছিদ্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-098",
+      "question": "নিচের কোন জোড়াটি সঠিক নয়?",
+      "options": [
+        "Nucleus - genetic control",
+        "Ribosome - protein synthesis",
+        "Lysosome - lipid synthesis",
+        "Mitochondria - ATP production"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-099",
+      "question": "ইউক্রোমাটিন (Euchromatin) এর বৈশিষ্ট্য কী?",
+      "options": [
+        "ঘন প্যাকিং, নিষ্ক্রিয়",
+        "আলগা প্যাকিং, সক্রিয় প্রতিলিপি",
+        "শুধু প্রোক্যারিওটে থাকে",
+        "রঞ্জক গ্রহণ করে না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-100",
+      "question": "হেটেরোক্রোমাটিন (Heterochromatin) -",
+      "options": [
+        "জিন বেশি প্রকাশ করে",
+        "ঘন প্যাকিং, কম জিন প্রকাশ",
+        "RNA সমৃদ্ধ",
+        "প্রোটিনমুক্ত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-101",
+      "question": "G2 দশার প্রধান ঘটনা কী?",
+      "options": [
+        "DNA দ্বিগুণ",
+        "কোষ বিভাজনের প্রস্তুতি (টিউবিউলিন সংশ্লেষ)",
+        "ক্রোমোজোম সাজানো",
+        "সাইটোকাইনেসিস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-102",
+      "question": "সাইটোকাইনেসিস (Cytokinesis) কী?",
+      "options": [
+        "নিউক্লিয়াস বিভাজন",
+        "সাইটোপ্লাজম বিভাজন",
+        "DNA প্রতিলিপি",
+        "ক্রোমোজোম পৃথকীকরণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-103",
+      "question": "প্লান্ট সেলে সাইটোকাইনেসিস কীভাবে ঘটে?",
+      "options": [
+        "ক্লিভেজ ফারো তৈরি হয়ে",
+        "সেল প্লেট গঠনের মাধ্যমে",
+        "সরাসরি খন্ড খন্ড হয়ে",
+        "সেন্ট্রিওলের সাহায্যে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-104",
+      "question": "মিয়োসিসের ফলশ্রুতিতে উৎপন্ন গ্যামেটে ক্রোমোজোম সংখ্যা -",
+      "options": [
+        "ডিপ্লয়েড",
+        "হ্যাপ্লয়েড",
+        "ট্রিপ্লয়েড",
+        "টেট্রাপ্লয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-105",
+      "question": "নিচের কোনটি ‘নন-ডিজংকশন’-এর ফলে ঘটে?",
+      "options": [
+        "ক্রোমোজোম সংখ্যা অস্বাভাবিকতা (ডাউন সিনড্রোম)",
+        "জিন মিউটেশন",
+        "ক্রসিং ওভার",
+        "কোষের মৃত্যু"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-106",
+      "question": "ক্লোরোপ্লাস্টের নিজস্ব রাইবোজোম কত S বিশিষ্ট?",
+      "options": [
+        "70S",
+        "80S",
+        "50S",
+        "60S"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-107",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "মাইটোকন্ড্রিয়ায় cristae নামক ভাঁজ থাকে",
+        "ক্রোমোপ্লাস্টে ক্লোরোফিল থাকে",
+        "লাইসোজোমে হাইড্রোলাইটিক এনজাইম থাকে",
+        "SER লিপিড সংশ্লেষ করে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-108",
+      "question": "পেরক্সিসোম (Peroxisome) কী করে?",
+      "options": [
+        "ফ্যাটি অ্যাসিড জারণ ও হাইড্রোজেন পারক্সাইড নির্মূল",
+        "প্রোটিন সংশ্লেষ",
+        "ATP তৈরি",
+        "বর্জ্য সঞ্চয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-109",
+      "question": "গ্লাইঅক্সিসোম (Glyoxysome) কোথায় পাওয়া যায়?",
+      "options": [
+        "প্রাণিকোষ",
+        "উদ্ভিদের বীজে (ফ্যাটি অ্যাসিডকে শর্করায় রূপান্তর)",
+        "ব্যাকটেরিয়া",
+        "ভাইরাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-110",
+      "question": "নিচের কোনটি সেন্ট্রিওলের গঠন?",
+      "options": [
+        "9+2 মাইক্রোটিউবিউল বিন্যাস",
+        "9 টি ট্রিপলেট মাইক্রোটিউবিউলের বলয়",
+        "9+0 বিন্যাস",
+        "কঠিন প্রোটিন দন্ড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-111",
+      "question": "প্লান্ট সেলে কোষপ্রাচীরের মধ্যবর্তী স্তরটি কী দিয়ে গঠিত?",
+      "options": [
+        "সেলুলোজ",
+        "ক্যালসিয়াম পেকটেট",
+        "লিগনিন",
+        "কাইটিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-112",
+      "question": "প্লাজমোলাইসিস (Plasmolysis) হয় যখন কোষ রাখা হয় -",
+      "options": [
+        "আইসোটনিক দ্রবণে",
+        "হাইপোটনিক দ্রবণে",
+        "হাইপারটনিক দ্রবণে",
+        "পাতিত জলে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-113",
+      "question": "টার্গর চাপ (Turgor pressure) কী?",
+      "options": [
+        "কোষপ্রাচীরের উপর প্রোটোপ্লাজমের চাপ",
+        "বায়ুমণ্ডলের চাপ",
+        "রক্তচাপ",
+        "অসমোটিক চাপের বিপরীত"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-114",
+      "question": "নিচের কোনটি ইউক্যারিওটিক কোষে পাওয়া যায় না?",
+      "options": [
+        "প্লাজমা মেমব্রেন",
+        "নিউক্লিয়য়েড",
+        "গলগি বডি",
+        "এন্ডোপ্লাজমিক রেটিকুলাম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-115",
+      "question": "রাইবোজোমের আবিষ্কারক কে?",
+      "options": [
+        "ক্লদ বার্নার্ড",
+        "আলবার্ট ক্লদ",
+        "জর্জ প্যালেড",
+        "ক্রিশ্চিয়ান ডি ডুভ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-116",
+      "question": "লাইসোজোম আবিষ্কার করেন কে?",
+      "options": [
+        "ক্রিশ্চিয়ান ডি ডুভ",
+        "রবার্ট ব্রাউন",
+        "কামিলো গলজি",
+        "সান্তিয়াগো রামন কাহাল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-117",
+      "question": "গলগি বডি আবিষ্কার করেন -",
+      "options": [
+        "কামিলো গলজি",
+        "আলবার্ট সেন্ট-জিওর্গি",
+        "লুই পাস্তুর",
+        "রবার্ট হুক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-118",
+      "question": "নিউক্লিয়াসের মধ্যে থাকা জালিকার মত বিন্যাসকে কী বলে?",
+      "options": [
+        "ক্রোমাটিন",
+        "নিউক্লিওপ্লাজম",
+        "নিউক্লিওলাস",
+        "ক্রোমোজোম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-119",
+      "question": "নিচের কোনটি কোষ বিভাজনের জন্য প্রয়োজন?",
+      "options": [
+        "সেন্ট্রিওল",
+        "স্পিন্ডল তন্তু",
+        "DNA প্রতিলিপি",
+        "ক্লোরোফিল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-120",
+      "question": "কোনটিকে ‘কোষের অন্তঃপ্রবাহী জালিকা’ বলা হয়?",
+      "options": [
+        "গলগি বডি",
+        "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "লাইসোজোম",
+        "মাইটোকন্ড্রিয়া"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-121",
+      "question": "নিচের কোনটি স্মুথ ER-এর কাজ নয়?",
+      "options": [
+        "ডিটক্সিফিকেশন",
+        "স্টেরয়েড হরমোন সংশ্লেষণ",
+        "প্রোটিন সংশ্লেষণ",
+        "ক্যালসিয়াম আয়ন সঞ্চয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-122",
+      "question": "কোন অঙ্গাণুতে ক্রিস্টি (Cristae) থাকে?",
+      "options": [
+        "ক্লোরোপ্লাস্ট",
+        "মাইটোকন্ড্রিয়া",
+        "গলগি বডি",
+        "নিউক্লিয়াস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-123",
+      "question": "সাইটোপ্লাজমের জেলির মত অংশকে কী বলে?",
+      "options": [
+        "সাইটোসোল",
+        "নিউক্লিওপ্লাজম",
+        "ম্যাট্রিক্স",
+        "স্ট্রোমা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-124",
+      "question": "কোন কোষ বিভাজনে ক্রোমোজোম সংখ্যা অর্ধেক হয়?",
+      "options": [
+        "মাইটোসিস",
+        "অ্যামাইটোসিস",
+        "মিয়োসিস",
+        "ফ্র্যাগমেন্টেশন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-125",
+      "question": "নিচের কোনটি মিয়োসিসের একটি গুরুত্বপূর্ণ ঘটনা?",
+      "options": [
+        "ক্রসিং ওভার",
+        "ডিএনএ প্রতিলিপির অভাব",
+        "সেন্ট্রিওল অনুপস্থিতি",
+        "সরাসরি বিভাজন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-126",
+      "question": "হিউম্যান জিনোম প্রজেক্ট অনুযায়ী মানুষের মোট জিনের আনুমানিক সংখ্যা কত?",
+      "options": [
+        "5000-10000",
+        "20000-25000",
+        "100000",
+        "1 মিলিয়ন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-127",
+      "question": "অটোজোম (Autosome) কী?",
+      "options": [
+        "লিঙ্গ নির্ধারক ক্রোমোজোম",
+        "লিঙ্গ ছাড়া অন্যান্য বৈশিষ্ট্য বহনকারী ক্রোমোজোম",
+        "মাইটোকন্ড্রিয়াল ক্রোমোজোম",
+        "কৃত্রিম ক্রোমোজোম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-128",
+      "question": "মানুষের লিঙ্গ ক্রোমোজোম কোনটি?",
+      "options": [
+        "A এবং B",
+        "X এবং Y",
+        "C এবং D",
+        "M এবং N"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-129",
+      "question": "একজন পুরুষের স্পার্মে কী কী লিঙ্গ ক্রোমোজোম থাকতে পারে?",
+      "options": [
+        "শুধু X",
+        "শুধু Y",
+        "X বা Y",
+        "X এবং Y উভয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-130",
+      "question": "নিচের কোনটি হ্যাপ্লয়েড কোষ?",
+      "options": [
+        "যকৃত কোষ",
+        "পেশি কোষ",
+        "মানুষের ডিম্বাণু",
+        "স্নায়ু কোষ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-131",
+      "question": "মাইটোকন্ড্রিয়াল DNA (mtDNA) সম্পর্কে সঠিক উক্তি -",
+      "options": [
+        "গোলাকার হয়",
+        "মাতৃসূত্রে প্রাপ্ত",
+        "পিতৃসূত্রে প্রাপ্ত",
+        "প্রোক্যারিওটিক DNA-র মতো"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-132",
+      "question": "ক্রোমোজোমের প্রান্তে সুরক্ষাকারী কাঠামোটির নাম কী?",
+      "options": [
+        "সেন্ট্রোমিয়ার",
+        "টেলোমিয়ার",
+        "কাইনেটোকোর",
+        "স্যাটেলাইট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-133",
+      "question": "সেন্ট্রোমিয়ার অঞ্চলে প্রোটিন কমপ্লেক্সকে কী বলে?",
+      "options": [
+        "কাইনেটোকোর",
+        "টেলোমিয়ার",
+        "নিউক্লিওসোম",
+        "ক্রোমাটিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-134",
+      "question": "DNA-র এককে নিউক্লিওটাইড কী দিয়ে গঠিত?",
+      "options": [
+        "চিনি + ফসফেট + ক্ষারক",
+        "চিনি + অ্যামিনো অ্যাসিড",
+        "ফসফেট + গ্লিসারল",
+        "চিনি + লিপিড"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-135",
+      "question": "DNA-তে চিনির নাম কী?",
+      "options": [
+        "রাইবোজ",
+        "ডিঅক্সিরাইবোজ",
+        "সুক্রোজ",
+        "গ্লুকোজ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-136",
+      "question": "RNA-তে চিনির নাম কী?",
+      "options": [
+        "রাইবোজ",
+        "ডিঅক্সিরাইবোজ",
+        "ফ্রুকটোজ",
+        "ম্যালটোজ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-137",
+      "question": "একটি নিউক্লিওটাইডে ফসফেট যুক্ত থাকে চিনির কোন কার্বনের সাথে?",
+      "options": [
+        "1' C",
+        "3' C",
+        "5' C",
+        "2' C"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-138",
+      "question": "DNA-র দুটি স্ট্র্যান্ড কী বন্ধন দ্বারা যুক্ত থাকে?",
+      "options": [
+        "পেপটাইড বন্ধন",
+        "গ্লাইকোসাইডিক বন্ধন",
+        "হাইড্রোজেন বন্ধন",
+        "ডাইসালফাইড বন্ধন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-139",
+      "question": "অ্যাডেনিনের সাথে থাইমিনের কয়টি হাইড্রোজেন বন্ধন থাকে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-140",
+      "question": "সাইটোসিনের সাথে গুয়ানিনের কয়টি হাইড্রোজেন বন্ধন থাকে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-141",
+      "question": "কোন খাদ্য উপাদানগুলি উদ্ভিদের লিউকোপ্লাস্টে সঞ্চিত থাকে?",
+      "options": [
+        "স্টার্চ (অ্যামাইলোপ্লাস্ট)",
+        "তেল (এলাইওপ্লাস্ট)",
+        "প্রোটিন (প্রোটিনোপ্লাস্ট)",
+        "ক্লোরোফিল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-142",
+      "question": "প্রোফেজ দশার একটি গুরুত্বপূর্ণ ঘটনা কী?",
+      "options": [
+        "ক্রোমোজোমের কুণ্ডলীকরণ ও ঘনীভবন",
+        "ক্রোমোজোমের বিন্যাস",
+        "সাইটোপ্লাজম বিভাজন",
+        "DNA প্রতিলিপি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-143",
+      "question": "অ্যানাফেজ দশায় কোনটি ঘটে?",
+      "options": [
+        "ক্রোমাটিড পৃথকীকরণ",
+        "নিউক্লিয়ার মেমব্রেন গঠন",
+        "ক্রোমোজোমের পুনরাবির্ভাব",
+        "স্পিন্ডল গঠন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-144",
+      "question": "টেলোফেজের শেষে কী গঠিত হয়?",
+      "options": [
+        "দুইটি নিউক্লিয়াস",
+        "চারটি নিউক্লিয়াস",
+        "একটি নিউক্লিয়াস",
+        "কোনো নিউক্লিয়াস নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-145",
+      "question": "মিয়োসিস I ও মিয়োসিস II-এর মধ্যে ইন্টারকাইনেসিস (Interkinesis) দশায় কী ঘটে?",
+      "options": [
+        "DNA প্রতিলিপি",
+        "কোনো DNA প্রতিলিপি ঘটে না",
+        "ক্রোমোজোম সংখ্যা দ্বিগুণ হয়",
+        "কোষ মারা যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-146",
+      "question": "নিচের কোনটি মিয়োসিস II-এর বৈশিষ্ট্য?",
+      "options": [
+        "হোমোলোগাস ক্রোমোজোম পৃথক হয়",
+        "সিস্টার ক্রোমাটিড পৃথক হয়",
+        "ক্রসিং ওভার ঘটে",
+        "ক্রোমোজোম সংখ্যা অর্ধেক হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-147",
+      "question": "একটি কোষ চক্রের পর কয়টি অপত্য কোষ তৈরি হয় (মাইটোসিসের ক্ষেত্রে)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-148",
+      "question": "একটি মিয়োসিস প্রক্রিয়ার পর কয়টি হ্যাপ্লয়েড কোষ তৈরি হয়?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-149",
+      "question": "নিচের কোন জোড়াটি সঠিক?",
+      "options": [
+        "G1 - DNA replication",
+        "S - cell growth",
+        "G2 - preparation for mitosis",
+        "M - RNA synthesis"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-150",
+      "question": "স্টেম সেল-এর একটি গুরুত্বপূর্ণ বৈশিষ্ট্য হলো -",
+      "options": [
+        "কেবল একটি ধরনের কোষে পরিণত হতে পারে",
+        "অসীম সংখ্যক বার বিভাজিত হয়ে বিভিন্ন কোষে রূপ নিতে পারে",
+        "বিভাজিত হয় না",
+        "শুধু ভ্রূণেই থাকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-151",
+      "question": "নিচের কোনটি প্লুরিপোটেন্ট স্টেম সেলের উদাহরণ?",
+      "options": [
+        "ত্বকের স্টেম সেল",
+        "ভ্রূণের অভ্যন্তরীণ কোষগুচ্ছ (Inner cell mass)",
+        "রক্তের স্টেম সেল",
+        "স্নায়ু স্টেম সেল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-152",
+      "question": "নিচের বিবৃতিটি পড়ুন: “মাইটোকন্ড্রিয়ায় ATP উৎপাদন ঘটে এবং এতে DNA থাকে।” এটি -",
+      "options": [
+        "সম্পূর্ণ সত্য",
+        "আংশিক সত্য",
+        "সম্পূর্ণ মিথ্যা",
+        "অর্থহীন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-153",
+      "question": "নিচের কোনটি প্রোক্যারিওটিক কোষে পাওয়া যায়?",
+      "options": [
+        "মেসোজোম",
+        "নিউক্লিয়ার ঝিল্লি",
+        "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "গলগি বডি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-154",
+      "question": "প্লাজমা মেমব্রেনের ‘আইসোটোনিক’ দ্রবণে কোষের কী অবস্থা হয়?",
+      "options": [
+        "ফুলে ওঠে",
+        "সংকুচিত হয়",
+        "স্বাভাবিক আকৃতি বজায় রাখে",
+        "ভেঙে যায়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-155",
+      "question": "নিচের কোনটি এন্ডোসাইটোসিসের প্রকার?",
+      "options": [
+        "ফ্যাগোসাইটোসিস",
+        "পিনোসাইটোসিস",
+        "এক্সোসাইটোসিস",
+        "ডিফিউশন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-156",
+      "question": "নিউক্লিওলাসের প্রধান উপাদান কী?",
+      "options": [
+        "DNA",
+        "RNA ও প্রোটিন",
+        "শুধু লিপিড",
+        "কার্বোহাইড্রেট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-157",
+      "question": "নিউক্লিয়ার ঝিল্লির বাইরের স্তর কোন অঙ্গাণুর সাথে যুক্ত থাকে?",
+      "options": [
+        "গলগি বডি",
+        "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "লাইসোজোম",
+        "প্লাজমা মেমব্রেন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-158",
+      "question": "কোন অঙ্গাণুতে অক্সিডেটিভ ফসফোরাইলেশন ঘটে?",
+      "options": [
+        "সাইটোপ্লাজম",
+        "মাইটোকন্ড্রিয়া",
+        "নিউক্লিয়াস",
+        "গলগি বডি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-159",
+      "question": "কোন প্রক্রিয়ায় গ্লুকোজ থেকে পাইরুভেট তৈরি হয়?",
+      "options": [
+        "ক্যালভিন চক্র",
+        "গ্লাইকোলাইসিস",
+        "ক্রেবস চক্র",
+        "ইলেকট্রন ট্রান্সপোর্ট চেইন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-160",
+      "question": "ক্লোরোপ্লাস্টের স্ট্রোমায় কী ঘটে?",
+      "options": [
+        "আলো নির্ভর বিক্রিয়া",
+        "ক্যালভিন চক্র (অন্ধকার বিক্রিয়া)",
+        "ATP সংশ্লেষ",
+        "পানি ফটোলাইসিস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-161",
+      "question": "কোনটি সাদা রক্তকণিকা কর্তৃক ব্যাকটেরিয়া গ্রাস করার প্রক্রিয়া?",
+      "options": [
+        "পিনোসাইটোসিস",
+        "ফ্যাগোসাইটোসিস",
+        "এক্সোসাইটোসিস",
+        "ডিফিউশন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-162",
+      "question": "নিচের কোন বিবৃতিটি মিথ্যা?",
+      "options": [
+        "প্লান্ট সেলে সেন্ট্রিওল থাকে না",
+        "অ্যানিমেল সেলে কোষপ্রাচীর থাকে",
+        "ইউক্যারিওটিক কোষে নিউক্লিয়াস থাকে",
+        "প্রোক্যারিওটিক কোষে 70S রাইবোজোম থাকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-163",
+      "question": "নিচের কোনটি কোষের আয়তন সীমিত রাখে?",
+      "options": [
+        "নিউক্লিয়াসের আকার",
+        "পৃষ্ঠতল থেকে আয়তনের অনুপাত",
+        "সাইটোপ্লাজমের পরিমাণ",
+        "মাইটোকন্ড্রিয়ার সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-164",
+      "question": "একটি ইউক্যারিওটিক কোষের ব্যাসার্ধ দ্বিগুণ করলে তার আয়তন কত গুণ বৃদ্ধি পায়?",
+      "options": [
+        "2 গুণ",
+        "4 গুণ",
+        "6 গুণ",
+        "8 গুণ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-165",
+      "question": "নিউক্লিয়াসের কাজ কী কী?",
+      "options": [
+        "কোষীয় বংশগতি নির্ধারণ",
+        "প্রোটিন সংশ্লেষণের নির্দেশ দেওয়া",
+        "কোষ বিভাজন নিয়ন্ত্রণ",
+        "খাদ্য হজম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-166",
+      "question": "লাইসোজোমের এনজাইমগুলির জন্য সর্বোত্তম pH কত?",
+      "options": [
+        "7.0 (নিরপেক্ষ)",
+        "8.5 (ক্ষারীয়)",
+        "5.0 (অম্লীয়)",
+        "10.0"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-167",
+      "question": "নিচের কোনটি গ্লাইকোক্যালিক্সের উপাদান?",
+      "options": [
+        "লিপিড",
+        "গ্লাইকোপ্রোটিন ও গ্লাইকোলিপিড",
+        "নিউক্লিক অ্যাসিড",
+        "কাইটিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-168",
+      "question": "মাইক্রোভিলি কোথায় থাকে এবং এর কাজ কী?",
+      "options": [
+        "ক্ষুদ্রান্ত্রে, পৃষ্ঠতল বৃদ্ধি করে শোষণ বাড়ায়",
+        "শ্বাসনালীতে, বর্জ্য অপসারণ করে",
+        "রক্তে, অক্সিজেন বহন করে",
+        "পেশিতে, সংকোচন ঘটায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-169",
+      "question": "কোন উদ্ভিদ অঙ্গাণুতে পাইরয়েড বডি দেখা যায়?",
+      "options": [
+        "ক্লোরোপ্লাস্ট (শৈবালে স্টার্চ সঞ্চয়)",
+        "মাইটোকন্ড্রিয়া",
+        "লিউকোপ্লাস্ট",
+        "নিউক্লিয়াস"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-170",
+      "question": "ভ্যাকুওলের পর্দাকে কী বলে?",
+      "options": [
+        "টোনোপ্লাস্ট",
+        "প্লাজমা মেমব্রেন",
+        "নিউক্লিয়ার ঝিল্লি",
+        "থাইলাকয়েড"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-171",
+      "question": "থাইলাকয়েড স্তুপীকৃত অংশকে কী বলে?",
+      "options": [
+        "গ্র্যানাম",
+        "স্ট্রোমা",
+        "সিস্টার্নি",
+        "ক্রিস্টি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-172",
+      "question": "নিচের কোনটি মাইটোসিসের একটি গুরুত্বপূর্ণ তাৎপর্য?",
+      "options": [
+        "গ্যামেট সৃষ্টি",
+        "জিনগত বৈচিত্র্য সৃষ্টি",
+        "বৃদ্ধি ও জীর্ণ কোষ প্রতিস্থাপন",
+        "ক্রোমোজোম সংখ্যা অর্ধেক করা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-173",
+      "question": "মিয়োসিসের গুরুত্বপূর্ণ তাৎপর্য কী?",
+      "options": [
+        "একই রকম কোষ উৎপাদন",
+        "ক্রোমোজোম সংখ্যা বজায় রাখা",
+        "জিনগত বৈচিত্র্য ও হ্যাপ্লয়েড গ্যামেট সৃষ্টি",
+        "কোষের আকার বৃদ্ধি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-174",
+      "question": "নিচের কোনটি ‘অ্যাক্রোসোম’?",
+      "options": [
+        "শুক্রাণুর মাথায় অবস্থিত লাইসোজোমজাতীয় অঙ্গাণু",
+        "ডিম্বাণুর অংশ",
+        "একটি হরমোন",
+        "মাইটোকন্ড্রিয়ার অংশ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-175",
+      "question": "নিচের কোনটি রাফ ER-এর কাজ?",
+      "options": [
+        "প্রোটিন সংশ্লেষণ",
+        "প্রোটিনের গ্লাইকোসাইলেশন",
+        "প্রোটিনের ভাঁজ (folding)",
+        "স্টেরয়েড সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-176",
+      "question": "একটি ভাইরাসকে কেন কোষ বলা যায় না?",
+      "options": [
+        "কারণ এটি নগ্ন",
+        "কারণ এটি নিজে থেকে বিভাজিত হতে পারে না ও নিজস্ব অঙ্গাণু নেই",
+        "কারণ এটি বড়",
+        "কারণ এটি বর্ণহীন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-177",
+      "question": "সাইটোপ্লাজমিক স্ট্রিমিং (Cytoplasmic streaming) কী?",
+      "options": [
+        "কোষের নড়াচড়া",
+        "সাইটোপ্লাজমের অভ্যন্তরীণ চলাচল",
+        "কোষ বিভাজন",
+        "বর্জ্য নির্গমন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-178",
+      "question": "নিচের কোনটি ইউক্যারিওটিক রাইবোজোমের সাবইউনিট?",
+      "options": [
+        "50S + 30S",
+        "60S + 40S",
+        "30S + 20S",
+        "40S + 50S"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-179",
+      "question": "একটি কোষের নিউক্লিয়াস অপসারণ করলে কী ঘটবে?",
+      "options": [
+        "কোষ স্বাভাবিক থাকবে",
+        "কোষ দীর্ঘকাল বাঁচবে",
+        "কোষ কিছুদিন বাঁচবে কিন্তু বিভাজিত হবে না ও শেষে মারা যাবে",
+        "কোষ আরও দ্রুত বিভাজিত হবে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-180",
+      "question": "ম্যানোমেট্রিক পদ্ধতিতে কী মাপা হয়?",
+      "options": [
+        "কোষের আকার",
+        "অসমোটিক চাপ",
+        "কোষীয় শ্বসনে গ্যাস বিনিময়",
+        "DNA পরিমাণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-181",
+      "question": "নিচের কোনটি সাইটোপ্লাজমের কাজ নয়?",
+      "options": [
+        "কোষীয় অঙ্গাণু ধারণ করা",
+        "রাসায়নিক বিক্রিয়ার মাধ্যম সরবরাহ",
+        "বংশগতি তথ্য বহন করা",
+        "পদার্থ পরিবহন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-182",
+      "question": "‘লাইপোফুসিন’ কী?",
+      "options": [
+        "বার্ধক্যজনিত রঞ্জক পদার্থ যা লাইসোজোমে জমা হয়",
+        "একটি প্রোটিন",
+        "একটি কার্বোহাইড্রেট",
+        "একটি ভিটামিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-183",
+      "question": "প্রোক্যারিওটিক কোষে কোষপ্রাচীরের উপাদান কী?",
+      "options": [
+        "সেলুলোজ",
+        "পেপটিডোগ্লাইকান (মিউরিন)",
+        "কাইটিন",
+        "লিগনিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-184",
+      "question": "নিচের কোনটি ‘পর্দাবদ্ধ অঙ্গাণু’ নয়?",
+      "options": [
+        "নিউক্লিয়াস",
+        "রাইবোজোম",
+        "মাইটোকন্ড্রিয়া",
+        "গলগি বডি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-185",
+      "question": "নিচের কোনগুলি সেন্ট্রোজোমের কাজ?",
+      "options": [
+        "স্পিন্ডল তন্তু গঠন",
+        "কোষ বিভাজনের দিক নির্ণয়",
+        "সিলিয়া ও ফ্ল্যাজেলাম গঠন",
+        "প্রোটিন সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-186",
+      "question": "একটি ডিম্বাণু ও শুক্রাণুর মিলনে কী উৎপন্ন হয়?",
+      "options": [
+        "হ্যাপ্লয়েড কোষ",
+        "ডিপ্লয়েড জাইগোট",
+        "ট্রিপ্লয়েড কোষ",
+        "টেট্রাপ্লয়েড কোষ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-187",
+      "question": "নিচের বিবৃতিটি সত্যি না মিথ্যা? “ছত্রাককোষের কোষপ্রাচীর কাইটিন দিয়ে গঠিত।”",
+      "options": [
+        "সত্যি",
+        "মিথ্যা",
+        "",
+        ""
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-188",
+      "question": "ক্লোরোপ্লাস্টের নিজস্ব DNA কীরকম?",
+      "options": [
+        "রৈখিক একক সুতা",
+        "বৃত্তাকার ডাবল সুতা",
+        "রৈখিক ডাবল সুতা",
+        "নেই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-189",
+      "question": "কোন উদ্ভিদ অঙ্গাণুতে স্টার্চ সংশ্লেষিত হয়?",
+      "options": [
+        "ক্লোরোপ্লাস্ট ও লিউকোপ্লাস্ট",
+        "শুধু ক্লোরোপ্লাস্ট",
+        "শুধু লিউকোপ্লাস্ট",
+        "মাইটোকন্ড্রিয়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-190",
+      "question": "1 মাইক্রোমিটার (µm) কত মিটারের সমান?",
+      "options": [
+        "10⁻³ m",
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁻¹² m"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-191",
+      "question": "কোষের আকার পরিমাপের জন্য কোন একক ব্যবহার করা হয়?",
+      "options": [
+        "মিটার",
+        "সেন্টিমিটার",
+        "মাইক্রোমিটার",
+        "কিলোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-192",
+      "question": "একটি সাধারণ ইউক্যারিওটিক কোষের ব্যাস কত?",
+      "options": [
+        "0.1-0.5 µm",
+        "1-5 µm",
+        "10-100 µm",
+        "1-2 mm"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-193",
+      "question": "নিচের কোনটি মাইটোকন্ড্রিয়ার কাজ নয়?",
+      "options": [
+        "শ্বসন",
+        "ATP সংশ্লেষণ",
+        "ফ্যাটি অ্যাসিড জারণ",
+        "গ্লাইকোলাইসিস"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-194",
+      "question": "গ্লাইকোলাইসিস কোথায় ঘটে?",
+      "options": [
+        "মাইটোকন্ড্রিয়ার ম্যাট্রিক্সে",
+        "সাইটোপ্লাজমে",
+        "নিউক্লিয়াসে",
+        "ক্লোরোপ্লাস্টে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-195",
+      "question": "অ্যানিমেল সেলের ভ্যাকুওল সম্পর্কে সঠিক তথ্য কোনটি?",
+      "options": [
+        "অনেকগুলি ও ছোট আকারের হয়",
+        "খাদ্য ও বর্জ্য সঞ্চয় করে",
+        "কোষটারকে চাপ দেয়",
+        "একক ও বড় হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-196",
+      "question": "নিচের কোনটি প্লান্ট সেলের ভ্যাকুওলের কাজ?",
+      "options": [
+        "কোষের টার্গর চাপ বজায় রাখা",
+        "পানি ও আয়ন সঞ্চয়",
+        "বর্জ্য পদার্থ জমা করা",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-197",
+      "question": "ক্রোমোজোমের যে অংশ অন্য ক্রোমোজোমের সাথে সংযুক্ত হতে পারে তাকে কী বলে?",
+      "options": [
+        "স্যাটেলাইট",
+        "সেন্ট্রোমিয়ার",
+        "টেলোমিয়ার",
+        "কাইনেটোকোর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-198",
+      "question": "নিচের কোন জিনোটাইপটি হোমোজাইগাস রিসেসিভ?",
+      "options": [
+        "AA",
+        "Aa",
+        "aa",
+        "aA"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-199",
+      "question": "নিচের কোন জিনোটাইপটি হেটেরোজাইগাস?",
+      "options": [
+        "AA",
+        "Aa",
+        "aa",
+        "BB"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-200",
+      "question": "মিউটেশনের ফলে কী হতে পারে?",
+      "options": [
+        "জিনের কার্যকারিতা পরিবর্তন",
+        "ক্যান্সার",
+        "বংশগত রোগ",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-201",
+      "question": "ট্রান্সক্রিপশন (Transcription) বলতে কী বোঝায়?",
+      "options": [
+        "DNA থেকে RNA তৈরি",
+        "RNA থেকে প্রোটিন তৈরি",
+        "DNA প্রতিলিপি",
+        "প্রোটিন ভাঙন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-202",
+      "question": "ট্রান্সলেশন (Translation) বলতে কী বোঝায়?",
+      "options": [
+        "DNA থেকে RNA তৈরি",
+        "RNA থেকে প্রোটিন তৈরি",
+        "DNA প্রতিলিপি",
+        "কোষ বিভাজন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-203",
+      "question": "নিচের কোনটি নন-কোডিং RNA-র উদাহরণ?",
+      "options": [
+        "mRNA",
+        "tRNA ও rRNA",
+        "DNA",
+        "ATP"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-204",
+      "question": "একটি mRNA-তে কোডন (Codon) কী নির্দেশ করে?",
+      "options": [
+        "একটি অ্যামিনো অ্যাসিড",
+        "একটি প্রোটিন",
+        "একটি জিন",
+        "একটি ক্রোমোজোম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-205",
+      "question": "মিয়োসিসের ফলে সৃষ্ট বৈচিত্র্যের কারণ -",
+      "options": [
+        "ক্রসিং ওভার",
+        "ইন্ডিপেন্ডেন্ট অ্যাসোর্টমেন্ট",
+        "মিউটেশন",
+        "অবিভাজন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-206",
+      "question": "নিচের কোনটি সঠিক মিল?",
+      "options": [
+        "এক্সোসাইটোসিস - কোষের ভেতরে বড় কণা প্রবেশ",
+        "এন্ডোসাইটোসিস - কোষের বাইরে পদার্থ নিঃসরণ",
+        "ফ্যাগোসাইটোসিস - কঠিন কণা গ্রাস",
+        "পিনোসাইটোসিস - কঠিন কণা গ্রাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-207",
+      "question": "‘মিনিস্যাটেলাইট’ ও ‘মাইক্রোস্যাটেলাইট’ কীসের অংশ?",
+      "options": [
+        "DNA-র পুনরাবৃত্তিকারী অংশ (অনুপ্রেরক হিসেবে ব্যবহৃত হয়)",
+        "প্রোটিনের নাম",
+        "RNA-র অংশ",
+        "লিপিডের নাম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-01-208",
+      "question": "ক্লোরোপ্লাস্টের থাইলাকয়েড ঝিল্লিতে কী ঘটে?",
+      "options": [
+        "আলো নির্ভর বিক্রিয়া",
+        "ক্যালভিন চক্র",
+        "গ্লাইকোলাইসিস",
+        "ফেরমেন্টেশন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-209",
+      "question": "কোনটি সৌরশক্তিকে রাসায়নিক শক্তিতে রূপান্তর করে?",
+      "options": [
+        "মাইটোকন্ড্রিয়া",
+        "ক্লোরোপ্লাস্ট",
+        "নিউক্লিয়াস",
+        "রাইবোজোম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-01-210",
+      "question": "কোন অঙ্গাণুটিকে ‘অটোফ্যাজি’ প্রক্রিয়ার সাথে সম্পর্কিত বলা হয়?",
+      "options": [
+        "লাইসোজোম",
+        "গলগি বডি",
+        "পারক্সিসোম",
+        "সেন্ট্রিওল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-01-211",
+      "question": "প্ল্যান্ট সেলে থাকে কিন্তু অ্যানিমেল সেলে থাকে না -",
+      "options": [
+        "কোষপ্রাচীর",
+        "ক্লোরোপ্লাস্ট",
+        "বড় ভ্যাকুওল",
+        "সেন্ট্রিওল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-212",
+      "question": "নিচের কোনটি মাইটোসিসের প্রোফেজের বৈশিষ্ট্য?",
+      "options": [
+        "ক্রোমোজোম কুণ্ডলীভূত হয়",
+        "নিউক্লিয়ার মেমব্রেন ভাঙে",
+        "সেন্ট্রিওল মেরুতে সরে যায়",
+        "ক্রোমোজোম বিষুবরেখায় সাজে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-213",
+      "question": "অ্যাক্টিভ ট্রান্সপোর্টের উদাহরণ কোনগুলি?",
+      "options": [
+        "Na⁺/K⁺ পাম্প",
+        "ক্যালসিয়াম পাম্প",
+        "অক্সিজেনের চলাচল",
+        "গ্লুকোজের সক্রিয় শোষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-214",
+      "question": "প্রোক্যারিওটিক কোষের বৈশিষ্ট্য -",
+      "options": [
+        "নিউক্লিয়য়েড থাকে",
+        "মেমব্রেন-বাউন্ড অর্গানেল নেই",
+        "80S রাইবোজোম থাকে",
+        "প্লাজমিড থাকতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-215",
+      "question": "ক্রোমোজোমের প্রকারভেদ এইগুলির উপর নির্ভর করে-",
+      "options": [
+        "সেন্ট্রোমিয়ারের অবস্থান",
+        "বাহুর দৈর্ঘ্য",
+        "রঙ",
+        "সংখ্যা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-216",
+      "question": "স্মুথ ER-এর কাজ -",
+      "options": [
+        "লিপিড সংশ্লেষণ",
+        "ডিটক্সিফিকেশন",
+        "গ্লাইকোজেন ভাঙন",
+        "প্রোটিন সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-217",
+      "question": "গলগি বডির কাজ -",
+      "options": [
+        "নিঃসরণ পদার্থের প্যাকেজিং",
+        "লাইসোজোম গঠন",
+        "পলিস্যাকারাইড সংশ্লেষণ",
+        "ATP তৈরি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-218",
+      "question": "নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "মাইটোসিস অভিন্ন কোষ উৎপন্ন করে",
+        "মিয়োসিসে ক্রসিং ওভার ঘটে",
+        "মাইটোসিসে ক্রোমোজোম সংখ্যা অর্ধেক হয়",
+        "মিয়োসিসে চারটি হ্যাপ্লয়েড কোষ তৈরি হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-219",
+      "question": "DNA প্রতিলিপিতে প্রয়োজনীয় উপাদান -",
+      "options": [
+        "DNA পলিমারেজ",
+        "প্রাইমার",
+        "নিউক্লিওটাইড",
+        "রাইবোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-220",
+      "question": "ক্লোরোপ্লাস্টের অংশ -",
+      "options": [
+        "গ্র্যানা",
+        "স্ট্রোমা",
+        "থাইলাকয়েড",
+        "ক্রিস্টি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-221",
+      "question": "নিচের কোনটি ডিফিউশনের উপর নির্ভরশীল?",
+      "options": [
+        "তাপমাত্রা",
+        "ঘনত্বের পার্থক্য",
+        "ATP এর পরিমাণ",
+        "কণার আকার"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-222",
+      "question": "হাইপোটনিক দ্রবণে প্লান্ট সেলের কী ঘটে?",
+      "options": [
+        "কোষ ফুলে ওঠে",
+        "টার্গর চাপ বৃদ্ধি পায়",
+        "কোষ ফেটে যায়",
+        "প্লাজমোলাইসিস হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-223",
+      "question": "নিচের কোনটি নিউক্লিওটাইডের উপাদান?",
+      "options": [
+        "নাইট্রোজেন ক্ষারক",
+        "পেন্টোজ চিনি",
+        "ফসফেট গ্রুপ",
+        "গ্লিসারল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-224",
+      "question": "RNA-র প্রকারভেদ -",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "mtDNA"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-225",
+      "question": "মাইটোসিস ঘটে -",
+      "options": [
+        "ভ্রূণের বৃদ্ধিতে",
+        "ক্ষত সারাতে",
+        "গ্যামেট গঠনে",
+        "জীর্ণ কোষ প্রতিস্থাপনে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-226",
+      "question": "নিচের কোনটি উদ্ভিদ কোষে সঞ্চিত খাদ্য?",
+      "options": [
+        "স্টার্চ",
+        "তেল",
+        "গ্লাইকোজেন",
+        "প্রোটিন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-227",
+      "question": "প্রোফেজ I-এর বিভিন্ন উপদশা -",
+      "options": [
+        "লেপ্টোটিন",
+        "জাইগোটিন",
+        "প্যাকাইটিন",
+        "অ্যানাফেজ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-228",
+      "question": "মিয়োসিসের গুরুত্ব -",
+      "options": [
+        "ক্রোমোজোম সংখ্যা অর্ধেক করা",
+        "জিনগত বৈচিত্র্য সৃষ্টি",
+        "দেহকোষ উৎপাদন",
+        "গ্যামেট গঠন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-229",
+      "question": "নিচের কোনটি অ্যাসিডীয় অর্গানেল?",
+      "options": [
+        "লাইসোজোম",
+        "এন্ডোসোম",
+        "মাইটোকন্ড্রিয়া (ম্যাট্রিক্স নিরপেক্ষ)",
+        "নিউক্লিয়াস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-230",
+      "question": "নিচের কোনটি ‘পারক্সিসোম’ -এর কাজ?",
+      "options": [
+        "ফ্যাটি অ্যাসিড β-অক্সিডেশন",
+        "হাইড্রোজেন পারক্সাইড নির্মূল",
+        "ক্যাটালেজ এনজাইম থাকে",
+        "প্রোটিন সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-231",
+      "question": "কোন বিবৃতিটি সত্য?",
+      "options": [
+        "লাইসোজোম কোষের প্রতিরক্ষায় কাজ করে",
+        "অটোফ্যাজিতে লাইসোজোম ভূমিকা রাখে",
+        "লাইসোজোমের pH নিরপেক্ষ",
+        "লাইসোজোমের এনজাইম হাইড্রোলেজ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-232",
+      "question": "নিচের কোনটি কোষের ঝিল্লির কাজ?",
+      "options": [
+        "নির্বাচনী প্রাচীর",
+        "কোষে প্রবেশ ও বের হওয়া নিয়ন্ত্রণ",
+        "কোষকে আকার দেওয়া",
+        "বংশগতি নিয়ন্ত্রণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-233",
+      "question": "নিচের কোনটি সক্রিয় পরিবহনের উদাহরণ?",
+      "options": [
+        "আয়োডিন আয়ন থাইরয়েড কোষে প্রবেশ",
+        "রেনাল টিউবুলে গ্লুকোজ পুনঃশোষণ",
+        "জলীয় বাষ্পের চলাচল",
+        "অক্সিজেনের চলাচল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-234",
+      "question": "ক্রোমাটিন জালিকা গঠিত হয় -",
+      "options": [
+        "DNA",
+        "RNA",
+        "হিস্টোন প্রোটিন",
+        "লিপিড"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-235",
+      "question": "নিচের কোনটি উদ্ভিদ ও প্রাণী কোষের সাধারণ অঙ্গাণু?",
+      "options": [
+        "নিউক্লিয়াস",
+        "মাইটোকন্ড্রিয়া",
+        "ক্লোরোপ্লাস্ট",
+        "রাইবোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-236",
+      "question": "মিয়োসিস II-এর ঘটনা -",
+      "options": [
+        "ক্রোমোজোম সংখ্যা হ্যাপ্লয়েড থাকে",
+        "সিস্টার ক্রোমাটিড পৃথক হয়",
+        "রিডাকশনাল ডিভিশন",
+        "মাইটোসিসের অনুরূপ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-237",
+      "question": "নিচের কোনটি ‘জিন’ সম্পর্কে সত্য?",
+      "options": [
+        "DNA-র একটি ক্রম",
+        "প্রোটিন সংশ্লেষণের নির্দেশনা দেয়",
+        "একাধিক অ্যালিল থাকতে পারে",
+        "কখনো RNA দিয়েও গঠিত হতে পারে (RNA ভাইরাসে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-238",
+      "question": "নিচের কোনটি ফ্যাগোসাইটোসিসের উদাহরণ?",
+      "options": [
+        "অ্যামিবার খাদ্য গ্রহণ",
+        "লোহিত রক্তকণিকা অক্সিজেন গ্রহণ",
+        "শ্বেত রক্তকণিকা ব্যাকটেরিয়া ধ্বংস",
+        "উদ্ভিদের মূল দ্বারা পানি শোষণ"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-239",
+      "question": "DNA ও RNA-এর মধ্যে পার্থক্য -",
+      "options": [
+        "DNA-তে ডিঅক্সিরাইবোজ, RNA-তে রাইবোজ চিনি",
+        "DNA-তে থাইমিন, RNA-তে ইউরাসিল",
+        "DNA ডাবল স্ট্র্যান্ডেড, RNA সাধারণত সিংল স্ট্র্যান্ডেড",
+        "DNA-তে ফসফেট নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-240",
+      "question": "নিউক্লিয়াসের ভিতরে যা থাকে -",
+      "options": [
+        "ক্রোমাটিন",
+        "নিউক্লিওপ্লাজম",
+        "নিউক্লিওলাস",
+        "সেন্ট্রিওল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-241",
+      "question": "‘ফ্লুইড মোজাইক মডেল’ অনুযায়ী -",
+      "options": [
+        "লিপিড বাইলেয়ার তরল প্রকৃতির",
+        "প্রোটিনগুলি মোজাইকের মত সন্নিবেশিত",
+        "ঝিল্লি স্থির",
+        "গ্লাইকোপ্রোটিন পৃষ্ঠে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-242",
+      "question": "নিচের কোনটি প্লান্ট সেলের ‘কলয়েড অসমোটিক চাপে’ ভূমিকা রাখে?",
+      "options": [
+        "ভ্যাকুওল",
+        "সাইটোপ্লাজম",
+        "কোষপ্রাচীর",
+        "নিউক্লিয়াস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-243",
+      "question": "সেন্ট্রিওল সম্পর্কে সত্যি -",
+      "options": [
+        "9 টি ট্রিপলেট মাইক্রোটিউবিউল নিয়ে গঠিত",
+        "এটি প্রাণীকোষে থাকে",
+        "স্পিন্ডল গঠন করে",
+        "ক্লোরোপ্লাস্টে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-244",
+      "question": "মিয়োসিসের প্রথম দশা প্রোফেজ I-এ ঘটে -",
+      "options": [
+        "সিন্যাপসিস",
+        "ক্রসিং ওভার",
+        "টার্মিনালাইজেশন",
+        "সাইটোকাইনেসিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-245",
+      "question": "নিচের কোনটি ট্রান্সক্রিপশনের জন্য প্রয়োজন?",
+      "options": [
+        "RNA পলিমারেজ",
+        "ডিএনএ টেমপ্লেট",
+        "রাইবোজোম",
+        "নিউক্লিওটাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-246",
+      "question": "পিনোসাইটোসিসের ক্ষেত্রে -",
+      "options": [
+        "তরল পদার্থ গৃহীত হয়",
+        "ছোট ছোট ভেসিকল গঠিত হয়",
+        "‘সেল ড্রিংকিং’ নামে পরিচিত",
+        "বড় কঠিন কণা গৃহীত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-247",
+      "question": "প্রোক্যারিওটে প্লাজমিডের ভূমিকা -",
+      "options": [
+        "অ্যান্টিবায়োটিক প্রতিরোধী জিন বহন",
+        "লিঙ্গ নির্ধারণ",
+        "বিষক্রিয়া",
+        "অতিরিক্ত জেনেটিক উপাদান"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-248",
+      "question": "কোলেনকাইমা কোষের বৈশিষ্ট্য -",
+      "options": [
+        "কোষপ্রাচীর অসমভাবে পুরু",
+        "সজীব কোষ",
+        "শুধু মূলেই থাকে",
+        "ক্লোরোফিল থাকে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-249",
+      "question": "নিচের কোন স্টেম সেলটি প্লুরিপোটেন্ট?",
+      "options": [
+        "ভ্রূণের অন্তঃকোষগুচ্ছের কোষ",
+        "কর্ড ব্লাড স্টেম সেল (কিছুটা মাল্টিপোটেন্ট বেশি)",
+        "ত্বকের স্টেম সেল",
+        "ইনডিউসড প্লুরিপোটেন্ট স্টেম সেল (iPSC)"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-250",
+      "question": "প্লাজমা মেমব্রেনের কাজ -",
+      "options": [
+        "কোষের আকার ও আকৃতি রক্ষা",
+        "আয়ন ও অণুর নির্বাচনী চলাচল",
+        "কোষীয় সিগন্যালিং",
+        "সকল প্রোটিন সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-251",
+      "question": "G0 দশা (কোয়েসেন্ট স্টেজ) সম্পর্কে সত্যি?",
+      "options": [
+        "কোষ আর বিভাজিত হয় না",
+        "যেমন স্নায়ু কোষ",
+        "কোষ বিভাজনের জন্য প্রস্তুত থাকে",
+        "DNA প্রতিলিপি ঘটে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-252",
+      "question": "অ্যামাইলোপ্লাস্ট সম্পর্কে সঠিক তথ্য -",
+      "options": [
+        "স্টার্চ সঞ্চয়কারী লিউকোপ্লাস্ট",
+        "আলুতে দেখা যায়",
+        "শ্বসন ঘটায়",
+        "ক্লোরোফিল আছে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-253",
+      "question": "কোনটি সত্য?",
+      "options": [
+        "ধানের জিনোমে প্রায় 30,000 জিন থাকে",
+        "মানুষের জিনের সংখ্যা প্রায় 20,000-25,000",
+        "সব জিনই একই সময় সক্রিয় থাকে",
+        "জিন মিউটেশন ক্ষতিকর নাও হতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-254",
+      "question": "থাইলাকয়েড ঝিল্লিতে অবস্থিত -",
+      "options": [
+        "ক্লোরোফিল অণু",
+        "ইলেকট্রন ট্রান্সপোর্ট চেইন",
+        "ATP সিন্থেজ",
+        "ক্যালভিন চক্রের এনজাইম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-255",
+      "question": "নিচের কোনটি শুধুমাত্র উদ্ভিদ কোষে দেখা যায়?",
+      "options": [
+        "টোনোপ্লাস্ট",
+        "প্লাজমোডেসমাটা",
+        "সেন্ট্রিওল",
+        "কোষপ্রাচীর"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-256",
+      "question": "প্রোক্যারিওটিক কোষে পাওয়া যায় -",
+      "options": [
+        "সাইটোপ্লাজম",
+        "রাইবোজোম",
+        "প্লাজমা মেমব্রেন",
+        "মাইটোকন্ড্রিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-257",
+      "question": "মাইটোসিসের মেটাফেজে -",
+      "options": [
+        "ক্রোমোজোম বিষুবরেখায় সাজে",
+        "ক্রোমোজোম স্পিন্ডলে আটকে থাকে",
+        "প্রতিটি ক্রোমোজোমে দুটি ক্রোমাটিড থাকে",
+        "নিউক্লিয়ার মেমব্রেন পুনর্গঠিত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-258",
+      "question": "নিচের কোনটি অ্যানিমেল সেলের বৈশিষ্ট্য?",
+      "options": [
+        "কোষপ্রাচীর অনুপস্থিত",
+        "গ্লাইকোজেন সঞ্চয় করে",
+        "ক্লোরোপ্লাস্ট থাকে",
+        "ভ্যাকুওল ছোট ও সংখ্যায় বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-259",
+      "question": "নিচের কোনটি উদ্ভিদ কোষের বৈশিষ্ট্য?",
+      "options": [
+        "কোষপ্রাচীর সেলুলোজ দিয়ে গঠিত",
+        "প্লাস্টিড থাকে",
+        "সেন্ট্রিওল থাকে",
+        "বড় ভ্যাকুওল থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-260",
+      "question": "ব্যাকটেরিয়ার কোষপ্রাচীর -",
+      "options": [
+        "পেপটিডোগ্লাইকান দিয়ে গঠিত",
+        "গ্রাম পজিটিভে পুরু",
+        "গ্রাম নেগেটিভে পাতলা",
+        "সেলুলোজ দিয়ে গঠিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-261",
+      "question": "মাইটোকন্ড্রিয়ায় ক্রেবস চক্র ঘটে -",
+      "options": [
+        "ম্যাট্রিক্সে",
+        "অভ্যন্তরীণ ঝিল্লিতে",
+        "বাইরের ঝিল্লিতে",
+        "ক্রিস্টিতে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-262",
+      "question": "নিচের কোনটি কোষ বিভাজনের G1 দশায় ঘটে?",
+      "options": [
+        "সেলুলার প্রোটিন সংশ্লেষণ",
+        "RNA সংশ্লেষণ",
+        "ডিএনএ প্রতিলিপি",
+        "কোষের আকার বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-263",
+      "question": "সাইটোকাইনেসিস প্রক্রিয়া সম্পর্কে সঠিক তথ্য কী কী?",
+      "options": [
+        "প্লান্ট সেলে সেল প্লেট গঠনের মাধ্যমে হয়",
+        "অ্যানিমেল সেলে ক্লিভেজ ফারো গঠনের মাধ্যমে হয়",
+        "এটি সাইটোপ্লাজমের বিভাজন",
+        "এটি নিউক্লিয়াসের বিভাজন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-264",
+      "question": "নিচের কোনটি কোষের প্রোটিন সংশ্লেষণ প্রক্রিয়ার সাথে জড়িত?",
+      "options": [
+        "রাইবোজোম",
+        "মেসেঞ্জার RNA",
+        "ট্রান্সফার RNA",
+        "লাইসোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-265",
+      "question": "নিচের কোনটি সঠিকভাবে মিলেছে?",
+      "options": [
+        "জাইলেম - পানি ও খনিজ পরিবহন",
+        "ফ্লোয়েম - খাদ্য পরিবহন",
+        "প্যারেনকাইমা - সঞ্চয় ও সালোকসংশ্লেষণ",
+        "স্ক্লেরেনকাইমা - সজীব যান্ত্রিক টিস্যু"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-266",
+      "question": "একটি কোষের আকার নির্ভর করে -",
+      "options": [
+        "নিউক্লিয়াসের আকারের উপর",
+        "পৃষ্ঠতল ও আয়তনের অনুপাতের উপর",
+        "অঙ্গাণুর সংখ্যার উপর",
+        "জিনের সংখ্যার উপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-267",
+      "question": "নিচের কোনটি ‘পোস্ট-অফিস ও প্যাকিং’ অঙ্গাণু নামে পরিচিত?",
+      "options": [
+        "গলগি বডি",
+        "মাইটোকন্ড্রিয়া",
+        "নিউক্লিয়াস",
+        "লাইসোজোম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-268",
+      "question": "কোন কোন ক্ষেত্রে লাইসোজোম ফেটে গিয়ে কোষকে মৃতু্যর মুখে ঠেলে দেয়?",
+      "options": [
+        "রোগজীবাণু সংক্রমণে",
+        "অস্বাভাবিক কোষের বৃদ্ধি রোধে",
+        "স্বাভাবিক অবস্থায় সব সময়",
+        "কোষের বার্ধক্যে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-269",
+      "question": "DNA-র প্রতিলিপির জন্য প্রয়োজন -",
+      "options": [
+        "হেলিকেজ এনজাইম",
+        "DNA পলিমারেজ",
+        "RNA প্রাইমার",
+        "রাইবোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-270",
+      "question": "নিচের কোনটি নিউক্লিয়াসের কাজ?",
+      "options": [
+        "জিনগত তথ্য সংরক্ষণ",
+        "রাইবোজোম গঠন",
+        "কোষ বিভাজন নিয়ন্ত্রণ",
+        "লিপিড সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-271",
+      "question": "প্লাস্টিডের প্রকারভেদ -",
+      "options": [
+        "ক্লোরোপ্লাস্ট",
+        "ক্রোমোপ্লাস্ট",
+        "লিউকোপ্লাস্ট",
+        "সেন্ট্রোপ্লাস্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-272",
+      "question": "মাইটোসিসের প্রোফেজ দশার ঘটনা -",
+      "options": [
+        "ক্রোমোজোমের আবির্ভাব",
+        "নিউক্লিওলাস বিলুপ্তি",
+        "স্পিন্ডল গঠন",
+        "ক্রোমোজোমের বিন্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-273",
+      "question": "প্রোক্যারিওটিক কোষের বৈশিষ্ট্য -",
+      "options": [
+        "হিস্টোন প্রোটিন থাকে না",
+        "প্লাজমিড থাকতে পারে",
+        "মেসোজোম থাকে",
+        "নিউক্লিয়ার মেমব্রেন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-274",
+      "question": "ট্রান্সক্রিপশনের স্থান -",
+      "options": [
+        "ইউক্যারিওটে নিউক্লিয়াসে",
+        "প্রোক্যারিওটে সাইটোপ্লাজমে",
+        "মাইটোকন্ড্রিয়ায়",
+        "গলগি বডিতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-275",
+      "question": "নিচের কোনটি উদ্ভিদের অম্লীয় রসালো ভ্যাকুওলের কাজ?",
+      "options": [
+        "পানির ভারসাম্য রক্ষা",
+        "বিষাক্ত পদার্থ সঞ্চয়",
+        "রং প্রদান (অ্যান্থোসায়ানিন)",
+        "ATP সংশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-276",
+      "question": "নিচের কোনটি সাইটোপ্লাজমিক অঙ্গাণু?",
+      "options": [
+        "রাইবোজোম",
+        "এন্ডোপ্লাজমিক রেটিকুলাম",
+        "নিউক্লিয়াস",
+        "মাইটোকন্ড্রিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-277",
+      "question": "মিয়োসিস I-এর অ্যানাফেজ I-এ পৃথক হয় -",
+      "options": [
+        "হোমোলোগাস ক্রোমোজোম",
+        "সিস্টার ক্রোমাটিড",
+        "নন-সিস্টার ক্রোমাটিড",
+        "অ্যালিল জোড়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-278",
+      "question": "ক্রোমোজোমের প্রকারভেদ (সেন্ট্রোমিয়ারের অবস্থান অনুযায়ী) -",
+      "options": [
+        "মেটাসেন্ট্রিক",
+        "সাবমেটাসেন্ট্রিক",
+        "অ্যাক্রোসেন্ট্রিক",
+        "অলোসেন্ট্রিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-279",
+      "question": "নিচের কোন উদ্ভিদের অংশ স্টার্চ সঞ্চয় করে?",
+      "options": [
+        "আলু কন্দ (অ্যামাইলোপ্লাস্ট)",
+        "ধানের বীজ",
+        "মটরশুঁটি",
+        "ক্যাকটাস কাণ্ড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-280",
+      "question": "অসমোসিস নিয়ন্ত্রিত হয় নিচের কোন বিষয়ের দ্বারা?",
+      "options": [
+        "তাপমাত্রা",
+        "pH",
+        "ঘনত্বের পার্থক্য",
+        "পর্দার ভেদ্যতা"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-281",
+      "question": "নিচের কোনটি সঠিক জোড়া?",
+      "options": [
+        "গ্লাইকোলাইসিস - সাইটোপ্লাজম",
+        "ক্রেবস চক্র - মাইটোকন্ড্রিয়াল ম্যাট্রিক্স",
+        "ইলেকট্রন ট্রান্সপোর্ট - ক্রিস্টি",
+        "ক্যালভিন চক্র - গ্র্যানা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-282",
+      "question": "নিচের কোন কোষীয় অঙ্গাণু অ্যানিমেল সেলে পাওয়া যায় না?",
+      "options": [
+        "প্লাস্টিড",
+        "কোষপ্রাচীর",
+        "সেন্ট্রিওল",
+        "বড় ভ্যাকুওল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-283",
+      "question": "প্লাজমা মেমব্রেনের কাজ -",
+      "options": [
+        "কোষের সীমানা নির্ধারণ",
+        "বাছাই করা প্রবেশাধিকার",
+        "কোষ বিভাজন শুরু করা",
+        "আন্তঃকোষীয় সংকেত গ্রহণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-284",
+      "question": "নিচের কোনটি নিউক্লিওটাইডের উপাদান?",
+      "options": [
+        "অ্যাডিনিন",
+        "ডিঅক্সিরাইবোজ চিনি",
+        "ফসফেট",
+        "রাইবোজ চিনি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-285",
+      "question": "হাইপোটনিক দ্রবণে প্রাণীকোষের কী ঘটে?",
+      "options": [
+        "কোষ ফুলে ওঠে",
+        "কোষ ফেটে যেতে পারে (লাইসিস)",
+        "কোষ সংকুচিত হয়",
+        "কোষ স্বাভাবিক থাকে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-286",
+      "question": "নিচের কোনটি ‘এন্ডোসিমবায়োটিক থিওরি’ সমর্থন করে?",
+      "options": [
+        "মাইটোকন্ড্রিয়ার নিজস্ব DNA আছে",
+        "ক্লোরোপ্লাস্টের নিজস্ব রাইবোজোম 70S",
+        "নিউক্লিয়াসের দ্বিস্তরী ঝিল্লি",
+        "গলগি বডির সিস্টার্নি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-287",
+      "question": "নিচের কোনটি ‘অটোফ্যাজি’ প্রক্রিয়ার অন্তর্গত?",
+      "options": [
+        "জীর্ণ অর্গানেল ধ্বংস",
+        "লাইসোজোমের এনজাইম ব্যবহার",
+        "কোষ বিভাজন ত্বরান্বিত",
+        "অটোফ্যাজোসোম গঠন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-288",
+      "question": "একটি সঠিক কোষ তত্ত্ব হলো -",
+      "options": [
+        "সব জীব কোষ দিয়ে গঠিত",
+        "কোষ জীবনের গঠনগত ও কার্যকরী একক",
+        "নতুন কোষ আগের কোষ থেকেই সৃষ্টি হয়",
+        "কোষ শুধু তরল মাধ্যমে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-289",
+      "question": "নিচের কোনটি ‘পিনোসাইটোসিস’ এর উদাহরণ?",
+      "options": [
+        "ডিম্বাণুতে পুষ্টি গ্রহণ",
+        "অ্যামিবার খাদ্য গ্রহণ (ফ্যাগো)",
+        "কিডনির কোষে তরল পুনঃশোষণ",
+        "শ্বেত রক্তকণিকা ব্যাকটেরিয়া গ্রাস"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-290",
+      "question": "পাতার রন্ধ্র খোলা রাখতে কোন কোন উপাদান প্রয়োজন?",
+      "options": [
+        "পটাসিয়াম আয়ন",
+        "পানি",
+        "আলো",
+        "আয়রন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-291",
+      "question": "নিচের কোনটি সেন্ট্রিওলের বৈশিষ্ট্য?",
+      "options": [
+        "9+0 মাইক্রোটিউবিউল বিন্যাস",
+        "9 টি ট্রিপলেট মাইক্রোটিউবিউল",
+        "এটি বেসাল বডি গঠন করে",
+        "এটি ক্লোরোপ্লাস্টে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-01-292",
+      "question": "নিচের কোনটি ইউক্যারিওটিক বৈশিষ্ট্য?",
+      "options": [
+        "মেমব্রেন বাউন্ড অর্গানেল থাকে",
+        "নিউক্লিয়াস সুগঠিত",
+        "80S রাইবোজোম",
+        "হিস্টোন প্রোটিনযুক্ত ক্রোমোজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-293",
+      "question": "মিয়োসিসের গুরুত্ব -",
+      "options": [
+        "বংশগত বিভিন্নতা সৃষ্টি",
+        "ক্রোমোজোম সংখ্যা অর্ধেক করা",
+        "গ্যামেট গঠন",
+        "অঙ্গ পুনরুদ্ধার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-294",
+      "question": "নিচের কোনটি ‘প্লাজমোডেসমাটা’ সম্পর্কে সত্য?",
+      "options": [
+        "উদ্ভিদ কোষের মধ্যবর্তী সংযোগস্থল",
+        "সাইটোপ্লাজমীয় সুতা",
+        "আন্তঃকোষীয় যোগাযোগ ঘটায়",
+        "প্রাণীকোষে থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-295",
+      "question": "নিচের কোনটি হ্যাপ্লয়েড কোষ?",
+      "options": [
+        "মানুষের শুক্রাণু",
+        "মানুষের ডিম্বাণু",
+        "ছত্রাকের কিছু দশা",
+        "মানুষের যকৃত কোষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-296",
+      "question": "নিচের কোনটি ‘এক্সোসাইটোসিস’ প্রক্রিয়ার অন্তর্গত?",
+      "options": [
+        "হরমোন নিঃসরণ",
+        "নিউরোট্রান্সমিটার মুক্তি",
+        "বর্জ্য পদার্থ বের করে দেওয়া",
+        "ব্যাকটেরিয়া গ্রাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-297",
+      "question": "নিচের কোনটি উদ্ভিদ ও প্রাণী উভয় কোষে পাওয়া যায়?",
+      "options": [
+        "নিউক্লিয়াস",
+        "রাইবোজোম",
+        "মাইটোকন্ড্রিয়া",
+        "প্লাস্টিড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-01-298",
+      "question": "সাইটোস্কেলেটন কী কী দিয়ে গঠিত?",
+      "options": [
+        "মাইক্রোটিউবিউল",
+        "মাইক্রোফিলামেন্ট",
+        "ইন্টারমিডিয়েট ফিলামেন্ট",
+        "থাইলাকয়েড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-299",
+      "question": "নিচের কোনটি ‘মাইক্রোভিলি’-এর বৈশিষ্ট্য?",
+      "options": [
+        "ক্ষুদ্রান্ত্রের এপিথেলিয়ামে থাকে",
+        "পৃষ্ঠতল বৃদ্ধি করে শোষণ ক্ষমতা বাড়ায়",
+        "অ্যাক্টিন তন্তু দিয়ে গঠিত",
+        "সিলিয়ার মতো সক্রিয় চলাচলে সক্ষম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-01-300",
+      "question": "একটি নিউক্লিওটাইডে নিচের কোন উপাদানগুলো আবশ্যিক?",
+      "options": [
+        "একটি পিউরিন বা পিরিমিডিন ক্ষারক",
+        "একটি পেন্টোজ চিনি",
+        "একটি ফসফেট গ্রুপ",
+        "একটি অ্যামিনো অ্যাসিড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "01-cell-structure-functions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

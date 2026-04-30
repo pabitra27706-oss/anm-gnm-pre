@@ -1,0 +1,808 @@
+{
+  "subject": "logic",
+  "unit": "11-statement-and-assumption",
+  "unit_code": "11",
+  "total": 50,
+  "questions": [
+    {
+      "id": "l-11-001",
+      "question": "বিবৃতি: \"এই ওষুধটি সেবন করলে আপনার মাথাব্যথা ৩০ মিনিটের মধ্যে সেরে যাবে।\" অনুমান: I. ওষুধটি কার্যকর। II. মানুষের মাথাব্যথা হয়।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-002",
+      "question": "বিবৃতি: \"বিজ্ঞপ্তি - এলাকায় বিপথগামী কুকুর রয়েছে, সতর্ক থাকুন।\" অনুমান: I. এলাকায় কুকুর আছে। II. কুকুর বিপজ্জনক হতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-003",
+      "question": "বিবৃতি: \"সুস্থ থাকতে চাইলে প্রতিদিন অন্তত ৩০ মিনিট ব্যায়াম করুন।\" অনুমান: I. ব্যায়াম স্বাস্থ্যের জন্য উপকারী। II. মানুষ সুস্থ থাকতে চায়।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-004",
+      "question": "বিবৃতি: \"পরীক্ষায় ভালো করতে চাইলে প্রতিদিন কমপক্ষে ৪ ঘণ্টা পড়তে হবে।\" অনুমান: I. পরীক্ষার প্রস্তুতির জন্য পড়া প্রয়োজন। II. ৪ ঘণ্টা পড়া যথেষ্ট।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-005",
+      "question": "বিবৃতি: \"সাবধান - এখানে মোবাইল ফোন ব্যবহার নিষিদ্ধ।\" অনুমান: I. মোবাইল ফোন এখানে সমস্যা সৃষ্টি করতে পারে। II. মানুষ মোবাইল ফোন ব্যবহার করে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-006",
+      "question": "বিবৃতি: \"আপনার শিশুকে টিকা দিন - টিকাই একমাত্র নিরাপদ পথ।\" অনুমান: I. টিকা শিশুদের রোগ থেকে রক্ষা করে। II. টিকা না দিলে শিশু অসুস্থ হতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-007",
+      "question": "বিবৃতি: \"ডাক্তার বলেছেন - রাতে বেশি করে জল খাবেন না।\" অনুমান: I. রাতে বেশি জল খেলে সমস্যা হয়। II. রোগী রাতে জল খায়।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-008",
+      "question": "বিবৃতি: \"এই স্কুলে ভর্তি হতে গেলে লিখিত পরীক্ষায় উত্তীর্ণ হতে হবে।\" অনুমান: I. লিখিত পরীক্ষা ছাড়া ভর্তি সম্ভব নয়। II. সকল শিক্ষার্থী লিখিত পরীক্ষা দিতে সক্ষম।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-009",
+      "question": "বিবৃতি: \"চাকরির ইন্টারভিউতে সময়মতো উপস্থিত হন।\" অনুমান: I. সময়মতো না এলে সমস্যা হতে পারে। II. আবেদনকারীরা সময়মতো আসতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-010",
+      "question": "বিবৃতি: \"বৃষ্টির সম্ভাবনা থাকায় সঙ্গে ছাতা নিয়ে আসুন।\" অনুমান: I. বৃষ্টি হলে ছাতা প্রয়োজন। II. মানুষ ভিজতে চায় না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-011",
+      "question": "বিবৃতি: \"বিদ্যুৎ সাশ্রয়ের জন্য ফ্যান ও লাইট বন্ধ করে দিন।\" অনুমান: I. ফ্যান ও লাইট জ্বালিয়ে রাখলে বিদ্যুৎ নষ্ট হয়। II. মানুষ বিদ্যুৎ সাশ্রয়ে আগ্রহী।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-012",
+      "question": "বিবৃতি: \"ধূমপান স্বাস্থ্যের জন্য ক্ষতিকর - এটি ত্যাগ করুন।\" অনুমান: I. ধূমপান ক্ষতিকর এই তথ্য মানুষ জানেনা। II. মানুষ ধূমপান ছাড়তে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-013",
+      "question": "বিবৃতি: \"নিয়মিত চোখ পরীক্ষা করান - দেরি হয়ে যেতে পারে।\" অনুমান: I. চোখের সমস্যা সময়মতো ধরা না পড়লে বিপদ। II. মানুষ নিয়মিত চোখ পরীক্ষা করায় না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-014",
+      "question": "বিবৃতি: \"কম্পিউটার শেখা এখন সময়ের দাবি।\" অনুমান: I. কম্পিউটার না জানলে পিছিয়ে পড়তে হবে। II. কম্পিউটার শিক্ষা সহজলভ্য।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-015",
+      "question": "বিবৃতি: \"রক্ত দিতে ইচ্ছুক ব্যক্তিরা এগিয়ে আসুন।\" অনুমান: I. রক্তের প্রয়োজন আছে। II. কিছু মানুষ রক্ত দিতে ইচ্ছুক।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-016",
+      "question": "বিবৃতি: \"ট্রেন ছাড়ার আগে প্লাটফর্মে এসে দাঁড়ান।\" অনুমান: I. ট্রেন সময়মত ছাড়ে। II. যাত্রীরা ট্রেন মিস করতে চায় না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-017",
+      "question": "বিবৃতি: \"এই কম্পানিতে কাজ করতে চাইলে ইংরেজিতে সাবলীল হতে হবে।\" অনুমান: I. কম্পানির কাজে ইংরেজি প্রয়োজন। II. আবেদনকারীদের ইংরেজি জ্ঞান নেই।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-018",
+      "question": "বিবৃতি: \"প্লাস্টিকের ব্যবহার কমানো এখন জরুরি।\" অনুমান: I. প্লাস্টিক পরিবেশের ক্ষতি করে। II. প্লাস্টিকের বিকল্প আছে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-019",
+      "question": "বিবৃতি: \"বেসরকারি হাসপাতালের চেয়ে সরকারি হাসপাতালে ভর্তি ফি কম।\" অনুমান: I. রোগীরা কম ফিতে চিকিৎসা নিতে চান। II. সরকারি হাসপাতালের চিকিৎসা মান ভালো।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-020",
+      "question": "বিবৃতি: \"যারা প্রতিদিন যোগব্যায়াম করেন তারা কম অসুস্থ হন।\" অনুমান: I. যোগব্যায়াম রোগ প্রতিরোধ ক্ষমতা বাড়ায়। II. সবাই যোগব্যায়াম করতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-021",
+      "question": "বিবৃতি: \"পাঁচ বছরের কম বয়সী শিশুদের বিনামূল্যে টিকা দেওয়া হবে।\" অনুমান: I. পাঁচ বছরের কম বয়সী শিশুদের টিকা প্রয়োজন। II. অভিভাবকরা টিকা দিতে চান।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-022",
+      "question": "বিবৃতি: \"আমি যদি ধনী হতাম, তাহলে একটি বড় হাসপাতাল বানাতাম।\" অনুমান: I. বক্তা ধনী নন। II. বক্তা সমাজসেবী।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-023",
+      "question": "বিবৃতি: \"ফাস্ট ফুড স্বাস্থ্যের জন্য ক্ষতিকর - এটি এড়িয়ে চলুন।\" অনুমান: I. মানুষ ফাস্ট ফুড খায়। II. ক্ষতিকর জিনিস এড়িয়ে চলা উচিত।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-024",
+      "question": "বিবৃতি: \"এই জায়গায় গতি সীমা ৪০ কিমি/ঘণ্টা।\" অনুমান: I. চালকরা ৪০ কিমি/ঘণ্টার বেশি গতিতে গাড়ি চালান। II. বেশি গতিতে গাড়ি চালালে দুর্ঘটনা হতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-025",
+      "question": "বিবৃতি: \"সরকার সব সরকারি হাসপাতালে বিনামূল্যে ওষুধ সরবরাহ করছে।\" অনুমান: I. সরকারি হাসপাতালে রোগীর সংখ্যা বেশি। II. সব রোগী ওষুধ কিনতে পারে না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-026",
+      "question": "বিবৃতি: \"রাতে একা বাইরে বেরোবেন না।\" অনুমান: I. রাতে একা বেরোলেই বিপদ ঘটে। II. রাতে বাইরে নিরাপত্তাহীনতা থাকে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-027",
+      "question": "বিবৃতি: \"সময়মতো ঔষধ সেবন করুন - ডাক্তারের পরামর্শ মতো।\" অনুমান: I. সময়মতো ঔষধ না খেলে রোগ ভালো হয় না। II. রোগী ডাক্তারের পরামর্শ মানতে চান।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-028",
+      "question": "বিবৃতি: \"যারা বেশি চাপ নেন তারা প্রায়ই অসুস্থ হন।\" অনুমান: I. চাপ স্বাস্থ্যের জন্য ক্ষতিকর। II. চাপ কমানো সম্ভব।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-029",
+      "question": "বিবৃতি: \"এই পথে যানজট রয়েছে - বিকল্প পথ ব্যবহার করুন।\" অনুমান: I. বিকল্প পথ আছে। II. যানজট এড়ানো সম্ভব।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-030",
+      "question": "বিবৃতি: \"চিনি কম খান - ডায়াবেটিসের ঝুঁকি কমবে।\" অনুমান: I. বেশি চিনি খেলে ডায়াবেটিস হতে পারে। II. মানুষ ডায়াবেটিস এড়াতে চান।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-031",
+      "question": "বিবৃতি: \"প্রতি বছর স্বাস্থ্য পরীক্ষা করানো বাধ্যতামূলক করা উচিত।\" অনুমান: I. নিয়মিত স্বাস্থ্য পরীক্ষা রোগ নির্ণয়ে সাহায্য করে। II. মানুষ নিজে থেকে স্বাস্থ্য পরীক্ষা করায় না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-032",
+      "question": "বিবৃতি: \"যাদের উচ্চ রক্তচাপ আছে তাদের লবণ কম খাওয়া উচিত।\" অনুমান: I. বেশি লবণ উচ্চ রক্তচাপ বাড়ায়। II. উচ্চ রক্তচাপের রোগীরা লবণ খান।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-033",
+      "question": "বিবৃতি: \"এই সংস্থায় কাজের চাপ অনেক বেশি।\" অনুমান: I. অনেক কর্মী এখানে কাজ করেন। II. কাজের চাপ সহ্য করার ক্ষমতা থাকতে হবে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-034",
+      "question": "বিবৃতি: \"এই হাসপাতালে দক্ষ ডাক্তার ও নার্সদের অভাব রয়েছে।\" অনুমান: I. দক্ষ ডাক্তার-নার্সের প্রয়োজন আছে। II. বর্তমান কর্মীরা দক্ষ নন।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-035",
+      "question": "বিবৃতি: \"পরীক্ষার হলে মোবাইল ফোন নিয়ে আসা নিষিদ্ধ।\" অনুমান: I. পরীক্ষার্থীরা মোবাইল ফোন নিয়ে আসতে চান। II. মোবাইল ফোন পরীক্ষায় অসুবিধা সৃষ্টি করতে পারে।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-036",
+      "question": "বিবৃতি: \"যারা নিয়মিত ঘুমান না তাদের স্মৃতিশক্তি দুর্বল হয়।\" অনুমান: I. পর্যাপ্ত ঘুম স্মৃতিশক্তির জন্য প্রয়োজন। II. মানুষ পর্যাপ্ত ঘুমায় না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-037",
+      "question": "বিবৃতি: \"সব স্কুলে স্বাস্থ্য শিক্ষা বাধ্যতামূলক করা উচিত।\" অনুমান: I. স্বাস্থ্য শিক্ষা ছাত্রদের উপকার করবে। II. বর্তমানে সব স্কুলে স্বাস্থ্য শিক্ষা নেই।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-038",
+      "question": "বিবৃতি: \"ধূমপান করলে করোনারি হার্ট ডিজিজের ঝুঁকি বাড়ে।\" অনুমান: I. ধূমপায়ীরা এই তথ্য জানেন না। II. ধূমপায়ীরা ঝুঁকি নিতে ইচ্ছুক।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-039",
+      "question": "বিবৃতি: \"এই কোম্পানির পণ্যের মান খুব ভালো - তাই দাম বেশি।\" অনুমান: I. ভালো মানের পণ্যের দাম বেশি হয়। II. ক্রেতারা ভালো মানের পণ্য কিনতে চান।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-040",
+      "question": "বিবৃতি: \"সন্তানকে বেশি বেশি সবজি খাওয়ান।\" অনুমান: I. সবজি স্বাস্থ্যের জন্য ভালো। II. সন্তানেরা সবজি পছন্দ করে না।",
+      "options": [
+        "শুধু I অন্তর্নিহিত",
+        "শুধু II অন্তর্নিহিত",
+        "উভয়ই অন্তর্নিহিত",
+        "কোনোটিই অন্তর্নিহিত নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-041",
+      "question": "বিবৃতি: \"অনুগ্রহ করে লাইনে দাঁড়ান।\" অনুমান: (Multiple Correct) I. বর্তমানে লাইন নেই। II. লাইনে দাঁড়ালে শৃঙ্খলা বজায় থাকে। III. সবাই লাইনে দাঁড়াতে রাজি। IV. লাইনে না দাঁড়ালে সমস্যা হবে।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-042",
+      "question": "বিবৃতি: \"টাকা সাশ্রয় করতে চাইলে অনলাইনে কেনাকাটা করুন।\" অনুমান: (Multiple Correct) I. অনলাইন কেনাকাটা সস্তা। II. মানুষ টাকা সাশ্রয় করতে চান। III. সবাই অনলাইনে কেনাকাটা করতে পারে। IV. দোকানের চেয়ে অনলাইনে দাম কম।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-043",
+      "question": "বিবৃতি: \"দুর্ঘটনা এড়াতে ধীরে গাড়ি চালান।\" অনুমান: (Multiple Correct) I. বেশি গতিতে গাড়ি চালালে দুর্ঘটনা হয়। II. ধীরে গাড়ি চালানো নিরাপদ। III. সবাই ধীরে গাড়ি চালায়। IV. চালকরা দুর্ঘটনা এড়াতে চান।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-044",
+      "question": "বিবৃতি: \"প্রচুর জল পান করুন - সুস্থ থাকবেন।\" অনুমান: (Multiple Correct) I. জল পান স্বাস্থ্যের জন্য উপকারী। II. মানুষ পর্যাপ্ত জল পান করে না। III. বেশি জল পান করলে ক্ষতি হয়। IV. সুস্থতার জন্য জল প্রয়োজন।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-11-045",
+      "question": "বিবৃতি: \"সময়মতো কাজ শেষ করলে বোনাস দেওয়া হবে।\" অনুমান: (Multiple Correct) I. কাজ সময়মতো শেষ করা সম্ভব। II. বোনাস কর্মীদের অনুপ্রাণিত করে। III. সবাই বোনাস পেতে চায়। IV. সময়মতো কাজ না হলে শাস্তি আছে।",
+      "options": [
+        "I, II, III",
+        "I, II, IV",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-11-046",
+      "question": "বিবৃতি: \"মোবাইল ফোন স্বাস্থ্যের জন্য ক্ষতিকর হতে পারে।\" অনুমান: (Multiple Correct) I. মোবাইল ফোনের বিকিরণ ক্ষতিকর। II. মানুষ দীর্ঘ সময় মোবাইল ব্যবহার করে। III. মোবাইল ফোন এড়িয়ে চলা উচিত। IV. গবেষণা এটা প্রমাণ করেছে।",
+      "options": [
+        "I, II, III",
+        "I, II, IV",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-047",
+      "question": "বিবৃতি: \"ফল ও সবজির দাম বাড়ায় সরকার উদ্বিগ্ন।\" অনুমান: (Multiple Correct) I. ফল ও সবজির দাম স্বাভাবিকের চেয়ে বেশি। II. বেশি দামে মানুষ কষ্ট পাচ্ছে। (III III) সরকার জনগণের কথা ভাবে। IV. দাম কমাতে সরকার ব্যবস্থা নেবে।",
+      "options": [
+        "I, II, III",
+        "I, II, IV",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-048",
+      "question": "বিবৃতি: \"এই এনজি ও ব্যবস্থাপনার অভাবে হাসপাতালে রোগীরা ভোগেন।\" অনুমান: (Multiple Correct) I. হাসপাতালে আরও ব্যবস্থাপনা needed আছে। II. রোগীরা বর্তমানে কষ্ট পাচ্ছেন। III. ব্যবস্থাপনা উন্নত করলে অবস্থার উন্নতি হবে। IV. সব হাসপাতালে এই সমস্যা আছে।",
+      "options": [
+        "I, II, III",
+        "I, II, IV",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-049",
+      "question": "বিবৃতি: \"বিশ্ব স্বাস্থ্য সংস্থা সব দেশকে স্বাস্থ্য বাজেট বাড়ানোর পরামর্শ দিয়েছে।\" অনুমান: (Multiple Correct) I. স্বাস্থ্য খাতে আরও অর্থ প্রয়োজন। II. বর্তমান বাজেট অপর্যাপ্ত। III. সব দেশ WHO-এর পরামর্শ মানে। IV. বাজেট বাড়ালে স্বাস্থ্যসেবা উন্নত হবে।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-11-050",
+      "question": "বিবৃতি: \"নার্সিং পেশায় যুক্ত হতে চাইলে ধৈর্য ও সহানুভূতি থাকা জরুরি।\" অনুমান: (Multiple Correct) I. নার্সিং পেশায় ধৈর্যের প্রয়োজন। II. সহানুভূতি ছাড়া ভালো নার্স হওয়া যায় না। (III III) সব নার্সেরই ধৈর্য আছে। IV. এই গুণগুলো শেখা সম্ভব।",
+      "options": [
+        "I, II, IV",
+        "I, II, III",
+        "II, III, IV",
+        "I, II, III, IV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "11-statement-and-assumption",
+      "type": "application",
+      "difficulty": "medium"
+    }
+  ]
+}

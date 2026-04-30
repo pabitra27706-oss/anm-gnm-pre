@@ -1,0 +1,4870 @@
+{
+  "subject": "physics",
+  "unit": "10-matter-and-states",
+  "unit_code": "10",
+  "total": 280,
+  "questions": [
+    {
+      "id": "p-10-001",
+      "question": "মহাবিশ্বের যা কিছু স্থান দখল করে থাকে এবং যার নির্দিষ্ট ভর আছে তাকে কী বলা হয়?",
+      "options": [
+        "Energy",
+        "Matter",
+        "Vacuum",
+        "Force"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-002",
+      "question": "পদার্থের কোন অবস্থায় কণাগুলির মধ্যে Intermolecular Force সবচেয়ে বেশি থাকে?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-003",
+      "question": "পদার্থের চতুর্থ অবস্থা কোনটি যা অত্যন্ত উচ্চ তাপমাত্রায় আয়নিত গ্যাস হিসেবে থাকে?",
+      "options": [
+        "Solid",
+        "Bose-Einstein Condensate",
+        "Plasma",
+        "Superfluid"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-004",
+      "question": "নির্দিষ্ট গলনাঙ্ক নেই এমন একটি কঠিন পদার্থের উদাহরণ হলো—",
+      "options": [
+        "Ice",
+        "Iron",
+        "Glass",
+        "Copper"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-005",
+      "question": "তাপমাত্রা স্থির রেখে কোনো কঠিন পদার্থকে তরলে পরিণত করতে যে তাপের প্রয়োজন হয় তাকে কী বলে?",
+      "options": [
+        "Specific heat",
+        "Latent heat of fusion",
+        "Latent heat of vaporization",
+        "Sensible heat"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-006",
+      "question": "Dry Ice বা কঠিন কার্বন ডাই অক্সাইড (CO2) সরাসরি গ্যাসে পরিণত হওয়াকে কী বলা হয়?",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Sublimation",
+        "Melting"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-007",
+      "question": "নিচের কোনটি একটি Homogeneous mixture এর উদাহরণ?",
+      "options": [
+        "ধোঁয়া",
+        "চিনির জলীয় দ্রবণ",
+        "কাদা জল",
+        "বারুদ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-008",
+      "question": "একটি দ্রবণে যে উপাদানটি অপেক্ষাকৃত বেশি পরিমাণে থাকে তাকে কী বলে?",
+      "options": [
+        "Solute",
+        "Solvent",
+        "Precipitate",
+        "Residue"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-009",
+      "question": "[NUMERICAL] 25°C তাপমাত্রায় 50g জলে সর্বাধিক 20g লবণ দ্রবীভূত হতে পারে। ওই তাপমাত্রায় লবণের Solubility কত?",
+      "options": [
+        "20",
+        "25",
+        "40",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-010",
+      "question": "যে দ্রবণে নির্দিষ্ট তাপমাত্রায় আরও বেশি পরিমাণ দ্রাব (Solute) দ্রবীভূত করা যায় তাকে কী বলে?",
+      "options": [
+        "Saturated solution",
+        "Unsaturated solution",
+        "Supersaturated solution",
+        "Colloidal solution"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-011",
+      "question": "কুয়াশা বা Fog হলো এক প্রকার—",
+      "options": [
+        "Sol",
+        "Gel",
+        "Aerosol",
+        "Emulsion"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-012",
+      "question": "কলোয়েডীয় কণা দ্বারা আলোক রশ্মির বিচ্ছুরণকে কী বলা হয়?",
+      "options": [
+        "Raman effect",
+        "Tyndall effect",
+        "Doppler effect",
+        "Zeeman effect"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-013",
+      "question": "দুধ (Milk) নিচের কোনটির উদাহরণ?",
+      "options": [
+        "Sol",
+        "Emulsion",
+        "Foam",
+        "Suspension"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-014",
+      "question": "ব্রাইন (Brine) হলো নিচের কোনটির জলীয় দ্রবণ?",
+      "options": [
+        "Na2CO3",
+        "NaHCO3",
+        "NaCl",
+        "NaOH"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-015",
+      "question": "কোনো মাধ্যম ছাড়াই সুগন্ধি বা ধূপের ধোঁয়া ছড়িয়ে পড়াকে কী বলা হয়?",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Filtration",
+        "Sublimation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-016",
+      "question": "স্থির তাপমাত্রায় নির্দিষ্ট ভরের গ্যাসের আয়তন চাপের সাথে ব্যস্তানুপাতে পরিবর্তিত হয়— এটি কার সূত্র?",
+      "options": [
+        "Charles' law",
+        "Boyle's law",
+        "Avogadro's law",
+        "Dalton's law"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-017",
+      "question": "Boyle's law অনুযায়ী P বনাম V লেখচিত্রটি কীরূপ?",
+      "options": [
+        "মূলবিন্দুগামী সরলরেখা",
+        "সমপরাবৃত্ত (Rectangular hyperbola)",
+        "বৃত্তাকার",
+        "অধিবৃত্ত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-018",
+      "question": "পরম শূন্য তাপমাত্রা (Absolute zero temperature) এর মান সেলসিয়াস স্কেলে কত?",
+      "options": [
+        "273°C",
+        "-273.15°C",
+        "0°C",
+        "-100°C"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-019",
+      "question": "স্থির চাপে নির্দিষ্ট ভরের গ্যাসের আয়তন পরম তাপমাত্রার (T) সমানুপাতিক— এটি কার সূত্র?",
+      "options": [
+        "Boyle's law",
+        "Charles' law",
+        "Gay-Lussac's law",
+        "Ideal gas law"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-020",
+      "question": "[NUMERICAL] NTP-তে 2 mole Oxygen (O2) গ্যাসের আয়তন কত?",
+      "options": [
+        "22.4 L",
+        "11.2 L",
+        "44.8 L",
+        "5.6 L"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-021",
+      "question": "আদর্শ গ্যাস সমীকরণ (Ideal Gas Equation) কোনটি?",
+      "options": [
+        "PV = RT",
+        "P/V = nRT",
+        "PV = nRT",
+        "V/P = nRT"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-022",
+      "question": "[NUMERICAL] একটি গ্যাসের আয়তন 2 atm চাপে 10 L। তাপমাত্রা স্থির রেখে চাপ 4 atm করলে আয়তন কত হবে?",
+      "options": [
+        "20 L",
+        "5 L",
+        "2.5 L",
+        "40 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-023",
+      "question": "কলোয়েডীয় কণার ব্যাস সাধারণত কোন সীমার মধ্যে থাকে?",
+      "options": [
+        "10^-5 cm - 10^-7 cm",
+        "< 10^-8 cm",
+        "> 10^-4 cm",
+        "10^-2 cm - 10^-3 cm"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-024",
+      "question": "নিচের কোনটি Suspension-এর বৈশিষ্ট্য নয়?",
+      "options": [
+        "এটি একটি Heterogeneous mixture",
+        "এটি Tyndall effect দেখায় না",
+        "ফিল্টার পেপারের মাধ্যমে কণাগুলি আলাদা করা যায় না",
+        "কণাগুলি থিতিয়ে পড়ে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-025",
+      "question": "মাখন (Butter) হলো—",
+      "options": [
+        "তরলে কঠিনের কলোয়েড",
+        "কঠিনের মধ্যে তরলের কলোয়েড",
+        "গ্যাসে তরলের কলোয়েড",
+        "তরলে গ্যাসের কলোয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-026",
+      "question": "Latent heat of vaporization (জলের ক্ষেত্রে) এর মান কত?",
+      "options": [
+        "80 cal/g",
+        "540 cal/g",
+        "100 cal/g",
+        "1 cal/g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-027",
+      "question": "সমুদ্রের জল থেকে লবণ পৃথক করার জন্য কোন পদ্ধতি ব্যবহার করা হয়?",
+      "options": [
+        "Sublimation",
+        "Evaporation",
+        "Filtration",
+        "Diffusion"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-028",
+      "question": "[NUMERICAL] 100g সম্পৃক্ত দ্রবণে 20g দ্রাব থাকলে ওই দ্রাবটির দ্রাব্যতা (Solubility) কত?",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "80"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-029",
+      "question": "গ্যাসের অণুগুলির গড় গতিশক্তি নিচের কোনটির সাথে সরাসরি সমানুপাতিক?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Absolute Temperature",
+        "Number of moles"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-030",
+      "question": "একই তাপমাত্রা ও চাপে সম আয়তন সকল গ্যাসে সমান সংখ্যক অণু থাকে— এটি কার সূত্র?",
+      "options": [
+        "Boyle's law",
+        "Avogadro's law",
+        "Dalton's law",
+        "Graham's law"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-031",
+      "question": "NTP বলতে তাপমাত্রা কত বোঝায়?",
+      "options": [
+        "0°C",
+        "25°C",
+        "100°C",
+        "273°C"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-032",
+      "question": "বাস্তব গ্যাসগুলি (Real gases) কখন আদর্শ গ্যাসের মতো আচরণ করে?",
+      "options": [
+        "উচ্চ চাপ ও নিম্ন তাপমাত্রায়",
+        "নিম্ন চাপ ও উচ্চ তাপমাত্রায়",
+        "উচ্চ চাপ ও উচ্চ তাপমাত্রায়",
+        "সব অবস্থাতেই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-033",
+      "question": "কোনো তরলের বাষ্পায়নের হার বাড়ে যখন—",
+      "options": [
+        "তরলের উপরিতলের ক্ষেত্রফল কমে",
+        "বায়ুর আর্দ্রতা বাড়ে",
+        "তরলের তাপমাত্রা বাড়ে",
+        "বায়ুর চাপ বাড়ে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-034",
+      "question": "নিচের কোনটি ঊর্ধ্বপাতিত (Sublimable) পদার্থ নয়?",
+      "options": [
+        "Iodine",
+        "Camphor",
+        "Sodium Chloride",
+        "Ammonium Chloride"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-035",
+      "question": "PV বনাম P লেখচিত্রটি (Boyle's law অনুযায়ী) কিরূপ?",
+      "options": [
+        "P-অক্ষের সমান্তরাল সরলরেখা",
+        "V-অক্ষের সমান্তরাল সরলরেখা",
+        "মূলবিন্দুগামী সরলরেখা",
+        "বক্ররেখা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-036",
+      "question": "[NUMERICAL] 32g Oxygen (O2) গ্যাসের মোল সংখ্যা কত?",
+      "options": [
+        "1",
+        "2",
+        "0.5",
+        "32"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-037",
+      "question": "তরলের উপরিভাগ থেকে বাষ্পে পরিণত হওয়ার পদ্ধতিকে কী বলা হয়?",
+      "options": [
+        "Boiling",
+        "Condensation",
+        "Evaporation",
+        "Freezing"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-038",
+      "question": "কাদা জল (Muddy water) হলো একটি—",
+      "options": [
+        "Sol",
+        "Suspension",
+        "True solution",
+        "Emulsion"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-039",
+      "question": "চালর্সের সূত্রে (Charles' law) ধ্রুবক রাশিটি কী?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Temperature",
+        "Mass of gas & Pressure"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-040",
+      "question": "[NUMERICAL] 44g CO2 গ্যাসের আয়তন STP-তে কত হবে? (C=12, O=16)",
+      "options": [
+        "11.2 L",
+        "22.4 L",
+        "44.8 L",
+        "2.24 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-041",
+      "question": "জেলি (Gel) হলো—",
+      "options": [
+        "কঠিন মাধ্যমে তরলের কলোয়েড",
+        "তরল মাধ্যমে কঠিনের কলোয়েড",
+        "কঠিন মাধ্যমে গ্যাসের কলোয়েড",
+        "গ্যাসের মধ্যে তরলের কলোয়েড"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-042",
+      "question": "প্রেসার কুকারে রান্না তাড়াতাড়ি হয় কারণ—",
+      "options": [
+        "চাপ বাড়লে জলের স্ফুটনাঙ্ক কমে",
+        "চাপ বাড়লে জলের স্ফুটনাঙ্ক বাড়ে",
+        "এটি তাপ ধরে রাখে",
+        "এটি বাষ্প বের হতে দেয় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-043",
+      "question": "[NUMERICAL] 20°C তাপমাত্রায় একটি লবণের দ্রাব্যতা 35। 200g জলে কত গ্রাম লবণ দ্রবীভূত করলে সম্পৃক্ত দ্রবণ হবে?",
+      "options": [
+        "35g",
+        "70g",
+        "100g",
+        "140g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-044",
+      "question": "পদার্থের কোন অবস্থায় কণাগুলির গতি (Motion) সবচেয়ে অনিয়মিত ও দ্রুত?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "All are same"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-045",
+      "question": "পনির (Cheese) নিচের কোনটির উদাহরণ?",
+      "options": [
+        "Sol",
+        "Gel",
+        "Emulsion",
+        "Foam"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-046",
+      "question": "বয়েল ও চালর্স উভয় সূত্রে সাধারণ ধ্রুবক রাশি কোনটি?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Mass of the gas",
+        "Temperature"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-047",
+      "question": "[NUMERICAL] STP-তে 11.2 L আয়তনের কার্বন ডাই অক্সাইডের ভর কত?",
+      "options": [
+        "44g",
+        "22g",
+        "11g",
+        "88g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-048",
+      "question": "আদর্শ গ্যাস সমীকরণে 'R' কে কী বলা হয়?",
+      "options": [
+        "Gas constant",
+        "Universal gas constant",
+        "Boltzmann constant",
+        "Avogadro constant"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-049",
+      "question": "পরম শূন্য তাপমাত্রায় আদর্শ গ্যাসের আয়তন কত হয়?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "শূন্য",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-050",
+      "question": "ঝামা পাথর (Pumice stone) হলো একটি—",
+      "options": [
+        "Solid foam",
+        "Solid sol",
+        "Gel",
+        "Emulsion"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-051",
+      "question": "একটি পাত্রে রাখা জলের বাষ্পায়ন দ্রুত হবে যদি—",
+      "options": [
+        "পাত্রটি ঢাকা থাকে",
+        "ঘরের পাখা চালানো হয়",
+        "জলের উপর তেল দেওয়া হয়",
+        "ঘরে আর্দ্রতা বেশি থাকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-052",
+      "question": "[NUMERICAL] কোনো গ্যাসের তাপমাত্রা 27°C থেকে বাড়িয়ে 327°C করা হলো। আয়তন কত গুণ হবে (চাপ স্থির)?",
+      "options": [
+        "2 গুণ",
+        "1.5 গুণ",
+        "4 গুণ",
+        "12 গুণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-053",
+      "question": "নিচের কোনটি একটি অ-কেলাসিত (Amorphous) কঠিন পদার্থ?",
+      "options": [
+        "সাধারণ লবণ",
+        "চিনি",
+        "রাবার",
+        "হীরা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-054",
+      "question": "বরফ গলনের লীনতাপ (Latent heat of fusion) কত?",
+      "options": [
+        "540 cal/g",
+        "100 cal/g",
+        "80 cal/g",
+        "0 cal/g"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-055",
+      "question": "[NUMERICAL] STP-তে 5.6 L আয়তনের একটি গ্যাসের ভর 11g। গ্যাসটির আণবিক ভর কত?",
+      "options": [
+        "22",
+        "44",
+        "32",
+        "28"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-056",
+      "question": "ধোঁয়া (Smoke) নিচের কোনটির কলোয়েডীয় মিশ্রণ?",
+      "options": [
+        "তরলে কঠিন",
+        "গ্যাসে কঠিন",
+        "গ্যাসে তরল",
+        "তরলে গ্যাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-057",
+      "question": "অতিপৃক্ত দ্রবণ (Supersaturated solution) তৈরি করতে সাধারণত কী করা হয়?",
+      "options": [
+        "দ্রবণটিকে ঠান্ডা করা হয়",
+        "দ্রবণটিকে গরম করা হয়",
+        "আরও জল মেশানো হয়",
+        "নাড়াচাড়া করা হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-058",
+      "question": "শেইভিং ক্রিম (Shaving cream) কী ধরনের কলোয়েড?",
+      "options": [
+        "Sol",
+        "Foam",
+        "Emulsion",
+        "Gel"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-059",
+      "question": "[NUMERICAL] 17g Ammonia (NH3) গ্যাসে অণুর সংখ্যা কত?",
+      "options": [
+        "6.022 × 10^23",
+        "3.011 × 10^23",
+        "1.204 × 10^24",
+        "10^23"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-060",
+      "question": "গ্যাসের চাপ মাপার যন্ত্রের নাম কী?",
+      "options": [
+        "Barometer",
+        "Manometer",
+        "Thermometer",
+        "Hydrometer"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-061",
+      "question": "কুয়াশার মধ্য দিয়ে গাড়ির হেডলাইটের আলো দেখা যাওয়া কোন ঘটনার উদাহরণ?",
+      "options": [
+        "Reflection",
+        "Tyndall effect",
+        "Refraction",
+        "Dispersion"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-062",
+      "question": "আদর্শ গ্যাসের অণুগুলির মধ্যে আকর্ষণ বলের মান কত?",
+      "options": [
+        "খুব বেশি",
+        "খুব কম",
+        "শূন্য",
+        "অসীম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-063",
+      "question": "[NUMERICAL] 50°C তাপমাত্রায় একটি লবণের দ্রাব্যতা 40 হলে, ওই তাপমাত্রায় 350g সম্পৃক্ত দ্রবণে কত গ্রাম দ্রাব আছে?",
+      "options": [
+        "140g",
+        "100g",
+        "70g",
+        "250g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-064",
+      "question": "ন্যাপথলিন ঘরের তাপমাত্রায় উবে যায় কেন?",
+      "options": [
+        "এটি বাষ্পীভূত হয়",
+        "এটি ঊর্ধ্বপাতিত হয়",
+        "এটি গলে যায়",
+        "এটি বাতাসের সাথে বিক্রিয়া করে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-065",
+      "question": "চালর্সের সূত্রে ভি (V) বনাম টি (t) লেখচিত্রটি তাপমাত্রা অক্ষকে কোথায় ছেদ করে?",
+      "options": [
+        "0°C",
+        "100°C",
+        "-273°C",
+        "273°C"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-066",
+      "question": "রক্ত (Blood) হলো এক প্রকার—",
+      "options": [
+        "কলোয়েড",
+        "প্রকৃত দ্রবণ",
+        "সাসপেনশন",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-067",
+      "question": "[NUMERICAL] 2 mole Hydrogen গ্যাসের ভর কত?",
+      "options": [
+        "1g",
+        "2g",
+        "4g",
+        "8g"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-068",
+      "question": "কোশ পর্দার মাধ্যমে কম ঘনত্বের স্থান থেকে বেশি ঘনত্বের স্থানে দ্রাবকের চলাচলকে কী বলে?",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Active transport",
+        "Plasmolysis"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-069",
+      "question": "গ্যাসের ব্যাপন হার (Diffusion rate) তার আণবিক ভরের সাথে কীভাবে সম্পর্কিত?",
+      "options": [
+        "সমানুপাতিক",
+        "বর্গের সমানুপাতিক",
+        "আণবিক ভরের বর্গমূলের ব্যস্তানুপাতিক",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-070",
+      "question": "তরল ও গ্যাসের মিশ্রণকে কী বলা হয়?",
+      "options": [
+        "Liquid aerosol",
+        "Solid aerosol",
+        "Foam",
+        "Sol"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-071",
+      "question": "[NUMERICAL] স্থির চাপে কোনো গ্যাসের আয়তন 300 K তাপমাত্রায় 600 mL। 400 K তাপমাত্রায় আয়তন কত হবে?",
+      "options": [
+        "800 mL",
+        "450 mL",
+        "1200 mL",
+        "200 mL"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-072",
+      "question": "নিচের কোনটি একটি রাসায়নিক পরিবর্তন?",
+      "options": [
+        "মোমের গলন",
+        "বরফ থেকে জল হওয়া",
+        "লোহায় মরিচা ধরা",
+        "চিনির জলীয় দ্রবণ তৈরি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-073",
+      "question": "দুধ থেকে মাখন পৃথক করার পদ্ধতিতে কোনটি কাজ করে?",
+      "options": [
+        "Filtration",
+        "Centrifugation",
+        "Evaporation",
+        "Sublimation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-074",
+      "question": "পুকুরের স্থির জলে ঢিল ছুড়লে যে তরঙ্গ তৈরি হয়, সেটি পদার্থের কোন ধর্মের জন্য হয়?",
+      "options": [
+        "Diffusion",
+        "Elasticity",
+        "Surface tension",
+        "Viscosity"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-075",
+      "question": "[NUMERICAL] STP-তে 2.24 L আয়তনের CO2 গ্যাসে কতগুলি অণু থাকে?",
+      "options": [
+        "6.022 × 10^23",
+        "6.022 × 10^22",
+        "3.011 × 10^23",
+        "10^22"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-076",
+      "question": "বায়ুমণ্ডলের ওজোন স্তর কোন গ্যাসে দ্রবীভূত হয়?",
+      "options": [
+        "জল",
+        "ক্লোরোফর্ম",
+        "তার্পিন তেল",
+        "অ্যালকোহল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-077",
+      "question": "সাবান বুদবুদ (Soap bubble) হলো—",
+      "options": [
+        "গ্যাসে তরলের কলোয়েড",
+        "তরলে গ্যাসের কলোয়েড",
+        "কঠিনের মধ্যে গ্যাস",
+        "তরলে কঠিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-078",
+      "question": "Boyle's law অনুযায়ী PV বনাম V লেখচিত্রটি কেমন?",
+      "options": [
+        "V-অক্ষের সমান্তরাল সরলরেখা",
+        "মূলবিন্দুগামী সরলরেখা",
+        "বক্ররেখা",
+        "P-অক্ষের সমান্তরাল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-079",
+      "question": "[NUMERICAL] 100°C তাপমাত্রায় পটাশিয়াম নাইট্রেটের দ্রাব্যতা 246। ওই তাপমাত্রায় 50g জলে কত গ্রাম দ্রাব দ্রবীভূত হবে?",
+      "options": [
+        "123g",
+        "246g",
+        "500g",
+        "100g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-080",
+      "question": "রিয়েল গ্যাস সমীকরণ (Van der Waals Equation) কাদের জন্য প্রযোজ্য?",
+      "options": [
+        "কেবল আদর্শ গ্যাস",
+        "বাস্তব গ্যাস",
+        "তরল পদার্থ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-081",
+      "question": "নিচের কোন জোড়াটি ভুল?",
+      "options": [
+        "Milk - Emulsion",
+        "Fog - Aerosol",
+        "Gemstone - Solid Sol",
+        "Cloud - Gel"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-082",
+      "question": "শীতকালে ভিজে জামাকাপড় তাড়াতাড়ি শুকায় কেন?",
+      "options": [
+        "তাপমাত্রা বেশি থাকে",
+        "বায়ুর আর্দ্রতা কম থাকে",
+        "বায়ু স্থির থাকে",
+        "রোদ বেশি থাকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-083",
+      "question": "[NUMERICAL] একটি গ্যাসের আয়তন 27°C-এ 500 mL। চাপ স্থির রেখে আয়তন 1000 mL করতে হলে তাপমাত্রা কত করতে হবে?",
+      "options": [
+        "54°C",
+        "327°C",
+        "600 K",
+        "B এবং C উভয়ই সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-084",
+      "question": "গ্যাস সিলিন্ডারের নব খুলে দিলে যে গন্ধ পাওয়া যায়, তা কিসের উদাহরণ?",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Effusion",
+        "Condensation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-085",
+      "question": "অ্যাভোগাড্রো সংখ্যা (N) এর মান কত?",
+      "options": [
+        "6.022 × 10^22",
+        "6.022 × 10^23",
+        "1.66 × 10^-24",
+        "6.626 × 10^-34"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-086",
+      "question": "কোল্ড ড্রিঙ্কসের বোতল খুললে বুদবুদ আকারে কোন গ্যাস বের হয়?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-087",
+      "question": "[NUMERICAL] 8g Oxygen (O2) গ্যাসের জন্য আদর্শ গ্যাস সমীকরণটি কী হবে?",
+      "options": [
+        "PV = RT",
+        "PV = 0.25RT",
+        "PV = 4RT",
+        "PV = 8RT"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-088",
+      "question": "নিচের কোনটি Heterogeneous mixture-এর উদাহরণ?",
+      "options": [
+        "বাতাস",
+        "পিতল (Brass)",
+        "নোনা জল",
+        "তেলের মধ্যে জল"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-089",
+      "question": "বৃষ্টির ফোঁটা গোলাকার হয় পদার্থের কোন ধর্মের জন্য?",
+      "options": [
+        "Viscosity",
+        "Surface tension",
+        "Elasticity",
+        "Density"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-090",
+      "question": "অ্যারোসল (Aerosol) কলোয়েডে বিস্তৃত মাধ্যমটি কী?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-091",
+      "question": "[NUMERICAL] STP-তে 1 mole যেকোনো গ্যাসের আয়তন কত?",
+      "options": [
+        "22.4 L",
+        "2.24 L",
+        "22400 mL",
+        "A এবং C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-092",
+      "question": "কোনো গ্যাসকে তরলে পরিণত করার জন্য প্রয়োজনীয় শর্ত কী?",
+      "options": [
+        "নিম্ন চাপ ও উচ্চ তাপমাত্রা",
+        "উচ্চ চাপ ও নিম্ন তাপমাত্রা",
+        "নিম্ন চাপ ও নিম্ন তাপমাত্রা",
+        "উচ্চ চাপ ও উচ্চ তাপমাত্রা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-093",
+      "question": "পচা ডিমের গন্ধযুক্ত গ্যাস কোনটি যা ব্যাপন প্রক্রিয়ায় ছড়ায়?",
+      "options": [
+        "NH3",
+        "SO2",
+        "H2S",
+        "CO2"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-094",
+      "question": "পরম তাপমাত্রা স্কেল কে আবিষ্কার করেন?",
+      "options": [
+        "Charles",
+        "Boyle",
+        "Lord Kelvin",
+        "Dalton"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-095",
+      "question": "[NUMERICAL] একটি লবণের দ্রাব্যতা 20। 50g সম্পৃক্ত দ্রবণ তৈরি করতে কত গ্রাম লবণ লাগবে?",
+      "options": [
+        "10g",
+        "8.33g",
+        "20g",
+        "12g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-096",
+      "question": "প্রকৃত দ্রবণের (True Solution) কণার ব্যাস কত?",
+      "options": [
+        "< 10^-8 cm",
+        "10^-7 cm",
+        "> 10^-5 cm",
+        "10^-4 cm"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-097",
+      "question": "রান্নার এলপিজি (LPG) সিলিন্ডারে মূলত কী থাকে?",
+      "options": [
+        "Methane",
+        "Propane & Butane",
+        "Ethane",
+        "Hydrogen"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-098",
+      "question": "নিচের কোনটি ব্যাপন (Diffusion) এর হারকে কমিয়ে দেয়?",
+      "options": [
+        "তাপমাত্রা বৃদ্ধি",
+        "ঘনত্বের পার্থক্য কমানো",
+        "কণার ভর কমানো",
+        "চাপের পার্থক্য বাড়ানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-099",
+      "question": "[NUMERICAL] 5.6 L Carbon dioxide-এ অণুর সংখ্যা কত?",
+      "options": [
+        "N",
+        "N/2",
+        "N/4",
+        "2N"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-100",
+      "question": "বয়েলের সূত্রে ধ্রুবক রাশি হলো—",
+      "options": [
+        "তাপমাত্রা ও গ্যাসের আয়তন",
+        "চাপ ও গ্যাসের ভর",
+        "তাপমাত্রা ও গ্যাসের ভর",
+        "আয়তন ও চাপ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-101",
+      "question": "নিচের কোনটি পদার্থের ভৌত ধর্ম নয়?",
+      "options": [
+        "ঘনত্ব",
+        "স্ফুটনাঙ্ক",
+        "দহনশীলতা",
+        "দ্রাব্যতা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-102",
+      "question": "তরলের স্ফুটনাঙ্ক বায়ুমণ্ডলীয় চাপের সাথে কীভাবে পরিবর্তিত হয়?",
+      "options": [
+        "চাপ বাড়লে স্ফুটনাঙ্ক কমে",
+        "চাপ বাড়লে স্ফুটনাঙ্ক বাড়ে",
+        "চাপের ওপর নির্ভর করে না",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-103",
+      "question": "[NUMERICAL] 20°C তাপমাত্রায় 200g জলে 40g চিনি দ্রবীভূত হয়ে সম্পৃক্ত দ্রবণ তৈরি করলে চিনির দ্রাব্যতা কত?",
+      "options": [
+        "40",
+        "20",
+        "10",
+        "80"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-104",
+      "question": "কোলয়েড কণার ব্রাউনীয় গতি (Brownian motion) কিসের কারণে হয়?",
+      "options": [
+        "মাধ্যমের অণুগুলির সাথে কণার সংঘর্ষ",
+        "মহাকর্ষ বল",
+        "বৈদ্যুতিক আকর্ষণ",
+        "চৌম্বক বল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-105",
+      "question": "নিচের কোনটি ইমালশন (Emulsion)-এর উদাহরণ?",
+      "options": [
+        "কাদা জল",
+        "কোকাকোলা",
+        "শ্যাম্পু",
+        "চিনির সিরাম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-106",
+      "question": "আদর্শ গ্যাসের ক্ষেত্রে PV/T রাশিটির মান কিসের ওপর নির্ভর করে?",
+      "options": [
+        "গ্যাসের প্রকৃতি",
+        "গ্যাসের পরিমাণ (ভর)",
+        "গ্যাসের তাপমাত্রা",
+        "পাত্রের আকার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-107",
+      "question": "পুকুর থেকে তোলা জলে কাদার কণাগুলি থিতিয়ে পড়ার পদ্ধতিকে কী বলে?",
+      "options": [
+        "Filtration",
+        "Sedimentation",
+        "Decantation",
+        "Distillation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-108",
+      "question": "[NUMERICAL] 16g Oxygen ও 14g Nitrogen গ্যাসের মিশ্রণে মোট মোল সংখ্যা কত?",
+      "options": [
+        "1",
+        "2",
+        "1.5",
+        "0.5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-109",
+      "question": "চার্লসের সূত্রের ধ্রুবক রাশি দুটি কী কী?",
+      "options": [
+        "চাপ ও তাপমাত্রা",
+        "আয়তন ও ভর",
+        "চাপ ও ভর",
+        "আয়তন ও তাপমাত্রা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-110",
+      "question": "লীনতাপ (Latent Heat) পদার্থের কোন অবস্থার পরিবর্তন ঘটায়?",
+      "options": [
+        "তাপমাত্রা স্থির রেখে অবস্থার পরিবর্তন",
+        "অবস্থা স্থির রেখে তাপমাত্রার পরিবর্তন",
+        "তাপমাত্রা ও অবস্থা উভয়ের পরিবর্তন",
+        "কোনো পরিবর্তন ঘটে না"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-111",
+      "question": "কুয়াশাচ্ছন্ন রাতে গাড়ির আলো বিচ্ছুরিত হওয়ার কারণ—",
+      "options": [
+        "Reflection",
+        "Tyndall Effect",
+        "Refraction",
+        "Total Internal Reflection"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-112",
+      "question": "প্রকৃত দ্রবণ ও কোলয়েড দ্রবণের মধ্যে পার্থক্য করার প্রধান উপায় হলো—",
+      "options": [
+        "বর্ণ দেখা",
+        "ফিল্টার পেপার ব্যবহার",
+        "টাইন্ডাল এফেক্ট পর্যবেক্ষণ",
+        "স্বাদ নেওয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-113",
+      "question": "[NUMERICAL] একটি নির্দিষ্ট তাপমাত্রায় 50g সম্পৃক্ত দ্রবণে 10g দ্রাব আছে। ওই তাপমাত্রায় দ্রাব্যতা কত?",
+      "options": [
+        "20",
+        "25",
+        "10",
+        "50"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-114",
+      "question": "নিচের কোনটি একটি উদগ্রাহী (Deliquescent) পদার্থ যা বাতাস থেকে জলীয় বাষ্প শোষণ করে গলে যায়?",
+      "options": [
+        "Blue Vitriol",
+        "Caustic Soda (NaOH)",
+        "Common Salt",
+        "Alum"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-115",
+      "question": "বেলুন ফোলানোর সময় বয়েল ও চার্লসের সূত্র সরাসরি প্রযোজ্য হয় না কেন?",
+      "options": [
+        "তাপমাত্রা স্থির থাকে না",
+        "গ্যাসের ভর স্থির থাকে না",
+        "চাপ বায়ুমণ্ডলীয় চাপের সমান হয় না",
+        "আয়তন হ্রাস পায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-116",
+      "question": "'R' বা সর্বজনীন গ্যাস ধ্রুবকের একক (SI তে) কোনটি?",
+      "options": [
+        "J mol^-1 K^-1",
+        "cal mol^-1 K^-1",
+        "L-atm mol^-1 K^-1",
+        "Erg mol^-1 K^-1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-117",
+      "question": "[NUMERICAL] 327°C তাপমাত্রা পরম স্কেলে কত?",
+      "options": [
+        "327 K",
+        "600 K",
+        "273 K",
+        "0 K"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-118",
+      "question": "টিন্ডাল এফেক্ট কোন ক্ষেত্রে দেখা যায় না?",
+      "options": [
+        "কোলয়েড দ্রবণ",
+        "প্রকৃত দ্রবণ (True solution)",
+        "সাসপেনশন",
+        "কুয়াশা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-119",
+      "question": "নিচের কোনটিকে 'Universal Solvent' বলা হয়?",
+      "options": [
+        "Alcohol",
+        "Benzene",
+        "Water",
+        "Ether"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-120",
+      "question": "ব্যাপন (Diffusion) পদার্থের কোন অবস্থায় দ্রুততম হয়?",
+      "options": [
+        "কঠিন",
+        "তরল",
+        "গ্যাস",
+        "সব ক্ষেত্রে সমান"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-121",
+      "question": "[NUMERICAL] STP-তে 2 mole CO2 গ্যাসের আয়তন কত?",
+      "options": [
+        "22.4 L",
+        "11.2 L",
+        "44.8 L",
+        "89.6 L"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-122",
+      "question": "ব্রাইন (Brine) হলো NaCl এর—",
+      "options": [
+        "লঘু দ্রবণ",
+        "সম্পৃক্ত দ্রবণ",
+        "কোলয়েড দ্রবণ",
+        "সাসপেনশন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-123",
+      "question": "আদর্শ গ্যাসের অণুগুলির সংঘর্ষ কী ধরনের?",
+      "options": [
+        "সম্পূর্ণ স্থিতিস্থাপক (Elastic)",
+        "অস্থিতিস্থাপক",
+        "আংশিক স্থিতিস্থাপক",
+        "কোনো সংঘর্ষ হয় না"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-124",
+      "question": "[NUMERICAL] একটি গ্যাসের চাপ 1 atm থেকে বাড়িয়ে 2 atm করা হলো এবং তাপমাত্রা 300 K থেকে কমিয়ে 150 K করা হলো। আয়তন কত গুণ হবে?",
+      "options": [
+        "4 গুণ",
+        "2 গুণ",
+        "1/4 গুণ",
+        "একই থাকবে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-125",
+      "question": "ইমালসিফায়ার (Emulsifier) এর কাজ কী?",
+      "options": [
+        "ইমালশনকে নষ্ট করা",
+        "ইমালশনকে স্থায়িত্ব দেওয়া",
+        "দ্রবণকে স্বচ্ছ করা",
+        "স্ফুটনাঙ্ক কমানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-126",
+      "question": "ধোঁয়া ও কুয়াশার মিশ্রণকে কী বলা হয়?",
+      "options": [
+        "Fog",
+        "Smog",
+        "Mist",
+        "Sol"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-127",
+      "question": "[NUMERICAL] একটি লবণের দ্রাব্যতা 40 হলে, 100g জল ব্যবহার করে কত গ্রাম সম্পৃক্ত দ্রবণ তৈরি করা যাবে?",
+      "options": [
+        "40g",
+        "140g",
+        "60g",
+        "100g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-128",
+      "question": "সেলসিয়াস স্কেলে দুটি তাপমাত্রার ব্যবধান 10° হলে, কেলভিন স্কেলে ওই ব্যবধান কত হবে?",
+      "options": [
+        "283 K",
+        "10 K",
+        "273 K",
+        "0 K"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-129",
+      "question": "বৃষ্টির পর আকাশে রংধনু দেখা যায় কেন?",
+      "options": [
+        "আলোর বিচ্ছুরণ (Dispersion)",
+        "আলোর প্রতিফলন",
+        "টাইন্ডাল এফেক্ট",
+        "আলোর শোষণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-130",
+      "question": "নিচের কোনটি কোলয়েড নয়?",
+      "options": [
+        "রক্ত",
+        "সাবান জল",
+        "নোনা জল",
+        "কালি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-131",
+      "question": "[NUMERICAL] 20g ক্যাসিয়াম কার্বনেট (CaCO3) এ কত মোল কণা আছে? (Ca=40, C=12, O=16)",
+      "options": [
+        "1 mole",
+        "0.2 mole",
+        "0.5 mole",
+        "2 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-132",
+      "question": "রান্নার গ্যাসের সিলিন্ডার থেকে গ্যাস বের হওয়া কোন পদ্ধতির উদাহরণ?",
+      "options": [
+        "ব্যাপন (Diffusion)",
+        "নিঃসরণ (Effusion)",
+        "অভিস্রবণ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-133",
+      "question": "পরম শূন্য তাপমাত্রার তাত্ত্বিক ভিত্তি কোন সূত্র থেকে পাওয়া যায়?",
+      "options": [
+        "বয়েল সূত্র",
+        "চার্লস সূত্র",
+        "অ্যাভোগাড্রো সূত্র",
+        "গ্রাহাম সূত্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-134",
+      "question": "[NUMERICAL] 0°C তাপমাত্রায় 10g বরফকে জলে পরিণত করতে কত তাপ লাগবে?",
+      "options": [
+        "80 cal",
+        "800 cal",
+        "540 cal",
+        "5400 cal"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-135",
+      "question": "নিচের কোনটি একটি সল (Sol)-এর উদাহরণ?",
+      "options": [
+        "কুয়াশা",
+        "রং (Paint)",
+        "চিজ",
+        "মাখন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-136",
+      "question": "একটি আদর্শ গ্যাসের অণুগুলির মোট স্থিতিশক্তি (Potential Energy) কত?",
+      "options": [
+        "অসীম",
+        "শূন্য",
+        "খুব বেশি",
+        "নেতিবাচক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-137",
+      "question": "[NUMERICAL] STP-তে 4.4g CO2 এর আয়তন কত?",
+      "options": [
+        "2.24 L",
+        "22.4 L",
+        "0.224 L",
+        "1.12 L"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-138",
+      "question": "অ্যাভোগাড্রো সূত্রের গাণিতিক রূপ কোনটি? (V = আয়তন, n = মোল সংখ্যা)",
+      "options": [
+        "V ∝ n",
+        "V ∝ 1/n",
+        "V = n",
+        "P ∝ n"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-139",
+      "question": "একটি গ্যাসের বাষ্প ঘনত্ব (Vapour Density) 16 হলে তার আণবিক ভর কত?",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-140",
+      "question": "মেঘ (Cloud) হলো—",
+      "options": [
+        "গ্যাসে তরলের কলোয়েড",
+        "তরলে গ্যাসের কলোয়েড",
+        "গ্যাসে কঠিনের কলোয়েড",
+        "তরলে তরলের কলোয়েড"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-141",
+      "question": "[NUMERICAL] 27°C তাপমাত্রায় নির্দিষ্ট ভরের গ্যাসের আয়তন 2 L। চাপ স্থির রেখে তাপমাত্রা কত করলে আয়তন দ্বিগুণ হবে?",
+      "options": [
+        "54°C",
+        "327°C",
+        "600°C",
+        "300°C"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-142",
+      "question": "বয়েল সূত্রের লেখচিত্র 'P' বনাম '1/V' কীরূপ?",
+      "options": [
+        "সমপরাবৃত্ত",
+        "মূলবিন্দুগামী সরলরেখা",
+        "বৃত্তাকার",
+        "বক্ররেখা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-143",
+      "question": "জলের স্ফুটনাঙ্ক পাহাড়ে কম হয় কেন?",
+      "options": [
+        "বাতাসের চাপ কম বলে",
+        "তাপমাত্রা কম বলে",
+        "অক্সিজেন কম বলে",
+        "জল বিশুদ্ধ থাকে না"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-144",
+      "question": "কোলয়েড কণার আকার কত?",
+      "options": [
+        "1 nm - 100 nm",
+        "< 1 nm",
+        "> 1000 nm",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-145",
+      "question": "[NUMERICAL] একটি লবণের দ্রাব্যতা 25। 50g সম্পৃক্ত দ্রবণ থেকে জল বাষ্পীভূত করলে কত গ্রাম লবণ পাওয়া যাবে?",
+      "options": [
+        "10g",
+        "12.5g",
+        "25g",
+        "15g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-146",
+      "question": "গ্যাসে জলীয় বাষ্পের পরিমাণ বাড়লে গ্যাসের ঘনত্ব কীরূপ পরিবর্তিত হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "প্রথমে বাড়ে পরে কমে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-147",
+      "question": "শুষ্ক বায়ু অপেক্ষা আর্দ্র বায়ু কেমন?",
+      "options": [
+        "ভারী",
+        "হালকা",
+        "একই ওজনের",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-148",
+      "question": "নিচের কোনটি একটি রাসায়নিক বিক্রিয়া নয়?",
+      "options": [
+        "দহন",
+        "পরিপাক",
+        "বাষ্পায়ন",
+        "গাঁজন (Fermentation)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-149",
+      "question": "[NUMERICAL] STP-তে 1.4g Nitrogen গ্যাসের আয়তন কত? (N=14)",
+      "options": [
+        "2.24 L",
+        "1.12 L",
+        "22.4 L",
+        "0.56 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-150",
+      "question": "ক্রায়োজেনিক ইঞ্জিনে (Cryogenic Engine) জ্বালানি হিসেবে কী ব্যবহৃত হয়?",
+      "options": [
+        "তরল অক্সিজেন ও তরল হাইড্রোজেন",
+        "পেট্রোল",
+        "কয়লা",
+        "ডিজেল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-151",
+      "question": "কোনো গ্যাসের অণুগুলির গড় বেগ শূন্য হতে পারে কী?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "উচ্চ চাপে সম্ভব",
+        "নিম্ন তাপমাত্রায় সম্ভব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-152",
+      "question": "কোলয়েড দ্রবণকে স্থিতিশীল করতে নিচের কোনটি ব্যবহার করা হয়?",
+      "options": [
+        "ইলেকট্রোলাইট",
+        "প্রোটেক্টিভ কোলয়েড",
+        "উত্তাপ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-153",
+      "question": "[NUMERICAL] 30°C তাপমাত্রায় একটি লবণের দ্রাব্যতা 40। ওই তাপমাত্রায় 200g সম্পৃক্ত দ্রবণ তৈরি করতে কত গ্রাম জল লাগবে?",
+      "options": [
+        "142.8g",
+        "100g",
+        "160g",
+        "120g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-154",
+      "question": "পদার্থের পঞ্চম অবস্থা (Fifth state) কোনটি?",
+      "options": [
+        "Plasma",
+        "Bose-Einstein Condensate",
+        "Superfluid",
+        "Quark-gluon plasma"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-155",
+      "question": "গ্যাস থার্মোমিটার তরল থার্মোমিটার অপেক্ষা বেশি সংবেদনশীল কেন?",
+      "options": [
+        "গ্যাস হালকা",
+        "গ্যাসের প্রসারণ গুণাঙ্ক বেশি",
+        "গ্যাস সস্তা",
+        "গ্যাস রঙিন হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-156",
+      "question": "পরম শূন্য তাপমাত্রায় পদার্থের গতিশীলতা কেমন হয়?",
+      "options": [
+        "সর্বোচ্চ হয়",
+        "সর্বনিম্ন (প্রায় শূন্য) হয়",
+        "অপরিবর্তিত থাকে",
+        "অনিয়মিত হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-157",
+      "question": "[NUMERICAL] STP-তে 16g Oxygen গ্যাসের আয়তন কত?",
+      "options": [
+        "22.4 L",
+        "11.2 L",
+        "5.6 L",
+        "44.8 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-158",
+      "question": "নদী ও সমুদ্রের মোহনায় বদ্বীপ (Delta) তৈরির কারণ কোলয়েডের—",
+      "options": [
+        "পেপটাইজেশন",
+        "কোয়াগুলেশন (Coagulation)",
+        "ডায়ালাইসিস",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-159",
+      "question": "নিচের কোনটির ব্যাপন হার সবচেয়ে বেশি?",
+      "options": [
+        "CO2",
+        "NH3",
+        "H2",
+        "O2"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-160",
+      "question": "বরফ গলনের সময় আয়তনের কী পরিবর্তন হয়?",
+      "options": [
+        "বাড়ে",
+        "কমে",
+        "একই থাকে",
+        "প্রথমে কমে পরে বাড়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-161",
+      "question": "[NUMERICAL] 5 mole জলে অণুর সংখ্যা কত?",
+      "options": [
+        "6.022 × 10^23",
+        "3.011 × 10^24",
+        "1.204 × 10^24",
+        "10^24"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-162",
+      "question": "হিমঘর বা কোল্ড স্টোরেজে কোন গ্যাস শীতলীকরণের জন্য ব্যবহৃত হয়?",
+      "options": [
+        "Nitrogen",
+        "Ammonia (NH3)",
+        "Carbon dioxide",
+        "Helium"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-163",
+      "question": "নিচের কোনটি একটি উদগ্রাহী লবণ (Efflorescent Salt) যা জল ত্যাগ করে চূর্ণে পরিণত হয়?",
+      "options": [
+        "Washing Soda",
+        "Epsom Salt",
+        "Glauber's Salt",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-164",
+      "question": "পুকুরের জল পরিষ্কার করতে ফটকিরি ব্যবহার করা কোন প্রক্রিয়ার উদাহরণ?",
+      "options": [
+        "Filtration",
+        "Coagulation",
+        "Osmosis",
+        "Distillation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-165",
+      "question": "[NUMERICAL] STP-তে 22g CO2 গ্যাসের আয়তন কত?",
+      "options": [
+        "11.2 L",
+        "22.4 L",
+        "44.8 L",
+        "5.6 L"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-166",
+      "question": "কলোয়েড কণাগুলিকে কোলয়েড দ্রবণ থেকে আলাদা করার পদ্ধতিকে কী বলে?",
+      "options": [
+        "Filtration",
+        "Dialysis",
+        "Distillation",
+        "Decantation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-167",
+      "question": "একটি আদর্শ গ্যাস অণুর আকার কত ধরা হয়?",
+      "options": [
+        "1 nm",
+        "অত্যন্ত ক্ষুদ্র (বিন্দুসম)",
+        "1 mm",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-168",
+      "question": "নিচের কোনটি উচ্চ তাপমাত্রায় ঊর্ধ্বপাতিত হয়?",
+      "options": [
+        "লোহা",
+        "কপার",
+        "আয়োডিন",
+        "জল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-169",
+      "question": "[NUMERICAL] 273 K তাপমাত্রায় নির্দিষ্ট ভরের গ্যাসের আয়তন V হলে, 546 K তাপমাত্রায় আয়তন কত হবে (চাপ স্থির)?",
+      "options": [
+        "V/2",
+        "2V",
+        "V",
+        "4V"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-170",
+      "question": "টিন্ডাল এফেক্ট হওয়ার কারণ কী?",
+      "options": [
+        "আলোর প্রতিফলন",
+        "আলোর বিচ্ছুরণ (Scattering)",
+        "আলোর প্রতিসরণ",
+        "আলোর শোষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-171",
+      "question": "ঘরের কোণে পারফিউম স্প্রে করলে সারা ঘরে গন্ধ ছড়িয়ে পড়ে কোন ধর্মের জন্য?",
+      "options": [
+        "Osmosis",
+        "Effusion",
+        "Diffusion",
+        "Surface Tension"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-172",
+      "question": "একটি গ্যাসের আণবিক ভর আণবিক সংকেতের ওপর নির্ভর করে— এটি কার উক্তি?",
+      "options": [
+        "Dalton",
+        "Avogadro",
+        "Berzelius",
+        "Boyle"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-173",
+      "question": "[NUMERICAL] 400 K তাপমাত্রায় গ্যাসের আয়তন 4 L। চাপ স্থির রেখে আয়তন 2 L করতে তাপমাত্রা কত করতে হবে?",
+      "options": [
+        "200 K",
+        "800 K",
+        "300 K",
+        "100 K"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-174",
+      "question": "রবার ইরেজার (Rubber eraser) কী ধরনের কোলয়েড?",
+      "options": [
+        "Solid Sol",
+        "Solid Foam",
+        "Gel",
+        "Sol"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-175",
+      "question": "আদর্শ গ্যাস সূত্রের ধ্রুবক 'R' এর মান লিটার-অ্যাটমোস্ফিয়ার এককে কত?",
+      "options": [
+        "8.314",
+        "0.0821",
+        "1.987",
+        "6.022"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-176",
+      "question": "সমদাব রেখাকে (Isobar) কোন সূত্রের লেখচিত্রে পাওয়া যায়?",
+      "options": [
+        "বয়েল সূত্র",
+        "চার্লস সূত্র",
+        "অ্যাভোগাড্রো সূত্র",
+        "গ্রাহাম সূত্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-177",
+      "question": "[NUMERICAL] 4g Helium গ্যাসে পরমাণুর সংখ্যা কত?",
+      "options": [
+        "6.022 × 10^23",
+        "1.204 × 10^24",
+        "3.011 × 10^23",
+        "10^23"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-178",
+      "question": "বায়ু থেকে অক্সিজেন ও নাইট্রোজেন আলাদা করার পদ্ধতি কোনটি?",
+      "options": [
+        "Filtration",
+        "Fractional Distillation",
+        "Osmosis",
+        "Sublimation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-179",
+      "question": "'Tyndall Effect' শব্দটি কার নামানুসারে রাখা হয়েছে?",
+      "options": [
+        "John Tyndall",
+        "Michael Faraday",
+        "Robert Brown",
+        "Graham"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-180",
+      "question": "পরম শূন্য তাপমাত্রায় গ্যাসের অণুগুলির বেগ কত?",
+      "options": [
+        "অসীম",
+        "শূন্য",
+        "আলোর বেগের সমান",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-181",
+      "question": "[NUMERICAL] 20°C তাপমাত্রায় 20g সম্পৃক্ত দ্রবণে 4g দ্রাব থাকলে দ্রাব্যতা কত?",
+      "options": [
+        "20",
+        "25",
+        "16",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-182",
+      "question": "কোনো তরলের বাষ্পায়ন দ্রুত হয় যখন—",
+      "options": [
+        "বায়ু চলাচল বন্ধ থাকে",
+        "তরলের উপরিতল বড় হয়",
+        "বায়ুর আর্দ্রতা বেশি থাকে",
+        "তাপমাত্রা কম থাকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-183",
+      "question": "গ্যাসীয় অণুগুলির রেন্ডম মোশনকে কী বলা হয়?",
+      "options": [
+        "Linear motion",
+        "Thermal motion",
+        "Vibrational motion",
+        "Rotational motion"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-184",
+      "question": "মিল্ক অফ ম্যাগনেশিয়া (Milk of Magnesia) হলো—",
+      "options": [
+        "Sol",
+        "Suspension",
+        "Emulsion",
+        "True solution"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-185",
+      "question": "[NUMERICAL] STP-তে 5.6 L Oxygen এর ভর কত?",
+      "options": [
+        "16g",
+        "8g",
+        "32g",
+        "4g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-186",
+      "question": "চার্লস সূত্রের গাণিতিক রূপে তাপমাত্রা 'T' কিসে মাপা হয়?",
+      "options": [
+        "সেলসিয়াস",
+        "কেলভিন",
+        "ফারেনহাইট",
+        "রিউমার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-187",
+      "question": "কোলয়েড কণাগুলির ওপর কী আধান থাকে?",
+      "options": [
+        "ধনাত্মক",
+        "ঋণাত্মক",
+        "নিস্তড়িৎ",
+        "ধনাত্মক অথবা ঋণাত্মক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-188",
+      "question": "তরল থেকে বাষ্পে পরিণত হওয়ার সময় লীনতাপ কী কাজে লাগে?",
+      "options": [
+        "তাপমাত্রা বাড়াতে",
+        "অণুগুলির মধ্যে আকর্ষণ বল কাটাতে",
+        "পাত্রকে গরম করতে",
+        "কোনো কাজ করে না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-189",
+      "question": "[NUMERICAL] 2 atm চাপে 5 L আয়তনের একটি গ্যাসকে 10 L করা হলো। নতুন চাপ কত হবে?",
+      "options": [
+        "1 atm",
+        "4 atm",
+        "2 atm",
+        "0.5 atm"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-190",
+      "question": "ভিনিগার (Vinegar) হলো—",
+      "options": [
+        "অ্যাসিটিক অ্যাসিডের জলীয় দ্রবণ",
+        "সাইট্রিক অ্যাসিডের জলীয় দ্রবণ",
+        "লবণের দ্রবণ",
+        "অ্যালকোহল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-191",
+      "question": "নিচের কোনটি ব্যাপন ক্রিয়া নয়?",
+      "options": [
+        "ধূপের গন্ধ ছড়ানো",
+        "জলের মধ্যে কালির বিস্তার",
+        "মাটির কলসিতে জল ঠান্ডা হওয়া",
+        "চিনি জলে মিশে যাওয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-192",
+      "question": "গ্যাসের অণুগুলির মধ্যে ধাক্কা লাগলে কিসের পরিবর্তন হয়?",
+      "options": [
+        "গতির অভিমুখ",
+        "মোট শক্তি",
+        "অণুর ভর",
+        "তাপমাত্রা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-10-193",
+      "question": "[NUMERICAL] 100g জলে কত গ্রাম লবণ মেশালে দ্রাব্যতা 20 হবে?",
+      "options": [
+        "20g",
+        "100g",
+        "5g",
+        "10g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-194",
+      "question": "ন্যাপথলিন কোন প্রক্রিয়ায় সরাসরি গ্যাসে পরিণত হয়?",
+      "options": [
+        "Evaporation",
+        "Sublimation",
+        "Distillation",
+        "Melting"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-195",
+      "question": "অ্যাভোগাড্রো সংখ্যা 'N' কোন রাশির সাথে সম্পর্কিত?",
+      "options": [
+        "ভর",
+        "মোল",
+        "তাপমাত্রা",
+        "আয়তন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-10-196",
+      "question": "একটি আদর্শ গ্যাসের জন্য সংকোচনশীলতা গুণক (Compressibility factor, Z) এর মান কত?",
+      "options": [
+        "0",
+        "1",
+        "1 এর বেশি",
+        "1 এর কম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-10-197",
+      "question": "নিচের কোনগুলি কোলয়েড দ্রবণের বৈশিষ্ট্য?",
+      "options": [
+        "এটি অসমসত্ত্ব (Heterogeneous) মিশ্রণ",
+        "এটি টাইন্ডাল এফেক্ট দেখায়",
+        "এর কণাগুলি আল্ট্রা-ফিল্টার পেপার দিয়ে আলাদা করা যায়",
+        "এর কণাগুলি খালি চোখে দেখা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-198",
+      "question": "নিচের কোন গ্যাসগুলির ব্যাপন হার অক্সিজেন (O2) অপেক্ষা বেশি?",
+      "options": [
+        "CO2",
+        "H2",
+        "NH3",
+        "CH4"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-199",
+      "question": "লীনতাপ (Latent Heat) প্রয়োগের সময় নিচের কোন রাশিগুলি স্থির থাকে?",
+      "options": [
+        "তাপমাত্রা",
+        "পদার্থের অবস্থা",
+        "পদার্থের গতিশক্তি",
+        "পদার্থের বিভব শক্তি (Potential Energy)"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-200",
+      "question": "চার্লসের সূত্রে ধ্রুবক রাশিগুলি হলো—",
+      "options": [
+        "গ্যাসের ভর",
+        "গ্যাসের চাপ",
+        "গ্যাসের আয়তন",
+        "গ্যাসের তাপমাত্রা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-201",
+      "question": "নিচের কোনগুলি ঊর্ধ্বপাতিত পদার্থ (Sublimable substances)?",
+      "options": [
+        "ন্যাপথলিন",
+        "কর্পূর",
+        "কঠিন কার্বন ডাই অক্সাইড",
+        "সোডিয়াম ক্লোরাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-202",
+      "question": "বাস্তব গ্যাসগুলি আদর্শ আচরণের থেকে বিচ্যুত হয় কেন?",
+      "options": [
+        "অণুগুলির মধ্যে আকর্ষণ বল থাকে",
+        "অণুগুলির আয়তন নগণ্য নয়",
+        "অণুগুলি স্থির থাকে",
+        "অণুগুলির মধ্যে সংঘর্ষ হয় না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-203",
+      "question": "ইমালশন (Emulsion)-এর উদাহরণ হলো—",
+      "options": [
+        "দুধ",
+        "কোল্ড ক্রিম",
+        "শ্যাম্পু",
+        "রং (Paint)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-204",
+      "question": "নিচের কোন বিষয়গুলি দ্রাব্যতা (Solubility)-কে প্রভাবিত করে?",
+      "options": [
+        "উষ্ণতা",
+        "দ্রাব ও দ্রাবকের প্রকৃতি",
+        "দ্রাবের ভর",
+        "চাপ (গ্যাসের ক্ষেত্রে)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-205",
+      "question": "ব্যাপন (Diffusion) সম্পর্কে কোন তথ্যগুলি সঠিক?",
+      "options": [
+        "এটি একটি স্বতঃস্ফূর্ত প্রক্রিয়া",
+        "উষ্ণতা বাড়লে ব্যাপন হার বাড়ে",
+        "এটি কেবল তরলে দেখা যায়",
+        "এটি ঘনত্বের পার্থক্যের জন্য ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-206",
+      "question": "কলোয়েড কণার বর্ণ কিসের ওপর নির্ভর করে?",
+      "options": [
+        "কণার আকার",
+        "আলোক রশ্মির তরঙ্গদৈর্ঘ্য",
+        "পাত্রের উপাদান",
+        "পর্যবেক্ষণের কোণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-207",
+      "question": "সম্পৃক্ত দ্রবণকে অসম্পৃক্ত করার উপায় হলো—",
+      "options": [
+        "আরও দ্রাবক যোগ করা",
+        "উষ্ণতা বৃদ্ধি করা",
+        "নাড়াচাড়া করা",
+        "আরও দ্রাব যোগ করা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-208",
+      "question": "অ্যাভোগাড্রো প্রকল্পের প্রয়োগ হলো—",
+      "options": [
+        "আণবিক ভর নির্ণয়",
+        "গ্যাসীয় মৌলের পারমাণবিকতা নির্ণয়",
+        "বাষ্প ঘনত্ব ও আণবিক ভরের সম্পর্ক স্থাপন",
+        "লীনতাপ নির্ণয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-209",
+      "question": "নিচের কোনগুলি সমসত্ত্ব মিশ্রণ (Homogeneous mixture)?",
+      "options": [
+        "বাতাসের মিশ্রণ",
+        "পিতল",
+        "লবণ জল",
+        "চক ও জলের মিশ্রণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-210",
+      "question": "STP-তে 1 mole ওজনে সমান হয় এমন গ্যাসগুলি হলো—",
+      "options": [
+        "CO",
+        "N2",
+        "O2",
+        "C2H4"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-211",
+      "question": "বয়েল সূত্রের গাণিতিক প্রকাশ হতে পারে—",
+      "options": [
+        "PV = Constant",
+        "P ∝ 1/V",
+        "P/V = Constant",
+        "V ∝ 1/P"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-212",
+      "question": "জলের ব্যতিক্রান্ত প্রসারণ (Anomalous expansion) দেখা যায়—",
+      "options": [
+        "0°C থেকে 4°C এর মধ্যে",
+        "তাপমাত্রা বাড়লে আয়তন কমে",
+        "তাপমাত্রা বাড়লে ঘনত্ব কমে",
+        "4°C তাপমাত্রায় ঘনত্ব সর্বাধিক হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-213",
+      "question": "নিচের কোনগুলি রাসায়নিক পরিবর্তন?",
+      "options": [
+        "মোমের দহন",
+        "লোহার মরিচা",
+        "জলের তড়িৎ বিশ্লেষণ",
+        "প্লাটিনাম তার উত্তপ্ত করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-214",
+      "question": "কলোয়েডাল গোল্ড (Colloidal Gold) ব্যবহৃত হয়—",
+      "options": [
+        "রক্তস্বল্পতা দূর করতে",
+        "মাংসপেশিতে ইনজেকশন হিসেবে",
+        "রোগ প্রতিরোধ ক্ষমতা বাড়াতে",
+        "চোখের চিকিৎসায়"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-215",
+      "question": "গ্যাসে অণুর গতির বৈশিষ্ট্য হলো—",
+      "options": [
+        "গতি এলোমেলো (Random)",
+        "সব অণুর বেগ সমান",
+        "সংঘর্ষগুলি স্থিতিস্থাপক",
+        "অণুগুলি সরলরেখায় চলে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-216",
+      "question": "বাষ্পায়ন (Evaporation) কিসের ওপর নির্ভর করে?",
+      "options": [
+        "তরলের প্রকৃতি",
+        "উপরিভাগের ক্ষেত্রফল",
+        "বায়ুর আর্দ্রতা",
+        "পাত্রের গভীরতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-217",
+      "question": "'R' এর মান নির্ভর করে—",
+      "options": [
+        "ব্যবহৃত এককের ওপর",
+        "গ্যাসের প্রকৃতির ওপর",
+        "চাপের ওপর",
+        "কোনোটির ওপর নয় (এটি ধ্রুবক)"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-218",
+      "question": "নিচের কোনগুলি কোলয়েড তন্ত্র (Colloid system)?",
+      "options": [
+        "অ্যারোসল",
+        "জেল",
+        "সল",
+        "সত্য দ্রবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-219",
+      "question": "বরফের সাথে লবণ মেশালে (হিমমিশ্র)—",
+      "options": [
+        "গলনাঙ্ক কমে যায়",
+        "উষ্ণতা 0°C এর নিচে চলে যায়",
+        "মাছ সংরক্ষণে ব্যবহৃত হয়",
+        "গলনাঙ্ক বেড়ে যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-220",
+      "question": "চার্লস সূত্রের লেখচিত্র (V-T) মূলবিন্দু দিয়ে যায় না কেন?",
+      "options": [
+        "পরম শূন্য তাপমাত্রায় আয়তন শূন্য হয়",
+        "লেখচিত্রটি কেলভিন স্কেলে করলে মূলবিন্দুগামী হয়",
+        "সেলসিয়াস স্কেলে এটি -273°C এ ছেদ করে",
+        "আয়তন ধ্রুবক থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-221",
+      "question": "কোলয়েড কণার স্থিতিশীলতার কারণ—",
+      "options": [
+        "ব্রাউনীয় গতি",
+        "কণাগুলির ওপর আধানের উপস্থিতি",
+        "মহাকর্ষ বল",
+        "টাইন্ডাল এফেক্ট"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-222",
+      "question": "কঠিন পদার্থের নির্দিষ্ট জ্যামিতিক আকার থাকে কারণ—",
+      "options": [
+        "অণুগুলি খুব কাছাকাছি থাকে",
+        "আকর্ষণ বল খুব বেশি",
+        "অণুগুলি স্থির থাকে",
+        "অণুগুলি কেবল কাঁপতে পারে (Vibrate)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-223",
+      "question": "গ্যাসের অণুগুলির মোট আয়তন পাত্রের আয়তনের তুলনায় নগণ্য ধরা হয়—",
+      "options": [
+        "আদর্শ গ্যাসের ক্ষেত্রে",
+        "নিম্ন চাপে",
+        "উচ্চ চাপে",
+        "সব গ্যাসের ক্ষেত্রে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-224",
+      "question": "নিচের কোনগুলি ভৌত পরিবর্তন?",
+      "options": [
+        "বরফ গলে জল হওয়া",
+        "কর্পূরের ঊর্ধ্বপাতন",
+        "লোহার চুম্বকত্ব লাভ",
+        "ম্যাগনেসিয়াম ফিতা পোড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-225",
+      "question": "ইমালসিফাইং এজেন্ট (Emulsifying agent) হলো—",
+      "options": [
+        "সাবান",
+        "প্রোটিন",
+        "জল",
+        "আঠা (Gum)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-226",
+      "question": "[NUMERICAL] STP-তে 22.4 L CO2 গ্যাসের মধ্যে—",
+      "options": [
+        "44g ভর আছে",
+        "1 mole কণা আছে",
+        "6.022 × 10^23 অণু আছে",
+        "12g অক্সিজেন আছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-227",
+      "question": "গে-লুসাক-এর গ্যাস আয়তন সূত্র প্রযোজ্য হয়—",
+      "options": [
+        "বিক্রিয়ক গ্যাসগুলির ক্ষেত্রে",
+        "উৎপন্ন গ্যাসীয় পদার্থের ক্ষেত্রে",
+        "কঠিন পদার্থের ক্ষেত্রে",
+        "তরল পদার্থের ক্ষেত্রে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-228",
+      "question": "নিচের কোন কোলয়েডগুলিতে বিস্তৃত দশাটি তরল?",
+      "options": [
+        "কুয়াশা",
+        "পনির",
+        "জেল",
+        "ধোঁয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-229",
+      "question": "একটি আদর্শ গ্যাসের উষ্ণতা বাড়ালে—",
+      "options": [
+        "অণুগুলির গড় বেগ বাড়ে",
+        "অণুগুলির গড় গতিশক্তি বাড়ে",
+        "অণুগুলির সংঘর্ষের সংখ্যা বাড়ে",
+        "অণুগুলির ভর বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-230",
+      "question": "সম্পৃক্ত দ্রবণ থেকে দ্রাব পৃথক করার পদ্ধতি হলো—",
+      "options": [
+        "উষ্ণতা কমানো",
+        "দ্রাবক বাষ্পীভূত করা",
+        "আরও দ্রাবক যোগ করা",
+        "নাড়ানো"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-231",
+      "question": "ন্যাপথলিন ও বালির মিশ্রণ পৃথক করা যায়—",
+      "options": [
+        "ঊর্ধ্বপাতন (Sublimation) দ্বারা",
+        "পরিশ্রাবণ (Filtration) দ্বারা",
+        "পরিশ্রাবণ (উপযুক্ত দ্রাবক ব্যবহার করে)",
+        "চুম্বক দ্বারা"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-232",
+      "question": "ডাল্টনের আংশিক চাপ সূত্র প্রযোজ্য নয় এমন গ্যাস মিশ্রণ—",
+      "options": [
+        "H2 ও Cl2 (আলোর উপস্থিতিতে)",
+        "NH3 ও HCl",
+        "N2 ও O2",
+        "He ও Ar"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-233",
+      "question": "তরল অ্যারোসল (Liquid Aerosol)-এর উদাহরণ—",
+      "options": [
+        "মেঘ",
+        "কুয়াশা",
+        "কীটনাশক স্প্রে",
+        "ধোঁয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-234",
+      "question": "পরম শূন্য তাপমাত্রা সম্পর্কে সঠিক তথ্য—",
+      "options": [
+        "এটি -273.15°C",
+        "এটি 0 K",
+        "এই তাপমাত্রায় গ্যাসের আয়তন তাত্ত্বিকভাবে শূন্য",
+        "এটি কোনোদিন অর্জন করা সম্ভব নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-235",
+      "question": "কলোয়েড কণাগুলি ফিল্টার পেপার দিয়ে যেতে পারে কারণ—",
+      "options": [
+        "কণাগুলি খুব ছোট",
+        "ফিল্টার পেপারের ছিদ্র কণাগুলির চেয়ে বড়",
+        "কণাগুলি দ্রাবকে দ্রবীভূত থাকে",
+        "কণাগুলির কোনো ভর নেই"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-236",
+      "question": "নিচের কোন রাশিগুলির একক একই?",
+      "options": [
+        "কাজ (Work)",
+        "শক্তি (Energy)",
+        "লীনতাপ",
+        "তাপের যান্ত্রিক তুল্যাঙ্ক"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-237",
+      "question": "পদার্থের প্লাজমা অবস্থার বৈশিষ্ট্য হলো—",
+      "options": [
+        "এটি অত্যন্ত উচ্চ তাপমাত্রায় থাকে",
+        "এটি আধানযুক্ত কণা দ্বারা গঠিত",
+        "এটি বিদ্যুৎ পরিবাহী",
+        "এটি নক্ষত্রমণ্ডলে পাওয়া যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-238",
+      "question": "নিচের কোন ক্ষেত্রে ব্রাউনীয় গতি বেশি দেখা যায়?",
+      "options": [
+        "লঘু কোলয়েড দ্রবণে",
+        "কম সান্দ্রতাযুক্ত (Viscosity) মাধ্যমে",
+        "বেশি উষ্ণতায়",
+        "বড় আকারের কণা থাকলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-239",
+      "question": "বাস্তব গ্যাসগুলি আদর্শ গ্যাসের সমীকরণ মেনে চলে না কারণ—",
+      "options": [
+        "আন্তঃআণবিক আকর্ষণ বলের জন্য চাপের ত্রুটি",
+        "অণুগুলির নিজস্ব আয়তনের জন্য আয়তনের ত্রুটি",
+        "অণুগুলি স্থির থাকে",
+        "অণুগুলির ভর থাকে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-240",
+      "question": "কোলয়েড কণার থিতিয়ে না পড়ার কারণ হলো—",
+      "options": [
+        "ব্রাউনীয় গতি",
+        "সমজাতীয় আধানের বিকর্ষণ",
+        "মহাকর্ষ বলের প্রভাব নগণ্য হওয়া",
+        "টাইন্ডাল এফেক্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-241",
+      "question": "গ্যাসের ব্যাপন হার (r) নির্ভর করে—",
+      "options": [
+        "উষ্ণতা (T)",
+        "গ্যাসের ঘনত্ব (d)",
+        "আণবিক ভর (M)",
+        "পাত্রের বর্ণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-242",
+      "question": "নিচের কোনগুলি কঠিন অ্যারোসল (Solid Aerosol)?",
+      "options": [
+        "ধোঁয়া",
+        "ধুলিকণা যুক্ত বাতাস",
+        "মেঘ",
+        "কুয়াশা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-243",
+      "question": "[NUMERICAL] 30°C তাপমাত্রায় 20g জলে 10g লবণ যোগ করলে যদি 2g লবণ থিতিয়ে থাকে, তবে—",
+      "options": [
+        "দ্রাব্যতা 40",
+        "দ্রবণটি সম্পৃক্ত",
+        "দ্রবণটি অসম্পৃক্ত",
+        "দ্রাব্যতা 50"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-244",
+      "question": "শিশির (Dew) জমার জন্য উপযুক্ত শর্ত—",
+      "options": [
+        "মেঘমুক্ত আকাশ",
+        "স্থির বায়ু",
+        "আর্দ্র বায়ু",
+        "খুব গরম আবহাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-245",
+      "question": "সাবান জল (Soap solution) হলো—",
+      "options": [
+        "অ্যাসোসিয়েটেড কোলয়েড",
+        "মি সেল (Micelle) গঠন করে",
+        "সত্য দ্রবণ",
+        "ইমালশন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-246",
+      "question": "তরলের বাষ্পায়ন বাড়লে তরলের তাপমাত্রা—",
+      "options": [
+        "কমে যায়",
+        "শীতলতার সৃষ্টি হয়",
+        "একই থাকে",
+        "বেড়ে যায়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-247",
+      "question": "বয়েল সূত্রের ধ্রুবক রাশি—",
+      "options": [
+        "গ্যাসের ভর",
+        "উষ্ণতা",
+        "আয়তন",
+        "চাপ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-248",
+      "question": "সল (Sol) এবং জেলের (Gel) মধ্যে পার্থক্য—",
+      "options": [
+        "সল হলো তরলে কঠিন",
+        "জেল হলো কঠিনের মধ্যে তরল",
+        "সল বেশি সান্দ্র হয়",
+        "জেল অর্ধ-কঠিন হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-249",
+      "question": "গ্যাসের গতীয় তত্ত্বের স্বীকার্য অনুযায়ী—",
+      "options": [
+        "গ্যাসের অণুগুলি বিন্দুসম আয়তন যুক্ত",
+        "অণুগুলির মধ্যে কোনো আকর্ষণ বল নেই",
+        "অণুগুলি সর্বদা স্থির থাকে",
+        "অণুগুলির সংঘর্ষ সম্পূর্ণ স্থিতিস্থাপক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-250",
+      "question": "হিমমিশ্রের (Freezing mixture) উপাদান হতে পারে—",
+      "options": [
+        "বরফ ও লবণ (3:1)",
+        "ইথানল ও শুষ্ক বরফ",
+        "বরফ ও চিনি",
+        "বরফ ও জল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-251",
+      "question": "দ্রাব্যতা (Solubility) প্রকাশে কিসের উল্লেখ প্রয়োজন?",
+      "options": [
+        "উষ্ণতা",
+        "দ্রাবক",
+        "পাত্রের আকার",
+        "বায়ুর চাপ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-252",
+      "question": "কলয়েডাল সালফার তৈরি করা হয়—",
+      "options": [
+        "অক্সিডেশন পদ্ধতিতে",
+        "রিডাকশন পদ্ধতিতে",
+        "ডাবল ডিকম্পোজিশন পদ্ধতিতে",
+        "হাইড্রোলাইসিস পদ্ধতিতে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-253",
+      "question": "আদর্শ গ্যাস সমীকরণ PV=nRT মেনে চলে—",
+      "options": [
+        "আদর্শ গ্যাস",
+        "বাস্তব গ্যাস (উচ্চ তাপমাত্রা ও নিম্ন চাপে)",
+        "সব গ্যাস (সব অবস্থায়)",
+        "তরল পদার্থ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-254",
+      "question": "রক্ত জমাট বাঁধতে সাহায্য করে—",
+      "options": [
+        "ফটকিরি (Alum)",
+        "ফেরিক ক্লোরাইড",
+        "সোডিয়াম ক্লোরাইড",
+        "চিনি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-255",
+      "question": "পদার্থের কঠিন অবস্থা থেকে সরাসরি বাষ্প হওয়ার উদাহরণ—",
+      "options": [
+        "কঠিন CO2",
+        "আয়োডিন",
+        "অ্যামোনিয়াম ক্লোরাইড",
+        "বরফ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-256",
+      "question": "তরল পদার্থের নির্দিষ্ট—",
+      "options": [
+        "ভর থাকে",
+        "আয়তন থাকে",
+        "আকার থাকে",
+        "ঘনত্ব থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-257",
+      "question": "চার্লসের সূত্রে পরম শূন্য তাপমাত্রায়—",
+      "options": [
+        "গ্যাসের আয়তন শূন্য হয়",
+        "অণুগুলির গতি স্তব্ধ হয়",
+        "অণুগুলির গতিশক্তি শূন্য হয়",
+        "গ্যাসটি তরল হয়ে যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-258",
+      "question": "কোলয়েড কণাগুলি ডায়ালাইসিস পদ্ধতিতে পৃথক হয় কারণ—",
+      "options": [
+        "কোলয়েড কণা পার্চমেন্ট কাগজ ভেদ করতে পারে না",
+        "ক্যালোয়েড কণাগুলি বড় আকারের",
+        "সত্য দ্রবণের কণাগুলি কাগজ ভেদ করতে পারে",
+        "কোলয়েড কণাগুলি খুব ছোট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-259",
+      "question": "বাষ্পীভবনের লীনতাপের প্রভাব দেখা যায়—",
+      "options": [
+        "মাটির কলসির জল ঠান্ডা হওয়া",
+        "হাতে স্পিরিট দিলে ঠান্ডা লাগা",
+        "ঘাম শুকানোর সময় আরাম লাগা",
+        "প্রেসার কুকারে রান্না হওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-260",
+      "question": "নিচের কোনগুলি ইমালসিফায়ার হিসেবে কাজ করে?",
+      "options": [
+        "সাবান",
+        "জিলেটিন",
+        "কুইনিন",
+        "গাম অ্যারাবিক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-261",
+      "question": "গ্যাসের চাপ সৃষ্টির কারণ হলো—",
+      "options": [
+        "অণুগুলির নিজেদের মধ্যে ধাক্কা",
+        "অণুগুলির পাত্রের দেওয়ালে ধাক্কা",
+        "অণুগুলির ভরবেগ পরিবর্তন",
+        "অণুগুলির মহাকর্ষ টান"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-262",
+      "question": "ফোম (Foam) কোলয়েড সিস্টেমে—",
+      "options": [
+        "বিস্তৃত দশা হলো গ্যাস",
+        "বিস্তার মাধ্যম হলো তরল",
+        "বিস্তৃত দশা হলো তরল",
+        "বিস্তার মাধ্যম হলো গ্যাস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-263",
+      "question": "কেলভিন স্কেলে তাপমাত্রার মান কখনোই—",
+      "options": [
+        "ঋণাত্মক হয় না",
+        "-273 এর নিচে যায় না",
+        "শূন্য হতে পারে না",
+        "সেলসিয়াসের সমান হয় না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-264",
+      "question": "সত্য দ্রবণের (True solution) কণাগুলি—",
+      "options": [
+        "ফিল্টার পেপার ভেদ করে",
+        "টাইন্ডাল এফেক্ট দেখায় না",
+        "থিতিয়ে পড়ে না",
+        "আল্ট্রা-ফিল্টার পেপার ভেদ করে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-265",
+      "question": "পরম স্কেলে জলের স্ফুটনাঙ্ক ও হিমাঙ্কের পার্থক্য—",
+      "options": [
+        "100 K",
+        "100°C",
+        "180 K",
+        "373 K"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-266",
+      "question": "অভিস্রবণ (Osmosis) প্রক্রিয়ায়—",
+      "options": [
+        "অর্ধভেদ্য পর্দা প্রয়োজন",
+        "দ্রাবক অণু চলাচল করে",
+        "নিম্ন ঘনত্ব থেকে উচ্চ ঘনত্বের দিকে প্রবাহ ঘটে",
+        "দ্রাব অণু চলাচল করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-267",
+      "question": "বাষ্প ঘনত্ব (V.D.) সম্পর্কে সঠিক—",
+      "options": [
+        "এটি এককহীন রাশি",
+        "M = 2 × V.D.",
+        "এটি উষ্ণতার ওপর নির্ভর করে না",
+        "এটি কেবল কঠিনের ক্ষেত্রে প্রযোজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-268",
+      "question": "নিচের কোনগুলি জেলের (Gel) উদাহরণ?",
+      "options": [
+        "জেলি",
+        "দই",
+        "চিজ",
+        "কুয়াশা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-269",
+      "question": "গ্যাসের গতীয় তত্ত্ব অনুযায়ী অণুগুলির—",
+      "options": [
+        "স্থিতিশক্তি শূন্য ধরা হয়",
+        "মোট শক্তি কেবল গতিশক্তি",
+        "মহাকর্ষ বলের প্রভাব অগ্রাহ্য করা হয়",
+        "বেগ সব অণুর সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-270",
+      "question": "কোয়াগুলেশন (Coagulation) ঘটানো যায়—",
+      "options": [
+        "তড়িৎবিশ্লেষ্য যোগ করে",
+        "গরম করে",
+        "বিপরীত আধানযুক্ত কোলয়েড মিশিয়ে",
+        "জল মিশিয়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-271",
+      "question": "তরল পদার্থের উপরিভাগের অণুগুলির ওপর—",
+      "options": [
+        "লব্ধি বল নিচের দিকে কাজ করে",
+        "পৃষ্ঠটান সৃষ্টি হয়",
+        "বিভব শক্তি বেশি থাকে",
+        "গতিশক্তি শূন্য থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-272",
+      "question": "[NUMERICAL] 2 mole Hydrogen ও 1 mole Oxygen বিক্রিয়া করে জল তৈরি করলে—",
+      "options": [
+        "36g জল উৎপন্ন হয়",
+        "2 mole জল উৎপন্ন হয়",
+        "18g জল উৎপন্ন হয়",
+        "অণুর সংখ্যা দ্বিগুণ হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-273",
+      "question": "নিচের কোন জোড়াগুলি সঠিক?",
+      "options": [
+        "মাখন - ইমালশন",
+        "কুয়াশা - অ্যারোসল",
+        "রক্ত - সল",
+        "বাতাস - সত্য দ্রবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-274",
+      "question": "বয়েল ও চার্লসের সমন্বিত সূত্র কোনটি?",
+      "options": [
+        "PV/T = Constant",
+        "P1V1/T1 = P2V2/T2",
+        "PV = nRT",
+        "P/V = T"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-10-275",
+      "question": "সাবানের ফেনা (Soap foam) একটি—",
+      "options": [
+        "কোলয়েড",
+        "বিস্তৃত দশা গ্যাস",
+        "বিস্তৃত দশা তরল",
+        "বিস্তার মাধ্যম তরল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-276",
+      "question": "অ্যাভোগাড্রো সংখ্যার মান নির্ভর করে—",
+      "options": [
+        "ভরের এককের ওপর",
+        "কোনো কিছুর ওপর নয় (এটি ধ্রুবক)",
+        "উষ্ণতার ওপর",
+        "চাপের ওপর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-277",
+      "question": "রান্নার সময় নুন দিলে সবজি তাড়াতাড়ি সেদ্ধ হয় কারণ—",
+      "options": [
+        "জলের স্ফুটনাঙ্ক বেড়ে যায়",
+        "সবজির কোষ থেকে জল বেরিয়ে আসে",
+        "সবজি নরম হয়",
+        "জলের ঘনত্ব কমে যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-10-278",
+      "question": "নিচের কোনটি কলোয়েড কণার ব্রাউনীয় গতির ওপর প্রভাব ফেলে না?",
+      "options": [
+        "কণার বর্ণ",
+        "পাত্রের উপাদান",
+        "আধানের পরিমাণ",
+        "কণার আকার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-279",
+      "question": "ভ্যান ডার ওয়ালস ধ্রুবক 'a' কিসের পরিমাপ দেয়?",
+      "options": [
+        "অণুগুলির মধ্যে আকর্ষণ বল",
+        "অণুগুলির আয়তন",
+        "গ্যাসের চাপ",
+        "অণুর ভর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-10-280",
+      "question": "পদার্থের গ্যাসীয় অবস্থা থেকে তরল হওয়ার প্রক্রিয়ায়—",
+      "options": [
+        "একে ঘনীভবন (Condensation) বলে",
+        "তাপ বর্জিত হয়",
+        "লীনতাপ ত্যাগ করে",
+        "অণুগুলির গতিশক্তি বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "10-matter-and-states",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

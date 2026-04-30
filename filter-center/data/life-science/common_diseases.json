@@ -1,0 +1,4735 @@
+{
+  "subject": "life-science",
+  "unit": "03-common-diseases",
+  "unit_code": "03",
+  "total": 280,
+  "questions": [
+    {
+      "id": "ls-03-001",
+      "question": "যক্ষ্মা বা Tuberculosis রোগের জন্য দায়ী জীবাণু কোনটি?",
+      "options": [
+        "Vibrio cholerae",
+        "Mycobacterium tuberculosis",
+        "Salmonella typhi",
+        "Clostridium tetani"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-002",
+      "question": "টাইফয়েড (Typhoid) জ্বর শনাক্তকরণের জন্য কোন্ পরীক্ষাটি করা হয়?",
+      "options": [
+        "ELISA test",
+        "Widal test",
+        "PCR test",
+        "Pap smear"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-003",
+      "question": "BCG টিকা কোন্ রোগের প্রতিরোধে দেওয়া হয়?",
+      "options": [
+        "Cholera",
+        "Tuberculosis",
+        "Polio",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-004",
+      "question": "ডেঙ্গু (Dengue) রোগের প্রধান বাহক কোন্ মশা?",
+      "options": [
+        "Anopheles",
+        "Culex",
+        "Aedes aegypti",
+        "Mansonia"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-005",
+      "question": "ওরাল পোলিও ভ্যাকসিন (Sabin vaccine) শরীরের কোন্ পথে দেওয়া হয়?",
+      "options": [
+        "ইঞ্জেকশন",
+        "মুখগহ্বর (Oral route)",
+        "নাসাপথ",
+        "ত্বক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-006",
+      "question": "'অর্জিত বৈশিষ্ট্যের উত্তরাধিকার' (Inheritance of Acquired Characters) কার মতবাদ?",
+      "options": [
+        "Darwin",
+        "Lamarck",
+        "Mendel",
+        "Hugo de Vries"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-007",
+      "question": "ঘোড়ার অগ্রপদ এবং পাখির ডানা কোন্ ধরণের অঙ্গের উদাহরণ?",
+      "options": [
+        "সমবৃত্তীয় অঙ্গ (Analogous)",
+        "সমসংস্থ অঙ্গ (Homologous)",
+        "নিষ্ক্রিয় অঙ্গ (Vestigial)",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-008",
+      "question": "নীচের কোনটি মানুষের একটি নিষ্ক্রিয় অঙ্গ (Vestigial organ)?",
+      "options": [
+        "কান",
+        "অ্যাপেন্ডিক্স (Appendix)",
+        "হৃদপিণ্ড",
+        "যকৃৎ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-009",
+      "question": "ম্যালেরিয়া (Malaria) রোগের জন্য দায়ী পরজীবীটি কোন্ গোষ্ঠীর অন্তর্গত?",
+      "options": [
+        "Bacteria",
+        "Virus",
+        "Protozoa",
+        "Fungi"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-010",
+      "question": "প্লেগ (Plague) রোগের জন্য দায়ী ব্যাক্টেরিয়া কোনটি?",
+      "options": [
+        "Yersinia pestis",
+        "Vibrio cholerae",
+        "Leishmania donovani",
+        "Bordetella pertussis"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-011",
+      "question": "সমসংস্থ অঙ্গ (Homologous organs) কোন্ ধরণের বিবর্তনকে নির্দেশ করে?",
+      "options": [
+        "অভিসারী বিবর্তন (Convergent)",
+        "অপসারী বিবর্তন (Divergent)",
+        "সমান্তরাল বিবর্তন",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-012",
+      "question": "কোন্ টিকার মাধ্যমে ধনুষ্টঙ্কার (Tetanus) রোগ প্রতিরোধ করা হয়?",
+      "options": [
+        "BCG",
+        "OPV",
+        "TT (Tetanus Toxoid)",
+        "MMR"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-013",
+      "question": "কালাজ্বর (Kala-azar) রোগের বাহক পতঙ্গ কোনটি?",
+      "options": [
+        "Housefly",
+        "Sandfly (বেলে মাছি)",
+        "Tsetse fly",
+        "Mosquito"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-014",
+      "question": "ফ্যালোপিয়ান নালী বা লসিকা নালীতে অবস্থিত পরজীবীটি (Wuchereria bancrofti) কোন্ রোগ সৃষ্টি করে?",
+      "options": [
+        "Malaria",
+        "Filariasis (গোদ)",
+        "Ascariasis",
+        "Cholera"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-015",
+      "question": "এইডস (AIDS) রোগের ভাইরাস HIV প্রধানত শরীরের কোন্ কোশকে আক্রমণ করে?",
+      "options": [
+        "Red blood cells",
+        "CD4+ T-cells (Helper T cells)",
+        "Platelets",
+        "Nerve cells"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-016",
+      "question": "মানুষের উদর গহ্বরে অবস্থিত অ্যাপেন্ডিক্স বিবর্তনের কোন্ পর্যায়ে রয়েছে?",
+      "options": [
+        "সক্রিয় অঙ্গ",
+        "নিষ্ক্রিয় অঙ্গ",
+        "পূর্বপুরুষের অঙ্গ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-017",
+      "question": "যোগ্যতমের উদ্বর্তন (Survival of the fittest) শব্দবন্ধটি কোন্ বিজ্ঞানীর মতবাদের অংশ?",
+      "options": [
+        "Lamarck",
+        "Darwin",
+        "Mendel",
+        "Wiseman"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-018",
+      "question": "দাঁদ (Ringworm) কোন্ ধরণের জীবাণুর সংক্রমণে ঘটে?",
+      "options": [
+        "Bacteria",
+        "Virus",
+        "Fungi (ছত্রাক)",
+        "Protozoa"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-019",
+      "question": "অ্যামিবিক আমাশয় (Amoebic dysentery) কোন্ জীবাণু দ্বারা সৃষ্ট?",
+      "options": [
+        "Entamoeba histolytica",
+        "Plasmodium vivax",
+        "Vibrio cholerae",
+        "Leishmania"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-020",
+      "question": "ডারউইনের মতে নতুন প্রজাতির উৎপত্তির প্রধান কারণ কী?",
+      "options": [
+        "মিউটেশন",
+        "প্রাকৃতিক নির্বাচন (Natural selection)",
+        "ব্যবহার ও অব্যবহার",
+        "জেনেটিক ড্রিফট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-021",
+      "question": "নীচের কোন্ রোগটি জলবাহিত (Waterborne)?",
+      "options": [
+        "Influenza",
+        "Cholera",
+        "Tuberculosis",
+        "Ringworm"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-022",
+      "question": "কুইনাইন (Quinine) ঔষধটি কোন্ রোগের চিকিৎসায় ব্যবহৃত হয়?",
+      "options": [
+        "Typhoid",
+        "Malaria",
+        "AIDS",
+        "Cancer"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-023",
+      "question": "ডিপিটি (DPT) টিকা কোন্ কোন্ রোগের হাত থেকে রক্ষা করে?",
+      "options": [
+        "Diarrhea, Polio, Tetanus",
+        "Diphtheria, Pertussis, Tetanus",
+        "Dengue, Polio, Typhoid",
+        "Diphtheria, Plague, Typhoid"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-024",
+      "question": "সমবৃত্তীয় অঙ্গের (Analogous organs) উদাহরণ কোনটি?",
+      "options": [
+        "তিমির প্যাডেল ও পাখির ডানা",
+        "প্রজাপতির ডানা ও পাখির ডানা",
+        "মানুষের হাত ও বিড়ালের সামনের পা",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-025",
+      "question": "একটি নির্দিষ্ট অঞ্চলে কোনো প্রজাতির প্রাণীদের মধ্যে জিনের যে মোট সমাহার তাকে কী বলে?",
+      "options": [
+        "Gene flow",
+        "Gene pool",
+        "Gene mutation",
+        "Genetic drift"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-026",
+      "question": "হার্ডি-উইনবার্গ নীতি (Hardy-Weinberg Principle) অনুসারে নীচের কোন্টি বিবর্তন রোধ করে?",
+      "options": [
+        "Mutation",
+        "Random mating (অবাধ জনন)",
+        "Natural selection",
+        "Migration"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-027",
+      "question": "জলাতঙ্ক (Rabies) রোগের ভাইরাসটি শরীরের কোন্ তন্ত্রকে প্রধানত আক্রমণ করে?",
+      "options": [
+        "পরিপাক তন্ত্র",
+        "স্নায়ু তন্ত্র (Central Nervous System)",
+        "শ্বসন তন্ত্র",
+        "রক্ত সংবহন তন্ত্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-028",
+      "question": "সিফিলিস (Syphilis) কোন্ ধরণের রোগ?",
+      "options": [
+        "Virus ঘটিত",
+        "ব্যাক্টেরিয়া ঘটিত যৌন রোগ (STD)",
+        "Protozoa ঘটিত",
+        "বংশগত রোগ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-029",
+      "question": "প্রাকৃতিক নির্বাচন তত্ত্বের দুর্বলতা ছিল কোনটি?",
+      "options": [
+        "প্রকরণের উৎস সম্পর্কে ব্যাখ্যা অভাব",
+        "জনন সম্পর্কে ব্যাখ্যা",
+        "পরিবেশ সম্পর্কে ব্যাখ্যা",
+        "প্রজাতি সম্পর্কে ব্যাখ্যা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-030",
+      "question": "টাইফয়েড রোগের জীবাণু শরীরের কোন্ অঙ্গকে বেশি প্রভাবিত করে?",
+      "options": [
+        "ফুসফুস",
+        "অন্ত্র (Intestine)",
+        "যকৃৎ",
+        "হৃদপিণ্ড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-031",
+      "question": "মাম্পস (Mumps) কোন্ গ্রন্থির প্রদাহ সৃষ্টি করে?",
+      "options": [
+        "Pancreas",
+        "Parotid gland",
+        "Sublingual gland",
+        "Thyroid"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-032",
+      "question": "তিমির প্যাডেল ও মানুষের অগ্রপদ হলো—",
+      "options": [
+        "সমবৃত্তীয় অঙ্গ",
+        "সমসংস্থ অঙ্গ",
+        "লুপ্তপ্রায় অঙ্গ",
+        "অস্থায়ী অঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-033",
+      "question": "বিবর্তনের ইতিহাসে কোন্ প্রাণীকে 'living fossil' বলা হয়?",
+      "options": [
+        "ঘোড়া",
+        "লিমুলাস (Limulus/King Crab)",
+        "আরকিওপটেরিক্স",
+        "মানুষ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-034",
+      "question": "হেপাটাইটিস বি (Hepatitis B) শরীরের কোন্ অঙ্গকে আক্রান্ত করে?",
+      "options": [
+        "ফুসফুস",
+        "যকৃৎ (Liver)",
+        "বৃক্ক",
+        "মস্তিস্ক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-035",
+      "question": "আরকিওপটেরিক্স (Archaeopteryx) কোন্ দুটি শ্রেণীর সংযোগকারী যোগসূত্র?",
+      "options": [
+        "মাছ ও উভচর",
+        "সরীসৃপ ও পাখি",
+        "পাখি ও স্তন্যপায়ী",
+        "উভচর ও সরীসৃপ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-036",
+      "question": "ওপিভি (OPV) টিকা কোন্ রোগের জন্য দেওয়া হয়?",
+      "options": [
+        "Polio",
+        "AIDS",
+        "COVID-19",
+        "Rabies"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-037",
+      "question": "পেনিসিলিন (Penicillin) ঔষধটি কোন্ ধরণের রোগের বিরুদ্ধে কার্যকর?",
+      "options": [
+        "Viral",
+        "Bacterial",
+        "Fungal",
+        "Protozoan"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-038",
+      "question": "বিবর্তনের স্বপক্ষে ভ্রূণতত্ত্ববিদ হেকেল-এর সূত্রটি কী?",
+      "options": [
+        "Law of dominance",
+        "Biogenetic Law (Ontogeny recapitulates Phylogeny)",
+        "Law of segregation",
+        "Cell theory"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-039",
+      "question": "নিউমোনিয়া (Pneumonia) রোগটি শরীরের কোন্ অংশে ঘটে?",
+      "options": [
+        "অন্ত্র",
+        "ফুসফুস (Alveoli)",
+        "ত্বক",
+        "হাড়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-040",
+      "question": "বিবর্তনের ধারায় কোন্ শিলাতে জীবশ্ম (Fossil) পাওয়া যায়?",
+      "options": [
+        "আগ্নেয় শিলা",
+        "পাললিক শিলা (Sedimentary rock)",
+        "রূপান্তরিত শিলা",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-041",
+      "question": "এইডস (AIDS) রোগ শনাক্তকরণের প্রথম পরীক্ষা কোনটি?",
+      "options": [
+        "Western Blot",
+        "ELISA test",
+        "Widal test",
+        "CT Scan"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-042",
+      "question": "বিবর্তনের ইতিহাসে ঘোড়ার আদিতম পূর্বপুরুষ কোনটি?",
+      "options": [
+        "Merychippus",
+        "Eohippus",
+        "Mesohippus",
+        "Equus"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-043",
+      "question": "কোন্ রোগটি বায়ুবাহিত (Airborne)?",
+      "options": [
+        "Cholera",
+        "Tuberculosis",
+        "Hepatitis B",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-044",
+      "question": "প্লাজমোডিয়াম ভাইভ্যাক্স (Plasmodium vivax)-এর সুপ্তাবস্থা কত দিন?",
+      "options": [
+        "১-৩ দিন",
+        "১০-১৪ দিন",
+        "২০-৩০ দিন",
+        "২ মাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-045",
+      "question": "অপসারী বিবর্তন (Divergent evolution) থেকে কোন্ ধরণের অঙ্গের উৎপত্তি হয়?",
+      "options": [
+        "সমবৃত্তীয় অঙ্গ",
+        "সমসংস্থ অঙ্গ",
+        "নিষ্ক্রিয় অঙ্গ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-046",
+      "question": "ল্যামার্কের তত্ত্বটি কোন্ বইতে প্রকাশিত হয়েছিল?",
+      "options": [
+        "Origin of Species",
+        "Philosophie Zoologique",
+        "Systema Naturae",
+        "Genetics"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-047",
+      "question": "কর্কট রোগ বা ক্যান্সারের (Cancer) জন্য দায়ী জিনকে কী বলা হয়?",
+      "options": [
+        "Regulator gene",
+        "Oncogene",
+        "Jumping gene",
+        "Split gene"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-048",
+      "question": "লোহিত রক্তকণিকার আকার কাস্তের মতো হয়ে যাওয়া কোন্ রোগের লক্ষণ?",
+      "options": [
+        "Thalassaemia",
+        "Sickle cell anaemia",
+        "Haemophilia",
+        "Cancer"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-049",
+      "question": "উটের কুঁজে সঞ্চিত চর্বি জারিত হয়ে কী উৎপন্ন করে যা উটকে মরুভূমিতে টিকে থাকতে সাহায্য করে?",
+      "options": [
+        "জল (Metabolic water)",
+        "শক্তি",
+        "লবণ",
+        "অক্সিজেন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-050",
+      "question": "কোন্ প্রজাতির প্লাজমোডিয়ামের কারণে 'ম্যালিগন্যান্ট ম্যালেরিয়া' হয়?",
+      "options": [
+        "P. vivax",
+        "P. falciparum",
+        "P. malariae",
+        "P. ovale"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-051",
+      "question": "ইনফ্লুয়েঞ্জা (Influenza) কোন্ ধরণের জীবাণু ঘটিত রোগ?",
+      "options": [
+        "Bacteria",
+        "Virus",
+        "Fungi",
+        "Protozoa"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-052",
+      "question": "সমবৃত্তীয় অঙ্গ কোন্ ধরণের বিবর্তনকে সমর্থন করে?",
+      "options": [
+        "অপসারী",
+        "অভিসারী (Convergent)",
+        "মিউটেশন",
+        "আইসোলেশন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-053",
+      "question": "ডারউইনের জাহাজটির নাম কী ছিল?",
+      "options": [
+        "HMS Beagle",
+        "HMS Titanic",
+        "HMS Victory",
+        "HMS Discovery"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-054",
+      "question": "হাইপারটেনশন (Hypertension) বা উচ্চ রক্তচাপ প্রতিকারে কোন্ গাছ ব্যবহৃত হয়?",
+      "options": [
+        "সিঙ্কোনা",
+        "সর্পগন্ধা (Reserpine)",
+        "বেলেডোনা",
+        "তামাক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-055",
+      "question": "প্রাকৃতিক দুর্যোগ বা অন্য কারণে কোনো প্রজাতির সংখ্যা হঠাৎ কমে যাওয়ার ফলে যে জেনেটিক ড্রিফট হয় তাকে কী বলে?",
+      "options": [
+        "Founder effect",
+        "Genetic bottleneck effect",
+        "Gene flow",
+        "Natural selection"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-056",
+      "question": "বসন্ত রোগের টিকা (Smallpox vaccine) কে প্রথম আবিষ্কার করেন?",
+      "options": [
+        "Louis Pasteur",
+        "Edward Jenner",
+        "Alexander Fleming",
+        "Robert Koch"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-057",
+      "question": "'প্রাকৃতিক নির্বাচন' বা Natural Selection এর মাধ্যমে বিবর্তন ঘটে— এটি কার তত্ত্ব?",
+      "options": [
+        "Lamarck",
+        "Darwin",
+        "Mendel",
+        "Watson"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-058",
+      "question": "মানুষের মেরুদণ্ডের শেষে অবস্থিত নিষ্ক্রিয় অঙ্গটির নাম কী?",
+      "options": [
+        "Coccyx",
+        "Appendix",
+        "Nictitating membrane",
+        "Wisdom tooth"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-059",
+      "question": "টাইফয়েড রোগের সংক্রমণ মূলত কোন্ মাধ্যমে ঘটে?",
+      "options": [
+        "দূষিত বায়ু",
+        "দূষিত খাদ্য ও জল",
+        "সরাসরি সংস্পর্শ",
+        "মশা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-060",
+      "question": "বিবর্তন বা অভিব্যক্তির জনক কাকে বলা হয়?",
+      "options": [
+        "Darwin",
+        "Lamarck",
+        "Aristotle",
+        "Linnaeus"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-061",
+      "question": "যকৃতের প্রদাহ বা হেপাটাইটিস ঘটাতে পারে কোন্ ভাইরাসটি?",
+      "options": [
+        "SARS-CoV-2",
+        "Hepatitis B virus",
+        "HIV",
+        "Poliovirus"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-062",
+      "question": "ডারউইনবাদ (Darwinism) অনুযায়ী বিবর্তনের প্রধান চালিকাশক্তি কোনটি?",
+      "options": [
+        "পরিবেশের সরাসরি প্রভাব",
+        "প্রকরণ ও প্রাকৃতিক নির্বাচন",
+        "অর্জিত বৈশিষ্ট্যের সঞ্চারণ",
+        "অঙ্গের ব্যবহার ও অব্যবহার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-063",
+      "question": "ডিপথেরিয়া (Diphtheria) কোন্ তন্ত্রের রোগ?",
+      "options": [
+        "পরিপাক তন্ত্র",
+        "শ্বসন তন্ত্র (Respiratory tract)",
+        "স্নায়ু তন্ত্র",
+        "সংবহন তন্ত্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-064",
+      "question": "আরকিওপটেরিক্স-এর জীবশ্মে সরীসৃপের কোন্ বৈশিষ্ট্যটি দেখা যায়?",
+      "options": [
+        "পালক",
+        "চঞ্চু",
+        "দাঁত যুক্ত চোয়াল ও নখরযুক্ত আঙ্গুল",
+        "উড়বার ক্ষমতা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-065",
+      "question": "রক্তে গ্লুকোজের মাত্রা অস্বাভাবিক বেড়ে যাওয়া কোন্ রোগের লক্ষণ?",
+      "options": [
+        "Diabetes Insipidus",
+        "Diabetes Mellitus",
+        "Hypertension",
+        "Obesity"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-066",
+      "question": "প্লাজমোডিয়ামের জীবনচক্রে অযৌন জনন কোথায় ঘটে?",
+      "options": [
+        "স্ত্রী অ্যানোফিলিস মশা",
+        "মানুষ (যকৃৎ ও লোহিত রক্তকণিকা)",
+        "কিউলেক্স মশা",
+        "জল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-067",
+      "question": "কোন্ পরীক্ষাটি যক্ষ্মা (TB) শনাক্তকরণে ব্যবহৃত হয়?",
+      "options": [
+        "ELISA",
+        "Mantoux test",
+        "Widal",
+        "Biopsy"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-068",
+      "question": "ল্যামার্কের মতে জিরাফের গলা লম্বা হওয়ার কারণ কী?",
+      "options": [
+        "উঁচু ডালের পাতা খাওয়ার ক্রমাগত চেষ্টা (অঙ্গের ব্যবহার)",
+        "প্রাকৃতিক নির্বাচন",
+        "মিউটেশন",
+        "খাবারের অভাব"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-069",
+      "question": "ধনুষ্টঙ্কার (Tetanus) রোগের বিষক্রিয়া শরীরের কোন্ অংশকে প্রথমে আক্রান্ত করে?",
+      "options": [
+        "হাড়",
+        "পেশী ও স্নায়ু (Muscular stiffness)",
+        "ফুসফুস",
+        "বৃক্ক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-070",
+      "question": "ডারউইনের মতে একই পূর্বপুরুষ থেকে বিভিন্ন ভৌগোলিক পরিবেশে জীবের ছড়িয়ে পড়াকে কী বলে?",
+      "options": [
+        "Speciation",
+        "Adaptive Radiation",
+        "Genetic Drift",
+        "Isolation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-071",
+      "question": "সাধারণ সর্দি (Common Cold) কোন্ ভাইরাসের মাধ্যমে ঘটে?",
+      "options": [
+        "HIV",
+        "Rhinovirus",
+        "Poliovirus",
+        "Influenza"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-072",
+      "question": "'Ontogeny recapitulates Phylogeny'—এই কথাটির অর্থ কী?",
+      "options": [
+        "ব্যক্তিজনি জাতিজনিকে অনুসরণ করে",
+        "পরিবেশ বিবর্তনকে নিয়ন্ত্রণ করে",
+        "মিউটেশন নতুন প্রজাতি গঠন করে",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-073",
+      "question": "টাইফয়েড রোগের চিকিৎসায় কোন্ অ্যান্টিবায়োটিক বহুল ব্যবহৃত?",
+      "options": [
+        "Penicillin",
+        "Chloramphenicol",
+        "Insulin",
+        "Quinine"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-074",
+      "question": "উটের লোহিত রক্তকণিকা (RBC) কেমন হয়?",
+      "options": [
+        "গোল ও নিউক্লিয়াসহীন",
+        "ডিম্বাকার ও নিউক্লিয়াসযুক্ত (Oval and nucleated)",
+        "কাস্তে আকৃতির",
+        "অবতল ও ছোট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-075",
+      "question": "জাপানি এনসেফালাইটিস (Japanese Encephalitis) কোন্ বাহকের মাধ্যমে ছড়ায়?",
+      "options": [
+        "স্ত্রী এনোফিলিস",
+        "কিউলেক্স মশা (Culex)",
+        "মাছি",
+        "কুকুর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-076",
+      "question": "আধুনিক ঘোড়ার নাম কী?",
+      "options": [
+        "Eohippus",
+        "Mesohippus",
+        "Equus",
+        "Pliohippus"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-077",
+      "question": "কোন্ হরমোনের অভাবে ডায়াবেটিস মেলিটাস হয়?",
+      "options": [
+        "Glucagon",
+        "Insulin",
+        "Adrenaline",
+        "Thyroxine"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-078",
+      "question": "ডারউইন গ্যালোপাগোস দ্বীপপুঞ্জে কোন্ পাখির ওপর গবেষণা করেছিলেন?",
+      "options": [
+        "চড়াই",
+        "ফিঞ্চ (Finches)",
+        "পায়রা",
+        "ঈগল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-079",
+      "question": "গুটি বসন্ত (Smallpox) কোন্ ভাইরাস দ্বারা সৃষ্ট?",
+      "options": [
+        "Variola virus",
+        "Varicella virus",
+        "HIV",
+        "Rhinovirus"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-080",
+      "question": "একটি প্রজাতি থেকে অন্য প্রজাতির সৃষ্টির প্রক্রিয়াকে কী বলা হয়?",
+      "options": [
+        "Mutation",
+        "Speciation (প্রজাতি ভবন)",
+        "Adaptation",
+        "Variation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-081",
+      "question": "কোন্ রোগটি ছোঁয়াচে নয়?",
+      "options": [
+        "Tuberculosis",
+        "Cancer",
+        "Measles",
+        "COVID-19"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-082",
+      "question": "বিবর্তনের ভ্রূণতত্ত্ব ঘটিত প্রমাণে 'ট্যাডপোল' দশা কোন্ প্রাণীদের বিবর্তনকে সমর্থন করে?",
+      "options": [
+        "মাছ থেকে উভচর",
+        "উভচর থেকে সরীসৃপ",
+        "পাখি থেকে স্তন্যপায়ী",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-083",
+      "question": "এশীয় দেশগুলিতে কালাজ্বর (Kala-azar) নির্মূল করার জন্য কোন্ জীবাণু ধ্বংস করা জরুরি?",
+      "options": [
+        "Vibrio cholerae",
+        "Leishmania donovani",
+        "Plasmodium",
+        "Ascaris"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-084",
+      "question": "উটের পাকস্থলীতে জল সঞ্চয়ের জন্য যে বিশেষ কোশ থাকে তাকে কী বলে?",
+      "options": [
+        "Water cells (Aquiferous cells)",
+        "Flame cells",
+        "Guard cells",
+        "Goblet cells"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-085",
+      "question": "পেনিসিলিন কে আবিষ্কার করেন?",
+      "options": [
+        "Robert Koch",
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Edward Jenner"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-086",
+      "question": "কোন্ বিবর্তন অভিসারী বিবর্তনের (Convergent evolution) ফল?",
+      "options": [
+        "পতঙ্গের ডানা ও পাখির ডানা",
+        "মানুষের হাত ও ঘোড়ার পা",
+        "তিমির প্যাডেল ও পাখির ডানা",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-087",
+      "question": "আমাশয় (Dysentery) কোন্ ধরণের সংক্রমণ?",
+      "options": [
+        "পরিপাক তন্ত্রের",
+        "শ্বসন তন্ত্রের",
+        "রক্ত সংবহন তন্ত্রের",
+        "স্নায়ু তন্ত্রের"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-088",
+      "question": "ডারউইনের মতে বিবর্তনের কাঁচামাল কোনটি?",
+      "options": [
+        "প্রাকৃতিক নির্বাচন",
+        "প্রকরণ (Variation)",
+        "মিউটেশন",
+        "আইসোলেশন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-089",
+      "question": "কালাজ্বর রোগটির চিকিৎসায় কোন্ যৌগ ব্যবহৃত হয়?",
+      "options": [
+        "Antimony compounds (ইউরিয়া স্টিবামাইন)",
+        "Penicillin",
+        "Chloroquine",
+        "Insulin"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-090",
+      "question": "সরীসৃপ ও স্তন্যপায়ীর সংযোগকারী যোগসূত্র কোনটি?",
+      "options": [
+        "আরকিওপটেরিক্স",
+        "প্লাটিপাস (Duck-billed Platypus)",
+        "পেরিপেটাস",
+        "লিমুলাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-091",
+      "question": "ভাইরাস ঘটিত একটি সাধারণ রোগ হলো—",
+      "options": [
+        "ম্যালেরিয়া",
+        "ইনফ্লুয়েঞ্জা",
+        "যক্ষ্মা",
+        "টাইফয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-092",
+      "question": "'প্রকৃতিতে যারা যোগ্য তারাই টিকে থাকবে'— এই ধারণাটি কার?",
+      "options": [
+        "ল্যামার্ক",
+        "ডারউইন",
+        "মেন্ডেল",
+        "হুগো দ্য ভ্রিজ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-093",
+      "question": "পোলিও টিকা (Salk vaccine) প্রথম কে তৈরি করেন?",
+      "options": [
+        "Louis Pasteur",
+        "Jonas Salk",
+        "Albert Sabin",
+        "Robert Koch"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-094",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে কোন পর্যায়ে হিল বা উচ্চতা বেড়ে ৪-৫ ফুট হয়?",
+      "options": [
+        "Mesohippus",
+        "Equus",
+        "Merychippus",
+        "Eohippus"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-095",
+      "question": "ম্যালেরিয়া প্রতিকারের প্রাকৃতিক ঔষধ সিঙ্কোনা গাছের কোন্ অংশ থেকে পাওয়া যায়?",
+      "options": [
+        "পাতা",
+        "শিকড়",
+        "ছাল (Bark)",
+        "ফুল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-096",
+      "question": "সমবৃত্তীয় অঙ্গের ক্ষেত্রে নীচের কোনটি সত্য?",
+      "options": [
+        "গঠন এক কিন্তু কাজ ভিন্ন",
+        "কাজ এক কিন্তু গঠন ও উৎস ভিন্ন",
+        "গঠন ও কাজ উভয়ই এক",
+        "নিষ্ক্রিয় অঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-097",
+      "question": "এইডস (AIDS) রোগের জন্য দায়ী ভাইরাস কোনটি?",
+      "options": [
+        "HIV",
+        "SARS-CoV",
+        "Influenza virus",
+        "HPV"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-098",
+      "question": "মেন্ডেলিয়ান জনসংখ্যার ক্ষেত্রে কোন্ সমীকরণটি হার্ডি-উইনবার্গ ভারসাম্য নির্দেশ করে?",
+      "options": [
+        "$p + q = 1$",
+        "$p^2 + 2pq + q^2 = 1$",
+        "$E = mc^2$",
+        "$F = ma$"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-099",
+      "question": "যক্ষ্মা (TB) আক্রান্ত ব্যক্তির কাশির মাধ্যমে কোন্ জীবাণু ছড়ায়?",
+      "options": [
+        "Virus",
+        "Bacteria",
+        "Protozoa",
+        "Fungi"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-100",
+      "question": "মাছের জোড় পাখনা থেকে স্থলের প্রাণীদের অগ্রপদ সৃষ্টি হওয়া কোন্ ধরণের অভিযোজন?",
+      "options": [
+        "অপসারী",
+        "অভিসারী",
+        "সমান্তরাল",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-101",
+      "question": "জলতঙ্ক (Rabies) রোগের টিকা কে আবিষ্কার করেন?",
+      "options": [
+        "Edward Jenner",
+        "Louis Pasteur",
+        "Robert Koch",
+        "Alexander Fleming"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-102",
+      "question": "বিবর্তনের ইতিহাসে 'মিসিং লিঙ্ক' (Missing link) বলা হয়—",
+      "options": [
+        "আরকিওপটেরিক্স",
+        "ঘোড়া",
+        "প্লাটিপাস",
+        "তিমুলাস"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-103",
+      "question": "টাইফয়েড জ্বর থেকে বাঁচতে কোন্ ভ্যাকসিন নেওয়া উচিত?",
+      "options": [
+        "BCG",
+        "TAB vaccine",
+        "DPT",
+        "OPV"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-104",
+      "question": "মানুষের চোখের উপপল্লব বা Nictitating membrane কীসের উদাহরণ?",
+      "options": [
+        "সক্রিয় অঙ্গ",
+        "নিষ্ক্রিয় অঙ্গ (Vestigial organ)",
+        "সমসংস্থ অঙ্গ",
+        "সমবৃত্তীয় অঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-105",
+      "question": "ম্যালেরিয়া পরজীবীর সংক্রামক দশা কোনটি যা মানুষের শরীরে প্রবেশ করে?",
+      "options": [
+        "Trophozoite",
+        "Sporozoite",
+        "Merozoite",
+        "Gametocyte"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-106",
+      "question": "ল্যামার্কের তত্ত্বের প্রধান ভিত্তি কী ছিল?",
+      "options": [
+        "প্রাকৃতিক নির্বাচন",
+        "অঙ্গের ব্যবহার ও অব্যবহার",
+        "মিউটেশন",
+        "জনন বিচ্ছিন্নতা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-107",
+      "question": "নিউমোনিয়া রোগে ফুসফুসের কোন্ অংশটি তরল পূর্ণ হয়?",
+      "options": [
+        "Bronchi",
+        "Alveoli",
+        "Pleura",
+        "Trachea"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-108",
+      "question": "ঘোড়ার বিবর্তনে কোন্ পর্যায়ে প্রথম তিন আঙ্গুল বিশিষ্ট পা দেখা যায়?",
+      "options": [
+        "Eohippus",
+        "Mesohippus",
+        "Merychippus",
+        "Equus"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-109",
+      "question": "কোন্ রোগটি 'Hand-to-mouth' পথে সংক্রমিত হয়?",
+      "options": [
+        "Cholera",
+        "Dengue",
+        "AIDS",
+        "Tuberculosis"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-110",
+      "question": "ডারউইনের মতে জীবের অত্যধিক বংশবৃদ্ধি ঘটে কিন্তু খাদ্যের যোগান সীমিত—এর ফলে কী সৃষ্টি হয়?",
+      "options": [
+        "অস্তিত্বের জন্য সংগ্রাম (Struggle for existence)",
+        "নতুন প্রজাতি",
+        "অভিযোজন",
+        "মৃত্যু"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-111",
+      "question": "চিকুনগুনিয়া (Chikungunya) রোগের বাহক কোন্ মশা?",
+      "options": [
+        "Anopheles",
+        "Aedes aegypti",
+        "Culex",
+        "Mansonia"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-112",
+      "question": "একটি জনসংখ্যার জিন ফ্রিকোয়েন্সি স্থির থাকে যদি সেখানে বিবর্তন না ঘটে—একে কী বলে?",
+      "options": [
+        "Darwinism",
+        "Hardy-Weinberg equilibrium",
+        "Lamarckism",
+        "Mutation theory"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-113",
+      "question": "যক্ষ্মা রোগের প্রধান লক্ষণ কোনটি?",
+      "options": [
+        "একটানা কাশি ও কাশির সাথে রক্ত পড়া",
+        "পেট ব্যথা",
+        "চুলকানি",
+        "চোখের জল আসা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-114",
+      "question": "বাদুড়ের ডানা ও পাখির ডানা গঠনগতভাবে ভিন্ন হলেও কাজ একই—এদের কী বলে?",
+      "options": [
+        "Homologous",
+        "Analogous",
+        "Vestigial",
+        "Atavism"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-115",
+      "question": "কোন্ রোগটি বংশগত কিন্তু সংক্রামক নয়?",
+      "options": [
+        "AIDS",
+        "Thalassaemia",
+        "Cholera",
+        "Pneumonia"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-116",
+      "question": "প্রাকৃতিক নির্বাচনের একক কোনটি?",
+      "options": [
+        "Individual (ব্যষ্টি)",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-117",
+      "question": "ইনফ্লুয়েঞ্জা ভাইরাসের জেনেটিক মেটেরিয়াল কোনটি?",
+      "options": [
+        "DNA",
+        "RNA",
+        "Both DNA & RNA",
+        "Protein"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-118",
+      "question": "উটের আরবিসি (RBC) জলশূন্য অবস্থায় কেন ফেটে যায় না?",
+      "options": [
+        "এর নিউক্লিয়াস বড় বলে",
+        "এটি অনেকটা প্রসারিত হতে পারে (Elasticity)",
+        "এটি খুব ছোট বলে",
+        "এটি গোল বলে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-119",
+      "question": "ডিপথেরিয়া রোগের জীবাণু সাধারণত কোথায় আক্রমণ করে?",
+      "options": [
+        "যকৃৎ",
+        "গলা (Throat) ও শ্বাসনালী",
+        "অন্ত্র",
+        "রক্ত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-120",
+      "question": "মিউটেশন তত্ত্বের (Mutation Theory) প্রবক্তা কে?",
+      "options": [
+        "Darwin",
+        "Hugo de Vries",
+        "Lamarck",
+        "Mendel"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-121",
+      "question": "কোন্ রোগটি 'Silent Killer' নামে পরিচিত?",
+      "options": [
+        "Tuberculosis",
+        "Hypertension (উচ্চ রক্তচাপ)",
+        "Dengue",
+        "Polio"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-122",
+      "question": "জীবনের রাসায়নিক উৎপত্তি বা 'Chemosynthetic theory' কে দিয়েছিলেন?",
+      "options": [
+        "Darwin",
+        "Oparin and Haldane",
+        "Miller",
+        "Pasteur"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-123",
+      "question": "ম্যালেরিয়া জ্বরের কোন্ পর্যায়ে প্রচণ্ড কাঁপুনি দিয়ে জ্বর আসে?",
+      "options": [
+        "Cold stage",
+        "Hot stage",
+        "Sweating stage",
+        "Normal stage"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-124",
+      "question": "বিবর্তনের স্বপক্ষে 'অঙ্গের ব্যবহার ও অব্যবহার' সূত্রটি কার?",
+      "options": [
+        "Darwin",
+        "Lamarck",
+        "Wallace",
+        "Weismann"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-125",
+      "question": "যকৃৎ বা লিভার ক্যানসার হওয়ার সম্ভাবনা বাড়ায় কোন্ সংক্রমণ?",
+      "options": [
+        "Hepatitis B",
+        "Polio",
+        "Influenza",
+        "Malaria"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-126",
+      "question": "ডারউইনের মতে 'প্রকরণ' (Variation) সৃষ্টি হয় কেন?",
+      "options": [
+        "পরিবেশের চাপে",
+        "ডারউইন এর সঠিক কারণ ব্যাখ্যা করতে পারেননি",
+        "কেবল খাদ্যের জন্য",
+        "ব্যায়ামের ফলে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-127",
+      "question": "জল বসন্ত বা Chickenpox কোন্ ভাইরাস দ্বারা হয়?",
+      "options": [
+        "Variola",
+        "Varicella zoster",
+        "Rhinovirus",
+        "Retrovirus"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-128",
+      "question": "বিবর্তনের ধারায় কোন্ শিলা থেকে ফসিলের বয়স নির্ধারণ করা হয়?",
+      "options": [
+        "Carbon dating",
+        "Uranium dating",
+        "Both A and B",
+        "No dating"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-129",
+      "question": "কালাজ্বর বা লিশম্যানিয়াসিস রোগের প্রধান ঔষধ কোনটি?",
+      "options": [
+        "Chloroquine",
+        "Sodium Stibogluconate",
+        "Penicillin",
+        "Insulin"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-130",
+      "question": "সমবৃত্তীয় অঙ্গের বিবর্তনকে কী বলা হয়?",
+      "options": [
+        "Divergent evolution",
+        "Convergent evolution (অভিসারী)",
+        "Co-evolution",
+        "Parallel evolution"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-131",
+      "question": "ধনুষ্টঙ্কার (Tetanus) রোগের জীবাণু শরীরের কোন্ অংশে প্রবেশ করে?",
+      "options": [
+        "শ্বাসপ্রশ্বাসের সাথে",
+        "ক্ষতস্থান বা কাটা জায়গা দিয়ে",
+        "খাবারের সাথে",
+        "স্পর্শের মাধ্যমে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-132",
+      "question": "মানুষের কানের পেশী (Ear muscles) বিবর্তনের কোন্ পর্যায়ে রয়েছে?",
+      "options": [
+        "সক্রিয়",
+        "নিষ্ক্রিয় (Vestigial)",
+        "অতিসক্রিয়",
+        "অনুপস্থিত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-133",
+      "question": "টাইফয়েড জ্বর প্রতিরোধের জন্য কোন্ ধরণের স্বাস্থ্যবিধি প্রয়োজন?",
+      "options": [
+        "মাস্ক পরা",
+        "নিরাপদ পানীয় জল ও পরিষ্কার পরিচ্ছন্নতা",
+        "সানস্ক্রিন ব্যবহার",
+        "প্রচুর ব্যায়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-134",
+      "question": "'The Origin of Species' বইটি কত সালে প্রকাশিত হয়?",
+      "options": [
+        "১৮০৯",
+        "১৮৫৯",
+        "১৯০১",
+        "১৮৪৪"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-135",
+      "question": "কোন্ রোগটি যৌন মিলনের মাধ্যমে সংক্রমিত হয়?",
+      "options": [
+        "Cholera",
+        "Syphilis",
+        "Tuberculosis",
+        "Malaria"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-136",
+      "question": "একটি জনসমষ্টিতে (Population) জিনের মোট সংখ্যাকে কী বলে?",
+      "options": [
+        "Gene flow",
+        "Gene pool",
+        "Genotype",
+        "Genome"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-137",
+      "question": "কুষ্ঠ বা Leprosy রোগের জন্য দায়ী ব্যাক্টেরিয়া কোনটি?",
+      "options": [
+        "Mycobacterium leprae",
+        "Mycobacterium tuberculosis",
+        "Vibrio",
+        "Salmonella"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-138",
+      "question": "ডারউইনের তত্ত্বের একটি ত্রুটি হলো—",
+      "options": [
+        "এটি প্রাকৃতিক নির্বাচনকে গুরুত্ব দেয় না",
+        "এটি ক্ষুদ্র ক্ষুদ্র প্রকরণের গুরুত্ব দিলেও মিউটেশনকে উপেক্ষা করেছে",
+        "এটি বিবর্তন মানে না",
+        "এটি কেবল মানুষের ওপর প্রযোজ্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-139",
+      "question": "হাম বা Measles কোন্ ধরণের জীবাণু দ্বারা হয়?",
+      "options": [
+        "Bacteria",
+        "Virus",
+        "Protozoa",
+        "Fungi"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-140",
+      "question": "আরকিওপটেরিক্স-এর দেহে পাখির কোন্ বৈশিষ্ট্য দেখা যায়?",
+      "options": [
+        "ডানা ও পালক",
+        "দাঁত",
+        "লম্বা লেজ",
+        "নখর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-141",
+      "question": "কোন্ রোগটি সাধারণত বাসি ও নোংরা খাবার থেকে ছড়ায়?",
+      "options": [
+        "Dengue",
+        "Cholera",
+        "Rabies",
+        "AIDS"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-142",
+      "question": "বিবর্তনের 'মডার্ন সিন্থেটিক থিওরি' (Modern Synthetic Theory)-তে কার অবদান আছে?",
+      "options": [
+        "Dobzhansky",
+        "Mayr",
+        "Julian Huxley",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-143",
+      "question": "ফাইলেরিয়াসিস বা গোদ রোগের জন্য দায়ী মশা কোনটি?",
+      "options": [
+        "Anopheles",
+        "Culex fatigans",
+        "Aedes",
+        "Mansonia"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-144",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে পায়ের আঙ্গুলের সংখ্যা হ্রাসের কারণ কী?",
+      "options": [
+        "দ্রুত দৌড়ানোর অভিযোজন",
+        "সাতার কাটার অভিযোজন",
+        "গাছে চড়ার অভিযোজন",
+        "খাদ্যের অভাব"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-145",
+      "question": "কোন্ রোগটি 'ক্যানসার' (Cancer) সৃষ্টির সাথে যুক্ত নয়?",
+      "options": [
+        "তামাক সেবন",
+        "তেজস্ক্রিয় বিকিরণ",
+        "ভাইরাস (HPV)",
+        "নিয়মিত শাকসবজি খাওয়া"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-146",
+      "question": "বিবর্তনের স্বপক্ষে 'Atavism' বলতে কী বোঝায়?",
+      "options": [
+        "নিষ্ক্রিয় অঙ্গের পুনরায় সক্রিয় হওয়া",
+        "নতুন অঙ্গ সৃষ্টি",
+        "অঙ্গের অবলুপ্তি",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-147",
+      "question": "হেপাটাইটিস রোগে প্রস্রাবের রঙ কেমন হয়?",
+      "options": [
+        "সাদা",
+        "গাড় হলুদ",
+        "লাল",
+        "নীল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-148",
+      "question": "ডারউইনের মতে অস্তিত্বের জন্য সংগ্রামের প্রকারগুলি হলো—",
+      "options": [
+        "অন্তপ্রজাতি সংগ্রাম",
+        "আন্তপ্রজাতি সংগ্রাম",
+        "পরিবেশের সাথে সংগ্রাম",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-149",
+      "question": "ম্যালেরিয়া রোগের জীবাণু আবিষ্কারের জন্য কে নোবেল পুরস্কার পান?",
+      "options": [
+        "Ronald Ross",
+        "Robert Koch",
+        "Louis Pasteur",
+        "Alexander Fleming"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-150",
+      "question": "সরীসৃপ ও পাখির মধ্যবর্তী পর্যায়ের জীব কোনটি?",
+      "options": [
+        "আরকিওপটেরিক্স",
+        "প্লাটিপাস",
+        "পেরিপেটাস",
+        "ঘোড়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-151",
+      "question": "যক্ষ্মা রোগে আক্রান্ত ব্যক্তির কফ পরীক্ষার নাম কী?",
+      "options": [
+        "Sputum test (কফ পরীক্ষা)",
+        "Blood sugar",
+        "Urine test",
+        "ECG"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-152",
+      "question": "ল্যামার্কের তত্ত্বানুসারে সাপের পা অবলুপ্ত হওয়ার কারণ কী?",
+      "options": [
+        "অতিরিক্ত ব্যবহার",
+        "অব্যবহার (Disuse)",
+        "মিউটেশন",
+        "রোগ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-153",
+      "question": "কোন্ ব্যাক্টেরিয়া 'লক-জ' (Lock-jaw) অবস্থা সৃষ্টি করে?",
+      "options": [
+        "Salmonella typhi",
+        "Clostridium tetani",
+        "Vibrio cholerae",
+        "Mycobacterium"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-154",
+      "question": "বিবর্তনের ধারায় মানুষের সবথেকে নিকটতম আত্মীয় কোনটি?",
+      "options": [
+        "শিম্পাঞ্জি",
+        "গরু",
+        "বাঘ",
+        "ঘোড়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-155",
+      "question": "টাইফয়েড জ্বরের জীবাণু মূলত কোন্ অঙ্গে বংশবৃদ্ধি করে?",
+      "options": [
+        "ফুসফুস",
+        "ক্ষুদ্রান্ত্র ও যকৃৎ",
+        "মস্তিস্ক",
+        "হাড়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-156",
+      "question": "ডারউইনের মতে 'প্রাকৃতিক নির্বাচন' কাকে বেছে নেয়?",
+      "options": [
+        "দুর্বল জীবকে",
+        "অভিযোজন ক্ষমতা সম্পন্ন ও উন্নত বৈশিষ্ট্যযুক্ত জীবকে",
+        "যারা বেশি খায় তাদের",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-157",
+      "question": "ইনফ্লুয়েঞ্জা রোগের সংক্রামক দশা কোনটি?",
+      "options": [
+        "হাঁচি বা কাশির ড্রপলেট",
+        "রক্ত",
+        "জল",
+        "কামড়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-158",
+      "question": "সমসংস্থ অঙ্গের উদাহরণ কোনটি?",
+      "options": [
+        "পতঙ্গের ডানা ও বাদুড়ের ডানা",
+        "পাখির ডানা ও তিমির ফ্লিপার",
+        "আলুর টিউবার ও আদার রাইজোম",
+        "B এবং C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-159",
+      "question": "বসন্ত রোগ (Smallpox) বর্তমানে পৃথিবী থেকে নির্মূল করা হয়েছে—এটি কী ধরণের সংক্রমণ ছিল?",
+      "options": [
+        "Viral",
+        "Bacterial",
+        "Fungal",
+        "Protozoan"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-160",
+      "question": "বিবর্তনের ইতিহাসে 'মেসোহিপ্পাস' (Mesohippus) কোন যুগের ঘোড়া?",
+      "options": [
+        "ইওসিন",
+        "অলিগোসিন",
+        "মায়োসিন",
+        "প্লিওসিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-161",
+      "question": "এইডস রোগে শরীরের কোন্ তন্ত্র সবথেকে বেশি ক্ষতিগ্রস্ত হয়?",
+      "options": [
+        "পরিপাক তন্ত্র",
+        "অনাক্রম্যতা তন্ত্র (Immune system)",
+        "স্নায়ু তন্ত্র",
+        "রেচন তন্ত্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-162",
+      "question": "সমবৃত্তীয় অঙ্গ কোন্ বিবর্তনকে সমর্থন করে?",
+      "options": [
+        "অপসারী",
+        "অভিসারী (Convergent)",
+        "ল্যামার্কবাদ",
+        "মেন্ডেলবাদ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-163",
+      "question": "কালাজ্বর বা ডামডাম ফিভার-এর জন্য দায়ী ব্যাক্টেরিয়া কোনটি?",
+      "options": [
+        "এটি ব্যাক্টেরিয়া নয়, প্রোটোজোয়া",
+        "Salmonella",
+        "Vibrio",
+        "Mycobacterium"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-164",
+      "question": "ডারউইনের মতে ছোট ছোট প্রকরণগুলি পরবর্তী প্রজন্মে সঞ্চারিত হয় কীসের মাধ্যমে?",
+      "options": [
+        "প্যানজেনেসিস (Pangenesis)",
+        "ডিএনএ",
+        "আরএনএ",
+        "প্রোটিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-165",
+      "question": "টিটেনাস টক্সয়েড (TT) ইঞ্জেকশন কত বছর অন্তর সাধারণত বুস্টার ডোজ হিসেবে নেওয়া হয়?",
+      "options": [
+        "১ বছর",
+        "১০ বছর",
+        "৫ বছর",
+        "প্রতি মাসে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-166",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে 'ইওহিপ্পাস' (Eohippus)-এর আকার কেমন ছিল?",
+      "options": [
+        "শিয়ালের মতো",
+        "কুকুরের মতো",
+        "বর্তমান ঘোড়ার মতো",
+        "হাতির মতো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-167",
+      "question": "ডায়াবেটিস মেলিটাস (Diabetes Mellitus) রোগীদের জন্য কোনটি ক্ষতিকর?",
+      "options": [
+        "চিনি বা কার্বোহাইড্রেট",
+        "প্রোটিন",
+        "ভিটামিন",
+        "ফাইবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-168",
+      "question": "বিবর্তনের স্বপক্ষে 'সিমবায়োসিস' বা মিথোজীবিতা কোন্ তত্ত্বের অংশ?",
+      "options": [
+        "Endosymbiotic theory",
+        "Darwinism",
+        "Lamarckism",
+        "Cell theory"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-169",
+      "question": "ম্যালেরিয়া রোগের বাহক স্ত্রী অ্যানোফিলিস মশা সাধারণত কখন কামড়ায়?",
+      "options": [
+        "দিনের বেলায়",
+        "সন্ধ্যা বা রাতে",
+        "দুপুরে",
+        "কামড়ায় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-170",
+      "question": "'প্রাকৃতিক নির্বাচন' বা Natural Selection এর মাধ্যমে বিবর্তন ঘটে— এটি কার তত্ত্ব?",
+      "options": [
+        "Lamarck",
+        "Darwin",
+        "Mendel",
+        "Watson"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-171",
+      "question": "যক্ষ্মা রোগের চিকিৎসায় ব্যবহৃত পদ্ধতিটিকে কী বলে?",
+      "options": [
+        "DOTS",
+        "Chemotherapy",
+        "Dialysis",
+        "IVF"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-172",
+      "question": "বিবর্তনের ইতিহাসে মানুষের আদিমতম পূর্বপুরুষ (Hominid) কোনটি?",
+      "options": [
+        "Australopithecus",
+        "Homo habilis",
+        "Homo erectus",
+        "Neanderthal"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-173",
+      "question": "প্লেগ রোগের সংক্রমণের মাধ্যম কোনটি?",
+      "options": [
+        "মশা",
+        "ইঁদুরের ওপর থাকা মাছি (Rat flea)",
+        "বাতাস",
+        "সরাসরি জল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-174",
+      "question": "ল্যামার্কের তত্ত্বানুসারে বিবর্তনের প্রধান কারণ কী?",
+      "options": [
+        "মিউটেশন",
+        "পরিবেশের প্রভাব ও অভিযোজন",
+        "জেনেটিক ড্রিফট",
+        "আইসোলেশন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-175",
+      "question": "টাইফয়েড রোগের জীবাণু আবিষ্কার করেন কে?",
+      "options": [
+        "Robert Koch",
+        "Karl Eberth",
+        "Louis Pasteur",
+        "Ronald Ross"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-176",
+      "question": "সমসংস্থ অঙ্গ কোন্ বিবর্তনকে সমর্থন করে?",
+      "options": [
+        "অভিসারী",
+        "অপসারী (Divergent)",
+        "ল্যামার্কবাদ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-177",
+      "question": "কলেরার প্রধান লক্ষণ কোনটি?",
+      "options": [
+        "জ্বর",
+        "চাল ধোয়া জলের মতো পাতলা পায়খানা ও বমি",
+        "গায়ে র‍্যাশ",
+        "মাথা ব্যথা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-178",
+      "question": "ডারউইন গ্যালোপাগোস দ্বীপপুঞ্জে কোন্ জাহাজে গিয়েছিলেন?",
+      "options": [
+        "HMS Beagle",
+        "HMS Titanic",
+        "HMS Discovery",
+        "HMS Victoria"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-179",
+      "question": "এইডস ভাইরাস কোন্ ধরণের ভাইরাস?",
+      "options": [
+        "DNA virus",
+        "Retrovirus (RNA virus)",
+        "Bacteriophage",
+        "Pox virus"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-180",
+      "question": "বিবর্তনের স্বপক্ষে 'জেনেটিক কোড'-এর সর্বজনীনতা কোন্ ধরণের প্রমাণ?",
+      "options": [
+        "শারীরবৃত্তীয়",
+        "আণবিক (Molecular)",
+        "ফসিল",
+        "ভ্রূণতাত্ত্বিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-191",
+      "question": "নিউমোনিয়া রোগের জীবাণু মূলত কী ধরণের?",
+      "options": [
+        "Bacteria (Diplococcus)",
+        "Virus",
+        "Protozoa",
+        "Helminth"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-192",
+      "question": "ডারউইনের মতে প্রজাতি সৃষ্টির প্রধান বাধা কোনটি?",
+      "options": [
+        "অভিযোজন",
+        "জনন বিচ্ছিন্নতা (Isolation)",
+        "খাদ্যাভ্যাস",
+        "ব্যায়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-193",
+      "question": "কালাজ্বর বা লিশম্যানিয়াসিস রোগের চিকিৎসায় ব্যবহৃত ঔষধটি হলো—",
+      "options": [
+        "Antimonyl tartrate",
+        "Quinine",
+        "Penicillin",
+        "Aspirin"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-194",
+      "question": "ঘোড়ার বিবর্তনের সঠিক ক্রম কোনটি?",
+      "options": [
+        "Eohippus -> Mesohippus -> Merychippus -> Pliohippus -> Equus",
+        "Equus -> Eohippus -> Pliohippus",
+        "Mesohippus -> Equus -> Eohippus",
+        "Merychippus -> Equus -> Mesohippus"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-195",
+      "question": "হেপাটাইটিস বি রোগের হাত থেকে বাঁচতে কোন্ টিকা দেওয়া হয়?",
+      "options": [
+        "BCG",
+        "Hepatitis B Vaccine",
+        "OPV",
+        "DPT"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-196",
+      "question": "বিবর্তনের ধারায় কোন্ ধরণের বিবর্তন থেকে নতুন প্রজাতি সৃষ্টি হয়?",
+      "options": [
+        "অভিসারী",
+        "অপসারী",
+        "সমান্তরাল",
+        "ল্যামার্কীয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-197",
+      "question": "ডায়াবেটিস মেলিটাস (DM) ও ডায়াবেটিস ইনসিপিডাস (DI) এর মধ্যে পার্থক্য কী?",
+      "options": [
+        "DM ইনসুলিনের অভাবে হয়, DI এডিএইচ (ADH)-এর অভাবে হয়",
+        "DM এ শর্করার সমস্যা থাকে, DI এ থাকে না",
+        "উভয়ই এক",
+        "A এবং B উভয়ই ঠিক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-198",
+      "question": "বিবর্তনের স্বপক্ষে 'মিসিং লিঙ্ক' আরকিওপটেরিক্স-এর দেহে পাখির বৈশিষ্ট্য কোনটি?",
+      "options": [
+        "ডানা ও পালক",
+        "লেজে কশেরুকা",
+        "দাঁত",
+        "নখর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-199",
+      "question": "ম্যালেরিয়া পরজীবী মানুষের লোহিত রক্তকণিকায় কোন্ চক্র সম্পন্ন করে?",
+      "options": [
+        "এরিথ্রোসাইটিক সাইজোগনি",
+        "এক্সো-এরিথ্রোসাইটিক সাইজোগনি",
+        "স্পোরোগনি",
+        "গ্যামেটোগনি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-200",
+      "question": "সমসংস্থ অঙ্গের উৎস ও কাজ সম্পর্কে নীচের কোনটি সঠিক?",
+      "options": [
+        "উৎস এক কিন্তু কাজ ভিন্ন",
+        "উৎস ভিন্ন কিন্তু কাজ এক",
+        "উৎস ও কাজ উভয়ই এক",
+        "নিষ্ক্রিয় অঙ্গ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-201",
+      "question": "টাইফয়েড রোগ নির্ণয়ে বিডাল (Widal) পরীক্ষা কোন্ নীতিতে কাজ করে?",
+      "options": [
+        "অ্যাগ্লুটিনেশন (Agglutination)",
+        "প্রেসিপিটেশন",
+        "ডিফিউশন",
+        "পিসিআর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-202",
+      "question": "বিবর্তনের ভ্রূণতত্ত্ব ঘটিত প্রমাণ 'ব্যক্তিজনি জাতিজনিকে পুনরাবৃত্ত করে'—এর উদাহরণ কোনটি?",
+      "options": [
+        "ব্যাঙাচি দশা",
+        "পাখির ওড়া",
+        "মানুষের বুদ্ধি",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-203",
+      "question": "যক্ষ্মা (TB) আক্রান্ত ব্যক্তির ওজন সাধারণত—",
+      "options": [
+        "বৃদ্ধি পায়",
+        "হ্রাস পায় (Weight loss)",
+        "একই থাকে",
+        "দ্রুত বাড়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-204",
+      "question": "উটের মূত্রে ইউরিয়ার বদলে কোন্ পদার্থ থাকে যা জল সংরক্ষণে সাহায্য করে?",
+      "options": [
+        "ইউরিক অ্যাসিড",
+        "অ্যামোনিয়া",
+        "জল",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-205",
+      "question": "কর্কট রোগের চিকিৎসায় ব্যবহৃত পদ্ধতি কোনটি?",
+      "options": [
+        "কেমোথেরাপি",
+        "রেডিওথেরাপি",
+        "সার্জারি",
+        "সবকটিই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-206",
+      "question": "বিবর্তনের ইতিহাসে কোন্ যুগকে 'সরীসৃপের যুগ' বলা হয়?",
+      "options": [
+        "মেসোজোয়িক (Mesozoic)",
+        "সিনোজোয়িক",
+        "প্যালিওজোয়িক",
+        "আর্কিওজোয়িক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-207",
+      "question": "ডেঙ্গু রোগের লক্ষণে নীচের কোনটি দেখা যায়?",
+      "options": [
+        "প্রচণ্ড জ্বর ও গাঁটে গাঁটে ব্যথা",
+        "অণুচক্রিকা বা Platelet কমে যাওয়া",
+        "বমি ও গায়ে র‍্যাশ",
+        "সবকটিই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-208",
+      "question": "ডারউইনের মতে 'অস্তিত্বের জন্য সংগ্রাম' কেন ঘটে?",
+      "options": [
+        "সম্পদের সীমাবদ্ধতার জন্য",
+        "অত্যধিক প্রজননের জন্য",
+        "পরিবেশের পরিবর্তনের জন্য",
+        "সবকটিই ঠিক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-209",
+      "question": "কোন্ রোগটি ছোঁয়াচে (Contagious)?",
+      "options": [
+        "মাম্পস",
+        "বসন্ত",
+        "হাম",
+        "সবকটিই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-210",
+      "question": "বিবর্তনের স্বপক্ষে 'ডারউইনবাদ' বর্তমানে কোন্ নামে পরিচিত?",
+      "options": [
+        "নব্য ডারউইনবাদ (Neo-Darwinism)",
+        "ল্যামার্কবাদ",
+        "মিউটেশন তত্ত্ব",
+        "মেন্ডেলবাদ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-211",
+      "question": "ব্যাক্টেরিয়া ঘটিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Tuberculosis",
+        "Cholera",
+        "Typhoid",
+        "Influenza"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-212",
+      "question": "ভাইরাস ঘটিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "AIDS",
+        "Polio",
+        "Measles",
+        "Malaria"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-213",
+      "question": "ম্যালেরিয়া রোগের বাহক ও জীবাণু হলো: (Multi-correct)",
+      "options": [
+        "স্ত্রী এনোফিলিস মশা (বাহক)",
+        "Plasmodium vivax (জীবাণু)",
+        "কিউলেক্স মশা (বাহক)",
+        "Plasmodium falciparum (জীবাণু)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-214",
+      "question": "বিবর্তনের সাপেক্ষে সমসংস্থ অঙ্গের উদাহরণ হলো: (Multi-correct)",
+      "options": [
+        "পাখির ডানা ও মানুষের হাত",
+        "তিমির ফ্লিপার ও বিড়ালের অগ্রপদ",
+        "পতঙ্গের ডানা ও পাখির ডানা",
+        "আলুর টিউবার ও আদার রাইজোম"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-215",
+      "question": "ডারউইনের প্রাকৃতিক নির্বাচন তত্ত্বের প্রধান বিষয়গুলি হলো: (Multi-correct)",
+      "options": [
+        "অত্যধিক হারে বংশবৃদ্ধি",
+        "অস্তিত্বের জন্য সংগ্রাম",
+        "যোগ্যতমের উদ্বর্তন",
+        "অঙ্গের ব্যবহার ও অব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-216",
+      "question": "এইডস (AIDS) রোগ সংক্রমণের মাধ্যমগুলি হলো: (Multi-correct)",
+      "options": [
+        "অসুরক্ষিত যৌন মিলন",
+        "আক্রান্ত ব্যক্তির রক্ত গ্রহণ",
+        "মা থেকে শিশুতে সংক্রমণ",
+        "করমর্দন বা একই থালায় খাবার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-217",
+      "question": "নিষ্ক্রিয় বা লুপ্তপ্রায় অঙ্গের (Vestigial organs) উদাহরণ হলো: (Multi-correct)",
+      "options": [
+        "মানুষের অ্যাপেন্ডিক্স",
+        "চোখের নিকটটিং মেমব্রেন",
+        "কানের পেশী",
+        "মেরুদণ্ডের শেষে কক্সিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-218",
+      "question": "জলবাহিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Amoebiosis",
+        "Tuberculosis"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-219",
+      "question": "ল্যামার্কবাদের প্রধান ধারণাগুলি হলো: (Multi-correct)",
+      "options": [
+        "পরিবেশের প্রভাব",
+        "অঙ্গের ব্যবহার ও অব্যবহার",
+        "অর্জিত বৈশিষ্ট্যের বংশানুসরণ",
+        "প্রাকৃতিক নির্বাচন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-220",
+      "question": "ক্যানসার (Cancer) রোগ সম্পর্কে সঠিক তথ্য হলো: (Multi-correct)",
+      "options": [
+        "এটি অনিয়ন্ত্রিত কোশ বিভাজনের ফলে হয়",
+        "মেটাস্ট্যাসিস এর একটি প্রধান বৈশিষ্ট্য",
+        "এটি একটি সংক্রামক রোগ",
+        "কার্সিনোজেন ক্যানসার সৃষ্টি করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-221",
+      "question": "বিবর্তনের ইতিহাসে ঘোড়ার বৈশিষ্ট্যগুলি হলো: (Multi-correct)",
+      "options": [
+        "উচ্চতা বৃদ্ধি পাওয়া",
+        "আঙ্গুলের সংখ্যা হ্রাস পাওয়া (একটিতে আসা)",
+        "দৌড়ানোর ক্ষমতা বৃদ্ধি",
+        "খাদ্যাভ্যাস ঘাস খাওয়াতে পরিবর্তন (Grazing)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-222",
+      "question": "প্রোটোজোয়া ঘটিত রোগগুলি হলো: (Multi-correct)",
+      "options": [
+        "Malaria",
+        "Kala-azar",
+        "Amoebiosis",
+        "Ringworm"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-223",
+      "question": "ডায়াবেটিস মেলিটাস (DM) এর লক্ষণগুলি হলো: (Multi-correct)",
+      "options": [
+        "পলিইউরিয়া (অতিরিক্ত মূত্রত্যাগ)",
+        "পলিডিপসিয়া (প্রবল তৃষ্ণা)",
+        "গ্লাইকোসুরিয়া (মূত্রে শর্করা)",
+        "রক্তচাপ কমে যাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-224",
+      "question": "সমবৃত্তীয় অঙ্গের (Analogous organs) উদাহরণ হলো: (Multi-correct)",
+      "options": [
+        "পাখির ডানা ও পতঙ্গের ডানা",
+        "মিষ্টি আলুর মূল ও আলুর টিউবার",
+        "তিমির ফ্লিপার ও মানুষের হাত",
+        "মটর গাছের আকর্ষ ও ফণীমনসার কাঁটা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-225",
+      "question": "টিটেনাস বা ধনুষ্টঙ্কার রোগের লক্ষণগুলি হলো: (Multi-correct)",
+      "options": [
+        "চোয়াল আটকে যাওয়া (Lock-jaw)",
+        "শরীরের ধনুকের মতো বেঁকে যাওয়া",
+        "তীব্র পেশী সংকোচন",
+        "পাতলা পায়খানা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-226",
+      "question": "বিবর্তনের স্বপক্ষে ভ্রূণতাত্ত্বিক প্রমাণের অংশগুলি হলো: (Multi-correct)",
+      "options": [
+        "বিভিন্ন মেরুদণ্ডী প্রাণীর ভ্রূণের সাদৃশ্য",
+        "ভ্রূণে গলবিলীয় ফুলকা ছিদ্রের উপস্থিতি",
+        "লেজের উপস্থিতি (প্রাথমিক অবস্থায়)",
+        "হাড়ের গঠন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-227",
+      "question": "ডেঙ্গু ও চিকুনগুনিয়া উভয়েই: (Multi-correct)",
+      "options": [
+        "মশা বাহিত রোগ",
+        "ভাইরাস ঘটিত রোগ",
+        "জ্বর ও গাঁটে ব্যথা সৃষ্টি করে",
+        "ব্যাক্টেরিয়া ঘটিত রোগ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-228",
+      "question": "ডারউইনের মতে বিবর্তনের সহায়ক কারণগুলি হলো: (Multi-correct)",
+      "options": [
+        "প্রকরণ বা Variation",
+        "প্রাকৃতিক নির্বাচন",
+        "বংশগতি",
+        "মিউটেশন (ডারউইনের মূল তত্ত্বে ছিল না)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-229",
+      "question": "যক্ষ্মা বা TB রোগ সম্পর্কে সত্য তথ্য হলো: (Multi-correct)",
+      "options": [
+        "এটি বায়ুবাহিত রোগ",
+        "Mycobacterium tuberculosis দ্বারা হয়",
+        "ডটস (DOTS) এর মাধ্যমে চিকিৎসা হয়",
+        "এর জন্য কুইনাইন দেওয়া হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-230",
+      "question": "হার্ডি-উইনবার্গ ভারসাম্য নষ্ট হওয়ার কারণগুলি হলো: (Multi-correct)",
+      "options": [
+        "Mutation",
+        "Natural selection",
+        "Gene flow (অভিবাসন)",
+        "Random mating"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-231",
+      "question": "ওটালোজি (Otology) সংক্রান্ত বিবর্তন মূলত কোন্ অঙ্গে দেখা যায়? (Multi-correct)",
+      "options": [
+        "অন্তঃকর্ণের হাড়ের রূপান্তর",
+        "মস্তিস্কের আকার বৃদ্ধি",
+        "লসিকা নালী",
+        "ফুসফুস"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-232",
+      "question": "ফাইলেরিয়াসিস (Filariasis) রোগের লক্ষণ হলো: (Multi-correct)",
+      "options": [
+        "পা ও জননাঙ্গের অস্বাভাবিক ফোলা (Elephantiasis)",
+        "লসিকা নালীর প্রদাহ",
+        "জ্বর",
+        "শ্বাসকষ্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-233",
+      "question": "বিবর্তনের স্বপক্ষে 'জীবন্ত জীবশ্ম' (Living fossils) হলো: (Multi-correct)",
+      "options": [
+        "লিমুলাস (রাজ কাঁকড়া)",
+        "স্পিনোডন",
+        "প্লাটিপাস",
+        "পায়রা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-234",
+      "question": "টাইফয়েড ও কলেরা উভয়েই: (Multi-correct)",
+      "options": [
+        "ব্যাক্টেরিয়া ঘটিত",
+        "জল ও দূষিত খাদ্যের মাধ্যমে ছড়ায়",
+        "পরিপাক তন্ত্রকে আক্রান্ত করে",
+        "মশা দ্বারা বাহিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-235",
+      "question": "ক্যানসার সৃষ্টিকারী কার্সিনোজেনগুলি হলো: (Multi-correct)",
+      "options": [
+        "আলট্রাভায়োলেট রশ্মি",
+        "তামাক ও নিকোটিন",
+        "কিছু রাসায়নিক পদার্থ",
+        "ভিটামিন এ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-236",
+      "question": "সমসংস্থ ও সমবৃত্তীয় অঙ্গের মধ্যে পার্থক্য হলো: (Multi-correct)",
+      "options": [
+        "সমসংস্থ অঙ্গের গঠন এক কিন্তু কাজ আলাদা",
+        "সমবৃত্তীয় অঙ্গের কাজ এক কিন্তু গঠন আলাদা",
+        "সমসংস্থ অপসারী বিবর্তনকে বোঝায়",
+        "সমবৃত্তীয় অপসারী বিবর্তনকে বোঝায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-237",
+      "question": "যক্ষ্মা প্রতিরোধের উপায়গুলি হলো: (Multi-correct)",
+      "options": [
+        "নবজাতককে BCG টিকা দেওয়া",
+        "আক্রান্ত ব্যক্তিকে আলাদা রাখা (Isolation)",
+        "কফ যত্রতত্র না ফেলা",
+        "প্রচুর চিনি খাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-03-238",
+      "question": "ডারউইনের ফিঞ্চ (Darwin's Finches) সম্পর্কে সত্য হলো: (Multi-correct)",
+      "options": [
+        "এরা গ্যালোপাগোস দ্বীপে বাস করত",
+        "এদের ঠোঁটের আকার ভিন্ন ভিন্ন ছিল",
+        "এটি অভিযোজনমূলক বিচ্ছুরণের (Adaptive radiation) উদাহরণ",
+        "এরা সবাই এক রকমের খাবার খেত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-239",
+      "question": "ভাইরাস ঘটিত সাধারণ সর্দি ও ইনফ্লুয়েঞ্জা সম্পর্কে সত্য হলো: (Multi-correct)",
+      "options": [
+        "এরা ড্রপলেট ইনফেকশন (হাঁচি-কাশি) দ্বারা ছড়ায়",
+        "এরা বায়ুবাহিত",
+        "এদের চিকিৎসায় অ্যান্টিবায়োটিক কাজ করে না",
+        "এরা ব্যাক্টেরিয়া ঘটিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-240",
+      "question": "ল্যামার্কের জিরাফের উদাহরণ কোন্ বিষয়কে ব্যাখ্যা করে? (Multi-correct)",
+      "options": [
+        "অঙ্গের ব্যবহার",
+        "অর্জিত বৈশিষ্ট্যের সঞ্চারণ",
+        "মিউটেশন",
+        "প্রাকৃতিক নির্বাচন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-241",
+      "question": "কালাজ্বর রোগের বাহক হলো বালিমাছি এবং এর জীবাণু হলো লিশম্যানিয়া। (True/False)",
+      "options": [
+        "True",
+        "False",
+        "",
+        ""
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-242",
+      "question": "ম্যালেরিয়া পরজীবীর মুখ্য পোষক হলো মানুষ এবং গৌণ পোষক হলো স্ত্রী এনোফিলিস। (True/False)",
+      "options": [
+        "True (ভুল, মশা মুখ্য কারণ সেখানে যৌন জনন হয়)",
+        "False",
+        "",
+        ""
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-243",
+      "question": "বিবর্তনের স্বপক্ষে 'আরকিওপটেরিক্স' কোন্ দুটি গোষ্ঠীর বৈশিষ্ট্য ধারণ করে? (Multi-correct)",
+      "options": [
+        "Reptilia (সরীসৃপ)",
+        "Aves (পাখি)",
+        "Mammalia",
+        "Pisces"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-244",
+      "question": "উটের মরু অভিযোজনগুলি হলো: (Multi-correct)",
+      "options": [
+        "কুঁজে চর্বি সঞ্চয়",
+        "নাসারন্ধ্র বন্ধ করার ক্ষমতা",
+        "ঘন প্রস্রাব ও শুষ্ক মলত্যাগ",
+        "পাতলা ত্বক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-245",
+      "question": "ক্যানসার কোশের বৈশিষ্ট্যগুলি হলো: (Multi-correct)",
+      "options": [
+        "দ্রুত ও অনিয়ন্ত্রিত বিভাজন",
+        "মেটাস্ট্যাসিস (অন্য অঙ্গে ছড়িয়ে পড়া)",
+        "সাধারণ কোশের থেকে বড় নিউক্লিয়াস",
+        "হরমোন উৎপাদন বন্ধ করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-246",
+      "question": "নীচের কোন্ রোগগুলি টিকা (Vaccine) দিয়ে প্রতিরোধ করা যায়? (Multi-correct)",
+      "options": [
+        "Polio",
+        "Measles",
+        "Hepatitis B",
+        "AIDS"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-247",
+      "question": "ডারউইনের মতে প্রকরণ (Variation) কী ধরণের হতে পারে? (Multi-correct)",
+      "options": [
+        "অনুকূল প্রকরণ",
+        "প্রতিকূল প্রকরণ",
+        "নিরবচ্ছিন্ন প্রকরণ",
+        "মিউটেশন (ভুগো দ্য ভ্রিজ এর মতে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-248",
+      "question": "প্লেগ রোগের জন্য দায়ী ব্যাক্টেরিয়া ও বাহক হলো: (Multi-correct)",
+      "options": [
+        "Yersinia pestis (ব্যাক্টেরিয়া)",
+        "Xenopsylla cheopis (বাহক মাছি)",
+        "ইঁদুর (আধার পোষক)",
+        "মশা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-249",
+      "question": "পোলিও ভাইরাস শরীরের কোন্ অংশকে আক্রমণ করে? (Multi-correct)",
+      "options": [
+        "স্নায়ুতন্ত্রের মোটর নিউরোন (পক্ষাঘাত ঘটায়)",
+        "অন্ত্রের আবরণী কোশ",
+        "হৃদপিণ্ড",
+        "হাড়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-250",
+      "question": "বিবর্তনের স্বপক্ষে ফসিলের গুরুত্ব কী? (Multi-correct)",
+      "options": [
+        "বিবর্তনের ধারার প্রত্যক্ষ প্রমাণ দেয়",
+        "সরল থেকে জটিল জীবের উৎপত্তির প্রমাণ",
+        "পূর্বপুরুষের বৈশিষ্ট্য জানা যায়",
+        "বর্তমান জীবের আয়ু নির্ণয় করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-251",
+      "question": "যক্ষ্মা (TB) আক্রান্ত ব্যক্তির কাশির সাথে রক্ত পড়লে তাকে কী বলে?",
+      "options": [
+        "Haemoptysis",
+        "Haematemesis",
+        "Anaemia",
+        "Glycosuria"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-252",
+      "question": "ল্যামার্কের ' Philosophie Zoologique' গ্রন্থটি কত সালে প্রকাশিত হয়?",
+      "options": [
+        "১৮০৯",
+        "১৮৫৯",
+        "১৭৯৮",
+        "১৯০০"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-253",
+      "question": "কোন্ রোগটি সাধারণত 'মাছি' (Housefly) দ্বারা বাহিত হয়? (Multi-correct)",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Amoebiosis",
+        "Malaria"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-254",
+      "question": "উটের চোখের ওপরের বড় বড় রোম (Eyelashes) মরুভূমিতে কী কাজ করে?",
+      "options": [
+        "ধুলোবালি থেকে চোখকে রক্ষা করে",
+        "রোদ থেকে বাঁচায়",
+        "দেখতে সাহায্য করে",
+        "সুন্দর দেখায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-255",
+      "question": "বিবর্তনের ইতিহাসে 'নিডারথাল মানুষ' (Neanderthal man) কোন্ যুগে বাস করত?",
+      "options": [
+        "প্লাইস্টোসিন (Pleistocene)",
+        "হোলসিন",
+        "অলিগোসিন",
+        "প্লিওসিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-256",
+      "question": "কুইনাইন ঔষধটি কোন্ গাছ থেকে পাওয়া যায়?",
+      "options": [
+        "সিঙ্কোনা (Cinchona)",
+        "ড্যাটুরা",
+        "পপি",
+        "ইউক্যালিপটাস"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-257",
+      "question": "সমসংস্থ অঙ্গের বিবর্তনকে কী বলা হয়?",
+      "options": [
+        "Divergent evolution (অপসারী)",
+        "Convergent evolution",
+        "Mutation",
+        "Adaptation"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-258",
+      "question": "মাম্পস রোগে কোন্ গ্রন্থি ফুলে যায়?",
+      "options": [
+        "Parotid gland",
+        "Thyroid",
+        "Adrenal",
+        "Pituitary"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-259",
+      "question": "ডারউইনের মতে 'অস্তিত্বের জন্য সংগ্রাম' এর কারণ কী?",
+      "options": [
+        "জ্যামিতিক হারে সংখ্যা বৃদ্ধি ও সীমিত খাদ্য",
+        "মিউটেশন",
+        "ব্যায়ামের অভাব",
+        "হরমোন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-260",
+      "question": "মানুষের পেটের 'অ্যাপেন্ডিক্স' কোন্ ধরণের অঙ্গ?",
+      "options": [
+        "নিষ্ক্রিয় অঙ্গ",
+        "সক্রিয় অঙ্গ",
+        "অত্যাবশ্যকীয় অঙ্গ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-261",
+      "question": "ম্যালেরিয়া রোগে রক্তাল্পতা দেখা যায় কেন?",
+      "options": [
+        "লোহিত রক্তকণিকা (RBC) ধ্বংস হওয়ার ফলে",
+        "রক্ত জমাট না বাঁধার ফলে",
+        "রক্তে শর্করা কমলে",
+        "হরমোনের অভাবে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-262",
+      "question": "বিবর্তনের স্বপক্ষে 'আরকিওপটেরিক্স' কোন্ দুটি শ্রেণীর মধ্যবর্তী পর্যায়?",
+      "options": [
+        "Reptilia ও Aves",
+        "Pisces ও Amphibia",
+        "Aves ও Mammalia",
+        "Amphibia ও Reptilia"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-263",
+      "question": "এইডস (AIDS) শনাক্তকরণের নিশ্চিত পরীক্ষা (Confirmatory test) কোনটি?",
+      "options": [
+        "Western Blot",
+        "ELISA",
+        "Blood group",
+        "Widal"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-264",
+      "question": "ল্যামার্কের মতে বিবর্তনের মূল চালিকাশক্তি কোনটি?",
+      "options": [
+        "পরিবেশের প্রভাব ও অভিযোজন করার চেষ্টা",
+        "প্রাকৃতিক নির্বাচন",
+        "মিউটেশন",
+        "জেনেটিক ড্রিফট"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-265",
+      "question": "টিটেনাস রোগের জীবাণু কোন্ ধরণের টক্সিন বা বিষ নিঃসরণ করে?",
+      "options": [
+        "Tetanospasmin",
+        "Insulin",
+        "Penicillin",
+        "Melanin"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-266",
+      "question": "ঘোড়ার বিবর্তনে কোন্ পর্যায়ে তার উচ্চতা সবথেকে কম ছিল?",
+      "options": [
+        "Eohippus",
+        "Mesohippus",
+        "Equus",
+        "Merychippus"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-267",
+      "question": "কোন্ রোগটি সাধারণত বাতাস বা বায়ুর ড্রপলেটের মাধ্যমে ছড়ায়? (Multi-correct)",
+      "options": [
+        "Tuberculosis",
+        "Common cold",
+        "Influenza",
+        "Cholera"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-268",
+      "question": "ডারউইনের মতে গ্যালোপাগোস দ্বীপপুঞ্জে বিভিন্ন ঠোঁটের ফিঞ্চ পাখি সৃষ্টির কারণ কী?",
+      "options": [
+        "বিভিন্ন ধরণের খাদ্যের সাথে অভিযোজন",
+        "বিভিন্ন আবহাওয়া",
+        "বংশগতি",
+        "মিউটেশন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-269",
+      "question": "টাইফয়েড রোগের সংক্রমণ ঠেকাতে কী ধরণের জল পান করা উচিত?",
+      "options": [
+        "ফোটানো ও বিশুদ্ধ জল",
+        "নদীর জল",
+        "পুকুরের জল",
+        "নর্দমার জল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-270",
+      "question": "বিবর্তনের স্বপক্ষে 'সুষুম্নাকাণ্ডের শেষ অস্থি কক্সিস' কোন্ প্রাণীদের লেজের অবশিষ্টাংশ নির্দেশ করে?",
+      "options": [
+        "পূর্বপুরুষ বানর বা উল্লুক জাতীয় প্রাণী",
+        "মাছ",
+        "পাখি",
+        "সরীসৃপ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-271",
+      "question": "প্লাজমোডিয়াম ফ্যালসিপেরাম দ্বারা সৃষ্ট ম্যালেরিয়াকে কী বলা হয়?",
+      "options": [
+        "Benign Tertian",
+        "Malignant Tertian",
+        "Quartan",
+        "Mild Malaria"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-272",
+      "question": "বিবর্তনের স্বপক্ষে 'পাখির ডানা ও পতঙ্গের ডানা' হলো—",
+      "options": [
+        "সমবৃত্তীয় অঙ্গ",
+        "সমসংস্থ অঙ্গ",
+        "নিষ্ক্রিয় অঙ্গ",
+        "সমান্তরাল অঙ্গ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-273",
+      "question": "যক্ষ্মা রোগে বুকের এক্স-রে করলে ফুসফুসে কী ধরণের চিহ্ন দেখা যায়?",
+      "options": [
+        "সাদাটে ক্যাভিটি বা ক্ষত",
+        "জল জমা",
+        "কোনো চিহ্ন নেই",
+        "রক্তপাত"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-03-274",
+      "question": "ল্যামার্কের তত্ত্বের প্রধান ত্রুটি কে প্রমাণ করেন?",
+      "options": [
+        "August Weismann (ইঁদুরের লেজ কাটা পরীক্ষার মাধ্যমে)",
+        "Darwin",
+        "Mendel",
+        "Pasteur"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-275",
+      "question": "এইডস রোগে রোগ প্রতিরোধ ক্ষমতা কমে যায় কারণ—",
+      "options": [
+        "হেল্পার টি-কোশ (Helper T cells) ধ্বংস হয়",
+        "লোহিত রক্তকণিকা কমে",
+        "শর্করা কমে",
+        "হরমোন বাড়ে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-276",
+      "question": "ঘোড়ার বিবর্তনের ইতিহাসে 'মেরিচিপ্পাস' (Merychippus)-এর বিশেষত্ব কী ছিল?",
+      "options": [
+        "এটি ঘাস খাওয়ার উপযোগী (Grazing) দন্তবিন্যাস শুরু করেছিল",
+        "এটি শিয়ালের মতো ছিল",
+        "এটি সাতার কাটত",
+        "এটি কেবল পাহাড়ে থাকত"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-277",
+      "question": "কোন্ রোগটি সাধারণত বাহক (Vector) ছাড়াই সরাসরি ছড়ায়?",
+      "options": [
+        "Tuberculosis (বায়ুর মাধ্যমে)",
+        "Malaria",
+        "Dengue",
+        "Kala-azar"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-278",
+      "question": "বিবর্তনের স্বপক্ষে 'ভ্রূণাবস্থায় গলবিলীয় ফুলকা ছিদ্র' কোন্ পূর্বপুরুষের প্রমাণ দেয়?",
+      "options": [
+        "জলজ পূর্বপুরুষ (মাছ)",
+        "বায়বীয় পূর্বপুরুষ",
+        "মরুভূমির পূর্বপুরুষ",
+        "কোনোটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-279",
+      "question": "ডায়াবেটিস মেলিটাস (DM) রোগীদের চিকিৎসায় কোন্ ইঞ্জেকশন দেওয়া হয়?",
+      "options": [
+        "Insulin",
+        "Penicillin",
+        "Paracetamol",
+        "TT"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-03-280",
+      "question": "উটের মরু অভিযোজনে ঘাম কম হওয়ার কারণ কী?",
+      "options": [
+        "শরীরের তাপমাত্রা অনেক বৃদ্ধি পেলেও (৪০° সে. পর্যন্ত) ঘাম নির্গত হয় না",
+        "উটের ঘামগ্রন্থি নেই",
+        "উট জল পান করে না",
+        "উট সবসময় ঠান্ডায় থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-03-291",
+      "question": "টাইফয়েড রোগের জীবাণু শরীরের কোন্ অঙ্গে আক্রমণ করে? (Multi-correct)",
+      "options": [
+        "ক্ষুদ্রান্ত্র (Intestine)",
+        "যকৃৎ (Liver)",
+        "ফুসফুস",
+        "প্লীহা (Spleen)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-292",
+      "question": "বিবর্তনের স্বপক্ষে সমসংস্থ অঙ্গ কোন্ বিবর্তনকে সমর্থন করে? (Multi-correct)",
+      "options": [
+        "অপসারী বিবর্তন (Divergent evolution)",
+        "একটি সাধারণ উৎস থেকে বিভিন্ন অভিযোজন",
+        "অভিসারী বিবর্তন",
+        "সমবৃত্তীয় বিবর্তন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-293",
+      "question": "ম্যালেরিয়া জ্বরের বিভিন্ন দশাগুলি হলো: (Multi-correct)",
+      "options": [
+        "শীত দশা (Cold stage) - প্রচণ্ড কাঁপুনি",
+        "উত্তাপ দশা (Hot stage) - উচ্চ জ্বর",
+        "ঘর্ম দশা (Sweating stage) - ঘাম দিয়ে জ্বর ছাড়া",
+        "কাশি দশা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-294",
+      "question": "ডারউইনের গ্যালোপাগোস ফিঞ্চ পাখিদের ঠোঁটের পরিবর্তন কেন হয়েছিল? (Multi-correct)",
+      "options": [
+        "কেউ বীজ খেত (Seed eating)",
+        "কেউ পোকা খেত (Insectivorous)",
+        "কেউ ফল খেত (Frugivorous)",
+        "কেউ সাতার কাটত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-295",
+      "question": "এইডস সংক্রমণ প্রতিরোধের উপায়গুলি হলো: (Multi-correct)",
+      "options": [
+        "নিরাপদ ও ডিসপোজেবল সিরিঞ্জ ব্যবহার",
+        "রক্ত সঞ্চালনের আগে স্ক্রিনিং করা",
+        "সচেতনতামূলক প্রচার",
+        "আক্রান্ত ব্যক্তিকে সমাজ থেকে বহিষ্কার করা (ভুল)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-296",
+      "question": "নিষ্ক্রিয় অঙ্গ (Vestigial organs) থেকে আমরা কী বুঝতে পারি? (Multi-correct)",
+      "options": [
+        "প্রাণীদের বিবর্তনের ইতিহাস",
+        "পূর্বপুরুষের সাথে সম্পর্ক",
+        "বর্তমানে ওই অঙ্গের কোনো কাজ নেই",
+        "ভবিষ্যতে ওই অঙ্গ নতুন কাজ শুরু করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-297",
+      "question": "যক্ষ্মা (TB) এবং নিউমোনিয়া (Pneumonia) উভয়েই: (Multi-correct)",
+      "options": [
+        "ফুসফুসকে আক্রান্ত করে",
+        "ব্যাক্টেরিয়া ঘটিত রোগ",
+        "বায়ুর মাধ্যমে ড্রপলেটে ছড়ায়",
+        "মশা দ্বারা বাহিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-298",
+      "question": "হার্ডি-উইনবার্গ ভারসাম্য বিঘ্নিত হওয়ার শর্তগুলি হলো: (Multi-correct)",
+      "options": [
+        "মিউটেশন (Mutation)",
+        "জেনেটিক ড্রিফট",
+        "প্রাকৃতিক নির্বাচন",
+        "জিন প্রবাহ (Migration)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-03-299",
+      "question": "ডেঙ্গু জ্বর হলে কী কী সমস্যা দেখা দিতে পারে? (Multi-correct)",
+      "options": [
+        "তীব্র মাথা ও চোখের পিছনে ব্যথা",
+        "অণুচক্রিকা বা Platelet কমে যাওয়া",
+        "হেমোরেজ বা রক্তক্ষরণ হতে পারে",
+        "হাড় খুব শক্ত হয়ে যাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-03-300",
+      "question": "আধুনিক ঘোড়া (Equus) সম্পর্কে সঠিক তথ্য হলো: (Multi-correct)",
+      "options": [
+        "এটি লম্বা ও শক্তিশালী পা বিশিষ্ট",
+        "এটি প্রতিটি পায়ে একটি মাত্র আঙ্গুল বহন করে",
+        "এটি ঘাস খেতে অভ্যস্ত",
+        "এটি বনে বাস করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "03-common-diseases",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

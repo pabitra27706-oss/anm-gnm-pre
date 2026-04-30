@@ -1,0 +1,951 @@
+{
+  "subject": "logic",
+  "unit": "09-puzzles",
+  "unit_code": "09",
+  "total": 55,
+  "questions": [
+    {
+      "id": "l-09-001",
+      "question": "একটি 5 তলা বিল্ডিংয়ে 5 জন ব্যক্তি A, B, C, D, E বসবাস করে। A, B এর উপরের তলায় বসবাস করে। C সবচেয়ে নিচের তলায় বসবাস করে না। D, E এর ঠিক উপরের তলায় বসবাস করে। B, D এর উপরের তলায় বসবাস করে। সবচেয়ে উপরের তলায় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-002",
+      "question": "পাঁচ বন্ধু P, Q, R, S, T এর পেশা分别是 Doctor, Engineer, Teacher, Lawyer, Architect. P Engineer নয়। Q Doctor। R Teacher নয়। S ও T এর পেশা এক নয়। Engineer কে?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-003",
+      "question": "A, B এর থেকে 5 বছর বড়। C, B এর থেকে 3 বছর ছোট। D, A এর থেকে 2 বছর ছোট। E, C এর থেকে 4 বছর বড়। সবচেয়ে বড় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-004",
+      "question": "3 টায় ঘড়ির ঘণ্টার কাঁটা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "60°",
+        "75°",
+        "90°",
+        "120°"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-005",
+      "question": "6 টায় ঘড়ির কাঁটার কোণ কত?",
+      "options": [
+        "90°",
+        "120°",
+        "150°",
+        "180°"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-006",
+      "question": "2024 সালের 15ই আগস্ট বৃহস্পতিবার হলে, 2024 সালের 15ই নভেম্বর কি বার হবে?",
+      "options": [
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-007",
+      "question": "একটি পাশার তিনটি মুখ দেখা যাচ্ছে: উপরের মুখ 5, সামনের মুখ 3, ডানের মুখ 2। 5-এর বিপরীত মুখে কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-008",
+      "question": "একটি ভবনে 4 তলা। নিচ থেকে 1ম, 2য়, 3য়, 4র্থ তলা। A, B এর নিচে বসে। C, A এর উপরে কিন্তু D এর নিচে বসে। D সবচেয়ে উপরে নয়। সবচেয়ে নিচে কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-009",
+      "question": "পাঁচ ব্যক্তির বয়স: 20, 25, 30, 35, 40। A, সবচেয়ে বড় নয়। B, C থেকে 5 বছর ছোট। D, E থেকে 10 বছর বড়। C, 30 বছর। 40 বছর কে?",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-010",
+      "question": "1 টা 30 মিনিটে ঘণ্টার কাঁটা ও মিনিটের কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "135°",
+        "140°",
+        "150°",
+        "165°"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-011",
+      "question": "যদি 2019 সালের 26শে জানুয়ারি শনিবার হয়, তাহলে 2020 সালের 26শে জানুয়ারি কি বার ছিল? (2020 লিপ ইয়ার)",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-012",
+      "question": "একটি পাশায় 1, 2, 3, 4, 5, 6 আছে। দুটি অবস্থানে দেখা যাচ্ছে: প্রথম অবস্থানে 1 উপরে, 2 সামনে; দ্বিতীয় অবস্থানে 3 উপরে, 1 সামনে। 6-এর বিপরীতে কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-013",
+      "question": "পাঁচজন ব্যক্তি P, Q, R, S, T পাঁচটি ভিন্ন রঙের গাড়ি - Red, Blue, Green, Yellow, Black রেখেছেন। R এর গাড়ি Red নয়। S এর গাড়ি Blue। Q এর গাড়ি Yellow। T এর গাড়ি Green নয়। P এর গাড়ি Black। Blue গাড়ি কার?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-014",
+      "question": "5 তলা বিল্ডিংয়ে 5 জন। A, D এর ঠিক উপরে। B, A এর উপরে। C, B এর নিচে। E সবচেয়ে নিচে। 2য় তলায় কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-015",
+      "question": "4 টা 15 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "35.5°",
+        "37.5°",
+        "40°",
+        "42.5°"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-016",
+      "question": "যদি 2023 সালের 1লা জানুয়ারি রবিবার হয়, তাহলে 2023 সালের 1লা মার্চ কি বার?",
+      "options": [
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-017",
+      "question": "একটি পাশার তিনটি ভিন্ন অবস্থান দেখা যাচ্ছে। অবস্থান 1: 1 উপরে, 2 সামনে; অবস্থান 2: 2 উপরে, 3 সামনে; অবস্থান 3: 3 উপরে, 1 সামনে। 4 এর বিপরীতে কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-018",
+      "question": "ছয়জন ব্যবসায়ী A, B, C, D, E, F পাঁচটি ভিন্ন শহর থেকে আসেন - Kolkata, Delhi, Mumbai, Chennai, Bangalore। দুইজন একই শহর থেকে নয়। A Kolkata থেকে নয়। B ও C একই শহর থেকে। D Chennai থেকে। E Mumbai থেকে। F Delhi থেকে। Kolkata থেকে কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-019",
+      "question": "4 জনের বয়সের সমষ্টি 100 বছর। A, B এর থেকে 5 বছর বড়। C, D এর থেকে 3 বছর ছোট। B, C এর থেকে 2 বছর বড়। সবচেয়ে ছোট কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-020",
+      "question": "5 টা 20 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "30°",
+        "40°",
+        "50°",
+        "60°"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-021",
+      "question": "যদি 10ই ফেব্রুয়ারি, 2025 সোমবার হয়, তাহলে 10ই মার্চ, 2025 কি বার?",
+      "options": [
+        "মঙ্গলবার",
+        "বুধবার",
+        "বৃহস্পতিবার",
+        "শুক্রবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-022",
+      "question": "একটি পাশায় উপরের মুখ 4, সামনের মুখ 5, ডানের মুখ 6। পাশাটিকে সামনের দিকে একবার ঘুরালে উপরের মুখ কী হবে?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-023",
+      "question": "পাঁচটি ভিন্ন বই: Math, Science, English, History, Geography। Math, Science এর ডানদিকে রাখা। English, History এর বাঁদিকে। Geography, Math এর বাঁদিকে। History সবচেয়ে ডানদিকে। বাঁদিক থেকে দ্বিতীয় বই কোনটি?",
+      "options": [
+        "Math",
+        "Science",
+        "English",
+        "Geography"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-024",
+      "question": "একটি 6 তলা বিল্ডিংয়ে 6 জন। A, F এর উপরে। B, C এর নিচে। D, E এর উপরে। C, F এর ঠিক উপরে। সবচেয়ে উপরের তলায় কে?",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-025",
+      "question": "12 টা 10 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "50°",
+        "55°",
+        "60°",
+        "65°"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-026",
+      "question": "2024 সালের 1লা নভেম্বর শুক্রবার হলে, 2024 সালের 30শে নভেম্বর কি বার?",
+      "options": [
+        "শনিবার",
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-027",
+      "question": "একটি পাশার বিপরীত মুখের সমষ্টি 7। উপরের মুখ 2 হলে, নিচের মুখ কত?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-028",
+      "question": "A, B, C, D চারজন। প্রত্যেকের একটি করে পোষা প্রাণী - Cat, Dog, Rabbit, Parrot। A এর Parrot নয়। B এর Cat। C এর Dog। D এর Rabbit নয়। কার Rabbit আছে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-029",
+      "question": "5 জনের উচ্চতা ক্রম: A, B এর থেকে লম্বা। C, D এর থেকে বেঁটে। B, C এর থেকে লম্বা। E সবচেয়ে বেঁটে। দ্বিতীয় লম্বা কে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-030",
+      "question": "3 টা 45 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "157.5°",
+        "160°",
+        "162.5°",
+        "165°"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-031",
+      "question": "1লা জানুয়ারি 2023 রবিবার হলে, 31শে ডিসেম্বর 2023 কি বার?",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-032",
+      "question": "একটি পাশার দুটি অবস্থানে দেখা যাচ্ছে: প্রথম অবস্থানে 2 উপরে, 5 সামনে; দ্বিতীয় অবস্থানে 1 উপরে, 2 সামনে। 3 এর বিপরীতে কত?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-033",
+      "question": "ছয়জন বন্ধু একটি সারিতে বসে। P, Q এর ডানে। R, S এর বাঁয়ে। T, U এর ডানে। Q, R এর বাঁয়ে। S, P এর ডানে। মাঝখানে কে?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-034",
+      "question": "2 টায় ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "45°",
+        "60°",
+        "75°",
+        "90°"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-035",
+      "question": "15ই আগস্ট 1947 শুক্রবার হলে, 15ই আগস্ট 1948 কি বার ছিল?",
+      "options": [
+        "শনিবার",
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-036",
+      "question": "একটি পাশায় 1, 2, 3, 4, 5, 6। দুটি অবস্থান: (1) 6 উপরে, 2 সামনে; (2) 4 উপরে, 6 সামনে। 1 এর বিপরীতে কত?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-037",
+      "question": "4 ভাইয়ের বয়স: 8, 12, 15, 20। রাহুল সৌরভের থেকে ছোট। সৌরভ অমিতের থেকে বড়। অমিত বিনয়ের থেকে বড়। বিনয়ের বয়স 12। রাহুলের বয়স কত?",
+      "options": [
+        "8",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-038",
+      "question": "8 টা 10 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "175°",
+        "170°",
+        "165°",
+        "160°"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-039",
+      "question": "1লা জুন 2024 শনিবার হলে, 30শে জুন 2024 কি বার?",
+      "options": [
+        "রবিবার",
+        "সোমবার",
+        "মঙ্গলবার",
+        "বুধবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-040",
+      "question": "একটি পাশার তিনটি অবস্থানে 1, 2, 3, 4, 5, 6 দেখা যাচ্ছে। 6 এর বিপরীতে 2, 5 এর বিপরীতে 3। 1 এর বিপরীতে কত?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "4 বা 5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-041",
+      "question": "A, B, C, D, E পাঁচজন বিভিন্ন ফল পছন্দ করে - Mango, Apple, Banana, Orange, Grapes। A Mango পছন্দ করে না। B Apple পছন্দ করে। C Banana পছন্দ করে না। D Grapes পছন্দ করে। E Orange পছন্দ করে। Mango কে পছন্দ করে?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-09-042",
+      "question": "10 টা 50 মিনিটে ঘড়ির কাঁটার মধ্যবর্তী কোণ কত?",
+      "options": [
+        "55°",
+        "60°",
+        "65°",
+        "70°"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-09-043",
+      "question": "1লা জানুয়ারি 2024 সোমবার হলে, 1লা মার্চ 2024 কি বার? (2024 লিপ ইয়ার)",
+      "options": [
+        "শুক্রবার",
+        "শনিবার",
+        "রবিবার",
+        "সোমবার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-044",
+      "question": "দুটি পাশা একসাথে ছোড়া হলে, উপরের মুখের সমষ্টি 7 পাওয়ার সম্ভাবনা কত?",
+      "options": [
+        "1/6",
+        "1/5",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-09-045",
+      "question": "নিচের কোনটি পাঁচতলা বিল্ডিং পাজলের জন্য সত্য হতে পারে? (Multiple Correct)",
+      "options": [
+        "A যদি 3য় তলায় থাকে, তাহলে B 4র্থ তলায় হতে পারে",
+        "C যদি সবচেয়ে উপরে থাকে, তাহলে D সবচেয়ে নিচে হতে পারে",
+        "একটি তলায় একাধিক ব্যক্তি থাকতে পারে না",
+        "উপরের দিকে যত যাওয়া যায়, তলার সংখ্যা বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-09-046",
+      "question": "ঘড়ির কাঁটার কোণ সংক্রান্ত নিচের কোন সূত্রটি সঠিক? (Multiple Correct)",
+      "options": [
+        "কোণ = |30H - 5.5M|, যেখানে H = ঘণ্টা, M = মিনিট",
+        "3 টায় কোণ = 90°",
+        "6 টায় কোণ = 180°",
+        "12 টায় কোণ = 0°"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-09-047",
+      "question": "ক্যালেন্ডার পাজল সংক্রান্ত নিচের কোন তথ্যগুলি সঠিক? (Multiple Correct)",
+      "options": [
+        "একটি সাধারণ বছরে 365 দিন = 52 সপ্তাহ + 1 দিন",
+        "একটি লিপ ইয়ারে 366 দিন = 52 সপ্তাহ + 2 দিন",
+        "যদি 1লা জানুয়ারি রবিবার হয়, তাহলে 31শে ডিসেম্বর রবিবার হবে সাধারণ বছরে",
+        "লিপ ইয়ারে ফেব্রুয়ারি মাসে 29 দিন থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-09-048",
+      "question": "পাশার পাজল সংক্রান্ত নিচের কোনটি সঠিক? (Multiple Correct)",
+      "options": [
+        "একটি সাধারণ পাশায় বিপরীত মুখের সমষ্টি 7",
+        "1 এর বিপরীতে 6, 2 এর বিপরীতে 5, 3 এর বিপরীতে 4",
+        "1, 2, 3 পরস্পর বিপরীত নয়",
+        "দুটি ভিন্ন অবস্থান থেকে বিপরীত মুখ নির্ণয় করা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-09-049",
+      "question": "বয়স সংক্রান্ত পাজলে নিচের কোনটি সঠিক? (Multiple Correct)",
+      "options": [
+        "A বড় B থেকে মানে A > B",
+        "কম বয়সী মানে ছোট",
+        "5 বছর বড় মানে A = B + 5",
+        "3 বছর ছোট মানে C = D - 3"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-09-050",
+      "question": "ফ্লোর পাজলে নিচের কোন বাক্যগুলি সঠিক সম্ভাব্য ক্লু? (Multiple Correct)",
+      "options": [
+        "A, B এর ঠিক উপরের তলায়",
+        "C, D এর উপরে কিন্তু E এর নিচে",
+        "F সবচেয়ে নিচের তলায়",
+        "G, H এর নিচে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-09-051",
+      "question": "দাবা পাজল সংক্রান্ত নিচের কোন ক্লুগুলি একসাথে সত্য হতে পারে? (Multiple Correct)",
+      "options": [
+        "A, B এর বাঁয়ে",
+        "C, D এর ডানে",
+        "E প্রান্তে",
+        "F মাঝে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-09-052",
+      "question": "একটি পাশায় নিচের কোন জোড়াগুলি বিপরীত হতে পারে? (Multiple Correct)",
+      "options": [
+        "1 এবং 6",
+        "2 এবং 5",
+        "3 এবং 4",
+        "1 এবং 2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-09-053",
+      "question": "যদি 10ই অক্টোবর বুধবার হয়, তাহলে নিচের কোন তারিখগুলি বুধবার হবে? (Multiple Correct)",
+      "options": [
+        "3রা অক্টোবর",
+        "17ই অক্টোবর",
+        "24শে অক্টোবর",
+        "31শে অক্টোবর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-09-054",
+      "question": "3 টা 15 মিনিটে ঘড়ির কাঁটার কোণ নিয়ে নিচের কোনটি সঠিক? (Multiple Correct)",
+      "options": [
+        "ঘণ্টার কাঁটা 3 থেকে একটু এগিয়ে",
+        "মিনিটের কাঁটা 3-এ (15 মিনিট)",
+        "কোণ = 7.5°",
+        "কোণ = 10°"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-09-055",
+      "question": "বিন্যাস পাজলের ক্ষেত্রে নিচের কোন কৌশলগুলি সঠিক? (Multiple Correct)",
+      "options": [
+        "নিশ্চিত ক্লুগুলি প্রথমে বসাও",
+        "সম্ভাব্য সকল বিন্যাস চিন্তা করো",
+        "একটি বিন্যাস ধরে নিয়ে বাকি ক্লু মিলাও",
+        "কোন বিন্যাস মিললে সেটাই উত্তর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "09-puzzles",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

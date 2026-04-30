@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   
-  <!-- ── PWA: Manifest (FIXED - using relative path) ───────────────────── -->
+  <!-- ── PWA: Manifest ─────────────────────────────────────────── -->
   <link rel="manifest" href="./manifest.json" />
   
-  <!-- ── PWA: Theme & Mobile ────────────────────────────── -->
+  <!-- ── PWA: Theme & Mobile ─────────────────────────────────────── -->
   <meta name="theme-color" content="#c2185b" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="ANM GNM" />
   
-  <!-- ── PWA: Apple Touch Icon (FIXED - relative path) ─────────────────── -->
+  <!-- ── PWA: Apple Touch Icon ──────────────────────────────────── -->
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   
-  <!-- ── SEO & Description ───────────────────────────────── -->
+  <!-- ── SEO & Description ──────────────────────────────────────── -->
   <meta name="description" content="WB ANM GNM 2026 প্রবেশিকা পরীক্ষার সম্পূর্ণ প্রস্তুতি প্ল্যাটফর্ম">
   <meta property="og:title" content="WB ANM GNM 2026 প্রস্তুতি">
   <meta property="og:description" content="সম্পূর্ণ বিনামূল্যে ANM GNM প্রস্তুতি">
@@ -25,15 +25,15 @@
   
   <title>WB ANM GNM 2026 প্রস্তুতি</title>
   
-  <!-- ── Favicon & Icons (FIXED - relative paths) ─────────────────────── -->
+  <!-- ── Favicon & Icons ─────────────────────────────────────────── -->
   <link rel="icon" type="image/png" href="./icons/icon-192.png">
   
-  <!-- ── Fonts ────────────────────────────────────────────── -->
+  <!-- ── Fonts ───────────────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
   
-  <!-- ── Stylesheets (FIXED - all from assets/css) ─────────────────────── -->
+  <!-- ── Stylesheets ─────────────────────────────────────────────── -->
   <link rel="stylesheet" href="./assets/css/variables.css">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
@@ -864,7 +864,8 @@
         </svg>
         বিষয়সমূহ
       </a>
-      <a href="./practice/unit-filter.html" class="nav-tab">
+      <!-- UPDATED: filter tab points to filter-center -->
+      <a href="./filter-center/index.html" class="nav-tab">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
         </svg>
@@ -996,8 +997,8 @@
           <span class="card-meta">৬টি বিষয় · ৭৬ অধ্যায়</span>
         </a>
 
-        <!-- 2. Chapter Wise Filter -->
-        <a href="./practice/filter.html" class="nav-card theme-teal" aria-label="Chapter Wise Filter — বিষয় ও অধ্যায় অনুযায়ী প্রশ্ন">
+        <!-- 2. Chapter Wise Filter (UPDATED) -->
+        <a href="./filter-center/index.html" class="nav-card theme-teal" aria-label="Chapter Wise Filter — বিষয় ও অধ্যায় অনুযায়ী প্রশ্ন">
           <span class="card-new-badge">🔥 নতুন</span>
           <div class="card-icon-wrap" aria-hidden="true">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00838f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1020,8 +1021,8 @@
           <span class="card-meta">বিষয়ভিত্তিক · ৬০ সেট</span>
         </a>
 
-        <!-- 4. Q&A / Read Mode -->
-        <a href="./practice/unit-filter.html" class="nav-card theme-orange" aria-label="প্রশ্ন উত্তর — উত্তরসহ পড়ার মোড">
+        <!-- 4. Q&A / Read Mode (UPDATED) -->
+        <a href="./filter-center/unit.html" class="nav-card theme-orange" aria-label="প্রশ্ন উত্তর — উত্তরসহ পড়ার মোড">
           <div class="card-icon-wrap" aria-hidden="true">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#e65100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
@@ -1136,7 +1137,8 @@
       </svg>
       <span class="bottom-nav-label">অনুশীলন</span>
     </a>
-    <a href="./practice/unit-filter.html" class="bottom-nav-item" aria-label="ফিল্টার">
+    <!-- UPDATED: bottom nav filter link -->
+    <a href="./filter-center/index.html" class="bottom-nav-item" aria-label="ফিল্টার">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
       </svg>
@@ -1177,7 +1179,7 @@
   </div>
 
   <!-- ════════════════════════════════
-       JAVASCRIPT (FIXED PATHS)
+       JAVASCRIPT (PATHS UNCHANGED)
   ════════════════════════════════ -->
   <script src="./js/storage.js"></script>
   <script src="./js/countdown.js"></script>
@@ -1241,42 +1243,35 @@
     }());
   </script>
   
-  <!-- ── PWA: Service Worker Registration (COMPLETELY FIXED) ──────────────── -->
+  <!-- ── PWA: Service Worker Registration ─────────────────────────── -->
   <script>
     (function() {
       'use strict';
       
-      // Check if service workers are supported
       if (!('serviceWorker' in navigator)) {
         console.warn('[PWA] Service Worker not supported');
         return;
       }
       
-      // Check if we're on HTTPS or localhost (required for PWA)
       const isSecure = location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1';
       if (!isSecure) {
         console.warn('[PWA] Service Worker requires HTTPS or localhost');
         return;
       }
       
-      // Determine correct service worker path
       let swPath = './sw.js';
-      
-      // If hosted on GitHub Pages with subpath
       if (window.location.pathname.includes('/anm-gnm-pre/') && !window.location.pathname.includes('/anm-gnm-pre/sw.js')) {
         swPath = '/anm-gnm-pre/sw.js';
       }
       
       console.log('[PWA] Registering service worker at:', swPath);
       
-      // Register on page load
       window.addEventListener('load', function() {
         navigator.serviceWorker.register(swPath, { scope: './' })
           .then(function(registration) {
             console.log('[PWA] ✓ Service Worker registered successfully');
             console.log('[PWA] Scope:', registration.scope);
             
-            // Check for updates
             registration.addEventListener('updatefound', function() {
               const newWorker = registration.installing;
               console.log('[PWA] New service worker installing...');
@@ -1284,7 +1279,6 @@
               newWorker.addEventListener('statechange', function() {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
                   console.log('[PWA] New version available - please refresh');
-                  // Show update notification to user
                   const banner = document.createElement('div');
                   banner.style.cssText = 'position:fixed;bottom:80px;left:16px;right:16px;background:#c2185b;color:white;padding:12px 16px;border-radius:12px;text-align:center;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,0.2);cursor:pointer;font-family:inherit;';
                   banner.innerHTML = '📱 নতুন আপডেট উপলব্ধ! এখানে ক্লিক করে রিফ্রেশ করুন';
@@ -1299,7 +1293,6 @@
             console.error('[PWA] ✗ Service Worker registration failed:', error.name, error.message);
           });
         
-        // Check for existing service worker controller
         if (navigator.serviceWorker.controller) {
           console.log('[PWA] Existing service worker found, page is controlled');
         }
@@ -1307,26 +1300,23 @@
     })();
   </script>
   
-  <!-- ── Install Banner Script (ENHANCED) ────────────────────────── -->
+  <!-- ── Install Banner Script ────────────────────────────────────── -->
   <script>
     (function() {
       let deferredPrompt;
       const installBanner = document.getElementById('installBanner');
       const installBtn = document.getElementById('installBtn');
       
-      // Listen for beforeinstallprompt event
       window.addEventListener('beforeinstallprompt', (e) => {
         console.log('[PWA] beforeinstallprompt fired');
         e.preventDefault();
         deferredPrompt = e;
         
-        // Show install banner
         if (installBanner) {
           installBanner.classList.add('visible');
         }
       });
       
-      // Handle install button click
       if (installBtn) {
         installBtn.addEventListener('click', async () => {
           if (!deferredPrompt) {
@@ -1334,24 +1324,19 @@
             return;
           }
           
-          // Show install prompt
           deferredPrompt.prompt();
           
-          // Wait for user response
           const { outcome } = await deferredPrompt.userChoice;
           console.log(`[PWA] User ${outcome} the install prompt`);
           
-          // Clear the deferred prompt
           deferredPrompt = null;
           
-          // Hide banner
           if (installBanner) {
             installBanner.classList.remove('visible');
           }
         });
       }
       
-      // Handle app installed event
       window.addEventListener('appinstalled', () => {
         console.log('[PWA] App was installed successfully');
         if (installBanner) {
@@ -1361,7 +1346,7 @@
     })();
   </script>
   
-  <!-- ── Offline Detection ─────────────────────────────────────── -->
+  <!-- ── Offline Detection ────────────────────────────────────────── -->
   <script>
     (function() {
       const offlineBar = document.getElementById('offlineBar');

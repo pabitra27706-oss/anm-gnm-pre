@@ -1,0 +1,5282 @@
+{
+  "subject": "life-science",
+  "unit": "08-nervous-system",
+  "unit_code": "08",
+  "total": 300,
+  "questions": [
+    {
+      "id": "ls-08-001",
+      "question": "স্নায়ুতন্ত্রের গঠনগত ও কার্যগত একক কোনটি?",
+      "options": [
+        "নেফ্রন",
+        "নিউরন",
+        "অ্যালভিওলাই",
+        "অস্টিওন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-002",
+      "question": "নিউরনের যে অংশ স্নায়ু আবেগ গ্রহণ করে তাকে কী বলে?",
+      "options": [
+        "অ্যাক্সন",
+        "ডেনড্রাইট",
+        "সাইন্যাপস",
+        "মায়েলিন শিথ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-003",
+      "question": "অ্যাক্সন-এর চারপাশের আবরণকে কী বলা হয়?",
+      "options": [
+        "সাইনোভিয়াল ক্যাপসুল",
+        "মায়েলিন শিথ",
+        "পেরিটোনিয়াম",
+        "প্লুরা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-004",
+      "question": "Nodes of Ranvier কী?",
+      "options": [
+        "সাইন্যাপসের গহ্বর",
+        "মায়েলিন শিথের বিচ্ছিন্নতা",
+        "ডেনড্রাইটের শাখা",
+        "কোষদেহের কেন্দ্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-005",
+      "question": "Synaptic knob-এ কী থাকে?",
+      "options": [
+        "রক্ত",
+        "নিউরোট্রান্সমিটার পূর্ণ ভেসিকল",
+        "লসিকা",
+        "গ্লুকোজ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-006",
+      "question": "Sensory neuron-এর কাজ কী?",
+      "options": [
+        "মস্তিষ্ক থেকে আবেগ বহন",
+        "রিসেপ্টর থেকে CNS-এ আবেগ বহন",
+        "শুধু পেশিতে যায়",
+        "CNS-এ থেকে যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-007",
+      "question": "Motor neuron আবেগ বহন করে কোথায়?",
+      "options": [
+        "CNS থেকে ইফেক্টর অঙ্গে",
+        "ইফেক্টর থেকে CNS-এ",
+        "শুধু মস্তিষ্কের মধ্যে",
+        "রিসেপ্টরে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-008",
+      "question": "Interneuron কোথায় থাকে?",
+      "options": [
+        "ত্বকে",
+        "পেশিতে",
+        "সম্পূর্ণ CNS-এর ভেতরে",
+        "গ্রন্থিতে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-009",
+      "question": "স্নায়ু আবেগ আসলে কী?",
+      "options": [
+        "রক্তপ্রবাহ",
+        "বৈদ্যুতিক সংকেত",
+        "রাসায়নিক দ্রবণ",
+        "যান্ত্রিক তরঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-010",
+      "question": "সাইন্যাপসে তথ্য পরিবহনকারী রাসায়নিককে কী বলে?",
+      "options": [
+        "হরমোন",
+        "নিউরোট্রান্সমিটার",
+        "উৎসেচক",
+        "ভিটামিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-011",
+      "question": "নিচের কোনটি নিউরোট্রান্সমিটার নয়?",
+      "options": [
+        "অ্যাসিটাইলকোলিন",
+        "ডোপামিন",
+        "ইনসুলিন",
+        "সেরোটোনিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-012",
+      "question": "Reflex action নিয়ন্ত্রিত হয় কোথা থেকে?",
+      "options": [
+        "সেরিব্রাম",
+        "সুষুম্না কাণ্ড",
+        "সেরিবেলাম",
+        "থ্যালামাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-013",
+      "question": "Reflex arc-এর সঠিক ধাপ কোনটি?",
+      "options": [
+        "রিসেপ্টর → সংবেদী → সুষুম্না → চেষ্টীয় → ইফেক্টর",
+        "ইফেক্টর → সুষুম্না → রিসেপ্টর",
+        "মস্তিষ্ক → পেশি",
+        "রিসেপ্টর → মস্তিষ্ক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-014",
+      "question": "CNS (কেন্দ্রীয় স্নায়ুতন্ত্র) কী নিয়ে গঠিত?",
+      "options": [
+        "শুধু মস্তিষ্ক",
+        "মস্তিষ্ক ও সুষুম্না কাণ্ড",
+        "করোটিক স্নায়ু",
+        "স্পাইনাল স্নায়ু"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-015",
+      "question": "PNS (প্রান্তীয় স্নায়ুতন্ত্র) এর অংশ কোনটি?",
+      "options": [
+        "সেরিব্রাম",
+        "করোটিক ও স্পাইনাল স্নায়ু",
+        "সেরিবেলাম",
+        "সুষুম্না কাণ্ড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-016",
+      "question": "ANS (স্বয়ংক্রিয় স্নায়ুতন্ত্র) নিয়ন্ত্রণ করে কোনটি?",
+      "options": [
+        "কঙ্কাল পেশি",
+        "অনৈচ্ছিক পেশি ও গ্রন্থি",
+        "শুধু মস্তিষ্ক",
+        "স্বেচ্ছাধীন কাজ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-017",
+      "question": "মানবদেহের সর্ববৃহৎ অংশ কোনটি?",
+      "options": [
+        "সেরিবেলাম",
+        "সেরিব্রাম",
+        "থ্যালামাস",
+        "মেডুলা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-018",
+      "question": "Cerebrum-এর বাইরের ধূসর পদার্থকে কী বলে?",
+      "options": [
+        "মেডুলা",
+        "সেরিব্রাল কর্টেক্স",
+        "থ্যালামাস",
+        "পন্স"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-019",
+      "question": "Cerebellum-এর প্রধান কাজ কী?",
+      "options": [
+        "দর্শন",
+        "দেহের ভারসাম্য রক্ষা",
+        "স্মৃতি",
+        "ক্ষুধা নিয়ন্ত্রণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-020",
+      "question": "Medulla oblongata নিয়ন্ত্রণ করে কোনটি?",
+      "options": [
+        "হৃৎস্পন্দন ও শ্বাসক্রিয়া",
+        "দৃষ্টি",
+        "স্মৃতি",
+        "স্বাদ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-021",
+      "question": "Thalamus-কে কী বলা হয়?",
+      "options": [
+        "মাস্টার গ্ল্যান্ড",
+        "রিলে কেন্দ্র",
+        "স্মৃতি কেন্দ্র",
+        "ভারসাম্য কেন্দ্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-022",
+      "question": "Hypothalamus নিয়ন্ত্রণ করে না কোনটি?",
+      "options": [
+        "দেহের তাপমাত্রা",
+        "পিটুইটারি গ্রন্থি",
+        "ফুসফুসের প্রসারণ",
+        "ক্ষুধা-তৃষ্ণা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-023",
+      "question": "Pons কোথায় অবস্থিত?",
+      "options": [
+        "সেরিব্রামের ওপরে",
+        "মিডব্রেন ও মেডুলার মাঝে",
+        "সেরিবেলামের নিচে",
+        "সুষুম্না কাণ্ডে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-024",
+      "question": "সুষুম্না কাণ্ডের ধূসর পদার্থের আকৃতি কেমন?",
+      "options": [
+        "গোলাকার",
+        "প্রজাপতি বা ইংরেজি 'H' অক্ষরের মতো",
+        "চৌকো",
+        "ত্রিভুজাকৃতি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-025",
+      "question": "CSF (সেরিব্রোস্পাইনাল ফ্লুইড) কোথায় থাকে?",
+      "options": [
+        "ফুসফুসে",
+        "মেনিনজেসের মধ্যে ও ভেন্ট্রিকলে",
+        "হৃদপিণ্ডে",
+        "রক্তে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-026",
+      "question": "CSF-এর কাজ কী?",
+      "options": [
+        "অক্সিজেন পরিবহন",
+        "মস্তিষ্ক ও সুষুম্নাকে আঘাত থেকে রক্ষা করা ও পুষ্টি সরবরাহ",
+        "রক্ত জমাট বাঁধা",
+        "হজমে সাহায্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-027",
+      "question": "মেনিনজেসের বাইরের স্তর কোনটি?",
+      "options": [
+        "পিয়া ম্যাটার",
+        "অ্যারাকনয়েড",
+        "ডুরা ম্যাটার",
+        "সাবঅ্যারাকনয়েড"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-028",
+      "question": "মস্তিষ্কের সবচেয়ে ভেতরের মেনিনজেস স্তর কোনটি?",
+      "options": [
+        "ডুরা ম্যাটার",
+        "অ্যারাকনয়েড",
+        "পিয়া ম্যাটার",
+        "ভেন্ট্রিকল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-029",
+      "question": "মানুষের কত জোড়া করোটিক স্নায়ু (Cranial nerves) থাকে?",
+      "options": [
+        "10",
+        "12",
+        "31",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-030",
+      "question": "মানুষের কত জোড়া স্পাইনাল স্নায়ু (Spinal nerves) থাকে?",
+      "options": [
+        "10",
+        "12",
+        "31",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-031",
+      "question": "Sympathetic স্নায়ুতন্ত্রের কাজ কী?",
+      "options": [
+        "দেহকে শিথিল করা",
+        "জরুরি অবস্থার জন্য প্রস্তুত করা (Fight or Flight)",
+        "হজম বাড়ানো",
+        "হৃৎস্পন্দন কমানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-032",
+      "question": "Parasympathetic স্নায়ুতন্ত্রের কাজ কী?",
+      "options": [
+        "হৃৎস্পন্দন বাড়ানো",
+        "দেহকে বিশ্রাম ও হজমে সহায়তা করা (Rest and Digest)",
+        "অ্যাড্রিনালিন নিঃসরণ",
+        "পিউপিল প্রসারণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-033",
+      "question": "Alzheimer's disease-এ মস্তিষ্কে কী জমা হয়?",
+      "options": [
+        "গ্লাইকোজেন",
+        "অ্যামাইলয়েড ফলক ও নিউরোফাইব্রিলারি ট্যাঙ্গেল",
+        "ল্যাকটিক অ্যাসিড",
+        "ইউরিয়া"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-034",
+      "question": "Parkinson's disease-এ কোন নিউরোট্রান্সমিটারের ঘাটতি হয়?",
+      "options": [
+        "অ্যাসিটাইলকোলিন",
+        "ডোপামিন",
+        "সেরোটোনিন",
+        "গাবা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-035",
+      "question": "Epilepsy কী ধরনের রোগ?",
+      "options": [
+        "সংক্রামক",
+        "স্নায়বিক ব্যাধি যাতে খিঁচুনি হয়",
+        "হরমোনজনিত",
+        "পুষ্টিজনিত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-036",
+      "question": "Meningitis রোগে কোন অংশটি প্রদাহগ্রস্ত হয়?",
+      "options": [
+        "ফুসফুস",
+        "মেনিনজেস",
+        "হৃদপিণ্ড",
+        "যকৃৎ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-037",
+      "question": "Parkinson's রোগের প্রধান লক্ষণ নয় কোনটি?",
+      "options": [
+        "কম্পন (Tremor)",
+        "পেশি দৃঢ়তা (Rigidity)",
+        "স্মৃতিশক্তি বৃদ্ধি",
+        "ধীর গতি (Bradykinesia)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-038",
+      "question": "সেরিব্রাল কর্টেক্সের কোন লোব দর্শনের সাথে জড়িত?",
+      "options": [
+        "ফ্রন্টাল",
+        "টেম্পোরাল",
+        "অক্সিপিটাল",
+        "প্যারাইটাল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-039",
+      "question": "সেরিব্রাল কর্টেক্সের কোন লোব শ্রবণের সাথে জড়িত?",
+      "options": [
+        "ফ্রন্টাল",
+        "টেম্পোরাল",
+        "অক্সিপিটাল",
+        "প্যারাইটাল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-040",
+      "question": "ব্রোকার Area কোথায় অবস্থিত?",
+      "options": [
+        "টেম্পোরাল লোব",
+        "ফ্রন্টাল লোব",
+        "অক্সিপিটাল লোব",
+        "প্যারাইটাল লোব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-041",
+      "question": "ওয়ার্নিকির Area কোথায় অবস্থিত?",
+      "options": [
+        "ফ্রন্টাল লোব",
+        "টেম্পোরাল লোব",
+        "অক্সিপিটাল লোব",
+        "প্যারাইটাল লোব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-042",
+      "question": "সুষুম্না কাণ্ড থেকে কত জোড়া স্পাইনাল নার্ভ নির্গত হয়?",
+      "options": [
+        "12",
+        "24",
+        "31",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-043",
+      "question": "সুষুম্না কাণ্ডের কেন্দ্রীয় খালে কী থাকে?",
+      "options": [
+        "রক্ত",
+        "CSF",
+        "বায়ু",
+        "লসিকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-044",
+      "question": "স্বয়ংক্রিয় স্নায়ুতন্ত্রের (ANS) কাজ নিয়ন্ত্রণকারী উচ্চকেন্দ্র কোনটি?",
+      "options": [
+        "সেরিব্রাম",
+        "হাইপোথ্যালামাস",
+        "থ্যালামাস",
+        "কর্পাস ক্যালোসাম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-045",
+      "question": "ডান ও বাম সেরিব্রাল গোলার্ধকে যুক্ত করে কোনটি?",
+      "options": [
+        "পন্স",
+        "কর্পাস ক্যালোসাম",
+        "সেরিবেলাম",
+        "মেডুলা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-046",
+      "question": "কোনটি মস্তিষ্কের অংশ নয়?",
+      "options": [
+        "সেরিবেলাম",
+        "মেডুলা",
+        "থাইরয়েড",
+        "পন্স"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-047",
+      "question": "অ্যাসিটাইলকোলিন কোন ধরনের নিউরোট্রান্সমিটার?",
+      "options": [
+        "ইনহিবিটরি",
+        "উত্তেজক (Excitatory)",
+        "কোনোটিই নয়",
+        "হরমোন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-048",
+      "question": "GABA কী ধরনের নিউরোট্রান্সমিটার?",
+      "options": [
+        "উত্তেজক",
+        "প্রতিরোধক (Inhibitory)",
+        "হরমোন",
+        "উৎসেচক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-049",
+      "question": "কোন খনিজ নিউরোট্রান্সমিটার নিঃসরণে অপরিহার্য?",
+      "options": [
+        "আয়রন",
+        "ক্যালসিয়াম",
+        "সোডিয়াম",
+        "পটাসিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-050",
+      "question": "হাঁটুর ঝাঁকুনি (Knee jerk) কী ধরনের প্রতিবর্ত?",
+      "options": [
+        "শর্তাধীন প্রতিবর্ত",
+        "স্বাভাবিক প্রতিবর্ত (Simple reflex)",
+        "ইচ্ছাধীন কাজ",
+        "স্মৃতিনির্ভর কাজ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-051",
+      "question": "ডেনড্রাইটের কাজ কী?",
+      "options": [
+        "স্নায়ু আবেগ বহন করে দূরে পাঠানো",
+        "আবেগ গ্রহণ করে কোষদেহের দিকে পাঠানো",
+        "নিউরোট্রান্সমিটার তৈরি",
+        "রক্ত সরবরাহ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-052",
+      "question": "মায়েলিন শিথ-এর প্রধান উপাদান কী?",
+      "options": [
+        "প্রোটিন",
+        "লিপিড",
+        "কার্বোহাইড্রেট",
+        "নিউক্লিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-053",
+      "question": "PNS-এ মায়েলিন তৈরি করে কোন কোষ?",
+      "options": [
+        "অ্যাস্ট্রোসাইট",
+        "শোয়ান কোষ",
+        "অলিগোডেনড্রোসাইট",
+        "মাইক্রোগ্লিয়া"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-054",
+      "question": "CNS-এ মায়েলিন তৈরি করে কোন কোষ?",
+      "options": [
+        "শোয়ান কোষ",
+        "অলিগোডেনড্রোসাইট",
+        "অ্যাস্ট্রোসাইট",
+        "এপেনডাইমাল কোষ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-055",
+      "question": "স্নায়ু আবেগ পরিবহনের সময় আয়ন গেট নিয়ন্ত্রিত হয় কীভাবে?",
+      "options": [
+        "তাপমাত্রা দ্বারা",
+        "ভোল্টেজ বা রাসায়নিক লাইগ্যান্ড দ্বারা",
+        "শুধু চাপ দ্বারা",
+        "আলো দ্বারা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-056",
+      "question": "রেস্টিং মেমব্রেন পটেনশিয়াল কত?",
+      "options": [
+        "-90 mV",
+        "-70 mV",
+        "+30 mV",
+        "0 mV"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-057",
+      "question": "অ্যাকশন পটেনশিয়ালের শীর্ষ বিন্দুতে ভোল্টেজ কত?",
+      "options": [
+        "-70 mV",
+        "-55 mV",
+        "+30 mV",
+        "0 mV"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-058",
+      "question": "অ্যাকশন পটেনশিয়াল সৃষ্টির জন্য সোডিয়াম আয়ন কী করে?",
+      "options": [
+        "কোষ থেকে বেরিয়ে যায়",
+        "কোষের ভেতরে প্রবেশ করে",
+        "কোনো পরিবর্তন নেই",
+        "স্থির থাকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-059",
+      "question": "নার্ভ ইম্পালস কী রূপে অ্যাক্সন বরাবর সঞ্চারিত হয়?",
+      "options": [
+        "রক্তের স্রোত",
+        "সলটেটরি কন্ডাকশন",
+        "শুধু ব্যাপন",
+        "অভিস্রবণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-060",
+      "question": "অ্যাসিটাইলকোলিন ভেঙে ফেলে কোন উৎসেচক?",
+      "options": [
+        "অ্যামাইলেজ",
+        "পেপসিন",
+        "অ্যাসিটাইলকোলিনএস্টেরেজ",
+        "লাইপেজ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-061",
+      "question": "এন্ডোক্রাইন সিস্টেমের কাজ কী?",
+      "options": [
+        "দ্রুত স্নায়বিক প্রতিক্রিয়া",
+        "হরমোন ক্ষরণ করে ধীর প্রতিক্রিয়া",
+        "অক্সিজেন পরিবহন",
+        "রক্ত জমাট বাঁধা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-062",
+      "question": "কোন গ্রন্থিকে \"মাস্টার গ্ল্যান্ড\" বলা হয়?",
+      "options": [
+        "থাইরয়েড",
+        "অ্যাড্রিনাল",
+        "পিটুইটারি",
+        "পিনিয়াল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-063",
+      "question": "পিটুইটারি গ্রন্থি কোথায় অবস্থিত?",
+      "options": [
+        "গলায়",
+        "বৃক্কের ওপরে",
+        "মস্তিষ্কের নিচে সেলা টারসিকায়",
+        "অগ্ন্যাশয়ে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-064",
+      "question": "Growth Hormone (GH) কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "থাইরয়েড",
+        "অ্যাড্রিনাল",
+        "অ্যান্টিরিয়র পিটুইটারি",
+        "পোস্টেরিয়র পিটুইটারি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-065",
+      "question": "TSH (থাইরয়েড স্টিমুলেটিং হরমোন) এর কাজ কী?",
+      "options": [
+        "থাইরয়েডকে উদ্দীপিত করা",
+        "অস্থির বৃদ্ধি",
+        "দুধ উৎপাদন",
+        "জল শোষণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-066",
+      "question": "ACTH (অ্যাড্রিনোকর্টিকোট্রপিক হরমোন) কোন গ্রন্থিকে উদ্দীপিত করে?",
+      "options": [
+        "থাইরয়েড",
+        "অ্যাড্রিনাল কর্টেক্স",
+        "গোনাড",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-067",
+      "question": "FSH (ফলিকল স্টিমুলেটিং হরমোন) এর কাজ কী?",
+      "options": [
+        "পুরুষে শুক্রাণু উৎপাদন",
+        "নারীর ডিম্বাশয়ে ফলিকল বৃদ্ধি",
+        "থাইরয়েড উদ্দীপনা",
+        "A ও B উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-068",
+      "question": "Prolactin হরমোন কী করে?",
+      "options": [
+        "বৃদ্ধি ঘটায়",
+        "স্তনে দুধ উৎপাদন করে",
+        "প্রসব বেদনা শুরু করে",
+        "রক্তচাপ বাড়ায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-069",
+      "question": "Oxytocin হরমোনের কাজ কী?",
+      "options": [
+        "বৃদ্ধিতে সহায়তা",
+        "প্রসব বেদনা ও দুধ নিঃসরণ",
+        "রক্তচাপ নিয়ন্ত্রণ",
+        "হজমে সহায়তা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-070",
+      "question": "ADH (অ্যান্টি-ডাইইউরেটিক হরমোন) কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "অ্যান্টিরিয়র পিটুইটারি",
+        "পোস্টেরিয়র পিটুইটারি",
+        "থাইরয়েড",
+        "অ্যাড্রিনাল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-071",
+      "question": "ADH-এর প্রধান কাজ কী?",
+      "options": [
+        "বৃদ্ধি ঘটানো",
+        "বৃক্কে জল পুনঃশোষণ",
+        "শক্তি উৎপাদন",
+        "রক্তচাপ কমানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-072",
+      "question": "ADH-র অভাবে কোন রোগ হয়?",
+      "options": [
+        "ডায়াবেটিস মেলাইটাস",
+        "ডায়াবেটিস ইনসিপিডাস",
+        "গলগণ্ড",
+        "অ্যাক্রোমেগালি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-073",
+      "question": "থাইরয়েড গ্রন্থি কোথায় অবস্থিত?",
+      "options": [
+        "মস্তিষ্কে",
+        "গলায় ট্রাকিয়ার সামনে",
+        "বৃক্কের ওপরে",
+        "অগ্ন্যাশয়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-074",
+      "question": "থাইরয়েড হরমোন সংশ্লেষণের জন্য কোন খনিজ অপরিহার্য?",
+      "options": [
+        "ক্যালসিয়াম",
+        "আয়রন",
+        "আয়োডিন",
+        "জিঙ্ক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-075",
+      "question": "Thyroxine (T4) হরমোনের কাজ কী?",
+      "options": [
+        "BMR নিয়ন্ত্রণ",
+        "রক্ত শর্করা বৃদ্ধি",
+        "হৃৎস্পন্দন কমায়",
+        "হাড় ক্ষয় করে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-076",
+      "question": "Hypothyroidism-এর প্রধান লক্ষণ নয় কোনটি?",
+      "options": [
+        "ওজন বৃদ্ধি",
+        "ক্লান্তি",
+        "ওজন হ্রাস ও দ্রুত হৃৎস্পন্দন",
+        "শুষ্ক ত্বক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-077",
+      "question": "Hyperthyroidism বা গ্রেভস ডিজিজ-এর লক্ষণ কোনটি?",
+      "options": [
+        "ওজন বৃদ্ধি",
+        "চোখ বেরিয়ে আসা (Exophthalmos)",
+        "ঠান্ডা সহ্য না হওয়া",
+        "ধীর হৃৎস্পন্দন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-078",
+      "question": "আয়োডিনের অভাবে কোন রোগ হয়?",
+      "options": [
+        "ডায়াবেটিস",
+        "সরল গলগণ্ড (Simple Goitre)",
+        "রিকেটস",
+        "স্কার্ভি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-079",
+      "question": "Cretinism রোগটি কখন হয়?",
+      "options": [
+        "বয়স্কদের হাইপোথাইরয়েডিজমে",
+        "শিশুদের হাইপোথাইরয়েডিজমে",
+        "বৃদ্ধ বয়সে",
+        "গর্ভাবস্থায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-080",
+      "question": "Myxoedema কী?",
+      "options": [
+        "শিশুর হাইপারথাইরয়েডিজম",
+        "বয়স্কদের হাইপোথাইরয়েডিজম",
+        "হাইপারগ্লাইসেমিয়া",
+        "হাড়ের রোগ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-081",
+      "question": "Calcitonin হরমোন নিঃসৃত হয় কোথা থেকে?",
+      "options": [
+        "প্যারাথাইরয়েড",
+        "থাইরয়েডের প্যারাফলিকুলার কোষ",
+        "অ্যাড্রিনাল",
+        "পিটুইটারি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-082",
+      "question": "Calcitonin-এর কাজ কী?",
+      "options": [
+        "রক্তে ক্যালসিয়াম বাড়ায়",
+        "রক্তে ক্যালসিয়াম কমায় ও হাড়ে জমা করে",
+        "রক্তে গ্লুকোজ বাড়ায়",
+        "রক্তচাপ বাড়ায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-083",
+      "question": "প্যারাথাইরয়েড হরমোন (PTH) এর কাজ কী?",
+      "options": [
+        "রক্তে ক্যালসিয়াম কমানো",
+        "রক্তে ক্যালসিয়াম বাড়ানো (হাড় থেকে নিঃসরণ)",
+        "শর্করা বিপাক",
+        "জল শোষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-084",
+      "question": "প্যারাথাইরয়েড গ্রন্থির অবস্থান কোথায়?",
+      "options": [
+        "মস্তিষ্কে",
+        "থাইরয়েড গ্রন্থির পিছনে",
+        "বৃক্কে",
+        "অগ্ন্যাশয়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-085",
+      "question": "অ্যাড্রিনাল গ্রন্থি কোথায় অবস্থিত?",
+      "options": [
+        "গলায়",
+        "প্রতিটি বৃক্কের ওপরে",
+        "মস্তিষ্কে",
+        "ফুসফুসে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-086",
+      "question": "অ্যাড্রিনালিন (এপিনেফ্রিন) নিঃসৃত হয় কোন অংশ থেকে?",
+      "options": [
+        "অ্যাড্রিনাল কর্টেক্স",
+        "অ্যাড্রিনাল মেডুলা",
+        "থাইরয়েড",
+        "পিটুইটারি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-087",
+      "question": "অ্যাড্রিনালিনকে \"জরুরি হরমোন\" বলা হয় কেন?",
+      "options": [
+        "এটি ধীরে কাজ করে",
+        "আকস্মিক বিপদে দেহকে লড়াই বা উড়ানের জন্য প্রস্তুত করে",
+        "এটি হজম বাড়ায়",
+        "এটি ঘুম আনে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-088",
+      "question": "Cortisol হরমোন কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "মেডুলা",
+        "অ্যাড্রিনাল কর্টেক্স",
+        "থাইরয়েড",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-089",
+      "question": "Cortisol-এর প্রধান কাজ কী?",
+      "options": [
+        "প্রদাহ কমানো ও স্ট্রেস মোকাবিলা",
+        "রক্তচাপ কমানো",
+        "হাড় গঠন",
+        "দুধ উৎপাদন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-090",
+      "question": "Aldosterone হরমোনের কাজ কী?",
+      "options": [
+        "সোডিয়াম ধারণ ও পটাসিয়াম ত্যাগ",
+        "ক্যালসিয়াম শোষণ",
+        "গ্লুকোজ বিপাক",
+        "প্রোটিন সংশ্লেষ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-091",
+      "question": "অ্যাড্রিনাল কর্টেক্সের অতিরিক্ত কার্যকারিতায় কী হয়?",
+      "options": [
+        "অ্যাডিসন ডিজিজ",
+        "কুশিং সিন্ড্রোম",
+        "গলগণ্ড",
+        "ক্রিটিনিজম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-092",
+      "question": "অ্যাডিসন ডিজিজ এর কারণ কী?",
+      "options": [
+        "অ্যাড্রিনাল কর্টেক্সের অকার্যকারিতা",
+        "থাইরয়েডের আধিক্য",
+        "পিটুইটারির টিউমার",
+        "ডিম্বাশয়ের সিস্ট"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-093",
+      "question": "ইনসুলিন হরমোন নিঃসৃত হয় কোথা থেকে?",
+      "options": [
+        "অগ্ন্যাশয়ের আলফা কোষ",
+        "অগ্ন্যাশয়ের বিটা কোষ",
+        "যকৃৎ",
+        "পিটুইটারি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-094",
+      "question": "ইনসুলিনের কাজ কী?",
+      "options": [
+        "রক্তে শর্করার পরিমাণ বাড়ানো",
+        "রক্তে শর্করার পরিমাণ কমানো (কোষে গ্লুকোজ প্রবেশ)",
+        "রক্তচাপ বাড়ানো",
+        "হাড়ক্ষয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-095",
+      "question": "গ্লুকাগন হরমোন কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "বিটা কোষ",
+        "আলফা কোষ",
+        "ডেল্টা কোষ",
+        "পিটুইটারি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-096",
+      "question": "গ্লুকাগন-এর কাজ কী?",
+      "options": [
+        "রক্তে গ্লুকোজ কমানো",
+        "গ্লাইকোজেন ভেঙে রক্তে গ্লুকোজ বাড়ানো",
+        "চর্বি সঞ্চয়",
+        "প্রোটিন সংশ্লেষ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-097",
+      "question": "ডায়াবেটিস মেলাইটাস-এ কোনটির অভাব বা প্রতিরোধ ঘটে?",
+      "options": [
+        "গ্লুকাগন",
+        "ইনসুলিন",
+        "থাইরক্সিন",
+        "অ্যাড্রিনালিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-098",
+      "question": "Type 1 Diabetes-এর কারণ কী?",
+      "options": [
+        "স্থূলতা",
+        "অটোইমিউন ধ্বংসে বিটা কোষ নষ্ট",
+        "অতিরিক্ত ব্যায়াম",
+        "বয়সজনিত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-099",
+      "question": "টেস্টোস্টেরন হরমোন কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "ডিম্বাশয়",
+        "শুক্রাশয়ের লেডিগ কোষ",
+        "অ্যাড্রিনাল",
+        "থাইরয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-100",
+      "question": "ইস্ট্রোজেন হরমোন কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "শুক্রাশয়",
+        "ডিম্বাশয়ের ফলিকল",
+        "অ্যাড্রিনাল",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-101",
+      "question": "প্রজেস্টেরন হরমোন নিঃসৃত হয় কোথা থেকে?",
+      "options": [
+        "ফলিকল",
+        "কর্পাস লিউটিয়াম",
+        "পিটুইটারি",
+        "থাইরয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-102",
+      "question": "প্রজেস্টেরন-কে কী হরমোন বলা হয়?",
+      "options": [
+        "শুক্রাণু হরমোন",
+        "গর্ভধারণের হরমোন",
+        "স্ট্রেস হরমোন",
+        "বৃদ্ধি হরমোন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-103",
+      "question": "Melatonin হরমোন নিঃসৃত হয় কোথা থেকে?",
+      "options": [
+        "পিটুইটারি",
+        "পিনিয়াল গ্রন্থি",
+        "থাইমাস",
+        "থাইরয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-104",
+      "question": "Melatonin-এর কাজ কী?",
+      "options": [
+        "দিন-রাতের ছন্দ (Circadian rhythm) নিয়ন্ত্রণ",
+        "বৃদ্ধি নিয়ন্ত্রণ",
+        "শর্করা বিপাক",
+        "হজম নিয়ন্ত্রণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-105",
+      "question": "থাইমাস গ্রন্থি থেকে নিঃসৃত থাইমোসিনের কাজ কী?",
+      "options": [
+        "অস্থি বৃদ্ধি",
+        "T-লিম্ফোসাইটের পরিপক্বতা",
+        "রক্তচাপ নিয়ন্ত্রণ",
+        "দুগ্ধ উৎপাদন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-106",
+      "question": "পিটুইটারি গ্রন্থির পোস্টেরিয়র লোব থেকে নিঃসৃত হরমোন কোনটি?",
+      "options": [
+        "GH",
+        "ADH",
+        "TSH",
+        "ACTH"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-107",
+      "question": "স্টেরয়েড হরমোন কীসের তৈরি?",
+      "options": [
+        "প্রোটিন",
+        "কোলেস্টেরল",
+        "গ্লুকোজ",
+        "নিউক্লিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-108",
+      "question": "পেপটাইড হরমোনের রিসেপ্টর কোথায় থাকে?",
+      "options": [
+        "নিউক্লিয়াসের ভেতরে",
+        "কোষপর্দার ওপরে",
+        "DNA-তে",
+        "রাইবোজোমে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-109",
+      "question": "ঋণাত্মক ফিডব্যাক (Negative feedback) প্রক্রিয়ায় হরমোন নিঃসরণ নিয়ন্ত্রণ ব্যাখ্যা করো - কোনটি উদাহরণ?",
+      "options": [
+        "TSH বাড়লে থাইরক্সিন বাড়ে, থাইরক্সিন বাড়লে TSH কমে",
+        "রক্তচাপ বাড়লে হৃৎস্পন্দন বাড়ে",
+        "খাবার খেলে পাকস্থলী প্রসারিত হয়",
+        "ব্যথা পেলে হাত সরিয়ে নেওয়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-110",
+      "question": "পজিটিভ ফিডব্যাক-এর উদাহরণ কোনটি?",
+      "options": [
+        "অক্সিটোসিনের প্রভাবে প্রসব বেদনা বৃদ্ধি",
+        "থাইরক্সিনের TSH হ্রাস",
+        "ইনসুলিনের গ্লুকোজ কমানো",
+        "PTH-র ক্যালসিয়াম নিয়ন্ত্রণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-111",
+      "question": "কোন রোগে \"হাড়ের লবণ ক্ষয়\" ও কিডনিতে পাথর হতে পারে?",
+      "options": [
+        "হাইপারথাইরয়েডিজম",
+        "হাইপারপ্যারাথাইরয়েডিজম",
+        "ডায়াবেটিস",
+        "ক্রিটিনিজম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-112",
+      "question": "টিটানি রোগে কী ঘটে?",
+      "options": [
+        "পেশি শিথিল হয়",
+        "রক্তে ক্যালসিয়াম কমে পেশি খিঁচুনি হয়",
+        "রক্তে গ্লুকোজ বাড়ে",
+        "হৃৎস্পন্দন বেড়ে যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-113",
+      "question": "গর্ভাবস্থায় প্লাসেন্টা থেকে নিঃসৃত হরমোন কোনটি?",
+      "options": [
+        "hCG (হিউম্যান কোরিওনিক গোনাডোট্রপিন)",
+        "TSH",
+        "অ্যালডোস্টেরন",
+        "মেলাটোনিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-114",
+      "question": "কোন হরমোন ডিম্বাণু নির্গমনে (Ovulation) সহায়তা করে?",
+      "options": [
+        "FSH",
+        "LH",
+        "TSH",
+        "ACTH"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-115",
+      "question": "থাইরক্সিনের অভাবে শিশুদের বুদ্ধি কমে যায় কেন?",
+      "options": [
+        "হাড় বৃদ্ধি কমে",
+        "মস্তিষ্কের বিকাশ ব্যাহত হয়",
+        "পেশি দুর্বল হয়",
+        "রক্তে অক্সিজেন কমে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-116",
+      "question": "ক্যাটেকোলামিন গ্রুপের হরমোন কোনটি?",
+      "options": [
+        "অ্যাড্রিনালিন",
+        "থাইরক্সিন",
+        "ইস্ট্রোজেন",
+        "ইনসুলিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-117",
+      "question": "গ্লুকোকোর্টিকয়েড-এর অন্তর্গত কোনটি?",
+      "options": [
+        "অ্যালডোস্টেরন",
+        "কর্টিসল",
+        "টেস্টোস্টেরন",
+        "এস্ট্রাজল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-118",
+      "question": "মিনারেলোকোর্টিকয়েড কোনটি?",
+      "options": [
+        "কর্টিসল",
+        "অ্যালডোস্টেরন",
+        "ডিহাইড্রোএপিয়ান্ড্রোস্টেরন",
+        "ক্রটিসোন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-119",
+      "question": "গোয়টার শব্দের অর্থ কী?",
+      "options": [
+        "থাইরয়েড গ্রন্থির অস্বাভাবিক বৃদ্ধি",
+        "পিটুইটারি টিউমার",
+        "অ্যাড্রিনাল ফোলা",
+        "পিনিয়াল ক্যালসিফিকেশন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-120",
+      "question": "অ্যাক্রোমেগালি রোগের কারণ কী?",
+      "options": [
+        "শিশুতে GH-র অভাব",
+        "শিশুতে GH-র আধিক্য",
+        "বয়স্কদের GH-র আধিক্য",
+        "TSH-র অভাব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-121",
+      "question": "ডোয়ার্ফিজম (বামনত্ব) কোন হরমোনের অভাবে হয়?",
+      "options": [
+        "থাইরক্সিন",
+        "গ্রোথ হরমোন (GH)",
+        "ইনসুলিন",
+        "প্রোল্যাকটিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-122",
+      "question": "জাইগান্টিজম (দৈত্যত্ব) কীসের কারণে হয়?",
+      "options": [
+        "GH-র অতিক্ষরণ (শিশুতে)",
+        "থাইরক্সিনের অভাব",
+        "প্রোল্যাকটিনের আধিক্য",
+        "ADH-র অভাব"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-123",
+      "question": "স্ট্রেস হরমোন নামে পরিচিত কোনটি?",
+      "options": [
+        "ইনসুলিন",
+        "প্রোল্যাকটিন",
+        "কর্টিসল",
+        "থাইমোসিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-124",
+      "question": "ফাইট-অর-ফ্লাইট হরমোন কোনটি?",
+      "options": [
+        "ইনসুলিন",
+        "অ্যাড্রিনালিন",
+        "মেলাটোনিন",
+        "গ্লুকাগন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-125",
+      "question": "কোন হরমোন রক্তে গ্লুকোজের মাত্রা বাড়ায় না?",
+      "options": [
+        "গ্লুকাগন",
+        "অ্যাড্রিনালিন",
+        "কর্টিসল",
+        "ইনসুলিন"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-126",
+      "question": "ডায়াবেটিস রোগীকে কী দেওয়া হয়?",
+      "options": [
+        "ইনসুলিন ইনজেকশন",
+        "গ্লুকাগন ইনজেকশন",
+        "GH ইনজেকশন",
+        "কর্টিসল ইঞ্জেকশন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-127",
+      "question": "পলিডিপসিয়া (অতিরিক্ত তৃষ্ণা) কোন রোগের লক্ষণ?",
+      "options": [
+        "ডায়াবেটিস ইনসিপিডাস",
+        "হাইপোথাইরয়েডিজম",
+        "অ্যাড্রিনাল অকার্যকারিতা",
+        "প্যারাথাইরয়েডিজম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-128",
+      "question": "কোনটি পুরুষদের সেকেন্ডারি যৌন বৈশিষ্ট্য?",
+      "options": [
+        "স্তন বৃদ্ধি",
+        "গোঁফ ও দাড়ি ওঠা",
+        "শ্রোণী চওড়া",
+        "কণ্ঠস্বর সরু"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-129",
+      "question": "প্রসবের সময় জরায়ু সংকোচন ঘটায় কোনটি?",
+      "options": [
+        "প্রোল্যাকটিন",
+        "ইস্ট্রোজেন",
+        "অক্সিটোসিন",
+        "প্রজেস্টেরন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-130",
+      "question": "স্তন থেকে দুগ্ধ ক্ষরণ উদ্দীপিত করে কোনটি?",
+      "options": [
+        "অক্সিটোসিন",
+        "প্রোল্যাকটিন",
+        "ইস্ট্রোজেন",
+        "FSH"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-131",
+      "question": "অ্যান্ড্রোজেন নিঃসৃত হয় কোথা থেকে?",
+      "options": [
+        "ডিম্বাশয়",
+        "শুক্রাশয় ও অ্যাড্রিনাল কর্টেক্স",
+        "থাইমাস",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-132",
+      "question": "TSH-র মাত্রা কমে গেলে থাইরক্সিন ক্ষরণ কেমন হবে?",
+      "options": [
+        "বেড়ে যাবে",
+        "কমে যাবে",
+        "অপরিবর্তিত থাকবে",
+        "বন্ধ হবে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-133",
+      "question": "ইনসুলিন রিসেপ্টর প্রধানত কোথায় থাকে?",
+      "options": [
+        "নিউক্লিয়াসে",
+        "কোষপর্দায়",
+        "সাইটোপ্লাজমে",
+        "মাইটোকন্ড্রিয়ায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-134",
+      "question": "থাইরক্সিন হরমোনের রাসায়নিক প্রকৃতি কী?",
+      "options": [
+        "স্টেরয়েড",
+        "অ্যামাইনো অ্যাসিড উপজাত (আয়োডিনযুক্ত)",
+        "পেপটাইড",
+        "গ্লাইকোপ্রোটিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-135",
+      "question": "থাইরয়েড হরমোনের অভাবে BMR কেমন হবে?",
+      "options": [
+        "বেড়ে যাবে",
+        "একই থাকবে",
+        "কমে যাবে",
+        "দ্বিগুণ হবে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-136",
+      "question": "ডোপামিনের ঘাটতি কোন রোগে হয়?",
+      "options": [
+        "আলঝেইমার",
+        "পারকিনসন",
+        "মৃগী",
+        "সিজোফ্রেনিয়া"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-137",
+      "question": "সেরোটোনিনের ঘাটতি প্রায়ই কোন মানসিক সমস্যার সাথে জড়িত?",
+      "options": [
+        "বিষণ্ণতা (Depression)",
+        "স্মৃতিভ্রংশ",
+        "গাঁটের বাত",
+        "কিডনি রোগ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-138",
+      "question": "Pineal gland-এর ক্যালসিফিকেশন কী?",
+      "options": [
+        "মস্তিষ্কের বালি (Brain sand)",
+        "কিডনি পাথর",
+        "গল ব্লাডার স্টোন",
+        "হাড়ের স্পার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-139",
+      "question": "মেডুলা অবলংগাটায় আঘাত লাগলে কী হতে পারে?",
+      "options": [
+        "দৃষ্টিহানি",
+        "তৎক্ষণাৎ মৃত্যু",
+        "স্মৃতিভ্রংশ",
+        "ভারসাম্য নষ্ট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-140",
+      "question": "CSF পরীক্ষা দ্বারা কোন রোগ নির্ণয় করা হয়?",
+      "options": [
+        "ডায়াবেটিস",
+        "মেনিনজাইটিস",
+        "উচ্চ রক্তচাপ",
+        "হেপাটাইটিস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-141",
+      "question": "ভ্যাগাস স্নায়ু কোন সিস্টেমের অন্তর্ভুক্ত?",
+      "options": [
+        "সিম্প্যাথেটিক",
+        "প্যারাসিম্প্যাথেটিক",
+        "সোমাটিক",
+        "সেনসরি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-142",
+      "question": "সিম্প্যাথেটিক উদ্দীপনায় পিউপিলের কী পরিবর্তন হয়?",
+      "options": [
+        "সংকুচিত হয়",
+        "প্রসারিত হয়",
+        "অপরিবর্তিত থাকে",
+        "অসমান হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-143",
+      "question": "Parasympathetic কার্যকলাপে লালাক্ষরণ কেমন হয়?",
+      "options": [
+        "কমে",
+        "বেড়ে যায়",
+        "বন্ধ হয়",
+        "আঠালো হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-144",
+      "question": "\"রেস্ট অ্যান্ড ডাইজেস্ট\" সিস্টেম কোনটি?",
+      "options": [
+        "সিম্প্যাথেটিক",
+        "প্যারাসিম্প্যাথেটিক",
+        "সোমাটিক",
+        "সেন্ট্রাল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ls-08-145",
+      "question": "নিচের কোনটি ANS দ্বারা নিয়ন্ত্রিত নয়?",
+      "options": [
+        "হৃৎস্পন্দন",
+        "হাতের কঙ্কাল পেশি নাড়া",
+        "পেরিস্টালসিস",
+        "ঘাম ক্ষরণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-146",
+      "question": "গ্রে ম্যাটারে কী থাকে?",
+      "options": [
+        "মায়েলিনেটেড অ্যাক্সন",
+        "নিউরনের কোষদেহ",
+        "শুধু CSF",
+        "শুধু ডেনড্রাইট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-147",
+      "question": "হোয়াইট ম্যাটারে কী থাকে?",
+      "options": [
+        "কোষদেহ",
+        "মায়েলিনেটেড অ্যাক্সন",
+        "রক্তনালী",
+        "সাইন্যাপস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-148",
+      "question": "সুষুম্না কাণ্ডের ডোরসাল হর্ন কী ধরনের?",
+      "options": [
+        "মোটর",
+        "সেনসরি",
+        "মিক্সড",
+        "স্বয়ংক্রিয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-149",
+      "question": "সুষুম্না কাণ্ডের ভেন্ট্রাল হর্ন কী ধরণের?",
+      "options": [
+        "সেনসরি",
+        "মোটর",
+        "মিক্সড",
+        "ইন্টারনিউরন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-150",
+      "question": "কোন স্নায়ু সরাসরি মস্তিষ্ক থেকে বের হয়?",
+      "options": [
+        "স্পাইনাল",
+        "করোটিক",
+        "সায়াটিক",
+        "রেডিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-151",
+      "question": "ঘ্রাণ স্নায়ুর নাম কী?",
+      "options": [
+        "অপটিক",
+        "অলফ্যাক্টরি",
+        "ট্রাইজেমিনাল",
+        "ফেসিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-152",
+      "question": "দর্শন স্নায়ু কোনটি?",
+      "options": [
+        "অলফ্যাক্টরি",
+        "অপটিক",
+        "অকুলোমোটর",
+        "ট্রক্লিয়ার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-153",
+      "question": "ভ্যাগাস স্নায়ু কোন করোটিক স্নায়ু নম্বর?",
+      "options": [
+        "তৃতীয়",
+        "পঞ্চম",
+        "সপ্তম",
+        "দশম"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-154",
+      "question": "স্বয়ংক্রিয় স্নায়ুতন্ত্রের প্রধান নিউরোট্রান্সমিটার কোন দুটি?",
+      "options": [
+        "অ্যাসিটাইলকোলিন ও নরঅ্যাড্রিনালিন",
+        "ডোপামিন ও সেরোটোনিন",
+        "গ্লুটামেট ও গাবা",
+        "এন্ডোরফিন ও হিস্টামিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-155",
+      "question": "বেলস পলসি কোন স্নায়ুর প্রদাহ?",
+      "options": [
+        "ট্রাইজেমিনাল",
+        "ফেসিয়াল",
+        "ভ্যাগাস",
+        "অপটিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-156",
+      "question": "সায়াটিকা ব্যথার কারণ কোন স্নায়ুর ওপর চাপ?",
+      "options": [
+        "ভ্যাগাস",
+        "সায়াটিক নার্ভ",
+        "ফেসিয়াল",
+        "রেডিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-157",
+      "question": "স্পাইনাল কর্ডের আঘাতে প্যারাপ্লেজিয়া কোন সেগমেন্টের ক্ষতির কারণে হয়?",
+      "options": [
+        "সার্ভাইকাল",
+        "থোরাসিক",
+        "লাম্বার",
+        "স্যাক্রাল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-158",
+      "question": "স্ট্রোক (Stroke) কী?",
+      "options": [
+        "হৃদরোগ",
+        "মস্তিষ্কে রক্তক্ষরণ বা রক্ত চলাচল বন্ধ",
+        "ফুসফুসের রোগ",
+        "বৃক্ক অকার্যকারিতা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-159",
+      "question": "MS (মাল্টিপল স্ক্লেরোসিস) রোগে কী ক্ষতিগ্রস্ত হয়?",
+      "options": [
+        "নিউরনের কোষদেহ",
+        "মায়েলিন শিথ",
+        "সাইন্যাপস",
+        "CSF"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-160",
+      "question": "গ্লাইকোলাইসিস প্রক্রিয়া সম্পূর্ণ করতে কোন ভিটামিন প্রয়োজনীয়?",
+      "options": [
+        "ভিটামিন A",
+        "ভিটামিন B1 (থায়ামিন)",
+        "ভিটামিন C",
+        "ভিটামিন D"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-161",
+      "question": "বেরি-বেরি রোগে কোন সিস্টেম আক্রান্ত হয়?",
+      "options": [
+        "শুধু সংবহন",
+        "স্নায়ুতন্ত্র",
+        "পেশি",
+        "আবরণী কলা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-162",
+      "question": "মৃগী রোগের EEG তে কী দেখা যায়?",
+      "options": [
+        "স্বাভাবিক তরঙ্গ",
+        "অস্বাভাবিক তীক্ষ্ণ তরঙ্গ বা স্পাইক",
+        "সমতল রেখা",
+        "ধীর তরঙ্গ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-163",
+      "question": "অ্যালঝেইমার রোগে সবচেয়ে আগে কোন কাজ ক্ষতিগ্রস্ত হয়?",
+      "options": [
+        "হাঁটা",
+        "সাম্প্রতিক স্মৃতি",
+        "দৃষ্টি",
+        "শ্রবণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-164",
+      "question": "প্রোজেরিয়া (Progeria) কী?",
+      "options": [
+        "অকাল বার্ধক্য",
+        "দৈত্যত্ব",
+        "বামনত্ব",
+        "থাইরয়েড সমস্যা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-165",
+      "question": "\"হ্যাপি হরমোন\" নামে পরিচিত কোনটি?",
+      "options": [
+        "কর্টিসল",
+        "সেরোটোনিন",
+        "অ্যাড্রিনালিন",
+        "গ্লুকাগন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-166",
+      "question": "পেইন কিলার (এন্ডোজেনাস) হিসেবে কাজ করে কোনটি?",
+      "options": [
+        "গ্লুটামেট",
+        "এন্ডোরফিন",
+        "গাবা",
+        "হিস্টামিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-167",
+      "question": "নিচের কোনটি ডাইন্সফেলনের অংশ নয়?",
+      "options": [
+        "থ্যালামাস",
+        "হাইপোথ্যালামাস",
+        "পন্স",
+        "পিনিয়াল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-168",
+      "question": "ব্রেন স্টেমের অংশ কোনগুলো?",
+      "options": [
+        "সেরিব্রাম, সেরিবেলাম",
+        "মিডব্রেন, পন্স, মেডুলা",
+        "থ্যালামাস, হাইপোথ্যালামাস",
+        "কর্পাস ক্যালোসাম, ফর্নিক্স"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-169",
+      "question": "করোটিক স্নায়ুতে সংবেদী ও চেষ্টীয় তন্তু উভয়ই থাকলে তাকে কী বলে?",
+      "options": [
+        "সেনসরি",
+        "মোটর",
+        "মিক্সড নার্ভ",
+        "ইন্টারনিউরন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-170",
+      "question": "কোন আয়ন স্নায়ু কোষে বিশ্রামাবস্থায় ভেতরে বেশি থাকে?",
+      "options": [
+        "Na+",
+        "K+",
+        "Ca2+",
+        "Cl-"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-171",
+      "question": "আয়ন গেট খোলার জন্য থ্রেশহোল্ড পটেনশিয়াল কত?",
+      "options": [
+        "-90 mV",
+        "-70 mV",
+        "-55 mV",
+        "0 mV"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-172",
+      "question": "রিফ্র্যাক্টরি পিরিয়ডে কী ঘটে?",
+      "options": [
+        "স্নায়ু আরও দ্রুত আবেগ বহন করে",
+        "কোনো নতুন আবেগ সৃষ্টি হতে পারে না",
+        "আবেগ প্রশস্ত হয়",
+        "সংকেত উল্টে যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-173",
+      "question": "সিএনএস এস্কেপ চোট বা ক্ষত হলে পুনরুদ্ধার না হওয়ার কারণ কী?",
+      "options": [
+        "অ্যাক্সন রিজেনারেট করতে পারে না",
+        "গ্লিয়াল স্কার তৈরি হয়",
+        "শোয়ান সেলের অনুপস্থিতি",
+        "সবগুলো সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-174",
+      "question": "PNS-এ অ্যাক্সন পুনরুদ্ধারে সাহায্য করে কোনটি?",
+      "options": [
+        "অ্যাস্ট্রোসাইট",
+        "শোয়ান সেল",
+        "মাইক্রোগ্লিয়া",
+        "অলিগোডেনড্রোসাইট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-175",
+      "question": "ভেন্ট্রিকল গুলোতে কোন তরল তৈরি হয়?",
+      "options": [
+        "রক্ত",
+        "CSF",
+        "সাইনোভিয়াল ফ্লুইড",
+        "পিত্তরস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-176",
+      "question": "ব্রেইনের চতুর্থ ভেন্ট্রিকল কোথায়?",
+      "options": [
+        "সেরিব্রামে",
+        "মেডুলা ও সেরিবেলামের মাঝে",
+        "স্পাইনাল কর্ডে",
+        "থ্যালামাসে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-177",
+      "question": "হাইড্রোসেফালাস রোগ কী?",
+      "options": [
+        "মস্তিষ্কে CSF অতিরিক্ত জমা",
+        "মস্তিষ্কে রক্ত সরবরাহ বন্ধ",
+        "মস্তিষ্ক সংকোচন",
+        "মেনিনজেসের প্রদাহ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-178",
+      "question": "কোন হরমোন বিপাকীয় হার (Metabolic rate) বাড়ায়?",
+      "options": [
+        "থাইরক্সিন",
+        "ইনসুলিন",
+        "ইস্ট্রোজেন",
+        "মেলাটোনিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-179",
+      "question": "ডায়াবেটিস ইনসিপিডাসে মূত্রের পরিমাণ কেমন হয়?",
+      "options": [
+        "কম",
+        "অতি বেশি",
+        "স্বাভাবিক",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-180",
+      "question": "দেহে সোডিয়াম-পটাসিয়াম ভারসাম্য রক্ষা করে কোন হরমোন?",
+      "options": [
+        "অ্যালডোস্টেরন",
+        "কর্টিসল",
+        "অ্যাড্রিনালিন",
+        "মেলাটোনিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-181",
+      "question": "\"3P\" - পলিডিপসিয়া, পলিফেজিয়া, পলিইউরিয়া কোন রোগের লক্ষণ?",
+      "options": [
+        "হাইপোথাইরয়েডিজম",
+        "ডায়াবেটিস মেলাইটাস",
+        "অ্যাডিসন ডিজিজ",
+        "অ্যাক্রোমেগালি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-182",
+      "question": "কোন গ্রন্থির অকার্যকারিতায় ত্বক ব্রোঞ্জ বর্ণ ধারণ করতে পারে?",
+      "options": [
+        "থাইরয়েড",
+        "অ্যাড্রিনাল (অ্যাডিসন)",
+        "পিটুইটারি",
+        "পিনিয়াল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-183",
+      "question": "থাইমাস গ্রন্থি বয়স বাড়ার সাথে সাথে কী হয়?",
+      "options": [
+        "বড় হয়",
+        "ছোট হয় (Involution)",
+        "অপরিবর্তিত থাকে",
+        "ক্যান্সার হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-184",
+      "question": "লেডিগ কোষ উদ্দীপিত হয় কোন হরমোনে?",
+      "options": [
+        "FSH",
+        "LH",
+        "TSH",
+        "ACTH"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-185",
+      "question": "ইস্ট্রোজেন-এর প্রধান উৎস ডিম্বাশয়ের কোন অংশ?",
+      "options": [
+        "কর্পাস লিউটিয়াম",
+        "গ্রাফিয়ান ফলিকল",
+        "স্ট্রোমা",
+        "জার্মিনাল এপিথেলিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-186",
+      "question": "ডিম্বাণু নির্গমনের পর ভগ্ন ফলিকল কীসে পরিণত হয়?",
+      "options": [
+        "প্রাইমারি ফলিকল",
+        "কর্পাস লিউটিয়াম",
+        "কর্পাস অ্যালবিকান্স",
+        "সেকেন্ডারি ফলিকল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-187",
+      "question": "গর্ভনিরোধক পিলে কোন হরমোন থাকে?",
+      "options": [
+        "প্রোল্যাকটিন ও অক্সিটোসিন",
+        "ইস্ট্রোজেন ও প্রজেস্টেরন",
+        "ইনসুলিন ও গ্লুকাগন",
+        "TSH ও ACTH"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-188",
+      "question": "কোন হরমোন একাধারে জরায়ু সংকোচন ও দুগ্ধক্ষরণে সহায়তা করে?",
+      "options": [
+        "প্রোল্যাকটিন",
+        "ইস্ট্রোজেন",
+        "অক্সিটোসিন",
+        "প্রজেস্টেরন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-189",
+      "question": "পিনিয়াল গ্রন্থি থেকে মেলাটোনিন নিঃসরণ আলো কীভাবে নিয়ন্ত্রণ করে?",
+      "options": [
+        "অন্ধকারে বাড়ে, আলোয় কমে",
+        "আলোয় বাড়ে, অন্ধকারে কমে",
+        "সমান থাকে",
+        "বন্ধ হয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-190",
+      "question": "জৈবিক ঘড়ি (Biological clock) নিয়ন্ত্রণ করে কোন গ্রন্থি?",
+      "options": [
+        "থাইরয়েড",
+        "পিনিয়াল",
+        "পিটুইটারি",
+        "অ্যাড্রিনাল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-191",
+      "question": "কোন গ্রন্থি একইসাথে অন্তঃক্ষরা ও বহিঃক্ষরা?",
+      "options": [
+        "পিটুইটারি",
+        "অগ্ন্যাশয় (Pancreas)",
+        "থাইরয়েড",
+        "অ্যাড্রিনাল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-192",
+      "question": "হানিমুন ডিজিজ নামে কোন রোগ পরিচিত?",
+      "options": [
+        "হাইপারথাইরয়েডিজম",
+        "হাইপারপ্যারাথাইরয়েডিজম",
+        "কুশিং সিনড্রোম",
+        "পলিসিস্টিক ওভারি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-193",
+      "question": "অ্যাড্রিনাল মেডুলার টিউমারে কী লক্ষণ দেখা যায়?",
+      "options": [
+        "উচ্চ রক্তচাপের ধাক্কা (Phaeochromocytoma)",
+        "নিম্ন রক্তচাপ",
+        "ওজন বৃদ্ধি",
+        "ত্বকের কালো দাগ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-194",
+      "question": "সোমাটোট্রপিন হরমোন আরেক নাম কী?",
+      "options": [
+        "TSH",
+        "ACTH",
+        "গ্রোথ হরমোন (GH)",
+        "প্রোল্যাকটিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-195",
+      "question": "রক্তে গ্লুকোজ কমে গেলে (হাইপোগ্লাইসেমিয়া) কী নিঃসৃত হয়?",
+      "options": [
+        "ইনসুলিন",
+        "গ্লুকাগন",
+        "থাইরক্সিন",
+        "ক্যালসিটোনিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-196",
+      "question": "হাইপোগ্লাইসেমিয়ার লক্ষণ কী নয়?",
+      "options": [
+        "ঘামা",
+        "কাঁপুনি",
+        "তৃষ্ণা বেড়ে যাওয়া",
+        "অজ্ঞান হওয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-197",
+      "question": "হাইপারগ্লাইসেমিয়ার দীর্ঘমেয়াদি জটিলতা কোনগুলো?",
+      "options": [
+        "নিউরোপ্যাথি",
+        "রেটিনোপ্যাথি",
+        "নেফ্রোপ্যাথি",
+        "সবগুলো"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-198",
+      "question": "স্নায়ুতন্ত্রের \"ব্লাড-ব্রেন ব্যারিয়ার\" কী তৈরি করে?",
+      "options": [
+        "নিউরন",
+        "অ্যাস্ট্রোসাইট",
+        "মাইক্রোগ্লিয়া",
+        "শোয়ান সেল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-199",
+      "question": "কোন কোষ CNS-এর রোগপ্রতিরোধে অংশ নেয়?",
+      "options": [
+        "অ্যাস্ট্রোসাইট",
+        "মাইক্রোগ্লিয়া",
+        "অলিগোডেনড্রোসাইট",
+        "এপেনডাইমাল সেল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-200",
+      "question": "এপেনডাইমাল কোষ কোথায় থাকে?",
+      "options": [
+        "মেনিনজেসে",
+        "ভেন্ট্রিকল ও কেন্দ্রীয় খালে",
+        "কর্টেক্সে",
+        "গ্যাংলিয়নে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-201",
+      "question": "আনমাইলিনেটেড স্নায়ুতে আবেগ গতি কেমন?",
+      "options": [
+        "দ্রুত",
+        "মন্থর",
+        "শূন্য",
+        "অত্যন্ত দ্রুত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-202",
+      "question": "স্নায়ু-গ্যাস কীভাবে কাজ করে?",
+      "options": [
+        "অ্যাসিটাইলকোলিনএস্টেরেজ রোধ করে",
+        "ইনসুলিন বাড়ায়",
+        "থাইরক্সিন কমায়",
+        "রক্তচাপ বাড়ায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-203",
+      "question": "ওরাল রিহাইড্রেশন সলিউশন (ORS) এ গ্লুকোজের ভূমিকা কী?",
+      "options": [
+        "শক্তি দেওয়া",
+        "সোডিয়াম শোষণে সাহায্য করা",
+        "পানি বের করা",
+        "স্বাদ বাড়ানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-204",
+      "question": "\"সলটেটরি কন্ডাকশন\" এর অর্থ কী?",
+      "options": [
+        "ধীর সঞ্চালন",
+        "মায়েলিন শিথের এক নোড থেকে অন্য নোডে লাফিয়ে আবেগ সঞ্চালন",
+        "একটানা সঞ্চালন",
+        "শুধু রাসায়নিক সঞ্চালন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-205",
+      "question": "সুষুম্না কাণ্ডের কেন্দ্রে কী থাকে?",
+      "options": [
+        "হোয়াইট ম্যাটার",
+        "গ্রে ম্যাটার",
+        "CSF",
+        "বায়ু"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-206",
+      "question": "কোন হরমোন সেলুলার মেটাবলিজম বৃদ্ধি করে?",
+      "options": [
+        "থাইরক্সিন (T3/T4)",
+        "ইনসুলিন",
+        "গ্লুকাগন",
+        "প্রোল্যাকটিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-207",
+      "question": "অগ্ন্যাশয়ের ডেল্টা কোষ থেকে কী নিঃসৃত হয়?",
+      "options": [
+        "ইনসুলিন",
+        "গ্লুকাগন",
+        "সোমাটোস্ট্যাটিন",
+        "প্যানক্রিয়াটিক পলিপেপটাইড"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-208",
+      "question": "পিটুইটারি পোর্টাল সিস্টেম কী বহন করে?",
+      "options": [
+        "রক্ত",
+        "CSF",
+        "হাইপোথ্যালামিক রিলিজিং ও ইনহিবিটিং হরমোন",
+        "লসিকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-209",
+      "question": "জিএইচ-ইনহিবিটিং হরমোনের নাম কী?",
+      "options": [
+        "TRH",
+        "GnRH",
+        "সোমাটোস্ট্যাটিন",
+        "CRH"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ls-08-210",
+      "question": "ভদ্রমহিলাদের রজোনিবৃত্তির (Menopause) কারণ কী?",
+      "options": [
+        "ইস্ট্রোজেন ও প্রজেস্টেরন ক্ষরণ বন্ধ",
+        "ইনসুলিন কমে যাওয়া",
+        "থাইরক্সিন বেড়ে যাওয়া",
+        "গ্রোথ হরমোন কমে যাওয়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "ls-08-211",
+      "question": "CNS (কেন্দ্রীয় স্নায়ুতন্ত্র) এর অংশ কোনগুলো?",
+      "options": [
+        "মস্তিষ্ক",
+        "স্পাইনাল কর্ড",
+        "করোটিক স্নায়ু",
+        "স্পাইনাল স্নায়ু"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-08-212",
+      "question": "নিউরনের অংশ কী কী?",
+      "options": [
+        "ডেনড্রাইট",
+        "কোষদেহ",
+        "অ্যাক্সন",
+        "সাইনোভিয়াল ক্যাভিটি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-08-213",
+      "question": "মায়েলিন শিথের কাজ কোনগুলো?",
+      "options": [
+        "স্নায়ু আবেগের গতি বৃদ্ধি করা",
+        "অ্যাক্সনকে রক্ষা করা",
+        "নিউরোট্রান্সমিটার তৈরি",
+        "অন্তরক হিসেবে কাজ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-214",
+      "question": "নিচের কোনগুলো নিউরোট্রান্সমিটার?",
+      "options": [
+        "অ্যাসিটাইলকোলিন",
+        "ডোপামিন",
+        "ইনসুলিন",
+        "সেরোটোনিন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-215",
+      "question": "সিম্প্যাথেটিক স্নায়ুতন্ত্রের কাজ কোনগুলো?",
+      "options": [
+        "হৃৎস্পন্দন বাড়ানো",
+        "পিউপিল প্রসারণ",
+        "লালাক্ষরণ বাড়ানো",
+        "ব্রঙ্কাস প্রসারণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-216",
+      "question": "প্যারাসিম্প্যাথেটিক উত্তেজনার ফলে কী ঘটে?",
+      "options": [
+        "হৃৎস্পন্দন কমে",
+        "হজম রস ক্ষরণ বাড়ে",
+        "পিউপিল সংকুচিত হয়",
+        "রক্তচাপ বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-217",
+      "question": "Brain stem-এর অংশ কোনগুলো?",
+      "options": [
+        "মিডব্রেন",
+        "পন্স",
+        "মেডুলা অবলংগাটা",
+        "সেরিবেলাম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-218",
+      "question": "মেডুলা অবলংগাটা নিয়ন্ত্রণ করে কোনগুলো?",
+      "options": [
+        "শ্বাস-প্রশ্বাস",
+        "হৃৎস্পন্দন",
+        "রক্তচাপ",
+        "বুদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-219",
+      "question": "নিচের কোনগুলো অটোনমিক স্নায়ুতন্ত্রের বৈশিষ্ট্য?",
+      "options": [
+        "স্বয়ংক্রিয়",
+        "দ্বি-নিউরন পথ",
+        "পেশি নিয়ন্ত্রণ ঐচ্ছিক",
+        "গ্রন্থি নিয়ন্ত্রণ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-220",
+      "question": "সেরিব্রাল কর্টেক্সের লোব কোনগুলো?",
+      "options": [
+        "ফ্রন্টাল",
+        "অক্সিপিটাল",
+        "টেম্পোরাল",
+        "প্যারাইটাল"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-08-221",
+      "question": "CSF-এর কাজ কী কী?",
+      "options": [
+        "মস্তিষ্ককে ভাসমান রাখা",
+        "পুষ্টি সরবরাহ",
+        "বর্জ্য অপসারণ",
+        "আঘাত থেকে সুরক্ষা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-222",
+      "question": "মেনিনজেসের স্তর কোনগুলো?",
+      "options": [
+        "পিয়া ম্যাটার",
+        "অ্যারাকনয়েড ম্যাটার",
+        "ডুরা ম্যাটার",
+        "এপিনিউরিয়াম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-223",
+      "question": "Meningitis-এর কারণ কী কী হতে পারে?",
+      "options": [
+        "ব্যাকটেরিয়া",
+        "ভাইরাস",
+        "ছত্রাক",
+        "উচ্চ রক্তচাপ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-224",
+      "question": "গ্লিয়াল কোষের প্রকারভেদ কোনগুলো?",
+      "options": [
+        "অ্যাস্ট্রোসাইট",
+        "অলিগোডেনড্রোসাইট",
+        "মাইক্রোগ্লিয়া",
+        "এরিথ্রোসাইট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-225",
+      "question": "অ্যান্টিরিয়র পিটুইটারি থেকে নিঃসৃত হরমোন কোনগুলো?",
+      "options": [
+        "GH",
+        "TSH",
+        "ACTH",
+        "ADH"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-226",
+      "question": "পোস্টেরিয়র পিটুইটারি থেকে নিঃসৃত হরমোন কোনগুলো?",
+      "options": [
+        "ADH",
+        "অক্সিটোসিন",
+        "প্রোল্যাকটিন",
+        "FSH"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-227",
+      "question": "থাইরয়েড গ্রন্থি থেকে নিঃসৃত হরমোন কোনগুলো?",
+      "options": [
+        "T3 (ট্রাইআয়োডোথাইরোনিন)",
+        "T4 (থাইরক্সিন)",
+        "ক্যালসিটোনিন",
+        "PTH"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-228",
+      "question": "অ্যাড্রিনাল কর্টেক্সের হরমোন কোনগুলো?",
+      "options": [
+        "কর্টিসল",
+        "অ্যালডোস্টেরন",
+        "অ্যাড্রিনালিন",
+        "অ্যান্ড্রোজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-229",
+      "question": "অ্যাড্রিনালিনের কাজ কী কী?",
+      "options": [
+        "হৃৎস্পন্দন বৃদ্ধি",
+        "শ্বাসগতি বৃদ্ধি",
+        "রক্তে গ্লুকোজ বাড়ানো",
+        "রক্ত জমাট বাঁধা বাড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-230",
+      "question": "ইনসুলিনের ঘাটতিজনিত লক্ষণ কোনগুলো?",
+      "options": [
+        "হাইপারগ্লাইসেমিয়া",
+        "গ্লাইকোসুরিয়া",
+        "পলিইউরিয়া",
+        "ওজন হ্রাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-231",
+      "question": "রক্তে ক্যালসিয়াম মাত্রা নিয়ন্ত্রণকারী হরমোন কোনগুলো?",
+      "options": [
+        "PTH",
+        "ক্যালসিটোনিন",
+        "ক্যালসিট্রায়ল (ভিটামিন D রূপ)",
+        "গ্লুকাগন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-232",
+      "question": "নিচের কোনগুলো স্টেরয়েড হরমোন?",
+      "options": [
+        "কর্টিসল",
+        "ইস্ট্রোজেন",
+        "টেস্টোস্টেরন",
+        "ইনসুলিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-233",
+      "question": "নিচের কোনগুলো পেপটাইড হরমোন?",
+      "options": [
+        "ইনসুলিন",
+        "ADH",
+        "GH",
+        "থাইরক্সিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-234",
+      "question": "হাইপোথ্যালামাসের কাজ কী কী?",
+      "options": [
+        "তাপমাত্রা নিয়ন্ত্রণ",
+        "ক্ষুধা নিয়ন্ত্রণ",
+        "রিলিজিং হরমোন নিঃসরণ",
+        "ভারসাম্য রক্ষা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-235",
+      "question": "থাইরক্সিনের কাজ কী কী?",
+      "options": [
+        "BMR বৃদ্ধি",
+        "স্নায়ুতন্ত্রের বিকাশ",
+        "হৃৎস্পন্দন বৃদ্ধি",
+        "রক্তচাপ কমানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-236",
+      "question": "হাইপোথাইরয়েডিজমের লক্ষণ কোনগুলো?",
+      "options": [
+        "ওজন বৃদ্ধি",
+        "ঠান্ডা সহ্য না হওয়া",
+        "কোষ্ঠকাঠিন্য",
+        "চুল পড়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-237",
+      "question": "ডায়াবেটিস ইনসিপিডাসের লক্ষণ কোনগুলো?",
+      "options": [
+        "পলিইউরিয়া",
+        "পলিডিপসিয়া",
+        "গ্লাইকোসুরিয়া",
+        "ডিহাইড্রেশন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-238",
+      "question": "Cortisol হরমোনের কাজ কী কী?",
+      "options": [
+        "রক্তে গ্লুকোজ বাড়ানো",
+        "প্রদাহ কমানো",
+        "রোগ প্রতিরোধ ক্ষমতা দমন",
+        "রক্তচাপ কমানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-239",
+      "question": "যে সব হরমোন গ্লুকোনিওজেনেসিস বাড়ায় সেগুলো কী কী?",
+      "options": [
+        "গ্লুকাগন",
+        "কর্টিসল",
+        "অ্যাড্রিনালিন",
+        "ইনসুলিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-240",
+      "question": "Parathyroid hormone (PTH) এর কাজ কী কী?",
+      "options": [
+        "হাড় থেকে ক্যালসিয়াম নিঃসরণ",
+        "বৃক্কে ক্যালসিয়াম পুনঃশোষণ",
+        "ভিটামিন D সক্রিয়করণ",
+        "রক্তে ফসফেট কমানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-241",
+      "question": "অ্যাড্রিনাল গ্রন্থির অকার্যকারিতাজনিত রোগ কোনগুলো?",
+      "options": [
+        "অ্যাডিসন ডিজিজ",
+        "কুশিং সিনড্রোম",
+        "ক্রিটিনিজম",
+        "হির্সুটিজম"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-242",
+      "question": "প্রোজেস্টেরনের কাজ কী কী?",
+      "options": [
+        "জরায়ুর এন্ডোমেট্রিয়াম পুরু করা",
+        "গর্ভাবস্থা বজায় রাখা",
+        "ডিম্বাণু নিঃসরণ করা",
+        "শরীরের তাপমাত্রা সামান্য বাড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-243",
+      "question": "টেস্টোস্টেরনের কাজ কী কী?",
+      "options": [
+        "শুক্রাণু উৎপাদন",
+        "পুরুষ সেকেন্ডারি যৌন লক্ষণ বিকাশ",
+        "প্রোটিন সংশ্লেষ বৃদ্ধি",
+        "ভয়েস চেঞ্জ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-244",
+      "question": "পিনিয়াল গ্রন্থির হরমোন মেলাটোনিনের কাজ কী কী?",
+      "options": [
+        "দেহের জৈবিক ঘড়ি নিয়ন্ত্রণ",
+        "ঘুম নিয়ন্ত্রণ",
+        "অ্যান্টিঅক্সিডেন্ট",
+        "ত্বকের রঞ্জক নিয়ন্ত্রণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-245",
+      "question": "নিচের কোন রোগটি অটোইমিউন থাইরয়েড রোগ?",
+      "options": [
+        "হাশিমোটো'স থাইরয়েডাইটিস",
+        "গ্রেভস ডিজিজ",
+        "সরল গলগণ্ড",
+        "প্যাপিলারি থাইরয়েড ক্যান্সার"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-246",
+      "question": "ইনসুলিন নিম্নলিখিত কোন কাজগুলি করে?",
+      "options": [
+        "গ্লাইকোজেনেসিস (গ্লুকোজ → গ্লাইকোজেন)",
+        "লাইপোজেনেসিস (গ্লুকোজ → ফ্যাট)",
+        "গ্লাইকোলাইসিস বৃদ্ধি",
+        "গ্লুকোনিওজেনেসিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-247",
+      "question": "অ্যালঝেইমার রোগের মস্তিষ্কের বৈশিষ্ট্যগত পরিবর্তন কোনগুলো?",
+      "options": [
+        "বিটা-অ্যামাইলয়েড ফলক",
+        "নিউরোফাইব্রিলারি ট্যাঙ্গেল",
+        "নিউরনের মৃত্যু",
+        "ডোপামিন নিউরনের ক্ষয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-248",
+      "question": "পারকিনসন রোগের বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "বিশ্রামকালীন কম্পন",
+        "পেশির অনমনীয়তা",
+        "নড়াচড়ার ধীরগতি",
+        "লিউই বডি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-249",
+      "question": "স্ট্রোকের ঝুঁকির কারণ কোনগুলো?",
+      "options": [
+        "উচ্চ রক্তচাপ",
+        "ডায়াবেটিস",
+        "ধূমপান",
+        "ব্যায়াম"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-250",
+      "question": "স্নায়ুরোগ (Neuropathy) সৃষ্টিকারী কারণ কোনগুলো?",
+      "options": [
+        "ডায়াবেটিস",
+        "ভিটামিন B12 অভাব",
+        "মদ্যপান",
+        "অটোইমিউন রোগ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-251",
+      "question": "নিচের কোনটি সেনসরি করোটিক স্নায়ু?",
+      "options": [
+        "অলফ্যাক্টরি (I)",
+        "অপটিক (II)",
+        "ভেস্টিবুলোকক্লিয়ার (VIII)",
+        "ভ্যাগাস (X)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-252",
+      "question": "রিফ্লেক্স আর্কের উপাদান কোনগুলো?",
+      "options": [
+        "রিসেপ্টর",
+        "সংবেদী স্নায়ু",
+        "সেন্টার",
+        "চেষ্টীয় স্নায়ু ও ইফেক্টর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-253",
+      "question": "নিচের কোনগুলি পেশি ও গ্রন্থিকে নিয়ন্ত্রণ করে?",
+      "options": [
+        "সোমাটিক স্নায়ুতন্ত্র",
+        "অটোনমিক স্নায়ুতন্ত্র",
+        "মোটর স্নায়ু",
+        "সেনসরি স্নায়ু"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-254",
+      "question": "অক্সিটোসিনের কাজ কোনগুলো?",
+      "options": [
+        "প্রসব বেদনা শুরু করা",
+        "স্তন থেকে দুধ নিঃসরণ",
+        "সন্তানের প্রতি মাতৃস্নেহ বৃদ্ধি",
+        "জরায়ু সংকোচন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-255",
+      "question": "গ্রোথ হরমোনের কাজ কী কী?",
+      "options": [
+        "হাড় ও তরুণাস্থির বৃদ্ধি",
+        "প্রোটিন সংশ্লেষ",
+        "চর্বি ভাঙন",
+        "ইনসুলিনের মতো প্রভাব"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-256",
+      "question": "অ্যালডোস্টেরন নিঃসরণের উদ্দীপক কী কী?",
+      "options": [
+        "রক্তে পটাসিয়াম বৃদ্ধি",
+        "রক্তের সোডিয়াম হ্রাস",
+        "রেনিন-অ্যানজিওটেনসিন সিস্টেম",
+        "ACTH"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-257",
+      "question": "ল্যাকটেশন (স্তন্যদান) এ জড়িত হরমোন কোন দুটি?",
+      "options": [
+        "প্রোল্যাকটিন",
+        "অক্সিটোসিন",
+        "ইস্ট্রোজেন",
+        "প্রজেস্টেরন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-258",
+      "question": "অ্যাড্রিনাল মেডুলা থেকে নিঃসৃত ক্যাটেকোলামিন কোনগুলো?",
+      "options": [
+        "এপিনেফ্রিন",
+        "নরএপিনেফ্রিন",
+        "ডোপামিন (সামান্য)",
+        "কর্টিসল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-259",
+      "question": "Sympathetic Nervous System-এর কাজের ফলাফল কোনগুলো?",
+      "options": [
+        "পিউপিল প্রসারণ",
+        "হৃৎস্পন্দন বৃদ্ধি",
+        "ব্রঙ্কোডায়লেশন",
+        "গ্যাস্ট্রোইনটেস্টাইনাল গতি হ্রাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-260",
+      "question": "Parasympathetic Nervous System-এর কাজের ফলাফল কোনগুলো?",
+      "options": [
+        "ব্রঙ্কোকনস্ট্রিকশন",
+        "লালাক্ষরণ বৃদ্ধি",
+        "হৃৎস্পন্দন হ্রাস",
+        "হজম ক্রিয়া বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-261",
+      "question": "নিচের কোন নিউরোট্রান্সমিটারগুলি ইনহিবিটরি?",
+      "options": [
+        "GABA",
+        "গ্লাইসিন",
+        "গ্লুটামেট",
+        "এসিটাইলকোলিন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-262",
+      "question": "সেরিব্রোস্পাইনাল ফ্লুইড (CSF) পরীক্ষা করে কী কী নির্ণয় করা যায়?",
+      "options": [
+        "মেনিনজাইটিস",
+        "সাবঅ্যারাকনয়েড হেমারেজ",
+        "মাল্টিপল স্ক্লেরোসিস",
+        "ডায়াবেটিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-263",
+      "question": "পিটুইটারি \"মাস্টার গ্ল্যান্ড\" নামে পরিচিত কেন?",
+      "options": [
+        "অন্যান্য অন্তঃক্ষরা গ্রন্থিকে নিয়ন্ত্রণ করে",
+        "সকল হরমোন উৎপাদন করে",
+        "হাইপোথ্যালামাসের নিয়ন্ত্রণে কাজ করে",
+        "বৃদ্ধি ও বিকাশ নিয়ন্ত্রণ করে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-264",
+      "question": "নিচের কোনগুলি ডায়াবেটিস মেলাইটাসের জটিলতা?",
+      "options": [
+        "ডায়াবেটিক নিউরোপ্যাথি",
+        "ডায়াবেটিক রেটিনোপ্যাথি",
+        "ডায়াবেটিক নেফ্রোপ্যাথি",
+        "ডায়াবেটিক ফুট"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-265",
+      "question": "অ্যাক্রোমেগালির বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "হাত-পা বড় হওয়া",
+        "চোয়াল বড় হওয়া",
+        "কণ্ঠস্বর গম্ভীর হওয়া",
+        "উচ্চতা বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-266",
+      "question": "ইস্ট্রোজেনের কাজ কী কী?",
+      "options": [
+        "নারী সেকেন্ডারি যৌন বৈশিষ্ট্য বিকাশ",
+        "ফলিকল বৃদ্ধি",
+        "এন্ডোমেট্রিয়াম পুরু করা",
+        "অস্টিওপোরোসিস প্রতিরোধ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-267",
+      "question": "সোমাটিক স্নায়ুতন্ত্রের বৈশিষ্ট্য কোনগুলো?",
+      "options": [
+        "স্বেচ্ছাধীন",
+        "কঙ্কাল পেশি নিয়ন্ত্রণ",
+        "একক নিউরন পথ",
+        "গ্যাংলিয়ন থাকে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-268",
+      "question": "মস্তিষ্কের ভেন্ট্রিকল সিস্টেমের অংশ কোনগুলো?",
+      "options": [
+        "দুই ল্যাটারাল ভেন্ট্রিকল",
+        "তৃতীয় ভেন্ট্রিকল",
+        "চতুর্থ ভেন্ট্রিকল",
+        "সেন্ট্রাল ক্যানাল"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-269",
+      "question": "থাইরক্সিন বেশি ক্ষরণের (হাইপারথাইরয়েডিজম) লক্ষণ কোনগুলো?",
+      "options": [
+        "ওজন হ্রাস",
+        "হাতের কাঁপুনি",
+        "অত্যধিক ঘামা",
+        "হৃৎস্পন্দন বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-270",
+      "question": "গ্যাংলিয়ন কী?",
+      "options": [
+        "স্নায়ুকোষের দেহের সমষ্টি",
+        "PNS-এ পাওয়া যায়",
+        "CSF জমা স্থান",
+        "মস্তিষ্কের অংশ"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-271",
+      "question": "নিচের কোনগুলি স্নায়ুতন্ত্রের কোষ?",
+      "options": [
+        "নিউরন",
+        "নিউরোগ্লিয়া",
+        "অস্টিওসাইট",
+        "কন্ড্রোসাইট"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "ls-08-272",
+      "question": "ইনসুলিনের বিপরীত (Counter-regulatory) হরমোন কোনগুলো?",
+      "options": [
+        "গ্লুকাগন",
+        "অ্যাড্রিনালিন",
+        "কর্টিসল",
+        "গ্রোথ হরমোন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-273",
+      "question": "সুস্থ হাড়ের জন্য প্রয়োজনীয় হরমোন কোনগুলো?",
+      "options": [
+        "গ্রোথ হরমোন",
+        "থাইরক্সিন",
+        "ইস্ট্রোজেন/টেস্টোস্টেরন",
+        "ক্যালসিটোনিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-274",
+      "question": "মানসিক চাপে যে হরমোন নিঃসৃত হয় তা কী কী?",
+      "options": [
+        "অ্যাড্রিনালিন",
+        "কর্টিসল",
+        "নরএপিনেফ্রিন",
+        "প্রোল্যাকটিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-275",
+      "question": "আয়োডিন অভাবজনিত রোগ কোনগুলো?",
+      "options": [
+        "গলগণ্ড",
+        "ক্রেটিনিজম",
+        "হাইপোথাইরয়েডিজম",
+        "ডায়াবেটিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-276",
+      "question": "Somatostatin হরমোন কোন কোন গ্রন্থির হরমোন নিঃসরণ রোধ করে?",
+      "options": [
+        "পিটুইটারি (GH)",
+        "অগ্ন্যাশয় (ইনসুলিন ও গ্লুকাগন)",
+        "থাইরয়েড (TSH এর মাধ্যমে)",
+        "গ্যাস্ট্রোইনটেস্টাইনাল হরমোন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-277",
+      "question": "লিম্বিক সিস্টেমের কাজ কী কী?",
+      "options": [
+        "আবেগ নিয়ন্ত্রণ",
+        "স্মৃতি গঠন",
+        "প্রেষণা",
+        "ভারসাম্য রক্ষা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-278",
+      "question": "পিটুইটারি গ্রন্থির অতিরিক্ত হরমোন নিঃসরণজনিত রোগ কোনগুলো?",
+      "options": [
+        "জাইগান্টিজম",
+        "অ্যাক্রোমেগালি",
+        "কুশিং ডিজিজ",
+        "প্রোল্যাক্টিনোমা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-279",
+      "question": "থাইমাস গ্রন্থি সম্পর্কে সঠিক তথ্য কোনগুলো?",
+      "options": [
+        "বয়ঃসন্ধির পর ছোট হতে থাকে",
+        "T-লিম্ফোসাইট পরিপক্ক করে",
+        "থাইমোসিন হরমোন নিঃসৃত করে",
+        "বুকের গহ্বরে হার্টের ওপরে অবস্থিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-280",
+      "question": "নিচের কোনটি স্বয়ংক্রিয় স্নায়ুতন্ত্রের বৈশিষ্ট্য?",
+      "options": [
+        "হোমিওস্ট্যাসিস বজায় রাখা",
+        "অভ্যন্তরীণ অঙ্গগুলির কাজ নিয়ন্ত্রণ",
+        "ইফেক্টর অঙ্গে দ্বি-নিউরন পথ",
+        "ভিসেরাল ইন্দ্রিয় গ্রহণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-281",
+      "question": "নিচের কোনগুলি অ্যাড্রিনাল কর্টেক্সের স্তর?",
+      "options": [
+        "জোনা গ্লোমেরুলোসা",
+        "জোনা ফ্যাসিকুলাটা",
+        "জোনা রেটিকুলারিস",
+        "জোনা পেলুসিডা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-282",
+      "question": "অগ্ন্যাশয়ের অন্তঃক্ষরা কোষ কোনগুলো?",
+      "options": [
+        "আলফা কোষ",
+        "বিটা কোষ",
+        "ডেল্টা কোষ",
+        "অ্যাকিনার কোষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-283",
+      "question": "প্রেগন্যান্সি টেস্ট কিট কোন হরমোন শনাক্ত করে?",
+      "options": [
+        "hCG",
+        "বিটা-hCG",
+        "প্রজেস্টেরন",
+        "ইস্ট্রোজেন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-284",
+      "question": "বয়ঃসন্ধির পরিবর্তনের জন্য দায়ী হরমোন কোনগুলো?",
+      "options": [
+        "টেস্টোস্টেরন",
+        "ইস্ট্রোজেন",
+        "গ্রোথ হরমোন",
+        "গোনাডোট্রপিন (FSH, LH)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-285",
+      "question": "CSF এর গঠনগত বৈশিষ্ট্য কী কী?",
+      "options": [
+        "স্বচ্ছ তরল",
+        "প্রোটিনের পরিমাণ রক্তের থেকে কম",
+        "গ্লুকোজ থাকে",
+        "RBC থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-286",
+      "question": "নিচের কোনটি মস্তিষ্কের প্রতিরক্ষা ব্যবস্থা (Brain protection) এর অন্তর্ভুক্ত?",
+      "options": [
+        "করোটি (Skull)",
+        "মেনিনজেস",
+        "CSF",
+        "ব্লাড-ব্রেন ব্যারিয়ার"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-287",
+      "question": "মৃগী রোগের ট্রিগার কারণ কী কী হতে পারে?",
+      "options": [
+        "ঘুমের অভাব",
+        "ঝলকানি আলো",
+        "অ্যালকোহল",
+        "উচ্চ জ্বর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-288",
+      "question": "নিচের কোন হরমোন গর্ভাবস্থায় প্ল্যাসেন্টা থেকে নিঃসৃত হয়?",
+      "options": [
+        "hCG",
+        "ইস্ট্রোজেন",
+        "প্রজেস্টেরন",
+        "hPL (হিউম্যান প্ল্যাসেন্টাল ল্যাক্টোজেন)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-289",
+      "question": "হাইপোথ্যালামাস নিঃসৃত রিলিজিং ফ্যাক্টর কোনগুলো?",
+      "options": [
+        "TRH (থাইরোট্রপিন রিলিজিং হরমোন)",
+        "CRH (কর্টিকোট্রপিন রিলিজিং হরমোন)",
+        "GnRH (গোনাডোট্রপিন রিলিজিং হরমোন)",
+        "GHRH (গ্রোথ হরমোন রিলিজিং হরমোন)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-290",
+      "question": "কোন হরমোনের রিসেপ্টর ইন্ট্রাসেলুলার (কোষের ভেতরে)?",
+      "options": [
+        "কর্টিসল",
+        "ইস্ট্রোজেন",
+        "T3/T4",
+        "ইনসুলিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-291",
+      "question": "সেরিবেলামের আঘাত বা রোগের লক্ষণ কোনগুলো?",
+      "options": [
+        "ভারসাম্য নষ্ট",
+        "হাত-পায়ের সমন্বয়হীনতা",
+        "মাথা ঘোরা",
+        "স্মৃতিহানি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-292",
+      "question": "মেডুলা অবলংগাটা ধ্বংস হলে কী ঘটে?",
+      "options": [
+        "শ্বাস বন্ধ",
+        "হৃৎস্পন্দন বন্ধ",
+        "তৎক্ষণাৎ মৃত্যু",
+        "দৃষ্টিহানি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-293",
+      "question": "এন্ডোক্রাইন ডিসরাপ্টর (Endocrine disruptors) এর উৎস কী কী?",
+      "options": [
+        "প্লাস্টিকের বিসফেনল A (BPA)",
+        "কীটনাশক",
+        "প্রসাধনীর ফ্যাথালেট",
+        "ভারী ধাতু"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-294",
+      "question": "স্নায়ুতন্ত্রের বয়সজনিত পরিবর্তন কোনগুলো?",
+      "options": [
+        "মস্তিষ্কের ওজন কমে যাওয়া",
+        "স্নায়ু আবেগের গতি কমে যাওয়া",
+        "স্মৃতিশক্তি হ্রাস",
+        "নিউরোট্রান্সমিটার ক্ষরণ কমে যাওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-295",
+      "question": "পিটুইটারি গ্রন্থির হিস্টোলজিকাল অংশ কোনগুলো?",
+      "options": [
+        "পার্স ডিস্টালিস",
+        "পার্স ইন্টারমিডিয়া",
+        "পার্স নার্ভোসা",
+        "পার্স টিউবারালিস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-296",
+      "question": "নিচের কোন করোটিক স্নায়ু শুধুমাত্র মোটর?",
+      "options": [
+        "অকুলোমোটর (III)",
+        "ট্রক্লিয়ার (IV)",
+        "অ্যাবডুসেন্স (VI)",
+        "অ্যাক্সেসরি (XI)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-297",
+      "question": "কোন অবস্থায় Sympathetic স্নায়ুতন্ত্র সক্রিয় হয়?",
+      "options": [
+        "ভয় পেলে",
+        "রাগ করলে",
+        "ব্যায়াম করলে",
+        "ঘুম এলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "ls-08-298",
+      "question": "কোন হরমোন অস্থি ভাঙন (Bone resorption) বাড়ায়?",
+      "options": [
+        "PTH",
+        "কর্টিসল",
+        "থাইরক্সিন (অতিরিক্ত)",
+        "ক্যালসিটোনিন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-299",
+      "question": "রক্ত-মস্তিষ্ক বাধা (BBB) অতিক্রম করতে পারে কোনগুলি?",
+      "options": [
+        "গ্লুকোজ",
+        "লিপিড দ্রবণীয় গ্যাস (O₂, CO₂)",
+        "অ্যালকোহল",
+        "বড় পোলার অণু"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "ls-08-300",
+      "question": "CAH (কনজেনিটাল অ্যাড্রিনাল হাইপারপ্লাসিয়া) রোগে কী হয়?",
+      "options": [
+        "কর্টিসলের ঘাটতি",
+        "অ্যালডোস্টেরনের ঘাটতি",
+        "অ্যান্ড্রোজেনের আধিক্য",
+        "অ্যাড্রিনাল গ্রন্থি বড় হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "life-science",
+      "unit": "08-nervous-system",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

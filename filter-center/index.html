@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+  <title>কুইজ ফিল্টার — WB ANM GNM 2026</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --pink: #e91e63; --pink-light: #fce4ec; --pink-dark: #c2185b;
+      --blue: #1976d2; --blue-light: #e3f2fd;
+      --green: #4caf50; --green-light: #e8f5e9;
+      --red: #f44336; --orange: #ff9800;
+      --gray-bg: #f5f5f5; --gray-border: #e0e0e0; --gray-text: #757575;
+      --dark: #212121; --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      --radius: 16px; --radius-sm: 12px; --radius-pill: 40px;
+      --font: 'Segoe UI', system-ui, 'Noto Sans Bengali', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      background: var(--gray-bg);
+      color: var(--dark);
+      padding-bottom: 80px;
+      margin: 0;
+    }
+
+    /* ── Header ── */
+    .app-header {
+      background: linear-gradient(135deg, var(--pink) 0%, var(--pink-dark) 100%);
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .back-btn {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.2);
+      display: flex; align-items: center; justify-content: center;
+      text-decoration: none; color: white;
+      flex-shrink: 0;
+    }
+    .back-btn svg { width: 18px; height: 18px; stroke: white; stroke-width: 2; }
+    .header-text h1 { font-size: 1rem; font-weight: 700; margin-bottom: 2px; }
+    .header-text p  { font-size: 0.72rem; opacity: 0.9; }
+
+    /* ── Main content ── */
+    .page-content {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 16px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    /* ── Filter card ── */
+    .card {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--card-shadow);
+      padding: 18px;
+      border: 1px solid #f0f0f0;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-title::before {
+      content: '';
+      width: 4px; height: 17px;
+      background: var(--pink);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    /* ── Dropdowns ── */
+    .field { margin-bottom: 14px; }
+    .field label {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    .sel-wrap { position: relative; }
+    .sel-wrap::after {
+      content: '';
+      position: absolute;
+      right: 12px; top: 50%;
+      transform: translateY(-50%);
+      border: 5px solid transparent;
+      border-top-color: #aaa;
+      pointer-events: none;
+      margin-top: 3px;
+    }
+    select.fsel {
+      width: 100%;
+      padding: 10px 34px 10px 12px;
+      border: 1.5px solid var(--gray-border);
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: var(--font);
+      background: #fff;
+      color: #333;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    select.fsel:focus {
+      border-color: var(--pink);
+      box-shadow: 0 0 0 3px rgba(233,30,99,0.10);
+    }
+    select.fsel:disabled {
+      background: #fafafa;
+      color: #bbb;
+      cursor: not-allowed;
+    }
+
+    /* ── Bottom bar ── */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      border-top: 1px solid var(--gray-border);
+      padding: 12px 16px;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.06);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      z-index: 99;
+      flex-wrap: wrap;
+    }
+    .bottom-count { font-size: 0.8rem; color: var(--gray-text); }
+    .bottom-count strong { color: var(--pink); font-size: 1.1rem; }
+    #startQuizBtn {
+      background: linear-gradient(135deg, var(--pink), var(--pink-dark));
+      color: white;
+      border: none;
+      border-radius: var(--radius-pill);
+      padding: 12px 24px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      font-family: var(--font);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    #startQuizBtn:disabled { background: #bdbdbd; cursor: not-allowed; }
+
+    /* ── Collapsible advanced filters ── */
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px solid var(--gray-border);
+      margin-bottom: 12px;
+    }
+    .section-title { font-size: 0.9rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .chevron { width: 20px; height: 20px; transition: transform 0.2s; }
+    .section-header.open .chevron { transform: rotate(180deg); }
+    .section-body { display: none; }
+    .section-body.open { display: block; }
+
+    /* ── Pills (for advanced filters) ── */
+    .pills-wrap { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+    .filter-pill {
+      border: 1.5px solid var(--gray-border);
+      border-radius: var(--radius-pill);
+      padding: 6px 14px;
+      background: white;
+      font-size: 0.8rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .filter-pill:hover:not(.active) { border-color: var(--pink); color: var(--pink); background: var(--pink-light); }
+    .filter-pill.active { background: var(--pink); border-color: var(--pink); color: white; }
+
+    .count-btns-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .count-btn {
+      border: 1.5px solid var(--gray-border);
+      border-radius: 10px;
+      padding: 6px 14px;
+      background: white;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .count-btn.active { background: var(--pink); border-color: var(--pink); color: white; }
+
+    .toggle-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; }
+    .switch { position: relative; width: 48px; height: 26px; flex-shrink: 0; }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .switch-slider { position: absolute; inset: 0; background: var(--gray-border); border-radius: 26px; cursor: pointer; transition: background 0.25s; }
+    .switch-slider::before { content: ''; position: absolute; width: 20px; height: 20px; left: 3px; top: 3px; background: white; border-radius: 50%; transition: transform 0.25s; }
+    .switch input:checked + .switch-slider { background: var(--pink); }
+    .switch input:checked + .switch-slider::before { transform: translateX(22px); }
+
+    .section-hint { font-size: 0.68rem; color: var(--gray-text); margin-top: 8px; padding-top: 6px; border-top: 1px dashed var(--gray-border); }
+  </style>
+</head>
+<body>
+
+<header class="app-header">
+  <a href="../index.html" class="back-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg></a>
+  <div class="header-text"><h1>কাস্টম কুইজ</h1><p>আপনার পছন্দ অনুযায়ী প্রশ্ন বেছে নিন</p></div>
+</header>
+
+<div class="page-content">
+
+  <!-- Basic filters (dropdowns) -->
+  <div class="card">
+    <div class="card-title">ফিল্টার করুন</div>
+
+    <div class="field">
+      <label for="subjectSelect">বিষয়</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="subjectSelect">
+          <option value="all">সব বিষয়</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="unitSelect">অধ্যায় / ইউনিট</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="unitSelect" disabled>
+          <option value="all">সব অধ্যায়</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="diffSelect">কঠিনতা</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="diffSelect">
+          <option value="all">সব</option>
+          <option value="easy">সহজ</option>
+          <option value="medium">মাঝারি</option>
+          <option value="hard">কঠিন</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Advanced filters (collapsible) -->
+  <div class="card">
+    <div class="section-header" id="advancedToggle">
+      <span class="section-title">⚙️ অতিরিক্ত ফিল্টার</span>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+    <div class="section-body" id="advancedBody">
+      <!-- Type -->
+      <div style="margin-bottom:16px;">
+        <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">প্রশ্নের ধরন</div>
+        <div class="pills-wrap" id="typePills"></div>
+      </div>
+
+      <!-- Multi -->
+      <div style="margin-bottom:16px;">
+        <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">বহু-সঠিক প্রশ্ন</div>
+        <div class="pills-wrap" id="multiPills"></div>
+        <p class="section-hint">বহু-সঠিক প্রশ্নগুলিতে একাধিক সঠিক উত্তর থাকতে পারে</p>
+      </div>
+
+      <!-- History -->
+      <div style="margin-bottom:16px;">
+        <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">আগের অনুশীলন</div>
+        <div class="pills-wrap" id="historyPills"></div>
+        <div class="history-stats" id="historyStats" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;"></div>
+      </div>
+
+      <!-- Count & Random -->
+      <div>
+        <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">কতটি প্রশ্ন?</div>
+        <div class="count-btns-row" id="countButtons"></div>
+        <p class="section-hint">ফিল্টার করা প্রশ্নের চেয়ে বেশি নির্বাচন করলে সব প্রশ্ন অন্তর্ভুক্ত হবে</p>
+        <div class="toggle-row" style="margin-top:12px;">
+          <div><div style="font-weight:600;">র‍্যান্ডম ক্রমে</div><div style="font-size:0.65rem; color:var(--gray-text);">প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে</div></div>
+          <label class="switch"><input type="checkbox" id="randomToggle" checked /><span class="switch-slider"></span></label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Sticky bottom bar -->
+<div class="bottom-bar" id="bottomBar">
+  <div class="bottom-count"><strong id="bottomQuizCount">০</strong>টি প্রশ্ন</div>
+  <button id="startQuizBtn" disabled>কুইজ শুরু করুন</button>
+</div>
+
+<script src="./js/filter-history.js"></script>
+<script src="./js/filter-engine.js"></script>
+<script src="./js/filter-loader.js"></script>
+<script src="./js/filter-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,937 @@
+{
+  "subject": "logic",
+  "unit": "02-blood-relations",
+  "unit_code": "02",
+  "total": 55,
+  "questions": [
+    {
+      "id": "l-02-001",
+      "question": "রামের মায়ের ভাই শ্যামের কে হয়?",
+      "options": [
+        "কাকা",
+        "জ্যাঠা",
+        "মামা",
+        "বাবা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-02-002",
+      "question": "A এর পিতার পিতা B এর কে হয়?",
+      "options": [
+        "পিতামহ (পaternal)",
+        "মাতামহ",
+        "বাবা",
+        "কাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-02-003",
+      "question": "যদি A + B মানে A, B এর পিতা হয়, তাহলে C + D - E সম্পর্কে C ও E-এর সম্পর্ক কী?",
+      "options": [
+        "C, E-এর পিতামহ",
+        "C, E-এর বাবা",
+        "C, E-এর মাতামহ",
+        "C, E-এর জ্যাঠা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-004",
+      "question": "রিতা বলল, \"এই ছবির মহিলাটি আমার ঠাকুমার মেয়ের মেয়ে।\" ছবির মহিলার সাথে রিতার সম্পর্ক কী?",
+      "options": [
+        "বোন",
+        "মা",
+        "মাসি",
+        "খালা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-005",
+      "question": "বিভুর পিতার পুত্রের একমাত্র কন্যার সাথে বিভুর সম্পর্ক কী?",
+      "options": [
+        "ভাগ্নি",
+        "মেয়ে",
+        "বোন",
+        "খালা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-006",
+      "question": "মিতা ও সীতা দুই বোন। মিতার পুত্র সীতার কী হয়?",
+      "options": [
+        "ছেলে",
+        "ভাগ্নে",
+        "ভাই",
+        "জামাই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-007",
+      "question": "যদি P × Q মানে P, Q এর ভাই হয়, তাহলে A × B + C - D সম্পর্কে A ও D-এর সম্পর্ক কী?",
+      "options": [
+        "A, D-এর মামা",
+        "A, D-এর কাকা",
+        "A, D-এর বাবা",
+        "A, D-এর ভাই"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-008",
+      "question": "অমর বলল, \"ওই ব্যক্তিটি আমার বাবার মামাতো ভাই।\" অমরের সাথে ওই ব্যক্তির সম্পর্ক কী?",
+      "options": [
+        "বাবার কাকা",
+        "ফুপুর ছেলে",
+        "দাদা",
+        "মামা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-009",
+      "question": "একজন ব্যক্তি একটি ছবির দিকে ইঙ্গিত করে বলল, \"এই ব্যক্তির মা আমার মায়ের একমাত্র কন্যা।\" ছবির ব্যক্তিটি তার কী হয়?",
+      "options": [
+        "ভাগ্নে",
+        "বোন",
+        "মেয়ে",
+        "ছেলে"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-010",
+      "question": "সুরেশের কন্যার পিতার স্ত্রীর পুত্র সুরেশের কী হয়?",
+      "options": [
+        "ছেলে",
+        "ভাই",
+        "জামাই",
+        "ভাগ্নে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-011",
+      "question": "A ÷ B মানে A, B-এর বোন, A × B মানে A, B-এর ভাই, A + B মানে A, B-এর পিতা এবং A - B মানে A, B-এর মাতা হলে, P + Q × R ÷ S - T এ P ও T-এর সম্পর্ক কী?",
+      "options": [
+        "P, T-এর পিতামহ",
+        "P, T-এর মাতামহ",
+        "P, T-এর বাবা",
+        "P, T-এর নানা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-012",
+      "question": "রামের মায়ের স্বামীর বোন রামের কী হয়?",
+      "options": [
+        "মাসি",
+        "ফুপু",
+        "খালা",
+        "কাকিমা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-013",
+      "question": "একজন ব্যক্তি একটি ছবির দিকে ইঙ্গিত করে বলল, \"ওই ব্যক্তিটি আমার মায়ের বাবার একমাত্র পুত্রের ছেলে।\" ছবির ব্যক্তিটি তার কী হয়?",
+      "options": [
+        "বোন",
+        "ভাই",
+        "কাকা",
+        "দাদা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-014",
+      "question": "সোনিয়া ও রূপার বাবা একজন। সোনিয়ার ভাই রূপার কী হয়?",
+      "options": [
+        "ভাই",
+        "বোন",
+        "বাবা",
+        "ছেলে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-02-015",
+      "question": "X এর মায়ের শ্বাশুড়ি Y এর কে?",
+      "options": [
+        "পিতামহী",
+        "মাতামহী",
+        "ভাই",
+        "বোন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-016",
+      "question": "A + B মানে A, B-এর মাতা, A - B মানে A, B-এর পিতা, A × B মানে A, B-এর ভাই হলে, C + D × E - F এ E ও F-এর সম্পর্ক কী?",
+      "options": [
+        "E, F-এর ভাই",
+        "E, F-এর বাবা",
+        "E, F-এর ছেলে",
+        "E, F-এর মামা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-017",
+      "question": "রবির পুত্রের মায়ের স্বামী রবির কী হয়?",
+      "options": [
+        "বাবা",
+        "স্বয়ং রবি",
+        "ভাই",
+        "দাদা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-018",
+      "question": "একজন মহিলা একটি ছবির দিকে ইঙ্গিত করে বলল, \"ওই মহিলার স্বামী আমার মায়ের ভাই।\" ছবির মহিলার সাথে তার সম্পর্ক কী?",
+      "options": [
+        "বোন",
+        "মা",
+        "কাকিমা",
+        "বৌদি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-019",
+      "question": "অজয়ের মায়ের কন্যার স্ত্রীর বোন অজয়ের কী হয়?",
+      "options": [
+        "বোন",
+        "ভাগ্নি",
+        "বৌদি",
+        "সম্পর্ক নেই"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-020",
+      "question": "যদি P @ Q মানে P, Q-এর স্ত্রী, এবং R # S মানে R, S-এর ভাই হয়, তাহলে A @ B # C এর সম্পর্কে A ও C-এর সম্পর্ক কী?",
+      "options": [
+        "A, C-এর বোন",
+        "A, C-এর মা",
+        "A, C-এর বৌদি",
+        "A, C-এর স্ত্রী"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-021",
+      "question": "রমেশ তার পিতামহের একমাত্র পুত্রের কন্যার সাথে কী সম্পর্কিত?",
+      "options": [
+        "বোন",
+        "চাচাতো বোন",
+        "ভাগ্নি",
+        "মামাতো বোন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-022",
+      "question": "একজন ব্যক্তি বলল, \"এই ছবির লোকটি আমার বাবার বোনের ছেলে।\" ছবির লোকটির সাথে তার সম্পর্ক কী?",
+      "options": [
+        "ভাই",
+        "চাচাতো ভাই",
+        "মামাতো ভাই",
+        "ফুপুতে ভাই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-023",
+      "question": "অমিতের মায়ের বোনের স্বামী অমিতের কী হয়?",
+      "options": [
+        "মামা",
+        "জ্যাঠা",
+        "ফুপা",
+        "মেসো"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-024",
+      "question": "যদি A = B মানে A, B-এর মাতা, A / B মানে A, B-এর পিতা, A & B মানে A, B-এর স্বামী হয়, তাহলে P = Q & R / S এ P ও S-এর সম্পর্ক কী?",
+      "options": [
+        "P, S-এর ঠাকুমা",
+        "P, S-এর নানী",
+        "P, S-এর মা",
+        "P, S-এর শাশুড়ি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-025",
+      "question": "রিনার স্বামীর পুত্রের স্ত্রীর মায়ের সাথে রিনার সম্পর্ক কী?",
+      "options": [
+        "সম্বন্ধহীন",
+        "মা",
+        "শাশুড়ি",
+        "ঠাকুমা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-026",
+      "question": "সুমিত বলল, \"ওই ব্যক্তিটি আমার মায়ের একমাত্র পুত্রের পিতার বাবা।\" সুমিতের সাথে ওই ব্যক্তির সম্পর্ক কী?",
+      "options": [
+        "পিতামহ",
+        "মাতামহ",
+        "বাবা",
+        "জ্যাঠা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-027",
+      "question": "সুশীল ও সুনীল দুই ভাই। সুশীলের পুত্র সুনীলের কী হয়?",
+      "options": [
+        "ছেলে",
+        "ভাগ্নে",
+        "ভাই",
+        "জামাই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-02-028",
+      "question": "একটি পরিবারে, A হলো B-এর মা, B হলো C-এর ভাই, C হলো D-এর কন্যা। A, D-এর কে?",
+      "options": [
+        "মা",
+        "শাশুড়ি",
+        "ঠাকুমা",
+        "খালা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-029",
+      "question": "একজন পুরুষ একটি ছবির দিকে ইঙ্গিত করে বলল, \"এই ছবির মহিলাটি আমার মায়ের বোনের স্বামীর পুত্রের স্ত্রী।\" ছবির মহিলাটি তার কী?",
+      "options": [
+        "বোন",
+        "পুত্রবধূ",
+        "স্ত্রী",
+        "ভাবী"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-030",
+      "question": "রাকেশের মায়ের ভাইয়ের বোন রাকেশের কী হয়?",
+      "options": [
+        "মা",
+        "কাকিমা",
+        "মাসি",
+        "বোন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-031",
+      "question": "A × B মানে A, B-এর বোন, A - B মানে A, B-এর ভাই, A + B মানে A, B-এর পিতা, A ÷ B মানে A, B-এর মাতা হলে, P × Q - R + S ÷ T এ P ও T-এর সম্পর্ক কী?",
+      "options": [
+        "P, T-এর বোন",
+        "P, T-এর ভাগ্নী",
+        "P, T-এর মা",
+        "P, T-এর খালা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-032",
+      "question": "নয়নের পিতামহের পুত্রের কন্যা নয়নের কী হয়?",
+      "options": [
+        "বোন",
+        "দিদা",
+        "চাচাতো বোন",
+        "মামাতো বোন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-033",
+      "question": "একজন ব্যক্তি বলল, \"ওই ব্যক্তিটি আমার ফুপুর একমাত্র পুত্রের বোন।\" ছবির ব্যক্তিটি তার কী হয়?",
+      "options": [
+        "ফুপু",
+        "বোন",
+        "মা",
+        "কাকিমা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-034",
+      "question": "সেবা ও রানু দুই বোন। সেবার পুত্র রানুর পুত্রের কী হয়?",
+      "options": [
+        "ভাই",
+        "মামাতো ভাই",
+        "চাচাতো ভাই",
+        "ভাগ্নে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-035",
+      "question": "যদি A ! B মানে A, B-এর কাকা হয়, এবং A @ B মানে A, B-এর মা হয়, তাহলে C ! D @ E সম্পর্কে C ও E-এর সম্পর্ক কী?",
+      "options": [
+        "C, E-এর পিতামহ",
+        "C, E-এর মাতামহ",
+        "C, E-এর কাকা",
+        "C, E-এর দাদা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-036",
+      "question": "শর্মিস্টার স্বামীর বোনের মেয়ে শর্মিস্টার কী হয়?",
+      "options": [
+        "মেয়ে",
+        "ভাগ্নে",
+        "ভাগ্নি",
+        "ননদ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-037",
+      "question": "একটি ছবি দেখিয়ে রত্না বলল, \"এই মহিলাটি আমার বাবার বোনের মেয়ের মা।\" রত্নার সাথে ছবির মহিলার সম্পর্ক কী?",
+      "options": [
+        "মা",
+        "কাকিমা",
+        "ঠাকুমা",
+        "ফুপু"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-038",
+      "question": "দীপকের মায়ের পুত্রের বোনের স্বামী দীপকের কী হয়?",
+      "options": [
+        "ভাই",
+        "বড় ভাই",
+        "জামাই",
+        "বাবা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-039",
+      "question": "যদি P # Q মানে P, Q-এর স্ত্রী হয়, এবং R $ S মানে R, S-এর পিতা হয়, তাহলে A # B $ C সম্পর্কে A ও C-এর সম্পর্ক কী?",
+      "options": [
+        "A, C-এর মা",
+        "A, C-এর ঠাকুমা",
+        "A, C-এর বোন",
+        "A, C-এর কাকিমা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-040",
+      "question": "একজন পুরুষ একজন মহিলার দিকে ইঙ্গিত করে বলল, \"এই মহিলার বোনের স্বামী আমার স্ত্রীর ভাই।\" পুরুষের সাথে মহিলার সম্পর্ক কী?",
+      "options": [
+        "বোন",
+        "ভগ্নী",
+        "স্ত্রী",
+        "কোনটিই নয়"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-041",
+      "question": "নিচের কোনটি সঠিক? পিতার বোনের স্বামীকে কী বলে?",
+      "options": [
+        "জ্যাঠা",
+        "ফুপা",
+        "মামা",
+        "মেসো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-02-042",
+      "question": "মায়ের ভাইয়ের বোন কী সম্পর্ক?",
+      "options": [
+        "ফুপু",
+        "কাকিমা",
+        "মাসি",
+        "বোন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-043",
+      "question": "B, A-এর পুত্র। C, A-এর স্বামী। D, C-এর কন্যা। E, D-এর ভাই। তাহলে E, A-এর কী হয়?",
+      "options": [
+        "পুত্র",
+        "ভাগ্নে",
+        "নাতি",
+        "জামাই"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-02-044",
+      "question": "একটি ছবির দিকে ইঙ্গিত করে রাহুল বলল, \"ছবির মহিলাটি আমার পিতামহের একমাত্র পুত্রবধূ।\" ছবির মহিলাটি রাহুলের কী হয়?",
+      "options": [
+        "মা",
+        "কাকিমা",
+        "ঠাকুমা",
+        "নানী"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-02-045",
+      "question": "নিচের কোন জোড়াটি সঠিক সম্পর্ক নির্দেশ করে?",
+      "options": [
+        "পিতার বোন - ফুপু",
+        "মায়ের বোন - মাসি",
+        "পিতার ভাই - কাকা",
+        "মায়ের ভাই - মামা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-02-046",
+      "question": "নিচের কোনটিকে পিতামহ বলা হয়?",
+      "options": [
+        "পিতার পিতা",
+        "মাতার পিতা",
+        "পিতার বাবা",
+        "মাতার বাবা"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-02-047",
+      "question": "কোন সম্পর্কগুলি সঠিক?",
+      "options": [
+        "শ্বাশুড়ি - স্ত্রীর মা",
+        "শ্বশুর - স্ত্রীর বাবা",
+        "জামাই - মেয়ের স্বামী",
+        "পুত্রবধূ - মেয়ের স্বামী"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-02-048",
+      "question": "নিচের কোন নির্দেশগুলি সঠিকভাবে মিলেছে?",
+      "options": [
+        "কাকিমা - কাকার স্ত্রী",
+        "জ্যাঠা - বাবার বড় ভাই",
+        "মেসো - মায়ের বোনের স্বামী",
+        "ফুপা - বাবার বোনের স্বামী"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-02-049",
+      "question": "নিচের কোনটি পুত্রবধূর সম্পর্ক সঠিক?",
+      "options": [
+        "ছেলের স্ত্রী",
+        "জামাইয়ের স্ত্রী",
+        "ভাইয়ের স্ত্রী",
+        "নিজের স্ত্রী"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-02-050",
+      "question": "\"X হল Y-এর মায়ের একমাত্র পুত্রের কন্যা\" এই বাক্যটিতে X ও Y-এর সম্পর্ক কী হতে পারে?",
+      "options": [
+        "X, Y-এর ভাগ্নি",
+        "X, Y-এর মেয়ে",
+        "Y, X-এর মা",
+        "Y, X-এর কাকিমা"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-02-051",
+      "question": "নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "একজন ব্যক্তির কাকার ছেলে তার চাচাতো ভাই",
+        "একজন ব্যক্তির মামির মেয়ে তার মামাতো বোন",
+        "একজন ব্যক্তির ফুপুর পুত্র তার ফুপুতে ভাই",
+        "একজন ব্যক্তির জ্যাঠার মেয়ে তার জ্যাঠাতো বোন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-02-052",
+      "question": "নিচের কোন সম্পর্কগুলি একজন পুরুষের ক্ষেত্রে প্রযোজ্য?",
+      "options": [
+        "বাবা",
+        "ভাই",
+        "ছেলে",
+        "বোন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-02-053",
+      "question": "নিচের কোনটি পিতার বাবাকে বোঝায়?",
+      "options": [
+        "পিতামহ",
+        "দাদা",
+        "নানা",
+        "ঠাকুরদা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-02-054",
+      "question": "\"মাসি\" বলতে বোঝানো যেতে পারে—",
+      "options": [
+        "মায়ের বোন",
+        "বাবার বোন",
+        "মামার স্ত্রী",
+        "মায়ের বড় বোন"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-02-055",
+      "question": "নিচের কোন সম্পর্কগুলি রক্তের সম্পর্ক?",
+      "options": [
+        "পিতা",
+        "শ্বশুর",
+        "জামাই",
+        "মাতা"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "02-blood-relations",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

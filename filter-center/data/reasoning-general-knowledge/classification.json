@@ -1,0 +1,939 @@
+{
+  "subject": "logic",
+  "unit": "04-classification",
+  "unit_code": "04",
+  "total": 55,
+  "questions": [
+    {
+      "id": "l-04-001",
+      "question": "নীচের চারটি শব্দের মধ্যে কোনটি অন্যদের থেকে আলাদা?",
+      "options": [
+        "গোলাপ",
+        "জবা",
+        "সূর্যমুখী",
+        "আম"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-002",
+      "question": "নীচের শব্দগুলোর মধ্যে কোনটি ভিন্ন গোত্রের?",
+      "options": [
+        "টেবিল",
+        "চেয়ার",
+        "আলমারি",
+        "কলম"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-003",
+      "question": "প্রদত্ত সংখ্যাগুলির মধ্যে কোনটি অসম?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-004",
+      "question": "বর্ণগুচ্ছগুলির মধ্যে কোনটি আলাদা?",
+      "options": [
+        "AEI",
+        "BCD",
+        "OUE",
+        "AIU"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-005",
+      "question": "নীচের কোন প্রাণীটি বাকি তিনটির থেকে আলাদা?",
+      "options": [
+        "গরু",
+        "কুকুর",
+        "বিড়াল",
+        "কাক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-006",
+      "question": "নীচের সংখ্যাগুলোর মধ্যে কোনটি বেমানান?",
+      "options": [
+        "16",
+        "25",
+        "36",
+        "13"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-007",
+      "question": "নীচের কোন মাসটি বাকিগুলো থেকে ভিন্ন?",
+      "options": [
+        "জুন",
+        "জুলাই",
+        "এপ্রিল",
+        "সেপ্টেম্বর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-008",
+      "question": "কোন জ্যামিতিক আকারটি অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "ত্রিভুজ",
+        "বর্গক্ষেত্র",
+        "বৃত্ত",
+        "ঘনক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-009",
+      "question": "নীচের শব্দগুলোর মধ্যে বেমানান শব্দটি কোনটি?",
+      "options": [
+        "থার্মোমিটার",
+        "ব্যারোমিটার",
+        "স্টেথোস্কোপ",
+        "গিটার"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-010",
+      "question": "নীচের কোন সংখ্যাটি অন্যগুলোর মতো নয়?",
+      "options": [
+        "51",
+        "63",
+        "72",
+        "97"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-011",
+      "question": "নীচের অক্ষরগুচ্ছগুলির মধ্যে কোনটি বেমানান?",
+      "options": [
+        "VWY",
+        "MNP",
+        "QRT",
+        "HJK"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-012",
+      "question": "নীচের কোন রংটি অন্যদের থেকে আলাদা?",
+      "options": [
+        "লাল",
+        "নীল",
+        "সবুজ",
+        "কালো"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-013",
+      "question": "নীচের সংখ্যাগুলোর মধ্যে কোনটি আলাদা?",
+      "options": [
+        "8",
+        "27",
+        "64",
+        "100"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-014",
+      "question": "নীচের শব্দগুলোর মধ্যে কোনটি ভিন্ন?",
+      "options": [
+        "চোখ",
+        "কান",
+        "নাক",
+        "ফুসফুস"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-015",
+      "question": "নীচের কোন দেশটি বাকিগুলো থেকে ভিন্ন মহাদেশে অবস্থিত?",
+      "options": [
+        "ভারত",
+        "চীন",
+        "জাপান",
+        "ব্রাজিল"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-016",
+      "question": "নীচের কোন সংখ্যাটি অসম? (সকল সংখ্যা পূর্ণবর্গ, কিন্তু একটি ভিন্ন বৈশিষ্ট্যের)",
+      "options": [
+        "121",
+        "144",
+        "169",
+        "196"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-017",
+      "question": "নীচের কোন শব্দটি অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "ক্রিকেট",
+        "ফুটবল",
+        "হকি",
+        "কাবাডি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-018",
+      "question": "নীচের শব্দগুলোর মধ্যে কোনটি বেমানান?",
+      "options": [
+        "নদী",
+        "সাগর",
+        "পাহাড়",
+        "মহাসাগর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-019",
+      "question": "প্রদত্ত অক্ষরগুলির মধ্যে বেমানান অক্ষর কোনটি?",
+      "options": [
+        "B",
+        "G",
+        "L",
+        "Q"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-020",
+      "question": "নীচের শব্দগুলোর মধ্যে ভিন্ন অর্থের শব্দ কোনটি?",
+      "options": [
+        "আনন্দ",
+        "সুখ",
+        "হর্ষ",
+        "দুঃখ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-021",
+      "question": "কোন সংখ্যাটি বাকি তিনটির থেকে ভিন্ন?",
+      "options": [
+        "45",
+        "35",
+        "27",
+        "30"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-022",
+      "question": "নীচের কোন যন্ত্রটি কাজের ভিত্তিতে অন্যগুলোর থেকে আলাদা?",
+      "options": [
+        "টেলিস্কোপ",
+        "মাইক্রোস্কোপ",
+        "স্টেথোস্কোপ",
+        "ক্যালকুলেটর"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-023",
+      "question": "নীচের বর্ণক্রমগুলোর মধ্যে কোনটি আলাদা?",
+      "options": [
+        "ACE",
+        "BDF",
+        "HJG",
+        "MOQ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-024",
+      "question": "নীচের ফলগুলোর মধ্যে কোনটি আলাদা?",
+      "options": [
+        "আপেল",
+        "কলা",
+        "আঙ্গুর",
+        "আলু"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-025",
+      "question": "নীচের কোন সংখ্যাটি বেমানান? (জোড়/বিজোড়)",
+      "options": [
+        "48",
+        "56",
+        "93",
+        "74"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-026",
+      "question": "নীচের কোন প্রাণীটি স্তন্যপায়ী নয়?",
+      "options": [
+        "তিমি",
+        "ডলফিন",
+        "হাঙর",
+        "বাদুড়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-027",
+      "question": "নীচের কোনটি অন্যগুলোর থেকে আলাদা?",
+      "options": [
+        "লোহা",
+        "তামা",
+        "সোনা",
+        "কাঠ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-028",
+      "question": "প্রদত্ত সংখ্যাগুলির মধ্যে কোনটি মৌলিক সংখ্যা নয়?",
+      "options": [
+        "23",
+        "29",
+        "39",
+        "41"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-029",
+      "question": "নীচের কোন শব্দটি পেশার ভিত্তিতে আলাদা?",
+      "options": [
+        "ডাক্তার",
+        "ইঞ্জিনিয়ার",
+        "শিক্ষক",
+        "ছাত্র"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-030",
+      "question": "নীচের কোন মাসের দিনসংখ্যা অন্যগুলো থেকে আলাদা?",
+      "options": [
+        "জানুয়ারি",
+        "ফেব্রুয়ারি",
+        "মার্চ",
+        "মে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-04-031",
+      "question": "কোন সংখ্যাটি প্রদত্ত ক্রমে বেমানান?",
+      "options": [
+        "2, 3, 5, 7",
+        "11, 13, 17, 19",
+        "23, 29, 31, 37",
+        "41, 43, 47, 49"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-032",
+      "question": "নীচের দিকগুলির মধ্যে কোনটি অসম?",
+      "options": [
+        "উত্তর",
+        "দক্ষিণ",
+        "পূর্ব",
+        "বাম"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-033",
+      "question": "নীচের কোন শব্দটি অন্যগুলোর থেকে অর্থগতভাবে আলাদা?",
+      "options": [
+        "বই",
+        "খাতা",
+        "কলম",
+        "টেবিল"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-034",
+      "question": "নীচের কোন সংখ্যাটি ভিন্ন? (বর্গমূল পূর্ণসংখ্যা নয়)",
+      "options": [
+        "196",
+        "225",
+        "256",
+        "290"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-035",
+      "question": "নীচের কোন গ্রহটি বাকিগুলো থেকে ভিন্ন?",
+      "options": [
+        "বুধ",
+        "শুক্র",
+        "পৃথিবী",
+        "চাঁদ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-036",
+      "question": "নীচের কোন রোগটি ভাইরাসজনিত নয়?",
+      "options": [
+        "পোলিও",
+        "জলাতঙ্ক",
+        "টাইফয়েড",
+        "এইডস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-037",
+      "question": "নীচের গ্রুপগুলোর মধ্যে কোনটি বেমানান?",
+      "options": [
+        "ABC",
+        "PQR",
+        "XYZ",
+        "RQP"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-038",
+      "question": "নীচের কোন ফুলটি রঙের ভিত্তিতে সাধারণত আলাদা?",
+      "options": [
+        "গোলাপ",
+        "সূর্যমুখী",
+        "জবা",
+        "বেলি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-039",
+      "question": "প্রদত্ত চারটি বিকল্পের মধ্যে কোন সংখ্যাটি অপর তিনটি থেকে আলাদা?",
+      "options": [
+        "125",
+        "216",
+        "512",
+        "400"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-040",
+      "question": "নীচের কোন পরিমাপক এককটি বাকিগুলোর চেয়ে ভিন্ন?",
+      "options": [
+        "কিলোগ্রাম",
+        "গ্রাম",
+        "লিটার",
+        "মিলিগ্রাম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-041",
+      "question": "নীচের কোন শব্দটি অন্যগুলোর মতো নয়?",
+      "options": [
+        "সাঁতার",
+        "দৌড়ানো",
+        "ক্রিকেট",
+        "হাঁটা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-042",
+      "question": "কোন গাছটি ফলের ভিত্তিতে অন্যগুলোর থেকে ভিন্ন?",
+      "options": [
+        "আম গাছ",
+        "কাঁঠাল গাছ",
+        "লিচু গাছ",
+        "বট গাছ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-043",
+      "question": "নীচের অক্ষরগুলির মধ্যে বেমানান কোনটি?",
+      "options": [
+        "ক",
+        "খ",
+        "গ",
+        "অ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-04-044",
+      "question": "নীচের কোন মৌলটি ধাতু নয়?",
+      "options": [
+        "সোডিয়াম",
+        "পটাসিয়াম",
+        "ক্যালসিয়াম",
+        "অক্সিজেন"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-04-045",
+      "question": "নীচের কোন সংখ্যাগুলি মৌলিক সংখ্যা? (একাধিক উত্তর)",
+      "options": [
+        "2",
+        "15",
+        "29",
+        "51"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-04-046",
+      "question": "নীচের কোন প্রাণীগুলো তৃণভোজী? (একাধিক উত্তর)",
+      "options": [
+        "গরু",
+        "বাঘ",
+        "হরিণ",
+        "ছাগল"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-04-047",
+      "question": "প্রদত্ত শব্দগুলির মধ্যে কোনগুলি পরিমাপক যন্ত্র? (একাধিক উত্তর)",
+      "options": [
+        "থার্মোমিটার",
+        "স্টেথোস্কোপ",
+        "স্পাইগমোম্যানোমিটার",
+        "সিরিঞ্জ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-04-048",
+      "question": "নীচের কোন মাসগুলিতে 31 দিন থাকে? (একাধিক উত্তর)",
+      "options": [
+        "জানুয়ারি",
+        "মার্চ",
+        "জুন",
+        "অগাস্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-04-049",
+      "question": "কোন শব্দগুলি \"পেশা\" নির্দেশ করে? (একাধিক উত্তর)",
+      "options": [
+        "নার্স",
+        "ডাক্তার",
+        "শিক্ষক",
+        "অসুস্থ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "l-04-050",
+      "question": "নীচের কোনগুলি ইনপুট ডিভাইস? (একাধিক উত্তর)",
+      "options": [
+        "কীবোর্ড",
+        "মাউস",
+        "প্রিন্টার",
+        "মাইক্রোফোন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-04-051",
+      "question": "নীচের কোন গ্রহগুলির উপগ্রহ নেই? (একাধিক উত্তর)",
+      "options": [
+        "বুধ",
+        "শুক্র",
+        "পৃথিবী",
+        "মঙ্গল"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-04-052",
+      "question": "প্রদত্ত সংখ্যাগুলির মধ্যে কোনগুলি 3 দ্বারা বিভাজ্য? (একাধিক উত্তর)",
+      "options": [
+        "27",
+        "54",
+        "73",
+        "99"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-04-053",
+      "question": "কোন কোন রং প্রাথমিক রং (Primary Colors)? (একাধিক উত্তর)",
+      "options": [
+        "লাল",
+        "সবুজ",
+        "নীল",
+        "হলুদ"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-04-054",
+      "question": "নীচের কোনগুলি শ্বাসযন্ত্রের অঙ্গ? (একাধিক উত্তর)",
+      "options": [
+        "হৃদপিণ্ড",
+        "ফুসফুস",
+        "গলবিল",
+        "পাকস্থলী"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-04-055",
+      "question": "কোনগুলি নবায়নযোগ্য শক্তির উৎস? (একাধিক উত্তর)",
+      "options": [
+        "সৌরশক্তি",
+        "কয়লা",
+        "বায়ুশক্তি",
+        "প্রাকৃতিক গ্যাস"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "04-classification",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

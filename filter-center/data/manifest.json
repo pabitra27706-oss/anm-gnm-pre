@@ -1,0 +1,107 @@
+{
+  "subjects": {
+    "english-grammar": {
+      "name": "ইংরেজি ব্যাকরণ",
+      "units": [
+        { "file": "antonyms.json", "unit": "01-antonyms", "name": "Antonyms" },
+        { "file": "articles.json", "unit": "02-articles", "name": "Articles" },
+        { "file": "basic_writing_skills.json", "unit": "03-basic-writing-skills", "name": "Basic Writing Skills" },
+        { "file": "error_spotting.json", "unit": "04-error-spotting", "name": "Error Spotting" },
+        { "file": "fill_in_the_blanks.json", "unit": "05-fill-in-the-blanks", "name": "Fill in the Blanks" },
+        { "file": "one_word_substitution.json", "unit": "06-one-word-substitution", "name": "One Word Substitution" },
+        { "file": "prepositions.json", "unit": "07-prepositions", "name": "Prepositions" },
+        { "file": "sentence_rearrangement.json", "unit": "08-sentence-rearrangement", "name": "Sentence Rearrangement" },
+        { "file": "subject_verb_agreement.json", "unit": "09-subject-verb-agreement", "name": "Subject-Verb Agreement" },
+        { "file": "synonyms.json", "unit": "10-synonyms", "name": "Synonyms" },
+        { "file": "tenses.json", "unit": "11-tenses", "name": "Tenses" }
+      ]
+    },
+    "general-knowledge": {
+      "name": "সাধারণ জ্ঞান",
+      "units": [
+        { "file": "awards_and_honours.json", "unit": "01-awards-and-honours", "name": "পুরস্কার ও সম্মান" },
+        { "file": "books_and_authors.json", "unit": "02-books-and-authors", "name": "বই ও লেখক" },
+        { "file": "indian_freedom_struggle.json", "unit": "03-indian-freedom-struggle", "name": "ভারতের স্বাধীনতা সংগ্রাম" },
+        { "file": "indian_history.json", "unit": "04-indian-history", "name": "ভারতের ইতিহাস" },
+        { "file": "indian_polity.json", "unit": "05-indian-polity", "name": "ভারতের শাসন ব্যবস্থা" },
+        { "file": "physical_geography.json", "unit": "06-physical-geography", "name": "ভৌত ভূগোল" },
+        { "file": "political_geography.json", "unit": "07-political-geography", "name": "রাজনৈতিক ভূগোল" },
+        { "file": "science_and_technology.json", "unit": "08-science-and-technology", "name": "বিজ্ঞান ও প্রযুক্তি" },
+        { "file": "sports.json", "unit": "09-sports", "name": "খেলাধুলা" },
+        { "file": "west_bengal_gk.json", "unit": "10-west-bengal-gk", "name": "পশ্চিমবঙ্গের সাধারণ জ্ঞান" }
+      ]
+    },
+    "general-science": {
+      "name": "সাধারণ বিজ্ঞান",
+      "units": [
+        { "file": "acids_bases_and_salts.json", "unit": "01-acids-bases-salts", "name": "অ্যাসিড, ক্ষার ও লবণ" },
+        { "file": "atomic_structure.json", "unit": "02-atomic-structure", "name": "পারমাণবিক গঠন" },
+        { "file": "basic_organic_chemistry.json", "unit": "03-basic-organic-chemistry", "name": "জৈব রসায়নের মৌলিক ধারণা" },
+        { "file": "chemical_reactions.json", "unit": "04-chemical-reactions", "name": "রাসায়নিক বিক্রিয়া" },
+        { "file": "electricity_and_circuits.json", "unit": "05-electricity-and-circuits", "name": "তড়িৎ প্রবাহ ও বর্তনী" },
+        { "file": "environmental_chemistry.json", "unit": "06-environmental-chemistry", "name": "পরিবেশ রসায়ন" },
+        { "file": "force_and_motion.json", "unit": "07-force-and-motion", "name": "বল ও গতি" },
+        { "file": "heat_and_temperature.json", "unit": "08-heat-and-temperature", "name": "তাপ ও তাপমাত্রা" },
+        { "file": "light_reflection_and_refraction.json", "unit": "09-light-reflection-refraction", "name": "আলোর প্রতিফলন ও প্রতিসরণ" },
+        { "file": "matter_and_states.json", "unit": "10-matter-and-states", "name": "পদার্থ ও তার বিভিন্ন অবস্থা" },
+        { "file": "measurements.json", "unit": "11-measurements", "name": "পরিমাপ" },
+        { "file": "work_and_energy.json", "unit": "12-work-and-energy", "name": "কার্য ও শক্তি" }
+      ]
+    },
+    "arithmetic-mathematics": {
+      "name": "গণিত",
+      "units": [
+        { "file": "average.json", "unit": "01-average", "name": "গড়" },
+        { "file": "basic_algebra.json", "unit": "02-basic-algebra", "name": "প্রাথমিক বীজগণিত" },
+        { "file": "compound_interest.json", "unit": "03-compound-interest", "name": "চক্রবৃদ্ধি সুদ" },
+        { "file": "data_interpretation.json", "unit": "04-data-interpretation", "name": "তথ্য বিশ্লেষণ" },
+        { "file": "fractions_and_decimals.json", "unit": "05-fractions-decimals", "name": "ভগ্নাংশ ও দশমিক" },
+        { "file": "lcm_and_hcf.json", "unit": "06-lcm-hcf", "name": "ল.সা.গু ও গ.সা.গু" },
+        { "file": "mensuration.json", "unit": "07-mensuration", "name": "ক্ষেত্রমিতি" },
+        { "file": "number_system.json", "unit": "08-number-system", "name": "সংখ্যা পদ্ধতি" },
+        { "file": "percentages.json", "unit": "09-percentages", "name": "শতকরা" },
+        { "file": "profit_and_loss.json", "unit": "10-profit-loss", "name": "লাভ ও ক্ষতি" },
+        { "file": "ratio_and_proportion.json", "unit": "11-ratio-proportion", "name": "অনুপাত ও সমানুপাত" },
+        { "file": "simple_interest.json", "unit": "12-simple-interest", "name": "সরল সুদ" },
+        { "file": "speed_and_distance.json", "unit": "13-speed-distance", "name": "গতি, সময় ও দূরত্ব" },
+        { "file": "time_and_work.json", "unit": "14-time-work", "name": "সময় ও কাজ" }
+      ]
+    },
+    "reasoning-general-knowledge": {
+      "name": "যুক্তিবিদ্যা ও সাধারণ জ্ঞান",
+      "units": [
+        { "file": "analogies.json", "unit": "01-analogies", "name": "সাদৃশ্য" },
+        { "file": "blood_relations.json", "unit": "02-blood-relations", "name": "রক্ত সম্পর্ক" },
+        { "file": "cause_and_effect.json", "unit": "03-cause-effect", "name": "কারণ ও প্রভাব" },
+        { "file": "classification.json", "unit": "04-classification", "name": "শ্রেণিবিভাগ" },
+        { "file": "coding_decoding.json", "unit": "05-coding-decoding", "name": "কোডিং – ডিকোডিং" },
+        { "file": "direction_sense.json", "unit": "06-direction-sense", "name": "দিক নির্ণয়" },
+        { "file": "letter_series.json", "unit": "07-letter-series", "name": "অক্ষরক্রম" },
+        { "file": "number_series.json", "unit": "08-number-series", "name": "সংখ্যাক্রম" },
+        { "file": "puzzles.json", "unit": "09-puzzles", "name": "ধাঁধা" },
+        { "file": "seating_arrangement.json", "unit": "10-seating-arrangement", "name": "আসন বিন্যাস" },
+        { "file": "statement_and_assumption.json", "unit": "11-statement-assumption", "name": "বিবৃতি ও অনুমান" },
+        { "file": "syllogism.json", "unit": "12-syllogism", "name": "অনুমান (Syllogism)" },
+        { "file": "venn_diagrams.json", "unit": "13-venn-diagrams", "name": "ভেনচিত্র" }
+      ]
+    },
+    "life-science": {
+      "name": "জীবন বিজ্ঞান",
+      "units": [
+        { "file": "cell_structure_and_functions.json", "unit": "01-cell-structure-functions", "name": "কোষের গঠন ও কার্যাবলী" },
+        { "file": "circulatory_system.json", "unit": "02-circulatory-system", "name": "রক্ত সংবহনতন্ত্র" },
+        { "file": "common_diseases.json", "unit": "03-common-diseases", "name": "সাধারণ রোগ" },
+        { "file": "digestive_system.json", "unit": "04-digestive-system", "name": "পাচনতন্ত্র" },
+        { "file": "excretory_system.json", "unit": "05-excretory-system", "name": "রেচনতন্ত্র" },
+        { "file": "first_aid_fundamentals.json", "unit": "06-first-aid-fundamentals", "name": "প্রাথমিক চিকিৎসা" },
+        { "file": "immunity.json", "unit": "07-immunity", "name": "রোগ প্রতিরোধ ক্ষমতা" },
+        { "file": "nervous_system.json", "unit": "08-nervous-system", "name": "স্নায়ুতন্ত্র" },
+        { "file": "nutrition_and_health.json", "unit": "09-nutrition-and-health", "name": "পুষ্টি ও স্বাস্থ্য" },
+        { "file": "reproductive_system.json", "unit": "10-reproductive-system", "name": "প্রজননতন্ত্র" },
+        { "file": "respiratory_system.json", "unit": "11-respiratory-system", "name": "শ্বসনতন্ত্র" },
+        { "file": "sense_organs.json", "unit": "12-sense-organs", "name": "ইন্দ্রিয় অঙ্গ" },
+        { "file": "tissues.json", "unit": "13-tissues", "name": "কলাতন্ত্র" }
+      ]
+    }
+  }
+}

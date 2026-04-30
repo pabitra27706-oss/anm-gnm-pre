@@ -1,0 +1,3860 @@
+{
+  "subject": "math",
+  "unit": "06-lcm-and-hcf",
+  "unit_code": "06",
+  "total": 220,
+  "questions": [
+    {
+      "id": "m-06-001",
+      "question": "গুণনীয়ক (Factor) কাকে বলে?",
+      "options": [
+        "যে সংখ্যা দ্বারা অপর একটি সংখ্যা বিভাজ্য নয়",
+        "যে সংখ্যা দ্বারা অপর একটি সংখ্যা নিঃশেষে বিভাজ্য",
+        "যে সংখ্যা অপর একটি সংখ্যার চেয়ে বড়",
+        "যে সংখ্যা অপর একটি সংখ্যার গুণিতক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-002",
+      "question": "গুণিতক (Multiple) কাকে বলে?",
+      "options": [
+        "কোনো সংখ্যাকে পূর্ণসংখ্যা দ্বারা গুণ করলে যে সংখ্যা পাওয়া যায়",
+        "কোনো সংখ্যাকে ভাগ করলে যে সংখ্যা পাওয়া যায়",
+        "দুটি সংখ্যার বিয়োগফল",
+        "দুটি সংখ্যার ভাগফল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-003",
+      "question": "12-এর সমস্ত গুণনীয়কগুলি হল:",
+      "options": [
+        "1, 2, 3, 4, 6, 12",
+        "1, 2, 3, 4, 6, 8, 12",
+        "2, 3, 4, 6, 12",
+        "1, 2, 3, 6, 9, 12"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-004",
+      "question": "5-এর প্রথম পাঁচটি গুণিতক হল:",
+      "options": [
+        "1, 5, 10, 15, 20",
+        "5, 10, 15, 20, 25",
+        "5, 10, 15, 20, 30",
+        "5, 15, 25, 35, 45"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-005",
+      "question": "সাধারণ গুণনীয়ক (Common factor) বলতে কী বোঝায়?",
+      "options": [
+        "যে সংখ্যা দুটি সংখ্যার বিয়োগফলের গুণনীয়ক",
+        "যে সংখ্যা দুটি সংখ্যার যোগফলের গুণনীয়ক",
+        "যে সংখ্যা দুটি বা তার বেশি সংখ্যার প্রত্যেকটির গুণনীয়ক",
+        "যে সংখ্যা দুটি সংখ্যার গুণফলের সমান"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-006",
+      "question": "সাধারণ গুণিতক (Common multiple) কাকে বলে?",
+      "options": [
+        "যে সংখ্যা দুটি সংখ্যার প্রত্যেকটি দ্বারা বিভাজ্য",
+        "যে সংখ্যা দুটি সংখ্যার গুণফল",
+        "যে সংখ্যা দুটি সংখ্যার যোগফল",
+        "যে সংখ্যা দুটি সংখ্যার বিয়োগফল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-007",
+      "question": "গসাগু (HCF) এর পূর্ণ রূপ কী?",
+      "options": [
+        "গুণিতক সংখ্যার গরিষ্ঠ সাধারণ",
+        "গরিষ্ঠ সাধারণ গুণনীয়ক",
+        "গুণনীয়কের সাধারণ গরিষ্ঠ",
+        "গরিষ্ঠ গুণিতক সাধারণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-008",
+      "question": "লসাগু (LCM) এর পূর্ণ রূপ কী?",
+      "options": [
+        "লঘিষ্ঠ গুণিতক সাধারণ",
+        "লঘিষ্ঠ সাধারণ গুণনীয়ক",
+        "লঘিষ্ঠ গুণনীয়ক সাধারণ",
+        "সাধারণ গুণিতকের লঘিষ্ঠ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-009",
+      "question": "12 এবং 18-এর গসাগু (HCF) কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-010",
+      "question": "12 এবং 18-এর লসাগু (LCM) কত?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "72"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-011",
+      "question": "দুটি সংখ্যার গসাগু (HCF) সর্বদা সেই সংখ্যাগুলির ________ হয়।",
+      "options": [
+        "গুণিতক",
+        "ভাজক (গুণনীয়ক)",
+        "লসাগুর সমান",
+        "গুণফলের সমান"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-012",
+      "question": "দুটি সংখ্যার লসাগু (LCM) সর্বদা সেই সংখ্যাগুলির ________ হয়।",
+      "options": [
+        "গুণনীয়ক",
+        "ভাজক",
+        "গুণিতক",
+        "যোগফল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-013",
+      "question": "সহমৌলিক (Co-prime) সংখ্যার গসাগু কত হয়?",
+      "options": [
+        "0",
+        "1",
+        "সংখ্যা দুটির গুণফল",
+        "সংখ্যা দুটির যোগফল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-014",
+      "question": "15 এবং 28-এর গসাগু কত?",
+      "options": [
+        "1",
+        "5",
+        "7",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-015",
+      "question": "8, 12 এবং 20-এর গসাগু কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-016",
+      "question": "6, 8 এবং 12-এর লসাগু কত?",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-017",
+      "question": "দুটি সংখ্যার গুণফল = 144 এবং গসাগু = 6 হলে, লসাগু কত?",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-018",
+      "question": "দুটি সংখ্যার লসাগু = 60 এবং গসাগু = 5। একটি সংখ্যা 15 হলে, অপর সংখ্যাটি কত?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-019",
+      "question": "নিচের কোন বিবৃতিটি সঠিক?",
+      "options": [
+        "HCF ≤ LCM",
+        "HCF ≥ LCM",
+        "HCF = LCM সবসময়",
+        "HCF এবং LCM সম্পর্কহীন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-020",
+      "question": "দুটি ক্রমিক স্বাভাবিক সংখ্যার গসাগু কত?",
+      "options": [
+        "0",
+        "1",
+        "সংখ্যা দুটির গুণফল",
+        "ছোট সংখ্যাটি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-021",
+      "question": "একটি সংখ্যা a, অপর সংখ্যা b দ্বারা নিঃশেষে বিভাজ্য হলে, a এবং b-এর গসাগু কত হবে?",
+      "options": [
+        "a",
+        "b",
+        "a×b",
+        "a/b"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-022",
+      "question": "একটি সংখ্যা a, অপর সংখ্যা b দ্বারা নিঃশেষে বিভাজ্য হলে, a এবং b-এর লসাগু কত হবে?",
+      "options": [
+        "a",
+        "b",
+        "a×b",
+        "a/b"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-023",
+      "question": "কোন সংখ্যাটি 12 এবং 18 উভয়েরই গুণিতক?",
+      "options": [
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-024",
+      "question": "কোন পদ্ধতিটি গসাগু নির্ণয়ের পদ্ধতি নয়?",
+      "options": [
+        "মৌলিক গুণনীয়ক পদ্ধতি",
+        "ভাগ পদ্ধতি (ইউক্লিডীয়)",
+        "গুণিতক তালিকা পদ্ধতি",
+        "লসাগু পদ্ধতি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-025",
+      "question": "16, 24 এবং 40-এর গসাগু কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-026",
+      "question": "9, 12 এবং 18-এর লসাগু কত?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-027",
+      "question": "20, 25 এবং 30-এর লসাগু কত?",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "300"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-028",
+      "question": "24 এবং 36-এর গসাগু ও লসাগুর গুণফল কত?",
+      "options": [
+        "864",
+        "720",
+        "576",
+        "432"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-029",
+      "question": "7 এবং 13-এর গসাগু কত?",
+      "options": [
+        "1",
+        "7",
+        "13",
+        "91"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-030",
+      "question": "7 এবং 13-এর লসাগু কত?",
+      "options": [
+        "1",
+        "7",
+        "13",
+        "91"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-031",
+      "question": "ভগ্নাংশের গসাগু নির্ণয়ের সূত্র কী?",
+      "options": [
+        "লবগুলির গসাগু / হরগুলির লসাগু",
+        "লবগুলির লসাগু / হরগুলির গসাগু",
+        "লবগুলির গসাগু × হরগুলির লসাগু",
+        "লবগুলির লসাগু × হরগুলির গসাগু"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-032",
+      "question": "ভগ্নাংশের লসাগু নির্ণয়ের সূত্র কী?",
+      "options": [
+        "লবগুলির গসাগু / হরগুলির লসাগু",
+        "লবগুলির লসাগু / হরগুলির গসাগু",
+        "লবগুলির গসাগু × হরগুলির লসাগু",
+        "লবগুলির লসাগু × হরগুলির গসাগু"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-033",
+      "question": "2/3 এবং 4/5-এর গসাগু কত?",
+      "options": [
+        "2/15",
+        "4/15",
+        "2/5",
+        "4/5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-034",
+      "question": "1/2, 3/4 এবং 5/6-এর লসাগু কত?",
+      "options": [
+        "15/2",
+        "15/4",
+        "15/8",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-035",
+      "question": "দুটি সংখ্যার গসাগু = 4, লসাগু = 120। একটি সংখ্যা 24 হলে, অপর সংখ্যাটি কত?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-036",
+      "question": "দুটি সংখ্যার গুণফল = 2700 এবং গসাগু = 15 হলে, লসাগু কত?",
+      "options": [
+        "150",
+        "180",
+        "200",
+        "225"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-037",
+      "question": "0 এবং একটি সংখ্যার গসাগু কত?",
+      "options": [
+        "0",
+        "1",
+        "সংখ্যাটি",
+        "অসংজ্ঞায়িত"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-038",
+      "question": "48, 72 এবং 120-এর গসাগু কত?",
+      "options": [
+        "12",
+        "16",
+        "24",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-039",
+      "question": "36, 48 এবং 60-এর লসাগু কত?",
+      "options": [
+        "240",
+        "360",
+        "480",
+        "720"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-040",
+      "question": "25, 35 এবং 45-এর গসাগু কত?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-041",
+      "question": "25, 35 এবং 45-এর লসাগু কত?",
+      "options": [
+        "1225",
+        "1575",
+        "2025",
+        "315"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-042",
+      "question": "12, 18, 24-এর গসাগু কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-043",
+      "question": "সবচেয়ে বড় সংখ্যা যা 16, 24 এবং 32 কে নিঃশেষে ভাগ করবে, তা হল:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-044",
+      "question": "ক্ষুদ্রতম সংখ্যা যা 12, 15 এবং 18 দ্বারা বিভাজ্য, তা হল:",
+      "options": [
+        "120",
+        "150",
+        "180",
+        "240"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-045",
+      "question": "তিনটি ঘণ্টা যথাক্রমে 6 সেকেন্ড, 8 সেকেন্ড এবং 12 সেকেন্ড অন্তর বাজে। তারা কত সেকেন্ড পরে একসাথে বাজবে?",
+      "options": [
+        "12 সেকেন্ড",
+        "24 সেকেন্ড",
+        "36 সেকেন্ড",
+        "48 সেকেন্ড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-046",
+      "question": "একটি দোকানে তিনটি বেল্ট লাইট যথাক্রমে 4 মিনিট, 6 মিনিট এবং 10 মিনিট অন্তর জ্বলে। কত মিনিট পরে তারা একসাথে জ্বলবে?",
+      "options": [
+        "30 মিনিট",
+        "45 মিনিট",
+        "60 মিনিট",
+        "120 মিনিট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-047",
+      "question": "24 মিটার, 36 মিটার এবং 48 মিটার লম্বা তিনটি ফিতা সমান দৈর্ঘ্যের টুকরোতে কাটতে হবে। সবচেয়ে বড় টুকরোর দৈর্ঘ্য কত হবে?",
+      "options": [
+        "6 মিটার",
+        "8 মিটার",
+        "12 মিটার",
+        "24 মিটার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-048",
+      "question": "120টি আম, 144টি কমলা এবং 96টি আপেল কয়েকটি বাক্সে সমানভাবে সাজাতে হবে। সবচেয়ে বেশি কতগুলি বাক্স লাগবে?",
+      "options": [
+        "12",
+        "16",
+        "24",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-049",
+      "question": "দুটি সংখ্যার অনুপাত 3:4 এবং তাদের লসাগু 180। সংখ্যা দুটি কত?",
+      "options": [
+        "30,40",
+        "45,60",
+        "36,48",
+        "60,80"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-050",
+      "question": "দুটি সংখ্যার গসাগু 8 এবং তাদের যোগফল 56। সংখ্যা দুটি কত?",
+      "options": [
+        "16,40",
+        "24,32",
+        "8,48",
+        "20,36"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-051",
+      "question": "কোন সংখ্যা 391 এবং 476-এর গসাগু?",
+      "options": [
+        "17",
+        "19",
+        "23",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-052",
+      "question": "1 থেকে 100-এর মধ্যে কতগুলি সংখ্যা 3 এবং 5 উভয়ের দ্বারা বিভাজ্য?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-053",
+      "question": "\"কোনো সংখ্যার গুণনীয়ক সংখ্যা সসীম\" – এই বিবৃতিটি:",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "কখনও সত্য কখনও মিথ্যা",
+        "সংখ্যার ওপর নির্ভর করে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-054",
+      "question": "\"কোনো সংখ্যার গুণিতক সংখ্যা অসীম\" – এই বিবৃতিটি:",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "শুধুমাত্র জোড় সংখ্যার জন্য সত্য",
+        "শুধুমাত্র মৌলিক সংখ্যার জন্য সত্য"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-055",
+      "question": "0-এর গুণিতক কত?",
+      "options": [
+        "0",
+        "1",
+        "অসংজ্ঞায়িত",
+        "সব সংখ্যা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-056",
+      "question": "HCF(a, a) = ?",
+      "options": [
+        "0",
+        "1",
+        "a",
+        "a²"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-057",
+      "question": "LCM(a, a) = ?",
+      "options": [
+        "1",
+        "a",
+        "a²",
+        "2a"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-058",
+      "question": "0-এর গসাগু 5-এর সাথে কত?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "5/0"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-059",
+      "question": "চারটি সংখ্যার গসাগু ও লসাগুর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "HCF × LCM = a×b×c×d",
+        "HCF × LCM = a+b+c+d",
+        "কোন সরাসরি গুণফল সম্পর্ক নেই",
+        "HCF + LCM = a+b+c+d"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-060",
+      "question": "দুটি সংখ্যার গসাগু 6, লসাগু 72। একটি সংখ্যা 18 হলে, অপর সংখ্যাটি কত?",
+      "options": [
+        "20",
+        "24",
+        "30",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-061",
+      "question": "144 এবং 180-এর গসাগু কত?",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "36"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-062",
+      "question": "144 এবং 180-এর লসাগু কত?",
+      "options": [
+        "360",
+        "540",
+        "720",
+        "1440"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-063",
+      "question": "2310 এবং 4620-এর গসাগু কত?",
+      "options": [
+        "210",
+        "231",
+        "462",
+        "2310"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-064",
+      "question": "নিচের কোন জোড়টি সহমৌলিক (co-prime)?",
+      "options": [
+        "(8,12)",
+        "(9,21)",
+        "(15,28)",
+        "(18,27)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-065",
+      "question": "গসাগু নির্ণয়ের ইউক্লিডীয় ভাগ পদ্ধতি কোন ধারণার ওপর ভিত্তি করে?",
+      "options": [
+        "বীজগণিত",
+        "ভগ্নাংশ",
+        "ভাগশেষ",
+        "গড়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-066",
+      "question": "48, 64 এবং 80-এর গসাগু কত?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-067",
+      "question": "105 এবং 210-এর লসাগু কত?",
+      "options": [
+        "105",
+        "210",
+        "315",
+        "420"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-068",
+      "question": "72 এবং 108-এর গসাগু ও লসাগুর গুণফল কত?",
+      "options": [
+        "7776",
+        "6480",
+        "5832",
+        "5184"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-069",
+      "question": "5, 10, 15, 20-এর গসাগু কত?",
+      "options": [
+        "1",
+        "5",
+        "10",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-070",
+      "question": "5, 10, 15, 20-এর লসাগু কত?",
+      "options": [
+        "30",
+        "60",
+        "90",
+        "120"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-071",
+      "question": "14, 21, 28, 35-এর গসাগু কত?",
+      "options": [
+        "7",
+        "14",
+        "21",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-072",
+      "question": "14, 21, 28, 35-এর লসাগু কত?",
+      "options": [
+        "210",
+        "280",
+        "350",
+        "420"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-073",
+      "question": "দুটি সংখ্যার লসাগু 480 এবং গসাগু 24। একটি সংখ্যা 96 হলে, অপর সংখ্যাটি কত?",
+      "options": [
+        "80",
+        "100",
+        "120",
+        "160"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-074",
+      "question": "কোন বিবৃতিটি সত্য?",
+      "options": [
+        "HCF সবসময় সংখ্যার যোগফলের সমান",
+        "LCM সবসময় সংখ্যার গুণফলের সমান",
+        "LCM সবসময় HCF দ্বারা বিভাজ্য",
+        "HCF সবসময় LCM দ্বারা বিভাজ্য"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-075",
+      "question": "49 এবং 77-এর গসাগু কত?",
+      "options": [
+        "7",
+        "11",
+        "49",
+        "77"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-076",
+      "question": "49 এবং 77-এর লসাগু কত?",
+      "options": [
+        "539",
+        "637",
+        "693",
+        "847"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-077",
+      "question": "32, 40, 48-এর লসাগু কত?",
+      "options": [
+        "240",
+        "360",
+        "480",
+        "960"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-078",
+      "question": "11, 22, 33, 44-এর গসাগু কত?",
+      "options": [
+        "11",
+        "22",
+        "33",
+        "44"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-079",
+      "question": "11, 22, 33, 44-এর লসাগু কত?",
+      "options": [
+        "44",
+        "66",
+        "88",
+        "132"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-080",
+      "question": "একটি মোড়ে তিনটি ট্রাফিক সিগন্যাল যথাক্রমে 12 সেকেন্ড, 18 সেকেন্ড এবং 24 সেকেন্ড অন্তর সবুজ হয়। তারা কত সেকেন্ড পরে একসাথে সবুজ হবে?",
+      "options": [
+        "36 সেকেন্ড",
+        "48 সেকেন্ড",
+        "60 সেকেন্ড",
+        "72 সেকেন্ড"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-081",
+      "question": "60টি লিচু, 84টি জাম এবং 108টি কলা সমান সংখ্যক শিশুর মধ্যে সমানভাবে ভাগ করে দিতে হবে। সবচেয়ে বেশি কত শিশুর মধ্যে ভাগ করা যাবে?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-082",
+      "question": "3/4, 5/6 এবং 7/8-এর গসাগু কত?",
+      "options": [
+        "1/24",
+        "1/12",
+        "1/8",
+        "1/6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-083",
+      "question": "2/3, 3/4 এবং 4/5-এর লসাগু কত?",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-084",
+      "question": "কোন সংখ্যা সবচেয়ে ছোট যা 24, 36 এবং 48 দ্বারা ভাগ করলে প্রতিটি ক্ষেত্রে 5 ভাগশেষ থাকে?",
+      "options": [
+        "149",
+        "145",
+        "141",
+        "139"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-085",
+      "question": "420 এবং 630-এর গসাগু কত?",
+      "options": [
+        "105",
+        "140",
+        "210",
+        "315"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-086",
+      "question": "কোন সংখ্যা 209 এবং 247-এর গসাগু?",
+      "options": [
+        "19",
+        "17",
+        "13",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-087",
+      "question": "6, 15, 18, 30-এর লসাগু কত?",
+      "options": [
+        "30",
+        "60",
+        "90",
+        "120"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-088",
+      "question": "4, 6, 8, 12, 16-এর গসাগু কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-089",
+      "question": "4, 6, 8, 12, 16-এর লসাগু কত?",
+      "options": [
+        "24",
+        "36",
+        "48",
+        "96"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-090",
+      "question": "18, 27, 36, 45-এর গসাগু কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-091",
+      "question": "18, 27, 36, 45-এর লসাগু কত?",
+      "options": [
+        "180",
+        "270",
+        "360",
+        "540"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-092",
+      "question": "56 এবং 84-এর গসাগু কত?",
+      "options": [
+        "14",
+        "21",
+        "28",
+        "42"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-093",
+      "question": "56 এবং 84-এর লসাগু কত?",
+      "options": [
+        "112",
+        "140",
+        "168",
+        "224"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-094",
+      "question": "একটি সংখ্যা 1001 এবং 2431-এর গসাগু কত?",
+      "options": [
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-095",
+      "question": "36, 40, 48, 60-এর লসাগু কত?",
+      "options": [
+        "480",
+        "540",
+        "600",
+        "720"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-096",
+      "question": "কোন বিবৃতিটি ভুল?",
+      "options": [
+        "দুটি মৌলিক সংখ্যার গসাগু 1",
+        "দুটি মৌলিক সংখ্যার লসাগু তাদের গুণফল",
+        "দুটি ক্রমিক সংখ্যার গসাগু 1",
+        "দুটি ক্রমিক জোড় সংখ্যার লসাগু তাদের গুণফল"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-097",
+      "question": "81 এবং 54-এর গসাগু কত?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "54"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-098",
+      "question": "81 এবং 54-এর লসাগু কত?",
+      "options": [
+        "81",
+        "108",
+        "162",
+        "324"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-099",
+      "question": "75, 90, 105-এর গসাগু কত?",
+      "options": [
+        "15",
+        "25",
+        "30",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-100",
+      "question": "75, 90, 105-এর লসাগু কত?",
+      "options": [
+        "1050",
+        "1350",
+        "1575",
+        "3150"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-101",
+      "question": "দুটি সংখ্যার অনুপাত 2:3 এবং তাদের গসাগু 4। সংখ্যা দুটির লসাগু কত?",
+      "options": [
+        "12",
+        "20",
+        "24",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-102",
+      "question": "তিনটি সংখ্যার গসাগু 12 এবং তারা পরস্পরের অনুপাতে 1:2:3। সংখ্যা তিনটি কত?",
+      "options": [
+        "12,24,36",
+        "6,12,18",
+        "24,48,72",
+        "3,6,9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-103",
+      "question": "কোন পদ্ধতিতে ভগ্নাংশের গসাগু নির্ণয় করা সম্ভব নয়?",
+      "options": [
+        "লবের গসাগু / হরের লসাগু",
+        "প্রতিটি ভগ্নাংশকে লঘিষ্ঠ আকারে এনে লবের গসাগু / হরের লসাগু",
+        "সব ভগ্নাংশের হর সমান করে লবের গসাগু / সাধারণ হর",
+        "লবের লসাগু / হরের গসাগু"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-104",
+      "question": "120, 150, 180-এর লসাগু কত?",
+      "options": [
+        "600",
+        "900",
+        "1200",
+        "1800"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-105",
+      "question": "7, 13, 19-এর গসাগু কত?",
+      "options": [
+        "1",
+        "7",
+        "13",
+        "19"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-106",
+      "question": "7, 13, 19-এর লসাগু কত?",
+      "options": [
+        "1729",
+        "1728",
+        "1369",
+        "2197"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-107",
+      "question": "180, 252 এবং 324-এর গসাগু কত?",
+      "options": [
+        "18",
+        "24",
+        "36",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-108",
+      "question": "180, 252 এবং 324-এর লসাগু কত?",
+      "options": [
+        "2268",
+        "4536",
+        "5670",
+        "11340"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-109",
+      "question": "210 এবং 315-এর গসাগু কত?",
+      "options": [
+        "35",
+        "45",
+        "63",
+        "105"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-110",
+      "question": "210 এবং 315-এর লসাগু কত?",
+      "options": [
+        "420",
+        "630",
+        "840",
+        "1260"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-111",
+      "question": "কয়েকটি সংখ্যার গসাগু 12 এবং লসাগু 840। একটি সংখ্যা 84 হলে, অপর সম্ভাব্য সংখ্যা কত?",
+      "options": [
+        "96",
+        "108",
+        "120",
+        "140"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-112",
+      "question": "11 এবং 19-এর লসাগু কত?",
+      "options": [
+        "11",
+        "19",
+        "209",
+        "229"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-113",
+      "question": "8, 9, 10-এর লসাগু কত?",
+      "options": [
+        "240",
+        "360",
+        "480",
+        "720"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-114",
+      "question": "কোন জোড় সংখ্যার গসাগু 7 এবং লসাগু 70?",
+      "options": [
+        "7,70",
+        "14,35",
+        "21,70",
+        "35,42"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-115",
+      "question": "27, 45, 63-এর গসাগু কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "18"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-116",
+      "question": "27, 45, 63-এর লসাগু কত?",
+      "options": [
+        "315",
+        "630",
+        "945",
+        "1260"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-117",
+      "question": "39, 52, 65-এর গসাগু কত?",
+      "options": [
+        "13",
+        "17",
+        "19",
+        "23"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-118",
+      "question": "39, 52, 65-এর লসাগু কত?",
+      "options": [
+        "260",
+        "390",
+        "520",
+        "780"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-119",
+      "question": "কোন ক্ষুদ্রতম সংখ্যা 8, 12, 15 দ্বারা বিভাজ্য?",
+      "options": [
+        "60",
+        "80",
+        "100",
+        "120"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-06-120",
+      "question": "147 এবং 189-এর গসাগু কত?",
+      "options": [
+        "21",
+        "27",
+        "33",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-121",
+      "question": "147 এবং 189-এর লসাগু কত?",
+      "options": [
+        "567",
+        "756",
+        "882",
+        "1323"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-122",
+      "question": "84, 144, 196-এর গসাগু কত?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-123",
+      "question": "84, 144, 196-এর লসাগু কত?",
+      "options": [
+        "2352",
+        "4704",
+        "7056",
+        "14112"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-124",
+      "question": "একটি মাঠের তিনটি প্রান্তে তিনটি বাতি যথাক্রমে 8 সেকেন্ড, 12 সেকেন্ড এবং 18 সেকেন্ড অন্তর জ্বলে। কত সেকেন্ড পরে তারা একসাথে জ্বলবে?",
+      "options": [
+        "48 সেকেন্ড",
+        "56 সেকেন্ড",
+        "64 সেকেন্ড",
+        "72 সেকেন্ড"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-125",
+      "question": "24, 36, 54, 60-এর লসাগু কত?",
+      "options": [
+        "180",
+        "240",
+        "360",
+        "540"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-126",
+      "question": "18, 30, 42, 66-এর গসাগু কত?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-127",
+      "question": "18, 30, 42, 66-এর লসাগু কত?",
+      "options": [
+        "1260",
+        "1386",
+        "2310",
+        "3465"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-128",
+      "question": "250 এবং 350-এর গসাগু কত?",
+      "options": [
+        "25",
+        "35",
+        "50",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-129",
+      "question": "250 এবং 350-এর লসাগু কত?",
+      "options": [
+        "700",
+        "875",
+        "1050",
+        "1750"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-130",
+      "question": "28, 49, 84-এর লসাগু কত?",
+      "options": [
+        "196",
+        "392",
+        "588",
+        "784"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-131",
+      "question": "225 এবং 315-এর গসাগু কত?",
+      "options": [
+        "15",
+        "25",
+        "35",
+        "45"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-132",
+      "question": "225 এবং 315-এর লসাগু কত?",
+      "options": [
+        "1575",
+        "3150",
+        "4725",
+        "6300"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-133",
+      "question": "150, 210, 330-এর গসাগু কত?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-134",
+      "question": "150, 210, 330-এর লসাগু কত?",
+      "options": [
+        "1050",
+        "2100",
+        "3150",
+        "6300"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-135",
+      "question": "একটি ক্লাসে 60 জন ছেলে ও 84 জন মেয়ে আছে। তাদের সমান সংখ্যক গ্রুপে ভাগ করতে হবে এবং প্রতিটি গ্রুপে ছেলে ও মেয়ের সংখ্যা সমান হবে। সর্বোচ্চ কত গ্রুপ করা যাবে?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-136",
+      "question": "1008 এবং 1512-এর গসাগু কত?",
+      "options": [
+        "168",
+        "252",
+        "336",
+        "504"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-137",
+      "question": "16, 25, 36-এর লসাগু কত?",
+      "options": [
+        "1200",
+        "2400",
+        "3600",
+        "7200"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-138",
+      "question": "14, 18, 32-এর গসাগু কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-139",
+      "question": "14, 18, 32-এর লসাগু কত?",
+      "options": [
+        "1008",
+        "1512",
+        "2016",
+        "3024"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-140",
+      "question": "231, 273, 315-এর গসাগু কত?",
+      "options": [
+        "21",
+        "27",
+        "33",
+        "39"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-141",
+      "question": "231, 273, 315-এর লসাগু কত?",
+      "options": [
+        "45045",
+        "15015",
+        "30030",
+        "60060"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-142",
+      "question": "“ফ্যাক্টরাইজেশন পদ্ধতিতে গসাগু পেতে মৌলিক গুণনীয়কগুলির ক্ষুদ্রতম ঘাত নিতে হয়” – এই বক্তব্য:",
+      "options": [
+        "সঠিক",
+        "ভুল, গসাগুতে বড় ঘাত নিতে হয়",
+        "লসাগুর ক্ষেত্রে প্রযোজ্য",
+        "ভগ্নাংশের ক্ষেত্রে প্রযোজ্য"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-143",
+      "question": "কোন সংখ্যাটি 432 এবং 648-এর গসাগু?",
+      "options": [
+        "72",
+        "108",
+        "144",
+        "216"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-144",
+      "question": "সবচেয়ে ছোট সংখ্যা যা 5, 6, 7, 8 দ্বারা বিভাজ্য:",
+      "options": [
+        "420",
+        "560",
+        "630",
+        "840"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-145",
+      "question": "125, 325, 425-এর গসাগু কত?",
+      "options": [
+        "5",
+        "15",
+        "25",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-146",
+      "question": "125, 325, 425-এর লসাগু কত?",
+      "options": [
+        "27625",
+        "28750",
+        "29500",
+        "31250"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-147",
+      "question": "64, 96, 128-এর লসাগু কত?",
+      "options": [
+        "128",
+        "256",
+        "384",
+        "512"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-148",
+      "question": "49, 56, 63-এর গসাগু কত?",
+      "options": [
+        "7",
+        "14",
+        "21",
+        "28"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-149",
+      "question": "49, 56, 63-এর লসাগু কত?",
+      "options": [
+        "392",
+        "504",
+        "784",
+        "1008"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-150",
+      "question": "85 এবং 102-এর গসাগু কত?",
+      "options": [
+        "17",
+        "19",
+        "23",
+        "29"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-151",
+      "question": "85 এবং 102-এর লসাগু কত?",
+      "options": [
+        "510",
+        "595",
+        "680",
+        "765"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-152",
+      "question": "তিনটি ঘণ্টা 15 মিনিট, 20 মিনিট ও 25 মিনিট অন্তর বাজে। তারা কত মিনিট পরে একসঙ্গে বাজবে?",
+      "options": [
+        "150 min",
+        "200 min",
+        "250 min",
+        "300 min"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-153",
+      "question": "16, 28, 40, 52-এর গসাগু কত?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-06-154",
+      "question": "16, 28, 40, 52-এর লসাগু কত?",
+      "options": [
+        "3640",
+        "5460",
+        "7280",
+        "10920"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-06-155",
+      "question": "24 এবং 36-এর জন্য নিচের কোনটি সঠিক?",
+      "options": [
+        "HCF = 12",
+        "LCM = 72",
+        "HCF × LCM = 864",
+        "HCF < LCM"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-06-156",
+      "question": "সহমৌলিক সংখ্যা জোড়ার বৈশিষ্ট্য:",
+      "options": [
+        "HCF = 1",
+        "LCM = গুণফল",
+        "উভয় সংখ্যাই মৌলিক হতে হবে",
+        "সংখ্যা দুটি জোড় হতে পারে না"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-157",
+      "question": "12, 18, 24-এর জন্য সঠিক বিবৃতি:",
+      "options": [
+        "HCF = 6",
+        "LCM = 72",
+        "6, 72-কে বিভাজিত করে",
+        "সংখ্যা তিনটির গুণফল = 5184"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-158",
+      "question": "দুটি সংখ্যার গসাগু 8 এবং লসাগু 120। সংখ্যা দুটি হতে পারে:",
+      "options": [
+        "24, 40",
+        "16, 60",
+        "8, 120",
+        "40, 48"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-159",
+      "question": "18, 30, 45-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 3",
+        "LCM = 90",
+        "LCM × HCF = 18×30×45",
+        "LCM সব সংখ্যার গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-160",
+      "question": "0 এবং 0-এর গসাগু ও লসাগু নিয়ে সঠিক বক্তব্য:",
+      "options": [
+        "HCF অসংজ্ঞায়িত",
+        "LCM অসংজ্ঞায়িত",
+        "HCF = 0",
+        "LCM = 0"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-161",
+      "question": "12, 15, 18, 20-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 180",
+        "180, 20 দ্বারা বিভাজ্য",
+        "HCF × LCM = 12×15×18×20"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-162",
+      "question": "3/4 এবং 5/6-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1/12",
+        "LCM = 15/2",
+        "LCM = 15",
+        "HCF = 1/4"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-163",
+      "question": "14, 21, 35-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 7",
+        "LCM = 210",
+        "210, 26 দ্বারা বিভাজ্য নয়",
+        "7 × 210 = 14×21×35"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-164",
+      "question": "দুটি সংখ্যার গসাগু 9 ও লসাগু 54। সংখ্যা দুটি হতে পারে:",
+      "options": [
+        "9, 54",
+        "18, 27",
+        "9, 27",
+        "18, 36"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-165",
+      "question": "36, 48, 60-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 720",
+        "LCM = 240",
+        "HCF × LCM ≠ 36×48×60"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-166",
+      "question": "25, 30, 40-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 5",
+        "LCM = 600",
+        "LCM = 300",
+        "600, 30 ও 40 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-167",
+      "question": "2, 4, 6, 8, 10-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 2",
+        "LCM = 120",
+        "LCM = 240",
+        "120, 8 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-168",
+      "question": "1 থেকে 20-এর মধ্যে কোন জোড়া সহমৌলিক?",
+      "options": [
+        "(9,16)",
+        "(10,21)",
+        "(14,15)",
+        "(8,12)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-169",
+      "question": "8, 9, 10-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 360",
+        "360, 12 দ্বারা বিভাজ্য",
+        "360, 8,9,10-এর সাধারণ গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-170",
+      "question": "48, 72, 108-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 432",
+        "12 × 432 = 48×72×108",
+        "432, 108 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-171",
+      "question": "5, 10, 15, 20, 25-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 5",
+        "LCM = 300",
+        "LCM = 150",
+        "300, 25 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-172",
+      "question": "30, 42, 54, 66-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 6",
+        "LCM = 13860",
+        "LCM = 6930",
+        "6 × 13860 = 30×42×54×66"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-173",
+      "question": "121, 143, 187-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 11",
+        "LCM = 11×11×13×17",
+        "LCM = 13×17×11",
+        "কোনোটিই সহমৌলিক নয়"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-174",
+      "question": "4, 6, 12-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 2",
+        "LCM = 12",
+        "LCM, 4 ও 6-এর গুণিতক",
+        "HCF × LCM = 4×6"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-06-175",
+      "question": "15, 20, 25-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 5",
+        "LCM = 150",
+        "LCM = 300",
+        "150, 12 দ্বারা বিভাজ্য নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-176",
+      "question": "7, 13, 19-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 1729",
+        "সংখ্যা তিনটি সহমৌলিক",
+        "LCM = 7×13×19"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-177",
+      "question": "24, 40, 56, 72-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 8",
+        "LCM = 2520",
+        "8, 2520-এর গুণনীয়ক",
+        "2520, 56 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-178",
+      "question": "18, 27, 36-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 9",
+        "LCM = 108",
+        "108, 54 দ্বারা বিভাজ্য",
+        "9×108 = 18×27×36"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-179",
+      "question": "23, 29, 31-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 20677",
+        "এরা সব মৌলিক",
+        "LCM = তাদের গুণফলের অর্ধেক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-180",
+      "question": "10, 12, 15, 18-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 180",
+        "180, 24 দ্বারা বিভাজ্য",
+        "180, সব সংখ্যার গুণিতক"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-181",
+      "question": "49 এবং 64-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 3136",
+        "এরা সহমৌলিক",
+        "এদের গসাগু, 7 ও 2-এর গুণফল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-182",
+      "question": "32, 48, 64, 80-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 16",
+        "LCM = 480",
+        "LCM = 960",
+        "16 × 960 = 32×48×64×80"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-183",
+      "question": "6, 10, 14, 22-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 2",
+        "LCM = 2310",
+        "LCM = 4620",
+        "2 × 2310 = 6×10×14×22"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-184",
+      "question": "দুই সংখ্যার গুণফল = 2240 এবং গসাগু = 8। লসাগু হতে পারে:",
+      "options": [
+        "280",
+        "260",
+        "280 থেকে বড়",
+        "280 থেকে ছোট"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-185",
+      "question": "9, 15, 21, 27-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 3",
+        "LCM = 945",
+        "945, 81 দ্বারা বিভাজ্য",
+        "945, 45 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-186",
+      "question": "12, 16, 20, 24-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 4",
+        "LCM = 240",
+        "240, 32 দ্বারা বিভাজ্য নয়",
+        "240, 8 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-187",
+      "question": "13, 17, 19-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 4199",
+        "4199, 39 দ্বারা বিভাজ্য নয়",
+        "এরা পরস্পর সহমৌলিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-188",
+      "question": "16, 24, 32, 40-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 8",
+        "LCM = 480",
+        "LCM = 960",
+        "8, 480-এর গুণনীয়ক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-189",
+      "question": "3, 6, 9, 12, 15-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 3",
+        "LCM = 180",
+        "LCM = 360",
+        "180, 9-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-06-190",
+      "question": "100 এবং 625-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 25",
+        "LCM = 2500",
+        "2500, 100-এর গুণিতক",
+        "25 × 2500 = 100×625"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-191",
+      "question": "45, 75, 105-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 15",
+        "LCM = 1575",
+        "1575, 45 ও 75-এর গুণিতক",
+        "15 × 1575 = 45×75×105"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-192",
+      "question": "1, 2, 3, 4, 5, 6-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 60",
+        "1 এর সঙ্গে যেকোনো সংখ্যার গসাগু 1",
+        "লসাগু সব সংখ্যার গুণফল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-06-193",
+      "question": "তিনটি ভগ্নাংশ 1/2, 1/3, 1/4-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1/12",
+        "LCM = 1",
+        "LCM = 1/12",
+        "HCF = 1"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-194",
+      "question": "24, 36, 48, 60-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 720",
+        "720, 12 দ্বারা বিভাজ্য",
+        "720, 40 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-195",
+      "question": "17, 34, 51-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 17",
+        "LCM = 102",
+        "102, 7 দ্বারা বিভাজ্য",
+        "102, 17-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-196",
+      "question": "81, 108, 135-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 27",
+        "LCM = 1620",
+        "1620, 45 দ্বারা বিভাজ্য",
+        "27 × 1620 = 81×108×135"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-197",
+      "question": "8, 12, 18, 24-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 2",
+        "LCM = 72",
+        "72, 36 দ্বারা বিভাজ্য",
+        "72, 8,12,18,24-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-198",
+      "question": "42, 56, 70-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 14",
+        "LCM = 840",
+        "840, 7 দ্বারা বিভাজ্য",
+        "14 × 840 = 42×56×70"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-199",
+      "question": "1/3, 2/5, 4/7-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1/105",
+        "LCM = 4",
+        "LCM = 4/1",
+        "HCF = 1/5"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-200",
+      "question": "28, 35, 42, 49-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 7",
+        "LCM = 2940",
+        "LCM = 5880",
+        "7 × 2940 = 28×35×42×49"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-201",
+      "question": "60, 72, 84, 96-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 5040",
+        "5040, 30 দ্বারা বিভাজ্য",
+        "5040, 120 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-202",
+      "question": "2, 3, 5, 7, 11-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 2310",
+        "LCM = 2×3×5×7×11",
+        "2310, 22 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-06-203",
+      "question": "120, 180, 240-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 60",
+        "LCM = 720",
+        "720, 60 দ্বারা বিভাজ্য",
+        "720, 360 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-204",
+      "question": "56, 84, 112-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 28",
+        "LCM = 336",
+        "336, 7 দ্বারা বিভাজ্য",
+        "28 × 336 = 56×84×112"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-205",
+      "question": "15, 25, 35, 45-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 5",
+        "LCM = 1575",
+        "1575, 75 দ্বারা বিভাজ্য",
+        "1575, 105 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-206",
+      "question": "0, 5, 10-এর জন্য সঠিক:",
+      "options": [
+        "HCF(5,10)=5, কিন্তু 0 বাদে",
+        "0 এবং 5-এর গসাগু 5",
+        "লসাগু অসংজ্ঞায়িত কারণ 0",
+        "0,50 লসাগু অসংজ্ঞায়িত"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-207",
+      "question": "22, 33, 44, 55-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 11",
+        "LCM = 660",
+        "660, 11 দ্বারা বিভাজ্য",
+        "660, 110 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-208",
+      "question": "2/5, 3/10, 7/15-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1/30",
+        "LCM = 42/5",
+        "LCM = 42/5 = 8.4",
+        "HCF = 1/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-209",
+      "question": "96, 144, 192-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 48",
+        "LCM = 576",
+        "576, 96 দ্বারা বিভাজ্য",
+        "48 × 576 = 96×144×192"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-210",
+      "question": "27, 54, 81-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 27",
+        "LCM = 81",
+        "LCM = 162",
+        "27, 81-এর গুণনীয়ক"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-211",
+      "question": "36, 54, 72, 90-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 18",
+        "LCM = 1080",
+        "1080, 12 দ্বারা বিভাজ্য",
+        "1080, 5 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-212",
+      "question": "0.5, 1.5, 2.5 (ভগ্নাংশ আকারে লিখে) এর জন্য সঠিক:",
+      "options": [
+        "1/2, 3/2, 5/2",
+        "HCF = 1/2",
+        "LCM = 15/2",
+        "LCM = 7.5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-213",
+      "question": "112, 168, 224-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 56",
+        "LCM = 672",
+        "672, 8 দ্বারা বিভাজ্য",
+        "672, 56 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-214",
+      "question": "45, 90, 135-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 45",
+        "LCM = 90",
+        "LCM = 135",
+        "90, 45-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-215",
+      "question": "75, 100, 125-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 25",
+        "LCM = 500",
+        "LCM = 1500",
+        "500, 25 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-216",
+      "question": "12, 24, 36, 48-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 12",
+        "LCM = 144",
+        "144, 12,24,36,48-এর লসাগু",
+        "144, 72 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-217",
+      "question": "3, 8, 12, 16-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 1",
+        "LCM = 48",
+        "48, 24 দ্বারা বিভাজ্য",
+        "48, 3,8,12,16-এর গুণিতক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-218",
+      "question": "63, 84, 105-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 21",
+        "LCM = 1260",
+        "1260, 5 দ্বারা বিভাজ্য",
+        "1260, 21 দ্বারা বিভাজ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-06-219",
+      "question": "22, 26, 34, 38-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 2",
+        "LCM = 2×11×13×17×19",
+        "LCM = 92378",
+        "2 × 92378 = 22×26×34×38"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-06-220",
+      "question": "144, 240, 336-এর জন্য সঠিক:",
+      "options": [
+        "HCF = 48",
+        "LCM = 5040",
+        "5040, 36 দ্বারা বিভাজ্য",
+        "48 × 5040 = 144×240×336"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "06-lcm-and-hcf",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

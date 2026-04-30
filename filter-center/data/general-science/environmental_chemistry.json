@@ -1,0 +1,4366 @@
+{
+  "subject": "physics",
+  "unit": "06-environmental-chemistry",
+  "unit_code": "06",
+  "total": 250,
+  "questions": [
+    {
+      "id": "p-06-001",
+      "question": "পরিবেশ রসায়ন (Environmental Chemistry) এর মূল বিষয় কী?",
+      "options": [
+        "শুধু রাসায়নিক বিক্রিয়া",
+        "পরিবেশে রাসায়নিক দূষণ ও তার প্রভাব",
+        "শুধু বায়ু দূষণ",
+        "শুধু জল দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-002",
+      "question": "বায়ু দূষণ কাকে বলে?",
+      "options": [
+        "বায়ুতে O₂ বৃদ্ধি",
+        "বায়ুতে ক্ষতিকারক পদার্থের উপস্থিতি যা জীবের ক্ষতি করে",
+        "বায়ুতে N₂ বৃদ্ধি",
+        "বায়ুতে জলীয় বাষ্প বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-003",
+      "question": "বায়ু দূষণের প্রধান উৎস কী?",
+      "options": [
+        "শুধু প্রাকৃতিক উৎস",
+        "শুধু যানবাহন",
+        "জীবাশ্ম জ্বালানির দহন ও শিল্পকারখানা",
+        "শুধু কৃষিকার্য"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-004",
+      "question": "কার্বন মনোক্সাইড (CO) কিভাবে তৈরি হয়?",
+      "options": [
+        "সম্পূর্ণ দহনে",
+        "ফটোসংশ্লেষে",
+        "জ্বালানির অসম্পূর্ণ দহনে",
+        "শ্বসনে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-005",
+      "question": "কার্বন মনোক্সাইড (CO) শরীরে কী ক্ষতি করে?",
+      "options": [
+        "ফুসফুসের টিস্যু নষ্ট করে",
+        "হিমোগ্লোবিনের সাথে যুক্ত হয়ে অক্সিজেন পরিবহন বাধা দেয়",
+        "চামড়ার ক্যান্সার করে",
+        "অ্যাসিডিটি বাড়ায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-006",
+      "question": "CO হিমোগ্লোবিনের সাথে যুক্ত হয়ে কী তৈরি করে?",
+      "options": [
+        "অক্সিহিমোগ্লোবিন",
+        "মিথেমোগ্লোবিন",
+        "কার্বক্সিহিমোগ্লোবিন",
+        "সালফোহিমোগ্লোবিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-007",
+      "question": "CO₂ বায়ুমণ্ডলে কোন সমস্যার প্রধান কারণ?",
+      "options": [
+        "অ্যাসিড বৃষ্টি",
+        "ওজোন স্তরের ক্ষয়",
+        "গ্রীনহাউস প্রভাব ও বিশ্ব উষ্ণায়ন",
+        "সালোকসংশ্লেষ হ্রাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-008",
+      "question": "SO₂ দূষণের প্রধান উৎস কী?",
+      "options": [
+        "যানবাহন",
+        "কৃষিকাজ",
+        "কয়লা ও খনিজ তেলের দহন",
+        "পারমাণবিক বোমা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-009",
+      "question": "SO₂ মানবদেহে কোন রোগের কারণ হতে পারে?",
+      "options": [
+        "ডায়াবেটিস",
+        "শ্বাসকষ্ট, ব্রঙ্কাইটিস",
+        "উচ্চ রক্তচাপ",
+        "হৃদরোগ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-010",
+      "question": "NO₂ গ্যাসের উৎস কী?",
+      "options": [
+        "কৃষিকাজ",
+        "যানবাহন ও শিল্পের নির্গমন",
+        "পাহাড়ি ঝর্ণা",
+        "সমুদ্রের জল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-011",
+      "question": "SPM এর পূর্ণরূপ কী?",
+      "options": [
+        "Suspended Particulate Matter",
+        "Soluble Particle Mixture",
+        "Solid Partial Material",
+        "Suspended Polluted Mass"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-012",
+      "question": "SPM কী?",
+      "options": [
+        "দ্রবীভূত গ্যাস",
+        "বায়ুতে ভাসমান ক্ষুদ্র কঠিন কণা",
+        "অতি ভারী ধাতু",
+        "তেজস্ক্রিয় রশ্মি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-013",
+      "question": "PM 2.5 কী নির্দেশ করে?",
+      "options": [
+        "পানির গুণমান",
+        "2.5 মাইক্রোমিটার বা তার কম ব্যাসের কণা",
+        "মাটির pH",
+        "রাসায়নিকের ঘনত্ব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-014",
+      "question": "ধোঁয়াশা (Smog) কাকে বলে?",
+      "options": [
+        "শুধু ধোঁয়া",
+        "ধোঁয়া ও কুয়াশার মিশ্রণ",
+        "শুধু কুয়াশা",
+        "বৃষ্টির জল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-015",
+      "question": "ফটোকেমিক্যাল স্মগ তৈরিতে কোনটি দায়ী?",
+      "options": [
+        "CO",
+        "SO₂",
+        "NO₂, O₃ ও সূর্যালোক",
+        "CO₂"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-016",
+      "question": "বায়ুর গুণমান সূচক (AQI) কী মাপে?",
+      "options": [
+        "শুধু অক্সিজেন",
+        "বায়ুর সার্বিক দূষণ মাত্রা",
+        "শুধু ধূলিকণা",
+        "জলের গুণমান"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-017",
+      "question": "নিচের কোনটি প্রাইমারি এয়ার পলিউট্যান্ট?",
+      "options": [
+        "ওজোন (O₃)",
+        "পারঅক্সিঅ্যাসিটিল নাইট্রেট",
+        "SO₂",
+        "স্মগ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-018",
+      "question": "বায়ু দূষণের ফলে নিচের কোন রোগটি হতে পারে?",
+      "options": [
+        "কলেরা",
+        "অ্যাজমা",
+        "টাইফয়েড",
+        "জন্ডিস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-019",
+      "question": "জল দূষণ কাকে বলে?",
+      "options": [
+        "জলে খনিজ পদার্থের উপস্থিতি",
+        "জলে ক্ষতিকারক রাসায়নিক, জৈব বর্জ্যের উপস্থিতি",
+        "জলে O₂ বৃদ্ধি",
+        "জলে মাছ চাষ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-020",
+      "question": "জলে কলিফর্ম ব্যাকটেরিয়া থাকা কী নির্দেশ করে?",
+      "options": [
+        "জল খাওয়ার উপযুক্ত",
+        "জলে অক্সিজেন বেশি",
+        "জল পয়ঃপ্রণালীর বর্জ্য দ্বারা দূষিত",
+        "জল পরিষ্কার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-021",
+      "question": "জলের দূষণ মাপার অন্যতম গুরুত্বপূর্ণ সূচক কোনটি?",
+      "options": [
+        "COD (রাসায়নিক অক্সিজেন চাহিদা)",
+        "BOD (জৈব-রাসায়নিক অক্সিজেন চাহিদা)",
+        "DO (দ্রবীভূত অক্সিজেন)  - তবে ক্ষমতা বা দূষণ বোঝাতে BOD",
+        "পিএইচ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-022",
+      "question": "BOD (Biochemical Oxygen Demand) কী নির্দেশ করে?",
+      "options": [
+        "অক্সিজেনের পরিমাণ",
+        "জৈব পদার্থ ভাঙতে প্রয়োজনীয় অক্সিজেনের পরিমাণ",
+        "কার্বন ডাইঅক্সাইডের পরিমাণ",
+        "নাইট্রোজেনের পরিমাণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-023",
+      "question": "পরিষ্কার জলের BOD মান কেমন হয়?",
+      "options": [
+        "খুব বেশি",
+        "মাঝারি",
+        "কম",
+        "শূন্য"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-024",
+      "question": "দূষিত জলের BOD মান কেমন হয়?",
+      "options": [
+        "কম",
+        "বেশি",
+        "শূন্য",
+        "অপরিবর্তিত"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-025",
+      "question": "ইউট্রোফিকেশন কী?",
+      "options": [
+        "জলে অক্সিজেন বৃদ্ধি",
+        "জলে অতিরিক্ত পুষ্টি উপাদানের কারণে শৈবালের আধিক্য",
+        "জলের পিএইচ হ্রাস",
+        "মাছের সংখ্যা বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-026",
+      "question": "ইউট্রোফিকেশনের ফলে জলাশয়ে কী ঘটে?",
+      "options": [
+        "অক্সিজেন বৃদ্ধি",
+        "অক্সিজেন হ্রাস ও জলজ প্রাণীর মৃত্যু",
+        "জলের স্বচ্ছতা বৃদ্ধি",
+        "মাছের সংখ্যা বৃদ্ধি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-027",
+      "question": "মিনামাটা রোগ হয় কোন ধাতুর বিষক্রিয়ায়?",
+      "options": [
+        "সিসা (Pb)",
+        "পারদ (Hg)",
+        "ক্যাডমিয়াম (Cd)",
+        "আর্সেনিক (As)"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-028",
+      "question": "ইটাই-ইটাই রোগ হয় কোন ধাতুর জন্য?",
+      "options": [
+        "পারদ (Hg)",
+        "আর্সেনিক (As)",
+        "ক্যাডমিয়াম (Cd)",
+        "সিসা (Pb)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-029",
+      "question": "সিসার (Lead) বিষক্রিয়ায় কী ক্ষতি হয়?",
+      "options": [
+        "ফুসফুসের ক্যান্সার",
+        "মস্তিষ্কের বিকাশ ব্যাহত (বিশেষত শিশুদের)",
+        "চর্মরোগ",
+        "দৃষ্টিশক্তি হ্রাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-030",
+      "question": "আর্সেনিক দূষণের প্রধান ফলাফল কী?",
+      "options": [
+        "ব্ল্যাক ফুট ডিজিজ ও ত্বকের ক্যান্সার",
+        "অস্থি ক্ষয়",
+        "দাঁতের এনামেল ক্ষয়",
+        "রক্তাল্পতা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-031",
+      "question": "অতিরিক্ত ফ্লোরাইডের ফলে কোন রোগ হয়?",
+      "options": [
+        "গলগণ্ড",
+        "ফ্লুরোসিস (দাঁত ও হাড়ের রোগ)",
+        "অ্যানিমিয়া",
+        "রাতকানা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-032",
+      "question": "নাইট্রেট দূষণের ফলে শিশুদের কী রোগ হয়?",
+      "options": [
+        "ব্লু বেবি সিনড্রোম (মিথেমোগ্লোবিনিমিয়া)",
+        "পোলিও",
+        "হাম",
+        "জন্ডিস"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-033",
+      "question": "পানীয় জলের আদর্শ pH কত?",
+      "options": [
+        "3.5 - 5.5",
+        "6.5 - 8.5",
+        "9.5 - 11.5",
+        "1.0 - 3.0"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-034",
+      "question": "পানি বিশুদ্ধকরণে ক্লোরিনেশন কেন করা হয়?",
+      "options": [
+        "জলকে রঙিন করতে",
+        "স্বাদ বাড়াতে",
+        "জীবাণুমুক্ত করতে",
+        "অক্সিজেন বাড়াতে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-035",
+      "question": "মাটি দূষণের প্রধান কারণ কী?",
+      "options": [
+        "অতিরিক্ত বৃষ্টি",
+        "কীটনাশক, সার, শিল্পবর্জ্য",
+        "গাছ লাগানো",
+        "বায়ুপ্রবাহ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-036",
+      "question": "কীটনাশকের (Pesticide) অতিরিক্ত ব্যবহারে কী হয়?",
+      "options": [
+        "মাটির উর্বরতা বাড়ে",
+        "খাদ্য শৃঙ্খলের মাধ্যমে জীবদেহে জমা হয় (Bioaccumulation)",
+        "ফসলের উৎপাদন কমে",
+        "মাটির pH বাড়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-037",
+      "question": "গ্রীনহাউস প্রভাব কী?",
+      "options": [
+        "বায়ুমণ্ডলের গ্যাস দ্বারা তাপ আটকা পড়ে পৃথিবী উষ্ণ হওয়া",
+        "পৃথিবী ঠান্ডা হওয়া",
+        "ওজোন স্তরের সৃষ্টি",
+        "বৃষ্টিপাত বৃদ্ধি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-038",
+      "question": "নিচের কোনটি গ্রীনহাউস গ্যাস নয়?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "O₂",
+        "N₂O"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-039",
+      "question": "বিশ্ব উষ্ণায়নের প্রধান কারণ কী?",
+      "options": [
+        "ওজোন স্তরের ক্ষয়",
+        "গ্রীনহাউস গ্যাসের ঘনত্ব বৃদ্ধি",
+        "অ্যাসিড বৃষ্টি",
+        "ভূমিকম্প"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-040",
+      "question": "বিশ্ব উষ্ণায়নের ফলে কী হতে পারে?",
+      "options": [
+        "সমুদ্রের জলতলের উচ্চতা বৃদ্ধি (Sea level rise)",
+        "বৃষ্টিপাতের পরিমাণ বেড়ে যাওয়া",
+        "শুধু শীতপ্রধান দেশ গরম হওয়া",
+        "পৃথিবীর আয়তন বাড়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-041",
+      "question": "ওজোন স্তর (O₃) বায়ুমণ্ডলের কোন স্তরে অবস্থিত?",
+      "options": [
+        "ট্রপোস্ফিয়ার",
+        "স্ট্র্যাটোস্ফিয়ার",
+        "মেসোস্ফিয়ার",
+        "থার্মোস্ফিয়ার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-042",
+      "question": "ওজোন স্তর সূর্য থেকে কোন রশ্মি শোষণ করে?",
+      "options": [
+        "দৃশ্যমান আলো",
+        "অবলোহিত রশ্মি",
+        "অতিবেগুনি রশ্মি (UV)",
+        "গামা রশ্মি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-043",
+      "question": "ওজোন স্তরের ক্ষয়ের প্রধান কারণ কী?",
+      "options": [
+        "CO₂",
+        "ক্লোরোফ্লুরোকার্বন (CFC)",
+        "SO₂",
+        "CH₄"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-044",
+      "question": "CFC গ্যাসের উৎস কী?",
+      "options": [
+        "কৃষিকাজ",
+        "রেফ্রিজারেটর, শীতাতপ নিয়ন্ত্রণ যন্ত্র, এরোসল স্প্রে",
+        "পাহাড়",
+        "সমুদ্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-045",
+      "question": "ওজোন স্তরের ক্ষয়ের ফলে মানুষের কী রোগ হতে পারে?",
+      "options": [
+        "টাইফয়েড",
+        "হৃদরোগ",
+        "ত্বকের ক্যান্সার ও চোখে ছানি (Cataract)",
+        "ডায়রিয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-046",
+      "question": "মন্ট্রিল প্রোটোকল (1987) কোন বিষয় নিয়ন্ত্রণ করে?",
+      "options": [
+        "CO₂ নিঃসরণ",
+        "প্লাস্টিক দূষণ",
+        "ওজোন ক্ষয়কারী পদার্থ (ODS) যেমন CFC",
+        "জলের দূষণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-047",
+      "question": "অ্যাসিড বৃষ্টির প্রধান কারণ কী?",
+      "options": [
+        "CO ও CO₂",
+        "SO₂ ও NO₂",
+        "O₂ ও N₂",
+        "NH₃ ও CH₄"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-048",
+      "question": "স্বাভাবিক বৃষ্টির জলের pH প্রায় কত?",
+      "options": [
+        "7.0",
+        "5.6",
+        "4.0",
+        "8.0"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-049",
+      "question": "অ্যাসিড বৃষ্টির pH কত এর নিচে?",
+      "options": [
+        "7.0",
+        "5.6",
+        "4.0",
+        "8.0"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-050",
+      "question": "অ্যাসিড বৃষ্টির ফলে তাজমহলের কী ক্ষতি হচ্ছে?",
+      "options": [
+        "মাটি ধসে যাচ্ছে",
+        "মার্বেল পাথরের রং পরিবর্তন ও ক্ষয় (মার্বেল ক্যান্সার)",
+        "নকশা উঠে যাচ্ছে",
+        "পানির স্তর কমে যাচ্ছে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-051",
+      "question": "সবুজ রসায়ন (Green Chemistry) এর লক্ষ্য কী?",
+      "options": [
+        "আরও বেশি রাসায়নিক তৈরি",
+        "বিপজ্জনক রাসায়নিকের ব্যবহার ও উৎপাদন কমানো",
+        "প্লাস্টিকের ব্যবহার বাড়ানো",
+        "কীটনাশক উৎপাদন বাড়ানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-052",
+      "question": "নিচের কোনটি জৈব-বিয়োজ্য (Biodegradable)?",
+      "options": [
+        "প্লাস্টিক ব্যাগ",
+        "কাগজ",
+        "কাচের বোতল",
+        "থার্মোকল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-053",
+      "question": "নিচের কোনটি অ-জৈব-বিয়োজ্য (Non-biodegradable)?",
+      "options": [
+        "খাবারের উচ্ছিষ্ট",
+        "কাঠ",
+        "প্লাস্টিক",
+        "তুলো"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-054",
+      "question": "প্লাস্টিক দূষণ কমানোর সবচেয়ে কার্যকরী উপায় কী?",
+      "options": [
+        "পোড়ানো",
+        "নদীতে ফেলা",
+        "পুনর্ব্যবহার (Recycle) ও ব্যবহার হ্রাস (Reduce)",
+        "মাটির নিচে পুঁতে ফেলা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-055",
+      "question": "ই-বর্জ্য (E-waste) কী?",
+      "options": [
+        "জৈব বর্জ্য",
+        "পুরনো ইলেকট্রনিক যন্ত্রপাতি",
+        "রান্নাঘরের আবর্জনা",
+        "কৃষি বর্জ্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-056",
+      "question": "ক্যাটালিটিক কনভার্টার গাড়িতে কী কাজে লাগে?",
+      "options": [
+        "গাড়ির গতি বাড়াতে",
+        "CO ও NO কে কম ক্ষতিকর গ্যাসে পরিবর্তন করতে",
+        "শব্দ কমাতে",
+        "ধোঁয়া বাড়াতে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-057",
+      "question": "ইলেকট্রোস্ট্যাটিক প্রেসিপিটেটর কী অপসারণ করে?",
+      "options": [
+        "গ্যাসীয় দূষক",
+        "ভাসমান কঠিন কণা (SPM)",
+        "তরল বর্জ্য",
+        "তেজস্ক্রিয় পদার্থ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-058",
+      "question": "স্ক্রাবার (Scrubber) কোন গ্যাস অপসারণে ব্যবহৃত হয়?",
+      "options": [
+        "CO",
+        "SO₂",
+        "O₂",
+        "N₂"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-059",
+      "question": "বর্জ্য ব্যবস্থাপনার 3R নীতি কী?",
+      "options": [
+        "Reduce, Reuse, Recycle",
+        "React, Reform, Reduce",
+        "Reuse, Remove, React",
+        "Recycle, Reform, Reduce"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-060",
+      "question": "BOD-এর পূর্ণরূপ কী?",
+      "options": [
+        "Biological Oxygen Demand",
+        "Biochemical Oxygen Demand",
+        "Both A and B",
+        "Biological Oxide Demand"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-061",
+      "question": "কোন গ্যাসকে 'নীরব ঘাতক' বলা হয়?",
+      "options": [
+        "CO₂",
+        "CO",
+        "SO₂",
+        "NO₂"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-062",
+      "question": "শ্বেত-শৈবাল (Algal bloom) কোন দূষণের ফল?",
+      "options": [
+        "বায়ু",
+        "জল (ইউট্রোফিকেশন)",
+        "মাটি",
+        "শব্দ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-063",
+      "question": "আর্সেনিকোসিস কী?",
+      "options": [
+        "আর্সেনিকের কারণে চামড়া ও স্বাস্থ্যের ক্ষতি",
+        "ফুসফুসের রোগ",
+        "হৃদরোগ",
+        "রক্তচাপ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-064",
+      "question": "স্ট্র্যাটোস্ফিয়ারের ওজোন আমাদের কী থেকে রক্ষা করে?",
+      "options": [
+        "অবলোহিত রশ্মি",
+        "অতিবেগুনি রশ্মি (UV)",
+        "এক্স-রে",
+        "গামা রশ্মি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-065",
+      "question": "বিশ্ব উষ্ণায়নের প্রভাবে নিচের কোনটি ঘটবে?",
+      "options": [
+        "মেরু অঞ্চলের বরফ গলন",
+        "নদীর জল বেড়ে যাওয়া",
+        "ফসলের উৎপাদন বাড়া",
+        "বরফ যুগের সূত্রপাত"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-066",
+      "question": "DOM (Dissolved Organic Matter) কী নির্দেশ করে?",
+      "options": [
+        "বাতাসের দূষণ",
+        "জলে দ্রবীভূত জৈব পদার্থ",
+        "মাটির অম্লত্ব",
+        "পারদের পরিমাণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-067",
+      "question": "নীচের কোনটি মাটি দূষণের কারণ নয়?",
+      "options": [
+        "কীটনাশক",
+        "বনসৃজন (Afforestation)",
+        "অতিরিক্ত সার",
+        "শিল্পবর্জ্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-068",
+      "question": "পারদের বিষাক্ততার ফলে সৃষ্ট রোগ কোনটি?",
+      "options": [
+        "ইটাই-ইটাই",
+        "মিনামাটা",
+        "ফ্লুরোসিস",
+        "ব্লু বেবি সিনড্রোম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-069",
+      "question": "সিসা (Pb) দূষণের উৎস কী?",
+      "options": [
+        "পোড়া তেল (Leaded petrol), রং, ব্যাটারি",
+        "কাগজ কল",
+        "কৃষিজমি",
+        "ট্যানারি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-070",
+      "question": "বিশ্ব স্বাস্থ্য সংস্থা (WHO) অনুযায়ী PM2.5 এর নিরাপদ সীমা কত?",
+      "options": [
+        "100 µg/m³",
+        "50 µg/m³",
+        "10 µg/m³",
+        "25 µg/m³"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-071",
+      "question": "কার্বন ডাই অক্সাইড (CO₂) এর প্রধান উৎস কী?",
+      "options": [
+        "শ্বাস-প্রশ্বাস",
+        "জীবাশ্ম জ্বালানির দহন",
+        "সালোকসংশ্লেষ",
+        "সমুদ্র"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-072",
+      "question": "ক্লোরোফ্লুরোকার্বন (CFC) ওজোন স্তর ধ্বংস করে কী ছেড়ে দিয়ে?",
+      "options": [
+        "ফ্লোরিন পরমাণু",
+        "কার্বন পরমাণু",
+        "ক্লোরিন পরমাণু",
+        "অক্সিজেন পরমাণু"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-073",
+      "question": "ইউট্রোফিকেশন প্রতিরোধের উপায় কী?",
+      "options": [
+        "ডিটারজেন্ট ও সার ব্যবহার নিয়ন্ত্রণ",
+        "নাইট্রোজেন সার প্রয়োগ বাড়ানো",
+        "ময়লা জলে ফেলা",
+        "কীটনাশক স্প্রে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-074",
+      "question": "নিচের কোনটি অ্যাসিড বৃষ্টির প্রভাব নয়?",
+      "options": [
+        "মাটির অম্লত্ব বৃদ্ধি",
+        "ভবনের ক্ষয়",
+        "নদীর অম্লত্ব হ্রাস",
+        "জলজ প্রাণীর ক্ষতি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-075",
+      "question": "প্লাস্টিক পোড়ালে কোন ক্ষতিকারক গ্যাস নির্গত হয়?",
+      "options": [
+        "অক্সিজেন",
+        "ডাইঅক্সিন ও ফিউরান",
+        "নাইট্রোজেন",
+        "হিলিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-076",
+      "question": "জৈব-বিয়োজ্য বর্জ্য থেকে কোন গ্যাস পাওয়া যায়?",
+      "options": [
+        "O₂",
+        "H₂",
+        "বায়োগ্যাস (Methane)",
+        "CO"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-077",
+      "question": "নীচের কোনটি প্রাকৃতিক বায়ু দূষক?",
+      "options": [
+        "কারখানার ধোঁয়া",
+        "গাড়ির ধোঁয়া",
+        "আগ্নেয়গিরির ছাই",
+        "সিগারেটের ধোঁয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-078",
+      "question": "নীচের কোন যন্ত্র বায়ুর দূষণ মাপে?",
+      "options": [
+        "ব্যারোমিটার",
+        "থার্মোমিটার",
+        "AQI মনিটর",
+        "ল্যাকটোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-079",
+      "question": "পানীয় জলে ক্লোরিনের পরিমাণ কত হওয়া উচিত?",
+      "options": [
+        "10-20 mg/L",
+        "0.2-1.0 mg/L",
+        "5-10 mg/L",
+        "0 mg/L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-080",
+      "question": "ভূপৃষ্ঠের ওজোন (Ground level ozone) কী?",
+      "options": [
+        "ভালো ওজোন",
+        "দূষণকারী হিসেবে কাজ করে, ফটোকেমিক্যাল স্মগ তৈরি করে",
+        "স্ট্র্যাটোস্ফিয়ারিক ওজোন",
+        "অক্সিজেনের রূপ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-081",
+      "question": "সবুজ ঘর প্রভাব বাড়ানোর জন্য দায়ী নয় কোনটি?",
+      "options": [
+        "CFC",
+        "CH₄",
+        "O₂",
+        "N₂O"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-082",
+      "question": "CNG (Compressed Natural Gas) এর মূল উপাদান কী?",
+      "options": [
+        "ইথেন",
+        "প্রোপেন",
+        "মিথেন",
+        "বিউটেন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-083",
+      "question": "ধানক্ষেতে উৎপন্ন প্রধান গ্রীনহাউস গ্যাস কোনটি?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "N₂O",
+        "O₃"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-084",
+      "question": "তেল spill (Oil spill) কী দূষণ ঘটায়?",
+      "options": [
+        "বায়ু",
+        "জল",
+        "মাটি",
+        "শব্দ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-085",
+      "question": "পলিথিন ব্যাগ পরিবেশে কত বছর টিকে থাকতে পারে?",
+      "options": [
+        "6 মাস",
+        "10-20 বছর",
+        "কয়েকশ বছর",
+        "1 সপ্তাহ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-086",
+      "question": "বর্জ্য জল পরিশোধনে সক্রিয় স্লাজ পদ্ধতি মূলত দূর করে-",
+      "options": [
+        "ভারী ধাতু",
+        "দ্রবীভূত লবণ",
+        "জৈব দূষক",
+        "তেজস্ক্রিয়তা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-087",
+      "question": "কোল্ড ড্রিংকসের কৌটায় কোন ধাতব দূষণের সম্ভাবনা থাকে?",
+      "options": [
+        "লোহা",
+        "অ্যালুমিনিয়াম",
+        "সোনা",
+        "সোডিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-088",
+      "question": "হ্যালন গ্যাস কোন কাজে ব্যবহৃত হয়?",
+      "options": [
+        "রান্নায়",
+        "অগ্নি নির্বাপক যন্ত্রে (Fire extinguisher)",
+        "গাড়ির জ্বালানি",
+        "খাবার সংরক্ষণে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-089",
+      "question": "প্লাস্টিক বর্জ্য পোড়ানোর সময় বায়ুমণ্ডলে কী নির্গত হয় যা ক্যান্সার সৃষ্টি করতে পারে?",
+      "options": [
+        "জলীয় বাষ্প",
+        "ডাইঅক্সিন",
+        "অক্সিজেন",
+        "নাইট্রোজেন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-090",
+      "question": "নিচের কোনটি মিথেন (CH₄) উৎপাদনের উৎস নয়?",
+      "options": [
+        "ধানক্ষেত",
+        "গবাদি পশুর পাচনতন্ত্র",
+        "জলাভূমি",
+        "গাড়ির ইঞ্জিন"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-091",
+      "question": "COD (Chemical Oxygen Demand) মাপে কী?",
+      "options": [
+        "জৈব ও অজৈব উভয় পদার্থ ভাঙতে প্রয়োজনীয় অক্সিজেন",
+        "শুধু জৈবপদার্থ ভাঙতে অক্সিজেন",
+        "জলে অক্সিজেনের পরিমাণ",
+        "জলে কার্বন ডাইঅক্সাইডের পরিমাণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-092",
+      "question": "সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধির প্রধান কারণ কী?",
+      "options": [
+        "অ্যাসিড বৃষ্টি",
+        "বরফ গলন ও তাপীয় প্রসারণ",
+        "পলি জমা",
+        "ভূমিকম্প"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-093",
+      "question": "\"মার্বেল ক্যান্সার\" কীসের কারণে হয়?",
+      "options": [
+        "সিসার দূষণ",
+        "অ্যাসিড বৃষ্টি",
+        "প্লাস্টিক বর্জ্য",
+        "আর্সেনিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-094",
+      "question": "ওজোন স্তর রক্ষা দিবস কবে পালিত হয়?",
+      "options": [
+        "5 জুন",
+        "16 সেপ্টেম্বর",
+        "22 এপ্রিল",
+        "10 নভেম্বর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-095",
+      "question": "বিশ্ব পরিবেশ দিবস কবে?",
+      "options": [
+        "5 জুন",
+        "22 মার্চ",
+        "16 সেপ্টেম্বর",
+        "1 ডিসেম্বর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-096",
+      "question": "পানীয় জলে ফ্লোরাইডের কাঙ্ক্ষিত মাত্রা কত?",
+      "options": [
+        "2.0 mg/L",
+        "0.5-1.0 mg/L (প্রায়)",
+        "5.0 mg/L",
+        "10.0 mg/L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-097",
+      "question": "নীচের কোনটি জলের স্থায়ী দূষক?",
+      "options": [
+        "কাগজ",
+        "সবজির খোসা",
+        "ভারী ধাতু (Hg, Pb)",
+        "কাঠ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-098",
+      "question": "নাইট্রোজেন ডাই অক্সাইড (NO₂) কী রঙের গ্যাস?",
+      "options": [
+        "বর্ণহীন",
+        "সবুজ",
+        "লালচে-বাদামি",
+        "হলুদ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-099",
+      "question": "নদীর জল দূষিত হয়েছে কিনা তা বোঝার সবচেয়ে ভালো জীবসূচক (Bioindicator) কী?",
+      "options": [
+        "কেঁচো",
+        "মাছের বৈচিত্র্য ও কলিফর্ম স্তর",
+        "পিঁপড়ে",
+        "বাঘ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-100",
+      "question": "গাড়ির ধোঁয়ায় নির্গত নির্বিষ গ্যাস কোনটি?",
+      "options": [
+        "CO",
+        "NO₂",
+        "H₂O (বাষ্প)",
+        "SO₂"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-101",
+      "question": "বায়ু দূষণ প্রতিরোধে BS (Bharat Stage) নর্মস চালু হয়েছে কোনটি নিয়ন্ত্রণে?",
+      "options": [
+        "খাদ্য দূষণ",
+        "বাহন নির্গমন (Vehicular emission)",
+        "জল দূষণ",
+        "মাটি দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-102",
+      "question": "H₂S গ্যাসের উৎস কী?",
+      "options": [
+        "ফুলের ঘ্রাণ",
+        "জৈব পদার্থের পচন (Sewage ইত্যাদি)",
+        "পারফিউম",
+        "মোটর গাড়ি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-103",
+      "question": "কোনটি জীবাশ্ম জ্বালানি নয়?",
+      "options": [
+        "কয়লা",
+        "পেট্রোলিয়াম",
+        "ইউরেনিয়াম",
+        "প্রাকৃতিক গ্যাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-104",
+      "question": "ক্লোরিনেশন এর পরিবর্তে এখন পানি বিশুদ্ধকরণে কোন উন্নত পদ্ধতি ব্যবহার হচ্ছে?",
+      "options": [
+        "ফুটানো",
+        "ওজোনেশন (Ozonation) ও UV বিকিরণ",
+        "ঠান্ডা করা",
+        "ফ্রিজিং"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-105",
+      "question": "\"ডাস্ট ডোম\" (Dust Dome) কী?",
+      "options": [
+        "শহরের উপর জমা ধূলিকণার আচ্ছাদন",
+        "এক ধরনের ভবন",
+        "মরুভূমির টিলা",
+        "খেলার মাঠ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-106",
+      "question": "একজন সুস্থ মানুষের রক্তে কার্বক্সিহিমোগ্লোবিনের পরিমাণ কত হওয়া উচিত?",
+      "options": [
+        "5-10%",
+        "20-30%",
+        "1% এর কম",
+        "50%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-107",
+      "question": "অ্যাসিড বৃষ্টির জন্য দায়ী অ্যাসিড কোনগুলি?",
+      "options": [
+        "HCl, HF",
+        "H₂SO₄, HNO₃",
+        "CH₃COOH, HCOOH",
+        "HClO₄, HBr"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-108",
+      "question": "চিমনির উচ্চতা বাড়ানোর মূল উদ্দেশ্য কী?",
+      "options": [
+        "সৌন্দর্য বৃদ্ধি",
+        "দূষিত গ্যাসকে বেশি দূরে ছড়িয়ে দেওয়া",
+        "তাপ বাড়ানো",
+        "বৃষ্টি আটকানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-109",
+      "question": "স্ট্র্যাটোস্ফিয়ারে ওজোন স্তরের পুরুত্ব মাপার একক কী?",
+      "options": [
+        "মিটার",
+        "ডবসন ইউনিট (DU)",
+        "পিএইচ",
+        "ডেসিবেল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-110",
+      "question": "নীচের কোন উক্তিটি CFC এর ক্ষেত্রে ভুল?",
+      "options": [
+        "এটি ওজোন স্তর ধ্বংস করে",
+        "এটি রেফ্রিজারেন্ট হিসেবে ব্যবহৃত হয়",
+        "এটি গ্রীনহাউস গ্যাস",
+        "এটি সহজেই বায়ুমণ্ডলে ভেঙে যায়"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-111",
+      "question": "পলিথিনের বিকল্প হিসেবে কোনটি ব্যবহার করা যায়?",
+      "options": [
+        "পাটের ব্যাগ",
+        "কাচের শিশি",
+        "কাগজের ব্যাগ",
+        "উপরের সব কটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-112",
+      "question": "নীচের কোনটি ভূগর্ভস্থ জলে আর্সেনিক দূষণের জন্য পরিচিত?",
+      "options": [
+        "পশ্চিমবঙ্গ, বাংলাদেশ",
+        "পাঞ্জাব",
+        "হিমাচল",
+        "মহারাষ্ট্র"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-113",
+      "question": "\"বায়োঅ্যাকুমুলেশন\" (Bioaccumulation) শব্দটি কী নির্দেশ করে?",
+      "options": [
+        "অক্সিজেন জমা",
+        "খাদ্যশৃঙ্খলের মাধ্যমে দূষকের ঘনত্ব ক্রমাগত বাড়তে থাকা",
+        "জলের প্রসারণ",
+        "তাপমাত্রা হ্রাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-114",
+      "question": "নির্জলা দহন (Complete combustion) কিসের পরিমাণ কমাতে সাহায্য করে?",
+      "options": [
+        "CO₂",
+        "O₂",
+        "CO",
+        "N₂"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-115",
+      "question": "কোন উৎস থেকে CFC অবমুক্ত হয় না?",
+      "options": [
+        "জমির সার",
+        "রেফ্রিজারেটর",
+        "এয়ার কন্ডিশনার",
+        "ফোম শীট"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-116",
+      "question": "গ্রীন বেল্ট (Green Belt) উন্নয়ন নীতি কীসের মোকাবিলা করতে তৈরি?",
+      "options": [
+        "জলের অভাব",
+        "বায়ু দূষণ ও শব্দ দূষণ কমাতে",
+        "মাটি দূষণ",
+        "বন্যা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-117",
+      "question": "বায়ুতে অক্সিজেনের স্বাভাবিক শতকরা পরিমাণ কত?",
+      "options": [
+        "78%",
+        "21%",
+        "0.03%",
+        "1%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-118",
+      "question": "বৃষ্টির জল সংগ্রহ ও সংরক্ষণ (Rain Water Harvesting) কোন সমস্যা সমাধান করে?",
+      "options": [
+        "বায়ু দূষণ",
+        "জলের ঘাটতি",
+        "শব্দ দূষণ",
+        "মাটি দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-119",
+      "question": "ফ্লাই অ্যাশ (Fly Ash) কী?",
+      "options": [
+        "কয়লা পোড়ানোর পর উৎপন্ন ছাই",
+        "মাছি মারার ওষুধ",
+        "বিমানের ছবি",
+        "এক ধরনের কীট"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-120",
+      "question": "বিশ্বের স্বীকৃত পরিবেশবান্ধব জ্বালানি কোনটি?",
+      "options": [
+        "ডিজেল",
+        "পেট্রোল",
+        "হাইড্রোজেন",
+        "কেরোসিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-121",
+      "question": "নিচের কোনটি জৈবসার নয়?",
+      "options": [
+        "কম্পোস্ট",
+        "ইউরিয়া",
+        "গোবর সার",
+        "ভারমিকম্পোস্ট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-122",
+      "question": "মেটানোগ্লোবিনেমিয়া (Methaemoglobinaemia) রক্তে অক্সিজেন পরিবহনের ক্ষমতা কমায়, এটি কী জন্য হয়?",
+      "options": [
+        "নাইট্রেট দূষণ",
+        "ফ্লোরাইড দূষণ",
+        "লেড দূষণ",
+        "ক্যালসিয়াম দূষণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-123",
+      "question": "ডিপ ওয়েল প্রোগ্রামে হ্যান্ড পাম্পের মাধ্যমে যে জল তোলা হয়, তাতে আর্সেনিকের পাশাপাশি কী থাকতে পারে?",
+      "options": [
+        "কপার",
+        "সোনা",
+        "ফ্লোরাইড ও আয়রন",
+        "জিংক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-124",
+      "question": "নিচের কোনটি ভুল বিবৃতি?",
+      "options": [
+        "CO গ্রীনহাউস গ্যাস নয়",
+        "CH₄ গ্রীনহাউস গ্যাস",
+        "O₂ গ্রীনহাউস গ্যাস",
+        "CO₂ গ্রীনহাউস গ্যাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-125",
+      "question": "নিচের কোনটি ভালো অনুশীলন যা বায়ুর গুণমান উন্নত করে?",
+      "options": [
+        "গাড়ি ও বাসের সংখ্যা বৃদ্ধি",
+        "ব্যক্তিগত গাড়ির বদলে পাবলিক ট্রান্সপোর্ট ব্যবহার",
+        "প্লাস্টিক পোড়ানো",
+        "ঘন ঘন এসি ব্যবহার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-126",
+      "question": "অ্যাসিড বৃষ্টির কারণে মাটির pH এর কী পরিবর্তন হয়?",
+      "options": [
+        "বৃদ্ধি",
+        "হ্রাস",
+        "অপরিবর্তিত",
+        "শূন্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-127",
+      "question": "সিসাযুক্ত রং এখন নিষিদ্ধ করা হয়েছে কারণ এর কারণ কী হতে পারে?",
+      "options": [
+        "দেয়াল সুন্দর হয় না",
+        "বিশেষ করে শিশুদের স্নায়ুতন্ত্রের ক্ষতি",
+        "দাম বেড়ে যায়",
+        "দেয়ালে ছাতা পড়ে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-128",
+      "question": "একটি নদীর জলে BOD ₅ (5 দিনের BOD) 150 mg/L হলে জলটি কীরূপ?",
+      "options": [
+        "বিশুদ্ধ",
+        "অত্যন্ত দূষিত",
+        "পান করার যোগ্য",
+        "মাছ চাষের যোগ্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-129",
+      "question": "কোন বায়ু দূষণের কারণে দিল্লিতে অড-ইভেন (Odd-Even) গাড়ি চলাচল নীতি চালু হয়েছিল?",
+      "options": [
+        "অক্সিজেন আধিক্য",
+        "PM2.5 ও PM10 এর মাত্রা বেড়ে যাওয়ায়",
+        "বায়ুতে জলীয় বাষ্প বেড়ে যাওয়ায়",
+        "ওজোন স্তর ক্ষয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-130",
+      "question": "শীতপ্রধান দেশে আইস-ক্রিস্টাল দ্বারা মেরু অঞ্চলের স্ট্র্যাটোস্ফিয়ারিক মেঘ কোন গ্যাসের ওজোন ক্ষয় বাড়ায়?",
+      "options": [
+        "CO₂",
+        "CFC",
+        "H₂O",
+        "CH₄"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-131",
+      "question": "আর্সেনিক যুক্ত জল খাওয়ার ফলে হাত-পায়ের তলায় যে পুরু ছোপ পড়ে তাকে কী বলে?",
+      "options": [
+        "গ্যাংগ্রিন",
+        "ফ্লুরোসিস",
+        "কেরাটোসিস",
+        "স্কার্ভি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-132",
+      "question": "নীচের কোনটি \"পার্টিকুলেট ম্যাটার\" নয়?",
+      "options": [
+        "ধোঁয়া",
+        "ধূলিকণা",
+        "CO₂",
+        "কালি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-133",
+      "question": "কোন গ্যাস গ্রিনহাউজ গ্যাস না হয়েও বিশ্ব উষ্ণায়নে ভূমিকা রাখে না?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "N₂O",
+        "CO"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-134",
+      "question": "ভেনিজুয়েলায় তেল শোধনাগার থেকে নির্গত ধোঁয়ার ফলে কোন রোগ দেখা দেয়?",
+      "options": [
+        "ডেঙ্গু",
+        "অ্যাজমা, ক্যান্সার",
+        "ম্যালেরিয়া",
+        "টাইফয়েড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-135",
+      "question": "লন্ডন স্মগ (1952) একটি ক্লাসিক্যাল স্মগ ছিল, এতে প্রধান দূষক কী ছিল?",
+      "options": [
+        "NO₂",
+        "SO₂ ও কয়লার ধোঁয়া",
+        "O₃",
+        "CFC"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-136",
+      "question": "\"গঙ্গা অ্যাকশন প্ল্যান\" কীসের জন্য?",
+      "options": [
+        "বাঘ সংরক্ষণ",
+        "গঙ্গার জল দূষণ রোধ",
+        "শিক্ষা উন্নয়ন",
+        "বায়ু দূষণ রোধ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-137",
+      "question": "ক্লোরিনেশন পদ্ধতিতে প্রয়োজনের অতিরিক্ত ক্লোরিন দিলে কী ক্ষতি হতে পারে?",
+      "options": [
+        "পানি মিষ্টি হয়",
+        "ট্রাইহ্যালোমিথেন (THM) সৃষ্টি যা ক্যান্সারের কারণ হতে পারে",
+        "পানির রং বদলে যায়",
+        "কোনো ক্ষতি নেই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-138",
+      "question": "একটি গাছে কতজন মানুষের জন্য অক্সিজেন সরবরাহ করতে পারে?",
+      "options": [
+        "100 জন",
+        "500 জন",
+        "1-2 জন (প্রায়)",
+        "1000 জন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-139",
+      "question": "গ্লোবাল ওয়ার্মিং পটেনশিয়াল (GWP) সবচেয়ে বেশি কোনটির?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "CFC",
+        "N₂O"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-140",
+      "question": "অটোমোবাইলের নির্গমনে প্যালাডিয়াম ও প্লাটিনাম অনুঘটক রূপে ব্যবহৃত হয়-",
+      "options": [
+        "সাইলেন্সার এ",
+        "ক্যাটালিটিক কনভার্টার এ",
+        "ইঞ্জিন অয়েল এ",
+        "চাকায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-141",
+      "question": "পানীয় জলে আর্সেনিকের গ্রহণযোগ্য সর্বোচ্চ সীমা (WHO) কত?",
+      "options": [
+        "0.05 mg/L",
+        "0.01 mg/L",
+        "1.0 mg/L",
+        "5.0 mg/L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-142",
+      "question": "মিথেন (CH₄) গ্রীনহাউস প্রভাবে CO₂ থেকে কত গুণ বেশি ক্ষমতাশালী?",
+      "options": [
+        "10-20 গুণ",
+        "2-5 গুণ",
+        "25 গুণ (প্রায়)",
+        "100 গুণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-143",
+      "question": "ওজোন গহ্বর (Ozone hole) প্রথম কোথায় দেখা যায়?",
+      "options": [
+        "আর্কটিক",
+        "অ্যান্টার্কটিকা",
+        "এশিয়া",
+        "ইউরোপ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-144",
+      "question": "মাটি থেকে সীসা (Pb) দূর করতে কোন গাছ লাগানো হয়?",
+      "options": [
+        "ধান",
+        "সূর্যমুখী (Sunflower)",
+        "আম",
+        "কলা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-145",
+      "question": "E-waste ব্যবস্থাপনা বিধি ভারতে কবে থেকে চালু হয়?",
+      "options": [
+        "2011",
+        "2016",
+        "2000",
+        "2020"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-146",
+      "question": "একটি পরিবেশ দূষণমুক্ত জীবনে সবচেয়ে গুরুত্বপূর্ণ হলো-",
+      "options": [
+        "উন্নত জীবনযাপন",
+        "টেকসই উন্নয়ন (Sustainable Development)",
+        "যানবাহন বৃদ্ধি",
+        "শিল্পায়ন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-147",
+      "question": "কারখানা থেকে নির্গত গরম জল নদীতে ফেললে নদীর তাপমাত্রা বাড়ে। এই দূষণকে কী বলে?",
+      "options": [
+        "রাসায়নিক দূষণ",
+        "তাপীয় দূষণ",
+        "মাটি দূষণ",
+        "শব্দ দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-148",
+      "question": "কোনটি নিয়ে \"ভিয়েনা কনভেনশন\" হয়েছিল?",
+      "options": [
+        "জলবায়ু পরিবর্তন",
+        "ওজোন স্তর রক্ষা",
+        "বর্জ্য ব্যবস্থাপনা",
+        "তৈল দূষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-149",
+      "question": "পারদ থার্মোমিটার ও বাতি ভাঙলে কী দূষণ ছড়াতে পারে?",
+      "options": [
+        "সিসা",
+        "পারদ",
+        "ক্যাডমিয়াম",
+        "আর্সেনিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-150",
+      "question": "নিচের কোনটি \"সবুজ ঘর (Green House)\" গ্যাস?",
+      "options": [
+        "O₂",
+        "H₂",
+        "N₂O",
+        "Ar"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-151",
+      "question": "কোনটি কৃষিজাত বর্জ্য নয়?",
+      "options": [
+        "পাটের ছোবড়া",
+        "ধানের খড়",
+        "প্লাস্টিকের বোতল",
+        "আখের ছিবড়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-152",
+      "question": "জলে দ্রবীভূত অক্সিজেনের (DO) পরিমাণ কমে গেলে কী বোঝায়?",
+      "options": [
+        "জল দূষিত",
+        "জল বিশুদ্ধ",
+        "জল লবণাক্ত",
+        "জলে খনিজ বেড়েছে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-153",
+      "question": "নিচের কোন কীটনাশকটি (Pesticide) সবচেয়ে দীর্ঘস্থায়ী?",
+      "options": [
+        "ম্যালাথিয়ন",
+        "ডিডিটি (DDT)",
+        "ব্লিচিং পাউডার",
+        "গামাক্সিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-154",
+      "question": "বায়ুদূষণ রোধে বৃক্ষরোপণ কোন ধরনের সমাধান?",
+      "options": [
+        "শুধু আইনি",
+        "প্রযুক্তিগত ও জৈবিক",
+        "শুধু রাসায়নিক",
+        "অকার্যকর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-155",
+      "question": "আমাজন অরণ্যকে \"পৃথিবীর ফুসফুস\" বলা হয় কেন?",
+      "options": [
+        "বিশাল আকারের জন্য",
+        "প্রচুর CO₂ উৎপাদনের জন্য",
+        "প্রচুর O₂ উৎপাদনের জন্য",
+        "বৃষ্টিপাতের জন্য"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-156",
+      "question": "কোনো হ্রদে ইউট্রোফিকেশনের ফলে মাছের মৃত্যু ঘটে, কারণ-",
+      "options": [
+        "পুষ্টির অভাব",
+        "অক্সিজেনের অভাব",
+        "তাপমাত্রা বৃদ্ধি",
+        "আলোর অভাব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-157",
+      "question": "ভূগর্ভস্থ জল দূষণের প্রধান কারণ-",
+      "options": [
+        "কৃষি ও গৃহস্থলির বর্জ্য",
+        "নৌকা চলাচল",
+        "বায়ু দূষণ",
+        "শব্দ দূষণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-158",
+      "question": "\"বাসেল কনভেনশন\" সম্পর্কিত বিষয় কী?",
+      "options": [
+        "ওজোন স্তর",
+        "বিপজ্জনক বর্জ্যের (Hazardous waste) সীমান্তবর্তী স্থানান্তর",
+        "জলবায়ু পরিবর্তন",
+        "বাঘ সংরক্ষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-159",
+      "question": "ইনভার্সন (Thermal Inversion) কী?",
+      "options": [
+        "স্বাভাবিক তাপমাত্রা বন্টন",
+        "ভূপৃষ্ঠের কাছে ঠান্ডা বায়ু, উপরে গরম বায়ু থাকায় দূষণ আটকা পড়ে",
+        "শুধু গ্রীষ্মকালীন অবস্থা",
+        "বাষ্পীভবন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-160",
+      "question": "সৌরশক্তি বায়ু দূষণ কমায় কেন?",
+      "options": [
+        "সূর্য থেকে ধূলিকণা বাড়ে",
+        "জীবাশ্ম জ্বালানি পোড়ানোর প্রয়োজন কমায়",
+        "তাপমাত্রা কমায়",
+        "বৃষ্টি বাড়ায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-161",
+      "question": "নিচের কোনটি পুনর্নবীকরণযোগ্য সম্পদ?",
+      "options": [
+        "কয়লা",
+        "প্রাকৃতিক গ্যাস",
+        "সৌরশক্তি",
+        "পেট্রোলিয়াম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-162",
+      "question": "কাগজ শিল্পে কোন রাসায়নিক দূষণের জন্য \"ব্ল্যাক লিকার\" সমস্যা তৈরি করে?",
+      "options": [
+        "ক্ষার (Alkali) ও লিগনিন",
+        "অ্যাসিড",
+        "সিসা",
+        "তামা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-163",
+      "question": "PAH (Polycyclic Aromatic Hydrocarbons) কী?",
+      "options": [
+        "প্লাস্টিকের এক প্রকার",
+        "অসম্পূর্ণ দহনের ফলে সৃষ্ট কারসিনোজেন",
+        "সার",
+        "জৈব সার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-164",
+      "question": "কারখানায় ধ্বনিদূষণ প্রতিরোধে শ্রমিকদের কী দেওয়া হয়?",
+      "options": [
+        "গ্লাভস",
+        "ইয়ার প্লাগ বা ইয়ার মাফ",
+        "হেলমেট",
+        "চশমা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-06-165",
+      "question": "\"সাইলেন্ট স্প্রিং\" বইটি কার লেখা ও কিসের ওপর?",
+      "options": [
+        "রাসায়নিক কীটনাশকের প্রভাব - র্যাচেল কারসন",
+        "জল দূষণ - সুনীতা নারায়ণ",
+        "বায়ু দূষণ - গ্রেটা থুনবার্গ",
+        "বিশ্ব উষ্ণায়ন - আল গোর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-166",
+      "question": "ঘরের ভিতরের বায়ু দূষণ (Indoor air pollution) এর বড় উৎস কী?",
+      "options": [
+        "রান্নার জ্বালানি (বায়োমাস) থেকে ধোঁয়া",
+        "গাছের অক্সিজেন",
+        "ফুলের পরাগ",
+        "পানির বাষ্প"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-167",
+      "question": "কোন রাসায়নিক যৌগ প্লাস্টিক বোতল থেকে জলে মিশে যেতে পারে?",
+      "options": [
+        "ফসফেট",
+        "বিসফেনল A (BPA)",
+        "ক্লোরাইড",
+        "আয়োডিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-168",
+      "question": "জলে অস্থায়ী খরতা (Temporary hardness) দূরীকরণে কী ঘটে?",
+      "options": [
+        "জল ফুটালে CaCO₃ অধঃক্ষিপ্ত হয়",
+        "সাবান যোগ করা হয়",
+        "ক্লোরিন দেওয়া হয়",
+        "ফ্লোরাইড মেশানো হয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-169",
+      "question": "ভুসি কালি (Carbon black) কোথা থেকে তৈরি হতে পারে?",
+      "options": [
+        "সম্পূর্ণ দহন",
+        "টায়ার ও রবারের অসম্পূর্ণ দহন",
+        "জলের ফোটানো",
+        "এসি থেকে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-170",
+      "question": "স্ট্র্যাটোস্ফিয়ারের ওজোন স্তর ধ্বংসকারী নয় কোনটি?",
+      "options": [
+        "CFC",
+        "হ্যালন",
+        "মিথাইল ব্রোমাইড",
+        "CO₂"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-171",
+      "question": "বিশ্ব উষ্ণায়নের সাথে সম্পর্কিত একটি মিথ্যা ধারণা কী?",
+      "options": [
+        "বরফ গলছে",
+        "সব দেশ বরফে ঢেকে যাবে",
+        "সমুদ্রপৃষ্ঠের উচ্চতা বাড়ছে",
+        "ঝড় বাড়ছে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-172",
+      "question": "ক্লোরোফ্লুরোকার্বন (CFC) এর অভাবে এখন রেফ্রিজারেটরে বিকল্প কী ব্যবহার হয়?",
+      "options": [
+        "অ্যামোনিয়া",
+        "ক্লোরোফর্ম",
+        "R-134a / R-600a",
+        "ফ্রেয়ন-12 (এক সময় ছিল)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-173",
+      "question": "প্লাস্টিকের দহনে ডাইঅক্সিন ছাড়াও কী নির্গত হয় যা গ্রিনহাউস গ্যাস?",
+      "options": [
+        "O₂",
+        "N₂",
+        "CO₂",
+        "Ar"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-174",
+      "question": "নিচের কোনটি স্থানীয় বায়ু দূষণের উদাহরণ?",
+      "options": [
+        "বায়ুমণ্ডলে CO₂ বৃদ্ধি",
+        "কলকারখানার ধোঁয়া থেকে আশেপাশে ধূলিকণা জমা",
+        "অ্যাসিড বৃষ্টি",
+        "ওজোন স্তর ক্ষয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-175",
+      "question": "পরিবেশ রক্ষায় নার্সের ভূমিকা কী?",
+      "options": [
+        "হাসপাতালের জৈব চিকিৎসা বর্জ্যের সঠিক নিষ্কাশন",
+        "পরিবেশ সুরক্ষায় সচেতনতা বৃদ্ধি",
+        "সম্পদের অপচয় রোধ",
+        "উপরের সব কটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-06-176",
+      "question": "নিচের কোনগুলি বায়ুর স্থায়ী দূষক? (একাধিক উত্তর)",
+      "options": [
+        "CO₂",
+        "CFC",
+        "ধুলিকণা",
+        "SO₂"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-177",
+      "question": "নিচের কোন কোন গ্রীনহাউস গ্যাস? (একাধিক উত্তর)",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "O₂",
+        "N₂O"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-178",
+      "question": "অ্যাসিড বৃষ্টির জন্য দায়ী কোন গ্যাসগুলো? (একাধিক উত্তর)",
+      "options": [
+        "SO₂",
+        "NO₂",
+        "CO",
+        "O₂"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-179",
+      "question": "নিচের কোনগুলি BOD সম্পর্কে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "Biochemical Oxygen Demand",
+        "দূষিত জলে বেশি",
+        "কম অক্সিজেন খরচ হলে কম",
+        "মাছের জন্য অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-180",
+      "question": "নিচের কোনটি বায়ু দূষণ নিয়ন্ত্রণ যন্ত্র? (একাধিক উত্তর)",
+      "options": [
+        "ইলেকট্রোস্ট্যাটিক প্রেসিপিটেটর",
+        "স্ক্রাবার",
+        "ক্যাটালিটিক কনভার্টার",
+        "থার্মোমিটার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-181",
+      "question": "ইউট্রোফিকেশনের কারণ? (একাধিক উত্তর)",
+      "options": [
+        "ফসফেট সার",
+        "নাইট্রেট সার",
+        "অক্সিজেন বৃদ্ধি",
+        "শৈবালের আধিক্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-182",
+      "question": "CFC দূষণের উৎস কী কী? (একাধিক উত্তর)",
+      "options": [
+        "রেফ্রিজারেটর",
+        "এসি",
+        "এরোসল স্প্রে",
+        "বিদ্যুৎ উৎপাদন কেন্দ্র"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-183",
+      "question": "অতিরিক্ত UV রশ্মির প্রভাবে কোন রোগ হতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "ত্বকের ক্যান্সার",
+        "ছানি (Cataract)",
+        "রোগ প্রতিরোধ ক্ষমতা হ্রাস",
+        "অ্যানিমিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-184",
+      "question": "পানীয় জলের গুণমান নির্ণায়ক কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "pH",
+        "BOD",
+        "কলিফর্ম গণনা",
+        "আর্সেনিক মাত্রা"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-185",
+      "question": "তাপীয় দূষণের প্রভাব কী? (একাধিক উত্তর)",
+      "options": [
+        "DO (Dissolved Oxygen) কমে যায়",
+        "মাছের প্রজনন ক্ষতিগ্রস্ত হয়",
+        "বাষ্পীভবন বাড়ে",
+        "পানি নীল হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-186",
+      "question": "নিচের কোনগুলি কীটনাশক (Pesticide)? (একাধিক উত্তর)",
+      "options": [
+        "DDT",
+        "BHC",
+        "ম্যালাথিয়ন",
+        "ইউরিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-187",
+      "question": "বিশ্ব উষ্ণায়নের প্রকোপ কমাতে করণীয় কী? (একাধিক উত্তর)",
+      "options": [
+        "বৃক্ষরোপণ",
+        "নবায়নযোগ্য শক্তির ব্যবহার",
+        "জীবাশ্ম জ্বালানি কম ব্যবহার",
+        "সিএফসি বাড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-188",
+      "question": "কোন ধাতুগুলি ভারী ধাতু দূষণে অন্তর্ভুক্ত? (একাধিক উত্তর)",
+      "options": [
+        "Hg (পারদ)",
+        "Pb (সিসা)",
+        "Na (সোডিয়াম)",
+        "Cd (ক্যাডমিয়াম)"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-189",
+      "question": "নিচের কোন মানবসৃষ্ট দুর্যোগ পরিবেশ দূষিত করে? (একাধিক উত্তর)",
+      "options": [
+        "ভূপাল গ্যাস ট্র্যাজেডি",
+        "চেরনোবিল বিপর্যয়",
+        "তেলবাহী জাহাজ ডুবে তেল ছড়িয়ে পড়া",
+        "বজ্রপাত"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-190",
+      "question": "ফটোকেমিক্যাল স্মগের উপাদান কী কী? (একাধিক উত্তর)",
+      "options": [
+        "ওজোন (O₃)",
+        "PAN (Peroxyacetyl nitrate)",
+        "SO₂",
+        "NO₂"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-191",
+      "question": "মাটি দূষণের উৎস কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "রাসায়নিক সার",
+        "প্লাস্টিক বর্জ্য",
+        "বৃষ্টির জল",
+        "কীটনাশক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-192",
+      "question": "কোন রোগগুলি জলবাহিত (Water-borne)? (একাধিক উত্তর)",
+      "options": [
+        "কলেরা",
+        "টাইফয়েড",
+        "হাঁপানি",
+        "আমাশয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-193",
+      "question": "নিচের কোনগুলি অ-জৈব-বিয়োজ্য বর্জ্য? (একাধিক উত্তর)",
+      "options": [
+        "প্লাস্টিকের বোতল",
+        "কাচের টুকরা",
+        "সবজির খোসা",
+        "ই-বর্জ্য"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-194",
+      "question": "জৈব-বিয়োজ্য বর্জ্য কী কী? (একাধিক উত্তর)",
+      "options": [
+        "কাগজ",
+        "কাঠ",
+        "লোহার পাত",
+        "খাবারের উচ্ছিষ্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-195",
+      "question": "নিচের কোন উক্তিগুলো CO বিষয়ে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "বর্ণহীন, গন্ধহীন গ্যাস",
+        "অসম্পূর্ণ দহনে সৃষ্টি হয়",
+        "রক্তের O₂ পরিবহন ক্ষমতা কমায়",
+        "গ্রিনহাউজ গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-196",
+      "question": "ভারতে বায়ু দূষণ নিয়ন্ত্রণ আইন কোন সালে প্রণীত হয়? (একাধিক উত্তর সম্ভব নয়, সিঙ্গেল প্রশ্নে ভুল ধরে নিয়ে)",
+      "options": [
+        "1974",
+        "1981",
+        "Air (Prevention and Control of Pollution) Act 1981",
+        "1986"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-06-197",
+      "question": "নীচের কোনগুলি গ্লোবাল ওয়ার্মিং এর প্রভাব? (একাধিক উত্তর)",
+      "options": [
+        "সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধি",
+        "অনিয়মিত বৃষ্টিপাত",
+        "ঝড় ও বন্যার প্রকোপ বাড়া",
+        "বরফ যুগের সূচনা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-198",
+      "question": "নিচের কোনগুলি জীবাশ্ম জ্বালানি? (একাধিক উত্তর)",
+      "options": [
+        "কয়লা",
+        "পেট্রোলিয়াম",
+        "প্রাকৃতিক গ্যাস",
+        "কাঠ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-06-199",
+      "question": "পানীয় জলে কী কী দূষণ দেখা যায়? (একাধিক উত্তর)",
+      "options": [
+        "আর্সেনিক",
+        "ফ্লোরাইড",
+        "আয়রন",
+        "কোলিফর্ম"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-200",
+      "question": "কয়লা পোড়ালে কী কী দূষক নির্গত হয়? (একাধিক উত্তর)",
+      "options": [
+        "CO₂",
+        "SO₂",
+        "ফ্লাই অ্যাশ",
+        "O₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-201",
+      "question": "CFC সম্পর্কে সঠিক তথ্য কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "ওজোন স্তর ধ্বংস করে",
+        "গ্রীনহাউস গ্যাস",
+        "বিষাক্ত ও দাহ্য",
+        "স্থিতিশীল হওয়ায় সহজে ভাঙে না"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-202",
+      "question": "নীচের কোন পদার্থ বায়ুতে ভাসমান ধূলিকণার (SPM) উদাহরণ? (একাধিক উত্তর)",
+      "options": [
+        "পরাগরেণু",
+        "ছাই",
+        "কালি",
+        "CO₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-203",
+      "question": "বিশ্ব উষ্ণায়নে কোন কোন খাত থেকে প্রধান গ্যাস নির্গত হয়? (একাধিক উত্তর)",
+      "options": [
+        "শক্তি উৎপাদন",
+        "পরিবহন",
+        "কৃষি",
+        "তথ্যপ্রযুক্তি (IT)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-204",
+      "question": "3R নীতির অন্তর্ভুক্ত কী কী? (একাধিক উত্তর)",
+      "options": [
+        "Reduce",
+        "Reuse",
+        "Recycle",
+        "React"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-205",
+      "question": "ওজোন স্তরের ক্ষয় রোধে করণীয় কী? (একাধিক উত্তর)",
+      "options": [
+        "CFC ব্যবহার হ্রাস",
+        "পুরনো এসি ও ফ্রিজ রিসাইক্লিং",
+        "মন্ট্রিল প্রোটোকল অনুসরণ",
+        "বেশি করে কয়লা পোড়ানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-206",
+      "question": "অ্যাসিড বৃষ্টির ফলাফল কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "ভবনের ক্ষতি",
+        "মাছের মৃত্যু",
+        "ফসলের ক্ষতি",
+        "জলের pH বৃদ্ধি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-207",
+      "question": "ইলেকট্রনিক বর্জ্যে (E-waste) কী কী থাকে? (একাধিক উত্তর)",
+      "options": [
+        "সিসা (Pb)",
+        "পারদ (Hg)",
+        "ক্যাডমিয়াম (Cd)",
+        "প্লাস্টিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-208",
+      "question": "নিচের কোনগুলো বায়ু দূষণ-জনিত রোগ? (একাধিক উত্তর)",
+      "options": [
+        "অ্যাজমা",
+        "ব্রঙ্কাইটিস",
+        "ক্যান্সার",
+        "টিটেনাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-209",
+      "question": "টেকসই উন্নয়নের মূল ভিত্তি কী কী? (একাধিক উত্তর)",
+      "options": [
+        "পরিবেশ রক্ষা",
+        "অর্থনৈতিক উন্নয়ন",
+        "সামাজিক ন্যায়বিচার",
+        "শুধু শিল্পায়ন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-210",
+      "question": "বর্জ্য ব্যবস্থাপনার আধুনিক পদ্ধতি কী? (একাধিক উত্তর)",
+      "options": [
+        "কম্পোস্টিং",
+        "বর্জ্য থেকে শক্তি উৎপাদন (Waste to energy)",
+        "ভরাটকরণ (Landfill)",
+        "নদীতে ফেলা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-211",
+      "question": "নিচের কোন গ্যাসগুলি অগ্নি নির্বাপক যন্ত্রে (Fire Extinguisher) ব্যবহৃত হয় ও ওজোন ক্ষয় করে? (একাধিক উত্তর)",
+      "options": [
+        "হ্যালন",
+        "CO₂",
+        "CFC",
+        "N₂"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-212",
+      "question": "জলে ফ্লোরাইডের পরিমাণ বেড়ে গেলে কী ধরনের সমস্যা হতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "দাঁতে ফ্লুরোসিস (দাগ)",
+        "হাড়ের ক্ষয়",
+        "পোলিও",
+        "অ্যানিমিয়া"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-213",
+      "question": "জলের স্থায়ী খরতার কারণ কী কী? (একাধিক উত্তর)",
+      "options": [
+        "CaCl₂",
+        "MgSO₄",
+        "Ca(HCO₃)₂",
+        "MgCl₂"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-214",
+      "question": "নাইট্রোজেন সার জমিতে প্রয়োগ করলে কোন দূষণ হতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "মাটি অম্লীয়করণ",
+        "জল দূষণ (নাইট্রেট)",
+        "বায়ু দূষণ (N₂O)",
+        "অক্সিজেন দূষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-215",
+      "question": "নিচের কোনগুলি পরিবেশবান্ধব চর্চা? (একাধিক উত্তর)",
+      "options": [
+        "কাপড়ের ব্যাগ ব্যবহার",
+        "সাইকেল চালানো",
+        "এলইডি বাতি ব্যবহার(D) এসির তাপমাত্রা ১৬ ডিগ্রিতে সেট করা",
+        ""
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-216",
+      "question": "ওজোন স্তর ধ্বংসকারী নয় কোন কোন গ্যাস? (একাধিক উত্তর)",
+      "options": [
+        "CFC-11",
+        "CO₂",
+        "N₂",
+        "হ্যালন-1301"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-217",
+      "question": "খাদ্যশৃঙ্খলে বায়ো ম্যাগনিফিকেশন বিষয়টি কী? (একাধিক উত্তর)",
+      "options": [
+        "দূষক ক্রমশ জমা হওয়া",
+        "খাদ্যশৃঙ্খলের শীর্ষে দূষকের ঘনত্ব বেশি হয়",
+        "কীটনাশক ধীরে ধীরে নিঃশেষ হয়",
+        "মাছ তাৎক্ষণিক মরে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-218",
+      "question": "কোন রাসায়নিকের প্রভাবে বৃষ্টির জল অম্লীয় হয়? (একাধিক উত্তর)",
+      "options": [
+        "H₂SO₄",
+        "HNO₃",
+        "HCl",
+        "NaOH"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-219",
+      "question": "জৈব সারের সুবিধা কী কী? (একাধিক উত্তর)",
+      "options": [
+        "মাটির গুণমান বাড়ে",
+        "জল ধারণ ক্ষমতা বাড়ে",
+        "রাসায়নিক দূষণ কমে",
+        "ইউরিয়ার থেকে বেশি নাইট্রোজেন আছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-220",
+      "question": "ক্লোরিনেশন ছাড়া জল বিশুদ্ধকরণের আরও কী কী পদ্ধতি আছে? (একাধিক উত্তর)",
+      "options": [
+        "ফুটানো",
+        "UV ফিল্টার",
+        "ওজোনেশন",
+        "স্ক্রাবার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-221",
+      "question": "পরিবেশ রক্ষায় শিক্ষার্থীদের ভূমিকা কী কী? (একাধিক উত্তর)",
+      "options": [
+        "গাছ লাগানো",
+        "প্লাস্টিক বর্জন",
+        "বিদ্যুৎ অপচয় রোধ",
+        "বনভূমি ধ্বংস করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-222",
+      "question": "এসির থেকে নির্গত গরম বাতাস ও CFC লিকেজ কোন দূষণ বাড়াতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "বিশ্ব উষ্ণায়ন",
+        "ওজোন ক্ষয়",
+        "জলের দূষণ",
+        "মাটির উর্বরতা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-223",
+      "question": "কোনো নদীর জলে গৃহস্থলির ডিটারজেন্ট ফেলা হলে কী ঘটতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "ইউট্রোফিকেশন",
+        "ফেনা সৃষ্টি",
+        "অক্সিজেনের অভাব",
+        "জল সুপেয় হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-224",
+      "question": "কোনটি কার্বন মনোক্সাইডের উৎস? (একাধিক উত্তর)",
+      "options": [
+        "গাড়ির ধোঁয়া",
+        "সিগারেটের ধোঁয়া",
+        "গিজারের দহন",
+        "সবুজ উদ্ভিদ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-225",
+      "question": "পেট্রোলের বদলে CNG ব্যবহারের সুবিধা কী? (একাধিক উত্তর)",
+      "options": [
+        "কম দূষণ",
+        "কম খরচ",
+        "অধিক শব্দ",
+        "CO নিঃসরণ কম"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-226",
+      "question": "\"আমাদের সাধারণ ভবিষ্যৎ\" (Our Common Future) রিপোর্টটি কিসের সাথে সম্পর্কিত? (একাধিক উত্তর)",
+      "options": [
+        "টেকসই উন্নয়ন",
+        "ব্রুন্ডটল্যান্ড কমিশন",
+        "শুধু জলবায়ু",
+        "জীববৈচিত্র্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-227",
+      "question": "জীবাশ্ম জ্বালানির পরিবর্তে নবায়নযোগ্য শক্তি ব্যবহার করলে কোন দূষণ কমবে? (একাধিক উত্তর)",
+      "options": [
+        "বায়ু",
+        "জল",
+        "তাপীয়",
+        "মাটি"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-228",
+      "question": "নীচের কোন বিবৃতি অ্যাসিড বৃষ্টি সম্পর্কে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "SO₂ এর কারণে হয়",
+        "কেবল শিল্পাঞ্চলেই হয়",
+        "মার্বেল ক্ষয় করে",
+        "মাটির পিএইচ কমিয়ে দেয়"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-229",
+      "question": "নিচের কোনগুলি জল দূষণের জৈব সূচক (Bio-indicators)? (একাধিক উত্তর)",
+      "options": [
+        "ব্যাকটেরিয়া (কলিফর্ম)",
+        "শেওলা",
+        "নির্দিষ্ট পতঙ্গ লার্ভা",
+        "CO₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-230",
+      "question": "প্লাস্টিক পুনর্ব্যবহার (Recycling) না করলে কী সমস্যা হয়? (একাধিক উত্তর)",
+      "options": [
+        "মাটি দূষিত হয়",
+        "নিকাশি ব্যবস্থা block করে",
+        "পশুপাখি খেয়ে মারা যায়",
+        "বাতাসের অক্সিজেন বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-231",
+      "question": "নিচের কোনগুলি পরিবেশগত সমস্যা সরাসরি মানব স্বাস্থ্যের উপর প্রভাব ফেলে? (একাধিক উত্তর)",
+      "options": [
+        "বায়ু দূষণ",
+        "জল দূষণ",
+        "ওজোন স্তরের ক্ষয়",
+        "রাস্তা নির্মাণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-232",
+      "question": "বায়ুতে SO₂ এর পরিমাণ বাড়লে কী ক্ষতি হয়? (একাধিক উত্তর)",
+      "options": [
+        "শ্বাসকষ্ট",
+        "অ্যাসিড বৃষ্টি",
+        "উদ্ভিদের ক্লোরোফিল নষ্ট",
+        "লোহায় মরিচা ধরে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-233",
+      "question": "নীচের কোনটি পরিবেশ সুরক্ষা আইন? (একাধিক উত্তর)",
+      "options": [
+        "The Environment (Protection) Act, 1986",
+        "The Air Act, 1981",
+        "The Water Act, 1974",
+        "The RTI Act, 2005"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-234",
+      "question": "নীচের কোনগুলি সেকেন্ডারি (Secondary) বায়ু দূষক? (একাধিক উত্তর)",
+      "options": [
+        "PAN",
+        "O₃ (ট্রপোস্ফিয়ারিক)",
+        "স্মগ",
+        "SO₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-235",
+      "question": "নীচের কোন বিষয়গুলি বায়ুর AQI নির্ণয়ে বিবেচিত হয়? (একাধিক উত্তর)",
+      "options": [
+        "PM2.5",
+        "PM10",
+        "SO₂",
+        "CO"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-236",
+      "question": "কোনটি বর্জ্য ব্যবস্থাপনার আধুনিক বৈজ্ঞানিক পদ্ধতি? (একাধিক উত্তর)",
+      "options": [
+        "ইনসিনারেশন",
+        "স্যানিটারি ল্যান্ডফিল",
+        "কম্পোস্টিং",
+        "নদীতে ভাসানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-237",
+      "question": "নবায়নযোগ্য শক্তি উৎস কোনগুলো? (একাধিক উত্তর)",
+      "options": [
+        "সূর্যালোক",
+        "বায়ুপ্রবাহ",
+        "প্রাকৃতিক গ্যাস",
+        "বায়োমাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-238",
+      "question": "বায়ু দূষণ প্রতিরোধে ব্যক্তিগত উদ্যোগ কী কী নেওয়া যেতে পারে? (একাধিক উত্তর)",
+      "options": [
+        "পাবলিক ট্রান্সপোর্ট ব্যবহার করা",
+        "প্লাস্টিক না পোড়ানো",
+        "বনসৃজন",
+        "ডিজেল জেনারেটর চালানো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-239",
+      "question": "নিচের কোনটি কার্সিনোজেন (ক্যান্সার সৃষ্টিকারী) দূষক? (একাধিক উত্তর)",
+      "options": [
+        "বেনজিন",
+        "ডাইঅক্সিন",
+        "পারদ",
+        "ভিনাইল ক্লোরাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-240",
+      "question": "ক্লোরিনেশন পদ্ধতির অসুবিধা কী? (একাধিক উত্তর)",
+      "options": [
+        "THM (Trihalomethane) তৈরি",
+        "জলের স্বাদ বদল",
+        "কিছু জীবাণু (Cryptosporidium) মারে না",
+        "গন্ধ দূর হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-241",
+      "question": "কোন কোন প্রক্রিয়ায় ভূগর্ভস্থ জল দূষিত হয়? (একাধিক উত্তর)",
+      "options": [
+        "অতিরিক্ত সার ব্যবহার",
+        "গভীর নলকূপ",
+        "শিল্পবর্জ্য ভূমিতে নিক্ষেপ",
+        "বৃষ্টির জল সংরক্ষণ"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-242",
+      "question": "পরিবেশ বান্ধব শৌচাগার বলতে কী বোঝায়? (একাধিক উত্তর)",
+      "options": [
+        "যেখানে জল কম লাগে",
+        "বর্জ্য সার হিসেবে পুনর্ব্যবহৃত হয়",
+        "পাকাবাড়ি",
+        "জৈব টয়লেট"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-243",
+      "question": "সৌরশক্তি চুলা (Solar cooker) ব্যবহার করলে কী সুবিধা? (একাধিক উত্তর)",
+      "options": [
+        "দূষণমুক্ত রান্না",
+        "জ্বালানি খরচ বাঁচে",
+        "ভিটামিন সুরক্ষিত থাকে (কারণ ধীরে রান্না)",
+        "বৃষ্টিতে ভালো চলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-244",
+      "question": "অতিরিক্ত UV রশ্মি সামুদ্রিক বাস্তুতন্ত্রে কী প্রভাব ফেলে? (একাধিক উত্তর)",
+      "options": [
+        "ফাইটোপ্ল্যাঙ্কটনের ক্ষতি",
+        "মাছের ডিম নষ্ট",
+        "প্রবাল প্রাচীর ধ্বংস",
+        "জোয়ার বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-245",
+      "question": "প্যারিস চুক্তি (Paris Agreement) এর লক্ষ্য কী? (একাধিক উত্তর)",
+      "options": [
+        "বিশ্ব উষ্ণায়ন 2°C (1.5°C) সীমিত রাখা",
+        "জলবায়ু তহবিল গঠন",
+        "ওজোন রক্ষা",
+        "বাঘ বাঁচানো"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-246",
+      "question": "শুকনো বর্জ্য ও ভেজা বর্জ্য আলাদা করার কারণ কী? (একাধিক উত্তর)",
+      "options": [
+        "সহজ রিসাইক্লিং",
+        "কম্পোস্টিং সহজ",
+        "বর্জ্য ব্যবস্থাপনা সাশ্রয়ী",
+        "ভেজা বর্জ্য পোড়ানো সহজ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-247",
+      "question": "হাঁপানি (Asthma) রোগীর জন্য কোন দূষণ বেশি ক্ষতিকর? (একাধিক উত্তর)",
+      "options": [
+        "SPM (PM10/PM2.5)",
+        "SO₂",
+        "NO₂",
+        "O₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-06-248",
+      "question": "পরিবেশগত ধারণক্ষমতা (Carrying Capacity) কীসের উপর নির্ভর করে? (একাধিক উত্তর)",
+      "options": [
+        "সম্পদের প্রাপ্যতা",
+        "জনসংখ্যা",
+        "বর্জ্য শোষণ ক্ষমতা",
+        "প্রযুক্তি"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-249",
+      "question": "নিম্নলিখিত বিবৃতিগুলির মধ্যে কোনটি /গুলি সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "BOD পরিষ্কার জলে কম",
+        "পরিষ্কার জলের BOD 5ppm এর নিচে",
+        "দূষিত জলের pH সর্বদা ক্ষারীয়",
+        "কলিফর্ম জলে মল দূষণ নির্দেশ করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-06-250",
+      "question": "ইলেকট্রনিক বর্জ্য ব্যবস্থাপনার জন্য করণীয় কী? (একাধিক উত্তর)",
+      "options": [
+        "অনুমোদিত পুনর্ব্যবহারকারীকে দেওয়া (Authorized Recycler)",
+        "ল্যান্ডফিলে না ফেলা",
+        "খোলা জায়গায় না পোড়ানো",
+        "পুরনো যন্ত্রাংশ দান করা (রিইউজ)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "06-environmental-chemistry",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

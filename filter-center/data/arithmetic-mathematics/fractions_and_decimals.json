@@ -1,0 +1,3850 @@
+{
+  "subject": "math",
+  "unit": "05-fractions-and-decimals",
+  "unit_code": "05",
+  "total": 220,
+  "questions": [
+    {
+      "id": "m-05-001",
+      "question": "ভগ্নাংশ p/q-এর সংজ্ঞা অনুযায়ী নিচের কোন শর্তটি আবশ্যক?",
+      "options": [
+        "p > q",
+        "q ≠ 0",
+        "p = 0",
+        "q = 1"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-002",
+      "question": "7/9 ভগ্নাংশটিতে লব কত?",
+      "options": [
+        "7",
+        "9",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-003",
+      "question": "5/11 ভগ্নাংশটিতে হর কত?",
+      "options": [
+        "5",
+        "11",
+        "16",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-004",
+      "question": "নিচের কোনটি প্রকৃত ভগ্নাংশ?",
+      "options": [
+        "7/5",
+        "9/4",
+        "3/8",
+        "11/6"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-005",
+      "question": "নিচের কোনটি অপ্রকৃত ভগ্নাংশ?",
+      "options": [
+        "2/3",
+        "5/9",
+        "7/7",
+        "1/8"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-006",
+      "question": "মিশ্র ভগ্নাংশ 3⅖-এর অপ্রকৃত ভগ্নাংশ কোনটি?",
+      "options": [
+        "6/5",
+        "11/5",
+        "17/5",
+        "13/5"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-007",
+      "question": "23/6 কে মিশ্র ভগ্নাংশে প্রকাশ করলে কী হয়?",
+      "options": [
+        "3⅚",
+        "3⅔",
+        "4⅙",
+        "3⅓"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-008",
+      "question": "নিচের কোনটি একক ভগ্নাংশ?",
+      "options": [
+        "2/5",
+        "3/7",
+        "1/9",
+        "4/9"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-009",
+      "question": "3/7, 5/7, 2/7 ভগ্নাংশ তিনটি কী ধরনের ভগ্নাংশ?",
+      "options": [
+        "সদৃশ ভগ্নাংশ",
+        "অসদৃশ ভগ্নাংশ",
+        "মিশ্র ভগ্নাংশ",
+        "একক ভগ্নাংশ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-010",
+      "question": "1/2, 2/3, 3/4 ভগ্নাংশ তিনটি কী ধরনের ভগ্নাংশ?",
+      "options": [
+        "সদৃশ ভগ্নাংশ",
+        "অসদৃশ ভগ্নাংশ",
+        "সমতুল্য ভগ্নাংশ",
+        "একক ভগ্নাংশ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-011",
+      "question": "2/3-এর সমতুল্য ভগ্নাংশ কোনটি?",
+      "options": [
+        "3/4",
+        "4/6",
+        "5/7",
+        "6/9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-012",
+      "question": "3/4-এর সমান কোনটি?",
+      "options": [
+        "6/8",
+        "9/12",
+        "12/16",
+        "15/20"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-013",
+      "question": "5/8 এবং 3/8-এর যোগফল কত?",
+      "options": [
+        "1",
+        "2/8",
+        "8/8",
+        "1/8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-014",
+      "question": "7/9 + 2/9 = ?",
+      "options": [
+        "5/9",
+        "9/9",
+        "1",
+        "14/9"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-015",
+      "question": "5/6 - 1/6 = ?",
+      "options": [
+        "4/6",
+        "2/3",
+        "1/3",
+        "4/12"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-016",
+      "question": "3/5 + 1/2 = ?",
+      "options": [
+        "4/7",
+        "4/10",
+        "11/10",
+        "5/10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-017",
+      "question": "2/3 + 1/4 = ?",
+      "options": [
+        "3/7",
+        "3/12",
+        "11/12",
+        "8/12"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-018",
+      "question": "7/8 - 1/4 = ?",
+      "options": [
+        "6/4",
+        "5/8",
+        "3/8",
+        "6/8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-019",
+      "question": "5/6 - 2/3 = ?",
+      "options": [
+        "3/3",
+        "3/6",
+        "1/6",
+        "2/6"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-020",
+      "question": "(2/3) × (3/5) = ?",
+      "options": [
+        "6/15",
+        "2/5",
+        "5/8",
+        "1/5"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-021",
+      "question": "(4/7) × (14/16) = ?",
+      "options": [
+        "56/112",
+        "1/2",
+        "2/4",
+        "1/4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-022",
+      "question": "(3/5) ÷ (2/7) = ?",
+      "options": [
+        "6/35",
+        "21/10",
+        "35/6",
+        "10/21"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-023",
+      "question": "(5/8) ÷ (15/16) = ?",
+      "options": [
+        "75/128",
+        "2/3",
+        "80/120",
+        "3/2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-024",
+      "question": "7/9-এর অন্যোন্যক কত?",
+      "options": [
+        "9/7",
+        "-7/9",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-025",
+      "question": "মিশ্র ভগ্নাংশ 4⅔-কে অপ্রকৃত ভগ্নাংশে রূপান্তর করলে হয়?",
+      "options": [
+        "8/3",
+        "12/3",
+        "14/3",
+        "10/3"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-026",
+      "question": "অপ্রকৃত ভগ্নাংশ 17/5-কে মিশ্র ভগ্নাংশে লিখলে হয়?",
+      "options": [
+        "2⅗",
+        "3⅖",
+        "3⅕",
+        "4⅕"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-027",
+      "question": "2/5, 3/7, 4/9-এর মধ্যে কোনটি বড়?",
+      "options": [
+        "2/5",
+        "3/7",
+        "4/9",
+        "সব সমান"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-028",
+      "question": "5/12 এবং 7/18-এর মধ্যে কোনটি ছোট?",
+      "options": [
+        "5/12",
+        "7/18",
+        "সমান",
+        "উভয়ই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-029",
+      "question": "3/4, 5/6, 2/3-এর সঠিক ক্রম কোনটি (ছোট থেকে বড়)?",
+      "options": [
+        "2/3 < 3/4 < 5/6",
+        "3/4 < 2/3 < 5/6",
+        "5/6 < 3/4 < 2/3",
+        "2/3 < 5/6 < 3/4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-030",
+      "question": "4/5, 7/10, 3/4-এর সঠিক ক্রম কোনটি (বড় থেকে ছোট)?",
+      "options": [
+        "4/5 > 3/4 > 7/10",
+        "3/4 > 4/5 > 7/10",
+        "7/10 > 4/5 > 3/4",
+        "4/5 > 7/10 > 3/4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-031",
+      "question": "12/18-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "6/9",
+        "4/6",
+        "2/3",
+        "3/4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-032",
+      "question": "15/25-কে সরল করলে কী হয়?",
+      "options": [
+        "3/5",
+        "5/3",
+        "1/5",
+        "3/4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-033",
+      "question": "21/49-এর সরলতম রূপ কোনটি?",
+      "options": [
+        "7/3",
+        "3/7",
+        "21/49",
+        "1/7"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-034",
+      "question": "দশমিক ভগ্নাংশ কাকে বলে?",
+      "options": [
+        "যার হর 10-এর ঘাত",
+        "যার লব 10-এর ঘাত",
+        "যার মান 1-এর কম",
+        "যার মান 1-এর বেশি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-035",
+      "question": "0.75-কে ভগ্নাংশে লিখলে কী হয়?",
+      "options": [
+        "75/10",
+        "3/4",
+        "75/1000",
+        "1/4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-036",
+      "question": "0.25-কে ভগ্নাংশে লিখলে কী হয়?",
+      "options": [
+        "1/2",
+        "1/4",
+        "2/5",
+        "1/5"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-037",
+      "question": "1/8-এর দশমিক রূপ কোনটি?",
+      "options": [
+        "0.125",
+        "0.25",
+        "0.5",
+        "0.75"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-038",
+      "question": "3/5-এর দশমিক রূপ কোনটি?",
+      "options": [
+        "0.3",
+        "0.35",
+        "0.6",
+        "0.65"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-039",
+      "question": "5/8-এর দশমিক রূপ কোনটি?",
+      "options": [
+        "0.5",
+        "0.625",
+        "0.75",
+        "0.875"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-040",
+      "question": "7/20-এর দশমিক রূপ কোনটি?",
+      "options": [
+        "0.14",
+        "0.35",
+        "0.7",
+        "3.5"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-041",
+      "question": "0.125-কে ভগ্নাংশে লিখলে কী হয়?",
+      "options": [
+        "1/4",
+        "1/5",
+        "1/6",
+        "1/8"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-042",
+      "question": "0.6-কে ভগ্নাংশে লিখলে কী হয়?",
+      "options": [
+        "6/100",
+        "3/5",
+        "2/5",
+        "5/6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-043",
+      "question": "0.05-কে ভগ্নাংশে লিখলে কী হয়?",
+      "options": [
+        "5/10",
+        "1/20",
+        "1/5",
+        "5/1000"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-044",
+      "question": "0.333... আবৃত দশমিকটির ভগ্নাংশ কোনটি?",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "3/4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-045",
+      "question": "0.666... আবৃত দশমিকটির ভগ্নাংশ কোনটি?",
+      "options": [
+        "1/3",
+        "2/3",
+        "1/6",
+        "5/6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-046",
+      "question": "2.35 + 3.42 = ?",
+      "options": [
+        "5.77",
+        "5.78",
+        "6.77",
+        "5.67"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-047",
+      "question": "7.25 + 4.8 = ?",
+      "options": [
+        "11.05",
+        "12.05",
+        "11.33",
+        "12.33"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-048",
+      "question": "8.5 - 3.25 = ?",
+      "options": [
+        "5.25",
+        "5.00",
+        "5.50",
+        "4.75"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-049",
+      "question": "12.6 - 4.75 = ?",
+      "options": [
+        "7.85",
+        "7.15",
+        "8.85",
+        "8.15"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-050",
+      "question": "(2.5) × (1.2) = ?",
+      "options": [
+        "3.0",
+        "3.00",
+        "30",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-051",
+      "question": "(1.25) × (0.4) = ?",
+      "options": [
+        "0.5",
+        "5.0",
+        "50",
+        "0.05"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-052",
+      "question": "(0.05) × (0.2) = ?",
+      "options": [
+        "0.1",
+        "0.01",
+        "0.001",
+        "1.0"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-053",
+      "question": "6.25 ÷ 2.5 = ?",
+      "options": [
+        "2.5",
+        "25",
+        "250",
+        "0.25"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-054",
+      "question": "0.36 ÷ 0.6 = ?",
+      "options": [
+        "0.6",
+        "6",
+        "0.06",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-055",
+      "question": "1.44 ÷ 1.2 = ?",
+      "options": [
+        "1.2",
+        "12",
+        "0.12",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-056",
+      "question": "5.6 এবং 5.26-এর মধ্যে কোনটি বড়?",
+      "options": [
+        "5.6",
+        "5.26",
+        "সমান",
+        "কোনটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-057",
+      "question": "0.05, 0.5, 0.005 -এর সঠিক ক্রম কোনটি (ছোট থেকে বড়)?",
+      "options": [
+        "0.005 < 0.05 < 0.5",
+        "0.05 < 0.005 < 0.5",
+        "0.5 < 0.05 < 0.005",
+        "0.005 < 0.5 < 0.05"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-058",
+      "question": "2.375-এ 7-এর স্থানীয় মান কত?",
+      "options": [
+        "7",
+        "0.7",
+        "0.07",
+        "0.007"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-059",
+      "question": "34.567-এ 6-এর স্থানীয় মান কত?",
+      "options": [
+        "6",
+        "0.6",
+        "0.06",
+        "0.006"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-060",
+      "question": "7.349-কে নিকটতম পূর্ণ সংখ্যায় রাউন্ড করলে কী হয়?",
+      "options": [
+        "7",
+        "7.3",
+        "8",
+        "7.35"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-061",
+      "question": "5.678-কে এক দশমিক স্থান পর্যন্ত রাউন্ড করলে কী হয়?",
+      "options": [
+        "5.6",
+        "5.68",
+        "5.7",
+        "5.67"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-062",
+      "question": "8.235-কে দুই দশমিক স্থান পর্যন্ত রাউন্ড করলে কী হয়?",
+      "options": [
+        "8.23",
+        "8.24",
+        "8.2",
+        "8.3"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-063",
+      "question": "একটি পিৎজা 8 সমান টুকরো করা হলো। 3 টুকরো খাওয়া হলে কত অংশ বাকি রইল?",
+      "options": [
+        "3/8",
+        "5/8",
+        "1/8",
+        "7/8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-064",
+      "question": "একটি পানির বোতলে 2/5 লিটার পানি আছে। আরও 1/4 লিটার পানি মেশালে মোট পানি কত লিটার হবে?",
+      "options": [
+        "3/9 লি",
+        "13/20 লি",
+        "3/20 লি",
+        "7/20 লি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-065",
+      "question": "রিমি 2/3 কেজি আপেল এবং 1/4 কেজি কমলা কিনল। মোট ফল কত কেজি কিনল?",
+      "options": [
+        "11/12 কেজি",
+        "3/7 কেজি",
+        "1/2 কেজি",
+        "1/12 কেজি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-066",
+      "question": "একটি ক্লাসের 3/5 অংশ ছাত্রী। ছাত্রী সংখ্যা 24 হলে মোট ছাত্র-ছাত্রী সংখ্যা কত?",
+      "options": [
+        "30",
+        "36",
+        "40",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-067",
+      "question": "100 টাকার 3/4 অংশ কত টাকা?",
+      "options": [
+        "25 টাকা",
+        "50 টাকা",
+        "75 টাকা",
+        "100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-068",
+      "question": "1 মিটার = 100 সেমি। 0.75 মিটারকে সেমিতে প্রকাশ করলে?",
+      "options": [
+        "7.5 সেমি",
+        "75 সেমি",
+        "750 সেমি",
+        "0.75 সেমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-069",
+      "question": "1 কেজি = 1000 গ্রাম। 2.5 কেজি কত গ্রাম?",
+      "options": [
+        "250 গ্রাম",
+        "2500 গ্রাম",
+        "25 গ্রাম",
+        "25000 গ্রাম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-070",
+      "question": "5 ঘণ্টার 0.4 অংশ কত মিনিট?",
+      "options": [
+        "20 মিনিট",
+        "120 মিনিট",
+        "200 মিনিট",
+        "12 মিনিট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-071",
+      "question": "1/2-কে দশমিকে লিখলে 0.5 হয়। 1/5-কে দশমিকে লিখলে কী হয়?",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.5",
+        "0.05"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-072",
+      "question": "3/8-এর দশমিক রূপ 0.375। 5/8-এর দশমিক রূপ কত?",
+      "options": [
+        "0.5",
+        "0.625",
+        "0.525",
+        "0.875"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-073",
+      "question": "1/3-এর দশমিক রূপ 0.333...। 2/3-এর দশমিক রূপ কত?",
+      "options": [
+        "0.333...",
+        "0.666...",
+        "0.1666...",
+        "0.8333..."
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-074",
+      "question": "0.4-কে শতকরায় প্রকাশ করলে কী হয়?",
+      "options": [
+        "4%",
+        "40%",
+        "0.4%",
+        "400%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-075",
+      "question": "75%-কে দশমিকে লিখলে কী হয়?",
+      "options": [
+        "0.75",
+        "7.5",
+        "75",
+        "0.075"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-076",
+      "question": "3/5 এবং 5/8-এর মধ্যে কোনটি বড়?",
+      "options": [
+        "3/5",
+        "5/8",
+        "সমান",
+        "তুলনা করা যায় না"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-077",
+      "question": "2/7 এবং 3/8-এর মধ্যে কোনটি ছোট?",
+      "options": [
+        "2/7",
+        "3/8",
+        "সমান",
+        "কোনটিই নয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-078",
+      "question": "(4/9) ÷ (2/3) = ?",
+      "options": [
+        "2/3",
+        "8/27",
+        "3/2",
+        "4/6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-079",
+      "question": "(7/8) × (4/5) = ?",
+      "options": [
+        "28/40",
+        "7/10",
+        "14/20",
+        "35/32"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-080",
+      "question": "(3/4) + (5/6) - (1/2) = ?",
+      "options": [
+        "13/12",
+        "11/12",
+        "1/12",
+        "5/12"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-081",
+      "question": "(7/9) - (2/9) + (5/9) = ?",
+      "options": [
+        "10/9",
+        "14/9",
+        "4/9",
+        "5/9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-082",
+      "question": "(2/3) × (3/4) × (4/5) = ?",
+      "options": [
+        "2/5",
+        "24/60",
+        "1/5",
+        "3/10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-083",
+      "question": "(1/2) ÷ (2/3) ÷ (3/4) = ?",
+      "options": [
+        "1/4",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-084",
+      "question": "0.125 × 0.2 × 0.4 = ?",
+      "options": [
+        "0.01",
+        "0.001",
+        "0.1",
+        "1.0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-085",
+      "question": "25.25 ÷ 5 = ?",
+      "options": [
+        "5.05",
+        "5.5",
+        "5.15",
+        "5.25"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-086",
+      "question": "16.8 ÷ 0.07 = ?",
+      "options": [
+        "24",
+        "240",
+        "2.4",
+        "2400"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-087",
+      "question": "0.009 ÷ 0.03 = ?",
+      "options": [
+        "0.3",
+        "0.03",
+        "3",
+        "0.003"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-088",
+      "question": "(2.5)² = ?",
+      "options": [
+        "5.0",
+        "6.25",
+        "0.625",
+        "62.5"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-089",
+      "question": "(1.2)² = ?",
+      "options": [
+        "1.44",
+        "14.4",
+        "144",
+        "0.144"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-090",
+      "question": "√0.81 = ?",
+      "options": [
+        "0.09",
+        "0.9",
+        "9",
+        "0.009"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-091",
+      "question": "√0.0025 = ?",
+      "options": [
+        "0.05",
+        "0.5",
+        "5",
+        "0.005"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-092",
+      "question": "একটি কাপড়ের 2/7 অংশ লাল, 3/7 অংশ নীল এবং বাকি অংশ সবুজ। সবুজ অংশ কত?",
+      "options": [
+        "2/7",
+        "3/7",
+        "1/7",
+        "4/7"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-093",
+      "question": "একটি স্কুলের 3/8 অংশ ছেলে। মোট 400 জন ছাত্র হলে ছেলে সংখ্যা কত?",
+      "options": [
+        "150",
+        "200",
+        "250",
+        "300"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-094",
+      "question": "2/5 অংশ = 50 টাকা। সম্পূর্ণ টাকার পরিমাণ কত?",
+      "options": [
+        "100 টাকা",
+        "125 টাকা",
+        "150 টাকা",
+        "200 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-095",
+      "question": "0.75 দশমিক ভগ্নাংশটির হর 100 করলে লব কত হবে?",
+      "options": [
+        "75",
+        "7.5",
+        "750",
+        "0.75"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-096",
+      "question": "3.142 দশমিক সংখ্যাটিতে কোন অঙ্কটি সহস্রাংশ স্থানে আছে?",
+      "options": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-097",
+      "question": "0.2, 0.02, 0.002-এর যোগফল কত?",
+      "options": [
+        "0.222",
+        "0.22",
+        "0.02",
+        "0.00222"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-098",
+      "question": "5.6 - 2.35 + 1.05 = ?",
+      "options": [
+        "4.3",
+        "4.2",
+        "4.4",
+        "4.5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-099",
+      "question": "(0.1 × 0.1 × 0.1) = ?",
+      "options": [
+        "0.1",
+        "0.01",
+        "0.001",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-100",
+      "question": "0.2 × 0.2 × 0.2 = ?",
+      "options": [
+        "0.008",
+        "0.08",
+        "0.8",
+        "0.0008"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-101",
+      "question": "2/5, 4/10, 6/15 ভগ্নাংশ তিনটি কোন ধরনের ভগ্নাংশ?",
+      "options": [
+        "সদৃশ",
+        "অসদৃশ",
+        "সমতুল্য",
+        "মিশ্র"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-102",
+      "question": "নিচের কোনটি প্রকৃত ভগ্নাংশ নয়?",
+      "options": [
+        "7/9",
+        "5/12",
+        "9/5",
+        "2/11"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-103",
+      "question": "7/3-এর বিপরীত ভগ্নাংশ কত?",
+      "options": [
+        "3/7",
+        "-3/7",
+        "7/3",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-104",
+      "question": "0.25-কে 0.5 দিয়ে গুণ করলে কী হয়?",
+      "options": [
+        "0.125",
+        "0.0125",
+        "1.25",
+        "12.5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-105",
+      "question": "1/2-এর চেয়ে বড় কিন্তু 3/4-এর চেয়ে ছোট ভগ্নাংশ কোনটি?",
+      "options": [
+        "2/5",
+        "5/8",
+        "1/4",
+        "7/8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-106",
+      "question": "1/3 এবং 1/2-এর গড় কত?",
+      "options": [
+        "5/12",
+        "2/5",
+        "1/5",
+        "2/6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-107",
+      "question": "একটি আয়তক্ষেত্রের দৈর্ঘ্য 5/6 মিটার ও প্রস্থ 2/3 মিটার। ক্ষেত্রফল কত বর্গমিটার?",
+      "options": [
+        "5/9",
+        "10/18",
+        "7/9",
+        "5/18"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-108",
+      "question": "2.5 কে 0.5 দিয়ে ভাগ করলে ভাগফল কত?",
+      "options": [
+        "5",
+        "0.5",
+        "50",
+        "0.05"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-109",
+      "question": "7.75 কে দশমিক পদ্ধতিতে লিখলে নিচের কোনটি সঠিক?",
+      "options": [
+        "7 + 0.7 + 0.05",
+        "7 + 0.07 + 0.005",
+        "7 + 0.75",
+        "7 + 7/10 + 5/100"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-110",
+      "question": "0.375 ভগ্নাংশটির সরলতম রূপ কোনটি?",
+      "options": [
+        "3/8",
+        "15/40",
+        "375/1000",
+        "75/200"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-111",
+      "question": "দুটি ভগ্নাংশের গুণফল 3/5। একটি ভগ্নাংশ 2/3 হলে অপরটি কত?",
+      "options": [
+        "5/9",
+        "9/10",
+        "10/9",
+        "3/10"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-112",
+      "question": "দুটি ভগ্নাংশের ভাগফল 4/5। ভাজক 2/3 হলে ভাজ্য কত?",
+      "options": [
+        "8/15",
+        "6/20",
+        "8/5",
+        "5/8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-113",
+      "question": "0.75-এর সঙ্গে কত যোগ করলে 1 পাওয়া যায়?",
+      "options": [
+        "0.25",
+        "0.5",
+        "1.25",
+        "0.125"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-114",
+      "question": "1 থেকে 0.125 বিয়োগ করলে কত থাকে?",
+      "options": [
+        "0.875",
+        "0.75",
+        "0.825",
+        "0.125"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-115",
+      "question": "0.05 মিটারকে সেন্টিমিটারে প্রকাশ করলে কী হয়?",
+      "options": [
+        "0.5 সেমি",
+        "5 সেমি",
+        "50 সেমি",
+        "0.05 সেমি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-116",
+      "question": "3.25 লিটার জুস 0.25 লিটার গ্লাসে ভরা হলে কত গ্লাস লাগবে?",
+      "options": [
+        "13",
+        "11",
+        "12",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-117",
+      "question": "(1/2) + (1/3) + (1/6) = ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-118",
+      "question": "(3/4) - (1/2) + (1/8) = ?",
+      "options": [
+        "3/8",
+        "5/8",
+        "4/8",
+        "2/8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-119",
+      "question": "0.005 × 1000 = ?",
+      "options": [
+        "5",
+        "0.5",
+        "50",
+        "0.05"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-120",
+      "question": "5.5 ÷ 0.5 = ?",
+      "options": [
+        "11",
+        "1.1",
+        "110",
+        "0.11"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-121",
+      "question": "2/3, 5/6, 7/12-এর লসাগু কত?",
+      "options": [
+        "60",
+        "12",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-122",
+      "question": "1/4, 3/8, 5/12-এর গণ কত?",
+      "options": [
+        "1/12",
+        "1/24",
+        "1/6",
+        "1/8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-123",
+      "question": "নিচের কোন ভগ্নাংশটি 1/2-এর সমান নয়?",
+      "options": [
+        "2/4",
+        "3/6",
+        "4/8",
+        "5/12"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-124",
+      "question": "নিচের কোন দশমিকটি 1/4-এর সমান?",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.35",
+        "0.125"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-125",
+      "question": "0.35-কে ভগ্নাংশে লিখলে নিচের কোনটি সঠিক নয়?",
+      "options": [
+        "35/100",
+        "7/20",
+        "35/10",
+        "7/20"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-126",
+      "question": "5/6 এবং 7/8-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "1/24",
+        "1/12",
+        "1/6",
+        "1/8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-127",
+      "question": "4/5-এর 3/4 অংশ কত?",
+      "options": [
+        "3/5",
+        "12/20",
+        "16/15",
+        "3/20"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-128",
+      "question": "15-এর 2/5 অংশ কত?",
+      "options": [
+        "6",
+        "7.5",
+        "10",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-129",
+      "question": "0.4 × 0.4 - 0.4 × 0.3 = ?",
+      "options": [
+        "0.4 × 0.1",
+        "0.16 - 0.12",
+        "0.04",
+        "0.4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-130",
+      "question": "2.5 + 3.5 = 6.0। 2.5 + 3.55 = কত?",
+      "options": [
+        "6.05",
+        "6.5",
+        "5.05",
+        "5.95"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-131",
+      "question": "0.05-কে দশমিক পদ্ধতিতে ঠিকভাবে পড়লে কী হবে?",
+      "options": [
+        "শূন্য দশমিক শূন্য পাঁচ",
+        "শূন্য দশমিক পাঁচ",
+        "শূন্য দশমিক পাঁচ দশম",
+        "শূন্য দশমিক পাঁচ শতাংশ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-132",
+      "question": "2/5 < 3/7 - কথাটি সত্য নাকি মিথ্যা?",
+      "options": [
+        "সত্য",
+        "মিথ্যা",
+        "মাঝে মাঝে",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-133",
+      "question": "0.75 কে 0.25 দিয়ে ভাগ করলে কত হয়?",
+      "options": [
+        "0.3",
+        "3",
+        "30",
+        "0.03"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-134",
+      "question": "(1/2) ÷ (1/2) ÷ (1/2) = ?",
+      "options": [
+        "2",
+        "1/2",
+        "1",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-135",
+      "question": "0.125 লিটার দুধের দাম 5 টাকা হলে প্রতি লিটার দুধের দাম কত?",
+      "options": [
+        "40 টাকা",
+        "50 টাকা",
+        "30 টাকা",
+        "20 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-136",
+      "question": "একটি কেকের 3/7 অংশ খাওয়া হলে বাকি কত অংশ থাকে?",
+      "options": [
+        "4/7",
+        "3/7",
+        "1/7",
+        "2/7"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-137",
+      "question": "1.5 কিমি পথের 0.6 অংশ হাঁটলে কত কিমি হাঁটা হবে?",
+      "options": [
+        "0.9 কিমি",
+        "9 কিমি",
+        "0.09 কিমি",
+        "90 কিমি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-138",
+      "question": "2/5 এবং 3/5-এর মধ্যে কটি ভগ্নাংশ আছে?",
+      "options": [
+        "অসংখ্য",
+        "1টি",
+        "2টি",
+        "3টি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-139",
+      "question": "0.999... আবৃত দশমিকটি কোন সংখ্যার সমান?",
+      "options": [
+        "1",
+        "0.9",
+        "0.99",
+        "0.099"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-140",
+      "question": "0.1+0.01+0.001+0.0001 = ?",
+      "options": [
+        "0.1111",
+        "0.1011",
+        "0.1101",
+        "0.1110"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-141",
+      "question": "1/2, 1/3, 1/4-এর মধ্যে কোনটি সবচেয়ে বড়?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "সব সমান"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-142",
+      "question": "0.025 × 400 = ?",
+      "options": [
+        "10",
+        "1",
+        "100",
+        "0.1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-143",
+      "question": "0.75 + 0.75 = ?",
+      "options": [
+        "1.5",
+        "1.25",
+        "1.75",
+        "2.0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-144",
+      "question": "7/9 থেকে কত বিয়োগ করলে 5/9 পাওয়া যায়?",
+      "options": [
+        "2/9",
+        "12/9",
+        "1/9",
+        "4/9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-145",
+      "question": "0.625-এর লব ও হরের অনুপাত কত?",
+      "options": [
+        "5:8",
+        "8:5",
+        "5:3",
+        "3:5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-146",
+      "question": "3¼ মিটার কাপড়ের 1½ মিটার কাটা হলে বাকি কত মিটার থাকে?",
+      "options": [
+        "1¾ মি",
+        "2¼ মি",
+        "1½ মি",
+        "2½ মি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-147",
+      "question": "0.2, 0.22, 0.222-এর যোগফল কত?",
+      "options": [
+        "0.642",
+        "0.442",
+        "0.542",
+        "0.742"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-148",
+      "question": "1 - 0.25 - 0.25 = ?",
+      "options": [
+        "0.5",
+        "0.75",
+        "0.25",
+        "0.35"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-149",
+      "question": "0.25 ঘন্টা কত মিনিট?",
+      "options": [
+        "15 মিনিট",
+        "10 মিনিট",
+        "5 মিনিট",
+        "20 মিনিট"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-150",
+      "question": "0.0005 কে 0.5 দিয়ে গুণ করলে কত হয়?",
+      "options": [
+        "0.00025",
+        "0.0025",
+        "0.025",
+        "0.25"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-151",
+      "question": "নিচের কোন ভগ্নাংশটি ক্ষুদ্রতম?",
+      "options": [
+        "3/7",
+        "4/9",
+        "5/11",
+        "6/13"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-152",
+      "question": "নিচের কোন দশমিকটি বৃহত্তম?",
+      "options": [
+        "0.009",
+        "0.09",
+        "0.9",
+        "0.0009"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-153",
+      "question": "0.75-কে 1/2 দিয়ে গুণ করলে গুণফল কত হবে?",
+      "options": [
+        "0.375",
+        "0.3750",
+        "3/8",
+        "375/1000"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-154",
+      "question": "(5/8) × (16/25) ÷ (2/5) = ?",
+      "options": [
+        "1",
+        "2",
+        "1/2",
+        "1/4"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-05-155",
+      "question": "নিচের কোনগুলো প্রকৃত ভগ্নাংশ?",
+      "options": [
+        "2/7",
+        "7/5",
+        "4/9",
+        "11/6"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-156",
+      "question": "1/2-এর সমতুল্য ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "2/4",
+        "3/6",
+        "4/8",
+        "5/10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-157",
+      "question": "নিচের কোন ভগ্নাংশগুলি 1-এর চেয়ে বড়?",
+      "options": [
+        "5/4",
+        "7/8",
+        "9/5",
+        "3/2"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-158",
+      "question": "3/4-এর সমান দশমিক কোনগুলো?",
+      "options": [
+        "0.75",
+        "0.750",
+        "0.075",
+        "0.7500"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-159",
+      "question": "নিচের কোন ভগ্নাংশগুলি 2/3-এর চেয়ে বড়?",
+      "options": [
+        "3/4",
+        "5/6",
+        "1/2",
+        "4/5"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-160",
+      "question": "0.25, 0.5, 0.75 দশমিকগুলোর ভগ্নাংশ কী কী?",
+      "options": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "1/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-161",
+      "question": "সদৃশ ভগ্নাংশের বৈশিষ্ট্য কী কী?",
+      "options": [
+        "হর সমান",
+        "লব সমান",
+        "মান সমান",
+        "হর অসমান"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-162",
+      "question": "নিচের কোনগুলো অসদৃশ ভগ্নাংশ?",
+      "options": [
+        "1/3",
+        "1/4",
+        "1/5",
+        "2/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-163",
+      "question": "1/3-এর সমান আবৃত দশমিক কোনগুলো?",
+      "options": [
+        "0.3̅",
+        "0.33",
+        "0.333...",
+        "0.0333..."
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-164",
+      "question": "(1/2 + 1/3) এর মান কত এবং এটি কোন ভগ্নাংশের সমান?",
+      "options": [
+        "5/6",
+        "0.833",
+        "1.666",
+        "1/5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-165",
+      "question": "নিচের কোন গুণফলগুলি 1-এর সমান?",
+      "options": [
+        "2/3 × 3/2",
+        "4/5 × 5/4",
+        "1/2 × 2",
+        "1/3 × 3/2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-166",
+      "question": "নিচের কোন ভগ্নাংশগুলি সরলীকরণের পর 3/5 হয়?",
+      "options": [
+        "6/10",
+        "9/15",
+        "12/20",
+        "15/25"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-167",
+      "question": "0.5-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "1/2",
+        "2/4",
+        "3/6",
+        "4/9"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-168",
+      "question": "ভগ্নাংশের ক্ষেত্রে নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "প্রকৃত ভগ্নাংশের মান 1-এর কম",
+        "অপ্রকৃত ভগ্নাংশের মান 1-এর বেশি বা সমান",
+        "একক ভগ্নাংশের লব 1",
+        "মিশ্র ভগ্নাংশে পূর্ণ সংখ্যা থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-169",
+      "question": "0.75-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "3/4",
+        "6/8",
+        "9/12",
+        "12/16"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-170",
+      "question": "1/4, 2/8, 3/12 - এদের মধ্যে কী কী সম্পর্ক?",
+      "options": [
+        "সমতুল্য ভগ্নাংশ",
+        "মান সমান",
+        "অসদৃশ ভগ্নাংশ",
+        "হর সমান"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-171",
+      "question": "নিচের কোন জোড়াগুলির যোগফল 1?",
+      "options": [
+        "1/2 + 1/2",
+        "1/3 + 2/3",
+        "1/4 + 3/4",
+        "1/5 + 4/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-172",
+      "question": "0.125-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "1/8",
+        "2/16",
+        "3/24",
+        "4/32"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-173",
+      "question": "2/5, 4/10, 8/20 - এদের সঠিক বিবরণ কী?",
+      "options": [
+        "সমতুল্য ভগ্নাংশ",
+        "প্রতিটি 0.4-এর সমান",
+        "প্রতিটি প্রকৃত ভগ্নাংশ",
+        "প্রতিটি অপ্রকৃত ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-174",
+      "question": "নিচের কোন দশমিকগুলি সসীম দশমিক?",
+      "options": [
+        "0.5",
+        "0.25",
+        "0.333...",
+        "0.125"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-175",
+      "question": "0.375-কে ভগ্নাংশে প্রকাশ করলে কী হয় এবং এটি কোন ভগ্নাংশের সমান?",
+      "options": [
+        "375/1000",
+        "3/8",
+        "75/200",
+        "6/16"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-176",
+      "question": "নিচের কোন ভগ্নাংশগুলি 1/2-এর চেয়ে ছোট?",
+      "options": [
+        "1/3",
+        "1/4",
+        "2/5",
+        "3/4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-177",
+      "question": "0.2, 0.02, 0.002-এর মধ্যে সঠিক তুলনা কোনটি?",
+      "options": [
+        "0.2 > 0.02",
+        "0.02 > 0.002",
+        "0.002 < 0.02",
+        "0.2 = 0.02"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-178",
+      "question": "0.4-এর সমান ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "2/5",
+        "4/10",
+        "8/20",
+        "40/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-179",
+      "question": "ভগ্নাংশের গুণের ক্ষেত্রে নিচের কোন সূত্রগুলি সঠিক?",
+      "options": [
+        "(a/b) × (c/d) = (a×c)/(b×d)",
+        "গুণফল লব ও লবের গুণফল",
+        "গুণফল হর ও হরের গুণফল",
+        "গুণের পর সরলীকরণ করা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-180",
+      "question": "নিচের কোনগুলো 0.625-এর সমান?",
+      "options": [
+        "5/8",
+        "0.6250",
+        "625/1000",
+        "0.0625"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-181",
+      "question": "(1/2 ÷ 1/4) = 2 - এটি সঠিক। নিচের কোন ভাগফলগুলি 2-এর সমান?",
+      "options": [
+        "1/2 ÷ 1/4",
+        "1/3 ÷ 1/6",
+        "1/4 ÷ 1/8",
+        "1/5 ÷ 1/10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-182",
+      "question": "একটি পিৎজা 8 ভাগে ভাগ করা হলো। 3 ভাগ খাওয়া হলে নিচের কোন বিবৃতিগুলি সঠিক?",
+      "options": [
+        "খাওয়া অংশ 3/8",
+        "বাকি অংশ 5/8",
+        "খাওয়া অংশ 0.375",
+        "বাকি অংশ 0.625"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-183",
+      "question": "0.333... এবং 0.666... আবৃত দশমিক দুটির ভগ্নাংশ কীরূপ?",
+      "options": [
+        "যথাক্রমে 1/3 ও 2/3",
+        "উভয়ই প্রকৃত ভগ্নাংশ",
+        "এদের যোগফল 1",
+        "এদের গুণফল 2/9"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-184",
+      "question": "নিচের কোন ভগ্নাংশ ও দশমিক জোড়াগুলি সমান?",
+      "options": [
+        "1/2 = 0.5",
+        "1/4 = 0.25",
+        "3/4 = 0.75",
+        "1/5 = 0.2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-185",
+      "question": "7/9 ও 5/9-এর মধ্যে সঠিক সম্পর্ক কোনটি?",
+      "options": [
+        "7/9 > 5/9",
+        "7/9 - 5/9 = 2/9",
+        "7/9 + 5/9 = 12/9 = 4/3",
+        "7/9 = 5/9"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-186",
+      "question": "নিচের কোনগুলো অপ্রকৃত ভগ্নাংশের উদাহরণ?",
+      "options": [
+        "5/3",
+        "8/5",
+        "7/4",
+        "2/7"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-187",
+      "question": "0.75-কে ভগ্নাংশে লিখলে নিচের কোনগুলো সঠিক?",
+      "options": [
+        "75/100",
+        "3/4",
+        "6/8",
+        "15/20"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-188",
+      "question": "ভগ্নাংশের বিয়োগের ক্ষেত্রে নিচের কোন নিয়মগুলি সঠিক?",
+      "options": [
+        "হর সমান কর必须先",
+        "লব বিয়োগ করতে হয়",
+        "হর বিয়োগ করতে হয়",
+        "উত্তর সরলীকরণ করতে হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-189",
+      "question": "মিশ্র ভগ্নাংশ 2⅓, 3¼, 1⅖-এর অপ্রকৃত রূপ কী কী?",
+      "options": [
+        "7/3",
+        "13/4",
+        "7/5",
+        "6/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-190",
+      "question": "নিচের কোন দশমিক গুলি 1/2-এর সমান?",
+      "options": [
+        "0.50",
+        "0.500",
+        "0.5",
+        "0.05"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-191",
+      "question": "ভগ্নাংশের তুলনায় নিচের কোন পদ্ধতিগুলি সঠিক?",
+      "options": [
+        "হর সমান করে লব দেখি",
+        "লব সমান করলে ছোট হর বড় ভগ্নাংশ",
+        "আড় গুণন পদ্ধতি ব্যবহার করা যায়",
+        "দশমিকে রূপান্তর করে তুলনা করা যায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-192",
+      "question": "2.5, 2.05, 2.005-এর সঠিক ক্রম কোনটি (ছোট থেকে বড়)?",
+      "options": [
+        "2.005 < 2.05 < 2.5",
+        "2.05 < 2.005 < 2.5",
+        "2.5 > 2.05 > 2.005",
+        "2.005 > 2.05 > 2.5"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-193",
+      "question": "0.8, 0.80, 0.800-এর মধ্যে সঠিক সম্পর্ক কোনটি?",
+      "options": [
+        "সব সমান",
+        "0.8 = 0.80 = 0.800",
+        "0.8 > 0.80",
+        "0.800 < 0.8"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-194",
+      "question": "1/8-এর সমান দশমিক ও ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "0.125",
+        "125/1000",
+        "1/8",
+        "0.0125"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-195",
+      "question": "0.25-এর সঙ্গে কোন কোন সংখ্যা যোগ করলে 1 পাওয়া যায়?",
+      "options": [
+        "0.75",
+        "3/4",
+        "0.5",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-196",
+      "question": "ভগ্নাংশের ভাগের ক্ষেত্রে নিচের কোন নিয়মগুলি প্রযোজ্য?",
+      "options": [
+        "(a/b) ÷ (c/d) = (a/b) × (d/c)",
+        "দ্বিতীয় ভগ্নাংশের অন্যোন্যক নিয়ে গুণ করতে হয়",
+        "ভাজক উল্টে দিয়ে গুণ করা হয়",
+        "হর ও লব উভয়কেই উল্টাতে হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-197",
+      "question": "নিচের কোনগুলো 0.2-এর সমান?",
+      "options": [
+        "1/5",
+        "2/10",
+        "0.20",
+        "0.02"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-198",
+      "question": "3/5, 6/10, 9/15 - এদের মধ্যে সঠিক তথ্য কোনটি?",
+      "options": [
+        "সব ভগ্নাংশ সমান",
+        "প্রতিটি 0.6-এর সমান",
+        "এরা প্রকৃত ভগ্নাংশ",
+        "এরা সমতুল্য ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-199",
+      "question": "5/6 অপেক্ষা ছোট ভগ্নাংশ কোনগুলো?",
+      "options": [
+        "2/3",
+        "3/4",
+        "1/2",
+        "7/8"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-200",
+      "question": "0.75 এবং 0.7-এর মধ্যে কতগুলি সংখ্যা আছে এবং সেগুলি কী হতে পারে?",
+      "options": [
+        "অসংখ্য সংখ্যা",
+        "0.71, 0.72, ইত্যাদি",
+        "0.73",
+        "0.71, 0.74"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-05-201",
+      "question": "ভগ্নাংশকে দশমিকে রূপান্তরের সঠিক পদ্ধতি কোনটি?",
+      "options": [
+        "লবকে হর দিয়ে ভাগ করা",
+        "হরকে লব দিয়ে ভাগ করা",
+        "লব ও হরকে গুণ করা",
+        "লবকে হর দিয়ে ভাগ করে ভাগফল লেখা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-05-202",
+      "question": "0.5, 0.05, 0.005-এর সঠিক বিবরণ কোনটি?",
+      "options": [
+        "0.5 বৃহত্তম",
+        "0.005 ক্ষুদ্রতম",
+        "এদের গড় 0.185",
+        "এদের যোগফল 0.555"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-203",
+      "question": "1/2, 1/3, 1/6-এর সঠিক বিবরণ কী?",
+      "options": [
+        "এদের লসাগু 6",
+        "এদের যোগফল 1",
+        "1/2 সবচেয়ে বড়",
+        "1/6 সবচেয়ে ছোট"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-204",
+      "question": "(1/2) × (2/3) × (3/4) × (4/5) সরলীকরণ করলে কী পাওয়া যায় এবং এটি কোন ভগ্নাংশের সমান?",
+      "options": [
+        "1/5",
+        "0.2",
+        "20/100",
+        "0.02"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-05-205",
+      "question": "নিচের কোন ভগ্নাংশ ও দশমিক জোড়াগুলি সঠিকভাবে রূপান্তরিত?",
+      "options": [
+        "1/8 = 0.125",
+        "3/8 = 0.375",
+        "5/8 = 0.625",
+        "7/8 = 0.875"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-206",
+      "question": "4/5, 3/4, 2/3-এদের সঠিক ক্রম বড় থেকে ছোট কোনটি এবং কেন?",
+      "options": [
+        "4/5 > 3/4 > 2/3",
+        "4/5 বৃহত্তম কারণ লব ও হরের পার্থক্য কম",
+        "2/3 ক্ষুদ্রতম",
+        "সব সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-05-207",
+      "question": "দশমিক পদ্ধতিতে 8.007-এর সঠিক বিস্তারিত রূপ কোনটি?",
+      "options": [
+        "8 + 0.007",
+        "8 + 7/1000",
+        "8 + 7/100",
+        "8007/1000"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-208",
+      "question": "0.5 কে 5/10, 0.25 কে 25/100, 0.75 কে 75/100 লেখা যায়। এদের সরলীকৃত রূপ কী কী?",
+      "options": [
+        "1/2, 1/4, 3/4",
+        "0.5, 0.25, 0.75",
+        "50%, 25%, 75%",
+        "5/10, 25/100, 75/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-209",
+      "question": "1/2, 2/4, 3/6, 4/8 - এদের ক্ষেত্রে নিচের কোন বিবৃতিগুলি সত্য?",
+      "options": [
+        "সব ভগ্নাংশ সমান",
+        "প্রতিটি 0.5-এর সমান",
+        "এরা সমতুল্য ভগ্নাংশ",
+        "প্রতিটি প্রকৃত ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-210",
+      "question": "2/3কে দশমিকে লিখলে 0.666... পাওয়া যায়। এ সম্পর্কে সঠিক তথ্য কী কী?",
+      "options": [
+        "এটি আবৃত দশমিক",
+        "এটি 0.6̅ লেখা যায়",
+        "এটি অ-সসীম দশমিক",
+        "এটি সসীম দশমিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-211",
+      "question": "3.25 কে ভগ্নাংশে রূপান্তর করলে কী পাওয়া যায় এবং তা কোন মিশ্র ভগ্নাংশের সমান?",
+      "options": [
+        "325/100",
+        "13/4",
+        "3¼",
+        "3/4"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-212",
+      "question": "0.75 এবং 3/4 সম্পর্কে নিচের কোন তথ্যগুলি সঠিক?",
+      "options": [
+        "উভয়ই সমান",
+        "0.75 = 3/4",
+        "0.75 দশমিক ভগ্নাংশ",
+        "3/4 প্রকৃত ভগ্নাংশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-213",
+      "question": "1/5, 2/10, 0.2, 20% - এদের মধ্যে সঠিক সম্পর্ক কোনটি?",
+      "options": [
+        "সব সমান",
+        "1/5 = 0.2",
+        "2/10 = 20%",
+        "0.2 < 1/5"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-214",
+      "question": "0.125, 1/8, 12.5% - এদের সঠিক বিবরণ কী?",
+      "options": [
+        "সব সমান",
+        "0.125 = 1/8",
+        "1/8 = 12.5%",
+        "0.125 < 1/8"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-215",
+      "question": "(a/b) ÷ (c/d) = (a/b) × (d/c) - এই সূত্রটি প্রয়োগ করে নিচের কোন ভাগফলগুলি সঠিক?",
+      "options": [
+        "(1/2) ÷ (1/4) = 2",
+        "(2/3) ÷ (1/6) = 4",
+        "(3/4) ÷ (1/2) = 1.5",
+        "(4/5) ÷ (2/5) = 2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-216",
+      "question": "4/5 ও 7/10-এর মধ্যে সঠিক তুলনা কোনটি?",
+      "options": [
+        "4/5 > 7/10",
+        "4/5 = 0.8, 7/10 = 0.7",
+        "4/5 = 8/10 > 7/10",
+        "4/5 < 7/10"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-05-217",
+      "question": "নিচের কোনগুলি সসীম দশমিকের উদাহরণ?",
+      "options": [
+        "0.5",
+        "0.125",
+        "0.333...",
+        "0.625"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-218",
+      "question": "3/8, 5/8, 7/8-এর দশমিক রূপ যথাক্রমে কী কী?",
+      "options": [
+        "0.375, 0.625, 0.875",
+        "0.375, 0.625, 0.875",
+        "0.3, 0.5, 0.7",
+        "0.38, 0.63, 0.88"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-05-219",
+      "question": "0.05, 0.5, 0.005-এর সঠিক বিবরণ কোনগুলি?",
+      "options": [
+        "0.5 > 0.05 > 0.005",
+        "0.05 = 5/100",
+        "0.005 = 5/1000",
+        "সব সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-05-220",
+      "question": "ভগ্নাংশ ও দশমিকের ব্যবহারিক জীবনে প্রয়োগ সম্পর্কে সঠিক বিবৃতি কোনটি?",
+      "options": [
+        "ওষুধের মাত্রায় ভগ্নাংশ ব্যবহার হয়",
+        "পরীক্ষার নম্বর দশমিকে প্রকাশ করা হয়",
+        "পকেট মানির ভগ্নাংশ ব্যবহার হয়",
+        "থার্মোমিটারের তাপমাত্রা দশমিকে হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "05-fractions-and-decimals",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    }
+  ]
+}

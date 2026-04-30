@@ -1,0 +1,947 @@
+{
+  "subject": "logic",
+  "unit": "13-venn-diagrams",
+  "unit_code": "13",
+  "total": 55,
+  "questions": [
+    {
+      "id": "l-13-001",
+      "question": "নীচের কোন ভেন চিত্রটি \"কুকুর, প্রাণী, স্তন্যপায়ী\" এর মধ্যে সম্পর্ক সঠিকভাবে প্রকাশ করে?",
+      "options": [
+        "তিনটি পৃথক বৃত্ত",
+        "একটি বৃত্ত অন্যটির সম্পূর্ণ ভেতরে, তৃতীয়টি আংশিক overlap",
+        "তিনটি বৃত্তই আংশিক overlap",
+        "একটি বৃত্ত অন্যটির ভেতরে, সেটি আবার তৃতীয়টির ভেতরে"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-002",
+      "question": "\"শিক্ষক, পুরুষ, মহিলা\" - এই তিনটির মধ্যে সম্পর্ক কোন ভেন চিত্রটি সঠিক?",
+      "options": [
+        "তিনটি পৃথক বৃত্ত",
+        "শিক্ষক বৃত্তটি পুরুষ ও মহিলা বৃত্ত দুটিকে overlap করে, কিন্তু পুরুষ ও মহিলা নিজেরা overlap করে না",
+        "একটি বৃত্ত সম্পূর্ণ অন্যটির ভেতরে",
+        "তিনটি বৃত্তই সম্পূর্ণ overlap"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-003",
+      "question": "যদি 200 জন ছাত্রের মধ্যে 120 জন বাংলা পছন্দ করে, 100 জন ইংরেজি পছন্দ করে এবং 50 জন উভয় বিষয় পছন্দ করে, তবে কতজন শুধু বাংলা পছন্দ করে?",
+      "options": [
+        "20",
+        "50",
+        "70",
+        "120"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-004",
+      "question": "উপরের প্রশ্ন অনুযায়ী, কতজন কোনো বিষয়ই পছন্দ করে না?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-005",
+      "question": "একটি জরিপে দেখা গেল, 60% মানুষ চা পান করে, 50% কফি পান করে, এবং 20% উভয়ই পান করে। কত শতাংশ মানুষ কিছুই পান করে না?",
+      "options": [
+        "0%",
+        "10%",
+        "20%",
+        "30%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-006",
+      "question": "\"মাছ, পাখি, স্তন্যপায়ী\" - সঠিক ভেন চিত্র কোনটি?",
+      "options": [
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap",
+        "তিনটি পৃথক বৃত্ত",
+        "একটি আরেকটির ভেতরে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-007",
+      "question": "কোনো ভেন চিত্রে 1 নং region বলতে কী বোঝায়? (যদি তিনটি বৃত্ত A, B, C হয়)",
+      "options": [
+        "শুধু A তে আছে",
+        "A, B ও C তিনটিতেই আছে",
+        "A ও B তে আছে কিন্তু C তে নেই",
+        "শুধু B তে আছে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-008",
+      "question": "একটি ভেন চিত্রে তিনটি বৃত্ত (A,B,C) দেওয়া আছে। যে অঞ্চলটি তিনটি বৃত্তেরই সাধারণ অংশ, তাকে কী বলে?",
+      "options": [
+        "A∪B∪C",
+        "A∩B∩C",
+        "(A∩B)∪C",
+        "A∪(B∩C)"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-009",
+      "question": "\"কমলা, ফল, আপেল\" শব্দ তিনটির জন্য সঠিক চিত্র কোনটি? (কমলা ও আপেল উভয়ই ফল, কিন্তু নিজেরা আলাদা)",
+      "options": [
+        "একটি বড় বৃত্তের মধ্যে দুটি ছোট পৃথক বৃত্ত",
+        "তিনটি পৃথক বৃত্ত",
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-010",
+      "question": "একদল লোকে 45 জন Cricket খেলে, 40 জন Football খেলে, 15 জন উভয়ই খেলে। কতজন শুধু Football খেলে?",
+      "options": [
+        "30",
+        "25",
+        "15",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-011",
+      "question": "কোনো সমাবেশে 75 জন ডাক্তার, 50 জন ইঞ্জিনিয়ার, 25 জন উভয়ই। মোট কতজন ছিলেন?",
+      "options": [
+        "150",
+        "100",
+        "125",
+        "75"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-012",
+      "question": "একটি ক্লাসে 80 জন ছাত্র। 50 জন অংক পছন্দ করে, 40 জন বিজ্ঞান পছন্দ করে, 20 জন উভয়ই পছন্দ করে। কতজন শুধু অংক পছন্দ করে?",
+      "options": [
+        "30",
+        "10",
+        "20",
+        "50"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-013",
+      "question": "\"গোলাপ, ফুল, গাছ\" - সঠিক ভেন চিত্র কোনটি?",
+      "options": [
+        "ফুল সম্পূর্ণ গাছের ভেতরে, গোলাপ সম্পূর্ণ ফুলের ভেতরে",
+        "তিনটি পৃথক",
+        "গোলাপ ও ফুল আংশিক overlap, গাছ আলাদা",
+        "গাছ বড় বৃত্ত, ফুল তার ভেতরে, গোলাপ ফুলের ভেতরে"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-014",
+      "question": "নীচের ভেন চিত্রে, যদি বৃত্ত তিনটি হয় \"যারা চা খায়(T)\", \"যারা কফি খায়(C)\", \"যারা দুধ খায়(M)\"। শুধু চা ও কফি কিন্তু দুধ খায় না, কোন region?",
+      "options": [
+        "T∩C∩M",
+        "T∩C",
+        "(T∩C) - M",
+        "T∪C"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-015",
+      "question": "100 জন ব্যক্তির মধ্যে 30 জন সংবাদপত্র পড়ে, 20 জন ম্যাগাজিন পড়ে, 10 জন উভয়ই পড়ে। কতজন কিছুই পড়ে না?",
+      "options": [
+        "40",
+        "50",
+        "60",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-016",
+      "question": "\"মোবাইল, ইলেকট্রনিক্স ডিভাইস, কম্পিউটার\" - চিত্র কোনটি?",
+      "options": [
+        "বড় বৃত্ত ইলেকট্রনিক্স, তার ভেতর মোবাইল ও কম্পিউটার দুটি পৃথক বৃত্ত",
+        "তিনটি পৃথক বৃত্ত",
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-017",
+      "question": "যদি A = {1,2,3,4}, B = {3,4,5,6} হয়, তবে A∩B = ?",
+      "options": [
+        "{1,2}",
+        "{5,6}",
+        "{3,4}",
+        "{1,2,5,6}"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-018",
+      "question": "সকাল 8 টা থেকে 12 টা পর্যন্ত OPD তে আসা 150 জন রোগীর মধ্যে 80 জনের জ্বর, 60 জনের সর্দি, 30 জনের উভয়ই। কতজনের শুধু জ্বর ছিল?",
+      "options": [
+        "50",
+        "60",
+        "30",
+        "80"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-019",
+      "question": "একটি জরিপে দেখা গেল 40 জন ফুটবল খেলে, 30 জন ক্রিকেট খেলে, 15 জন হকি খেলে, 5 জন তিনটিই খেলে, 10 জন ফুটবল ও ক্রিকেট, 8 জন ক্রিকেট ও হকি, 6 জন ফুটবল ও হকি খেলে। শুধু ফুটবল কতজন খেলে?",
+      "options": [
+        "29",
+        "35",
+        "19",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-020",
+      "question": "\"মানুষ, জীবিত, মৃত\" - সম্পর্কিত সঠিক ভেন ডায়াগ্রাম কোনটি?",
+      "options": [
+        "মানুষ বৃত্তের মধ্যে দুটি আলাদা বৃত্ত জীবিত ও মৃত (overlap নেই)",
+        "সম্পূর্ণ overlap",
+        "তিনটি পৃথক বৃত্ত",
+        "একটি আরেকটির ভেতরে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-021",
+      "question": "একটি শ্রেণিতে 30 জন ছাত্র, 20 জন ছাত্রী। 10 জন ছাত্র ও 8 জন ছাত্রী নাচে। মোট কতজন নাচে?",
+      "options": [
+        "38",
+        "18",
+        "28",
+        "26"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-022",
+      "question": "একটি ভেন ডায়াগ্রামে যদি একটি বৃত্তকে অপর বৃত্ত থেকে সম্পূর্ণ আলাদা দেখানো হয়, তবে তাদের সম্পর্ক কী?",
+      "options": [
+        "আংশিক overlap",
+        "কোনো সাধারণ উপাদান নেই",
+        "সম্পূর্ণ অন্তর্ভুক্ত",
+        "সামান্য overlap"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-023",
+      "question": "200 জন শিক্ষার্থীর মধ্যে 96 জন ইংরেজি পছন্দ করে, 72 জন গণিত পছন্দ করে, 48 জন উভয়ই পছন্দ করে। কতজন শুধু ইংরেজি পছন্দ করে?",
+      "options": [
+        "48",
+        "72",
+        "96",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-024",
+      "question": "কোন ক্ষেত্রে তিনটি বৃত্তই পুরোপুরি overlap করতে পারে? (যেমন A=B=C)",
+      "options": [
+        "নার্স, ডাক্তার, হাসপাতাল",
+        "পানি, তরল, গ্যাস",
+        "বুধ, গ্রহ, সূর্য",
+        "সমার্থক শব্দ (যেমন জল, বারি, নীর)"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-025",
+      "question": "একটি জরিপে 1000 পরিবারে 500 টি গাড়ি আছে, 400 টি বাইক আছে, 100 টির উভয়ই আছে। কতটির কিছুই নেই?",
+      "options": [
+        "100",
+        "200",
+        "300",
+        "400"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-026",
+      "question": "যদি কোনো Venn চিত্রে A বৃত্ত সম্পূর্ণ B বৃত্তের ভেতরে থাকে, তাহলে নিচের কোন সম্পর্কটি সঠিক?",
+      "options": [
+        "সব A হলো B",
+        "কোনো A, B নয়",
+        "কিছু A, B নয়",
+        "সব B হলো A"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-027",
+      "question": "একদল ব্যক্তির মধ্যে 65 জন ভোট দিয়েছে, 45 জন ভোট দেয়নি, 25 জন ভোটার নয়। কোনো ব্যক্তি যদি ভোট না দেয় তবে সে ভোটার নয় এমন হতে পারে। মোট ব্যক্তি কত? (সরলীকৃত: ধরা যাক মোট X, overlapping নিয়ে জটিল)",
+      "options": [
+        "110",
+        "135",
+        "85",
+        "75"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-028",
+      "question": "যারা গায়ক, নৃত্যশিল্পী ও অভিনেতা - এদের সম্পর্কের চিত্র কেমন হওয়া উচিত?",
+      "options": [
+        "তিনটি পৃথক বৃত্ত",
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap (কিছু ব্যক্তি একই সাথে দুটি বা তিনটি কাজ করতে পারে)",
+        "কেবল একটি বৃত্ত"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-029",
+      "question": "\"আপেল, কমলা, কলা\" সম্পর্কের ভেন চিত্র কেমন হবে?",
+      "options": [
+        "সম্পূর্ণ overlap",
+        "আংশিক overlap",
+        "তিনটি পৃথক বৃত্ত",
+        "একটি আরেকটির ভেতরে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-030",
+      "question": "কোনো এক সেমিনারে 120 জন ডাক্তার, 80 জন নার্স, 20 জন প্রশাসক ছিলেন। 10 জন ডাক্তার ও নার্সের দ্বৈত ভূমিকা ছিল, 5 জন নার্স ও প্রশাসক ছিলেন, 0 জন ডাক্তার প্রশাসক ছিলেন। মোট কতজন ছিলেন?",
+      "options": [
+        "220",
+        "210",
+        "205",
+        "200"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-031",
+      "question": "\"যে সকল খেলোয়াড় Cricket ও Football দুই-ই খেলে কিন্তু Hockey খেলে না\" - একে ভেন চিত্রের ভাষায় কী বলে?",
+      "options": [
+        "(C∩F)∪H",
+        "(C∪F) - H",
+        "(C∩F) - H",
+        "(C∩F∩H)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-032",
+      "question": "500 জন ছাত্রের মধ্যে 200 জন Physics, 200 জন Chemistry, 100 জন Mathematics নিয়েছে। 30 জন P ও C, 25 জন C ও M, 20 জন P ও M, 10 জন তিনটিই নিয়েছে। Physics কিন্তু Chemistry নেয়নি এমন ছাত্র সংখ্যা কত?",
+      "options": [
+        "160",
+        "140",
+        "170",
+        "150"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-033",
+      "question": "নীচের কোন ভেন চিত্র সঠিক? \"পাখি, উড়োজাহাজ, আকাশ\"",
+      "options": [
+        "তিনটি আংশিক overlap",
+        "আকাশ বিশাল বৃত্ত, পাখি ও উড়োজাহাজ তার ভেতরে পৃথক বৃত্ত (উভয়েই আকাশে ওড়ে)",
+        "তিনটি পৃথক",
+        "সম্পূর্ণ overlap"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-034",
+      "question": "একটি জরিপে 70% মানুষ আম পছন্দ করে, 50% জাম পছন্দ করে, 30% উভয়ই পছন্দ করে। কত শতাংশ মানুষ কিছুই পছন্দ করে না?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "0%"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-035",
+      "question": "কোনো ভেন চিত্রে দুটি বৃত্তের overlap অংশটি কোন বিষয় নির্দেশ করে?",
+      "options": [
+        "যে উপাদান শুধু প্রথমটিতে আছে",
+        "যে উপাদান শুধু দ্বিতীয়টিতে আছে",
+        "যে উপাদান উভয় শ্রেণিতেই আছে",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-036",
+      "question": "\"টেবিল, চেয়ার, আসবাবপত্র\" - সঠিক চিত্রটি কী?",
+      "options": [
+        "আসবাবপত্র বৃত্তের ভেতর টেবিল ও চেয়ার পৃথক বৃত্ত",
+        "তিনটি পৃথক",
+        "আংশিক overlap",
+        "টেবিল ও চেয়ার আসবাবপত্রের ভেতর এবং পরস্পর overlap"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-13-037",
+      "question": "150 জন লোকের মধ্যে 90 জন গোসল করেছে, 80 জন নাস্তা করেছে, 50 জন উভয় কাজ করেছে। কতজন শুধু গোসল করেছে?",
+      "options": [
+        "40",
+        "30",
+        "50",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-038",
+      "question": "একটি Venn চিত্রে 1,2,3,4,5,6,7 region চিহ্নিত করা আছে। A∩B∩C কোন অঞ্চল?",
+      "options": [
+        "1",
+        "2",
+        "কেন্দ্রীয় (সাধারনত 7)",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-039",
+      "question": "কোনো সরকারি প্রকল্পে গ্রামের 60% কৃষক, 30% জেলে, 10% উভয় সম্প্রদায়ের লোক কাজ পেয়েছে। কত শতাংশ শুধু কৃষক?",
+      "options": [
+        "50%",
+        "20%",
+        "30%",
+        "40%"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-040",
+      "question": "\"যন্ত্র, কম্পিউটার, ল্যাপটপ\" এদের সম্পর্ক কোন চিত্রে সঠিক?",
+      "options": [
+        "যন্ত্র > কম্পিউটার > ল্যাপটপ (একটি আরেকটির ভেতর)",
+        "তিনটি পৃথক",
+        "যন্ত্র বড় বৃত্ত, আলাদা ভাবে কম্পিউটার, তার ভেতর ল্যাপটপ?",
+        "যন্ত্র বৃত্তের ভেতর কম্পিউটার, কম্পিউটারের ভেতর ল্যাপটপ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-041",
+      "question": "80 জন ছাত্রের মধ্যে 40 জন বাংলা, 30 জন ইংরেজি, 20 জন অঙ্কে পাস করেছে। 10 জন বাংলা ও ইংরেজি, 12 জন ইংরেজি ও অঙ্ক, 8 জন অঙ্ক ও বাংলা, 5 জন তিন বিষয়েই পাস করেছে। কোনো বিষয়েই পাস করেনি কতজন?",
+      "options": [
+        "15",
+        "20",
+        "5",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-042",
+      "question": "নিচের কোন ক্ষেত্রে বৃত্ত দুটি কখনোই overlap করবে না?",
+      "options": [
+        "ফল ও আম",
+        "শিক্ষক ও ডাক্তার",
+        "জীবিত ও মৃত",
+        "পাখি ও উড়োজাহাজ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-043",
+      "question": "A ও B দুটি সেটের Union নির্দেশ করে-",
+      "options": [
+        "A∩B",
+        "A∪B",
+        "A-B",
+        "U - (A∩B)"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-13-044",
+      "question": "কোনো একটি ক্লিনিকে 50% রোগী ম্যালেরিয়া আক্রান্ত, 30% ডেঙ্গু আক্রান্ত, 10% উভয় রোগে আক্রান্ত। মোট রোগী 200 হলে, কতজন কোনো রোগে আক্রান্ত নয়?",
+      "options": [
+        "40",
+        "20",
+        "60",
+        "80"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-13-045",
+      "question": "নিচের কোন সম্পর্কটি সঠিক ভেন চিত্র প্রকাশ করে? (একাধিক উত্তর)",
+      "options": [
+        "সব ক, খ; সব খ, গ → ক সম্পূর্ণ গ এর ভেতর",
+        "কিছু ক, খ; কোনো খ, গ নয় → ক ও গ আলাদা",
+        "কোনো ক, খ নয়; সব গ, খ → গ ও ক আলাদা",
+        "সব ক, খ; কিছু ক, গ → গ ও খ overlap করতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-13-046",
+      "question": "\"A∪B\" সূত্রে ব্যবহৃত হয় কোন মান? (একাধিক উত্তর)",
+      "options": [
+        "শুধু A এর সংখ্যা",
+        "শুধু B এর সংখ্যা",
+        "A ও B উভয়ের সংখ্যা",
+        "A ও B এর বাইরের সংখ্যা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-047",
+      "question": "\"শুধু Cricket খেলে\" - এই রাশিটি নিচের কোন সমীকরণ দিয়ে প্রকাশ করা যায়? (C ও F দুটি সেটের জন্য) (একাধিক উত্তর)",
+      "options": [
+        "C - F",
+        "C ∩ F'",
+        "C - (C∩F)",
+        "C∪F"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-048",
+      "question": "প্রদত্ত তথ্যের ভিত্তিতে যদি n(A)=50, n(B)=30, n(A∩B)=20, তবে কোন উত্তর/সূত্র ঠিক? (একাধিক উত্তর)",
+      "options": [
+        "n(A∪B) = 60",
+        "n(শুধু A) = 30",
+        "n(শুধু B) = 10",
+        "n(A∪B) = 50+30-20=60"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-049",
+      "question": "ভেন ডায়াগ্রামের ব্যবহারিক ক্ষেত্র কোনগুলো? (একাধিক উত্তর)",
+      "options": [
+        "জরিপ বিশ্লেষণ",
+        "সেট তত্ত্ব শিক্ষাদান",
+        "লজিক্যাল রিজনিং",
+        "বানান শুদ্ধিকরণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-050",
+      "question": "একটি জরিপে 70% মানুষ সংবাদপত্র, 50% টিভি, 20% রেডিও খবর দেখে। যদি 10% তিনটিই দেখে এবং কোনো মাধ্যমই 10% না দেখে, তাহলে সঠিক তথ্য কোনগুলো? (একধিক উত্তর)",
+      "options": [
+        "সংবাদপত্র ও টিভি দেখে কিন্তু রেডিও নয় = 20%",
+        "মোট তিনটি মাধ্যম দেখে 10%",
+        "শুধু সংবাদপত্র 70%",
+        "সব মাধ্যম overlap করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-13-051",
+      "question": "একটি পরীক্ষায় 100 জন পড়ুয়ার 70 জন অংক পাস, 60 জন বাংলা পাস, 50 জন ইংরেজি পাস। 30 জন তিনটিতেই, 45 জন অংক ও বাংলা, 35 জন বাংলা ও ইংরেজি, 40 জন ইংরেজি ও অংক পাস। সঠিক কোনগুলো? (একধিক উত্তর)",
+      "options": [
+        "অংক ও বাংলা কিন্তু ইংরেজি নয় = 15",
+        "শুধু অংক = 15",
+        "বাংলা ও ইংরেজি কিন্তু অংক নয় = 5",
+        "শুধু বাংলা = 10"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-13-052",
+      "question": "যদি কোনো বৃত্ত পরস্পর থেকে সম্পূর্ণ আলাদা হয়, তবে তাদের মধ্যে- (একাধিক উত্তর)",
+      "options": [
+        "কোনো সাধারণ উপাদান নেই",
+        "Intersection ফাঁকা",
+        "Union = যোগফল",
+        "overlap অঞ্চল শূন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-053",
+      "question": "নীচের কোন চিত্রগুলোতে \"B সম্পূর্ণ A এর ভেতর\" বোঝায়? (একাধিক উত্তর)",
+      "options": [
+        "B বৃত্ত A বৃত্তের ভেতর অবস্থিত",
+        "A∩B = B",
+        "A∪B = A",
+        "B - A = কিছু উপাদান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-054",
+      "question": "\"সে ডাক্তার অথবা ইঞ্জিনিয়ার\" - এর সঠিক ভেন চিত্র ব্যাখ্যা কী? (একাধিক উত্তর)",
+      "options": [
+        "ডাক্তার ও ইঞ্জিনিয়ার সেটের Union",
+        "overlap অঞ্চলেও সে পড়তে পারে (যদি উভয়ই হয়)",
+        "নিশ্চিতভাবে শুধু একটিতে পড়বে",
+        "কোনো overlap নয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-13-055",
+      "question": "120 জন নার্সিং ছাত্রীর মধ্যে 70 জন অ্যানাটমি, 60 জন ফিজিওলজি, 20 জন কিছুই জানে না। 30 জন উভয় বিষয় জানে। সঠিক তথ্য কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "শুধু অ্যানাটমি = 40",
+        "শুধু ফিজিওলজি = 30",
+        "মোট অংশগ্রহণকারী = 100",
+        "অ্যানাটমি বা ফিজিওলজি জানে = 100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "13-venn-diagrams",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

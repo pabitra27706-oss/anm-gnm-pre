@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>কাস্টম ফিল্টার | WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="./css/filter.css" />
+</head>
+<body>
+
+<header class="page-header">
+  <button class="header-btn" id="backBtn">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    হোম
+  </button>
+  <div class="header-title">
+    <h1>কাস্টম ফিল্টার</h1>
+    <p>বিষয় ও চ্যাপ্টার বেছে প্রশ্ন দেখুন</p>
+  </div>
+  <button class="header-btn" id="printBtn">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+    প্রিন্ট
+  </button>
+</header>
+
+<div class="page-body">
+  <div class="filter-panel">
+    <div class="panel-title">ফিল্টার করুন</div>
+
+    <div class="field">
+      <label for="subjectSelect">বিষয়</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="subjectSelect">
+          <option value="">-- বিষয় বাছাই করুন --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="unitSelect">চ্যাপ্টার / ইউনিট</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="unitSelect" disabled>
+          <option value="">-- আগে বিষয় বাছাই করুন --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="diffSelect">কঠিনতা (ঐচ্ছিক)</label>
+      <div class="sel-wrap">
+        <select class="fsel" id="diffSelect" disabled>
+          <option value="">সব</option>
+          <option value="easy">সহজ</option>
+          <option value="medium">মাঝারি</option>
+          <option value="hard">কঠিন</option>
+        </select>
+      </div>
+    </div>
+
+    <button class="go-btn" id="filterBtn" disabled>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      দেখুন
+    </button>
+  </div>
+
+  <div class="results-area">
+    <div class="meta-bar" id="metaBar">
+      <div class="meta-count" id="metaCount"></div>
+      <div class="meta-label" id="metaLabel"></div>
+    </div>
+    <div id="resultsContainer">
+      <div class="placeholder">
+        <div class="ph-emoji">📖</div>
+        <p>বিষয় ও চ্যাপ্টার বাছাই করুন</p>
+        <p class="ph-sub">তারপর <strong>দেখুন</strong> বাটনে ক্লিক করুন</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./js/unit-filter-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4894 @@
+{
+  "subject": "physics",
+  "unit": "12-work-and-energy",
+  "unit_code": "12",
+  "total": 280,
+  "questions": [
+    {
+      "id": "p-12-001",
+      "question": "কার্যের সংজ্ঞা অনুসারে, W = কত?",
+      "options": [
+        "F/s",
+        "F × s",
+        "F² × s",
+        "F + s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-002",
+      "question": "কার্যের SI একক কী?",
+      "options": [
+        "নিউটন",
+        "ওয়াট",
+        "জুল",
+        "পাস্কাল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-003",
+      "question": "1 জুল সমান কত?",
+      "options": [
+        "1 N/m",
+        "1 N·m",
+        "1 N·m²",
+        "1 N/s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-004",
+      "question": "কার্য কী ধরনের রাশি?",
+      "options": [
+        "ভেক্টর",
+        "স্কেলার",
+        "টেনসর",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-005",
+      "question": "একটি বস্তুকে বল প্রয়োগ করে সরানো হলে, বল ও সরণের মধ্যবর্তী কোণ 90° হলে কার্য কত হয়?",
+      "options": [
+        "সর্বোচ্চ",
+        "অর্ধেক",
+        "ঋণাত্মক",
+        "শূন্য"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-006",
+      "question": "বল প্রয়োগ করলেও বস্তুর সরণ না হলে কৃত কার্যের পরিমাণ কত?",
+      "options": [
+        "অসীম",
+        "শূন্য",
+        "বলের সমান",
+        "ঋণাত্মক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-007",
+      "question": "মহাকর্ষ বলের বিরুদ্ধে কোনো বস্তুকে উপরে তুললে কৃত কার্য কী ধরনের?",
+      "options": [
+        "ধনাত্মক",
+        "শূন্য",
+        "ঋণাত্মক",
+        "অসীম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-008",
+      "question": "একটি দেওয়ালে 100 N বল প্রয়োগ করেও দেওয়ালটি সরানো গেল না। কৃত কার্যের পরিমাণ কত?",
+      "options": [
+        "100 J",
+        "1 J",
+        "10 J",
+        "0 J"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-009",
+      "question": "20 N বল প্রয়োগ করে একটি বস্তুকে বলের দিকে 5 m সরানো হলে কৃত কার্য কত?",
+      "options": [
+        "4 J",
+        "25 J",
+        "100 J",
+        "50 J"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-010",
+      "question": "50 kg ভরের একটি বাক্সকে 10 m দূরে টানতে 100 N বল প্রয়োগ করা হল। কৃত কার্য কত?",
+      "options": [
+        "500 J",
+        "1000 J",
+        "50 J",
+        "10 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-011",
+      "question": "কেলাস শক্তির সূত্র কোনটি? (গতিশক্তি)",
+      "options": [
+        "mgh",
+        "½mv²",
+        "F × s",
+        "P/t"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-012",
+      "question": "শক্তির SI একক কী?",
+      "options": [
+        "ওয়াট",
+        "জুল",
+        "নিউটন",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-013",
+      "question": "শক্তি কী ধরনের রাশি?",
+      "options": [
+        "ভেক্টর",
+        "টেনসর",
+        "স্কেলার",
+        "উভয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-014",
+      "question": "10 kg ভরের একটি বস্তু 5 m/s বেগে চললে তার গতিশক্তি কত?",
+      "options": [
+        "100 J",
+        "125 J",
+        "50 J",
+        "250 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-015",
+      "question": "গতিশক্তির পরিমাণ নির্ভর করে কীসের ওপর?",
+      "options": [
+        "কেবল বেগ",
+        "কেবল ভর",
+        "ভর ও বেগ",
+        "সময়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-016",
+      "question": "একটি গাড়ির বেগ দ্বিগুণ করলে তার গতিশক্তি কত গুণ হবে?",
+      "options": [
+        "2",
+        "4",
+        "½",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-017",
+      "question": "বিভব শক্তির সূত্র কোনটি?",
+      "options": [
+        "½mv²",
+        "F × s",
+        "mgh",
+        "P × t"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-018",
+      "question": "ভূপৃষ্ঠ থেকে h উচ্চতায় একটি বস্তুর বিভব শক্তি কিসের ওপর নির্ভর করে?",
+      "options": [
+        "ভর",
+        "অভিকর্ষজ ত্বরণ",
+        "উচ্চতা",
+        "সবগুলো"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-019",
+      "question": "m ভরের একটি বস্তুকে ভূপৃষ্ঠ থেকে h উচ্চতায় তুললে বিভব শক্তি বৃদ্ধি পায় কত?",
+      "options": [
+        "½mgh",
+        "mgh",
+        "2mgh",
+        "m²gh"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-020",
+      "question": "2 kg ভরের একটি বস্তুকে 10 m উচ্চতায় তুললে তার বিভব শক্তি কত হবে? (g = 10 m/s²)",
+      "options": [
+        "100 J",
+        "200 J",
+        "50 J",
+        "120 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-021",
+      "question": "যান্ত্রিক শক্তি কাকে বলে?",
+      "options": [
+        "গতিশক্তি + তাপশক্তি",
+        "বিভব শক্তি + আলোক শক্তি",
+        "গতিশক্তি + বিভব শক্তি",
+        "তাপশক্তি + বিদ্যুৎশক্তি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-022",
+      "question": "শক্তির নিত্যতা সূত্র অনুসারে—",
+      "options": [
+        "শক্তি সৃষ্টি করা যায়, ধ্বংস করা যায় না",
+        "শক্তি সৃষ্টি বা ধ্বংস করা যায় না, শুধু রূপান্তর করা যায়",
+        "শক্তি ধ্বংস করা যায়, সৃষ্টি করা যায় না",
+        "শক্তি সর্বদা ধ্রুবক, রূপান্তরিত হয় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-023",
+      "question": "একটি পাথরকে উপরে ছুঁড়লে সর্বোচ্চ উচ্চতায় কীরূপ শক্তি রূপান্তর হয়?",
+      "options": [
+        "গতিশক্তি → তাপশক্তি",
+        "গতিশক্তি → বিভব শক্তি",
+        "বিভব শক্তি → গতিশক্তি",
+        "রাসায়নিক শক্তি → তাপশক্তি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-024",
+      "question": "একটি ফ্যান চালালে কোন শক্তি কোন শক্তিতে রূপান্তরিত হয়?",
+      "options": [
+        "তাপ → যান্ত্রিক",
+        "বিদ্যুৎ → যান্ত্রিক",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "রাসায়নিক → আলোক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-025",
+      "question": "ডায়নামোতে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "যান্ত্রিক → বিদ্যুৎ",
+        "বিদ্যুৎ → তাপ",
+        "রাসায়নিক → যান্ত্রিক",
+        "আলোক → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-026",
+      "question": "সূর্যের শক্তির মূল উৎস কী?",
+      "options": [
+        "রাসায়নিক বিক্রিয়া",
+        "নিউক্লীয় সংযোজন",
+        "নিউক্লীয় বিভাজন",
+        "তাপীয় বিকিরণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-027",
+      "question": "একটি ব্যাটারিতে কোন শক্তি সঞ্চিত থাকে?",
+      "options": [
+        "যান্ত্রিক",
+        "নিউক্লীয়",
+        "রাসায়নিক",
+        "চৌম্বক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-028",
+      "question": "ক্ষমতার SI একক কী?",
+      "options": [
+        "জুল",
+        "নিউটন",
+        "ওয়াট",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-029",
+      "question": "1 ওয়াট সমান কত?",
+      "options": [
+        "1 N/s",
+        "1 J/s",
+        "1 J·s",
+        "1 N·m"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-030",
+      "question": "একটি যন্ত্র 100 J কাজ 5 সেকেন্ডে করলে ক্ষমতা কত?",
+      "options": [
+        "500 W",
+        "50 W",
+        "20 W",
+        "5 W"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-031",
+      "question": "ক্ষমতার সূত্র P = কত? (কার্য ও সময়ের মাধ্যমে)",
+      "options": [
+        "W × t",
+        "W + t",
+        "W / t",
+        "t / W"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-032",
+      "question": "1 অশ্বক্ষমতা (HP) = কত ওয়াট?",
+      "options": [
+        "646 W",
+        "746 W",
+        "846 W",
+        "1000 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-033",
+      "question": "1 কিলোওয়াট (kW) = কত ওয়াট?",
+      "options": [
+        "10 W",
+        "100 W",
+        "1000 W",
+        "10,000 W"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-034",
+      "question": "একটি মোটর 2 কিলোওয়াট ক্ষমতা সম্পন্ন; এটি কত ওয়াটের সমান?",
+      "options": [
+        "20 W",
+        "200 W",
+        "2000 W",
+        "2 W"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-035",
+      "question": "5 সেকেন্ডে 500 J কার্য করলে ক্ষমতা কত ওয়াট?",
+      "options": [
+        "2500 W",
+        "100 W",
+        "505 W",
+        "495 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-036",
+      "question": "ক্ষমতা কোন ধরনের রাশি?",
+      "options": [
+        "ভেক্টর",
+        "টেনসর",
+        "স্কেলার",
+        "উভয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-037",
+      "question": "একটি পাম্প 1 মিনিটে 3000 J কাজ করলে এর ক্ষমতা কত?",
+      "options": [
+        "3000 W",
+        "50 W",
+        "180 W",
+        "30 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-038",
+      "question": "P = F × v সূত্রটি কিসের ক্ষেত্রে প্রযোজ্য? (ক্ষমতা)",
+      "options": [
+        "স্থির ত্বরণ",
+        "সমবেগ",
+        "সুষম মন্দন",
+        "সরল দোলগতি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-039",
+      "question": "1000 J কাজ 20 সেকেন্ডে করলে ক্ষমতা কত HP হবে? (HP = 746 W)",
+      "options": [
+        "0.067 HP",
+        "0.67 HP",
+        "6.7 HP",
+        "67 HP"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-040",
+      "question": "5 HP এর অর্থ কত ওয়াট?",
+      "options": [
+        "7460 W",
+        "3730 W",
+        "1492 W",
+        "5000 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-041",
+      "question": "সরল যন্ত্র কাকে বলে?",
+      "options": [
+        "যে যন্ত্র জটিল কাজ করে",
+        "যে যন্ত্র বলের দিক পরিবর্তন করে",
+        "যে যন্ত্র অল্প বল দিয়ে বড় বলের কাজ করে",
+        "B ও C উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-042",
+      "question": "পালি (Pulley) কোন ধরনের সরল যন্ত্র?",
+      "options": [
+        "লিভার",
+        "আনত তল",
+        "স্ক্রু",
+        "চাকা ও অক্ষ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-043",
+      "question": "একটি প্রথম শ্রেণির লিভার -এর উদাহরণ কোনটি?",
+      "options": [
+        "কাঁচি",
+        "বাদাম ভাঙ্গার যন্ত্র",
+        "মাছ ধরার ছিপ",
+        "ট্রলি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-044",
+      "question": "দ্বিতীয় শ্রেণির লিভারের ক্ষেত্রে—",
+      "options": [
+        "ভার মাঝখানে থাকে",
+        "আলম্ব মাঝখানে থাকে",
+        "বল মাঝখানে থাকে",
+        "আলম্ব একপ্রান্তে, ভার অন্যপ্রান্তে থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-045",
+      "question": "তৃতীয় শ্রেণির লিভারের উদাহরণ কোনটি?",
+      "options": [
+        "চিমটা",
+        "বোতল খোলার যন্ত্র",
+        "ঠেলাগাড়ি",
+        "কাঁচি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-046",
+      "question": "যান্ত্রিক সুবিধা (MA) কাকে বলে?",
+      "options": [
+        "বল / ভার",
+        "ভার / বল",
+        "ভার × বল",
+        "বল × দূরত্ব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-047",
+      "question": "কর্মদক্ষতা (η) -এর সূত্র কোনটি?",
+      "options": [
+        "(ইনপুট / আউটপুট) × 100%",
+        "(আউটপুট / ইনপুট) × 100%",
+        "আউটপুট × ইনপুট",
+        "(ক্ষমতা / কার্য) × 100%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-048",
+      "question": "একটি আদর্শ যন্ত্রের কর্মদক্ষতা কত?",
+      "options": [
+        "0%",
+        "50%",
+        "100%",
+        "75%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-049",
+      "question": "বাস্তব যন্ত্রের কর্মদক্ষতা কেমন হয়?",
+      "options": [
+        "100% এর বেশি",
+        "100% এর কম",
+        "0%",
+        "100%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-050",
+      "question": "একটি লিভারের যান্ত্রিক সুবিধা 3 এবং ভার 300 N হলে প্রযুক্ত বল কত?",
+      "options": [
+        "900 N",
+        "100 N",
+        "303 N",
+        "0.01 N"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-051",
+      "question": "স্থির কপিকলের যান্ত্রিক সুবিধা কত?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "অসীম"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-052",
+      "question": "একটি চল কপিকলের যান্ত্রিক সুবিধা তাত্ত্বিকভাবে কত?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-053",
+      "question": "আনত তলে ভার উঠাতে বলের পরিমাণ কীরূপ হয়?",
+      "options": [
+        "বেশি বল প্রয়োগ করতে হয়",
+        "কখনো বেশি কখনো কম",
+        "কম বল প্রয়োগ করতে হয়",
+        "বল শূন্য হয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-054",
+      "question": "একটি স্ক্রুতে প্যাঁচের সংখ্যা বেশি হলে যান্ত্রিক সুবিধা কেমন হবে?",
+      "options": [
+        "কমবে",
+        "বাড়বে",
+        "একই থাকবে",
+        "শূন্য হবে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-055",
+      "question": "নবায়নযোগ্য শক্তি কোনটি?",
+      "options": [
+        "কয়লা",
+        "পেট্রোলিয়াম",
+        "সৌরশক্তি",
+        "প্রাকৃতিক গ্যাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-056",
+      "question": "অনবায়নযোগ্য জ্বালানি কোনটি?",
+      "options": [
+        "বায়ু",
+        "সূর্য",
+        "কয়লা",
+        "জোয়ার-ভাটা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-057",
+      "question": "বায়ুশক্তি কোন ধরনের সম্পদ?",
+      "options": [
+        "অনবায়নযোগ্য",
+        "নবায়নযোগ্য",
+        "জীবাশ্ম জ্বালানি",
+        "পরমাণু জ্বালানি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-058",
+      "question": "জীবাশ্ম জ্বালানি নয় কোনটি?",
+      "options": [
+        "কয়লা",
+        "পেট্রোলিয়াম",
+        "ইউরেনিয়াম",
+        "প্রাকৃতিক গ্যাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-059",
+      "question": "পারমাণবিক শক্তি উৎপাদনে কোন মৌল প্রধান জ্বালানি হিসেবে ব্যবহৃত হয়?",
+      "options": [
+        "কার্বন",
+        "ইউরেনিয়াম",
+        "সোডিয়াম",
+        "ক্যালসিয়াম"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-060",
+      "question": "সৌরকোষ কোন শক্তিকে কোন শক্তিতে রূপান্তরিত করে?",
+      "options": [
+        "তাপ → যান্ত্রিক",
+        "আলোক → তাপ",
+        "আলোক → বিদ্যুৎ",
+        "বিদ্যুৎ → আলোক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-061",
+      "question": "ভূ-তাপীয় শক্তির উৎস কী?",
+      "options": [
+        "সূর্য",
+        "বায়ু",
+        "পৃথিবীর অভ্যন্তরীণ তাপ",
+        "মহাসাগরের ঢেউ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-062",
+      "question": "বায়োমাস থেকে কোন ধরনের জ্বালানি তৈরি হয়?",
+      "options": [
+        "ইউরেনিয়াম",
+        "বায়োগ্যাস",
+        "গ্যাসোলিন",
+        "ডিজেল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-063",
+      "question": "জলবিদ্যুৎ কেন্দ্রে কোন শক্তি বিদ্যুতে রূপান্তরিত হয়?",
+      "options": [
+        "সৌর",
+        "বায়ু",
+        "জলের বিভব শক্তি",
+        "রাসায়নিক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-064",
+      "question": "শক্তি সংকটের প্রধান কারণ কী?",
+      "options": [
+        "অতিরিক্ত বৃষ্টিপাত",
+        "জীবাশ্ম জ্বালানির অতিরিক্ত ব্যবহার",
+        "বায়ুপ্রবাহের অভাব",
+        "নদীর গতি কমে যাওয়া"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-065",
+      "question": "নিচের কোনটি শক্তির একক নয়?",
+      "options": [
+        "জুল",
+        "ওয়াট",
+        "ক্যালোরি",
+        "ইলেকট্রন ভোল্ট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-066",
+      "question": "1 কিলোওয়াট-ঘণ্টা (kWh) সমান কত জুল?",
+      "options": [
+        "3.6 × 10⁵ J",
+        "3.6 × 10⁶ J",
+        "3.6 × 10³ J",
+        "3.6 × 10⁴ J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-067",
+      "question": "একটি 100 W এর বাতি 10 ঘণ্টা জ্বালালে কত শক্তি খরচ হয়?",
+      "options": [
+        "1 kWh",
+        "10 kWh",
+        "0.1 kWh",
+        "0.01 kWh"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-068",
+      "question": "একটি বাল্বে 220 V, 100 W লেখা আছে। এর রোধ কত?",
+      "options": [
+        "484 Ω",
+        "220 Ω",
+        "2.2 Ω",
+        "100 Ω"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-069",
+      "question": "কোন বল সবচেয়ে বেশি কার্য করে?",
+      "options": [
+        "10 N বল 5 m সরিয়ে",
+        "20 N বল 2 m সরিয়ে",
+        "5 N বল 10 m সরিয়ে",
+        "(A) ও (C) সমান"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-070",
+      "question": "70 J কার্য করে একটি বস্তুকে 14 m সরানো হল; প্রয়োগকৃত বল কত?",
+      "options": [
+        "5 N",
+        "84 N",
+        "56 N",
+        "2 N"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-071",
+      "question": "একটি বস্তুকে ভূমি থেকে 5 মিটার উচ্চতায় তোলার পর বিভব শক্তি 100 J; বস্তুটির ভর কত? (g=10 m/s²)",
+      "options": [
+        "1 kg",
+        "2 kg",
+        "5 kg",
+        "10 kg"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-072",
+      "question": "2 m/s বেগে চলমান 4 kg ভরের একটি বস্তুর গতিশক্তি কত?",
+      "options": [
+        "4 J",
+        "8 J",
+        "16 J",
+        "6 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-073",
+      "question": "একটি গাড়ির গতিশক্তি 2000 J, বেগ 20 m/s; গাড়িটির ভর কত?",
+      "options": [
+        "10 kg",
+        "100 kg",
+        "50 kg",
+        "20 kg"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-074",
+      "question": "একটি বৈদ্যুতিক ইস্ত্রিতে 220 V, 1000 W লেখা আছে। এর রোধ নির্ণয় করো।",
+      "options": [
+        "220 Ω",
+        "48.4 Ω",
+        "484 Ω",
+        "22 Ω"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-075",
+      "question": "একটি মেশিনের দক্ষতা 80%; ইনপুট 500 J হলে আউটপুট কত?",
+      "options": [
+        "400 J",
+        "100 J",
+        "500 J",
+        "80 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-076",
+      "question": "1 মিনিটে 60 J কাজ করলে ক্ষমতা কত ওয়াট?",
+      "options": [
+        "60 W",
+        "1 W",
+        "3600 W",
+        "0.1 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-077",
+      "question": "একটি ক্রিকেট বলকে ব্যাট দিয়ে আঘাত করলে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "গতিশক্তি → শব্দশক্তি",
+        "যান্ত্রিক শক্তি → রাসায়নিক শক্তি",
+        "গতিশক্তি → তাপশক্তি",
+        "গতিশক্তি → আলোক শক্তি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-078",
+      "question": "বাঁধের জলে কোন শক্তি সঞ্চিত থাকে?",
+      "options": [
+        "গতিশক্তি",
+        "বিভব শক্তি",
+        "তাপশক্তি",
+        "রাসায়নিক শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-079",
+      "question": "সাইকেল চালানোর সময় পা দিয়ে প্যাডেলে বল প্রয়োগ করলে কোন শক্তি উৎপন্ন হয়?",
+      "options": [
+        "বিভব শক্তি",
+        "রাসায়নিক শক্তি",
+        "যান্ত্রিক শক্তি",
+        "তাপশক্তি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-080",
+      "question": "একটি লিফট 500 kg ভর বহন করে 20 m উচ্চতায় 10 s-এ উঠছে। লিফটের ক্ষমতা কত? (g=10 m/s²)",
+      "options": [
+        "100 kW",
+        "10 kW",
+        "1 kW",
+        "500 kW"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-081",
+      "question": "একটি 60 W এর বাতি 220 V লাইনে জ্বলছে। এর মধ্য দিয়ে প্রবাহের পরিমাণ কত?",
+      "options": [
+        "3.67 A",
+        "0.27 A",
+        "0.5 A",
+        "2.7 A"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-082",
+      "question": "তাপ ইঞ্জিনে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "তাপ → যান্ত্রিক",
+        "যান্ত্রিক → তাপ",
+        "তাপ → আলো",
+        "রাসায়নিক → তাপ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-083",
+      "question": "একটি বাল্ব ও একটি হিটার সমান সময় চালালে হিটারে বেশি শক্তি খরচ হয়, কারণ—",
+      "options": [
+        "হিটারের বিভব বেশি",
+        "হিটারের রোধ কম",
+        "হিটারের ক্ষমতা বেশি",
+        "হিটারের আকার বড়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-084",
+      "question": "গতিশক্তি K এবং ভরবেগ p এর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "K = ½ p²m",
+        "K = p²/2m",
+        "K = 2m/p²",
+        "K = ½ mp²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-085",
+      "question": "শক্তির নিত্যতা সূত্রের ব্যবহারিক উদাহরণ কোনটি?",
+      "options": [
+        "পাথর নিচে পড়া",
+        "দোলকের দোলন",
+        "জলের বাষ্পীভবন",
+        "চুম্বকের আকর্ষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-086",
+      "question": "একটি বস্তু ওপর থেকে ছেড়ে দিলে তার ক্ষেত্রে শক্তির রূপান্তর কী হবে?",
+      "options": [
+        "বিভব → গতি",
+        "গতি → বিভব",
+        "তাপ → আলোক",
+        "রাসায়নিক → তাপ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-087",
+      "question": "একটি ফ্রিজে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "বিদ্যুৎ → তাপ",
+        "তাপ → বিদ্যুৎ",
+        "রাসায়নিক → যান্ত্রিক",
+        "আলোক → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-088",
+      "question": "একটি বাষ্প ইঞ্জিন কোন নীতির ওপর কাজ করে?",
+      "options": [
+        "গতির সূত্র",
+        "তাপগতিবিদ্যা",
+        "মহাকর্ষ",
+        "ঘর্ষণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-089",
+      "question": "একটি বস্তুর ভর দ্বিগুণ হলে অর্ধেক উচ্চতায় তুললে বিভব শক্তি কেমন হবে?",
+      "options": [
+        "একই থাকবে",
+        "দ্বিগুণ হবে",
+        "অর্ধেক হবে",
+        "চারগুণ হবে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-090",
+      "question": "একটি 75 kg ভরের ব্যক্তি 1 HP ক্ষমতায় কত দ্রুত 5 m উচ্চতা উঠতে পারবে? (g=10 m/s², 1 HP=750 W)",
+      "options": [
+        "2 m/s",
+        "5 m/s",
+        "1 m/s",
+        "0.5 m/s"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-091",
+      "question": "কোনো যন্ত্রের যান্ত্রিক সুবিধা 1 এর বেশি হলে—",
+      "options": [
+        "প্রযুক্ত বল ভারের চেয়ে বেশি",
+        "প্রযুক্ত বল ভারের চেয়ে কম",
+        "ভার ও বল সমান",
+        "যন্ত্রের দক্ষতা 100%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-092",
+      "question": "একটি আনত তল ব্যবহার করে 1 m উচ্চতায় মাল তোলা হল। তলের দৈর্ঘ্য 6 m, MA কত?",
+      "options": [
+        "6",
+        "1/6",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-093",
+      "question": "চল কপিকলের সাহায্যে 100 N ভার তুলতে কত বল প্রয়োজন? (ঘর্ষণ বিহীন)",
+      "options": [
+        "100 N",
+        "200 N",
+        "50 N",
+        "400 N"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-094",
+      "question": "‘শক্তি কখনো সৃষ্টি বা ধ্বংস হয় না’— এটি কার সূত্র?",
+      "options": [
+        "নিউটন",
+        "আইনস্টাইন",
+        "জুল",
+        "মেয়ার"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-095",
+      "question": "একটি সাইকেল চালক ব্রেক কষলে কোন শক্তি কোন শক্তিতে রূপান্তরিত হয়?",
+      "options": [
+        "গতি → বিভব",
+        "গতি → তাপ",
+        "বিভব → গতি",
+        "রাসায়নিক → যান্ত্রিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-096",
+      "question": "একটি কণা v বেগে চলছে। বেগ দ্বিগুণ করলে তার গতিশক্তির পরিবর্তন হবে কী?",
+      "options": [
+        "2 গুণ",
+        "3 গুণ",
+        "4 গুণ",
+        "অপরিবর্তিত"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-097",
+      "question": "1 জুল কার্য সম্পন্ন করতে 1 নিউটন বল কত দূরত্ব অতিক্রম করবে?",
+      "options": [
+        "2 m",
+        "1 m",
+        "0.5 m",
+        "10 m"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-098",
+      "question": "একটি হিটারে V²/R সূত্রে P নির্ণয় করা হয়। এখানে R দ্বিগুণ করলে P কী হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "চারগুণ",
+        "অর্ধেক",
+        "এক-চতুর্থাংশ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-099",
+      "question": "‘শক্তি রূপান্তরের একক’ কে কী বলা হয়?",
+      "options": [
+        "ওয়াট",
+        "জুল",
+        "নিউটন",
+        "ক্যালরি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-100",
+      "question": "একটি 40 W বাতি 220 V-এ জ্বললে এর ফিলামেন্টের রোধ কত?",
+      "options": [
+        "1210 Ω",
+        "605 Ω",
+        "242 Ω",
+        "5.5 Ω"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-101",
+      "question": "আলোক শক্তি কোন প্রক্রিয়ায় রাসায়নিক শক্তিতে রূপান্তরিত হয়?",
+      "options": [
+        "শ্বসন",
+        "সালোকসংশ্লেষ",
+        "বাষ্পীভবন",
+        "প্রস্বেদন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-102",
+      "question": "একটি স্প্রিং টেনে ছেড়ে দিলে শক্তির রূপান্তর হয় কী?",
+      "options": [
+        "বিভব → গতি",
+        "গতি → স্থিতি",
+        "তাপ → গতি",
+        "রাসায়নিক → গতি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-103",
+      "question": "একটি ঘড়ির পেন্ডুলামের সর্বনিম্ন বিন্দুতে কীরূপ শক্তি সর্বাধিক থাকে?",
+      "options": [
+        "বিভব শক্তি",
+        "গতিশক্তি",
+        "চৌম্বক শক্তি",
+        "স্থিতি শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-104",
+      "question": "একটি বস্তুকে উপরের দিকে ছুঁড়লে, সর্বোচ্চ বিন্দুতে কোনটি সঠিক?",
+      "options": [
+        "গতিশক্তি সর্বাধিক, বিভব শক্তি শূন্য",
+        "গতিশক্তি ও বিভব শক্তি উভয়ই সর্বাধিক",
+        "গতিশক্তি শূন্য, বিভব শক্তি সর্বাধিক",
+        "উভয়ই শূন্য"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-105",
+      "question": "20 মিটার গভীর একটি কুয়ো থেকে 2 kg ভরের একটি বালতি তোলা হল। কৃত কার্য কত? (g=10 m/s²)",
+      "options": [
+        "400 J",
+        "200 J",
+        "40 J",
+        "100 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-106",
+      "question": "ইলেকট্রিক ইস্ত্রির তল গরম হয় কীসের ফলে?",
+      "options": [
+        "বিভব শক্তি",
+        "গতিশক্তি",
+        "তড়িৎ প্রবাহের তাপীয় প্রভাব",
+        "চুম্বকীয় প্রভাব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-107",
+      "question": "পেট্রোল ইঞ্জিনে জ্বালানি পোড়ানোর ফলে কোন শক্তি সৃষ্টি হয়?",
+      "options": [
+        "রাসায়নিক → যান্ত্রিক",
+        "তাপ → রাসায়নিক",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "আলোক → তাপ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-108",
+      "question": "একটি বাল্বের ক্ষমতা 100 W। দৈনিক 5 ঘণ্টা জ্বালালে এপ্রিল মাসে (30 দিন) কত ইউনিট বিদ্যুৎ খরচ হবে?",
+      "options": [
+        "15 kWh",
+        "500 kWh",
+        "15 kW",
+        "0.5 kWh"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-109",
+      "question": "স্থির কপিকলের দক্ষতা সাধারণত কত ভাগ?",
+      "options": [
+        "100%",
+        "50%",
+        "80-90%",
+        "10%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-110",
+      "question": "কার্যের সূত্র W = Fs cosθ -এ θ = 180° হলে W কত?",
+      "options": [
+        "ধনাত্মক",
+        "শূন্য",
+        "সর্বোচ্চ",
+        "ঋণাত্মক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-111",
+      "question": "3000 J কার্য করে একটি ইঞ্জিন 1500 kg ভরের গাড়িকে 2 m সরাতে কত বল প্রয়োগ করল?",
+      "options": [
+        "1500 N",
+        "3000 N",
+        "4500 N",
+        "750 N"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-112",
+      "question": "20 kg ও 10 kg ভরের দুটি বস্তু একই উচ্চতা থেকে পড়লে ভূমি স্পর্শের পূর্বমুহূর্তে তাদের গতিশক্তির অনুপাত কত?",
+      "options": [
+        "2:1",
+        "1:2",
+        "4:1",
+        "1:1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-113",
+      "question": "একটি বস্তুকে 10 m উচ্চতায় তুললে তার বিভব শক্তি 1000 J; বস্তুর ভর কত? (g=10 m/s²)",
+      "options": [
+        "10 kg",
+        "1 kg",
+        "100 kg",
+        "0.1 kg"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-114",
+      "question": "1 kWh বিদ্যুৎ শক্তিকে সাধারণত কী বলা হয়?",
+      "options": [
+        "ওয়াট",
+        "ইউনিট",
+        "জুল",
+        "ভোল্ট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-115",
+      "question": "একটি 2 HP মোটর প্রতিদিন 3 ঘণ্টা চালানো হয়। সেপ্টেম্বর মাসে (30 দিন) মোট কত ইউনিট বিদ্যুৎ খরচ হবে?",
+      "options": [
+        "180 kWh",
+        "134.28 kWh",
+        "67.14 kWh",
+        "20 kWh"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-116",
+      "question": "নিচের কোনটি শক্তির উৎস নয়?",
+      "options": [
+        "বায়ু",
+        "কয়লা",
+        "ব্যাটারি",
+        "বরফ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-117",
+      "question": "একটি বাল্বের গায়ে 100 W-220 V লেখা আছে। এর মধ্য দিয়ে তড়িৎ প্রবাহ কত?",
+      "options": [
+        "0.45 A",
+        "2.2 A",
+        "5 A",
+        "10 A"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-118",
+      "question": "এক বস্তুর ভর দ্বিগুণ ও উচ্চতা দ্বিগুণ করলে তার বিভব শক্তি কতগুণ হবে?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1/2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-119",
+      "question": "পারমাণবিক চুল্লিতে নিউক্লীয় বিভাজনের ফলে কী শক্তি উৎপন্ন হয়?",
+      "options": [
+        "রাসায়নিক",
+        "তাপ",
+        "আলোক",
+        "চৌম্বক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-120",
+      "question": "মানবদেহে খাদ্য থেকে শক্তি উৎপাদনের প্রক্রিয়ায় প্রধানত কী ঘটে?",
+      "options": [
+        "নিউক্লীয় বিভাজন",
+        "দহন",
+        "শ্বসন",
+        "বাষ্পীভবন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-121",
+      "question": "একটি হিটার 220 V লাইনে 5 A তড়িৎ নেয়। হিটারটির ক্ষমতা কত?",
+      "options": [
+        "44 W",
+        "1100 W",
+        "225 W",
+        "450 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-122",
+      "question": "একটি দোলক তার সর্বোচ্চ বিন্দু থেকে ছেড়ে দিলে মাঝ বরাবর গতিশক্তি—",
+      "options": [
+        "সর্বনিম্ন হয়",
+        "অপরিবর্তিত থাকে",
+        "সর্বোচ্চ হয়",
+        "শূন্য হয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-123",
+      "question": "P = VI সূত্রটি কী নির্ণয়ে ব্যবহার হয়?",
+      "options": [
+        "কার্য",
+        "তড়িৎ ক্ষমতা",
+        "বল",
+        "শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-124",
+      "question": "তড়িৎ ক্ষমতার অপর একটি সূত্র কোনটি? (I ও R এর মাধ্যমে)",
+      "options": [
+        "P = VR",
+        "P = I²R",
+        "P = V²I",
+        "P = IR²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-125",
+      "question": "4 Ω রোধের একটি তারের মধ্য দিয়ে 2 A তড়িৎ প্রবাহ চলছে; ক্ষমতা কত?",
+      "options": [
+        "8 W",
+        "16 W",
+        "4 W",
+        "2 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-126",
+      "question": "একটি বাল্বের রোধ 484 Ω, এটি 220 V লাইনে জ্বলছে। বাল্বটির ক্ষমতা কত?",
+      "options": [
+        "100 W",
+        "50 W",
+        "200 W",
+        "25 W"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-127",
+      "question": "নিচের কোনটি দ্বিতীয় শ্রেণির লিভারের উদাহরণ?",
+      "options": [
+        "কাঁচি",
+        "মাছ ধরার ছিপ",
+        "বোতল খোলার যন্ত্র",
+        "চিমটা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-128",
+      "question": "তৃতীয় শ্রেণির লিভারে—",
+      "options": [
+        "বল মাঝে থাকে",
+        "আলম্ব মাঝে থাকে",
+        "ভার মাঝে থাকে",
+        "বল ও ভার একদিকে থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-129",
+      "question": "একটি লিভার ব্যবহার করে 50 N বল প্রয়োগ করে 200 N ওজন তোলা গেল; MA কত?",
+      "options": [
+        "0.25",
+        "4",
+        "1",
+        "250"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-130",
+      "question": "কোনো লিভারের MA 5 এবং বল 10 cm সরলে ভার কত উঠবে?",
+      "options": [
+        "50 cm",
+        "2 cm",
+        "5 cm",
+        "10 cm"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-131",
+      "question": "সৌর শক্তির প্রধান উৎস কী?",
+      "options": [
+        "চাঁদ",
+        "সূর্য",
+        "নক্ষত্র",
+        "আগ্নেয়গিরি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-132",
+      "question": "বায়োগ্যাসে প্রধানত কোন গ্যাস থাকে?",
+      "options": [
+        "অক্সিজেন",
+        "নাইট্রোজেন",
+        "মিথেন",
+        "কার্বন ডাই অক্সাইড"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-133",
+      "question": "নিচের কোনটি নবায়নযোগ্য শক্তির উৎস নয়?",
+      "options": [
+        "সৌর",
+        "বায়ু",
+        "কয়লা",
+        "ভূ-তাপ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-134",
+      "question": "বাতাস থেকে বিদ্যুৎ উৎপাদনে কী ব্যবহার করা হয়?",
+      "options": [
+        "পাম্প",
+        "টারবাইন ও জেনারেটর",
+        "সোলার প্যানেল",
+        "বয়লার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-135",
+      "question": "সমুদ্রের জোয়ার-ভাটা থেকে কী ধরনের শক্তি পাওয়া যায়?",
+      "options": [
+        "সৌর",
+        "তাপ",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "রাসায়নিক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-136",
+      "question": "‘শক্তির অপচয় রোধ’ বলতে কী বোঝায়?",
+      "options": [
+        "শক্তি ধ্বংস করা",
+        "শক্তির কম ব্যবহার",
+        "অপ্রয়োজনীয় শক্তির ব্যবহার বন্ধ করা",
+        "শক্তি সৃষ্টি করা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-137",
+      "question": "কোনো বস্তুর ভরবেগ স্থির রেখে ভর দ্বিগুণ করলে গতিশক্তি কেমন হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "চারগুণ",
+        "এক-চতুর্থাংশ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-138",
+      "question": "একটি 220 V-60 W বাল্ব ও একটি 220 V-100 W বাল্বের তুলনায়—",
+      "options": [
+        "100 W বাল্বের রোধ বেশি",
+        "60 W বাল্বের রোধ বেশি",
+        "উভয়ের রোধ সমান",
+        "রোধ নির্ভর করে না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-139",
+      "question": "বেগের পরিবর্তন না করে কেবল ভর দ্বিগুণ করলে বস্তুর গতিশক্তি কত গুণ হবে?",
+      "options": [
+        "দ্বিগুণ",
+        "অর্ধেক",
+        "চারগুণ",
+        "আটগুণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-140",
+      "question": "একটি 1500 kg গাড়ির বেগ 10 m/s থেকে 20 m/s হল। গতিশক্তির পরিবর্তন কত?",
+      "options": [
+        "75 kJ",
+        "150 kJ",
+        "225 kJ",
+        "300 kJ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-141",
+      "question": "50 kg ভরের একটি ছেলে 20 সেকেন্ডে 40 ধাপ সিঁড়ি উঠল। প্রতিটি ধাপ 15 cm উচ্চতা। ছেলেটির ক্ষমতা কত? (g=10 m/s²)",
+      "options": [
+        "300 W",
+        "150 W",
+        "200 W",
+        "100 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-142",
+      "question": "ফটোগ্রাফির ফ্ল্যাশ লাইটে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "আলোক → রাসায়নিক",
+        "রাসায়নিক → আলোক",
+        "বিদ্যুৎ → আলোক",
+        "তাপ → আলোক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-143",
+      "question": "একটি সাইকেলের ডায়নামোতে কী ঘটে?",
+      "options": [
+        "আলোক → বিদ্যুৎ",
+        "তাপ → বিদ্যুৎ",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "রাসায়নিক → বিদ্যুৎ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-144",
+      "question": "নিচের কোন বিবৃতিটি সঠিক?",
+      "options": [
+        "সরণ না হলে সর্বদা কার্য শূন্য",
+        "বল ও সরণ বিপরীতমুখী হলে কার্য ঋণাত্মক",
+        "বল ও সরণ পরস্পর লম্ব হলে কার্য সর্বোচ্চ",
+        "A ও B উভয়ই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-145",
+      "question": "1 জুল = কত আর্গ?",
+      "options": [
+        "10⁵",
+        "10⁷",
+        "10⁶",
+        "10⁸"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-146",
+      "question": "একটি ব্যাটারিচালিত গাড়িতে কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "রাসায়নিক → যান্ত্রিক",
+        "যান্ত্রিক → তাপ",
+        "বিদ্যুৎ → আলোক",
+        "তাপ → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-147",
+      "question": "টেলিভিশন কোন শক্তিকে কোন শক্তিতে রূপান্তরিত করে?",
+      "options": [
+        "বিদ্যুৎ → শব্দ ও আলোক",
+        "তাপ → আলোক",
+        "যান্ত্রিক → বৈদ্যুতিক",
+        "চৌম্বক → যান্ত্রিক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-148",
+      "question": "একটি পেন্ডুলামের গতি শক্তির নিত্যতা সূত্রের উদাহরণ। এটি কী ধরনের শক্তি রূপান্তর?",
+      "options": [
+        "গতি → তাপ",
+        "বিভব → গতি → বিভব",
+        "রাসায়নিক → যান্ত্রিক",
+        "তাপ → যান্ত্রিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-149",
+      "question": "একটি বস্তু v বেগে চলছে, এর গতিশক্তি E। বেগ 3v করলে গতিশক্তি কত হবে?",
+      "options": [
+        "3E",
+        "9E",
+        "27E",
+        "E"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-150",
+      "question": "গ্যাস সিলিন্ডারে কোন শক্তি সঞ্চিত থাকে?",
+      "options": [
+        "তাপ",
+        "গতি",
+        "রাসায়নিক",
+        "পারমাণবিক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-151",
+      "question": "3A ও 5A তড়িৎপ্রবাহের জন্য R রোধের তারের ক্ষমতা কত হবে অনুপাত?",
+      "options": [
+        "3:5",
+        "9:25",
+        "5:3",
+        "25:9"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-152",
+      "question": "একটি বাল্বের ক্ষমতা 40% হ্রাস পেলে, ফিলামেন্টের রোধ কেমন হবে? (V সমান)",
+      "options": [
+        "কমবে",
+        "বাড়বে",
+        "অপরিবর্তিত থাকবে",
+        "শূন্য হবে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-153",
+      "question": "একটি কলমের স্প্রিং-এ সঞ্চিত শক্তি কোন ধরনের?",
+      "options": [
+        "গতিশক্তি",
+        "স্থিতিস্থাপক বিভব শক্তি",
+        "মহাকর্ষীয় বিভব শক্তি",
+        "তাপশক্তি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-154",
+      "question": "10 kg ভরের একটি বস্তুকে 2 m/s² ত্বরণে 5 m সরাতে প্রয়োজনীয় কার্য কত?",
+      "options": [
+        "100 J",
+        "200 J",
+        "50 J",
+        "20 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-155",
+      "question": "একটি ট্রেন 36 km/h বেগে চলছে। এর বেগ m/s-এ কত?",
+      "options": [
+        "36 m/s",
+        "10 m/s",
+        "360 m/s",
+        "1 m/s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-156",
+      "question": "100 m উচ্চতার একটি জলপ্রপাতের শীর্ষে 1 kg জলের বিভব শক্তি কত? (g=10 m/s²)",
+      "options": [
+        "1000 J",
+        "10 J",
+        "100 J",
+        "1 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-157",
+      "question": "একটি যন্ত্র 200 W ক্ষমতায় 5 ঘণ্টা চালালে কত শক্তি খরচ হবে?",
+      "options": [
+        "1 kWh",
+        "10 kWh",
+        "100 kWh",
+        "1000 kWh"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-158",
+      "question": "একটি ইঞ্জিন 100 N বল প্রয়োগ করে একটি গাড়িকে 72 km/h বেগে চালাচ্ছে। ইঞ্জিনের ক্ষমতা কত?",
+      "options": [
+        "2000 W",
+        "7200 W",
+        "1000 W",
+        "5000 W"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-159",
+      "question": "একটি সাইকেল আরোহী 100 m দৈর্ঘ্যের ঢালু পথে 50 m উচ্চতায় উঠল। বাইকের ভর ও আরোহীর ভর মিলিয়ে 100 kg। কৃত কার্য কত? (g=9.8 m/s²)",
+      "options": [
+        "98 kJ",
+        "4.9 kJ",
+        "49 kJ",
+        "9.8 kJ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-160",
+      "question": "একটি হোস্ট 1 মিনিটে 1000 kg ভরের কংক্রিট 10 m উচ্চতায় তোলে। হোস্টের ক্ষমতা কত? (g=10 m/s²)",
+      "options": [
+        "1666.7 W",
+        "100 kW",
+        "6000 W",
+        "10 kW"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-161",
+      "question": "বায়ুশক্তির সুবিধা কী?",
+      "options": [
+        "সর্বত্র সমান লভ্য",
+        "দূষণহীন",
+        "সঞ্চয় করা সহজ",
+        "কম খরচে বিদ্যুৎ উৎপাদন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-162",
+      "question": "একটি মেশিনের ইনপুট 400 J ও আউটপুট 300 J, ক্ষতি কত?",
+      "options": [
+        "700 J",
+        "100 J",
+        "-100 J",
+        "1.33 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-163",
+      "question": "নিচের কোনটি জীবাশ্ম জ্বালানি?",
+      "options": [
+        "ইউরেনিয়াম",
+        "বায়োগ্যাস",
+        "প্রাকৃতিক গ্যাস",
+        "হাইড্রোজেন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-164",
+      "question": "একটি লিভারের ভার বাহু 2 m ও বল বাহু 8 m, MA কত?",
+      "options": [
+        "0.25",
+        "16",
+        "4",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-165",
+      "question": "1 টন = কত কেজি?",
+      "options": [
+        "10 kg",
+        "100 kg",
+        "1000 kg",
+        "10,000 kg"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-166",
+      "question": "একটি সাইকেল আরোহী 10 m/s বেগে চলছে, তার ভর 60 kg। ব্রেক কষে 2 সেকেন্ডে থামল, ব্রেকে কৃত কার্য কত?",
+      "options": [
+        "6000 J",
+        "3000 J",
+        "1200 J",
+        "300 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-167",
+      "question": "একটি ট্রাক ও একটি কার একই বেগে চললে কোনটির গতিশক্তি বেশি?",
+      "options": [
+        "কার",
+        "ট্রাক",
+        "সমান",
+        "বলা যাবে না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-168",
+      "question": "নিচের কোন কাজে কার্য শূন্য?",
+      "options": [
+        "বল প্রয়োগে বস্তুর সরণ",
+        "বল প্রয়োগ করেও বস্তুর সরণ না হওয়া",
+        "বল ও সরণ বিপরীতমুখী",
+        "উপর থেকে নিচে নামা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-169",
+      "question": "একটি পাথরকে উপরে ছুঁড়লে তার গতিপথের মধ্য বিন্দুতে কীভাবে শক্তি বণ্টিত থাকে?",
+      "options": [
+        "গতিশক্তি > বিভব শক্তি",
+        "বিভব শক্তি > গতিশক্তি",
+        "গতিশক্তি = বিভব শক্তি",
+        "কেবল গতিশক্তি থাকে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-170",
+      "question": "নবায়নযোগ্য জ্বালানি ব্যবহারের মূল প্রয়োজনীয়তা কী?",
+      "options": [
+        "দাম বেশি",
+        "পরিবেশ দূষণ কম হয়",
+        "সহজলভ্য নয়",
+        "জীবাশ্ম জ্বালানি বাঁচানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-171",
+      "question": "একটি বাল্বের ক্ষমতা 100 W থেকে কমিয়ে 60 W করা হলে বিদ্যুৎ খরচ কত কমবে?",
+      "options": [
+        "60%",
+        "40%",
+        "100%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-172",
+      "question": "একটি টর্চের ব্যাটারিতে কী শক্তি জমা থাকে?",
+      "options": [
+        "তাপ",
+        "গতি",
+        "রাসায়নিক",
+        "পারমাণবিক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-173",
+      "question": "1 kW ক্ষমতার একটি হিটার 1 ঘণ্টায় কত তাপ উৎপন্ন করবে? (Joule এ)",
+      "options": [
+        "1000 J",
+        "3600 J",
+        "3.6 × 10⁶ J",
+        "100 J"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-174",
+      "question": "একটি ইস্ত্রির রোধ 55 Ω, 220 V লাইনে চালালে ক্ষমতা কত?",
+      "options": [
+        "880 W",
+        "440 W",
+        "4 W",
+        "0.25 W"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-175",
+      "question": "নিচের কোন ক্ষেত্রে কাজ সম্পন্ন হয়?",
+      "options": [
+        "বই হাতে দাঁড়িয়ে থাকা",
+        "দেওয়ালে ধাক্কা দেওয়া",
+        "সিঁড়ি দিয়ে ওপরে ওঠা",
+        "চেয়ারে বসে থাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-176",
+      "question": "200 g ভরের একটি বল 50 m/s বেগে ছোঁড়া হল। বলটির গতিশক্তি কত?",
+      "options": [
+        "250 J",
+        "500 J",
+        "5000 J",
+        "2500 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-177",
+      "question": "একটি পাখা ঘোরার সময় কোন শক্তির রূপান্তর ঘটে?",
+      "options": [
+        "বিদ্যুৎ → যান্ত্রিক",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "তাপ → যান্ত্রিক",
+        "আলোক → যান্ত্রিক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-178",
+      "question": "‘শক্তির অবক্ষয়’ বলতে বোঝায়—",
+      "options": [
+        "শক্তি ধ্বংস হওয়া",
+        "শক্তি নবায়ন না হওয়া",
+        "শক্তির রূপান্তর",
+        "শক্তির ব্যবহার্যতা হ্রাস"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-179",
+      "question": "একটি বাল্ব 220 V-এ 0.5 A নেয়, বাল্বটির ক্ষমতা কত?",
+      "options": [
+        "110 W",
+        "440 W",
+        "220 W",
+        "55 W"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-180",
+      "question": "একটি ইঞ্জিনের দক্ষতা 40% এবং এটি প্রতি সেকেন্ডে 800 J তাপ গ্রহণ করে, কৃত কার্য কত?",
+      "options": [
+        "320 J",
+        "800 J",
+        "2000 J",
+        "480 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-181",
+      "question": "তড়িৎ বাতি আবিষ্কার করেন কে?",
+      "options": [
+        "নিউটন",
+        "ফ্যারাডে",
+        "এডিসন",
+        "আইনস্টাইন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-182",
+      "question": "একটি কয়লা ভিত্তিক তাপবিদ্যুৎ কেন্দ্রে প্রথমে কোন শক্তি উৎপন্ন হয়?",
+      "options": [
+        "বিদ্যুৎ",
+        "যান্ত্রিক",
+        "তাপ",
+        "আলোক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-183",
+      "question": "একটি স্প্রিং-এর বিভব শক্তির সূত্র কোনটি? (k = স্প্রিং ধ্রুবক, x = সংকোচন/প্রসারণ)",
+      "options": [
+        "½kx²",
+        "½kx",
+        "kx²",
+        "kx"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-184",
+      "question": "দুটি বস্তুর ভর সমান, কিন্তু A-র বেগ B-র দ্বিগুণ। তাদের গতিশক্তির অনুপাত কত?",
+      "options": [
+        "1:2",
+        "2:1",
+        "1:4",
+        "4:1"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-185",
+      "question": "একটি ট্রেনের ইঞ্জিন 20,000 N বল প্রয়োগ করে 36 km/h বেগে চলে, ক্ষমতা কত?",
+      "options": [
+        "200 kW",
+        "720 kW",
+        "20 kW",
+        "500 kW"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-186",
+      "question": "মাইক্রোফোন কোন শক্তিকে রূপান্তরিত করে?",
+      "options": [
+        "শব্দ → বিদ্যুৎ",
+        "বিদ্যুৎ → শব্দ",
+        "তাপ → শব্দ",
+        "চৌম্বক → বিদ্যুৎ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-187",
+      "question": "220 V-100 W বাতির ফিলামেন্টের রোধ কত?",
+      "options": [
+        "100 Ω",
+        "220 Ω",
+        "484 Ω",
+        "48.4 Ω"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-188",
+      "question": "তড়িৎ লোহা গরম হওয়া কোন নীতির ওপর নির্ভরশীল?",
+      "options": [
+        "তড়িৎ প্রবাহের চৌম্বক ক্রিয়া",
+        "তড়িৎ বিশ্লেষণ",
+        "জুলের সূত্র",
+        "ফ্যারাডের সূত্র"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-189",
+      "question": "একটি ব্যক্তি 20 kg ভরের একটি বোঝা 5 m উঁচুতে তুললে কৃতকার্য কত? (g=10 m/s²)",
+      "options": [
+        "1000 J",
+        "500 J",
+        "100 J",
+        "2000 J"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-190",
+      "question": "শক্তির চূড়ান্ত উৎস কী?",
+      "options": [
+        "কয়লা",
+        "সূর্য",
+        "বায়ু",
+        "বিদ্যুৎ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-191",
+      "question": "একটি বল 10 kg ভরের একটি বস্তুর উপর 10 s ধরে 50 N বল প্রয়োগ করায় বস্তুর সরণ হলো 2 m। ক্ষমতা কত?",
+      "options": [
+        "5 W",
+        "10 W",
+        "100 W",
+        "250 W"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-192",
+      "question": "‘কার্যের একক’ ও ‘ক্ষমতার একক’ যথাক্রমে—",
+      "options": [
+        "ওয়াট ও জুল",
+        "জুল ও ওয়াট",
+        "নিউটন ও জুল",
+        "জুল ও নিউটন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-193",
+      "question": "1000 kg ভরের একটি গাড়িকে 2 m/s² ত্বরণে 5 s ধরে চলালে কৃত কার্য কত? (s = ut + ½at² = 0 + ½×2×25 = 25 m)",
+      "options": [
+        "50 kJ",
+        "25 kJ",
+        "10 kJ",
+        "5 kJ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-194",
+      "question": "প্রাকৃতিক গ্যাস প্রধানত কী?",
+      "options": [
+        "ইথেন",
+        "বিউটেন",
+        "মিথেন",
+        "প্রোপেন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-195",
+      "question": "15 তলা বাড়ির ছাদে পাম্প করে জল তোলার জন্য কোন শক্তির প্রয়োজন?",
+      "options": [
+        "তাপ",
+        "বিদ্যুৎ",
+        "চুম্বক",
+        "পারমাণবিক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-12-196",
+      "question": "একটি বস্তুকে খাড়া উপরের দিকে ছুড়লে, ফেরার পথে ভূমি স্পর্শের মুহূর্তে গতিশক্তি—",
+      "options": [
+        "বিভব শক্তির সমান",
+        "শূন্য",
+        "প্রাথমিক গতিশক্তির সমান",
+        "দ্বিগুণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-12-197",
+      "question": "নিচের কোন উক্তিগুলো কার্যের ক্ষেত্রে সঠিক? (বহু-সঠিক)",
+      "options": [
+        "W = F × s",
+        "বল ও সরণ বিপরীতমুখী হলে কার্য ঋণাত্মক",
+        "বল ও সরণের অভিমুখ একই হলে কার্য শূন্য",
+        "কার্যের একক জুল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-198",
+      "question": "গতিশক্তি (KE) সম্পর্কিত সঠিক সূত্র/তথ্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "KE = ½mv²",
+        "এর একক জুল",
+        "এটি একটি স্কেলার রাশি",
+        "KE = mgh"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-199",
+      "question": "বিভব শক্তি সম্পর্কে সঠিক উক্তিগুলো চিহ্নিত করো: (বহু-সঠিক)",
+      "options": [
+        "PE = mgh",
+        "এটি উচ্চতার ওপর নির্ভর করে",
+        "এর একক ওয়াট",
+        "এটি মহাকর্ষ বলের বিরুদ্ধে কার্যের ফলে সঞ্চিত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-200",
+      "question": "নিচের কোনটি/গুলো শক্তির নিত্যতা সূত্রের উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "দোলকের দোলন",
+        "পাথর নিচে পড়া",
+        "বরফ গলা",
+        "জল পড়া থেকে বিদ্যুৎ উৎপাদন"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-201",
+      "question": "নিচের কোনগুলো নবায়নযোগ্য শক্তির উৎস? (বহু-সঠিক)",
+      "options": [
+        "সৌর",
+        "কয়লা",
+        "বায়ু",
+        "পেট্রোলিয়াম"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-12-202",
+      "question": "সরল যন্ত্রের উদাহরণ কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "লিভার",
+        "পালি",
+        "মোটর গাড়ি",
+        "আনত তল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-12-203",
+      "question": "নিচের কোনগুলি জীবাশ্ম জ্বালানি? (বহু-সঠিক)",
+      "options": [
+        "কয়লা",
+        "প্রাকৃতিক গ্যাস",
+        "ইউরেনিয়াম",
+        "ডিজেল"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-204",
+      "question": "তড়িৎ ক্ষমতা (P) নির্ণয়ের সূত্র কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "P = VI",
+        "P = I²R",
+        "P = V²/R",
+        "P = V/I"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-205",
+      "question": "কোনো বস্তুর সরণ না ঘটলে কৃত কার্য শূন্য— এই বিবৃতির উদাহরণ কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "দেওয়াল ঠেলা",
+        "হাঁটা",
+        "বই হাতে দাঁড়িয়ে থাকা",
+        "সাইকেল চালানো"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-206",
+      "question": "নিচের কোন যন্ত্রগুলো দ্বিতীয় শ্রেণির লিভার? (বহু-সঠিক)",
+      "options": [
+        "বোতল খোলার যন্ত্র",
+        "নাটক্র্যাকার",
+        "কাঁচি",
+        "ট্রলি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-207",
+      "question": "নিচের কোন কোন শক্তি রূপান্তরের উদাহরণ সঠিক? (বহু-সঠিক)",
+      "options": [
+        "বাল্ব: বিদ্যুৎ → আলোক",
+        "মোটর: বিদ্যুৎ → যান্ত্রিক",
+        "ব্যাটারি: রাসায়নিক → বিদ্যুৎ",
+        "ফ্যান: যান্ত্রিক → বিদ্যুৎ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-208",
+      "question": "1 HP সম্পর্কে কোন উক্তিগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "746 W এর সমান",
+        "ক্ষমতার একক",
+        "1000 J এর সমান",
+        "ইঞ্জিনের ক্ষমতা প্রকাশে ব্যবহৃত"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-209",
+      "question": "নিচের কোন ক্ষেত্রে বল ও সরণের মধ্যবর্তী কোণ 90°? (বহু-সঠিক)",
+      "options": [
+        "দেওয়াল বরাবর হাঁটা",
+        "বৃত্তাকার পথে ঘোরা (অভিকেন্দ্র বল)",
+        "মাটিতে ট্রলি টানা",
+        "সিঁড়ি দিয়ে ওঠা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-210",
+      "question": "শক্তি সংরক্ষণ বলতে কী বোঝায়? (বহু-সঠিক)",
+      "options": [
+        "শক্তির অপচয় কমানো",
+        "অপ্রয়োজনে বাতি জ্বালিয়ে না রাখা",
+        "শক্তির উৎস ধ্বংস করা",
+        "কম শক্তি খরচের যন্ত্র ব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-211",
+      "question": "কোন দুটি অবস্থায় গতিশক্তি দ্বিগুণ হবে? (বহু-সঠিক)",
+      "options": [
+        "ভর দ্বিগুণ, বেগ একই",
+        "ভর একই, বেগ দ্বিগুণ",
+        "ভর একই, বেগ √2 গুণ",
+        "ভর অর্ধেক, বেগ দ্বিগুণ"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-212",
+      "question": "নিচের কোনটি/গুলো শক্তি রূপান্তরের ভুল উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "সৌরকোষ: তাপ → বিদ্যুৎ",
+        "ডায়নামো: যান্ত্রিক → বিদ্যুৎ",
+        "টিউবলাইট: বিদ্যুৎ → আলোক",
+        "বৈদ্যুতিক ঘন্টা: শব্দ → বিদ্যুৎ"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-213",
+      "question": "ঘর্ষণজনিত কার্যের ফলে— (বহু-সঠিক)",
+      "options": [
+        "তাপ উৎপন্ন হয়",
+        "যান্ত্রিক শক্তি তাপে রূপান্তরিত হয়",
+        "শক্তি ধ্বংস হয়",
+        "গতিশক্তি হ্রাস পায়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-214",
+      "question": "নিচের কোন দুটি একক একই? (বহু-সঠিক)",
+      "options": [
+        "শক্তি ও কার্য",
+        "বল ও ক্ষমতা",
+        "ক্ষমতা ও চাপ",
+        "জুল ও নিউটন-মিটার"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-215",
+      "question": "কম ক্ষমতাসম্পন্ন বাতির বৈশিষ্ট্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "রোধ বেশি",
+        "রোধ কম",
+        "তড়িৎ কম নেয়",
+        "উজ্জ্বলতা কম"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-216",
+      "question": "গতিশক্তি ও ভরবেগের মধ্যে সম্পর্ক নিয়ে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "K = p²/2m",
+        "p ধ্রুবক থাকলে m বাড়লে K কমে",
+        "m ধ্রুবক থাকলে p বাড়লে K বাড়ে",
+        "K ও p সরাসরি সমানুপাতিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-217",
+      "question": "নিচের কোন কোন যন্ত্রে তড়িৎশক্তি যান্ত্রিক শক্তিতে রূপান্তরিত হয়? (বহু-সঠিক)",
+      "options": [
+        "বৈদ্যুতিক পাখা",
+        "মোটর",
+        "টিউবলাইট",
+        "ইলেকট্রিক ইস্ত্রি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-218",
+      "question": "কর্মদক্ষতা সম্পর্কে সঠিক বিবৃতি কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "η = (আউটপুট/ইনপুট) × 100%",
+        "এটি কখনো 100% এর বেশি হতে পারে না",
+        "ঘর্ষণের কারণে ক্ষতি হয়",
+        "আদর্শ যন্ত্রের η = 100%"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-219",
+      "question": "নিচের কোন উক্তিটি ভুল? (বহু-সঠিক)",
+      "options": [
+        "স্থির কপিকলের MA > 1",
+        "কাঁচি প্রথম শ্রেণির লিভার",
+        "SCREW একটি সরল যন্ত্র",
+        "আনত তলের MA সর্বদা 1"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-220",
+      "question": "নিচের কোন প্রক্রিয়ায় সৌরশক্তি ব্যবহৃত হয়? (বহু-সঠিক)",
+      "options": [
+        "সালোকসংশ্লেষ",
+        "সোলার কুকার",
+        "সোলার প্যানেল",
+        "বায়োগ্যাস প্লান্ট"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-221",
+      "question": "একটি বস্তুকে উপরে উঠালে ও নামালে শক্তির রূপান্তরের ক্ষেত্রে— (বহু-সঠিক)",
+      "options": [
+        "উঠানোর সময় রাসায়নিক শক্তি → বিভব শক্তি",
+        "নামার সময় বিভব শক্তি → গতি শক্তি",
+        "ভূমিতে আছড়ে পড়লে গতি শক্তি → তাপ ও শব্দ",
+        "শক্তি সংরক্ষিত থাকে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-222",
+      "question": "P = W/t সূত্রানুসারে, (বহু-সঠিক)",
+      "options": [
+        "কাজ ধ্রুবক রেখে সময় কমালে ক্ষমতা বাড়ে",
+        "সময় ধ্রুবক রেখে কাজ বাড়ালে ক্ষমতা বাড়ে",
+        "ক্ষমতা কাজের সমানুপাতিক",
+        "ক্ষমতা সময়ের সমানুপাতিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-223",
+      "question": "দক্ষতা বৃদ্ধির উপায় কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "ঘর্ষণ কমানো",
+        "পিচ্ছিলকারক ব্যবহার",
+        "যন্ত্রের ওজন বাড়ানো",
+        "মরিচা পড়া রোধ করা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-224",
+      "question": "কোন উৎস দুটি অনবায়নযোগ্য? (বহু-সঠিক)",
+      "options": [
+        "কয়লা",
+        "বায়ু",
+        "সূর্যরশ্মি",
+        "পেট্রোলিয়াম"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-12-225",
+      "question": "একটি হোস্টের ক্ষমতা 5 kW বলতে বোঝায়— (বহু-সঠিক)",
+      "options": [
+        "প্রতি সেকেন্ডে 5000 J কাজ করতে পারে",
+        "1 সেকেন্ডে 7500 J কাজ করতে পারে",
+        "1 মিনিটে 300 kJ কাজ করতে পারে",
+        "10 HP এর চেয়ে কম"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-226",
+      "question": "নিচের কোন দুটি ক্ষেত্রে W = Fs cosθ সূত্রে θ = 0°? (বহু-সঠিক)",
+      "options": [
+        "গাড়িকে রাস্তায় টানা",
+        "কূপ থেকে জল তোলা",
+        "বাক্সকে ঠেলে নিয়ে যাওয়া",
+        "সাইকেল চালানো (সামনের দিকে)"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-227",
+      "question": "নিচের কোন গুলি নবায়নযোগ্য শক্তি? (বহু-সঠিক)",
+      "options": [
+        "ভূ-তাপীয় শক্তি",
+        "বায়োমাস",
+        "পারমাণবিক শক্তি",
+        "জলবিদ্যুৎ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-228",
+      "question": "একটি সাইকেল চালকের শক্তির রূপান্তর পদ্ধতিতে— (বহু-সঠিক)",
+      "options": [
+        "পেশির রাসায়নিক শক্তি → যান্ত্রিক শক্তি",
+        "যান্ত্রিক শক্তি → গতিশক্তি",
+        "ঘর্ষণে গতিশক্তি → তাপ",
+        "ব্রেকে গতিশক্তি → তাপ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-229",
+      "question": "চল কপিকল সম্পর্কে সঠিক তথ্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "MA = 2 (আদর্শ)",
+        "ভার অর্ধেক হয়",
+        "দড়ির টান দ্বিগুণ হয়",
+        "বল প্রয়োগের দূরত্ব দ্বিগুণ হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-230",
+      "question": "সৌরশক্তি ব্যবহারের সুবিধা কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "দূষণমুক্ত",
+        "অফুরন্ত",
+        "কম খরচে রক্ষণাবেক্ষণ",
+        "সব জায়গায় সমান তীব্রতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-231",
+      "question": "কোন ক্ষেত্রে কার্য সর্বোচ্চ? (বহু-সঠিক)",
+      "options": [
+        "বল ও সরণ একই দিকে",
+        "বল ও সরণের মাঝে 90° কোণ",
+        "বল ও সরণের মাঝে 0° কোণ",
+        "A ও C উভয়ই"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-232",
+      "question": "তড়িৎ ক্ষমতা কমাতে কী করা যায়? (বহু-সঠিক)",
+      "options": [
+        "রোধ বাড়ানো (স্থির V তে)",
+        "তড়িৎ প্রবাহ কমানো",
+        "বিভব বাড়ানো (স্থির R তে)",
+        "রোধ কমানো (স্থির I তে)"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-233",
+      "question": "পানির তোড়ে টারবাইন ঘুরিয়ে বিদ্যুৎ উৎপাদনে শক্তির রূপান্তর— (বহু-সঠিক)",
+      "options": [
+        "বিভব → গতি",
+        "গতি → বিদ্যুৎ",
+        "তাপ → বিদ্যুৎ",
+        "রাসায়নিক → গতি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-234",
+      "question": "কাজ ও ক্ষমতার মধ্যে পার্থক্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "কাজ সময় নিরপেক্ষ, ক্ষমতা সময় সাপেক্ষ",
+        "উভয়ের একক জুল",
+        "কাজ জুল, ক্ষমতা জুল/সেকেন্ড",
+        "ক্ষমতা কাজের হার নির্দেশ করে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-235",
+      "question": "নিচের কোনটি/গুলো তৃতীয় শ্রেণির লিভারের উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "মাছ ধরার ছিপ",
+        "ঝাঁটা",
+        "চিমটা",
+        "বাদাম ভাঙ্গার যন্ত্র"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-236",
+      "question": "একটি 36 W বাতি 220 V এর পরিবর্তে 110 V এ চালালে— (বহু-সঠিক)",
+      "options": [
+        "ক্ষমতা কমবে",
+        "ক্ষমতা বাড়বে",
+        "রোধ একই থাকবে",
+        "তড়িৎ প্রবাহ অর্ধেক হবে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-237",
+      "question": "একটি কয়লা ভিত্তিক বিদ্যুৎকেন্দ্রে কী কী শক্তি রূপান্তর ঘটে? (বহু-সঠিক)",
+      "options": [
+        "রাসায়নিক → তাপ",
+        "তাপ → যান্ত্রিক",
+        "যান্ত্রিক → বিদ্যুৎ",
+        "বিদ্যুৎ → আলোক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-238",
+      "question": "বিভব শক্তি বৃদ্ধির শর্ত কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "ভর বাড়লে",
+        "উচ্চতা কমলে",
+        "অভিকর্ষজ ত্বরণ বেশি হলে",
+        "উচ্চতা বাড়লে"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-239",
+      "question": "একটি স্প্রিংকে সংকুচিত করলে— (বহু-সঠিক)",
+      "options": [
+        "কৃত কার্য বিভব শক্তিতে রূপান্তরিত হয়",
+        "এটি গতিশক্তি উৎপন্ন করে",
+        "PE = ½kx²",
+        "শক্তির নিত্যতা সূত্র প্রযোজ্য হয়"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-240",
+      "question": "কোন যন্ত্রগুলোতে বৈদ্যুতিক মোটর ব্যবহৃত হয়? (বহু-সঠিক)",
+      "options": [
+        "ফ্যান",
+        "মোবাইল",
+        "ওয়াশিং মেশিন",
+        "টর্চ লাইট"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-241",
+      "question": "নিচের কোনটি/গুলো বলের বিরুদ্ধে কাজ? (বহু-সঠিক)",
+      "options": [
+        "ঘর্ষণ বলের বিরুদ্ধে কাজ",
+        "মহাকর্ষ বলের দিকে নামা",
+        "মহাকর্ষ বলের বিরুদ্ধে ওঠা",
+        "স্প্রিং সংকোচন"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-242",
+      "question": "একটি 9V ব্যাটারি 1.5 Ω রোধের মধ্য দিয়ে তড়িৎ পাঠালে— (বহু-সঠিক)",
+      "options": [
+        "I = 6 A",
+        "P = 54 W",
+        "P = VI",
+        "মোট কার্য 54 J প্রতি সেকেন্ডে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-243",
+      "question": "নিচের কোনগুলি শক্তি সঞ্চয় করে রাখতে পারে? (বহু-সঠিক)",
+      "options": [
+        "ব্যাটারি",
+        "জেনারেটর",
+        "ক্যাপাসিটর",
+        "স্প্রিং"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-244",
+      "question": "MA ও η সম্পর্কে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "MA = ভার/বল",
+        "η শতকরা হিসাবে প্রকাশিত হয়",
+        "আদর্শ যন্ত্রে MA = VR",
+        "সাধারণত η > 100%"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-245",
+      "question": "নিচের কোনটি/গুলো শক্তির অপচয়? (বহু-সঠিক)",
+      "options": [
+        "ঘর্ষণে তাপ উৎপাদন",
+        "এলইডির পরিবর্তে বাল্ব ব্যবহার",
+        "অতিরিক্ত আলো জ্বালানো",
+        "সোলার প্যানেল ব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-246",
+      "question": "একটি পেন্ডুলামের ক্ষেত্রে— (বহু-সঠিক)",
+      "options": [
+        "সর্বোচ্চ বিন্দুতে গতিশক্তি শূন্য",
+        "সর্বনিম্ন বিন্দুতে বিভব শক্তি সর্বনিম্ন",
+        "শক্তি সর্বদা সংরক্ষিত",
+        "গতি অবিরাম চলতে থাকলে শক্তি বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-247",
+      "question": "পারমাণবিক শক্তির সুবিধা কী? (বহু-সঠিক)",
+      "options": [
+        "অল্প জ্বালানিতে বিপুল শক্তি",
+        "দূষণহীন",
+        "দাম কম",
+        "গ্রিনহাউস গ্যাস নির্গমন হয় না"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-248",
+      "question": "একটি বাল্বের গায়ে 24 W, 12 V লেখা আছে। (বহু-সঠিক)",
+      "options": [
+        "রোধ 6 Ω",
+        "প্রবাহ 2 A",
+        "220 V-এ জ্বালালে ফেটে যাবে",
+        "6 V-এ ক্ষমতা 6 W হবে (রোধ স্থির)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-249",
+      "question": "জীবাশ্ম জ্বালানি ব্যবহারের কুফল কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "বায়ু দূষণ",
+        "এসিড বৃষ্টি",
+        "গ্রিনহাউস প্রভাব",
+        "নবায়নযোগ্য নয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-250",
+      "question": "নিচের কোন বস্তুটির গতিশক্তি বেশি? (বহু-সঠিক)",
+      "options": [
+        "m, v",
+        "2m, v",
+        "m, 2v",
+        "2m, 2v"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-12-251",
+      "question": "W = Fs cosθ সূত্রে— (বহু-সঠিক)",
+      "options": [
+        "θ = 0° → W = Fs",
+        "θ = 90° → W = 0",
+        "θ = 180° → W = -Fs",
+        "θ = 45° → W = Fs/√2"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-252",
+      "question": "1 kWh সমান— (বহু-সঠিক)",
+      "options": [
+        "3.6 × 10⁶ J",
+        "1 ইউনিট বিদ্যুৎ",
+        "1000 W × 3600 s",
+        "3.6 × 10³ J"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-253",
+      "question": "একটি মেশিনের ঘর্ষণ কমালে কী কী পরিবর্তন হবে? (বহু-সঠিক)",
+      "options": [
+        "আউটপুট বাড়বে",
+        "দক্ষতা বাড়বে",
+        "ইনপুট স্থির থাকলে MA বাড়বে",
+        "ক্ষমতা কমবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-254",
+      "question": "নিচের কোনটি নবায়নযোগ্য জ্বালানি? (বহু-সঠিক)",
+      "options": [
+        "ইথানল",
+        "বায়োডিজেল",
+        "পেট্রোল",
+        "বায়োগ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-255",
+      "question": "একটি স্প্রিংকে প্রসারিত করলে কৃত কার্য নির্ভর করে— (বহু-সঠিক)",
+      "options": [
+        "প্রসারণের পরিমাণ",
+        "স্প্রিং ধ্রুবক",
+        "অভিকর্ষজ ত্বরণ",
+        "বস্তুর ভর"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-256",
+      "question": "নিচের কোনটি শক্তির রূপান্তরের সঠিক উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "আলোক → বিদ্যুৎ (সোলার প্যানেল)",
+        "শব্দ → বিদ্যুৎ (মাইক্রোফোন)",
+        "বিদ্যুৎ → চুম্বকত্ব (ইলেকট্রোম্যাগনেট)",
+        "রাসায়নিক → যান্ত্রিক (পেশী সংকোচন)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-257",
+      "question": "নিচের কোন সম্পর্কগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "1 HP = 746 W",
+        "1 kW = 1000 J/s",
+        "1 kWh = 3.6 MJ",
+        "1 MW = 1000 kW"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-258",
+      "question": "কোনো ইঞ্জিন বেশি ক্ষমতা সম্পন্ন হলে— (বহু-সঠিক)",
+      "options": [
+        "কম সময়ে বেশি কাজ করতে পারবে",
+        "একই কাজ কম সময়ে করবে",
+        "প্রতি সেকেন্ডে বেশি জুল কাজ সম্পন্ন করবে",
+        "ইনপুট স্থির হলে দক্ষতা বেশি হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-259",
+      "question": "নিচের কোন উক্তিটি/গুলো শক্তি সম্পর্কে সঠিক? (বহু-সঠিক)",
+      "options": [
+        "শক্তির একক জুল",
+        "এটি স্কেলার রাশি",
+        "শক্তি = ক্ষমতা × সময়",
+        "বিভব শক্তি = গতিশক্তি সবসময়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-260",
+      "question": "নিচের কোন ক্ষেত্রে কার্য শূন্য? (বহু-সঠিক)",
+      "options": [
+        "সূর্যের চারদিকে পৃথিবীর আবর্তন",
+        "হাঁটা",
+        "ঘড়ির কাঁটার চলন (ব্যাটারি শেষ হলে)",
+        "চৌম্বক ক্ষেত্রে স্থির আধান"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-261",
+      "question": "একটি বাল্বে 100 W-220 V লেখা আছে— এর অর্থ কী? (বহু-সঠিক)",
+      "options": [
+        "এটি 220 V এ 100 W ক্ষমতা দেবে",
+        "এর রোধ 484 Ω",
+        "110 V এ এর রোধ দ্বিগুণ হবে",
+        "প্রতি সেকেন্ডে 100 J শক্তি রূপান্তরিত করবে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-262",
+      "question": "বৈদ্যুতিক ইস্ত্রিতে তাপ উৎপাদনের পরিমাণ বাড়াতে কী করা যায়? (বহু-সঠিক)",
+      "options": [
+        "বিভব বাড়ানো",
+        "রোধ কমানো (প্যারালাল সংযোগ)",
+        "রোধ বাড়িয়ে তড়িৎ কমানো",
+        "প্রবাহ বাড়ানো"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-263",
+      "question": "বায়ুশক্তির অসুবিধা কী হতে পারে? (বহু-সঠিক)",
+      "options": [
+        "শব্দ দূষণ",
+        "পাখির ক্ষতি",
+        "সব জায়গায় পাওয়া যায় না",
+        "ব্যয়বহুল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-264",
+      "question": "একটি আদর্শ যন্ত্রে— (বহু-সঠিক)",
+      "options": [
+        "ইনপুট = আউটপুট",
+        "MA = VR",
+        "η = 100%",
+        "ঘর্ষণ আছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-265",
+      "question": "নিচের কোনটি/গুলো কার্যের উদাহরণ? (বহু-সঠিক)",
+      "options": [
+        "সিঁড়ি দিয়ে ওঠা",
+        "ভারী বাক্স টানা",
+        "ঘুমানো",
+        "বই পড়া"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-12-266",
+      "question": "একটি বস্তুকে পৃথিবী থেকে চাঁদে নিয়ে গেলে— (বহু-সঠিক)",
+      "options": [
+        "ভর অপরিবর্তিত থাকবে",
+        "ওজন কমে যাবে",
+        "বিভব শক্তি পৃথিবী অপেক্ষা কমে যাবে (ভূপৃষ্ঠে)",
+        "গতিশক্তি অপরিবর্তিত থাকবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-267",
+      "question": "নিচের কোন শক্তি রূপান্তরটি সঠিক নয়? (বহু-সঠিক)",
+      "options": [
+        "টিভি: বিদ্যুৎ → কেবল আলোক",
+        "হিটার: বিদ্যুৎ → তাপ",
+        "মোটর: বিদ্যুৎ → যান্ত্রিক",
+        "জেনারেটর: বিদ্যুৎ → যান্ত্রিক"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-268",
+      "question": "একটি লিভারের ভারবাহু ও বলবাহুর দৈর্ঘ্য যথাক্রমে 0.5 m ও 2 m; (বহু-সঠিক)",
+      "options": [
+        "MA = 4",
+        "10 kg ভার তুলতে 25 N বল প্রয়োজন (g=10)",
+        "এটি দ্বিতীয় শ্রেণির হতে পারে",
+        "বলবাহু বড়"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-269",
+      "question": "তাপ ইঞ্জিনে কী কী শক্তি রূপান্তর ঘটে? (বহু-সঠিক)",
+      "options": [
+        "রাসায়নিক → তাপ",
+        "তাপ → যান্ত্রিক",
+        "যান্ত্রিক → গতি",
+        "তাপ → বিদ্যুৎ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-270",
+      "question": "স্থিতিস্থাপক বিভব শক্তির উদাহরণ কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "টানা ধনুক",
+        "ঘড়ির স্প্রিং",
+        "বাঁধের জল",
+        "সংকুচিত গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-271",
+      "question": "অভিকর্ষ বলের অধীনে পড়ন্ত বস্তুর জন্য— (বহু-সঠিক)",
+      "options": [
+        "মোট যান্ত্রিক শক্তি সংরক্ষিত থাকে",
+        "বিভব শক্তি হ্রাস পায়",
+        "গতিশক্তি বৃদ্ধি পায়",
+        "গতিশক্তি + বিভব শক্তি = ধ্রুবক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-272",
+      "question": "একটি বাল্বের ফিলামেন্টের রোধ 1000 Ω, 220 V এ এটি কী পরিমাণ বিদ্যুৎ নেয়? (বহু-সঠিক)",
+      "options": [
+        "0.22 A",
+        "প্রায় 48.4 W",
+        "1 kWh শক্তি খরচ করতে 20 ঘণ্টার বেশি সময় লাগে",
+        "এটি 220 W এর বাল্ব"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-273",
+      "question": "নিচের কোনটি/গুলো পারমাণবিক শক্তির উৎস? (বহু-সঠিক)",
+      "options": [
+        "ইউরেনিয়াম",
+        "প্লুটোনিয়াম",
+        "কয়লা",
+        "থোরিয়াম"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-274",
+      "question": "একটি বস্তুকে ছাদ থেকে ফেলে দিলে— (বহু-সঠিক)",
+      "options": [
+        "ছাদে গতিশক্তি সর্বনিম্ন বা শূন্য",
+        "মাটিতে বিভব শক্তি সর্বনিম্ন",
+        "পুরো পথে মোট শক্তি একই থাকে",
+        "গতিশক্তি ক্রমাগত বাড়তে থাকে (বাধাহীন)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-275",
+      "question": "নিচের কোনটি/গুলো বলের একক? (বহু-সঠিক)",
+      "options": [
+        "নিউটন",
+        "ডাইন",
+        "জুল",
+        "কিলোগ্রাম-ভার"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-276",
+      "question": "একটি মেশিনের MA ও VR সমান নয় কেন? (বহু-সঠিক)",
+      "options": [
+        "ঘর্ষণের জন্য",
+        "যন্ত্রের ওজনের জন্য",
+        "আউটপুট সবসময় কম হয়",
+        "ইনপুট বেশি হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-277",
+      "question": "নিচের কোনগুলো ভৌত রাশি? (বহু-সঠিক)",
+      "options": [
+        "কার্য",
+        "দৈর্ঘ্য",
+        "সময়",
+        "ভালোবাসা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-12-278",
+      "question": "একটি বৈদ্যুতিক হিটারে 2 A প্রবাহ দিলে 440 W ক্ষমতা উৎপন্ন হয়। হিটারটির (বহু-সঠিক)",
+      "options": [
+        "রোধ 110 Ω",
+        "বিভব 220 V",
+        "5 A প্রবাহ দিলে ক্ষমতা 2750 W",
+        "রোধ পরিবর্তনশীল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-12-279",
+      "question": "শক্তির উৎস হিসেবে সূর্যের গুরুত্ব— (বহু-সঠিক)",
+      "options": [
+        "জীবাশ্ম জ্বালানি সৃষ্টিতে",
+        "বায়ুপ্রবাহ সৃষ্টিতে",
+        "জলচক্র চালু রাখতে",
+        "সরাসরি বিদ্যুৎ উৎপাদনে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-12-280",
+      "question": "একটি আনত তল ব্যবহার করে— (বহু-সঠিক)",
+      "options": [
+        "কম বল প্রয়োগ করে ভারী জিনিস তোলা যায়",
+        "বল প্রয়োগের দূরত্ব বাড়ে",
+        "কাজের পরিমাণ কমে যায়",
+        "এটি একটি সরল যন্ত্র"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "12-work-and-energy",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

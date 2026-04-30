@@ -1,0 +1,3509 @@
+{
+  "subject": "physics",
+  "unit": "11-measurements",
+  "unit_code": "11",
+  "total": 200,
+  "questions": [
+    {
+      "id": "p-11-001",
+      "question": "পরিমাপ কাকে বলে?",
+      "options": [
+        "একটি নির্দিষ্ট ভৌত রাশির সঙ্গে একজাতীয় আদর্শ রাশির তুলনা",
+        "কোনো বস্তুর ওজন নির্ণয়",
+        "কেবল দৈর্ঘ্য নির্ণয়",
+        "তাপমাত্রা নির্ণয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-002",
+      "question": "SI পদ্ধতিতে মৌলিক রাশির সংখ্যা কয়টি?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-003",
+      "question": "নিচের কোনটি মৌলিক রাশি?",
+      "options": [
+        "ক্ষেত্রফল",
+        "আয়তন",
+        "দৈর্ঘ্য",
+        "বেগ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-004",
+      "question": "নিচের কোনটি লব্ধ রাশি?",
+      "options": [
+        "ভর",
+        "সময়",
+        "তড়িৎ প্রবাহ",
+        "বেগ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-005",
+      "question": "দৈর্ঘ্যের SI একক কী?",
+      "options": [
+        "সেন্টিমিটার",
+        "কিলোমিটার",
+        "মিটার",
+        "ফুট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-006",
+      "question": "ভরের SI একক কী?",
+      "options": [
+        "গ্রাম",
+        "পাউন্ড",
+        "কিলোগ্রাম",
+        "মিলিগ্রাম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-007",
+      "question": "সময়ের SI একক কী?",
+      "options": [
+        "মিনিট",
+        "ঘণ্টা",
+        "সেকেন্ড",
+        "দিন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-008",
+      "question": "তাপমাত্রার SI একক কী?",
+      "options": [
+        "সেলসিয়াস",
+        "ফারেনহাইট",
+        "কেলভিন",
+        "রিউমার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-009",
+      "question": "তড়িৎ প্রবাহের SI একক কী?",
+      "options": [
+        "ভোল্ট",
+        "ওহম",
+        "অ্যাম্পিয়ার",
+        "কুলম্ব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-010",
+      "question": "দীপন তীব্রতার SI একক কী?",
+      "options": [
+        "লুমেন",
+        "লাক্স",
+        "ক্যান্ডেলা",
+        "ওয়াট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-011",
+      "question": "পদার্থের পরিমাণের SI একক কী?",
+      "options": [
+        "কিলোগ্রাম",
+        "মোল",
+        "গ্রাম",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-012",
+      "question": "ক্ষেত্রফলের SI একক কী?",
+      "options": [
+        "মিটার",
+        "বর্গমিটার",
+        "ঘনমিটার",
+        "সেন্টিমিটার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-013",
+      "question": "আয়তনের SI একক কী?",
+      "options": [
+        "লিটার",
+        "বর্গমিটার",
+        "ঘনমিটার",
+        "মিটার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-014",
+      "question": "বেগের SI একক কী?",
+      "options": [
+        "m/s²",
+        "m/s",
+        "km/h",
+        "m²/s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-015",
+      "question": "ত্বরণের SI একক কী?",
+      "options": [
+        "m/s",
+        "m·s",
+        "m/s²",
+        "m²/s"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-016",
+      "question": "বলের SI একক কী?",
+      "options": [
+        "ডাইন",
+        "জুল",
+        "নিউটন",
+        "পাস্কাল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-017",
+      "question": "চাপের SI একক কী?",
+      "options": [
+        "নিউটন",
+        "জুল",
+        "পাস্কাল",
+        "ওয়াট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-018",
+      "question": "শক্তির SI একক কী?",
+      "options": [
+        "নিউটন",
+        "ওয়াট",
+        "জুল",
+        "কুলম্ব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-019",
+      "question": "ক্ষমতার SI একক কী?",
+      "options": [
+        "জুল",
+        "নিউটন",
+        "ওয়াট",
+        "ভোল্ট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-020",
+      "question": "কম্পাঙ্কের SI একক কী?",
+      "options": [
+        "ওয়াট",
+        "হার্জ",
+        "সেকেন্ড",
+        "মিটার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-021",
+      "question": "তড়িৎ আধানের SI একক কী?",
+      "options": [
+        "অ্যাম্পিয়ার",
+        "ভোল্ট",
+        "কুলম্ব",
+        "ওহম"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-022",
+      "question": "বিভব পার্থক্যের SI একক কী?",
+      "options": [
+        "অ্যাম্পিয়ার",
+        "ওহম",
+        "জুল",
+        "ভোল্ট"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-023",
+      "question": "রোধের SI একক কী?",
+      "options": [
+        "ভোল্ট",
+        "অ্যাম্পিয়ার",
+        "ওহম",
+        "ওয়াট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-024",
+      "question": "ঘনত্বের SI একক কী?",
+      "options": [
+        "kg/m",
+        "g/cm³",
+        "kg/m³",
+        "m³/kg"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-025",
+      "question": "CGS পদ্ধতিতে দৈর্ঘ্যের একক কী?",
+      "options": [
+        "মিটার",
+        "ফুট",
+        "সেন্টিমিটার",
+        "কিলোমিটার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-026",
+      "question": "CGS পদ্ধতিতে ভরের একক কী?",
+      "options": [
+        "কিলোগ্রাম",
+        "মিলিগ্রাম",
+        "পাউন্ড",
+        "গ্রাম"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-027",
+      "question": "CGS পদ্ধতিতে বলের একক কী?",
+      "options": [
+        "নিউটন",
+        "ডাইন",
+        "জুল",
+        "আর্গ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-028",
+      "question": "CGS পদ্ধতিতে শক্তির একক কী?",
+      "options": [
+        "জুল",
+        "ক্যালরি",
+        "আর্গ",
+        "ওয়াট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-029",
+      "question": "1 নিউটন = কত ডাইন?",
+      "options": [
+        "10³",
+        "10⁵",
+        "10⁷",
+        "10⁻⁵"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-030",
+      "question": "1 জুল = কত আর্গ?",
+      "options": [
+        "10⁵",
+        "10⁷",
+        "10³",
+        "10⁻⁷"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-031",
+      "question": "1 কিলোমিটার = কত মিটার?",
+      "options": [
+        "10 m",
+        "100 m",
+        "1000 m",
+        "10,000 m"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-032",
+      "question": "1 মিটার = কত সেন্টিমিটার?",
+      "options": [
+        "10 cm",
+        "100 cm",
+        "1000 cm",
+        "0.01 cm"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-033",
+      "question": "1 সেন্টিমিটার = কত মিলিমিটার?",
+      "options": [
+        "0.1 mm",
+        "10 mm",
+        "100 mm",
+        "1 mm"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-034",
+      "question": "1 কিলোগ্রাম = কত গ্রাম?",
+      "options": [
+        "10 g",
+        "100 g",
+        "1000 g",
+        "10,000 g"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-035",
+      "question": "1 গ্রাম = কত মিলিগ্রাম?",
+      "options": [
+        "10 mg",
+        "100 mg",
+        "1000 mg",
+        "0.001 mg"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-036",
+      "question": "1 লিটার = কত মিলিলিটার?",
+      "options": [
+        "10 mL",
+        "100 mL",
+        "1000 mL",
+        "10,000 mL"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-037",
+      "question": "1 ঘণ্টা = কত সেকেন্ড?",
+      "options": [
+        "60 s",
+        "360 s",
+        "3600 s",
+        "600 s"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-038",
+      "question": "কিলো (k) উপসর্গটির মান কত?",
+      "options": [
+        "10²",
+        "10³",
+        "10⁶",
+        "10⁻³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-039",
+      "question": "সেন্টি (c) উপসর্গটির মান কত?",
+      "options": [
+        "10⁻¹",
+        "10⁻²",
+        "10⁻³",
+        "10²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-040",
+      "question": "মিলি (m) উপসর্গটির মান কত?",
+      "options": [
+        "10⁻¹",
+        "10⁻²",
+        "10⁻³",
+        "10⁻⁶"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-041",
+      "question": "মাইক্রো (μ) উপসর্গটির মান কত?",
+      "options": [
+        "10⁻³",
+        "10⁻⁶",
+        "10⁻⁹",
+        "10⁻¹²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-042",
+      "question": "ন্যানো (n) উপসর্গটির মান কত?",
+      "options": [
+        "10⁻⁶",
+        "10⁻⁹",
+        "10⁻¹²",
+        "10⁻³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-043",
+      "question": "মেগা (M) উপসর্গটির মান কত?",
+      "options": [
+        "10³",
+        "10⁶",
+        "10⁹",
+        "10⁻⁶"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-044",
+      "question": "গিগা (G) উপসর্গটির মান কত?",
+      "options": [
+        "10⁶",
+        "10⁹",
+        "10¹²",
+        "10³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-045",
+      "question": "স্ক্রু গেজ দিয়ে কী পরিমাপ করা হয়?",
+      "options": [
+        "তাপমাত্রা",
+        "দৈর্ঘ্য (ক্ষুদ্র)",
+        "ভর",
+        "আয়তন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-046",
+      "question": "ভার্নিয়ার ক্যালিপার্সের সর্বনিম্ন ধ্রুবক (Least count) কত?",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.1 mm",
+        "0.01 mm"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-047",
+      "question": "স্ক্রু গেজের সর্বনিম্ন ধ্রুবক (Least count) কত?",
+      "options": [
+        "0.1 cm",
+        "0.01 cm",
+        "0.1 mm",
+        "0.01 mm"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-048",
+      "question": "ভর পরিমাপক যন্ত্র কোনটি?",
+      "options": [
+        "থার্মোমিটার",
+        "নিক্তি",
+        "মিটার স্কেল",
+        "স্টপওয়াচ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-049",
+      "question": "সময় পরিমাপক যন্ত্র কোনটি?",
+      "options": [
+        "ভার্নিয়ার ক্যালিপার্স",
+        "নিক্তি",
+        "স্টপওয়াচ",
+        "স্ক্রু গেজ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-050",
+      "question": "তাপমাত্রা পরিমাপক যন্ত্র কোনটি?",
+      "options": [
+        "ব্যারোমিটার",
+        "থার্মোমিটার",
+        "হাইড্রোমিটার",
+        "গ্যালভানোমিটার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-051",
+      "question": "1 কিউবিক মিটার (m³) = কত লিটার?",
+      "options": [
+        "10 L",
+        "100 L",
+        "1000 L",
+        "10,000 L"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-052",
+      "question": "দ্রুতির সংজ্ঞা কোনটি?",
+      "options": [
+        "সরণ / সময়",
+        "দূরত্ব / সময়",
+        "বেগ × সময়",
+        "সময় / দূরত্ব"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-053",
+      "question": "ঘনত্বের সূত্র কোনটি? (ρ = ঘনত্ব)",
+      "options": [
+        "m × V",
+        "m / V",
+        "V / m",
+        "m + V"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-054",
+      "question": "ত্বরণ = ?",
+      "options": [
+        "(v-u) × t",
+        "(v+u) / t",
+        "(v-u) / t",
+        "(v+u) × t"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-055",
+      "question": "বল পরিমাপের সূত্র কোনটি?",
+      "options": [
+        "m × a",
+        "m / a",
+        "a / m",
+        "m + a"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-056",
+      "question": "চাপ = ?",
+      "options": [
+        "বল × ক্ষেত্রফল",
+        "বল / ক্ষেত্রফল",
+        "ক্ষেত্রফল / বল",
+        "বল + ক্ষেত্রফল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-057",
+      "question": "কার্য = ?",
+      "options": [
+        "বল × সময়",
+        "বল / সরণ",
+        "বল × সরণ",
+        "বল + সরণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-058",
+      "question": "ভরবেগের SI একক কোনটি?",
+      "options": [
+        "kg·m",
+        "kg·m/s",
+        "m/s",
+        "N·s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-059",
+      "question": "নিচের কোনটি স্কেলার রাশি?",
+      "options": [
+        "বল",
+        "বেগ",
+        "ভর",
+        "সরণ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-060",
+      "question": "নিচের কোনটি ভেক্টর রাশি?",
+      "options": [
+        "দ্রুতি",
+        "শক্তি",
+        "তাপমাত্রা",
+        "বল"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-061",
+      "question": "আলোকবর্ষ কোন ভৌত রাশির একক?",
+      "options": [
+        "সময়",
+        "দূরত্ব",
+        "বেগ",
+        "তীব্রতা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-062",
+      "question": "1 আলোকবর্ষ (ly) = প্রায় কত মিটার?",
+      "options": [
+        "9.46 × 10¹² m",
+        "9.46 × 10¹⁵ m",
+        "3 × 10⁸ m",
+        "1.496 × 10¹¹ m"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-063",
+      "question": "1 অ্যাংস্ট্রম (Å) = কত মিটার?",
+      "options": [
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁻¹⁰ m",
+        "10⁻¹² m"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-064",
+      "question": "1 ন্যানোমিটার (nm) = কত মিটার?",
+      "options": [
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁻¹⁰ m",
+        "10⁻¹² m"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-065",
+      "question": "1 মাইক্রন (μm) = কত মিটার?",
+      "options": [
+        "10⁻³ m",
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁻¹² m"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-066",
+      "question": "1 ফার্মি = কত মিটার?",
+      "options": [
+        "10⁻⁹ m",
+        "10⁻¹² m",
+        "10⁻¹⁵ m",
+        "10⁻¹⁸ m"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-067",
+      "question": "জ্যোতির্বৈজ্ঞানিক একক (AU) কী মাপতে ব্যবহৃত হয়?",
+      "options": [
+        "নক্ষত্রের দূরত্ব",
+        "গ্রহ-নক্ষত্রের মধ্যেকার দূরত্ব",
+        "আলোর বেগ",
+        "ছায়াপথের বেগ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-068",
+      "question": "1 পারসেক = কত আলোকবর্ষ (প্রায়)?",
+      "options": [
+        "3.26 ly",
+        "1 ly",
+        "10 ly",
+        "100 ly"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-069",
+      "question": "1 atm চাপ = কত পাস্কাল?",
+      "options": [
+        "1013 Pa",
+        "1.013 × 10⁵ Pa",
+        "10⁵ Pa",
+        "760 Pa"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-070",
+      "question": "1 bar = কত পাস্কাল?",
+      "options": [
+        "1.013 × 10⁵ Pa",
+        "10⁵ Pa",
+        "10⁴ Pa",
+        "760 Pa"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-071",
+      "question": "বস্তুর ওজন পরিমাপক যন্ত্র কোনটি?",
+      "options": [
+        "নিক্তি",
+        "স্প্রিং তুলা",
+        "থার্মোমিটার",
+        "ব্যারোমিটার"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-072",
+      "question": "চিকিৎসকরা যে যন্ত্র দ্বারা রক্তচাপ নির্ণয় করেন তা হল—",
+      "options": [
+        "স্টেথোস্কোপ",
+        "স্ফিগমোম্যানোমিটার",
+        "থার্মোমিটার",
+        "আলট্রাসনোগ্রাফি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-073",
+      "question": "তাপমাত্রার ব্যবহারিক ও পরম এককের মধ্যে সম্পর্ক কোনটি?",
+      "options": [
+        "K = °C + 273",
+        "°C = K + 273",
+        "K = °C – 273",
+        "°F = °C + 273"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-074",
+      "question": "1 ক্যালরি = কত জুল?",
+      "options": [
+        "1 J",
+        "4.2 J",
+        "42 J",
+        "0.24 J"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-075",
+      "question": "1 kWh = কত জুল?",
+      "options": [
+        "36 × 10³ J",
+        "3.6 × 10⁵ J",
+        "3.6 × 10⁶ J",
+        "36 × 10⁶ J"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-076",
+      "question": "কোনো পরিমাপের নির্ভুলতা বলতে কী বোঝায়?",
+      "options": [
+        "পরিমাপের মান প্রকৃত মানের কাছাকাছি হওয়া",
+        "একই রকম অনেকগুলো মান পাওয়া",
+        "দৈর্ঘ্যের পরিমাপ",
+        "ক্ষুদ্রতম পরিমাপযোগ্য মান"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-077",
+      "question": "কোনো পরিমাপের সুক্ষ্মতা (Precision) বলতে কী বোঝায়?",
+      "options": [
+        "প্রকৃত মানের কাছাকাছি হওয়া",
+        "একাধিক পরিমাপে একই মান আসা",
+        "পরিমাপে ত্রুটি থাকা",
+        "কম গণনা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-078",
+      "question": "লিটার কোন রাশির একক?",
+      "options": [
+        "ভর",
+        "দৈর্ঘ্য",
+        "আয়তন",
+        "ঘনত্ব"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-079",
+      "question": "1 মিলি সেকেন্ড = কত সেকেন্ড?",
+      "options": [
+        "10⁻² s",
+        "10⁻³ s",
+        "10⁻⁶ s",
+        "10³ s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-080",
+      "question": "20°C তাপমাত্রা কেলভিন এককে কত?",
+      "options": [
+        "293 K",
+        "253 K",
+        "20 K",
+        "-253 K"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-081",
+      "question": "300 K তাপমাত্রা সেলসিয়াসে কত?",
+      "options": [
+        "573°C",
+        "27°C",
+        "-27°C",
+        "300°C"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-082",
+      "question": "5 kg = কত গ্রাম?",
+      "options": [
+        "50 g",
+        "500 g",
+        "5000 g",
+        "5 ग्राम"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-083",
+      "question": "2500 mL = কত লিটার?",
+      "options": [
+        "0.25 L",
+        "2.5 L",
+        "25 L",
+        "250 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-084",
+      "question": "1.5 মিনিট = কত সেকেন্ড?",
+      "options": [
+        "15 s",
+        "90 s",
+        "150 s",
+        "60.5 s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-085",
+      "question": "একটি খাতার দৈর্ঘ্য 20 cm, মিটার এককে মান কত?",
+      "options": [
+        "2 m",
+        "0.02 m",
+        "0.2 m",
+        "200 m"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-086",
+      "question": "থার্মোমিটারে কোন তাপমাত্রা সূচক তরল ব্যবহৃত হয়?",
+      "options": [
+        "জল",
+        "অ্যালকোহল বা পারদ",
+        "তেল",
+        "গ্লিসারিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-087",
+      "question": "স্টপওয়াচ দিয়ে কী পরিমাপ করা হয়?",
+      "options": [
+        "দূরত্ব",
+        "সময়ের ব্যবধান",
+        "ওজন",
+        "আয়তন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-088",
+      "question": "ঘনত্বের CGS একক কোনটি?",
+      "options": [
+        "kg/m³",
+        "g/cm³",
+        "g/m³",
+        "kg/cm³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-089",
+      "question": "1 g/cm³ = কত kg/m³?",
+      "options": [
+        "10 kg/m³",
+        "100 kg/m³",
+        "1000 kg/m³",
+        "10,000 kg/m³"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-090",
+      "question": "জলবাহিত ব্যারোমিটার আবিষ্কার করেন কে?",
+      "options": [
+        "টরিসেলি",
+        "গ্যালিলিও",
+        "নিউটন",
+        "পাস্কাল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-091",
+      "question": "একটি বস্তুর ভর 20 g ও আয়তন 10 cm³, ঘনত্ব কত?",
+      "options": [
+        "200 g/cm³",
+        "2 g/cm³",
+        "0.5 g/cm³",
+        "30 g/cm³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-092",
+      "question": "SI পদ্ধতিতে বলের একক নিউটন; CGS পদ্ধতিতে বলের একক কী?",
+      "options": [
+        "জুল",
+        "আর্গ",
+        "ডাইন",
+        "ওয়াট"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-093",
+      "question": "একটি গাড়ি 180 km বেগে চললে, এর মান m/s এককে কত?",
+      "options": [
+        "10 m/s",
+        "20 m/s",
+        "50 m/s",
+        "100 m/s"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-094",
+      "question": "500 g ভরকে কিলোগ্রামে প্রকাশ করলে মান কত?",
+      "options": [
+        "5 kg",
+        "0.5 kg",
+        "50 kg",
+        "05 kg"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-095",
+      "question": "নিচের কোনটি ভৌত রাশি নয়?",
+      "options": [
+        "দৈর্ঘ্য",
+        "ভর",
+        "সৌন্দর্য",
+        "সময়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-096",
+      "question": "একটি বর্গাকার ক্ষেত্রের বাহুর দৈর্ঘ্য 2 m, ক্ষেত্রফল কত?",
+      "options": [
+        "2 m²",
+        "4 m²",
+        "8 m²",
+        "16 m²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-097",
+      "question": "একটি ঘনকের ধার 3 cm, আয়তন কত?",
+      "options": [
+        "9 cm³",
+        "27 cm³",
+        "3 cm³",
+        "81 cm³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-098",
+      "question": "কোণ পরিমাপের একক কী?",
+      "options": [
+        "মিটার",
+        "গ্রাম",
+        "রেডিয়ান",
+        "নিউটন"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-099",
+      "question": "পারদ থার্মোমিটারের স্বাভাবিক পরিসর কত?",
+      "options": [
+        "0°C – 100°C",
+        "-10°C – 110°C",
+        "-39°C – 357°C",
+        "32°F – 212°F"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-100",
+      "question": "দুটি পরিমাপের গড় নির্ণয় করলে কোন ধরনের ত্রুটি কমানো যায়?",
+      "options": [
+        "নিয়মিত ত্রুটি",
+        "অনিয়মিত ত্রুটি",
+        "যান্ত্রিক ত্রুটি",
+        "শূন্য ত্রুটি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-101",
+      "question": "সঠিক তাপমাত্রায় 1 লিটার বিশুদ্ধ জলের ভর প্রায়—",
+      "options": [
+        "100 g",
+        "500 g",
+        "1 kg",
+        "10 kg"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-102",
+      "question": "ভেক্টর রাশির কয়টি বৈশিষ্ট্য থাকে?",
+      "options": [
+        "1",
+        "2 (মান ও দিক)",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-103",
+      "question": "1 MPa = কত Pa?",
+      "options": [
+        "10³ Pa",
+        "10⁶ Pa",
+        "10⁹ Pa",
+        "10⁻⁶ Pa"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-104",
+      "question": "পেট্রোল পাম্পে তরল পদার্থের পরিমাপে কোন এককটি ব্যবহৃত হয়?",
+      "options": [
+        "কিলোগ্রাম",
+        "নিউটন",
+        "লিটার",
+        "মিটার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-105",
+      "question": "ডাক্তারি থার্মোমিটারের পরিসর কত?",
+      "options": [
+        "0°C – 100°C",
+        "35°C – 42°C",
+        "-10°C – 110°C",
+        "20°F – 120°F"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-106",
+      "question": "একটি বস্তুর ওজন 10 N, ভর কত? (g=10 m/s²)",
+      "options": [
+        "1 kg",
+        "10 kg",
+        "100 kg",
+        "0.1 kg"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-107",
+      "question": "10 m/s বেগে চলমান 2 kg ভরের বস্তুর ভরবেগ কত?",
+      "options": [
+        "5 kg·m/s",
+        "20 kg·m/s",
+        "12 kg·m/s",
+        "8 kg·m/s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-108",
+      "question": "উষ্ণতা মাপক যন্ত্রের নাম কী?",
+      "options": [
+        "থার্মোমিটার",
+        "ব্যারোমিটার",
+        "হাইগ্রোমিটার",
+        "অ্যামিটার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-109",
+      "question": "ভৌত রাশির পরিমাপ বলতে বোঝায়—",
+      "options": [
+        "শুধুমাত্র রাশিটির নাম বলা",
+        "রাশিটির প্রকৃতি ব্যাখ্যা",
+        "রাশিটির মান ও একক নির্ণয়",
+        "রাশিটির প্রতীক লেখা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-110",
+      "question": "100°C = কত ফারেনহাইট?",
+      "options": [
+        "100°F",
+        "180°F",
+        "212°F",
+        "32°F"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-111",
+      "question": "32°F = কত সেলসিয়াস?",
+      "options": [
+        "0°C",
+        "32°C",
+        "100°C",
+        "-32°C"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-112",
+      "question": "1 Å = কত ন্যানোমিটার?",
+      "options": [
+        "10 nm",
+        "0.1 nm",
+        "1 nm",
+        "0.01 nm"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-113",
+      "question": "1.0 × 10⁻² cm কে মিটারে প্রকাশ করলে মান হবে—",
+      "options": [
+        "10⁻⁴ m",
+        "10⁻² m",
+        "1 m",
+        "10⁴ m"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-114",
+      "question": "ক্লিনিক্যাল থার্মোমিটার সাধারণত কী দিয়ে তৈরি?",
+      "options": [
+        "অ্যালকোহল",
+        "পারদ",
+        "জল",
+        "গ্লিসারিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-115",
+      "question": "0°C তাপমাত্রায় কেলভিন স্কেলে মান কত?",
+      "options": [
+        "0 K",
+        "100 K",
+        "273 K",
+        "-273 K"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-116",
+      "question": "-273°C কে কী বলা হয়?",
+      "options": [
+        "স্ফুটনাঙ্ক",
+        "হিমাঙ্ক",
+        "পরম শূন্য তাপমাত্রা",
+        "গলনাঙ্ক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-117",
+      "question": "ক্যান্ডেলা (cd) কীসের একক?",
+      "options": [
+        "তাপমাত্রা",
+        "দীপন তীব্রতা",
+        "তড়িৎ প্রবাহ",
+        "দীপন ফ্লাক্স"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-118",
+      "question": "একটি গাড়ির বেগ 54 km/h থেকে বেড়ে 72 km/h হল 5 সেকেন্ডে। ত্বরণ কত?",
+      "options": [
+        "1 m/s²",
+        "3.6 m/s²",
+        "18 m/s²",
+        "5 m/s²"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-119",
+      "question": "আপেক্ষিক গুরুত্ব (Specific gravity) এর একক কী?",
+      "options": [
+        "kg/m³",
+        "g/cm³",
+        "নিউটন",
+        "কোনো একক নেই"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-120",
+      "question": "তাপ ইঞ্জিনে কার্যকর পদার্থ হিসেবে কীসের ভর পরিমাপ করা জরুরি?",
+      "options": [
+        "জ্বালানি",
+        "বায়ু",
+        "বাষ্প",
+        "সবকটি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-121",
+      "question": "1 মিলিগ্রাম = কত কিলোগ্রাম?",
+      "options": [
+        "10⁻³ kg",
+        "10⁻⁶ kg",
+        "10³ kg",
+        "0.001 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-11-122",
+      "question": "2 L পানির ভর কত? (ρ_water = 1 g/mL)",
+      "options": [
+        "2 g",
+        "20 g",
+        "200 g",
+        "2000 g = 2 kg"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-123",
+      "question": "পরম শূন্য তাপমাত্রায় পদার্থের অণুগুলির গতি—",
+      "options": [
+        "সর্বোচ্চ",
+        "মাঝারি",
+        "সর্বনিম্ন বা শূন্য",
+        "অপরিবর্তিত"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-124",
+      "question": "নিচের কোন রাশিটি স্কেলার নয়?",
+      "options": [
+        "কার্য",
+        "শক্তি",
+        "ক্ষমতা",
+        "ত্বরণ"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-125",
+      "question": "সরণ কাকে বলে?",
+      "options": [
+        "সর্বমোট দূরত্ব",
+        "নির্দিষ্ট দিকে অবস্থানের পরিবর্তন",
+        "সময়",
+        "বেগ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-126",
+      "question": "কোনো পরিমাপক যন্ত্রের ক্ষুদ্রতম যে পরিমাপ নেওয়া যায় তাকে কী বলে?",
+      "options": [
+        "শূন্য ত্রুটি",
+        "যান্ত্রিক ত্রুটি",
+        "সর্বনিম্ন ধ্রুবক",
+        "আপেক্ষিক ত্রুটি"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-127",
+      "question": "1 কুইন্টাল = কত কিলোগ্রাম?",
+      "options": [
+        "10 kg",
+        "100 kg",
+        "1000 kg",
+        "1 kg"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-128",
+      "question": "তড়িৎ বাতির ক্ষমতা লেখা থাকে কোন এককে?",
+      "options": [
+        "ভোল্ট",
+        "জুল",
+        "ওয়াট",
+        "অ্যাম্পিয়ার"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-129",
+      "question": "স্বর্ণকারেরা সোনার পরিমাণ নির্ণয় করে কীসের মাধ্যমে?",
+      "options": [
+        "নিক্তি",
+        "স্প্রিং তুলা",
+        "স্ক্রু গেজ",
+        "জলের প্লবতা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-130",
+      "question": "1 দিন = কত সেকেন্ড?",
+      "options": [
+        "3600 s",
+        "86400 s",
+        "1440 s",
+        "7200 s"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-11-131",
+      "question": "নিচের কোনটির সাহায্যে বিশুদ্ধ জল ও নোনা জলের পার্থক্য করা যায়?",
+      "options": [
+        "থার্মোমিটার",
+        "হাইড্রোমিটার",
+        "ব্যারোমিটার",
+        "স্টপওয়াচ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-132",
+      "question": "গতি নির্ণয়কারী যন্ত্র কোনটি?",
+      "options": [
+        "স্পিডোমিটার",
+        "ওডোমিটার",
+        "ম্যানোমিটার",
+        "থার্মোমিটার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-133",
+      "question": "পারমাণবিক নিউক্লিয়াসের ব্যাসার্ধ মাপা হয় কোন এককে?",
+      "options": [
+        "Å",
+        "nm",
+        "μm",
+        "ফার্মি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-134",
+      "question": "ভৌত রাশির মাত্রা নির্ণয়ের জন্য প্রয়োজনীয় রাশিকে কী বলে?",
+      "options": [
+        "লব্ধ রাশি",
+        "মৌলিক রাশি",
+        "স্কেলার রাশি",
+        "ভেক্টর রাশি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-135",
+      "question": "1 টন = কত কুইন্টাল?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-136",
+      "question": "একটি আলোকরশ্মি 1 বছরে যে দূরত্ব অতিক্রম করে, তা হল—",
+      "options": [
+        "ন্যানোমিটার",
+        "অ্যাংস্ট্রম",
+        "আলোকবর্ষ",
+        "জ্যোতির্বৈজ্ঞানিক একক"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-137",
+      "question": "1 m³ আয়তনের মধ্যে কত লিটার জল ধরে?",
+      "options": [
+        "1 L",
+        "10 L",
+        "100 L",
+        "1000 L"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-138",
+      "question": "কোনো বস্তুর ভর m এবং ওজন w, তবে g-এর সূত্র কী?",
+      "options": [
+        "w × m",
+        "m / w",
+        "w / m",
+        "w + m"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-139",
+      "question": "বায়ুমণ্ডলীয় চাপ মাপার যন্ত্র কোনটি?",
+      "options": [
+        "ব্যারোমিটার",
+        "ম্যানোমিটার",
+        "হাইড্রোমিটার",
+        "স্পিডোমিটার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-140",
+      "question": "1 ms (মিলিসেকেন্ড) = কত μs (মাইক্রোসেকেন্ড)?",
+      "options": [
+        "10 μs",
+        "100 μs",
+        "1000 μs",
+        "0.1 μs"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-141",
+      "question": "নিচের কোনগুলো মৌলিক রাশি? (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্য",
+        "ক্ষেত্রফল",
+        "ভর",
+        "সময়"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-11-142",
+      "question": "নিচের কোনগুলো লব্ধ রাশি? (বহু-সঠিক)",
+      "options": [
+        "ঘনত্ব",
+        "দৈর্ঘ্য",
+        "ত্বরণ",
+        "বল"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-143",
+      "question": "SI পদ্ধতিতে নিচের কোনটি সঠিক? (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্যের একক মিটার",
+        "ভরের একক গ্রাম",
+        "সময়ের একক সেকেন্ড",
+        "তাপমাত্রার একক কেলভিন"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-144",
+      "question": "নিচের কোনগুলো স্কেলার রাশি? (বহু-সঠিক)",
+      "options": [
+        "দ্রুতি",
+        "ভর",
+        "সরণ",
+        "শক্তি"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-145",
+      "question": "নিচের কোন রাশিগুলো ভেক্টর? (বহু-সঠিক)",
+      "options": [
+        "ওজন",
+        "ত্বরণ",
+        "বেগ",
+        "তাপমাত্রা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-146",
+      "question": "CGS পদ্ধতির একক চিহ্নিত করো: (বহু-সঠিক)",
+      "options": [
+        "সেন্টিমিটার",
+        "কিলোগ্রাম",
+        "গ্রাম",
+        "সেকেন্ড"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-147",
+      "question": "নিচের কোন উপসর্গের মান সঠিক? (বহু-সঠিক)",
+      "options": [
+        "কিলো = 10³",
+        "সেন্টি = 10⁻²",
+        "মিলি = 10⁻³",
+        "মাইক্রো = 10⁻⁶"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-148",
+      "question": "ভর পরিমাপক যন্ত্রগুলো কী কী? (বহু-সঠিক)",
+      "options": [
+        "সাধারণ নিক্তি",
+        "স্প্রিং নিক্তি",
+        "থার্মোমিটার",
+        "ইলেকট্রনিক ব্যালেন্স"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-149",
+      "question": "দৈর্ঘ্য পরিমাপক যন্ত্রের উদাহরণ দাও: (বহু-সঠিক)",
+      "options": [
+        "মিটার স্কেল",
+        "ভার্নিয়ার ক্যালিপার্স",
+        "স্ক্রু গেজ",
+        "স্টপওয়াচ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-150",
+      "question": "ওহম (Ω) কোন রাশির একক হতে পারে? (বহু-সঠিক)",
+      "options": [
+        "রোধ",
+        "ইম্পিডেন্স",
+        "রিঅ্যাক্টেন্স",
+        "তড়িৎ প্রবাহ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-151",
+      "question": "সঠিক রূপান্তরগুলো চিহ্নিত করো: (বহু-সঠিক)",
+      "options": [
+        "1 m = 100 cm",
+        "1 kg = 1000 g",
+        "1 L = 1000 mL",
+        "1 h = 3600 s"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-11-152",
+      "question": "নিচের কোনটি নির্ভুলতা (Accuracy) নির্দেশ করে? (বহু-সঠিক)",
+      "options": [
+        "প্রকৃত মানের সঙ্গে মিল",
+        "পরিমাপের পুনরাবৃত্তি",
+        "সঠিক যন্ত্র ব্যবহার",
+        "আপেক্ষিক ত্রুটি কম হওয়া"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-153",
+      "question": "ভৌত রাশির মাত্রা নির্ণয়ে মৌলিক রাশি হিসেবে ধরা হয়— (বহু-সঠিক)",
+      "options": [
+        "M (ভর)",
+        "L (দৈর্ঘ্য)",
+        "T (সময়)",
+        "Q (আধান)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-154",
+      "question": "নিচের কোন সম্পর্ক সঠিক? (বহু-সঠিক)",
+      "options": [
+        "1 N = 10⁵ dyne",
+        "1 J = 10⁷ erg",
+        "1 cal = 4.2 J",
+        "1 kWh = 3600 J"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-155",
+      "question": "ফারেনহাইট ও সেলসিয়াসের সম্পর্কে সঠিক কী? (বহু-সঠিক)",
+      "options": [
+        "F = (9/5)C + 32",
+        "C = (5/9)(F - 32)",
+        "100°C = 212°F",
+        "0°C = -32°F"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-156",
+      "question": "বৈজ্ঞানিক পরিমাপের বৈশিষ্ট্য কী? (বহু-সঠিক)",
+      "options": [
+        "নির্ভুলতা",
+        "পুনরুৎপাদনযোগ্যতা",
+        "যথেচ্ছাচারিতা",
+        "নিরপেক্ষতা"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-157",
+      "question": "দৈর্ঘ্যের বিভিন্ন এককের মধ্যে সম্পর্ক কোনটা ঠিক? (বহু-সঠিক)",
+      "options": [
+        "1 km = 10³ m",
+        "1 cm = 10⁻² m",
+        "1 mm = 10⁻³ m",
+        "1 nm = 10⁻⁹ m"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-158",
+      "question": "কোনো পরিমাপের নির্ভুলতা ও সূক্ষ্মতা সম্পর্কে সঠিক তথ্য কী? (বহু-সঠিক)",
+      "options": [
+        "নির্ভুলতা প্রকৃত মানের সঙ্গে সম্পর্কিত",
+        "সূক্ষ্মতা একই পরিমাপ পুনরায় করার ক্ষমতা",
+        "সূক্ষ্ম হলেই নির্ভুল হবে এমন নয়",
+        "নির্ভুল পরিমাপ অবশ্যই সূক্ষ্ম হবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-159",
+      "question": "72 km/h -কে বিভিন্ন এককে প্রকাশ করলে পাওয়া যায়— (বহু-সঠিক)",
+      "options": [
+        "20 m/s",
+        "72000 m/h",
+        "7.2 × 10⁴ m/h",
+        "1296 m/min"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-160",
+      "question": "নিচের কোন ভৌত রাশিটি স্কেলার? (বহু-সঠিক)",
+      "options": [
+        "কার্য",
+        "ত্বরণ",
+        "ঘনত্ব",
+        "ক্ষমতা"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-161",
+      "question": "1 atm চাপ সমান— (বহু-সঠিক)",
+      "options": [
+        "760 mm Hg",
+        "101325 Pa",
+        "1.01325 bar",
+        "10⁵ Dyne/cm² (প্রায়)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-162",
+      "question": "সময়ের বিভিন্ন এককের সম্পর্ক কোনগুলো সঠিক? (বহু-সঠিক)",
+      "options": [
+        "1 min = 60 s",
+        "1 h = 3600 s",
+        "1 day = 86400 s",
+        "1 ms = 10³ s"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-11-163",
+      "question": "দৈর্ঘ্য পরিমাপে স্ক্রু গেজ ব্যবহার করা হয় কেন? (বহু-সঠিক)",
+      "options": [
+        "খুব ছোট দৈর্ঘ্যের সূক্ষ্ম পরিমাপে",
+        "এটির LC খুব কম",
+        "এটি ওজন মাপে",
+        "এটি আয়তন মাপে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-164",
+      "question": "পরম একক (Absolute units) সম্পর্কে সঠিক কোনটি? (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্য, ভর, সময়ের উপর ভিত্তি করে",
+        "SI পদ্ধতি একটি পরম পদ্ধতি",
+        "CGS পদ্ধতি একটি পরম পদ্ধতি",
+        "ফুট-পাউন্ড-সেকেন্ড পরম পদ্ধতি"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-165",
+      "question": "পরিমাপের ত্রুটির কারণ কী হতে পারে? (বহু-সঠিক)",
+      "options": [
+        "যন্ত্রের ত্রুটি",
+        "পরিমাপকারীর ভুল",
+        "পরিবেশের প্রভাব",
+        "বস্তুর প্রকৃতি পরিবর্তন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-166",
+      "question": "কোনো রাশির মাত্রা সূত্রে নিচের কোন প্রতীক ব্যবহার হয়? (বহু-সঠিক)",
+      "options": [
+        "[M]",
+        "[L]",
+        "[T]",
+        "[Ω]"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-167",
+      "question": "নিচের কোনটির একক জুল নয়? (বহু-সঠিক)",
+      "options": [
+        "কার্য",
+        "ক্ষমতা",
+        "তাপ",
+        "শক্তি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-11-168",
+      "question": "ভরের একক হিসেবে কিলোগ্রামের সংজ্ঞায় বলা হয়েছে— (বহু-সঠিক)",
+      "options": [
+        "1 লিটার জলের ভর 4°C তাপমাত্রায়",
+        "আন্তর্জাতিক প্রোটোটাইপ কিলোগ্রাম",
+        "প্লাটিনাম-ইরিডিয়ামের তৈরি",
+        "ফ্রান্সের স্যাভ্রেতে সংরক্ষিত"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-169",
+      "question": "কোনো রাশির মান সম্পূর্ণরূপে প্রকাশ করতে প্রয়োজন— (বহু-সঠিক)",
+      "options": [
+        "সংখ্যা",
+        "একক",
+        "দিক (ভেক্টর হলে)",
+        "রং"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-170",
+      "question": "দূরত্ব নির্ণয়ে আলোকবর্ষ ও পারসেক ব্যবহৃত হয়— (বহু-সঠিক)",
+      "options": [
+        "মহাজাগতিক দূরত্বে",
+        "ক্ষুদ্র দৈর্ঘ্যে",
+        "নক্ষত্রের দূরত্বে",
+        "আণবিক মাপে"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-171",
+      "question": "পারদের স্ফুটনাঙ্ক 357°C, এই তাপমাত্রাকে বোঝায়— (বহু-সঠিক)",
+      "options": [
+        "630 K",
+        "পারদ থার্মোমিটারের ঊর্ধ্বসীমা",
+        "-357°C",
+        "357°F"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-172",
+      "question": "বৈজ্ঞানিক কর্মকাণ্ডে SI এককের প্রয়োজনীয়তা কী? (বহু-সঠিক)",
+      "options": [
+        "সর্বজনীনতা",
+        "সহজ রূপান্তর",
+        "বিভ্রান্তি এড়ানো",
+        "কেবল একটি দেশে ব্যবহার"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-173",
+      "question": "একটি ভৌত রাশি স্কেলার হবে যদি— (বহু-সঠিক)",
+      "options": [
+        "এর মান থাকে কিন্তু নির্দিষ্ট দিক থাকে না",
+        "বীজগণিতের সাধারণ নিয়মে যোগ করা যায়",
+        "মান ও দিক উভয়ই থাকে",
+        "কেবল ধনাত্মক হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-174",
+      "question": "বল একটি ভেক্টর রাশি, কারণ— (বহু-সঠিক)",
+      "options": [
+        "এর মান আছে",
+        "এর নির্দিষ্ট দিক আছে",
+        "ভেক্টর বীজগণিতের নিয়মে যোগ্য",
+        "এর কোনো একক নেই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-175",
+      "question": "পরিমাপক শঙ্কু (Measuring cylinder) ব্যবহার করা হয়— (বহু-সঠিক)",
+      "options": [
+        "তরলের আয়তন নির্ণয়ে",
+        "কঠিনের ভর নির্ণয়ে",
+        "গ্যাসের চাপ নির্ণয়ে",
+        "তরলের ঘনত্ব পরোক্ষভাবে নির্ণয়ে"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-176",
+      "question": "কোনো এককের গুণিতক বা উপগুণিতক নির্দেশে ব্যবহৃত হয়— (বহু-সঠিক)",
+      "options": [
+        "প্রিফিক্স",
+        "10 এর ঘাত",
+        "কিলো, মিলি ইত্যাদি",
+        "শুধুমাত্র বর্গমূল"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-177",
+      "question": "একটি নিখুঁত ঘড়ির গতি নির্ভর করে— (বহু-সঠিক)",
+      "options": [
+        "কম্পাঙ্কের স্থিরতার ওপর",
+        "দোলকের দৈর্ঘ্যের ওপর (পেন্ডুলাম ঘড়ি)",
+        "ক্রিস্টাল দোলনের ওপর (কোয়ার্টজ)",
+        "আবহাওয়ার আর্দ্রতার ওপর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-178",
+      "question": "100 cm³ আয়তনের একটি বস্তুর ভর 200 g হলে— (বহু-সঠিক)",
+      "options": [
+        "ঘনত্ব 2 g/cm³",
+        "আপেক্ষিক গুরুত্ব 2",
+        "SI এককে ঘনত্ব 2000 kg/m³",
+        "এটি জলে ডুবে যাবে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-179",
+      "question": "কোনো পরিমাপের উল্লেখযোগ্য অঙ্ক (Significant figures) বলতে বোঝায়— (বহু-সঠিক)",
+      "options": [
+        "নির্ভরযোগ্য অঙ্ক + শেষ অনিশ্চিত অঙ্ক",
+        "পরিমাপের সূক্ষ্মতা",
+        "শূন্য সবসময় অঙ্ক হয় না",
+        "দশমিকের আগের সব অঙ্ক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-180",
+      "question": "নিচের কোনগুলি বেগের একক? (বহু-সঠিক)",
+      "options": [
+        "m/s",
+        "km/h",
+        "cm/s",
+        "m·s"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-181",
+      "question": "1 ফ্যারাড = কত? (ধারকত্বের একক)",
+      "options": [
+        "কুলম্ব/ভোল্ট",
+        "(অ্যাম্পিয়ার·সেকেন্ড)/ভোল্ট",
+        "জুল/ভোল্ট²",
+        "ওহম/সেকেন্ড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-182",
+      "question": "ভর ও ওজনের মধ্যে পার্থক্য কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "ভর স্কেলার, ওজন ভেক্টর",
+        "ভর স্থির, ওজন g এর উপর নির্ভরশীল",
+        "ভরের একক kg, ওজনের N",
+        "নিক্তি দিয়ে ভর, স্প্রিং তুলায় ওজন মাপা হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-183",
+      "question": "স্বর্ণের বিশুদ্ধতা যাচাই করা হয় ক্যারাট এককে; এটি আসলে—",
+      "options": [
+        "শতকরা হার",
+        "24 ক্যারাট মানে 99.9% খাঁটি",
+        "একটি মিশ্র একক",
+        "ওজনের একক"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-184",
+      "question": "চাপের বিভিন্ন একক নিচের কোনগুলো? (বহু-সঠিক)",
+      "options": [
+        "পাস্কাল",
+        "বার",
+        "টর",
+        "অ্যাটমস্ফিয়ার"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-185",
+      "question": "বৈদ্যুতিক ক্ষমতার একক কোনটি/গুলো? (বহু-সঠিক)",
+      "options": [
+        "ওয়াট",
+        "জুল/সেকেন্ড",
+        "ভোল্ট·অ্যাম্পিয়ার",
+        "অশ্বক্ষমতা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-186",
+      "question": "থার্মোমিটারে তরল হিসেবে পারদ ব্যবহারের কারণ কী? (বহু-সঠিক)",
+      "options": [
+        "সহজে প্রসারিত হয়",
+        "কাচকে ভেজায় না",
+        "অস্বচ্ছ",
+        "সুনির্দিষ্ট হিমাঙ্ক ও স্ফুটনাঙ্ক"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-187",
+      "question": "আপেক্ষিক ত্রুটি নির্ণয়ে প্রয়োজন— (বহু-সঠিক)",
+      "options": [
+        "গড় ত্রুটি",
+        "প্রকৃত মান",
+        "পরিমাণগত পার্থক্য",
+        "শূন্য ত্রুটি"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-188",
+      "question": "1 ইঞ্চি = কত সেন্টিমিটার? (প্রায়)",
+      "options": [
+        "2.54 cm",
+        "0.0254 m",
+        "25.4 mm",
+        "0.254 m"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-189",
+      "question": "আপেক্ষিক রোধ বা রোধাঙ্কের একক— (বহু-সঠিক)",
+      "options": [
+        "ওহম-মিটার",
+        "ওহম-সেন্টিমিটার",
+        "Ω·m",
+        "সিমেন্স"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-190",
+      "question": "পৃথিবী থেকে সূর্যের গড় দূরত্ব প্রকাশ করা হয়— (বহু-সঠিক)",
+      "options": [
+        "1 AU",
+        "1.496 × 10¹¹ m",
+        "1.496 × 10⁸ km",
+        "1 আলোকবর্ষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-191",
+      "question": "ঘনত্বের একক kg/m³, g/cm³ ছাড়াও প্রকাশ করা যায়— (বহু-সঠিক)",
+      "options": [
+        "g/mL",
+        "kg/L",
+        "N/m³",
+        "Pa"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-192",
+      "question": "1 ms = 10⁻³ s, 1 μs = 10⁻⁶ s, 1 ns = 10⁻⁹ s; এগুলোর মধ্যে সম্পর্ক—",
+      "options": [
+        "1 ms = 1000 μs",
+        "1 μs = 1000 ns",
+        "1 s = 10⁹ ns",
+        "1 ms = 10⁻³ s"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-193",
+      "question": "পরিমাপের জন্য ভার্নিয়ার ক্যালিপার্স ও স্ক্রু গেজ-এর সাধারণ ব্যবহার— (বহু-সঠিক)",
+      "options": [
+        "তারের ব্যাস মাপতে",
+        "পাতের পুরুত্ব মাপতে",
+        "চোঙের অন্তঃব্যাস মাপতে",
+        "তরলের আয়তন মাপতে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-194",
+      "question": "ভৌতবিজ্ঞানের পরিমাপে ত্রুটি বিশ্লেষণ জরুরি, কারণ— (বহু-সঠিক)",
+      "options": [
+        "এটি পরিমাপের সীমাবদ্ধতা নির্দেশ করে",
+        "উন্নততর পরীক্ষার নকশা করতে সাহায্য করে",
+        "প্রকৃত মান সম্পর্কে ধারণা দেয়",
+        "ত্রুটিপূর্ণ যন্ত্র শনাক্ত করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-195",
+      "question": "সঠিক বিবৃতিটি/গুলো চিহ্নিত করো: (বহু-সঠিক)",
+      "options": [
+        "মৌলিক রাশি থেকে লব্ধ রাশি গঠিত হয়",
+        "লব্ধ রাশির একক মৌলিক এককের সাহায্যে প্রকাশ করা যায়",
+        "বেগ একটি লব্ধ রাশি",
+        "ক্যান্ডেলা একটি লব্ধ একক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-196",
+      "question": "1 mm² = কত m²? (বহু-সঠিক সম্পর্ক)",
+      "options": [
+        "10⁻⁶ m²",
+        "0.000001 m²",
+        "10⁻⁴ m²",
+        "(10⁻³ m)²"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-11-197",
+      "question": "পরম শূন্য তাপমাত্রা— (বহু-সঠিক)",
+      "options": [
+        "-273.15°C",
+        "0 K",
+        "সমস্ত আণবিক গতি থামার তাপমাত্রা",
+        "32°F"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-198",
+      "question": "কোনো বস্তুকে চিহ্নিত করতে যে সকল পরিমাপ জরুরি— (বহু-সঠিক)",
+      "options": [
+        "দৈর্ঘ্য",
+        "ভর",
+        "সময়",
+        "তাপমাত্রা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-11-199",
+      "question": "1 mL এর সম্পর্কে সঠিক কী? (বহু-সঠিক)",
+      "options": [
+        "1 cm³",
+        "10⁻³ L",
+        "1 cc",
+        "10³ L"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-11-200",
+      "question": "পরিমাপ ছাড়া বিজ্ঞান অচল, কারণ— (বহু-সঠিক)",
+      "options": [
+        "এটি তথ্য সংগ্রহ করে",
+        "ভবিষ্যদ্বাণী করতে সাহায্য করে",
+        "গবেষণাকে নির্ভরযোগ্য করে",
+        "কেবল ধারণার ওপর নির্ভর করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "11-measurements",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

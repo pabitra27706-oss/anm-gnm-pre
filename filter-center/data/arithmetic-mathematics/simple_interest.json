@@ -1,0 +1,4866 @@
+{
+  "subject": "math",
+  "unit": "12-simple-interest",
+  "unit_code": "12",
+  "total": 280,
+  "questions": [
+    {
+      "id": "m-12-001",
+      "question": "সরল সুদ (Simple Interest) এর সংজ্ঞা কী?",
+      "options": [
+        "আসলের উপর নির্দিষ্ট সময়ে নির্দিষ্ট হারে যে সুদ গণনা করা হয়",
+        "সুদের উপর সুদ গণনা করা হয়",
+        "সময়ের সাথে সুদের হার বাড়ে",
+        "মূলধনকে গুণ করে পাওয়া যায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-002",
+      "question": "Simple Interest এর সূত্র কোনটি?",
+      "options": [
+        "(P × R × T) / 100",
+        "(P + R + T) / 100",
+        "P × R × T × 100",
+        "(P × R) / (100 × T)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-003",
+      "question": "সরল সুদের ক্ষেত্রে P কী বোঝায়?",
+      "options": [
+        "সুদের হার",
+        "সময়",
+        "মূলধন (Principal)",
+        "মোট টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-004",
+      "question": "সরল সুদের সূত্রে R কী নির্দেশ করে?",
+      "options": [
+        "সময়",
+        "মূলধন",
+        "সুদের হার (% বার্ষিক)",
+        "মোট টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-005",
+      "question": "1000 টাকার 1 বছরে 10% হারে সরল সুদ কত?",
+      "options": [
+        "50 টাকা",
+        "80 টাকা",
+        "100 টাকা",
+        "120 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-006",
+      "question": "500 টাকার 2 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "40 টাকা",
+        "45 টাকা",
+        "50 টাকা",
+        "55 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-007",
+      "question": "2000 টাকার 3 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "320 টাকা",
+        "340 টাকা",
+        "360 টাকা",
+        "380 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-008",
+      "question": "Amount (সর্বমোট টাকা) বলতে কী বোঝায়?",
+      "options": [
+        "শুধুমাত্র মূলধন",
+        "শুধুমাত্র সুদ",
+        "মূলধন + সরল সুদ",
+        "মূলধন - সরল সুদ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-009",
+      "question": "সরল সুদের সূত্র থেকে সুদের হার নির্ণয়ের সূত্র কী?",
+      "options": [
+        "(SI × 100) / (P × T)",
+        "(P × T) / (SI × 100)",
+        "(SI × T) / (P × 100)",
+        "(SI × P) / (100 × T)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-010",
+      "question": "800 টাকার 2 বছরে সরল সুদ 128 টাকা হলে, সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-011",
+      "question": "1500 টাকার 3 বছরে সরল সুদ 270 টাকা হলে, সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "7%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-012",
+      "question": "সরল সুদের সূত্রে সময় (T) নির্ণয়ের সূত্র কী?",
+      "options": [
+        "(P × R) / (SI × 100)",
+        "(SI × 100) / (P × R)",
+        "(SI × P) / (100 × R)",
+        "(100 × R) / (SI × P)"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-013",
+      "question": "1200 টাকার 8% হারে সরল সুদ 192 টাকা হলে, সময় কত বছর?",
+      "options": [
+        "1 বছর",
+        "2 বছর",
+        "3 বছর",
+        "4 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-014",
+      "question": "2500 টাকার 10% হারে সরল সুদ 500 টাকা হলে, সময় কত?",
+      "options": [
+        "1 বছর",
+        "1.5 বছর",
+        "2 বছর",
+        "2.5 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-015",
+      "question": "সরল সুদের ক্ষেত্রে মূলধন (P) নির্ণয়ের সূত্র কী?",
+      "options": [
+        "(SI × 100) / (R × T)",
+        "(SI × R × T) / 100",
+        "(100 × R × T) / SI",
+        "(SI × R) / (100 × T)"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-016",
+      "question": "5% হারে 2 বছরের সরল সুদ 50 টাকা হলে, মূলধন কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-017",
+      "question": "6% হারে 3 বছরের সরল সুদ 180 টাকা হলে, মূলধন কত?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-018",
+      "question": "6 মাসকে বছরে প্রকাশ করলে কত হবে?",
+      "options": [
+        "0.5 বছর",
+        "0.6 বছর",
+        "0.8 বছর",
+        "1 বছর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-019",
+      "question": "9 মাসকে বছরে লিখলে কত হবে?",
+      "options": [
+        "0.5 বছর",
+        "0.75 বছর",
+        "0.9 বছর",
+        "1 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-020",
+      "question": "4 মাস কত বছরের সমান?",
+      "options": [
+        "1/4 বছর",
+        "1/3 বছর",
+        "1/2 বছর",
+        "2/3 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-021",
+      "question": "73 দিনকে বছরে রূপান্তর করলে কত হবে?",
+      "options": [
+        "0.1 বছর",
+        "0.2 বছর",
+        "0.25 বছর",
+        "0.3 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-022",
+      "question": "146 দিন কত বছরের সমান?",
+      "options": [
+        "0.2 বছর",
+        "0.3 বছর",
+        "0.4 বছর",
+        "0.5 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-023",
+      "question": "1000 টাকার 6 মাসে 8% হারে সরল সুদ কত?",
+      "options": [
+        "30 টাকা",
+        "35 টাকা",
+        "40 টাকা",
+        "45 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-024",
+      "question": "2000 টাকার 3 মাসে 12% হারে সরল সুদ কত?",
+      "options": [
+        "50 টাকা",
+        "55 টাকা",
+        "60 টাকা",
+        "65 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-025",
+      "question": "5000 টাকার 2 বছরে 8% হারে সরল সুদ ও সর্বমোট টাকা কত?",
+      "options": [
+        "SI = 800, Amount = 5800",
+        "SI = 700, Amount = 5700",
+        "SI = 600, Amount = 5600",
+        "SI = 900, Amount = 5900"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-026",
+      "question": "15000 টাকার 3 বছরে 5% হারে Amount কত?",
+      "options": [
+        "16500 টাকা",
+        "17000 টাকা",
+        "17250 টাকা",
+        "17500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-027",
+      "question": "12000 টাকার 4 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "2680 টাকা",
+        "2780 টাকা",
+        "2880 টাকা",
+        "2980 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-028",
+      "question": "কোন সময়ে 8% হারে 5000 টাকার সরল সুদ 800 টাকা হবে?",
+      "options": [
+        "1 বছর",
+        "1.5 বছর",
+        "2 বছর",
+        "2.5 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-029",
+      "question": "10% হারে কত বছরে 4000 টাকার সরল সুদ 1000 টাকা হবে?",
+      "options": [
+        "2 বছর",
+        "2.5 বছর",
+        "3 বছর",
+        "3.5 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-030",
+      "question": "1000 টাকার 2 বছরের সরল সুদ 200 টাকা হলে, সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-031",
+      "question": "8000 টাকার 3 বছরের সরল সুদ 1440 টাকা হলে, সুদের হার কত?",
+      "options": [
+        "5%",
+        "6%",
+        "7%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-032",
+      "question": "কোনো আসল 2 বছরে 8% হারে সুদে-আসলে 11600 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-033",
+      "question": "কোনো আসল 3 বছরে 10% হারে সুদে-আসলে 13000 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-034",
+      "question": "কোনো আসল 5% হারে 3 বছরের সুদ 600 টাকা। আসল কত?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-035",
+      "question": "8% হারে 4 বছরের সরল সুদ 800 টাকা হলে, আসল কত?",
+      "options": [
+        "2000 টাকা",
+        "2200 টাকা",
+        "2400 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-036",
+      "question": "সরল সুদের ক্ষেত্রে Amount এবং Principal এর সম্পর্ক কোনটি?",
+      "options": [
+        "A = P - SI",
+        "A = P + SI",
+        "A = P × SI",
+        "A = P / SI"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-037",
+      "question": "500 টাকার 4 বছরে 5% হারে Amount কত?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-038",
+      "question": "600 টাকার 2 বছরে 6% হারে Amount কত?",
+      "options": [
+        "672 টাকা",
+        "682 টাকা",
+        "692 টাকা",
+        "702 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-039",
+      "question": "1200 টাকার 3 বছরে 4% হারে Amount কত?",
+      "options": [
+        "1244 টাকা",
+        "1300 টাকা",
+        "1344 টাকা",
+        "1400 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-040",
+      "question": "কত টাকার 8% হারে 2 বছরের সরল সুদ 160 টাকা হবে?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-041",
+      "question": "কত টাকার 5% হারে 3 বছরের সরল সুদ 300 টাকা হবে?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-042",
+      "question": "10% হারে কত টাকার 2 বছরের সরল সুদ 400 টাকা হবে?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-043",
+      "question": "3 বছরে 8% হারে সরল সুদ মূলধনের কত অংশ?",
+      "options": [
+        "0.20",
+        "0.24",
+        "0.28",
+        "0.32"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-044",
+      "question": "2 বছরে 6% হারে সরল সুদ মূলধনের কত শতাংশ?",
+      "options": [
+        "10%",
+        "12%",
+        "14%",
+        "16%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-045",
+      "question": "5% হারে কত বছরে সরল সুদ মূলধনের সমান হবে?",
+      "options": [
+        "10 বছর",
+        "15 বছর",
+        "20 বছর",
+        "25 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-046",
+      "question": "8% হারে কত বছরে সরল সুদ মূলধনের সমান হবে?",
+      "options": [
+        "10.5 বছর",
+        "12.5 বছর",
+        "12 বছর",
+        "18 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-047",
+      "question": "4% হারে কত বছরে কোনো আসল দ্বিগুণ হবে?",
+      "options": [
+        "20 বছর",
+        "25 বছর",
+        "30 বছর",
+        "35 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-048",
+      "question": "5% হারে কত বছরে কোনো আসল তিনগুণ হবে?",
+      "options": [
+        "30 বছর",
+        "35 বছর",
+        "40 বছর",
+        "45 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-049",
+      "question": "সরল সুদের ক্ষেত্রে, যদি P, R এবং T সমান হয় তবে সুদ কী হবে?",
+      "options": [
+        "সব ক্ষেত্রে সমান",
+        "P এর উপর নির্ভরশীল",
+        "R এর উপর নির্ভরশীল",
+        "T এর উপর নির্ভরশীল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-050",
+      "question": "একটি মূলধন 10% হারে 5 বছরে সুদে-আসলে 15000 টাকা হয়। আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-051",
+      "question": "দুই বছর আগে 6% হারে ব্যাংকে জমা রাখা 5000 টাকার এখন সুদে-আসলে কত হবে?",
+      "options": [
+        "5500 টাকা",
+        "5600 টাকা",
+        "5700 টাকা",
+        "5800 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-052",
+      "question": "একটি ঋণ 4 বছর পরে 8% হারে সুদে-আসলে 6600 টাকা হয়। ঋণের পরিমাণ কত?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-053",
+      "question": "1200 টাকার 3 বছরের সরল সুদ 360 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-054",
+      "question": "2500 টাকার 2 বছরের সরল সুদ 500 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-055",
+      "question": "5% হারে 3 বছরে সরল সুদ 450 টাকা হলে, মূলধন কত?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-056",
+      "question": "12% হারে 2 বছরে সরল সুদ 480 টাকা হলে, মূলধন কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-057",
+      "question": "কোনো আসল 6% হারে 2 বছর ও 4 বছরের সরল সুদের পার্থক্য 120 টাকা। আসল কত?",
+      "options": [
+        "1000 টাকা",
+        "1500 টাকা",
+        "2000 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-058",
+      "question": "8% হারে 5 বছর ও 3 বছরের সরল সুদের পার্থক্য 400 টাকা। আসল কত?",
+      "options": [
+        "2000 টাকা",
+        "2200 টাকা",
+        "2400 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-059",
+      "question": "10% সুদের হারে 5 বছরের সরল সুদ 6% হারে 4 বছরের সরল সুদের চেয়ে 200 টাকা বেশি। আসল কত?",
+      "options": [
+        "1000 টাকা",
+        "1500 টাকা",
+        "2000 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-060",
+      "question": "একটি মূলধন 8% হারে 3 বছরে সুদে-আসলে 12400 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-061",
+      "question": "একটি মূলধন 6% হারে 2 বছরে সুদে-আসলে 5600 টাকা হলে, আসল ও সুদ কত?",
+      "options": [
+        "P=5000, SI=600",
+        "P=4800, SI=800",
+        "P=5200, SI=400",
+        "P=4500, SI=1100"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-062",
+      "question": "3 বছর আগে 5% হারে জমা রাখা টাকা এখন সুদে-আসলে 11500 টাকা হলে, আসল কত?",
+      "options": [
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-063",
+      "question": "সরল সুদের ক্ষেত্রে R = 2T এবং SI = P/2 হলে, টি কত?",
+      "options": [
+        "2 বছর",
+        "3 বছর",
+        "4 বছর",
+        "5 বছর"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-064",
+      "question": "সরল সুদের ক্ষেত্রে P = 2SI এবং T = 4 বছর হলে, R কত?",
+      "options": [
+        "10%",
+        "12.5%",
+        "15%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-065",
+      "question": "8 মাসকে বছরে রূপান্তর করলে কত হবে?",
+      "options": [
+        "1/3 বছর",
+        "2/3 বছর",
+        "3/4 বছর",
+        "1/2 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-066",
+      "question": "7 মাস কত বছরের সমান?",
+      "options": [
+        "7/12 বছর",
+        "5/12 বছর",
+        "1/2 বছর",
+        "3/4 বছর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-067",
+      "question": "219 দিন কত বছরের সমান?",
+      "options": [
+        "0.4 বছর",
+        "0.5 বছর",
+        "0.6 বছর",
+        "0.7 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-068",
+      "question": "300 দিন কত বছরের সমান?",
+      "options": [
+        "0.8 বছর",
+        "0.82 বছর",
+        "0.85 বছর",
+        "0.9 বছর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-069",
+      "question": "2000 টাকার 8 মাসে 9% হারে সরল সুদ কত?",
+      "options": [
+        "110 টাকা",
+        "115 টাকা",
+        "120 টাকা",
+        "125 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-070",
+      "question": "1500 টাকার 5 মাসে 8% হারে সরল সুদ কত?",
+      "options": [
+        "45 টাকা",
+        "50 টাকা",
+        "55 টাকা",
+        "60 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-071",
+      "question": "2400 টাকার 4 মাসে 5% হারে সরল সুদ কত?",
+      "options": [
+        "35 টাকা",
+        "38 টাকা",
+        "40 টাকা",
+        "42 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-072",
+      "question": "A = P [1 + (RT/100)] সূত্রটি কিসের জন্য ব্যবহৃত হয়?",
+      "options": [
+        "সরল সুদ নির্ণয়",
+        "মূলধন নির্ণয়",
+        "সুদ-আসল নির্ণয়",
+        "সুদের হার নির্ণয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-073",
+      "question": "সরল সুদের ক্ষেত্রে সময় T = 0 হলে সুদ কত হবে?",
+      "options": [
+        "আসলের সমান",
+        "শূন্য",
+        "আসলের দ্বিগুণ",
+        "আসলের অর্ধেক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-074",
+      "question": "সুদের হার R = 0 হলে সুদ কত হবে?",
+      "options": [
+        "আসলের সমান",
+        "শূন্য",
+        "আসলের দ্বিগুণ",
+        "আসলের অর্ধেক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-075",
+      "question": "500 টাকার 5 বছরে 4% হারে সরল সুদ কত?",
+      "options": [
+        "80 টাকা",
+        "90 টাকা",
+        "100 টাকা",
+        "110 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-076",
+      "question": "3000 টাকার 2 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "250 টাকা",
+        "280 টাকা",
+        "300 টাকা",
+        "320 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-077",
+      "question": "7500 টাকার 3 বছরে 4% হারে সরল সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "850 টাকা",
+        "900 টাকা",
+        "950 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-078",
+      "question": "কত টাকার 6% হারে 3 বছরের সরল সুদ 540 টাকা হবে?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-079",
+      "question": "কত টাকার 8% হারে 5 বছরের সরল সুদ 800 টাকা হবে?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-080",
+      "question": "10% হারে কত বছরে 2000 টাকার সরল সুদ 800 টাকা হবে?",
+      "options": [
+        "2 বছর",
+        "3 বছর",
+        "4 বছর",
+        "5 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-081",
+      "question": "6% হারে কত বছরে 5000 টাকার সরল সুদ 900 টাকা হবে?",
+      "options": [
+        "2 বছর",
+        "3 বছর",
+        "4 বছর",
+        "5 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-082",
+      "question": "সরল সুদের ক্ষেত্রে Principal ধনাত্মক না হলে কী হবে?",
+      "options": [
+        "ঋণাত্মক সুদ",
+        "শূন্য সুদ",
+        "অপরিবর্তিত",
+        "হিসাব অসম্ভব"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-083",
+      "question": "2.5 বছর কত মাস?",
+      "options": [
+        "24 মাস",
+        "28 মাস",
+        "30 মাস",
+        "32 মাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-084",
+      "question": "2000 টাকার 1.5 বছরে 10% হারে সরল সুদ কত?",
+      "options": [
+        "250 টাকা",
+        "280 টাকা",
+        "300 টাকা",
+        "320 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-085",
+      "question": "4000 টাকার 2.5 বছরে 8% হারে সরল সুদ কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-086",
+      "question": "6000 টাকার 3.5 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "1160 টাকা",
+        "1200 টাকা",
+        "1260 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-087",
+      "question": "500 টাকার 2 বছরের সরল সুদ 100 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-088",
+      "question": "800 টাকার 3 বছরের সরল সুদ 192 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-089",
+      "question": "1200 টাকার 4 বছরের সরল সুদ 384 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-090",
+      "question": "1500 টাকার 5 বছরে 8% হারে সরল সুদ ও আসল কত?",
+      "options": [
+        "SI=500, Amount=2000",
+        "SI=600, Amount=2100",
+        "SI=550, Amount=2050",
+        "SI=650, Amount=2150"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-091",
+      "question": "একটি মূলধন 4% হারে 5 বছরে সুদে-আসলে 6000 টাকা হয়। আসল কত?",
+      "options": [
+        "5000 টাকা",
+        "5200 টাকা",
+        "5400 টাকা",
+        "5600 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-092",
+      "question": "একটি মূলধন 5% হারে 3 বছরে সুদে-আসলে 6900 টাকা হয়। আসল কত?",
+      "options": [
+        "5500 টাকা",
+        "5600 টাকা",
+        "5800 টাকা",
+        "6000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-093",
+      "question": "10000 টাকার 2 বছরের সরল সুদ ও 15000 টাকার 1 বছরের সরল সুদ সমান। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-094",
+      "question": "P1 : P2 = 2 : 3 এবং R ও T সমান হলে, SI1 : SI2 কত?",
+      "options": [
+        "2 : 3",
+        "3 : 2",
+        "1 : 1",
+        "4 : 9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-095",
+      "question": "একই হার ও সময়ে SI1 : SI2 = 3 : 4 হলে, P1 : P2 কত?",
+      "options": [
+        "3 : 4",
+        "4 : 3",
+        "9 : 16",
+        "16 : 9"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-096",
+      "question": "একটি ঋণ 10% হারে 2 বছরের সুদে-আসলে 2400 টাকা। ঋণের পরিমাণ কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-097",
+      "question": "একটি টাকা ব্যাংকে জমা দিয়ে 4% হারে 3 বছরে সুদে-আসলে 5600 টাকা পাওয়া গেল। জমার পরিমাণ কত?",
+      "options": [
+        "4800 টাকা",
+        "4900 টাকা",
+        "5000 টাকা",
+        "5200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-098",
+      "question": "সরল সুদের ক্ষেত্রে, T = 0.5 বছর, R = 10%, P = 2000 হলে SI কত?",
+      "options": [
+        "80 টাকা",
+        "90 টাকা",
+        "100 টাকা",
+        "110 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-099",
+      "question": "T = 0.25 বছর, R = 12%, P = 4000 হলে SI কত?",
+      "options": [
+        "110 টাকা",
+        "115 টাকা",
+        "120 টাকা",
+        "125 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-100",
+      "question": "একটি আসল 2 বছরে 6% হারে সুদাসলে 5600 টাকা হলে, আসল কত?",
+      "options": [
+        "4500 টাকা",
+        "4800 টাকা",
+        "5000 টাকা",
+        "5200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-101",
+      "question": "2500 টাকার 2 বছরের সরল সুদ 400 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-102",
+      "question": "3000 টাকার 3 বছরের সরল সুদ 720 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-103",
+      "question": "5% হারে কত বছরে 2000 টাকার সরল সুদ 500 টাকা হবে?",
+      "options": [
+        "2 বছর",
+        "3 বছর",
+        "4 বছর",
+        "5 বছর"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-104",
+      "question": "8% হারে কত বছরে 4000 টাকার সরল সুদ 1280 টাকা হবে?",
+      "options": [
+        "2 বছর",
+        "3 বছর",
+        "4 বছর",
+        "5 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-105",
+      "question": "একটি আসল 3 বছরে 8% হারে সুদাসলে 12400 টাকা হলে, আসল ও সুদ কত?",
+      "options": [
+        "P=10000, SI=2400",
+        "P=9500, SI=2900",
+        "P=11000, SI=1400",
+        "P=9000, SI=3400"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-106",
+      "question": "2 বছরে 10% হারে সুদাসলে 4800 টাকা হলে, আসল কত?",
+      "options": [
+        "3500 টাকা",
+        "3800 টাকা",
+        "4000 টাকা",
+        "4200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-107",
+      "question": "3 বছরে 5% হারে সুদাসলে 6900 টাকা হলে, আসল কত?",
+      "options": [
+        "5500 টাকা",
+        "5800 টাকা",
+        "6000 টাকা",
+        "6200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-108",
+      "question": "500 টাকার 2 বছরের সরল সুদ 100 টাকা। একই হারে 800 টাকার 3 বছরের সুদ কত?",
+      "options": [
+        "200 টাকা",
+        "210 টাকা",
+        "220 টাকা",
+        "240 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-109",
+      "question": "600 টাকার 3 বছরের সরল সুদ 144 টাকা। একই হারে 1000 টাকার 4 বছরের সুদ কত?",
+      "options": [
+        "300 টাকা",
+        "310 টাকা",
+        "320 টাকা",
+        "340 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-110",
+      "question": "8000 টাকার 2 বছরের 5% হারে সরল সুদ কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-111",
+      "question": "10000 টাকার 1 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-112",
+      "question": "সরল সুদের ক্ষেত্রে, যদি P = 0 হয় তাহলে SI কত হবে?",
+      "options": [
+        "P-এর সমান",
+        "শূন্য",
+        "R-এর সমান",
+        "T-এর সমান"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-113",
+      "question": "একটি ঋণ 5% হারে 4 বছরে সুদাসলে 12000 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-114",
+      "question": "3 বছরের সূদ 5 বছরের সূদের অনুপাত কত হবে যদি হার ও আসল একই হয়?",
+      "options": [
+        "3 : 5",
+        "5 : 3",
+        "1 : 1",
+        "9 : 25"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-115",
+      "question": "একই আসলে 6% ও 8% হারে 2 বছরের সরল সুদের পার্থক্য 40 টাকা। আসল কত?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-116",
+      "question": "একটি আসল 3 বছরে 10% হারে সুদাসলে 13000 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-117",
+      "question": "2.5 বছর = কত মাস?",
+      "options": [
+        "28 মাস",
+        "29 মাস",
+        "30 মাস",
+        "31 মাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-118",
+      "question": "3.25 বছর = কত মাস?",
+      "options": [
+        "36 মাস",
+        "38 মাস",
+        "39 মাস",
+        "40 মাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-119",
+      "question": "5.5 বছর = কত মাস?",
+      "options": [
+        "60 মাস",
+        "64 মাস",
+        "66 মাস",
+        "68 মাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-120",
+      "question": "2190 দিন কত বছরের সমান?",
+      "options": [
+        "5 বছর",
+        "6 বছর",
+        "7 বছর",
+        "8 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-121",
+      "question": "1460 দিন কত বছর?",
+      "options": [
+        "3 বছর",
+        "3.5 বছর",
+        "4 বছর",
+        "4.5 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-122",
+      "question": "সরল সুদের সূত্রে R = (SI × 100) / (P × T)। এটি সঠিক কিনা?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "কখনো সঠিক কখনো ভুল",
+        "শুধু যখন T=1"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-123",
+      "question": "2 বছরে 5% হারে সুদাসলে 1100 টাকা হলে, আসল কত?",
+      "options": [
+        "900 টাকা",
+        "950 টাকা",
+        "1000 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-124",
+      "question": "3 বছরে 4% হারে সুদাসলে 5600 টাকা হলে, আসল কত?",
+      "options": [
+        "4500 টাকা",
+        "4800 টাকা",
+        "5000 টাকা",
+        "5200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-125",
+      "question": "5% হারে 2 বছরের সরল সুদ 200 টাকা হলে, আসল কত?",
+      "options": [
+        "1500 টাকা",
+        "1800 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-126",
+      "question": "6% হারে 3 বছরের সরল সুদ 360 টাকা হলে, আসল কত?",
+      "options": [
+        "1500 টাকা",
+        "1800 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-127",
+      "question": "8% হারে 4 বছরের সরল সুদ 640 টাকা হলে, আসল কত?",
+      "options": [
+        "1500 টাকা",
+        "1700 টাকা",
+        "2000 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-128",
+      "question": "10% হারে 5 বছরের সরল সুদ 500 টাকা হলে, আসল কত?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-129",
+      "question": "একই আসলে 2 বছরে 8% ও 10% হারে সরল সুদের পার্থক্য 60 টাকা। আসল কত?",
+      "options": [
+        "1000 টাকা",
+        "1500 টাকা",
+        "2000 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-130",
+      "question": "3 বছরে 5% ও 7% হারে সরল সুদের পার্থক্য 120 টাকা। আসল কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-131",
+      "question": "সরল সুদের ক্ষেত্রে, যদি R = 2P হয়, তাহলে T কত হলে SI = P হবে?",
+      "options": [
+        "50",
+        "200",
+        "25",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-132",
+      "question": "2 বছরের সরল সুদ আসলের 1/5 অংশ। সুদের হার কত?",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-133",
+      "question": "3 বছরের সরল সুদ আসলের 3/10 অংশ। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-134",
+      "question": "P = 5000, R = 4%, T = 3 বছর। সরল সুদ কত?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-135",
+      "question": "P = 8000, R = 5%, T = 2 বছর। সরল সুদ কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-136",
+      "question": "20000 টাকার 2 বছরে 7% হারে সরল সুদ কত?",
+      "options": [
+        "2600 টাকা",
+        "2700 টাকা",
+        "2800 টাকা",
+        "2900 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-137",
+      "question": "5000 টাকার 3 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "850 টাকা",
+        "900 টাকা",
+        "950 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-138",
+      "question": "7500 টাকার 4 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "1300 টাকা",
+        "1400 টাকা",
+        "1500 টাকা",
+        "1600 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-139",
+      "question": "1200 টাকার 2.5 বছরে 8% হারে সরল সুদ কত?",
+      "options": [
+        "220 টাকা",
+        "230 টাকা",
+        "240 টাকা",
+        "250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-140",
+      "question": "1800 টাকার 3.5 বছরে 6% হারে সরল সুদ কত?",
+      "options": [
+        "358 টাকা",
+        "368 টাকা",
+        "378 টাকা",
+        "388 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-141",
+      "question": "2200 টাকার 2 বছরে 7% হারে সরল সুদ কত?",
+      "options": [
+        "298 টাকা",
+        "308 টাকা",
+        "318 টাকা",
+        "328 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-142",
+      "question": "3200 টাকার 3 বছরে 5% হারে সরল সুদ কত?",
+      "options": [
+        "460 টাকা",
+        "470 টাকা",
+        "480 টাকা",
+        "490 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-143",
+      "question": "8% হারে 5000 টাকার 2 বছরের সরল সুদ কত?",
+      "options": [
+        "700 টাকা",
+        "750 টাকা",
+        "800 টাকা",
+        "850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-144",
+      "question": "10% হারে 4000 টাকার 2 বছর 6 মাসের সরল সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-145",
+      "question": "6% হারে 6000 টাকার 3 বছর 4 মাসের সরল সুদ কত?",
+      "options": [
+        "1100 টাকা",
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-146",
+      "question": "5% হারে 12000 টাকার 1.5 বছরের সরল সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "850 টাকা",
+        "900 টাকা",
+        "950 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-147",
+      "question": "4% হারে 15000 টাকার 2 বছরের সরল সুদ কত?",
+      "options": [
+        "1000 টাকা",
+        "1100 টাকা",
+        "1200 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-148",
+      "question": "7% হারে 20000 টাকার 3 বছরের সরল সুদ কত?",
+      "options": [
+        "4000 টাকা",
+        "4100 টাকা",
+        "4200 টাকা",
+        "4300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-149",
+      "question": "25000 টাকার 2 বছরে 8% হারে সরল সুদ কত?",
+      "options": [
+        "3800 টাকা",
+        "3900 টাকা",
+        "4000 টাকা",
+        "4100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-150",
+      "question": "P = 5000, R = 10%, T = 2.5 বছর। সরল সুদ কত?",
+      "options": [
+        "1150 টাকা",
+        "1200 টাকা",
+        "1250 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-151",
+      "question": "P = 8000, R = 5%, T = 4.5 বছর। সরল সুদ কত?",
+      "options": [
+        "1700 টাকা",
+        "1750 টাকা",
+        "1800 টাকা",
+        "1850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-152",
+      "question": "কোনো আসল 3 বছরে 6% হারে সুদে-আসলে 11800 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-153",
+      "question": "কোনো আসল 4 বছরে 7% হারে সুদে-আসলে 12800 টাকা হলে, আসল কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-154",
+      "question": "4200 টাকার 2 বছরের সরল সুদ 672 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-155",
+      "question": "4500 টাকার 3 বছরের সরল সুদ 1080 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-156",
+      "question": "3600 টাকার 4 বছরের সরল সুদ 1152 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-157",
+      "question": "5% হারে কত টাকার 3 বছরের সরল সুদ 600 টাকা হবে?",
+      "options": [
+        "3500 টাকা",
+        "3700 টাকা",
+        "4000 টাকা",
+        "4300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-158",
+      "question": "8% হারে কত টাকার 2 বছরের সরল সুদ 800 টাকা হবে?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-159",
+      "question": "6% হারে কত টাকার 5 বছরের সরল সুদ 1200 টাকা হবে?",
+      "options": [
+        "3500 টাকা",
+        "3700 টাকা",
+        "4000 টাকা",
+        "4300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-160",
+      "question": "10% হারে কত টাকার 3 বছরের সরল সুদ 900 টাকা হবে?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-161",
+      "question": "2000 টাকার 4 বছরের সরল সুদ 640 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-162",
+      "question": "2500 টাকার 2 বছরের সরল সুদ 500 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-163",
+      "question": "3000 টাকার 3 বছরের সরল সুদ 900 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-164",
+      "question": "4000 টাকার 2 বছরের সরল সুদ 640 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-165",
+      "question": "5000 টাকার 4 বছরের সরল সুদ 1600 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-166",
+      "question": "6000 টাকার 3 বছরের সরল সুদ 1440 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-167",
+      "question": "8% হারে 2 বছরে সরল সুদ 400 টাকা। আসল কত?",
+      "options": [
+        "2000 টাকা",
+        "2200 টাকা",
+        "2400 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-168",
+      "question": "6% হারে 3 বছরে সরল সুদ 540 টাকা। আসল কত?",
+      "options": [
+        "2500 টাকা",
+        "2700 টাকা",
+        "2800 টাকা",
+        "3000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-169",
+      "question": "5% হারে 4 বছরে সরল সুদ 800 টাকা। আসল কত?",
+      "options": [
+        "3500 টাকা",
+        "3800 টাকা",
+        "4000 টাকা",
+        "4200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-170",
+      "question": "10% হারে 2 বছর 6 মাসের সরল সুদ 500 টাকা। আসল কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-171",
+      "question": "8% হারে 3 বছর 6 মাসের সরল সুদ 840 টাকা। আসল কত?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-172",
+      "question": "সরল সুদের সূত্রে P, R, T এর সাথে SI এর সম্পর্ক কী?",
+      "options": [
+        "সরল অনুপাত",
+        "ব্যস্ত অনুপাত",
+        "সরল ও ব্যস্ত মিলিত",
+        "কোন সম্পর্ক নেই"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-12-173",
+      "question": "একই আসলে যদি R দ্বিগুণ করা হয় তাহলে SI কী হবে (T অপরিবর্তিত)?",
+      "options": [
+        "অর্ধেক হবে",
+        "দ্বিগুণ হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-174",
+      "question": "একই আসলে যদি T দ্বিগুণ করা হয় তাহলে SI কী হবে (R অপরিবর্তিত)?",
+      "options": [
+        "অর্ধেক হবে",
+        "দ্বিগুণ হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-175",
+      "question": "একই হার ও সময়ে P দ্বিগুণ করলে SI কী হবে?",
+      "options": [
+        "অর্ধেক হবে",
+        "দ্বিগুণ হবে",
+        "একই থাকবে",
+        "চার গুণ হবে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-176",
+      "question": "সুদের হার দ্বিগুণ এবং সময় অর্ধেক করলে, SI-তে কী পরিবর্তন হবে?",
+      "options": [
+        "একই থাকবে",
+        "দ্বিগুণ হবে",
+        "অর্ধেক হবে",
+        "চার গুণ হবে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-177",
+      "question": "500 টাকার 3 বছরের সুদ 150 টাকা। একই হারে 1000 টাকার 2 বছরের সুদ কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-178",
+      "question": "1000 টাকার 2 বছরের সুদ 160 টাকা। একই হারে 1500 টাকার 3 বছরের সুদ কত?",
+      "options": [
+        "320 টাকা",
+        "340 টাকা",
+        "360 টাকা",
+        "380 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-179",
+      "question": "5% হারে 2 বছরের সুদ 200 টাকা। একই আসলের 4 বছরে কত সুদ হবে?",
+      "options": [
+        "300 টাকা",
+        "350 টাকা",
+        "400 টাকা",
+        "450 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-180",
+      "question": "6% হারে 3 বছরের সুদ 360 টাকা। একই আসলের 5 বছরে কত সুদ হবে?",
+      "options": [
+        "500 টাকা",
+        "550 টাকা",
+        "600 টাকা",
+        "650 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-181",
+      "question": "8% হারে 2 বছরের সুদ 320 টাকা। একই আসলের 3 বছরে কত সুদ হবে?",
+      "options": [
+        "460 টাকা",
+        "470 টাকা",
+        "480 টাকা",
+        "490 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-182",
+      "question": "10% হারে 3 বছরের সুদ 600 টাকা। একই আসলের 2 বছরে কত সুদ হবে?",
+      "options": [
+        "350 টাকা",
+        "380 টাকা",
+        "400 টাকা",
+        "420 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-183",
+      "question": "3% হারে 5 বছরের সুদ 300 টাকা। আসল কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-184",
+      "question": "4% হারে 4 বছরের সুদ 640 টাকা। আসল কত?",
+      "options": [
+        "3500 টাকা",
+        "3700 টাকা",
+        "4000 টাকা",
+        "4300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-185",
+      "question": "7% হারে 3 বছরের সুদ 630 টাকা। আসল কত?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-186",
+      "question": "9% হারে 2 বছরের সুদ 540 টাকা। আসল কত?",
+      "options": [
+        "2500 টাকা",
+        "2700 টাকা",
+        "2800 টাকা",
+        "3000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-187",
+      "question": "12% হারে 1.5 বছরের সুদ 450 টাকা। আসল কত?",
+      "options": [
+        "2000 টাকা",
+        "2200 টাকা",
+        "2400 টাকা",
+        "2500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-188",
+      "question": "500 টাকার 2 বছরের সুদ 80 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-189",
+      "question": "800 টাকার 3 বছরের সুদ 192 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-190",
+      "question": "1200 টাকার 4 বছরের সুদ 384 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-191",
+      "question": "1500 টাকার 5 বছরের সুদ 600 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-192",
+      "question": "2000 টাকার 2.5 বছরের সুদ 500 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-193",
+      "question": "3000 টাকার 3.5 বছরের সুদ 840 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-194",
+      "question": "4000 টাকার 4.5 বছরের সুদ 1440 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "7%",
+        "8%",
+        "9%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-195",
+      "question": "5% হারে কত টাকার 4 বছরের সুদ 600 টাকা হবে?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-12-196",
+      "question": "6% হারে কত টাকার 2.5 বছরের সুদ 450 টাকা হবে?",
+      "options": [
+        "2500 টাকা",
+        "2800 টাকা",
+        "3000 টাকা",
+        "3500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-12-197",
+      "question": "সরল সুদের ক্ষেত্রে সঠিক সূত্র কোনগুলি?",
+      "options": [
+        "SI = (P × R × T) / 100",
+        "A = P + SI",
+        "P = (SI × 100) / (R × T)",
+        "R = (SI × 100) / (P × T)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-198",
+      "question": "Amount নির্ণয়ের সঠিক সূত্রগুলি:",
+      "options": [
+        "A = P + SI",
+        "A = P + (PRT/100)",
+        "A = P[1 + (RT/100)]",
+        "A = P - SI"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-199",
+      "question": "P = 1000, R = 10%, T = 2 বছর। সঠিক বিবৃতি:",
+      "options": [
+        "SI = 200 টাকা",
+        "A = 1200 টাকা",
+        "SI = 250 টাকা",
+        "A = 1250 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-200",
+      "question": "2000 টাকার 5% হারে 3 বছরের সঠিক তথ্য:",
+      "options": [
+        "SI = 300 টাকা",
+        "A = 2300 টাকা",
+        "SI = 350 টাকা",
+        "A = 2350 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-201",
+      "question": "4000 টাকার 8% হারে 2.5 বছরের সঠিক:",
+      "options": [
+        "SI = 800 টাকা",
+        "A = 4800 টাকা",
+        "SI = 700 টাকা",
+        "A = 4700 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-202",
+      "question": "5000 টাকার 6% হারে 3.5 বছরের জন্য:",
+      "options": [
+        "SI = 1050 টাকা",
+        "A = 6050 টাকা",
+        "SI = 900 টাকা",
+        "A = 5900 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-203",
+      "question": "2500 টাকার 4% হারে 2 বছরের জন্য সঠিক:",
+      "options": [
+        "SI = 200 টাকা",
+        "A = 2700 টাকা",
+        "SI = 150 টাকা",
+        "A = 2650 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-204",
+      "question": "1500 টাকার 5% হারে 3 বছরের:",
+      "options": [
+        "SI = 225 টাকা",
+        "A = 1725 টাকা",
+        "SI = 250 টাকা",
+        "A = 1750 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-205",
+      "question": "নিচের কোনটি সরল সুদের সূত্রের রূপান্তর?",
+      "options": [
+        "P = (SI × 100) / (R × T)",
+        "R = (SI × 100) / (P × T)",
+        "T = (SI × 100) / (P × R)",
+        "SI = A - P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-206",
+      "question": "A = 1200, P = 1000, T = 2 বছর হলে:",
+      "options": [
+        "SI = 200 টাকা",
+        "R = 10%",
+        "R = 15%",
+        "SI = 250 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-207",
+      "question": "A = 13000, P = 10000, T = 3 বছর হলে:",
+      "options": [
+        "SI = 3000 টাকা",
+        "R = 10%",
+        "R = 5%",
+        "SI = 2500 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-208",
+      "question": "8% হারে 2 বছরে SI = 400 টাকা। সঠিক:",
+      "options": [
+        "P = 2500 টাকা",
+        "A = 2900 টাকা",
+        "P = 2000 টাকা",
+        "A = 2400 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-209",
+      "question": "6% হারে 3 বছরে SI = 540 টাকা হলে:",
+      "options": [
+        "P = 3000 টাকা",
+        "A = 3540 টাকা",
+        "P = 3500 টাকা",
+        "A = 4040 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-210",
+      "question": "5% হারে 4 বছরে SI = 800 টাকা হলে:",
+      "options": [
+        "P = 4000 টাকা",
+        "A = 4800 টাকা",
+        "P = 5000 টাকা",
+        "A = 5800 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-211",
+      "question": "10% হারে 2.5 বছরে SI = 500 টাকা হলে:",
+      "options": [
+        "P = 2000 টাকা",
+        "A = 2500 টাকা",
+        "P = 1800 টাকা",
+        "A = 2300 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-212",
+      "question": "8% হারে 3.5 বছরে SI = 840 টাকা হলে:",
+      "options": [
+        "P = 3000 টাকা",
+        "A = 3840 টাকা",
+        "P = 3200 টাকা",
+        "A = 4040 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-213",
+      "question": "7% হারে 2 বছরের SI 280 টাকা হলে P ও A:",
+      "options": [
+        "P = 2000",
+        "A = 2280",
+        "P = 2200",
+        "A = 2480"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-214",
+      "question": "9% হারে 3 বছরের SI 540 টাকা হলে P ও A:",
+      "options": [
+        "P = 2000",
+        "A = 2540",
+        "P = 2200",
+        "A = 2740"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-215",
+      "question": "4% হারে 5 বছরের SI 800 টাকা হলে P ও A:",
+      "options": [
+        "P = 4000",
+        "A = 4800",
+        "P = 5000",
+        "A = 5800"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-216",
+      "question": "12% হারে 1.5 বছরের SI 360 টাকা হলে P ও A:",
+      "options": [
+        "P = 2000",
+        "A = 2360",
+        "P = 1800",
+        "A = 2160"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-217",
+      "question": "P = 2000, R = 5%, T = 2 বছর থেকে P = 3000, R=5%, T=2 বছরের SI তুলনা:",
+      "options": [
+        "SI দ্বিগুণ হয়",
+        "SI 300 টাকা থেকে 450 টাকা হয়",
+        "SI সমান থাকে",
+        "SI 400 টাকা হয়"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-218",
+      "question": "P = 1000, R=10%, T=2 বছর এবং P=1000, R=5%, T=4 বছর:",
+      "options": [
+        "SI সমান (200 টাকা)",
+        "SI সমান (100 টাকা)",
+        "A সমান",
+        "A ভিন্ন"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-219",
+      "question": "2 বছরের SI 200 টাকা, 3 বছরের SI 300 টাকা একই আসলে ও হারে:",
+      "options": [
+        "R = 10%",
+        "P = 1000",
+        "R = 12%",
+        "P = 1200"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-220",
+      "question": "5% ও 8% হারে 2 বছরের SI-এর পার্থক্য 60 টাকা হলে:",
+      "options": [
+        "P = 1000",
+        "পার্থক্য = P×(8-5)×2/100",
+        "P = 5000",
+        "P = 2000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-221",
+      "question": "6% হারে 3 বছরের SI 360 টাকা। একই হারে 5 বছরের SI:",
+      "options": [
+        "600 টাকা",
+        "2 বছরের SI 240 টাকা",
+        "4 বছরের SI 480 টাকা",
+        "SI সময়ের সাথে সমানুপাতিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-222",
+      "question": "সরল সুদের ক্ষেত্রে সত্য বিবৃতি:",
+      "options": [
+        "SI, P-এর সাথে সরল সমানুপাতিক",
+        "SI, R-এর সাথে সরল সমানুপাতিক",
+        "SI, T-এর সাথে সরল সমানুপাতিক",
+        "SI, P-এর সাথে ব্যস্তানুপাতিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-223",
+      "question": "সময় মাসে দেওয়া থাকলে সঠিক রূপান্তর:",
+      "options": [
+        "3 মাস = 1/4 বছর",
+        "6 মাস = 1/2 বছর",
+        "8 মাস = 2/3 বছর",
+        "9 মাস = 3/4 বছর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-224",
+      "question": "20000 টাকার 2 বছরে 8% হারে:",
+      "options": [
+        "SI = 3200",
+        "A = 23200",
+        "SI = 4000",
+        "A = 24000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-225",
+      "question": "7500 টাকার 3 বছরে 6% হারে:",
+      "options": [
+        "SI = 1350",
+        "A = 8850",
+        "SI = 1500",
+        "A = 9000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-226",
+      "question": "25000 টাকার 4 বছরে 5% হারে:",
+      "options": [
+        "SI = 5000",
+        "A = 30000",
+        "SI = 6000",
+        "A = 31000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-227",
+      "question": "5000 টাকার 5% হারে 2.5 বছরে:",
+      "options": [
+        "SI = 625",
+        "A = 5625",
+        "SI = 600",
+        "A = 5600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-228",
+      "question": "8000 টাকার 6% হারে 3.5 বছরে:",
+      "options": [
+        "SI = 1680",
+        "A = 9680",
+        "SI = 1500",
+        "A = 9500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-229",
+      "question": "12000 টাকার 4% হারে 2.5 বছরে:",
+      "options": [
+        "SI = 1200",
+        "A = 13200",
+        "SI = 1000",
+        "A = 13000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-230",
+      "question": "18000 টাকার 5% হারে 3 বছরে:",
+      "options": [
+        "SI = 2700",
+        "A = 20700",
+        "SI = 2500",
+        "A = 20500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-231",
+      "question": "6% হারে 4 বছরে SI = 2400 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "A = 12400",
+        "P = 8000",
+        "A = 10400"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-232",
+      "question": "8% হারে 5 বছরে SI = 4000 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "A = 14000",
+        "P = 12000",
+        "A = 16000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-233",
+      "question": "10% হারে 2 বছরে SI = 1000 টাকা হলে:",
+      "options": [
+        "P = 5000",
+        "A = 6000",
+        "P = 6000",
+        "A = 7000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-234",
+      "question": "সময়ের রূপান্তরে সঠিক:",
+      "options": [
+        "15 মাস = 1.25 বছর",
+        "30 মাস = 2.5 বছর",
+        "18 মাস = 1.5 বছর",
+        "24 মাস = 2 বছর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-235",
+      "question": "2 বছর 3 মাস = কত বছর?",
+      "options": [
+        "2.25 বছর",
+        "9/4 বছর",
+        "2.3 বছর",
+        "27 মাস"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-236",
+      "question": "3 বছর 4 মাস = কত বছর?",
+      "options": [
+        "3⅓ বছর",
+        "3.333 বছর",
+        "10/3 বছর",
+        "40 মাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-237",
+      "question": "4 বছর 6 মাস = কত বছর?",
+      "options": [
+        "4.5 বছর",
+        "9/2 বছর",
+        "54 মাস",
+        "54 বছর"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-238",
+      "question": "P = 5000, R = 5%, T = 2 বছর ও P = 5000, R = 10%, T = 1 বছর:",
+      "options": [
+        "SI সমান (500 টাকা)",
+        "SI সমান (250 টাকা)",
+        "A: 5500 ও 5500",
+        "A: 6000 ও 5500"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-239",
+      "question": "সরল সুদের ক্ষেত্রে সঠিক:",
+      "options": [
+        "যদি R = 0 হয়, SI = 0",
+        "যদি T = 0 হয়, SI = 0",
+        "যদি P = 0 হয়, SI = 0",
+        "SI সব সময় ধনাত্মক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-240",
+      "question": "1000 টাকার 3 বছরের SI যদি 240 টাকা হয়, তাহলে:",
+      "options": [
+        "R = 8%",
+        "2000 টাকার একই সময় ও হারে SI = 480",
+        "R = 6%",
+        "500 টাকার SI = 120"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-241",
+      "question": "কোনো আসল 2 বছরে 8% হারে SI = 160 টাকা। সঠিক:",
+      "options": [
+        "P = 1000",
+        "A = 1160",
+        "3 বছরে SI = 240",
+        "1500 টাকার SI = 240"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-242",
+      "question": "5% হারে 3 বছরের SI 150 টাকা। সঠিক:",
+      "options": [
+        "P = 1000",
+        "2 বছরের SI = 100",
+        "4 বছরের SI = 200",
+        "6% হারে 3 বছরে SI = 180"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-243",
+      "question": "6% হারে 4 বছরের SI 240 টাকা। সঠিক:",
+      "options": [
+        "P = 1000",
+        "2 বছর SI = 120",
+        "5 বছর SI = 300",
+        "10% হারে 4 বছরে SI = 400"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-244",
+      "question": "R = (SI × 100) / (P × T) সূত্রটি ব্যবহার করে:",
+      "options": [
+        "সময় লাগে না",
+        "হার বের করা যায়",
+        "P বের করা যায়",
+        "T বের করা যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-245",
+      "question": "200 টাকার 2 বছরে SI 40 টাকা। সঠিক R ও অন্য তথ্য:",
+      "options": [
+        "R = 10%",
+        "300 টাকার 3 বছরে SI = 90",
+        "R = 12%",
+        "400 টাকার 2 বছরে SI = 80"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-246",
+      "question": "400 টাকার 3 বছরে SI 60 টাকা। সঠিক:",
+      "options": [
+        "R = 5%",
+        "800 টাকার 2 বছরে SI = 80",
+        "R = 6%",
+        "1200 টাকার 4 বছরে SI = 240"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-247",
+      "question": "500 টাকার 4 বছরে SI 100 টাকা। সঠিক:",
+      "options": [
+        "R = 5%",
+        "1000 টাকার 3 বছরে SI = 150",
+        "R = 6%",
+        "1500 টাকার 2 বছরে SI = 150"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-248",
+      "question": "1000 টাকার 5 বছর ও 3 বছরের SI-এর পার্থক্য 100 টাকা। R কত?",
+      "options": [
+        "P = 1000 হলে R=10%",
+        "R = 10% হলে পার্থক্য = P×R×2/100",
+        "R = 5%",
+        "পার্থক্য 100 টাকা। R = 10%, T পার্থক্য 2 বছর"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-249",
+      "question": "SI = P × R × T / 100 সূত্রে যদি R = 8, T = 2, P = 500 হয় তবে:",
+      "options": [
+        "SI = 80",
+        "A = 580",
+        "SI = 60",
+        "A = 560"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-12-250",
+      "question": "1500 টাকার 2 বছরের SI 240 টাকা। একই হারে 2000 টাকার 3 বছরের SI:",
+      "options": [
+        "480 টাকা",
+        "2 গুণ সময় ও 1.33 গুণ P",
+        "360 টাকা",
+        "400 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-251",
+      "question": "1200 টাকার 3 বছরের SI 216 টাকা। R কত? একই R-এ 1800 টাকার 4 বছরের SI?",
+      "options": [
+        "R = 6%",
+        "SI = 432",
+        "R = 8%",
+        "SI = 576"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-252",
+      "question": "2400 টাকার 2 বছরের SI 384 টাকা। R? একই R-এ 3600 টাকার 3 বছরের SI?",
+      "options": [
+        "R = 8%",
+        "SI = 864",
+        "R = 10%",
+        "SI = 1080"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-253",
+      "question": "5% হারে 3 বছরের SI 450 টাকা। P? একই P-এর 4% হারে 5 বছরের SI?",
+      "options": [
+        "P = 3000",
+        "SI = 600",
+        "P = 2500",
+        "SI = 500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-254",
+      "question": "4200 টাকার 2 বছরের SI 672 টাকা। R? একই R-এ 5600 টাকার 3 বছরের SI?",
+      "options": [
+        "R = 8%",
+        "SI = 1344",
+        "R = 10%",
+        "SI = 1680"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-255",
+      "question": "6000 টাকার 3 বছরের SI 1080 টাকা। R? একই R-এ 8000 টাকার 2.5 বছরের SI?",
+      "options": [
+        "R = 6%",
+        "SI = 1200",
+        "R = 7%",
+        "SI = 1400"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-256",
+      "question": "P = 7200, R = 5%, T = 3 বছর। SI ও A:",
+      "options": [
+        "SI = 1080",
+        "A = 8280",
+        "SI = 1080 টাকা",
+        "A = 8280 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-257",
+      "question": "P = 9000, R = 6%, T = 4 বছর। SI ও A:",
+      "options": [
+        "SI = 2160",
+        "A = 11160",
+        "SI = 2160 টাকা",
+        "A = 11160 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-258",
+      "question": "P = 11000, R = 8%, T = 2.5 বছর। SI ও A:",
+      "options": [
+        "SI = 2200",
+        "A = 13200",
+        "SI = 2200 টাকা",
+        "A = 13200 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-259",
+      "question": "7500 টাকার 4% হারে 2.5 বছরের SI ও A:",
+      "options": [
+        "SI = 750",
+        "A = 8250",
+        "SI = 750 টাকা",
+        "A = 8250 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-260",
+      "question": "3 বছরের সরল সুদ 450 টাকা, R = 5%। P ও A:",
+      "options": [
+        "P = 3000",
+        "A = 3450",
+        "P = 3000 টাকা",
+        "A = 3450 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-261",
+      "question": "4 বছরের সরল সুদ 800 টাকা, R = 5%। P ও A:",
+      "options": [
+        "P = 4000",
+        "A = 4800",
+        "P = 4000 টাকা",
+        "A = 4800 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-262",
+      "question": "2.5 বছরের সরল সুদ 500 টাকা, R = 10%। P ও A:",
+      "options": [
+        "P = 2000",
+        "A = 2500",
+        "P = 2000 টাকা",
+        "A = 2500 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-263",
+      "question": "সরল সুদের সূত্র থেকে P বের করার সূত্র কোনটি?",
+      "options": [
+        "P = (SI×100)/(R×T)",
+        "P = A/(1+RT/100)",
+        "P = A - SI",
+        "P = (SI×R×T)/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-264",
+      "question": "A = 5000, P = 4000, T = 2 বছর। R ও SI:",
+      "options": [
+        "SI = 1000",
+        "R = 12.5%",
+        "R = 10%",
+        "SI = 1000 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-265",
+      "question": "A = 7200, P = 6000, T = 3 বছর। R ও SI:",
+      "options": [
+        "SI = 1200",
+        "R = 6.67% (প্রায়)",
+        "R = 12%",
+        "SI = 1000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-266",
+      "question": "A = 15600, P = 12000, T = 3 বছর। R ও SI:",
+      "options": [
+        "SI = 3600",
+        "R = 10%",
+        "R = 12%",
+        "SI = 3600"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-267",
+      "question": "সময় নিয়ে সঠিক:",
+      "options": [
+        "মাসকে বছরে রূপান্তরে 12 দিয়ে ভাগ",
+        "দিনকে বছরে রূপান্তরে 365 দিয়ে ভাগ",
+        "30 দিন = 1 মাস ধরা কিছু সমস্যায়",
+        "360 দিন = 1 ব্যাংক বছর"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-268",
+      "question": "8% হারে কোন আসল 2 বছরে সুদাসলে 11600 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "SI = 1600",
+        "P = 11000",
+        "SI = 600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-269",
+      "question": "6% হারে কোন আসল 3 বছরে সুদাসলে 11800 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "SI = 1800",
+        "P = 10200",
+        "SI = 1600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-270",
+      "question": "5% হারে কোন আসল 4 বছরে সুদাসলে 12000 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "SI = 2000",
+        "P = 9000",
+        "SI = 3000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-271",
+      "question": "10% হারে কোন আসল 2.5 বছরে সুদাসলে 12500 টাকা হলে:",
+      "options": [
+        "P = 10000",
+        "SI = 2500",
+        "P = 11000",
+        "SI = 1500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-272",
+      "question": "P = 5000, R = 12%, T = 1.5 বছর। SI:",
+      "options": [
+        "900 টাকা",
+        "A = 5900",
+        "SI = 600 টাকা",
+        "A = 5600"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-273",
+      "question": "P = 6500, R = 8%, T = 2.5 বছর। SI:",
+      "options": [
+        "1300 টাকা",
+        "A = 7800",
+        "SI = 1200 টাকা",
+        "A = 7700"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-274",
+      "question": "P = 8500, R = 6%, T = 3 বছর। SI:",
+      "options": [
+        "1530 টাকা",
+        "A = 10030",
+        "SI = 1500 টাকা",
+        "A = 10000"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-275",
+      "question": "P = 9500, R = 4%, T = 2 বছর। SI:",
+      "options": [
+        "760 টাকা",
+        "A = 10260",
+        "SI = 800 টাকা",
+        "A = 10300"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-276",
+      "question": "P = 3000, R = 9%, T = 2.5 বছর। SI:",
+      "options": [
+        "675 টাকা",
+        "A = 3675",
+        "SI = 650 টাকা",
+        "A = 3650"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-12-277",
+      "question": "4% হারে 4 বছরের SI 320 টাকা। P? একই P-এর 2 বছরে 6% হারে SI?",
+      "options": [
+        "P = 2000",
+        "SI = 240",
+        "P = 2500",
+        "SI = 300"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-278",
+      "question": "7% হারে 3 বছরের SI 420 টাকা। P? একই P-এর 5% হারে 4 বছরের SI?",
+      "options": [
+        "P = 2000",
+        "SI = 400",
+        "P = 1800",
+        "SI = 360"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-279",
+      "question": "9% হারে 2 বছরের SI 360 টাকা। P? একই P-এর 8% হারে 2.5 বছরের SI?",
+      "options": [
+        "P = 2000",
+        "SI = 400",
+        "P = 1800",
+        "SI = 360"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-12-280",
+      "question": "5% হারে 5 বছরের SI 500 টাকা। P? একই P-এর 2 বছরে 10% হারে SI?",
+      "options": [
+        "P = 2000",
+        "SI = 400",
+        "P = 2500",
+        "SI = 500"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "12-simple-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

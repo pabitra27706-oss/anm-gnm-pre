@@ -1,0 +1,1029 @@
+{
+  "subject": "logic",
+  "unit": "05-coding-decoding",
+  "unit_code": "05",
+  "total": 60,
+  "questions": [
+    {
+      "id": "l-05-001",
+      "question": "যদি \"CAT\" কে \"DBU\" লেখা হয়, তবে \"DOG\" কে কী লেখা হবে?",
+      "options": [
+        "EPH",
+        "EQP",
+        "FQI",
+        "EPG"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-002",
+      "question": "একটি নির্দিষ্ট কোড ভাষায় \"HAT\" কে \"JCX\" লেখা হয়। এই একই ভাষায় \"CAP\" কে কী লেখা হবে?",
+      "options": [
+        "ECR",
+        "ECS",
+        "EDS",
+        "ECT"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-003",
+      "question": "যদি \"MAN\" = 13114 হয়, তবে \"BAT\" = ?",
+      "options": [
+        "2120",
+        "3121",
+        "1220",
+        "22120"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-004",
+      "question": "যদি \"ROSE\" কে \"ESOR\" লেখা হয়, তবে \"LILY\" কে কী লেখা হবে?",
+      "options": [
+        "YLIL",
+        "ILYL",
+        "LYIL",
+        "YILL"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-05-005",
+      "question": "যদি A=1, B=2, C=3 হয়, তবে \"CAB\" এর যোগফল কত?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-05-006",
+      "question": "একটি কোড ভাষায় \"RED\" = @#$ এবং \"BLUE\" = !%^& হয়, তবে \"BED\" কে কী লেখা হবে?",
+      "options": [
+        "!@$",
+        "%#@",
+        "!@#",
+        "@#%"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-007",
+      "question": "যদি \"INDIA\" কে \"JOEJB\" লেখা হয়, তবে \"DELHI\" কে কী লেখা হবে?",
+      "options": [
+        "EFMIJ",
+        "EFMGI",
+        "EFMHI",
+        "EGLIJ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-008",
+      "question": "একটি নির্দিষ্ট কোডে \"JULY\" কে \"KTNZ\" লেখা হয়। \"JUNE\" কে কীভাবে লেখা হবে?",
+      "options": [
+        "KVOF",
+        "KUPF",
+        "KUOF",
+        "KVPE"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-009",
+      "question": "যদি \"APPLE\" = 11616125 হয়, তবে \"MANGO\" = ?",
+      "options": [
+        "13114715",
+        "14113715",
+        "13114716",
+        "12114715"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-010",
+      "question": "একটি ভাষায় \"PEN\" কে \"QFO\" এবং \"PAPER\" কে \"QBQFS\" লেখা হয়। \"INK\" কে কী লেখা হবে?",
+      "options": [
+        "JOL",
+        "JOM",
+        "JML",
+        "KNL"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-011",
+      "question": "যদি \"DELHI\" কে \"CDKGH\" লেখা হয়, তবে \"MUMBAI\" কে কী লেখা হবে?",
+      "options": [
+        "LTLAZH",
+        "LULAZH",
+        "LTLAZI",
+        "LTMAZH"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-012",
+      "question": "যদি A=Z, B=Y, C=X হয়, তবে \"CAT\" কে কী লেখা হবে?",
+      "options": [
+        "XZG",
+        "YZG",
+        "XZF",
+        "XAG"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-013",
+      "question": "একটি কোড ভাষায় \"123\" অর্থ \"CAT\", \"456\" অর্থ \"DOG\"। \"123456\" এর অর্থ কী?",
+      "options": [
+        "CATDOG",
+        "DOGCAT",
+        "CAT",
+        "DOG"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "l-05-014",
+      "question": "যদি \"MARCH\" কে \"OCVFI\" লেখা হয়, তবে \"JUNE\" কী হবে?",
+      "options": [
+        "LWPG",
+        "LVPF",
+        "LWPG",
+        "LVPG"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-015",
+      "question": "যদি \"PAINT\" = 16191420 হয়, তবে \"BRUSH\" = ?",
+      "options": [
+        "21821198",
+        "31821198",
+        "21822198",
+        "12821198"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-016",
+      "question": "যদি \"RAM\" কে \"SBN\" লেখা হয়, তবে \"SHYAM\" কে কী লেখা হবে?",
+      "options": [
+        "TIZBN",
+        "TIABM",
+        "TIZBM",
+        "TJABN"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-017",
+      "question": "একটি কোডে \"BAG\" = 27, \"CAT\" = 24, \"RAT\" এর মান কত?",
+      "options": [
+        "31",
+        "39",
+        "42",
+        "48"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-018",
+      "question": "যদি \"WORK\" কে \"XPSL\" এবং \"DONE\" কে \"EPOF\" লেখা হয়, তবে \"REST\" কে কী লেখা হবে?",
+      "options": [
+        "SFTU",
+        "SFTS",
+        "STFU",
+        "SFTT"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-019",
+      "question": "নিচের কোড ভাষায় \"DOG\" = 4157, \"CAT\" = 3120। \"HEN\" কত?",
+      "options": [
+        "8514",
+        "8415",
+        "8145",
+        "8513"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-020",
+      "question": "যদি \"SUCCESS\" কে \"TVDDDTT\" লেখা হয়, \"FAILURE\" কে কী লেখা হবে?",
+      "options": [
+        "GBJMVSF",
+        "GBJMVSF",
+        "GBIMVSE",
+        "GBJMVTG"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-021",
+      "question": "একটি নির্দিষ্ট কোডে \"APPLE\" কে \"BQQMF\" লেখা হয়। \"ORANGE\" কে কী লেখা হবে?",
+      "options": [
+        "PSBOHF",
+        "PTBOHF",
+        "PSBPHF",
+        "PTBPHF"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-022",
+      "question": "যদি \"FLOWER\" কে \"GMPXFS\" এবং \"GARDEN\" কে \"HBSEFO\" লেখা হয়, \"PLANT\" কোড কী?",
+      "options": [
+        "QMBOU",
+        "QMCPV",
+        "QMBPU",
+        "PMBOU"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-023",
+      "question": "যদি \"MOTHER\" = 1315208518 হয়, তবে \"FATHER\" = ?",
+      "options": [
+        "61208518",
+        "61208517",
+        "61218518",
+        "61208528"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-024",
+      "question": "একটি কোডে \"KEYBOARD\" কে লেখা হয় \"LDYANQPC\"। \"MOUSE\" কে কী লেখা হবে?",
+      "options": [
+        "KMTQC",
+        "KNTQC",
+        "KNTRD",
+        "KMSQD"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-025",
+      "question": "যদি \"ZEBRA\" কে \"YDAQZ\" এবং \"TIGER\" কে \"SHFDQ\" লেখা হয়, \"LION\" কে কী লেখা হবে?",
+      "options": [
+        "KHPM",
+        "KHPN",
+        "KHPO",
+        "KHNM"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-026",
+      "question": "যদি \"TABLE\" কে \"UCBKD\" লেখা হয় (শুধু স্বরবর্ণ -1, ব্যঞ্জনবর্ণ +1), তবে \"CHAIR\" কে কী লেখা হবে?",
+      "options": [
+        "DIBJS",
+        "DIBJQ",
+        "DJBIS",
+        "DIBHR"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-027",
+      "question": "যদি \"3, 1, 20\" = CAT হয়, তবে \"4, 15, 7\" = ?",
+      "options": [
+        "DOG",
+        "COW",
+        "FOX",
+        "DIG"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-028",
+      "question": "একটি ভাষায় \"COMPUTER\" কে \"RFUVQNPC\" লেখা হয়। \"SCIENCE\" কে কী লেখা হবে?",
+      "options": [
+        "ECNEICS",
+        "ECNEEIC",
+        "ECNEISD",
+        "DCNEICS"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-029",
+      "question": "যদি \"HUMAN\" = 82113114 হয় (অবস্থান অনুযায়ী), তবে \"BODY\" = ?",
+      "options": [
+        "215425",
+        "215426",
+        "225425",
+        "115425"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-030",
+      "question": "\"SCHOOL\" কে \"TDIPPM\" এবং \"COLLEGE\" কে \"DPMMFHF\" লেখা হয়। \"CLASS\" কী?",
+      "options": [
+        "DMBTT",
+        "DMBST",
+        "DKBTT",
+        "DKMBTT"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-031",
+      "question": "যদি \"RIGHT\" কে \"SJHIS\" এবং \"WRONG\" কে \"XSPOF\" লেখা হয়, তবে \"ERROR\" কে কী লেখা হবে?",
+      "options": [
+        "FSSPQ",
+        "FTTPQ",
+        "FTSPQ",
+        "FSSOQ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-032",
+      "question": "একটি অফিসে \"SECURITY\" কে \"TFDVSJUZ\" লেখা হয়। \"PASSWORD\" কে কী লেখা হবে?",
+      "options": [
+        "QBTTXPSE",
+        "QBTTWPSD",
+        "QBTUWPSE",
+        "QATTWPSE"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-033",
+      "question": "যদি A=26, B=25, C=24 হয়, তবে \"SUN\" = ?",
+      "options": [
+        "8+6+13 = 27",
+        "8+6+14 = 28",
+        "8+6+15 = 29",
+        "9+6+13 = 28"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-034",
+      "question": "যদি \"INDIA\" কে লেখা হয় \"HOCHZ\", তবে \"GREAT\" কে কী লেখা হবে?",
+      "options": [
+        "FQDZS",
+        "FQDBT",
+        "FQDZR",
+        "FRDZS"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-035",
+      "question": "একটি কোড ভাষায় \"HOSPITAL\" কে \"IPRQRZBO\" লেখা হয়। \"PATIENT\" কে কী লেখা হবে?",
+      "options": [
+        "QZUHDMS",
+        "QZUHDRM",
+        "QBUHDMS",
+        "QBUHDRM"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-036",
+      "question": "যদি \"2#3\" = 8, \"3@4\" = 13 হয়, তবে \"5#6\" = ?",
+      "options": [
+        "30",
+        "11",
+        "31",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-037",
+      "question": "যদি \"CITY\" = 392025, \"TOWN\" = ?",
+      "options": [
+        "20152314",
+        "20152214",
+        "20152315",
+        "20162314"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-038",
+      "question": "কোনো সাঙ্কেতিক ভাষায় \"MOVE\" কে \"NQWI\" এবং \"STOP\" কে \"TURS\" লেখা হয়। একই ভাষায় \"WALK\" কে কী লেখা হবে?",
+      "options": [
+        "XCNO",
+        "XCPM",
+        "XBNO",
+        "WBMP"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-039",
+      "question": "যদি \"A\" = 1, \"B\" = 4, \"C\" = 9, \"D\" = 16 হয়, তবে \"E\" = ?",
+      "options": [
+        "20",
+        "25",
+        "24",
+        "26"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-040",
+      "question": "\"RABBIT\" কে \"SBACJU\" লেখা হয়। \"FISH\" কে কী লেখা হবে?",
+      "options": [
+        "GJTI",
+        "GJRI",
+        "GJTH",
+        "GITJ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-041",
+      "question": "যদি \"CYCLE\" কে \"BXAKD\" লেখা হয়, তবে \"TRUCK\" কী হবে?",
+      "options": [
+        "SQTBL",
+        "SQTBJ",
+        "STTBL",
+        "SQLBJ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-042",
+      "question": "একটি ভাষায় \"BLACK\" = CMBDO, \"WHITE\" = XJSUF। \"GREEN\" = ?",
+      "options": [
+        "HSFFO",
+        "HRFDO",
+        "HSFDO",
+        "HRFFO"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-043",
+      "question": "যদি \"1A2B3C\" = \"ABC\" হয়, তবে \"4D5E6F\" = ?",
+      "options": [
+        "DEF",
+        "FED",
+        "DFE",
+        "EFD"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-044",
+      "question": "যদি \"SOLD\" = 1915124 এবং \"BOUGHT\" = 215217820 হয়, তবে \"ITEM\" = ?",
+      "options": [
+        "920513",
+        "1020513",
+        "1120513",
+        "920514"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-045",
+      "question": "যদি \"MONDAY\" কে \"OPQFCZ\" লেখা হয়, তবে \"FRIDAY\" কে কী লেখা হবে? (একাধিক পদ্ধতি)",
+      "options": [
+        "GSJFBZ",
+        "GTKEBZ",
+        "GTKFCA",
+        "GSJEBA"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-046",
+      "question": "একটি ভাষায় \"CAR\" = 3118, \"VAN\" = 22114, \"BUS\" = ?",
+      "options": [
+        "22119",
+        "32119",
+        "21219",
+        "22219"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-047",
+      "question": "যদি \"ELEPHANT\" কে \"FMGPIBOU\" এবং \"TIGER\" কে \"UJIFS\" লেখা হয়, তবে \"ZEBRA\" কে কী লেখা হবে?",
+      "options": [
+        "AFCSB",
+        "ADCSB",
+        "AFDSB",
+        "AFCRB"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "l-05-048",
+      "question": "যদি \"DRIVER\" = 6, \"PEDAL\" = 5, \"STEERING\" = ?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "l-05-049",
+      "question": "নিচের কোড ভাষায় সঠিক সম্পর্ক কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "\"A\" = \"Z\" (Reverse coding)",
+        "\"ABC\" = \"BCD\" (+1 Shift)",
+        "\"CAR\" = 3118",
+        "\"SCHOOL\" = LOOHCS"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-050",
+      "question": "নিচের কোনগুলি +2 Shift coding এর উদাহরণ? (একাধিক উত্তর)",
+      "options": [
+        "CAT → ECV",
+        "DOG → FQI",
+        "BAT → DCV",
+        "RAT → TCU"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-051",
+      "question": "যদি \"LAMP\" কে \"MBQQ\" লেখা হয় (+1 shift) তাহলে সঠিক কোডিং কোনটি? (একাধিক উত্তর)",
+      "options": [
+        "TABLE → UBCMF",
+        "CHAIR → DIBJS",
+        "PEN → QFO",
+        "BAG → CBH"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-052",
+      "question": "স্থান মান (A=1, B=2...) অনুযায়ী কোন ভ্যালু সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "DOG = 4157",
+        "CAT = 3120",
+        "ALL = 11212",
+        "CAR = 3118"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-053",
+      "question": "যদি \"HEN\" কে \"GFM\" ( -1 shift) লেখা হয়, তবে সঠিক কোডিং কোনগুলি? (একাধিক উত্তর)",
+      "options": [
+        "COW → BNV",
+        "RAT → QZS",
+        "PEN → ODM",
+        "DOG → CPF"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-054",
+      "question": "যদি বিপরীত ক্রম (Reverse) এ লেখা হয়, কোনগুলি সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "BIG → GIB",
+        "TEN → NET",
+        "LIVE → EVIL",
+        "DOOR → ROOD"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-055",
+      "question": "একটি কোডিং এ \"NURSING\" কে \"OVSTJOH\" লেখা হয়। কোন কোডিং সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "CARE → DBFS",
+        "HEAL → IFBM",
+        "DOSE → EPTF",
+        "WARD → XBSE"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-056",
+      "question": "প্রদত্ত \"MATH\" = 131208, নিচের কোনটি সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "HAT = 8120",
+        "BAT = 2120",
+        "RAT = 18120",
+        "PAT = 16120"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-057",
+      "question": "নিচের কোনটি Vowel-Consonant পরিবর্তনের ক্ষেত্রে সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "MAN → NBO",
+        "TOP → UPQ",
+        "ELEPHANT → FMFQIBOU",
+        "RUN → SVO"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-05-058",
+      "question": "নিচের কোন কোডিং এ ব্যবহৃত পদ্ধতি সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "5,15,21,18 = HOUSE",
+        "3,1,18 = CAR",
+        "4,15,7 = DOG",
+        "8,1,20 = HAT"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "l-05-059",
+      "question": "যদি RED = 1854, তবে নিচের কোন সম্পর্ক সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "BLUE = 212215",
+        "GREEN = 7185514",
+        "PINK = 1691411",
+        "BLACK = 2121311"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "l-05-060",
+      "question": "নিচের কোন গ্রুপের কোডিং সঠিক? (একাধিক উত্তর)",
+      "options": [
+        "HOSPITAL → IPTJUBN (+1)",
+        "NURSE → OVSTF (+1)",
+        "DOCTOR → EPDUPS (+1)",
+        "PATIENT → QBUJFOU (+1)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "logic",
+      "unit": "05-coding-decoding",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}

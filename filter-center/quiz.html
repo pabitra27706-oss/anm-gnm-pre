@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+  <title>কাস্টম কুইজ — WB ANM GNM 2026</title>
+  <link rel="stylesheet" href="./css/quiz.css" />
+</head>
+<body>
+
+<header class="quiz-header">
+  <div class="header-left">
+    <button class="exit-btn" id="exitBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <div class="title-wrap"><div class="quiz-title" id="headerTitle">কাস্টম কুইজ</div><div class="quiz-sub" id="headerSubtitle">প্রশ্ন লোড হচ্ছে...</div></div>
+  </div>
+  <div class="timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span id="timerText">০০:০০</span></div>
+</header>
+
+<div class="progress-row">
+  <div class="progress-bar-container"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="question-counter" id="questionCounter">০/০</div>
+  <button class="palette-toggle" id="paletteToggleBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>তালিকা</button>
+</div>
+
+<div class="swipe-container" id="swipeContainer">
+  <div class="question-swipe-area" id="questionSwipeArea"></div>
+</div>
+
+<div class="palette-overlay" id="paletteOverlay">
+  <div class="palette-drawer">
+    <div class="palette-header"><span>📌 সব প্রশ্ন</span><button class="close-palette" id="closePaletteBtn">&times;</button></div>
+    <div class="palette-grid" id="paletteGrid"></div>
+  </div>
+</div>
+
+<div id="resultContainer" class="result-container"></div>
+<div id="loadingState" class="loading-state"><div>⏳ প্রশ্ন লোড হচ্ছে...</div></div>
+
+<script src="./js/filter-history.js"></script>
+<script src="./js/quiz-app.js"></script>
+</body>
+</html>

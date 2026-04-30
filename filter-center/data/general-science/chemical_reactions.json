@@ -1,0 +1,4381 @@
+{
+  "subject": "physics",
+  "unit": "04-chemical-reactions",
+  "unit_code": "04",
+  "total": 250,
+  "questions": [
+    {
+      "id": "p-04-001",
+      "question": "রাসায়নিক বিক্রিয়ায় যে সকল পদার্থ অংশগ্রহণ করে তাদের কী বলা হয়?",
+      "options": [
+        "Product",
+        "Reactant",
+        "Catalyst",
+        "Enzyme"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-002",
+      "question": "ভরের সংরক্ষণ সূত্র (Law of Conservation of Mass) অনুযায়ী—",
+      "options": [
+        "বিক্রিয়কের মোট ভর > বিক্রিয়াজাত পদার্থের মোট ভর",
+        "বিক্রিয়কের মোট ভর < বিক্রিয়াজাত পদার্থের মোট ভর",
+        "বিক্রিয়কের মোট ভর = বিক্রিয়াজাত পদার্থের মোট ভর",
+        "ভরের কোনো নির্দিষ্ট নিয়ম নেই"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-003",
+      "question": "[NUMERICAL] H₂O এর মোলার ভর (Molar Mass) কত?",
+      "options": [
+        "16 g/mol",
+        "18 g/mol",
+        "20 g/mol",
+        "10 g/mol"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-004",
+      "question": "যে বিক্রিয়ায় দুই বা ততোধিক পদার্থ যুক্ত হয়ে একটি মাত্র নতুন পদার্থ উৎপন্ন করে তাকে কী বলে?",
+      "options": [
+        "Combination reaction",
+        "Decomposition reaction",
+        "Displacement reaction",
+        "Double displacement reaction"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-005",
+      "question": "2H₂ + O₂ → 2H₂O — এই বিক্রিয়াটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Decomposition",
+        "Combination",
+        "Displacement",
+        "Redox"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-006",
+      "question": "নীচের কোন বিক্রিয়াটিতে তাপ নির্গত হয়?",
+      "options": [
+        "Endothermic reaction",
+        "Exothermic reaction",
+        "Photosynthesis",
+        "Electrolysis"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-007",
+      "question": "শ্বসন (Respiration) একটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Endothermic",
+        "Exothermic",
+        "Decomposition",
+        "Reduction"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-008",
+      "question": "[NUMERICAL] 1 mole কার্বন ডাই অক্সাইড (CO₂) এর ভর কত?",
+      "options": [
+        "12 g",
+        "32 g",
+        "44 g",
+        "28 g"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-009",
+      "question": "কোনো পদার্থের সাথে অক্সিজেন যুক্ত হওয়াকে কী বলা হয়?",
+      "options": [
+        "Reduction",
+        "Oxidation",
+        "Hydration",
+        "Neutralization"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-010",
+      "question": "2Mg + O₂ → 2MgO বিক্রিয়াটিতে ম্যাগনেসিয়ামের কী ঘটেছে?",
+      "options": [
+        "জারণ (Oxidation)",
+        "বিজারণ (Reduction)",
+        "বিয়োজন",
+        "কোনো পরিবর্তন হয়নি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-011",
+      "question": "আর্গন (Ar) এর আণবিক ভর 40 হলে, 80 g আর্গনে কত মোল পরমাণু আছে?",
+      "options": [
+        "1 mole",
+        "2 mole",
+        "3 mole",
+        "0.5 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-012",
+      "question": "কপার সালফেট (CuSO₄) দ্রবণে একটি লোহার পেরেক ডুবালে লোহার পেরেকের ওপর বাদামী আস্তরণ পড়ে। এটি কোন বিক্রিয়ার উদাহরণ?",
+      "options": [
+        "Combination",
+        "Displacement",
+        "Double displacement",
+        "Neutralization"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-013",
+      "question": "Fe + CuSO₄ → FeSO₄ + Cu বিক্রিয়াটিতে কোন ধাতু বেশি সক্রিয়?",
+      "options": [
+        "Cu",
+        "Fe",
+        "উভয়ই সমান",
+        "SO₄"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-014",
+      "question": "জারণ-বিজারণ বিক্রিয়াকে একত্রে কী বলা হয়?",
+      "options": [
+        "Addition reaction",
+        "Redox reaction",
+        "Substitution reaction",
+        "Precipitation reaction"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-015",
+      "question": "[NUMERICAL] Avogadro's Number (N) এর মান কত?",
+      "options": [
+        "6.022 × 10²³",
+        "6.022 × 10²²",
+        "6.022 × 10²¹",
+        "1.66 × 10⁻²⁴"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-016",
+      "question": "নীচের কোনটি একটি বিয়োজন বিক্রিয়া (Decomposition reaction)?",
+      "options": [
+        "C + O₂ → CO₂",
+        "CaCO₃ → CaO + CO₂",
+        "H₂ + Cl₂ → 2HCl",
+        "NaOH + HCl → NaCl + H₂O"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-017",
+      "question": "রেশিও বা তামাটে লোহার ওপর মরিচা (Rusting) পড়ার রাসায়নিক সংকেত কোনটি?",
+      "options": [
+        "FeO",
+        "Fe₂O₃",
+        "Fe₃O₄",
+        "Fe(OH)₃"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-018",
+      "question": "সালফিউরিক অ্যাসিড (H₂SO₄) এর আণবিক ভর কত?",
+      "options": [
+        "49 g",
+        "98 g",
+        "100 g",
+        "80 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-019",
+      "question": "Zn + CuSO₄ → ZnSO₄ + Cu বিক্রিয়াটিতে জিঙ্ক কপারকে প্রতিস্থাপিত করতে পারে কারণ—",
+      "options": [
+        "জিঙ্ক কপারের চেয়ে কম সক্রিয়",
+        "জিঙ্ক কপারের চেয়ে বেশি সক্রিয়",
+        "জিঙ্ক একটি অধাতু",
+        "কপার একটি তরল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-020",
+      "question": "[NUMERICAL] 5.85 g NaCl এ কত মোল NaCl আছে? (Na=23, Cl=35.5)",
+      "options": [
+        "1 mole",
+        "0.1 mole",
+        "0.5 mole",
+        "10 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-021",
+      "question": "অম্ল ও ক্ষারের বিক্রিয়ায় লবণ ও জল উৎপন্ন হওয়াকে কী বলা হয়?",
+      "options": [
+        "Oxidation",
+        "Reduction",
+        "Neutralization",
+        "Fermentation"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-022",
+      "question": "সালোকসংশ্লেষ (Photosynthesis) কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Exothermic",
+        "Endothermic",
+        "Combustion",
+        "Displacement"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-023",
+      "question": "রাসায়নিক বিক্রিয়ার গতি বৃদ্ধি বা হ্রাস করে কিন্তু নিজে অপরিবর্তিত থাকে তাকে কী বলে?",
+      "options": [
+        "Reactant",
+        "Product",
+        "Catalyst",
+        "Solute"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-024",
+      "question": "মানবদেহে রাসায়নিক বিক্রিয়া নিয়ন্ত্রণে কাজ করে এমন জৈব অনুঘটককে (Organic catalyst) কী বলা হয়?",
+      "options": [
+        "Hormone",
+        "Enzyme",
+        "Vitamin",
+        "Mineral"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-025",
+      "question": "[NUMERICAL] 2 mole H₂O তে কতগুলি অণু থাকে?",
+      "options": [
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "3.011 × 10²³",
+        "1.66 × 10²³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-026",
+      "question": "চর্বিযুক্ত খাদ্যে জারণের ফলে দুর্গন্ধ তৈরি হওয়াকে কী বলা হয়?",
+      "options": [
+        "Corrosion",
+        "Rancidity",
+        "Fermentation",
+        "Reduction"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-027",
+      "question": "N₂ + 3H₂ → 2NH₃ — এই সমীকরণটি কোন সূত্রের ওপর ভিত্তি করে ব্যালেন্স করা হয়েছে?",
+      "options": [
+        "Law of constant proportions",
+        "Law of conservation of mass",
+        "Avogadro's law",
+        "Boyle's law"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-028",
+      "question": "AgNO₃ + NaCl → AgCl↓ + NaNO₃ — এই বিক্রিয়াটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Double displacement",
+        "Combination",
+        "Displacement",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-029",
+      "question": "[NUMERICAL] 90 g জলে কত মোল হাইড্রোজেন পরমাণু আছে?",
+      "options": [
+        "5 mole",
+        "10 mole",
+        "2 mole",
+        "1 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-030",
+      "question": "সক্রিয়তা শ্রেণিতে (Reactivity series) কোন ধাতুটির সক্রিয়তা সবচেয়ে বেশি?",
+      "options": [
+        "Na",
+        "K",
+        "Au",
+        "Fe"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-031",
+      "question": "[NUMERICAL] 16 g অক্সিজেনে (O₂) কতগুলি অণু বর্তমান?",
+      "options": [
+        "6.022 × 10²³",
+        "3.011 × 10²³",
+        "1.204 × 10²⁴",
+        "6.022 × 10²²"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-032",
+      "question": "মোলের সংখ্যা (Number of moles) বের করার সঠিক সূত্রটি কী?",
+      "options": [
+        "ভর / আণবিক ভর",
+        "আণবিক ভর / ভর",
+        "ভর × আণবিক ভর",
+        "ভর + আণবিক ভর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-033",
+      "question": "কোনো বিক্রিয়ায় ইলেকট্রন বর্জন করাকে কী বলা হয়?",
+      "options": [
+        "জারণ (Oxidation)",
+        "বিজারণ (Reduction)",
+        "যোজন",
+        "প্রসমন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-034",
+      "question": "4Fe + 3O₂ → 2Fe₂O₃ — এই বিক্রিয়াটি কোন পদ্ধতির উদাহরণ?",
+      "options": [
+        "Corrosion (Rusting)",
+        "Rancidity",
+        "Photosynthesis",
+        "Neutralization"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-035",
+      "question": "[NUMERICAL] মিথেন (CH₄) এর শতকরা কত ভাগ কার্বন আছে? (C=12, H=1)",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "80%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-036",
+      "question": "অ্যামোনিয়া তৈরির হেবার পদ্ধতিতে (Haber process) উদ্দীপক হিসেবে কী ব্যবহৃত হয়?",
+      "options": [
+        "Fe",
+        "Mo (Molybdenum)",
+        "Pt",
+        "Ni"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-037",
+      "question": "Na, Mg, Al, K — এদের মধ্যে সবচেয়ে কম সক্রিয় ধাতু কোনটি?",
+      "options": [
+        "Na",
+        "Mg",
+        "Al",
+        "K"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-038",
+      "question": "লেড নাইট্রেট (Pb(NO₃)₂) কে উত্তপ্ত করলে কোন রঙের গ্যাস নির্গত হয়?",
+      "options": [
+        "বর্ণহীন",
+        "বাদামী (NO₂)",
+        "সবুজ",
+        "নীল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-039",
+      "question": "[NUMERICAL] STP-তে 22.4 L আয়তনের কার্বন ডাই অক্সাইডের অণু সংখ্যা কত?",
+      "options": [
+        "3.011 × 10²³",
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "10²³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-040",
+      "question": "একটি অধাতু যা তড়িৎ পরিবহন করে এবং অনুঘটক হিসেবেও ব্যবহৃত হতে পারে—",
+      "options": [
+        "সালফার",
+        "গ্রাফাইট",
+        "ফসফরাস",
+        "আয়োডিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-041",
+      "question": "জারণ বিক্রিয়ায় পদার্থের জারণ সংখ্যা (Oxidation Number)—",
+      "options": [
+        "বৃদ্ধি পায়",
+        "হ্রাস পায়",
+        "একই থাকে",
+        "শূন্য হয়ে যায়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-042",
+      "question": "[NUMERICAL] 2 mole H₂SO₄ এর ভর কত?",
+      "options": [
+        "98 g",
+        "196 g",
+        "49 g",
+        "100 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-043",
+      "question": "নীচের কোনটি একটি অধঃক্ষেপণ বিক্রিয়া (Precipitation reaction)?",
+      "options": [
+        "HCl + NaOH → NaCl + H₂O",
+        "BaCl₂ + H₂SO₄ → BaSO₄↓ + 2HCl",
+        "H₂ + I₂ → 2HI",
+        "2KClO₃ → 2KCl + 3O₂"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-044",
+      "question": "স্টয়সিওমেট্রি (Stoichiometry) মূলত কীসের ওপর ভিত্তি করে কাজ করে?",
+      "options": [
+        "বিক্রিয়ক ও বিক্রিয়াজাত পদার্থের পরিমাপ",
+        "অণুর বর্ণ",
+        "অনুঘটকের ওজন",
+        "পাত্রের আকার"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-045",
+      "question": "[NUMERICAL] CO₂ অণুতে C এবং O এর ভরের অনুপাত কত?",
+      "options": [
+        "1:2",
+        "3:8",
+        "8:3",
+        "12:16"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-046",
+      "question": "আলুর চিপসের প্যাকেটে জারণ রোধ করার জন্য কোন গ্যাস ভরা থাকে?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "Chlorine"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-047",
+      "question": "হাইড্রোজেনের সাথে অন্য কোনো পদার্থের সংযোগকে কী বলা হয়?",
+      "options": [
+        "জারণ",
+        "বিজারণ (Reduction)",
+        "দহন",
+        "বিয়োজন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-048",
+      "question": "[NUMERICAL] 1 mole ইলেকট্রনের আধান (Charge) কত? (প্রায়)",
+      "options": [
+        "96500 C",
+        "1.6 × 10⁻¹⁹ C",
+        "6.022 × 10²³ C",
+        "1 C"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-049",
+      "question": "কপার অক্সাইডের ওপর দিয়ে হাইড্রোজেন গ্যাস চালনা করলে (CuO + H₂ → Cu + H₂O), এখানে কোনটি বিজারক পদার্থ?",
+      "options": [
+        "CuO",
+        "H₂",
+        "Cu",
+        "H₂O"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-050",
+      "question": "মোলার আয়তন (Molar Volume) STP-তে কত লিটার হয়?",
+      "options": [
+        "11.2 L",
+        "22.4 L",
+        "44.8 L",
+        "10 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-051",
+      "question": "যে সকল রাসায়নিক সমীকরণে বিক্রিয়ক ও বিক্রিয়াজাত উভয় পার্শ্বে প্রতিটি মৌলের পরমাণু সংখ্যা সমান থাকে তাকে কী বলে?",
+      "options": [
+        "Skeleton equation",
+        "Balanced equation",
+        "Unbalanced equation",
+        "Primary equation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-052",
+      "question": "[NUMERICAL] 3 mole অক্সিজেনের ভর কত? (O=16)",
+      "options": [
+        "48 g",
+        "96 g",
+        "32 g",
+        "16 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-053",
+      "question": "লোহার ওপর দস্তার প্রলেপ দেওয়াকে কী বলা হয়?",
+      "options": [
+        "জারণ",
+        "গ্যালভানাইজেশন (Galvanization)",
+        "তড়িৎ বিশ্লেষণ",
+        "দহন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-054",
+      "question": "রাসায়নিক বিক্রিয়ার ক্ষেত্রে নীচের কোনটি সঠিক নয়?",
+      "options": [
+        "নতুন পদার্থের সৃষ্টি হয়",
+        "শক্তির আদান-প্রদান ঘটে",
+        "অণুগুলির পরমাণুর পুনর্বিন্যাস ঘটে",
+        "ভরের পরিবর্তন ঘটে"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-055",
+      "question": "[NUMERICAL] 22 g কার্বন ডাই অক্সাইডে কত মোল CO₂ আছে?",
+      "options": [
+        "1 mole",
+        "0.5 mole",
+        "2 mole",
+        "0.2 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-056",
+      "question": "চুনাপাথরকে (CaCO₃) উত্তপ্ত করলে পোড়াচুন (CaO) ও কার্বন ডাই অক্সাইড তৈরি হয়। এটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Thermal decomposition",
+        "Electrolytic decomposition",
+        "Photolytic decomposition",
+        "Combination"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-057",
+      "question": "সালফিউরিক অ্যাসিডে কতগুলি হাইড্রোজেন পরমাণু থাকে?",
+      "options": [
+        "1টি",
+        "2টি",
+        "3টি",
+        "4টি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-058",
+      "question": "[NUMERICAL] 4 g হাইড্রোজেন (H₂) এ কতগুলি অণু আছে? (H=1)",
+      "options": [
+        "N",
+        "2N",
+        "4N",
+        "N/2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-059",
+      "question": "ফিনাইলফথ্যালিন ক্ষারীয় দ্রবণে কোন বর্ণ ধারণ করে?",
+      "options": [
+        "লাল",
+        "গোলাপি",
+        "হলুদ",
+        "নীল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-060",
+      "question": "HCl + NaOH → NaCl + H₂O — এই বিক্রিয়াটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Precipitation",
+        "Double displacement",
+        "Decomposition",
+        "Combination"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-061",
+      "question": "[NUMERICAL] গ্লুকোজের (C₆H₁₂O₆) মোলার ভর কত? (C=12, H=1, O=16)",
+      "options": [
+        "100 g/mol",
+        "150 g/mol",
+        "180 g/mol",
+        "200 g/mol"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-062",
+      "question": "সিলভার ক্লোরাইড (AgCl) সূর্যের আলোয় ধূসর বর্ণ ধারণ করে। এটি কী ধরনের বিক্রিয়া?",
+      "options": [
+        "Photochemical decomposition",
+        "Thermal combination",
+        "Redox",
+        "Displacement"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-063",
+      "question": "জারণ এবং বিজারণ কি একই সাথে ঘটে?",
+      "options": [
+        "হ্যাঁ",
+        "না",
+        "কেবল উচ্চ তাপমাত্রায় ঘটে",
+        "কেবল তরল মাধ্যমে ঘটে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-064",
+      "question": "[NUMERICAL] 1.7 g অ্যামোনিয়াতে (NH₃) কত মোল অ্যামোনিয়া আছে? (N=14, H=1)",
+      "options": [
+        "0.1 mole",
+        "1 mole",
+        "0.01 mole",
+        "10 mole"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-065",
+      "question": "পটাশিয়াম ক্লোরেটকে (KClO₃) উত্তপ্ত করলে অক্সিজেন পাওয়া যায়। এখানে অনুঘটক হিসেবে কোনটি কাজ করে?",
+      "options": [
+        "Fe",
+        "MnO₂",
+        "V₂O₅",
+        "Ni"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-066",
+      "question": "একটি ধাতুর নাম কর যা অ্যাসিড থেকে হাইড্রোজেন প্রতিস্থাপিত করতে পারে না—",
+      "options": [
+        "Zn",
+        "Mg",
+        "Cu",
+        "Fe"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-067",
+      "question": "[NUMERICAL] 3 mole জলে কত গ্রাম অক্সিজেন আছে?",
+      "options": [
+        "16 g",
+        "32 g",
+        "48 g",
+        "54 g"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-068",
+      "question": "রান্নার গ্যাসের প্রধান উপাদান কোনটি?",
+      "options": [
+        "মিথেন",
+        "বিউটেন",
+        "ইথেন",
+        "হাইড্রোজেন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-069",
+      "question": "ম্যাগনেসিয়াম ফিতাকে দহন করলে কী বর্ণের শিখা উৎপন্ন হয়?",
+      "options": [
+        "লাল",
+        "নীল",
+        "উজ্জ্বল সাদা",
+        "হলুদ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-070",
+      "question": "[NUMERICAL] 1 mole কার্বন পরমাণুর সংখ্যা কত?",
+      "options": [
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "3.011 × 10²³",
+        "10²³"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-071",
+      "question": "তামা ও টিনের মিশ্রণকে (ব্রোঞ্জ) কী বলা হয়?",
+      "options": [
+        "সংকর ধাতু (Alloy)",
+        "যৌগ",
+        "মৌল",
+        "অনুঘটক"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-072",
+      "question": "[NUMERICAL] 5 mole অক্সিজেনের অণুর ভর কত? (O=16)",
+      "options": [
+        "80 g",
+        "160 g",
+        "320 g",
+        "40 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-073",
+      "question": "এনজাইম বা উৎসেচক মূলত কী দিয়ে গঠিত?",
+      "options": [
+        "ফ্যাট",
+        "প্রোটিন",
+        "কার্বোহাইড্রেট",
+        "ভিটামিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-074",
+      "question": "মিথেনের (CH₄) দহনে কী কী উৎপন্ন হয়?",
+      "options": [
+        "CO₂ + H₂O + Heat",
+        "C + H₂",
+        "CO + H₂",
+        "কেবল জল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-075",
+      "question": "[NUMERICAL] 11.2 L হিলিয়াম গ্যাসে (STP) কত মোল হিলিয়াম আছে?",
+      "options": [
+        "1 mole",
+        "0.5 mole",
+        "2 mole",
+        "0.1 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-076",
+      "question": "সালফারের একটি পরমাণুর ভর অক্সিজেনের একটি পরমাণুর ভরের কত গুণ? (S=32, O=16)",
+      "options": [
+        "1 গুণ",
+        "2 গুণ",
+        "4 গুণ",
+        "অর্ধেক"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-077",
+      "question": "হাইড্রোজেন সালফাইডের (H₂S) গন্ধ কেমন?",
+      "options": [
+        "সুগন্ধি",
+        "পচা ডিমের মতো",
+        "ঝাঁঝালো",
+        "কোনো গন্ধ নেই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-078",
+      "question": "[NUMERICAL] 10 g ক্যালসিয়াম কার্বনেটে কত মোল CaCO₃ আছে? (Ca=40, C=12, O=16)",
+      "options": [
+        "1 mole",
+        "0.1 mole",
+        "0.01 mole",
+        "0.5 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-079",
+      "question": "পটাশিয়াম ধাতু জলের সাথে বিক্রিয়া করে কোন গ্যাস উৎপন্ন করে?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Chlorine"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-080",
+      "question": "একটি গ্যাসের বাষ্প ঘনত্ব (Vapour Density) 14 হলে, তার আণবিক ভর কত?",
+      "options": [
+        "7",
+        "14",
+        "28",
+        "42"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-081",
+      "question": "অ্যামোনিয়া গ্যাসকে শুষ্ক করতে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "গাঢ় H₂SO₄",
+        "P₂O₅",
+        "পোড়াচুন (CaO)",
+        "CaCl₂"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-082",
+      "question": "[NUMERICAL] 34 g অ্যামোনিয়াতে (NH₃) কতগুলি হাইড্রোজেন পরমাণু আছে?",
+      "options": [
+        "3 × N",
+        "6 × N",
+        "1 × N",
+        "2 × N"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-083",
+      "question": "ক্লোরিন গ্যাসের বর্ণ কীরূপ?",
+      "options": [
+        "লালচে বাদামী",
+        "সবুজায়িত হলুদ",
+        "নীল",
+        "বর্ণহীন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-084",
+      "question": "ভিনিগারের রাসায়নিক নাম কী?",
+      "options": [
+        "লঘু অ্যাসিটিক অ্যাসিড",
+        "লঘু হাইড্রোক্লোরিক অ্যাসিড",
+        "লঘু সালফিউরিক অ্যাসিড",
+        "সোডিয়াম বাইকার্বনেট"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-085",
+      "question": "[NUMERICAL] 0.5 mole CO₂ তে কতগুলি অণু থাকে?",
+      "options": [
+        "6.022 × 10²³",
+        "3.011 × 10²³",
+        "1.204 × 10²⁴",
+        "10²³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-086",
+      "question": "অ্যাসিড ও ক্ষারের বিক্রিয়ায় লবণ ও জল তৈরি হয়, একে প্রসমন বিক্রিয়া বলে। এটি কোন ধরনের পরিবর্তনের উদাহরণ?",
+      "options": [
+        "ভৌত পরিবর্তন",
+        "রাসায়নিক পরিবর্তন",
+        "কোনো পরিবর্তন নয়",
+        "জৈবিক পরিবর্তন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-087",
+      "question": "স্টেনলেস স্টিল তৈরিতে লোহার সাথে কী মেশানো হয়?",
+      "options": [
+        "দস্তা",
+        "ক্রোমিয়াম ও নিকেল",
+        "তামা",
+        "টিন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-088",
+      "question": "[NUMERICAL] সোডিয়াম বাইকার্বনেটের (NaHCO₃) মোলার ভর কত? (Na=23, H=1, C=12, O=16)",
+      "options": [
+        "84 g/mol",
+        "106 g/mol",
+        "40 g/mol",
+        "58.5 g/mol"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-089",
+      "question": "একটি উদগ্রাহী (Deliquescent) পদার্থ কোনটি যা বাতাস থেকে জলীয় বাষ্প শোষণ করে?",
+      "options": [
+        "সাধারণ লবণ",
+        "কস্টিক সোডা (NaOH)",
+        "বালি",
+        "চিনি"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-090",
+      "question": "হাইড্রোজেন পারঅক্সাইড (H₂O₂) বিয়োজিত হয়ে কী কী উৎপন্ন করে?",
+      "options": [
+        "H₂ + O₂",
+        "H₂O + O₂",
+        "H₂ + H₂O",
+        "কেবল অক্সিজেন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-091",
+      "question": "[NUMERICAL] STP-তে 1.4 g Nitrogen (N₂) গ্যাসের আয়তন কত?",
+      "options": [
+        "2.24 L",
+        "1.12 L",
+        "0.56 L",
+        "22.4 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-092",
+      "question": "মোলের সংজ্ঞায় কোন মৌলের একটি আইসোটোপকে প্রমাণ হিসেবে ধরা হয়?",
+      "options": [
+        "Hydrogen-1",
+        "Carbon-12",
+        "Oxygen-16",
+        "Nitrogen-14"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-093",
+      "question": "লোহায় মরিচা ধরা কোন ধরনের জারণ?",
+      "options": [
+        "দ্রুত জারণ",
+        "ধীর জারণ",
+        "দহন",
+        "কোনোটিই নয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-094",
+      "question": "[NUMERICAL] 1 mole জলে কতগুলি হাইড্রোজেন পরমাণু থাকে?",
+      "options": [
+        "6.022 × 10²³",
+        "12.044 × 10²³",
+        "1.204 × 10²³",
+        "3.011 × 10²³"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-095",
+      "question": "মোমবাতির দহন—",
+      "options": [
+        "কেবল ভৌত পরিবর্তন",
+        "কেবল রাসায়নিক পরিবর্তন",
+        "ভৌত ও রাসায়নিক উভয় পরিবর্তন",
+        "কোনো পরিবর্তন নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-096",
+      "question": "সবচেয়ে হালকা মৌল কোনটি?",
+      "options": [
+        "হিলিয়াম",
+        "হাইড্রোজেন",
+        "লিথিয়াম",
+        "অক্সিজেন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-097",
+      "question": "[NUMERICAL] 44.8 L কার্বন ডাই অক্সাইডে (STP) কত মোল অণু বর্তমান?",
+      "options": [
+        "1 mole",
+        "2 mole",
+        "3 mole",
+        "0.5 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-098",
+      "question": "নীচের কোনটি বিজারক গ্যাস?",
+      "options": [
+        "O₂",
+        "H₂S",
+        "Cl₂",
+        "O₃"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-099",
+      "question": "তুঁতের (Blue Vitriol) রাসায়নিক নাম কী?",
+      "options": [
+        "ফেরাস সালফেট",
+        "কপার সালফেট",
+        "ম্যাগনেসিয়াম সালফেট",
+        "ক্যালসিয়াম সালফেট"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-100",
+      "question": "[NUMERICAL] 180 g জলে কত মোল জল বর্তমান?",
+      "options": [
+        "1 mole",
+        "10 mole",
+        "18 mole",
+        "100 mole"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-101",
+      "question": "রাসায়নিক সমীকরণ ব্যালেন্স করার সময় কোনটির পরিবর্তন করা যাবে না?",
+      "options": [
+        "Coefficient",
+        "Subscript (সংকেতের নিচের সংখ্যা)",
+        "বিক্রিয়কের সংখ্যা",
+        "বিক্রিয়াজাত পদার্থের সংখ্যা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-102",
+      "question": "[NUMERICAL] 100 g ক্যালসিয়াম কার্বনেটকে তীব্রভাবে উত্তপ্ত করলে কত গ্রাম ক্যালসিয়াম অক্সাইড (CaO) পাওয়া যাবে? (Ca=40, C=12, O=16)",
+      "options": [
+        "40 g",
+        "56 g",
+        "100 g",
+        "44 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-103",
+      "question": "রাসায়নিক সক্রিয়তা শ্রেণিতে হাইড্রোজেনের ঠিক ওপরে অবস্থিত ধাতু কোনটি?",
+      "options": [
+        "Cu",
+        "Pb",
+        "Zn",
+        "Mg"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-104",
+      "question": "একটি মৃদু তড়িৎবিশ্লেষ্য পদার্থের উদাহরণ হলো—",
+      "options": [
+        "NaCl",
+        "HCl",
+        "CH3COOH (অ্যাসিটিক অ্যাসিড)",
+        "NaOH"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-105",
+      "question": "[NUMERICAL] 5 mole কার্বন পরমাণুর ভর কত?",
+      "options": [
+        "12 g",
+        "60 g",
+        "120 g",
+        "32 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-106",
+      "question": "কোল গ্যাস (Coal gas) তৈরিতে অনুঘটক হিসেবে কী ব্যবহৃত হয়?",
+      "options": [
+        "Fe",
+        "Pt",
+        "Ni",
+        "Cu"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-107",
+      "question": "সিলভার নাইট্রেট দ্রবণে তামা যোগ করলে দ্রবণটি নীল হয়ে যায় কারণ—",
+      "options": [
+        "কপার জারিত হয়",
+        "সিলভার জারিত হয়",
+        "নাইট্রেট আয়ন বিজারিত হয়",
+        "তামা বিজারিত হয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-108",
+      "question": "[NUMERICAL] 1 mole অক্সিজেনে (O2) কত গ্রাম অক্সিজেন পরমাণু থাকে?",
+      "options": [
+        "16 g",
+        "32 g",
+        "8 g",
+        "64 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-109",
+      "question": "লোহার মোরচে ধরা বন্ধ করতে তেল মাখানো হয় কেন?",
+      "options": [
+        "এটি লোহার উজ্জ্বলতা বাড়ায়",
+        "এটি বায়ু ও জলের স্পর্শ রোধ করে",
+        "এটি লোহার জারণ ক্ষমতা বাড়ায়",
+        "এটি লোহাকে ভারী করে"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-110",
+      "question": "[NUMERICAL] 5.6 L কার্বন ডাই অক্সাইডে (STP) কতগুলি অক্সিজেন পরমাণু আছে?",
+      "options": [
+        "N",
+        "N/2",
+        "N/4",
+        "2N"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-111",
+      "question": "কোনো রাসায়নিক বিক্রিয়ায় অনুঘটকের ভূমিকা কী?",
+      "options": [
+        "বিক্রিয়া শুরু করা",
+        "বিক্রিয়ার হার পরিবর্তন করা",
+        "বিক্রিয়াজাত পদার্থের পরিমাণ বাড়ানো",
+        "বিক্রিয়া বন্ধ করা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-112",
+      "question": "দহন (Combustion) একটি—",
+      "options": [
+        "জারণ বিক্রিয়া",
+        "বিজারণ বিক্রিয়া",
+        "বিয়োজন বিক্রিয়া",
+        "প্রতিস্থাপন বিক্রিয়া"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-113",
+      "question": "[NUMERICAL] কত গ্রাম ম্যাগনেসিয়াম (Mg) অক্সিজেনের সাথে বিক্রিয়া করে 40 g MgO উৎপন্ন করবে? (Mg=24, O=16)",
+      "options": [
+        "24 g",
+        "12 g",
+        "48 g",
+        "20 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-114",
+      "question": "অ্যাসিড ও ক্ষারের প্রসমন বিক্রিয়ায় নিচের কোনটি উৎপন্ন হয় না?",
+      "options": [
+        "লবণ",
+        "জল",
+        "হাইড্রোজেন গ্যাস",
+        "তাপ"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-115",
+      "question": "আম্লিক পটাশিয়াম ডাইক্রোমেট দ্রবণের মধ্য দিয়ে H2S গ্যাস চালনা করলে বর্ণের কী পরিবর্তন হয়?",
+      "options": [
+        "কমলা থেকে সবুজ",
+        "নীল থেকে লাল",
+        "বর্ণহীন থেকে গোলাপি",
+        "হলুদ থেকে বাদামী"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-116",
+      "question": "[NUMERICAL] 1 mole মিথেনে (CH4) কতটি হাইড্রোজেন পরমাণু আছে?",
+      "options": [
+        "6.022 × 10^23",
+        "4 × 6.022 × 10^23",
+        "12.044 × 10^23",
+        "10^23"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-117",
+      "question": "লোহার পাইপে দস্তার প্রলেপ দেওয়াকে কী বলে?",
+      "options": [
+        "Tinning",
+        "Galvanization",
+        "Electroplating",
+        "Oxidation"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-118",
+      "question": "[NUMERICAL] 32 g সালফারে (S=32) কত মোল পরমাণু আছে?",
+      "options": [
+        "1",
+        "2",
+        "32",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-119",
+      "question": "নিচের কোনটি বিজারক পদার্থ হিসেবে কাজ করে না?",
+      "options": [
+        "H2",
+        "C",
+        "O2",
+        "CO"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-120",
+      "question": "ফটোফিল্মে বা এক্স-রে প্লেটে কোন রাসায়নিকটি ব্যবহৃত হয়?",
+      "options": [
+        "Silver bromide (AgBr)",
+        "Sodium chloride",
+        "Copper sulfate",
+        "Calcium carbonate"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-121",
+      "question": "[NUMERICAL] 49 g সালফিউরিক অ্যাসিডে (H2SO4) কত মোল অ্যাসিড আছে?",
+      "options": [
+        "1",
+        "0.5",
+        "2",
+        "0.1"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-122",
+      "question": "দস্তার সাথে লঘু সালফিউরিক অ্যাসিডের বিক্রিয়ায় কোন গ্যাস উৎপন্ন হয়?",
+      "options": [
+        "O2",
+        "SO2",
+        "H2",
+        "CO2"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-123",
+      "question": "অ্যাভোগাড্রো সংখ্যাকে কী অক্ষর দিয়ে প্রকাশ করা হয়?",
+      "options": [
+        "R",
+        "N",
+        "K",
+        "A"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-124",
+      "question": "[NUMERICAL] STP-তে 1.12 L আয়তনের কোনো গ্যাসের ভর 2.2 g হলে ওই গ্যাসের আণবিক ভর কত?",
+      "options": [
+        "22",
+        "44",
+        "28",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-125",
+      "question": "একটি জৈব বিজারক পদার্থের উদাহরণ হলো—",
+      "options": [
+        "অক্সালিক অ্যাসিড",
+        "নাইট্রিক অ্যাসিড",
+        "পটাশিয়াম পারম্যাঙ্গানেট",
+        "ক্লোরিন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-126",
+      "question": "অ্যামোনিয়াম নাইট্রেটকে (NH4NO3) উত্তপ্ত করলে কোন গ্যাস পাওয়া যায়?",
+      "options": [
+        "N2",
+        "NO2",
+        "N2O (লাফিং গ্যাস)",
+        "NH3"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-127",
+      "question": "[NUMERICAL] 8 g হিলিয়ামে (He=4) কতগুলি পরমাণু আছে?",
+      "options": [
+        "N",
+        "2N",
+        "4N",
+        "N/2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-128",
+      "question": "লোহার ওপর মরিচা পড়া রোধ করার সবচেয়ে সস্তা উপায় কোনটি?",
+      "options": [
+        "সোনা দিয়ে প্রলেপ দেওয়া",
+        "রং করা (Painting)",
+        "লুব্রিকেন্ট মাখানো",
+        "গ্রিজ লাগানো"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-129",
+      "question": "রাসায়নিক বিক্রিয়ায় শক্তি—",
+      "options": [
+        "কেবল শোষিত হয়",
+        "কেবল বিমুক্ত হয়",
+        "শোষিত বা বিমুক্ত হতে পারে",
+        "উৎপন্ন হয় না"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-130",
+      "question": "[NUMERICAL] 11.2 L (STP) হিলিয়াম গ্যাসের ভর কত?",
+      "options": [
+        "2 g",
+        "4 g",
+        "8 g",
+        "1 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-131",
+      "question": "ক্যাটালিস্ট (Catalyst) শব্দটি প্রথম কে ব্যবহার করেন?",
+      "options": [
+        "Berzelius",
+        "Dalton",
+        "Avogadro",
+        "Priestley"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-132",
+      "question": "কোনো পদার্থের যোজ্যতা (Valency) কিসের ওপর নির্ভর করে?",
+      "options": [
+        "প্রোটন সংখ্যা",
+        "ইলেকট্রন বিন্যাস",
+        "নিউট্রন সংখ্যা",
+        "আণবিক ওজন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-133",
+      "question": "[NUMERICAL] 100 g চুনাপাথরে (CaCO3) কত গ্রাম ক্যালসিয়াম আছে?",
+      "options": [
+        "40 g",
+        "20 g",
+        "12 g",
+        "48 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-134",
+      "question": "চুনজলকে ঘোলা করে কোন গ্যাস?",
+      "options": [
+        "O2",
+        "CO2",
+        "H2",
+        "NH3"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-135",
+      "question": "রাসায়নিক বিক্রিয়ায় জারণ মানে হলো—",
+      "options": [
+        "অক্সিজেন হারানো",
+        "ইলেকট্রন গ্রহণ",
+        "ইলেকট্রন বর্জন",
+        "হাইড্রোজেন যুক্ত হওয়া"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-136",
+      "question": "[NUMERICAL] 3.011 × 10^23 সংখ্যক CO2 অণুর ভর কত?",
+      "options": [
+        "44 g",
+        "22 g",
+        "11 g",
+        "88 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-137",
+      "question": "কোনো অধাতুর সাথে হাইড্রোজেন যুক্ত হওয়াকে কী বলে?",
+      "options": [
+        "জারণ",
+        "বিজারণ",
+        "দহন",
+        "প্রসমন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-138",
+      "question": "পটাশিয়াম পারম্যাঙ্গানেট (KMnO4) একটি—",
+      "options": [
+        "শক্তিশালী জারক",
+        "শক্তিশালী বিজারক",
+        "অনুঘটক",
+        "জৈব যৌগ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-139",
+      "question": "[NUMERICAL] সোডিয়াম ক্লোরাইড (NaCl)-এর 1 mole-এ কত গ্রাম ক্লোরিন আছে?",
+      "options": [
+        "35.5 g",
+        "23 g",
+        "58.5 g",
+        "71 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-140",
+      "question": "একটি উভধর্মী অক্সাইডের উদাহরণ হলো—",
+      "options": [
+        "Na2O",
+        "Al2O3",
+        "CO2",
+        "SO2"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-141",
+      "question": "রাসায়নিক বিক্রিয়ায় অনুঘটক কী কমিয়ে বিক্রিয়ার গতি বাড়ায়?",
+      "options": [
+        "উষ্ণতা",
+        "সক্রিয়করণ শক্তি (Activation Energy)",
+        "চাপ",
+        "আয়তন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-142",
+      "question": "[NUMERICAL] 22.4 L (STP) আয়তনের অ্যামোনিয়া গ্যাসে (NH3) কত গ্রাম নাইট্রোজেন থাকে?",
+      "options": [
+        "14 g",
+        "17 g",
+        "3 g",
+        "28 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-143",
+      "question": "অ্যাসিড বৃষ্টিতে (Acid Rain) প্রধানত কোন অ্যাসিড থাকে?",
+      "options": [
+        "ল্যাকটিক অ্যাসিড",
+        "সালফিউরিক অ্যাসিড ও নাইট্রিক অ্যাসিড",
+        "সাইট্রিক অ্যাসিড",
+        "কার্বনিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-144",
+      "question": "মোলার ভরের একক কোনটি?",
+      "options": [
+        "g",
+        "g/mol",
+        "mol/g",
+        "unitless"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-145",
+      "question": "[NUMERICAL] 1.8 g গ্লুকোজে (C6H12O6) কত মোল গ্লুকোজ আছে?",
+      "options": [
+        "0.01",
+        "0.1",
+        "1",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-146",
+      "question": "জারণ সংখ্যা শূন্য হয় কার ক্ষেত্রে?",
+      "options": [
+        "মুক্ত মৌলের ক্ষেত্রে",
+        "যৌগের ক্ষেত্রে",
+        "জারক পদার্থের ক্ষেত্রে",
+        "সব সময়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-147",
+      "question": "পচা মাছে দুর্গন্ধ হওয়ার কারণ কী?",
+      "options": [
+        "জারণ (Oxidation)",
+        "বিজারণ",
+        "আর্দ্র বিশ্লেষণ",
+        "প্রসমন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-148",
+      "question": "[NUMERICAL] 1.6 g অক্সিজেনে (O2) অণুর সংখ্যা কত?",
+      "options": [
+        "0.1 N",
+        "0.05 N",
+        "N",
+        "2 N"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-149",
+      "question": "হেবার পদ্ধতিতে অ্যামোনিয়া প্রস্তুতির রাসায়নিক সমীকরণ কোনটি?",
+      "options": [
+        "N2 + 3H2 → 2NH3",
+        "2N + 3H → NH3",
+        "N + H → NH",
+        "N2 + H2 → NH"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-150",
+      "question": "চুনের জল দিয়ে কার্বন ডাই অক্সাইড বেশিক্ষণ পাঠালে অধঃক্ষেপ দ্রবীভূত হয়ে যায় কেন?",
+      "options": [
+        "ক্যালসিয়াম কার্বনেট তৈরির জন্য",
+        "ক্যালসিয়াম বাইকার্বনেট তৈরির জন্য",
+        "জল উৎপন্ন হওয়ার জন্য",
+        "ক্যালসিয়াম অক্সাইড তৈরির জন্য"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-151",
+      "question": "[NUMERICAL] 44 g CO2 গ্যাসে কত গ্রাম কার্বন আছে?",
+      "options": [
+        "12 g",
+        "32 g",
+        "44 g",
+        "22 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-152",
+      "question": "নীল লিটমাসকে লাল করে কে?",
+      "options": [
+        "ক্ষার",
+        "অ্যাসিড",
+        "লবণ",
+        "জল"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-153",
+      "question": "যে রাসায়নিক সমীকরণে তাপের শোষণ ঘটে তাকে কী বলে?",
+      "options": [
+        "Exothermic",
+        "Endothermic",
+        "Reversible",
+        "Redox"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-154",
+      "question": "[NUMERICAL] 1 mole কার্বন ডাই অক্সাইড (CO2) অণুতে মোট কতগুলি পরমাণু আছে?",
+      "options": [
+        "1 N",
+        "2 N",
+        "3 N",
+        "4 N"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-155",
+      "question": "হাইড্রোজেন গ্যাস বায়ুতে জ্বলে কী উৎপন্ন করে?",
+      "options": [
+        "H2O2",
+        "H2O",
+        "O2",
+        "O3"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-156",
+      "question": "স্টয়সিওমেট্রি (Stoichiometry) কোন গ্রিক শব্দ থেকে এসেছে?",
+      "options": [
+        "Stoicheion",
+        "Metric",
+        "Chemistry",
+        "Reactant"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-157",
+      "question": "[NUMERICAL] 10 mole জলে অণুর সংখ্যা কত?",
+      "options": [
+        "6.022 × 10^23",
+        "6.022 × 10^24",
+        "1.204 × 10^24",
+        "10^23"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-158",
+      "question": "দস্তার ওপর অ্যাসিডের বিক্রিয়া কোন ধরনের বিক্রিয়ার উদাহরণ?",
+      "options": [
+        "বিয়োজন",
+        "প্রতিস্থাপন (Displacement)",
+        "যুত (Combination)",
+        "প্রসমন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-159",
+      "question": "নিচের কোনটি একটি রাসায়নিক অনুঘটক নয়?",
+      "options": [
+        "MnO2",
+        "Pt",
+        "জল",
+        "চর্বি"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-160",
+      "question": "[NUMERICAL] 34 g অ্যামোনিয়ার (NH3) আয়তন STP-তে কত?",
+      "options": [
+        "22.4 L",
+        "44.8 L",
+        "11.2 L",
+        "67.2 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-161",
+      "question": "লোহা থেকে ইস্পাত তৈরির সময় কোন মৌলটি অপদ্রব্য হিসেবে দূর করা হয়?",
+      "options": [
+        "কার্বন",
+        "ম্যাঙ্গানিজ",
+        "নিকেল",
+        "দস্তা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-162",
+      "question": "কোন ধাতুর সক্রিয়তা সবচেয়ে কম?",
+      "options": [
+        "পটাশিয়াম",
+        "সোডিয়াম",
+        "তামা",
+        "সোনা (Au)"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-163",
+      "question": "[NUMERICAL] 2 mole কার্বন পোড়ালে (C + O2 → CO2) কত লিটার CO2 (STP) উৎপন্ন হবে?",
+      "options": [
+        "22.4 L",
+        "44.8 L",
+        "11.2 L",
+        "5.6 L"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-164",
+      "question": "রাসায়নিক বিক্রিয়ায় ভরের সংরক্ষণ সূত্র প্রথম কে দেন?",
+      "options": [
+        "Lavoisier",
+        "Dalton",
+        "Avogadro",
+        "Boyle"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-165",
+      "question": "সোডিয়াম বাইকার্বনেটকে উত্তপ্ত করলে কোন গ্যাস পাওয়া যায়?",
+      "options": [
+        "O2",
+        "CO2",
+        "H2",
+        "NH3"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-166",
+      "question": "[NUMERICAL] 100 g জলে কত মোল হাইড্রোজেন পরমাণু থাকে? (প্রায়)",
+      "options": [
+        "5.5",
+        "11.1",
+        "22.2",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-167",
+      "question": "টক খাবারে উপস্থিত অ্যাসিড কোনটি?",
+      "options": [
+        "সালফিউরিক অ্যাসিড",
+        "সাইট্রিক অ্যাসিড",
+        "নাইট্রিক অ্যাসিড",
+        "হাইড্রোক্লোরিক অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-168",
+      "question": "হাইড্রোজেন সালফাইড (H2S) গ্যাসে সালফারের জারণ সংখ্যা কত?",
+      "options": [
+        "+2",
+        "-2",
+        "0",
+        "+6"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-169",
+      "question": "[NUMERICAL] 18 g জলে কত মোল ইলেকট্রন থাকে?",
+      "options": [
+        "1 mole",
+        "8 mole",
+        "10 mole",
+        "18 mole"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-170",
+      "question": "অনুঘটক বিষ (Catalytic poison) কোনটি?",
+      "options": [
+        "আর্সেনিক অক্সাইড",
+        "অক্সিজেন",
+        "হাইড্রোজেন",
+        "নাইট্রোজেন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "p-04-171",
+      "question": "ম্যাগনেসিয়াম অক্সাইড (MgO) কী ধরনের অক্সাইড?",
+      "options": [
+        "আম্লিক",
+        "ক্ষারীয়",
+        "প্রশম",
+        "উভধর্মী"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-172",
+      "question": "[NUMERICAL] 2.24 L (STP) কার্বন ডাই অক্সাইডের ভর কত?",
+      "options": [
+        "4.4 g",
+        "44 g",
+        "0.44 g",
+        "2.2 g"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-173",
+      "question": "তেলের জারণ রোধ করতে কোনটি ব্যবহৃত হয়?",
+      "options": [
+        "জারক পদার্থ",
+        "বিজারক বা অ্যান্টি-অক্সিডেন্ট",
+        "অনুঘটক",
+        "অ্যাসিড"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "p-04-174",
+      "question": "অ্যামোনিয়া একটি—",
+      "options": [
+        "অ্যাসিড",
+        "ক্ষারক (Base)",
+        "লবণ",
+        "ধাতু"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-175",
+      "question": "[NUMERICAL] 5 mole অক্সিজেনের (O2) আণবিক ভর কত?",
+      "options": [
+        "32 g",
+        "160 g",
+        "80 g",
+        "16 g"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "p-04-176",
+      "question": "নিচের কোনগুলি জারণ বিক্রিয়ার বৈশিষ্ট্য?",
+      "options": [
+        "অক্সিজেন যুক্ত হওয়া",
+        "ইলেকট্রন বর্জন",
+        "হাইড্রোজেন যুক্ত হওয়া",
+        "তড়িৎ-ঋণাত্মক মৌল যুক্ত হওয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-177",
+      "question": "নিচের কোনগুলি বিয়োজন বিক্রিয়া (Decomposition)?",
+      "options": [
+        "CaCO3 → CaO + CO2",
+        "2H2O → 2H2 + O2",
+        "H2 + Cl2 → 2HCl",
+        "2KClO3 → 2KCl + 3O2"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-178",
+      "question": "নিচের কোন ধাতুগুলি অ্যাসিড থেকে হাইড্রোজেন প্রতিস্থাপন করতে পারে?",
+      "options": [
+        "Zn",
+        "Fe",
+        "Mg",
+        "Au"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-179",
+      "question": "মোলার ভর (Molar Mass) সম্পর্কে সঠিক তথ্য হলো—",
+      "options": [
+        "এটি 1 mole পদার্থের ভর",
+        "এর একক g/mol",
+        "এটি আণবিক ওজনের সমান (কিন্তু গ্রামে প্রকাশিত)",
+        "এটি সব পদার্থের জন্য একই"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-180",
+      "question": "তাপমোচী (Exothermic) বিক্রিয়ার উদাহরণ হলো—",
+      "options": [
+        "শ্বসন (Respiration)",
+        "দহন (Combustion)",
+        "চুনে জল মেশানো",
+        "সালোকসংশ্লেষ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-181",
+      "question": "লোহায় মরিচা ধরার জন্য নিচের কোনগুলি আবশ্যক?",
+      "options": [
+        "অক্সিজেন",
+        "জলীয় বাষ্প",
+        "কার্বন ডাই অক্সাইড",
+        "আলো"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-182",
+      "question": "নিচের কোনগুলি জারক পদার্থ (Oxidizing Agents)?",
+      "options": [
+        "O2",
+        "Cl2",
+        "KMnO4",
+        "H2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-183",
+      "question": "অ্যামোনিয়া (NH3) সম্পর্কে কোনগুলি সঠিক?",
+      "options": [
+        "এটি একটি ক্ষারীয় গ্যাস",
+        "এটি বিজারক হিসেবে কাজ করে",
+        "এটি জলে অত্যন্ত দ্রবণীয়",
+        "এর গন্ধ পচা ডিমের মতো"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-184",
+      "question": "[NUMERICAL] 1 mole কার্বন ডাই অক্সাইডে (CO2) আছে—",
+      "options": [
+        "44 g ভর",
+        "6.022 × 10^23 অণু",
+        "22.4 L আয়তন (STP)",
+        "12 g অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-185",
+      "question": "জারণ-বিজারণ (Redox) বিক্রিয়ায়—",
+      "options": [
+        "জারক পদার্থ বিজারিত হয়",
+        "বিজারক পদার্থ জারিত হয়",
+        "ইলেকট্রন আদান-প্রদান ঘটে",
+        "কেবল অক্সিজেন যুক্ত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-186",
+      "question": "নিচের কোনগুলি অ্যাসিডের ধর্ম?",
+      "options": [
+        "স্বাদে টক",
+        "নীল লিটমাসকে লাল করে",
+        "ক্ষারের সাথে বিক্রিয়ায় লবণ ও জল দেয়",
+        "pH এর মান 7 এর বেশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-187",
+      "question": "অনুঘটক (Catalyst) সম্পর্কে সত্য উক্তি—",
+      "options": [
+        "এটি বিক্রিয়ার শেষে অপরিবর্তিত থাকে",
+        "এটি বিক্রিয়ার হার বাড়াতে পারে",
+        "এটি বিক্রিয়ার হার কমাতে পারে",
+        "এটি বিক্রিয়ায় অংশগ্রহণ করে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-188",
+      "question": "সালোকসংশ্লেষ (Photosynthesis) হলো একটি—",
+      "options": [
+        "তাপশোষী বিক্রিয়া",
+        "জৈব রাসায়নিক বিক্রিয়া",
+        "জারণ-বিজারণ বিক্রিয়া",
+        "বিয়োজন বিক্রিয়া"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-189",
+      "question": "নিচের কোন মৌলগুলি দ্বিপারমাণবিক (Diatomic)?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Chlorine",
+        "Helium"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-190",
+      "question": "মরিচা রোধের পদ্ধতি হলো—",
+      "options": [
+        "গ্যালভানাইজেশন",
+        "এনামেলিং",
+        "ইলেক্ট্রোপ্লেটিং",
+        "রোদে রাখা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-191",
+      "question": "[NUMERICAL] 18 g জলে (H2O) বর্তমান—",
+      "options": [
+        "1 mole অণু",
+        "2 g হাইড্রোজেন",
+        "16 g অক্সিজেন",
+        "1 mole হাইড্রোজেন পরমাণু"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-192",
+      "question": "তামা (Cu) সম্পর্কে সঠিক তথ্য—",
+      "options": [
+        "এটি লোহা অপেক্ষা কম সক্রিয়",
+        "এটি অ্যাসিড থেকে হাইড্রোজেন উৎপন্ন করতে পারে না",
+        "এটি একটি বিজারক ধাতু",
+        "এটি নীল বর্ণের অক্সাইড তৈরি করে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-193",
+      "question": "নিচের কোনগুলি উদগ্রাহী (Deliquescent) পদার্থ?",
+      "options": [
+        "NaOH",
+        "CaCl2",
+        "সাধারণ লবণ (বিশুদ্ধ)",
+        "KOH"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-194",
+      "question": "রাসায়নিক সমীকরণ থেকে কী কী জানা যায়?",
+      "options": [
+        "বিক্রয়ক ও বিক্রয়াজাত পদার্থের নাম",
+        "অণুর সংখ্যা ও ভরের অনুপাত",
+        "বিক্রিয়ার গতিবেগ",
+        "বিক্রিয়ার হার"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-195",
+      "question": "অ্যান্টি-অক্সিডেন্ট (Anti-oxidant) হিসেবে ব্যবহৃত হয়—",
+      "options": [
+        "নাইট্রোজেন গ্যাস",
+        "ভিটামিন C",
+        "ভিটামিন E",
+        "অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-196",
+      "question": "নিচের কোনগুলি প্রশম অক্সাইড?",
+      "options": [
+        "H2O",
+        "NO",
+        "CO",
+        "SO2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-197",
+      "question": "কার্বন ডাই অক্সাইড (CO2) সম্পর্কে কোনগুলি সত্য?",
+      "options": [
+        "এটি একটি আম্লিক অক্সাইড",
+        "এটি দহনে সাহায্য করে না",
+        "এটি চুনের জলকে ঘোলা করে",
+        "এটি একটি বিজারক গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-198",
+      "question": "[NUMERICAL] 1 mole অক্সিজেনে (O2) থাকে—",
+      "options": [
+        "32 g ভর",
+        "6.022 × 10^23 অণু",
+        "1.204 × 10^24 পরমাণু",
+        "22.4 L (STP) আয়তন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-199",
+      "question": "তড়িৎ বিশ্লেষণের সময়—",
+      "options": [
+        "অ্যানোডে জারণ ঘটে",
+        "ক্যাথোডে বিজারণ ঘটে",
+        "এটি একটি রাসায়নিক বিক্রিয়া",
+        "শক্তি নির্গত হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-200",
+      "question": "নিচের কোনগুলি যুত বিক্রিয়া (Combination)?",
+      "options": [
+        "2H2 + O2 → 2H2O",
+        "NH3 + HCl → NH4Cl",
+        "C + O2 → CO2",
+        "NaCl + AgNO3 → AgCl + NaNO3"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-201",
+      "question": "অ্যাভোগাড্রো সংখ্যা (N) কোন রাশিগুলির ক্ষেত্রে প্রযোজ্য?",
+      "options": [
+        "পরমাণু",
+        "অণু",
+        "আয়ন",
+        "ইলেকট্রন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-202",
+      "question": "অনুঘটক (Catalyst) বিক্রিয়ার হার বাড়াতে পারে যদি তা—",
+      "options": [
+        "ধনাত্মক অনুঘটক হয়",
+        "সূক্ষ্ম চূর্ণ আকারে থাকে",
+        "বিক্রিয়কের সংস্পর্শে থাকে",
+        "নেতিবাচক অনুঘটক হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-203",
+      "question": "জারণ ও বিজারণ বিক্রিয়ায়—",
+      "options": [
+        "ইলেকট্রন দাতা বিজারক",
+        "ইলেকট্রন গ্রহীতা জারক",
+        "জারণ সংখ্যা বৃদ্ধি হলো জারণ",
+        "বিজারণ সংখ্যা বৃদ্ধি হলো বিজারণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-204",
+      "question": "চুনের জলের ঘোলা ভাব দূর করার উপায়—",
+      "options": [
+        "অতিরিক্ত CO2 চালনা করা",
+        "লঘু HCl যোগ করা",
+        "তাপ দেওয়া",
+        "জল মিশিয়ে লঘু করা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-205",
+      "question": "নিচের কোনগুলি অধাতু?",
+      "options": [
+        "হাইড্রোজেন",
+        "হিলিয়াম",
+        "কার্বন",
+        "তামা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-206",
+      "question": "ভরের সংরক্ষণ সূত্র লঙ্ঘিত হয় না—",
+      "options": [
+        "রাসায়নিক বিক্রিয়ায়",
+        "ভৌত পরিবর্তনের সময়",
+        "কেন্দ্রকীয় বিক্রিয়ায় (Nuclear Reaction)",
+        "সব ক্ষেত্রে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-207",
+      "question": "[NUMERICAL] 22 g CO2 এবং 14 g N2 গ্যাসের মধ্যে—",
+      "options": [
+        "উভয়ের মোল সংখ্যা 0.5",
+        "উভয়ের আয়তন STP-তে 11.2 L",
+        "উভয়ের অণুর সংখ্যা সমান",
+        "উভয়ের পরমাণুর সংখ্যা সমান"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-208",
+      "question": "এনজাইম (Enzyme) সম্পর্কে তথ্য হলো—",
+      "options": [
+        "এটি প্রোটিন ধর্মী",
+        "এটি নির্দিষ্ট তাপমাত্রায় ভালো কাজ করে",
+        "এটি অত্যন্ত সুনির্দিষ্ট (Specific)",
+        "এটি উচ্চ তাপমাত্রায় নষ্ট হয় না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-209",
+      "question": "নিচের কোনগুলি তীব্র অ্যাসিড?",
+      "options": [
+        "HCl",
+        "H2SO4",
+        "HNO3",
+        "CH3COOH"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-210",
+      "question": "লোহার ওপর মরিচা ধরা রোধ করতে ব্যবহৃত ধাতু হলো—",
+      "options": [
+        "দস্তা (Zn)",
+        "টিন (Sn)",
+        "ক্রোমিয়াম (Cr)",
+        "সোডিয়াম (Na)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-211",
+      "question": "রাসায়নিক সমীকরণ ব্যালেন্স করার পদ্ধতি হলো—",
+      "options": [
+        "Hit and trial method",
+        "Partial equation method",
+        "সংকেত পরিবর্তন করে",
+        "পরমাণুর সংখ্যা সমান করে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-212",
+      "question": "হাইড্রোজেন (H2) সম্পর্কে সত্য—",
+      "options": [
+        "এটি একটি দাহ্য গ্যাস",
+        "এটি একটি বিজারক পদার্থ",
+        "এটি বায়ুর চেয়ে হালকা",
+        "এটি নীল শিখায় জ্বলে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-213",
+      "question": "নিচের কোনগুলি জারণ ক্রিয়া?",
+      "options": [
+        "লোহায় মরিচা ধরা",
+        "ফলের রং পরিবর্তন",
+        "খাবারের পচন",
+        "তড়িৎ বিশ্লেষণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-214",
+      "question": "[NUMERICAL] 1 mole গ্লুকোজে (C6H12O6) আছে—",
+      "options": [
+        "180 g ভর",
+        "6 mole কার্বন পরমাণু",
+        "12 mole হাইড্রোজেন পরমাণু",
+        "1 mole অণু"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-215",
+      "question": "কোনো বিক্রিয়ার গতি বাড়ানো যায়—",
+      "options": [
+        "উষ্ণতা বাড়িয়ে",
+        "অনুঘটক ব্যবহার করে",
+        "বিক্রিয়কের গাঢ়ত্ব বাড়িয়ে",
+        "চাপ কমিয়ে (গ্যাসীয় বিক্রিয়ার ক্ষেত্রে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-216",
+      "question": "পটাশিয়াম ক্লোরেট (KClO3) বিয়োজনে MnO2 এর কাজ—",
+      "options": [
+        "বিক্রিয়ার উষ্ণতা কমিয়ে দেওয়া",
+        "বিক্রিয়ার হার বাড়ানো",
+        "অনুঘটক হিসেবে কাজ করা",
+        "অক্সিজেন সরবরাহ করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-217",
+      "question": "ক্লোরিন (Cl2) একটি—",
+      "options": [
+        "জারক গ্যাস",
+        "বিরঞ্জক (Bleaching agent)",
+        "অধাতু",
+        "হালকা গ্যাস"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-218",
+      "question": "দহনের ফলে নির্গত তাপ কোন শক্তিতে রূপান্তরিত হয়?",
+      "options": [
+        "তাপ শক্তি",
+        "আলোক শক্তি",
+        "শব্দ শক্তি",
+        "তড়িৎ শক্তি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-219",
+      "question": "হেবার পদ্ধতিতে ব্যবহৃত অনুঘটক ও উদ্দীপক হলো—",
+      "options": [
+        "লোহার গুঁড়ো (অনুঘটক)",
+        "মলিবডেনাম (উদ্দীপক)",
+        "প্লাটিনাম",
+        "দস্তা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-220",
+      "question": "স্থিরানুপাত সূত্র (Law of Constant Proportions) অনুযায়ী—",
+      "options": [
+        "যৌগের উপাদান মৌলদের ভরের অনুপাত সর্বদা স্থির",
+        "এটি ডাল্টনের পরমাণুবাদের সাথে সংগতিপূর্ণ",
+        "এটি সব রাসায়নিক যৌগের ক্ষেত্রে প্রযোজ্য",
+        "এটি কেবল গ্যাসীয় পদার্থের জন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-221",
+      "question": "অ্যামোনিয়াম ক্লোরাইড (NH4Cl) উত্তপ্ত করলে—",
+      "options": [
+        "এটি ঊর্ধ্বপাতিত হয়",
+        "অ্যামোনিয়া ও হাইড্রোজেন ক্লোরাইড গ্যাস তৈরি হয়",
+        "এটি একটি ভৌত ও রাসায়নিক পরিবর্তন",
+        "জল তৈরি হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-222",
+      "question": "নিচের কোনগুলি জারণ সংখ্যা বাড়ায়?",
+      "options": [
+        "Fe2+ → Fe3+",
+        "Cl- → Cl2",
+        "Cu2+ → Cu",
+        "H2 → H+"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-223",
+      "question": "নীল থুথু বা কপার সালফেট (CuSO4·5H2O) উত্তপ্ত করলে—",
+      "options": [
+        "কেলাস জল বেরিয়ে যায়",
+        "বর্ণ নীল থেকে সাদা হয়",
+        "এটি একটি রাসায়নিক পরিবর্তন",
+        "এটি একটি ভৌত পরিবর্তন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-224",
+      "question": "তামা ও রূপার মধ্যে কোনটি বেশি সক্রিয়?",
+      "options": [
+        "তামা বেশি সক্রিয়",
+        "রূপা কম সক্রিয়",
+        "রূপা তামা অপেক্ষা সক্রিয়তা শ্রেণিতে নিচে থাকে",
+        "তামা রূপাকে প্রতিস্থাপন করতে পারে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-225",
+      "question": "নিচের কোনগুলি বিজারক গ্যাস (Reducing Gases)?",
+      "options": [
+        "CO",
+        "H2S",
+        "H2",
+        "Cl2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-226",
+      "question": "মোলার আয়তন (22.4 L) কিসের ওপর নির্ভর করে?",
+      "options": [
+        "উষ্ণতা (T)",
+        "চাপ (P)",
+        "মোল সংখ্যা",
+        "গ্যাসের বর্ণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-227",
+      "question": "[NUMERICAL] 8 g মেথানল (CH3OH) এ আছে—",
+      "options": [
+        "0.25 mole অণু",
+        "1 mole হাইড্রোজেন পরমাণু",
+        "3 g কার্বন",
+        "4 g অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-228",
+      "question": "তড়িৎ বিশ্লেষণের সময় ক্যাথোডে—",
+      "options": [
+        "ক্যাটায়নগুলি যায়",
+        "বিজারণ ঘটে",
+        "ইলেকট্রন গ্রহণ হয়",
+        "জারণ ঘটে"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-229",
+      "question": "নিচের কোনগুলি তড়িৎ-বিশ্লেষ্য নয়?",
+      "options": [
+        "চিনি",
+        "গ্লুকোজ",
+        "ইউরিয়া",
+        "কস্টিক পটাশ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-230",
+      "question": "অনুঘটক সম্পর্কে নিচের কোনগুলি ভ্রান্ত?",
+      "options": [
+        "এটি বিক্রিয়া শুরু করতে পারে",
+        "এটি বিক্রিয়ার শেষে হারিয়ে যায়",
+        "এটি বিক্রিয়ার উষ্ণতা বাড়িয়ে দেয়",
+        "এটি বিক্রিয়ার হার অপরিবর্তিত রাখে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-231",
+      "question": "মরিচা রোধে 'বলিদানকারী সুরক্ষা' (Sacrificial Protection) পদ্ধতিতে ব্যবহৃত হয়—",
+      "options": [
+        "ম্যাগনেসিয়াম",
+        "দস্তা",
+        "রূপা",
+        "সোনা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-232",
+      "question": "চুনের জল (Limewater) হলো—",
+      "options": [
+        "ক্যালসিয়াম হাইড্রোক্সাইডের দ্রবণ",
+        "একটি ক্ষারীয় দ্রবণ",
+        "এটি CO2 এর উপস্থিতিতে ঘোলা হয়",
+        "এটি একটি লবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-233",
+      "question": "রাসায়নিক সমীকরণ ব্যালেন্স করার গুরুত্ব হলো—",
+      "options": [
+        "ভরের সংরক্ষণ সূত্র মেনে চলা",
+        "পরমাণুর সংখ্যা সমান রাখা",
+        "গণনার সুবিধা করা",
+        "রং পরিবর্তন করা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-234",
+      "question": "একটি অ্যাসিড-ক্ষার প্রশমন বিক্রিয়ায়—",
+      "options": [
+        "H+ আয়ন ও OH- আয়ন যুক্ত হয়ে জল তৈরি করে",
+        "এটি সর্বদা তাপমোচী (Exothermic)",
+        "লবণ উৎপন্ন হয়",
+        "রঙ পরিবর্তন আবশ্যক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-235",
+      "question": "[NUMERICAL] 5.6 L (STP) N2 গ্যাসে অণুর সংখ্যা হলো—",
+      "options": [
+        "0.25 N",
+        "1.505 × 10^23",
+        "N/4",
+        "N/2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-236",
+      "question": "দাহ্য পদার্থ হিসেবে ব্যবহৃত হয়—",
+      "options": [
+        "কাঠকয়লা",
+        "এলপিজি (LPG)",
+        "হাইড্রোজেন",
+        "কার্বন ডাই অক্সাইড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-237",
+      "question": "নিচের কোনগুলি জারণ-বিজারণ (Redox) বিক্রিয়া নয়?",
+      "options": [
+        "প্রসমন বিক্রিয়া",
+        "দ্বি-প্রতিস্থাপন বিক্রিয়া (অধঃক্ষেপণ)",
+        "দহন",
+        "প্রতিস্থাপন"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-238",
+      "question": "এম্পিরিকাল সংকেত (Empirical Formula) ও আণবিক সংকেতের মধ্যে সম্পর্ক হলো—",
+      "options": [
+        "আণবিক সংকেত = n × এম্পিরিকাল সংকেত",
+        "n হলো একটি পূর্ণসংখ্যা",
+        "তারা একই হতে পারে (যেমন- H2O)",
+        "তারা সর্বদা আলাদা হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-239",
+      "question": "ক্লোরিন জলের বর্ণ হলুদ হয় কেন?",
+      "options": [
+        "হাইপোক্লোরাস অ্যাসিড তৈরির জন্য",
+        "ক্লোরিন দ্রবীভূত থাকার জন্য",
+        "জারণের জন্য",
+        "লবণের জন্য"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-240",
+      "question": "অ্যামোনিয়া প্রস্তুতির জন্য প্রয়োজনীয় উপাদান হলো—",
+      "options": [
+        "নাইট্রোজেন",
+        "হাইড্রোজেন",
+        "অনুঘটক",
+        "অক্সিজেন"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-241",
+      "question": "নিচের কোনগুলি উভধর্মী (Amphoteric) আচরণ দেখায়?",
+      "options": [
+        "Al(OH)3",
+        "Zn(OH)2",
+        "NaOH",
+        "KOH"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-242",
+      "question": "মোলার ভর ও আণবিক ওজনের মধ্যে তফাৎ হলো—",
+      "options": [
+        "আণবিক ওজনের একক নেই",
+        "মোলার ভরের একক g/mol",
+        "তাদের সাংখ্যিক মান একই",
+        "তারা সম্পূর্ণ আলাদা রাশি"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-243",
+      "question": "লোহার ওপর তড়িৎ লেপন (Electroplating) করার উদ্দেশ্য হলো—",
+      "options": [
+        "সৌন্দর্য বাড়ানো",
+        "মরিচা রোধ করা",
+        "লোহার ওজন বাড়ানো",
+        "লোহার তড়িৎ পরিবাহিতা বাড়ানো"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-244",
+      "question": "একটি রাসায়নিক বিক্রিয়ায় দশা (Phase) নির্দেশ করা হয়—",
+      "options": [
+        "(s) দ্বারা কঠিন",
+        "(l) দ্বারা তরল",
+        "(g) দ্বারা গ্যাস",
+        "(aq) দ্বারা জলীয় দ্রবণ"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-245",
+      "question": "স্টয়সিওমেট্রিক গণনায় সাহায্য করে—",
+      "options": [
+        "ব্যালেন্সড ইকুয়েশন",
+        "মোলার আয়তন",
+        "মোলার ভর",
+        "অনুঘটক"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-246",
+      "question": "নিচের কোনগুলি অ্যান্টি-অক্সিডেন্ট হিসেবে খাবারে যোগ করা হয়?",
+      "options": [
+        "BHA (Butylated Hydroxyanisole)",
+        "BHT (Butylated Hydroxytoluene)",
+        "সোডিয়াম বেনজয়েট",
+        "সালফিউরিক অ্যাসিড"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "application",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "p-04-247",
+      "question": "জলের তড়িৎ বিশ্লেষণে—",
+      "options": [
+        "ক্যাথোডে হাইড্রোজেন গ্যাস পাওয়া যায়",
+        "অ্যানোডে অক্সিজেন গ্যাস পাওয়া যায়",
+        "আয়তনের অনুপাত H2:O2 = 2:1",
+        "আয়তনের অনুপাত H2:O2 = 1:2"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-248",
+      "question": "একটি বিক্রিয়কের ভর বাড়ানো হলে—",
+      "options": [
+        "বিক্রিয়ার হার বাড়তে পারে",
+        "বিক্রিয়াজাত পদার্থের পরিমাণ বাড়তে পারে",
+        "বিক্রিয়া বন্ধ হতে পারে",
+        "অনুঘটক নষ্ট হতে পারে"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "p-04-249",
+      "question": "কার্বন (C) একটি—",
+      "options": [
+        "বিজারক পদার্থ",
+        "অধাতু",
+        "জ্বালানি",
+        "জারক পদার্থ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "p-04-250",
+      "question": "ডাল্টনের পরমাণুবাদের সাথে সংগতিপূর্ণ সূত্র হলো—",
+      "options": [
+        "ভরের সংরক্ষণ সূত্র",
+        "স্থিরানুপাত সূত্র",
+        "গুণানুপাত সূত্র",
+        "বয়েল সূত্র"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "physics",
+      "unit": "04-chemical-reactions",
+      "type": "theory",
+      "difficulty": "hard",
+      "multi": true
+    }
+  ]
+}

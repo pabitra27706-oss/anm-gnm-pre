@@ -1,0 +1,5251 @@
+{
+  "subject": "math",
+  "unit": "03-compound-interest",
+  "unit_code": "03",
+  "total": 300,
+  "questions": [
+    {
+      "id": "m-03-001",
+      "question": "চক্রবৃদ্ধি সুদ কাকে বলে?",
+      "options": [
+        "যে সুদে প্রতি নির্দিষ্ট সময় পর সুদ মূলধনের সাথে যোগ হয়",
+        "যে সুদে শুধু মূলধনের উপর সুদ গণনা করা হয়",
+        "যে সুদ কখনো মূলধনের সাথে যোগ হয় না",
+        "যে সুদে সুদের হার পরিবর্তনশীল"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-002",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে প্রথম বছরের সুদের পর কী হয়?",
+      "options": [
+        "সুদ মূলধন থেকে বাদ যায়",
+        "সুদ মূলধনের সাথে যোগ হয়",
+        "সুদ বাতিল হয়ে যায়",
+        "সুদ অর্ধেক হয়ে যায়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-003",
+      "question": "সরল সুদ ও চক্রবৃদ্ধি সুদের মধ্যে সম্পর্ক কী?",
+      "options": [
+        "CI সবসময় SI-এর সমান",
+        "CI সবসময় SI-এর চেয়ে কম",
+        "CI সবসময় SI-এর চেয়ে বেশি বা সমান",
+        "CI কখনো SI-এর চেয়ে কম নয়"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-004",
+      "question": "1 বছরের জন্য CI ও SI-এর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "CI > SI",
+        "CI < SI",
+        "CI = SI",
+        "CI = 2 × SI"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-005",
+      "question": "n > 1 হলে CI ও SI-এর মধ্যে সম্পর্ক কী?",
+      "options": [
+        "CI = SI",
+        "CI < SI",
+        "CI > SI",
+        "CI = 2 × SI"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-006",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র কোনটি?",
+      "options": [
+        "A = P(1 + R/100)ⁿ",
+        "A = P(1 + R×n/100)",
+        "A = P + (P×R×n/100)",
+        "A = P(1 + R/100)×n"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-007",
+      "question": "চক্রবৃদ্ধি সুদ নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "CI = P(1 + R/100)ⁿ",
+        "CI = P[(1 + R/100)ⁿ - 1]",
+        "CI = P×R×n/100",
+        "CI = A + P"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-008",
+      "question": "1000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "200 টাকা",
+        "210 টাকা",
+        "220 টাকা",
+        "230 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-009",
+      "question": "5000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1000 টাকা",
+        "1025 টাকা",
+        "1050 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-010",
+      "question": "2000 টাকার 5% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "200 টাকা",
+        "205 টাকা",
+        "210 টাকা",
+        "215 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-011",
+      "question": "8000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1600 টাকা",
+        "1640 টাকা",
+        "1680 টাকা",
+        "1720 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-012",
+      "question": "10000 টাকার 8% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1600 টাকা",
+        "1624 টাকা",
+        "1644 টাকা",
+        "1664 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-013",
+      "question": "5000 টাকার 10% হারে 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1500 টাকা",
+        "1550 টাকা",
+        "1600 টাকা",
+        "1655 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-014",
+      "question": "1000 টাকার 20% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "400 টাকা",
+        "420 টাকা",
+        "440 টাকা",
+        "460 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-015",
+      "question": "4000 টাকার 5% হারে 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "600 টাকা",
+        "620 টাকা",
+        "630.5 টাকা",
+        "640 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-016",
+      "question": "1500 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "10 টাকা",
+        "12 টাকা",
+        "15 টাকা",
+        "20 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-017",
+      "question": "2000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "10 টাকা",
+        "15 টাকা",
+        "20 টাকা",
+        "25 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-018",
+      "question": "5000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "40 টাকা",
+        "45 টাকা",
+        "50 টাকা",
+        "55 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-019",
+      "question": "2 বছরের জন্য CI ও SI-এর পার্থক্যের সূত্র কোনটি?",
+      "options": [
+        "P(R/100)²",
+        "P(R/100)² × (3 + R/100)",
+        "P×R×T/100",
+        "2PR/100"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-020",
+      "question": "3 বছরের জন্য CI ও SI-এর পার্থক্যের সূত্র কোনটি?",
+      "options": [
+        "P(R/100)²",
+        "P(R/100)² × (3 + R/100)",
+        "P(R/100)² × (3 + R/100)",
+        "3PR/100"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-021",
+      "question": "10000 টাকার 10% হারে 2 বছরের সরল সুদ কত?",
+      "options": [
+        "2000 টাকা",
+        "2100 টাকা",
+        "2200 টাকা",
+        "2300 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-022",
+      "question": "10000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "2000 টাকা",
+        "2100 টাকা",
+        "2200 টাকা",
+        "2300 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-023",
+      "question": "5000 টাকার 8% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "820 টাকা",
+        "832 টাকা",
+        "840 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-024",
+      "question": "3000 টাকার 10% হারে 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "900 টাকা",
+        "930 টাকা",
+        "960 টাকা",
+        "993 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-025",
+      "question": "2000 টাকার 20% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "840 টাকা",
+        "880 টাকা",
+        "920 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-026",
+      "question": "8000 টাকার 5% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "800 টাকা",
+        "810 টাকা",
+        "820 টাকা",
+        "830 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-027",
+      "question": "2500 টাকার 10% হারে 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "750 টাকা",
+        "775 টাকা",
+        "800 টাকা",
+        "827.5 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-028",
+      "question": "6000 টাকার 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1240 টাকা",
+        "1260 টাকা",
+        "1280 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-029",
+      "question": "4000 টাকার 15% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1250 টাকা",
+        "1290 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-030",
+      "question": "বার্ষিক চক্রবৃদ্ধি সুদের অর্থ কী?",
+      "options": [
+        "প্রতি বছর সুদ মূলধনে যোগ হয়",
+        "প্রতি মাসে সুদ মূলধনে যোগ হয়",
+        "প্রতি দিন সুদ মূলধনে যোগ হয়",
+        "6 মাস অন্তর সুদ মূলধনে যোগ হয়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-031",
+      "question": "অর্ধবার্ষিক চক্রবৃদ্ধি সুদে সুদ কত মাস অন্তর মূলধনে যোগ হয়?",
+      "options": [
+        "12 মাস",
+        "6 মাস",
+        "3 মাস",
+        "1 মাস"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-032",
+      "question": "ত্রৈমাসিক চক্রবৃদ্ধি সুদে সুদ কত মাস অন্তর মূলধনে যোগ হয়?",
+      "options": [
+        "6 মাস",
+        "4 মাস",
+        "3 মাস",
+        "2 মাস"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-033",
+      "question": "অর্ধবার্ষিক চক্রবৃদ্ধি সুদের সূত্র কোনটি?",
+      "options": [
+        "A = P(1 + R/100)ⁿ",
+        "A = P(1 + R/200)^(2n)",
+        "A = P(1 + R/400)^(4n)",
+        "A = P(1 + R/1200)^(12n)"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-034",
+      "question": "ত্রৈমাসিক চক্রবৃদ্ধি সুদের সূত্র কোনটি?",
+      "options": [
+        "A = P(1 + R/100)ⁿ",
+        "A = P(1 + R/200)^(2n)",
+        "A = P(1 + R/400)^(4n)",
+        "A = P(1 + R/1200)^(12n)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-035",
+      "question": "10000 টাকার বার্ষিক 10% হার 2 বছরের অর্ধবার্ষিক চক্রবৃদ্ধি সুদে সুদ-আসল কত?",
+      "options": [
+        "12100 টাকা",
+        "12155 টাকা",
+        "12200 টাকা",
+        "12250 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-036",
+      "question": "2000 টাকার বার্ষিক 10% হার 1.5 বছরের অর্ধবার্ষিক চক্রবৃদ্ধি সুদে সুদ-আসল কত?",
+      "options": [
+        "2300 টাকা",
+        "2310 টাকা",
+        "2315.25 টাকা",
+        "2320 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-037",
+      "question": "5000 টাকার বার্ষিক 20% হার 2 বছরের অর্ধবার্ষিক চক্রবৃদ্ধি সুদে সুদ-আসল কত?",
+      "options": [
+        "7000 টাকা",
+        "7200 টাকা",
+        "7320.5 টাকা",
+        "7320.5 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-038",
+      "question": "8000 টাকার বার্ষিক 5% হার 2 বছরের ত্রৈমাসিক চক্রবৃদ্ধি সুদে সুদ-আসল কত?",
+      "options": [
+        "8800 টাকা",
+        "8820 টাকা",
+        "8830 টাকা",
+        "8850 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-039",
+      "question": "অর্ধবার্ষিক চক্রবৃদ্ধি সুদে বার্ষিক সুদের হার 10% হলে প্রকৃত বার্ষিক সুদের হার কত?",
+      "options": [
+        "10%",
+        "10.25%",
+        "10.5%",
+        "11%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-040",
+      "question": "ত্রৈমাসিক চক্রবৃদ্ধি সুদে বার্ষিক সুদের হার 8% হলে প্রকৃত বার্ষিক সুদের হার কত?",
+      "options": [
+        "8%",
+        "8.16%",
+        "8.24%",
+        "8.32%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-041",
+      "question": "5000 টাকার বার্ষিক 12% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1240 টাকা",
+        "1272 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-042",
+      "question": "10000 টাকার বার্ষিক 6% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1236 টাকা",
+        "1236 টাকা",
+        "1240 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-043",
+      "question": "20000 টাকার বার্ষিক 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "150 টাকা",
+        "200 টাকা",
+        "250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-044",
+      "question": "10000 টাকার বার্ষিক 8% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "64 টাকা",
+        "70 টাকা",
+        "72 টাকা",
+        "80 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-045",
+      "question": "5000 টাকার বার্ষিক 20% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-046",
+      "question": "8000 টাকার বার্ষিক 15% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "160 টাকা",
+        "170 টাকা",
+        "180 টাকা",
+        "190 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-047",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 100 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-048",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 200 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "15000 টাকা",
+        "18000 টাকা",
+        "20000 টাকা",
+        "22000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-049",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 400 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "30000 টাকা",
+        "35000 টাকা",
+        "38000 টাকা",
+        "40000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-050",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 144 টাকা। সুদের হার 12% হলে মূলধন কত?",
+      "options": [
+        "9000 টাকা",
+        "9500 টাকা",
+        "10000 টাকা",
+        "10500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-051",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 360 টাকা। সুদের হার 15% হলে মূলধন কত?",
+      "options": [
+        "15000 টাকা",
+        "16000 টাকা",
+        "17000 টাকা",
+        "18000 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-052",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 112 টাকা। সুদের হার 8% হলে মূলধন কত?",
+      "options": [
+        "15000 টাকা",
+        "16000 টাকা",
+        "17000 টাকা",
+        "17500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-053",
+      "question": "একটি পরীক্ষায় ব্যাকটেরিয়ার সংখ্যা প্রতি ঘন্টায় 10% হারে বৃদ্ধি পায়। 3 ঘন্টা পরে 1331 হলে প্রাথমিক সংখ্যা কত?",
+      "options": [
+        "900",
+        "950",
+        "1000",
+        "1050"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-054",
+      "question": "একটি শহরের জনসংখ্যা 5% হারে বৃদ্ধি পায়। বর্তমান জনসংখ্যা 100000 হলে 2 বছর পরে জনসংখ্যা কত?",
+      "options": [
+        "110000",
+        "110250",
+        "110500",
+        "110750"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-055",
+      "question": "একটি শহরের জনসংখ্যা 10% হারে বৃদ্ধি পায়। বর্তমান জনসংখ্যা 20000 হলে 3 বছর পরে জনসংখ্যা কত?",
+      "options": [
+        "26000",
+        "26200",
+        "26500",
+        "26620"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-056",
+      "question": "একটি শহরের জনসংখ্যা 8% হারে বৃদ্ধি পায়। বর্তমান জনসংখ্যা 50000 হলে 2 বছর পরে জনসংখ্যা কত?",
+      "options": [
+        "58000",
+        "58200",
+        "58320",
+        "58400"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-057",
+      "question": "একটি গাড়ির দাম প্রতি বছর 10% হারে কমে যায়। বর্তমান দাম 500000 টাকা হলে 2 বছর পরে দাম কত?",
+      "options": [
+        "400000 টাকা",
+        "405000 টাকা",
+        "410000 টাকা",
+        "450000 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-058",
+      "question": "একটি গাড়ির দাম প্রতি বছর 20% হারে কমে যায়। বর্তমান দাম 800000 টাকা হলে 2 বছর পরে দাম কত?",
+      "options": [
+        "500000 টাকা",
+        "512000 টাকা",
+        "520000 টাকা",
+        "530000 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-059",
+      "question": "একটি যন্ত্রের দাম প্রতি বছর 5% হারে কমে যায়। বর্তমান দাম 40000 টাকা হলে 3 বছর পরে দাম কত?",
+      "options": [
+        "34000 টাকা",
+        "34200 টাকা",
+        "34295 টাকা",
+        "34500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-060",
+      "question": "কোনো টাকার 3 বছরের সরল সুদ 600 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "1500 টাকা",
+        "1800 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-061",
+      "question": "কোনো টাকার 3 বছরের চক্রবৃদ্ধি সুদ 662 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "1500 টাকা",
+        "1800 টাকা",
+        "2000 টাকা",
+        "2200 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-062",
+      "question": "কোনো টাকার 2 বছরের চক্রবৃদ্ধি সুদ 1050 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "4500 টাকা",
+        "4800 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-063",
+      "question": "কোনো টাকার 2 বছরের চক্রবৃদ্ধি সুদ 420 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-064",
+      "question": "বার্ষিক 10% হারে কত টাকার 2 বছরের CI 210 টাকা?",
+      "options": [
+        "900 টাকা",
+        "950 টাকা",
+        "1000 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-065",
+      "question": "বার্ষিক 12% হারে কত টাকার 2 বছরের CI 2544 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-066",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে সময় নির্ণয়ের সূত্র কোনটি?",
+      "options": [
+        "n = P(1 + R/100)",
+        "n = A/P(1 + R/100)",
+        "n = log(A/P)/log(1 + R/100)",
+        "n = (A/P - 1) × 100/R"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-067",
+      "question": "সুদের হার দ্বিগুণ হলে চক্রবৃদ্ধি সুদের পরিমাণ কী হয়?",
+      "options": [
+        "দ্বিগুণ হয়",
+        "দ্বিগুণের চেয়ে কম হয়",
+        "দ্বিগুণের চেয়ে বেশি হয়",
+        "একই থাকে"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-068",
+      "question": "সময় দ্বিগুণ হলে চক্রবৃদ্ধি সুদের পরিমাণ কী হয়?",
+      "options": [
+        "দ্বিগুণ হয়",
+        "দ্বিগুণের চেয়ে বেশি হয়",
+        "দ্বিগুণের চেয়ে কম হয়",
+        "কোনো সম্পর্ক নেই"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-069",
+      "question": "1000 টাকার 10% হারে 2 বছরে CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "5 টাকা",
+        "8 টাকা",
+        "10 টাকা",
+        "12 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-070",
+      "question": "2000 টাকার 5% হারে 2 বছরে CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "4 টাকা",
+        "5 টাকা",
+        "6 টাকা",
+        "7 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-071",
+      "question": "5000 টাকার 8% হারে 2 বছরে CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "30 টাকা",
+        "32 টাকা",
+        "34 টাকা",
+        "36 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-072",
+      "question": "10000 টাকার 15% হারে 2 বছরে CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "200 টাকা",
+        "210 টাকা",
+        "220 টাকা",
+        "225 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-073",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 25 টাকা। সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-074",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 36 টাকা। সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "12000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-075",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 64 টাকা। সুদের হার 8% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "12000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-076",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 100 টাকা। সুদের হার 10% হলে সুদ-আসল কত?",
+      "options": [
+        "11000 টাকা",
+        "11500 টাকা",
+        "12000 টাকা",
+        "12100 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-077",
+      "question": "বার্ষিক 10% হারে 5000 টাকার 3 বছরের CI কত?",
+      "options": [
+        "1550 টাকা",
+        "1600 টাকা",
+        "1650 টাকা",
+        "1655 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-078",
+      "question": "বার্ষিক 5% হারে 8000 টাকার 3 বছরের CI কত?",
+      "options": [
+        "1200 টাকা",
+        "1240 টাকা",
+        "1250 টাকা",
+        "1261 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-079",
+      "question": "বার্ষিক 20% হারে 3000 টাকার 2 বছরের CI কত?",
+      "options": [
+        "1200 টাকা",
+        "1300 টাকা",
+        "1320 টাকা",
+        "1350 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-080",
+      "question": "10000 টাকার বার্ষিক 10% হারে 1.5 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "11500 টাকা",
+        "11550 টাকা",
+        "11576.25 টাকা",
+        "11600 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-081",
+      "question": "20000 টাকার বার্ষিক 8% হারে 1.5 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "22000 টাকা",
+        "22300 টাকা",
+        "22400 টাকা",
+        "22497.28 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-082",
+      "question": "50000 টাকার বার্ষিক 12% হারে 2 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "12000 টাকা",
+        "12500 টাকা",
+        "13000 টাকা",
+        "13123.2 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-083",
+      "question": "একটি জমির মূল্য প্রতি বছর 10% হারে বৃদ্ধি পায়। বর্তমান মূল্য 50000 টাকা হলে 2 বছর পরে মূল্য কত?",
+      "options": [
+        "60000 টাকা",
+        "60500 টাকা",
+        "61000 টাকা",
+        "60500 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-084",
+      "question": "একটি বাড়ির মূল্য প্রতি বছর 15% হারে বৃদ্ধি পায়। বর্তমান মূল্য 800000 টাকা হলে 2 বছর পরে মূল্য কত?",
+      "options": [
+        "1050000 টাকা",
+        "1058000 টাকা",
+        "1060000 টাকা",
+        "1065000 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-085",
+      "question": "একটি গাছের উচ্চতা প্রতি বছর 5% হারে বৃদ্ধি পায়। বর্তমান উচ্চতা 2 মিটার হলে 3 বছর পরে উচ্চতা কত?",
+      "options": [
+        "2.31 মি",
+        "2.32 মি",
+        "2.33 মি",
+        "2.35 মি"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-086",
+      "question": "একটি রেডিওর দাম প্রতি বছর 10% হারে কমে যায়। বর্তমান দাম 5000 টাকা হলে 3 বছর পরে দাম কত?",
+      "options": [
+        "3500 টাকা",
+        "3600 টাকা",
+        "3645 টাকা",
+        "3700 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-087",
+      "question": "একটি মেশিনের দাম প্রতি বছর 20% হারে কমে যায়। বর্তমান দাম 100000 টাকা হলে 2 বছর পরে দাম কত?",
+      "options": [
+        "60000 টাকা",
+        "62000 টাকা",
+        "64000 টাকা",
+        "65000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-088",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 160 টাকা। সুদের হার 4% হলে মূলধন কত?",
+      "options": [
+        "100000 টাকা",
+        "110000 টাকা",
+        "120000 টাকা",
+        "125000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-089",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 250 টাকা। সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "80000 টাকা",
+        "90000 টাকা",
+        "100000 টাকা",
+        "110000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-090",
+      "question": "কোনো টাকার 2 বছরের CI 410 টাকা এবং SI 400 টাকা। সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-091",
+      "question": "কোনো টাকার 2 বছরের CI 420 টাকা এবং SI 400 টাকা। মূলধন কত?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-092",
+      "question": "কোনো টাকার 2 বছরের CI 630 টাকা এবং SI 600 টাকা। সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-093",
+      "question": "কোনো টাকার 2 বছরের CI 630 টাকা এবং SI 600 টাকা। মূলধন কত?",
+      "options": [
+        "2000 টাকা",
+        "2500 টাকা",
+        "3000 টাকা",
+        "3500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-094",
+      "question": "কোনো টাকার 2 বছরের CI 1050 টাকা এবং SI 1000 টাকা। মূলধন কত?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-095",
+      "question": "বার্ষিক 10% হারে 3 বছরের CI ও SI-এর পার্থক্য 93 টাকা। মূলধন কত?",
+      "options": [
+        "2000 টাকা",
+        "2500 টাকা",
+        "3000 টাকা",
+        "3500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-096",
+      "question": "বার্ষিক 5% হারে 3 বছরের CI ও SI-এর পার্থক্য 61 টাকা। মূলধন কত?",
+      "options": [
+        "6000 টাকা",
+        "7000 টাকা",
+        "8000 টাকা",
+        "9000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-097",
+      "question": "বার্ষিক 10% হারে কত টাকার 3 বছরের CI 331 টাকা?",
+      "options": [
+        "800 টাকা",
+        "900 টাকা",
+        "1000 টাকা",
+        "1100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-098",
+      "question": "বার্ষিক 20% হারে কত টাকার 2 বছরের CI 880 টাকা?",
+      "options": [
+        "1800 টাকা",
+        "1900 টাকা",
+        "2000 টাকা",
+        "2100 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-099",
+      "question": "বার্ষিক 15% হারে কত টাকার 2 বছরের CI 1290 টাকা?",
+      "options": [
+        "3000 টাকা",
+        "3500 টাকা",
+        "4000 টাকা",
+        "4500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-100",
+      "question": "বার্ষিক 12% হারে কত টাকার 2 বছরের CI 1272 টাকা?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-101",
+      "question": "বার্ষিক 8% হারে কত টাকার 2 বছরের CI 832 টাকা?",
+      "options": [
+        "4000 টাকা",
+        "4500 টাকা",
+        "5000 টাকা",
+        "5500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-102",
+      "question": "10000 টাকার বার্ষিক 10% হারে 2 বছরের CI ও 12% হারে 2 বছরের SI-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "200 টাকা",
+        "300 টাকা",
+        "400 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-103",
+      "question": "5000 টাকার বার্ষিক 8% হারে 2 বছরের CI ও 10% হারে 2 বছরের SI-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "120 টাকা",
+        "140 টাকা",
+        "160 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-104",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে দ্বিগুণ হওয়ার নিয়ম কী?",
+      "options": [
+        "2P = P(1 + R/100)ⁿ",
+        "2 = (1 + R/100)ⁿ",
+        "n = log 2 / log(1 + R/100)",
+        "সবকটি সঠিক"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-105",
+      "question": "বার্ষিক 10% হারে কত বছরে একটি টাকা দ্বিগুণ হবে?",
+      "options": [
+        "প্রায় 7 বছর",
+        "প্রায় 7.2 বছর",
+        "প্রায় 7.5 বছর",
+        "প্রায় 8 বছর"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-106",
+      "question": "বার্ষিক 5% হারে কত বছরে একটি টাকা দ্বিগুণ হবে?",
+      "options": [
+        "প্রায় 12 বছর",
+        "প্রায় 14 বছর",
+        "প্রায় 14.2 বছর",
+        "প্রায় 15 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-107",
+      "question": "বার্ষিক 20% হারে কত বছরে একটি টাকা দ্বিগুণ হবে?",
+      "options": [
+        "প্রায় 3.5 বছর",
+        "প্রায় 3.6 বছর",
+        "প্রায় 3.8 বছর",
+        "প্রায় 4 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-108",
+      "question": "70-এর নিয়ম কী?",
+      "options": [
+        "70/সুদের হার = দ্বিগুণ হতে সময় (প্রায়)",
+        "70 × সুদের হার = দ্বিগুণ হতে সময়",
+        "70 + সুদের হার = দ্বিগুণ হতে সময়",
+        "70 - সুদের হার = দ্বিগুণ হতে সময়"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-109",
+      "question": "বার্ষিক 10% হারে কত বছরে একটি টাকা তিনগুণ হবে?",
+      "options": [
+        "প্রায় 10 বছর",
+        "প্রায় 11 বছর",
+        "প্রায় 11.5 বছর",
+        "প্রায় 12 বছর"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-110",
+      "question": "বার্ষিক 10% হারে 5000 টাকার 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের অনুপাত কত?",
+      "options": [
+        "21:20",
+        "20:21",
+        "10:11",
+        "11:10"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-111",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর অনুপাত 21:20 হলে সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-112",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর অনুপাত 25:24 হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "8%",
+        "10%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-113",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর অনুপাত 16:15 হলে সুদের হার কত?",
+      "options": [
+        "6.67%",
+        "5%",
+        "8%",
+        "10%"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-114",
+      "question": "1000 টাকার বার্ষিক 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "10 টাকা",
+        "15 টাকা",
+        "20 টাকা",
+        "25 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-115",
+      "question": "2000 টাকার বার্ষিক 15% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "30 টাকা",
+        "35 টাকা",
+        "40 টাকা",
+        "45 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-116",
+      "question": "1500 টাকার বার্ষিক 8% হারে 2 বছরের চক্রবৃদ্ধি সুদ ও সরল সুদের পার্থক্য কত?",
+      "options": [
+        "8.64 টাকা",
+        "9.6 টাকা",
+        "10 টাকা",
+        "11 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-117",
+      "question": "2500 টাকার বার্ষিক 4% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "200 টাকা",
+        "204 টাকা",
+        "208 টাকা",
+        "210 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-118",
+      "question": "3000 টাকার বার্ষিক 6% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "360 টাকা",
+        "365 টাকা",
+        "370.8 টাকা",
+        "375 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-119",
+      "question": "6000 টাকার বার্ষিক 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1240 টাকা",
+        "1260 টাকা",
+        "1280 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-120",
+      "question": "7000 টাকার বার্ষিক 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1400 টাকা",
+        "1450 টাকা",
+        "1470 টাকা",
+        "1500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-121",
+      "question": "9000 টাকার বার্ষিক 10% হারে 2 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1800 টাকা",
+        "1850 টাকা",
+        "1890 টাকা",
+        "1900 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-122",
+      "question": "বার্ষিক 10% হারে 1000 টাকার 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "300 টাকা",
+        "310 টাকা",
+        "331 টাকা",
+        "350 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-123",
+      "question": "বার্ষিক 10% হারে 2000 টাকার 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "600 টাকা",
+        "620 টাকা",
+        "662 টাকা",
+        "680 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-124",
+      "question": "বার্ষিক 10% হারে 3000 টাকার 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "900 টাকা",
+        "930 টাকা",
+        "960 টাকা",
+        "993 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-125",
+      "question": "বার্ষিক 10% হারে 4000 টাকার 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1220 টাকা",
+        "1240 টাকা",
+        "1324 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-126",
+      "question": "বার্ষিক 10% হারে 5000 টাকার 3 বছরের চক্রবৃদ্ধি সুদ কত?",
+      "options": [
+        "1500 টাকা",
+        "1550 টাকা",
+        "1600 টাকা",
+        "1655 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-127",
+      "question": "বার্ষিক 5% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "11000 টাকা",
+        "11025 টাকা",
+        "11038.125 টাকা",
+        "11050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-128",
+      "question": "বার্ষিক 6% হারে 5000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "5600 টাকা",
+        "5625 টাকা",
+        "5630 টাকা",
+        "5637.44 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-129",
+      "question": "বার্ষিক 8% হারে 4000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "4600 টাকা",
+        "4640 টাকা",
+        "4660 টাকা",
+        "4666.3 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-130",
+      "question": "বার্ষিক 8% হারে 10000 টাকার 1.5 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "1200 টাকা",
+        "1224 টাকা",
+        "1248.64 টাকা",
+        "1250 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-131",
+      "question": "5000 টাকার বার্ষিক 12% হারে 2 বছরের CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "60 টাকা",
+        "70 টাকা",
+        "72 টাকা",
+        "80 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-132",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 40 টাকা এবং সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "14000 টাকা",
+        "15000 টাকা",
+        "16000 টাকা",
+        "18000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-133",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 40 টাকা এবং সুদের হার 4% হলে মূলধন কত?",
+      "options": [
+        "20000 টাকা",
+        "22000 টাকা",
+        "23000 টাকা",
+        "25000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-134",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 60 টাকা এবং সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "15000 টাকা",
+        "16000 টাকা",
+        "16666.67 টাকা",
+        "17000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-135",
+      "question": "কোনো টাকার 2 বছরের CI ও SI-এর পার্থক্য 24 টাকা এবং সুদের হার 4% হলে CI কত?",
+      "options": [
+        "300 টাকা",
+        "324 টাকা",
+        "350 টাকা",
+        "400 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-136",
+      "question": "কোনো টাকার 2 বছরের CI 210 টাকা এবং SI 200 টাকা। মূলধন কত?",
+      "options": [
+        "900 টাকা",
+        "950 টাকা",
+        "1000 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-137",
+      "question": "কোনো টাকার 2 বছরের CI 650 টাকা এবং SI 600 টাকা। সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-138",
+      "question": "কোনো টাকার 2 বছরের CI 650 টাকা এবং SI 600 টাকা। মূলধন কত?",
+      "options": [
+        "2000 টাকা",
+        "2500 টাকা",
+        "3000 টাকা",
+        "3500 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-139",
+      "question": "কোনো টাকার 2 বছরের CI 800 টাকা এবং SI 750 টাকা। সুদের হার কত?",
+      "options": [
+        "6%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-140",
+      "question": "কোনো টাকার 2 বছরের CI 360 টাকা এবং SI 300 টাকা। মূলধন কত?",
+      "options": [
+        "2000 টাকা",
+        "2200 টাকা",
+        "2500 টাকা",
+        "3000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-141",
+      "question": "একটি শহরের জনসংখ্যা 3 বছরে 10% হারে বৃদ্ধি পেয়ে 133100 হলে প্রাথমিক জনসংখ্যা কত?",
+      "options": [
+        "90000",
+        "95000",
+        "100000",
+        "105000"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-142",
+      "question": "একটি শহরের জনসংখ্যা 2 বছরে 8% হারে বৃদ্ধি পেয়ে 116640 হলে প্রাথমিক জনসংখ্যা কত?",
+      "options": [
+        "100000",
+        "105000",
+        "110000",
+        "115000"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-143",
+      "question": "একটি গাড়ির দাম 2 বছরে 10% হারে কমে 648000 টাকা হলে প্রাথমিক দাম কত?",
+      "options": [
+        "700000 টাকা",
+        "750000 টাকা",
+        "800000 টাকা",
+        "850000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-144",
+      "question": "একটি যন্ত্রের দাম 3 বছরে 5% হারে কমে 85737.5 টাকা হলে প্রাথমিক দাম কত?",
+      "options": [
+        "90000 টাকা",
+        "95000 টাকা",
+        "100000 টাকা",
+        "105000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-145",
+      "question": "বার্ষিক 10% হারে কত টাকার 2 বছরের CI ও SI-এর পার্থক্য 100 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-146",
+      "question": "বার্ষিক 5% হারে কত টাকার 2 বছরের CI ও SI-এর পার্থক্য 25 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "15000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-147",
+      "question": "বার্ষিক 12% হারে কত টাকার 2 বছরের CI ও SI-এর পার্থক্য 144 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "12000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-148",
+      "question": "বার্ষিক 8% হারে কত টাকার 2 বছরের CI ও SI-এর পার্থক্য 64 টাকা?",
+      "options": [
+        "8000 টাকা",
+        "9000 টাকা",
+        "10000 টাকা",
+        "11000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-149",
+      "question": "5000 টাকার বার্ষিক 10% হারে 2 বছরের CI ও 3 বছরের SI-এর তুলনায় কোনটি বেশি?",
+      "options": [
+        "2 বছরের CI বেশি",
+        "3 বছরের SI বেশি",
+        "সমান",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-150",
+      "question": "10000 টাকার বার্ষিক 10% হারে 2 বছরের CI ও 2 বছরের SI-এর পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "150 টাকা",
+        "200 টাকা",
+        "250 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-151",
+      "question": "20000 টাকার বার্ষিক 10% হারে 2 বছরের CI ও 2 বছরের SI-এর পার্থক্য কত?",
+      "options": [
+        "200 টাকা",
+        "250 টাকা",
+        "300 টাকা",
+        "400 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-152",
+      "question": "5000 টাকার বার্ষিক 20% হারে 2 বছরের CI কত?",
+      "options": [
+        "2000 টাকা",
+        "2100 টাকা",
+        "2200 টাকা",
+        "2400 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-153",
+      "question": "8000 টাকার বার্ষিক 5% হারে 3 বছরের CI কত?",
+      "options": [
+        "1200 টাকা",
+        "1250 টাকা",
+        "1261 টাকা",
+        "1280 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-154",
+      "question": "12000 টাকার বার্ষিক 8% হারে 2 বছরের CI কত?",
+      "options": [
+        "1800 টাকা",
+        "1920 টাকা",
+        "1996.8 টাকা",
+        "2000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-155",
+      "question": "4000 টাকার বার্ষিক 10% হারে 3 বছরের CI ও SI-এর পার্থক্য কত?",
+      "options": [
+        "100 টাকা",
+        "110 টাকা",
+        "120 টাকা",
+        "124 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-156",
+      "question": "বার্ষিক 10% হারে 2000 টাকার 3 বছরের CI কত?",
+      "options": [
+        "600 টাকা",
+        "620 টাকা",
+        "662 টাকা",
+        "680 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-157",
+      "question": "বার্ষিক 12% হারে 5000 টাকার 2 বছরের CI কত?",
+      "options": [
+        "1200 টাকা",
+        "1250 টাকা",
+        "1272 টাকা",
+        "1300 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-158",
+      "question": "বার্ষিক 15% হারে 8000 টাকার 2 বছরের CI কত?",
+      "options": [
+        "2400 টাকা",
+        "2500 টাকা",
+        "2580 টাকা",
+        "2600 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-159",
+      "question": "বার্ষিক 8% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "1600 টাকা",
+        "1624 টাকা",
+        "1640 টাকা",
+        "1664 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-160",
+      "question": "বার্ষিক 10% হারে 20000 টাকার 2 বছরের ত্রৈমাসিক CI-তে সুদ কত?",
+      "options": [
+        "4000 টাকা",
+        "4200 টাকা",
+        "4360.5 টাকা",
+        "4400 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-161",
+      "question": "বার্ষিক 20% হারে 5000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "7000 টাকা",
+        "7200 টাকা",
+        "7320.5 টাকা",
+        "7400 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-162",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা। সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-163",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা। সুদের হার কত?",
+      "options": [
+        "5%",
+        "8%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-164",
+      "question": "8000 টাকার 2 বছরের CI 1680 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-165",
+      "question": "2000 টাকার 2 বছরের CI 440 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-166",
+      "question": "3000 টাকার 2 বছরের CI 750 টাকা। সুদের হার কত?",
+      "options": [
+        "10%",
+        "11%",
+        "12%",
+        "15%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-167",
+      "question": "1400 টাকার 2 বছরের CI 294 টাকা। সুদের হার কত?",
+      "options": [
+        "8%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-168",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 80 টাকা। সুদের হার 10% হলে মূলধন কত?",
+      "options": [
+        "8000 টাকা",
+        "8500 টাকা",
+        "9000 টাকা",
+        "10000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-169",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 80 টাকা। সুদের হার 8% হলে মূলধন কত?",
+      "options": [
+        "10000 টাকা",
+        "11000 টাকা",
+        "12000 টাকা",
+        "12500 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-170",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 120 টাকা। সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "30000 টাকা",
+        "32000 টাকা",
+        "33333.33 টাকা",
+        "35000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-171",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 160 টাকা। সুদের হার 4% হলে মূলধন কত?",
+      "options": [
+        "100000 টাকা",
+        "105000 টাকা",
+        "110000 টাকা",
+        "120000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-172",
+      "question": "বার্ষিক 10% হারে 5000 টাকার 2 বছরের CI ও 2 বছরের SI-এর অনুপাত কত?",
+      "options": [
+        "20:21",
+        "21:20",
+        "10:11",
+        "11:10"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-173",
+      "question": "বার্ষিক 10% হারে 10000 টাকার 3 বছরের CI কত?",
+      "options": [
+        "3000 টাকা",
+        "3100 টাকা",
+        "3310 টাকা",
+        "3310 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-174",
+      "question": "বার্ষিক 5% হারে 10000 টাকার 2 বছরের CI কত?",
+      "options": [
+        "1000 টাকা",
+        "1020 টাকা",
+        "1025 টাকা",
+        "1050 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-175",
+      "question": "বার্ষিক 12% হারে 5000 টাকার 1.5 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত?",
+      "options": [
+        "5600 টাকা",
+        "5700 টাকা",
+        "5800 টাকা",
+        "5955.08 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-176",
+      "question": "একটি ব্যাকটেরিয়ার সংখ্যা প্রতি ঘন্টায় 20% হারে বৃদ্ধি পায়। 3 ঘন্টা পরে সংখ্যা 1728 হলে প্রাথমিক সংখ্যা কত?",
+      "options": [
+        "900",
+        "950",
+        "1000",
+        "1050"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-177",
+      "question": "একটি শহরের জনসংখ্যা 2 বছরে 10% হারে বৃদ্ধি পেয়ে 121000 হলে প্রাথমিক জনসংখ্যা কত?",
+      "options": [
+        "100000",
+        "105000",
+        "110000",
+        "115000"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-178",
+      "question": "একটি শহরের জনসংখ্যা 3 বছরে 5% হারে বৃদ্ধি পেয়ে 115762.5 হলে প্রাথমিক জনসংখ্যা কত?",
+      "options": [
+        "100000",
+        "105000",
+        "110000",
+        "115000"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-179",
+      "question": "একটি গাড়ির দাম 2 বছরে 10% হারে কমে 405000 টাকা হলে প্রাথমিক দাম কত?",
+      "options": [
+        "500000 টাকা",
+        "550000 টাকা",
+        "600000 টাকা",
+        "650000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-180",
+      "question": "একটি মেশিনের দাম 3 বছরে 20% হারে কমে 51200 টাকা হলে প্রাথমিক দাম কত?",
+      "options": [
+        "80000 টাকা",
+        "85000 টাকা",
+        "90000 টাকা",
+        "100000 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-181",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য কোনটির উপর নির্ভর করে?",
+      "options": [
+        "শুধু P",
+        "শুধু R",
+        "P ও R উভয়ের উপর",
+        "শুধু n"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-182",
+      "question": "চক্রবৃদ্ধি সুদে মূলধন কত বছর পর দ্বিগুণ হয় তা নির্ভর করে?",
+      "options": [
+        "শুধু R-এর উপর",
+        "শুধু P-এর উপর",
+        "P ও R উভয়ের উপর",
+        "R ও n উভয়ের উপর"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-183",
+      "question": "অর্ধবার্ষিক চক্রবৃদ্ধি সুদের ক্ষেত্রে n-এর মান কীভাবে নেওয়া হয়?",
+      "options": [
+        "বছরের সংখ্যা",
+        "বছরের সংখ্যার 2 গুণ",
+        "বছরের সংখ্যার অর্ধেক",
+        "বছরের সংখ্যার 4 গুণ"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-184",
+      "question": "ত্রৈমাসিক চক্রবৃদ্ধি সুদের ক্ষেত্রে R-এর মান কীভাবে নেওয়া হয়?",
+      "options": [
+        "R",
+        "R/2",
+        "R/4",
+        "R/12"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-185",
+      "question": "মাসিক চক্রবৃদ্ধি সুদের ক্ষেত্রে R-এর মান কীভাবে নেওয়া হয়?",
+      "options": [
+        "R",
+        "R/2",
+        "R/4",
+        "R/12"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-186",
+      "question": "CI ও SI-এর মধ্যে প্রধান পার্থক্য কী?",
+      "options": [
+        "CI-তে সুদের উপর সুদ হয়",
+        "SI-তে সুদের উপর সুদ হয়",
+        "CI-তে শুধু মূলধনের উপর সুদ হয়",
+        "CI-তে সময় বেশি লাগে"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-187",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে সুদের হার দ্বিগুণ হলে সুদের পরিমাণ কী হয়?",
+      "options": [
+        "ঠিক দ্বিগুণ হয়",
+        "দ্বিগুণের চেয়ে বেশি হয়",
+        "দ্বিগুণের চেয়ে কম হয়",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-188",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে সময় দ্বিগুণ হলে সুদের পরিমাণ কী হয়?",
+      "options": [
+        "ঠিক দ্বিগুণ হয়",
+        "দ্বিগুণের চেয়ে বেশি হয়",
+        "দ্বিগুণের চেয়ে কম হয়",
+        "কোনো পরিবর্তন হয় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-189",
+      "question": "নিচের কোনটি চক্রবৃদ্ধি সুদের বৈশিষ্ট্য?",
+      "options": [
+        "সুদ মূলধনের সাথে যোগ হয়",
+        "পরবর্তী সময়ে সুদের উপর সুদ গণনা হয়",
+        "সময়ের সাথে সাথে সুদ বৃদ্ধির হার কমে",
+        "সময়ের সাথে সাথে সুদ বৃদ্ধির হার বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-190",
+      "question": "2 বছরের CI ও SI-এর পার্থক্যের সূত্র P(R/100)² কোন শর্তে সত্য?",
+      "options": [
+        "সবসময়",
+        "যখন বার্ষিক চক্রবৃদ্ধি হয়",
+        "যখন অর্ধবার্ষিক চক্রবৃদ্ধি হয়",
+        "যখন ত্রৈমাসিক চক্রবৃদ্ধি হয়"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-191",
+      "question": "3 বছরের CI ও SI-এর পার্থক্যের সূত্র কোনটি?",
+      "options": [
+        "P(R/100)²",
+        "P(R/100)² × 3",
+        "P(R/100)² × (3 + R/100)",
+        "P(R/100)² × (R/100)"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-192",
+      "question": "একটি টাকার 2 বছরের CI 10.25 টাকা এবং SI 10 টাকা। সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-193",
+      "question": "একটি টাকার 2 বছরের CI 44 টাকা এবং SI 40 টাকা। মূলধন কত?",
+      "options": [
+        "200 টাকা",
+        "250 টাকা",
+        "300 টাকা",
+        "350 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-194",
+      "question": "একটি টাকার 2 বছরের CI 62 টাকা এবং SI 60 টাকা। মূলধন কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-195",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা। 3 বছরের CI কত?",
+      "options": [
+        "3000 টাকা",
+        "3200 টাকা",
+        "3310 টাকা",
+        "3400 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-196",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা। 3 বছরের CI কত?",
+      "options": [
+        "1500 টাকা",
+        "1550 টাকা",
+        "1600 টাকা",
+        "1655 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-197",
+      "question": "8000 টাকার 2 বছরের CI 1680 টাকা। 3 বছরের CI কত?",
+      "options": [
+        "2400 টাকা",
+        "2500 টাকা",
+        "2600 টাকা",
+        "2650 টাকা"
+      ],
+      "answer": 3,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-198",
+      "question": "2000 টাকার 2 বছরের CI 440 টাকা। 1 বছরের SI কত?",
+      "options": [
+        "150 টাকা",
+        "180 টাকা",
+        "200 টাকা",
+        "220 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-199",
+      "question": "1000 টাকার 2 বছরের CI 210 টাকা। 1 বছরের SI কত?",
+      "options": [
+        "90 টাকা",
+        "100 টাকা",
+        "110 টাকা",
+        "120 টাকা"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-200",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা। 1 বছরের SI কত?",
+      "options": [
+        "400 টাকা",
+        "450 টাকা",
+        "500 টাকা",
+        "550 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-201",
+      "question": "বার্ষিক 10% হারে 1000 টাকার 2 বছরের CI ও 3 বছরের SI-এর তুলনায় কোনটি বেশি?",
+      "options": [
+        "2 বছরের CI বেশি",
+        "3 বছরের SI বেশি",
+        "সমান",
+        "নির্ধারণ করা যায় না"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-202",
+      "question": "বার্ষিক 5% হারে 10000 টাকার 2 বছরের CI ও 3 বছরের SI-এর মধ্যে পার্থক্য কত?",
+      "options": [
+        "0 টাকা",
+        "100 টাকা",
+        "200 টাকা",
+        "300 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-203",
+      "question": "বার্ষিক 10% হারে 8 বছরে একটি টাকা দ্বিগুণ হবে (প্রায়)। 2 বছরে কত হবে?",
+      "options": [
+        "1.21 গুণ",
+        "1.44 গুণ",
+        "1.5 গুণ",
+        "1.2 গুণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-204",
+      "question": "বার্ষিক 20% হারে 4 বছরে একটি টাকা দ্বিগুণ হবে (প্রায়)। 2 বছরে কত হবে?",
+      "options": [
+        "1.44 গুণ",
+        "1.5 গুণ",
+        "2 গুণ",
+        "2.5 গুণ"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-205",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র A = P(1 + R/100)ⁿ-এ n কী নির্দেশ করে?",
+      "options": [
+        "সুদের হার",
+        "মূলধন",
+        "সময় (বছর)",
+        "সুদ-আসল"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-206",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে R বলতে কী বোঝায়?",
+      "options": [
+        "বার্ষিক সুদের হার",
+        "মোট সুদের পরিমাণ",
+        "মোট সময়",
+        "মূলধন"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-207",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র A = P(1 + R/100)ⁿ-এ A বলতে কী বোঝায়?",
+      "options": [
+        "ক্রয়মূল্য",
+        "সুদ-আসল",
+        "শুধু সুদ",
+        "মূলধন"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy"
+    },
+    {
+      "id": "m-03-208",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 144 টাকা। সুদের হার 6% হলে মূলধন কত?",
+      "options": [
+        "40000 টাকা",
+        "38000 টাকা",
+        "36000 টাকা",
+        "35000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-209",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 225 টাকা। সুদের হার 5% হলে মূলধন কত?",
+      "options": [
+        "80000 টাকা",
+        "85000 টাকা",
+        "90000 টাকা",
+        "95000 টাকা"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-210",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 324 টাকা। সুদের হার 9% হলে মূলধন কত?",
+      "options": [
+        "40000 টাকা",
+        "42000 টাকা",
+        "44000 টাকা",
+        "45000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-211",
+      "question": "নিচের কোন বিবৃতিগুলি চক্রবৃদ্ধি সুদের ক্ষেত্রে সত্য?",
+      "options": [
+        "1 বছরে CI = SI",
+        "2 বছরে CI > SI",
+        "CI সবসময় SI-এর সমান বা বেশি",
+        "সময় বাড়লে CI ও SI-এর পার্থক্য বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-212",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "A = P(1 + R/100)ⁿ",
+        "CI = P[(1 + R/100)ⁿ - 1]",
+        "P = A/(1 + R/100)ⁿ",
+        "n = A/P(1 + R/100)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-213",
+      "question": "CI ও SI-এর পার্থক্য সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "2 বছরে CI - SI = P(R/100)²",
+        "3 বছরে CI - SI = P(R/100)²(3 + R/100)",
+        "পার্থক্য সবসময় ধনাত্মক",
+        "1 বছরে পার্থক্য শূন্য"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-214",
+      "question": "অর্ধবার্ষিক চক্রবৃদ্ধি সুদের ক্ষেত্রে সঠিক সূত্র কোনগুলি?",
+      "options": [
+        "A = P(1 + R/200)^(2n)",
+        "n-এর জায়গায় 2n বসে",
+        "R-এর জায়গায় R/2 বসে",
+        "A = P(1 + R/100)^(2n)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-215",
+      "question": "ত্রৈমাসিক চক্রবৃদ্ধি সুদের ক্ষেত্রে সঠিক সূত্র কোনগুলি?",
+      "options": [
+        "A = P(1 + R/400)^(4n)",
+        "n-এর জায়গায় 4n বসে",
+        "R-এর জায়গায় R/4 বসে",
+        "A = P(1 + R/100)^(4n)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-216",
+      "question": "জনসংখ্যা বৃদ্ধির ক্ষেত্রে সঠিক সূত্র কোনগুলি?",
+      "options": [
+        "P_n = P_0(1 + R/100)ⁿ",
+        "বৃদ্ধির হার R% হলে",
+        "P_n = P_0(1 - R/100)ⁿ",
+        "P_n = P_0(1 + R/100)ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-217",
+      "question": "মূল্য হ্রাস (Depreciation) এর ক্ষেত্রে সঠিক সূত্র কোনগুলি?",
+      "options": [
+        "V_n = V_0(1 - R/100)ⁿ",
+        "হ্রাসের হার R% হলে",
+        "V_n = V_0(1 + R/100)ⁿ",
+        "V_n = V_0(1 - R/100)ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-218",
+      "question": "চক্রবৃদ্ধি সুদের বৈশিষ্ট্য সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "সুদের উপর সুদ গণনা করা হয়",
+        "সময়ের সাথে সাথে সুদের পরিমাণ দ্রুত বাড়ে",
+        "সরল সুদের চেয়ে বেশি সুদ পাওয়া যায় (যখন n>1)",
+        "কখনো সরল সুদের সমান হতে পারে (যখন n=1)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-219",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 100 টাকা এবং সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 10000 টাকা",
+        "CI = 2100 টাকা",
+        "SI = 2000 টাকা",
+        "সবকটি সঠিক"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-220",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা এবং সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "SI = 2000 টাকা",
+        "CI - SI = 100 টাকা",
+        "3 বছরের CI = 3310 টাকা",
+        "3 বছরের SI = 3000 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-221",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা এবং সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "SI = 1000 টাকা",
+        "CI - SI = 50 টাকা",
+        "3 বছরের CI = 1655 টাকা",
+        "3 বছরের SI = 1500 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-222",
+      "question": "বার্ষিক 10% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে নিচের কোনটি সত্য?",
+      "options": [
+        "কার্যকরী হার = 10.25%",
+        "A = 10000(1 + 0.05)⁴",
+        "A = 12155.06 টাকা (প্রায়)",
+        "CI = 2100 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-223",
+      "question": "বার্ষিক 8% হারে 10000 টাকার 2 বছরের ত্রৈমাসিক CI-তে নিচের কোনটি সত্য?",
+      "options": [
+        "কার্যকরী হার = 8.24%",
+        "A = 10000(1 + 0.02)⁸",
+        "A = 11716.5 টাকা (প্রায়)",
+        "CI = 1600 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-224",
+      "question": "জনসংখ্যা বৃদ্ধির সমস্যায় নিচের কোনটি সত্য?",
+      "options": [
+        "P_n = P_0(1 + R/100)ⁿ",
+        "R% প্রতি বছর বৃদ্ধির হার",
+        "n বছর পরে জনসংখ্যা P_n হয়",
+        "P_n = P_0(1 - R/100)ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-225",
+      "question": "গাড়ির মূল্য হ্রাসের সমস্যায় নিচের কোনটি সত্য?",
+      "options": [
+        "V_n = V_0(1 - R/100)ⁿ",
+        "R% প্রতি বছর হ্রাসের হার",
+        "n বছর পরে মূল্য V_n হয়",
+        "V_n = V_0(1 + R/100)ⁿ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-226",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে নিচের কোনটি সত্য?",
+      "options": [
+        "1 বছরে CI = SI",
+        "2 বছরে CI = SI × (1 + R/100)",
+        "CI - SI = P(R/100)² (2 বছরে)",
+        "CI - SI = P(R/100) (3 বছরে)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-227",
+      "question": "একটি টাকার 2 বছরের CI 210 টাকা এবং SI 200 টাকা হলে নিচের কোনটি সত্য?",
+      "options": [
+        "R = 10%",
+        "P = 1000 টাকা",
+        "CI - SI = 10 টাকা",
+        "3 বছরের SI = 300 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-228",
+      "question": "একটি টাকার 2 বছরের CI 1050 টাকা এবং SI 1000 টাকা হলে নিচের কোনটি সত্য?",
+      "options": [
+        "R = 10%",
+        "P = 5000 টাকা",
+        "CI - SI = 50 টাকা",
+        "3 বছরের CI = 1655 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-229",
+      "question": "2 বছরের CI ও SI-এর পার্থক্যের সূত্র সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "CI - SI = P(R/100)²",
+        "পার্থক্য P ও R-এর উপর নির্ভর করে",
+        "পার্থক্য n-এর উপর নির্ভর করে না (2 বছরের জন্য)",
+        "R বেশি হলে পার্থক্য বাড়ে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-230",
+      "question": "চক্রবৃদ্ধি সুদের সূত্রে n কী?",
+      "options": [
+        "n সময়ের সংখ্যা (বছর/অর্ধবছর ইত্যাদি)",
+        "বার্ষিক CI-তে n = বছরের সংখ্যা",
+        "অর্ধবার্ষিক CI-তে n = 2 × বছরের সংখ্যা",
+        "n সবসময় বছরের সংখ্যা"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-231",
+      "question": "বিভিন্ন কম্পাউন্ডিং সময়ের জন্য সঠিক সূত্র কোনগুলি?",
+      "options": [
+        "বার্ষিক: A = P(1 + R/100)ⁿ",
+        "অর্ধবার্ষিক: A = P(1 + R/200)^(2n)",
+        "ত্রৈমাসিক: A = P(1 + R/400)^(4n)",
+        "মাসিক: A = P(1 + R/1200)^(12n)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "memory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-232",
+      "question": "অর্ধবার্ষিক CI-তে নিচের কোনটি সত্য?",
+      "options": [
+        "R অর্ধেক হয়ে যায়",
+        "সময় দ্বিগুণ হয়",
+        "সুদের হার R/2% প্রতি 6 মাসে",
+        "প্রতিবার সুদ মূলধনে যোগ হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-233",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 1000 টাকা",
+        "CI - SI = 50 টাকা",
+        "3 বছরের CI 1655 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-234",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 2000 টাকা",
+        "CI - SI = 100 টাকা",
+        "3 বছরের CI 3310 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-235",
+      "question": "20000 টাকার 2 বছরের CI 4200 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 4000 টাকা",
+        "CI - SI = 200 টাকা",
+        "3 বছরের CI 6620 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-236",
+      "question": "8000 টাকার 2 বছরের CI 1680 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 1600 টাকা",
+        "CI - SI = 80 টাকা",
+        "3 বছরের CI 2648 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-237",
+      "question": "1000 টাকার 2 বছরের CI 210 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 200 টাকা",
+        "CI - SI = 10 টাকা",
+        "3 বছরের CI 331 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-238",
+      "question": "2000 টাকার 2 বছরের CI 440 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 400 টাকা",
+        "CI - SI = 40 টাকা",
+        "3 বছরের CI 662 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-239",
+      "question": "3000 টাকার 2 বছরের CI 630 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 600 টাকা",
+        "CI - SI = 30 টাকা",
+        "3 বছরের CI 993 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-240",
+      "question": "4000 টাকার 2 বছরের CI 840 টাকা। নিচের কোনটি সত্য?",
+      "options": [
+        "সুদের হার 10%",
+        "SI 800 টাকা",
+        "CI - SI = 40 টাকা",
+        "3 বছরের CI 1324 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-241",
+      "question": "চক্রবৃদ্ধি সুদ ও সরল সুদের মধ্যে সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "একই P, R, n-এর জন্য CI ≥ SI",
+        "n = 1 হলে CI = SI",
+        "n > 1 হলে CI > SI",
+        "n < 1 হলে CI < SI"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-242",
+      "question": "বার্ষিক 10% হারে 2 বছরের জন্য CI ও SI-এর সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "CI = 21% of P",
+        "SI = 20% of P",
+        "CI : SI = 21 : 20",
+        "CI - SI = 1% of P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-243",
+      "question": "বার্ষিক 20% হারে 2 বছরের জন্য CI ও SI-এর সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "CI = 44% of P",
+        "SI = 40% of P",
+        "CI : SI = 11 : 10",
+        "CI - SI = 4% of P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-244",
+      "question": "বার্ষিক 5% হারে 2 বছরের জন্য CI ও SI-এর সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "CI = 10.25% of P",
+        "SI = 10% of P",
+        "CI : SI = 41 : 40",
+        "CI - SI = 0.25% of P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-245",
+      "question": "বার্ষিক 8% হারে 2 বছরের জন্য CI ও SI-এর সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "CI = 16.64% of P",
+        "SI = 16% of P",
+        "CI : SI = 104 : 100",
+        "CI - SI = 0.64% of P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-246",
+      "question": "জনসংখ্যা বৃদ্ধির ক্ষেত্রে নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছরে জনসংখ্যা P(1 + R/100)²",
+        "3 বছরে জনসংখ্যা P(1 + R/100)³",
+        "বার্ষিক বৃদ্ধির হার R% হলে formula P(1 + R/100)ⁿ",
+        "জনসংখ্যা কখনো কমে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-247",
+      "question": "মূল্য হ্রাস (Depreciation) এর ক্ষেত্রে নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছরে মূল্য P(1 - R/100)²",
+        "3 বছরে মূল্য P(1 - R/100)³",
+        "বার্ষিক হ্রাসের হার R% হলে formula P(1 - R/100)ⁿ",
+        "মূল্য কখনো বাড়ে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-248",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 100 টাকা এবং সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 10000 টাকা",
+        "CI = 2100 টাকা",
+        "SI = 2000 টাকা",
+        "3 বছরের CI = 3310 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-249",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 40 টাকা এবং সুদের হার 5% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 16000 টাকা",
+        "CI = 1640 টাকা",
+        "SI = 1600 টাকা",
+        "CI - SI = 40 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-250",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 90 টাকা এবং সুদের হার 6% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 25000 টাকা",
+        "CI = 3090 টাকা",
+        "SI = 3000 টাকা",
+        "CI - SI = 90 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-251",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 160 টাকা এবং সুদের হার 8% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 25000 টাকা",
+        "CI = 4160 টাকা",
+        "SI = 4000 টাকা",
+        "CI - SI = 160 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-252",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 250 টাকা এবং সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "P = 25000 টাকা",
+        "CI = 5250 টাকা",
+        "SI = 5000 টাকা",
+        "CI - SI = 250 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-253",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা। সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "অর্ধবার্ষিক CI-তে A = 10000(1 + 0.05)⁴",
+        "অর্ধবার্ষিক CI-তে CI = 2155.06 টাকা (প্রায়)",
+        "অর্ধবার্ষিক CI > বার্ষিক CI",
+        "অর্ধবার্ষিক CI = বার্ষিক CI"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-254",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা। ত্রৈমাসিক CI-তে নিচের কোনটি সত্য?",
+      "options": [
+        "A = 10000(1 + 0.025)⁸",
+        "CI = 2184.03 টাকা (প্রায়)",
+        "ত্রৈমাসিক CI > অর্ধবার্ষিক CI",
+        "ত্রৈমাসিক CI < বার্ষিক CI"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-255",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র A = P(1 + R/100)ⁿ ব্যবহার করে নিচের কোন রাশি নির্ণয় করা যায়?",
+      "options": [
+        "সুদ-আসল (A)",
+        "সুদ (CI)",
+        "মূলধন (P)",
+        "শতকরা হার (R)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-256",
+      "question": "জনসংখ্যা বৃদ্ধির সমস্যার সমাধানে নিচের কোনটি কার্যকর?",
+      "options": [
+        "A = P(1 + R/100)ⁿ সূত্র ব্যবহার করে",
+        "P বর্তমান জনসংখ্যা",
+        "R বৃদ্ধির হার",
+        "n বছর পরে জনসংখ্যা A"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-257",
+      "question": "মূল্য হ্রাসের সমস্যার সমাধানে নিচের কোনটি কার্যকর?",
+      "options": [
+        "A = P(1 - R/100)ⁿ সূত্র ব্যবহার করে",
+        "P বর্তমান মূল্য",
+        "R হ্রাসের হার",
+        "n বছর পরে মূল্য A"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-258",
+      "question": "CI ও SI-এর মধ্যে সম্পর্ক নিচের কোনটি সত্য?",
+      "options": [
+        "CI ≥ SI (n ≥ 1)",
+        "পার্থক্য n-এর সাথে বাড়ে",
+        "পার্থক্য R-এর সাথে বাড়ে",
+        "CI সবসময় SI-এর থেকে কম হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-259",
+      "question": "চক্রবৃদ্ধি সুদের প্রয়োগ নিচের কোন ক্ষেত্রে দেখা যায়?",
+      "options": [
+        "ব্যাংকের সঞ্চয়ী হিসাব",
+        "ঋণ পরিশোধের ক্ষেত্রে",
+        "জনসংখ্যা বৃদ্ধি গণনায়",
+        "গাড়ির মূল্য হ্রাস গণনায়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "application",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-260",
+      "question": "5000 টাকার 2 বছরের CI 1050 টাকা। প্রতি বছর সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "1ম বছরের শেষে সুদ-আসল = 5500 টাকা",
+        "2য় বছরের সুদ = 550 টাকা",
+        "মোট সুদ = 1050 টাকা",
+        "মূলধনে সুদ যোগ হচ্ছে"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-261",
+      "question": "10000 টাকার 2 বছরের CI 2100 টাকা। প্রতি বছর সুদের হার 10% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "1ম বছরের শেষে সুদ-আসল = 11000 টাকা",
+        "2য় বছরের সুদ = 1100 টাকা",
+        "মোট সুদ = 2100 টাকা",
+        "প্রথম ও দ্বিতীয় বছরের সুদের পার্থক্য 100 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-262",
+      "question": "বার্ষিক 10% হারে 2 বছরের CI ও SI-এর পার্থক্যের সূত্রটি P(R/100)² দ্বারা কী বোঝায়?",
+      "options": [
+        "পার্থক্য P-এর সমানুপাতিক",
+        "পার্থক্য R²-এর সমানুপাতিক",
+        "CI সবসময় SI-এর চেয়ে (R/100)² × P বেশি",
+        "R = 10% হলে পার্থক্য = P/100"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-263",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 50 টাকা এবং P = 50000 টাকা হলে নিচের কোনটি সত্য?",
+      "options": [
+        "R² = 10000, R = 100%",
+        "R = 10% হলে পার্থক্য P(R/100)² = 50000 × (0.1)² = 500 টাকা",
+        "R = 5% হলে পার্থক্য 125 টাকা",
+        "R = 10% হলে পার্থক্য 500 টাকা"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-264",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 500 টাকা এবং P = 50000 টাকা হলে নিচের কোনটি সত্য?",
+      "options": [
+        "R = 10%",
+        "CI = 10500 টাকা (প্রায়)",
+        "SI = 10000 টাকা",
+        "CI : SI = 21 : 20"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-265",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে “সুদের উপর সুদ” বলতে কী বোঝায়?",
+      "options": [
+        "প্রতি বছরের শেষে সুদ মূলধনে যোগ করা",
+        "পরের বছরে পূর্বের সদের উপরও সুদ গণনা",
+        "সরল সুদে এই সুবিধা নেই",
+        "এতে সুদের পরিমাণ বেশি হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-266",
+      "question": "বার্ষিক 10% হারে CI নির্ণয়ের সময় নিচের কোনটি সত্য?",
+      "options": [
+        "1ম বছর শেষে P + 0.1P = 1.1P",
+        "2য় বছর শেষে 1.1P + 0.1×1.1P = 1.21P",
+        "3য় বছর শেষে 1.21P + 0.1×1.21P = 1.331P",
+        "সুদের পরিমাণ = P(1.1ⁿ - 1)"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-267",
+      "question": "অর্ধবার্ষিক CI-তে 2 বছরের জন্য n = 4 এবং R = 20% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "প্রতি 6 মাসে R/2 = 10% সুদ",
+        "A = P(1.1)⁴",
+        "CI = P[(1.1)⁴ - 1]",
+        "P = 10000 টাকা হলে A ≈ 14641 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-268",
+      "question": "ত্রৈমাসিক CI-তে 2 বছরের জন্য n = 8 এবং R = 12% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "প্রতি 3 মাসে R/4 = 3% সুদ",
+        "A = P(1.03)⁸",
+        "CI = P[(1.03)⁸ - 1]",
+        "P = 10000 টাকা হলে CI ≈ 2667.7 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-269",
+      "question": "মাসিক CI-তে 1 বছরের জন্য n = 12 এবং R = 12% হলে নিচের কোনটি সত্য?",
+      "options": [
+        "প্রতি মাসে R/12 = 1% সুদ",
+        "A = P(1.01)¹²",
+        "A ≈ P × 1.1268",
+        "CI ≈ 0.1268P"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-270",
+      "question": "একজন ব্যক্তি 10000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 12100 টাকা",
+        "চক্রবৃদ্ধি সুদ 2100 টাকা",
+        "সরল সুদে পেতেন 2000 টাকা",
+        "CI - SI = 100 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-271",
+      "question": "একজন ব্যক্তি 5000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 6050 টাকা",
+        "চক্রবৃদ্ধি সুদ 1050 টাকা",
+        "সরল সুদে পেতেন 1000 টাকা",
+        "CI - SI = 50 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-272",
+      "question": "একজন ব্যক্তি 8000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 9680 টাকা",
+        "চক্রবৃদ্ধি সুদ 1680 টাকা",
+        "সরল সুদে পেতেন 1600 টাকা",
+        "CI - SI = 80 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-273",
+      "question": "একজন ব্যক্তি 2000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 2420 টাকা",
+        "চক্রবৃদ্ধি সুদ 420 টাকা",
+        "সরল সুদে পেতেন 400 টাকা",
+        "CI - SI = 20 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-274",
+      "question": "একজন ব্যক্তি 3000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 3630 টাকা",
+        "চক্রবৃদ্ধি সুদ 630 টাকা",
+        "সরল সুদে পেতেন 600 টাকা",
+        "CI - SI = 30 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-275",
+      "question": "একজন ব্যক্তি 4000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 4840 টাকা",
+        "চক্রবৃদ্ধি সুদ 840 টাকা",
+        "সরল সুদে পেতেন 800 টাকা",
+        "CI - SI = 40 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-276",
+      "question": "একজন ব্যক্তি 6000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 7260 টাকা",
+        "চক্রবৃদ্ধি সুদ 1260 টাকা",
+        "সরল সুদে পেতেন 1200 টাকা",
+        "CI - SI = 60 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-277",
+      "question": "একজন ব্যক্তি 7000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 8470 টাকা",
+        "চক্রবৃদ্ধি সুদ 1470 টাকা",
+        "সরল সুদে পেতেন 1400 টাকা",
+        "CI - SI = 70 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-278",
+      "question": "একজন ব্যক্তি 9000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 2 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "2 বছর পর সুদ-আসল 10890 টাকা",
+        "চক্রবৃদ্ধি সুদ 1890 টাকা",
+        "সরল সুদে পেতেন 1800 টাকা",
+        "CI - SI = 90 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-279",
+      "question": "একজন ব্যক্তি 10000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 3 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "3 বছর পর সুদ-আসল 13310 টাকা",
+        "চক্রবৃদ্ধি সুদ 3310 টাকা",
+        "সরল সুদে পেতেন 3000 টাকা",
+        "CI - SI = 310 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-280",
+      "question": "একজন ব্যক্তি 5000 টাকা 10% হারে চক্রবৃদ্ধি সুদে 3 বছরের জন্য জমা রাখলেন। নিচের কোনটি সত্য?",
+      "options": [
+        "3 বছর পর সুদ-আসল 6655 টাকা",
+        "চক্রবৃদ্ধি সুদ 1655 টাকা",
+        "সরল সুদে পেতেন 1500 টাকা",
+        "CI - SI = 155 টাকা"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-281",
+      "question": "বার্ষিক 10% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত এবং CI কত?",
+      "options": [
+        "A = 12155.06 টাকা (প্রায়)",
+        "CI = 2155.06 টাকা (প্রায়)",
+        "A = 12100 টাকা",
+        "CI = 2100 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-282",
+      "question": "বার্ষিক 8% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত এবং CI কত?",
+      "options": [
+        "A = 11698.6 টাকা (প্রায়)",
+        "CI = 1698.6 টাকা (প্রায়)",
+        "A = 11664 টাকা",
+        "CI = 1664 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-283",
+      "question": "বার্ষিক 12% হারে 10000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ-আসল কত এবং CI কত?",
+      "options": [
+        "A = 12624.77 টাকা (প্রায়)",
+        "CI = 2624.77 টাকা (প্রায়)",
+        "A = 12544 টাকা",
+        "CI = 2544 টাকা"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard",
+      "multi": true
+    },
+    {
+      "id": "m-03-284",
+      "question": "বার্ষিক 10% হারে 5000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "1077.53 টাকা (প্রায়)",
+        "1050 টাকা",
+        "1100 টাকা",
+        "1000 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-285",
+      "question": "বার্ষিক 10% হারে 2000 টাকার 2 বছরের অর্ধবার্ষিক CI-তে সুদ কত?",
+      "options": [
+        "431.01 টাকা (প্রায়)",
+        "420 টাকা",
+        "440 টাকা",
+        "400 টাকা"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "m-03-286",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 80 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "4%",
+        "5%",
+        "8%"
+      ],
+      "answer": 0,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-287",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 180 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-288",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 320 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-289",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 500 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-290",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 720 টাকা এবং P = 20000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-291",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 125 টাকা এবং P = 50000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-292",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 45 টাকা এবং P = 5000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-293",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 80 টাকা এবং P = 5000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "2%",
+        "3%",
+        "4%",
+        "5%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-294",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 125 টাকা এবং P = 5000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 1,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-295",
+      "question": "2 বছরের CI ও SI-এর পার্থক্য 180 টাকা এবং P = 5000 টাকা হলে সুদের হার কত?",
+      "options": [
+        "4%",
+        "5%",
+        "6%",
+        "8%"
+      ],
+      "answer": 2,
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "m-03-296",
+      "question": "চক্রবৃদ্ধি সুদের সূত্র আবিষ্কারের ক্ষেত্রে কোন গাণিতিক ধারণা গুরুত্বপূর্ণ?",
+      "options": [
+        "সূচক (Exponent)",
+        "গুণোত্তর ধারা",
+        "লগারিদম",
+        "বীজগণিত"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-297",
+      "question": "চক্রবৃদ্ধি সুদের ক্ষেত্রে “কম্পাউন্ডিং ফ্রিকোয়েন্সি” বলতে কী বোঝায়?",
+      "options": [
+        "বছরে কতবার সুদ মূলধনে যোগ হচ্ছে",
+        "সাধারণত বার্ষিক, অর্ধবার্ষিক, ত্রৈমাসিক ইত্যাদি",
+        "ফ্রিকোয়েন্সি বেশি হলে CI বেশি হয়",
+        "ফ্রিকোয়েন্সি CI-কে প্রভাবিত করে না"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "easy",
+      "multi": true
+    },
+    {
+      "id": "m-03-298",
+      "question": "কার্যকরী বার্ষিক সুদের হার (Effective Annual Rate) সম্পর্কে সঠিক তথ্য কোনগুলি?",
+      "options": [
+        "যখন বছরে একাধিকবার কম্পাউন্ডিং হয়",
+        "R_eff = (1 + R/k)^k - 1",
+        "k = কম্পাউন্ডিং ফ্রিকোয়েন্সি",
+        "R_eff সবসময় R-এর সমান হয়"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "theory",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-299",
+      "question": "10% বার্ষিক হারের ক্ষেত্রে অর্ধবার্ষিক কম্পাউন্ডিং-এ কার্যকরী বার্ষিক হার কত?",
+      "options": [
+        "10.25%",
+        "(1 + 0.1/2)² - 1 = 0.1025 = 10.25%",
+        "10%",
+        "10.5%"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    },
+    {
+      "id": "m-03-300",
+      "question": "12% বার্ষিক হারের ক্ষেত্রে ত্রৈমাসিক কম্পাউন্ডিং-এ কার্যকরী বার্ষিক হার কত?",
+      "options": [
+        "12.55%",
+        "(1 + 0.12/4)⁴ - 1 = 0.1255 = 12.55%",
+        "12%",
+        "12.25%"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "",
+      "subject": "math",
+      "unit": "03-compound-interest",
+      "type": "numerical",
+      "difficulty": "medium",
+      "multi": true
+    }
+  ]
+}
