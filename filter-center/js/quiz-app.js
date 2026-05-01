@@ -6,6 +6,7 @@
   'use strict';
 
   /* ── Helpers ── */
+  // FIXED: Correct Bengali digit mapping
   const toBengali = num => String(num).replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
   const formatTime = sec => {
     const m = Math.floor(sec / 60);
@@ -17,15 +18,23 @@
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   };
 
+  // Dynamic Bengali option letters (supports up to 26 options)
+  const getOptionLetter = (index) => {
+    const letters = ['ক', 'খ', 'গ', 'ঘ', 'ঙ', 'চ', 'ছ', 'জ', 'ঝ', 'ঞ',
+                     'ট', 'ঠ', 'ড', 'ঢ', 'ণ', 'ত', 'থ', 'দ', 'ধ', 'ন',
+                     'প', 'ফ', 'ব', 'ভ', 'ম', 'য'];
+    return letters[index] || String.fromCharCode(2453 + index);
+  };
+
   /* ── State ── */
   let questions = [];
-  let userAnswers = {};   // keyed by question id
+  let userAnswers = {};
   let currentIndex = 0;
   let startTime = Date.now();
   let timerInterval = null;
   let quizSubmitted = false;
 
-  /* ── Subject/Unit labels ── */
+  /* ── Subject/Unit labels (as defined in filter-engine) ── */
   const SUBJECT_BN = {
     'life-science': 'জীবন বিজ্ঞান',
     'general-science': 'সাধারণ বিজ্ঞান',
@@ -34,7 +43,6 @@
     'general-knowledge': 'সাধারণ জ্ঞান',
     'english-grammar': 'ইংরেজি ব্যাকরণ'
   };
-  // (You can import these from FilterEngine if already loaded; but for standalone, define them)
   const UNIT_BN = {
     '01-antonyms': 'Antonyms',
     '02-articles': 'Articles',
@@ -109,7 +117,6 @@
     '11-sense-organs': 'ইন্দ্রিয় অঙ্গ',
     '12-tissues': 'কলাতন্ত্র'
   };
-
   function getUnitBn(u) { return UNIT_BN[u] || u?.replace(/-/g, ' ') || ''; }
   function getQid(q) { return q.id; }
 
@@ -133,7 +140,6 @@
     }
   }
 
-  /* ── Load questions from sessionStorage ── */
   function loadQuestions() {
     try {
       const raw = sessionStorage.getItem('filter_quiz_questions');
@@ -155,7 +161,6 @@
     const qid = getQid(q);
     const selectedVal = userAnswers[qid];
     const isMulti = q.multi === true;
-    const letters = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 
     let html = `<div class="question-card"><div class="meta-badges">`;
     if (q.subject) html += `<span class="badge badge-subject">${SUBJECT_BN[q.subject] || q.subject}</span>`;
@@ -173,10 +178,11 @@
       if (isMulti) isSelected = Array.isArray(selectedVal) && selectedVal.includes(i);
       else isSelected = (selectedVal === i);
       const selectedClass = isSelected ? ' selected' : '';
+      const letter = getOptionLetter(i);
       if (isMulti) {
-        html += `<div class="option${selectedClass}" data-opt-index="${i}"><input type="checkbox" class="option-checkbox" ${isSelected ? 'checked' : ''}><div class="option-letter">${letters[i]}</div><div class="option-text">${escapeHtml(q.options[i])}</div></div>`;
+        html += `<div class="option${selectedClass}" data-opt-index="${i}"><input type="checkbox" class="option-checkbox" ${isSelected ? 'checked' : ''}><div class="option-letter">${letter}</div><div class="option-text">${escapeHtml(q.options[i])}</div></div>`;
       } else {
-        html += `<div class="option${selectedClass}" data-opt-index="${i}"><div class="option-letter">${letters[i]}</div><div class="option-text">${escapeHtml(q.options[i])}</div></div>`;
+        html += `<div class="option${selectedClass}" data-opt-index="${i}"><div class="option-letter">${letter}</div><div class="option-text">${escapeHtml(q.options[i])}</div></div>`;
       }
     }
     html += `</div></div><div class="nav-buttons">`;
@@ -190,7 +196,6 @@
 
     document.getElementById('questionSwipeArea').innerHTML = html;
 
-    // Bind option clicks
     document.querySelectorAll('.option').forEach(opt => {
       const idx = parseInt(opt.dataset.optIndex);
       if (isMulti) {
@@ -210,7 +215,6 @@
       }
     });
 
-    // Navigation buttons
     const prevBtn = document.getElementById('prevBtn');
     if (prevBtn) prevBtn.addEventListener('click', () => navigateQuestion(-1));
     const nextBtn = document.getElementById('nextBtn');
@@ -247,7 +251,6 @@
     }
   }
 
-  /* ── Swipe support ── */
   let touchStartX = 0;
   function initSwipe() {
     const area = document.getElementById('questionSwipeArea');
@@ -296,7 +299,6 @@
   function openPalette() { document.getElementById('paletteOverlay').classList.add('open'); }
   function closePalette() { document.getElementById('paletteOverlay').classList.remove('open'); }
 
-  /* ── Submit quiz ── */
   function submitQuiz() {
     if (quizSubmitted) return;
     quizSubmitted = true;
@@ -331,12 +333,10 @@
     showResultScreen({ correct, wrong, partial, skipped, total, percentage, subjectStats, wrongQuestions });
   }
 
-  /* ── Review list ── */
   function populateReviewList(questions, userAnswers) {
     const reviewList = document.getElementById('reviewList');
     if (!reviewList) return;
     reviewList.innerHTML = '';
-    const letters = ['ক', 'খ', 'গ', 'ঘ', 'ঙ'];
 
     questions.forEach((q, idx) => {
       const qid = q.id;
@@ -346,21 +346,21 @@
       let correctText = '';
       if (q.multi) {
         const correctIndices = Array.isArray(q.answer) ? q.answer : [q.answer];
-        correctText = correctIndices.map(i => `${letters[i]}. ${q.options[i]}`).join('; ');
+        correctText = correctIndices.map(i => `${getOptionLetter(i)}. ${q.options[i]}`).join('; ');
       } else {
         const correctIdx = Array.isArray(q.answer) ? q.answer[0] : q.answer;
-        correctText = `${letters[correctIdx]}. ${q.options[correctIdx]}`;
+        correctText = `${getOptionLetter(correctIdx)}. ${q.options[correctIdx]}`;
       }
 
       let userText = 'এড়িয়ে গেছেন';
       if (userAns !== null && userAns !== undefined) {
         if (q.multi) {
           const selected = Array.isArray(userAns) ? userAns : [];
-          if (selected.length) userText = selected.map(i => `${letters[i]}. ${q.options[i]}`).join('; ');
+          if (selected.length) userText = selected.map(i => `${getOptionLetter(i)}. ${q.options[i]}`).join('; ');
           else userText = 'কোনো উত্তর নির্বাচন করেনি';
         } else {
           const idx = typeof userAns === 'number' ? userAns : null;
-          userText = idx !== null ? `${letters[idx]}. ${q.options[idx]}` : 'অবৈধ উত্তর';
+          userText = idx !== null ? `${getOptionLetter(idx)}. ${q.options[idx]}` : 'অবৈধ উত্তর';
         }
       }
 
@@ -386,7 +386,6 @@
     });
   }
 
-  /* ── Result screen ── */
   function showResultScreen(stats) {
     document.querySelector('.progress-row').style.display = 'none';
     document.querySelector('.swipe-container').style.display = 'none';
@@ -464,7 +463,6 @@
     window.scrollTo({ top: 0 });
   }
 
-  /* ── Timer ── */
   function startTimer() {
     if (timerInterval) clearInterval(timerInterval);
     startTime = Date.now();
@@ -476,7 +474,6 @@
     }, 1000);
   }
 
-  /* ── Initialisation ── */
   function init() {
     if (!loadQuestions()) {
       document.getElementById('loadingState').innerHTML = '<div class="error-state">⚠️ কোনো প্রশ্ন নেই। ফিল্টার পৃষ্ঠায় যান</div><button onclick="window.location.href=\'./index.html\'" style="margin:12px auto;display:block;padding:8px 20px;background:#e91e63;color:white;border:none;border-radius:30px;">ফিল্টার পৃষ্ঠা</button>';
@@ -497,7 +494,7 @@
       if (!quizSubmitted) {
         const anyAnswered = Object.values(userAnswers).some(v => v !== null);
         if (anyAnswered && !confirm('কুইজ অসম্পূর্ণ, প্রস্থান করবেন?')) e.preventDefault();
-        else window.location.href = './index.html';   // <-- UPDATED: back to filter page
+        else window.location.href = './index.html';
       }
     });
   }

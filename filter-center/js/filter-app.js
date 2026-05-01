@@ -1,30 +1,27 @@
 /**
- * filter-app.js – Redesigned with dropdowns for subject/unit/difficulty,
- * and collapsible advanced filters (type, multi, history, count, random).
+ * filter-app.js – Full featured filter app with default 'never-correct', custom count, custom IDs, and view correct answers.
  */
 (function(window) {
   'use strict';
 
   let allQuestions = [], emptySubjects = [];
-  let availableSubjects = [];  // from FilterEngine
+  let availableSubjects = [];
 
   // filters state
   let currentFilters = {
-    subject: 'all',     // single string
+    subject: 'all',
     unit: 'all',
     difficulty: 'all',
     types: ['all'],
     multi: 'all',
-    history: 'all',
+    history: 'never-correct',   // DEFAULT: never correct (unseen + wrong + partial)
     count: 20,
     random: true
   };
 
-  /* ── Helpers ── */
-  const toBengali = num => String(num).replace(/[0-9]/g, d => '০১১২৩৪৫৬৭৮৯'[d]); // fixed typo in previous (0123456789)
+  const toBengali = num => String(num).replace(/[0-9]/g, d => '০১২৩৪৫৬৭৮৯'[d]);
   const getEl = id => document.getElementById(id);
 
-  /* ── Collapsible toggle ── */
   function initCollapsible() {
     const header = getEl('advancedToggle');
     const body = getEl('advancedBody');
@@ -33,13 +30,11 @@
         header.classList.toggle('open');
         body.classList.toggle('open');
       });
-      // start collapsed
       header.classList.remove('open');
       body.classList.remove('open');
     }
   }
 
-  /* ── Populate subject dropdown ── */
   function populateSubjects() {
     const sel = getEl('subjectSelect');
     if (!sel || !window.FilterEngine) return;
@@ -54,29 +49,22 @@
     sel.value = 'all';
   }
 
-  /* ── Populate unit dropdown based on selected subject ── */
   function populateUnits() {
     const unitSel = getEl('unitSelect');
     if (!unitSel || !window.FilterEngine) return;
-
     const subject = currentFilters.subject;
     let units = [];
-
     if (subject === 'all') {
-      // Get all units from all subjects
       const viable = allQuestions.filter(q => emptySubjects.indexOf(q._subject) === -1);
-      units = FilterEngine.getAvailableUnits(viable, ['all']); // object {subject: [units]}
-      // flatten
+      const unitMap = FilterEngine.getAvailableUnits(viable, ['all']);
       let flatUnits = [];
-      Object.values(units).forEach(arr => flatUnits.push(...arr));
+      Object.values(unitMap).forEach(arr => flatUnits.push(...arr));
       units = [...new Set(flatUnits)].sort();
     } else {
-      // units for that subject only
       const viable = allQuestions.filter(q => q.subject === subject && emptySubjects.indexOf(q._subject) === -1);
       const unitMap = FilterEngine.getAvailableUnits(viable, [subject]);
       units = unitMap[subject] || [];
     }
-
     unitSel.innerHTML = '<option value="all">সব অধ্যায়</option>';
     units.forEach(u => {
       const opt = document.createElement('option');
@@ -85,11 +73,10 @@
       unitSel.appendChild(opt);
     });
     unitSel.disabled = false;
-    unitSel.value = 'all';  // reset to all
+    unitSel.value = 'all';
     currentFilters.unit = 'all';
   }
 
-  /* ── Advanced filter pills ── */
   function createPill(label, value, group, color) {
     const btn = document.createElement('button');
     btn.type = 'button';
@@ -154,7 +141,6 @@
     updateBottomBar();
   }
 
-  /* ── Render advanced sections ── */
   function renderTypePills() {
     const c = getEl('typePills');
     if (!c) return;
@@ -202,12 +188,19 @@
   function renderCountButtons() {
     const c = getEl('countButtons');
     if (!c) return;
-    const counts = [10,20,30,50,'all']; const labels = ['১০','২০','৩০','৫০','সব'];
+    const counts = [10,20,30,50,'all'];
+    const labels = ['১০','২০','৩০','৫০','সব'];
     c.innerHTML = '';
     counts.forEach((cnt,i) => {
       const btn = document.createElement('button');
       btn.type='button'; btn.className='count-btn'; btn.textContent=labels[i]; btn.dataset.count=cnt;
-      btn.addEventListener('click', () => { currentFilters.count = cnt; updateCountVisuals(); updateBottomBar(); });
+      btn.addEventListener('click', () => {
+        currentFilters.count = cnt;
+        updateCountVisuals();
+        const customInput = getEl('customCountInput');
+        if (customInput) customInput.value = '';
+        updateBottomBar();
+      });
       c.appendChild(btn);
     });
     updateCountVisuals();
@@ -219,22 +212,14 @@
     c.querySelectorAll('.count-btn').forEach(btn => btn.classList.toggle('active', String(btn.dataset.count) === String(currentFilters.count)));
   }
 
-  /* ── Build base filter set and update bottom bar ── */
   function getBaseFilteredQuestions() {
     if (!allQuestions.length) return [];
-    // Build subjects array from single selection
     const subjects = currentFilters.subject === 'all' ? ['all'] : [currentFilters.subject];
     const units = currentFilters.unit === 'all' ? ['all'] : [currentFilters.unit];
     const difficulties = currentFilters.difficulty === 'all' ? ['all'] : [currentFilters.difficulty];
-
     return FilterEngine.applyFilters(allQuestions, {
-      subjects,
-      units,
-      types: currentFilters.types,
-      difficulties,
-      multi: currentFilters.multi,
-      random: false,
-      count: 'all'
+      subjects, units, types: currentFilters.types, difficulties,
+      multi: currentFilters.multi, random: false, count: 'all'
     });
   }
 
@@ -243,8 +228,11 @@
     const filtered = getBaseFilteredQuestions();
     const finalFiltered = window.FilterHistory ? FilterHistory.filterByHistory(filtered, currentFilters.history) : filtered;
     const matchCount = finalFiltered.length;
-    const quizCount = currentFilters.count === 'all' ? matchCount : Math.min(matchCount, parseInt(currentFilters.count,10) || 20);
-
+    let quizCount = matchCount;
+    if (currentFilters.count !== 'all') {
+      const num = parseInt(currentFilters.count, 10);
+      if (!isNaN(num)) quizCount = Math.min(matchCount, num);
+    }
     const countEl = getEl('bottomQuizCount');
     if (countEl) countEl.textContent = toBengali(quizCount);
     const btn = getEl('startQuizBtn');
@@ -254,25 +242,42 @@
     }
   }
 
-  /* ── Start quiz ── */
   function startQuiz() {
-    let filtered = getBaseFilteredQuestions();
-    if (window.FilterHistory && currentFilters.history !== 'all') filtered = FilterHistory.filterByHistory(filtered, currentFilters.history);
-    if (currentFilters.random) filtered = FilterEngine.shuffleArray(filtered);
-    if (currentFilters.count !== 'all') filtered = filtered.slice(0, parseInt(currentFilters.count,10) || 20);
+    const customIdsRaw = getEl('customIdsInput')?.value.trim();
+    let filtered = [];
+
+    if (customIdsRaw) {
+      const ids = customIdsRaw.split(',').map(s => s.trim()).filter(s => s);
+      if (ids.length) {
+        filtered = allQuestions.filter(q => ids.includes(q.id));
+        if (filtered.length === 0) {
+          alert('দেওয়া ID-এর সাথে কোনো প্রশ্ন মেলেনি। সঠিক ID ব্যবহার করুন (যেমন: ls-01-005)');
+          return;
+        }
+        currentFilters.count = filtered.length;
+      } else {
+        filtered = getBaseFilteredQuestions();
+        if (window.FilterHistory && currentFilters.history !== 'all') filtered = FilterHistory.filterByHistory(filtered, currentFilters.history);
+      }
+    } else {
+      filtered = getBaseFilteredQuestions();
+      if (window.FilterHistory && currentFilters.history !== 'all') filtered = FilterHistory.filterByHistory(filtered, currentFilters.history);
+    }
+
+    if (currentFilters.random && !customIdsRaw) filtered = FilterEngine.shuffleArray(filtered);
+    if (currentFilters.count !== 'all' && !customIdsRaw) filtered = filtered.slice(0, parseInt(currentFilters.count,10) || 20);
+
     if (!filtered.length) { alert('কোনো প্রশ্ন পাওয়া যায়নি।'); return; }
     sessionStorage.setItem('filter_quiz_questions', JSON.stringify(filtered));
     sessionStorage.setItem('filter_quiz_config', JSON.stringify(currentFilters));
     window.location.href = './quiz.html';
   }
 
-  /* ── Init ── */
   async function init() {
     if (!window.FilterLoader || !window.FilterEngine) {
       alert('প্রয়োজনীয় স্ক্রিপ্ট লোড হয়নি');
       return;
     }
-
     try {
       allQuestions = await FilterLoader.loadAllQuestions(() => {});
     } catch(e) {
@@ -285,11 +290,9 @@
       return;
     }
 
-    // Setup UI
     populateSubjects();
-    populateUnits(); // will show all units because subject='all'
+    populateUnits();
 
-    // Attach event listeners
     getEl('subjectSelect').addEventListener('change', function() {
       currentFilters.subject = this.value;
       populateUnits();
@@ -305,26 +308,66 @@
     });
 
     initCollapsible();
-
-    // Render advanced filters
     renderTypePills();
     renderMultiPills();
     renderHistoryPills();
     renderCountButtons();
 
-    // Random toggle
     const randomToggle = getEl('randomToggle');
     if (randomToggle) {
       randomToggle.checked = currentFilters.random;
       randomToggle.addEventListener('change', () => { currentFilters.random = randomToggle.checked; });
     }
 
-    // Start button
-    getEl('startQuizBtn').addEventListener('click', startQuiz);
+    const customCountInput = getEl('customCountInput');
+    const applyCustomBtn = getEl('applyCustomCountBtn');
+    if (applyCustomBtn && customCountInput) {
+      applyCustomBtn.addEventListener('click', () => {
+        let val = parseInt(customCountInput.value, 10);
+        if (isNaN(val) || val < 1) {
+          alert('দয়া করে ১ বা তার বেশি সংখ্যা দিন');
+          return;
+        }
+        const maxPossible = allQuestions.length;
+        if (val > maxPossible) val = maxPossible;
+        currentFilters.count = val;
+        document.querySelectorAll('.count-btn').forEach(btn => btn.classList.remove('active'));
+        updateBottomBar();
+      });
+    }
 
+    const clearIdsBtn = getEl('clearCustomIdsBtn');
+    if (clearIdsBtn) {
+      clearIdsBtn.addEventListener('click', () => {
+        const idsInput = getEl('customIdsInput');
+        if (idsInput) idsInput.value = '';
+      });
+    }
+
+    const viewCorrectBtn = getEl('viewCorrectBtn');
+    if (viewCorrectBtn) {
+      viewCorrectBtn.addEventListener('click', () => {
+        if (!window.FilterHistory) { alert('হিস্ট্রি মডিউল পাওয়া যায়নি।'); return; }
+        const solvedMap = FilterHistory.getSolvedMap();
+        const correctQuestions = [];
+        for (const [key, record] of Object.entries(solvedMap)) {
+          if (record.everCorrect === true) {
+            const q = allQuestions.find(qq => FilterHistory.getQuestionKey(qq) === key);
+            if (q) correctQuestions.push(q);
+          }
+        }
+        if (correctQuestions.length === 0) {
+          alert('কোনো সঠিক উত্তর দেওয়া প্রশ্ন নেই।');
+          return;
+        }
+        sessionStorage.setItem('correct_questions', JSON.stringify(correctQuestions));
+        window.location.href = './correct-answers.html';
+      });
+    }
+
+    getEl('startQuizBtn').addEventListener('click', startQuiz);
     updateBottomBar();
   }
 
   document.addEventListener('DOMContentLoaded', init);
-
 })(window);

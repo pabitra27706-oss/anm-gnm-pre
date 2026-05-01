@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>সঠিক উত্তর দেওয়া প্রশ্ন - ফিল্টার</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, 'Noto Sans Bengali', sans-serif;
+      background: #f5f5f5;
+      padding: 16px;
+    }
+    .container { max-width: 1000px; margin: 0 auto; }
+    .header {
+      background: linear-gradient(135deg, #e91e63, #c2185b);
+      color: white;
+      padding: 16px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+    }
+    .back-btn {
+      background: rgba(255,255,255,0.2);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 40px;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 0.9rem;
+    }
+    .filter-bar {
+      background: white;
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .filter-group {
+      margin-bottom: 16px;
+    }
+    .filter-label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .filter-label svg {
+      width: 18px;
+      height: 18px;
+      stroke: #e91e63;
+      stroke-width: 1.8;
+      fill: none;
+    }
+    .filter-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filter-chip {
+      background: white;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 40px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-chip.active {
+      background: #e91e63;
+      border-color: #e91e63;
+      color: white;
+    }
+    select.filter-select {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1.5px solid #e0e0e0;
+      background: white;
+      font-size: 0.85rem;
+    }
+    .questions-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .question-card {
+      background: white;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .question-text { font-weight: 600; margin-bottom: 12px; line-height: 1.4; }
+    .answer-row { margin: 8px 0; padding: 8px; background: #f0f0f0; border-radius: 8px; }
+    .correct-answer { color: #2e7d32; font-weight: 500; border-left: 4px solid #2e7d32; }
+    .your-answer { color: #1565c0; border-left: 4px solid #1565c0; }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      background: #e3f2fd;
+      color: #1565c0;
+    }
+    .explanation { background: #fff8e1; border-left: 4px solid #ffa000; }
+    .no-questions { background: white; padding: 20px; border-radius: 16px; text-align: center; }
+    .stats { margin-top: 10px; font-size: 0.8rem; color: #666; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h2>✅ সঠিক উত্তর দেওয়া প্রশ্ন</h2>
+    <button class="back-btn" onclick="window.location.href='./index.html'">← ফিল্টার পৃষ্ঠায় ফিরুন</button>
+  </div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <div class="filter-label"><svg viewBox="0 0 24 24" stroke="currentColor"><path d="M20 7h-4.18A3 3 0 0 0 13 5h-2a3 3 0 0 0-2.82 2H4a1 1 0 1 0 0 2h4.18A3 3 0 0 0 11 11h2a3 3 0 0 0 2.82-2H20a1 1 0 1 0 0-2zM9 8a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm6 6h-4.18A3 3 0 0 0 9 17h-2a3 3 0 0 0-2.82 2H4a1 1 0 1 0 0 2h4.18A3 3 0 0 0 9 21h2a3 3 0 0 0 2.82-2H20a1 1 0 1 0 0-2h-6.18A3 3 0 0 0 13 17h-2a1 1 0 0 1 0-2h2a3 3 0 0 0 2.82-2H20a1 1 0 1 0 0-2h-4.18z"/></svg>বিষয়</div>
+      <div class="filter-options" id="subjectFilter"></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label"><svg viewBox="0 0 24 24" stroke="currentColor"><path d="M4 4h16v16H4z"/><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="9" y1="4" x2="9" y2="20"/><line x1="15" y1="4" x2="15" y2="20"/></svg>অধ্যায়</div>
+      <select id="unitFilter" class="filter-select"><option value="all">সব অধ্যায়</option></select>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label"><svg viewBox="0 0 24 24" stroke="currentColor"><path d="M12 8v8m4-4H8"/><circle cx="12" cy="12" r="10"/></svg>কঠিনতা</div>
+      <div class="filter-options" id="difficultyFilter"></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label"><svg viewBox="0 0 24 24" stroke="currentColor"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3 8 12 13 21 8"/></svg>প্রশ্নের ধরন</div>
+      <div class="filter-options" id="typeFilter"></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label"><svg viewBox="0 0 24 24" stroke="currentColor"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>বহু-সঠিক</div>
+      <div class="filter-options" id="multiFilter"></div>
+    </div>
+  </div>
+
+  <div id="stats" class="stats"></div>
+  <div id="questionsList" class="questions-list"></div>
+</div>
+
+<script src="./js/filter-engine.js"></script>
+<script src="./js/filter-history.js"></script>
+<script src="./js/filter-loader.js"></script>
+<script>
+  (async function() {
+    // Load all questions
+    let allQuestions = [];
+    try {
+      allQuestions = await FilterLoader.loadAllQuestions(() => {});
+    } catch(e) {
+      document.getElementById('questionsList').innerHTML = '<div class="no-questions">প্রশ্ন লোড করতে ব্যর্থ।</div>';
+      return;
+    }
+
+    // Get correctly answered questions (ever correct)
+    const solvedMap = FilterHistory.getSolvedMap();
+    let correctQuestions = [];
+    for (const [key, record] of Object.entries(solvedMap)) {
+      if (record.everCorrect === true) {
+        const q = allQuestions.find(qq => FilterHistory.getQuestionKey(qq) === key);
+        if (q) correctQuestions.push(q);
+      }
+    }
+
+    if (correctQuestions.length === 0) {
+      document.getElementById('questionsList').innerHTML = '<div class="no-questions">কোনো সঠিক উত্তর দেওয়া প্রশ্ন নেই।</div>';
+      return;
+    }
+
+    // State for filters
+    let currentFilters = {
+      subject: 'all',
+      unit: 'all',
+      difficulty: 'all',
+      type: 'all',
+      multi: 'all'
+    };
+
+    // Helper: Bengali letters
+    const getOptionLetter = (i) => {
+      const letters = ['ক','খ','গ','ঘ','ঙ','চ','ছ','জ','ঝ','ঞ','ট','ঠ','ড','ঢ','ণ','ত','থ','দ','ধ','ন','প','ফ','ব','ভ','ম','য'];
+      return letters[i] || String.fromCharCode(2453 + i);
+    };
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/[&<>]/g, function(m) {
+        if (m === '&') return '&amp;';
+        if (m === '<') return '&lt;';
+        if (m === '>') return '&gt;';
+        return m;
+      });
+    }
+
+    function applyFilters() {
+      let filtered = [...correctQuestions];
+      if (currentFilters.subject !== 'all') {
+        filtered = filtered.filter(q => q.subject === currentFilters.subject);
+      }
+      if (currentFilters.unit !== 'all') {
+        filtered = filtered.filter(q => q.unit === currentFilters.unit);
+      }
+      if (currentFilters.difficulty !== 'all') {
+        filtered = filtered.filter(q => q.difficulty === currentFilters.difficulty);
+      }
+      if (currentFilters.type !== 'all') {
+        filtered = filtered.filter(q => q.type === currentFilters.type);
+      }
+      if (currentFilters.multi === 'multi-only') {
+        filtered = filtered.filter(q => q.multi === true);
+      } else if (currentFilters.multi === 'single-only') {
+        filtered = filtered.filter(q => q.multi !== true);
+      }
+      return filtered;
+    }
+
+    function renderFilters() {
+      // Subject chips
+      const subjectsSet = new Set(correctQuestions.map(q => q.subject));
+      const subjects = Array.from(subjectsSet);
+      const subjectContainer = document.getElementById('subjectFilter');
+      subjectContainer.innerHTML = '<button class="filter-chip" data-subject="all">সব</button>';
+      subjects.forEach(sub => {
+        const chip = document.createElement('button');
+        chip.className = 'filter-chip';
+        chip.textContent = FilterEngine.getSubjectBn(sub);
+        chip.dataset.subject = sub;
+        chip.addEventListener('click', () => {
+          currentFilters.subject = sub;
+          updateActiveChips('subjectFilter', 'data-subject', sub);
+          populateUnits(); // update unit dropdown based on selected subject
+          renderQuestions();
+        });
+        subjectContainer.appendChild(chip);
+      });
+      updateActiveChips('subjectFilter', 'data-subject', currentFilters.subject);
+
+      // Difficulty chips
+      const difficulties = ['all', 'easy', 'medium', 'hard'];
+      const diffLabels = { all: 'সব', easy: 'সহজ', medium: 'মাঝারি', hard: 'কঠিন' };
+      const diffContainer = document.getElementById('difficultyFilter');
+      diffContainer.innerHTML = '';
+      difficulties.forEach(d => {
+        const chip = document.createElement('button');
+        chip.className = 'filter-chip';
+        chip.textContent = diffLabels[d];
+        chip.dataset.difficulty = d;
+        chip.addEventListener('click', () => {
+          currentFilters.difficulty = d;
+          updateActiveChips('difficultyFilter', 'data-difficulty', d);
+          renderQuestions();
+        });
+        diffContainer.appendChild(chip);
+      });
+      updateActiveChips('difficultyFilter', 'data-difficulty', currentFilters.difficulty);
+
+      // Type chips
+      const types = ['all', 'theory', 'numerical', 'memory', 'application'];
+      const typeLabels = { all: 'সব', theory: 'তত্ত্ব', numerical: 'গাণিতিক', memory: 'মুখস্থ', application: 'প্রয়োগ' };
+      const typeContainer = document.getElementById('typeFilter');
+      typeContainer.innerHTML = '';
+      types.forEach(t => {
+        const chip = document.createElement('button');
+        chip.className = 'filter-chip';
+        chip.textContent = typeLabels[t];
+        chip.dataset.type = t;
+        chip.addEventListener('click', () => {
+          currentFilters.type = t;
+          updateActiveChips('typeFilter', 'data-type', t);
+          renderQuestions();
+        });
+        typeContainer.appendChild(chip);
+      });
+      updateActiveChips('typeFilter', 'data-type', currentFilters.type);
+
+      // Multi chips
+      const multiContainer = document.getElementById('multiFilter');
+      multiContainer.innerHTML = '';
+      [
+        { value: 'all', label: 'সব' },
+        { value: 'multi-only', label: 'শুধু বহু-সঠিক' },
+        { value: 'single-only', label: 'শুধু একক সঠিক' }
+      ].forEach(m => {
+        const chip = document.createElement('button');
+        chip.className = 'filter-chip';
+        chip.textContent = m.label;
+        chip.dataset.multi = m.value;
+        chip.addEventListener('click', () => {
+          currentFilters.multi = m.value;
+          updateActiveChips('multiFilter', 'data-multi', m.value);
+          renderQuestions();
+        });
+        multiContainer.appendChild(chip);
+      });
+      updateActiveChips('multiFilter', 'data-multi', currentFilters.multi);
+    }
+
+    function updateActiveChips(containerId, attrName, activeValue) {
+      const container = document.getElementById(containerId);
+      container.querySelectorAll('.filter-chip').forEach(chip => {
+        if (chip.getAttribute(attrName) === activeValue) {
+          chip.classList.add('active');
+        } else {
+          chip.classList.remove('active');
+        }
+      });
+    }
+
+    async function populateUnits() {
+      const unitSelect = document.getElementById('unitFilter');
+      let units = [];
+      const subject = currentFilters.subject;
+      if (subject === 'all') {
+        const questionsToUse = correctQuestions;
+        const unitMap = FilterEngine.getAvailableUnits(questionsToUse, ['all']);
+        let flatUnits = [];
+        Object.values(unitMap).forEach(arr => flatUnits.push(...arr));
+        units = [...new Set(flatUnits)].sort();
+      } else {
+        const questionsToUse = correctQuestions.filter(q => q.subject === subject);
+        const unitMap = FilterEngine.getAvailableUnits(questionsToUse, [subject]);
+        units = unitMap[subject] || [];
+      }
+      unitSelect.innerHTML = '<option value="all">সব অধ্যায়</option>';
+      units.forEach(u => {
+        const opt = document.createElement('option');
+        opt.value = u;
+        opt.textContent = FilterEngine.getUnitBn(u);
+        unitSelect.appendChild(opt);
+      });
+      unitSelect.value = currentFilters.unit;
+      unitSelect.addEventListener('change', (e) => {
+        currentFilters.unit = e.target.value;
+        renderQuestions();
+      });
+    }
+
+    function renderQuestions() {
+      const filtered = applyFilters();
+      const statsDiv = document.getElementById('stats');
+      statsDiv.innerHTML = `মোট ${filtered.length}টি প্রশ্ন দেখানো হচ্ছে (সঠিক উত্তর দেওয়া মোট ${correctQuestions.length}টির মধ্যে)`;
+      const container = document.getElementById('questionsList');
+      if (filtered.length === 0) {
+        container.innerHTML = '<div class="no-questions">ফিল্টারে কোনো প্রশ্ন মেলেনি।</div>';
+        return;
+      }
+      container.innerHTML = '';
+      filtered.forEach((q, idx) => {
+        // Find the user's answer from history
+        const key = FilterHistory.getQuestionKey(q);
+        const record = FilterHistory.getQuestionRecord(q);
+        const userAnswer = record?.lastAnswer;
+        const isMulti = q.multi === true;
+        let userText = 'এড়িয়ে গেছেন', correctText = '';
+        if (isMulti) {
+          const correctIndices = Array.isArray(q.answer) ? q.answer : [q.answer];
+          correctText = correctIndices.map(i => `${getOptionLetter(i)}. ${q.options[i]}`).join('; ');
+          if (Array.isArray(userAnswer) && userAnswer.length) {
+            userText = userAnswer.map(i => `${getOptionLetter(i)}. ${q.options[i]}`).join('; ');
+          } else if (userAnswer !== undefined && userAnswer !== null) {
+            userText = 'উত্তর দেওয়া হয়েছে (বিন্যাস ত্রুটি)';
+          }
+        } else {
+          const correctIdx = Array.isArray(q.answer) ? q.answer[0] : q.answer;
+          correctText = `${getOptionLetter(correctIdx)}. ${q.options[correctIdx]}`;
+          if (typeof userAnswer === 'number') {
+            userText = `${getOptionLetter(userAnswer)}. ${q.options[userAnswer]}`;
+          }
+        }
+        const div = document.createElement('div');
+        div.className = 'question-card';
+        div.innerHTML = `
+          <div><span class="badge">${FilterEngine.getSubjectBn(q.subject)}</span><span class="badge">${FilterEngine.getUnitBn(q.unit)}</span><span class="badge">${FilterEngine.getDifficultyBn(q.difficulty)}</span><span class="badge">${q.multi ? 'বহু-সঠিক' : 'একক-সঠিক'}</span></div>
+          <div class="question-text">${escapeHtml(q.question)}</div>
+          <div class="answer-row correct-answer">✅ সঠিক উত্তর: ${escapeHtml(correctText)}</div>
+          <div class="answer-row your-answer">📝 আপনার উত্তর: ${escapeHtml(userText)}</div>
+          ${q.explanation ? `<div class="answer-row explanation">💡 ব্যাখ্যা: ${escapeHtml(q.explanation)}</div>` : ''}
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    renderFilters();
+    await populateUnits();
+    renderQuestions();
+  })();
+</script>
+</body>
+</html>

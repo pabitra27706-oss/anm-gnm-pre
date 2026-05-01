@@ -27,7 +27,6 @@
       margin: 0;
     }
 
-    /* ── Header ── */
     .app-header {
       background: linear-gradient(135deg, var(--pink) 0%, var(--pink-dark) 100%);
       color: white;
@@ -51,7 +50,6 @@
     .header-text h1 { font-size: 1rem; font-weight: 700; margin-bottom: 2px; }
     .header-text p  { font-size: 0.72rem; opacity: 0.9; }
 
-    /* ── Main content ── */
     .page-content {
       max-width: 700px;
       margin: 0 auto;
@@ -61,7 +59,6 @@
       gap: 14px;
     }
 
-    /* ── Filter card ── */
     .card {
       background: white;
       border-radius: var(--radius);
@@ -86,7 +83,6 @@
       flex-shrink: 0;
     }
 
-    /* ── Dropdowns ── */
     .field { margin-bottom: 14px; }
     .field label {
       display: block;
@@ -120,7 +116,6 @@
       color: #333;
       outline: none;
       appearance: none;
-      -webkit-appearance: none;
       cursor: pointer;
       transition: border-color 0.2s, box-shadow 0.2s;
     }
@@ -134,7 +129,6 @@
       cursor: not-allowed;
     }
 
-    /* ── Bottom bar ── */
     .bottom-bar {
       position: fixed;
       bottom: 0;
@@ -167,7 +161,6 @@
     }
     #startQuizBtn:disabled { background: #bdbdbd; cursor: not-allowed; }
 
-    /* ── Collapsible advanced filters ── */
     .section-header {
       display: flex;
       align-items: center;
@@ -184,7 +177,6 @@
     .section-body { display: none; }
     .section-body.open { display: block; }
 
-    /* ── Pills (for advanced filters) ── */
     .pills-wrap { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
     .filter-pill {
       border: 1.5px solid var(--gray-border);
@@ -220,6 +212,64 @@
     .switch input:checked + .switch-slider::before { transform: translateX(22px); }
 
     .section-hint { font-size: 0.68rem; color: var(--gray-text); margin-top: 8px; padding-top: 6px; border-top: 1px dashed var(--gray-border); }
+
+    /* Additional styles for new buttons */
+    .action-btn {
+      background: white;
+      border: 1.5px solid var(--pink);
+      border-radius: var(--radius-pill);
+      padding: 10px 16px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      width: 100%;
+      margin-top: 12px;
+    }
+    .action-btn-primary {
+      background: var(--pink);
+      color: white;
+      border: none;
+    }
+    .action-btn-secondary {
+      background: white;
+      border-color: var(--gray-border);
+      color: var(--dark);
+    }
+    .action-btn-secondary:hover {
+      border-color: var(--pink);
+      color: var(--pink);
+    }
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid var(--gray-border);
+      font-family: monospace;
+      font-size: 12px;
+      resize: vertical;
+    }
+    .custom-count-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+      align-items: center;
+    }
+    .custom-count-row input {
+      flex: 1;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .small-btn {
+      background: var(--pink);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-weight: 500;
+    }
   </style>
 </head>
 <body>
@@ -290,20 +340,38 @@
       <div style="margin-bottom:16px;">
         <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">আগের অনুশীলন</div>
         <div class="pills-wrap" id="historyPills"></div>
-        <div class="history-stats" id="historyStats" style="display:flex; gap:8px; flex-wrap:wrap; margin-top:10px;"></div>
       </div>
 
-      <!-- Count & Random -->
+      <!-- Count with custom number -->
       <div>
         <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">কতটি প্রশ্ন?</div>
         <div class="count-btns-row" id="countButtons"></div>
+        <div class="custom-count-row">
+          <input type="number" id="customCountInput" min="1" max="500" placeholder="কাস্টম সংখ্যা (যেমন: 15)">
+          <button id="applyCustomCountBtn" class="small-btn">প্রয়োগ</button>
+        </div>
         <p class="section-hint">ফিল্টার করা প্রশ্নের চেয়ে বেশি নির্বাচন করলে সব প্রশ্ন অন্তর্ভুক্ত হবে</p>
         <div class="toggle-row" style="margin-top:12px;">
           <div><div style="font-weight:600;">র‍্যান্ডম ক্রমে</div><div style="font-size:0.65rem; color:var(--gray-text);">প্রতিবার ভিন্ন ক্রমে প্রশ্ন আসবে</div></div>
           <label class="switch"><input type="checkbox" id="randomToggle" checked /><span class="switch-slider"></span></label>
         </div>
       </div>
+
+      <!-- Custom Question IDs -->
+      <div style="margin-top: 16px;">
+        <div style="font-weight:600; font-size:0.85rem; margin-bottom:8px;">🎯 নির্দিষ্ট প্রশ্ন ID (কমা দিয়ে আলাদা করুন)</div>
+        <textarea id="customIdsInput" rows="2" placeholder="যেমন: ls-01-005, m-03-012, e-05-089"></textarea>
+        <button id="clearCustomIdsBtn" style="margin-top:6px; background:transparent; border:1px solid #ccc; border-radius:20px; padding:4px 12px; font-size:12px; cursor:pointer;">সাফ করুন</button>
+        <p class="section-hint">আপনার ইচ্ছেমত নির্দিষ্ট প্রশ্ন দিয়ে কুইজ তৈরি করুন।</p>
+      </div>
     </div>
+  </div>
+
+  <!-- Button to view correct answers -->
+  <div class="card">
+    <button id="viewCorrectBtn" class="action-btn action-btn-secondary">
+      ✅ দেখুন সঠিক উত্তর দেওয়া প্রশ্নগুলো
+    </button>
   </div>
 
 </div>
