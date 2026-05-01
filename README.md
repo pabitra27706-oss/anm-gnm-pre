@@ -418,6 +418,7 @@ anm-gnm-prep/
 └── sw.js
 
 
+
 ---
 
 ## 🚀 লোকালি চালানোর পদ্ধতি
@@ -425,10 +426,10 @@ anm-gnm-prep/
 ### পদ্ধতি ১: VS Code Live Server (সহজ)
 ```bash
 # 1. রিপোজিটরি ক্লোন করুন
-git clone https://github.com/YOUR_USERNAME/wb-anm-gnm-2026.git
+git clone https://github.com/pabitra27706-oss/anm-gnm-pre.git
 
 # 2. ফোল্ডারে যান
-cd wb-anm-gnm-2026
+cd anm-gnm-pre
 
 # 3. VS Code-এ খুলুন
 code .
