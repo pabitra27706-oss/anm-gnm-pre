@@ -1,34 +1,41 @@
 /**
- * results-loader.js
- * PURPOSE : Safely read all result types from localStorage,
- *           merge them into one sorted array with type tags.
- * PATTERN : IIFE → exposes ResultsLoader to window
+ * results-loader.js - WB ANM GNM Platform Compatible
+ * Reads from actual localStorage keys used across the platform
+ * 
+ * Storage Keys used by the platform:
+ * - wb_anm_mock_results : Mock test results (from mock-test/js/mock-storage.js)
+ * - practice_results     : Practice quiz results (from practice/js/quiz-storage.js)
+ * - pyq_results          : PYQ results (from pyq/js/pyq-storage.js)
  */
 
 (function () {
   'use strict';
 
   /* ═══════════════════════════════════════════════════════
-     CONSTANTS
+     CONSTANTS - Matches actual platform storage keys
   ═══════════════════════════════════════════════════════ */
   var KEYS = {
-    mock:     'mock_results',
-    practice: 'practice_results',
-    pyq:      'pyq_results'
+    mock:     'wb_anm_mock_results',     // ✅ From mock-storage.js
+    practice: 'practice_results',         // ✅ From quiz-storage.js
+    pyq:      'pyq_results'              // ✅ From pyq-storage.js (create if missing)
   };
 
-  /* Subject display name map (Bengali) */
+  /* Subject display name map (matches your practice/ subjects) */
   var SUBJECT_NAMES = {
-    'life-science':       'জীবন বিজ্ঞান',
-    'physical-science':   'ভৌত বিজ্ঞান',
-    'mathematics':        'গণিত',
-    'english':            'ইংরেজি',
-    'general-knowledge':  'সাধারণ জ্ঞান',
-    'anatomy':            'অ্যানাটমি',
-    'physiology':         'ফিজিওলজি',
-    'nursing':            'নার্সিং',
-    'nutrition':          'পুষ্টি বিজ্ঞান',
-    'community-health':   'কমিউনিটি স্বাস্থ্য'
+    'life-science': 'জীবন বিজ্ঞান',
+    'general-science': 'সাধারণ বিজ্ঞান',
+    'physical-science': 'ভৌত বিজ্ঞান',
+    'arithmetic-mathematics': 'পাটিগণিত ও গণিত',
+    'mathematics': 'গণিত',
+    'reasoning-general-knowledge': 'যুক্তি ও সাধারণ জ্ঞান',
+    'general-knowledge': 'সাধারণ জ্ঞান',
+    'english-grammar': 'ইংরেজি ব্যাকরণ',
+    'english': 'ইংরেজি',
+    'anatomy': 'অ্যানাটমি',
+    'physiology': 'ফিজিওলজি',
+    'nursing': 'নার্সিং',
+    'nutrition': 'পুষ্টি বিজ্ঞান',
+    'community-health': 'কমিউনিটি স্বাস্থ্য'
   };
 
   /* ═══════════════════════════════════════════════════════
@@ -135,14 +142,9 @@
   }
 
   /* ═══════════════════════════════════════════════════════
-     UTILITY: Validate required fields
+     VALIDATION FUNCTIONS
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Check a mock result has minimum required fields.
-   * @param {*} item
-   * @returns {boolean}
-   */
   function isValidMock(item) {
     return (
       item !== null &&
@@ -151,29 +153,19 @@
     );
   }
 
-  /**
-   * Check a practice result has minimum required fields.
-   * @param {*} item
-   * @returns {boolean}
-   */
   function isValidPractice(item) {
     return (
       item !== null &&
       typeof item === 'object' &&
-      item.subject !== undefined
+      (item.subject !== undefined || item.score !== undefined)
     );
   }
 
-  /**
-   * Check a PYQ result has minimum required fields.
-   * @param {*} item
-   * @returns {boolean}
-   */
   function isValidPYQ(item) {
     return (
       item !== null &&
       typeof item === 'object' &&
-      (item.paperId !== undefined || item.totalScore !== undefined)
+      (item.paperId !== undefined || item.totalScore !== undefined || item.year !== undefined)
     );
   }
 
@@ -181,18 +173,18 @@
      DISPLAY TITLE BUILDERS
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Build display title for mock test.
-   * e.g. "মক টেস্ট ০১"
-   * @param {Object} item
-   * @returns {string}
-   */
   function buildMockTitle(item) {
     try {
       if (item.mockId !== undefined && item.mockId !== null) {
-        return 'মক টেস্ট ' + toBengaliNum(
-          String(item.mockId).padStart(2, '0')
-        );
+        // Handle both number and string mockId
+        var id = item.mockId;
+        if (typeof id === 'number') {
+          return 'মক টেস্ট ' + toBengaliNum(String(id).padStart(2, '0'));
+        }
+        if (typeof id === 'string' && !isNaN(parseInt(id))) {
+          return 'মক টেস্ট ' + toBengaliNum(String(parseInt(id)).padStart(2, '0'));
+        }
+        return 'মক টেস্ট';
       }
       return 'মক টেস্ট';
     } catch (e) {
@@ -200,20 +192,15 @@
     }
   }
 
-  /**
-   * Build display title for practice set.
-   * e.g. "জীবন বিজ্ঞান - সেট ০১"
-   * @param {Object} item
-   * @returns {string}
-   */
   function buildPracticeTitle(item) {
     try {
       var subjectLabel = SUBJECT_NAMES[item.subject] || item.subject || 'অনুশীলন';
       var setLabel = '';
       if (item.set !== undefined && item.set !== null) {
-        setLabel = ' - সেট ' + toBengaliNum(
-          String(item.set).padStart(2, '0')
-        );
+        var setNum = typeof item.set === 'number' ? item.set : parseInt(item.set);
+        if (!isNaN(setNum)) {
+          setLabel = ' - সেট ' + toBengaliNum(String(setNum).padStart(2, '0'));
+        }
       }
       return subjectLabel + setLabel;
     } catch (e) {
@@ -221,16 +208,13 @@
     }
   }
 
-  /**
-   * Build display title for PYQ paper.
-   * e.g. "পুরনো প্রশ্ন ২০২৩"
-   * @param {Object} item
-   * @returns {string}
-   */
   function buildPYQTitle(item) {
     try {
       if (item.paperId !== undefined && item.paperId !== null) {
         return 'পুরনো প্রশ্ন ' + toBengaliNum(item.paperId);
+      }
+      if (item.year !== undefined && item.year !== null) {
+        return 'পুরনো প্রশ্ন ' + toBengaliNum(item.year);
       }
       return 'পুরনো প্রশ্ন';
     } catch (e) {
@@ -244,27 +228,48 @@
 
   /**
    * Get percentage as a clean number (0–100).
-   * Handles string "71.74" or number 71.74.
-   * Falls back to computing from score/maxScore.
+   * Handles various data formats from different modules.
    * @param {Object} item
    * @returns {number}
    */
   function normalizePercentage(item) {
     try {
+      // If percentage already exists as number or string
       if (item.percentage !== undefined && item.percentage !== null) {
         var pct = parseFloat(item.percentage);
         if (!isNaN(pct)) return Math.min(100, Math.max(0, pct));
       }
-      /* Compute from totalScore / maxScore */
-      if (item.totalScore !== undefined && item.maxScore) {
+      
+      // For mock tests: totalScore / maxScore (maxScore default 115)
+      if (item.totalScore !== undefined && item.maxScore !== undefined && item.maxScore > 0) {
         var computed = (parseFloat(item.totalScore) / parseFloat(item.maxScore)) * 100;
         if (!isNaN(computed)) return Math.min(100, Math.max(0, computed));
       }
-      /* Compute from correct / total (practice) */
+      
+      // For mock tests with only totalScore (use default maxScore 115)
+      if (item.totalScore !== undefined && item.maxScore === undefined) {
+        var defaultComputed = (parseFloat(item.totalScore) / 115) * 100;
+        if (!isNaN(defaultComputed)) return Math.min(100, Math.max(0, defaultComputed));
+      }
+      
+      // For practice: correct / total
       if (item.correct !== undefined && item.total !== undefined && item.total > 0) {
         var prac = (item.correct / item.total) * 100;
         if (!isNaN(prac)) return Math.min(100, Math.max(0, prac));
       }
+      
+      // For practice with score/total
+      if (item.score !== undefined && item.total !== undefined && item.total > 0) {
+        var scorePct = (item.score / item.total) * 100;
+        if (!isNaN(scorePct)) return Math.min(100, Math.max(0, scorePct));
+      }
+      
+      // For practice with displayScore/total
+      if (item.displayScore !== undefined && item.total !== undefined && item.total > 0) {
+        var displayPct = (item.displayScore / item.total) * 100;
+        if (!isNaN(displayPct)) return Math.min(100, Math.max(0, displayPct));
+      }
+      
       return 0;
     } catch (e) {
       return 0;
@@ -275,11 +280,6 @@
      PUBLIC: getMockResults
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Load mock results from localStorage.
-   * Validates each item, filters invalid ones.
-   * @returns {Array}
-   */
   function getMockResults() {
     var raw = getStoredArray(KEYS.mock);
     var valid = raw.filter(function (item) {
@@ -295,10 +295,6 @@
      PUBLIC: getPracticeResults
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Load practice results from localStorage.
-   * @returns {Array}
-   */
   function getPracticeResults() {
     var raw = getStoredArray(KEYS.practice);
     var valid = raw.filter(function (item) {
@@ -314,10 +310,6 @@
      PUBLIC: getPYQResults
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Load PYQ results from localStorage.
-   * @returns {Array}
-   */
   function getPYQResults() {
     var raw = getStoredArray(KEYS.pyq);
     var valid = raw.filter(function (item) {
@@ -333,18 +325,6 @@
      PUBLIC: getAllResults
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Merge all result types into one array.
-   * Each item gets:
-   *   type         : 'mock' | 'practice' | 'pyq'
-   *   displayTitle : Bengali string
-   *   displayDate  : Formatted Bengali date
-   *   normalizedPct: number 0–100
-   *   _timestamp   : number for sorting
-   *
-   * Sorted by timestamp descending (newest first).
-   * @returns {Array}
-   */
   function getAllResults() {
     console.log('[Loader] getAllResults() called');
 
@@ -352,7 +332,6 @@
     var practice = getPracticeResults();
     var pyqs     = getPYQResults();
 
-    /* Tag mock results */
     var taggedMocks = mocks.map(function (item) {
       return Object.assign({}, item, {
         type:          'mock',
@@ -363,7 +342,6 @@
       });
     });
 
-    /* Tag practice results */
     var taggedPractice = practice.map(function (item) {
       return Object.assign({}, item, {
         type:          'practice',
@@ -374,7 +352,6 @@
       });
     });
 
-    /* Tag PYQ results */
     var taggedPYQs = pyqs.map(function (item) {
       return Object.assign({}, item, {
         type:          'pyq',
@@ -385,15 +362,17 @@
       });
     });
 
-    /* Merge */
     var merged = taggedMocks.concat(taggedPractice).concat(taggedPYQs);
 
-    /* Sort by timestamp descending */
     merged.sort(function (a, b) {
       return b._timestamp - a._timestamp;
     });
 
     console.log('[Loader] Total merged results:', merged.length);
+    console.log('[Loader] Breakdown - Mock:', taggedMocks.length, 
+                'Practice:', taggedPractice.length, 
+                'PYQ:', taggedPYQs.length);
+    
     return merged;
   }
 
@@ -401,16 +380,12 @@
      PUBLIC: clearAllResults
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Remove all result keys from localStorage.
-   * Returns true on success, false on error.
-   * @returns {boolean}
-   */
   function clearAllResults() {
     try {
       localStorage.removeItem(KEYS.mock);
       localStorage.removeItem(KEYS.practice);
       localStorage.removeItem(KEYS.pyq);
+      
       console.log('[Loader] All results cleared from localStorage');
       return true;
     } catch (err) {
@@ -421,21 +396,36 @@
 
   /* ═══════════════════════════════════════════════════════
      PUBLIC: getSubjectName
-     (exposed so results-app can use it for card rendering)
   ═══════════════════════════════════════════════════════ */
 
-  /**
-   * Get Bengali display name for a subject key.
-   * @param {string} key
-   * @returns {string}
-   */
   function getSubjectName(key) {
     return SUBJECT_NAMES[key] || key || 'অজানা বিষয়';
   }
 
   /* ═══════════════════════════════════════════════════════
-     PUBLIC: toBengaliNum (re-export for use in app)
+     PUBLIC: getCompletedPracticeSetsCount
+     Optional - reads from practice_completed key
   ═══════════════════════════════════════════════════════ */
+
+  function getCompletedPracticeSetsCount() {
+    try {
+      var raw = localStorage.getItem('practice_completed');
+      if (!raw) return 0;
+      var completed = JSON.parse(raw);
+      if (typeof completed !== 'object') return 0;
+      
+      var total = 0;
+      for (var subject in completed) {
+        if (Array.isArray(completed[subject])) {
+          total += completed[subject].length;
+        }
+      }
+      return total;
+    } catch (e) {
+      console.warn('[Loader] Failed to get completed practice sets:', e);
+      return 0;
+    }
+  }
 
   /* ═══════════════════════════════════════════════════════
      EXPOSE TO WINDOW
@@ -444,14 +434,15 @@
     getMockResults:     getMockResults,
     getPracticeResults: getPracticeResults,
     getPYQResults:      getPYQResults,
-    getAllResults:       getAllResults,
+    getAllResults:      getAllResults,
     clearAllResults:    clearAllResults,
     getSubjectName:     getSubjectName,
     toBengaliNum:       toBengaliNum,
     formatDate:         formatDate,
-    normalizePercentage: normalizePercentage
+    normalizePercentage: normalizePercentage,
+    getCompletedPracticeSetsCount: getCompletedPracticeSetsCount
   };
 
-  console.log('[Loader] ResultsLoader ready');
+  console.log('[Loader] ResultsLoader ready with platform-compatible keys');
 
 })();
