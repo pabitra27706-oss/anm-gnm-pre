@@ -1,0 +1,906 @@
+{
+  "paperId": "2022-2",
+  "title": "ANM(R) & GNM-2022 Shift-2",
+  "questions": [
+    {
+      "id": 1,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মস্তিষ্কের যে অংশটি দেহের ভারসাম্য রক্ষার সঙ্গে সম্পর্কিত তা হল",
+      "options": ["মেডুলা অবলংগাটা", "সেরিবেলাম", "সেরিব্রাম", "থ্যালামাস"],
+      "answer": [1],
+      "explanation": "লঘুমস্তিষ্ক বা সেরিবেলাম দেহের ভারসাম্য এবং ভঙ্গি নিয়ন্ত্রণে সাহায্য করে।"
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "subject": "life-science",
+      "question": "______ হল একটি গ্যাসীয় উদ্ভিদ হরমোন।",
+      "options": ["অক্সিন", "জিব্বেরেলিন", "ইথিলিন", "অ্যাবসিসিক অ্যাসিড"],
+      "answer": [2],
+      "explanation": "ইথিলিন হলো একমাত্র গ্যাসীয় উদ্ভিদ হরমোন যা ফল পাকাতে সাহায্য করে।"
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "subject": "life-science",
+      "question": "আরকিওপটেরিক্স কোন্ গোষ্ঠীদ্বয়ের মধ্যে হারানো যোগসূত্র?",
+      "options": ["পক্ষী এবং স্তন্যপায়ী", "সরীসৃপ এবং পক্ষী", "সরীসৃপ এবং স্তন্যপায়ী", "উভচর এবং পক্ষী"],
+      "answer": [1],
+      "explanation": "আরকিওপটেরিক্স (Archaeopteryx) সরীসৃপ এবং পক্ষী শ্রেণীর মধ্যে সংযোগ রক্ষাকারী একটি জীবাশ্ম।"
+    },
+    {
+      "id": 4,
+      "category": 1,
+      "subject": "life-science",
+      "question": "বায়ুমন্ডলে ওজনস্তর-এর উপস্থিতি খুবই গুরুত্বপূর্ণ, কারণ ইহা",
+      "options": ["পৃথিবীকে বৃষ্টি দেয়", "পৃথিবীকে অতিবেগুনী রশ্মির হাত থেকে রক্ষা করে", "পৃথিবীকে বন্যা থেকে রক্ষা করে", "পৃথিবীকে অগ্ন্যুৎপাত থেকে রক্ষা করে"],
+      "answer": [1],
+      "explanation": "ওজন স্তর সূর্যের ক্ষতিকারক অতিবেগুনি রশ্মি (UV radiation) শোষণ করে পৃথিবীকে রক্ষা করে।"
+    },
+    {
+      "id": 5,
+      "category": 1,
+      "subject": "life-science",
+      "question": "অপটিক স্নায়ু হল একটি",
+      "options": ["মোটর স্নায়ু", "স্পাইনাল স্নায়ু", "মিশ্র স্নায়ু", "সেনসরি স্নায়ু"],
+      "answer": [3],
+      "explanation": "অপটিক স্নায়ু (Optic nerve) হলো একটি সংজ্ঞাবহ বা সেনসরি করোটীয় স্নায়ু যা দর্শনে সাহায্য করে।"
+    },
+    {
+      "id": 6,
+      "category": 1,
+      "subject": "life-science",
+      "question": "কোন্ হরমোনটি পিটুইটারীর অগ্রখন্ড থেকে নিঃসৃত হয় না?",
+      "options": ["ACTH", "ADH", "FSH", "TSH"],
+      "answer": [1],
+      "explanation": "অ্যান্টি-ডাইইউরেটিক হরমোন (ADH) বা ভেসোপ্রেসিন পিটুইটারির পশ্চাৎ খণ্ড থেকে নিঃসৃত হয়।"
+    },
+    {
+      "id": 7,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মাটির অম্লতার জন্য দায়ী গ্রীনহাউস গ্যাসটি হল",
+      "options": ["মিথেন", "ক্লোরোফ্লুরো কার্বন", "নাইট্রাস অক্সাইড", "হাইড্রোক্লোরোফ্লুরো কার্বন"],
+      "answer": [2],
+      "explanation": "নাইট্রাস অক্সাইড একটি গ্রীনহাউস গ্যাস যা মাটির অম্লতা বৃদ্ধির জন্য দায়ী।"
+    },
+    {
+      "id": 8,
+      "category": 1,
+      "subject": "life-science",
+      "question": "জিন ব্যাঙ্ক যার উদাহরণ, তা হল",
+      "options": ["এক্স সিটু সংরক্ষণ", "জীববৈচিত্র্য হটস্পট", "ইন সিটু সংরক্ষণ", "মাইক্রোপ্রোপাগেশন"],
+      "answer": [0],
+      "explanation": "জিন ব্যাঙ্ক, বীজ ব্যাঙ্ক ইত্যাদি এক্স সিটু (স্বস্থানের বাইরে) সংরক্ষণের উদাহরণ।"
+    },
+    {
+      "id": 9,
+      "category": 1,
+      "subject": "life-science",
+      "question": "\"Origin of Species\" বইটির লেখক কে?",
+      "options": ["গ্রেগর যোহান মেন্ডেল", "চালর্স ডারউইন", "জে বি লামার্ক", "স্ট্যানলি মিলার"],
+      "answer": [1],
+      "explanation": "চার্লস ডারউইন ১৮৫৯ সালে \"On the Origin of Species\" বইটি প্রকাশ করেন।"
+    },
+    {
+      "id": 10,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিতগুলির মধ্যে কোন্টি নাইট্রোজেন ফিক্সিং ব্যাকটেরিয়া?",
+      "options": ["Azotobacter", "Pseudomonas", "Escherichia", "Mycoplasma"],
+      "answer": [0],
+      "explanation": "অ্যাজোটোব্যাকটর (Azotobacter) একটি স্বাধীনজীবী নাইট্রোজেন স্থিতিকারী ব্যাকটেরিয়া।"
+    },
+    {
+      "id": 11,
+      "category": 1,
+      "subject": "life-science",
+      "question": "Penicillium chrysogenum কোন্ ধরনের অণুজীব?",
+      "options": ["ক্ষতিকর ব্যাকটেরিয়া", "ক্ষতিকর ছত্রাক", "উপকারী ছত্রাক", "উপকারী প্রোটোজোয়া"],
+      "answer": [2],
+      "explanation": "এটি একটি উপকারী ছত্রাক যা থেকে অ্যান্টিবায়োটিক পেনিসিলিন তৈরি হয়।"
+    },
+    {
+      "id": 12,
+      "category": 1,
+      "subject": "life-science",
+      "question": "ক্রায়োসংরক্ষণে ব্যবহৃত রাসায়নিক পদার্থটি হল",
+      "options": ["তরল অক্সিজেন", "তরল নাইট্রোজেন", "তরল কার্বন ডাইঅক্সাইড", "তরল মিথেন"],
+      "answer": [1],
+      "explanation": "ক্রায়োসংরক্ষণে -১৯৬°C তাপমাত্রায় তরল নাইট্রোজেন ব্যবহার করা হয়।"
+    },
+    {
+      "id": 13,
+      "category": 1,
+      "subject": "life-science",
+      "question": "ব্যক্তি থেকে ব্যক্তিতে পোলিও রোগটি যার দ্বারা বাহিত হয় তা হল",
+      "options": ["বাতাস", "দূষিত জল", "যৌন মিলন", "পতঙ্গ বাহক"],
+      "answer": [1],
+      "explanation": "পোলিও ভাইরাস প্রধানত দূষিত জল এবং খাদ্যের মাধ্যমে সংক্রমিত হয়।"
+    },
+    {
+      "id": 14,
+      "category": 1,
+      "subject": "life-science",
+      "question": "বাদুড় দ্বারা যে পরাগায়ন ঘটে তাকে বলা হয়",
+      "options": ["হাইড্রোফিলি", "অ্যানিমোফিলি", "অরনিথোফিলি", "কাইরোপ্টেরোফিলি"],
+      "answer": [3],
+      "explanation": "বাদুড়ের সাহায্যে হওয়া পরাগযোগকে কাইরোপ্টেরোফিলি (Chiropterophily) বলে।"
+    },
+    {
+      "id": 15,
+      "category": 1,
+      "subject": "life-science",
+      "question": "উদ্ভিদের পুরুষ প্রজনন অঙ্গ, পরাগধানীতে, যা থাকে",
+      "options": ["বৃতি", "পাপড়ি", "গর্ভপত্র", "পরাগরেণু"],
+      "answer": [3],
+      "explanation": "পরাগধানীর (Anther) ভেতরে পরাগরেণু বা পোলেন গ্রেন উৎপন্ন হয়।"
+    },
+    {
+      "id": 16,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন্ পদ্ধতিতে ছোট উদ্ভিদ কলা থেকে খুব দ্রুত নতুন উদ্ভিদ সৃষ্টি করা হয়?",
+      "options": ["সংকরকরণ", "জোড়কলম", "শাখাকলম", "মাইক্রোপ্রোপাগেশান"],
+      "answer": [3],
+      "explanation": "মাইক্রোপ্রোপাগেশন বা অণুবিস্তারণ হলো টিস্যু কালচার পদ্ধতিতে দ্রুত উদ্ভিদের বংশবৃদ্ধি করার একটি আধুনিক কৌশল।"
+    },
+    {
+      "id": 17,
+      "category": 1,
+      "subject": "life-science",
+      "question": "Vinca rosea থেকে যে উপক্ষারটি পাওয়া যায় সেটি হল",
+      "options": ["রেসারপিন", "ভিনক্রিস্টিন", "অ্যাট্রোপিন", "মরফিন"],
+      "answer": [1],
+      "explanation": "নয়নতারা (Vinca rosea) গাছ থেকে ভিনক্রিস্টিন এবং ভিনব্লাস্টিন নামক উপক্ষার পাওয়া যায় যা ক্যানসার চিকিৎসায় ব্যবহৃত হয়।"
+    },
+    {
+      "id": 18,
+      "category": 1,
+      "subject": "life-science",
+      "question": "HIV তে যে উৎসেচকটি RNA থেকে DNA উৎপাদন করে তা হল",
+      "options": ["ট্রান্সক্রিপটেজ", "হেলিকেজ", "DNA পলিমারেজ", "রিভার্স ট্রান্সক্রিপটেজ"],
+      "answer": [3],
+      "explanation": "রেট্রোভাইরাস (যেমন HIV)-এ রিভার্স ট্রান্সক্রিপটেজ উৎসেচক থাকে যা RNA থেকে DNA তৈরি করে।"
+    },
+    {
+      "id": 19,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মানুষের জনন কোষের ক্রোমোজোম সংখ্যা কত?",
+      "options": ["60", "23", "46", "40"],
+      "answer": [1],
+      "explanation": "মানুষের দেহকোষে ৪৬টি ক্রোমোজোম থাকে কিন্তু জনন কোষে (গ্যামেট) তার অর্ধেক অর্থাৎ ২৩টি ক্রোমোজোম থাকে।"
+    },
+    {
+      "id": 20,
+      "category": 1,
+      "subject": "life-science",
+      "question": "লাল বর্ণান্ধতা যে হিসাবে পরিচিত",
+      "options": ["ডিউটেরানোপিয়া", "প্রোটোনোপিয়া", "ট্রাইটানোপিয়া", "অ্যামব্লায়োপিয়া"],
+      "answer": [1],
+      "explanation": "লাল রঙের বর্ণান্ধতাকে প্রোটানোপিয়া (Protanopia) বলা হয়।"
+    },
+    {
+      "id": 21,
+      "category": 1,
+      "subject": "life-science",
+      "question": "DNA-র সঙ্গে সংযুক্ত অত্যন্ত ক্ষারক প্রোটিনটি হল",
+      "options": ["হিষ্টোন", "গ্লবিউলিন", "অ্যালবুমিন", "ফাইব্রিনোজেন"],
+      "answer": [0],
+      "explanation": "ইউক্যারিওটিক কোষে DNA হিস্টোন নামক ক্ষারীয় প্রোটিনের সাথে যুক্ত থাকে।"
+    },
+    {
+      "id": 22,
+      "category": 1,
+      "subject": "life-science",
+      "question": "কোন্ শব্দটি একটি জীবের সামগ্রিক জিনগত উপাদানকে সঠিকভাবে বর্ণনা করার জন্য ব্যবহৃত হয়?",
+      "options": ["জিন", "নিউক্লিয়াস", "জিনোম", "প্রোটিওম"],
+      "answer": [2],
+      "explanation": "কোনো জীবের কোষে উপস্থিত সমস্ত জিনের সমষ্টিকে জিনোম (Genome) বলা হয়।"
+    },
+    {
+      "id": 23,
+      "category": 1,
+      "subject": "life-science",
+      "question": "মেলিয়াস, ইনকাস ও স্টেপিস নামক ছোট হাড় তিনটি নিম্নলিখিত কোন জ্ঞানেন্দ্রিয় তে পাওয়া যায়?",
+      "options": ["চক্ষু", "কর্ণ", "নাসিকা", "জিহ্বা"],
+      "answer": [1],
+      "explanation": "এই তিনটি ছোট হাড় মানুষের মধ্যকর্ণে থাকে এবং শব্দতরঙ্গ পরিবহনে সাহায্য করে।"
+    },
+    {
+      "id": 24,
+      "category": 1,
+      "subject": "life-science",
+      "question": "বাডিং পদ্ধতিতে যার অযৌন জনন ঘটে",
+      "options": ["Amoeba", "Saccharomyces", "Penicillium", "Bacillus"],
+      "answer": [1],
+      "explanation": "Saccharomyces বা ইস্ট কোষে কোরকোদ্গম বা বাডিং পদ্ধতিতে অযৌন জনন হয়।"
+    },
+    {
+      "id": 25,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিতগুলির মধ্যে কোগুলি বেমতত্ত্ব সৃষ্টির সঙ্গে জড়িত?",
+      "options": ["লাইসোজোম", "মাইটোকনড্রিয়া", "গলগি বস্তু", "মাইক্রোটিউবিউলস"],
+      "answer": [3],
+      "explanation": "কোষ বিভাজনের সময় মাইক্রোটিউবিউলগুলি স্পিন্ডল ফাইবার বা বেমতন্তু গঠন করে।"
+    },
+    {
+      "id": 26,
+      "category": 1,
+      "subject": "life-science",
+      "question": "প্রোটিন সংশ্লেষের সঙ্গে প্রত্যক্ষভাবে যুক্ত কোষ-অঙ্গাণুটি হল",
+      "options": ["গলগি বডিস্", "নিউক্লিয়াস", "রাইবোজোম", "লাইসোজোম"],
+      "answer": [2],
+      "explanation": "রাইবোজোমকে কোষের প্রোটিন ফ্যাক্টরি বলা হয় কারণ এটি প্রোটিন সংশ্লেষে অংশগ্রহণ করে।"
+    },
+    {
+      "id": 27,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত রোগগুলির মধ্যে কোল্টি মশকবাহিত নয়?",
+      "options": ["ডেঙ্গু", "চিকুনগুনিয়া", "প্লেগ", "ম্যালেরিয়া"],
+      "answer": [2],
+      "explanation": "প্লেগ রোগটি ইঁদুরের গায়ে থাকা মাছি (Xenopsylla cheopis) দ্বারা পরিবাহিত হয়, মশার দ্বারা নয়।"
+    },
+    {
+      "id": 28,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিতগুলির মধ্যে কোনটি ভারতের বিপন্ন প্রজাতিদের একটি?",
+      "options": ["চিত্রমৃগ", "এক শিংওয়ালা গন্ডার", "ময়ূর", "চিতা"],
+      "answer": [1],
+      "explanation": "ভারতের একশৃঙ্গ গণ্ডার একটি অতি বিপন্ন (Endangered) বন্যপ্রাণী যা মূলত কাজিরাঙ্গা ও জলদাপাড়ায় সংরক্ষিত।"
+    },
+    {
+      "id": 29,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিচের কোন্টি প্রতিবর্ত ক্রিয়া নয়?",
+      "options": ["কাশি", "ঘর্মস্রাব", "চোখের মিটমিট", "হাঁচি"],
+      "answer": [1],
+      "explanation": "ঘর্মস্রাব হলো শরীরের তাপমাত্রা নিয়ন্ত্রণের একটি শারীরবৃত্তীয় প্রক্রিয়া, এটি কোনো তাৎক্ষণিক উদ্দীপনার প্রতিবর্ত ক্রিয়া নয়।"
+    },
+    {
+      "id": 30,
+      "category": 1,
+      "subject": "life-science",
+      "question": "যে মাইটোটিক মেটাফেজ দশাগুলিতে 'V' আকৃতির ক্রোমোজোম দেখা যায় তারা হল:",
+      "options": ["অ্যাক্রোসেন্ট্রিক", "অ্যাসেন্ট্রিক", "মেটাসেন্ট্রিক", "সাবমেটাসেন্ট্রিক"],
+      "answer": [2],
+      "explanation": "মেটাসেন্ট্রিক ক্রোমোজোমে সেন্ট্রোমিয়ার মাঝখানে থাকায় অ্যানাফেজ চলনের সময় তা 'V' আকৃতি ধারণ করে।"
+    },
+    {
+      "id": 31,
+      "category": 2,
+      "subject": "life-science",
+      "question": "সবাত শ্বসনে গ্লুকোজ জারিত হয়ে যা উৎপন্ন করে",
+      "options": ["CO2", "CO", "H2O", "C2H5OH"],
+      "answer": [0, 2],
+      "explanation": "সবাত শ্বসনে গ্লুকোজ সম্পূর্ণরূপে জারিত হয়ে কার্বন ডাইঅক্সাইড (CO2), জল (H2O) এবং শক্তি উৎপন্ন করে।"
+    },
+    {
+      "id": 32,
+      "category": 2,
+      "subject": "life-science",
+      "question": "স্বাভাবিক সাইনোভিয়াল তরল যেগুলি দ্বারা গঠিত",
+      "options": ["হায়ালুরোনিক অ্যাসিড", "লুব্রিসিন", "অ্যাসিটাইলকোলিন", "ফাইব্রিনোজেন"],
+      "answer": [0, 1],
+      "explanation": "সাইনোভিয়াল তরলে প্রধানত হায়ালুরোনিক অ্যাসিড এবং লুব্রিসিন নামক প্রোটিন থাকে যা অস্থিসন্ধিতে লুব্রিকেন্ট হিসেবে কাজ করে।"
+    },
+    {
+      "id": 33,
+      "category": 2,
+      "subject": "life-science",
+      "question": "ক্যারিওটাইপিইং যা বর্ণনা করে",
+      "options": ["ক্রোমোজোমের অঙ্গসংস্থান", "ক্রোমোজোম সংখ্যা", "ক্রোমোজোমের অস্বাভাবিকতা", "ক্রোমোজোমে নিউক্লিওটাইড ক্রম"],
+      "answer": [0, 1, 2],
+      "explanation": "ক্যারিওটাইপিং এর মাধ্যমে একটি কোষের ক্রোমোজোমের সংখ্যা, আকার, এবং গাঠনিক অস্বাভাবিকতা বিশ্লেষণ করা যায়।"
+    },
+    {
+      "id": 34,
+      "category": 2,
+      "subject": "life-science",
+      "question": "মানুষের শুক্রাণুর অ্যাক্রোজোম-এ থাকে",
+      "options": ["অ্যালক্যালাইন ফসফাটেজ", "রেনিন", "হায়ালুরোনিডেজ", "অ্যাক্রোসিন"],
+      "answer": [2, 3],
+      "explanation": "অ্যাক্রোজোম হাইড্রোলাইটিক এনজাইম বহন করে যার মধ্যে হায়ালুরোনিডেজ এবং অ্যাক্রোসিন অন্যতম যা ডিম্বাণুর আবরণ ভেদ করতে সাহায্য করে।"
+    },
+    {
+      "id": 35,
+      "category": 2,
+      "subject": "life-science",
+      "question": "লাইসোজেনিক চক্রে নিম্নলিখিত কোন্ ঘটনাগুলি ঘটে?",
+      "options": ["পোষক ব্যাকটেরিয়া কোষের বিদারন ঘটে", "ভাইরাস একটি প্রোফাজ সৃষ্টি করে", "অপত্য ভাইরাস কণা সৃষ্টি হয়", "পোষক ব্যাকটেরিয়াতে নতুন বৈশিষ্ট্যের প্রকাশ ঘটে"],
+      "answer": [1, 3],
+      "explanation": "লাইসোজেনিক চক্রে ভাইরাসের ডিএনএ ব্যাকটেরিয়ার জিনোমের সাথে যুক্ত হয়ে প্রোফাজ গঠন করে এবং পোষকে নতুন বৈশিষ্ট্যের প্রকাশ ঘটাতে পারে।"
+    },
+    {
+      "id": 36,
+      "category": 2,
+      "subject": "life-science",
+      "question": "ডোমেইন আরকিয়াতে যারা অর্ন্তভুক্ত",
+      "options": ["প্রোটিওব্যাকটেরিয়া", "সায়ানোব্যাকটেরিয়া", "মিথানোজেনস", "হ্যালোফিলস"],
+      "answer": [2, 3],
+      "explanation": "আরকিয়া (Archaea) ডোমেইনে মিথানোজেন এবং হ্যালোফিলের মতো চরমপন্থী অণুজীবরা অন্তর্ভুক্ত।"
+    },
+    {
+      "id": 37,
+      "category": 2,
+      "subject": "life-science",
+      "question": "নিম্নলিখিতগুলির মধ্যে কোনগুলি নন্ আয়োনাইজিং রেডিয়েশান?",
+      "options": ["আলফা কণা", "গামা কণা", "অতিবেগুনী রশ্মি", "মাইক্রোওয়েভস্"],
+      "answer": [2, 3],
+      "explanation": "অতিবেগুনি রশ্মি (UV) এবং মাইক্রোওয়েভ হলো নন-আয়নাইজিং বিকিরণ, এদের আয়ন তৈরি করার মতো শক্তি নেই।"
+    },
+    {
+      "id": 38,
+      "category": 2,
+      "subject": "life-science",
+      "question": "যে পদ্ধতিগুলি এক্স-সিটু সংরক্ষণের জন্য গৃহীত হয়?",
+      "options": ["ক্রায়োসংরক্ষণ", "জার্মপ্লাজম ব্যাংক", "বটানিক্যাল গার্ডেন", "জাতীয় উদ্যান"],
+      "answer": [0, 1, 2],
+      "explanation": "ক্রায়োসংরক্ষণ, জার্মপ্লাজম ব্যাংক এবং বোটানিক্যাল গার্ডেন জীবের প্রাকৃতিক বাসস্থানের বাইরে (Ex-situ) সংরক্ষণ পদ্ধতি।"
+    },
+    {
+      "id": 39,
+      "category": 2,
+      "subject": "life-science",
+      "question": "জীবাণুগুলির কোন্ কম্বিনেশান গুলিতে সব কয়টি নাইট্রোজেন চক্রের সাথে সরাসরি যুক্ত?",
+      "options": ["Azotobacter, Nitrosomonas এবং Nitrobacter", "Escherichia, Nitrosomonas এবং Thiobacillus", "Clostridium, Nitrobacter এবং Rhizobium", "Klebsiella, Rhizobium এবং Salmonella"],
+      "answer": [0, 2],
+      "explanation": "অ্যাজোটোব্যাক্টর, নাইট্রোসোমোনাস, নাইট্রোব্যাক্টর, ক্লস্ট্রিডিয়াম, রাইজোবিয়াম - এরা সকলেই নাইট্রোজেন স্থিতিকরণ বা নাইট্রিফিকেশনে সরাসরি যুক্ত।"
+    },
+    {
+      "id": 40,
+      "category": 2,
+      "subject": "life-science",
+      "question": "DNA যেগুলির দ্বারা গঠিত হয়ে থাকে",
+      "options": ["পেন্টোজ শর্করা", "ফসফেট", "গ্লুকোজ", "নাইট্রোজেনাস বেস"],
+      "answer": [0, 1, 3],
+      "explanation": "একটি ডিঅক্সিরাইবোনিউক্লিওটাইড পেন্টোজ শর্করা (ডিঅক্সিরাইবোজ), ফসফেট গ্রুপ এবং নাইট্রোজেনাস বেস দ্বারা গঠিত হয়।"
+    },
+    {
+      "id": 41,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "18Ar40, 19K40 and 20Ca40-এই তিনটি মৌলকে বলা যায়",
+      "options": ["আইসোটোপ", "আইসোবার", "আইসোটোন", "আইসোকেম"],
+      "answer": [1],
+      "explanation": "যেসব পরমাণুর ভরসংখ্যা সমান কিন্তু পারমাণবিক সংখ্যা ভিন্ন, তাদের আইসোবার বলে।"
+    },
+    {
+      "id": 42,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "অক্সিজেন, হাইড্রোজেন ও সালফারের আনবিক গুরুত্ব যদি যথাক্রমে 32, 2 ও 32 হয় তবে সালফিউরিক অ্যাসিডের আনবিক গুরুত্ব কত?",
+      "options": ["49", "98", "82", "66"],
+      "answer": [1],
+      "explanation": "H2SO4 এর আণবিক ভর = (1×2) + 32 + (16×4) = 2 + 32 + 64 = 98।"
+    },
+    {
+      "id": 43,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "নীচের সারণীতে প্রথম স্তম্ভে দেওয়া বস্তুগুলির সঙ্গে দ্বিতীয় স্তম্ভে দেওয়া শ্রেণী নামগুলির সঠিক সামঞ্জস্য নির্ণয় কর। 1. নুন জল a. মিশ্রণ, 2. ধোঁয়া b. ইমালশন, 3. মাখন c. দ্রবণ, 4. মাটি d. কলয়েড",
+      "options": ["1-c, 2-d, 3-b, 4-a", "1-a, 2-b, 3-c, 4-d", "1-d, 2-c, 3-a, 4-b", "1-b, 2-d, 3-c, 4-a"],
+      "answer": [0],
+      "explanation": "নুন জল দ্রবণ (c), ধোঁয়া কলয়েড (d), মাখন ইমালশন (b) এবং মাটি মিশ্রণ (a)।"
+    },
+    {
+      "id": 44,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "জলের বুদ্বুদ সর্বদাই গোলাকৃতি হয়; অন্য কোনো আকারের হয় না। জলের কোন্ ভৌত ধর্ম এর জন্য দায়ী?",
+      "options": ["পৃষ্ঠটান", "সান্দ্রতা", "স্থিতিস্থাপকতা", "আপেক্ষিক গুরুত্ব"],
+      "answer": [0],
+      "explanation": "পৃষ্ঠটানের কারণে তরল তার উপরিতলের ক্ষেত্রফল সবচেয়ে কম রাখতে চায়, এবং একই আয়তনের জন্য গোলকের ক্ষেত্রফল সবচেয়ে কম হয়।"
+    },
+    {
+      "id": 45,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "একটি জলের পাম্প 50 মিনিটে 6 মিটার উচ্চতায় রাখা একটি 500 লিটার জলের ট্যাঙ্কে জল তুলে ভর্তি করতে পারে। পাম্পটির ক্ষমতা কত? (g=10 m/s²)",
+      "options": ["10 Watt", "30 Watt", "5 Watt", "15 Watt"],
+      "answer": [0],
+      "explanation": "কৃতকার্য (W) = mgh = 500 kg × 10 × 6 = 30000 J। ক্ষমতা (P) = W/t = 30000 / (50 × 60) = 10 Watt।"
+    },
+    {
+      "id": 46,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "0°C তাপমাত্রায় 10g বরফকে 800 ক্যালোরি তাপ প্রয়োগ করলে",
+      "options": ["প্রায় অর্ধেক বরফ গলে যাবে", "সব বরফ জল হয়ে বাস্প হয়ে যাবে", "10°C তাপমাত্রায় 10 g জল পাওয়া যাবে", "0°C তাপমাত্রায় 10g জল পাওয়া যাবে"],
+      "answer": [3],
+      "explanation": "বরফ গলনের লীনতাপ 80 cal/g। 10g বরফ গলাতে ঠিক 10×80 = 800 ক্যালোরি তাপ লাগে। তাই সব বরফ গলে 0°C তাপমাত্রায় জল হবে।"
+    },
+    {
+      "id": 47,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "একটি স্বরে যদি 256, 400, 512 ও 630 কম্পাঙ্কের চারটি সুর মিশ্রিত থাকে তবে সমমেল কোনটি?",
+      "options": ["256 কম্পাঙ্কের সুরটি", "400 কম্পাঙ্কের সুরটি", "512 কম্পাঙ্কের সুরটি", "630 কম্পাঙ্কের সুরটি"],
+      "answer": [2],
+      "explanation": "মূল সুরের (256) সরল গুণিতককে সমমেল বলে। 256 × 2 = 512, তাই এটি সমমেল।"
+    },
+    {
+      "id": 48,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "মানব দেহের চক্ষু লেন্স হল একটি",
+      "options": ["উভাবতল লেন্স", "উভোত্তল লেন্স", "সমতল দর্পণ", "প্রিজম"],
+      "answer": [1],
+      "explanation": "মানুষের চোখের লেন্স হলো একটি স্থিতিস্থাপক উভোত্তল লেন্স বা Biconvex lens।"
+    },
+    {
+      "id": 49,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "নিম্নলিখিত গ্যাসগুলির মধ্যে কোনটি সাধারনতঃ কোনো রাসায়নিক বিক্রিয়ায় অংশগ্রহণ করে না?",
+      "options": ["হাইড্রোজেন", "নিয়ন", "কার্বন ডাইঅক্সাইড", "মিথেন"],
+      "answer": [1],
+      "explanation": "নিয়ন একটি নিষ্ক্রিয় গ্যাস বা নোবেল গ্যাস, তাই এটি সাধারণত বিক্রিয়া করে না।"
+    },
+    {
+      "id": 50,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "অম্লবৃষ্টিতে যে অ্যাসিড সবথেকে বেশি থাকে তা হল",
+      "options": ["নাইট্রিক অ্যাসিড", "হাইড্রোক্লোরিক অ্যাসিড", "সালফিউরিক অ্যাসিড", "সাইট্রিক অ্যাসিড"],
+      "answer": [2],
+      "explanation": "অ্যাসিড বৃষ্টিতে সাধারণত 60-70% সালফিউরিক অ্যাসিড এবং 30-40% নাইট্রিক অ্যাসিড থাকে।"
+    },
+    {
+      "id": 51,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "সাধারণ তুলাযন্ত্র (দাঁড়িপাল্লা) দিয়ে কী মাপা হয়?",
+      "options": ["ভর", "ওজন", "বল", "চাপ"],
+      "answer": [0],
+      "explanation": "সাধারণ তুলাযন্ত্র (Common balance) দিয়ে বস্তুর ভর মাপা হয়।"
+    },
+    {
+      "id": 52,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "এক ব্যক্তি একটি 10 m বাহু বিশিষ্ট বর্গাকার মাঠের চারদিকে 16 সেকেন্ডে একবার ঘুরে এলে তার গড় দ্রুতি ও মোট সরণ হবে",
+      "options": ["1.6 m/s, 10 m", "2.5 m/s, 40 m", "3.2 m/s, 10 m", "2.5 m/s, 0 m"],
+      "answer": [3],
+      "explanation": "মোট দূরত্ব = 4×10 = 40m। গড় দ্রুতি = 40/16 = 2.5 m/s। যেহেতু সে একই স্থানে ফিরে এসেছে তাই সরণ = 0 m।"
+    },
+    {
+      "id": 53,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "সঠিক উত্তরটি নির্বাচন কর। বিশেষ পরিস্থিতিতে কোন বস্তুর -",
+      "options": ["ভর ও ওজন দুই-ই শূন্য হতে পারে", "ভর শূন্য হতে পারে কিন্তু ওজন শূন্য হতে পারে না", "ভর শূন্য হতে পারে না কিন্তু ওজন শূন্য হতে পারে", "ভর বা ওজন কোনোটি-ই শূন্য হতে পারে না"],
+      "answer": [2],
+      "explanation": "বস্তুর ভর সর্বদা ধ্রুবক, এটি শূন্য হতে পারে না। কিন্তু মহাকাশে বা পৃথিবীর কেন্দ্রে অভিকর্ষজ ত্বরণ শূন্য হওয়ায় বস্তুর ওজন শূন্য হতে পারে।"
+    },
+    {
+      "id": 54,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "একটি বন্দুক থেকে 20 g ভরের একটি বুলেট ছোঁড়া হল। বুলেটটি 100 m/s বেগে একটি বালির বস্তাকে আঘাত করে বস্তার মধ্যে 10 cm দূরে গিয়ে থেমে গেল। বুলেটটির উপর বালির প্রতিরোধ বল কত ছিল?",
+      "options": ["1000 N", "100 N", "200 N", "500 dyne"],
+      "answer": [0],
+      "explanation": "v² = u² - 2as => 0 = 100² - 2a(0.1) => 0.2a = 10000 => a = 50000 m/s²। বল (F) = ma = (20/1000) × 50000 = 1000 N।"
+    },
+    {
+      "id": 55,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "'নিউটন' কিসের একক?",
+      "options": ["ভর", "বল", "অভিকর্ষ", "তড়িৎ প্রবাহ"],
+      "answer": [1],
+      "explanation": "এসআই (SI) পদ্ধতিতে বলের একক হলো নিউটন।"
+    },
+    {
+      "id": 56,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "'g'-এর মান সম্পর্কে নিচের কোন কোন উক্তিগুলি সঠিক?",
+      "options": ["পৃথিবী পৃষ্ঠের সর্বত্রই এর মান সমান।", "কোনো একটি অক্ষাংশ রেখার সর্বত্র এর মান সমান।", "নিরক্ষরেখার সর্বত্র এর মান সমান।", "উত্তর ও দক্ষিণ মেরুতে এর মান শূণ্য।"],
+      "answer": [1, 2],
+      "explanation": "পৃথিবী সম্পূর্ণ গোলাকার না হওয়ায় নিরক্ষীয় অঞ্চলে g-এর মান সর্বনিম্ন এবং মেরুতে সর্বোচ্চ হয়। তবে একই অক্ষাংশে বা নিরক্ষরেখার সর্বত্র এর মান প্রায় সমান থাকে।"
+    },
+    {
+      "id": 57,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "একটি বিশাল তুলোর বস্তা ও একটি ছোট লোহার টুকরো, দুটিরই ওজন 1 kg। সেক্ষেত্রে নিচের কোন কোন উক্তিগুলি সঠিক?",
+      "options": ["আসলে তুলোর বস্তাটির ভর সামান্য হলেও বেশি।", "যেহেতু তাদের ওজন সমান, তাই তাদের ভরও সমান।", "লোহার টুকরোটির ভর সামান্য বেশি।", "লোহার টুকরোটির উপর সক্রিয় অভিকর্ষজ বলের মান বেশি।"],
+      "answer": [0],
+      "explanation": "তুলোর আয়তন বেশি হওয়ায় এটি বেশি বায়ু অপসারণ করে, ফলে এর ওপর প্লবতা বল বেশি হয়। তাই সমান আপাত ওজন পেতে হলে তুলোর প্রকৃত ভর কিছুটা বেশি হতে হবে।"
+    },
+    {
+      "id": 58,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "দুটি বালক 70m ব্যাসার্ধের একটি বৃত্তাকার পথে একই জায়গা থেকে যথাক্রমে 13 m/s ও 9 m/s গতিতে দৌড়তে শুরু করল। কতক্ষণ পরে আবার তারা একসঙ্গে মিলিত হবে?",
+      "options": ["তারা আর কখনই একসঙ্গে মিলিত হবে না।", "যদি তারা একে অপরের উল্টোদিকে দৌড়তে শুরু করে তাহলে 20 sec পরে।", "65 sec পরে আবার তারা একসঙ্গে মিলিত হবে।", "যদি তারা একই দিকে দৌড়তে শুরু করে তাহলে 110 sec পরে।"],
+      "answer": [1, 3],
+      "explanation": "বৃত্তের পরিধি = 2πr = 440m। বিপরীত দিকে দৌড়ালে আপেক্ষিক বেগ 13+9=22 m/s, তাই সময় = 440/22 = 20s। একই দিকে দৌড়ালে আপেক্ষিক বেগ 13-9=4 m/s, সময় = 440/4 = 110s।"
+    },
+    {
+      "id": 59,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "কোনো গতিশীল বস্তুর উপরে বল প্রয়োগ করলে,",
+      "options": ["বস্তুটির গতিপথের, বেগের ও ত্বরণের কোনো পরিবর্তন হয় না।", "বস্তুটি একই অভিমুখে কিন্তু পরিবর্তিত গতিতে চলতে থাকতে পারে।", "বস্তুটি একই গতিতে কিন্তু পরিবর্তিত অভিমুখে চলতে থাকতে পারে।", "বস্তুটি উল্টোদিকে চলতে শুরু করতে পারে।"],
+      "answer": [1, 2, 3],
+      "explanation": "বল প্রয়োগের ফলে বস্তুর বেগের মান বা দিক অথবা উভয়েরই পরিবর্তন হতে পারে।"
+    },
+    {
+      "id": 60,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "1 জুল কার্য্য সম্পন্ন হয় যখন,",
+      "options": ["একটি বল 1 kg ভরের একটি স্থির বস্তুর ঐ বলের অভিমুখে 1 m/s² ত্বরণ সৃষ্টি করে এবং বস্তুটির 1 m সরণ হয়।", "একটি বল 1 kg ভরের একটি স্থির বস্তুর 1 m সরণ সৃষ্টি করে।", "একটি বল 100 g ভরের একটি স্থির বস্তুর ঐ বলের অভিমুখে 1 m/s² ত্বরণ সৃষ্টি করে এবং বস্তুটির 10 m সরণ হয়।", "1N মানের একটি বল একটি স্থির বস্তুর 1 m সরণ সৃষ্টি করে।"],
+      "answer": [0, 3],
+      "explanation": "1 J = 1 N × 1 m। আবার 1 N বল 1 kg ভরের বস্তুতে 1 m/s² ত্বরণ সৃষ্টি করে। তাই A এবং D উভয়ই সঠিক।"
+    },
+    {
+      "id": 61,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word, which can most appropriately replace the italicized words in the given sentence: Primitive tales mainly comprised stories of *old-time gods and heroes*.",
+      "options": ["ode", "legend", "epic", "allegory"],
+      "answer": [1],
+      "explanation": "পৌরাণিক বা প্রাচীনকালের দেবদেবী এবং বীরদের কাল্পনিক গল্পকে 'Legend' বলা হয়।"
+    },
+    {
+      "id": 62,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the most effective word to fill in the blank to make the sentence meaningfully complete: Those who have well ______ their transition from village life to city life have prospered.",
+      "options": ["managed", "taken", "tried", "finalised"],
+      "answer": [0],
+      "explanation": "পরিবর্তনের সাথে সুন্দরভাবে মানিয়ে নেওয়া বোঝাতে 'managed' শব্দটি এখানে সঠিক।"
+    },
+    {
+      "id": 63,
+      "category": 1,
+      "subject": "english",
+      "question": "Observe the two italicized words in the following two sentences and give your observation by choosing any one option below: I. A vote of *censur* was passed against the Chairman. II. Every film needs a clearance from the *Censor* Board.",
+      "options": ["Only sentence-I is correct.", "Only sentence-II is correct.", "Both sentences I and II are correct.", "Neither sentence I nor sentence II is correct."],
+      "answer": [1],
+      "explanation": "প্রথম বাক্যে বানানটি Censure (নিন্দা) হওয়া উচিত ছিল, তাই সেটি ভুল। দ্বিতীয় বাক্যে Censor (সেন্সর বোর্ড) সঠিক।"
+    },
+    {
+      "id": 64,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the most effective word to fill in the blank to make the sentence meaningfully complete: Ashok had to drop his plan of going to the picnic as he had certain ______ to keep during that period.",
+      "options": ["urgencies", "preparations", "commitments", "arrangements"],
+      "answer": [2],
+      "explanation": "আগাম কোনো কাজের প্রতিশ্রুতি বা দায়িত্ব বোঝাতে 'commitments' শব্দটি ব্যবহৃত হয়।"
+    },
+    {
+      "id": 65,
+      "category": 1,
+      "subject": "english",
+      "question": "Fill in the blank with the most appropriate word/ group of words to make the sentence meaningfully complete: I shall not join ______ you need me.",
+      "options": ["if not", "if", "whether", "unless"],
+      "answer": [3],
+      "explanation": "শর্ত বোঝাতে 'যদি না' অর্থে unless ব্যবহৃত হয়।"
+    },
+    {
+      "id": 66,
+      "category": 1,
+      "subject": "english",
+      "question": "Fill in the blank with the most appropriate word/ group of words to make the sentence meaningfully complete: His statement is replete ______ contradictions.",
+      "options": ["in", "of", "by", "with"],
+      "answer": [3],
+      "explanation": "Replete-এর পর সবসময় appropriate preposition হিসেবে 'with' বসে। Replete with = পরিপূর্ণ।"
+    },
+    {
+      "id": 67,
+      "category": 1,
+      "subject": "english",
+      "question": "Find out which part of the sentence has an error: The blinds deserve our sympathy and cooperation",
+      "options": ["(A)", "(B)", "(C)", "(D)"],
+      "answer": [0],
+      "explanation": "সমগ্র অন্ধ শ্রেণিকে বোঝাতে 'The blind' হয়, 'blinds' হয় না।"
+    },
+    {
+      "id": 68,
+      "category": 1,
+      "subject": "english",
+      "question": "Select the wrongly spelt word.",
+      "options": ["Kiln", "Masculine", "Muslin", "Disciplin"],
+      "answer": [3],
+      "explanation": "সঠিক বানানটি হলো Discipline।"
+    },
+    {
+      "id": 69,
+      "category": 1,
+      "subject": "english",
+      "question": "Select the wrongly spelt word.",
+      "options": ["Dairy", "Dafodil", "Dainty", "Damage"],
+      "answer": [1],
+      "explanation": "সঠিক বানানটি হলো Daffodil (ড্যাফোডিল ফুল)।"
+    },
+    {
+      "id": 70,
+      "category": 1,
+      "subject": "english",
+      "question": "A sentence is given in direct (or indirect) speech. Out of the four alternatives given select the one which best expresses the same sentence in indirect (or direct) speech: He said, \"Where shall I be this time next year!\"",
+      "options": ["He asked that where should he be that time next year.", "He wondered where he would be that time the following year.", "He wondered where he should be that time the next year.", "He contemplated where shall he be that time the following year."],
+      "answer": [1],
+      "explanation": "এটি একটি বিস্ময় বা ভাবনাসূচক বাক্য। Indirect-এ 'wondered' ব্যবহৃত হবে, 'shall' পরিবর্তিত হয়ে 'would' হবে এবং 'next year' পরিবর্তিত হয়ে 'the following year' হবে।"
+    },
+    {
+      "id": 71,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the alternative which best expresses the meaning of the idiom / phrase / proverb given in italics in the following sentence: I *take exception to* your remark.",
+      "options": ["accept gladly", "object to", "will consider carefully", "am thankful for"],
+      "answer": [1],
+      "explanation": "'Take exception to' ইডিয়মটির অর্থ হলো আপত্তি জানানো বা তীব্র প্রতিবাদ করা।"
+    },
+    {
+      "id": 72,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the alternative which best expresses the meaning of the idiom / phrase / proverb given in italics in the following sentence: I feel very *put out* about yesterday's incident.",
+      "options": ["pleased", "fearful", "disturbed", "overjoyed"],
+      "answer": [2],
+      "explanation": "'Put out' ফ্রেজাল ভার্বটির অর্থ বিরক্ত বা বিচলিত হওয়া (Disturbed)।"
+    },
+    {
+      "id": 73,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word, which has nearly the same meaning as OBLIGATORY.",
+      "options": ["Agreeable", "Required", "Stubborn", "Useful"],
+      "answer": [1],
+      "explanation": "Obligatory অর্থ বাধ্যতামূলক বা আবশ্যিক, যার সমার্থক Required।"
+    },
+    {
+      "id": 74,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word, which is opposite in meaning to FICKLE.",
+      "options": ["Tasty", "Quick", "Constant", "Healthy"],
+      "answer": [2],
+      "explanation": "Fickle অর্থ পরিবর্তনশীল বা অস্থির। এর বিপরীত অর্থ হলো Constant (স্থির/অবিচল)।"
+    },
+    {
+      "id": 75,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word that can replace both the words in italics in the two given sentences: I. The document was declared *void*. II. I felt pity for the *sickly* person.",
+      "options": ["Useless", "Defective", "Invalid", "Weak"],
+      "answer": [2],
+      "explanation": "'Invalid' শব্দটি একই সাথে বাতিল (void) এবং রুগ্ন বা অসুস্থ (sickly) উভয় অর্থেই ব্যবহৃত হতে পারে।"
+    },
+    {
+      "id": 76,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি চৌবাচ্চায় দুটি নল দিয়ে জল ভরা যায়। শুধু প্রথম নলটি ব্যাবহার করলে চৌবাচ্চাটি ভরতে 10 মিনিট লাগে এবং শুধু দ্বিতীয় নলটি ব্যাবহার করলে 15 মিনিট লাগে। প্রথমে শুধু দ্বিতীয় নলটি ব্যাবহার করে চৌবাচ্চাটির অর্ধেক ভর্তি করা হল এবং তারপর প্রথম নলটিও খুলে দেওয়া হল। চৌবাচ্চাটি ভর্তি করতে মোট কত সময় লাগল?",
+      "options": ["6 min.", "3 min.", "10 1/2 min.", "7 1/2 min."],
+      "answer": [2],
+      "explanation": "২য় নলে অর্ধেক পূর্ণ হতে সময় লাগে 15/2 = 7.5 মিনিট। বাকি অর্ধেক পূর্ণ করতে দুটি নল একসাথে কাজ করে। একসাথে পূর্ণ করতে সময় লাগে (10×15)/(10+15) = 6 মিনিট। অর্ধেক পূর্ণ করতে লাগে 6/2 = 3 মিনিট। মোট সময় = 7.5 + 3 = 10.5 মিনিট।"
+    },
+    {
+      "id": 77,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি বৃত্তাকার মাঠের ব্যাস 35 মিটার হলে 110 cm/sec বেগে ঐ মাঠের চারদিকে একপাক দৌড়ে আসতে কত সময় লাগবে?",
+      "options": ["100 sec.", "200 sec.", "2 sec.", "50 sec."],
+      "answer": [0],
+      "explanation": "মাঠের পরিধি = 22/7 × 35 = 110 মিটার। বেগ = 1.1 মিটার/সেকেন্ড। সময় = দূরত্ব/বেগ = 110 / 1.1 = 100 সেকেন্ড।"
+    },
+    {
+      "id": 78,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "পাশাপাশি দুটি স্কুলের ছাত্র-ছাত্রীর মোট সংখ্যা সমান কিন্তু ছাত্র ও ছাত্রী সংখ্যার অণুপাত একটিতে 9:10 এবং অন্যটিতে 10:9 হলে দুটি স্কুল মিলে ছাত্র ও ছাত্রী সংখ্যার অনুপাত কত?",
+      "options": ["9:10", "10:9", "10:11", "1:1"],
+      "answer": [3],
+      "explanation": "উভয় স্কুলে মোট শিক্ষার্থী 19 একক ধরলে, প্রথম স্কুলে ছাত্র 9, ছাত্রী 10 এবং দ্বিতীয় স্কুলে ছাত্র 10, ছাত্রী 9। মোট ছাত্র 19, মোট ছাত্রী 19। অনুপাত 19:19 = 1:1।"
+    },
+    {
+      "id": 79,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি সমবায় ব্যাঙ্ক প্রথম বছরে 5% ও দ্বিতীয় বছরে 4% চক্রবৃদ্ধি হারে সুদ দেয়। কিছু টাকা যদি 2 বছরে সুদে-আসলে 2184 টাকা হয়, তাহলে আসলের পরিমান কত?",
+      "options": ["1900 টাকা", "1950. টাকা", "2000 টাকা", "2500 টাকা"],
+      "answer": [2],
+      "explanation": "P × (105/100) × (104/100) = 2184 => P × 1.05 × 1.04 = 2184 => P × 1.092 = 2184 => P = 2000 টাকা।"
+    },
+    {
+      "id": 80,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "কত টাকার 2 বছরের 4% হারে সরল সুদ ও 4% হারে চক্রবৃদ্ধি সুদের অন্তর 110 টাকা হবে?",
+      "options": ["60000 টাকা", "68000 টাকা", "68250 টাকা", "68750 টাকা"],
+      "answer": [3],
+      "explanation": "2 বছরের সরল ও চক্রবৃদ্ধি সুদের পার্থক্য = P(R/100)² => 110 = P(4/100)² => P = 110 × 25 × 25 = 68750 টাকা।"
+    },
+    {
+      "id": 81,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি লম্ববৃত্তাকার চোঙের ভূমির ক্ষেত্রফল 154 বর্গমিটার এবং পার্শ্বতলের ক্ষেত্রফল 308 বর্গমিটার হলে, চোঙটির উচ্চতা কত?",
+      "options": ["7 মিটার", "14 মিটার", "21 মিটার", "27 মিটার"],
+      "answer": [0],
+      "explanation": "ভূমির ক্ষেত্রফল πr² = 154, যেখান থেকে r = 7। পার্শ্বতলের ক্ষেত্রফল 2πrh = 308। 2 × (22/7) × 7 × h = 308 => 44h = 308 => h = 7 মিটার।"
+    },
+    {
+      "id": 82,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "যদি log_√s(x/y + y/x + 2) = log_√s 4 হয়, তাহলে",
+      "options": ["x = y", "x ≠ y", "x > y", "x < y"],
+      "answer": [0],
+      "explanation": "x/y + y/x + 2 = 4 => x/y + y/x - 2 = 0 => (√x/√y - √y/√x)² = 0 => x/y = y/x => x² = y²। যেহেতু x,y ধনাত্মক, তাই x=y।"
+    },
+    {
+      "id": 83,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "যদি (log x)/(q-r) = (log y)/(r-p) = (log z)/(p-q) হয়, তাহলে log(x^p * y^q * z^r) = ?",
+      "options": ["log √2", "0", "log 2", "log 3"],
+      "answer": [1],
+      "explanation": "প্রতিটি অনুপাত = k ধরলে, log x = k(q-r), log y = k(r-p), log z = k(p-q)। log(x^p * y^q * z^r) = p(log x) + q(log y) + r(log z) = pk(q-r) + qk(r-p) + rk(p-q) = 0।"
+    },
+    {
+      "id": 84,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "দুটি ধনাত্মক অখণ্ড সংখ্যার অন্তর 3 এবং তাদের বর্গের সমষ্টি 117; সংখ্যা দুটি কত?",
+      "options": ["9, 6", "12, 15", "81, 84", "19, 22"],
+      "answer": [0],
+      "explanation": "বিকল্পগুলো যাচাই করলে দেখা যায়, 9 - 6 = 3 এবং 9² + 6² = 81 + 36 = 117।"
+    },
+    {
+      "id": 85,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "বার্ষিক সরল সুদের হার কত হলে 5000 টাকার আট বছরের সুদ 4800 টাকা হবে?",
+      "options": ["6%", "12%", "18%", "9%"],
+      "answer": [1],
+      "explanation": "I = P×T×R/100 => 4800 = (5000 × 8 × R) / 100 => 4800 = 400 R => R = 12%।"
+    },
+    {
+      "id": 86,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "পৃথিবীর সবচেয়ে জনবহুল শহর কোনটি?",
+      "options": ["নিউইয়র্ক", "বেজিং", "মুম্বাই", "টোকিয়ো"],
+      "answer": [3],
+      "explanation": "জাপানের রাজধানী টোকিও পৃথিবীর সবচেয়ে জনবহুল শহর।"
+    },
+    {
+      "id": 87,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "প্রথম কোন ভারতীয় নোবেল পুরস্কার পান?",
+      "options": ["জহরলাল নেহেরু", "সিভি রামন", "ডঃ অমর্ত্য সেন", "রবীন্দ্রনাথ ঠাকুর"],
+      "answer": [3],
+      "explanation": "১৯১৩ সালে গীতাঞ্জলি কাব্যের জন্য রবীন্দ্রনাথ ঠাকুর প্রথম ভারতীয় হিসেবে নোবেল পুরস্কার পান।"
+    },
+    {
+      "id": 88,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "লাক্ষাদ্বীপ অবস্থিত",
+      "options": ["আটলান্টিক মহাসাগরে", "প্রসান্ত মহাসাগরে", "বঙ্গোপসাগরে", "আরব সাগরে"],
+      "answer": [3],
+      "explanation": "ভারতের কেন্দ্রশাসিত অঞ্চল লাক্ষাদ্বীপ আরব সাগরে অবস্থিত।"
+    },
+    {
+      "id": 89,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "থিওরি অফ রিলেটিভিটি (অপেক্ষিকতা তত্ত্ব) প্রবর্তন করেন",
+      "options": ["টমাস আলভা এডিসন", "আলবার্ট আইনষ্টাইন", "মার্কনি", "জেম্স ওয়াট"],
+      "answer": [1],
+      "explanation": "আপেক্ষিকতা তত্ত্ব বা থিওরি অফ রিলেটিভিটি বিখ্যাত পদার্থবিদ আলবার্ট আইনস্টাইন প্রবর্তন করেন।"
+    },
+    {
+      "id": 90,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "নিচের কোনজন চতুর্থ ভারতীয় গ্র্যান্ডস্ল্যাম বিজেতা ?",
+      "options": ["সানিয়া মির্জা", "রোহন বপান্না", "মহেশ ভূপতি", "লেন্ডার পেস"],
+      "answer": [1],
+      "explanation": "মহেশ ভূপতি, লিয়েন্ডার পেজ, সানিয়া মির্জার পর রোহন বোপান্না হলেন ভারতের চতুর্থ গ্র্যান্ডস্লাম বিজয়ী।"
+    },
+    {
+      "id": 91,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "আলজাইমার রোগটি মানব দেহের কোন অংশকে আক্রান্ত করে?",
+      "options": ["কান", "মস্তিষ্ক", "চোখ", "পাকস্থলী"],
+      "answer": [1],
+      "explanation": "আলজাইমার একটি নিউরোলজিক্যাল রোগ যা ধীরে ধীরে মানুষের মস্তিষ্ক বা স্মৃতিশক্তিকে নষ্ট করে দেয়।"
+    },
+    {
+      "id": 92,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ডাঃ জাকির হোসেন ছিলেন",
+      "options": ["ভারতের প্রথম উপরাষ্ট্রপতি", "লোকসভার প্রথম স্পীকার", "ভারতের প্রথম মুসলিম রাষ্ট্রপতি", "ভারতীয় জাতীয় কংগ্রেসের প্রথম সভাপতি"],
+      "answer": [2],
+      "explanation": "ডাঃ জাকির হোসেন ছিলেন ভারতের তৃতীয় রাষ্ট্রপতি এবং প্রথম মুসলিম রাষ্ট্রপতি।"
+    },
+    {
+      "id": 93,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "বিখ্যাত 'আনন্দমঠ' উপন্যাসটি রচনা করেছিলেন-",
+      "options": ["সরোজিনি নাইডু", "বঙ্কিমচন্দ্র চট্টোপাধ্যায়", "শ্রী অরবিন্দ", "রবীন্দ্রনাথ ঠাকুর"],
+      "answer": [1],
+      "explanation": "বঙ্কিমচন্দ্র চট্টোপাধ্যায় সন্ন্যাসী বিদ্রোহের পটভূমিকায় বিখ্যাত 'আনন্দমঠ' উপন্যাস রচনা করেন।"
+    },
+    {
+      "id": 94,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "সম্প্রতি খবরের শিরোনামে আসা বাগ্রাম বিমান পোতটি কোন দেশে অবস্থিত?",
+      "options": ["পাকিস্থান", "আফগানিস্থান", "ইরান", "ভারত"],
+      "answer": [1],
+      "explanation": "বাগ্রাম বিমান ঘাঁটি আফগানিস্তানে অবস্থিত যা মার্কিন বাহিনীর একটি প্রধান সামরিক ঘাঁটি ছিল।"
+    },
+    {
+      "id": 95,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতীয় পার্লামেন্টের দুটি সভার নাম কী?",
+      "options": ["বিধান সভা ও লোক সভা", "রাজ্য সভা ও লোক সভা", "রাজ্য সভা ও বিধান পরিষদ", "লোক সভা ও সুপ্রীম কোর্ট"],
+      "answer": [1],
+      "explanation": "ভারতের সংসদের দুটি কক্ষ হলো লোকসভা (নিম্নকক্ষ) এবং রাজ্যসভা (উচ্চকক্ষ)।"
+    },
+    {
+      "id": 96,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Which of the following figures does not belong to the series? (চিত্র ভিত্তিক প্রশ্ন)",
+      "options": ["(A)", "(B)", "(C)", "(D)"],
+      "answer": [0],
+      "explanation": "এই প্রশ্নটি চিত্রভিত্তিক এবং প্রদত্ত তথ্যে চিত্রের বিবরণ না থাকায় একটি বিকল্প চিহ্নিত করা হলো।"
+    },
+    {
+      "id": 97,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Find the odd one out.",
+      "options": ["Pen", "Book", "Pencil", "Note book"],
+      "answer": [1],
+      "explanation": "Pen, Pencil, এবং Notebook এগুলো লেখার কাজে ব্যবহৃত স্টেশনারি সামগ্রী। কিন্তু Book বা বই হলো পড়ার জন্য।"
+    },
+    {
+      "id": 98,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Find the right option below where the two given words have the same relationship as, 'CARPENTER - SAW'",
+      "options": ["Garden - Flower", "Sky - Rainbow", "Soldier - Gun", "River - Boat"],
+      "answer": [2],
+      "explanation": "কাঠমিস্ত্রির প্রধান হাতিয়ার যেমন করাত (Saw), তেমনি একজন সৈন্যের (Soldier) প্রধান হাতিয়ার হলো বন্দুক (Gun)।"
+    },
+    {
+      "id": 99,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Choose the right option to fill in the blank: PAW : DOG :: HOOF : ?",
+      "options": ["Teeth", "Claw", "Elephant", "Horse"],
+      "answer": [3],
+      "explanation": "কুকুরের পায়ের থাবাকে 'Paw' বলে, তেমনি ঘোড়ার (Horse) পায়ের ক্ষুরকে 'Hoof' বলা হয়।"
+    },
+    {
+      "id": 100,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Select the right option that will replace the question mark and continue the pattern. Choose the right option. (চিত্র ভিত্তিক প্রশ্ন)",
+      "options": ["(A)", "(B)", "(C)", "(D)"],
+      "answer": [0],
+      "explanation": "এই প্রশ্নটি প্যাটার্ন-নির্ভর চিত্রভিত্তিক। চিত্রের অনুপস্থিতে ডিফল্ট হিসেবে একটি বিকল্প রাখা হলো।"
+    }
+  ]
+}

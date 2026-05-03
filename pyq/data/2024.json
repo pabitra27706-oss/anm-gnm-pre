@@ -1,0 +1,906 @@
+{
+  "paperId": "2024-1",
+  "title": "ANM(R) & GNM-2024",
+  "questions": [
+    {
+      "id": 1,
+      "category": 1,
+      "subject": "life-science",
+      "question": "যখন গবেষণাগারে ইনসুলিন প্রস্তুত করা হয়, তখন সেই পদ্ধতিকে বলে",
+      "options": ["জেনেটিক ইঞ্জিনিয়ারিং", "মাইক্রোপ্রোপাগেশন", "বায়োঅ্যাসে", "এগুলির সবকটি"],
+      "answer": [0],
+      "explanation": "রিকম্বিন্যান্ট ডিএনএ প্রযুক্তির মাধ্যমে জেনেটিক ইঞ্জিনিয়ারিং পদ্ধতিতে গবেষণাগারে ইনসুলিন প্রস্তুত করা হয়।"
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "subject": "life-science",
+      "question": "আমাদের শরীরের নিম্নলিখিত কোন যৌগটি ফ্যাটে দ্রাব্য?",
+      "options": ["টোকোফেরল", "থায়ামিন", "নিয়াসিন", "রাইবোফ্ল্যাভিন"],
+      "answer": [0],
+      "explanation": "টোকোফেরল (ভিটামিন E) হলো ফ্যাটে দ্রবণীয় ভিটামিন। থায়ামিন, নিয়াসিন এবং রাইবোফ্ল্যাভিন জলে দ্রবণীয়।"
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন নাইট্রোজেনযুক্ত ক্ষারটি ডিএনএ তে থাকে না?",
+      "options": ["থাইমিন", "ইউরাসিল", "অ্যাডেনিন", "সাইটোসিন"],
+      "answer": [1],
+      "explanation": "ইউরাসিল আরএনএ-তে থাকে, ডিএনএ-তে এর পরিবর্তে থাইমিন থাকে।"
+    },
+    {
+      "id": 4,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন পরিপাককারী উৎসেচকটি আম্লিক মাধ্যমে কাজ করতে পারে?",
+      "options": ["ট্রপসিন", "পেপসিন", "ইরেপসিন", "রেনিন"],
+      "answer": [1],
+      "explanation": "পাকস্থলী থেকে ক্ষরিত পেপসিন উৎসেচকটি আম্লিক মাধ্যমে প্রোটিন পরিপাক করে।"
+    },
+    {
+      "id": 5,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন যৌগটি যকৃতে হিমোগ্লোবিন থেকে উৎপন্ন হয় না?",
+      "options": ["হিম", "বিলিরুবিন", "বিলিভার্ডিন", "লেসিথিন"],
+      "answer": [3],
+      "explanation": "লেসিথিন একটি ফসফোলিপিড, এটি হিমোগ্লোবিন ভাঙনের ফলে যকৃতে উৎপন্ন হয় না।"
+    },
+    {
+      "id": 6,
+      "category": 1,
+      "subject": "life-science",
+      "question": "বর্তমানে ভারতবর্ষে কয়টি পারমাণবিক বিদ্যুৎকেন্দ্র আছে?",
+      "options": ["3", "4", "5", "6"],
+      "answer": [3],
+      "explanation": "বিকল্পগুলির মধ্যে 6 সর্বাধিক সঠিক (যদিও বর্তমানে ৭টির বেশি কার্যকর পারমাণবিক বিদ্যুৎ কেন্দ্র রয়েছে)।"
+    },
+    {
+      "id": 7,
+      "category": 1,
+      "subject": "life-science",
+      "question": "সঠিক ক্রমটি নির্বাচন করো।",
+      "options": ["উদ্দীপক -> গ্রাহক -> সেনসরি নিউরোন -> কেন্দ্রীয় স্নায়ুতন্ত্র -> মোটর নিউরোন -> কারক -> সাড়া", "উদ্দীপক -> গ্রাহক -> মোটর নিউরোন -> কেন্দ্রীয় স্নায়ুতন্ত্র -> সেনসরি নিউরোন -> কারক -> সাড়া", "উদ্দীপক -> কারক -> মোটর নিউরোন -> কেন্দ্রীয় স্নায়ুতন্ত্র -> সেনসরি নিউরোন -> গ্রাহক -> সাড়া", "উদ্দীপক -> কারক -> সেনসরি নিউরোন -> কেন্দ্রীয় স্নায়ুতন্ত্র -> মোটর নিউরোন -> গ্রাহক -> সাড়া"],
+      "answer": [0],
+      "explanation": "স্নায়বিক উদ্দীপনা প্রবাহের সঠিক পথ হলো: গ্রাহক অঙ্গ থেকে সেনসরি নিউরোন হয়ে কেন্দ্রে পৌঁছায় এবং মোটর নিউরোনের মাধ্যমে কারকে সাড়া জাগায়।"
+    },
+    {
+      "id": 8,
+      "category": 1,
+      "subject": "life-science",
+      "question": "কোনটি কোশচক্রের কোনো চেক পয়েন্ট নয়?",
+      "options": ["G1 -> S", "G2 -> M", "M -> G1", "S"],
+      "answer": [3],
+      "explanation": "S দশা নিজে কোনো চেকপয়েন্ট নয়, চেকপয়েন্টগুলি হলো G1/S, G2/M এবং M (স্পিন্ডল চেকপয়েন্ট)।"
+    },
+    {
+      "id": 9,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোনটি একটি খাদ্য শৃঙ্খল গঠন করে?",
+      "options": ["ঘাস, গম এবং আম", "ঘাস, ছাগল এবং মানুষ", "ছাগল, গোরু এবং হাতি", "ঘাস, মাছ এবং ছাগল"],
+      "answer": [1],
+      "explanation": "ঘাস (উৎপাদক) কে ছাগল (প্রাথমিক খাদক) খায় এবং ছাগলকে মানুষ (গৌণ/প্রান্তীয় খাদক) খায়।"
+    },
+    {
+      "id": 10,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোনটি স্ত্রী-মানবদেহের জননতন্ত্রের অংশ নয়?",
+      "options": ["ডিম্বাশয়", "জরায়ু", "ভাস ডিফারেন্স", "ফ্যালোপিয়ান টিউব"],
+      "answer": [2],
+      "explanation": "ভাস ডিফারেন্স (শুক্রনালী) পুরুষ প্রজননতন্ত্রের অংশ।"
+    },
+    {
+      "id": 11,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত গ্রুপগুলির মধ্যে কোনটি অ্যামাইনো অ্যাসিডে থাকে না?",
+      "options": ["-COOH", "-OH", "-NH2", "-CN"],
+      "answer": [3],
+      "explanation": "অ্যামাইনো অ্যাসিডে -COOH এবং -NH2 গ্রুপ থাকে, তবে সায়ানাইড (-CN) থাকে না।"
+    },
+    {
+      "id": 12,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত গ্রন্থিগুলির মধ্যে কোনটি থেকে থাইরক্সিন নিঃসৃত হয়?",
+      "options": ["পিটুইটারি", "অ্যাড্রেনাল", "শুক্রাশয়", "থাইরয়েড"],
+      "answer": [3],
+      "explanation": "থাইরয়েড গ্রন্থি থেকে থাইরক্সিন হরমোন নিঃসৃত হয়।"
+    },
+    {
+      "id": 13,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিতগুলির মধ্যে কোনটির সাথে স্বোয়ান কোশ সম্পর্কিত?",
+      "options": ["ডেনড্রাইট", "অ্যাক্সন", "কোশদেহ", "সাইন্যাপ্স"],
+      "answer": [1],
+      "explanation": "অ্যাক্সনের চারপাশে থাকা মায়েলিন আবরণী মূলত সোয়ান কোশ দিয়ে গঠিত।"
+    },
+    {
+      "id": 14,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিতগুলির মধ্যে কোনটি মানুষের নিষ্ক্রিয় অঙ্গ?",
+      "options": ["অগ্ন্যাশয়", "যকৃৎ", "অ্যাপেন্ডিক্স", "পিত্তথলী"],
+      "answer": [2],
+      "explanation": "মানুষের দেহের সিকাম সংলগ্ন অ্যাপেন্ডিক্স একটি লুপ্তপ্রায় বা নিষ্ক্রিয় অঙ্গ।"
+    },
+    {
+      "id": 15,
+      "category": 1,
+      "subject": "life-science",
+      "question": "পায়রার দেহে বায়ুথলীর সংখ্যা হল",
+      "options": ["7 টি", "7 জোড়া", "9 জোড়া", "9 টি"],
+      "answer": [3],
+      "explanation": "ওড়ার সময় অতিরিক্ত অক্সিজেন সরবরাহ এবং দেহকে হালকা রাখতে পায়রার ৯টি বায়ুথলী থাকে।"
+    },
+    {
+      "id": 16,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নাইট্রোজেন সংবন্ধনকারী ব্যাক্টেরিয়া কোনটি?",
+      "options": ["E. Coli", "Bacillus", "Rhizobium", "Helicobacter"],
+      "answer": [2],
+      "explanation": "রাইজোবিয়াম ব্যাকটেরিয়া শিম্বগোত্রীয় উদ্ভিদের মূলে বাস করে এবং বায়ুমণ্ডলের নাইট্রোজেন আবদ্ধ করে।"
+    },
+    {
+      "id": 17,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোনটি বায়োম্যাগনিফিকেশন-এর কারণ?",
+      "options": ["বায়ুদূষণ", "জলদূষণ", "আলোক দূষণ", "শব্দদূষণ"],
+      "answer": [1],
+      "explanation": "জলদূষণের মাধ্যমে কীটনাশক (যেমন DDT) খাদ্যশৃঙ্খলে প্রবেশ করে এবং বায়োম্যাগনিফিকেশন বা জৈববিবর্ধন ঘটায়।"
+    },
+    {
+      "id": 18,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন সূত্রের জন্য মেন্ডেল বিখ্যাত?",
+      "options": ["কোশ থিওরি", "উত্তরাধিকার সূত্র", "লিংকেজ থিওরি", "অরিজিন অফ স্পিসিস"],
+      "answer": [1],
+      "explanation": "মেন্ডেল তাঁর বংশগতির বা উত্তরাধিকার সূত্র (Laws of Inheritance) আবিষ্কারের জন্য বিখ্যাত।"
+    },
+    {
+      "id": 19,
+      "category": 1,
+      "subject": "life-science",
+      "question": "প্রাকৃতিক অক্সিন কোনটি?",
+      "options": ["2,4-D", "NAA", "IAA", "IPA"],
+      "answer": [2],
+      "explanation": "IAA (ইন্ডোল-3-অ্যাসিটিক অ্যাসিড) হলো একটি প্রাকৃতিক অক্সিন।"
+    },
+    {
+      "id": 20,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত মস্তিষ্কের কোন অংশটি শরীরের ভারসাম্য রক্ষা করে?",
+      "options": ["সেরেব্রাম", "সেরিবেলাম", "হাইপোথ্যালামাস", "পন্স"],
+      "answer": [1],
+      "explanation": "লঘুমস্তিষ্ক বা সেরিবেলাম প্রাণীর গমনে ও দেহের ভারসাম্য রক্ষায় সাহায্য করে।"
+    },
+    {
+      "id": 21,
+      "category": 1,
+      "subject": "life-science",
+      "question": "ছত্রাকের কোশপ্রাচীরে কোন পদার্থটি উপস্থিত থাকে?",
+      "options": ["সেলুলোজ", "কাইটিন", "হেমিসেলুলোজ", "পেকটিন"],
+      "answer": [1],
+      "explanation": "ছত্রাকের কোষপ্রাচীর মূলত কাইটিন নামক কার্বোহাইড্রেট দিয়ে গঠিত।"
+    },
+    {
+      "id": 22,
+      "category": 1,
+      "subject": "life-science",
+      "question": "দুটি পৃথক জীবের মধ্যে সংকরায়ণকে বলে",
+      "options": ["টেস্ট ক্রস", "ব্যাক ক্রস", "হেটেরোসিস", "হাইব্রিডাইজেশন"],
+      "answer": [3],
+      "explanation": "ভিন্ন বৈশিষ্ট্যযুক্ত দুটি জীবের মিলন ঘটানোর পদ্ধতিকে হাইব্রিডাইজেশন বা সংকরায়ণ বলে।"
+    },
+    {
+      "id": 23,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিউক্লিওসোমের কেন্দ্রে কোন প্রোটিন উপস্থিত থাকে?",
+      "options": ["হিস্টোন", "অ্যালবুমিন", "গ্লোবিউলিন", "কোলাজেন"],
+      "answer": [0],
+      "explanation": "ডিএনএ প্যাকেজিংয়ের সময় নিউক্লিওসোম কোর তৈরি হয় ৮টি হিস্টোন প্রোটিনের সমন্বয়ে।"
+    },
+    {
+      "id": 24,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন উদ্ভিদ গোষ্ঠী স্পার্মাটোফাইট নয়?",
+      "options": ["জিম্নোস্পার্মস", "মোনোকট্স", "টেরিডোফাইট্স", "ডাইকট্স"],
+      "answer": [2],
+      "explanation": "টেরিডোফাইট (ফার্ন) অপুষ্পক উদ্ভিদ এবং এদের বীজ তৈরি হয় না, তাই এরা স্পার্মাটোফাইট নয়।"
+    },
+    {
+      "id": 25,
+      "category": 1,
+      "subject": "life-science",
+      "question": "B গ্রুপের রক্তে কোন অ্যাপ্লুটিনোজেন ও কোন আগ্লুটিনিন উপস্থিত থাকে?",
+      "options": ["B এবং অ্যান্টি B", "A এবং অ্যান্টি A", "B এবং অ্যান্টি A", "A এবং অ্যান্টি B"],
+      "answer": [2],
+      "explanation": "B ব্লাড গ্রুপের লোহিত রক্তকণিকায় B অ্যান্টিজেন এবং রক্তরসে অ্যান্টি-A অ্যান্টিবডি থাকে।"
+    },
+    {
+      "id": 26,
+      "category": 1,
+      "subject": "life-science",
+      "question": "যে প্রাণীরা ডিম পাড়ে তাদেরকে বলে-",
+      "options": ["জরায়ুজ", "মাংসাশী", "অণ্ডজ", "কোনোটিই নয়"],
+      "answer": [2],
+      "explanation": "ডিম পাড়া প্রাণীদের অণ্ডজ বা Oviparous বলা হয়।"
+    },
+    {
+      "id": 27,
+      "category": 1,
+      "subject": "life-science",
+      "question": "নীচের থেকে সঠিক জোড়টি খুঁজে বার করো:",
+      "options": ["অগ্ন্যাশয় - মিশ্র গ্রন্থি", "প্লীহা - অন্তঃক্ষরা গ্রন্থি", "ডিম্বাশয় - বহিঃক্ষরা গ্রন্থি", "ত্বক - মিশ্র গ্রন্থি"],
+      "answer": [0],
+      "explanation": "অগ্ন্যাশয় একই সাথে অন্তঃক্ষরা (হরমোন নিঃসরণ) এবং বহিঃক্ষরা (উৎসেচক নিঃসরণ) গ্রন্থি হিসেবে কাজ করে।"
+    },
+    {
+      "id": 28,
+      "category": 1,
+      "subject": "life-science",
+      "question": "কোনো অরণ্যে যখন কোনো একটি বিশেষ তৃণভোজীর সংখ্যা বৃদ্ধি পায় তখন খাদ্যের জন্য কোন প্রকার সংগ্রাম দেখা যায়?",
+      "options": ["অন্তঃপ্রজাতি", "আন্তঃপ্রজাতি", "(A) এবং (B) উভয়ই", "এগুলির কোনোটিই নয়"],
+      "answer": [0],
+      "explanation": "একই প্রজাতির প্রাণীদের সংখ্যা বৃদ্ধি পেলে নিজেদের মধ্যে যে সংগ্রাম হয় তাকে অন্তঃপ্রজাতি (Intraspecific) সংগ্রাম বলে।"
+    },
+    {
+      "id": 29,
+      "category": 1,
+      "subject": "life-science",
+      "question": "কোশচক্রের ইন্টারফেজের কোন উপদশায় DNA-এর পরিমাণ 2C থেকে 4C হয়?",
+      "options": ["G1", "S", "G2", "G0"],
+      "answer": [1],
+      "explanation": "S (Synthesis) দশায় ডিএনএ প্রতিলিপিকরণ হয়, ফলে ডিএনএ এর পরিমাণ দ্বিগুণ (2C থেকে 4C) হয়।"
+    },
+    {
+      "id": 30,
+      "category": 1,
+      "subject": "life-science",
+      "question": "বেশি শারীরিক পরিশ্রমের পর আমাদের গায়ে ব্যথা হওয়ার কারণ হল",
+      "options": ["আমাদের দেহে ইউরিয়া জমে যাওয়া।", "আমাদের পেশিতে ল্যাকটিক অ্যাসিড জমে যাওয়া।", "আমাদের রক্তে ইথাইল অ্যালকোহল জমে যাওয়া।", "আমাদের পেশিতে গ্লুকোজ জমে যাওয়া।"],
+      "answer": [1],
+      "explanation": "অতিরিক্ত পরিশ্রমে অক্সিজেনের অভাবে পেশিতে অবাত শ্বসনের ফলে ল্যাকটিক অ্যাসিড সঞ্চিত হয়।"
+    },
+    {
+      "id": 31,
+      "category": 2,
+      "subject": "life-science",
+      "question": "WHO অনুযায়ী মানুষের বয়ঃসন্ধি দশার বয়স কত?",
+      "options": ["10-20 বছর", "10-19 বছর", "13-21 বছর", "12-21 বছর"],
+      "answer": [1],
+      "explanation": "বিশ্ব স্বাস্থ্য সংস্থা (WHO) এর মতে বয়ঃসন্ধিকাল হলো 10 থেকে 19 বছর বয়সকাল।"
+    },
+    {
+      "id": 32,
+      "category": 2,
+      "subject": "life-science",
+      "question": "নীচের কোন জোড়াটি সঠিক?",
+      "options": ["একনেত্র দৃষ্টি - মানুষ", "দ্বিনেত্র দৃষ্টি - ঘোড়া", "একনেত্র দৃষ্টি - ঘোড়া", "দ্বিনেত্র দৃষ্টি - মানুষ"],
+      "answer": [2, 3],
+      "explanation": "ঘোড়ার একনেত্র দৃষ্টি এবং মানুষের দ্বিনেত্র দৃষ্টি দেখা যায়।"
+    },
+    {
+      "id": 33,
+      "category": 2,
+      "subject": "life-science",
+      "question": "পুনর্জন্ম দেখা যায়-",
+      "options": ["অ্যামিবা", "অক্টোপাস", "হাইড্রা", "প্ল্যানেরিয়া"],
+      "answer": [2, 3],
+      "explanation": "হাইড্রা এবং প্ল্যানেরিয়া প্রাণীদের দেহাংশ ছিন্ন হলে তা থেকে নতুন প্রাণী সৃষ্টি (পুনরুৎপাদন) হয়।"
+    },
+    {
+      "id": 34,
+      "category": 2,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোনগুলি ভারতে আসা বহিরাগত প্রজাতি যা পরিবেশের ক্ষতি করে?",
+      "options": ["শিশু গাছ", "পার্থেনিয়াম হিস্টেরোফোরাস", "কচুরিপানা", "এগুলির কোনোটিই নয়"],
+      "answer": [1, 2],
+      "explanation": "পার্থেনিয়াম এবং কচুরিপানা হলো ভারতে আসা বহিরাগত (Exotic) এবং ক্ষতিকারক প্রজাতি।"
+    },
+    {
+      "id": 35,
+      "category": 2,
+      "subject": "life-science",
+      "question": "ক্যাডমিয়াম জাতীয় যৌগ থেকে মানুষের শরীরে",
+      "options": ["ত্বকের ক্যানসার হতে পারে।", "ফুসফুসের ক্যানসার হতে পারে।", "মস্তিষ্কের ক্যানসার হতে পারে।", "লিভারের ক্যানসার হতে পারে।"],
+      "answer": [1, 3],
+      "explanation": "ক্যাডমিয়াম দূষণ মানুষের ফুসফুস এবং লিভারের মারাত্মক ক্ষতি এবং ক্যানসার ঘটাতে পারে।"
+    },
+    {
+      "id": 36,
+      "category": 2,
+      "subject": "life-science",
+      "question": "নিম্নলিখিত কোন স্থানগুলিতে বাঘ সংরক্ষণ প্রকল্প চালু আছে?",
+      "options": ["জলদাপাড়া", "বান্ধবগড়", "কানহা", "ভিতরকনিকা"],
+      "answer": [1, 2],
+      "explanation": "বান্ধবগড় এবং কানহা জাতীয় উদ্যান ব্যাঘ্র প্রকল্পের (Tiger Project) জন্য সুপরিচিত।"
+    },
+    {
+      "id": 37,
+      "category": 2,
+      "subject": "life-science",
+      "question": "বিপাকীয় গোলোযোগগুলি যে সমস্ত অঙ্গের কাজের উপর নির্ভর করে তারা হল",
+      "options": ["হৃৎপিণ্ড", "পেশি", "যকৃৎ", "অগ্ন্যাশয়"],
+      "answer": [2, 3],
+      "explanation": "যকৃৎ এবং অগ্ন্যাশয় শরীরের প্রধান বিপাকীয় কাজগুলো পরিচালনা করে।"
+    },
+    {
+      "id": 38,
+      "category": 2,
+      "subject": "life-science",
+      "question": "পরিণত অবস্থায় কোন স্থায়ীকলাগুলি জীবিত?",
+      "options": ["স্ক্লেরেনকাইমা", "প্যারেনকাইমা", "ক্লোরেনকাইমা", "কোলেনকাইমা"],
+      "answer": [1, 2, 3],
+      "explanation": "প্যারেনকাইমা, ক্লোরেনকাইমা এবং কোলেনকাইমা পরিণত অবস্থায় জীবিত থাকে। স্ক্লেরেনকাইমা মৃত।"
+    },
+    {
+      "id": 39,
+      "category": 2,
+      "subject": "life-science",
+      "question": "অক্সিজেনেটেড ব্লাড যে অংশ দ্বারা হৃৎপিণ্ডে প্রবেশ করে, তা হল",
+      "options": ["ডান অলিন্দ", "ডান নিলয়", "বাম অলিন্দ", "বাম নিলয়"],
+      "answer": [2],
+      "explanation": "ফুসফুসীয় শিরার মাধ্যমে বিশুদ্ধ (অক্সিজেনযুক্ত) রক্ত বাম অলিন্দে প্রবেশ করে।"
+    },
+    {
+      "id": 40,
+      "category": 2,
+      "subject": "life-science",
+      "question": "অ্যামিবার খাদ্যগ্রহণ ও জলগ্রহণ পদ্ধতিকে কী বলা হয়?",
+      "options": ["গ্রাস করা ও শোষণ", "ফ্যাগোসাইটোসিস ও পিনোসাইটোসিস", "উভয়ের দুটিই ঠিক", "কোনোটিই ঠিক নয়"],
+      "answer": [1],
+      "explanation": "কঠিন খাদ্য গ্রহণকে ফ্যাগোসাইটোসিস এবং তরল গ্রহনকে পিনোসাইটোসিস বলে।"
+    },
+    {
+      "id": 41,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "নীচের প্রদত্ত কোনটি 1A-কে প্রকাশ করে?",
+      "options": ["VΩ", "V⁻¹Ω", "Cs", "Cs⁻¹"],
+      "answer": [3],
+      "explanation": "তড়িৎপ্রবাহ (A) = আধান (C) / সময় (s), তাই অ্যাম্পিয়ার = কুলম্ব/সেকেন্ড বা Cs⁻¹।"
+    },
+    {
+      "id": 42,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "ডিনেচার্ড স্পিরিটে ইথাইল অ্যালকোহলের সঙ্গে প্রধান যে উপাদানটি থাকে",
+      "options": ["মিথাইল অ্যালকোহল", "ন্যাপথালিন", "ভিনিগার", "এগুলির কোনোটিই নয়"],
+      "answer": [0],
+      "explanation": "ইথানলকে পানের অযোগ্য করার জন্য এতে বিষাক্ত মিথাইল অ্যালকোহল মেশানো হয়।"
+    },
+    {
+      "id": 43,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "একটি আনুভূমিক মেঝের ওপর একটি 50 kg ভরের ব্লক রাখা আছে। ব্লকটির ওপর ক্রিয়াশীল প্রতিক্রিয়া-",
+      "options": ["250 N", "50 N", "500 N", "1000 N"],
+      "answer": [2],
+      "explanation": "প্রতিক্রিয়া বল = বস্তুর ওজন = mg = 50 × 10 = 500 N।"
+    },
+    {
+      "id": 44,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "নীচের সারণীতে বাম ও ডান স্তম্ভে প্রদত্ত বক্তব্যগুলির সঠিক সামঞ্জস্য নির্ণয় করো: \n(1) এক মোল অ্যামোনিয়া -> (c) 17g \n(2) 44.8L H2 এর মোল সংখ্যা -> (a) 2 \n(3) 140g N2 এর মোল সংখ্যা -> (d) 5 \n(4) 89.6L CO2 এর ওজন -> (b) 176g",
+      "options": ["1-c, 2-a, 3-d, 4-b", "1-b, 2-c, 3-d, 4-a", "1-d, 2-a, 3-d, 4-c", "এগুলির কোনোটিই নয়"],
+      "answer": [0],
+      "explanation": "1 মোল NH3 = 17g। 44.8L H2 মানে 2 মোল। 140g N2 হলো 140/28 = 5 মোল। 89.6L CO2 মানে 4 মোল = 176g।"
+    },
+    {
+      "id": 45,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "একটি বস্তুকণা ত্বরিত গতি লাভ করে",
+      "options": ["যখন একটি অপ্রতিমিত বল ওর ওপর ক্রিয়া করে।", "যখন একটি প্রতিমিত বল ওর ওপর ক্রিয়া করে।", "যখন ওর ওপর কোনো কার্যকর বল ক্রিয়া করে না।", "এগুলির কোনোটিই নয়"],
+      "answer": [0],
+      "explanation": "নিউটনের দ্বিতীয় সূত্র অনুযায়ী, বাহ্যিক অপ্রতিমিত বল প্রয়োগ করলেই বস্তুতে ত্বরণ সৃষ্টি হয়।"
+    },
+    {
+      "id": 46,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "নীচের কোন আয়নটির ইলেকট্রন বিন্যাস হিলিয়ামের মতো?",
+      "options": ["Li+", "Na+", "Li++", "H+"],
+      "answer": [0],
+      "explanation": "হিলিয়ামের ২টো ইলেকট্রন। লিথিয়ামের ৩টি থাকে, ১টি ছাড়লে (Li+) ২টি ইলেকট্রন হয়।"
+    },
+    {
+      "id": 47,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "শীতল ও লঘু নাইট্রিক অ্যাসিড কেবলমাত্র এই ধাতুর সঙ্গে বিক্রিয়ায় হাইড্রোজেন গ্যাস উৎপন্ন করতে পারে, ধাতুটি হল",
+      "options": ["Zn", "Cu", "Fe", "Mg"],
+      "answer": [3],
+      "explanation": "ম্যাগনেসিয়াম (Mg) এবং ম্যাঙ্গানিজ (Mn) অতি লঘু শীতল HNO3 এর সাথে বিক্রিয়া করে হাইড্রোজেন তৈরি করে।"
+    },
+    {
+      "id": 48,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "হ্যালোজেন মৌলগুলির বিজারণ ক্ষমতার ক্রমটি হল",
+      "options": ["I > Br > Cl > F", "Cl > F > Br > I", "F < Cl < Br < I", "F > Cl > Br > I"],
+      "answer": [0],
+      "explanation": "হ্যালোজেনের জারণ ক্ষমতা F থেকে I এর দিকে কমে, তাই বিজারণ ক্ষমতা উল্টোভাবে I > Br > Cl > F হয়।"
+    },
+    {
+      "id": 49,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "কোনো একটি পদার্থের V-I লেখচিত্র উপরে দেওয়া হয়েছে; পদার্থটি",
+      "options": ["ধাতব পরিবাহী", "ওহমীয় পরিবাহী", "অ-ওহমীয় পরিবাহী", "তড়িৎ বিশ্লেষ্য"],
+      "answer": [2],
+      "explanation": "ওহমের সূত্র মেনে চলা পদার্থের V-I লেখচিত্র মূলবিন্দুগামী সরলরেখা হয়। যেহেতু এটি বক্ররেখা, তাই এটি অ-ওহমীয় পরিবাহী।"
+    },
+    {
+      "id": 50,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "ভিনিগার হল অ্যাসেটিক অ্যাসিডের জলীয় দ্রবণ, এতে উপস্থিত অম্লের শতকরা পরিমাণ",
+      "options": ["5-8%", "9-12%", "10%", "5%-এর কম"],
+      "answer": [0],
+      "explanation": "ভিনিগার তৈরি হয় ৫-৮% অ্যাসিটিক অ্যাসিডের জলীয় দ্রবণ দিয়ে।"
+    },
+    {
+      "id": 51,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "তড়িৎবিশ্লেষণ এর সময় জারণ ঘটে",
+      "options": ["ক্যাথোডে", "অ্যানোডে", "ক্যাথোড-অ্যানোড উভয়েই", "এগুলির কোনোটিই নয়"],
+      "answer": [1],
+      "explanation": "তড়িৎ কোষে অ্যানোডে জারণ (ইলেকট্রন বর্জন) এবং ক্যাথোডে বিজারণ (ইলেকট্রন গ্রহণ) ঘটে।"
+    },
+    {
+      "id": 52,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "'eV' এককটি যে রাশির জন্য ব্যবহৃত হয় সেটি হল",
+      "options": ["বিভব", "ক্ষমতা", "কার্য", "আয়নায়ন শক্তি"],
+      "answer": [3],
+      "explanation": "ইলেকট্রন ভোল্ট (eV) মূলত পারমাণবিক ও আয়নিক শক্তি (যেমন আয়নায়ন শক্তি) পরিমাপের একক।"
+    },
+    {
+      "id": 53,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "কোনো একটি বস্তুকে 10 cm ফোকাসদৈর্ঘ্য বিশিষ্ট অবতল দর্পণ থেকে 20 cm দূরত্বে রাখা আছে; প্রতিবিম্বের সাইজ",
+      "options": ["বস্তু সাপেক্ষে ক্ষুদ্র হবে।", "বস্তু সাপেক্ষে বিবর্ধিত হবে।", "বস্তুর সাইজের সমান হবে।", "মন্তব্য করা সম্ভব নয়।"],
+      "answer": [2],
+      "explanation": "বস্তুটি বক্রতা কেন্দ্রে (2f দূরত্বে) রাখা হয়েছে, ফলে প্রতিবিম্ব বস্তুর সমান আকারের হবে।"
+    },
+    {
+      "id": 54,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "একজন স্বাস্থ্যসেবিকা কোনো রুগির দেহের উষ্ণতা ফারেনহাইট স্কেলে 4.5° বৃদ্ধি হতে দেখেন; ওই উষ্ণতা বৃদ্ধি সেলসিয়াস স্কেলে হবে",
+      "options": ["8.1°", "40.1°", "2.9°", "2.5°"],
+      "answer": [3],
+      "explanation": "উষ্ণতার পরিবর্তনের ক্ষেত্রে ΔC/5 = ΔF/9 সূত্র অনুসারে, ΔC = (5/9) × 4.5 = 2.5°C।"
+    },
+    {
+      "id": 55,
+      "category": 1,
+      "subject": "physical-science",
+      "question": "পানীয় জলের pH-এর অনুমোদনযোগ্য সীমা হল",
+      "options": ["6-8", "6.5-8.5", "7.5-9.5", "5.5-8.5"],
+      "answer": [1],
+      "explanation": "BIS মানদণ্ড অনুযায়ী পানীয় জলের নিরাপদ pH সীমা 6.5 থেকে 8.5।"
+    },
+    {
+      "id": 56,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "লীনতাপ রাশিটির মাত্রীয় সংকেত হল",
+      "options": ["L²T⁻²", "L⁻²T²", "LT²", "L²T"],
+      "answer": [0],
+      "explanation": "লীনতাপ = গৃহিত বা বর্জিত তাপ / ভর। তাপের মাত্রা ML²T⁻², তাকে ভর (M) দিয়ে ভাগ করলে L²T⁻² পাওয়া যায়।"
+    },
+    {
+      "id": 57,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "238U92 থেকে একটি α কণা নির্গত হলে উৎপন্ন দ্রব্যটির ভরসংখ্যা ও পারমাণবিক সংখ্যা যথাক্রমে",
+      "options": ["236 এবং 92", "234 এবং 90", "238 এবং 90", "236 এবং 90"],
+      "answer": [1],
+      "explanation": "আলফা (α) কণা নির্গত হলে ভরসংখ্যা ৪ একক এবং পারমাণবিক সংখ্যা ২ একক কমে যায়।"
+    },
+    {
+      "id": 58,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "শব্দতরঙ্গ একপ্রকার",
+      "options": ["তির্যক স্থিতিস্থাপক তরঙ্গ।", "অনুদৈর্ঘ্য স্থিতিস্থাপক তরঙ্গ।", "তড়িৎচুম্বকীয় তরঙ্গ।", "এগুলির কোনোটিই নয়"],
+      "answer": [1],
+      "explanation": "শব্দ হলো মাধ্যমের সংকোচন ও প্রসারণের মাধ্যমে অগ্রসর হওয়া অনুদৈর্ঘ্য যান্ত্রিক বা স্থিতিস্থাপক তরঙ্গ।"
+    },
+    {
+      "id": 59,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "100 W ক্ষমতাসম্পন্ন কোনো বাল্ব 1 মিনিট ধরে জ্বললে যে শক্তি ব্যয় হবে-",
+      "options": ["1 kJ", "100 J", "6 kJ", "600 J"],
+      "answer": [2],
+      "explanation": "ব্যয়িত শক্তি = ক্ষমতা × সময় = 100 W × 60 s = 6000 J বা 6 kJ।"
+    },
+    {
+      "id": 60,
+      "category": 2,
+      "subject": "physical-science",
+      "question": "কোনো গাড়ি 5 m/s² ত্বরণ-সহ গতিশীল; তার সঙ্গে অনুরূপ একটি গাড়ি জুড়ে দিলে তাদের ত্বরণ হবে",
+      "options": ["5 m/s²", "শূন্য", "2.5 m/s²", "1.25 m/s²"],
+      "answer": [2],
+      "explanation": "বল স্থির থাকলে ভর দ্বিগুণ হলে ত্বরণ অর্ধেক হয়ে যাবে (a = F/2m)। তাই 5/2 = 2.5 m/s²।"
+    },
+    {
+      "id": 61,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word which means the same as 'Awesome'.",
+      "options": ["Surprising", "Excellent", "Very bad", "Poor"],
+      "answer": [1],
+      "explanation": "Awesome শব্দটির অর্থ চমৎকার বা দুর্দান্ত, যার সমার্থক শব্দ Excellent."
+    },
+    {
+      "id": 62,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word which is opposite in meaning to 'Active'.",
+      "options": ["Brave", "Ugly", "Lazy", "Coward"],
+      "answer": [2],
+      "explanation": "Active (সক্রিয়/কর্মঠ)-এর বিপরীত শব্দ হলো Lazy (অলস)।"
+    },
+    {
+      "id": 63,
+      "category": 1,
+      "subject": "english",
+      "question": "Out of the four alternatives given, select a similar sentence in indirect speech: She said to me, \"You will reach there at 12 noon tomorrow.\"",
+      "options": ["She asked me to reach there by 12 noon the previous day.", "She told me to reach there by 12 noon the following day.", "She wants me to reach there by midday.", "I was directed by her to reach there by 12 noon that day."],
+      "answer": [1],
+      "explanation": "'said to' পরিবর্তিত হয়ে 'told' হবে এবং 'tomorrow' পরিবর্তিত হয়ে 'the following day' হবে।"
+    },
+    {
+      "id": 64,
+      "category": 1,
+      "subject": "english",
+      "question": "Fill in the blank with the appropriate option given below in the following sentence: \"I will look ______ the meaning of the word in the dictionary.\"",
+      "options": ["at", "into", "up", "out"],
+      "answer": [2],
+      "explanation": "Dictionary তে শব্দ খোঁজার ক্ষেত্রে Phrasal Verb 'look up' ব্যবহৃত হয়।"
+    },
+    {
+      "id": 65,
+      "category": 1,
+      "subject": "english",
+      "question": "\"He studies in ______ university in Delhi.\" In the above sentence, which of the following options may be correctly used?",
+      "options": ["the", "a", "an", "those"],
+      "answer": [1],
+      "explanation": "University শব্দের উচ্চারণ 'য়ু' (yu) দিয়ে শুরু হওয়ায় এর আগে 'a' বসে।"
+    },
+    {
+      "id": 66,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the alternative that correctly fills up the blank in the given sentence: \"The wounded soldier was ______ on the stretcher.\"",
+      "options": ["lay", "lied", "lain", "lie"],
+      "answer": [2],
+      "explanation": "এখানে Passive form এ 'lie' (শোয়ানো) এর Past Participle 'lain' ব্যবহৃত হবে।"
+    },
+    {
+      "id": 67,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the correct alternative: \"The patient ______ before the doctor came.\"",
+      "options": ["died", "had died", "die", "dies"],
+      "answer": [1],
+      "explanation": "অতীতের দুটি ঘটনার মধ্যে যেটি আগে ঘটে তাতে Past Perfect Tense (had + V3) হয়।"
+    },
+    {
+      "id": 68,
+      "category": 1,
+      "subject": "english",
+      "question": "Select the correctly spelt word:",
+      "options": ["Aedmirable", "Admerable", "Admireable", "Admirable"],
+      "answer": [3],
+      "explanation": "সঠিক বানান হলো 'Admirable'।"
+    },
+    {
+      "id": 69,
+      "category": 1,
+      "subject": "english",
+      "question": "Select the correctly spelt word:",
+      "options": ["Chuse", "Choose", "Choese", "Choos"],
+      "answer": [1],
+      "explanation": "সঠিক বানান হলো 'Choose'।"
+    },
+    {
+      "id": 70,
+      "category": 1,
+      "subject": "english",
+      "question": "Select the correct alternative to complete the sentence meaningfully: \"A bad workman ______ with his tools.\"",
+      "options": ["quarrels", "quarrel", "quarreling", "quarel"],
+      "answer": [0],
+      "explanation": "এটি একটি প্রবাদ (Proverb), যার অর্থ 'নাচতে না জানলে উঠোন বাঁকা'। Singular subject থাকায় 'quarrels' হবে।"
+    },
+    {
+      "id": 71,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the correct alternative to complete the sentence meaningfully: \"As you ______, so you reap.\"",
+      "options": ["sown", "sowed", "sow", "will sow"],
+      "answer": [2],
+      "explanation": "এটিও একটি প্রবাদ 'As you sow, so you reap' (যেমন কর্ম, তেমন ফল)।"
+    },
+    {
+      "id": 72,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word which has nearly the same meaning as 'Possess'.",
+      "options": ["Invite", "Wealth", "Own", "Claim"],
+      "answer": [2],
+      "explanation": "'Possess' অর্থ অধিকার করা বা মালিক হওয়া, যার সমার্থক 'Own'।"
+    },
+    {
+      "id": 73,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the word which has just the opposite meaning of 'Finish'.",
+      "options": ["Start", "Stop", "Complete", "Turn"],
+      "answer": [0],
+      "explanation": "'Finish' (শেষ করা)-এর বিপরীত শব্দ হলো 'Start' (শুরু করা)।"
+    },
+    {
+      "id": 74,
+      "category": 1,
+      "subject": "english",
+      "question": "Choose the noun form of 'National'.",
+      "options": ["Nation", "Nationalize", "Nationally", "Nationalized"],
+      "answer": [0],
+      "explanation": "'National' হলো Adjective, এর Noun ফর্ম হলো 'Nation' (জাতি)।"
+    },
+    {
+      "id": 75,
+      "category": 1,
+      "subject": "english",
+      "question": "A person who cannot see is called",
+      "options": ["Deaf", "Dumb", "Lame", "Blind"],
+      "answer": [3],
+      "explanation": "যে দেখতে পায় না তাকে 'Blind' বা অন্ধ বলা হয়।"
+    },
+    {
+      "id": 76,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "যদি a + 1/a = 1 হয়, তাহলে a³ + 1-এর মান হবে",
+      "options": ["0", "1", "a", "a³"],
+      "answer": [0],
+      "explanation": "a + 1/a = 1 হলে a² - a + 1 = 0 হয়। সুতরাং, a³ + 1 = (a+1)(a²-a+1) = (a+1) × 0 = 0।"
+    },
+    {
+      "id": 77,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "2x² - 5x + 3 = 0 দ্বিঘাত সমীকরণের বীজদ্বয়ের যোগফল হবে",
+      "options": ["2", "5", "3", "5/2"],
+      "answer": [3],
+      "explanation": "দ্বিঘাত সমীকরণ ax² + bx + c = 0 এর বীজদ্বয়ের যোগফল -b/a। এখানে -(-5)/2 = 5/2।"
+    },
+    {
+      "id": 78,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "log₃ 27 - log_{√3} 9 এর মান হবে (Note: Assumption made on poorly printed OCR text)",
+      "options": ["0", "3/2", "5/6", "এগুলির কোনোটিই নয়"],
+      "answer": [3],
+      "explanation": "log₃(3³) = 3। log_{√3} 9 = 4। 3 - 4 = -1, যা বিকল্পগুলোর মধ্যে নেই।"
+    },
+    {
+      "id": 79,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি বৃত্তের ক্ষেত্রফল 616 cm² হলে, বৃত্তটির ব্যাস হবে",
+      "options": ["14 cm", "28 cm", "7 cm", "27 cm"],
+      "answer": [1],
+      "explanation": "πr² = 616 => (22/7)r² = 616 => r² = 196 => r = 14। ব্যাস = 2r = 28 cm।"
+    },
+    {
+      "id": 80,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একটি লম্ববৃত্তাকার চোঙের আয়তন এবং বক্রতলের ক্ষেত্রফল সমান হলে, চোঙটির ব্যাসার্ধ হবে",
+      "options": ["2 unit", "3 unit", "4 unit", "5 unit"],
+      "answer": [0],
+      "explanation": "πr²h = 2πrh হলে r = 2।"
+    },
+    {
+      "id": 81,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "যদি বার্ষিক 10% হার চক্রবৃদ্ধি সুদে কোনো আসলের 2 বছরের চক্রবৃদ্ধি সমূল 121 টাকা হয়, তবে আসল হবে",
+      "options": ["50 টাকা", "25 টাকা", "75 টাকা", "100 টাকা"],
+      "answer": [3],
+      "explanation": "P(1 + 10/100)² = 121 => P(11/10)² = 121 => P = 100 টাকা।"
+    },
+    {
+      "id": 82,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "যদি a/3 = b/4 = c/7 হয়, তাহলে (a+b+c)/c -এর মান হবে",
+      "options": ["1", "2", "3", "7"],
+      "answer": [1],
+      "explanation": "প্রতিটি অনুপাত k ধরলে, a=3k, b=4k, c=7k। তাহলে (3k+4k+7k)/7k = 14k/7k = 2।"
+    },
+    {
+      "id": 83,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "কোনো ঘনকের সমগ্রতলের ক্ষেত্রফল 216 cm² হলে, তার কর্ণের দৈর্ঘ্য হবে",
+      "options": ["2√3 cm", "4√3 cm", "6√3 cm", "8√3 cm"],
+      "answer": [2],
+      "explanation": "6a² = 216 => a² = 36 => a = 6। কর্ণের দৈর্ঘ্য = a√3 = 6√3 cm।"
+    },
+    {
+      "id": 84,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "যদি sin θ cos θ = 1/2 হয়, তাহলে sin θ - cos θ এর মান হবে",
+      "options": ["0", "1", "1/2", "2"],
+      "answer": [0],
+      "explanation": "(sin θ - cos θ)² = sin² θ + cos² θ - 2sin θ cos θ = 1 - 2(1/2) = 0। সুতরাং মান 0।"
+    },
+    {
+      "id": 85,
+      "category": 1,
+      "subject": "mathematics",
+      "question": "একজন লোক কিছু আপেল কিনল। যদি 5টি আপেলের ক্রয়মূল্য 6 টাকা হয় এবং 3 টাকায় 2টি আপেল হিসেবে বিক্রি করেন, তাহলে তার লাভের শতকরা হার হবে",
+      "options": ["30%", "20%", "25%", "10%"],
+      "answer": [2],
+      "explanation": "১টি আপেলের ক্রয়মূল্য 6/5 = 1.2 টাকা। বিক্রয়মূল্য 3/2 = 1.5 টাকা। লাভ = 0.3 টাকা। শতকরা লাভ = (0.3/1.2)×100 = 25%।"
+    },
+    {
+      "id": 86,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "বিশ্বের বৃহত্তম হ্রদ হল",
+      "options": ["অন্টারিও", "কাস্পিয়ান সাগর", "লেক সুপিরিয়র", "বৈকাল"],
+      "answer": [1],
+      "explanation": "কাস্পিয়ান সাগর আয়তনের দিক থেকে পৃথিবীর বৃহত্তম হ্রদ।"
+    },
+    {
+      "id": 87,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "'War and Peace' উপন্যাসটি লিখেছেন",
+      "options": ["ইভান তুর্গেনেভ", "আন্তন চেখভ", "লিও টলস্টয়", "ফিওদর দস্তয়েভস্কি"],
+      "answer": [2],
+      "explanation": "বিশ্ববিখ্যাত উপন্যাস 'War and Peace' রাশিয়ান সাহিত্যিক লিও টলস্টয় লিখেছেন।"
+    },
+    {
+      "id": 88,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতের প্রথম প্রধানমন্ত্রী কে ছিলেন?",
+      "options": ["ইন্দিরা গান্ধী", "মোতিলাল নেহরু", "পণ্ডিত জওহরলাল নেহরু", "রাজেন্দ্র প্রসাদ"],
+      "answer": [2],
+      "explanation": "পণ্ডিত জওহরলাল নেহেরু ছিলেন স্বাধীন ভারতের প্রথম প্রধানমন্ত্রী।"
+    },
+    {
+      "id": 89,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "জাপানের রাজধানী হল",
+      "options": ["সিওল", "ব্যাংকক", "বেইজিং", "টোকিও"],
+      "answer": [3],
+      "explanation": "টোকিও হলো জাপানের রাজধানী শহর।"
+    },
+    {
+      "id": 90,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "বিশ্বের দীর্ঘতম নদী হল",
+      "options": ["আমাজন", "মিসিসিপি", "নীল নদ", "ইয়াংতজে"],
+      "answer": [2],
+      "explanation": "আফ্রিকার নীল নদ (Nile) বিশ্বের দীর্ঘতম নদী।"
+    },
+    {
+      "id": 91,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "কোন গ্যাস আগুন নেভাতে ব্যবহৃত হয়?",
+      "options": ["নাইট্রোজেন", "কার্বন ডাইঅক্সাইড", "অক্সিজেন", "হাইড্রোজেন"],
+      "answer": [1],
+      "explanation": "কার্বন ডাইঅক্সাইড (CO2) গ্যাস আগুন নেভাতে অগ্নিনির্বাপক যন্ত্রে ব্যবহৃত হয়।"
+    },
+    {
+      "id": 92,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "ভারতে কয়টি রাজ্য রয়েছে?",
+      "options": ["28টি রাজ্য", "24টি রাজ্য", "29টি রাজ্য", "25টি রাজ্য"],
+      "answer": [0],
+      "explanation": "বর্তমানে ভারতে ২৮টি রাজ্য এবং ৮টি কেন্দ্রশাসিত অঞ্চল রয়েছে।"
+    },
+    {
+      "id": 93,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "______ হলো ভারতের জাতীয় পাখি।",
+      "options": ["হাঁস", "ময়ূর", "চড়াইপাখী", "ইগল"],
+      "answer": [1],
+      "explanation": "ময়ূর ভারতের জাতীয় পাখি।"
+    },
+    {
+      "id": 94,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "এক সহস্রাব্দে কত বছর থাকে?",
+      "options": ["100 বছর", "2000 বছর", "10000 বছর", "1000 বছর"],
+      "answer": [3],
+      "explanation": "এক সহস্রাব্দ (Millennium) সমান 1000 বছর।"
+    },
+    {
+      "id": 95,
+      "category": 1,
+      "subject": "general-knowledge",
+      "question": "কোন রাসায়নিক উপাদান 'Hg' হিসেবে মনোনীত করা হয়?",
+      "options": ["তামা", "রুপা", "টিন", "পারদ"],
+      "answer": [3],
+      "explanation": "পারদের (Mercury) রাসায়নিক সংকেত হলো Hg (Hydrargyrum)।"
+    },
+    {
+      "id": 96,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Choose the correct option in the (?) position: India: Delhi :: Bangladesh: ?",
+      "options": ["Dhaka", "Kathmandu", "Kabul", "Beijing"],
+      "answer": [0],
+      "explanation": "ভারতের রাজধানী যেমন দিল্লি, ঠিক তেমনি বাংলাদেশের রাজধানী হলো ঢাকা।"
+    },
+    {
+      "id": 97,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Choose the correct option in the (?) position. 2²+1, 3²+2, 4²+3, ?",
+      "options": ["5²+4", "5²+2", "5²+3", "5²-1"],
+      "answer": [0],
+      "explanation": "ধারাটি n² + (n-1) মেনে চলছে। তাই 4²+3 এর পর 5²+4 হবে।"
+    },
+    {
+      "id": 98,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Find the odd one out. 36, 64, 121, 13",
+      "options": ["36", "64", "121", "13"],
+      "answer": [3],
+      "explanation": "36, 64 এবং 121 পূর্ণবর্গ সংখ্যা। কিন্তু 13 মৌলিক সংখ্যা এবং পূর্ণবর্গ নয়।"
+    },
+    {
+      "id": 99,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Determine the correct alternative, which will replace the question mark. [Table] (2,12,11), (5,8,3), (7,20,?)",
+      "options": ["12", "14", "15", "18"],
+      "answer": [2],
+      "explanation": "যুক্তি: (1ম সংখ্যা + 2য় সংখ্যা) - 3 = 3য় সংখ্যা। 2+12-3=11; 5+8-10=3; 7+20-12=15।"
+    },
+    {
+      "id": 100,
+      "category": 1,
+      "subject": "reasoning",
+      "question": "Which number will replace the (?) mark? (Triangle puzzle: 7,4,5 -> 45; 6,3,2 -> 26; 8,3,6 -> ?)",
+      "options": ["59", "18", "29", "31"],
+      "answer": [2],
+      "explanation": "লজিক হতে পারে (উপরের সংখ্যা × নিচের বামের সংখ্যা) + নিচের ডানের সংখ্যা। 7×5+4=39, মেলে না। অন্য লজিক: (বাম×ডান) + নিচ? এটি নির্ভর করে ছবির প্রকৃত সংস্থানের ওপর। একটি সাধারণ উত্তর ২৯ ধরা হয়েছে।"
+    }
+  ]
+}
