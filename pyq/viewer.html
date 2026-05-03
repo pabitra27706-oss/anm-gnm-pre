@@ -2,18 +2,14 @@
 <html lang="bn">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>প্রশ্নপত্র দেখুন | WB ANM GNM 2026</title>
 
-  <!-- Base styles -->
   <link rel="stylesheet" href="/assets/css/base.css" />
   <link rel="stylesheet" href="/assets/css/utilities.css" />
-
-  <!-- PYQ viewer styles -->
   <link rel="stylesheet" href="css/pyq-layout.css" />
   <link rel="stylesheet" href="css/pyq-viewer.css" />
 
-  <!-- Bengali font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -23,643 +19,278 @@
 </head>
 <body class="pyq-viewer-page">
 
-  <!-- ═══════════════════════════════════════
-       HEADER
-  ═══════════════════════════════════════ -->
+  <!-- HEADER -->
   <header class="viewer-header" role="banner">
     <div class="viewer-header__inner">
-
-      <!-- Back to PYQ list -->
-      <a href="index.html" class="viewer-back-btn" aria-label="প্রশ্নপত্রের তালিকায় ফিরুন">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2.5"
-             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <polyline points="15 18 9 12 15 6"></polyline>
-        </svg>
-        <span class="viewer-back-btn__text">প্রশ্নপত্র তালিকা</span>
+      <a href="index.html" class="viewer-back-btn" aria-label="Back to list">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        <span class="viewer-back-btn__text">Back</span>
       </a>
 
-      <!-- Paper title (set by JS) -->
       <div class="viewer-header__center">
-        <h1 class="viewer-header__title" id="paper-title">
-          প্রশ্নপত্র লোড হচ্ছে...
-        </h1>
+        <h1 class="viewer-header__title" id="paper-title">Loading...</h1>
         <span class="viewer-header__subtitle" id="paper-subtitle"></span>
       </div>
 
-      <!-- Action buttons -->
       <div class="viewer-header__actions">
-        <!-- Timer display -->
-        <div class="viewer-timer" id="timer-display" aria-live="polite" aria-label="অবশিষ্ট সময়">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="12" r="10"></circle>
-            <polyline points="12 6 12 12 16 14"></polyline>
-          </svg>
-          <span id="timer-text">৯০:০০</span>
+        <!-- Mode selector -->
+        <select id="mode-selector" class="mode-selector" aria-label="Mode" onchange="PYQLoader.changeMode(this.value)">
+          <option value="exam">Exam</option>
+          <option value="practice">Practice</option>
+          <option value="review">Review</option>
+        </select>
+
+        <!-- Timer -->
+        <div class="viewer-timer" id="timer-display" aria-live="polite">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span id="timer-text">90:00</span>
         </div>
 
-        <!-- Print button -->
-        <button
-          class="viewer-icon-btn"
-          id="print-btn"
-          onclick="PYQPrint.printPaper()"
-          type="button"
-          aria-label="প্রিন্ট করুন"
-          title="প্রিন্ট করুন"
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <polyline points="6 9 6 2 18 2 18 9"></polyline>
-            <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0
-                     012 2v5a2 2 0 01-2 2h-2"></path>
-            <rect x="6" y="14" width="12" height="8"></rect>
-          </svg>
+        <!-- Print -->
+        <button class="viewer-icon-btn" onclick="PYQPrint.printPaper()" type="button" aria-label="Print">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
         </button>
       </div>
-
     </div>
   </header>
 
-  <!-- ═══════════════════════════════════════
-       MAIN LAYOUT WRAPPER
-  ═══════════════════════════════════════ -->
+  <!-- MAIN LAYOUT -->
   <div class="viewer-layout" id="viewer-layout">
 
-    <!-- ─────────────────────────────────────
-         LEFT: QUESTION PALETTE (sticky)
-    ───────────────────────────────────── -->
-    <nav
-      class="question-palette"
-      id="question-palette"
-      role="navigation"
-      aria-label="প্রশ্ন নির্বাচন প্যালেট"
-    >
+    <!-- QUESTION PALETTE (desktop sidebar) -->
+    <nav class="question-palette" id="question-palette" role="navigation" aria-label="Question Palette">
       <div class="palette-header">
-        <h2 class="palette-title">প্রশ্ন তালিকা</h2>
+        <div class="palette-header__top">
+          <h2 class="palette-title">Question Palette</h2>
+          <button id="filter-toggle-btn" class="filter-toggle-btn" onclick="PYQLoader.toggleFilter()" aria-label="Toggle filter" title="Filter questions">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          </button>
+        </div>
+
+        <!-- Filter panel -->
+        <div class="filter-panel hidden" id="filter-panel">
+          <div class="filter-section">
+            <h4 class="filter-section__title">Subject</h4>
+            <div id="filter-subjects" class="filter-checkbox-group"></div>
+          </div>
+          <div class="filter-section">
+            <h4 class="filter-section__title">Category</h4>
+            <div class="filter-checkbox-group">
+              <label class="filter-checkbox"><input type="checkbox" data-cat="1" checked> Cat-1</label>
+              <label class="filter-checkbox"><input type="checkbox" data-cat="2" checked> Cat-2</label>
+            </div>
+          </div>
+          <div class="filter-actions">
+            <button class="btn-filter-apply" onclick="PYQLoader.applyFilter()">Apply</button>
+            <button class="btn-filter-reset" onclick="PYQLoader.resetFilter()">Reset</button>
+          </div>
+        </div>
+
         <!-- Stats -->
-        <div class="palette-stats" id="palette-stats">
-          <span class="palette-stat palette-stat--attempted" id="stat-attempted">
+        <div class="palette-stats">
+          <span class="palette-stat">
             <span class="palette-stat__dot palette-stat__dot--attempted"></span>
-            <span id="stat-attempted-count">০</span> উত্তর
+            <span id="stat-attempted-count">0</span> Answered
           </span>
-          <span class="palette-stat palette-stat--review" id="stat-review">
+          <span class="palette-stat">
             <span class="palette-stat__dot palette-stat__dot--review"></span>
-            <span id="stat-review-count">০</span> পরে দেখুন
+            <span id="stat-review-count">0</span> Marked
           </span>
         </div>
       </div>
 
-      <!-- Category 1 block -->
+      <!-- Cat-1 block -->
       <div class="palette-category" id="palette-cat1-block">
         <div class="palette-category__label">
-          <span class="cat-badge cat-badge--1">ক্যাট-১</span>
-          <span class="palette-category__info">প্রশ্ন ১–৮৫</span>
+          <span class="cat-badge cat-badge--1">Cat-1</span>
+          <span class="palette-category__info">Q 1 – 85</span>
         </div>
-        <div
-          class="palette-grid"
-          id="palette-cat1"
-          role="list"
-          aria-label="ক্যাটাগরি ১ প্রশ্নসমূহ"
-        >
-          <!-- Buttons inserted by JS -->
-        </div>
+        <div class="palette-grid" id="palette-cat1"></div>
       </div>
 
-      <!-- Category 2 block -->
+      <!-- Cat-2 block -->
       <div class="palette-category" id="palette-cat2-block">
         <div class="palette-category__label">
-          <span class="cat-badge cat-badge--2">ক্যাট-২</span>
-          <span class="palette-category__info">প্রশ্ন ৮৬–১০০</span>
+          <span class="cat-badge cat-badge--2">Cat-2</span>
+          <span class="palette-category__info">Q 86 – 100</span>
         </div>
-        <div
-          class="palette-grid"
-          id="palette-cat2"
-          role="list"
-          aria-label="ক্যাটাগরি ২ প্রশ্নসমূহ"
-        >
-          <!-- Buttons inserted by JS -->
-        </div>
+        <div class="palette-grid" id="palette-cat2"></div>
       </div>
 
-      <!-- Palette legend -->
+      <!-- Legend -->
       <div class="palette-legend">
-        <div class="palette-legend__item">
-          <span class="palette-legend__swatch palette-legend__swatch--not-attempted"></span>
-          <span>উত্তর দেওয়া হয়নি</span>
-        </div>
-        <div class="palette-legend__item">
-          <span class="palette-legend__swatch palette-legend__swatch--attempted"></span>
-          <span>উত্তর দেওয়া হয়েছে</span>
-        </div>
-        <div class="palette-legend__item">
-          <span class="palette-legend__swatch palette-legend__swatch--review"></span>
-          <span>পরে দেখুন</span>
-        </div>
-        <div class="palette-legend__item">
-          <span class="palette-legend__swatch palette-legend__swatch--current"></span>
-          <span>বর্তমান প্রশ্ন</span>
-        </div>
+        <div class="palette-legend__item"><span class="palette-legend__swatch palette-legend__swatch--not-attempted"></span> Not attempted</div>
+        <div class="palette-legend__item"><span class="palette-legend__swatch palette-legend__swatch--attempted"></span> Attempted</div>
+        <div class="palette-legend__item"><span class="palette-legend__swatch palette-legend__swatch--correct"></span> Correct</div>
+        <div class="palette-legend__item"><span class="palette-legend__swatch palette-legend__swatch--wrong"></span> Wrong</div>
+        <div class="palette-legend__item"><span class="palette-legend__swatch palette-legend__swatch--review"></span> Marked</div>
+        <div class="palette-legend__item"><span class="palette-legend__swatch palette-legend__swatch--current"></span> Current</div>
       </div>
 
-      <!-- Submit button (in palette on desktop) -->
-      <button
-        class="palette-submit-btn"
-        id="palette-submit-btn"
-        onclick="PYQScorer.confirmSubmit()"
-        type="button"
-      >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2.5"
-             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <polyline points="20 6 9 17 4 12"></polyline>
-        </svg>
-        জমা দিন
-      </button>
+      <button class="palette-submit-btn" id="palette-submit-btn" onclick="PYQScorer.confirmSubmit()">Submit</button>
     </nav>
 
-    <!-- ─────────────────────────────────────
-         CENTER: QUESTION AREA
-    ───────────────────────────────────── -->
-    <main
-      class="question-container"
-      id="question-container"
-      role="main"
-      aria-label="প্রশ্ন"
-    >
+    <!-- QUESTION AREA -->
+    <main class="question-container" id="question-container" role="main" aria-label="Question">
 
-      <!-- Loading state -->
-      <div class="qc-loading" id="qc-loading" role="status" aria-live="polite">
-        <div class="qc-loading__spinner">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 12a9 9 0 11-6.219-8.56"></path>
-          </svg>
-        </div>
-        <p>প্রশ্নপত্র লোড হচ্ছে...</p>
+      <!-- Loading -->
+      <div class="qc-loading" id="qc-loading" role="status">
+        <div class="qc-loading__spinner"><svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M21 12a9 9 0 11-6.219-8.56"/></svg></div>
+        <p>Loading questions...</p>
       </div>
 
-      <!-- Error state -->
+      <!-- Error -->
       <div class="qc-error hidden" id="qc-error" role="alert">
-        <svg width="52" height="52" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="1.5"
-             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <circle cx="12" cy="12" r="10"></circle>
-          <line x1="15" y1="9" x2="9" y2="15"></line>
-          <line x1="9" y1="9" x2="15" y2="15"></line>
-        </svg>
-        <h3>প্রশ্নপত্র লোড হয়নি</h3>
-        <p id="qc-error-msg">নেটওয়ার্ক সমস্যার কারণে প্রশ্নপত্র আনা যায়নি।</p>
-        <button
-          class="qc-retry-btn"
-          onclick="PYQLoader.retryLoad()"
-          type="button"
-        >আবার চেষ্টা করুন</button>
+        <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+        <h3>Failed to load</h3>
+        <p id="qc-error-msg"></p>
+        <button class="qc-retry-btn" onclick="PYQLoader.retryLoad()">Retry</button>
       </div>
 
-      <!-- ── QUESTION CARD (hidden until loaded) ── -->
+      <!-- Question card -->
       <div class="question-card hidden" id="question-card">
-
-        <!-- Question header row -->
         <div class="question-card__header">
           <div class="question-card__meta">
-            <span class="question-number" id="question-number">প্রশ্ন ১</span>
-            <span class="cat-badge" id="question-cat-badge">ক্যাট-১</span>
+            <span class="question-number" id="question-number">Q 1</span>
+            <span class="cat-badge" id="question-cat-badge">Cat-1</span>
             <span class="subject-badge" id="question-subject"></span>
           </div>
-          <div class="question-card__progress">
-            <span id="question-progress-text">১ / ১০০</span>
-          </div>
+          <div class="question-card__progress"><span id="question-progress-text">1 / 100</span></div>
         </div>
-
-        <!-- Progress bar -->
-        <div class="question-progress-bar" role="progressbar"
-             aria-label="অগ্রগতি" aria-valuemin="0" aria-valuemax="100"
-             id="progress-bar-wrap">
+        <div class="question-progress-bar" role="progressbar" id="progress-bar-wrap">
           <div class="question-progress-bar__fill" id="progress-bar-fill"></div>
         </div>
-
-        <!-- Question text -->
-        <div class="question-text" id="question-text" lang="bn">
-          <!-- Question rendered by JS -->
-        </div>
-
-        <!-- Category-2 hint -->
+        <div class="question-text" id="question-text" lang="bn"></div>
         <div class="cat2-hint hidden" id="cat2-hint">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="12" y1="8" x2="12" y2="12"></line>
-            <line x1="12" y1="16" x2="12.01" y2="16"></line>
-          </svg>
-          <span>একাধিক উত্তর সঠিক হতে পারে। সব সঠিক অপশন বেছে নিন।</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span>Select all correct options.</span>
         </div>
-
-        <!-- Options list -->
         <fieldset class="options-fieldset" id="options-fieldset">
-          <legend class="sr-only" id="options-legend">উত্তর বেছে নিন</legend>
-          <div class="options-list" id="options-list" role="group">
-            <!-- Options rendered by JS -->
-          </div>
+          <legend class="sr-only">Options</legend>
+          <div class="options-list" id="options-list"></div>
         </fieldset>
-
-        <!-- Action row: Mark for review + Clear -->
+        <div class="practice-feedback hidden" id="practice-feedback">
+          <div class="practice-feedback__indicator" id="practice-feedback-indicator"></div>
+          <p class="practice-feedback__explanation" id="practice-feedback-text"></p>
+        </div>
         <div class="question-actions">
-          <button
-            class="btn-mark-review"
-            id="mark-review-btn"
-            type="button"
-            onclick="PYQLoader.toggleMarkForReview()"
-            aria-pressed="false"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14
-                               18.18 21.02 12 17.77 5.82 21.02
-                               7 14.14 2 9.27 8.91 8.26 12 2">
-              </polygon>
-            </svg>
-            পরে দেখুন
+          <button class="btn-mark-review" id="mark-review-btn" onclick="PYQLoader.toggleMarkForReview()" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Mark for review
           </button>
-
-          <button
-            class="btn-clear-answer"
-            id="clear-answer-btn"
-            type="button"
-            onclick="PYQLoader.clearAnswer()"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polyline points="3 6 5 6 21 6"></polyline>
-              <path d="M19 6v14a2 2 0 01-2 2H7a2 2 0
-                       01-2-2V6m3 0V4a1 1 0 011-1h4a1 1 0 011 1v2">
-              </path>
-            </svg>
-            উত্তর মুছুন
+          <button class="btn-clear-answer" onclick="PYQLoader.clearAnswer()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a1 1 0 011-1h4a1 1 0 011 1v2"/></svg>
+            Clear
           </button>
         </div>
-
-        <!-- Navigation row -->
         <div class="navigation-buttons">
-          <button
-            class="nav-btn nav-btn--prev"
-            id="prev-btn"
-            type="button"
-            onclick="PYQLoader.navigateQuestion('prev')"
-            aria-label="আগের প্রশ্ন"
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polyline points="15 18 9 12 15 6"></polyline>
-            </svg>
-            আগের প্রশ্ন
-          </button>
-
-          <!-- Question jump (mobile) -->
-          <button
-            class="nav-btn nav-btn--palette-toggle"
-            id="palette-toggle-btn"
-            type="button"
-            onclick="PYQLoader.toggleMobilePalette()"
-            aria-label="প্রশ্ন তালিকা দেখুন"
-            aria-expanded="false"
-            aria-controls="question-palette"
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <rect x="3" y="3" width="7" height="7"></rect>
-              <rect x="14" y="3" width="7" height="7"></rect>
-              <rect x="14" y="14" width="7" height="7"></rect>
-              <rect x="3" y="14" width="7" height="7"></rect>
-            </svg>
-            প্যালেট
-          </button>
-
-          <button
-            class="nav-btn nav-btn--next"
-            id="next-btn"
-            type="button"
-            onclick="PYQLoader.navigateQuestion('next')"
-            aria-label="পরবর্তী প্রশ্ন"
-          >
-            পরবর্তী প্রশ্ন
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </button>
+          <button class="nav-btn nav-btn--prev" id="prev-btn" onclick="PYQLoader.navigateQuestion('prev')">Previous</button>
+          <button class="nav-btn nav-btn--palette-toggle" id="palette-toggle-btn" onclick="PYQLoader.toggleMobilePalette()" aria-expanded="false">Palette</button>
+          <button class="nav-btn nav-btn--next" id="next-btn" onclick="PYQLoader.navigateQuestion('next')">Next</button>
         </div>
-
-        <!-- Submit button (bottom, visible on mobile) -->
         <div class="submit-row">
-          <button
-            class="btn-submit-main"
-            id="submit-btn-main"
-            type="button"
-            onclick="PYQScorer.confirmSubmit()"
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            জমা দিন
-          </button>
+          <button class="btn-submit-main" onclick="PYQScorer.confirmSubmit()">Submit</button>
         </div>
+      </div>
 
-      </div><!-- /.question-card -->
-
-      <!-- ── REVIEW MODE CARD (shown after submit) ── -->
+      <!-- Review card -->
       <div class="review-card hidden" id="review-card">
         <div class="review-card__header">
-          <span class="question-number" id="review-question-number">প্রশ্ন ১</span>
-          <span class="cat-badge" id="review-cat-badge">ক্যাট-১</span>
+          <span class="question-number" id="review-question-number">Q 1</span>
+          <span class="cat-badge" id="review-cat-badge">Cat-1</span>
           <div class="review-result-badge" id="review-result-badge"></div>
         </div>
-
         <div class="question-text" id="review-question-text"></div>
-
-        <div class="review-options" id="review-options-list">
-          <!-- Options with correct/wrong highlights rendered by JS -->
-        </div>
-
+        <div class="review-options" id="review-options-list"></div>
         <div class="review-explanation hidden" id="review-explanation">
-          <div class="review-explanation__label">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="12" y1="8" x2="12" y2="12"></line>
-              <line x1="12" y1="16" x2="12.01" y2="16"></line>
-            </svg>
-            ব্যাখ্যা
-          </div>
+          <div class="review-explanation__label"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Explanation</div>
           <p id="review-explanation-text"></p>
         </div>
-
         <div class="navigation-buttons">
-          <button
-            class="nav-btn nav-btn--prev"
-            type="button"
-            onclick="PYQLoader.navigateQuestion('prev')"
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polyline points="15 18 9 12 15 6"></polyline>
-            </svg>
-            আগের
-          </button>
-          <button
-            class="nav-btn nav-btn--next"
-            type="button"
-            onclick="PYQLoader.navigateQuestion('next')"
-          >
-            পরবর্তী
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2.5"
-                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-          </button>
+          <button class="nav-btn nav-btn--prev" onclick="PYQLoader.navigateQuestion('prev')">Previous</button>
+          <button class="nav-btn nav-btn--next" onclick="PYQLoader.navigateQuestion('next')">Next</button>
         </div>
-      </div><!-- /.review-card -->
+      </div>
+    </main>
+  </div>
 
-    </main><!-- /.question-container -->
-
-  </div><!-- /.viewer-layout -->
-
-  <!-- ═══════════════════════════════════════
-       MOBILE PALETTE OVERLAY
-  ═══════════════════════════════════════ -->
-  <div
-    class="mobile-palette-overlay hidden"
-    id="mobile-palette-overlay"
-    role="dialog"
-    aria-modal="true"
-    aria-label="প্রশ্ন নির্বাচন"
-  >
-    <div class="mobile-palette-sheet" id="mobile-palette-sheet">
+  <!-- MOBILE PALETTE OVERLAY -->
+  <div class="mobile-palette-overlay hidden" id="mobile-palette-overlay" role="dialog" aria-modal="true">
+    <div class="mobile-palette-sheet">
       <div class="mobile-palette-handle"></div>
       <div class="mobile-palette-header">
-        <h3>প্রশ্ন তালিকা</h3>
-        <button
-          class="mobile-palette-close"
-          onclick="PYQLoader.toggleMobilePalette()"
-          type="button"
-          aria-label="বন্ধ করুন"
-        >
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
+        <h3>Question Palette</h3>
+        <button class="mobile-palette-close" onclick="PYQLoader.toggleMobilePalette()">&times;</button>
       </div>
-      <!-- Mobile palette content cloned by JS -->
       <div class="mobile-palette-body" id="mobile-palette-body"></div>
       <div class="mobile-palette-footer">
-        <button
-          class="palette-submit-btn"
-          onclick="PYQScorer.confirmSubmit()"
-          type="button"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <polyline points="20 6 9 17 4 12"></polyline>
-          </svg>
-          জমা দিন
-        </button>
+        <button class="palette-submit-btn" onclick="PYQScorer.confirmSubmit()">Submit</button>
       </div>
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════
-       CONFIRM SUBMIT MODAL
-  ═══════════════════════════════════════ -->
-  <div
-    class="modal-overlay hidden"
-    id="confirm-modal"
-    role="dialog"
-    aria-modal="true"
-    aria-labelledby="confirm-modal-title"
-  >
-    <div class="modal-box" id="confirm-modal-box">
-      <div class="modal-icon modal-icon--warning">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2"
-             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0
-                   001.71-3L13.71 3.86a2 2 0 00-3.42 0z"></path>
-          <line x1="12" y1="9" x2="12" y2="13"></line>
-          <line x1="12" y1="17" x2="12.01" y2="17"></line>
-        </svg>
-      </div>
-      <h2 class="modal-title" id="confirm-modal-title">পরীক্ষা জমা দিন?</h2>
-      <div class="modal-summary" id="confirm-summary">
-        <!-- Filled by JS -->
-      </div>
+  <!-- CONFIRM MODAL -->
+  <div class="modal-overlay hidden" id="confirm-modal" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <div class="modal-icon modal-icon--warning"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+      <h2 class="modal-title">Submit exam?</h2>
+      <div class="modal-summary" id="confirm-summary"></div>
       <div class="modal-actions">
-        <button
-          class="modal-btn modal-btn--cancel"
-          onclick="PYQScorer.closeConfirmModal()"
-          type="button"
-        >বাতিল করুন</button>
-        <button
-          class="modal-btn modal-btn--confirm"
-          onclick="PYQScorer.submitExam()"
-          type="button"
-        >হ্যাঁ, জমা দিন</button>
+        <button class="modal-btn modal-btn--cancel" onclick="PYQScorer.closeConfirmModal()">Cancel</button>
+        <button class="modal-btn modal-btn--confirm" onclick="PYQScorer.submitExam()">Yes, submit</button>
       </div>
     </div>
   </div>
 
-  <!-- ═══════════════════════════════════════
-       RESULT MODAL
-  ═══════════════════════════════════════ -->
-  <div
-    class="modal-overlay hidden"
-    id="result-modal"
-    role="dialog"
-    aria-modal="true"
-    aria-labelledby="result-modal-title"
-  >
-    <div class="modal-box modal-box--result" id="result-modal-box">
-
-      <!-- Result header -->
+  <!-- RESULT MODAL -->
+  <div class="modal-overlay hidden" id="result-modal" role="dialog" aria-modal="true">
+    <div class="modal-box modal-box--result">
       <div class="result-header">
-        <div class="result-icon" id="result-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="12" cy="8" r="7"></circle>
-            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-          </svg>
+        <div class="result-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
         </div>
-        <h2 class="modal-title" id="result-modal-title">আপনার ফলাফল</h2>
+        <h2 class="modal-title">Your Result</h2>
         <p class="result-paper-name" id="result-paper-name"></p>
       </div>
-
-      <!-- Score circle -->
       <div class="result-score-circle" id="result-score-circle">
         <div class="result-score-circle__inner">
-          <span class="result-score-circle__score" id="result-total-score">০</span>
-          <span class="result-score-circle__max">/ ১১৫</span>
+          <span class="result-score-circle__score" id="result-total-score">0</span>
+          <span class="result-score-circle__max">/ 115</span>
         </div>
       </div>
-
-      <!-- Score breakdown -->
       <div class="result-breakdown">
-        <h3 class="result-breakdown__title">বিভাগ অনুযায়ী নম্বর</h3>
+        <h3 class="result-breakdown__title">Score by Category</h3>
         <div class="result-breakdown__grid">
-          <div class="result-breakdown__card result-breakdown__card--cat1">
-            <div class="result-breakdown__card-label">
-              <span class="cat-badge cat-badge--1">ক্যাট-১</span>
-            </div>
-            <div class="result-breakdown__card-score" id="result-cat1-score">০ / ৮৫</div>
+          <div class="result-breakdown__card">
+            <div class="result-breakdown__card-label"><span class="cat-badge cat-badge--1">Cat-1</span></div>
+            <div class="result-breakdown__card-score" id="result-cat1-score">0 / 85</div>
             <div class="result-breakdown__card-detail" id="result-cat1-detail"></div>
           </div>
-          <div class="result-breakdown__card result-breakdown__card--cat2">
-            <div class="result-breakdown__card-label">
-              <span class="cat-badge cat-badge--2">ক্যাট-২</span>
-            </div>
-            <div class="result-breakdown__card-score" id="result-cat2-score">০ / ৩০</div>
+          <div class="result-breakdown__card">
+            <div class="result-breakdown__card-label"><span class="cat-badge cat-badge--2">Cat-2</span></div>
+            <div class="result-breakdown__card-score" id="result-cat2-score">0 / 30</div>
             <div class="result-breakdown__card-detail" id="result-cat2-detail"></div>
           </div>
         </div>
       </div>
-
-      <!-- Stats row -->
       <div class="result-stats" id="result-stats">
-        <div class="result-stat">
-          <span class="result-stat__label">সঠিক</span>
-          <span class="result-stat__value result-stat__value--correct"
-                id="result-correct">০</span>
-        </div>
-        <div class="result-stat">
-          <span class="result-stat__label">ভুল</span>
-          <span class="result-stat__value result-stat__value--wrong"
-                id="result-wrong">০</span>
-        </div>
-        <div class="result-stat">
-          <span class="result-stat__label">উত্তর দেওয়া হয়নি</span>
-          <span class="result-stat__value result-stat__value--unattempted"
-                id="result-unattempted">০</span>
-        </div>
-        <div class="result-stat">
-          <span class="result-stat__label">শতাংশ</span>
-          <span class="result-stat__value result-stat__value--percent"
-                id="result-percent">০%</span>
-        </div>
+        <div class="result-stat"><span class="result-stat__label">Correct</span><span class="result-stat__value result-stat__value--correct" id="result-correct">0</span></div>
+        <div class="result-stat"><span class="result-stat__label">Wrong</span><span class="result-stat__value result-stat__value--wrong" id="result-wrong">0</span></div>
+        <div class="result-stat"><span class="result-stat__label">Unattempted</span><span class="result-stat__value result-stat__value--unattempted" id="result-unattempted">0</span></div>
+        <div class="result-stat"><span class="result-stat__label">Percentage</span><span class="result-stat__value result-stat__value--percent" id="result-percent">0%</span></div>
       </div>
-
-      <!-- Result actions -->
       <div class="result-actions">
-        <button
-          class="result-btn result-btn--review"
-          onclick="PYQScorer.viewAnswers()"
-          type="button"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-            <circle cx="12" cy="12" r="3"></circle>
-          </svg>
-          উত্তর দেখুন
-        </button>
-
-        <button
-          class="result-btn result-btn--print"
-          onclick="PYQPrint.printResult()"
-          type="button"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <polyline points="6 9 6 2 18 2 18 9"></polyline>
-            <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0
-                     012 2v5a2 2 0 01-2 2h-2"></path>
-            <rect x="6" y="14" width="12" height="8"></rect>
-          </svg>
-          প্রিন্ট করুন
-        </button>
-
-        <a
-          href="index.html"
-          class="result-btn result-btn--back"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
-               stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <polyline points="15 18 9 12 15 6"></polyline>
-          </svg>
-          তালিকায় ফিরুন
-        </a>
+        <button class="result-btn result-btn--review" onclick="PYQScorer.viewAnswers()">View Answers</button>
+        <button class="result-btn result-btn--print" onclick="PYQPrint.printResult()">Print</button>
+        <a href="index.html" class="result-btn result-btn--back">Back to list</a>
       </div>
-
     </div>
-  </div><!-- /#result-modal -->
+  </div>
 
-  <!-- Screen reader only utility -->
-  <div id="sr-announcer" aria-live="assertive" aria-atomic="true"
-       class="sr-only"></div>
+  <div id="sr-announcer" class="sr-only" aria-live="assertive"></div>
 
-  <!-- Scripts -->
   <script src="js/pyq-loader.js"></script>
   <script src="js/pyq-scorer.js"></script>
   <script src="js/pyq-print.js"></script>
-
 </body>
 </html>

@@ -1,933 +1,639 @@
-/* ═══════════════════════════════════════════════════════════════
-   PYQ-LOADER.JS
-   Purpose : Load a question paper JSON and drive the viewer UI
-   Author  : WB ANM GNM 2026 Preparation Platform
-   Depends : pyq/data/{paperId}.json  |  pyq-scorer.js (for submit)
-═══════════════════════════════════════════════════════════════ */
-
 'use strict';
 
-/* ─────────────────────────────────────────
-   NAMESPACE
-───────────────────────────────────────── */
 const PYQLoader = (() => {
 
-  /* ══════════════════════════════════════
-     STATE
-  ══════════════════════════════════════ */
-  let _state = {
-    paperId        : null,    // e.g. "2021-1"
-    paperMeta      : null,    // { paperId, title, questions:[] }
-    questions      : [],      // full question array
-    currentIndex   : 0,       // 0-based index of current question
-    answers        : {},      // { [questionId]: [optionIndex, ...] | null }
-    markedForReview: new Set(), // Set of question IDs marked for review
-    isSubmitted    : false,   // true after exam submitted
-    timerInterval  : null,    // setInterval handle
-    secondsLeft    : 90 * 60, // 90 minutes default
+  const _state = {
+    paperId: null,
+    paperMeta: null,
+    allQuestions: [],
+    filteredIndices: [],
+    currentFilteredIndex: 0,
+    mode: 'exam',
+    answers: {},
+    markedForReview: new Set(),
+    isSubmitted: false,
+    timerInterval: null,
+    secondsLeft: 90 * 60,
     mobilePaletteOpen: false,
+    filterActive: false,
+    activeSubjects: new Set(),
+    activeCategories: new Set([1,2])
   };
 
-  /* ── DOM element cache ── */
-  let _els = {};
-
-  /* ── Bengali digit map ── */
-  const BN_DIGITS = ['০','১','২','৩','৪','৫','৬','৭','৮','৯'];
-
-  /* ══════════════════════════════════════
-     UTILITY FUNCTIONS
-  ══════════════════════════════════════ */
-
-  /** Convert number to Bengali digits */
+  const BN = ['০','১','২','৩','৪','৫','৬','৭','৮','৯'];
   function toBn(num) {
-    return String(num)
-      .split('')
-      .map(ch => (/\d/.test(ch) ? BN_DIGITS[+ch] : ch))
-      .join('');
+    return String(num).split('').map(ch => (/\d/.test(ch) ? BN[+ch] : ch)).join('');
   }
-
-  /** Escape HTML to prevent XSS */
-  function esc(str) {
-    const d = document.createElement('div');
-    d.appendChild(document.createTextNode(String(str ?? '')));
-    return d.innerHTML;
-  }
-
-  /** Bengali option letters */
-  const OPTION_LETTERS = ['ক', 'খ', 'গ', 'ঘ'];
-
-  /** Subject ID → Bengali label */
-  const SUBJECT_MAP = {
-    'life-science'     : 'জীবন বিজ্ঞান',
-    'physical-science' : 'ভৌত বিজ্ঞান',
-    'mathematics'      : 'গণিত',
-    'english'          : 'ইংরেজি',
-    'general-knowledge': 'সাধারণ জ্ঞান',
-    'logical-reasoning': 'যুক্তিবিদ্যা',
-  };
-
-  /** Announce to screen readers */
   function announce(msg) {
     const el = document.getElementById('sr-announcer');
-    if (el) {
-      el.textContent = '';
-      requestAnimationFrame(() => { el.textContent = msg; });
+    if (el) { el.textContent = ''; requestAnimationFrame(() => el.textContent = msg); }
+  }
+
+  const OPTION_LETTERS = ['A','B','C','D'];
+  const SUBJECT_MAP = {
+    'life-science': 'Life Science',
+    'physical-science': 'Physical Science',
+    'mathematics': 'Mathematics',
+    'english': 'English',
+    'general-knowledge': 'General Knowledge',
+    'logical-reasoning': 'Logical Reasoning',
+    'reasoning': 'Reasoning'
+  };
+
+  // ── filter helpers ──
+  function isQuestionPassingFilter(q) {
+    if (!_state.activeCategories.has(q.category)) return false;
+    if (_state.activeSubjects.size > 0 && !_state.activeSubjects.has(q.subject)) return false;
+    return true;
+  }
+
+  function rebuildFilteredIndices() {
+    const indices = [];
+    _state.allQuestions.forEach((q, i) => {
+      if (isQuestionPassingFilter(q)) indices.push(i);
+    });
+    _state.filteredIndices = indices;
+    if (_state.currentFilteredIndex >= indices.length) {
+      _state.currentFilteredIndex = Math.max(0, indices.length - 1);
     }
   }
 
-  /* ══════════════════════════════════════
-     STEP 1 — GET PAPER ID FROM URL
-  ══════════════════════════════════════ */
-  function getPaperIdFromURL() {
-    const params = new URLSearchParams(window.location.search);
-    const id     = params.get('paper');
-    if (!id) {
-      throw new Error('URL-এ কোনো প্রশ্নপত্র ID নেই। ?paper=XXXX দিন।');
-    }
-    /* Basic validation — only alphanumeric + dash */
-    if (!/^[\w-]{1,20}$/.test(id)) {
-      throw new Error('অবৈধ প্রশ্নপত্র ID।');
-    }
-    return id;
+  function getCurrentQuestion() {
+    const idx = _state.filteredIndices[_state.currentFilteredIndex];
+    return _state.allQuestions[idx];
   }
 
-  /* ══════════════════════════════════════
-     STEP 2 — LOAD PAPER JSON
-  ══════════════════════════════════════ */
+  // ── load paper ──
   async function loadPaper(paperId) {
     showLoadingState();
-
     try {
-      const url      = `data/${paperId}.json`;
-      const response = await fetch(url, {
-        method:  'GET',
-        headers: { 'Accept': 'application/json' },
-      });
+      const resp = await fetch(`data/${paperId}.json`, { headers: {'Accept':'application/json'} });
+      if (!resp.ok) throw new Error('Paper not found');
+      const data = await resp.json();
+      if (!data.questions || !Array.isArray(data.questions)) throw new Error('Invalid format');
 
-      if (!response.ok) {
-        throw new Error(
-          `প্রশ্নপত্র পাওয়া যায়নি (${response.status}).`
-        );
-      }
-
-      const data = await response.json();
-
-      /* Validate */
-      if (!data.questions || !Array.isArray(data.questions)) {
-        throw new Error('প্রশ্নপত্রের ফরম্যাট সঠিক নয়।');
-      }
-      if (data.questions.length === 0) {
-        throw new Error('প্রশ্নপত্রে কোনো প্রশ্ন নেই।');
-      }
-
-      /* Store state */
-      _state.paperId   = paperId;
+      _state.paperId = paperId;
       _state.paperMeta = data;
-      _state.questions = data.questions;
-
-      /* Initialize answers object — all null */
+      _state.allQuestions = data.questions;
+      _state.filteredIndices = _state.allQuestions.map((_, i) => i);
+      _state.currentFilteredIndex = 0;
       _state.answers = {};
-      data.questions.forEach(q => {
-        _state.answers[q.id] = null;
-      });
+      data.questions.forEach(q => _state.answers[q.id] = null);
+      _state.markedForReview.clear();
+      _state.activeSubjects.clear();
+      _state.activeCategories = new Set([1,2]);
+      _state.filterActive = false;
 
-      /* Update page title */
+      document.getElementById('paper-title').textContent = data.title || paperId;
+      document.getElementById('paper-subtitle').textContent =
+        `${toBn(data.questions.length)} questions · 115 marks · 90 min`;
       document.title = `${data.title} | WB ANM GNM 2026`;
 
-      /* Update header */
-      const titleEl    = document.getElementById('paper-title');
-      const subtitleEl = document.getElementById('paper-subtitle');
-      if (titleEl)    titleEl.textContent    = data.title || paperId;
-      if (subtitleEl) subtitleEl.textContent =
-        `${toBn(data.questions.length)}টি প্রশ্ন · ১১৫ নম্বর · ৯০ মিনিট`;
-
-      /* Setup UI */
       setupPalette();
-      setupTimer();
+      buildFilterPanel();
+      updateModeUI();
+
+      if (_state.mode !== 'review') {
+        setupTimer();
+      } else {
+        stopTimer();
+        _state.isSubmitted = true;
+      }
+
       renderQuestion(0);
+      hideLoadingShowCard();
+      setupSwipeNavigation();
 
     } catch (err) {
-      console.error('[PYQLoader] Load error:', err);
+      console.error(err);
       showErrorState(err.message);
     }
   }
 
-  /* ══════════════════════════════════════
-     STEP 3 — SETUP QUESTION PALETTE
-  ══════════════════════════════════════ */
-  function setupPalette() {
-    const cat1Container = document.getElementById('palette-cat1');
-    const cat2Container = document.getElementById('palette-cat2');
+  // ── mode ──
+  function changeMode(newMode) {
+    if (_state.isSubmitted && newMode !== 'review') return;
+    _state.mode = newMode;
+    if (newMode === 'exam') { setupTimer(); _state.isSubmitted = false; }
+    else if (newMode === 'practice') { stopTimer(); _state.isSubmitted = false; }
+    else { stopTimer(); _state.isSubmitted = true; }
+    renderQuestion(_state.currentFilteredIndex);
+    updateModeUI();
+  }
 
-    if (!cat1Container || !cat2Container) return;
+  function updateModeUI() {
+    const submitBtn = document.getElementById('palette-submit-btn');
+    const submitBtnMain = document.getElementById('submit-btn-main');
+    const reviewBtn = document.getElementById('mark-review-btn');
+    const timerEl = document.getElementById('timer-display');
+    if (submitBtn) submitBtn.style.display = (_state.mode === 'exam') ? 'flex' : 'none';
+    if (submitBtnMain) submitBtnMain.style.display = (_state.mode === 'exam') ? 'block' : 'none';
+    if (reviewBtn) reviewBtn.style.display = (_state.mode === 'practice' || _state.mode === 'exam') ? 'flex' : 'none';
+    if (timerEl) timerEl.style.display = (_state.mode === 'exam') ? 'flex' : 'none';
+    document.getElementById('mode-selector').value = _state.mode;
+  }
 
-    cat1Container.innerHTML = '';
-    cat2Container.innerHTML = '';
+  // ── filter UI ──
+  function toggleFilter() {
+    const panel = document.getElementById('filter-panel');
+    panel.classList.toggle('hidden');
+    document.getElementById('filter-toggle-btn').classList.toggle('active');
+  }
 
-    _state.questions.forEach((q, idx) => {
-      const btn = document.createElement('button');
-      btn.type            = 'button';
-      btn.className       = 'palette-btn';
-      btn.dataset.qid     = q.id;
-      btn.dataset.idx     = idx;
-      btn.dataset.state   = 'not-attempted';
-      btn.setAttribute('aria-label', `প্রশ্ন ${idx + 1}`);
-      btn.textContent     = toBn(idx + 1);
-
-      btn.addEventListener('click', () => {
-        /* Close mobile palette if open */
-        if (_state.mobilePaletteOpen) toggleMobilePalette();
-        goToQuestion(idx);
+  function buildFilterPanel() {
+    const subContainer = document.getElementById('filter-subjects');
+    if (!subContainer) return;
+    const subjectsSet = new Set(_state.allQuestions.map(q => q.subject));
+    subContainer.innerHTML = '';
+    subjectsSet.forEach(sub => {
+      const lbl = document.createElement('label');
+      lbl.className = 'filter-checkbox';
+      const cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.value = sub;
+      cb.checked = _state.activeSubjects.has(sub);
+      cb.addEventListener('change', () => {
+        if (cb.checked) _state.activeSubjects.add(sub);
+        else _state.activeSubjects.delete(sub);
       });
+      lbl.appendChild(cb);
+      lbl.appendChild(document.createTextNode(SUBJECT_MAP[sub] || sub));
+      subContainer.appendChild(lbl);
+    });
+  }
 
-      /* Cat-1 → first container, Cat-2 → second */
-      if (q.category === 1) {
-        cat1Container.appendChild(btn);
-      } else {
-        cat2Container.appendChild(btn);
-      }
+  function applyFilter() {
+    const cat1cb = document.querySelector('#filter-panel input[data-cat="1"]');
+    const cat2cb = document.querySelector('#filter-panel input[data-cat="2"]');
+    _state.activeCategories.clear();
+    if (cat1cb && cat1cb.checked) _state.activeCategories.add(1);
+    if (cat2cb && cat2cb.checked) _state.activeCategories.add(2);
+    _state.activeSubjects.clear();
+    document.querySelectorAll('#filter-subjects input[type="checkbox"]').forEach(cb => {
+      if (cb.checked) _state.activeSubjects.add(cb.value);
+    });
+    _state.filterActive = true;
+    rebuildFilteredIndices();
+    setupPalette();
+    _state.currentFilteredIndex = 0;
+    renderQuestion(0);
+    toggleFilter();
+  }
+
+  function resetFilter() {
+    _state.activeCategories = new Set([1,2]);
+    _state.activeSubjects.clear();
+    _state.filterActive = false;
+    _state.filteredIndices = _state.allQuestions.map((_, i) => i);
+    setupPalette();
+    buildFilterPanel();
+    _state.currentFilteredIndex = 0;
+    renderQuestion(0);
+    toggleFilter();
+  }
+
+  // ── palette ──
+  function setupPalette() {
+    const cat1Grid = document.getElementById('palette-cat1');
+    const cat2Grid = document.getElementById('palette-cat2');
+    if (!cat1Grid || !cat2Grid) return;
+    cat1Grid.innerHTML = '';
+    cat2Grid.innerHTML = '';
+
+    _state.filteredIndices.forEach((globalIdx, fidx) => {
+      const q = _state.allQuestions[globalIdx];
+      const btn = document.createElement('button');
+      btn.type = 'button'; btn.className = 'palette-btn';
+      btn.dataset.qid = q.id;
+      btn.dataset.idx = fidx;
+      btn.textContent = toBn(fidx + 1);
+      btn.addEventListener('click', () => {
+        if (_state.mobilePaletteOpen) toggleMobilePalette();
+        goToFilteredIndex(fidx);
+      });
+      (q.category === 1 ? cat1Grid : cat2Grid).appendChild(btn);
     });
 
-    /* Also build mobile palette body */
+    const cat1Count = _state.filteredIndices.filter(i => _state.allQuestions[i].category === 1).length;
+    const total = _state.filteredIndices.length;
+    document.querySelector('#palette-cat1-block .palette-category__info').textContent = `Q 1 – ${cat1Count}`;
+    document.querySelector('#palette-cat2-block .palette-category__info').textContent = `Q ${cat1Count+1} – ${total}`;
+
+    refreshAllPaletteButtons();
+    updateStatsCounter();
     syncMobilePalette();
   }
 
-  /** Update a single palette button's visual state */
-  function updatePaletteButton(questionId, idx) {
-    /* Update both desktop and mobile palette */
-    const btns = document.querySelectorAll(
-      `[data-qid="${questionId}"]`
-    );
-
-    const hasAnswer  = _state.answers[questionId] !== null &&
-                       (_state.answers[questionId] ?? []).length > 0;
-    const isReview   = _state.markedForReview.has(questionId);
-    const isCurrent  = idx === _state.currentIndex;
-
-    let stateStr = 'not-attempted';
-
-    if (isCurrent) {
-      stateStr = 'current';
-    } else if (hasAnswer && isReview) {
-      stateStr = 'attempted-review';
-    } else if (isReview) {
-      stateStr = 'review';
-    } else if (hasAnswer) {
-      stateStr = 'attempted';
+  function getPaletteStateForQuestion(qid, fidx) {
+    const isCurrent = fidx === _state.currentFilteredIndex;
+    if (_state.isSubmitted) {
+      // After submission, show correct/wrong based on answer
+      const userAns = _state.answers[qid] || [];
+      const q = _state.allQuestions.find(q => q.id === qid);
+      if (!q) return 'not-attempted';
+      if (userAns.length === 0) return 'not-attempted';
+      if (q.category === 1) {
+        return (userAns[0] === q.answer[0]) ? 'correct' : 'wrong';
+      } else {
+        const correctSet = new Set(q.answer);
+        const hasWrong = userAns.some(a => !correctSet.has(a));
+        if (hasWrong) return 'wrong';
+        return (userAns.length === q.answer.length) ? 'correct' : 'correct'; // partial still green (or you can add 'partial')
+      }
     }
-
-    btns.forEach(btn => {
-      btn.dataset.state = stateStr;
-    });
+    // Pre-submit states
+    const hasAnswer = _state.answers[qid] !== null && (_state.answers[qid] ?? []).length > 0;
+    const isReview = _state.markedForReview.has(qid);
+    if (isCurrent) return 'current';
+    if (hasAnswer && isReview) return 'attempted-review';
+    if (isReview) return 'review';
+    if (hasAnswer) return 'attempted';
+    return 'not-attempted';
   }
 
-  /** Refresh ALL palette buttons */
+  function updatePaletteButton(qid, fidx) {
+    const btns = document.querySelectorAll(`[data-qid="${qid}"]`);
+    const stateStr = getPaletteStateForQuestion(qid, fidx);
+    btns.forEach(btn => { btn.dataset.state = stateStr; });
+  }
+
   function refreshAllPaletteButtons() {
-    _state.questions.forEach((q, idx) => {
-      updatePaletteButton(q.id, idx);
+    _state.filteredIndices.forEach((gidx, fidx) => {
+      updatePaletteButton(_state.allQuestions[gidx].id, fidx);
     });
-    updateStatsCounter();
   }
 
-  /** Update answered/review counters */
   function updateStatsCounter() {
-    let attempted = 0;
-    let review    = 0;
-
-    _state.questions.forEach(q => {
-      const hasAns = _state.answers[q.id] !== null &&
-                     (_state.answers[q.id] ?? []).length > 0;
-      if (hasAns)                        attempted++;
+    let attempted = 0, review = 0;
+    _state.allQuestions.forEach(q => {
+      if (_state.answers[q.id] !== null && (_state.answers[q.id] ?? []).length > 0) attempted++;
       if (_state.markedForReview.has(q.id)) review++;
     });
-
-    const aEl = document.getElementById('stat-attempted-count');
-    const rEl = document.getElementById('stat-review-count');
-    if (aEl) aEl.textContent = toBn(attempted);
-    if (rEl) rEl.textContent = toBn(review);
+    document.getElementById('stat-attempted-count').textContent = toBn(attempted);
+    document.getElementById('stat-review-count').textContent = toBn(review);
   }
 
-  /* ══════════════════════════════════════
-     STEP 4 — RENDER QUESTION
-  ══════════════════════════════════════ */
-  function renderQuestion(index) {
-    if (index < 0 || index >= _state.questions.length) return;
-
-    /* Update previous button's palette state before moving */
-    if (_state.currentIndex !== index) {
-      const prevQ = _state.questions[_state.currentIndex];
-      if (prevQ) updatePaletteButton(prevQ.id, _state.currentIndex);
+  // ── navigation ──
+  function goToFilteredIndex(fidx) {
+    if (fidx >= 0 && fidx < _state.filteredIndices.length) {
+      _state.currentFilteredIndex = fidx;
+      renderQuestion(fidx);
     }
+  }
 
-    _state.currentIndex = index;
-    const q             = _state.questions[index];
-    const isReview      = _state.isSubmitted;
+  function navigateQuestion(dir) {
+    const len = _state.filteredIndices.length;
+    let newIdx = _state.currentFilteredIndex;
+    if (dir === 'next' && newIdx < len-1) newIdx++;
+    else if (dir === 'prev' && newIdx > 0) newIdx--;
+    if (newIdx !== _state.currentFilteredIndex) goToFilteredIndex(newIdx);
+  }
 
-    /* Show correct card */
-    const questionCard = document.getElementById('question-card');
-    const reviewCard   = document.getElementById('review-card');
+  // ── render ──
+  function renderQuestion(fidx) {
+    if (fidx < 0 || fidx >= _state.filteredIndices.length) return;
+    _state.currentFilteredIndex = fidx;
+    const globalIdx = _state.filteredIndices[fidx];
+    const q = _state.allQuestions[globalIdx];
+    const isReviewMode = _state.mode === 'review' || _state.isSubmitted;
 
-    if (!isReview) {
-      /* ── EXAM MODE ── */
-      questionCard?.classList.remove('hidden');
-      reviewCard?.classList.add('hidden');
-      renderExamQuestion(q, index);
+    const qCard = document.getElementById('question-card');
+    const rCard = document.getElementById('review-card');
+    if (!isReviewMode) {
+      qCard.classList.remove('hidden');
+      rCard.classList.add('hidden');
+      renderExamQuestion(q, fidx);
     } else {
-      /* ── REVIEW MODE ── */
-      questionCard?.classList.add('hidden');
-      reviewCard?.classList.remove('hidden');
-      renderReviewQuestion(q, index);
+      qCard.classList.add('hidden');
+      rCard.classList.remove('hidden');
+      renderReviewQuestion(q, fidx);
     }
 
-    /* Update current button in palette */
-    updatePaletteButton(q.id, index);
-
-    /* Update progress bar */
-    updateProgressBar(index);
-
-    /* Update nav buttons */
-    updateNavButtons(index);
-
-    /* Scroll to top of question container */
-    document.getElementById('question-container')?.scrollIntoView({
-      behavior: 'smooth', block: 'nearest'
-    });
-
-    /* Announce for screen readers */
-    announce(`প্রশ্ন ${toBn(index + 1)} — ${q.question?.substring(0, 60)}`);
+    updatePaletteButton(q.id, fidx);
+    updateProgressBar(fidx);
+    updateNavButtons(fidx);
+    document.getElementById('question-container').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    announce(`Question ${toBn(fidx+1)}`);
   }
 
-  /* ─────────────────────────────────────
-     RENDER EXAM QUESTION (answering mode)
-  ───────────────────────────────────── */
-  function renderExamQuestion(q, index) {
-    /* Question number + category badge */
-    const numEl = document.getElementById('question-number');
-    if (numEl) numEl.textContent = `প্রশ্ন ${toBn(index + 1)}`;
-
+  function renderExamQuestion(q, fidx) {
+    document.getElementById('question-number').textContent = `Q ${toBn(fidx+1)}`;
     const catBadge = document.getElementById('question-cat-badge');
-    if (catBadge) {
-      catBadge.textContent    = `ক্যাট-${q.category === 1 ? '১' : '২'}`;
-      catBadge.dataset.cat    = String(q.category);
-      catBadge.className      = `cat-badge cat-badge--${q.category}`;
-    }
-
-    /* Subject badge */
-    const subBadge = document.getElementById('question-subject');
-    if (subBadge) {
-      subBadge.textContent =
-        SUBJECT_MAP[q.subject] || q.subject || '';
-    }
-
-    /* Progress text */
-    const progText = document.getElementById('question-progress-text');
-    if (progText) {
-      progText.textContent =
-        `${toBn(index + 1)} / ${toBn(_state.questions.length)}`;
-    }
-
-    /* Question text */
-    const qTextEl = document.getElementById('question-text');
-    if (qTextEl) qTextEl.textContent = q.question || '';
-
-    /* Cat-2 hint */
-    const hint = document.getElementById('cat2-hint');
-    if (hint) {
-      if (q.category === 2) hint.classList.remove('hidden');
-      else                  hint.classList.add('hidden');
-    }
-
-    /* Options */
+    catBadge.textContent = `Cat-${q.category}`;
+    catBadge.className = `cat-badge cat-badge--${q.category}`;
+    document.getElementById('question-subject').textContent = SUBJECT_MAP[q.subject] || q.subject;
+    document.getElementById('question-progress-text').textContent = `${toBn(fidx+1)} / ${toBn(_state.filteredIndices.length)}`;
+    document.getElementById('question-text').textContent = q.question;
+    document.getElementById('cat2-hint').classList.toggle('hidden', q.category !== 2);
     renderOptions(q);
-
-    /* Mark-for-review button state */
-    const reviewBtn = document.getElementById('mark-review-btn');
-    if (reviewBtn) {
-      const marked = _state.markedForReview.has(q.id);
-      reviewBtn.setAttribute('aria-pressed', String(marked));
-      reviewBtn.classList.toggle('is-marked', marked);
-    }
+    document.getElementById('mark-review-btn').setAttribute('aria-pressed', String(_state.markedForReview.has(q.id)));
+    document.getElementById('practice-feedback')?.classList.add('hidden');
   }
 
-  /* ─────────────────────────────────────
-     RENDER OPTIONS
-  ───────────────────────────────────── */
   function renderOptions(q) {
     const container = document.getElementById('options-list');
-    if (!container) return;
-
     container.innerHTML = '';
-
-    const inputType     = q.category === 1 ? 'radio' : 'checkbox';
-    const inputName     = `q_${q.id}`;
-    const savedAnswers  = _state.answers[q.id] || [];
-
-    q.options.forEach((optText, optIdx) => {
-      /* ── Wrapper ── */
+    const type = q.category === 1 ? 'radio' : 'checkbox';
+    const name = `q_${q.id}`;
+    const saved = _state.answers[q.id] || [];
+    q.options.forEach((opt, i) => {
       const item = document.createElement('div');
-      item.className =
-        `option-item ${inputType === 'checkbox' ? 'option-item--checkbox' : ''}`;
-
-      /* ── Input (hidden native) ── */
-      const input       = document.createElement('input');
-      input.type        = inputType;
-      input.name        = inputName;
-      input.id          = `opt_${q.id}_${optIdx}`;
-      input.value       = String(optIdx);
-      input.checked     = savedAnswers.includes(optIdx);
-
-      /* ── Label ── */
+      item.className = `option-item ${type === 'checkbox' ? 'option-item--checkbox' : ''}`;
+      const inp = document.createElement('input');
+      inp.type = type; inp.name = name; inp.id = `opt_${q.id}_${i}`;
+      inp.value = String(i); inp.checked = saved.includes(i);
       const label = document.createElement('label');
-      label.htmlFor   = input.id;
-      label.className = 'option-label';
-
-      /* Letter indicator (ক / খ / গ / ঘ) */
-      const letter = document.createElement('span');
-      letter.className   = 'option-letter';
-      letter.textContent = OPTION_LETTERS[optIdx] || String(optIdx + 1);
-      letter.setAttribute('aria-hidden', 'true');
-
-      /* Indicator dot/check */
-      const indicator = document.createElement('span');
-      indicator.className = 'option-indicator';
-      indicator.setAttribute('aria-hidden', 'true');
-
-      /* Option text */
-      const text       = document.createElement('span');
-      text.className   = 'option-text';
-      text.textContent = optText;
-
-      label.appendChild(letter);
-      label.appendChild(indicator);
-      label.appendChild(text);
-
-      item.appendChild(input);
-      item.appendChild(label);
-
-      /* ── Change handler ── */
-      input.addEventListener('change', () => saveAnswer(q, optIdx));
-
+      label.htmlFor = inp.id; label.className = 'option-label';
+      const letter = document.createElement('span'); letter.className = 'option-letter'; letter.textContent = OPTION_LETTERS[i];
+      const indicator = document.createElement('span'); indicator.className = 'option-indicator';
+      const text = document.createElement('span'); text.className = 'option-text'; text.textContent = opt;
+      label.appendChild(letter); label.appendChild(indicator); label.appendChild(text);
+      item.appendChild(inp); item.appendChild(label);
+      inp.addEventListener('change', () => saveAnswer(q, i));
       container.appendChild(item);
     });
   }
 
-  /* ─────────────────────────────────────
-     RENDER REVIEW QUESTION (post-submit)
-  ───────────────────────────────────── */
-  function renderReviewQuestion(q, index) {
-    /* Header */
-    const numEl = document.getElementById('review-question-number');
-    if (numEl) numEl.textContent = `প্রশ্ন ${toBn(index + 1)}`;
-
-    const catBadge = document.getElementById('review-cat-badge');
-    if (catBadge) {
-      catBadge.textContent = `ক্যাট-${q.category === 1 ? '১' : '২'}`;
-      catBadge.className   = `cat-badge cat-badge--${q.category}`;
-    }
-
-    /* Question text */
-    const qTextEl = document.getElementById('review-question-text');
-    if (qTextEl) qTextEl.textContent = q.question || '';
-
-    /* Determine result */
-    const userAnswers  = _state.answers[q.id] || [];
-    const correctSet   = new Set(q.answer || []);
-    const userSet      = new Set(userAnswers);
-
-    let resultLabel = 'উত্তর দেওয়া হয়নি';
-    let resultClass = 'unattempted';
-
-    if (userAnswers.length > 0) {
+  function renderReviewQuestion(q, fidx) {
+    document.getElementById('review-question-number').textContent = `Q ${toBn(fidx+1)}`;
+    document.getElementById('review-cat-badge').textContent = `Cat-${q.category}`;
+    document.getElementById('review-cat-badge').className = `cat-badge cat-badge--${q.category}`;
+    document.getElementById('review-question-text').textContent = q.question;
+    const userAns = _state.answers[q.id] || [];
+    const correctSet = new Set(q.answer);
+    const userSet = new Set(userAns);
+    let label = 'Unattempted', cls = 'unattempted';
+    if (userAns.length > 0) {
       if (q.category === 1) {
-        if (userAnswers[0] === q.answer[0]) {
-          resultLabel = 'সঠিক ✓';
-          resultClass = 'correct';
-        } else {
-          resultLabel = 'ভুল ✗';
-          resultClass = 'wrong';
-        }
+        if (userAns[0] === q.answer[0]) { label = 'Correct'; cls = 'correct'; }
+        else { label = 'Wrong'; cls = 'wrong'; }
       } else {
-        /* Category 2 */
-        const hasWrong = [...userSet].some(s => !correctSet.has(s));
-        if (hasWrong) {
-          resultLabel = 'ভুল ✗';
-          resultClass = 'wrong';
-        } else if (userAnswers.length === q.answer.length) {
-          resultLabel = 'সম্পূর্ণ সঠিক ✓';
-          resultClass = 'correct';
-        } else {
-          resultLabel = 'আংশিক সঠিক';
-          resultClass = 'partial';
-        }
+        const hasWrong = [...userSet].some(a => !correctSet.has(a));
+        if (hasWrong) { label = 'Wrong'; cls = 'wrong'; }
+        else if (userAns.length === q.answer.length) { label = 'Fully Correct'; cls = 'correct'; }
+        else { label = 'Partially Correct'; cls = 'partial'; }
       }
     }
-
-    /* Result badge */
-    const resultBadge = document.getElementById('review-result-badge');
-    if (resultBadge) {
-      resultBadge.textContent = resultLabel;
-      resultBadge.className   = `review-result-badge ${resultClass}`;
-    }
-
-    /* Options with highlights */
+    document.getElementById('review-result-badge').textContent = label;
+    document.getElementById('review-result-badge').className = `review-result-badge ${cls}`;
     const optContainer = document.getElementById('review-options-list');
-    if (optContainer) {
-      optContainer.innerHTML = '';
-
-      (q.options || []).forEach((optText, optIdx) => {
-        const isCorrect  = correctSet.has(optIdx);
-        const isSelected = userSet.has(optIdx);
-
-        const div = document.createElement('div');
-        div.className = 'review-option';
-
-        /* Apply classes based on correctness */
-        if (isCorrect)  div.classList.add('is-correct');
-        if (isSelected && !isCorrect) div.classList.add('is-wrong');
-        if (isSelected && isCorrect)  div.classList.add('is-user-correct');
-
-        /* Indicator icon */
-        const indicator = document.createElement('span');
-        indicator.className = 'review-option__indicator';
-        indicator.setAttribute('aria-hidden', 'true');
-
-        if (isCorrect) {
-          indicator.innerHTML = `
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="3"
-                 stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>`;
-        } else if (isSelected) {
-          indicator.innerHTML = `
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="3"
-                 stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>`;
-        }
-
-        /* Letter */
-        const letter       = document.createElement('span');
-        letter.className   = 'option-letter';
-        letter.textContent = OPTION_LETTERS[optIdx] || String(optIdx + 1);
-
-        /* Text */
-        const text       = document.createElement('span');
-        text.className   = 'option-text';
-        text.textContent = optText;
-
-        div.appendChild(indicator);
-        div.appendChild(letter);
-        div.appendChild(text);
-
-        optContainer.appendChild(div);
-      });
-    }
-
-    /* Explanation */
-    const expSection = document.getElementById('review-explanation');
-    const expText    = document.getElementById('review-explanation-text');
-    if (expSection && expText) {
-      if (q.explanation) {
-        expText.textContent = q.explanation;
-        expSection.classList.remove('hidden');
-      } else {
-        expSection.classList.add('hidden');
-      }
-    }
+    optContainer.innerHTML = '';
+    q.options.forEach((opt, i) => {
+      const isCorrect = correctSet.has(i);
+      const isSelected = userSet.has(i);
+      const div = document.createElement('div');
+      div.className = 'review-option';
+      if (isCorrect) div.classList.add('is-correct');
+      if (isSelected && !isCorrect) div.classList.add('is-wrong');
+      const indicator = document.createElement('span'); indicator.className = 'review-option__indicator';
+      indicator.textContent = isCorrect ? '✓' : (isSelected ? '✗' : '');
+      const letter = document.createElement('span'); letter.className = 'option-letter'; letter.textContent = OPTION_LETTERS[i];
+      const text = document.createElement('span'); text.className = 'option-text'; text.textContent = opt;
+      div.appendChild(indicator); div.appendChild(letter); div.appendChild(text);
+      optContainer.appendChild(div);
+    });
+    const expSec = document.getElementById('review-explanation');
+    const expTxt = document.getElementById('review-explanation-text');
+    if (q.explanation) { expTxt.textContent = q.explanation; expSec.classList.remove('hidden'); }
+    else { expSec.classList.add('hidden'); }
   }
 
-  /* ══════════════════════════════════════
-     SAVE ANSWER
-  ══════════════════════════════════════ */
-  function saveAnswer(q, selectedOptionIdx) {
-    if (_state.isSubmitted) return;
-
+  // ── answer & feedback ──
+  function saveAnswer(q, idx) {
+    if (_state.mode === 'review' || _state.isSubmitted) return;
     if (q.category === 1) {
-      /* Single correct — replace */
-      _state.answers[q.id] = [selectedOptionIdx];
-
+      _state.answers[q.id] = [idx];
     } else {
-      /* Multiple correct — toggle */
-      const current = new Set(_state.answers[q.id] || []);
-
-      if (current.has(selectedOptionIdx)) {
-        current.delete(selectedOptionIdx);
-      } else {
-        current.add(selectedOptionIdx);
-      }
-
-      _state.answers[q.id] =
-        current.size > 0 ? [...current].sort((a, b) => a - b) : null;
+      const cur = new Set(_state.answers[q.id] || []);
+      if (cur.has(idx)) cur.delete(idx); else cur.add(idx);
+      _state.answers[q.id] = cur.size > 0 ? [...cur].sort((a,b)=>a-b) : null;
     }
-
-    /* Refresh palette button for this question */
-    updatePaletteButton(q.id, _state.currentIndex);
+    updatePaletteButton(q.id, _state.currentFilteredIndex);
     updateStatsCounter();
+    if (_state.mode === 'practice') showPracticeFeedback(q);
   }
 
-  /* ══════════════════════════════════════
-     CLEAR ANSWER
-  ══════════════════════════════════════ */
+  function showPracticeFeedback(q) {
+    const fb = document.getElementById('practice-feedback');
+    if (!fb) return;
+    const userAns = _state.answers[q.id] || [];
+    const correctSet = new Set(q.answer);
+    let isCorrect = false, isPartial = false;
+    if (q.category === 1) {
+      isCorrect = (userAns[0] === q.answer[0]);
+    } else {
+      const hasWrong = userAns.some(a => !correctSet.has(a));
+      if (hasWrong) isCorrect = false;
+      else if (userAns.length === q.answer.length) isCorrect = true;
+      else isPartial = true;
+    }
+    fb.classList.remove('hidden');
+    fb.className = 'practice-feedback';
+    if (isCorrect) { fb.classList.add('correct'); document.getElementById('practice-feedback-indicator').textContent = '✓ Correct'; }
+    else if (isPartial) { fb.classList.add('partial'); document.getElementById('practice-feedback-indicator').textContent = 'ⓘ Partial'; }
+    else { fb.classList.add('incorrect'); document.getElementById('practice-feedback-indicator').textContent = '✗ Incorrect'; }
+    document.getElementById('practice-feedback-text').textContent = q.explanation || '';
+  }
+
   function clearAnswer() {
-    if (_state.isSubmitted) return;
-
-    const q = _state.questions[_state.currentIndex];
-    if (!q) return;
-
+    if (_state.mode === 'review' || _state.isSubmitted) return;
+    const q = getCurrentQuestion();
     _state.answers[q.id] = null;
-
-    /* Uncheck all inputs for this question */
-    document.querySelectorAll(`input[name="q_${q.id}"]`)
-      .forEach(inp => { inp.checked = false; });
-
-    updatePaletteButton(q.id, _state.currentIndex);
+    document.querySelectorAll(`input[name="q_${q.id}"]`).forEach(inp => inp.checked = false);
+    updatePaletteButton(q.id, _state.currentFilteredIndex);
     updateStatsCounter();
-    announce('উত্তর মুছে দেওয়া হয়েছে।');
+    if (_state.mode === 'practice') document.getElementById('practice-feedback').classList.add('hidden');
   }
 
-  /* ══════════════════════════════════════
-     MARK FOR REVIEW
-  ══════════════════════════════════════ */
   function toggleMarkForReview() {
-    if (_state.isSubmitted) return;
-
-    const q = _state.questions[_state.currentIndex];
+    if (_state.mode === 'review' || _state.isSubmitted) return;
+    const q = getCurrentQuestion();
     if (!q) return;
-
     if (_state.markedForReview.has(q.id)) {
       _state.markedForReview.delete(q.id);
-      announce('পরে দেখুন চিহ্ন সরানো হয়েছে।');
     } else {
       _state.markedForReview.add(q.id);
-      announce('প্রশ্নটি পরে দেখুন হিসেবে চিহ্নিত করা হয়েছে।');
     }
-
-    /* Update button appearance */
     const btn = document.getElementById('mark-review-btn');
-    if (btn) {
-      const marked = _state.markedForReview.has(q.id);
-      btn.setAttribute('aria-pressed', String(marked));
-    }
-
-    updatePaletteButton(q.id, _state.currentIndex);
+    if (btn) btn.setAttribute('aria-pressed', String(_state.markedForReview.has(q.id)));
+    updatePaletteButton(q.id, _state.currentFilteredIndex);
     updateStatsCounter();
   }
 
-  /* ══════════════════════════════════════
-     NAVIGATE QUESTION
-  ══════════════════════════════════════ */
-  function navigateQuestion(direction) {
-    const total = _state.questions.length;
-
-    if (direction === 'next') {
-      if (_state.currentIndex < total - 1) {
-        renderQuestion(_state.currentIndex + 1);
-      }
-    } else if (direction === 'prev') {
-      if (_state.currentIndex > 0) {
-        renderQuestion(_state.currentIndex - 1);
-      }
-    }
+  // ── progress & nav ──
+  function updateProgressBar(fidx) {
+    const fill = document.getElementById('progress-bar-fill');
+    const pct = ((fidx + 1) / _state.filteredIndices.length) * 100;
+    if (fill) fill.style.width = `${pct.toFixed(1)}%`;
   }
 
-  /** Jump directly to a specific index */
-  function goToQuestion(index) {
-    if (index >= 0 && index < _state.questions.length) {
-      renderQuestion(index);
-    }
-  }
-
-  /* ══════════════════════════════════════
-     UPDATE NAV BUTTONS
-  ══════════════════════════════════════ */
-  function updateNavButtons(index) {
+  function updateNavButtons(fidx) {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
-    const total   = _state.questions.length;
-
-    if (prevBtn) prevBtn.disabled = index === 0;
-    if (nextBtn) nextBtn.disabled = index === total - 1;
+    if (prevBtn) prevBtn.disabled = fidx === 0;
+    if (nextBtn) nextBtn.disabled = fidx === _state.filteredIndices.length - 1;
   }
 
-  /* ══════════════════════════════════════
-     UPDATE PROGRESS BAR
-  ══════════════════════════════════════ */
-  function updateProgressBar(index) {
-    const fill = document.getElementById('progress-bar-fill');
-    const bar  = document.getElementById('progress-bar-wrap');
-    const pct  = ((index + 1) / _state.questions.length) * 100;
-
-    if (fill) fill.style.width = `${pct.toFixed(1)}%`;
-
-    if (bar) {
-      bar.setAttribute('aria-valuenow', String(Math.round(pct)));
-      bar.setAttribute('aria-valuetext',
-        `${toBn(index + 1)} এর মধ্যে ${toBn(_state.questions.length)}`
-      );
-    }
-  }
-
-  /* ══════════════════════════════════════
-     TIMER
-  ══════════════════════════════════════ */
+  // ── timer ──
   function setupTimer() {
-    updateTimerDisplay();
-
+    stopTimer();
+    if (_state.mode !== 'exam') { updateTimerDisplay(); return; }
+    _state.secondsLeft = 90 * 60;
     _state.timerInterval = setInterval(() => {
       _state.secondsLeft--;
-
       if (_state.secondsLeft <= 0) {
         _state.secondsLeft = 0;
         clearInterval(_state.timerInterval);
         updateTimerDisplay();
-        /* Auto-submit when time runs out */
-        announce('সময় শেষ হয়ে গেছে! স্বয়ংক্রিয়ভাবে জমা দেওয়া হচ্ছে।');
-        setTimeout(() => {
-          if (!_state.isSubmitted && window.PYQScorer) {
-            PYQScorer.submitExam();
-          }
-        }, 1500);
+        announce('Time up! Auto-submitting...');
+        setTimeout(() => { if (!_state.isSubmitted && window.PYQScorer) PYQScorer.submitExam(); }, 1500);
         return;
       }
-
       updateTimerDisplay();
-
-      /* Warning styles at 10 min */
-      if (_state.secondsLeft === 600) {
-        const timerEl = document.getElementById('timer-display');
-        if (timerEl) timerEl.classList.add('timer-warning');
-        announce('সতর্কতা: মাত্র ১০ মিনিট বাকি!');
-      }
+      if (_state.secondsLeft === 600) document.getElementById('timer-display').classList.add('timer-warning');
     }, 1000);
+    updateTimerDisplay();
   }
 
+  function stopTimer() { if (_state.timerInterval) { clearInterval(_state.timerInterval); _state.timerInterval = null; } }
   function updateTimerDisplay() {
-    const el  = document.getElementById('timer-text');
+    const el = document.getElementById('timer-text');
     if (!el) return;
-
-    const m   = Math.floor(_state.secondsLeft / 60);
-    const s   = _state.secondsLeft % 60;
-    const mBn = toBn(String(m).padStart(2, '0'));
-    const sBn = toBn(String(s).padStart(2, '0'));
-
-    el.textContent = `${mBn}:${sBn}`;
+    const m = Math.floor(_state.secondsLeft / 60);
+    const s = _state.secondsLeft % 60;
+    el.textContent = `${toBn(String(m).padStart(2,'0'))}:${toBn(String(s).padStart(2,'0'))}`;
   }
 
-  function stopTimer() {
-    if (_state.timerInterval) {
-      clearInterval(_state.timerInterval);
-      _state.timerInterval = null;
-    }
+  // ── swipe ──
+  function setupSwipeNavigation() {
+    const container = document.getElementById('question-container');
+    if (!container) return;
+    let startX = 0;
+    container.addEventListener('touchstart', e => startX = e.touches[0].clientX, { passive: true });
+    container.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) navigateQuestion('next');
+        else navigateQuestion('prev');
+      }
+    });
   }
 
-  /* ══════════════════════════════════════
-     MOBILE PALETTE TOGGLE
-  ══════════════════════════════════════ */
+  // ── mobile palette ──
   function toggleMobilePalette() {
     const overlay = document.getElementById('mobile-palette-overlay');
     if (!overlay) return;
-
     _state.mobilePaletteOpen = !_state.mobilePaletteOpen;
-
     if (_state.mobilePaletteOpen) {
       overlay.classList.remove('hidden');
       document.body.style.overflow = 'hidden';
-
-      /* Sync mobile palette content */
       syncMobilePalette();
-
-      /* Update toggle button aria */
-      const toggleBtn = document.getElementById('palette-toggle-btn');
-      if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
-
-      /* Focus the close button */
-      const closeBtn = overlay.querySelector('.mobile-palette-close');
-      if (closeBtn) closeBtn.focus();
-
+      document.getElementById('palette-toggle-btn').setAttribute('aria-expanded', 'true');
+      overlay.querySelector('.mobile-palette-close')?.focus();
     } else {
       overlay.classList.add('hidden');
       document.body.style.overflow = '';
-
-      const toggleBtn = document.getElementById('palette-toggle-btn');
-      if (toggleBtn) {
-        toggleBtn.setAttribute('aria-expanded', 'false');
-        toggleBtn.focus();
-      }
+      document.getElementById('palette-toggle-btn').setAttribute('aria-expanded', 'false');
+      document.getElementById('palette-toggle-btn').focus();
     }
   }
 
-  /** Copy palette state into mobile sheet */
   function syncMobilePalette() {
-    const mobileBody = document.getElementById('mobile-palette-body');
-    if (!mobileBody) return;
-
-    /* Clone the desktop palette's category blocks */
-    const cat1Block = document.getElementById('palette-cat1-block');
-    const cat2Block = document.getElementById('palette-cat2-block');
-    const legend    = document.querySelector('.palette-legend');
-
-    mobileBody.innerHTML = '';
-
-    if (cat1Block) {
-      mobileBody.appendChild(cat1Block.cloneNode(true));
-    }
-    if (cat2Block) {
-      mobileBody.appendChild(cat2Block.cloneNode(true));
-    }
-    if (legend) {
-      mobileBody.appendChild(legend.cloneNode(true));
-    }
-
-    /* Re-attach click handlers on cloned buttons */
-    mobileBody.querySelectorAll('.palette-btn').forEach(btn => {
-      const idx = parseInt(btn.dataset.idx, 10);
+    const body = document.getElementById('mobile-palette-body');
+    if (!body) return;
+    body.innerHTML = '';
+    const cat1 = document.getElementById('palette-cat1-block')?.cloneNode(true);
+    const cat2 = document.getElementById('palette-cat2-block')?.cloneNode(true);
+    const leg = document.querySelector('.palette-legend')?.cloneNode(true);
+    if (cat1) body.appendChild(cat1);
+    if (cat2) body.appendChild(cat2);
+    if (leg) body.appendChild(leg);
+    body.querySelectorAll('.palette-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         toggleMobilePalette();
-        goToQuestion(idx);
+        goToFilteredIndex(parseInt(btn.dataset.idx));
       });
     });
   }
 
-  /* ══════════════════════════════════════
-     SHOW / HIDE UI STATES
-  ══════════════════════════════════════ */
+  // ── loading / error ──
   function showLoadingState() {
-    document.getElementById('qc-loading')?.classList.remove('hidden');
-    document.getElementById('qc-error')?.classList.add('hidden');
-    document.getElementById('question-card')?.classList.add('hidden');
-    document.getElementById('review-card')?.classList.add('hidden');
+    document.getElementById('qc-loading').classList.remove('hidden');
+    document.getElementById('qc-error').classList.add('hidden');
+    document.getElementById('question-card').classList.add('hidden');
+    document.getElementById('review-card').classList.add('hidden');
   }
-
-  function showErrorState(msg) {
-    document.getElementById('qc-loading')?.classList.add('hidden');
-    document.getElementById('question-card')?.classList.add('hidden');
-    document.getElementById('review-card')?.classList.add('hidden');
-
-    const errEl  = document.getElementById('qc-error');
-    const msgEl  = document.getElementById('qc-error-msg');
-
-    if (errEl)  errEl.classList.remove('hidden');
-    if (msgEl)  msgEl.textContent = msg || 'প্রশ্নপত্র লোড হয়নি।';
-  }
-
   function hideLoadingShowCard() {
-    document.getElementById('qc-loading')?.classList.add('hidden');
-    document.getElementById('question-card')?.classList.remove('hidden');
+    document.getElementById('qc-loading').classList.add('hidden');
+    document.getElementById('question-card').classList.remove('hidden');
+  }
+  function showErrorState(msg) {
+    document.getElementById('qc-loading').classList.add('hidden');
+    document.getElementById('question-card').classList.add('hidden');
+    document.getElementById('review-card').classList.add('hidden');
+    document.getElementById('qc-error').classList.remove('hidden');
+    document.getElementById('qc-error-msg').textContent = msg || 'Failed to load.';
   }
 
-  /* ══════════════════════════════════════
-     PUBLIC: RETRY LOAD
-  ══════════════════════════════════════ */
-  function retryLoad() {
-    const paperId = getPaperIdFromURL();
-    loadPaper(paperId);
+  // ── init ──
+  function getPaperIdFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('paper');
+    if (!id) throw new Error('No paper ID');
+    return id;
   }
 
-  /* ══════════════════════════════════════
-     KEYBOARD NAVIGATION
-  ══════════════════════════════════════ */
+  function init() {
+    try {
+      const paperId = getPaperIdFromURL();
+      setupKeyboardNav();
+      setupOverlayClose();
+      loadPaper(paperId);
+    } catch (err) { showErrorState(err.message); }
+  }
+
   function setupKeyboardNav() {
-    document.addEventListener('keydown', (e) => {
-      /* Don't intercept when typing in inputs */
-      if (e.target.tagName === 'INPUT') return;
-      if (_state.isSubmitted) return;
-
-      switch (e.key) {
-        case 'ArrowRight':
-        case 'ArrowDown':
-          e.preventDefault();
-          navigateQuestion('next');
-          break;
-        case 'ArrowLeft':
-        case 'ArrowUp':
-          e.preventDefault();
-          navigateQuestion('prev');
-          break;
-        case 'r':
-        case 'R':
-          /* R key = mark for review */
-          toggleMarkForReview();
-          break;
-        case 'Escape':
-          if (_state.mobilePaletteOpen) toggleMobilePalette();
-          break;
-      }
+    document.addEventListener('keydown', e => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      if (_state.isSubmitted && _state.mode !== 'review') return;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); navigateQuestion('next'); }
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); navigateQuestion('prev'); }
+      else if (e.key === 'r' || e.key === 'R') toggleMarkForReview();
+      else if (e.key === 'Escape' && _state.mobilePaletteOpen) toggleMobilePalette();
     });
   }
 
-  /* ══════════════════════════════════════
-     CLOSE OVERLAY ON BACKDROP CLICK
-  ══════════════════════════════════════ */
   function setupOverlayClose() {
-    const overlay = document.getElementById('mobile-palette-overlay');
-    if (overlay) {
-      overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) toggleMobilePalette();
-      });
-    }
+    document.getElementById('mobile-palette-overlay')?.addEventListener('click', e => {
+      if (e.target === e.currentTarget) toggleMobilePalette();
+    });
   }
 
-  /* ══════════════════════════════════════
-     INIT
-  ══════════════════════════════════════ */
-  function init() {
-    let paperId;
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 
-    try {
-      paperId = getPaperIdFromURL();
-    } catch (err) {
-      showErrorState(err.message);
-      return;
-    }
-
-    setupKeyboardNav();
-    setupOverlayClose();
-    loadPaper(paperId);
-  }
-
-  /* ══════════════════════════════════════
-     BOOTSTRAP
-  ══════════════════════════════════════ */
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-
-  /* ══════════════════════════════════════
-     PUBLIC API
-  ══════════════════════════════════════ */
   return {
-    /* Called by HTML onclick attributes */
     navigateQuestion,
     toggleMarkForReview,
     clearAnswer,
     toggleMobilePalette,
-    retryLoad,
-
-    /* Called by pyq-scorer.js */
-    getState     : () => ({ ..._state }),
-    getQuestions : () => _state.questions,
-    getAnswers   : () => _state.answers,
-    getPaperId   : () => _state.paperId,
-    getPaperMeta : () => _state.paperMeta,
-
-    /* Called by scorer after submit */
+    retryLoad: () => loadPaper(getPaperIdFromURL()),
+    toggleFilter,
+    applyFilter,
+    resetFilter,
+    changeMode,
     setSubmitted() {
       _state.isSubmitted = true;
       stopTimer();
-      refreshAllPaletteButtons();
-
-      /* Switch to review mode for current question */
-      renderQuestion(_state.currentIndex);
+      refreshAllPaletteButtons(); // will show correct/wrong colors
+      renderQuestion(_state.currentFilteredIndex);
     },
-
-    /* Switch to review mode at given index */
-    goToQuestion,
+    goToQuestion: goToFilteredIndex,
     refreshAllPaletteButtons,
+    getState: () => ({ ..._state }),
+    getQuestions: () => _state.allQuestions,
+    getAnswers: () => _state.answers,
+    getPaperId: () => _state.paperId,
+    getPaperMeta: () => _state.paperMeta,
   };
 
 })();
