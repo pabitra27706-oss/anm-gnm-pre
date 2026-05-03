@@ -486,7 +486,7 @@
     if (backBtn) {
       backBtn.addEventListener('click', function () {
         console.log('MockApp: Back button clicked');
-        window.location.href = '/';
+        window.location.href = '../index.html ';
       });
     } else {
       console.warn('MockApp: #backBtn not found');
