@@ -478,18 +478,91 @@
   }
 
   /* ══════════════════════════════════════════════════════════
-     HEADER EVENT LISTENERS
+     HEADER EVENT LISTENERS - FIXED VERSION
+     Supports multiple back button selectors for compatibility
   ══════════════════════════════════════════════════════════ */
   function setupHeaderListeners() {
-    const backBtn = document.getElementById('backBtn');
+    console.log('MockApp: Setting up header listeners...');
+    
+    // Try multiple possible back button selectors
+    const backBtn = document.querySelector('#backBtn') || 
+                    document.querySelector('#back-btn') || 
+                    document.querySelector('.back-btn') || 
+                    document.querySelector('.back-button') ||
+                    document.querySelector('[data-action="back"]') ||
+                    document.querySelector('a[href="/"]') ||
+                    document.querySelector('a[href="./"]') ||
+                    document.querySelector('a[href="index.html"]');
 
     if (backBtn) {
-      backBtn.addEventListener('click', function () {
+      console.log('MockApp: Back button found:', backBtn.tagName, backBtn.id || backBtn.className);
+      
+      // Remove any existing click listeners by cloning
+      const newBackBtn = backBtn.cloneNode(true);
+      backBtn.parentNode.replaceChild(newBackBtn, backBtn);
+      
+      newBackBtn.addEventListener('click', function(e) {
+        // Only prevent default if it's a link or has href
+        if (this.tagName === 'A' || this.hasAttribute('href')) {
+          e.preventDefault();
+        }
+        
         console.log('MockApp: Back button clicked');
-        window.location.href = '/';
+        
+        // Check for custom back URL
+        const customUrl = this.getAttribute('data-back-url') || 
+                         (this.tagName === 'A' ? this.getAttribute('href') : null);
+        
+        if (customUrl && customUrl !== '#' && customUrl !== 'javascript:void(0)') {
+          console.log('MockApp: Navigating to custom URL:', customUrl);
+          window.location.href = customUrl;
+        } else if (document.referrer && document.referrer.includes(window.location.hostname)) {
+          // Go back in history if came from same site
+          console.log('MockApp: Going back in history');
+          window.history.back();
+        } else {
+          // Default fallback to home
+          console.log('MockApp: Navigating to home');
+          window.location.href = '/';
+        }
       });
+      
+      // Ensure the button is visible and clickable
+      newBackBtn.style.pointerEvents = 'auto';
+      newBackBtn.style.cursor = 'pointer';
+      
+      console.log('MockApp: ✅ Back button listener attached successfully');
     } else {
-      console.warn('MockApp: #backBtn not found');
+      console.warn('MockApp: ⚠️ No back button found in DOM');
+      
+      // Auto-create a back button if there's a header
+      const header = document.querySelector('header') || 
+                    document.querySelector('.header') ||
+                    document.querySelector('nav');
+                    
+      if (header) {
+        console.log('MockApp: Auto-creating back button in header');
+        
+        const autoBtn = document.createElement('button');
+        autoBtn.id = 'backBtn';
+        autoBtn.className = 'back-btn';
+        autoBtn.innerHTML = '← ফিরে যান';
+        autoBtn.setAttribute('aria-label', 'পিছনে ফিরে যান');
+        autoBtn.style.cssText = 'cursor:pointer;padding:8px 16px;margin-right:10px;';
+        
+        autoBtn.addEventListener('click', function() {
+          if (document.referrer && document.referrer.includes(window.location.hostname)) {
+            window.history.back();
+          } else {
+            window.location.href = '/';
+          }
+        });
+        
+        header.insertBefore(autoBtn, header.firstChild);
+        console.log('MockApp: ✅ Auto-created back button');
+      } else {
+        console.error('MockApp: ❌ No header found to create back button');
+      }
     }
   }
 
