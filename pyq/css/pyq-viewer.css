@@ -300,115 +300,6 @@
   margin: 0;
 }
 
-/* Filter toggle button */
-.filter-toggle-btn {
-  background: transparent;
-  border: 1px solid var(--clr-border);
-  border-radius: var(--radius-sm);
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: var(--clr-text-secondary);
-  transition: all var(--transition);
-}
-
-.filter-toggle-btn:hover,
-.filter-toggle-btn.active {
-  background: var(--clr-primary-light);
-  color: var(--clr-primary);
-  border-color: var(--clr-primary);
-}
-
-/* Filter panel */
-.filter-panel {
-  margin-top: 0.25rem;
-  background: #f8fafc;
-  border: 1px solid var(--clr-border);
-  border-radius: var(--radius-md);
-  padding: 0.75rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.filter-section__title {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-weight: 700;
-  color: var(--clr-text-muted);
-  margin: 0 0 0.25rem;
-}
-
-.filter-checkbox-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.filter-checkbox {
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-size: 0.725rem;
-  background: var(--clr-surface);
-  padding: 0.3rem 0.7rem;
-  border-radius: var(--radius-full);
-  border: 1px solid var(--clr-border);
-  cursor: pointer;
-  transition: all var(--transition);
-  white-space: nowrap;
-}
-
-.filter-checkbox:hover {
-  border-color: var(--clr-primary);
-  background: var(--clr-primary-light);
-}
-
-.filter-checkbox input[type="checkbox"] {
-  margin: 0;
-  accent-color: var(--clr-primary);
-}
-
-.filter-actions {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.btn-filter-apply,
-.btn-filter-reset {
-  flex: 1;
-  font-size: 0.7rem;
-  padding: 0.4rem;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--clr-border);
-  cursor: pointer;
-  font-weight: 600;
-  transition: all var(--transition);
-  text-align: center;
-}
-
-.btn-filter-apply {
-  background: var(--clr-primary);
-  color: white;
-  border-color: var(--clr-primary);
-}
-
-.btn-filter-apply:hover {
-  background: var(--clr-primary-hover);
-}
-
-.btn-filter-reset {
-  background: #f1f5f9;
-}
-
-.btn-filter-reset:hover {
-  background: var(--clr-border);
-}
-
 /* Palette stats */
 .palette-stats {
   display: flex;
@@ -477,6 +368,7 @@
   justify-content: center;
   line-height: 1;
   padding: 0;
+  position: relative;
 }
 
 .palette-btn:hover {
@@ -519,7 +411,7 @@
 }
 
 .palette-btn[data-state="review"]::after {
-  content: "🔖";          /* bookmark icon */
+  content: "🔖";
   position: absolute;
   top: -4px;
   right: -4px;
@@ -1038,14 +930,12 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-/* Star icon inside the button */
 .btn-mark-review svg {
   transition: transform 0.2s, fill 0.2s, stroke 0.2s;
   fill: none;
   stroke: currentColor;
 }
 
-/* Hover / focus */
 .btn-mark-review:hover {
   background: #fff7ed;
   border-color: var(--clr-warning-hover);
@@ -1058,7 +948,6 @@
   transform: rotate(-5deg) scale(1.1);
 }
 
-/* Pressed (active) state – when question is marked */
 .btn-mark-review[aria-pressed="true"] {
   background: linear-gradient(135deg, #f59e0b, #f97316);
   border-color: #f97316;
@@ -1073,7 +962,6 @@
   transform: rotate(0deg) scale(1);
 }
 
-/* Click feedback */
 .btn-mark-review:active {
   transform: scale(0.97);
 }
@@ -1082,17 +970,6 @@
   0% { transform: scale(1); }
   50% { transform: scale(1.08); }
   100% { transform: scale(1); }
-}
-
-.btn-mark-review:hover,
-.btn-mark-review[aria-pressed="true"] {
-  background: var(--clr-warning-light);
-  border-color: var(--clr-warning-hover);
-}
-
-.btn-mark-review[aria-pressed="true"] {
-  background: var(--clr-warning);
-  color: white;
 }
 
 .btn-clear-answer {
@@ -1401,6 +1278,133 @@
 .mobile-palette-footer {
   padding: 1rem 1.5rem;
   border-top: 1px solid #f1f5f9;
+}
+
+/* ─────────────────────────────────────────
+   GLOBAL FILTER OVERLAY
+───────────────────────────────────────── */
+.filter-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15,23,42,0.5);
+  backdrop-filter: blur(6px);
+  z-index: 350;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fade-in 0.2s ease;
+}
+
+.filter-panel-global {
+  background: var(--clr-surface);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: var(--clr-shadow-lg);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.filter-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.filter-panel-header h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.filter-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--clr-text-secondary);
+  cursor: pointer;
+}
+
+.filter-section {
+  margin-bottom: 1.25rem;
+}
+
+.filter-section__title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--clr-text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.filter-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  background: var(--clr-surface);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--clr-border);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filter-checkbox:hover {
+  border-color: var(--clr-primary);
+  background: var(--clr-primary-light);
+}
+
+.filter-checkbox input[type="checkbox"] {
+  margin: 0;
+  accent-color: var(--clr-primary);
+}
+
+.filter-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.btn-filter-apply,
+.btn-filter-reset {
+  flex: 1;
+  padding: 0.65rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.btn-filter-apply {
+  background: var(--clr-primary);
+  color: white;
+}
+
+.btn-filter-apply:hover {
+  background: var(--clr-primary-hover);
+}
+
+.btn-filter-reset {
+  background: white;
+  border-color: var(--clr-border);
+  color: var(--clr-text-secondary);
+}
+
+.btn-filter-reset:hover {
+  background: #f1f5f9;
 }
 
 /* ─────────────────────────────────────────
@@ -1821,6 +1825,7 @@
   .viewer-icon-btn,
   .mobile-palette-overlay,
   .modal-overlay,
+  .filter-overlay,
   #palette-toggle-btn {
     display: none !important;
   }

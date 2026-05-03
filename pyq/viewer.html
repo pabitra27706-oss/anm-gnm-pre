@@ -33,6 +33,11 @@
       </div>
 
       <div class="viewer-header__actions">
+        <!-- Filter toggle button (always visible) -->
+        <button class="viewer-icon-btn" id="filter-toggle-btn" onclick="PYQLoader.toggleFilter()" aria-label="Filter questions" title="Filter questions">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+        </button>
+
         <!-- Mode selector -->
         <select id="mode-selector" class="mode-selector" aria-label="Mode" onchange="PYQLoader.changeMode(this.value)">
           <option value="exam">Exam</option>
@@ -41,7 +46,7 @@
         </select>
 
         <!-- Timer -->
-        <div class="viewer-timer" id="timer-display" aria-live="polite">
+        <div class="viewer-timer" id="timer-display" aria-live="polite" aria-label="Time remaining">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           <span id="timer-text">90:00</span>
         </div>
@@ -62,28 +67,6 @@
       <div class="palette-header">
         <div class="palette-header__top">
           <h2 class="palette-title">Question Palette</h2>
-          <button id="filter-toggle-btn" class="filter-toggle-btn" onclick="PYQLoader.toggleFilter()" aria-label="Toggle filter" title="Filter questions">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
-          </button>
-        </div>
-
-        <!-- Filter panel -->
-        <div class="filter-panel hidden" id="filter-panel">
-          <div class="filter-section">
-            <h4 class="filter-section__title">Subject</h4>
-            <div id="filter-subjects" class="filter-checkbox-group"></div>
-          </div>
-          <div class="filter-section">
-            <h4 class="filter-section__title">Category</h4>
-            <div class="filter-checkbox-group">
-              <label class="filter-checkbox"><input type="checkbox" data-cat="1" checked> Cat-1</label>
-              <label class="filter-checkbox"><input type="checkbox" data-cat="2" checked> Cat-2</label>
-            </div>
-          </div>
-          <div class="filter-actions">
-            <button class="btn-filter-apply" onclick="PYQLoader.applyFilter()">Apply</button>
-            <button class="btn-filter-reset" onclick="PYQLoader.resetFilter()">Reset</button>
-          </div>
         </div>
 
         <!-- Stats -->
@@ -225,6 +208,31 @@
       <div class="mobile-palette-body" id="mobile-palette-body"></div>
       <div class="mobile-palette-footer">
         <button class="palette-submit-btn" onclick="PYQScorer.confirmSubmit()">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GLOBAL FILTER OVERLAY -->
+  <div class="filter-overlay hidden" id="filter-overlay" role="dialog" aria-modal="true">
+    <div class="filter-panel-global">
+      <div class="filter-panel-header">
+        <h3>Filter Questions</h3>
+        <button class="filter-close-btn" onclick="PYQLoader.toggleFilter()">&times;</button>
+      </div>
+      <div class="filter-section">
+        <h4 class="filter-section__title">Subject</h4>
+        <div id="filter-subjects" class="filter-checkbox-group"></div>
+      </div>
+      <div class="filter-section">
+        <h4 class="filter-section__title">Category</h4>
+        <div class="filter-checkbox-group">
+          <label class="filter-checkbox"><input type="checkbox" data-cat="1" checked> Cat-1</label>
+          <label class="filter-checkbox"><input type="checkbox" data-cat="2" checked> Cat-2</label>
+        </div>
+      </div>
+      <div class="filter-actions">
+        <button class="btn-filter-apply" onclick="PYQLoader.applyFilter()">Apply</button>
+        <button class="btn-filter-reset" onclick="PYQLoader.resetFilter()">Reset</button>
       </div>
     </div>
   </div>
